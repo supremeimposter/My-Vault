@@ -1,5 +1,5 @@
 - Logic for mathematicians and computers
-- Computers cannot have ambiguity
+- Natural Languages have ambiguity, but computers cannot have ambiguity
 - Logic is the basis for mathematical reasoning and automated systems
 
 

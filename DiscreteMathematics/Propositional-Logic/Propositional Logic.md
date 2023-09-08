@@ -24,7 +24,8 @@ Questions such as "the given sentence is proposition or not" will never be asked
 
 ## Propositional Variables
 
-A propositional variables holds a proposition and evaluates to either true or false.
+- A propositional variables holds a proposition and evaluates to either true or false.
+- There are only two truth values : True, False
 
 ## Types of Proposition
 
@@ -33,4 +34,7 @@ A propositional variables holds a proposition and evaluates to either true or fa
 
 ![[Pasted image 20230907230823.png]]
 
-## [[Logical Connectives]]
+## ![[Logical Connectives]]
+## Truth Table
+
+- Truth table tells whether a compound statement is true or false

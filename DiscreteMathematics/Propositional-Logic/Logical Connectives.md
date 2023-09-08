@@ -1,7 +1,8 @@
+These logical connectives avoid the ambiguity the natural languages pose.
 
-1. [[Negation ~]]
-2. [[AND]]
-3. [[OR]]
+1. [[Negation]]
+2. [[AND (Conjunction)]]
+3. [[OR (Disjunction)]]
 4. [[EX-OR]]
 5. [[Implication]]
 6. [[Bi Implication]]
