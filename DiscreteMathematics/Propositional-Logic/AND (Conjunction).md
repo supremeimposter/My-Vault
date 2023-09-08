@@ -24,6 +24,7 @@
 	8. though 
 	9. although
 	10. but
+	11. comma (,)
 	But all of these words are not the same in the English language
 
 
