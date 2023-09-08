@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d66b188b36304fa8",
+        "id": "bfaa64ed92eb995b",
         "type": "tabs",
         "children": [
           {
-            "id": "0ca0a498712a23d7",
+            "id": "943841c72f4a208a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/AND (Conjunction).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -95,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/AND (Conjunction).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/AND (Conjunction).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/AND (Conjunction).md"
-              }
+              "state": {}
             }
           },
           {
@@ -163,7 +154,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -188,14 +180,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0ca0a498712a23d7",
+  "active": "7f54bf65a60d7e33",
   "lastOpenFiles": [
+    "DiscreteMathematics/Propositional-Logic/AND (Conjunction).md",
     "DiscreteMathematics/Propositional-Logic/Pasted image 20230908183642.png.md",
     "DiscreteMathematics/Mathematical Logic.md",
     "DiscreteMathematics/Propositional-Logic/EX-OR.md",
     "DiscreteMathematics/Discrete Mathematics.md",
     "DiscreteMathematics/Propositional-Logic/Implication.md",
-    "DiscreteMathematics/Propositional-Logic/AND (Conjunction).md",
     "DiscreteMathematics/Propositional-Logic/Necessary vs Sufficient.md",
     "DiscreteMathematics/Propositional-Logic/OR (Disjunction).md",
     "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
