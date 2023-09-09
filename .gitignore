@@ -1,2 +1,4 @@
 *.xopp
 attachments/
+
+.obsidian/workspace.json
