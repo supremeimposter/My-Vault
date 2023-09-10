@@ -4,18 +4,76 @@
     "type": "split",
     "children": [
       {
-        "id": "bfaa64ed92eb995b",
+        "id": "0bd428b677fae4b2",
         "type": "tabs",
         "children": [
           {
-            "id": "943841c72f4a208a",
+            "id": "6f3a28c7c9e3cedf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "39ff830799ea8ccd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4cca8135d2d2da92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Propositional-Logic/Implication.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "36080951fd40bd4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Propositional-Logic/Necessary vs Sufficient.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e62aeb68967e1b51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Propositional-Logic/Bi-Implication.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,6 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DiscreteMathematics/Propositional-Logic/Implication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DiscreteMathematics/Propositional-Logic/Implication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +187,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DiscreteMathematics/Propositional-Logic/Implication.md"
+              }
             }
           },
           {
@@ -180,31 +242,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7f54bf65a60d7e33",
+  "active": "4cca8135d2d2da92",
   "lastOpenFiles": [
+    "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
     "DiscreteMathematics/Propositional-Logic/AND (Conjunction).md",
+    "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
+    "DiscreteMathematics/Propositional-Logic/Implication.md",
+    "DiscreteMathematics/Propositional-Logic/Necessary vs Sufficient.md",
+    "DiscreteMathematics/Propositional-Logic/Bi-Implication.md",
+    "attachments/Pasted image 20230910081604.png",
+    "attachments/Pasted image 20230910081522.png",
+    "attachments/Pasted image 20230910081343.png",
+    "attachments/Pasted image 20230910080255.png",
+    "attachments/Pasted image 20230910080228.png",
+    "attachments/Pasted image 20230910074838.png",
+    "attachments/Pasted image 20230910074809.png",
+    "attachments/Pasted image 20230909185344.png",
+    "attachments/Pasted image 20230909184815.png",
+    "attachments/Pasted image 20230909184755.png",
+    "DiscreteMathematics/Propositional-Logic/[Implication.md",
     "DiscreteMathematics/Propositional-Logic/Pasted image 20230908183642.png.md",
     "DiscreteMathematics/Mathematical Logic.md",
     "DiscreteMathematics/Propositional-Logic/EX-OR.md",
     "DiscreteMathematics/Discrete Mathematics.md",
-    "DiscreteMathematics/Propositional-Logic/Implication.md",
-    "DiscreteMathematics/Propositional-Logic/Necessary vs Sufficient.md",
     "DiscreteMathematics/Propositional-Logic/OR (Disjunction).md",
-    "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
     "DiscreteMathematics/Propositional-Logic/Negation.md",
-    "attachments/Pasted image 20230908190233.png",
-    "attachments/Pasted image 20230908183932.png",
-    "attachments/Pasted image 20230908183827.png",
-    "attachments/Pasted image 20230908183642.png",
     "DiscreteMathematics/Propositional-Logic/NOR.md",
     "DiscreteMathematics/Propositional-Logic/NAND.md",
-    "attachments/Pasted image 20230908142453.png",
-    "attachments/Pasted image 20230908141938.png",
-    "attachments/Pasted image 20230908141554.png",
-    "attachments/Pasted image 20230908141502.png",
-    "attachments/Pasted image 20230908141127.png",
-    "attachments/Pasted image 20230908141113.png",
-    "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
     "DiscreteMathematics/Propositional-Logic/Propositional Variables.md",
     "DiscreteMathematics/Propositional Logic.md",
     "Discrete Mathematics.md",
