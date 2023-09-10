@@ -1,10 +1,21 @@
-
 - Conditionals are claims or contracts.
-
-- $P \rightarrow Q$  and $Q \leftarrow P$  are the same
-- But $P \rightarrow Q$ is not same as $Q \rightarrow P$
-
+- Implications are one-way statements and they are properties.
+$$
+P \rightarrow Q = Q \leftarrow P
+$$
+- Q is a property of P. P satisfies Q.
 - P is LHS and Q is RHS of implication
+$$
+P \rightarrow Q \neq Q \rightarrow P
+$$
+- Implication is NOT commutative.
+
+| p   | q   | p $\to$ q |
+| --- | --- | --------- |
+| T   | T   | T         |
+| T   | F   | F         |
+| F   | T   | T         |
+| F   | F   | T         |
 
 ![[Necessary vs Sufficient]]
 
@@ -14,30 +25,24 @@ p is also called antecedent, premise, hypothesis.
 q is also called consequence, conclusion.
 ```
 
+### When the claim is false?
 - The claim is false only when the condition is satisfied and the consequence is not achieved.
+	- P is true and Q is false
+
+### When the claim is true?
 - The claim is true when the consequence is achieved on a satisfied condition.
+	- P is true and Q is true
 - If the condition is not satisfied, it doesn't matter whether the consequence is achieved or not. The claim still stands true.
+	- P is true or false, then Q is true
+- The claim is true whenever P is false or Q is true
 
-| p   | q   | p $\to$ q |
-| --- | --- | --------- |
-| T   | T   | T         |
-| T   | F   | F         |
-| F   | T   | T         |
-| F   | F   | T         |
-
-```ad-note
-The claim is false only when the consequence is not achieved even the condition is true.
-The claim is never false when the condition does not succeed.
+```ad-seealso
+if == when == whenever == provided that == given that
 ```
 
-- All of these English words translate to Implication in logic
-	1. If
-	2. When
-	3. Whenever
-	4. Provided that 
-	5. Given that
-	- All of the above words are same as **if**
 ### Examples
+
+^22cc0d
 
 1. If x is odd, then x is prime 
 	- This evaluates to false, since there is some x which is odd, but not prime.
@@ -45,6 +50,21 @@ The claim is never false when the condition does not succeed.
 2. If x is prime, then x is odd
 	- This also evaluates to false, since there is some x which is prime, but not odd.
 	- 2 is prime, but not odd.
+
+
+## Equivalent forms of "If P, then Q"
+![[Pasted image 20230909100505.png]]
+
+- P only if Q => $P \rightarrow Q$
+	- P happens only if Q happens.
+	- It can be rewritten as "Only if Q, P"
+	- Q is necessary for P or P is sufficient for Q
+- P if Q => $Q  \rightarrow P$
+	- It can be rewritten as "If Q, P"
+	- Q is sufficient for P or P is necessary for Q
+
+![[Pasted image 20230909100712.png]]
+![[Pasted image 20230909100723.png]]
 
 ## Diagrammatic representation of Implication (Not required)
 
@@ -54,3 +74,6 @@ The claim is never false when the condition does not succeed.
 - When p $\to$ q is false
 ![[Pasted image 20230908183932.png]]
 
+```ad-summary
+![[Pasted image 20230910081522.png]]
+```

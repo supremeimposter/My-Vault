@@ -6,7 +6,7 @@
 ```ad-important
 - When a sentence has a variable it can NEVER be a proposition
 
-For example: "Let 2x = 3 + 3x" cannot be a proposition, because the truth value depends on the variable x. But when a compound proposition has variable x in both atomic proposition, then it is a proposition.
+For example: "Let 2x = 3 + 3x" cannot be a proposition, because the truth value depends on the variable x. But when a compound proposition has variable x in both atomic proposition, then it is a proposition. [[Implication#^22cc0d]]
 - When a sentence is *self-contradictory paradox*, it is NOT a proposition.
 ![[Pasted image 20230907225601.png]]
 
@@ -22,7 +22,7 @@ For example: "Let 2x = 3 + 3x" cannot be a proposition, because the truth value 
 ![[Pasted image 20230908190233.png]]
 
 ```ad-attention
-"2 + 3" is also NOT a proposition, because it does not stating any fact
+"2 + 3" is also NOT a proposition, because it is not stating any fact
 ```
 
 ```ad-warning

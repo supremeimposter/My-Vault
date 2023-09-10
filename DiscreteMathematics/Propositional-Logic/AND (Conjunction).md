@@ -1,11 +1,12 @@
 ![[Pasted image 20230908140740.png]]
 - Both propositions has to be true, for the compound proposition to be true.
-- It is a binary connective
+- It is a binary connective.
+- Conjunction is commutative.
 ## Symbols
 ![[Pasted image 20230908141502.png]]
 
 
-| p   | q   | p and q |
+| p   | q   | p $\wedge$ q |
 | --- | --- | ------- |
 | F   | F   | F       |
 | F   | T   | F       |
