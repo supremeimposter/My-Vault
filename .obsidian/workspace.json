@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0bd428b677fae4b2",
+        "id": "fa0c8801d3579a45",
         "type": "tabs",
         "children": [
           {
-            "id": "6f3a28c7c9e3cedf",
+            "id": "b6ec6e10f5f4e5b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "39ff830799ea8ccd",
+            "id": "b48020da40734a4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,7 +34,20 @@
             }
           },
           {
-            "id": "4cca8135d2d2da92",
+            "id": "8f34dfefde4b1899",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Propositional-Logic/EX-OR.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf4f25027adf3c44",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,35 +58,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "36080951fd40bd4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Necessary vs Sufficient.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e62aeb68967e1b51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Bi-Implication.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Implication.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Implication.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Implication.md"
+                "file": "DiscreteMathematics/Propositional-Logic/Logical Connectives.md"
               }
             }
           },
@@ -242,28 +229,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4cca8135d2d2da92",
+  "active": "b48020da40734a4c",
   "lastOpenFiles": [
-    "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
-    "DiscreteMathematics/Propositional-Logic/AND (Conjunction).md",
+    "attachments/Pasted image 20230911134932.png",
+    "attachments/Pasted image 20230911134919.png",
     "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
+    "attachments/Pasted image 20230911134824.png",
+    "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
+    "attachments/Pasted image 20230911134711.png",
+    "attachments/Pasted image 20230911134702.png",
+    "attachments/Pasted image 20230911134655.png",
+    "attachments/Pasted image 20230911134613.png",
+    "DiscreteMathematics/Propositional-Logic/EX-OR.md",
     "DiscreteMathematics/Propositional-Logic/Implication.md",
+    "C/Binary and 2'complements/Signed and Unsigned.md",
+    "C/Binary and 2'complements/2's complement.md",
+    "C/Binary and 2'complements/Extension and Truncation.md",
+    "attachments/Pasted image 20230910222412.png",
+    "attachments/Pasted image 20230910221428.png",
+    "attachments/Pasted image 20230910220835.png",
+    "attachments/Pasted image 20230910220822.png",
+    "C/Binary and 2'complements/Decimal and Binary.md",
+    "C/C.md",
+    "C/Decimal to Binary.md",
+    "C/Binary and 2'complements",
+    "C",
+    "DiscreteMathematics/Propositional-Logic/AND (Conjunction).md",
     "DiscreteMathematics/Propositional-Logic/Necessary vs Sufficient.md",
     "DiscreteMathematics/Propositional-Logic/Bi-Implication.md",
-    "attachments/Pasted image 20230910081604.png",
-    "attachments/Pasted image 20230910081522.png",
-    "attachments/Pasted image 20230910081343.png",
-    "attachments/Pasted image 20230910080255.png",
-    "attachments/Pasted image 20230910080228.png",
-    "attachments/Pasted image 20230910074838.png",
-    "attachments/Pasted image 20230910074809.png",
-    "attachments/Pasted image 20230909185344.png",
-    "attachments/Pasted image 20230909184815.png",
-    "attachments/Pasted image 20230909184755.png",
     "DiscreteMathematics/Propositional-Logic/[Implication.md",
     "DiscreteMathematics/Propositional-Logic/Pasted image 20230908183642.png.md",
     "DiscreteMathematics/Mathematical Logic.md",
-    "DiscreteMathematics/Propositional-Logic/EX-OR.md",
     "DiscreteMathematics/Discrete Mathematics.md",
     "DiscreteMathematics/Propositional-Logic/OR (Disjunction).md",
     "DiscreteMathematics/Propositional-Logic/Negation.md",
