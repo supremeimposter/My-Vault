@@ -21,25 +21,25 @@
             }
           },
           {
-            "id": "b48020da40734a4c",
+            "id": "0f162b9d16f05210",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
-                "mode": "source",
+                "file": "DiscreteMathematics/Propositional-Logic/Classes of Propositional Expressions.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "8f34dfefde4b1899",
+            "id": "b48020da40734a4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/EX-OR.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Classes of Propositional Expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Classes of Propositional Expressions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Logical Connectives.md"
+                "file": "DiscreteMathematics/Propositional-Logic/Classes of Propositional Expressions.md"
               }
             }
           },
@@ -229,47 +229,47 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b48020da40734a4c",
+  "active": "0f162b9d16f05210",
   "lastOpenFiles": [
-    "attachments/Pasted image 20230911134932.png",
-    "attachments/Pasted image 20230911134919.png",
+    "attachments/Pasted image 20230911225806.png",
+    "attachments/Pasted image 20230911222230.png",
+    "attachments/Pasted image 20230911221656.png",
+    "attachments/Pasted image 20230911221641.png",
+    "attachments/Pasted image 20230911221244.png",
+    "attachments/Pasted image 20230911221204.png",
+    "attachments/Pasted image 20230911220150.png",
+    "attachments/Pasted image 20230911220058.png",
     "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
-    "attachments/Pasted image 20230911134824.png",
+    "DiscreteMathematics/Propositional-Logic/NOR.md",
+    "attachments/Pasted image 20230911220005.png",
+    "DiscreteMathematics/Propositional-Logic/NAND.md",
+    "attachments/Pasted image 20230911215937.png",
+    "DiscreteMathematics/Propositional-Logic/OR (Disjunction).md",
+    "attachments/Pasted image 20230911215856.png",
+    "DiscreteMathematics/Propositional-Logic/AND (Conjunction).md",
     "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
-    "attachments/Pasted image 20230911134711.png",
-    "attachments/Pasted image 20230911134702.png",
-    "attachments/Pasted image 20230911134655.png",
-    "attachments/Pasted image 20230911134613.png",
     "DiscreteMathematics/Propositional-Logic/EX-OR.md",
+    "DiscreteMathematics/Propositional-Logic/Classes of Propositional Expressions.md",
     "DiscreteMathematics/Propositional-Logic/Implication.md",
     "C/Binary and 2'complements/Signed and Unsigned.md",
     "C/Binary and 2'complements/2's complement.md",
     "C/Binary and 2'complements/Extension and Truncation.md",
-    "attachments/Pasted image 20230910222412.png",
-    "attachments/Pasted image 20230910221428.png",
-    "attachments/Pasted image 20230910220835.png",
-    "attachments/Pasted image 20230910220822.png",
     "C/Binary and 2'complements/Decimal and Binary.md",
     "C/C.md",
     "C/Decimal to Binary.md",
     "C/Binary and 2'complements",
     "C",
-    "DiscreteMathematics/Propositional-Logic/AND (Conjunction).md",
     "DiscreteMathematics/Propositional-Logic/Necessary vs Sufficient.md",
     "DiscreteMathematics/Propositional-Logic/Bi-Implication.md",
     "DiscreteMathematics/Propositional-Logic/[Implication.md",
     "DiscreteMathematics/Propositional-Logic/Pasted image 20230908183642.png.md",
     "DiscreteMathematics/Mathematical Logic.md",
     "DiscreteMathematics/Discrete Mathematics.md",
-    "DiscreteMathematics/Propositional-Logic/OR (Disjunction).md",
     "DiscreteMathematics/Propositional-Logic/Negation.md",
-    "DiscreteMathematics/Propositional-Logic/NOR.md",
-    "DiscreteMathematics/Propositional-Logic/NAND.md",
     "DiscreteMathematics/Propositional-Logic/Propositional Variables.md",
     "DiscreteMathematics/Propositional Logic.md",
     "Discrete Mathematics.md",
     "DiscreteMathematics/Propositional-Logic",
-    "Mathematical Logic.md",
     "Propositional-Logic",
     "DiscreteMathematics",
     "attachments"

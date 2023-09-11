@@ -7,3 +7,6 @@
 | F   | T   | F              |
 | F   | F   | T               |
 
+## Analysis of NOR
+
+![[Pasted image 20230911220005.png]]

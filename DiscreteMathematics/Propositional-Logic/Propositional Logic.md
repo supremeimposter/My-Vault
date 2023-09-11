@@ -49,3 +49,6 @@ Questions such as "the given sentence is proposition or not" will never be asked
 - The order of the combinations does not matter. But a standard order of binary numbers can be followed to avoid confusion in which 0 means False and 1 means True.
 
 ![[Pasted image 20230911134824.png]]
+
+
+## ![[Classes of Propositional Expressions]]

@@ -9,3 +9,7 @@
 | T   | F   | T            |
 | T   | T   | F             |
 
+
+## Analysis of EX-OR
+
+![[Pasted image 20230911215729.png]]

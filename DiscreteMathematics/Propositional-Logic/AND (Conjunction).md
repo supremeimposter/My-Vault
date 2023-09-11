@@ -35,3 +35,7 @@
 	![[Pasted image 20230908141113.png]]
 	![[Pasted image 20230908141127.png]]
 
+
+## Analysis of Conjunction
+
+![[Pasted image 20230911215813.png]]

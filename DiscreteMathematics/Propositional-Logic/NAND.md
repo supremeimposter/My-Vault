@@ -7,3 +7,6 @@
 | F   | T   | T              |
 | F   | F   | F               |
 
+## Analysis of NAND
+
+![[Pasted image 20230911215937.png]]

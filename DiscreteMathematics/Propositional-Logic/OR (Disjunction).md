@@ -17,3 +17,7 @@
 or = unless = inclusive OR
 ```
 
+
+## Analysis of Dis-junction
+
+![[Pasted image 20230911215856.png]]
