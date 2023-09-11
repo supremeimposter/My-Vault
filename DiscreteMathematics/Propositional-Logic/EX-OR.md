@@ -1,5 +1,6 @@
 ![[Pasted image 20230908142453.png]]
 - Only one proposition can be true (exclusively true), both cannot be true.
+- It is also called Exclusive dis-junction.
 
 | p   | q   | p $\oplus$ q |
 | --- | --- | ------------ |

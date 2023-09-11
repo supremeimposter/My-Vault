@@ -44,4 +44,8 @@ Questions such as "the given sentence is proposition or not" will never be asked
 ## ![[Logical Connectives]]
 ## Truth Table
 
-- Truth table tells whether a compound statement is true or false
+- Truth table tells whether a compound statement is true or false.
+- For 'n' propositional variables, there are $2^n$ truth value combinations. 
+- The order of the combinations does not matter. But a standard order of binary numbers can be followed to avoid confusion in which 0 means False and 1 means True.
+
+![[Pasted image 20230911134824.png]]

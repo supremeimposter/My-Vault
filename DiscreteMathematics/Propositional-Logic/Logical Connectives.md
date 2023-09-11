@@ -10,10 +10,16 @@ These logical connectives avoid the ambiguity that the natural languages pose.
 8. [[NOR]]
 
 
-```ad-tip
-#### Priority
-$\sim$ < $\wedge$ < $\vee$ < $\rightarrow$ < $\leftrightarrow$ 
-```
+
+## Priority of Logical Connectives
+> $\sim$ < $\wedge$ < $\vee$ < $\rightarrow$ < $\leftrightarrow$ 
+
+- For remaining connectives, proper paranthesization must be given in the question.
+- The associativity of implication is author dependent, so the paranthesis must be given in case of multiple implications.
+
+![[Pasted image 20230911134919.png]]
+![[Pasted image 20230911134932.png]]
+- P -> Q -> R can be interpreted as either (P -> Q) -> R or P -> (Q -> R).
 
 ### Examples
 
@@ -22,4 +28,8 @@ $\sim$ < $\wedge$ < $\vee$ < $\rightarrow$ < $\leftrightarrow$
 	Q: "Jill passed Math"
 	$\neg$(P$\wedge$Q)$\rightarrow$ Q : "If at least one of them fail, then Jill pass math."
 
+2. 
+ ![[Pasted image 20230911134613.png]]
 
+3.
+	![[Pasted image 20230911134711.png]]
