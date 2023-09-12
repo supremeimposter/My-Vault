@@ -9,6 +9,7 @@
 ```
 
 - By default, the data types are signed in C.
+- In signed numbers, all the leading 1's can be ignored and only one 1 can be taken with the negative weight to get the original number.
 
 ## Maximum and Minimum values of Signed and Unsigned
 
@@ -23,10 +24,9 @@
 ## %d and %u specifier
 
 ```ad-note
-**%d** – always takes the negative weight of the MS bit.
-**%u** – always takes the positive weight of the MS bit.
-
-- Negative numbers cannot be represented in unsigned forms (%u).
+**%d** – always takes the **negative weight** of the MS bit.
+**%u** – always takes the **positive weight** of the MS bit.
+- Negative numbers cannot be represented in unsigned forms (**%u**).
 - Both do not care about the type of data (unsigned or signed), they care only about the **bit pattern**.
 ```
 
