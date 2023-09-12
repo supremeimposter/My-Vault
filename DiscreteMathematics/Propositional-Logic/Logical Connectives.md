@@ -9,8 +9,6 @@ These logical connectives avoid the ambiguity that the natural languages pose.
 7. [[NAND]]
 8. [[NOR]]
 
-
-
 ## Priority of Logical Connectives
 > $\sim$ < $\wedge$ < $\vee$ < $\rightarrow$ < $\leftrightarrow$ 
 

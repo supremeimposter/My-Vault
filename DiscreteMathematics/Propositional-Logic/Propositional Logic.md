@@ -22,7 +22,7 @@ For example: "Let 2x = 3 + 3x" cannot be a proposition, because the truth value 
 ![[Pasted image 20230908190233.png]]
 
 ```ad-attention
-"2 + 3" is also NOT a proposition, because it is not stating any fact
+"2 + 3", "Grass" are NOT propositions, because they do not state any fact
 ```
 
 ```ad-warning
@@ -41,7 +41,6 @@ Questions such as "the given sentence is proposition or not" will never be asked
 
 ![[Pasted image 20230907230823.png]]
 
-## ![[Logical Connectives]]
 ## Truth Table
 
 - Truth table tells whether a compound statement is true or false.
@@ -50,5 +49,9 @@ Questions such as "the given sentence is proposition or not" will never be asked
 
 ![[Pasted image 20230911134824.png]]
 
-
-## ![[Classes of Propositional Expressions]]
+- [[Logical Connectives]]
+- [[Classes of Propositional Expressions]]
+- [[Logical Equivalence]]
+	- [[Important Logical Equivalences]]
+- [[Analysis of Propositions]]
+- [[Satisfiable and Falsifiable]]
