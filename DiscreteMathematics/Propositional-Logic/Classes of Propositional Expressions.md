@@ -13,15 +13,39 @@ In compound propositions, there are three classes of propositions
 ![[Pasted image 20230911170304.png]]
 ![[Pasted image 20230911170319.png]]
 
+## Tautology verification
+### Method 1 - Truth table
+- Construct truth table and verify if all the values are True.
+
+### Method 2 - By-case 
+- If both cases are True, then the given proposition is a tautology.
+	![[Pasted image 20230912104202.png]]
+	- Case (a) and (b) are True for whatever values of P, then it means $\alpha$ is a tautology.
+![[Pasted image 20230912122838.png]]
+
+### Method 3 - Simplification
+- Usage of all the [[Important Logical Equivalences]].
+![[Pasted image 20230912122949.png]]
+
+### Method 4 - Implication 
+- This method is only for propositions with [[Implication]].
+- The only case when implication becomes false is when T $\rightarrow$ F and there are two approaches to verify whether this state is possible in the given proposition $\alpha$.
+1. Make the LHS of the implication true by adjusting the propositional variables (atomic propositions) accordingly. Now try to make the RHS of the implication false. If it doesn't become false, then the given proposition $\alpha$ is a tautology.
+2. Make the RHS of the implication false by adjusting the propositional variables (atomic propositions) in the RHS accordingly. Now try to make the LHS of the implication true. If it doesn't become true, then the given proposition is a tautology.
+![[Pasted image 20230912123724.png]]
+![[Pasted image 20230912123734.png]]
+
+
 ## Logical Equivalence $\Leftrightarrow$ or $\equiv$
 
 - If two (compound) propositions or expressions $\alpha$, $\beta$ have the same truth table or if they are equal for all cases, then they are logically equivalent.
 - If $\alpha$, $\beta$ are logically equivalent $\alpha \equiv \beta$, if and only if their $\alpha \leftrightarrow \beta$ is a tautology. But if they are not logically equivalent, then they are contradiction.
+- If $\alpha \leftrightarrow \beta$ is a tautology ($\alpha \equiv \beta$), then $\alpha \rightarrow \beta$ is a tautology and $\beta \rightarrow \alpha$ is a tautology.
 
 ![[Pasted image 20230911171033.png]]
 
 ![[Pasted image 20230911215146.png]]
-
+[[Important Logical Equivalences]]
 ## Analysis of Propositions
 
 ### Method 1
@@ -40,12 +64,6 @@ In compound propositions, there are three classes of propositions
 
 ![[Pasted image 20230911221204.png]]
 ![[Pasted image 20230911221244.png]]
-
-- Example 1
-![[Pasted image 20230911215445.png]]
-
-- Example 2
-![[Pasted image 20230911215610.png]]
 
 - Example 3
 	- When p is taken as the cases
