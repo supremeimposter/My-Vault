@@ -17,8 +17,6 @@ $$
 | F   | T   | T         |
 | F   | F   | T         |
 
-![[Necessary vs Sufficient]]
-
 - If P then Q, is a claim. (If condition, then consequence)
 ```ad-info
 p is also called antecedent, premise, hypothesis.
@@ -36,11 +34,13 @@ q is also called consequence, conclusion.
 	- P is true or false, then Q is true
 - The claim is true whenever P is false or Q is true
 
-```ad-seealso
-- if == when == whenever == provided that == given that
-- if not == unless
-```
+- Understanding of [[Necessary vs Sufficient]] is essential to understand the [[Equivalent forms of "If P, then Q"]].
 
+```ad-tip
+- if == when == whenever == provided that == given that
+- if not == [[unless]] == or
+```
+---
 ### Examples
 
 ^22cc0d
@@ -52,30 +52,7 @@ q is also called consequence, conclusion.
 	- This also evaluates to false, since there is some x which is prime, but not odd.
 	- 2 is prime, but not odd.
 
-
-## Equivalent forms of "If P, then Q"
-$$
-P \rightarrow Q
-$$
-
-![[Pasted image 20230909100505.png]]
-- For q, it is sufficient that p
-- For p, it is necessary that q
-- Whenever p, then also q
-- q, provided that p
-
-
-- P only if Q => $P \rightarrow Q$
-	- P happens only if Q happens.
-	- It can be rewritten as "Only if Q, P"
-	- Q is necessary for P or P is sufficient for Q
-- P if Q => $Q  \rightarrow P$
-	- It can be rewritten as "If Q, P"
-	- Q is sufficient for P or P is necessary for Q
-
-![[Pasted image 20230909100712.png]]
-![[Pasted image 20230909100723.png]]
-
+---
 ## Diagrammatic representation of Implication (Not required)
 
 - When p $\to$ q is true
