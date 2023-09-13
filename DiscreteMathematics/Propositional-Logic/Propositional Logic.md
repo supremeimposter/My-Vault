@@ -34,6 +34,7 @@ Questions such as "the given sentence is proposition or not" will never be asked
 ## Types of Proposition
 
 1. Atomic proposition : truth value does not depend on any other proposition. they can never be broken down into multiple propositions.
+	- $\top$ and $\bot$ are also Atomic propositions.
 
 2. Compound proposition : Multiple atomic propositions connected by logical connectives which can be decomposed (broken down) into multiple atomic propositions.
 
@@ -66,6 +67,10 @@ Atomic propositions are represented by Propositional variables but compound prop
 
 - Not a propositional formulae
 > P $\neg$, P Q $\wedge$ , $\vee$ Q, etc.
+
+```ad-question
+If F is a propositional formulae, then you are NOT sure whether F is a propositional variable or propositional expression i.e. atomic or compound proposition.
+```
 
 ## Literal 
 - A propositional variable or its complement is a literal.

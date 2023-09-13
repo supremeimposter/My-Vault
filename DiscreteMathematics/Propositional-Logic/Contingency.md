@@ -1,3 +1,4 @@
+- If P is a propositional variable, then P is necessarily a contingency. Since a propositional variable is either True or False.
 
 ## Contingency verification
 
