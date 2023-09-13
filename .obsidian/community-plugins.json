@@ -10,7 +10,6 @@
   "canvas-mindmap",
   "obsidian-plugin-toc",
   "obsidian-timeline",
-  "obsidian-activity-history",
   "obsidian-html-tags-autocomplete",
   "obsidian-map-view",
   "obsidian-mindmap-nextgen",
@@ -29,5 +28,6 @@
   "obsidian-latex-suite",
   "obsidian-table-generator",
   "oz-image-plugin",
-  "oz-clear-unused-images"
+  "oz-clear-unused-images",
+  "heatmap-calendar"
 ]
