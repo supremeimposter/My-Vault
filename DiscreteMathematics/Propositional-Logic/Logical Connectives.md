@@ -1,4 +1,5 @@
-These logical connectives avoid the ambiguity that the natural languages pose.
+- These logical connectives avoid the ambiguity that the natural languages pose.
+- When a logical connective is used, the propositions are not longer variables, they are propositional expression.
 
 1. [[Negation]]
 2. [[AND (Conjunction)]]

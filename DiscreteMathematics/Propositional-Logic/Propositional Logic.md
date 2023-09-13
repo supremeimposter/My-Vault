@@ -1,7 +1,9 @@
+- Propositional Logic is the collection or set of all Propositional Formulae.
 - A proposition cannot contain both true and false, it can only be either true or false but **never** both
 - Proposition is a declarative (assertive) statement which states a fact.
 - It doesn't matter where an assertive sentence is true or false. The only thing that matters is whether it is a proposition or not.
 - Interrogative, Exclamatory and Imperative sentences are **never** propositions.
+- True = $\top$ and False = $\bot$
 
 ```ad-important
 - When a sentence has a variable it can NEVER be a proposition
@@ -29,17 +31,50 @@ For example: "Let 2x = 3 + 3x" cannot be a proposition, because the truth value 
 Questions such as "the given sentence is proposition or not" will never be asked in any standard examinations such as GATE.
 ```
 
-## Propositional Variables
-
-- A propositional variables holds a proposition and evaluates to either true or false.
-- There are only two truth values : True, False
-
 ## Types of Proposition
 
 1. Atomic proposition : truth value does not depend on any other proposition. they can never be broken down into multiple propositions.
-2. Compound proposition : Multiple atomic propositions connected by logical connectives which can be decomposed (broken down) into multiple atomic propositions
+
+2. Compound proposition : Multiple atomic propositions connected by logical connectives which can be decomposed (broken down) into multiple atomic propositions.
+
 
 ![[Pasted image 20230907230823.png]]
+
+```ad-info
+- An atomic proposition is a propositional variable.
+- A compound proposition is a propositional expression or form.
+```
+
+## Propositional Variables
+
+- A propositional variables holds an atomic proposition and evaluates to either true or false.
+- There are only two truth values : True, False
+```ad-note
+Atomic propositions are represented by Propositional variables but compound propositions are not.
+```
+## Propositional Formula
+
+- Any **well formed propositions** are propositional formulae.
+- Every propositional variable (Atomic proposition) is a propositional formula.
+- True $\top$ and False $\bot$ are propositional formulae.
+- Propositional expressions (Compound proposition) is a propositional formula.
+
+### Examples
+
+- Propositional formulae
+> P, $\neg$ P, P $\wedge$ Q, P $\vee$ Q, etc.
+
+- Not a propositional formulae
+> P $\neg$, P Q $\wedge$ , $\vee$ Q, etc.
+
+## Literal 
+- A propositional variable or its complement is a literal.
+
+![[Pasted image 20230913080222.png]]
+
+```ad-summary
+- Every propositional variable is a propositional formula but not every propositional formula is a propositional variable.
+```
 
 ## Truth Table
 
