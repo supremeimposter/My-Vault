@@ -37,7 +37,8 @@ q is also called consequence, conclusion.
 - The claim is true whenever P is false or Q is true
 
 ```ad-seealso
-if == when == whenever == provided that == given that
+- if == when == whenever == provided that == given that
+- if not == unless
 ```
 
 ### Examples
@@ -53,7 +54,16 @@ if == when == whenever == provided that == given that
 
 
 ## Equivalent forms of "If P, then Q"
+$$
+P \rightarrow Q
+$$
+
 ![[Pasted image 20230909100505.png]]
+- For q, it is sufficient that p
+- For p, it is necessary that q
+- Whenever p, then also q
+- q, provided that p
+
 
 - P only if Q => $P \rightarrow Q$
 	- P happens only if Q happens.

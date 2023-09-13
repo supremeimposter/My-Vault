@@ -1,4 +1,10 @@
-- If P is a propositional variable, then P is necessarily a contingency. Since a propositional variable is either True or False.
+- If P is a propositional variable, then P is necessarily a contingency and if Q is a propositional variable, then Q is necessarily a contingency.
+- Since a propositional variable is either True or False.
+
+| P   | Q   |
+|:--- |:--- |
+| T   | T   |
+| F   | F   |
 
 ## Contingency verification
 

@@ -27,8 +27,3 @@
 	Q: "Jill passed Math"
 	$\neg$(P$\wedge$Q)$\rightarrow$ Q : "If at least one of them fail, then Jill pass math."
 
-2. 
- ![[Pasted image 20230911134613.png]]
-
-3.
-	![[Pasted image 20230911134711.png]]

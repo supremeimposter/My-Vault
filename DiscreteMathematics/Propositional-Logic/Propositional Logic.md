@@ -35,6 +35,7 @@ Questions such as "the given sentence is proposition or not" will never be asked
 
 1. Atomic proposition : truth value does not depend on any other proposition. they can never be broken down into multiple propositions.
 	- $\top$ and $\bot$ are also Atomic propositions.
+	- A propositional variable is an atomic proposition.
 
 2. Compound proposition : Multiple atomic propositions connected by logical connectives which can be decomposed (broken down) into multiple atomic propositions.
 
@@ -46,40 +47,10 @@ Questions such as "the given sentence is proposition or not" will never be asked
 - A compound proposition is a propositional expression or form.
 ```
 
-## Propositional Variables
-
-- A propositional variables holds an atomic proposition and evaluates to either true or false.
-- There are only two truth values : True, False
-```ad-note
-Atomic propositions are represented by Propositional variables but compound propositions are not.
-```
-## Propositional Formula
-
-- Any **well formed propositions** are propositional formulae.
-- Every propositional variable (Atomic proposition) is a propositional formula.
-- True $\top$ and False $\bot$ are propositional formulae.
-- Propositional expressions (Compound proposition) is a propositional formula.
-
-### Examples
-
-- Propositional formulae
-> P, $\neg$ P, P $\wedge$ Q, P $\vee$ Q, etc.
-
-- Not a propositional formulae
-> P $\neg$, P Q $\wedge$ , $\vee$ Q, etc.
-
-```ad-question
-If F is a propositional formulae, then you are NOT sure whether F is a propositional variable or propositional expression i.e. atomic or compound proposition.
-```
-
 ## Literal 
 - A propositional variable or its complement is a literal.
 
 ![[Pasted image 20230913080222.png]]
-
-```ad-summary
-- Every propositional variable is a propositional formula but not every propositional formula is a propositional variable.
-```
 
 ## Truth Table
 
@@ -89,9 +60,14 @@ If F is a propositional formulae, then you are NOT sure whether F is a propositi
 
 ![[Pasted image 20230911134824.png]]
 
+
+- [[Propositional Variables vs Propositional Formulae]]
 - [[Logical Connectives]]
+- [[Converse, Inverse and Contra-positive]]
 - [[Classes of Propositional Expressions]]
 - [[Logical Equivalence]]
 	- [[Important Logical Equivalences]]
 - [[Analysis of Propositions]]
 - [[Satisfiable and Falsifiable]]
+- [[English-Logic Translation]]
+- [[Write expressions from Tables]]

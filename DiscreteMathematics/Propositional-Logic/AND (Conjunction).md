@@ -25,9 +25,26 @@
 	8. though 
 	9. although
 	10. but
-	11. comma (,)
+	11. still
+	12. comma (,)
 	But all of these words are not the same in the English language
 
+$$
+P \wedge Q
+$$
+The above proposition is equivalent to
+	1. P and Q
+	2. P is true and Q is true
+	3. P but Q
+	4. P yet Q
+	5. P still Q
+	6. P however Q
+	7. P, Q
+	8. Although P, Q
+	9. P though Q
+	10. P nonetheless Q
+	11. P moreover Q
+	12. P nevertheless Q
 
 ### Examples
 
