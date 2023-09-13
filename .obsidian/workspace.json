@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Implication.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Unless.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Implication.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Unless.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Implication.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Unless.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Implication.md"
+                "file": "DiscreteMathematics/Propositional-Logic/Unless.md"
               }
             }
           },
@@ -198,13 +198,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "145ab42fd1c419a0",
+  "active": "98497686174a7265",
   "lastOpenFiles": [
     "DiscreteMathematics/Propositional-Logic/English-Logic Translation.md",
+    "DiscreteMathematics/Propositional-Logic/Unless.md",
+    "DiscreteMathematics/Propositional-Logic/Implication.md",
+    "DiscreteMathematics/Propositional-Logic/Equivalent forms of \"If P, then Q\".md",
+    "DiscreteMathematics/Propositional-Logic/Necessary vs Sufficient.md",
     "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
     "DiscreteMathematics/Propositional-Logic/Write expressions from Tables.md",
     "DiscreteMathematics/Propositional-Logic/Bi-Implication.md",
-    "DiscreteMathematics/Propositional-Logic/Implication.md",
     "DiscreteMathematics/Propositional-Logic/AND (Conjunction).md",
     "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
     "attachments/Pasted image 20230913190532.png",
@@ -235,8 +238,6 @@
     "C/Binary and 2'complements/Extension and Truncation.md",
     "DiscreteMathematics/Propositional-Logic/Tautology.md",
     "DiscreteMathematics/Propositional-Logic/Satisfiable and Falsifiable.md",
-    "DiscreteMathematics/Propositional-Logic/Contradiction.md",
-    "DiscreteMathematics/Propositional-Logic/Analysis of Propositions.md",
     "C/Binary and 2'complements",
     "C",
     "DiscreteMathematics/Propositional-Logic",
