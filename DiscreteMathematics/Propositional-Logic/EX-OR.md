@@ -9,7 +9,7 @@
 | T   | F   | T            |
 | T   | T   | F             |
 
-
+- Either, or, but not both
 ## Analysis of EX-OR
 
 ![[Pasted image 20230911215729.png]]

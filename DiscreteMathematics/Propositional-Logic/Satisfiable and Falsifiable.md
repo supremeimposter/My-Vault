@@ -20,6 +20,16 @@
 ![[Pasted image 20230912162357.png]]
 ![[Pasted image 20230912162455.png]]
 
+---
+
+```ad-question
+![[Pasted image 20230914083043.png]]
+```
+
+- Check which variable can hold truth values inside each brackets. One true is enough to make each bracket's truth value as true,since it is dis-junction inside each bracket.
+
+a. p = true, q = false, r = false
+b. p = true, q = false, r = true, s = false
 
 ---
 ## Falsifiable

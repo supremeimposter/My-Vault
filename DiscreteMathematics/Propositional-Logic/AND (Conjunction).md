@@ -1,3 +1,4 @@
+
 ![[Pasted image 20230908140740.png]]
 - Both propositions has to be true, for the compound proposition to be true.
 - It is a binary connective.
@@ -20,13 +21,15 @@
 	3. yet
 	4. moreover
 	5. however
-	6. nevertheless
-	7. nonetheless
-	8. though 
-	9. although
-	10. but
-	11. still
-	12. comma (,)
+	6. whereas
+	7. while
+	8. nevertheless
+	9. nonetheless
+	10. though 
+	11. although
+	12. but
+	13. still
+	14. comma (,)
 	But all of these words are not the same in the English language
 
 $$
@@ -46,12 +49,15 @@ The above proposition is equivalent to
 	11. P moreover Q
 	12. P nevertheless Q
 
+- Neither P nor Q $\equiv$ P is false and Q is false $\equiv \neg P \wedge \neg Q$ 
+---
 ### Examples
 
 ![[Pasted image 20230908141100.png]]
 	![[Pasted image 20230908141113.png]]
 	![[Pasted image 20230908141127.png]]
 
+---
 
 ## Analysis of Conjunction
 
