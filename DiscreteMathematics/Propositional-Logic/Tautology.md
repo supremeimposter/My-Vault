@@ -40,5 +40,13 @@ Choose either of the approaches based on the number of cases each approach offer
 ![[Pasted image 20230912123734.png]]
 
 ```ad-tip
-This is the procedure even when $\alpha \text{ and } \beta$ are propositional formula
+This is the procedure even when $\alpha \text{ and } \beta$ are propositional formula and asked to prove $\alpha \rightarrow \beta$ is a tautology.
 ```
+
+- $\neg P \wedge (P \vee Q) \rightarrow P$ is not a tautology
+- $\alpha = \neg P \wedge (P \vee Q) \rightarrow P$ and $\beta = P$
+![[Pasted image 20230914222307.png]]
+
+- $P \rightarrow (\neg Q \vee R \vee \neg R)$ is a tautology
+![[Pasted image 20230914222555.png]]
+

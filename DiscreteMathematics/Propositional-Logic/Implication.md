@@ -8,7 +8,17 @@ $$
 $$
 P \rightarrow Q \neq Q \rightarrow P
 $$
-- Implication is NOT commutative.
+- Implication is NOT commutative. 
+- Implication is transitive. This property is helpful in [[Arguments and Inference]].
+$$
+\text{If } P \rightarrow Q,\quad Q \rightarrow R, \quad R \rightarrow S, \quad S \rightarrow T
+$$
+$$
+(P \rightarrow R) \wedge (R \rightarrow T) \text{ is true}
+$$
+```ad-note
+Inference == Deduction == Derivation == Judgement
+```
 
 | p   | q   | p $\to$ q |
 | --- | --- | --------- |
@@ -34,7 +44,7 @@ q is also called consequence, conclusion.
 	- P is true or false, then Q is true
 - The claim is true whenever P is false or Q is true
 
-- Understanding of [[Necessary vs Sufficient]] is essential to understand the [[Equivalent forms of If P, then Q]] and [[Rules of Inference]].
+- Understanding of [[Necessary vs Sufficient]] is essential to understand the [[Equivalent forms of If P, then Q]] and [[Arguments and Inference]].
 
 ```ad-tip
 - if == when == whenever == provided that == given that
