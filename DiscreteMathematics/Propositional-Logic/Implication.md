@@ -34,7 +34,7 @@ q is also called consequence, conclusion.
 	- P is true or false, then Q is true
 - The claim is true whenever P is false or Q is true
 
-- Understanding of [[Necessary vs Sufficient]] is essential to understand the [[Equivalent forms of "If P, then Q"]] and [[Rules of Inference]].
+- Understanding of [[Necessary vs Sufficient]] is essential to understand the [[Equivalent forms of If P, then Q]] and [[Rules of Inference]].
 
 ```ad-tip
 - if == when == whenever == provided that == given that
