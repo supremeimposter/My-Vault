@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f8861770ae808666",
+        "id": "76feb3f8a8f7ef4a",
         "type": "tabs",
         "children": [
           {
-            "id": "a0353d41fe75ed7e",
+            "id": "346a6d685a9ed422",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Implication.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Equivalent forms of If P, then Q.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 246.5
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Implication.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Equivalent forms of If P, then Q.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Implication.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Equivalent forms of If P, then Q.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Implication.md"
+                "file": "DiscreteMathematics/Propositional-Logic/Equivalent forms of If P, then Q.md"
               }
             }
           },
@@ -172,16 +172,14 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 337.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "oz-clear-unused-images:Clear Unused Images": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -195,11 +193,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-map-view:Open map view": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "a0353d41fe75ed7e",
+  "active": "346a6d685a9ed422",
   "lastOpenFiles": [
+    "DiscreteMathematics/Propositional-Logic/Implication.md",
+    "DiscreteMathematics/Propositional-Logic/Equivalent forms of If P, then Q.md",
     "C/C.md",
     "DiscreteMathematics/Propositional-Logic/Satisfiable and Falsifiable.md",
     "DiscreteMathematics/Propositional-Logic/English-Logic Translation.md",
@@ -211,7 +212,6 @@
     "DiscreteMathematics/Propositional-Logic/Unless.md",
     "DiscreteMathematics/Propositional-Logic/Write expressions from Tables.md",
     "DiscreteMathematics/Propositional-Logic/EX-OR.md",
-    "DiscreteMathematics/Propositional-Logic/Implication.md",
     "attachments/Pasted image 20230914083043.png",
     "attachments/Pasted image 20230914083034.png",
     "DiscreteMathematics/Propositional-Logic/Classes of Propositional Expressions.md",
@@ -235,7 +235,6 @@
     "DiscreteMathematics/Propositional-Logic/Contingency.md",
     "DiscreteMathematics/Discrete Mathematics.md",
     "C/Types/Types.md",
-    "C/Binary and 2'complements/Decimal and Binary.md",
     "C/Types",
     "C/Types",
     "C/Binary and 2'complements",
