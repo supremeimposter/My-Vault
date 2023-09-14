@@ -9,7 +9,6 @@
   "obsidian-image-toolkit",
   "canvas-mindmap",
   "obsidian-plugin-toc",
-  "obsidian-timeline",
   "obsidian-html-tags-autocomplete",
   "obsidian-map-view",
   "obsidian-mindmap-nextgen",
@@ -18,7 +17,6 @@
   "obsidian-tasks-plugin",
   "obsidian-mind-map",
   "obsidian-icons-plugin",
-  "obsidian-comments",
   "obsidian-admonition",
   "file-tree-alternative",
   "templater-obsidian",
@@ -29,5 +27,6 @@
   "obsidian-table-generator",
   "oz-image-plugin",
   "oz-clear-unused-images",
-  "heatmap-calendar"
+  "heatmap-calendar",
+  "obsidian-file-color"
 ]
