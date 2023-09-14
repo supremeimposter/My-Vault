@@ -1,10 +1,13 @@
 ```ad-hint
-When verifying for tautology in bi-implication, check if they LHS and RHS of bi-implilcation are equivalent using by-case method. 
+When verifying for tautology in bi-implication, check if the LHS and RHS of bi-implilcation are equivalent using by-case method. 
+If $\alpha \equiv \beta$, then $\alpha \leftrightarrow \beta$ is a tautology.
 ```
+
 ## Tautology verification
+
 ### Method 1 - Truth table
 - Construct truth table and verify if all the values are True.
-
+---
 ### Method 2 - By-case 
 - If both cases are True, then the given proposition is a tautology.
 	![[Pasted image 20230912104202.png]]
@@ -12,11 +15,13 @@ When verifying for tautology in bi-implication, check if they LHS and RHS of bi-
 	
 ![[Pasted image 20230912122838.png]]
 
+----
 ### Method 3 - Simplification
 - Usage of all the [[Important Logical Equivalences]] to simplify the given proposition $\alpha$ to see if the result if true. If the simplification does not result to True, then it is not a tautology.
 
 ![[Pasted image 20230912122949.png]]
 
+---
 ### Method 4 - Implication 
 - This method is only for propositions with [[Implication]].
 - The only case when implication becomes false is when T $\rightarrow$ F and there are two approaches to verify whether this state is possible in the given proposition $\alpha$.
@@ -33,3 +38,7 @@ Choose either of the approaches based on the number of cases each approach offer
 
 ![[Pasted image 20230912123724.png]]
 ![[Pasted image 20230912123734.png]]
+
+```ad-tip
+This is the procedure even when $\alpha \text{ and } \beta$ are propositional formula
+```

@@ -15,6 +15,9 @@
 
 ### Method 4 - Implication 
 - This method is only for propositions with [[Implication]].
+```ad-summary
+Prove that there is no case of true output in $P \rightarrow Q$ i.e. P = false or Q = true
+```
 - Make either the LHS of the implication false or the RHS of the implication true, then it is verified that the given proposition $\alpha$ is NOT a contradiction, because this proves there is a case of true output.
 
 ![[Pasted image 20230912191950.png]]
