@@ -28,5 +28,6 @@
   "oz-image-plugin",
   "oz-clear-unused-images",
   "heatmap-calendar",
-  "obsidian-file-color"
+  "obsidian-file-color",
+  "obsidian-excalidraw-plugin"
 ]

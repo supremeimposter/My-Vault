@@ -74,3 +74,4 @@ Questions such as "the given sentence is proposition or not" will never be asked
 - [[Satisfiable and Falsifiable]]
 - [[English-Logic Translation]]
 - [[Write expressions from Tables]]
+- [[Rules of Inference]]
