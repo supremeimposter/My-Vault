@@ -75,3 +75,4 @@ Questions such as "the given sentence is proposition or not" will never be asked
 - [[English-Logic Translation]]
 - [[Write expressions from Tables]]
 - [[Arguments and Inference]]
+	- [[Rules of Inference]]

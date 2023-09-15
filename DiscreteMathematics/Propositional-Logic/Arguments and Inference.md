@@ -1,6 +1,57 @@
+## Argument
+- An argument is a collection of one or more premises followed by a conclusion.
+$$
+\begin{array}{}
+P_1\;,\\
+P_2\;,\\
+P_3\;,\\
+P_4\;,\\
+\vdots \\
+P_n\\ \\
 
-## Arguments
+\therefore C\;,
+\\
+\text{where } P_i \text{ are premises and } C \text{ is a conclusion.}\\\\
+(P_1 \land P_1 \land P_1 \land P_1 \land \ldots \land P_n) \rightarrow C \text{ is a tautology if and only if the argument is valid} \\\\
+(P_1 \land P_1 \land P_1 \land P_1 \land \ldots \land P_n) \models C
+\end{array}
+$$
 
+- There are *valid and invalid* arguments. 
+```ad-example
+**Premises:**
+	If you have a current password, then you can log onto the network.
+	You have a current password.
+
+**Conclusion**
+	You can log onto the network.
+```
+- An argument is valid if and only if all the premises are true, then the conclusion must be true.
+- An invalid argument is one where are **all the premises are true, but the conclusion is false**.
+- List of some standard valid arguments - [[Rules of Inference]].
+
+---
+### Validity of Arguments
+
+- This is same as [[Tautology#Method 4 - Implication]] but with the addition that if you make the RHS of the implication false, then you have to make **all of the premises** in the LHS as true to prove it as NOT a tautology.
+- An argument is valid if and only if all the premises are true, and then the conclusion is true.
+- [[AND (Conjunction)]] is used to connect all the premises.
+
+#### Examples
+
+![[Pasted image 20230915092211.png]]
+
+![[Pasted image 20230915092241.png]]
+
+![[Pasted image 20230915092303.png]]
+
+![[Pasted image 20230915092345.png]]
+
+![[Pasted image 20230915092407.png]]
+
+![[Pasted image 20230915092650.png]]
+
+![[Pasted image 20230915093246.png]]
 
 
 
@@ -60,7 +111,35 @@ $P \rightarrow \neg \: Q,\;\neg \: Q \:\models\: \neg \: Q$ is not a tautology.
 - `6` and `7` are NOT true, because since P is false, Q can be anything.
 
 ---
+```ad-example
+(P is true and Q is true) implies (P is true)
 
+(P and Q) implies P
+```
+- This is true since for ($P \wedge Q$) to be true, P has to be true.
+
+```ad-example
+(P is true OR Q is true) implies (P is true)
+
+(P OR Q) implies P
+```
+- This is false since ($P \vee Q$) to be true, there are three combinations i.e. P can be anything. So it is not sure that it implies P is true
+
+----
+$$
+(P \wedge Q)\rightarrow Q \text{ is a tautology, if and only if} 
+$$
+- Q is the logical consequence of $P \land Q$ 
+- Q is logically inferred by $P \land Q$
+- $P \land Q \models Q$
+- $P \land Q$ infers $Q$
+- $P \land Q$ logically implies $Q$
+
+```ad-tip
+logical consequence == logical inference == logical implication == logical entailment
+```
+
+---
 
 
 ```ad-summary
