@@ -21,19 +21,20 @@
             }
           },
           {
-            "id": "495bed678297cf94",
+            "id": "eef69bb7fbd17f16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Implication.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Rules of Inference.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,12 +88,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Rules of Inference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Rules of Inference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md"
+                "file": "DiscreteMathematics/Propositional-Logic/Rules of Inference.md"
               }
             }
           },
@@ -213,18 +214,27 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "346a6d685a9ed422",
+  "active": "eef69bb7fbd17f16",
   "lastOpenFiles": [
-    "attachments/Pasted image 20230914231615.png",
-    "attachments/Pasted image 20230914230309.png",
-    "attachments/Pasted image 20230914230253.png",
-    "DiscreteMathematics/Propositional-Logic/Implication.md",
+    "attachments/Pasted image 20230915112742.png",
+    "attachments/Pasted image 20230915112402.png",
     "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
-    "DiscreteMathematics/Propositional-Logic/Tautology.md",
-    "attachments/Pasted image 20230914222555.png",
-    "attachments/Pasted image 20230914222307.png",
-    "DiscreteMathematics/Propositional-Logic/Contingency.md",
+    "DiscreteMathematics/Propositional-Logic/Rules of Inference.md",
+    "attachments/Pasted image 20230915094652.png",
+    "attachments/Pasted image 20230915093246.png",
     "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
+    "DiscreteMathematics/Propositional-Logic/Important Logical Equivalences.md",
+    "DiscreteMathematics/Propositional-Logic/Implication.md",
+    "attachments/Pasted image 20230915092650.png",
+    "attachments/Pasted image 20230915092407.png",
+    "attachments/Pasted image 20230915092345.png",
+    "attachments/Pasted image 20230915092303.png",
+    "attachments/Pasted image 20230915092241.png",
+    "attachments/Pasted image 20230915092211.png",
+    "DiscreteMathematics/Propositional-Logic/Analysis of Equivalence of Propositions.md",
+    "attachments/Pasted image 20230914231615.png",
+    "DiscreteMathematics/Propositional-Logic/Tautology.md",
+    "DiscreteMathematics/Propositional-Logic/Contingency.md",
     "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
     "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
     "DiscreteMathematics/Propositional-Logic/EX-OR.md",
@@ -236,21 +246,12 @@
     "DiscreteMathematics/Propositional-Logic/AND (Conjunction).md",
     "DiscreteMathematics/Propositional-Logic/Unless.md",
     "DiscreteMathematics/Propositional-Logic/Write expressions from Tables.md",
-    "attachments/Pasted image 20230914083043.png",
-    "attachments/Pasted image 20230914083034.png",
     "DiscreteMathematics/Propositional-Logic/Classes of Propositional Expressions.md",
-    "DiscreteMathematics/Propositional-Logic/Analysis of Equivalence of Propositions.md",
-    "attachments/Pasted image 20230914080637.png",
-    "attachments/Pasted image 20230914074825.png",
-    "attachments/Pasted image 20230914074820.png",
     "DiscreteMathematics/Propositional-Logic/Equivalent forms of \"If P, then Q\".md",
     "DiscreteMathematics/Propositional-Logic/Necessary vs Sufficient.md",
     "DiscreteMathematics/Propositional-Logic/Bi-Implication.md",
-    "attachments/Pasted image 20230913190532.png",
     "DiscreteMathematics/Propositional-Logic/Negation.md",
     "DiscreteMathematics/Propositional-Logic/Propositional Variables vs Propositional Formulae.md",
-    "DiscreteMathematics/Mathematical Logic.md",
-    "DiscreteMathematics/Propositional-Logic/Converse, Inverse and Contra-positive.md",
     "C/Types",
     "C/Types",
     "C/Binary and 2'complements",
