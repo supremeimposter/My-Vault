@@ -16,7 +16,7 @@ People, Houses, numbers, colors, baseball games, wars, $\ldots$
 ## Relations or Predicates
 - Relations over or between or among objects is called predicates.
 - A logical expression containing some variable that becomes a proposition when we substitute any particular value from the universe for this variable is called a predicate.
-- A predicate is NOT a proposition until a variable is substituted.
+- A predicate is NOT a proposition until a variable is substituted. Once a variable is substituted, it is called Predicate instantiation which becomes a proposition.
 
 ```mermaid
 flowchart LR
@@ -26,6 +26,31 @@ flowchart LR
 1. Predicates over 1 variable are called unary predicate => property.
 2. Predicates over 2 variables are called binary predicate => relationship between two objects.
 3. Predicates over n variables are called nary predicates => relationship between n objects.
+
+### When does a predicate become a proposition?
+1. Substituting a particular value (object) for the variable from its domain will make the predicate into a proposition.
+$$
+E(x) = \text{ x is even}
+$$
+$$
+D(x) \in \mathbb{N}
+$$
+	- E(2) = 2 is even => true
+	- E(3) = 3 is even => false
+
+2. Quantification
+	- Apply one of the two quantifiers to the predicate to make the predicate a proposition
+	- Example
+		- P(x) = x is even
+		1. $\forall x P(x) \equiv$ "For every x, P(x) is true"
+		2. $\exists x P(x) \equiv$ "There exists an x, for which P(x) is true"
+		- In the above cases, the predicate becomes a proposition.
+	
+```ad-example
+- Some birds are angry.
+- On the internet, no one knows who you are.
+- The square of any real number is non-negative.
+```
 
 ### Property
 - Every object in a domain has one or more properties.
@@ -79,10 +104,9 @@ father_of(x), best_friend(x), add(x, y), $\ldots$
 
 
 ```ad-info
-- Predicates over 0 variables are called 0-ary predicate which is a proposition.
+- Predicates over 0 variables are called 0-ary predicate which is a propositional variable.
 	- Example
 		1. p : "a is green" => true
-				- It takes no variable
 
 - Function with 0 argument is an object from the domain
 	- Example 
