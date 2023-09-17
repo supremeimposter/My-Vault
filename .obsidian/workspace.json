@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md",
+                "file": "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -74,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md",
+                "file": "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md",
+                "file": "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md"
+                "file": "DiscreteMathematics/First-Order-Logic/Quantifiers.md"
               }
             }
           },
@@ -203,11 +204,15 @@
   "lastOpenFiles": [
     "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
     "DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md",
+    "DiscreteMathematics/Propositional-Logic/Implication.md",
+    "DiscreteMathematics/Propositional-Logic/Unless.md",
+    "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
+    "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
+    "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
     "DiscreteMathematics/First-Order-Logic/Predicates.md",
     "attachments/Pasted image 20230916174959.png",
     "attachments/Pasted image 20230916174912.png",
     "DiscreteMathematics/Propositional-Logic/Limitations of Propositional Logic.md",
-    "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
     "DiscreteMathematics/Propositional-Logic/Propositional Variables vs Propositional Formulae.md",
     "attachments/Pasted image 20230916170121.png",
     "DiscreteMathematics/Mathematical Logic.md",
@@ -220,14 +225,12 @@
     "attachments/Pasted image 20230915094652.png",
     "attachments/Pasted image 20230915093246.png",
     "DiscreteMathematics/Propositional-Logic/Important Logical Equivalences.md",
-    "DiscreteMathematics/Propositional-Logic/Implication.md",
     "attachments/Pasted image 20230915092650.png",
     "attachments/Pasted image 20230915092407.png",
     "attachments/Pasted image 20230915092345.png",
     "DiscreteMathematics/Propositional-Logic/Analysis of Equivalence of Propositions.md",
     "DiscreteMathematics/Propositional-Logic/Tautology.md",
     "DiscreteMathematics/Propositional-Logic/Contingency.md",
-    "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
     "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
     "DiscreteMathematics/Propositional-Logic/EX-OR.md",
     "DiscreteMathematics/Propositional-Logic/Equivalent forms of If P, then Q.md",
@@ -236,8 +239,6 @@
     "DiscreteMathematics/Propositional-Logic/English-Logic Translation.md",
     "DiscreteMathematics/Propositional-Logic/Contradiction.md",
     "DiscreteMathematics/Propositional-Logic/AND (Conjunction).md",
-    "DiscreteMathematics/Propositional-Logic/Unless.md",
-    "DiscreteMathematics/Propositional-Logic/Write expressions from Tables.md",
     "C/Types",
     "C/Types",
     "C/Binary and 2'complements",
