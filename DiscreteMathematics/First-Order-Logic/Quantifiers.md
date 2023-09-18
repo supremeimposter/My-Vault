@@ -1,6 +1,6 @@
 - There are 2 standard quantifiers 
-	- $\forall \equiv$ Universal Quantifier
-	- $\exists \equiv$ Existential Quantifier
+	- $\forall \equiv$ Universal Quantifier $\equiv$ for all
+	- $\exists \equiv$ Existential Quantifier $\equiv$ for some $\equiv$ for at least once $\equiv$ there is
 - Many number of quantifiers can be formed using the above two standard quantifiers.
 - Let D be the domain and it consists of $x_1, \; x_2, \; x_3,\; \ldots \; x_n$
 $$
@@ -13,17 +13,55 @@ $$
 	- Let $\alpha(x)  = P(x) \rightarrow Q(x)$
 	- $\forall x (P(x) \rightarrow Q(x)) \equiv \forall x \alpha(x)$
 
+- [[Counter and Witness]]
+---
+
 > [!example] Examples for compound propositions
 > > [!question]- $\forall x \;(\;smiling(x) \rightarrow wearhat(x)\;)$
 > > - for every x, "if x is smiling then, x is wearing a hat" $\equiv$ "every smiling person is wearing a hat".
 > 
-> > [!question]- $\exists x \; (\;drinker(x) \rightarrow \forall y \; drinker(y)\;)$
-> > - "there is someone such that if he is a drinker, then everyone is drinker"
+> > [!question]- $\exists x \; (\; smiling(x) \rightarrow wearhat(x) \;)$
+> > - "There is someone x, if x is smiling then, x is wearing a hat".
 
+```ad-attention
+>[!example]- $\exists x \; (\;drinker(x) \rightarrow \forall y \; drinker(y)\;)$
+>> - "there is someone such that if he is a drinker, then everyone is drinker"
+>> - $\exists x (D(x) \rightarrow \forall y D(y))$
+>> - the above statement is true, it can be proved by making the RHS false and try to make the LHS true. 
+```
 
-$\exists x \; (\;drinker(x) \rightarrow \forall y \; drinker(y)\;)$
-> > - "there is someone such that if he is a drinker, then everyone is drinker"
+```ad-question
+D(x) = {2, 4, 9}
 
+P(x) = "x is prime"
+Q(x) = "x is even"
+```
+
+$$
+\begin{array}{}
+\forall x P(x) = \text{false}\\
+\forall x Q(x) = \text{false}\\
+\exists x P(x) = \text{true}\\\\
+\forall x (P(x) \rightarrow Q(x)) = true \\
+\exists x (P(x) \rightarrow Q(x)) = true
+\end{array}
+$$
+
+```ad-question
+S = $\forall x (2 + 2 = 4)$
+S = true for any domain
+---
+S = $\forall x (2 + 2 = 5)$
+S = false for any domain
+---
+S = $\exists x (2 + 2 = 4)$
+S = true for any domain
+---
+S = $\exists x (2 + 2 = 5)$
+S = false for any domain
+```
+
+----
 ## Logic to English translation
 
 $$
@@ -40,3 +78,42 @@ $$
 | $\exists x P(x)$         | for at least one element P(x) is true   | for every element x, P(x) is false      |
 | $\forall x \;\neg P(x)$  | for every element, P(x) is false        | for at least one element, P(x) is true  |
 | $\exists x \; \neg P(x)$ | for at least one element, P(x) is false | for every element, P(x) is true                                        |
+
+$$
+\begin{array}{}
+\exists x \neg P(x)\\ 
+\text{ there exists some x, for which } \neg P(x) \text{ is true.} \\ \text{ there exists some x, for which } P(x) \text{ is false.}\\
+\text{ It is not true that for every x, } P(x) \text{ is true.}\\
+\neg \forall x P(x)\\
+\neg \forall x P(x) \equiv \exists x \;P(x)
+\end{array}
+$$
+---
+$$
+\begin{array}{}
+\forall x \neg P(x)\\
+\text{for all x, } \neg P(x) \text{ is true.} \\
+\text{for all x, } P(x) \text{ is false.} \\
+\text{it is false that there is some x such that } P(x) \text{ is true.}\\
+\neg \exists x P(x)\\
+\neg \exists x P(x) \equiv \forall x \neg P(x)
+\end{array}
+$$
+---
+```ad-question
+Suppose P(x) is the predicate "x + 2 = 2x", and the universe of discource for x is the set {1, 2, 3}. 
+```
+
+1. $\forall x P(x) =$ false. Counter examples are 2 and 3.
+2. $\exists x P(x) =$ true. Witness is 1.
+3. $\forall x\; \neg P(x) =$ false. Counter example is 1.
+4. $\exists x \; \neg P(x) =$ true. Witness are 2 and 3.
+5. $\neg \exists x P(x) =$ false.
+6. $\neg \forall x P(x) =$ true.
+
+---
+```ad-example
+![[Pasted image 20230917075352.png]]
+![[Pasted image 20230917075408.png]]
+![[Pasted image 20230917075419.png]]
+```

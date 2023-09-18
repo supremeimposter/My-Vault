@@ -38,7 +38,7 @@ $$
 	- E(2) = 2 is even => true
 	- E(3) = 3 is even => false
 
-2. Quantification
+2. Quantification - Bounded by a quantifier.
 	- Apply one of the two quantifiers to the predicate to make the predicate a proposition
 	- Example
 		- P(x) = x is even
