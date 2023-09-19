@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
+                "file": "DiscreteMathematics/First-Order-Logic/Counter and Witness.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
+                "file": "DiscreteMathematics/First-Order-Logic/Counter and Witness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
+                "file": "DiscreteMathematics/First-Order-Logic/Counter and Witness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Quantifiers.md"
+                "file": "DiscreteMathematics/First-Order-Logic/Counter and Witness.md"
               }
             }
           },
@@ -202,8 +202,8 @@
   },
   "active": "da20821c129689a0",
   "lastOpenFiles": [
-    "DiscreteMathematics/First-Order-Logic/Untitled.md",
     "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
+    "DiscreteMathematics/First-Order-Logic/Untitled.md",
     "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
     "DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md",
     "DiscreteMathematics/First-Order-Logic/Counter and Witness.md",
