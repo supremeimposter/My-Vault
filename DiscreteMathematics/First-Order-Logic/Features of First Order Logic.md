@@ -20,10 +20,10 @@ People, Houses, numbers, colors, baseball games, wars, $\ldots$
 
 ```mermaid
 flowchart LR
-	A[Object] --> B[[Predicates]] --> C[Proposition]
+	A[Object] --> B((Predicate)) --> C[Proposition]
 ```
 
-1. Predicates over 1 variable are called unary predicate => property.
+1. Predicates over 1 variable are called unary predicate => [[Features of First Order Logic#Property| property]].
 2. Predicates over 2 variables are called binary predicate => relationship between two objects.
 3. Predicates over n variables are called nary predicates => relationship between n objects.
 
@@ -33,7 +33,7 @@ $$
 E(x) = \text{ x is even}
 $$
 $$
-D(x) \in \mathbb{N}
+D \in \mathbb{N}
 $$
 	- E(2) = 2 is even => true
 	- E(3) = 3 is even => false
@@ -41,10 +41,9 @@ $$
 2. Quantification - Bounded by a quantifier.
 	- Apply one of the two quantifiers to the predicate to make the predicate a proposition
 	- Example
-		- P(x) = x is even
-		1. $\forall x P(x) \equiv$ "For every x, P(x) is true"
-		2. $\exists x P(x) \equiv$ "There exists an x, for which P(x) is true"
-		- In the above cases, the predicate becomes a proposition.
+		- P(x) = x is even and D $\in \mathbb{N}$
+		1. $\forall x P(x) \equiv$ "For every x, P(x) is true" $\equiv$ "All natural numbers are even"
+		2. $\exists x P(x) \equiv$ "There exists an x, for which P(x) is true" $\equiv$ "Some natural numbers are even"
 	
 ```ad-example
 - Some birds are angry.
@@ -73,6 +72,9 @@ Predicate 2 => red(x) : "x is red"
 
 red(a) : "a is red" => false.
 
+---
+- Predicate 1 gives the relationship between two variables x and y, whereas Predicate 2 is a property of the variable x.
+
 ```
 
 
@@ -82,12 +84,12 @@ red(a) : "a is red" => false.
 ```
 
 ## Transformations (Functions)
-- Functions map objects to another object in the same domain.
+- Functions map objects to another object in the **same** domain.
 - Functions should be defined with all the edge and corner cases so as not to transform an object into an object that is not in the domain.
 
 ```mermaid
 flowchart LR
-	A[Object] --> B[[Function]] --> C[Object]
+	A[Object] --> B((Function)) --> C[Object]
 ```
 
 ```ad-example
@@ -107,10 +109,10 @@ father_of(x), best_friend(x), add(x, y), $\ldots$
 - Predicates over 0 variables are called 0-ary predicate which is a propositional variable.
 	- Example
 		1. p : "a is green" => true
-
+---
 - Function with 0 argument is an object from the domain
 	- Example 
-		1. planet() : Earth
+		1. habitablePlanet() : Earth
 ```
 
 ### Type-checking Table
@@ -121,9 +123,10 @@ father_of(x), best_friend(x), add(x, y), $\ldots$
 | Functions   | objects      | an object              |
 
 ## Quantification
-- Quantification means "the expression or measurement of the quantity of something" in English.
-- This concept helps in asserting that a certain property holds for all elements or that it holds for some element.
-- In logic, **all** means "for all" and **some** means "at least once" elements in the domain.
+- Quantification means "the expression or measurement of the quantity of something" in English dictionary.
+- This concept helps in asserting that a certain property holds for all elements or that it holds for some element of a domain.
+- In logic, **all** means "for all" and **some** means "at least one" element(s) in the domain.
+- Two [[Quantifiers]] are,
 
 $$
 \forall \equiv \text{ for all} \equiv \text{ Universal Quantifier}
@@ -132,10 +135,10 @@ $$
 \exists \equiv \text{ there exists } \equiv \text{ Existential Quantifier}
 $$
 
-- Counter examples are used to make a statement false in quantification.
+- Counter examples are used to make a statement false in quantification while witnesses are used to prove a statement true.
 
 ```ad-example
-D(x) : $\mathbb{N}$ which means x $\in \mathbb{N}$
+D $\in \mathbb{N}$
 
 P(x) = x is even
 Q(x) = x is prime
@@ -145,10 +148,11 @@ $\forall x P(x)$ : Every natural number is even
 - The above statement is false
 - Counter example : 5
 ----
-$\exists x P(x)$ : There is some x that is prime
+$\exists x P(x)$ : Some natural numbers are prime
 - The above statement is true
 ---
-$\exists x \neg P(x)$ : There is some x that is not even
+$\exists x \neg P(x)$ : Some natural numbers are not even
+- Witness : 5
 - The above statement is true
 ```
 

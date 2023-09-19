@@ -1,6 +1,6 @@
 - There are 2 standard quantifiers 
 	- $\forall \equiv$ Universal Quantifier $\equiv$ for all
-	- $\exists \equiv$ Existential Quantifier $\equiv$ for some $\equiv$ for at least once $\equiv$ there is
+	- $\exists \equiv$ Existential Quantifier $\equiv$ for some $\equiv$ for at least once $\equiv$ there is 
 - Many number of quantifiers can be formed using the above two standard quantifiers.
 - Let D be the domain and it consists of $x_1, \; x_2, \; x_3,\; \ldots \; x_n$
 $$
@@ -11,9 +11,8 @@ $$
 $$
 - The quantifiers can also be applied to compound propositions.
 	- Let $\alpha(x)  = P(x) \rightarrow Q(x)$
-	- $\forall x (P(x) \rightarrow Q(x)) \equiv \forall x \alpha(x)$
+	- $\forall x \; (P(x) \rightarrow Q(x)) \equiv \forall x \; \alpha(x)$
 
-- [[Counter and Witness]]
 ---
 
 > [!example] Examples for compound propositions
@@ -104,10 +103,10 @@ $$
 Suppose P(x) is the predicate "x + 2 = 2x", and the universe of discource for x is the set {1, 2, 3}. 
 ```
 
-1. $\forall x P(x) =$ false. Counter examples are 2 and 3.
-2. $\exists x P(x) =$ true. Witness is 1.
-3. $\forall x\; \neg P(x) =$ false. Counter example is 1.
-4. $\exists x \; \neg P(x) =$ true. Witness are 2 and 3.
+1. $\forall x P(x) =$ false. Counter examples are 1 and 3.
+2. $\exists x P(x) =$ true. Witness is 2.
+3. $\forall x\; \neg P(x) =$ false. Counter example is 2.
+4. $\exists x \; \neg P(x) =$ true. Witness are 1 and 3.
 5. $\neg \exists x P(x) =$ false.
 6. $\neg \forall x P(x) =$ true.
 
@@ -117,3 +116,13 @@ Suppose P(x) is the predicate "x + 2 = 2x", and the universe of discource for x 
 ![[Pasted image 20230917075408.png]]
 ![[Pasted image 20230917075419.png]]
 ```
+
+--- 
+## Useful Intuitions
+1. Universally-quantified statements are true unless there's a counter example.
+2. Existentially-quantified statements are false unless there's a witness.
+
+### What an empty domain does?
+When the domain is empty, then 
+1. $\forall x P(x)$ is vacuously true as there are no counter example.
+2. $\exists x P(x)$ is always false as there are no witness.
