@@ -126,3 +126,15 @@ Suppose P(x) is the predicate "x + 2 = 2x", and the universe of discource for x 
 When the domain is empty, then 
 1. $\forall x P(x)$ is vacuously true as there are no counter example.
 2. $\exists x P(x)$ is always false as there are no witness.
+
+
+---
+
+## Precedence of Quantifiers
+
+```ad-caution
+This is just a convention and not all the authors use it.
+```
+
+- Quantifiers have higher precedence than all the logical operators.
+- To avoid ambiguity, always use proper paranthesis.

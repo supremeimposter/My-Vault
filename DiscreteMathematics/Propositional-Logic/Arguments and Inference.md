@@ -8,7 +8,6 @@ P_3\;,\\
 P_4\;,\\
 \vdots \\
 P_n\\ \\
-
 \therefore C\;,
 \\
 \text{where } P_i \text{ are premises and } C \text{ is a conclusion.}\\\\
@@ -93,6 +92,10 @@ Conclusion : $\neg Q$
 
 $KB \not\models$ Conclusion
 $(P \rightarrow Q) \wedge \neg P \not\models \neg Q$
+```
+
+```ad-attention
+Propositional formulae can also be used as premises and as conclusion.
 ```
 
 - It is same as [[Necessary vs Sufficient]].
