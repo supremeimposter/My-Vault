@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
+                "file": "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7044f306d187f7d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
+                "file": "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
+                "file": "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md"
+                "file": "DiscreteMathematics/First-Order-Logic/First Order Logic.md"
               }
             }
           },
@@ -202,10 +215,15 @@
   },
   "active": "da20821c129689a0",
   "lastOpenFiles": [
-    "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
-    "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
-    "DiscreteMathematics/First-Order-Logic/Bounded and Free Variables.md",
+    "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
+    "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
     "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
+    "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
+    "DiscreteMathematics/Propositional-Logic/English - Propositional Logic Translation.md",
+    "DiscreteMathematics/Propositional-Logic/Necessary vs Sufficient.md",
+    "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
+    "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
+    "DiscreteMathematics/First-Order-Logic/Bounded and Free Variables.md",
     "attachments/Pasted image 20230920140905.png",
     "attachments/Pasted image 20230920140751.png",
     "attachments/Pasted image 20230920135751.png",
@@ -222,7 +240,6 @@
     "DiscreteMathematics/Propositional-Logic/Implication.md",
     "DiscreteMathematics/Propositional-Logic/Unless.md",
     "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
-    "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
     "DiscreteMathematics/First-Order-Logic/Predicates.md",
     "DiscreteMathematics/Propositional-Logic/Limitations of Propositional Logic.md",
     "DiscreteMathematics/Propositional-Logic/Propositional Variables vs Propositional Formulae.md",
@@ -234,10 +251,7 @@
     "DiscreteMathematics/Propositional-Logic/Analysis of Equivalence of Propositions.md",
     "DiscreteMathematics/Propositional-Logic/Tautology.md",
     "DiscreteMathematics/Propositional-Logic/Contingency.md",
-    "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
     "DiscreteMathematics/Propositional-Logic/EX-OR.md",
-    "DiscreteMathematics/Propositional-Logic/Equivalent forms of If P, then Q.md",
-    "C/C.md",
     "C/Types",
     "C/Types",
     "C/Binary and 2'complements",
