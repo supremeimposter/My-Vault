@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Counter and Witness.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Counter and Witness.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Counter and Witness.md",
+                "file": "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Counter and Witness.md"
+                "file": "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md"
               }
             }
           },
@@ -203,32 +203,33 @@
   "active": "da20821c129689a0",
   "lastOpenFiles": [
     "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
-    "DiscreteMathematics/First-Order-Logic/Untitled.md",
+    "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
+    "DiscreteMathematics/First-Order-Logic/Bounded and Free Variables.md",
     "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
+    "attachments/Pasted image 20230920140905.png",
+    "attachments/Pasted image 20230920140751.png",
+    "attachments/Pasted image 20230920135751.png",
+    "attachments/Pasted image 20230920135732.png",
+    "attachments/Pasted image 20230920135505.png",
+    "attachments/Pasted image 20230920135154.png",
+    "attachments/Pasted image 20230920135108.png",
+    "attachments/Pasted image 20230920101759.png",
+    "attachments/Pasted image 20230920101319.png",
+    "attachments/Pasted image 20230919220922.png",
     "DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md",
     "DiscreteMathematics/First-Order-Logic/Counter and Witness.md",
-    "attachments/Pasted image 20230917075419.png",
-    "attachments/Pasted image 20230917075408.png",
-    "attachments/Pasted image 20230917075352.png",
+    "DiscreteMathematics/First-Order-Logic/Untitled.md",
     "DiscreteMathematics/Propositional-Logic/Implication.md",
     "DiscreteMathematics/Propositional-Logic/Unless.md",
     "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
     "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
     "DiscreteMathematics/First-Order-Logic/Predicates.md",
-    "attachments/Pasted image 20230916174959.png",
-    "attachments/Pasted image 20230916174912.png",
     "DiscreteMathematics/Propositional-Logic/Limitations of Propositional Logic.md",
     "DiscreteMathematics/Propositional-Logic/Propositional Variables vs Propositional Formulae.md",
-    "attachments/Pasted image 20230916170121.png",
     "DiscreteMathematics/Mathematical Logic.md",
     "DiscreteMathematics/First-Order-Logic",
     "DiscreteMathematics/Discrete Mathematics.md",
     "DiscreteMathematics/Propositional-Logic/Rules of Inference.md",
-    "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
-    "attachments/Pasted image 20230915112742.png",
-    "attachments/Pasted image 20230915112402.png",
-    "attachments/Pasted image 20230915094652.png",
-    "attachments/Pasted image 20230915093246.png",
     "DiscreteMathematics/Propositional-Logic/Important Logical Equivalences.md",
     "DiscreteMathematics/Propositional-Logic/Analysis of Equivalence of Propositions.md",
     "DiscreteMathematics/Propositional-Logic/Tautology.md",
@@ -237,8 +238,6 @@
     "DiscreteMathematics/Propositional-Logic/EX-OR.md",
     "DiscreteMathematics/Propositional-Logic/Equivalent forms of If P, then Q.md",
     "C/C.md",
-    "DiscreteMathematics/Propositional-Logic/Satisfiable and Falsifiable.md",
-    "DiscreteMathematics/Propositional-Logic/English-Logic Translation.md",
     "C/Types",
     "C/Types",
     "C/Binary and 2'complements",
