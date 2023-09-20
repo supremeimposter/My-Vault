@@ -6,4 +6,4 @@
 - [[Features of First Order Logic]]
 - [[Quantifiers]]
 	- [[Bounded and Free Variables]]
-	- 
+- [[English-FOL Translation]]

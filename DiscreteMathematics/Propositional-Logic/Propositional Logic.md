@@ -4,7 +4,7 @@
 - It doesn't matter where an assertive sentence is true or false. The only thing that matters is whether it is a proposition or not.
 - Interrogative, Exclamatory and Imperative sentences are **never** propositions.
 - True = $\top$ and False = $\bot$
-- Propositional Logic is the set of all [[Propositional Variables vs Propositional Formulae#Propositional Formula | Propositional Formulae]]
+- Propositional Logic is the set of all [[Propositional Variables vs Propositional Formulae#Propositional Formula |Propositional Formulae]]
 
 ```ad-important
 - When a sentence has a variable it can NEVER be a proposition
@@ -73,7 +73,7 @@ Questions such as "the given sentence is proposition or not" will never be asked
 	- [[Important Logical Equivalences]]
 	- [[Analysis of Equivalence of Propositions]]
 - [[Satisfiable and Falsifiable]]
-- [[English-Logic Translation]]
+- [[English - Propositional Logic Translation]]
 - [[Write expressions from Tables]]
 - [[Arguments and Inference]]
 	- [[Rules of Inference]]
