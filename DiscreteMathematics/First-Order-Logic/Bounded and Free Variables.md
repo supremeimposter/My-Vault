@@ -56,7 +56,7 @@ Free variables' name should NEVER be changed.
 
 ---
 ### When does quantifiers have no effect on variables?
-- Quantifiers have no effect on a predicate, if it does not contain the variable it is trying to bound.
+- Quantifiers have no effect on a predicate, if there are no free variables to bound.
 - If $\alpha$ does not contain the free variable $x$, then
 $$
 \begin{array}{rcl}
@@ -75,6 +75,10 @@ E(y) : y is even
 $\forall x \; \exists x \; E(x)$
 if $\alpha = \exists x \; E(x)$, then
 $\forall x \; \alpha \; \equiv \; \alpha$
+---
+P : "1 + 2 = 3" = true
+$\forall x \; P \equiv P$
+$\exists x \; P \equiv P$
 ```
 
 ---
@@ -126,6 +130,7 @@ Only the nearest quantification is taken, and the furthest quantifiers have no c
 ---
 
 ### Renaming a bound variable in a formula
+
 - To avoid confusion because of the nested quantifiers and the variables bounded by them, bounded variables can be renamed.
 ![[Pasted image 20230920140751.png]]
 - A clean formula is one in which both free and bound variables of the same variable does not exists.

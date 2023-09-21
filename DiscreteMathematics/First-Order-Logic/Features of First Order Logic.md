@@ -13,9 +13,9 @@ People, Houses, numbers, colors, baseball games, wars, $\ldots$
 > - The domain is non-empty, unless explicitly specified otherwise.
 > - The domain of every variables in a FOL expression is same, unless specified otherwise.
 
-## Relations or Predicates
-- Relations over or between or among objects is called predicates.
+## Predicates
 - A logical expression containing some variable that becomes a proposition when we substitute any particular value from the universe for this variable is called a predicate.
+- Relations over or between or among objects is called predicates.
 - A predicate is NOT a proposition until a variable is substituted. Once a variable is substituted, it is called Predicate instantiation which becomes a proposition.
 
 ```mermaid
@@ -59,8 +59,8 @@ red, round, long, bigger than, brother of, part of, comes between, $\ldots$
 - All of the properties return a proposition.
 ```
 
-
-```ad-example
+```ad-example 
+##### Predicates as relationship vs property
 ![[Pasted image 20230916170121.png]]
 
 Predicate 1 => on (x, y) : "x is on y"
@@ -104,9 +104,8 @@ father_of(x), best_friend(x), add(x, y), $\ldots$
 - hat(a) is not defined
 ```
 
-
 ```ad-info
-- Predicates over 0 variables are called 0-ary predicate which is a propositional variable.
+- Predicates over 0 variables are called 0-ary predicate which is a propositional variable which contains a proposition.
 	- Example
 		1. p : "a is green" => true
 ---
@@ -162,3 +161,4 @@ $\exists x \neg P(x)$ : Some natural numbers are not even
 ![[Pasted image 20230916174912.png]]
 ![[Pasted image 20230916174959.png]]
 ```
+

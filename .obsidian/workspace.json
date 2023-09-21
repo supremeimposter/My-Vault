@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
+                "file": "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
+                "file": "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
+                "file": "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/First Order Logic.md"
+                "file": "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md"
               }
             }
           },
@@ -215,15 +215,21 @@
   },
   "active": "da20821c129689a0",
   "lastOpenFiles": [
-    "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
+    "DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md",
+    "~/Downloads/output.pdf.md",
     "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
+    "~/Downloads",
+    "~",
     "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
+    "DiscreteMathematics/First-Order-Logic/Bounded and Free Variables.md",
+    "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
+    "DiscreteMathematics/Mathematical Logic.md",
+    "DiscreteMathematics/Discrete Mathematics.md",
+    "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
     "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
     "DiscreteMathematics/Propositional-Logic/English - Propositional Logic Translation.md",
     "DiscreteMathematics/Propositional-Logic/Necessary vs Sufficient.md",
     "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
-    "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
-    "DiscreteMathematics/First-Order-Logic/Bounded and Free Variables.md",
     "attachments/Pasted image 20230920140905.png",
     "attachments/Pasted image 20230920140751.png",
     "attachments/Pasted image 20230920135751.png",
@@ -234,7 +240,6 @@
     "attachments/Pasted image 20230920101759.png",
     "attachments/Pasted image 20230920101319.png",
     "attachments/Pasted image 20230919220922.png",
-    "DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md",
     "DiscreteMathematics/First-Order-Logic/Counter and Witness.md",
     "DiscreteMathematics/First-Order-Logic/Untitled.md",
     "DiscreteMathematics/Propositional-Logic/Implication.md",
@@ -243,22 +248,18 @@
     "DiscreteMathematics/First-Order-Logic/Predicates.md",
     "DiscreteMathematics/Propositional-Logic/Limitations of Propositional Logic.md",
     "DiscreteMathematics/Propositional-Logic/Propositional Variables vs Propositional Formulae.md",
-    "DiscreteMathematics/Mathematical Logic.md",
     "DiscreteMathematics/First-Order-Logic",
-    "DiscreteMathematics/Discrete Mathematics.md",
     "DiscreteMathematics/Propositional-Logic/Rules of Inference.md",
     "DiscreteMathematics/Propositional-Logic/Important Logical Equivalences.md",
     "DiscreteMathematics/Propositional-Logic/Analysis of Equivalence of Propositions.md",
     "DiscreteMathematics/Propositional-Logic/Tautology.md",
     "DiscreteMathematics/Propositional-Logic/Contingency.md",
-    "DiscreteMathematics/Propositional-Logic/EX-OR.md",
     "C/Types",
     "C/Types",
     "C/Binary and 2'complements",
     "C",
     "DiscreteMathematics/Propositional-Logic",
     "Propositional-Logic",
-    "DiscreteMathematics",
-    "attachments"
+    "DiscreteMathematics"
   ]
 }
