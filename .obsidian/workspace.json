@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "da20821c129689a0",
+            "id": "a64619645021ba82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7044f306d187f7d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
+                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -108,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
+                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
+                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md"
+                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md"
               }
             }
           },
@@ -213,19 +200,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "da20821c129689a0",
+  "active": "a64619645021ba82",
   "lastOpenFiles": [
+    "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
+    "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
+    "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
+    "DiscreteMathematics/First-Order-Logic/Numerical-FOL Translation.md",
+    "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
     "DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md",
     "~/Downloads/output.pdf.md",
-    "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
     "~/Downloads",
     "~",
-    "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
     "DiscreteMathematics/First-Order-Logic/Bounded and Free Variables.md",
     "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
     "DiscreteMathematics/Mathematical Logic.md",
     "DiscreteMathematics/Discrete Mathematics.md",
-    "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
     "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
     "DiscreteMathematics/Propositional-Logic/English - Propositional Logic Translation.md",
     "DiscreteMathematics/Propositional-Logic/Necessary vs Sufficient.md",
@@ -252,8 +241,6 @@
     "DiscreteMathematics/Propositional-Logic/Rules of Inference.md",
     "DiscreteMathematics/Propositional-Logic/Important Logical Equivalences.md",
     "DiscreteMathematics/Propositional-Logic/Analysis of Equivalence of Propositions.md",
-    "DiscreteMathematics/Propositional-Logic/Tautology.md",
-    "DiscreteMathematics/Propositional-Logic/Contingency.md",
     "C/Types",
     "C/Types",
     "C/Binary and 2'complements",

@@ -3,5 +3,8 @@
   "cssTheme": "Obsidian gruvbox",
   "showViewHeader": true,
   "theme": "moonstone",
-  "baseFontSize": 18
+  "baseFontSize": 18,
+  "enabledCssSnippets": [
+    "custom-callout"
+  ]
 }

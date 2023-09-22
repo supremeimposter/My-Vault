@@ -26,5 +26,14 @@
     }
   ],
   "table-editor-obsidian:table-control-bar": [],
-  "editor:delete-paragraph": []
+  "editor:delete-paragraph": [],
+  "custom-callout-plugin:insert-custom-callout": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ]
 }
