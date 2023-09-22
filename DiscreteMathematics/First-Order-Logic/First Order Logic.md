@@ -6,4 +6,6 @@
 - [[Features of First Order Logic]]
 - [[Quantifiers]]
 	- [[Bounded and Free Variables]]
+	- [[Nested Quantifiers]]
 - [[English-FOL Translation]]
+	- [[Numerical-FOL Translation]]
