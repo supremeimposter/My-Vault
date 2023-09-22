@@ -1,0 +1,7 @@
+{
+  "id": "custom-callout-plugin",
+  "name": "Custom Callout Plugin",
+  "version": "1.0.0",
+  "main": "main.js"
+}
+
