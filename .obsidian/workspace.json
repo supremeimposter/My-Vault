@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0973ca91c02863bd",
+        "id": "c0cf6fcaf3b799a3",
         "type": "tabs",
         "children": [
           {
-            "id": "a64619645021ba82",
+            "id": "83a6e3b6b89301bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -74,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md"
-              }
+              "state": {}
             }
           },
           {
@@ -193,26 +183,31 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-map-view:Open map view": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "templater-obsidian:Templater": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a64619645021ba82",
+  "active": "145ab42fd1c419a0",
   "lastOpenFiles": [
-    "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
+    "templates/daily-notes-template.md",
+    "templates",
+    "GATE-LOG.md",
+    "daily-agenda",
+    "2023-09-23.md",
     "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
+    "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
     "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
     "DiscreteMathematics/First-Order-Logic/Numerical-FOL Translation.md",
+    "attachments/Pasted image 20230923072528.png",
+    "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
     "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
     "DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md",
     "~/Downloads/output.pdf.md",
     "~/Downloads",
     "~",
     "DiscreteMathematics/First-Order-Logic/Bounded and Free Variables.md",
-    "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
     "DiscreteMathematics/Mathematical Logic.md",
     "DiscreteMathematics/Discrete Mathematics.md",
     "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
@@ -228,7 +223,6 @@
     "attachments/Pasted image 20230920135108.png",
     "attachments/Pasted image 20230920101759.png",
     "attachments/Pasted image 20230920101319.png",
-    "attachments/Pasted image 20230919220922.png",
     "DiscreteMathematics/First-Order-Logic/Counter and Witness.md",
     "DiscreteMathematics/First-Order-Logic/Untitled.md",
     "DiscreteMathematics/Propositional-Logic/Implication.md",
@@ -236,17 +230,11 @@
     "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
     "DiscreteMathematics/First-Order-Logic/Predicates.md",
     "DiscreteMathematics/Propositional-Logic/Limitations of Propositional Logic.md",
-    "DiscreteMathematics/Propositional-Logic/Propositional Variables vs Propositional Formulae.md",
     "DiscreteMathematics/First-Order-Logic",
-    "DiscreteMathematics/Propositional-Logic/Rules of Inference.md",
-    "DiscreteMathematics/Propositional-Logic/Important Logical Equivalences.md",
-    "DiscreteMathematics/Propositional-Logic/Analysis of Equivalence of Propositions.md",
     "C/Types",
     "C/Types",
     "C/Binary and 2'complements",
     "C",
-    "DiscreteMathematics/Propositional-Logic",
-    "Propositional-Logic",
-    "DiscreteMathematics"
+    "DiscreteMathematics/Propositional-Logic"
   ]
 }

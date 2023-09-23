@@ -138,3 +138,5 @@ This is just a convention and not all the authors use it.
 
 - Quantifiers have higher precedence than all the logical operators.
 - To avoid ambiguity, always use proper paranthesis.
+
+---

@@ -1,10 +1,7 @@
-> [!tip] Pg No. 87
+> [!tip] Pg No. 86
 > DM-23/First-Order-Logic/english-fol_translation.pdf
 
 ```ad-note
-$\forall$ uses $\rightarrow$
-$\exists$ uses $\land$
----
 at least = $\exists$
 at most = $\forall$
 exactly = both quantifiers with $\exists$ in the outer and $\forall$ as the inner quantifier
