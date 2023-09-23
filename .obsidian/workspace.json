@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "75a23d59a5b0f0dd",
+        "id": "7482b837ae1c0af9",
         "type": "tabs",
         "children": [
           {
-            "id": "fee381269c4e0b4d",
+            "id": "3c6c1b569bb6a65b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 246.5,
+    "collapsed": true
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -173,7 +174,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -196,20 +198,22 @@
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "templater-obsidian:Templater": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "fee381269c4e0b4d",
+  "active": "3c6c1b569bb6a65b",
   "lastOpenFiles": [
-    "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
+    "templates/lecture-notes-template.md",
     "daily-agenda/2023-09-23.md",
+    "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
+    "GATE-LOG.md",
+    "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
+    "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
     "templates/daily-notes-template.md",
     "templates",
-    "GATE-LOG.md",
     "daily-agenda",
     "2023-09-23.md",
-    "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
-    "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
     "DiscreteMathematics/First-Order-Logic/Numerical-FOL Translation.md",
     "attachments/Pasted image 20230923072528.png",
     "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
@@ -240,7 +244,6 @@
     "DiscreteMathematics/Propositional-Logic/Unless.md",
     "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
     "DiscreteMathematics/First-Order-Logic/Predicates.md",
-    "DiscreteMathematics/Propositional-Logic/Limitations of Propositional Logic.md",
     "DiscreteMathematics/First-Order-Logic",
     "C/Types",
     "C/Types",
