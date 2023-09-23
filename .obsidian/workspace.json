@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "c0cf6fcaf3b799a3",
+        "id": "75a23d59a5b0f0dd",
         "type": "tabs",
         "children": [
           {
-            "id": "83a6e3b6b89301bf",
+            "id": "fee381269c4e0b4d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -69,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -89,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md"
+              }
             }
           },
           {
@@ -189,15 +199,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "145ab42fd1c419a0",
+  "active": "fee381269c4e0b4d",
   "lastOpenFiles": [
+    "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
+    "daily-agenda/2023-09-23.md",
     "templates/daily-notes-template.md",
     "templates",
     "GATE-LOG.md",
     "daily-agenda",
     "2023-09-23.md",
     "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
-    "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
     "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
     "DiscreteMathematics/First-Order-Logic/Numerical-FOL Translation.md",
     "attachments/Pasted image 20230923072528.png",
