@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7482b837ae1c0af9",
+        "id": "ed45dd4deddea943",
         "type": "tabs",
         "children": [
           {
-            "id": "3c6c1b569bb6a65b",
+            "id": "c9a73fa2cca0e5f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -202,15 +201,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "3c6c1b569bb6a65b",
+  "active": "c9a73fa2cca0e5f1",
   "lastOpenFiles": [
-    "templates/lecture-notes-template.md",
-    "daily-agenda/2023-09-23.md",
+    "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
+    "DiscreteMathematics/First-Order-Logic/Notes yet to be taken.md",
     "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
+    "daily-agenda/2023-09-23.md",
+    "templates/daily-notes-template.md",
+    "templates/lecture-notes-template.md",
     "GATE-LOG.md",
     "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
-    "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
-    "templates/daily-notes-template.md",
     "templates",
     "daily-agenda",
     "2023-09-23.md",
@@ -239,7 +239,6 @@
     "attachments/Pasted image 20230920101759.png",
     "attachments/Pasted image 20230920101319.png",
     "DiscreteMathematics/First-Order-Logic/Counter and Witness.md",
-    "DiscreteMathematics/First-Order-Logic/Untitled.md",
     "DiscreteMathematics/Propositional-Logic/Implication.md",
     "DiscreteMathematics/Propositional-Logic/Unless.md",
     "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",

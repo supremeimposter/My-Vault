@@ -6,6 +6,6 @@
 - [ ] Task 3
 - [ ] Task 4
 
-# Notes
+# My thoughts on today
 
 
