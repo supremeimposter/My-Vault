@@ -28,7 +28,6 @@ $$
 \exists x\; \exists y\; \alpha \equiv \exists y\; \exists x\; \alpha
 $$
 
-
 ## Standard templates
 
 $$
@@ -50,8 +49,7 @@ $$
 - There is a number which is larger than all the number = false
 
 ```ad-note
-For every given nested quantified statements, use the diagram method to understand and interpret the given predicate <mark style="background: #BBFABBA6;">pg 38 - 40</mark>
+For every given nested quantified statements, use the diagram method to understand and interpret the given predicate <mark style="background: #BBFABBA6;">Pg 38 - 40</mark>
 ```
 
 - how to read nested quantification of more than 2 quantifiers. <mark style="background: #BBFABBA6;">Pg no. - 95</mark>
-- 

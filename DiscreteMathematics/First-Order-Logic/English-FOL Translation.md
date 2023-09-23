@@ -84,10 +84,19 @@ lec-16.pdf Pg No. 62 - Restricted domain example
 > DM-24/MOD-4-FOL/lec-10-17.pdf
 > DM-23/First-Order-Logic/english-fol_translation.pdf
 
-> [!caution] One Confusing case you have to be careful
-> #### Not all P's are Q's
-> - Not all cats are fluffy == there is some cat which is not fluffy
-> - Not all cats are fluffy is right and "All cats are not fluffy" is ambiguous, it gives two meanings in english.
+## Confusing cases you have to be careful
+#### Not all P's are Q's
+- Not all cats are fluffy == there is some cat which is not fluffy
+- "Not all cats are fluffy" is right and "All cats are not fluffy" is ambiguous, it gives two meanings in English.
+
+#### All P's are not Q's
+- It is not the cases that some students in this class are from NUS
+- All the students in this class are NOT from NUS.
+- $\neg \exists x\; (NUS(x)) \equiv \forall x\; (\neg\; P(x))$
+
+- There is a cute puppy
+- $\neg$ There is a cute puppy $\equiv$ There is no cute puppy (avoid this type) $\equiv$ No puppy is cute
+- $\neg \exists x\; (cute(x) \land puppy(x)) \equiv \forall x\; (puppy((x) \rightarrow \neg cute(x)))$
 
 ---
 

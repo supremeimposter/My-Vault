@@ -1,0 +1,2 @@
+- [ ] negation of quantifier lec 31
+- [ ] 
