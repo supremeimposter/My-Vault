@@ -23,9 +23,10 @@
 ## Relevant elements in the domain U
 
 ![[Pasted image 20230923072528.png]]
+
 - To make the universal quantifier false, the counter example has to be from the relevant elements.
 - To make the existential quantifier true, the witness has to be from the relevant elements.
-- We should make a translation which  does not consider when a non-relevant element makes the universal quantifier false or existential quantifier true.
+- We should make a translation which does not consider when a non-relevant element makes the universal quantifier false or existential quantifier true.
 ---
 ## Fundamental (Frequently used) expression of FOL
 
