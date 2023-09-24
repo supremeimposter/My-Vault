@@ -9,3 +9,4 @@
 - [[English-FOL Translation]]
 	- [[Numerical-FOL Translation]]
 	- [[Nested Quantifiers]]
+- [[Validity of FOL expressions]]
