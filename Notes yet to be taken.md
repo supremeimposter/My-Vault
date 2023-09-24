@@ -1,3 +1,3 @@
 
-- [ ] [[First Order Logic]] negation of quantifier lec 31
+- [ ] [[First Order Logic]] lec 31, 32, 33, 34, 35, 36
 - [ ] 
