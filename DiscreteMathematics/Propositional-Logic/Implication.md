@@ -45,7 +45,7 @@ q is also called consequence, conclusion.
 - The claim is true whenever P is false or Q is true
 
 - Understanding of [[Necessary vs Sufficient]] is essential to understand the [[Equivalent forms of If P, then Q]] and [[Arguments and Inference]].
-- If **X implies Y**, then $X \rightarrow Y$ is a [[Tautology]] and if **X does NOT imply Y**, then $X \rightarrow Y$, is a [[Contingency]] or [[Contradiction]] (falsifiable).
+- If **X implies Y**, then $X \rightarrow Y$ is a [[Tautology in Propositional Logic]] and if **X does NOT imply Y**, then $X \rightarrow Y$, is a [[Contingency]] or [[Contradiction]] (falsifiable).
 
 ```ad-note
 $X \rightarrow Y$ is a tautology, if and only if X logically implies Y which is represented by $X \Rightarrow Y$

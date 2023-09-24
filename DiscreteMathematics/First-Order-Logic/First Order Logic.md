@@ -10,3 +10,4 @@
 	- [[Numerical-FOL Translation]]
 	- [[Nested Quantifiers]]
 - [[Validity of FOL expressions]]
+	- [[Distribution of Quantifiers over Logical Connectives]]

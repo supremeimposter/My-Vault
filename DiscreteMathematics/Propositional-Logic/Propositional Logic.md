@@ -66,7 +66,7 @@ Questions such as "the given sentence is proposition or not" will never be asked
 - [[Logical Connectives]]
 - [[Converse, Inverse and Contra-positive]]
 - [[Classes of Propositional Expressions]]
-	- [[Tautology]]
+	- [[Tautology in Propositional Logic]]
 	- [[Contradiction]]
 	- [[Contingency]]
 - [[Logical Equivalence]]

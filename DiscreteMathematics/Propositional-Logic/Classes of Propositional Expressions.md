@@ -1,5 +1,5 @@
 In compound propositions, there are three classes of propositions
-1. [[Tautology]] 
+1. [[Tautology in Propositional Logic]] 
 2. [[Contradiction]]
 3. [[Contingency]]
 ![[Pasted image 20230911165832.png]]
