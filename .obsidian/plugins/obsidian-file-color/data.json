@@ -1,4 +1,20 @@
 {
-  "palette": [],
+  "palette": [
+    {
+      "id": "nrm5FOxWPPJVOWLUj_1WZ",
+      "name": "red",
+      "value": "#ff6b6b"
+    },
+    {
+      "id": "U8E-5ecM7q69n-ps8gbOI",
+      "name": "light-blue",
+      "value": "#56eef0"
+    },
+    {
+      "id": "3XLhOcySEWqDKZjC4mev4",
+      "name": "light-green",
+      "value": "#69ff05"
+    }
+  ],
   "fileColors": []
 }
