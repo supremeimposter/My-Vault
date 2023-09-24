@@ -18,7 +18,7 @@
 	- If P = False, then $\alpha = \neg Q$
 ![[Pasted image 20230912194306.png]]
 
-- In case of [[Tautology in Propositional Logic]] and [[Contradiction]], you will be getting only $\top \text{ and } \bot$ respectively.
+- In case of [[Tautology in PL]] and [[Contradiction]], you will be getting only $\top \text{ and } \bot$ respectively.
 
 ```ad-help
 Since the outputs for each case are in the different forms of another variable (q and $\neg$ q), it can be inferred that there are mixed outputs (both True and False).

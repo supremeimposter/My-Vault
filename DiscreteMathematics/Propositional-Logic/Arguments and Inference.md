@@ -32,7 +32,7 @@ $$
 ---
 ### Validity of Arguments
 
-- This is same as [[Tautology in Propositional Logic#Method 4 - Implication|implication method]] but with the addition that if you make the RHS of the implication false, then you have to make **all of the premises** in the LHS as true to prove it as NOT a tautology.
+- This is same as [[Tautology in PL#Method 4 - Implication|implication method]] but with the addition that if you make the RHS of the implication false, then you have to make **all of the premises** in the LHS as true to prove it as NOT a tautology.
 - An argument is valid if and only if all the premises are true, and then the conclusion is true.
 - [[AND (Conjunction)]] is used to connect all the premises.
 

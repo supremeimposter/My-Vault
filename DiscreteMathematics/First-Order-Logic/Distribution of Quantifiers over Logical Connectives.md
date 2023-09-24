@@ -1,5 +1,5 @@
 ---
-pdf: lec-36
+pdf: lec-36, lec-37
 date: 2023-09-24-16:41
 version: DM-2024
 ---
@@ -47,3 +47,7 @@ $$
 > When there are different connectives used on the either sides, refer [[Validity of FOL expressions#FOL expressions with Implication|here]].
 
 - $\forall x\; (P(x) \leftrightarrow Q(x)) \rightarrow \exists x\; P(x) \oplus \; \forall x\; Q(x)$ is invalid and the table is useless here.
+
+> [!summary] Can you make the expression falsifiable at least once? 
+> - Yes, then it is invalid. 
+> - No, then it is valid.

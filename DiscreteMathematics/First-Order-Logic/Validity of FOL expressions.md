@@ -28,7 +28,7 @@ version: DM-2024
 - $S = \alpha \rightarrow \beta$ , where $\alpha \; and\; \beta$ are FOL expressions.
 - To prove that the given FOL expression S to be invalid, $\alpha$ has to be True and $\beta$ has to be False.
 - Take a non-empty abstract domain containing {a, b, c, $\ldots$}
-- There are two approaches as discussed in [[Tautology in Propositional Logic#Method 4 - Implication|Implication method]]. 
+- There are two approaches as discussed in [[Tautology in PL#Method 4 - Implication|Implication method]]. 
 - You can put any value (True or False) to the variables and check if the expression is still valid.
 
 > [!hint] Choose either of the approaches accordingly
