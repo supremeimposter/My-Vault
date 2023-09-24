@@ -1,3 +1,6 @@
+---
+date: "{{date}}-{{time}}"
+---
 
 # Task List
 
