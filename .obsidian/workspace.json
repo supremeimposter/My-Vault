@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
+                "file": "DiscreteMathematics/First-Order-Logic/Validity of FOL expressions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
+                "file": "DiscreteMathematics/First-Order-Logic/Validity of FOL expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
+                "file": "DiscreteMathematics/First-Order-Logic/Validity of FOL expressions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md"
+                "file": "DiscreteMathematics/First-Order-Logic/Validity of FOL expressions.md"
               }
             }
           },
@@ -203,14 +202,15 @@
   },
   "active": "c9a73fa2cca0e5f1",
   "lastOpenFiles": [
-    "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
-    "DiscreteMathematics/First-Order-Logic/Notes yet to be taken.md",
+    "templates/lecture-notes-template.md",
+    "DiscreteMathematics/First-Order-Logic/Validity of FOL expressions.md",
+    "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
+    "Notes yet to be taken.md",
     "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
+    "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
     "daily-agenda/2023-09-23.md",
     "templates/daily-notes-template.md",
-    "templates/lecture-notes-template.md",
     "GATE-LOG.md",
-    "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
     "templates",
     "daily-agenda",
     "2023-09-23.md",
@@ -242,7 +242,6 @@
     "DiscreteMathematics/Propositional-Logic/Implication.md",
     "DiscreteMathematics/Propositional-Logic/Unless.md",
     "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
-    "DiscreteMathematics/First-Order-Logic/Predicates.md",
     "DiscreteMathematics/First-Order-Logic",
     "C/Types",
     "C/Types",
