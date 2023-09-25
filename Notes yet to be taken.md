@@ -1,3 +1,3 @@
 
-- [ ] [[First Order Logic]] lec 31, 32, 33, 34, 35, 36
+- [ ] [[First Order Logic]] lec ~~31~~, ~~32, 33~~, 34, 35, 36, 37, 38
 - [ ] 

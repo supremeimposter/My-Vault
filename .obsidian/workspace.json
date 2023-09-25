@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md",
+                "file": "DiscreteMathematics/First-Order-Logic/Validity of FOL expressions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md",
+                "file": "DiscreteMathematics/First-Order-Logic/Validity of FOL expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md",
+                "file": "DiscreteMathematics/First-Order-Logic/Validity of FOL expressions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md"
+                "file": "DiscreteMathematics/First-Order-Logic/Validity of FOL expressions.md"
               }
             }
           },
@@ -219,11 +218,14 @@
   },
   "active": "786e84a707d287e7",
   "lastOpenFiles": [
+    "daily-agenda/2023-09-25.md",
+    "Notes yet to be taken.md",
+    "DiscreteMathematics/First-Order-Logic/Validity of FOL expressions.md",
+    "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
+    "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md",
     "attachments/Pasted image 20230925222345.png",
     "attachments/Pasted image 20230925222238.png",
     "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
-    "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md",
-    "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
     "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
     "attachments/Pasted image 20230925215833.png",
     "attachments/Pasted image 20230925215652.png",
@@ -233,13 +235,11 @@
     "attachments/Pasted image 20230925215434.png",
     "attachments/Pasted image 20230925215424.png",
     "DiscreteMathematics/First-Order-Logic/Bounded and Free Variables.md",
-    "Notes yet to be taken.md",
     "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
     "DiscreteMathematics/First-Order-Logic/Arguments in FOL.md",
     "attachments/Pasted image 20230925180426.png",
     "Untitled.canvas",
     "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
-    "DiscreteMathematics/First-Order-Logic/Validity of FOL expressions.md",
     "DiscreteMathematics/Propositional-Logic/Rules of Inference.md",
     "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
     "DiscreteMathematics/First-Order-Logic/Null Quantification.md",
@@ -252,13 +252,11 @@
     "Excalidraw/Drawing 2023-09-25 12.08.40.excalidraw.md",
     "Excalidraw",
     "DiscreteMathematics/Propositional-Logic/Implication.md",
-    "daily-agenda/2023-09-25.md",
     "daily-agenda/2023-09-24.md",
     "DiscreteMathematics/Propositional-Logic/NOR.md",
     "templates/lecture-notes-template.md",
     "templates",
     "daily-agenda",
-    "attachments/Pasted image 20230923072528.png",
     "~/Downloads",
     "~",
     "DiscreteMathematics/First-Order-Logic",
