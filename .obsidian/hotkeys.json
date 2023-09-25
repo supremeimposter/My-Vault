@@ -35,5 +35,13 @@
       ],
       "key": "P"
     }
+  ],
+  "editor:insert-callout": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
   ]
 }

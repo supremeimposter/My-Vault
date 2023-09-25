@@ -5,8 +5,30 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:DiscreteMathematics/First-Order-Logic  ",
+      "color": {
+        "a": 1,
+        "rgb": 16024965
+      }
+    },
+    {
+      "query": "path:DiscreteMathematics/Propositional-Logic  ",
+      "color": {
+        "a": 1,
+        "rgb": 9105919
+      }
+    },
+    {
+      "query": "path:daily-agenda  ",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.4859514388346019,
+  "scale": 0.5094913939882357,
   "close": true
 }

@@ -1,9 +1,21 @@
 
-.pdf-reference {
-  background-color: #212122;
-  border-left: 5px solid #00A8EE;
-  padding: 10px;
-  margin: 10px 0;
-  color: #f7f7f7;
+.callout[data-callout="brain"] {
+  --callout-color : 255, 172, 83;
+  --callout-icon : lucide-brain;
+}
+
+.callout[data-callout="file"] {
+  --callout-color : 200, 140, 255;
+  --callout-icon : lucide-file;
+}
+
+.callout[data-callout="search"] {
+  --callout-color : 255, 140, 140;
+  --callout-icon : lucide-search;
+}
+
+.callout[data-callout="title"] {
+  --callout-color : 105, 125, 216;
+  --callout-icon : lucide-arrow-big-right;
 }
 
