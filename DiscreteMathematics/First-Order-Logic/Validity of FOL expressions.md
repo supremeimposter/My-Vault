@@ -3,6 +3,8 @@ pdf: lec-32, lec-33, lec-34, lec-35
 date: 2023-09-24-11:22
 version: DM-2024
 ---
+> [!danger] Tautology is not same as valid in FOL
+
 > [!abstract] Just think about this
 > Can we somehow have an input to make an expression invalid? If not, then the expression is valid.
 
@@ -34,8 +36,10 @@ version: DM-2024
 > [!hint] Choose either of the approaches accordingly
 > Choose any one of the approaches based on which approach demands minimum number of cases to be explored.
 
+- $\alpha \models \beta$ means $\alpha \rightarrow \beta$ is valid in FOL ([[Arguments and Inference#Inference ( $ models$ )|Inference]]).   
+
 > [!help] An interesting observation
-> - For two FOL expressions to be logically equivalent, their implication must be valid.
+> - For two FOL expressions to be logically equivalent, their implication must be valid. It is discussed [[Distribution of Quantifiers over Logical Connectives|here]].
 > $\alpha \equiv \beta$ means $\alpha \rightarrow \beta$ and $\beta \rightarrow \alpha$ must be valid (tautology).
 
 ### Examples
@@ -45,8 +49,14 @@ version: DM-2024
 3. $\forall x \; (P(x) \lor Q(x)) \rightarrow \forall x\; P(x) \lor \forall x\; Q(x)$ is invalid but satisfiable.
 4. $\forall x\; P(x) \lor \forall x\; Q(x) \rightarrow \forall x \; (P(x) \lor Q(x))$ is valid.
 
-> [!note] Extended note
-> Detailed discussion on quantifiers over logical connectives using implication is [[Distribution of Quantifiers over Logical Connectives|here]] 
+---
+
+## [[Null Quantification|Null Quantified Expressions]]
+
+- In case of Null quantified expressions, then the FOL expressions can be checked for validity using by-case method with the predicate or the proposition in the FOL expression as the cases. i.e. A = True and A = False.
+
+> [!warning] Do not take any bounded variable predicate as cases.
+> $\forall x\; P(x) \lor A$, A can be a case, but P(x) CANNOT be cases.
 
 
-
+---

@@ -1,6 +1,6 @@
 - These are the frequently used valid argument forms
 - These define how can we correctly infer new information from existing information.
-
+ 
 ## Table of Rules of Inference
 ![[Pasted image 20230915094652.png]]
 

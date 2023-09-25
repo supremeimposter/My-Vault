@@ -37,13 +37,14 @@ $$
 
 ### Points to remember the above table
 - For universal quantifier, for all the arrow operators, only compact to expanded is valid.
-- Due to De-morgan's law of complement, $\forall \; and \;\exists$ , they are opposites of each other over $\land\; and \; \lor$.
+- Due to De-Morgan's law of complement, $\forall \; and \;\exists$ , they are opposites of each other over $\land\; and \; \lor$.
 - $\oplus$ and $\leftrightarrow$ are complements of each other.
 - The empty cell indicates it is not valid on both cases.
 - $\forall$ over $\oplus$ is invalid. $\exists$ over $\leftrightarrow$ is invalid.
 - $\rightarrow, \; \uparrow ,\; \downarrow\;$ are basically facing each other.
 
 > [!note] This table is only when the same connective is used on the either side
+> This is the distribution of quantifiers over logical connectives.
 > When there are different connectives used on the either sides, refer [[Validity of FOL expressions#FOL expressions with Implication|here]].
 
 - $\forall x\; (P(x) \leftrightarrow Q(x)) \rightarrow \exists x\; P(x) \oplus \; \forall x\; Q(x)$ is invalid and the table is useless here.
@@ -51,3 +52,8 @@ $$
 > [!summary] Can you make the expression falsifiable at least once? 
 > - Yes, then it is invalid. 
 > - No, then it is valid.
+
+#### Some Tips
+- $\neg\;P(x)\; \lor \; \neg \; Q(x)$ can be considered as $A(x) \; \lor \; B(x)$.
+- When complements are used in the expression, De-Morgan's law of complement can be used.
+

@@ -32,7 +32,7 @@ $$
 ---
 ### Validity of Arguments
 
-- This is same as [[Tautology in PL#Method 4 - Implication|implication method]] but with the addition that if you make the RHS of the implication false, then you have to make **all of the premises** in the LHS as true to prove it as NOT a tautology.
+- This is same as [[Tautology in PL#Method 4 - Implication|implication method]] but with the addition that if you make the RHS of the implication false, then you have to make **all of the premises** in the LHS as true to prove it as NOT a tautology. This is the most preferred method for Propositional Logic. 
 - An argument is valid if and only if all the premises are true, and then the conclusion is true.
 - [[AND (Conjunction)]] is used to connect all the premises.
 
@@ -57,12 +57,12 @@ $$
 ---
 ## Inference ( $\models$ )
 - If $\text{ KB }$ is Knowledge base (set of all premises or hypothesis or assumptions), then
-$$\text{KB } \models Y \textbf{ if and only if KB }\rightarrow Y \text{is tautology }$$
+$$\text{KB } \models Y \text{ if and only if KB }\rightarrow Y \text{is tautology }$$
 - "Y is logically inferred by KB" or "KB infers Y"
 - If KB is true, then Y should NOT be false. Or else it is NOT a tautology and KB does not infer Y.
 
 ```ad-tip
-**infer == deduce == entail == imply == deduction == derive**
+infer == deduce == entail == imply == deduction == derive
 ```
 
 - The basic idea is the [[Necessary vs Sufficient]]. 
@@ -143,7 +143,6 @@ logical consequence == logical inference == logical implication == logical entai
 ```
 
 ---
-
 
 ```ad-summary
 - The analysis of valid arguments is all about proving whether a given compound propsition $\alpha = KB \rightarrow Y$ is a tautology or not.

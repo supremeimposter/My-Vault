@@ -10,6 +10,7 @@ If $\alpha \equiv \beta$, then $\alpha \leftrightarrow \beta$ is a tautology.
 ---
 ### Method 2 - By-case 
 - If both cases are True, then the given proposition is a tautology.
+- For any case, it should not give False.
 	![[Pasted image 20230912104202.png]]
 	- Case (a) and (b) are True for whatever values of P, then it means $\alpha$ is a tautology.
 	

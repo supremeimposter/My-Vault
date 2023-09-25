@@ -18,7 +18,6 @@
 2. $\forall y \not= 0\; (y^3 \not= 0) \equiv$ For all $y \not= 0, \; y^3 \not= 0 \equiv$ Cube of non-zero real numbers is non-zero
 3. $\exists z > 0\; (z^2 = 2) \equiv$ For some z > 0, $z^2 = 2$
 
-
 ---
 ## Relevant elements in the domain U
 
@@ -98,7 +97,8 @@ lec-16.pdf Pg No. 62 - Restricted domain example
 - $\neg$ There is a cute puppy $\equiv$ There is no cute puppy (avoid this type) $\equiv$ No puppy is cute
 - $\neg \exists x\; (cute(x) \land puppy(x)) \equiv \forall x\; (puppy((x) \rightarrow \neg cute(x)))$
 
----
+> [!attention] $\forall x\; \neg P(x) \not\equiv \exists \neg\; P(x)$
+
 
 
 
