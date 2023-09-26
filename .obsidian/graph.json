@@ -27,18 +27,32 @@
         "a": 1,
         "rgb": 0
       }
+    },
+    {
+      "query": "path:C  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084188
+      }
+    },
+    {
+      "query": "path:TheoryOfComputation  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5094913939882357,
+  "scale": 0.3733649570973639,
   "close": true
 }
