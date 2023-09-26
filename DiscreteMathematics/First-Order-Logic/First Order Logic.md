@@ -6,11 +6,15 @@
 - [[Features of First Order Logic]]
 - [[Quantifiers]]
 	- [[Bounded and Free Variables]]
-	- [[Null Quantification]]
 - [[English-FOL Translation]]
 	- [[Numerical-FOL Translation]]
 	- [[Nested Quantifiers]]
 	- [[Negation of Quantifiers]]
 - [[Validity of FOL expressions]]
-	- [[Distribution of Quantifiers over Logical Connectives]]
+	- [[Equivalence of FOL expressions]]
+- [[Null Quantification]]
 - [[Arguments in FOL]]
+
+
+- [[Doubts - FOL]]
+---

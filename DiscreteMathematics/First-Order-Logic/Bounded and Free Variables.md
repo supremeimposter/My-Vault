@@ -56,6 +56,7 @@ Free variables' name should NEVER be changed.
 
 ---
 ### When does quantifiers have no effect on variables?
+
 - Quantifiers have no effect on a predicate, if there are no free variables to bound.
 - If $\alpha$ does not contain the free variable $x$, then
 $$
