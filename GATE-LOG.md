@@ -54,3 +54,7 @@
 **September 25, 2023** I am taking notes just for the sake of taking notes. I want it to be formatted, or look better if someone looks at it. But the thing is, it doesn't matter how good my notes look.
 
 **September 25, 2023** Deepak Poonia and Sachin Mittal are the gems. Seriously I have been wasting a lot of time doing useless things. I somehow got into the hands of the best teachers of GATE right now in my country. I am going to use this opportunity and make the best of them.
+
+**September 26, 2023** If you see something new, don't worry about whether you should study this also. If you feel like you want to learn this, just learn this if you have time, or else just skip and come back later. Just stop worrying on seeing new added topics.
+
+**September 26, 2023** I spend more time worrying about pending lectures rather than focusing on the current lecture or the current subject. I should just stop worrying and utilise the time. 8 hours a days is enough to complete the syllabus. Just keep on going.
