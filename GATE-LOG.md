@@ -58,3 +58,11 @@
 **September 26, 2023** If you see something new, don't worry about whether you should study this also. If you feel like you want to learn this, just learn this if you have time, or else just skip and come back later. Just stop worrying on seeing new added topics.
 
 **September 26, 2023** I spend more time worrying about pending lectures rather than focusing on the current lecture or the current subject. I should just stop worrying and utilise the time. 8 hours a days is enough to complete the syllabus. Just keep on going.
+
+**September 27, 2023** Deepak Poonia sir is a hard-worker. He gave a 2:19:47 hours introduction to Theory of Computation. That video is the love and command he has over TOC, obtained after hard work and great understanding. From now, my motivation is not to score good rank and get into IIT'S, but to obtain the knowledge which he has and provides. The introduction just inspires me to work harder.
+
+**September 28, 2023** Always use {obsidian + pdf} to study and revise. Don't try to type everything into obsidian. Just type some important or your observations or something you have been confused and cleared about it.
+
+**September 28, 2023** To get into IISc, first I have to read the question carefully and clearly.
+
+**September 28, 2023** Spending some good amount of time in understanding the basics helps in understanding the complex concepts. It's not a waste of time fiddling with the basics.
