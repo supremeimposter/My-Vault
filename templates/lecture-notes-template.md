@@ -1,5 +1,6 @@
 ---
 pdf: 
-date: "{{date}}-{{time}}"
+module: 
+date: 
 version:
 ---
