@@ -7,5 +7,5 @@ version: TOC-24
 # Module 1
 - [[Introduction to Theory of Computation]]
 - [[Basic Concepts]]
-- [[What does Theory of Computation does]]
+- [[What does Theory of Computation do]]
 - 
