@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a88a20cd4c0a7ddb",
+        "id": "9a7aaa6b37ee2ccf",
         "type": "tabs",
         "children": [
           {
-            "id": "0a334925152c2ae4",
+            "id": "2368ca713e36e44b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheoryOfComputation/Introduction to Theory of Computation.md",
+                "file": "TheoryOfComputation/What does Theory of Computation does.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Introduction to Theory of Computation.md",
+                "file": "TheoryOfComputation/What does Theory of Computation does.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Introduction to Theory of Computation.md",
+                "file": "TheoryOfComputation/What does Theory of Computation does.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Introduction to Theory of Computation.md"
+                "file": "TheoryOfComputation/What does Theory of Computation does.md"
               }
             }
           },
@@ -200,14 +200,32 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0a334925152c2ae4",
+  "active": "2368ca713e36e44b",
   "lastOpenFiles": [
-    "attachments/Pasted image 20230927002436.png",
-    "attachments/Pasted image 20230927002342.png",
-    "Notes yet to be taken.md",
-    "TheoryOfComputation/Introduction to Theory of Computation.md",
+    "daily-agenda/2023-09-28.md",
+    "TheoryOfComputation/What does Theory of Computation does.md",
     "TheoryOfComputation/Theory of Computation.md",
+    "TheoryOfComputation/Introduction to Theory of Computation.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts.md",
+    "GATE-materials/Links for Resources.md",
+    "GATE-materials",
     "GATE-LOG.md",
+    "templates/lecture-notes-template.md",
+    "templates/daily-notes-template.md",
+    "attachments/Pasted image 20230928153633.png",
+    "attachments/Pasted image 20230928152921.png",
+    "attachments/Pasted image 20230928111302.png",
+    "attachments/Pasted image 20230928105953.png",
+    "attachments/Pasted image 20230928095942.png",
+    "attachments/Pasted image 20230928095257.png",
+    "attachments/Pasted image 20230928095221.png",
+    "attachments/Pasted image 20230928091345.png",
+    "attachments/Pasted image 20230928090516.png",
+    "attachments/Pasted image 20230928090459.png",
+    "Notes yet to be taken.md",
+    "daily-agenda/2023-09-27.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata",
+    "Regular Languages and Finite Automata",
     "Pending Lectures.md",
     "TheoryOfComputation",
     "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
@@ -217,17 +235,8 @@
     "daily-agenda/2023-09-23.md",
     "daily-agenda/2023-09-26.md",
     "DiscreteMathematics/First-Order-Logic/Arguments in FOL.md",
-    "attachments/Pasted image 20230926171628.png",
-    "attachments/Pasted image 20230926171603.png",
-    "attachments/Pasted image 20230926171452.png",
-    "attachments/Pasted image 20230926171108.png",
     "README.md",
-    "attachments/Pasted image 20230926165755.png",
-    "attachments/Pasted image 20230926165431.png",
-    "attachments/Pasted image 20230926165309.png",
-    "attachments/Pasted image 20230926165250.png",
     "DiscreteMathematics/First-Order-Logic/Equivalence of FOL expressions.md",
-    "attachments/Pasted image 20230926163729.png",
     "DiscreteMathematics/First-Order-Logic/Doubts - FOL.md",
     "DiscreteMathematics/First-Order-Logic/Null Quantification.md",
     "DiscreteMathematics/First-Order-Logic/Bounded and Free Variables.md",
@@ -235,19 +244,10 @@
     "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
     "DiscreteMathematics/First-Order-Logic/Logical Equivalence of FOL expressions.md",
     "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
-    "daily-agenda/2023-09-25.md",
-    "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md",
-    "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
-    "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
     "Untitled.canvas",
-    "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
-    "DiscreteMathematics/Propositional-Logic/Rules of Inference.md",
     "Excalidraw",
     "templates",
     "daily-agenda",
-    "~/Downloads",
-    "~",
-    "DiscreteMathematics/First-Order-Logic",
-    "C/Types"
+    "~/Downloads"
   ]
 }

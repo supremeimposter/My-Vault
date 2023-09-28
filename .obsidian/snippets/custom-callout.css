@@ -4,6 +4,11 @@
   --callout-icon : lucide-brain;
 }
 
+.callout[data-callout="youtube"] {
+  --callout-color : 205, 32, 31;
+  --callout-icon : lucide-youtube;
+}
+
 .callout[data-callout="file"] {
   --callout-color : 200, 140, 255;
   --callout-icon : lucide-file;

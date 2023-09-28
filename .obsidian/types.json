@@ -5,6 +5,7 @@
     "tags": "tags",
     "date": "datetime",
     "pdf": "text",
-    "version": "text"
+    "version": "text",
+    "module": "number"
   }
 }
