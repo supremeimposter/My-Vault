@@ -20,8 +20,10 @@ version: TOC-24
 > [!NOTE] A set should NOT contain any duplicates
 
 - $\Sigma$ = {a, b, c, ..., z}
+#### Examples
 - C language has ASCII characters are alphabet
 - Tamil has its letters as alphabet
+
 - There are n-ary alphabets based on their cardinality.
 
 1. Unary alphabets : $\Sigma_1$ = {0}, $\Sigma_2$ = {a}, $\Sigma_3$ = {7}, $\Sigma_4$ = {#}, ...
@@ -69,6 +71,7 @@ version: TOC-24
 ### Length of a string
 
 - Length of a string = number of occurrences of symbols. Repeated characters are also counted.
+- If $u$ is a string, then $|u^n| = n|u|$
 
 Examples:
 ![[Pasted image 20230927123706.png]]
@@ -90,6 +93,11 @@ Examples:
 ![[Pasted image 20230927124354.png]]
 
 - If two strings $w_1,\; w_2$ are different, then $w^R_1, \; w^R_2$ are also different.
+- If $w \in \Sigma$, then $w^R = w$ i.e. $w$ is a symbol.
+- If $a$ and $x$ are two strings over $\Sigma$, then
+$$
+(a \cdot x)^R = x^R \cdot a^R
+$$
 
 ### Concatenation of Strings
 
@@ -164,12 +172,13 @@ Examples:
 ## Language
 
 - Language is any set of strings.
+- A language L is defined over an alphabet $\Sigma$.
 - A Language L over an alphabet $\Sigma$ iff L is a subset of $\Sigma^*$ over an alphabet $\Sigma$. $\Sigma^*$ is also a language.
 - L = $\{\}$ , L is called an empty language, which is denoted by $\phi$.
 	- $\phi \not= \{\epsilon\}$
 - There are infinite languages which contain infinite strings and there are also finite languages which contains finite strings.
 - It is not necessary for a language to contain $\epsilon$.
-- An alphabet $\Sigma$ can be considered as a Language, because symbols can be considered as length `1` strings.
+- An alphabet $\Sigma$ is a Language, because symbols can be considered as length `1` strings.
 
 > [!faq] When doing analysis on Languages, always have a case of $L = \{\epsilon\}$ and $L = \phi$
 
@@ -180,7 +189,6 @@ Examples:
 
 > [!help] Language is the result of operation on a language.
 
-
 ### Reversal of a Language
 
 - The reversal of a language $L^R$ contains every string reversed in the language $L$, not the ordering of the strings in the language.
@@ -189,6 +197,8 @@ L^R = \{\; w^R \; | \; w \in L \;\}
 $$
 - $|L| = |L^R|$
 - If every string in L is a palindrome, then $L = L^R$, but the converse is not true.
+- $(L_{1} \cup L_{2})^R = L_1^R \cup L_2^R$ for all languages $L_1$ and $L_2$.
+- $(L_1 \cdot L_2)^R = L_2^R \cdot L_1^R$
 
 > [!NOTE] A set has no ordering of elements.
 
@@ -222,7 +232,15 @@ $$
 $$
 L^* = L^0 \cup L^1 \cup L^2 \cup \ldots
 $$
+- $L^*$ is not guaranteed to have all the strings
+	- $L = \phi$, then $L^* = \{\epsilon\}$
 - $\Sigma^{*}$ is the set of all strings, because an alphabet contains symbols, whose concatenation gives strings of all length over $\Sigma$, whereas $L^*$ contains strings over $\Sigma$, whose concatenation is not guaranteed to give all the strings.
+- $\Sigma^k$ is the set of all `k` length strings over the alphabet $\Sigma$.
+- $(\Sigma^*)^* = \Sigma^*$ 
+
+- Any number of Kleene star operations done on $L^{*}$ is always $L^{*}$. i.e $(L^{*})^n = L^{*}\;, n \ge 1$
+
+- $(L^*)^R = (L^R)^*$
 
 ### Kleene Plus ($\; L^{+} \;$)
 - Positive closure of a language L.
@@ -245,3 +263,41 @@ $$
 
 
 ![[Pasted image 20230928085345.png]]
+
+
+### Complement of a language
+
+> [!attention] Carefully look at the examples in the pdf
+
+- Languages are defined over an alphabet $\Sigma$ and every language is a subset of $\Sigma^*$
+- For a language over $\Sigma$,
+$$
+\bar{L} = \Sigma^* - L
+$$
+$$
+\bar{L} = \{ w |w\not\in L \}
+$$
+$$
+L \; \cup\; \bar{L} = \Sigma^*
+$$
+- At lease one of $L$ , $\bar{L}$ is an infinite $set$, since $\Sigma^*$ is an infinite set.
+
+![[Pasted image 20230928153633.png]]
+
+- Given a language, think about what strings are not in the language with respect to the alphabet.
+- For any language $L$ for which $\bar{(L^{*})} \not= (\bar{L})^*$
+
+#### String VS symbol in a Language definition
+- For an alphabet $\Sigma=\{a,b\}$,
+	- $w \in \Sigma$ means, $w$ is a symbol and NOT a string. $w$ here is a single character from $\Sigma$.
+	- $w \in \Sigma^*$ means, $w$ is a string over $\Sigma$.
+
+---
+
+> [!youtube] Homework 1 Solutions
+> [Part 1](https://www.youtube.com/watch?v=Yp8AcoLAO_o&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=2)
+> [Part 2](https://www.youtube.com/watch?v=PjoTWbeUygM&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=2)
+> [Part 3, Q6-Q10](https://www.youtube.com/watch?v=tdrGbsjQmDQ&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=3)
+> [Part 4, Q-11](https://www.youtube.com/watch?v=0eq9n5Yzyfo&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=4)
+
+
