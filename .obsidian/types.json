@@ -6,6 +6,7 @@
     "date": "datetime",
     "pdf": "text",
     "version": "text",
-    "module": "number"
+    "module": "number",
+    "lecture": "text"
   }
 }
