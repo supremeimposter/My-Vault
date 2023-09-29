@@ -14,7 +14,7 @@ version: TOC-24
 ---
 ## Alphabet $\Sigma$
 
-- Non-empty finite set of symbols.
+- **Non-empty** finite set of symbols.
 - Members of alphabets are Symbols.
 
 > [!NOTE] A set should NOT contain any duplicates

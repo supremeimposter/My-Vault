@@ -4,7 +4,7 @@ date: 2023-09-26-22:07
 version: TOC-24
 ---
 
-[Why Theory of Computation? What is the motivation of Theory of Computation](https://www.youtube.com/watch?v=3MAwb_kF2FI)
+> [!youtube] [Why Theory of Computation? What is the motivation of Theory of Computation](https://www.youtube.com/watch?v=3MAwb_kF2FI)
 
 - Theory of Computation deals with what are the problems that are solvable by computers.
 - Algorithm computes a function. A problem is a function. So algorithm solves a problem.

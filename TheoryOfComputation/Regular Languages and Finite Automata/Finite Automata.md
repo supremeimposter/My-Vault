@@ -1,0 +1,52 @@
+---
+pdf: lec-5-7A, lec 7B-88D
+module: 1
+lecture: "7"
+date: 2023-09-29T14:49:00
+version: TOC-24
+---
+- Turing Machine with finite amount of space.
+
+> [!question] What is a Finite Automaton?
+> Finite Automaton is a set of states connected by transitions.
+
+- Finite Automata is 5 tuple computational model.
+	- Finite non-empty set of states $Q$
+	- Initial State $q_0$ - only one state, not a set. $q_0 \in Q$
+	- Input alphabet $\Sigma$ - non-empty finite set of symbols
+	- Set of final or desired states $F \subseteq Q$
+	- Transition function $\delta : (Q \times \Sigma) \rightarrow Q$ 
+
+
+- Final state is indicated by Double circles which are the desirable states.
+- Initial state can also be the final or desirable state depending on the machine definition.
+- States contain all the possibilities of the requirements for the language.
+
+> [!example] Look at the examples in the PDF
+> - Logic behind a light bulb
+> - Logic behind a fan regulator
+> - Logic behind a wall mart door
+> - Recognise set of all even length strings
+
+---
+### Input Tape
+- Contains the input string in forms of cells.
+- Each cell has one alphabet symbol.
+- The input tape is read from left to right one by one.f
+- The input tape for a null string $\epsilon$ is a single empty cell. 
+
+### Finite Control
+- Contains all the setup (5 tuples) of the finite automata.
+
+### Initial configuration
+- Initial configuration or snapshot or situation is when the initial state reads the first symbol in the input string.
+
+### String Acceptance
+- String acceptance and language acceptance are different.
+- All the accepted strings are collected under the set of the language of the automata.
+
+### Language of the FA
+- Language of the FA must contain ALL and ONLY strings that are accepted by the finite automata A. It is denoted by $\mathscr{L}(A)$.
+$$
+\mathscr{L}(A) = \{ w \in \Sigma^* \; | \; A \text{ accepts } w \}
+$$
