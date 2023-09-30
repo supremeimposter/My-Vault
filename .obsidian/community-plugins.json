@@ -26,6 +26,7 @@
   "oz-image-plugin",
   "oz-clear-unused-images",
   "heatmap-calendar",
-  "obsidian-file-color",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-style-settings",
+  "obsidian-icon-folder"
 ]

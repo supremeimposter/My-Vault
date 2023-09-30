@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "9a7aaa6b37ee2ccf",
+        "id": "78462cdad1d32a48",
         "type": "tabs",
         "children": [
           {
-            "id": "139202f981487529",
+            "id": "add370bbed73baf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheoryOfComputation/What does Theory of Computation do.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e3819400df1d0d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "introduction",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md"
+                "file": "DiscreteMathematics/Set-Theory/Set Definition.md"
               }
             }
           },
@@ -187,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -214,14 +200,29 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1e3819400df1d0d6",
+  "active": "add370bbed73baf4",
   "lastOpenFiles": [
+    "attachments/Pasted image 20230930231135.png",
+    "attachments/Pasted image 20230930231018.png",
+    "attachments/Pasted image 20230930230929.png",
+    "DiscreteMathematics/Set Theory.md",
+    "DiscreteMathematics/Set-Theory/Set Definition.md",
+    "daily-agenda/2023-09-30.md",
+    "attachments/Pasted image 20230930222915.png",
+    "DiscreteMathematics/Discrete Mathematics.md",
+    "DiscreteMathematics/Mathematical Logic.md",
+    "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
+    "DiscreteMathematics/Set  Theory.md",
+    "DiscreteMathematics/Set-Theory",
+    "Set-Theory",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
     "TheoryOfComputation/What does Theory of Computation do.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
+    "TheoryOfComputation/Theory of Computation.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
     "attachments/Pasted image 20230929222305.png",
-    "TheoryOfComputation/Theory of Computation.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts.md",
     "daily-agenda/2023-09-29.md",
     "templates/lecture-notes-template.md",
     "TheoryOfComputation/Introduction to Theory of Computation.md",
@@ -236,9 +237,6 @@
     "attachments/Pasted image 20230928105953.png",
     "attachments/Pasted image 20230928095942.png",
     "attachments/Pasted image 20230928095257.png",
-    "attachments/Pasted image 20230928095221.png",
-    "attachments/Pasted image 20230928091345.png",
-    "attachments/Pasted image 20230928090516.png",
     "Notes yet to be taken.md",
     "daily-agenda/2023-09-27.md",
     "TheoryOfComputation/Regular Languages and Finite Automata",
@@ -246,21 +244,10 @@
     "Pending Lectures.md",
     "TheoryOfComputation",
     "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
-    "Aptitude/Verbal-Ability/Verbal-Ability.md",
     "Aptitude/Verbal-Ability",
     "Aptitude",
-    "daily-agenda/2023-09-23.md",
-    "daily-agenda/2023-09-26.md",
-    "DiscreteMathematics/First-Order-Logic/Arguments in FOL.md",
-    "README.md",
-    "DiscreteMathematics/First-Order-Logic/Equivalence of FOL expressions.md",
-    "DiscreteMathematics/First-Order-Logic/Doubts - FOL.md",
-    "DiscreteMathematics/First-Order-Logic/Null Quantification.md",
-    "DiscreteMathematics/First-Order-Logic/Bounded and Free Variables.md",
     "Untitled.canvas",
     "Excalidraw",
-    "templates",
-    "daily-agenda",
-    "~/Downloads"
+    "templates"
   ]
 }

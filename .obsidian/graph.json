@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:DiscreteMathematics/First-Order-Logic  ",
@@ -22,13 +22,6 @@
       }
     },
     {
-      "query": "path:daily-agenda  ",
-      "color": {
-        "a": 1,
-        "rgb": 0
-      }
-    },
-    {
       "query": "path:C  ",
       "color": {
         "a": 1,
@@ -41,9 +34,16 @@
         "a": 1,
         "rgb": 6084269
       }
+    },
+    {
+      "query": "path:Aptitude  ",
+      "color": {
+        "a": 1,
+        "rgb": 14074460
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,

@@ -1,0 +1,15 @@
+{
+  "obsidian-prism-theme@@pt-titlebar-hide-text": false,
+  "obsidian-prism-theme@@pt-status-bar-style": "pt-status-bar-position-fixed",
+  "obsidian-prism-theme@@pt-fixed-status-bar-align": "pt-fixed-status-bar-align-right",
+  "obsidian-prism-theme@@pt-disable-blur": false,
+  "obsidian-prism-theme@@color-schemes-lt": "pt-color-scheme-peach-lt",
+  "obsidian-prism-theme@@color-scheme-style-lt": "pt-color-scheme-style-minimal-lt",
+  "obsidian-prism-theme@@accent-style-lt": "pt-accent-style-plain-lt",
+  "obsidian-prism-theme@@highlight-text-accent-lt": "pt-highlight-text-dark-lt",
+  "obsidian-prism-theme@@color-scheme-style-dt": "pt-color-scheme-style-minimal-dt",
+  "obsidian-prism-theme@@accent-style-dt": "pt-accent-style-plain-dt",
+  "obsidian-prism-theme@@light-mark-highlight-style": "pt-highlight-style-filled-lt",
+  "obsidian-prism-theme@@dark-mark-highlight-style": "pt-highlight-style-filled-dt",
+  "obsidian-prism-theme@@pt-icons-accent": true
+}
