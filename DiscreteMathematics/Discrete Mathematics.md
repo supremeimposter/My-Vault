@@ -10,3 +10,4 @@ Example : integers, humans, eggs, etc...
 ![[Pasted image 20230907225144.png]]
 
 ## [[Mathematical Logic]]
+## [[Set Definition]]
