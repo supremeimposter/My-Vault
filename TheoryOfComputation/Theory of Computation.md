@@ -10,4 +10,5 @@ version: TOC-24
 - [[Basic Concepts]]
 - [[What does Theory of Computation do]]
 - [[Finite Automata]]
+- [[Regular Languages]]
 - 

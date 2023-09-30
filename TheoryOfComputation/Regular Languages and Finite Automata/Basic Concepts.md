@@ -68,6 +68,9 @@ version: TOC-24
 > - $\{\}$ is a null set which can be represented by $\phi$.
 > - $\{\epsilon\}$ is a NOT a null set but it contains an empty string
 
+- Every string starts with $\epsilon$
+	- For a string $w, w = \epsilon w = w \epsilon$
+
 ### Length of a string
 
 - Length of a string = number of occurrences of symbols. Repeated characters are also counted.

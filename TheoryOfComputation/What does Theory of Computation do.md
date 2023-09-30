@@ -23,5 +23,5 @@ version: TOC-24
 
 - Set of ALL and ONLY strings which are acceptable by the automata $A$ is called the language of $A$ denoted by $\mathscr{L}(A)$.
 - Only strings which lead to the final or desired state after scanning all the symbols are accepted by the machine.
-- Automata are called acceptor as they accept only the strings which are from the language $\mathscr{L}(A)$.
+- Automata are called accepter as they accept only the strings which are from the language $\mathscr{L}(A)$.
 - The result of an Automaton are either YES or NO.

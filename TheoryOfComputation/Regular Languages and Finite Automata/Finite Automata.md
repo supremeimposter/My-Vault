@@ -14,7 +14,7 @@ version: TOC-24
 	- Finite non-empty set of states $Q$
 	- Initial State $q_0$ - only one state, not a set. $q_0 \in Q$
 	- Input alphabet $\Sigma$ - non-empty finite set of symbols
-	- Set of final or desired states $F \subseteq Q$
+	- Set of final or desired states $F \subseteq Q$. F can be $\phi$ 
 	- Transition function $\delta : (Q \times \Sigma) \rightarrow Q$ 
 
 
@@ -35,6 +35,8 @@ version: TOC-24
 - The input tape is read from left to right one by one.f
 - The input tape for a null string $\epsilon$ is a single empty cell. 
 
+> [!brain] Null string $\epsilon$ is not a symbol
+
 ### Finite Control
 - Contains all the setup (5 tuples) of the finite automata.
 
@@ -50,3 +52,16 @@ version: TOC-24
 $$
 \mathscr{L}(A) = \{ w \in \Sigma^* \; | \; A \text{ accepts } w \}
 $$
+
+### What if there are NO final states?
+- Since there is NO accepting state, NO strings will be accepted by the machine.
+- The language of the machine $\mathscr{L}(A) = \phi$ 
+
+### Two Problems in FA
+1. When there is no definition for a transition function from a particular state for a given input symbol.
+2. When there is a ambiguous definition for a transition function from a particular state for a given input symbol.
+
+- Because of the above two issues, there are two types of FA
+	1. [[Deterministic Finite Automata]]
+	2. [[Non-Deterministic Finite Automata]]
+
