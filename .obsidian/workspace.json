@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -203,6 +202,7 @@
   },
   "active": "5d6ba818fb9af87d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20231001130340.png",
     "DiscreteMathematics/Propositional-Logic/OR (Disjunction).md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts.md",
@@ -244,7 +244,6 @@
     "Regular Languages and Finite Automata",
     "Pending Lectures.md",
     "TheoryOfComputation",
-    "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
     "Aptitude/Verbal-Ability",
     "Aptitude",
     "Untitled.canvas",
