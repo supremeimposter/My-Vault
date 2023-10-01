@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eed6f5581f987b72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -74,7 +87,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -202,10 +216,12 @@
   },
   "active": "5d6ba818fb9af87d",
   "lastOpenFiles": [
+    "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts.md",
     "attachments/Pasted image 20231001130340.png",
     "DiscreteMathematics/Propositional-Logic/OR (Disjunction).md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts.md",
     "DiscreteMathematics/Set-Theory/Set Definition.md",
     "DiscreteMathematics/Discrete Mathematics.md",
     "attachments/Pasted image 20230930231135.png",
@@ -221,7 +237,6 @@
     "Set-Theory",
     "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages.md",
     "TheoryOfComputation/What does Theory of Computation do.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
     "TheoryOfComputation/Theory of Computation.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
     "attachments/Pasted image 20230929222305.png",
@@ -237,7 +252,6 @@
     "attachments/Pasted image 20230928152921.png",
     "attachments/Pasted image 20230928111302.png",
     "attachments/Pasted image 20230928105953.png",
-    "attachments/Pasted image 20230928095942.png",
     "Notes yet to be taken.md",
     "daily-agenda/2023-09-27.md",
     "TheoryOfComputation/Regular Languages and Finite Automata",

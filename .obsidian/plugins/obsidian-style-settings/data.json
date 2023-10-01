@@ -71,5 +71,19 @@
   "big-and-bold-theme@@theme-select-light": "theme-matcha-light",
   "big-and-bold-theme@@file-emoji": "Noto Color Emoji",
   "maple-workspace@@tab-title-bar-round": false,
-  "maple-editor@@code-mac-style-header": true
+  "maple-editor@@code-mac-style-header": true,
+  "serenity-theme@@color-scheme-select": "theme-nord-s",
+  "serenity-theme@@color-accent-class-select": "cyan-accent",
+  "serenity-theme@@contrast-light": "medium-contrast-light",
+  "serenity-theme@@custom-color-scheme-light": false,
+  "serenity-theme@@hide-vault-title": false,
+  "serenity-theme@@prominent-folders": true,
+  "pln@@pln-hi-line": false,
+  "custom-diegoeis-obsidianotion@@eis-small-pinned-tabs": false,
+  "custom-diegoeis-obsidianotion@@eis-with-icons": true,
+  "custom-diegoeis-obsidianotion@@eis-hide-ribbon": false,
+  "perso@@theme-rounded": true,
+  "perso@@theme-black": false,
+  "perso@@show-nav-icon": false,
+  "at-theme-settings@@at-colorful-headings": true
 }
