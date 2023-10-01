@@ -65,3 +65,9 @@ $$
 	1. [[Deterministic Finite Automata]]
 	2. [[Non-Deterministic Finite Automata]]
 
+### Transition Table
+
+- This is the tabular representation of Transition function $\delta$
+- Table of states VS alphabet symbols
+- $\rightarrow$ is used to represent initial state
+- $*$ is used to represent final states
