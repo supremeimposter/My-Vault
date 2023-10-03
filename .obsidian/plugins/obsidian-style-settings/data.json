@@ -85,5 +85,9 @@
   "perso@@theme-rounded": true,
   "perso@@theme-black": false,
   "perso@@show-nav-icon": false,
-  "at-theme-settings@@at-colorful-headings": true
+  "at-theme-settings@@at-colorful-headings": true,
+  "Components@@folder-font-bold": true,
+  "Components@@file-names-untrim": false,
+  "Components@@file-icon-style-select": "file-icon-fill",
+  "Appearance-light@@card-highlight-light": false
 }
