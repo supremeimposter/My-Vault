@@ -3,5 +3,6 @@ pdf:
 module: 
 lecture: 
 date: 
-version:
+version: 
+last-revision:
 ---
