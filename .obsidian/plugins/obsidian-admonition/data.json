@@ -1,5 +1,19 @@
 {
-  "userAdmonitions": {},
+  "userAdmonitions": {
+    "bookmark": {
+      "type": "bookmark",
+      "color": "184, 20, 20",
+      "icon": {
+        "name": "bookmark",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Bookmark",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    }
+  },
   "syntaxHighlight": false,
   "copyButton": false,
   "version": "10.0.1",
@@ -15,7 +29,10 @@
     "other": true,
     "advanced": false
   },
-  "icons": [],
+  "icons": [
+    "octicons",
+    "rpg"
+  ],
   "useFontAwesome": true,
   "rpgDownloadedOnce": false,
   "msDocConverted": false,

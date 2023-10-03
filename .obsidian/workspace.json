@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ec727c6cfe950a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE-LOG.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts.md"
               }
             }
           },
@@ -178,8 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5,
-    "collapsed": true
+    "width": 337.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,10 +215,13 @@
   },
   "active": "e81d9de63f2e1ab5",
   "lastOpenFiles": [
-    "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
-    "C/Types/Types.md",
+    "GATE-LOG.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts.md",
+    "templates/lecture-notes-template.md",
+    "attachments/Pasted image 20231003213204.png",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages.md",
+    "C/Types/Types.md",
     "attachments/Pasted image 20230928090459.png",
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
@@ -230,18 +245,14 @@
     "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
     "attachments/Pasted image 20230929222305.png",
     "daily-agenda/2023-09-29.md",
-    "templates/lecture-notes-template.md",
     "TheoryOfComputation/Introduction to Theory of Computation.md",
     "daily-agenda/2023-09-28.md",
     "GATE-materials/Links for Resources.md",
     "GATE-materials",
-    "GATE-LOG.md",
     "templates/daily-notes-template.md",
     "attachments/Pasted image 20230928153633.png",
     "attachments/Pasted image 20230928152921.png",
-    "attachments/Pasted image 20230928111302.png",
     "Notes yet to be taken.md",
-    "daily-agenda/2023-09-27.md",
     "TheoryOfComputation/Regular Languages and Finite Automata",
     "Regular Languages and Finite Automata",
     "TheoryOfComputation",

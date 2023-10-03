@@ -5,7 +5,8 @@
   "theme": "moonstone",
   "baseFontSize": 20,
   "enabledCssSnippets": [
-    "custom-callout"
+    "custom-callout",
+    "custom-admonitions.971f1e"
   ],
   "nativeMenus": false
 }
