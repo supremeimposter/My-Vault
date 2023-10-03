@@ -1,7 +1,7 @@
 ---
 pdf: lec-7B-8D, lec-8E-10B
 module: 1
-lecture: 8,9
+lecture: 8,9,10
 date: 2023-09-30T09:10:00
 version: TOC-24
 ---
@@ -40,3 +40,20 @@ $$
 $$
 \delta^* \;(q,\;a \cdot w) = \delta^* \;(\delta\;(q, a), w)
 $$
+
+## Regular Languages
+
+- Power set of a set S is the set of all the subsets of S.
+- Power set of $\Sigma^*$ is the set of all the subsets of $\Sigma^*$ i.e. Power set of $\Sigma^*$ is the set of all the languages.
+
+- A language is regular if and only if there exists some [[Deterministic Finite Automata|DFA]] M such that $L = L(M)$
+- A language which is recognised by DFA is called a regular language. A language which is not recognised by DFA is called a Non-regular language.
+$$
+\text{Regular Language } L \leftrightarrow L \text{ recognized by DFA}
+$$
+
+### DFA for complement of a regular language
+
+> [!youtube] [video](https://www.youtube.com/watch?v=HE2iPU8qZaQ)
+
+
