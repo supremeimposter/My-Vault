@@ -111,3 +111,29 @@ $$
 > $\{a, b, \{1, 2\} \} \subseteq S$ but $\{a, b, \{1\} \} \not\subseteq S$
 
 ![[Pasted image 20231004140030.png]]
+
+
+## PowerSet
+
+- The Powerset $\mathcal{P}(S)$ is the set of all subsets of the set $S$ .
+$$
+\mathcal{P}(S) = \{ T \; | \; T \subseteq S \}
+$$
+
+![[Pasted image 20231004135955.png]]
+
+##### Powerset of $\phi$
+- $\mathcal{P}(\phi) = \phi$
+- $|\mathcal{P}(\phi)| = 1$ but $|\phi| = 0$
+
+##### Powerset of $\{\phi\}$
+- $\mathcal{P}(\{\phi\}) = \{  \{\}, \{ \phi \}  \}$
+
+### Number of subsets for a set
+- For creating a subset for a set $S$, there are two choices for each element.
+	1. The element appears
+	2. The element does not appear
+
+- For a set $S$ containing `n` elements, number of subsets of $S = 2^n$
+- For any set $S$, $|\mathcal{P}(S)| = 2^{|S|}$
+- $|\mathcal{P}\;|\mathcal{P}(S)|\;| = 2^{|\mathcal{P}(S)|}$
