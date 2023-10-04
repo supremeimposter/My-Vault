@@ -12,6 +12,18 @@
       "injectColor": true,
       "noTitle": false,
       "copy": false
+    },
+    "intuition": {
+      "type": "intuition",
+      "color": "251, 60, 226",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-box"
+      },
+      "command": false,
+      "title": "Intuition",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,
@@ -36,6 +48,6 @@
   "useFontAwesome": true,
   "rpgDownloadedOnce": false,
   "msDocConverted": false,
-  "useSnippet": false,
+  "useSnippet": true,
   "snippetPath": "custom-admonitions.971f1e"
 }

@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +87,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
+                "file": "DiscreteMathematics/Set-Theory/Set Definition.md"
               }
             }
           },
@@ -234,11 +234,14 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "4a25449d35b47aeb",
+  "active": "a9e3f026da5f25e2",
   "lastOpenFiles": [
+    "attachments/Pasted image 20231004140030.png",
+    "attachments/Pasted image 20231004135955.png",
+    "attachments/Pasted image 20231004134616.png",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
     "DiscreteMathematics/Set-Theory/Set Definition.md",
     "Untitled.loom",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
     "attachments/Pasted image 20231004095309.png",
     "attachments/Pasted image 20231004094955.png",
     "attachments/Pasted image 20231004094943.png",
@@ -252,10 +255,8 @@
     "attachments/Pasted image 20231003213204.png",
     "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages.md",
     "C/Types/Types.md",
-    "attachments/Pasted image 20230928090459.png",
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
-    "attachments/Pasted image 20231001130340.png",
     "DiscreteMathematics/Propositional-Logic/OR (Disjunction).md",
     "DiscreteMathematics/Discrete Mathematics.md",
     "DiscreteMathematics/Set Theory.md",
