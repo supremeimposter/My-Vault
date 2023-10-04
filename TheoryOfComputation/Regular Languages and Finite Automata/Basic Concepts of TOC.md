@@ -136,9 +136,12 @@ $$
 
 ### Prefix, Suffix and Substring of a string
 
-- Prefix can be obtained from the left end whereas suffix can be obtained from the right end and a substring can obtained from anywhere consecutively.
-
-- Empty string can be a prefix, or a suffix or a substring.
+- Prefix can be obtained from the left end whereas suffix can be obtained from the right end and a substring can obtained from anywhere to anywhere but consecutively.
+- For a string $w$,
+	- $u$ is the prefix of $w$ iff $w = u\;v$ for some $v$
+	- $u$ is the suffix of $w$ iff $w = v\;u$ for some $v$
+	- $u$ is the substring of $w$ iff $w = v\;u\;y$ for some $v, y$
+- $\epsilon$ can be a prefix, or a suffix or a substring.
 - A proper prefix is a prefix other than the string itself. It is the same for suffix and substring.
 
 ![[Pasted image 20230928090451.png]]
@@ -149,28 +152,37 @@ $$
 
 > [!attention] Pay attention
 > ![[Pasted image 20230928091345.png]]
-- Every prefix or suffix is a substring.
+- Every prefix or suffix of $w$ is a substring $w$.
 
 #### Number of prefixes, suffixes and sub strings of a string
 - For a string $w$ of length `n`, 
 	- number of prefixes = $n + 1$
 	- number of suffixes = $n + 1$
 	- number of sub strings 
-		- minimum = $n + 1$
-		- maximum = $\frac{n(n + 1)}{2} + 1$
+		- minimum (All the symbols are same) = $n + 1$ 
+		- maximum (All the symbols are different) = $\frac{n(n + 1)}{2} + 1$ 
 
 - For any string, no of `k` length prefixes or suffixes are exactly 1, but for a substring it can be many.
 
+![[Pasted image 20231004093608.png]]
+
 - There are two cases in finding the number of sub strings for a string $w$
-	1. All symbols are same in the string.
+
+1. All symbols are same in the string.
 ![[Pasted image 20230928095257.png]]
-	2. All symbols are different in the string.
+
+1. All symbols are different in the string
+![[Pasted image 20231004094155.png]]
+
 ![[Pasted image 20230928095221.png]]
 
-### Subsequence of a string
-- A string formed by deleting any (or none) symbols but preserving the relative position of the remaining symbols.
-- Any number of sub-sequences can be formed out of a string $w$.
+Example
+![[Pasted image 20231004093717.png]]
 
+### Subsequence of a string
+- A string formed from the original string by deleting any (or none) symbols but preserving the relative position of the remaining symbols.
+- Any number of sub-sequences can be formed out of a string $w$.
+![[Pasted image 20231004094713.png]]
 ---
 
 ## Language
@@ -239,8 +251,12 @@ $$
 - $L^*$ is not guaranteed to have all the strings
 	- $L = \phi$, then $L^* = \{\epsilon\}$
 - $\Sigma^{*}$ is the set of all strings, because an alphabet contains symbols, whose concatenation gives strings of all length over $\Sigma$, whereas $L^*$ contains strings over $\Sigma$, whose concatenation is not guaranteed to give all the strings.
+- Set notation for $\Sigma^*$ for a non-unary alphabet cannot be written because it is an infinite set
+![[Pasted image 20231004095309.png]]
 - $\Sigma^k$ is the set of all `k` length strings over the alphabet $\Sigma$.
 - $(\Sigma^*)^* = \Sigma^*$ 
+![[Pasted image 20231004094943.png]]
+![[Pasted image 20231004094955.png]]
 
 - Any number of Kleene star operations done on $L^{*}$ is always $L^{*}$. i.e $(L^{*})^n = L^{*}\;, n \ge 1$
 

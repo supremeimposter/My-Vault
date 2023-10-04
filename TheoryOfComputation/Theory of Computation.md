@@ -7,7 +7,7 @@ version: TOC-24
 # Module 1 - Regular Languages and Finite Automata
 
 - [[Introduction to Theory of Computation]]
-- [[Basic Concepts]]
+- [[Basic Concepts of TOC]]
 - [[What does Theory of Computation do]]
 - [[Finite Automata]]
 - [[Regular Languages]]
