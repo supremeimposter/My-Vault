@@ -6,8 +6,8 @@ date: 2023-09-30T20:19:00
 version: DM-2024
 ---
 
-- Set is a collection of any elements.
-- The elements don't have to have any correlation between them and even sets can be elements of a set.
+- Set is a collection of any elements or sets.
+- The elements don't have to have any correlation between them.
 
 ## Properties of Set
 - Set Properties - unordered and distinct elements
@@ -62,3 +62,52 @@ version: DM-2024
 ![[Pasted image 20230930231018.png]]
 
 ![[Pasted image 20230930231135.png]]
+
+## Subsets
+
+> [!NOTE] If there are two sets $P$ and $Q$ and $P \subseteq Q$ iff
+> $\forall x\; (x \in P \rightarrow x \in Q)$
+
+- A subset is a sub-collection while a set is a super collection of elements.
+- Every element in P must be in Q for $P \subseteq Q$ .
+- A subset of a set $P$ can be formed by removing one or many or none of the elements from the set $P$.
+- Null set or empty set - a set that contains no element - $\phi$
+- Every set is its subset.
+	- A set $Q$ then, $Q \subseteq Q$
+- $\phi$ is a subset of every set.
+	- For a set $Q$, $\phi \subseteq Q$ .
+	- $\phi \subseteq \phi$ 
+
+- Venn diagram showing that $A \subseteq B$
+![[Pasted image 20231004134616.png]]
+
+### Proper Subset
+- A set $P$ is a proper subset of $Q$, iff $P \subseteq Q$ but $P \not= Q$.
+- Proper subset can also be denoted by $\subset$
+
+![[Pasted image 20231004135955.png]]
+
+### Subsets vs Elements
+> [!brain] Do not confuse between $\in$ and $\subseteq$
+
+- Consider the set S,
+$$
+S = \{ a, b, \{1, 2\}, z, 1 \}
+$$
+- The elements of set are 
+	- $a$
+	- $b$
+	- $\{ 1, 2 \}$
+	- $z$
+	- $1$
+- $|S|$ = 5
+
+> [!question] different variations
+> $a \in S$
+> $\{a\} \not\in S$ but $\{a\} \subseteq S$
+> $\{1, 2\} \in S$ but $\{2\} \not\in S$
+> $\{z\} \subseteq S$ but $\{z\} \not\in S$
+> $\{ \{1, 2\} \} \subseteq S$ but $\{ \{1, 2\} \} \not\in S$
+> $\{a, b, \{1, 2\} \} \subseteq S$ but $\{a, b, \{1\} \} \not\subseteq S$
+
+![[Pasted image 20231004140030.png]]
