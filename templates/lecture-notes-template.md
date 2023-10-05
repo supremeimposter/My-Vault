@@ -3,6 +3,7 @@ pdf:
 module: 
 lecture: 
 date: 
-version: 
-last-revision:
+version: []
+last-revision: 
+notes-taken: false
 ---
