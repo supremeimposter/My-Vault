@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d37b606d7233cb0e",
+        "id": "a9409b1ae5499287",
         "type": "tabs",
         "children": [
           {
-            "id": "a9e3f026da5f25e2",
+            "id": "8bea64fddd269033",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,19 +21,46 @@
             }
           },
           {
-            "id": "4a25449d35b47aeb",
+            "id": "ad47e1df9b40cd6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Operations and Proofs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0aed20613ffbc767",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Set Identities.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a1599fdd7656ec9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set Theory.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -62,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "introduction",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,8 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -109,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Identities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Identities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Definition.md"
+                "file": "DiscreteMathematics/Set-Theory/Set Identities.md"
               }
             }
           },
@@ -222,7 +248,6 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "templater-obsidian:Templater": false,
       "oz-clear-unused-images:Clear Unused Images": false,
@@ -234,32 +259,36 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "a9e3f026da5f25e2",
+  "active": "0aed20613ffbc767",
   "lastOpenFiles": [
+    "DiscreteMathematics/Set-Theory/Set Operations and Proofs.md",
+    "DiscreteMathematics/Set-Theory/Set Identities.md",
+    "DiscreteMathematics/Set Theory.md",
+    "Notes yet to be taken.md",
+    "templates/lecture-notes-template.md",
+    "DiscreteMathematics/Set-Theory/Set Definition.md",
+    "DiscreteMathematics/Set-Theory/Proofs involving sets.md",
+    "DiscreteMathematics/Set-Theory/Set Operations.md",
+    "DiscreteMathematics/Discrete Mathematics.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
+    "attachments/Pasted image 20231004182231.png",
+    "attachments/Pasted image 20231004182103.png",
     "attachments/Pasted image 20231004140030.png",
     "attachments/Pasted image 20231004135955.png",
     "attachments/Pasted image 20231004134616.png",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
-    "DiscreteMathematics/Set-Theory/Set Definition.md",
     "Untitled.loom",
     "attachments/Pasted image 20231004095309.png",
     "attachments/Pasted image 20231004094955.png",
     "attachments/Pasted image 20231004094943.png",
     "attachments/Pasted image 20231004094713.png",
     "attachments/Pasted image 20231004094155.png",
-    "attachments/Pasted image 20231004093717.png",
-    "attachments/Pasted image 20231004093608.png",
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
     "GATE-LOG.md",
-    "templates/lecture-notes-template.md",
-    "attachments/Pasted image 20231003213204.png",
     "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages.md",
     "C/Types/Types.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
     "DiscreteMathematics/Propositional-Logic/OR (Disjunction).md",
-    "DiscreteMathematics/Discrete Mathematics.md",
-    "DiscreteMathematics/Set Theory.md",
     "daily-agenda/2023-09-30.md",
     "DiscreteMathematics/Mathematical Logic.md",
     "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
@@ -271,11 +300,7 @@
     "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
     "daily-agenda/2023-09-29.md",
     "TheoryOfComputation/Introduction to Theory of Computation.md",
-    "daily-agenda/2023-09-28.md",
-    "GATE-materials/Links for Resources.md",
     "GATE-materials",
-    "templates/daily-notes-template.md",
-    "Notes yet to be taken.md",
     "TheoryOfComputation/Regular Languages and Finite Automata",
     "Regular Languages and Finite Automata",
     "TheoryOfComputation",

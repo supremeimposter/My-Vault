@@ -187,12 +187,12 @@ Example
 
 ## Language
 
-- Language is any set of strings.
+- A language is any set of strings.
 - A language L is defined over an alphabet $\Sigma$.
 - A Language L over an alphabet $\Sigma$ iff L is a subset of $\Sigma^*$ over an alphabet $\Sigma$. $\Sigma^*$ is also a language.
 - L = $\{\}$ , L is called an empty language, which is denoted by $\phi$.
 	- $\phi \not= \{\epsilon\}$
-- There are infinite languages which contain infinite strings and there are also finite languages which contains finite strings.
+- There are **infinite languages** which contain infinite strings and there are also **finite languages** which contains finite strings.
 - It is not necessary for a language to contain $\epsilon$.
 - An alphabet $\Sigma$ is a Language, because symbols can be considered as length `1` strings.
 

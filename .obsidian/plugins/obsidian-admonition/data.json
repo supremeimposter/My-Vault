@@ -24,6 +24,79 @@
       "title": "Intuition",
       "injectColor": true,
       "noTitle": false
+    },
+    "think": {
+      "type": "think",
+      "color": "0, 163, 245",
+      "icon": {
+        "name": "lightbulb",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Think",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "youtube": {
+      "type": "youtube",
+      "color": "245, 0, 0",
+      "icon": {
+        "name": "youtube",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Youtube",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "remember": {
+      "type": "remember",
+      "color": "124, 190, 80",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-brain"
+      },
+      "command": false,
+      "title": "Remember",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "pdf": {
+      "type": "pdf",
+      "color": "41, 219, 71",
+      "icon": {
+        "name": "file-pdf",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "PDF",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "search": {
+      "type": "search",
+      "color": "55, 30, 179",
+      "icon": {
+        "name": "search",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Search",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "lecture": {
+      "type": "lecture",
+      "color": "80, 219, 77",
+      "icon": {
+        "name": "video",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Lecture",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,

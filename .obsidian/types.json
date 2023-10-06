@@ -5,10 +5,11 @@
     "tags": "tags",
     "date": "datetime",
     "pdf": "text",
-    "version": "text",
+    "version": "multitext",
     "module": "number",
     "lecture": "text",
     "revision": "datetime",
-    "last-revision": "datetime"
+    "last-revision": "datetime",
+    "notes-taken": "checkbox"
   }
 }
