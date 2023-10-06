@@ -1,7 +1,7 @@
 ---
-pdf: lec-1-4
+pdf: lec-1-4, lec-5, lec-6-8
 module: 5
-lecture: lec-1
+lecture: 1, 2, 3, 4, 5, 6
 date: 2023-09-30T20:19:00
 version: DM-2024
 ---
@@ -25,6 +25,12 @@ version: DM-2024
 - If an object y "does not belong to" a set S then, $y \not\in S$
 
 - `X` $\not=$ { `X` } i.e. An element is not same as the element in a set.
+
+
+> [!intuition] 
+> If $x$ belongs to $Q$, then $x \in Q$ .
+> If $x$ does not belong to $Q$, then it can be denoted as  $x \not\in Q$ or $x \in \bar{Q}$ .
+
 
 ![[Pasted image 20230930222915.png]]
 
@@ -51,6 +57,8 @@ version: DM-2024
 > $\phi \not= \{ \phi \}$
 > $|\{ \phi \}| = 1$
 
+---
+
 ## Set Representation
 1. Verbal Representation
 2. Venn diagram
@@ -62,6 +70,8 @@ version: DM-2024
 ![[Pasted image 20230930231018.png]]
 
 ![[Pasted image 20230930231135.png]]
+
+---
 
 ## Subsets
 
@@ -80,6 +90,7 @@ version: DM-2024
 
 - Venn diagram showing that $A \subseteq B$
 ![[Pasted image 20231004134616.png]]
+- Subset relationship is transitive.
 
 ### Proper Subset
 - A set $P$ is a proper subset of $Q$, iff $P \subseteq Q$ but $P \not= Q$.
@@ -112,6 +123,7 @@ $$
 
 ![[Pasted image 20231004140030.png]]
 
+---
 
 ## PowerSet
 
@@ -129,6 +141,11 @@ $$
 ##### Powerset of $\{\phi\}$
 - $\mathcal{P}(\{\phi\}) = \{  \{\}, \{ \phi \}  \}$
 
+![[Pasted image 20231004182103.png]]
+![[Pasted image 20231004182231.png]]
+
+- $x \in \mathcal{P}(A)$ iff $x \subseteq A$
+
 ### Number of subsets for a set
 - For creating a subset for a set $S$, there are two choices for each element.
 	1. The element appears
@@ -137,3 +154,15 @@ $$
 - For a set $S$ containing `n` elements, number of subsets of $S = 2^n$
 - For any set $S$, $|\mathcal{P}(S)| = 2^{|S|}$
 - $|\mathcal{P}\;|\mathcal{P}(S)|\;| = 2^{|\mathcal{P}(S)|}$
+
+- Number of proper subsets for a set $S$ = $2^{|S|} - 1$
+---
+## Universal Set $(U)$
+- The Universal set $U$ is the set containing everything currently under consideration.
+- Content of $U$ depends on the context, sometimes explicitly stated, sometimes implicit.
+
+---
+## Disjoint Sets
+- Two sets $P$ and $Q$ are said to be disjoint, if they do not have any common elements.
+- $A = \phi$ and $B = \phi$ are also disjoint, since there is no element to be common.
+- $P = \{a\}$ and $Q = \phi$ are also disjoint, since there are no elements in $Q$ that are in $P$ .
