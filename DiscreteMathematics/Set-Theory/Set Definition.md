@@ -3,7 +3,9 @@ pdf: lec-1-4, lec-5, lec-6-8
 module: 5
 lecture: 1, 2, 3, 4, 5, 6
 date: 2023-09-30T20:19:00
-version: DM-2024
+version:
+  - DM-2024
+notes-taken: false
 ---
 
 - Set is a collection of any elements or sets.
@@ -41,7 +43,6 @@ version: DM-2024
 
 > [!brain] $\infty$ is not a number, it is a concept
 > $+\infty$ or $-\infty$ $\not\in$ any set.
-
 
 ## Cardinality of a set
 - Cardinality of a set $S$ is the number of element it contains. It is denoted by $|S|$
@@ -124,7 +125,9 @@ $$
 ![[Pasted image 20231004140030.png]]
 
 ### Important results
-- If $S \subseteq A$ and $S \subseteq B$, then $S \subseteq A \; \cap \; B$ 
+- If $S \subseteq A$ and $S \subseteq B$, then $S \subseteq A \; \cap \; B$ .
+- There can be two sets $A$ and $B$ such that $A \subseteq B$ and $A \in B$ 
+	- $A = \{1\}$ and $B = \{1, \; \{1\} \}$
 
 ---
 
@@ -166,6 +169,9 @@ $$
 ## Universal Set $(U)$
 - The Universal set $U$ is the set containing everything currently under consideration.
 - Content of $U$ depends on the context, sometimes explicitly stated, sometimes implicit.
+
+> [!suggestion] Universal Set not mentioned
+> If the Universal set is not mentioned or given in the question, consider the union of the given sets as the universal set
 
 ---
 ## Disjoint Sets

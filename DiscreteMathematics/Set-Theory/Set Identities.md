@@ -11,7 +11,6 @@ notes-taken: false
 
 > [!youtube] [Set Identities](https://www.youtube.com/watch?v=fN-5u7znwr0) - Lec-11
 
-
 ## Identity Elements for Set Operations
 
 | Operation            | Identity Element    |

@@ -97,6 +97,18 @@
       "title": "Lecture",
       "injectColor": true,
       "noTitle": false
+    },
+    "suggestion": {
+      "type": "suggestion",
+      "color": "224, 166, 6",
+      "icon": {
+        "name": "hand-point-up",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Suggestion",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,

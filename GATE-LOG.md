@@ -68,3 +68,5 @@
 **September 28, 2023** Spending some good amount of time in understanding the basics helps in understanding the complex concepts. It's not a waste of time fiddling with the basics.
 
 **October 3, 2023** You should take minified notes in obsidian. It clearly helps. You cannot look at a PDF which has more writings about the same thing. So watch lectures for the complete day and at the end of day, take notes from the PDF. Watching lectures for a complete day creates more context and you can avoid writing notes for silly things.
+
+**October 7, 2023** "Do not worry about silly mistakes you have done. Go and create new silly mistakes" --Deepak Poonia, 2023
