@@ -123,6 +123,9 @@ $$
 
 ![[Pasted image 20231004140030.png]]
 
+### Important results
+- If $S \subseteq A$ and $S \subseteq B$, then $S \subseteq A \; \cap \; B$ 
+
 ---
 
 ## PowerSet
@@ -131,6 +134,7 @@ $$
 $$
 \mathcal{P}(S) = \{ T \; | \; T \subseteq S \}
 $$
+- $x \in \mathcal{P}(A)$ iff $x \subseteq A$
 
 ![[Pasted image 20231004135955.png]]
 
@@ -144,7 +148,9 @@ $$
 ![[Pasted image 20231004182103.png]]
 ![[Pasted image 20231004182231.png]]
 
-- $x \in \mathcal{P}(A)$ iff $x \subseteq A$
+
+> [!important] Powerset of any set $S$ will have $\phi$ but it is NOT necessary for the set $S$ to contain $\phi$
+
 
 ### Number of subsets for a set
 - For creating a subset for a set $S$, there are two choices for each element.

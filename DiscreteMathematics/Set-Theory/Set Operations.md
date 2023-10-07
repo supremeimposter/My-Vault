@@ -1,7 +1,7 @@
 ---
 pdf: lec-6-8, lec-10-12
 module: 5
-lecture: 7, 8, 9, 10
+lecture: 7, 8, 9
 date: 2023-10-05T17:00:00
 version:
   - DM-24
@@ -9,6 +9,8 @@ last-revision: ""
 notes-taken: false
 ---
 # Set Operations
+
+> [!NOTE] The resultant of set operations is again a set
 
 - Cross Product $\times$ is the ordered pairs of elements of both sets.
 
@@ -28,17 +30,4 @@ notes-taken: false
 - $A = B$, iff $A \subseteq B$ and $B \subseteq A$
 
 ----
-
-# Proofs involving Sets
-
-> [!youtube]  [Proofs involving Sets](https://www.youtube.com/watch?v=MqdZvHmkgvo) lec-10
-
-
-## Proving a sub set relation
-
-1. Direct approach
-2. Contra positive approach
-
-## Proving Equality of Sets
-
 
