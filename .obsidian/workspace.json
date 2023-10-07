@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Operations and Proofs.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Operations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Identities.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Identities.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Identities.md"
+                "file": "DiscreteMathematics/Set-Theory/Set Definition.md"
               }
             }
           },
@@ -259,16 +258,16 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "0aed20613ffbc767",
+  "active": "8bea64fddd269033",
   "lastOpenFiles": [
-    "DiscreteMathematics/Set-Theory/Set Operations and Proofs.md",
-    "DiscreteMathematics/Set-Theory/Set Identities.md",
-    "DiscreteMathematics/Set Theory.md",
-    "Notes yet to be taken.md",
+    "DiscreteMathematics/Set-Theory/Set Operations.md",
+    "DiscreteMathematics/Set-Theory/Proofs involving Sets.md",
     "templates/lecture-notes-template.md",
+    "Pending Notes.md",
+    "DiscreteMathematics/Set Theory.md",
+    "DiscreteMathematics/Set-Theory/Set Identities.md",
     "DiscreteMathematics/Set-Theory/Set Definition.md",
     "DiscreteMathematics/Set-Theory/Proofs involving sets.md",
-    "DiscreteMathematics/Set-Theory/Set Operations.md",
     "DiscreteMathematics/Discrete Mathematics.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
     "attachments/Pasted image 20231004182231.png",
@@ -299,7 +298,6 @@
     "TheoryOfComputation/Theory of Computation.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
     "daily-agenda/2023-09-29.md",
-    "TheoryOfComputation/Introduction to Theory of Computation.md",
     "GATE-materials",
     "TheoryOfComputation/Regular Languages and Finite Automata",
     "Regular Languages and Finite Automata",
