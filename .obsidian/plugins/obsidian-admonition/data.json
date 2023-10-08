@@ -88,7 +88,7 @@
     },
     "lecture": {
       "type": "lecture",
-      "color": "80, 219, 77",
+      "color": "77, 113, 219",
       "icon": {
         "name": "video",
         "type": "font-awesome"
@@ -96,7 +96,8 @@
       "command": false,
       "title": "Lecture",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "suggestion": {
       "type": "suggestion",
@@ -124,7 +125,7 @@
     "admonitions": true,
     "icons": true,
     "other": true,
-    "advanced": false
+    "advanced": true
   },
   "icons": [
     "octicons",

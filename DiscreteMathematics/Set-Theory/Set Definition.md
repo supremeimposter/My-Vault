@@ -138,6 +138,7 @@ $$
 \mathcal{P}(S) = \{ T \; | \; T \subseteq S \}
 $$
 - $x \in \mathcal{P}(A)$ iff $x \subseteq A$
+- A set $A$ can be a subset of its powerset i.e. $A \subseteq \mathcal{P}(A)$ .
 
 ![[Pasted image 20231004135955.png]]
 

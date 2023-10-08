@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8bea64fddd269033",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ad47e1df9b40cd6d",
             "type": "leaf",
             "state": {
@@ -52,14 +39,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Set Theory.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -258,11 +246,12 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "8bea64fddd269033",
+  "active": "3a1599fdd7656ec9",
   "lastOpenFiles": [
-    "DiscreteMathematics/Set-Theory/Set Operations.md",
     "DiscreteMathematics/Set Theory.md",
     "DiscreteMathematics/Set-Theory/Set Identities.md",
+    "DiscreteMathematics/Set-Theory/Set Operations.md",
+    "daily-agenda/2023-10-08.md",
     "DiscreteMathematics/Set-Theory/Set Definition.md",
     "GATE-LOG.md",
     "README.md",
@@ -298,7 +287,6 @@
     "TheoryOfComputation/What does Theory of Computation do.md",
     "TheoryOfComputation/Theory of Computation.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
-    "daily-agenda/2023-09-29.md",
     "GATE-materials",
     "TheoryOfComputation/Regular Languages and Finite Automata",
     "Regular Languages and Finite Automata",
