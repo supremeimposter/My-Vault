@@ -38,7 +38,14 @@ notes-taken: false
 > [!youtube]  [Understanding Set Operations](https://www.youtube.com/watch?v=oAbWQomIEbU)
 > All variations of set operations - lec9
 
+- When an element $x$ does not belong to both of the sets $A$ and $B$.
+$$
+(\overline{A\cup B}) = \overline{A} \; \cap \; \overline{B} = \{x \;|\; x \not\in A \text{ and } x \not\in B \}
+$$
+
 ## Standard Results on Set Operations
+
+
 
 
 ----
