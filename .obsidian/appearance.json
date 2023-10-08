@@ -3,10 +3,11 @@
   "cssTheme": "Border",
   "showViewHeader": true,
   "theme": "moonstone",
-  "baseFontSize": 20,
+  "baseFontSize": 18,
   "enabledCssSnippets": [
     "custom-callout",
     "custom-admonitions.971f1e"
   ],
-  "nativeMenus": false
+  "nativeMenus": false,
+  "translucency": false
 }

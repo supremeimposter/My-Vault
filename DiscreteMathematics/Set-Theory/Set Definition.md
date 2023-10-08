@@ -151,9 +151,7 @@ $$
 ![[Pasted image 20231004182103.png]]
 ![[Pasted image 20231004182231.png]]
 
-
 > [!important] Powerset of any set $S$ will have $\phi$ but it is NOT necessary for the set $S$ to contain $\phi$
-
 
 ### Number of subsets for a set
 - For creating a subset for a set $S$, there are two choices for each element.
