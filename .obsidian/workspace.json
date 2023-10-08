@@ -46,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Operations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Operations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Definition.md"
+                "file": "DiscreteMathematics/Set-Theory/Set Operations.md"
               }
             }
           },
@@ -246,13 +245,13 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "3a1599fdd7656ec9",
+  "active": "ad47e1df9b40cd6d",
   "lastOpenFiles": [
-    "DiscreteMathematics/Set Theory.md",
     "DiscreteMathematics/Set-Theory/Set Identities.md",
+    "DiscreteMathematics/Set-Theory/Set Definition.md",
+    "DiscreteMathematics/Set Theory.md",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
     "daily-agenda/2023-10-08.md",
-    "DiscreteMathematics/Set-Theory/Set Definition.md",
     "GATE-LOG.md",
     "README.md",
     "Pending Notes.md",
