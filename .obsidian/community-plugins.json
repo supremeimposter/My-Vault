@@ -35,5 +35,17 @@
   "multi-column-markdown",
   "obsidian-outliner",
   "periodic-notes",
-  "map-of-content"
+  "map-of-content",
+  "obsidian-markmind",
+  "note-refactor-obsidian",
+  "obsidian-pandoc",
+  "dbfolder",
+  "cm-editor-syntax-highlight-obsidian",
+  "quickadd",
+  "obsidian-kanban",
+  "supercharged-links-obsidian",
+  "obsidian-text-format",
+  "obsidian-tabs",
+  "drawio-obsidian",
+  "obsidian-sortable"
 ]

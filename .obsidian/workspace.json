@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "2719c58d07bb31bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set Theory.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0aed20613ffbc767",
             "type": "leaf",
             "state": {
@@ -200,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       },
       {
         "id": "5df95600f2476df0",
@@ -237,20 +250,31 @@
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "templater-obsidian:Templater": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "notion-like-tables:Create new loom": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
+      "dbfolder:Create a new database table": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "periodic-notes:Open today": false,
       "map-of-content:Update Map of Content": false
     }
   },
   "active": "ad47e1df9b40cd6d",
   "lastOpenFiles": [
+    "attachments/Pasted image 20231009193657.png",
+    "attachments/Pasted image 20231009193356.png",
+    "attachments/Pasted image 20231009170407.png",
+    "attachments/Pasted image 20231009170403.png",
+    "attachments/Pasted image 20231009170222.png",
+    "DiscreteMathematics/Set-Theory/Mathematical Structures.md",
     "DiscreteMathematics/Set-Theory/Set Identities.md",
-    "DiscreteMathematics/Set-Theory/Set Definition.md",
-    "DiscreteMathematics/Set Theory.md",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
+    "DiscreteMathematics/Set Theory.md",
+    "attachments/Pasted image 20231009155825.png",
+    "DiscreteMathematics/Set-Theory/Set Definition.md",
+    "attachments/Pasted image 20231009133641.png",
+    "attachments/Pasted image 20231009132758.png",
+    "attachments/Pasted image 20231009132035.png",
     "daily-agenda/2023-10-08.md",
     "GATE-LOG.md",
     "README.md",
@@ -262,15 +286,7 @@
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
     "attachments/Pasted image 20231004182231.png",
     "attachments/Pasted image 20231004182103.png",
-    "attachments/Pasted image 20231004140030.png",
-    "attachments/Pasted image 20231004135955.png",
-    "attachments/Pasted image 20231004134616.png",
     "Untitled.loom",
-    "attachments/Pasted image 20231004095309.png",
-    "attachments/Pasted image 20231004094955.png",
-    "attachments/Pasted image 20231004094943.png",
-    "attachments/Pasted image 20231004094713.png",
-    "attachments/Pasted image 20231004094155.png",
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages.md",
     "C/Types/Types.md",
@@ -284,8 +300,6 @@
     "DiscreteMathematics/Set-Theory",
     "Set-Theory",
     "TheoryOfComputation/What does Theory of Computation do.md",
-    "TheoryOfComputation/Theory of Computation.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
     "GATE-materials",
     "TheoryOfComputation/Regular Languages and Finite Automata",
     "Regular Languages and Finite Automata",

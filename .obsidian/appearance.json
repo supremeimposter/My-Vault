@@ -6,7 +6,8 @@
   "baseFontSize": 18,
   "enabledCssSnippets": [
     "custom-callout",
-    "custom-admonitions.971f1e"
+    "custom-admonitions.971f1e",
+    "supercharged-links-gen"
   ],
   "nativeMenus": false,
   "translucency": false
