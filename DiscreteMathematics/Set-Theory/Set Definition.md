@@ -57,7 +57,13 @@ notes-taken: false
 > [!note] 
 > $\phi \not= \{ \phi \}$
 > $|\{ \phi \}| = 1$
+## SingleTon set
+- A set containing exactly one element.
+- It is also called as unit set.
+- $A = \{ 2 \}, B = \{a\}$
 
+## DoubleTon set
+- A set containing exactly two elements
 ---
 
 ## Set Representation
@@ -128,6 +134,9 @@ $$
 - If $S \subseteq A$ and $S \subseteq B$, then $S \subseteq A \; \cap \; B$ .
 - There can be two sets $A$ and $B$ such that $A \subseteq B$ and $A \in B$ 
 	- $A = \{1\}$ and $B = \{1, \; \{1\} \}$
+- If $|S| = n$, then 
+	- No of singleton subsets of $S$ is $n$.
+	- No of doubleton subsets of $S$ is $1 + 2 + \ldots + n - 1 = \frac{(n - 1)(n - 2)}{2}$
 
 ---
 
@@ -155,7 +164,7 @@ $$
 > [!important] Powerset of any set $S$ will have $\phi$ but it is NOT necessary for the set $S$ to contain $\phi$
 
 ### Number of subsets for a set
-- For creating a subset for a set $S$, there are two choices for each element.
+- For creating a subset for a set $S$, there are two choices for each element in the set $S$.
 	1. The element appears
 	2. The element does not appear
 
