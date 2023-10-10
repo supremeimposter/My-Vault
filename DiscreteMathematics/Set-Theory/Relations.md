@@ -110,6 +110,9 @@ $$R \subseteq A \times A$$
 $$
 R : A \rightarrow A
 $$
+
+Method 1 : Matrix representation
 ![[Pasted image 20231010210754.png]]
 
+Method 2 : Graph representation
 ![[Pasted image 20231010210749.png]]
