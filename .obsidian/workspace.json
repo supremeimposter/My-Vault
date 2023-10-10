@@ -40,13 +40,14 @@
               "type": "markdown",
               "state": {
                 "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,8 +101,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Operations.md",
+                "file": "DiscreteMathematics/Set-Theory/Relations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Operations.md",
+                "file": "DiscreteMathematics/Set-Theory/Relations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,24 +161,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Operations.md"
+                "file": "DiscreteMathematics/Set-Theory/Relations.md"
               }
-            }
-          },
-          {
-            "id": "bf10fa9133dfdab9",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "b8c1f639551697ea",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           },
           {
@@ -206,9 +190,17 @@
               "type": "Saved Queries View",
               "state": {}
             }
+          },
+          {
+            "id": "8e3fa15b3b383831",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       },
       {
         "id": "5df95600f2476df0",
@@ -226,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5,
-    "collapsed": true
+    "width": 337.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,31 +230,37 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "templater-obsidian:Templater": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "notion-like-tables:Create new loom": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
       "dbfolder:Create a new database table": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "periodic-notes:Open today": false,
-      "map-of-content:Update Map of Content": false
+      "map-of-content:Update Map of Content": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "notion-like-tables:Create loom": false
     }
   },
-  "active": "ad47e1df9b40cd6d",
+  "active": "0aed20613ffbc767",
   "lastOpenFiles": [
+    "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
     "DiscreteMathematics/Set-Theory/Relations.md",
+    "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
-    "DiscreteMathematics/Set-Theory/Set Identities.md",
     "DiscreteMathematics/Set-Theory/Set Definition.md",
-    "DiscreteMathematics/Set Theory.md",
-    "Pending Notes.md",
-    "DiscreteMathematics/Set-Theory/Mathematical Structures.md",
+    "GATE.md",
+    "GATE-materials/Links for Resources.md",
+    "DiscreteMathematics/Set-Theory/Untitled.md",
+    "README.md",
     "GATE-LOG.md",
+    "Pending Notes.md",
+    "DiscreteMathematics/Set-Theory/Set Identities.md",
+    "DiscreteMathematics/Set Theory.md",
+    "DiscreteMathematics/Set-Theory/Mathematical Structures.md",
     "attachments/Pasted image 20231009193657.png",
     "attachments/Pasted image 20231009193356.png",
     "attachments/Pasted image 20231009170407.png",
@@ -274,7 +271,6 @@
     "attachments/Pasted image 20231009132758.png",
     "attachments/Pasted image 20231009132035.png",
     "daily-agenda/2023-10-08.md",
-    "README.md",
     "DiscreteMathematics/Set-Theory/Proofs involving Sets.md",
     "templates/lecture-notes-template.md",
     "DiscreteMathematics/Set-Theory/Proofs involving sets.md",
@@ -288,13 +284,8 @@
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
     "DiscreteMathematics/Propositional-Logic/OR (Disjunction).md",
-    "daily-agenda/2023-09-30.md",
-    "DiscreteMathematics/Mathematical Logic.md",
-    "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
-    "DiscreteMathematics/Set  Theory.md",
     "DiscreteMathematics/Set-Theory",
     "Set-Theory",
-    "TheoryOfComputation/What does Theory of Computation do.md",
     "GATE-materials",
     "TheoryOfComputation/Regular Languages and Finite Automata",
     "Regular Languages and Finite Automata",

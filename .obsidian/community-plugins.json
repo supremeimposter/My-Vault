@@ -19,7 +19,6 @@
   "tag-wrangler",
   "obsidian-auto-link-title",
   "media-extended",
-  "obsidian-latex-suite",
   "oz-image-plugin",
   "oz-clear-unused-images",
   "obsidian-excalidraw-plugin",
@@ -46,12 +45,11 @@
   "obsidian-tabs",
   "drawio-obsidian",
   "obsidian-sortable",
-  "obsidian-list-callouts",
   "obsidian-hotkeys-for-specific-files",
   "obsidian-timestamper",
   "lapel",
   "advanced-cursors",
-  "obsidian-paste-to-current-indentation",
   "obsidian-heading-shifter",
-  "image-captions"
+  "image-captions",
+  "obsidian-latex-suite"
 ]

@@ -4,7 +4,7 @@
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",
-  "announceUpdates": true,
+  "announceUpdates": false,
   "version": "1.4.0",
   "disableOnlineFeatures": true,
   "ai": {
