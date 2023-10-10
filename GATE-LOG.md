@@ -69,4 +69,6 @@
 
 **October 3, 2023** You should take minified notes in obsidian. It clearly helps. You cannot look at a PDF which has more writings about the same thing. So watch lectures for the complete day and at the end of day, take notes from the PDF. Watching lectures for a complete day creates more context and you can avoid writing notes for silly things.
 
-**October 7, 2023** "Do not worry about silly mistakes you have done. Go and create new silly mistakes" --Deepak Poonia, 2023
+**October 7, 2023** "Do not worry about silly mistakes you have done. Go and create new silly mistakes" --Deepak Poonia, 2023.
+
+**October 10, 2023** If you think like you should take noes, just take notes and stop overthinking. As you keep on taking notes, you will develop new templates and techniques in efficient note taking. Do not think about going back to every single note to redefine your notes, do it when you are going to revise.
