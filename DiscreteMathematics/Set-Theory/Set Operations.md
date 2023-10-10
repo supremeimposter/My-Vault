@@ -49,7 +49,7 @@ $$
 - Every element of resultant set is a [[Mathematical Structures#Ordered N-tuple $(a, b, ldots, n)$|tuple]] . 
 - Cartesian product can be performed on any finite number of sets.
 - Cartesian product is neither commutative not associative.
-
+- Cartesian product of two sets is the set of all [[Relations|relations]] between them.
 
 > [!example] Example
 > ![[Pasted image 20231009193356.png]]
@@ -102,8 +102,6 @@ $$
 $$
 |A \cup B| = |A| + |B| - |A \cap B| 
 $$
-
-
 
 ----
 # Equality of Sets
