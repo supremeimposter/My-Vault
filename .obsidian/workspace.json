@@ -89,12 +89,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -237,9 +236,12 @@
   },
   "active": "98a831eab40a7c82",
   "lastOpenFiles": [
-    "GATE-LOG.md",
-    "DiscreteMathematics/Set-Theory/Special Types of Relations on a Set.md",
     "DiscreteMathematics/Set-Theory/Relations.md",
+    "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md",
+    "DiscreteMathematics/Set-Theory/Set Definition.md",
+    "DiscreteMathematics/Set-Theory/Special Types of Relations on a Set.md",
+    "DiscreteMathematics/First-Order-Logic/Equivalence of FOL expressions.md",
+    "GATE-LOG.md",
     "attachments/Pasted image 20231011121224.png",
     "attachments/Pasted image 20231011121155.png",
     "DiscreteMathematics/Set Theory.md",
@@ -251,11 +253,9 @@
     "attachments/Pasted image 20231011094234.png",
     "attachments/Pasted image 20231011094040.png",
     "attachments/Pasted image 20231011093706.png",
-    "DiscreteMathematics/Set-Theory/Set Definition.md",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
     "Attachments",
     "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
-    "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md",
     "GATE.md",
     "GATE-materials/Links for Resources.md",
     "README.md",

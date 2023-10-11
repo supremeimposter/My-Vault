@@ -51,7 +51,7 @@
     },
     "remember": {
       "type": "remember",
-      "color": "124, 190, 80",
+      "color": "249, 134, 72",
       "icon": {
         "type": "obsidian",
         "name": "lucide-brain"
@@ -59,7 +59,8 @@
       "command": false,
       "title": "Remember",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "pdf": {
       "type": "pdf",
@@ -120,6 +121,18 @@
       },
       "command": false,
       "title": "Discussion",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "attention": {
+      "type": "attention",
+      "color": "176, 242, 54",
+      "icon": {
+        "type": "octicons",
+        "name": "stop"
+      },
+      "command": false,
+      "title": "Attention",
       "injectColor": true,
       "noTitle": false
     }
