@@ -11,8 +11,10 @@ tags:
   - DM/Relations
   - DM
 ---
+
 - These special types of relations are only for relations $R$ on a set $A$ i.e. $R : A \rightarrow A$
-# Reflexive and Ir-reflexive Relation
+---
+# Reflexive Relation
 
 > [!lecture] Lecture-21
 ## Reflexive Relation
@@ -37,9 +39,52 @@ $$
 
 # Symmetric Relation
 
+> [!lecture] Lecture 22
+## Symmetric Relation
+- For two different elements, relationship must be bi-directional. They must be related to each other.
+- Uni-directional edges is NOT allowed.
+- It does NOT care about self-loops.
+
+## Anti-Symmetric Relation
+- Two different elements should NOT be related to **each other**.
+- Bi-directional relationship is NOT allowed.
+- It also does NOT care about self-loops.
+
+## Asymmetric Relation
+- It is the combination of [[Special Types of Relations on a Set#Ir-reflexive Relation|ir-reflexive relation]] and [[Special Types of Relations on a Set#Anti-Symmetric Relation|anti-symmetric relation]].
+- Self-loop is NOT allowed.
+- Bi-directional relationship is NOT allowed
+
+> [!intuition] If a relation is NOT anti-symmetric, then it is also not asymmetric.
+
+## Comparison
 
 
+## Examples
 
+> [!youtube] [Q3 solution - Reflexive, Symmetric and Anti-Symmetric relation](https://www.youtube.com/watch?v=71ks9HH0osQ)
+> Problems on Reflexive and Symmetric relations on a set.
 
-
+- There is no relation which is both reflexive and asymmetric.
 ---
+
+# Transitive Relation
+
+> [!attention] In the given relation set, look at the elements front and back to see if they could or fail to form a transitivity.
+> To solve Transitive relation problems easily, use graph representation to avoid or not encounter the above analytical problem.
+
+## Transitive Relation
+
+
+## Non-Transitive Relation
+
+
+----
+
+# Equivalence Relation
+- A relation $R$ is equivalent iff $R$ is reflexive, symmetric and transitive.
+
+> [!remember] Equivalent Relation iff it satisfies RST.
+
+
+
