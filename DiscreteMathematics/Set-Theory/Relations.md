@@ -6,11 +6,14 @@ date: 2023-10-10T08:49:00
 version:
   - DM-24
 last-revision: 
-notes-taken: false
+notes-taken: true
 tags:
   - DM/Sets
 ---
 # Relations
+
+![[Pasted image 20231011100505.png]]
+
 - Relations is a **set** containing ordered pairs of elements from sets $A$ and $B$.
 - Relationship between two sets is always ONLY one way.
 ![[Pasted image 20231010195509.png]]
@@ -48,6 +51,8 @@ $$R \subseteq A \times B$$
 
 ![[Pasted image 20231010203131.png]]
 
+![[Pasted image 20231011094040.png]]
+
 ## Number of relations
 $$
 |A \times B| = |A| \cdot |B|
@@ -58,22 +63,61 @@ $$
 $$
 ![[Pasted image 20231010202312.png]]
 
+> [!summary] 
+> 1. Relations in mathematics are one way statements.
+>> *$x$ is related to $y$* does not mean that *$y$ is related to $x$*.
+> 2. Binary Relation is a relation between two sets (same or different).
+>> $R : A \rightarrow B \equiv R \subseteq A \times B$ 
+>> $R : A \rightarrow A \equiv R \subseteq A \times A$
+
 ## Relations on a Set
 
-$$
-R : A \rightarrow A
-$$
 - Relation $R$ is on set $A$ is a relation from $A$ to $A$.
 - A relation on a set $A$ is a subset of $A \times A$.
-$$R \subseteq A \times A$$
+$$R \text{ is on set } A \equiv R : A \rightarrow A \equiv R \subseteq A \times A$$
 > [!remember] The term "**Base set**" is used only when relation is on a single set. 
 > $A$ is the base set of the above relation $R$.
+
 - $A \times A$ is the universal relation on the set $A$. It is the set of all the relations on $A$.
+
+### Universal and Empty relation
 - There can also be an empty relation on $A$ where there is no relationship between any of the elements of the set $A$.
+> [!example] $A = \{1, 2\}$
+
+```start-multi-column
+ID: ID_fxto
+Number of Columns: 2
+Largest Column: standard
+```
+
+
+> [!example] Full relation on $A$
+> ![[Pasted image 20231011100817.png|Full relation on A]]
+
+
+--- column-end ---
+
+> [!example] No relation on $A$
+> ![[Pasted image 20231011100933.png|Empty relation on A]]
+
+
+
+--- end-multi-column
 
 > [!example] ![[Pasted image 20231010204357.png]]
 > ![[Pasted image 20231010204420.png]]
-- For a set $A$, where $|A| = n$, no of relations from $A$ to $A =$ no of subsets of $|A \times A| = 2^{n}$
+- For a set $A$, where $|A| = n$, no of relations from $A$ to $A =$ no of subsets of $|A \times A| = 2^{n^{2}}$
+
+### Identifying base set
+- Identifying the base set is the important step in identifying relations on a set.
+
+> [!example] 1. R on set A
+>> $R : A \rightarrow A$ 
+>> $R \subseteq A \times A$
+
+> [!example] 2. $R$ on set $\mathbb{N} \times \mathbb{Z}$
+>> $R : \mathbb{N} \times \mathbb{Z} \rightarrow \mathbb{N} \times \mathbb{Z}$
+>> $R \subseteq (\mathbb{N} \times \mathbb{Z}) \times (\mathbb{N} \times \mathbb{Z})$
 
 ## Representation of Relations
 
@@ -93,8 +137,7 @@ $$R \subseteq A \times A$$
 ### Matrix Representation
 - Draw a matrix with the elements of the set $A$ as the rows and columns.
 - Tick marks when the relationship condition satisfies.
-- Read the table as **row element is related to column element** and NOT the converse.
-
+- Read the table as **row element is related to column element** and do NOT read the converse.
 
 > [!example] ![[Pasted image 20231010204001.png]]
 > ![[Pasted image 20231010204015.png]]
@@ -106,13 +149,25 @@ $$R \subseteq A \times A$$
 > ![[Pasted image 20231010210418.png]]
 
 ### Representing relations on a set
-- Both Graph and Matrix representation are specially available for relationship on a single set $A$.
+- Both Graph and Matrix representation are specially available for relationship on a single set $A$. i.e $R$ on $A$.
 $$
 R : A \rightarrow A
 $$
 
-Method 1 : Matrix representation
-![[Pasted image 20231010210754.png]]
+#### Method 1 : Matrix representation
+- Example 1
+![[Pasted image 20231011093459.png]]
 
-Method 2 : Graph representation
+#### Method 2 : Graph representation
+- Example 1
 ![[Pasted image 20231010210749.png]]
+- Example 2 
+![[Pasted image 20231011093706.png]]
+- Example 3
+![[Pasted image 20231011094234.png]]
+- Example 4
+![[Pasted image 20231011094344.png]]
+
+
+> [!pdf] lec-18-21 
+> More examples on relations Pg. No. 44 - 85
