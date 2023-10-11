@@ -8,10 +8,11 @@ version:
 last-revision: 
 notes-taken: true
 tags:
-  - DM/Sets
+  - DM/Relations
+  - DM
 ---
 # Relations
-
+- Relation is also called as Binary relation as a relation is mostly from one set to another set.
 ![[Pasted image 20231011100505.png]]
 
 - Relations is a **set** containing ordered pairs of elements from sets $A$ and $B$.
@@ -107,8 +108,10 @@ Largest Column: standard
 > [!example] ![[Pasted image 20231010204357.png]]
 > ![[Pasted image 20231010204420.png]]
 - For a set $A$, where $|A| = n$, no of relations from $A$ to $A =$ no of subsets of $|A \times A| = 2^{n^{2}}$
+- There are several [[Special Types of Relations on a Set]] $A$.
 
 ### Identifying base set
+
 - Identifying the base set is the important step in identifying relations on a set.
 
 > [!example] 1. R on set A
@@ -171,3 +174,4 @@ $$
 
 > [!pdf] lec-18-21 
 > More examples on relations Pg. No. 44 - 85
+

@@ -5,4 +5,5 @@
 - [[Proofs involving Sets]]
 - [[Set Identities]]
 - [[Relations]]
+- [[Special Types of Relations on a Set]]
 - 
