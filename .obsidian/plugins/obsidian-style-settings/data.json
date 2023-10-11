@@ -97,7 +97,7 @@
   "chime-theme@@folder-color-options": "folder-rainbow-backgrounds",
   "chime-theme@@tab-text-color-focused-active-current": "var(--text-normal)",
   "chime-theme@@background-image": true,
-  "chime-theme@@custom-image": "url(https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)",
+  "chime-theme@@custom-image": "url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)",
   "chime-theme@@bg-blur": 20,
   "chime-theme@@colored-bold-and-italic": true,
   "Appearance-light@@background-underlying-select-light": "background-underlying-defalut-light",

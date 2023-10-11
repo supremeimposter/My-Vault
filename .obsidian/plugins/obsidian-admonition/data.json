@@ -110,6 +110,18 @@
       "title": "Suggestion",
       "injectColor": true,
       "noTitle": false
+    },
+    "discussion": {
+      "type": "discussion",
+      "color": "116, 60, 221",
+      "icon": {
+        "type": "octicons",
+        "name": "comment-discussion"
+      },
+      "command": false,
+      "title": "Discussion",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,
