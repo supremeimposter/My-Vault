@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "e2bfb0d576d5dca2",
+            "id": "7e354d747a28be22",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -88,8 +88,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -235,18 +234,18 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "e2bfb0d576d5dca2",
+  "active": "7e354d747a28be22",
   "lastOpenFiles": [
-    "DiscreteMathematics/Set-Theory/Partition of a Set.md",
-    "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
     "DiscreteMathematics/Set-Theory/Relations.md",
+    "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
+    "DiscreteMathematics/Set-Theory/Partition of a Set.md",
+    "GATE-LOG.md",
     "DiscreteMathematics/Set Theory.md",
     "Pending Notes.md",
     "DiscreteMathematics/Set-Theory/Set Definition.md",
     "C/C.md",
     "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md",
     "DiscreteMathematics/First-Order-Logic/Equivalence of FOL expressions.md",
-    "GATE-LOG.md",
     "attachments/Pasted image 20231011121224.png",
     "attachments/Pasted image 20231011121155.png",
     "attachments/Pasted image 20231011100933.png",
