@@ -6,4 +6,5 @@
 - [[Set Identities]]
 - [[Relations]]
 - [[Special Types of Relations on a Set]]
+- [[Partition of a Set]]
 - 

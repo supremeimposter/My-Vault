@@ -24,7 +24,7 @@ $$
 $$
 
 ## Not Reflexive Relation
-
+- Not reflexive is the negation of reflexive relation.
 ## Ir-reflexive Relation
 
 
@@ -50,6 +50,8 @@ $$
 - Bi-directional relationship is NOT allowed.
 - It also does NOT care about self-loops.
 
+> [!attention] If a relation is not symmetric, then it does NOT mean that the relation is anti-symmetric.
+
 ## Asymmetric Relation
 - It is the combination of [[Special Types of Relations on a Set#Ir-reflexive Relation|ir-reflexive relation]] and [[Special Types of Relations on a Set#Anti-Symmetric Relation|anti-symmetric relation]].
 - Self-loop is NOT allowed.
@@ -70,10 +72,16 @@ $$
 
 # Transitive Relation
 
-> [!attention] In the given relation set, look at the elements front and back to see if they could or fail to form a transitivity.
-> To solve Transitive relation problems easily, use graph representation to avoid or not encounter the above analytical problem.
+> [!lecture] Lecture - 26
+
+- In the given relation set, look at the elements front and back to see if they could or fail to form a transitive edge.
+
+> [!intuition] To solve Transitive relation problems easily, use **graph representation** to avoid or not encounter the above analytical problem.
 
 ## Transitive Relation
+
+> [!intuition] For checking transitive relation, take two relation ordered pairs rather than a single ordered pair as in the above relations.
+> $a R b$ and $b R c$, then $a R c$
 
 
 ## Non-Transitive Relation
@@ -82,9 +90,13 @@ $$
 ----
 
 # Equivalence Relation
+
+> [!lecture] Lecture - 27
+
 - A relation $R$ is equivalent iff $R$ is reflexive, symmetric and transitive.
 
 > [!remember] Equivalent Relation iff it satisfies RST.
+> Equivalence relation is important in every subject.
 
 
 

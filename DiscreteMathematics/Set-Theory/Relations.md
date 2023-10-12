@@ -175,3 +175,7 @@ $$
 > [!pdf] lec-18-21 
 > More examples on relations Pg. No. 44 - 85
 
+
+> [!youtube] 
+> [Relations - Complete Revision & Summary](https://www.youtube.com/watch?v=J2l-MN6IP9Q)
+> [Relations - GATE PYQs Part 1- Set Theory | Discrete Mathematics Revision | GoClasses | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=b8OifcB2Wh4)

@@ -186,3 +186,5 @@ $$
 - Two sets $P$ and $Q$ are said to be disjoint, if they do not have any common elements.
 - $A = \phi$ and $B = \phi$ are also disjoint, since there is no element to be common.
 - $P = \{a\}$ and $Q = \phi$ are also disjoint, since there are no elements in $Q$ that are in $P$ .
+
+---
