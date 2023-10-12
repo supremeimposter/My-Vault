@@ -7,4 +7,8 @@
 - [[Relations]]
 - [[Special Types of Relations on a Set]]
 - [[Partition of a Set]]
-- 
+
+
+---
+
+## Pending Notes

@@ -1,7 +1,7 @@
 ---
-pdf: lec-18-21, lec-22-23, lec-24-26, lec-27
+pdf: lec-18-21, lec-22-23, lec-24-26, lec-27, lec-29
 module: 5
-lecture: 20, 21, 22, 23, 24, 25, 26, 27
+lecture: 20, 21, 22, 23, 24, 25, 26, 27, 29
 date: 2023-10-11T10:26:00
 version:
   - DM-24
@@ -81,7 +81,7 @@ $$
 ## Transitive Relation
 
 > [!intuition] For checking transitive relation, take two relation ordered pairs rather than a single ordered pair as in the above relations.
-> $a R b$ and $b R c$, then $a R c$
+> Take $a R b$ and $b R c$ and then check if $a R c$
 
 
 ## Non-Transitive Relation
@@ -98,5 +98,13 @@ $$
 > [!remember] Equivalent Relation iff it satisfies RST.
 > Equivalence relation is important in every subject.
 
+## Analysis of Equivalence Relation
 
+> [!lecture] Lecture - 29
 
+- Equivalent relation [[Partition of a Set|partitiones]] a set. If $R$ is an equivalent relation on the set $S$, then $R$ partitions the set $S$. Each partition is called an equivalence class.
+- Equivalence class $[x]$ for an element $x \in S$, 
+$$
+[x] = \{y \; | \; xRy\}
+$$
+- The equivalence class of a member of $[x]$ is same as $[x]$ i.e. $[y] = [x]$
