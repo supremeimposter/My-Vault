@@ -54,11 +54,11 @@ $$R \subseteq A \times B$$
 
 ![[Pasted image 20231011094040.png]]
 
-## Number of relations
+## Number of relations possible
 $$
 |A \times B| = |A| \cdot |B|
 $$
-- Number of subsets of $A \times B$ is same as number of relations from $A$ to $B$.
+- Number of subsets of $A \times B$ = number of relations from $A$ to $B$.
 $$
 \text{No of subsets of } A \times B = 2^{|A \times B|}
 $$
@@ -104,6 +104,7 @@ Largest Column: standard
 
 --- end-multi-column
 
+### No of relations on a set $A$
 > [!example] ![[Pasted image 20231010204357.png]]
 > ![[Pasted image 20231010204420.png]]
 - For a set $A$, where $|A| = n$, no of relations from $A$ to $A =$ no of subsets of $|A \times A| = 2^{n^{2}}$
