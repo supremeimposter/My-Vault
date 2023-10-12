@@ -5,7 +5,7 @@
 - [[Proofs involving Sets]]
 - [[Set Identities]]
 - [[Relations]]
-- [[Special Types of Relations on a Set]]
+- [[Types of Relations on a Set]]
 - [[Partition of a Set]]
 
 

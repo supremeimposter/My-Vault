@@ -53,7 +53,7 @@ $$
 > [!attention] If a relation is not symmetric, then it does NOT mean that the relation is anti-symmetric.
 
 ## Asymmetric Relation
-- It is the combination of [[Special Types of Relations on a Set#Ir-reflexive Relation|ir-reflexive relation]] and [[Special Types of Relations on a Set#Anti-Symmetric Relation|anti-symmetric relation]].
+- It is the combination of [[Types of Relations on a Set#Ir-reflexive Relation|ir-reflexive relation]] and [[Types of Relations on a Set#Anti-Symmetric Relation|anti-symmetric relation]].
 - Self-loop is NOT allowed.
 - Bi-directional relationship is NOT allowed
 

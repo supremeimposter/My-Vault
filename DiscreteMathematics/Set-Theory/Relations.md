@@ -79,9 +79,8 @@ $$R \text{ is on set } A \equiv R : A \rightarrow A \equiv R \subseteq A \times 
 > [!remember] The term "**Base set**" is used only when relation is on a single set. 
 > $A$ is the base set of the above relation $R$.
 
-- $A \times A$ is the universal relation on the set $A$. It is the set of all the relations on $A$.
-
 ### Universal and Empty relation
+- $A \times A$ is the universal relation on the set $A$. It is the set of all the relations on $A$.
 - There can also be an empty relation on $A$ where there is no relationship between any of the elements of the set $A$.
 > [!example] $A = \{1, 2\}$
 
@@ -108,7 +107,7 @@ Largest Column: standard
 > [!example] ![[Pasted image 20231010204357.png]]
 > ![[Pasted image 20231010204420.png]]
 - For a set $A$, where $|A| = n$, no of relations from $A$ to $A =$ no of subsets of $|A \times A| = 2^{n^{2}}$
-- There are several [[Special Types of Relations on a Set]] $A$.
+- There are several special [[Types of Relations on a Set]] $A$.
 
 ### Identifying base set
 
