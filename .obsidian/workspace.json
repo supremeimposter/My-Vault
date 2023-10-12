@@ -101,7 +101,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -249,11 +250,11 @@
   },
   "active": "dec160ba7dbbe3e3",
   "lastOpenFiles": [
+    "DiscreteMathematics/Set-Theory/Partition of a Set.md",
     "DiscreteMathematics/Set-Theory/Relations.md",
     "DiscreteMathematics/Set-Theory/Special Types of Relations on a Set.md",
     "DiscreteMathematics/Set Theory.md",
     "Pending Notes.md",
-    "DiscreteMathematics/Set-Theory/Partition of a Set.md",
     "DiscreteMathematics/Set-Theory/Set Definition.md",
     "C/C.md",
     "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md",
