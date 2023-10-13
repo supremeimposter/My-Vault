@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
+                "file": "DiscreteMathematics/Set-Theory/Relations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
+                "file": "DiscreteMathematics/Set-Theory/Relations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md"
+                "file": "DiscreteMathematics/Set-Theory/Relations.md"
               }
             }
           },
@@ -234,10 +233,10 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "7e354d747a28be22",
+  "active": "d27cc32fd7608f66",
   "lastOpenFiles": [
-    "DiscreteMathematics/Set-Theory/Relations.md",
     "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
+    "DiscreteMathematics/Set-Theory/Relations.md",
     "DiscreteMathematics/Set-Theory/Partition of a Set.md",
     "GATE-LOG.md",
     "DiscreteMathematics/Set Theory.md",
