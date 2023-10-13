@@ -117,13 +117,14 @@ $$
 
 - In an equivalence class, every element in related to every other element which is represented as $a \sim b$
 - For an equivalence class $[x]_R$ , if $|\;[x]_R\;| = k$ , then it produces $k^2$ relations in $R$.
-- If $E_i = [x_i]_R$ is an equivalence class, then $|R| = \Sigma \; \lvert E_i\lvert ^2$
+- If $E_i = [x_i]_R$ is an equivalence class and there are $n$ equivalence classes , then $|R| = \Sigma \; \lvert E_i\lvert ^2$
 $$
-R = (E_1 \times E_1)\; \cup \; (E_2 \times E_2) \; \cup \; \ldots \; \cup (E_k \times E_k)
+R = (E_1 \times E_1)\; \cup \; (E_2 \times E_2) \; \cup \; \ldots \; \cup (E_n \times E_n)
 $$
 $$
-\lvert R \lvert = \lvert (E_1 \times E_1) \lvert \; \cup \; \lvert (E_2 \times E_2) \lvert \; \cup \; \ldots \; \cup \lvert (E_k \times E_k) \lvert
+\lvert R \lvert = \lvert (E_1 \times E_1) \lvert \; + \; \lvert (E_2 \times E_2) \lvert \; + \; \ldots \; + \lvert (E_n \times E_n) \lvert
 $$
+
 
 ### [[Relations#Universal and Empty relation|Universal Relation]] on $A$ is Equivalent
 - Universal relation $R_{universal}$ on $A$ i.e. set of all relations possible on the set $A$ is, 
@@ -139,6 +140,12 @@ $$
 
 ### Identity Relation on $A$ is Equivalent
 - Identity relation $R_{identity}$ on set $A$ contains only self-loop relations on the set $A$. i.e. only diagonal elements in the matrix representation.
+- $R_{identity}$ is, 
+	- Reflexive
+	- Symmetric
+	- Anti-symmetric
+	- Not Asymmetric (Not Ir-reflexive)
+	- Transitive
 - If the set $|A| = n$ Identity relation $R_{identity}$ on set $A$ partitions the set $A$ into `n` partitions.
 - $R_{identity}$ creates $n$ equivalent classes. 
 
