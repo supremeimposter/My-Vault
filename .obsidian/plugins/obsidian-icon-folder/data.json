@@ -5,7 +5,9 @@
     "fontSize": 16,
     "emojiStyle": "twemoji",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "SiC"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {

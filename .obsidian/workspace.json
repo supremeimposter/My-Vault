@@ -33,7 +33,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Relations.md",
+                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Relations.md",
+                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Relations.md"
+                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md"
               }
             }
           },
@@ -220,28 +221,27 @@
       "markdown-importer:Open format converter": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
-      "dbfolder:Create a new database table": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "templater-obsidian:Templater": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "notion-like-tables:Create loom": false,
       "periodic-notes:Open today": false,
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "d27cc32fd7608f66",
+  "active": "7e354d747a28be22",
   "lastOpenFiles": [
-    "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
     "DiscreteMathematics/Set-Theory/Relations.md",
+    "DiscreteMathematics/Set-Theory/Set Definition.md",
+    "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
+    "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
     "DiscreteMathematics/Set-Theory/Partition of a Set.md",
     "GATE-LOG.md",
     "DiscreteMathematics/Set Theory.md",
     "Pending Notes.md",
-    "DiscreteMathematics/Set-Theory/Set Definition.md",
     "C/C.md",
     "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md",
     "DiscreteMathematics/First-Order-Logic/Equivalence of FOL expressions.md",
@@ -271,8 +271,6 @@
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
     "Untitled.loom",
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages.md",
-    "C/Types/Types.md",
     "DiscreteMathematics/Set-Theory",
     "Set-Theory",
     "GATE-materials",
