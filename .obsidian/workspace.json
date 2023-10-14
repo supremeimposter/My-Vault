@@ -32,19 +32,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0475f0d0e90491c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMathematics/Set-Theory/Partition of a Set.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -248,20 +235,20 @@
   },
   "active": "7e354d747a28be22",
   "lastOpenFiles": [
-    "attachments/Pasted image 20231014230405.png",
-    "attachments/Pasted image 20231014225829.png",
-    "attachments/Pasted image 20231014225224.png",
-    "attachments/Pasted image 20231014224958.png",
-    "attachments/Pasted image 20231014223319.png",
-    "attachments/Pasted image 20231014223118.png",
-    "DiscreteMathematics/Set-Theory/Partition of a Set.md",
-    "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
-    "attachments/Pasted image 20231014222310.png",
-    "attachments/Pasted image 20231014213923.png",
-    "attachments/Pasted image 20231014213640.png",
-    "attachments/Pasted image 20231014213136.png",
-    "attachments/Pasted image 20231014213117.png",
+    "attachments/Pasted image 20231015000302.png",
+    "attachments/Pasted image 20231015000145.png",
+    "attachments/Pasted image 20231015000038.png",
     "DiscreteMathematics/Set-Theory/Relations.md",
+    "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
+    "attachments/Pasted image 20231014235545.png",
+    "attachments/Pasted image 20231014235433.png",
+    "attachments/Pasted image 20231014235328.png",
+    "attachments/Pasted image 20231014235230.png",
+    "attachments/Pasted image 20231014235129.png",
+    "attachments/Pasted image 20231014235055.png",
+    "attachments/Pasted image 20231014234817.png",
+    "attachments/Pasted image 20231014234327.png",
+    "DiscreteMathematics/Set-Theory/Partition of a Set.md",
     "DiscreteMathematics/Set-Theory/Set Definition.md",
     "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
