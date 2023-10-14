@@ -68,6 +68,7 @@ $$
 
 ![[Pasted image 20231014183430.png]]
 
+---
 ## Representation of Reflexive Relation
 ### Matrix Representation
 
@@ -116,7 +117,7 @@ $$
 \exists_{a, b\; \in \; A}\; (a\; R \; b \land b \; \not R \; a)
 $$
 
-### Examples
+## Examples
 - Equality relation on $\mathbb{Z}$ is symmetric.
 ![[Pasted image 20231014213017.png]]
 
@@ -125,16 +126,16 @@ $$
 
 ![[Pasted image 20231014213136.png]]
 
-### Representation of Symmetric Relation
+## Representation of Symmetric Relation
 
-#### Matrix Representation
+### Matrix Representation
 
 > [!example] $A = \{1, 2, 3\}$
 > ![[Pasted image 20231014213640.png]]
 > - If the relation is symmetric, then the matrix $M$ is called a Symmetric Matrix where $M = M^T$
 > - Reflexivity is NOT  concern if the matrix is symmetric.
 
-#### Graph Representation
+### Graph Representation
 - Unidirectional edges is NOT allowed if the relation is symmetric.
 
 
@@ -144,6 +145,7 @@ $$
 > **Not-Symmetric**
 > ![[Pasted image 20231014222310.png|Graph for NOT symmetric]]
 
+---
 
 ## Anti-Symmetric Relation
 - Two different elements $a, b$ should NOT be related to **each other**.
@@ -172,20 +174,34 @@ $$
 
 > [!attention] If a relation is not symmetric, then it does NOT mean that the relation is anti-symmetric.
 
-### Representation of Anti-Symmetric Relation
+## Representation of Anti-Symmetric Relation
 
-#### Matrix Representation
+### Matrix Representation
 - It does NOT care about diagonal entries
+![[Pasted image 20231014231515.png|template matrix]]
 
-#### Graph Representation
+- There are two cases in the above matrix
+```start-multi-column
+ID: ID_ere1
+Number of Columns: 2
+Largest Column: standard
+```
+![[Pasted image 20231014231715.png|case 1]]
+
+--- column-end ---
+
+![[Pasted image 20231014231735.png|case 2]]
+
+--- end-multi-column
+
+### Graph Representation
 - It does NOT care about self-loops.
-- There should be only one directional relationship.
-- If there is no relationship between two different elements, then its fine.
+- There should be only one directional relationship. i.e. There should be at most one edge between distinct vertices.
+- If there is no relationship between two different vertices, then its fine.
 > [!example] $A = \{a, b, c, d\}$
 > ![[Pasted image 20231014230405.png]]
 
-
-
+---
 
 ## Asymmetric Relation
 - It is also called as counter-symmetric relation.
@@ -207,19 +223,24 @@ $$
 > [!info] Possibilities of $x$ and $y$ if $R$ is asymmetric
 > ![[Pasted image 20231014224958.png|Possibilities allowed and not allowed]]
 
-### Representation of Asymmetric Relation
-#### Graph Representation
+## Representation of Asymmetric Relation
+### Matrix Representation
+- The diagonal entries must be 0's and the rest elements as in anti-symmetric relation.
+
+### Graph Representation
 
 ![[Pasted image 20231014225829.png]]
+
+![[Pasted image 20231014232239.png]]
+
 
 ## Examples
 
 > [!youtube] [Q3 solution - Reflexive, Symmetric and Anti-Symmetric relation](https://www.youtube.com/watch?v=71ks9HH0osQ)
 > Problems on Reflexive and Symmetric relations on a set.
+>> [!pdf] Lec 24-26 Pg No. 51 - 81
 
-- There is no relation which is both reflexive and asymmetric.
-
-
+- There is **no** relation which is both reflexive and asymmetric.
 ---
 
 # Transitive Relation
@@ -231,16 +252,55 @@ $$
 > [!intuition] To solve Transitive relation problems easily, use **graph representation** to avoid or not encounter the above analytical problem.
 
 ## Transitive Relation
+- $R$ is transitive on $A$ iff
+$$
+\forall_{a, b, c \; \in \; A} \; (\; (aRb \land bRc) \rightarrow aRc \;)
+$$
+- $a, b, c$ may be same or different elements.
+
+![[Pasted image 20231014233933.png]]
 
 > [!intuition] For checking transitive relation, take two relation ordered pairs rather than a single ordered pair as in the above relations.
 > Take $a R b$ and $b R c$ and then check if $a R c$
 
+### Examples
+- Equality relation on $Z$ is transitive
+![[Pasted image 20231014234130.png]]
+
+- Subset relation on a powerset is transitive
+![[Pasted image 20231014234242.png]]
+
+![[Pasted image 20231014234327.png]]
+
 
 ## Non-Transitive Relation
+- If there is some element $a, b, c$ where $a$ is related to $b$ and $b$ is related to $c$ but $a$ is NOT related to $c$
+$$
+\exists_{a, b, c \; \in \; A} \; (a R b \; \land \; b R c \; \land \; a \not R c)
+$$
+![[Pasted image 20231014235433.png|violation of Transitive condition]]
 
+## Graph Representation of Transitive and Non-transitive Relation
+
+### Transitive
+![[Pasted image 20231014234817.png]]
+
+![[Pasted image 20231014235230.png|Transitivity]]
+
+![[Pasted image 20231014235328.png|Since no three elements are chained, this is transitive]]
+
+### Non-Transitive
+![[Pasted image 20231014235129.png|Non-transitive relation condition]]
+
+![[Pasted image 20231014235545.png|there is no self loop on a and b]]
 
 ----
+# Summary of Reflexive, Symmetric and Transitive Relation
+![[Pasted image 20231015000038.png]]
 
+![[Pasted image 20231015000302.png]]
+
+---
 # Equivalence Relation
 
 > [!lecture] Lecture - 27
@@ -254,7 +314,7 @@ $$
 
 > [!lecture] Lecture - 29
 
-- Equivalent relation [[Partition of a Set|partitiones]] a set. If $R$ is an equivalent relation on the set $S$, then $R$ partitions the set $S$. Each partition is called an equivalence class.
+- Equivalent relation [[Partition of a Set|partitions]] a set. If $R$ is an equivalent relation on the set $S$, then $R$ partitions the set $S$. Each partition is called an equivalence class.
 
 ### Equivalence Class
 - In an equivalent relation $R$ Equivalence class $[x]_R$ for an element $x \in S$, 
