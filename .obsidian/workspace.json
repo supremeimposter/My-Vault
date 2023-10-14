@@ -32,8 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0475f0d0e90491c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Partition of a Set.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:DM/Relations",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,11 +101,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -108,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Relations.md",
+                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Relations.md",
+                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Relations.md"
+                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md"
               }
             }
           },
@@ -206,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 337.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,30 +246,31 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "d27cc32fd7608f66",
+  "active": "7e354d747a28be22",
   "lastOpenFiles": [
+    "attachments/Pasted image 20231014230405.png",
+    "attachments/Pasted image 20231014225829.png",
+    "attachments/Pasted image 20231014225224.png",
+    "attachments/Pasted image 20231014224958.png",
+    "attachments/Pasted image 20231014223319.png",
+    "attachments/Pasted image 20231014223118.png",
+    "DiscreteMathematics/Set-Theory/Partition of a Set.md",
     "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
+    "attachments/Pasted image 20231014222310.png",
+    "attachments/Pasted image 20231014213923.png",
+    "attachments/Pasted image 20231014213640.png",
+    "attachments/Pasted image 20231014213136.png",
+    "attachments/Pasted image 20231014213117.png",
     "DiscreteMathematics/Set-Theory/Relations.md",
     "DiscreteMathematics/Set-Theory/Set Definition.md",
     "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
-    "DiscreteMathematics/Set-Theory/Partition of a Set.md",
     "GATE-LOG.md",
     "DiscreteMathematics/Set Theory.md",
     "Pending Notes.md",
     "C/C.md",
     "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md",
     "DiscreteMathematics/First-Order-Logic/Equivalence of FOL expressions.md",
-    "attachments/Pasted image 20231011121224.png",
-    "attachments/Pasted image 20231011121155.png",
-    "attachments/Pasted image 20231011100933.png",
-    "attachments/Pasted image 20231011100817.png",
-    "attachments/Pasted image 20231011100505.png",
-    "attachments/Pasted image 20231011100411.png",
-    "attachments/Pasted image 20231011094344.png",
-    "attachments/Pasted image 20231011094234.png",
-    "attachments/Pasted image 20231011094040.png",
-    "attachments/Pasted image 20231011093706.png",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
     "Attachments",
     "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
@@ -268,7 +286,6 @@
     "DiscreteMathematics/Discrete Mathematics.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
     "Untitled.loom",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
     "DiscreteMathematics/Set-Theory",
     "Set-Theory",
     "GATE-materials",

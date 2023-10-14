@@ -126,13 +126,26 @@
     },
     "attention": {
       "type": "attention",
-      "color": "176, 242, 54",
+      "color": "139, 202, 22",
       "icon": {
         "type": "octicons",
         "name": "stop"
       },
       "command": false,
       "title": "Attention",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "definition": {
+      "type": "definition",
+      "color": "104, 153, 232",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-function-square"
+      },
+      "command": false,
+      "title": "Definition",
       "injectColor": true,
       "noTitle": false
     }
