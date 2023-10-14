@@ -52,12 +52,12 @@
   "Components@@scrollbar-hide": false,
   "aura@@cpt-accent": "var(--cpt-aura)",
   "aura@@aura-colorshemes-light": "aura-colorschemes-light-origin",
-  "aura@@aura-colorshemes-dark": "aura-colorschemes-dark-origin",
+  "aura@@aura-colorshemes-dark": "aura-colorschemes-dark-dracula",
   "aura@@aura-workspace-background": true,
-  "aura@@aura-workspace-background-image-dark": "aura-workspace-background-image-spiderman",
+  "aura@@aura-workspace-background-image-dark": "aura-workspace-background-image-tokoyo",
   "aura@@aura-file-icons": true,
   "aura@@aura-folder-icons": true,
-  "aura@@aura-colorful-frame": true,
+  "aura@@aura-colorful-frame": false,
   "aura@@aura-rainbow-folders": true,
   "aura@@aura-translucent-window": true,
   "aura@@aura-floating-titlebar": false,
@@ -256,5 +256,7 @@
   "anuppuccin-theme-settings@@anp-alt-tab-style": "anp-safari-tab-toggle",
   "anuppuccin-theme-settings@@anp-disable-newtab-align": true,
   "anuppuccin-theme-settings@@anp-layout-select": "anp-card-layout",
-  "anuppuccin-theme-settings@@anp-cursor": "pointer"
+  "anuppuccin-theme-settings@@anp-cursor": "pointer",
+  "aura@@aura-colorful-frame-opacity": 1,
+  "pln@@pln-vision": false
 }
