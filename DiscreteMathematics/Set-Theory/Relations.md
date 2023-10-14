@@ -8,8 +8,9 @@ version:
 last-revision: 
 notes-taken: true
 tags:
-  - DM/Relations
   - DM
+  - DM/Sets
+  - DM/Sets/Relations
 ---
 # Relations
 - Relation is also called as Binary relation as a relation is mostly from one set to another set.
@@ -94,13 +95,10 @@ Largest Column: standard
 > [!example] Full relation on $A$
 > ![[Pasted image 20231011100817.png|Full relation on A]]
 
-
 --- column-end ---
 
 > [!example] No relation on $A$
 > ![[Pasted image 20231011100933.png|Empty relation on A]]
-
-
 
 --- end-multi-column
 

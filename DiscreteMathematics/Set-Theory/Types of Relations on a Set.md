@@ -8,31 +8,86 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DM/Relations
   - DM
+  - DM/Sets
+  - DM/Sets/Relations
 ---
 
 - These special types of relations are only for relations $R$ on a set $A$ i.e. $R : A \rightarrow A$
 ---
 # Reflexive Relation
-
 > [!lecture] Lecture-21
 ## Reflexive Relation
 - A relation $R$ on a set $A$ is said to be reflexive iff all the elements of $A$ is related to itself.
 $$
-\forall x \in A\; (x \; R\; x)
+\forall_{x \in A}\; (x \; R\; x)
 $$
 
 ## Not Reflexive Relation
-- Not reflexive is the negation of reflexive relation.
+- Not reflexive relation is the negation of reflexive relation.
+- There is one element in $A$ which is NOT related to itself.
+$$
+\exists_{x \in A} (x \; \not R \; x)
+$$
+
 ## Ir-reflexive Relation
+- It is **NOT** the negation of Reflexive relation
+- All the elements in the set $A$ must NOT be related to each other.
+$$
+\forall_{x \in A} (x \; \not R \; x)
+$$
+
+> [!tip] 
+> - If a relation is ir-reflexive, then it is NOT reflexive, but the converse is NOT true.
+> - If a relation is reflexive or ir-reflexive, then the relation is NOT reflexive.
 
 
+## Empty base set 
 
 > [!discussion] Empty base set
 > ![[Pasted image 20231011121224.png]]
 
 ## Examples
+
+> [!info] Equality Relation
+> In a set $A$, $x \; R \; y$ iff $x = y$
+
+> [!info] Subset Relation
+> In a set $\mathcal{P}(A)$, $X\;R\;Y$ iff $X \subseteq Y$
+
+- Equality Relation on $A$ is reflexive.
+![[Pasted image 20231014180432.png]]
+
+- Subset Relation on a powerset is reflexive.
+
+> [!intuition] Every set is a subset of itself
+
+![[Pasted image 20231014180446.png]]
+
+![[Pasted image 20231014180635.png]]
+
+![[Pasted image 20231014183430.png]]
+
+## Representation of Reflexive Relation
+### Matrix Representation
+
+> [!example] $A = \{a, b, c, d\}$
+> **Reflexive** - main diagonal is all 1's
+> ![[Pasted image 20231014182447.png|Matrix for Reflexive]]
+> **Not Reflexive** - Main diagonal is all 0's
+> ![[Pasted image 20231014182516.png|Matrix for NOT Reflexive]]
+> **Ir-reflexive** - main diagonal has at least one 0
+> ![[Pasted image 20231014182557.png|Matrix for Ir-reflexive]]
+
+### Graph Representation
+
+> [!example] $A = \{a, b, c\}$
+> **Reflexive** - Every element has self loop
+> ![[Pasted image 20231014181739.png|Graph for reflexive]]
+> **Not Reflexive** - No element has self loop
+> ![[Pasted image 20231014181802.png|Graph for NOT reflexive]]
+> **Ir-reflexive** - At least one element does not have self loop
+> ![[Pasted image 20231014181852.png|Graph for Ir-reflexive]]
 
 
 ---
@@ -41,26 +96,121 @@ $$
 
 > [!lecture] Lecture 22
 ## Symmetric Relation
+
+- A relation $R$ is symmetric iff
+$$
+\forall_{a, b\; \in \; A}\; (a\; R \; b \rightarrow b \; R \; a)
+$$
+
+- Assume base set $A$ and a relation $R : A \rightarrow A$, 
+> [!info] Possibilities of $x$ and $y$ if $R$ is symmetric
+> ![[Pasted image 20231014223118.png|possibilities allowed and not allowed]]
+
 - For two different elements, relationship must be bi-directional. They must be related to each other.
 - Uni-directional edges is NOT allowed.
 - It does NOT care about self-loops.
 
+### Not Symmetric Relation
+- A relation $R$ is NOT symmetric iff
+$$
+\exists_{a, b\; \in \; A}\; (a\; R \; b \land b \; \not R \; a)
+$$
+
+### Examples
+- Equality relation on $\mathbb{Z}$ is symmetric.
+![[Pasted image 20231014213017.png]]
+
+- Subset relation on a powerset is NOT symmetric.
+![[Pasted image 20231014213117.png]]
+
+![[Pasted image 20231014213136.png]]
+
+### Representation of Symmetric Relation
+
+#### Matrix Representation
+
+> [!example] $A = \{1, 2, 3\}$
+> ![[Pasted image 20231014213640.png]]
+> - If the relation is symmetric, then the matrix $M$ is called a Symmetric Matrix where $M = M^T$
+> - Reflexivity is NOT  concern if the matrix is symmetric.
+
+#### Graph Representation
+- Unidirectional edges is NOT allowed if the relation is symmetric.
+
+
+> [!example] 
+> **Symmetric**
+> ![[Pasted image 20231014213923.png|Graph for symmetric]]
+> **Not-Symmetric**
+> ![[Pasted image 20231014222310.png|Graph for NOT symmetric]]
+
+
 ## Anti-Symmetric Relation
-- Two different elements should NOT be related to **each other**.
-- Bi-directional relationship is NOT allowed.
+- Two different elements $a, b$ should NOT be related to **each other**.
+- Assume base set $A$ and a relation $R : A \rightarrow A$, $x, y \in A$, where $x \not = y$
+> [!info] Possibilities of $x$ and $y$ if $R$ is anti-symmetric
+> ![[Pasted image 20231014223319.png|possibilities allowed and not allowed]]
+
+
+**Definition 1**
+- $R$ is anti-symmetric on $A$ i.e. $R : A \rightarrow A$ iff
+$$
+\forall_{a, b \;\in\; A} \; ((a \not= b \land a R b) \rightarrow (b \not R a) )
+$$
+- If $a$ and $b$ are different elements then they must not be related.
+
+**Definition 2**
+- $R$ is anti-symmetric on $A$ i.e. $R : A \rightarrow A$ iff
+$$
+\forall_{a, b \;\in\; A} \; ((a R b \land b R a) \rightarrow (a = b))
+$$
+- If $a$ and $b$ are different elements then they must not be related.
+
+
 - It also does NOT care about self-loops.
+- Bi-directional relationship is NOT allowed.
 
 > [!attention] If a relation is not symmetric, then it does NOT mean that the relation is anti-symmetric.
 
+### Representation of Anti-Symmetric Relation
+
+#### Matrix Representation
+- It does NOT care about diagonal entries
+
+#### Graph Representation
+- It does NOT care about self-loops.
+- There should be only one directional relationship.
+- If there is no relationship between two different elements, then its fine.
+> [!example] $A = \{a, b, c, d\}$
+> ![[Pasted image 20231014230405.png]]
+
+
+
+
 ## Asymmetric Relation
+- It is also called as counter-symmetric relation.
 - It is the combination of [[Types of Relations on a Set#Ir-reflexive Relation|ir-reflexive relation]] and [[Types of Relations on a Set#Anti-Symmetric Relation|anti-symmetric relation]].
-- Self-loop is NOT allowed.
-- Bi-directional relationship is NOT allowed
+- Self-loop is NOT allowed because of ir-reflexive property.
+- Bi-directional relationship is NOT allowed because of anti-symmetric property.
+> [!think] If a relation is NOT anti-symmetric, then it is also not asymmetric.
 
-> [!intuition] If a relation is NOT anti-symmetric, then it is also not asymmetric.
 
-## Comparison
+- $R$ is asymmetric on $A$ i.e. $R : A \rightarrow A$ iff
+$$
+\forall_{a, b \; \in \; A} \; (a R b \rightarrow b \not R a)
+$$
+- The above definition also takes care of the edge case $a = b$ for anti-symmetric property.
+![[Pasted image 20231014225224.png|if a = b, then it is false as well]]
 
+
+- Assume base set $A$ and a relation $R : A \rightarrow A$, $x, y \in A$, where $x \not = y$
+> [!info] Possibilities of $x$ and $y$ if $R$ is asymmetric
+> ![[Pasted image 20231014224958.png|Possibilities allowed and not allowed]]
+
+### Representation of Asymmetric Relation
+#### Graph Representation
+
+![[Pasted image 20231014225829.png]]
 
 ## Examples
 
@@ -68,6 +218,8 @@ $$
 > Problems on Reflexive and Symmetric relations on a set.
 
 - There is no relation which is both reflexive and asymmetric.
+
+
 ---
 
 # Transitive Relation
@@ -148,4 +300,8 @@ $$
 	- Transitive
 - If the set $|A| = n$ Identity relation $R_{identity}$ on set $A$ partitions the set $A$ into `n` partitions.
 - $R_{identity}$ creates $n$ equivalent classes. 
+
+
+
+---
 
