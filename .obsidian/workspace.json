@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dc15d67345b55292",
+        "id": "ef507b1cd0d79630",
         "type": "tabs",
         "children": [
           {
-            "id": "36a0a1ef16616651",
+            "id": "d24350a1c99ed126",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +21,20 @@
             }
           },
           {
-            "id": "bcdd566204c0db95",
+            "id": "02f6d61f75b9a0b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20f938beb923ccbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -62,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:DM/Relations",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,12 +101,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -109,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
+                "file": "DiscreteMathematics/Set-Theory/Partition of a Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
+                "file": "DiscreteMathematics/Set-Theory/Partition of a Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md"
+                "file": "DiscreteMathematics/Set-Theory/Partition of a Set.md"
               }
             }
           },
@@ -172,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "5df95600f2476df0",
@@ -191,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 337.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,18 +226,32 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "36a0a1ef16616651",
+  "active": "145ab42fd1c419a0",
   "lastOpenFiles": [
-    "DiscreteMathematics/Set-Theory/Partition of a Set.md",
+    "Fundamentals of Computer Science",
+    "attachments/Pasted image 20231015164700.png",
+    "attachments/Pasted image 20231015164649.png",
+    "attachments/Pasted image 20231015164346.png",
+    "attachments/Pasted image 20231015163521.png",
+    "attachments/Pasted image 20231015163458.png",
+    "attachments/Pasted image 20231015163319.png",
+    "attachments/Pasted image 20231015163251.png",
+    "attachments/Pasted image 20231015163229.png",
     "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
+    "DiscreteMathematics/Set-Theory/Partition of a Set.md",
+    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
+    "attachments/Pasted image 20231015161546.png",
+    "attachments/Pasted image 20231015161528.png",
+    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Symmetric Relation.md",
+    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Reflexive Relation.md",
+    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Transitive Relation.md",
+    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set",
     "GATE-LOG.md",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
     "DiscreteMathematics/Set-Theory/Mathematical Structures.md",
     "C/Types/Types.md",
     "broken links output.md",
     "orphaned files output.md",
-    "attachments/Pasted image 20230910214647.png",
-    "attachments/Pasted image 20230912214827.png",
     "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md",
@@ -241,24 +270,10 @@
     "logseq",
     "DiscreteMathematics/Set-Theory/Relations.md",
     "Untitled.canvas",
-    "attachments/Pasted image 20231015000302.png",
-    "attachments/Pasted image 20231015000145.png",
-    "attachments/Pasted image 20231015000038.png",
-    "attachments/Pasted image 20231014235545.png",
-    "attachments/Pasted image 20231014235433.png",
-    "attachments/Pasted image 20231014235328.png",
-    "attachments/Pasted image 20231014235230.png",
-    "attachments/Pasted image 20231014235129.png",
     "DiscreteMathematics/Set-Theory/Set Definition.md",
     "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
-    "Pending Notes.md",
-    "C/C.md",
-    "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md",
-    "DiscreteMathematics/First-Order-Logic/Equivalence of FOL expressions.md",
     "Attachments",
-    "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
-    "Untitled.loom",
-    "DiscreteMathematics/Set-Theory"
+    "Untitled.loom"
   ]
 }
