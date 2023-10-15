@@ -16,7 +16,7 @@ tags:
 - These special types of relations are only for relations $R$ on a set $A$ i.e. $R : A \rightarrow A$
 ---
 # Reflexive Relation
-> [!lecture] Lecture-21
+> [!lecture] Lecture-21 
 ## Reflexive Relation
 - A relation $R$ on a set $A$ is said to be reflexive iff all the elements of $A$ is related to itself.
 $$
