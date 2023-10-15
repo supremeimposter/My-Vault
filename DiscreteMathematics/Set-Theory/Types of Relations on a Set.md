@@ -296,8 +296,11 @@ $$
 
 ----
 # Summary of Reflexive, Symmetric and Transitive Relation
+
+## Definitions
 ![[Pasted image 20231015000038.png]]
 
+## Examples
 ![[Pasted image 20231015000302.png]]
 
 ---
@@ -314,7 +317,8 @@ $$
 
 > [!lecture] Lecture - 29
 
-- Equivalent relation [[Partition of a Set|partitions]] a set. If $R$ is an equivalent relation on the set $S$, then $R$ partitions the set $S$. Each partition is called an equivalence class.
+- Equivalent relation [[Partition of a Set|partitions]] a set. If $R$ is an equivalent relation on the set $S$, then $R$ partitions the set $S$. 
+- Each partition is called an equivalence class and every equivalent relation creates unique partitions i.e. unique equivalence classes.
 
 ### Equivalence Class
 - In an equivalent relation $R$ Equivalence class $[x]_R$ for an element $x \in S$, 
@@ -322,13 +326,13 @@ $$
 [x]_R = \{y \; | \; xRy\}
 $$
 - The equivalence class of a member of $[x]_R$ is same as $[x]_R$ i.e. $[y]_R = [x]_R$
-- Equivalence classes are [[Partition of a Set|partitions]] of a set $S$.
+- Equivalence classes are [[Partition of a Set|partitions]] of a set $S$ i.e. Each equivalence class is unique.
 
 > [!intuition] Equivalence class is NOT relation on $A$
-> Equivalence class is a set containing relations, but NOT all the relations on $A$ as per $R$'s definition.
+> Equivalence class is a set containing related elements, but it does NOT contain the relations on $A$ as per $R$'s definition.
 
-- In an equivalence class, every element in related to every other element which is represented as $a \sim b$
-- For an equivalence class $[x]_R$ , if $|\;[x]_R\;| = k$ , then it produces $k^2$ relations in $R$.
+- In an equivalence class, every element in related to every other element which is represented as $a \sim b$, where $a, b \in [a]_R$
+- For an equivalence class $[x]_R$ , if $|\;[x]_R\;| = k$ , then it contributes to $k^2$ relations in $R$.
 - If $E_i = [x_i]_R$ is an equivalence class and there are $n$ equivalence classes , then $|R| = \Sigma \; \lvert E_i\lvert ^2$
 $$
 R = (E_1 \times E_1)\; \cup \; (E_2 \times E_2) \; \cup \; \ldots \; \cup (E_n \times E_n)
@@ -336,7 +340,6 @@ $$
 $$
 \lvert R \lvert = \lvert (E_1 \times E_1) \lvert \; + \; \lvert (E_2 \times E_2) \lvert \; + \; \ldots \; + \lvert (E_n \times E_n) \lvert
 $$
-
 
 ### [[Relations#Universal and Empty relation|Universal Relation]] on $A$ is Equivalent
 - Universal relation $R_{universal}$ on $A$ i.e. set of all relations possible on the set $A$ is, 

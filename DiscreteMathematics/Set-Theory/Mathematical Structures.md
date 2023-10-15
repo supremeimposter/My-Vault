@@ -27,7 +27,7 @@ tags:
 ## Equality of n-tuple
 
 > [!question] When $(a_1, a_2, a_3, \ldots a_n) = (b_1, b_2, b_3, \ldots b_n)$ ?
-> iff $\forall{i} \; a = b_i$
+> iff $\forall_{i} \; a = b_i$
 
 
 ## Ordered Pairs $(a, b)$
