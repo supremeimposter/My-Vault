@@ -4,15 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "bab7ab146624a629",
+        "id": "dc15d67345b55292",
         "type": "tabs",
         "children": [
           {
-            "id": "13e6de4e4e39c276",
+            "id": "36a0a1ef16616651",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bcdd566204c0db95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Partition of a Set.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -69,7 +87,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -90,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +155,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md"
+              }
             }
           },
           {
@@ -188,8 +211,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "13e6de4e4e39c276",
+  "active": "36a0a1ef16616651",
   "lastOpenFiles": [
+    "DiscreteMathematics/Set-Theory/Partition of a Set.md",
+    "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
+    "GATE-LOG.md",
+    "DiscreteMathematics/Set-Theory/Set Operations.md",
+    "DiscreteMathematics/Set-Theory/Mathematical Structures.md",
     "C/Types/Types.md",
     "broken links output.md",
     "orphaned files output.md",
@@ -199,7 +227,6 @@
     "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md",
     "TheoryOfComputation/Introduction to Theory of Computation.md",
-    "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
     "TheoryOfComputation/Theory of Computation.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
     "DiscreteMathematics/Discrete Mathematics.md",
@@ -222,16 +249,13 @@
     "attachments/Pasted image 20231014235328.png",
     "attachments/Pasted image 20231014235230.png",
     "attachments/Pasted image 20231014235129.png",
-    "DiscreteMathematics/Set-Theory/Partition of a Set.md",
     "DiscreteMathematics/Set-Theory/Set Definition.md",
     "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
-    "GATE-LOG.md",
     "Pending Notes.md",
     "C/C.md",
     "DiscreteMathematics/First-Order-Logic/Negation of Quantifiers.md",
     "DiscreteMathematics/First-Order-Logic/Equivalence of FOL expressions.md",
-    "DiscreteMathematics/Set-Theory/Set Operations.md",
     "Attachments",
     "DiscreteMathematics/First-Order-Logic/First Order Logic.md",
     "Untitled.loom",
