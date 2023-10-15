@@ -1,8 +1,12 @@
 {
   "outputFileName": "orphaned files output",
   "disableWorkingLinks": false,
-  "directoriesToIgnore": [],
-  "filesToIgnore": [],
+  "directoriesToIgnore": [
+    "attachments/"
+  ],
+  "filesToIgnore": [
+    ""
+  ],
   "fileTypesToIgnore": [],
   "linksToIgnore": [],
   "tagsToIgnore": [],
@@ -11,16 +15,24 @@
   "ignoreDirectories": true,
   "unresolvedLinksIgnoreDirectories": true,
   "unresolvedLinksOutputFileName": "broken links output",
-  "unresolvedLinksDirectoriesToIgnore": [],
-  "unresolvedLinksFilesToIgnore": [],
+  "unresolvedLinksDirectoriesToIgnore": [
+    "attachments/"
+  ],
+  "unresolvedLinksFilesToIgnore": [
+    ""
+  ],
   "unresolvedLinksFileTypesToIgnore": [],
   "unresolvedLinksLinksToIgnore": [],
   "unresolvedLinksTagsToIgnore": [],
-  "withoutTagsDirectoriesToIgnore": [],
+  "withoutTagsDirectoriesToIgnore": [
+    "attachments/"
+  ],
   "withoutTagsFilesToIgnore": [],
   "withoutTagsOutputFileName": "files without tags",
   "emptyFilesOutputFileName": "empty files",
-  "emptyFilesDirectories": [],
+  "emptyFilesDirectories": [
+    "attachments/"
+  ],
   "emptyFilesFilesToIgnore": [],
   "emptyFilesIgnoreDirectories": true,
   "openOutputFile": true

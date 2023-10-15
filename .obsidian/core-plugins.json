@@ -15,10 +15,7 @@
   "command-palette",
   "editor-status",
   "bookmarks",
-  "markdown-importer",
   "outline",
   "word-count",
-  "audio-recorder",
-  "file-recovery",
-  "sync"
+  "audio-recorder"
 ]

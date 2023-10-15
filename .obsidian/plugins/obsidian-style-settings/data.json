@@ -249,7 +249,7 @@
   "Olivier-s-Theme@@OT-filesNavigator-spacing": "filesNavigator-spacing-compact",
   "ul-theme-settings@@ul-floating-ribbon": false,
   "ul-theme-settings@@ul-folders": "none",
-  "ul-theme-settings@@ul-theme-light": "ul-shark-lt",
+  "ul-theme-settings@@ul-theme-light": "ul-gruvbox-lt",
   "ul-theme-settings@@ul-tag-bg": false,
   "ul-theme-settings@@ul-bar": false,
   "ul-theme-settings@@ul-resize-border": false,
@@ -264,5 +264,11 @@
   "chime-theme@@callout-style": "callout-normal",
   "chime-theme@@link-style": "link-default",
   "chime-theme@@heading-colors": "heading-default",
-  "Appearance-light@@workspace-divider-transparent-light": false
+  "Appearance-light@@workspace-divider-transparent-light": false,
+  "ul-theme-settings@@ul-scrollbars": true,
+  "ul-theme-settings@@ul-left-collapse-btn-border": false,
+  "ul-theme-settings@@ul-left-collapse-btn-disable": true,
+  "ul-theme-settings@@ul-notitle": false,
+  "ul-theme-settings@@ul-tag-border": false,
+  "ul-theme-settings@@ul-accent-title": false
 }

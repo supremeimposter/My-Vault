@@ -16,7 +16,7 @@
   "slash-command": false,
   "editor-status": true,
   "bookmarks": true,
-  "markdown-importer": true,
+  "markdown-importer": false,
   "zk-prefixer": false,
   "random-note": false,
   "outline": true,
@@ -24,7 +24,7 @@
   "slides": false,
   "audio-recorder": true,
   "workspaces": false,
-  "file-recovery": true,
+  "file-recovery": false,
   "publish": false,
-  "sync": true
+  "sync": false
 }
