@@ -73,6 +73,10 @@
 
 **October 10, 2023** If you think like you should take noes, just take notes and stop overthinking. As you keep on taking notes, you will develop new templates and techniques in efficient note taking. Do not think about going back to every single note to redefine your notes, do it when you are going to revise.
 
-**October 4, 2023** Watch more related lectures and finally take notes. Meanwhile, just write the headers of a lecture. With more context and understanding, note taking in obsidian is easier. Obsidian is more powerful than pen and paper. Use it to its full potential. 
+**October 11, 2023** Watch more related lectures and finally take notes. Meanwhile, just write the headers of a lecture. With more context and understanding, note taking in obsidian is easier. Obsidian is more powerful than pen and paper. Use it to its full potential. 
 
-**October 4, 2023** If you don't revise in time, you will start forgetting how things turned out to be as it was. So keep on revising, so you can re-watch the videos if you don't get something until you have access to the course.
+**October 11, 2023** If you don't revise in time, you will start forgetting how things turned out to be as it was. So keep on revising, so you can re-watch the videos if you don't get something until you have access to the course.
+
+**October 15, 2023** Do NOT take notes while watching lectures. Only write the headings. Typing notes while watching lectures creates assumptions without more context.
+
+**October 15, 2023** Keep on watching lectures continuously and take breaks like power naps. Power napping is good if you feel tired. Take a 30 minutes sleep so you can focus back. Remember you have to study a whole day, so power napping is good. It's not bad. Take some rest and keep on studying.
