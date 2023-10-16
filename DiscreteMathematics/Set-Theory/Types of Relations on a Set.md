@@ -20,6 +20,7 @@ tags:
 3. [[Transitive Relation]]
 
 ## Summary of Reflexive, Symmetric and Transitive Relation
+
 - Understanding Reflexive, Symmetric, Transitive relations and [[Partition of a Set|partition of a set]] is essential for understanding Equivalence Relation.
 
 ### Definitions
@@ -28,6 +29,8 @@ tags:
 ### Examples
 ![[Pasted image 20231015000302.png]]
 
+- $R$ on $\mathbb{Z}$ i.e. $R : \mathbb{Z} \rightarrow \mathbb{Z}$
+![[Pasted image 20231016223320.png]]
 
 4. [[Equivalence Relation]]
 
