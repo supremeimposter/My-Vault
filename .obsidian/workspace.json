@@ -32,22 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "20f938beb923ccbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMathematics/Set-Theory/Partition of a Set.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -123,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Partition of a Set.md",
+                "file": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Partition of a Set.md",
+                "file": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Partition of a Set.md"
+                "file": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md"
               }
             }
           },
@@ -226,29 +214,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "145ab42fd1c419a0",
+  "active": "02f6d61f75b9a0b7",
   "lastOpenFiles": [
-    "Fundamentals of Computer Science",
-    "attachments/Pasted image 20231015164700.png",
-    "attachments/Pasted image 20231015164649.png",
-    "attachments/Pasted image 20231015164346.png",
-    "attachments/Pasted image 20231015163521.png",
-    "attachments/Pasted image 20231015163458.png",
-    "attachments/Pasted image 20231015163319.png",
-    "attachments/Pasted image 20231015163251.png",
-    "attachments/Pasted image 20231015163229.png",
-    "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
-    "DiscreteMathematics/Set-Theory/Partition of a Set.md",
+    "attachments/Pasted image 20231016154038.png",
+    "attachments/Pasted image 20231016154019.png",
+    "DiscreteMathematics/Set-Theory/Relations.md",
+    "DiscreteMathematics/Set-Theory/Set Operations.md",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
-    "attachments/Pasted image 20231015161546.png",
-    "attachments/Pasted image 20231015161528.png",
+    "Pending Notes.md",
+    "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
+    "DiscreteMathematics/Set-Theory/Set Identities.md",
+    "DiscreteMathematics/Set-Theory/Set Definition.md",
+    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Transitive Relation.md",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Symmetric Relation.md",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Reflexive Relation.md",
-    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Transitive Relation.md",
+    "Untitled.md",
+    "DiscreteMathematics/Set-Theory/Partition of a Set.md",
+    "DiscreteMathematics/Set-Theory/Mathematical Structures.md",
+    "attachments/Pasted image 20231016112204.png",
+    "attachments/Pasted image 20231016112138.png",
+    "attachments/Pasted image 20231016112053.png",
+    "attachments/Pasted image 20231016111901.png",
+    "attachments/Pasted image 20231016111536.png",
+    "attachments/Pasted image 20231016111500.png",
+    "attachments/Pasted image 20231016091246.png",
+    "attachments/Pasted image 20231016090334.png",
+    "attachments/Pasted image 20231016090316.png",
+    "Fundamentals of Computer Science",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set",
     "GATE-LOG.md",
-    "DiscreteMathematics/Set-Theory/Set Operations.md",
-    "DiscreteMathematics/Set-Theory/Mathematical Structures.md",
     "C/Types/Types.md",
     "broken links output.md",
     "orphaned files output.md",
@@ -263,17 +257,11 @@
     "logseq/config.edn.crswap",
     "pages/contents.md.crswap",
     "logseq/custom.css",
-    "pages/contents.md",
     "pages",
     "logseq/config.edn",
     "journals",
     "logseq",
-    "DiscreteMathematics/Set-Theory/Relations.md",
     "Untitled.canvas",
-    "DiscreteMathematics/Set-Theory/Set Definition.md",
-    "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
-    "Attachments",
-    "Untitled.loom"
+    "Attachments"
   ]
 }

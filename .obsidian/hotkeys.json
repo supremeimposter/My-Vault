@@ -51,5 +51,14 @@
       ],
       "key": "D"
     }
+  ],
+  "obsidian-columns:insert-column-wrapper": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "["
+    }
   ]
 }
