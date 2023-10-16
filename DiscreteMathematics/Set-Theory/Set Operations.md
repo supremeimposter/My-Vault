@@ -77,7 +77,7 @@ $$A \times B \times C \not= (A \times B) \times C$$
 - $A \times B \times C$ is a set of triples (3 tuples)
 - $(A \times B) \times C$ is a set of ordered pairs (2 tuples)
 ![[Pasted image 20231009193657.png]]
-
+- Set Cross product on the same set i.e. $A \times A$ is an [[Equivalence Relation|equivalence relation]].
 
 ----
 ## Understanding Set Operations

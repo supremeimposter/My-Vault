@@ -50,11 +50,21 @@ $$
 ## Graph Representation of Transitive and Non-transitive Relation
 
 ### Transitive
+
 ![[Pasted image 20231014234817.png]]
 
+````col
+```col-md
+flexGrow=1.2
+===
 ![[Pasted image 20231014235230.png|Transitivity]]
-
+```
+```col-md
+flexGrow=1
+===
 ![[Pasted image 20231014235328.png|Since no three elements are chained, this is transitive]]
+```
+````
 
 ### Non-Transitive
 ![[Pasted image 20231014235129.png|Non-transitive relation condition]]

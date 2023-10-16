@@ -48,14 +48,15 @@ $$
 
 ### Matrix Representation
 
+- If the relation is symmetric, then the matrix $M$ is called a Symmetric Matrix where $M = M^T$
+- Reflexivity is NOT  concern if the matrix is symmetric.
+
 > [!example] $A = \{1, 2, 3\}$
 > ![[Pasted image 20231014213640.png]]
-> - If the relation is symmetric, then the matrix $M$ is called a Symmetric Matrix where $M = M^T$
-> - Reflexivity is NOT  concern if the matrix is symmetric.
 
 ### Graph Representation
-- Unidirectional edges is NOT allowed if the relation is symmetric.
 
+- Unidirectional edges is NOT allowed if the relation is symmetric.
 
 > [!example] 
 > **Symmetric**
@@ -70,7 +71,6 @@ $$
 - Assume base set $A$ and a relation $R : A \rightarrow A$, $x, y \in A$, where $x \not = y$
 > [!info] Possibilities of $x$ and $y$ if $R$ is anti-symmetric
 > ![[Pasted image 20231014223319.png|possibilities allowed and not allowed]]
-
 
 **Definition 1**
 - $R$ is anti-symmetric on $A$ i.e. $R : A \rightarrow A$ iff
@@ -99,18 +99,18 @@ $$
 ![[Pasted image 20231014231515.png|template matrix]]
 
 - There are two cases in the above matrix
-```start-multi-column
-ID: ID_ere1
-Number of Columns: 2
-Largest Column: standard
-```
+````col
+```col-md
+flexGrow=1
+===
 ![[Pasted image 20231014231715.png|case 1]]
-
---- column-end ---
-
+```
+```col-md
+flexGrow=1
+===
 ![[Pasted image 20231014231735.png|case 2]]
-
---- end-multi-column
+```
+````
 
 ### Graph Representation
 - It does NOT care about self-loops.

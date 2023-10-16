@@ -42,24 +42,11 @@ tags:
 
 ### Equality of Ordered Pairs
 
-```start-multi-column
-ID: ID_yg0p
-Number of Columns: 2
-Largest Column: standard
-```
-
-
 > [!question] When $(a, b)$ is equal to $(c, d)$ ?
 > iff $a = c$ and $b = d$
 
-
---- column-end ---
-
 > [!question] When $(a, b)$ is equal to $(b, a)$ ?
 > iff $a = b$
-
-
---- end-multi-column
 
 ----
 

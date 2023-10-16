@@ -38,7 +38,6 @@ $$
 > - If a relation is ir-reflexive, then it is NOT reflexive, but the converse is NOT true.
 > - If a relation is reflexive or ir-reflexive, then the relation is NOT reflexive.
 
-
 ## Empty base set 
 
 > [!discussion] Empty base set
@@ -70,22 +69,49 @@ $$
 ### Matrix Representation
 
 > [!example] $A = \{a, b, c, d\}$
-> **Reflexive** - main diagonal is all 1's
-> ![[Pasted image 20231014182447.png|Matrix for Reflexive]]
-> **Not Reflexive** - Main diagonal is all 0's
-> ![[Pasted image 20231014182516.png|Matrix for NOT Reflexive]]
-> **Ir-reflexive** - main diagonal has at least one 0
-> ![[Pasted image 20231014182557.png|Matrix for Ir-reflexive]]
+````col
+```col-md
+flexGrow=1
+===
+**Reflexive** - main diagonal is all 1's
+![[Pasted image 20231014182447.png|Matrix for Reflexive]]
+```
+```col-md
+flexGrow=1
+===
+**Not Reflexive** - Main diagonal is all 0's
+![[Pasted image 20231014182516.png|Matrix for NOT Reflexive]]
+```
+```col-md
+flexGrow=1
+===
+**Ir-reflexive** - main diagonal has at least one 0
+![[Pasted image 20231014182557.png|Matrix for Ir-reflexive]]
+```
+````
 
 ### Graph Representation
 
 > [!example] $A = \{a, b, c\}$
-> **Reflexive** - Every element has self loop
-> ![[Pasted image 20231014181739.png|Graph for reflexive]]
-> **Not Reflexive** - No element has self loop
-> ![[Pasted image 20231014181802.png|Graph for NOT reflexive]]
-> **Ir-reflexive** - At least one element does not have self loop
-> ![[Pasted image 20231014181852.png|Graph for Ir-reflexive]]
-
+````col
+```col-md
+flexGrow=1
+===
+**Reflexive** - Every element has self loop
+![[Pasted image 20231014181739.png|Graph for reflexive]]
+```
+```col-md
+flexGrow=1
+===
+**Not Reflexive** - No element has self loop
+![[Pasted image 20231014181802.png|Graph for NOT reflexive]]
+```
+```col-md
+flexGrow=1
+===
+**Ir-reflexive** - At least one element does not have self loop
+![[Pasted image 20231014181852.png|Graph for Ir-reflexive]]
+```
+````
 
 ---

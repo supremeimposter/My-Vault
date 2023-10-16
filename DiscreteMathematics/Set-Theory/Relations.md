@@ -55,7 +55,7 @@ $$R \subseteq A \times B$$
 
 ![[Pasted image 20231011094040.png]]
 
-## Number of relations possible
+## No of relations possible
 $$
 |A \times B| = |A| \cdot |B|
 $$
@@ -83,26 +83,23 @@ $$R \text{ is on set } A \equiv R : A \rightarrow A \equiv R \subseteq A \times 
 ### Universal and Empty relation
 - $A \times A$ is the universal relation on the set $A$. It is the set of all the relations on $A$.
 - There can also be an empty relation on $A$ where there is no relationship between any of the elements of the set $A$.
+
 > [!example] $A = \{1, 2\}$
-
-```start-multi-column
-ID: ID_fxto
-Number of Columns: 2
-Largest Column: standard
+````col
+```col-md
+flexGrow=1
+===
+![[Pasted image 20231011100817.png|Full relation on $A$]]
 ```
-
-
-> [!example] Full relation on $A$
-> ![[Pasted image 20231011100817.png|Full relation on A]]
-
---- column-end ---
-
-> [!example] No relation on $A$
-> ![[Pasted image 20231011100933.png|Empty relation on A]]
-
---- end-multi-column
+```col-md
+flexGrow=1
+===
+![[Pasted image 20231011100933.png|Empty relation on $A$]]
+```
+````
 
 ### No of relations on a set $A$
+
 > [!example] ![[Pasted image 20231010204357.png]]
 > ![[Pasted image 20231010204420.png]]
 - For a set $A$, where $|A| = n$, no of relations from $A$ to $A =$ no of subsets of $|A \times A| = 2^{n^{2}}$
@@ -112,13 +109,22 @@ Largest Column: standard
 
 - Identifying the base set is the important step in identifying relations on a set.
 
-> [!example] 1. R on set A
->> $R : A \rightarrow A$ 
->> $R \subseteq A \times A$
-
-> [!example] 2. $R$ on set $\mathbb{N} \times \mathbb{Z}$
->> $R : \mathbb{N} \times \mathbb{Z} \rightarrow \mathbb{N} \times \mathbb{Z}$
->> $R \subseteq (\mathbb{N} \times \mathbb{Z}) \times (\mathbb{N} \times \mathbb{Z})$
+````col
+```col-md
+flexGrow=1
+===
+**1. $R$ on set $A$**
+> $R : A \rightarrow A$ 
+> $R \subseteq A \times A$
+```
+```col-md
+flexGrow=1
+===
+**2. $R$ on set $\mathbb{N} \times \mathbb{Z}$**
+> $R : \mathbb{N} \times \mathbb{Z} \rightarrow \mathbb{N} \times \mathbb{Z}$
+> $R \subseteq (\mathbb{N} \times \mathbb{Z}) \times (\mathbb{N} \times \mathbb{Z})$
+```
+````
 
 ## Representation of Relations
 
@@ -160,14 +166,27 @@ $$
 ![[Pasted image 20231011093459.png]]
 
 #### Method 2 : Graph representation
-- Example 1
+
+Example 1
 ![[Pasted image 20231010210749.png]]
-- Example 2 
+
+Example 2 
 ![[Pasted image 20231011093706.png]]
-- Example 3
+
+````col
+```col-md
+flexGrow=1
+===
+Example 3
 ![[Pasted image 20231011094234.png]]
-- Example 4
+```
+```col-md
+flexGrow=1
+===
+Example 4
 ![[Pasted image 20231011094344.png]]
+```
+````
 
 
 > [!pdf] lec-18-21 

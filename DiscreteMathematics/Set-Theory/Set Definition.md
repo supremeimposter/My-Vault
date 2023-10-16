@@ -151,12 +151,21 @@ $$
 
 ![[Pasted image 20231004135955.png]]
 
-##### Powerset of $\phi$
+````col
+```col-md
+flexGrow=1
+===
+**Powerset of $\phi$**
 - $\mathcal{P}(\phi) = \phi$
 - $|\mathcal{P}(\phi)| = 1$ but $|\phi| = 0$
-
-##### Powerset of $\{\phi\}$
+```
+```col-md
+flexGrow=1
+===
+**Powerset of $\{\phi\}$**
 - $\mathcal{P}(\{\phi\}) = \{  \{\}, \{ \phi \}  \}$
+```
+````
 
 ![[Pasted image 20231004182103.png]]
 ![[Pasted image 20231004182231.png]]
@@ -178,13 +187,15 @@ $$
 - The Universal set $U$ is the set containing everything currently under consideration.
 - Content of $U$ depends on the context, sometimes explicitly stated, sometimes implicit.
 
-> [!suggestion] Universal Set not mentioned
+> [!suggestion] When "Universal Set is not mentioned"
 > If the Universal set is not mentioned or given in the question, consider the union of the given sets as the universal set
 
 ---
 ## Disjoint Sets
-- Two sets $P$ and $Q$ are said to be disjoint, if they do not have any common elements.
+- Two sets $P$ and $Q$ are said to be disjoint, if they do not have any common elements. $P \; \cap\; Q = \phi$
 - $A = \phi$ and $B = \phi$ are also disjoint, since there is no element to be common.
 - $P = \{a\}$ and $Q = \phi$ are also disjoint, since there are no elements in $Q$ that are in $P$ .
+![[Pasted image 20231016085039.png]]
+- If $A$ and $B$ are disjoint sets, then $B - A = B$
 
 ---
