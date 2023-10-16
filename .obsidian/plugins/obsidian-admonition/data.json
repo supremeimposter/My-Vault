@@ -124,19 +124,6 @@
       "injectColor": true,
       "noTitle": false
     },
-    "attention": {
-      "type": "attention",
-      "color": "139, 202, 22",
-      "icon": {
-        "type": "octicons",
-        "name": "stop"
-      },
-      "command": false,
-      "title": "Attention",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": false
-    },
     "definition": {
       "type": "definition",
       "color": "104, 153, 232",
@@ -146,6 +133,18 @@
       },
       "command": false,
       "title": "Definition",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "claim": {
+      "type": "claim",
+      "color": "41, 181, 209",
+      "icon": {
+        "name": "anchor",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Claim",
       "injectColor": true,
       "noTitle": false
     }
