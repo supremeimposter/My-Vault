@@ -50,6 +50,7 @@ $$
 - Cartesian product can be performed on any finite number of sets.
 - Cartesian product is neither commutative not associative.
 - Cartesian product of two sets is the set of all [[Relations|relations]] between them.
+- Cardinality of cartesian product depends only on the number of elements in both the sets.
 
 > [!example] Example
 > ![[Pasted image 20231009193356.png]]
@@ -77,7 +78,7 @@ $$A \times B \times C \not= (A \times B) \times C$$
 - $A \times B \times C$ is a set of triples (3 tuples)
 - $(A \times B) \times C$ is a set of ordered pairs (2 tuples)
 ![[Pasted image 20231009193657.png]]
-- Set Cross product on the same set i.e. $A \times A$ is an [[Equivalence Relation|equivalence relation]].
+- Set Cross product on the same set i.e. $A \times A$ is an [[Equivalence Relation|equivalence relation]] which is also an [[Relations#Universal and Empty relation|universal relation]] .
 
 ----
 ## Understanding Set Operations

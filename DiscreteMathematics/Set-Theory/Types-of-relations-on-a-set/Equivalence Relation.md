@@ -38,10 +38,10 @@ tags:
 > [!lecture] Lecture - 29
 
 - If $R$ is an equivalent relation on the set $S$, then $R$ [[Partition of a Set|partitions]] the set $S$. 
-- Each partition is called an equivalence class and every equivalent relation creates unique partitions i.e. unique equivalence classes.
+- Each partition is called an equivalence class and every equivalent relation creates unique partition of $S$ i.e. unique equivalence classes.
 ### Equivalence Class
 
-> [!check] When asked to find equivalence classes, check if the given relation is an equivalent relation
+> [!check] When asked to find equivalence classes, check if the given relation is an equivalent relation (RST)
 
 - In an equivalent relation $R$ on the set $A$ Equivalence class $[x]_R$ for an element $x \in S$,
 $$
@@ -49,7 +49,7 @@ $$
 $$
 - $[x]_R$ is the set of all elements of $A$ that are related to $x$.
 - The equivalence class of a member of $[x]_R$ is same as $[x]_R$ i.e. $[y]_R = [x]_R$.
-- [[Partition of a Set|Partition]] in equivalence relation is the set of equivalence classes, and there is a unique partition because of equivalence relation.
+- [[Partition of a Set|Partition]] in equivalence relation is the set of equivalence classes, and there is a unique partition for an equivalence relation $R$.
 - Equivalence classes of a set $A$ are disjoint.
 
 > [!intuition] Equivalence class is NOT relation on $A$
@@ -67,18 +67,11 @@ $$
 $$
 - $(E_i \times E_i)$ and ($E_j \times E_j$) are disjoint, where $i \not= j$ .
 
-> [!info] Partition of $A$ by $R$ is the set of all equivalence classes.
-
-#### Examples
-
-> [!example] $A = \{1, 2, 3\}$
-- Consider $R$ is equivalent and the partition $\Pi_1$ is a set of equivalence classes $E_1$ and $E_2$ on $A$.
-
-![[Pasted image 20231016154038.png]]
+> [!info] Partition of $A$ by an equivalence relation $R$ is the set of all equivalence classes of $A$ .
 
 ### Cases
 
-#### 1. [[Relations#Universal and Empty relation|Universal Relation]] on $A$ is Equivalent
+#### [[Relations#Universal and Empty relation|Universal Relation]] on $A$ is Equivalent
 - Universal relation $R_{universal}$ on $A$ i.e. set of all relations possible on the set $A$ or cross product of set $A$ is, 
 	- Reflexive
 	- Symmetric
@@ -109,7 +102,7 @@ $$
 > ![[Pasted image 20231016111536.png|Matrix for Universal relation]]
 
 ---
-#### 2. Identity Relation on $A$ is Equivalent
+#### Identity Relation on $A$ is Equivalent
 
 > [!pdf] Lec-29 Pg. No. 34-36
 - Identity relation $R_{identity}$ on set $A$ contains only self-loop relations on the set $A$. i.e. only diagonal elements in the matrix representation.
@@ -144,6 +137,16 @@ $$
 ## Summary of Equivalence Relation and Equivalence classes
 
 - For every partition of a set $A$, there is a unique equivalence relation $R$ on $A$ corresponding to that partition.
+
+> [!example] $A = \{1, 2, 3\}$
+- Consider the each part of the partition $\Pi_1$ as equivalence classes of some Equivalent relation $R_1$ on $A$. Then what about $R_1$ ?
+
+![[Pasted image 20231016194154.png]]
+- $R_1$ is an equivalent relation.
+
+
+> [!claim] 
+> - For an equivalence relation $R$ on a set $A$, there is only one partition.
 
 
 ---

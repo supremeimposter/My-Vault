@@ -6,6 +6,9 @@ date: 2023-09-30T20:19:00
 version:
   - DM-2024
 notes-taken: false
+tags:
+  - DM
+  - DM/Sets
 ---
 
 - Set is a collection of any elements or sets.
@@ -36,34 +39,35 @@ notes-taken: false
 
 ![[Pasted image 20230930222915.png]]
 
+## Cardinality of a set
+- Cardinality of a set $S$ is the number of element it contains. It is denoted by $|S|$
+- Let $S$ = {$\phi$, {a, b}, 1, 5, 6}, $|S| = 5$ . i.e. A subset is counted as an element.
+- Let $\mathbb{Z}$ be the set of all integers such that $|\mathbb{Z}| = \infty$
 
-## Infinite and Finite Sets
+### Infinite and Finite Sets
 - **Finite set** = set whose no of elements is a whole number.
 - **Infinite set** = set whose no of elements is not whole number.
 
 > [!brain] $\infty$ is not a number, it is a concept
 > $+\infty$ or $-\infty$ $\not\in$ any set.
 
-## Cardinality of a set
-- Cardinality of a set $S$ is the number of element it contains. It is denoted by $|S|$
-- Let $S$ = {$\phi$, {a, b}, 1, 5, 6}, $|S| = 5$ . i.e. A subset is counted as an element.
-- Let $\mathbb{Z}$ be the set of all integers such that $|\mathbb{Z}| = \infty$
-
-## Null set
-- Also called as empty set of void set.
+### Null set
+- Empty set or Void set.
+- It contains no element.
 - It is denoted by $\phi$ or $\{\}$.
 - $|\{\}| = |\phi| = 0$
 
-> [!note] 
+> [!note] Null set vs a set containing a null set
 > $\phi \not= \{ \phi \}$
 > $|\{ \phi \}| = 1$
-## SingleTon set
+### Singleton set
 - A set containing exactly one element.
 - It is also called as unit set.
 - $A = \{ 2 \}, B = \{a\}$
 
-## DoubleTon set
+### Double-ton set
 - A set containing exactly two elements
+
 ---
 
 ## Set Representation
@@ -79,33 +83,32 @@ notes-taken: false
 ![[Pasted image 20230930231135.png]]
 
 ---
-
 ## Subsets
 
 > [!NOTE] If there are two sets $P$ and $Q$ and $P \subseteq Q$ iff
-> $\forall x\; (x \in P \rightarrow x \in Q)$
+> $\forall_{x}\; (x \in P \rightarrow x \in Q)$
 
 - A subset is a sub-collection while a set is a super collection of elements.
-- Every element in P must be in Q for $P \subseteq Q$ .
-- A subset of a set $P$ can be formed by removing one or many or none of the elements from the set $P$.
+- Every element in $P$ must be in $Q$ for $P \subseteq Q$ .
+- A subset of a set $P$ can be formed by removing **one or many or none** of the elements from the set $P$.
 - Null set or empty set - a set that contains no element - $\phi$
-- Every set is its subset.
+- Every set is a subset of itself.
 	- A set $Q$ then, $Q \subseteq Q$
-- $\phi$ is a subset of every set.
+- $\phi$ is a subset of every set. (removal of all elements from a set)
 	- For a set $Q$, $\phi \subseteq Q$ .
 	- $\phi \subseteq \phi$ 
 
 - Venn diagram showing that $A \subseteq B$
 ![[Pasted image 20231004134616.png]]
-- Subset relationship is transitive.
+- Subset relationship is [[Transitive Relation|transitive]].
 
 ### Proper Subset
 - A set $P$ is a proper subset of $Q$, iff $P \subseteq Q$ but $P \not= Q$.
-- Proper subset can also be denoted by $\subset$
+- Proper subset can also be denoted by $P \subset Q$
 
 ![[Pasted image 20231004135955.png]]
 
-### Subsets vs Elements
+### Subsets vs Members of a set
 > [!brain] Do not confuse between $\in$ and $\subseteq$
 
 - Consider the set S,
@@ -120,7 +123,7 @@ $$
 	- $1$
 - $|S|$ = 5
 
-> [!question] different variations
+> [!question] subsets vs members
 > $a \in S$
 > $\{a\} \not\in S$ but $\{a\} \subseteq S$
 > $\{1, 2\} \in S$ but $\{2\} \not\in S$
@@ -136,11 +139,11 @@ $$
 	- $A = \{1\}$ and $B = \{1, \; \{1\} \}$
 - If $|S| = n$, then 
 	- No of singleton subsets of $S$ is $n$.
-	- No of doubleton subsets of $S$ is $1 + 2 + \ldots + n - 1 = \frac{(n - 1)(n - 2)}{2}$
+	- No of double-ton subsets of $S$ is $1 + 2 + \ldots + n - 1 = \frac{(n - 1)(n - 2)}{2}$
 
 ---
 
-## PowerSet
+### PowerSet
 
 - The Powerset $\mathcal{P}(S)$ is the set of all subsets of the set $S$ .
 $$
@@ -156,7 +159,7 @@ $$
 flexGrow=1
 ===
 **Powerset of $\phi$**
-- $\mathcal{P}(\phi) = \phi$
+- $\mathcal{P}(\phi) = \{\phi$\}
 - $|\mathcal{P}(\phi)| = 1$ but $|\phi| = 0$
 ```
 ```col-md
@@ -170,14 +173,14 @@ flexGrow=1
 ![[Pasted image 20231004182103.png]]
 ![[Pasted image 20231004182231.png]]
 
-> [!important] Powerset of any set $S$ will have $\phi$ but it is NOT necessary for the set $S$ to contain $\phi$
+> [!important] Powerset of any set $S$ will always have $\phi$ but it is NOT necessary for the set $S$ to contain $\phi$
 
 ### Number of subsets for a set
 - For creating a subset for a set $S$, there are two choices for each element in the set $S$.
 	1. The element appears
 	2. The element does not appear
 
-- For a set $S$ containing `n` elements, number of subsets of $S = 2^n$
+- For a set $S$ containing `n` elements, number of subsets of $S = 2^{|S|} = 2^n$
 - For any set $S$, $|\mathcal{P}(S)| = 2^{|S|}$
 - $|\mathcal{P}\;|\mathcal{P}(S)|\;| = 2^{|\mathcal{P}(S)|}$
 
