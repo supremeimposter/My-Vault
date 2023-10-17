@@ -17,6 +17,10 @@ tags:
 ![[Pasted image 20231011100505.png]]
 
 - Relations is a **set** containing ordered pairs of elements from sets $A$ and $B$.
+
+> [!important] Relation is NOT a cross product, but contains ordered pairs based on a condition. 
+> Only [[Equivalence Relation#Universal Relation on $A$ is Equivalent|universal relation]] is a cross product.
+
 - Relationship between two sets is always ONLY one way.
 ![[Pasted image 20231010195509.png]]
 $$
@@ -116,6 +120,8 @@ flexGrow=1
 **1. $R$ on set $A$**
 > $R : A \rightarrow A$ 
 > $R \subseteq A \times A$
+> $aRb$
+> $(a, b) \in R$
 ```
 ```col-md
 flexGrow=1
@@ -123,6 +129,8 @@ flexGrow=1
 **2. $R$ on set $\mathbb{N} \times \mathbb{Z}$**
 > $R : \mathbb{N} \times \mathbb{Z} \rightarrow \mathbb{N} \times \mathbb{Z}$
 > $R \subseteq (\mathbb{N} \times \mathbb{Z}) \times (\mathbb{N} \times \mathbb{Z})$
+> $(a, b)R(c, d)$
+> $(\; (a, b), (c, d) \;) \in R$
 ```
 ````
 

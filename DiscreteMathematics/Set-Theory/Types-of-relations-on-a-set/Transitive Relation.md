@@ -39,7 +39,6 @@ $$
 
 ![[Pasted image 20231014234327.png]]
 
-
 ## Non-Transitive Relation
 - If there is some element $a, b, c$ where $a$ is related to $b$ and $b$ is related to $c$ but $a$ is NOT related to $c$
 $$
@@ -51,8 +50,9 @@ $$
 
 ### Transitive
 
-![[Pasted image 20231014234817.png]]
+![[Pasted image 20231014234817.png|transitivity case]]
 
+#### Examples
 ````col
 ```col-md
 flexGrow=1.2
@@ -67,8 +67,10 @@ flexGrow=1
 ````
 
 ### Non-Transitive
-![[Pasted image 20231014235129.png|Non-transitive relation condition]]
 
+![[Pasted image 20231014235129.png|violation of transitivity]]
+
+#### Examples
 ![[Pasted image 20231014235545.png|there is no self loop on a and b]]
 
 ----

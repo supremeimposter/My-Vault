@@ -39,6 +39,7 @@ tags:
 > [!intuition] A partition of a set is again a set
 > Base set should be non-empty
 
+- Any partition of $A$ defines an [[Equivalence Relation|equivalence relation]] over $A$.
 ## Number of partitions of a Set
 - For a base set $A$, if the $|A| = k$ then, the partitions $\Pi$ will be as follows
 	- `1`- part partition

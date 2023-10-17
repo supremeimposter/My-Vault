@@ -20,14 +20,11 @@ tags:
 $$
 \forall_{a, b\; \in \; A}\; (a\; R \; b \rightarrow b \; R \; a)
 $$
+- Two different elements must be related to each other.
 
 - Assume base set $A$ and a relation $R : A \rightarrow A$, 
 > [!info] Possibilities of $x$ and $y$ if $R$ is symmetric
 > ![[Pasted image 20231014223118.png|possibilities allowed and not allowed]]
-
-- For two different elements, relationship must be bi-directional. They must be related to each other.
-- Uni-directional edges is NOT allowed.
-- It does NOT care about self-loops.
 
 ### Not Symmetric Relation
 - A relation $R$ is NOT symmetric iff
@@ -57,6 +54,7 @@ $$
 ### Graph Representation
 
 - Unidirectional edges is NOT allowed if the relation is symmetric.
+- It does NOT care about self-loops.
 
 > [!example] 
 > **Symmetric**
@@ -70,7 +68,7 @@ $$
 - Two different elements $a, b$ should NOT be related to **each other**.
 - Assume base set $A$ and a relation $R : A \rightarrow A$, $x, y \in A$, where $x \not = y$
 > [!info] Possibilities of $x$ and $y$ if $R$ is anti-symmetric
-> ![[Pasted image 20231014223319.png|possibilities allowed and not allowed]]
+> ![[Pasted image 20231014223319.png|possibilities allowed and not allowed|400]]
 
 **Definition 1**
 - $R$ is anti-symmetric on $A$ i.e. $R : A \rightarrow A$ iff
@@ -91,6 +89,10 @@ $$
 - Bi-directional relationship is NOT allowed.
 
 > [!attention] If a relation is not symmetric, then it does NOT mean that the relation is anti-symmetric.
+
+### Examples
+- Subset relation on $\mathcal{P}(A)$ of any set $A$ is anti-symmetric.
+![[Pasted image 20231017155334.png]]
 
 ## Representation of Anti-Symmetric Relation
 
@@ -117,13 +119,13 @@ flexGrow=1
 - There should be only one directional relationship. i.e. There should be at most one edge between distinct vertices.
 - If there is no relationship between two different vertices, then its fine.
 > [!example] $A = \{a, b, c, d\}$
-> ![[Pasted image 20231014230405.png]]
+> ![[Pasted image 20231014230405.png|250]]
 
 ---
 
 ## Asymmetric Relation
-- It is also called as counter-symmetric relation.
-- It is the combination of [[Types of Relations on a Set#Ir-reflexive Relation|ir-reflexive relation]] and [[Types of Relations on a Set#Anti-Symmetric Relation|anti-symmetric relation]].
+- It is also called as **counter-symmetric** relation.
+- A relation $R$ is asymmetric iff $R$ is both [[Reflexive Relation#Ir-reflexive Relation|ir-reflexive]] and [[Symmetric Relation#Anti-Symmetric Relation|anti-symmetric]].
 - Self-loop is NOT allowed because of ir-reflexive property.
 - Bi-directional relationship is NOT allowed because of anti-symmetric property.
 > [!think] If a relation is NOT anti-symmetric, then it is also not asymmetric.
@@ -139,7 +141,7 @@ $$
 
 - Assume base set $A$ and a relation $R : A \rightarrow A$, $x, y \in A$, where $x \not = y$
 > [!info] Possibilities of $x$ and $y$ if $R$ is asymmetric
-> ![[Pasted image 20231014224958.png|Possibilities allowed and not allowed]]
+> ![[Pasted image 20231014224958.png|Possibilities allowed and not allowed|400]]
 
 ## Representation of Asymmetric Relation
 ### Matrix Representation
@@ -147,10 +149,18 @@ $$
 
 ### Graph Representation
 
-![[Pasted image 20231014225829.png]]
-
-![[Pasted image 20231014232239.png]]
-
+````col
+```col-md
+flexGrow=1
+===
+![[Pasted image 20231014225829.png|300]]
+```
+```col-md
+flexGrow=1
+===
+![[Pasted image 20231014232239.png|250]]
+```
+````
 
 ## Examples
 

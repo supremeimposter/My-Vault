@@ -1,5 +1,5 @@
 ---
-pdf: lec-27, lec-29
+pdf: lec-27, lec-29, lec-30
 module: 5
 lecture: 27, 29
 date: 2023-10-15T15:42:00
@@ -25,6 +25,8 @@ tags:
 - Equivalence relation $R$ creates a unique partition on the set $A$.
 	- Each part of this partition is called equivalence class of $R$.
 
+## Examples
+
 > [!example] ![[Pasted image 20231015161528.png]]
 > ![[Pasted image 20231015161546.png]]
 
@@ -33,9 +35,12 @@ tags:
 > Lec-29 Pg. No. 4-51
 
 
+
+---
 ## Analysis of Equivalence Relation
 
-> [!lecture] Lecture - 29
+> [!lecture] Lecture - 29, 30
+>> [!youtube] [Lecture 30 - Equivalence Relation Complete Analysis Part 2 - Set Theory - Discrete Mathematics - YouTube](https://www.youtube.com/watch?v=vpb5qsolNrM)
 
 - If $R$ is an equivalent relation on the set $S$, then $R$ [[Partition of a Set|partitions]] the set $S$. 
 - Each partition is called an equivalence class and every equivalent relation creates unique partition of $S$ i.e. unique equivalence classes.
@@ -45,7 +50,7 @@ tags:
 
 - In an equivalent relation $R$ on the set $A$ Equivalence class $[x]_R$ for an element $x \in S$,
 $$
-[x]_R = \{y \in A \; | \; xRy\}
+[x]_R = \{y \in A \mid xRy\} = \{y \in A \mid x \sim y \}
 $$
 - $[x]_R$ is the set of all elements of $A$ that are related to $x$.
 - The equivalence class of a member of $[x]_R$ is same as $[x]_R$ i.e. $[y]_R = [x]_R$.
@@ -63,7 +68,10 @@ $$
 R = (E_1 \times E_1)\; \cup \; (E_2 \times E_2) \; \cup \; \ldots \; \cup (E_n \times E_n)
 $$
 $$
-\lvert R \lvert = \lvert (E_1 \times E_1) \lvert \; + \; \lvert (E_2 \times E_2) \lvert \; + \; \ldots \; + \lvert (E_n \times E_n) \lvert
+\mid R \mid = \mid (E_1 \times E_1) \mid \; + \; \mid (E_2 \times E_2) \mid \; + \; \ldots \; + \mid (E_n \times E_n) \mid
+$$
+$$
+\mid R \mid = {\mid E_1 \mid}^2 + {\mid E_2 \mid}^2 + \ldots + {\mid E_n \mid}^2 
 $$
 - $(E_i \times E_i)$ and ($E_j \times E_j$) are disjoint, where $i \not= j$ .
 
@@ -71,17 +79,19 @@ $$
 
 ### Cases
 
-#### [[Relations#Universal and Empty relation|Universal Relation]] on $A$ is Equivalent
-- Universal relation $R_{universal}$ on $A$ i.e. set of all relations possible on the set $A$ or cross product of set $A$ is, 
+#### Universal Relation on $A$ is Equivalent
+- [[Relations#Universal and Empty relation|Universal Relation]] $R_{universal}$ on $A$ i.e. set of all relations possible on the set $A$ or cross product of set $A$.
+$$
+R_{universal} = A \times A
+$$
+- $R_{universal}$ is,
 	- Reflexive
 	- Symmetric
 	- Not anti-symmetric
 		- Anti-symmetric only if $|A| = 1$
 	- Not Asymmetric (Not Ir-reflexive)
 	- Transitive
-$$
-R_{universal} = A \times A
-$$
+
 - Cartesian product on $A$ means every element is related to every other element in $A$ .
 - $R_{universal}$ is an equivalence relation on $A$.
 - $R_{universal}$ creates a single `1`-part partition on $A$. 
@@ -106,6 +116,7 @@ $$
 
 > [!pdf] Lec-29 Pg. No. 34-36
 - Identity relation $R_{identity}$ on set $A$ contains only self-loop relations on the set $A$. i.e. only diagonal elements in the matrix representation.
+$$R_{identity} = \{(a, a) \mid a \in A \} = \{(a, b) \mid a = b \}$$
 - $R_{identity}$ is, 
 	- Reflexive
 	- Symmetric
@@ -127,6 +138,7 @@ $$
 > $\Pi = \{ \; \{a\}, \{b\}, \{c\}, \{d\} \; \}$ 
 
 ##### Representation of Identity Relation
+- Identity relation is also called as diagonal relation and equality relation.
 > [!col]
 > ![[Pasted image 20231016112138.png|Graph for Identity relation]]
 > 
@@ -134,7 +146,7 @@ $$
 
 ---
 
-## Summary of Equivalence Relation and Equivalence classes
+## Summary of Partitions and Equivalence classes
 
 - For every partition of a set $A$, there is a unique equivalence relation $R$ on $A$ corresponding to that partition.
 
@@ -145,8 +157,8 @@ $$
 - $R_1$ is an equivalent relation.
 
 
-> [!claim] 
-> - For an equivalence relation $R$ on a set $A$, there is only one partition.
+> [!doubt] 
+> - For an equivalence relation $R$ on a set $A$, there is only one partition containing equivalence classes as its parts.
 
 
 ---

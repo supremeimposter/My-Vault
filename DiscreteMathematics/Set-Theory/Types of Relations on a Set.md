@@ -28,8 +28,8 @@ tags:
 #### Examples
 ![[Pasted image 20231015000302.png]]
 
-
 > [!example] $R$ on $\mathbb{Z}$ i.e. $R : \mathbb{Z} \rightarrow \mathbb{Z}$
+> $\mathbb{Z} = \{\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots\}$
 
 |   Relations on $\mathbb{Z}$   |   $\lt$   |   $\le$   |   $=$   | $\mid$ |  $\nmid$ |   $\not=$   |
 |:------------------------------|:----------|:----------|:--------|:-------|:---------|:------------|
