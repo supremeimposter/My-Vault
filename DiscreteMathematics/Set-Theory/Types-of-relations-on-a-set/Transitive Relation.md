@@ -27,7 +27,7 @@ $$
 
 ![[Pasted image 20231014233933.png]]
 
-> [!intuition] For checking transitive relation, take two relation ordered pairs rather than a single ordered pair as in the above relations.
+> [!intuition] For checking transitive relation, take two ordered pairs rather than a single ordered pair as in the above relations.
 > Take $a R b$ and $b R c$ and then check if $a R c$
 
 ### Examples

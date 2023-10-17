@@ -19,18 +19,27 @@ tags:
 2. [[Symmetric Relation]]
 3. [[Transitive Relation]]
 
-## Summary of Reflexive, Symmetric and Transitive Relation
+### Summary of Reflexive, Symmetric and Transitive Relation
 
 - Understanding Reflexive, Symmetric, Transitive relations and [[Partition of a Set|partition of a set]] is essential for understanding Equivalence Relation.
 
-### Definitions
 ![[Pasted image 20231015000038.png]]
 
-### Examples
+#### Examples
 ![[Pasted image 20231015000302.png]]
 
-- $R$ on $\mathbb{Z}$ i.e. $R : \mathbb{Z} \rightarrow \mathbb{Z}$
-![[Pasted image 20231016223320.png]]
+
+> [!example] $R$ on $\mathbb{Z}$ i.e. $R : \mathbb{Z} \rightarrow \mathbb{Z}$
+
+|   Relations on $\mathbb{Z}$   |   $\lt$   |   $\le$   |   $=$   | $\mid$ |  $\nmid$ |   $\not=$   |
+|:------------------------------|:----------|:----------|:--------|:-------|:---------|:------------|
+|   Reflexive                   |   No      | Yes       | Yes     | Yes    | No       | No          |
+|   Ir-Reflexive                |   Yes     | No        | No      | No     | Yes      | Yes         |
+|   Symmetric                   |   No      | No        | Yes     | No     | No       | Yes         |
+|   Anti-Symmetric              |   Yes     | Yes       | Yes     | No     | No       | No          |
+|   Asymmetric                  |   Yes     | No        | No      | No     | No       | No          |
+|   Transitive                  |   Yes     | Yes       | Yes     | Yes    | No       | No          |
+|   Equivalence                 |   No      | No        | Yes     | No     | No       | No          |  
 
 4. [[Equivalence Relation]]
 
