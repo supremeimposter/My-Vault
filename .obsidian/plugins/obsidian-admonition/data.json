@@ -147,6 +147,30 @@
       "title": "Claim",
       "injectColor": true,
       "noTitle": false
+    },
+    "doubt": {
+      "type": "doubt",
+      "color": "255, 10, 10",
+      "icon": {
+        "name": "question",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Doubt",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "point": {
+      "type": "point",
+      "color": "0, 213, 255",
+      "icon": {
+        "name": "hand-pointer",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Point",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,
