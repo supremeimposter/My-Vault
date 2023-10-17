@@ -10,7 +10,8 @@ tags:
   - Fundamentals
 ---
 
-## "divides"
+---
+## "divides" ( $\mid$ )
 
 - $a \; | \; b$ means "a divides b"
 $$
@@ -24,3 +25,7 @@ $$
 > $0 | 5 =$ False
 > $2 | 4 =$ True
 > $4 | 2 =$ False
+
+- If $a \mid b$ and $b \mid a$ then $a = b$
+
+---
