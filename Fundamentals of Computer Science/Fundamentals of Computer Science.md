@@ -29,3 +29,12 @@ $$
 - If $a \mid b$ and $b \mid a$ then $a = b$
 
 ---
+## Parity of an Integer
+- Parity of an integer is whether an integer is even or odd.
+
+> [!example] 
+> Parity of `1` is odd
+> Parity of `0` is even
+> Parity of `10` is even
+
+---

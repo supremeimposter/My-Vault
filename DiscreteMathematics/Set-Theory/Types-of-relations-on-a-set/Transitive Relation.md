@@ -73,4 +73,17 @@ flexGrow=1
 #### Examples
 ![[Pasted image 20231014235545.png|there is no self loop on a and b]]
 
+````col
+```col-md
+flexGrow=1
+===
+![[Pasted image 20231018193245.png|$cRa \text{ and } aRd, \text{ but } c \not R d$]]
+```
+```col-md
+flexGrow=1
+===
+![[Pasted image 20231018193314.png|$dRa \text{ and } aRb, \text{ but } d \not R b$]]
+```
+````
+
 ----

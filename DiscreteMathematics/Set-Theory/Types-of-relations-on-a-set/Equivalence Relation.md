@@ -6,7 +6,7 @@ date: 2023-10-15T15:42:00
 version:
   - DM-24
 last-revision: 
-notes-taken: false
+notes-taken: true
 tags:
   - DM
   - DM/Sets
@@ -24,14 +24,23 @@ tags:
 - For every partition of a set $A$, there is an unique equivalence relation $R$.
 
 ## Examples
+
 ![[Pasted image 20231016091246.png]]
 
 > [!example] ![[Pasted image 20231015161528.png]]
 > ![[Pasted image 20231015161546.png]]
 
-> [!pdf] More Examples
-> Lec-27 Pg. No. 4-15
-> Lec-29 Pg. No. 4-51
+> [!example] ![[Pasted image 20231018180150.png]]
+> ![[Pasted image 20231018180133.png]]
+
+> [!example] ![[Pasted image 20231018182418.png]]
+> ![[Pasted image 20231018182437.png]]
+
+> [!tip] 
+> - $k \mid (x - y)$ is equivalent to $x \equiv y (mod \; k)$ or $x \equiv_{k} y$
+
+> [!example] ![[Pasted image 20231018182850.png]]
+> ![[Pasted image 20231018182904.png]]
 
 ---
 ## Analysis of Equivalence Relation
@@ -41,28 +50,53 @@ tags:
 
 - If $R$ is an equivalent relation on the set $S$, then $R$ [[Partition of a Set|partitions]] the set $S$. 
 - Each partition is called an equivalence class and every equivalent relation creates unique partition of $S$ i.e. unique equivalence classes.
+- In every equivalence relation, there is some sense or type of **equality** involved.
+- Normally the structure of an equivalence relation on $A$ is,
+$$
+\forall_{a, b \; \in A} \; (aRb \text{ iff } a, b \text{ have same the ****})
+$$
+
+> [!example] Some sample equivalence relations
+> - "x and y have the same color"
+> - "x and y have the same shape"
+> - "x and y have the same area"
+> - "x and y are programs that produce the same output"
+> - "x = y"
+
+> [!intuition] An equivalence relation is a relation that indicates when objects have some trait in common.
+
 ### Equivalence Class
 
 > [!check] When asked to find equivalence classes, check if the given relation is an equivalent relation (RST)
 
 - In an equivalent relation $R$ on the set $A$ Equivalence class $[x]_R$ for an element $x \in S$,
 $$
-[x]_R = \{y \in A \mid xRy\} = \{y \in A \mid x \sim y \}
+[x]_R = \{y \in A \mid xRy\} = \{y \in A \mid x \sim y \} = \{y \mid (x, y) \in R\}
 $$
-- $[x]_R$ is the set of all elements of $A$ that are related to $x$.
-- The equivalence class of a member of $[x]_R$ is same as $[x]_R$ i.e. $[y]_R = [x]_R$.
-	- In this case $x \sim y$ which means $xRy$ and $yRx$
-- [[Partition of a Set|Partition]] in equivalence relation is the set of equivalence classes, and there is a unique partition for an equivalence relation $R$.
+$$
+xRy \equiv [x] = [y] \equiv [x] \cap [y] \not= \phi
+$$
+- $[x]_R$ is the set of all elements of $A$ that are related to $x$. 
+- The equivalence class of a member of $[x]_R$ is same as $[x]_R$ 
+	- If $y \in [x]_R$, then $[y]_R = [x]_R$.
+	- In this case $x \sim y$ which means $xRy$ and $yRx$ 
+	- $y$ does NOT belong to any other equivalence class of $R$.
+- Equivalence class is a group of equivalent elements of the base set.
+
+- [[Partition of a Set|Partition]] of the set $A$ by an equivalence relation $R$ is the set of all equivalence classes of $R$, and there is only one unique partition for an equivalence relation $R$ on $A$.
 - Equivalence classes of a set $A$ are disjoint.
 
 > [!intuition] Equivalence class is NOT relation on $A$
-> Equivalence class of an element $x \in A$ is a set containing related elements of $x$, but it does NOT contain the relations on $A$.
+> Equivalence class of an element $x \in A$ is a set containing related (or equivalent) elements of $x$, but it does NOT contain the relations (ordered pairs) on $A$.
+>> [!example] $A = \{2, 3, 4, 5, 6, 7, 8\}$ and $R$ is parity relation
+>> ![[Pasted image 20231018181517.png]]
 
 - In an equivalence class, every element is related to every other element which is represented as $a \sim b$, where $a, b \in [a]_R$
 - For an equivalence class $E = [x]_R$ , if $|E| = k$ , then it contributes to $k^2$ relations (ordered pairs) in $R$. 
-	- $|\;E \times E\;|$ contribution to $R$ since every element in related to every other element in an equivalence class.
+	- $|\;E \times E\;|$ contribution to $R$ since every element is related to every other element in an equivalence class of $R$.
 	- Refer [[Set Operations#Cardinality of Cartesian Product|cardinality of cartesian product]].
-- If $E_i = [x_i]_R$ is an equivalence class and there are $n$ equivalence classes , then $|R| = \Sigma \; \lvert E_i\lvert ^2$ and there is a single `n`-part partition.
+
+- If $E_i = [x_i]_R$ is an equivalence class and there are $n$ equivalence classes of $R$ , then $\mid R \mid = \Sigma \; \mid E_i\mid ^{2}$ and there is a single `n`-part partition.
 $$
 R = (E_1 \times E_1)\; \cup \; (E_2 \times E_2) \; \cup \; \ldots \; \cup (E_n \times E_n)
 $$
@@ -74,9 +108,36 @@ $$
 $$
 - $(E_i \times E_i)$ and ($E_j \times E_j$) are disjoint, where $i \not= j$ .
 
-> [!important] Partition of $A$ by an equivalence relation $R$ is the set of all equivalence classes of $A$ .
-- Equivalence class is a group of equivalent elements of the base set.
+#### Examples
 
+> [!example] ![[Pasted image 20231018183111.png]]
+> ![[Pasted image 20231018183129.png]]
+
+> [!example] ![[Pasted image 20231018183208.png]]
+> ![[Pasted image 20231018183225.png]]
+
+> [!example] ![[Pasted image 20231018183256.png]]
+> ![[Pasted image 20231018183312.png]]
+
+> [!example] ![[Pasted image 20231018192303.png]]
+> ![[Pasted image 20231018192325.png]]
+
+
+#### Observations on Equivalence Classes
+
+> [!definition] $R$ is an equivalent relation on $A$ and $x, y, z \in A$
+
+1. $xRy$ iff $[x]_R = [y]_R$
+2. $x \not R y$ iff $[x]_R \not= [y]_R$
+3. $\forall_x \in A, x \in [x]_R$ (Reflexive)
+4. If $y \in [x]_R$ then $x \in [y]_R$ (Symmetric)
+5. If $[x]_R \not= [y]_R$, then $[x]_R \; \cap \; [y]_R = \phi$
+6. If $[x]_R \; \cap \; [y]_R \not= \phi$, then $x \sim y$
+7. If $z \in [x]_R$ and $z \in [y]_R$, then $[x]_R = [y]_R$ 
+8. For any $x, y \in A$, either $[x]_R = [y]_R$ or $[x]_R \; \cap \; [y]_R = \phi$ 
+9. If $x \in A$, then $x$ belongs to exactly one equivalence class
+
+---
 ### Cases
 
 #### Universal Relation on $A$ is Equivalent
@@ -156,18 +217,31 @@ $$
 
 ## Partitions and Equivalence classes
 
-- For every partition of a set $A$, there is a unique equivalence relation $R$ on $A$ corresponding to that partition.
+- Any partition of a set $A$, defines an equivalence relation $R$ over $A$.
+- Any equivalence relation $R$ over a set $A$ defines a partition of $A$.
+- Number of equivalent relations on a set $A$ is the number of partitions possible on the set $A$.
+
+> [!example] $A = \{a, b, c\}$
+> No of partitions of $A = 5$
+> No of equivalence relations $R$ on $A = 5$
+
+- Suppose for a set $A$, a partition $\Pi = \{A_1, \ldots, A_k, \ldots\}$, then for an equivalence relation $R$ on $A$ is defined as, 
+$$xRy \Leftrightarrow x, y \in A_i \text{ for some } i$$
+
+> [!NOTE] Correspondence between equivalence relations and partitions is a one-to-one correspondence.
 
 > [!example] $A = \{1, 2, 3\}$
-- Consider the each part of the partition $\Pi_1$ as equivalence classes of some Equivalent relation $R_1$ on $A$. Then what about $R_1$ ?
+- Consider the each part of the partition $\Pi_1$ as equivalence classes of some Equivalent relation $R_1$ on $A$. Then $R_1$ is an equivalent relation.
 
 ![[Pasted image 20231016194154.png]]
-- $R_1$ is an equivalent relation.
 
 - For an equivalence relation $R$ on a set $A$, there is only one partition containing equivalence classes as its parts.
-- Number of equivalence classes on $R$ is the number of parts in the partition created by $R$ on $A$. 
-![[Pasted image 20231018075654.png]]
-- Number of equivalent relation on a set $A$ is the number of partitions possible on the set $A$.
+- Number of equivalence classes on $R$ $=$ Number of parts in the partition created by $R$ on $A$. 
+
+> [!question] Let $R$ be an equivalence relation on $A$
+>> [!tip] Set of equivalence classes of $R$ is partition of $A$.
+> - Every equivalence class of $R$ is subset of $A$
+> - Set of equivalence classes of $R$ is subset of $\mathcal{P}(A)$
 
 ---
 ## Representation of Equivalence Relation
@@ -187,9 +261,13 @@ $$
 > **Graph for $R$**
 > ![[Pasted image 20231018093053.png|400]]
 
-
 ---
 
+> [!pdf] More Examples
+> Lec-27 Pg. No. 4-15
+> Lec-29 Pg. No. 4-51
+> Lec-32 Pg. No. 28-38 
 
 > [!youtube] [Equivalence Relations, Equivalence Classes Summary Lecture | Relations in Discrete Mathematics - YouTube](https://www.youtube.com/watch?v=-10s-MF9WF8)
 
+---
