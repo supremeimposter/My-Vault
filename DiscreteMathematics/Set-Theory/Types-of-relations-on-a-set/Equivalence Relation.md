@@ -181,6 +181,7 @@ $$
 
 > [!pdf] Lec-29 Pg. No. 34-36
 - Identity relation $R_{identity}$ on set $A$ contains only self-loop relations on the set $A$. i.e. only diagonal elements in the matrix representation.
+- It is also called as Equality relation or Diagonal relation.
 - Identity relation is the smallest equivalent relation on any set $A$.
 $$R_{identity} = \{(a, a) \mid a \in A \} = \{(a, b) \mid a = b \}$$
 - $R_{identity}$ is, 
@@ -207,7 +208,7 @@ $$
 > $\Pi = \{ \; \{a\}, \{b\}, \{c\}, \{d\} \; \}$ 
 
 ##### Representation of Identity Relation
-- Identity relation is also called as diagonal relation and equality relation.
+
 > [!col]
 > ![[Pasted image 20231016112138.png|Graph for Identity relation]]
 > 

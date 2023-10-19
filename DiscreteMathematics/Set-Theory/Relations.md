@@ -81,8 +81,10 @@ $$
 - Relation $R$ is on set $A$ is a relation from $A$ to $A$.
 - A relation on a set $A$ is a subset of $A \times A$.
 $$R \text{ is on set } A \equiv R : A \rightarrow A \equiv R \subseteq A \times A$$
+
 > [!remember] The term "**Base set**" is used only when relation is on a single set. 
 > $A$ is the base set of the above relation $R$.
+> Base set is NEVER EMPTY unless explicitly specified.
 
 ### Universal and Empty relation
 - $A \times A$ is the universal relation on the set $A$. It is the set of all the relations on $A$.

@@ -25,8 +25,32 @@ tags:
 
 ![[Pasted image 20231015000038.png]]
 
+#### Important results
+
+##### Empty relation on non-empty and empty base set
+
+> [!point] $R = \phi$ on any non-empty set $S$ i.e. $R = \{\}$
+> 1. Not an equivalence relation - $\forall_x \in S \; (x \not R x)$ 
+> 2. Ir-reflexive relation - Since there are no self loops
+> 3. Symmetric (no violation), Anti-symmetric (No-violation), Asymmetric
+> 4. Transitive (no violation)
+> 5. Not Equivalent and not partial order.
+> 
+>> [!example] $A = \{a, b, c, d\}$
+>> ![[Pasted image 20231019214901.png|180]]
+
+> [!point] $R = \phi$ on an empty set $S$ 
+> 1. Reflexive and Ir-reflexive (No elements to violate)
+> 2. Symmetric, Anti-symmetric and Asymmetric
+> 3. Transitive
+> 4. Equivalent and Partial Order
+>> [!important] There are no elements to violate any of the conditions.
+
+
 #### Examples
 ![[Pasted image 20231015000302.png]]
+
+---
 
 > [!example] $R$ on $\mathbb{Z}$ i.e. $R : \mathbb{Z} \rightarrow \mathbb{Z}$
 > $\mathbb{Z} = \{\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots\}$
@@ -45,6 +69,7 @@ tags:
 > Not anti-symmetric on $\mathbb{Z}$
 >> [!example] $-2 \mid 2$ and $2 \mid -2$
 
+---
 
 4. [[Equivalence Relation]]
 

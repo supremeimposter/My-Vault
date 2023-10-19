@@ -39,6 +39,4 @@ $$
 
 ---
 
-## Number Theory
-- Non negative integers is a set which includes `0` i.e. $\{0, 1, 2, 3, 4, \dots\}$
-- 
+[[Number Theory]]
