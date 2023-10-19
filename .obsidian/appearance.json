@@ -1,8 +1,8 @@
 {
   "accentColor": "#2f909d",
-  "cssTheme": "Obsidian Nord Enhanced",
+  "cssTheme": "Olivier’s Theme",
   "showViewHeader": true,
-  "theme": "obsidian",
+  "theme": "moonstone",
   "baseFontSize": 18,
   "enabledCssSnippets": [
     "custom-callout",
