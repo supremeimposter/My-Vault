@@ -171,6 +171,19 @@
       "title": "Point",
       "injectColor": true,
       "noTitle": false
+    },
+    "link": {
+      "type": "link",
+      "color": "0, 145, 255",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-link"
+      },
+      "command": false,
+      "title": "Link",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
     }
   },
   "syntaxHighlight": false,
