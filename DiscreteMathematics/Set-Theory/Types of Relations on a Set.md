@@ -41,6 +41,11 @@ tags:
 |   Transitive                  |   Yes     | Yes       | Yes     | Yes    | No       | No          |
 |   Equivalence                 |   No      | No        | Yes     | No     | No       | No          |  
 
+> [!NOTE] $\mid$
+> Not anti-symmetric on $\mathbb{Z}$
+>> [!example] $-2 \mid 2$ and $2 \mid -2$
+
+
 4. [[Equivalence Relation]]
 
 ----

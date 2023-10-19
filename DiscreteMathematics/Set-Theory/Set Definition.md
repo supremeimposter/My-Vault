@@ -174,7 +174,8 @@ flexGrow=1
 ![[Pasted image 20231004182231.png]]
 
 > [!important] Powerset of any set $S$ will always have $\phi$ but it is NOT necessary for the set $S$ to contain $\phi$
-- Subset relation cannot be defined on any set $A$, but it can be defined on its powerset $\mathcal{P}(A)$.
+- Subset relation CANNOT be defined on any set $A$, but it CAN be defined on its powerset $\mathcal{P}(A)$.
+	- To define subset relation on a set, there should be at least one set as an element in the set.
 
 ### Number of subsets for a set
 - For creating a subset for a set $S$, there are two choices for each element in the set $S$.

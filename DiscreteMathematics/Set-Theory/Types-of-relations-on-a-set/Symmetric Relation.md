@@ -94,6 +94,9 @@ $$
 - Subset relation on $\mathcal{P}(A)$ of any set $A$ is anti-symmetric.
 ![[Pasted image 20231017155334.png]]
 
+- $\le, \ge, \lt, \gt$ and $\subseteq, \subset, \supseteq, \supset$ for any base set $A$
+- 
+
 ## Representation of Anti-Symmetric Relation
 
 ### Matrix Representation
