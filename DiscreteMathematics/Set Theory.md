@@ -5,8 +5,13 @@
 - [[Proofs involving Sets]]
 - [[Set Identities]]
 - [[Relations]]
-- [[Types of Relations on a Set]]
 - [[Partition of a Set]]
+- [[Types of Relations on a Set]]
+	- [[Reflexive Relation]]
+	- [[Symmetric Relation]]
+	- [[Transitive Relation]]
+	- [[Equivalence Relation]]
+- [[Partial Order Relations]]
 
 ---
 
