@@ -184,6 +184,18 @@
       "injectColor": true,
       "noTitle": false,
       "copy": false
+    },
+    "trick": {
+      "type": "trick",
+      "color": "212, 255, 0",
+      "icon": {
+        "name": "magic",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Trick",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,
