@@ -82,3 +82,5 @@
 **October 15, 2023** Keep on watching lectures continuously and take breaks like power naps. Power napping is good if you feel tired. Take a 30 minutes sleep so you can focus back. Remember you have to study a whole day, so power napping is good. It's not bad. Take some rest and keep on studying.
 
 **October 18, 2023** I just realised that I can change the pressure settings on my stylus pen. Now with very less pressure and with no strain on my finger bones, I can write smooth. I just love writing in my xournal++ now. Royal velvet theme for obsidian is just too good. It looks good without any background image.
+
+**October 20, 2023** "Understanding and applying the given definition is the key to the top rank"--Deepak Poonia 2023
