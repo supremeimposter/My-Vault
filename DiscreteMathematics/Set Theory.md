@@ -11,14 +11,10 @@
 	- [[Symmetric Relation]]
 	- [[Transitive Relation]]
 	- [[Equivalence Relation]]
-- [[Partial Order Relations]]
+- [[Set Ordering]]
 
 ---
 
 ## Resources
 
 - Oscar Levin - [solutions](https://discrete.openmathbooks.org/dmoi3/sec_intro-sets.html) - Practice set 1
-
----
-
-## Pending Notes

@@ -14,3 +14,5 @@ Q 25 b)
 
 
 # Practice set 2
+
+Q 30 c) d)

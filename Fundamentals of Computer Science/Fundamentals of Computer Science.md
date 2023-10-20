@@ -15,7 +15,7 @@ tags:
 
 - $a \; | \; b$ means "a divides b"
 $$
-b = a \cdot k  
+b = a \cdot k \text{ where }a, b, k \in \mathbb{Z}
 $$
 - $a \; | \; b$ gives either true or false and NOT a number
 
