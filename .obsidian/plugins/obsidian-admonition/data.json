@@ -162,7 +162,7 @@
     },
     "point": {
       "type": "point",
-      "color": "0, 213, 255",
+      "color": "52, 190, 218",
       "icon": {
         "name": "hand-pointer",
         "type": "font-awesome"
@@ -170,7 +170,8 @@
       "command": false,
       "title": "Point",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "link": {
       "type": "link",
@@ -187,13 +188,26 @@
     },
     "trick": {
       "type": "trick",
-      "color": "212, 255, 0",
+      "color": "118, 148, 219",
       "icon": {
         "name": "magic",
         "type": "font-awesome"
       },
       "command": false,
       "title": "Trick",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "cases": {
+      "type": "cases",
+      "color": "226, 44, 44",
+      "icon": {
+        "type": "octicons",
+        "name": "number"
+      },
+      "command": false,
+      "title": "Cases",
       "injectColor": true,
       "noTitle": false
     }

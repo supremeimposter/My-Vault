@@ -297,7 +297,7 @@
   "blue-topaz-theme@@font-family-change-to-default": false,
   "blue-topaz-theme@@admonition-bg-color-same": true,
   "blue-topaz-theme@@callout-style-settings": "admonition-bg-color-same",
-  "blue-topaz-theme@@loading-page-style-option": "loading-page-style-default",
+  "blue-topaz-theme@@loading-page-style-option": "default-loading-page",
   "blue-topaz-theme@@link-underline-internal": true,
   "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "none",
   "royal-velvet@@inline-document-title-color": "doc-title-disable"
