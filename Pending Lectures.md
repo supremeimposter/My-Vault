@@ -12,3 +12,5 @@
 - [ ] C Programming - Weekly Quiz 15, 17, 18
 - [ ] Discrete Mathematics - [[First Order Logic]] Optional Lectures
 - [ ] Aptitude - ceil and floor
+- [ ] Discrete Mathematics - [[Set Theory]] Practice Set 3
+- [ ] 

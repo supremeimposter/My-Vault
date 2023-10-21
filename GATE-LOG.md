@@ -84,3 +84,5 @@
 **October 18, 2023** I just realised that I can change the pressure settings on my stylus pen. Now with very less pressure and with no strain on my finger bones, I can write smooth. I just love writing in my xournal++ now. Royal velvet theme for obsidian is just too good. It looks good without any background image.
 
 **October 20, 2023** "Understanding and applying the given definition is the key to the top rank"--Deepak Poonia 2023
+
+**October 21, 2023** Sometimes you may feel like you are NOT getting something even after watching the lectures for long and repeatedly. Just keep on going to the next lectures. Both Sachin and Deepak will give you enough context so you can understand it on may be the 4th or 5th lecture on the topic. They do make a lot of videos on a topic adding up to the bulk. But they get paid less for what they have promised. I think it is just worth listening to the lectures.
