@@ -12,6 +12,9 @@
 	- [[Transitive Relation]]
 	- [[Equivalence Relation]]
 - [[Set Ordering]]
+	- [[Hasse Diagram of POR]]
+	- [[Hasse Diagram of TOR]]
+- 
 
 ---
 
