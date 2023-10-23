@@ -309,5 +309,11 @@
   "minimal-style@@window-title-off": false,
   "minimal-style@@ribbon-style": "ribbon-hidden",
   "Olivier-s-Theme@@OT-accentColor-lightMode": "accentColor-lightMode-shade",
-  "Olivier-s-Theme@@OT-TextColor-lightMode": "textColor-lightMode-default"
+  "Olivier-s-Theme@@OT-TextColor-lightMode": "textColor-lightMode-default",
+  "sanctum@@light-mode-contrast-mode": "sanctum-default-light",
+  "sanctum@@color-accent-rgb-l": "165, 119, 218",
+  "sanctum@@no-sanctum-icons": true,
+  "sanctum@@nav-folder-indicators": false,
+  "sanctum@@sticky-view-actions": false,
+  "sanctum@@dark-mode-contrast-mode": "sanctum-contrast-dark"
 }
