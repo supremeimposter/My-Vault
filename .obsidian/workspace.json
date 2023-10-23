@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ae940c39bdbf8a51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Recurrence-Relation/Masters Theorem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -95,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
+                "file": "Algorithms/Recurrence-Relation/Masters Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
+                "file": "Algorithms/Recurrence-Relation/Masters Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
+                "file": "Algorithms/Recurrence-Relation/Masters Theorem.md"
               }
             }
           },
@@ -197,8 +212,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8b2eea354868dd2f",
+  "active": "ae940c39bdbf8a51",
   "lastOpenFiles": [
+    "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
+    "Algorithms/Recurrence-Relation/Masters Theorem.md",
+    "Algorithms/Algorithms.md",
+    "templates/dashboard-template.md",
     "attachments/Pasted image 20231022181751.png",
     "attachments/Pasted image 20231022181651.png",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
@@ -206,10 +225,7 @@
     "DiscreteMathematics/Set Theory.md",
     "DiscreteMathematics/Discrete Mathematics.md",
     "GATE.md",
-    "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
-    "Algorithms/Algorithms.md",
     "Algorithms/Recurrence-Relation",
-    "templates/dashboard-template.md",
     "Algorithms/Design And Analysis of Algorithms.md",
     "TheoryOfComputation/Theory of Computation.md",
     "Algorithms",
@@ -233,7 +249,6 @@
     "Fundamentals of Computer Science/Number Theory.md",
     "DiscreteMathematics/Set-Theory/Relations.md",
     "DiscreteMathematics/Set-Theory/Practice Sets.md",
-    "attachments/Pasted image 20231019214901.png",
     "DiscreteMathematics/Set-Theory/Set Identities.md",
     "TheoryOfComputation/Introduction to Theory of Computation.md",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Symmetric Relation.md",
