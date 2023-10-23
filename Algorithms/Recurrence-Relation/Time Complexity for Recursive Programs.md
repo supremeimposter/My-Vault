@@ -74,7 +74,7 @@ $$
 $$
 T_1(n) = T \Big( \frac{n}{3} \Big) + T \Big(\frac{2n}{3} \Big) + n
 $$
-- For every call for the function, the work done is $n$ and the rest are recursive calls made
+- For every call for the function, the work done is $n$ and the rest are recursive calls made.
 
 - Recurrence relation $T_2(n)$,
 $$
