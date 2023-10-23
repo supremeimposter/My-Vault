@@ -86,3 +86,5 @@
 **October 20, 2023** "Understanding and applying the given definition is the key to the top rank"--Deepak Poonia 2023
 
 **October 21, 2023** Sometimes you may feel like you are NOT getting something even after watching the lectures for long and repeatedly. Just keep on going to the next lectures. Both Sachin and Deepak will give you enough context so you can understand it on may be the 4th or 5th lecture on the topic. They do make a lot of videos on a topic adding up to the bulk. But they get paid less for what they have promised. I think it is just worth listening to the lectures.
+
+**October 23, 2023** Spending some more time on taking clear notes is much better than spending more time while revising. Clear flow of idea will definitely help you a lot. You won't remember everything or have the same understanding of ideas after a month or two when you come back to the same topic.
