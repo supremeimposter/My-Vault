@@ -11,7 +11,6 @@ tags:
   - ALGO/Recursion
 ---
 # Recursive Relations
-
 > [!lecture] Lecture-2.a
 
 - $T(n)$ is a recursive function of $n$. 
@@ -19,7 +18,7 @@ tags:
 ## Some common misinterpretations from program
 - Computer program is different from recurrence relation from mathematics.
 
-```c nums {3}
+```c hl:3
 int A(n) {
 	if (n <= 1) return 1;
 	else return A(n - 1) + n;
@@ -33,7 +32,7 @@ T(n) = T(n - 1) + 1
 $$
 
 
-```c nums {3}
+```c hl:3
 int B(n) {
 	if (n <= 1) return 1;
 	else return 2 * B(n - 1);
@@ -46,6 +45,7 @@ $$
 T(n) = T(n - 1) + 1
 $$
 
+---
 ## Solving Recurrence Relations
 
 ### Iteration Method
@@ -55,9 +55,9 @@ $$
 > It will anyways be a constant value (however high) after solving. We don't need exact answer for solving recurrence relation in Algorithms.
 > 1. Decreasing GP with $\mid r \mid \lt 1$ almost gives the first term
 > 2. Increasing GP with $\mid r \mid \gt 1$ almost gives the last term
-> 3. Constant GP with $\mid r \mid = 1$ gives `n`
+> 3. Constant GP with $\mid r \mid = 1$ gives $n*c$
 
-
+---
 ### Tree Method
 > [!lecture] Lecture-3.a-3.d
 - The examples in these lectures are recurrence relations and not computer program.
@@ -91,3 +91,18 @@ $$
 - The left-most branch is of minimum height and the right-most branch is the of maximum height. Until the minimum height is the lower bound and until the maximum height is the upper bound.
 - At each level, sum up the work done by all of the nodes in that level.
 
+- Recurrence Relation $T_3(n)$,
+$$
+T_3(n) = T \Big( \frac{n}{3} \Big) + T \Big(\frac{2n}{3} \Big) + 1
+$$
+- For every recursive call, the amount of work done is constant
+
+#### General Formula for Tree Method
+$$
+T(n) = a T \Big( \frac{n}{b} \Big) + cn^k
+$$
+---
+
+## [[Masters Theorem]]
+
+---
