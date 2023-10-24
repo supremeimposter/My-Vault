@@ -315,5 +315,8 @@
   "sanctum@@no-sanctum-icons": true,
   "sanctum@@nav-folder-indicators": false,
   "sanctum@@sticky-view-actions": false,
-  "sanctum@@dark-mode-contrast-mode": "sanctum-contrast-dark"
+  "sanctum@@dark-mode-contrast-mode": "sanctum-contrast-dark",
+  "anuppuccin-theme-settings@@anp-background-image-toggle": true,
+  "anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-light": false,
+  "anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-dark": false
 }

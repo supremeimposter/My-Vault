@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
+                "file": "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Recurrence-Relation/Masters Theorem.md",
+                "file": "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Recurrence-Relation/Masters Theorem.md",
+                "file": "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Recurrence-Relation/Masters Theorem.md"
+                "file": "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md"
               }
             }
           },
@@ -212,16 +211,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ae940c39bdbf8a51",
+  "active": "8b2eea354868dd2f",
   "lastOpenFiles": [
-    "Temporary Plan.md",
-    "Algorithms/Recurrence-Relation/Masters Theorem.md",
+    "attachments/Pasted image 20231024203643.png",
+    "attachments/Pasted image 20231024203629.png",
+    "attachments/Pasted image 20231024203608.png",
+    "attachments/Pasted image 20231024203537.png",
+    "attachments/Pasted image 20231024203512.png",
+    "attachments/Pasted image 20231024203459.png",
+    "attachments/Pasted image 20231024201651.png",
+    "attachments/Pasted image 20231024201625.png",
+    "attachments/Pasted image 20231024200331.png",
+    "attachments/Pasted image 20231024200309.png",
+    "attachments/Pasted image 20231024195529.png",
     "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
+    "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
+    "Algorithms/Recurrence-Relation/Masters Theorem.md",
+    "Temporary Plan.md",
     "GATE-LOG.md",
     "Algorithms/Algorithms.md",
     "templates/dashboard-template.md",
-    "attachments/Pasted image 20231022181751.png",
-    "attachments/Pasted image 20231022181651.png",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
     "DiscreteMathematics/Set Theory.md",
     "DiscreteMathematics/Discrete Mathematics.md",
@@ -236,22 +245,12 @@
     "DiscreteMathematics/Mathematical Logic.md",
     "DiscreteMathematics/Set-Theory/Hasse Diagram.md",
     "Pending Lectures.md",
-    "attachments/Pasted image 20231021100230.png",
     "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
-    "attachments/Pasted image 20231020195119.png",
-    "attachments/Pasted image 20231020195056.png",
-    "attachments/Pasted image 20231020194935.png",
-    "attachments/Pasted image 20231020194911.png",
-    "attachments/Pasted image 20231020194746.png",
-    "attachments/Pasted image 20231020165738.png",
-    "attachments/Pasted image 20231020165704.png",
     "Fundamentals of Computer Science/Fundamentals of Computer Science.md",
     "Fundamentals of Computer Science/Number Theory.md",
     "DiscreteMathematics/Set-Theory/Relations.md",
     "DiscreteMathematics/Set-Theory/Practice Sets.md",
     "DiscreteMathematics/Set-Theory/Set Identities.md",
-    "TheoryOfComputation/Introduction to Theory of Computation.md",
-    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Symmetric Relation.md",
     "Fundamentals of Computer Science",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set",
     "logseq/config.edn.crswap",
