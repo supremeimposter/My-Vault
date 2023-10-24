@@ -15,7 +15,7 @@ tags:
 
 - $T(n)$ is a recursive function of $n$. 
 
-## Some common misinterpretations from program
+## Misinterpretations between recurrence relation and computer program
 - Computer program is different from recurrence relation from mathematics.
 
 ```c hl:3
@@ -103,6 +103,8 @@ T(n) = a T \Big( \frac{n}{b} \Big) + cn^k
 $$
 ---
 
-## [[Masters Theorem]]
+### [[Masters Theorem]]
+
+### [[Change of Variable or Domain Transformation]]
 
 ---

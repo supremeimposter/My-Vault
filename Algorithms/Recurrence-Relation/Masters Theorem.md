@@ -1,7 +1,7 @@
 ---
 pdf: mod-1
 module: 1
-lecture: 4.a, 4.b, 4.c
+lecture: 4.a-5.d
 date: 2023-10-23T08:45:00
 version:
   - ALGO-24
@@ -18,7 +18,11 @@ tags:
 $$
 T(n) = aT \bigg( \frac{n}{b} \bigg) + f(n)
 $$
+where $a, b$ are constants and $a \ge 1, b \gt 1$
+
 - The cost of each node in the tree is function on $n$ at that level i.e. $f(n)$ 
+
+![[Pasted image 20231024110731.png|$T(n) = aT \bigg( \frac{n}{b} \bigg) + f(n)$]]
 
 ## Polynomial comparison
 > [!lecture] Lecture-4.a
@@ -30,19 +34,34 @@ $$
 > [!intuition] At least one of the sides must have the term $n$ for comparison
 > If one of the sides has only $log n$ and the other has $1$, then also comparison CANNOT be made.
 
-- Masters theorem CANNOT be applied if polynomial comparison cannot be made.
+- Masters theorem CANNOT be applied if polynomial comparison cannot be made. In those cases, Generalised and Extended Masters theorems can be used.
 
 
 ## Proof of Masters Theorem
 > [!lecture] Lecture-4.c
 
-
+![[Pasted image 20231024093125.png|$T(n) = 3T(\frac{n}{4}) + cn^2$]]
 
 > [!intuition] Understanding of GP is the core of masters theorem.
 
 
-# Generalised Masters theorem
-
+## Generalised Masters theorem
 > [!lecture] Lecture-5.a
 
-- This is the case when polynomial comparison CANNOT be made.
+- This is the case when polynomial comparison CANNOT be made and $log\; n$ is in the numerator in the cost of a function.
+$$
+\Theta \;(f(n) \cdot log(n))
+$$
+
+## Extended Masters Theorem
+> [!lecture] Lecture-5.b
+
+- This is a super-set of Generalised Masters Theorem.
+- This case is mostly when polynomial comparison CANNOT be made and the cost of a function has $log\;n$ in the denominator.
+
+## Recurrences not solvable by Masters Theorem
+
+
+
+> [!discussion] 
+> ![[Pasted image 20231024120558.png|Lecture 5.d comments section]]
