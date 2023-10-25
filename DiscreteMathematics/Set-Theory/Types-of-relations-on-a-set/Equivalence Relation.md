@@ -22,6 +22,7 @@ tags:
 - Equivalence relation $R$ creates only **one** unique partition on the set $A$.
 	- Each part of this partition is called equivalence class of $R$.
 - For every partition of a set $A$, there is an unique equivalence relation $R$.
+- $\sim$ is used to represent an equivalence relation instead of $R$. i.e. $(A, \sim)$
 
 ## Examples
 
