@@ -11,8 +11,7 @@ tags:
   - ALGO
   - ALGO/Recursion
 ---
-# Change of Variable or Domain Transformation
-
+# Change of Variable
 - When creating a new recurrence relation $S(m)$, only the function inputs should be changed, and the cost function should NOT be changed.
 
 ## Examples
@@ -166,3 +165,69 @@ flexGrow=1
 
 > [!lecture] Lecture-6.d
 
+> [!example] 
+> ![[Pasted image 20231025073624.png]]
+
+![[Pasted image 20231025074137.png]]
+
+![[Pasted image 20231025074228.png]]
+
+---
+
+> [!example] 
+> ![[Pasted image 20231025091338.png]]
+
+- Since $a$ is NOT a constant, masters theorem cannot be applied. 
+![[Pasted image 20231025092701.png]]
+- Now the regular approach of change of variable can be followed
+![[Pasted image 20231025092733.png]]
+- Polynomial comparison cannot be made. So Generalised Masters theorem can be used.
+````col
+```col-md
+flexGrow=1
+===
+![[Pasted image 20231025092334.png]]
+```
+```col-md
+flexGrow=1
+===
+![[Pasted image 20231025092352.png]]
+```
+````
+
+![[Pasted image 20231025092413.png]]
+
+---
+
+
+> [!example] 
+> ![[Pasted image 20231025094120.png]]
+
+````col
+```col-md
+flexGrow=1
+===
+![[Pasted image 20231025094219.png]]
+```
+```col-md
+flexGrow=1
+===
+![[Pasted image 20231025094242.png]]
+```
+````
+
+````col
+```col-md
+flexGrow=1
+===
+![[Pasted image 20231025094313.png]]
+Polynomial comparison cannot be made. Hence Generalised Masters Theorem can be used.
+```
+```col-md
+flexGrow=1
+===
+![[Pasted image 20231025094327.png]]
+```
+````
+
+----

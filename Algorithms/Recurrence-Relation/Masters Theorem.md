@@ -24,6 +24,12 @@ where $a, b$ are constants and $a \ge 1, b \gt 1$
 
 ![[Pasted image 20231024110731.png|$T(n) = aT \bigg( \frac{n}{b} \bigg) + f(n)$]]
 
+> [!attention] Masters Theorem cannot give the exact complexity. 
+> So when the options do not have asymptotic notations better use tree or substitution method.
+>> [!example] ![[Pasted image 20231025095044.png|GATE IT 2008 Q.44]]
+>> Here in this example, the options are for exact value and NOT asymptotic bound.
+
+
 ## Polynomial comparison
 > [!lecture] Lecture-4.a
 - The polynomially greater or smaller comparison is based on terms of $n$ 
