@@ -4,33 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "de3adf1e7b9c401c",
+        "id": "94c4863aba0a18a9",
         "type": "tabs",
         "children": [
           {
-            "id": "8b2eea354868dd2f",
+            "id": "79714c3fddef1652",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae940c39bdbf8a51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Recurrence-Relation/Masters Theorem.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -92,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -109,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md"
-              }
+              "state": {}
             }
           },
           {
@@ -211,27 +190,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8b2eea354868dd2f",
+  "active": "79714c3fddef1652",
   "lastOpenFiles": [
-    "attachments/Pasted image 20231024203643.png",
-    "attachments/Pasted image 20231024203629.png",
-    "attachments/Pasted image 20231024203608.png",
-    "attachments/Pasted image 20231024203537.png",
-    "attachments/Pasted image 20231024203512.png",
-    "attachments/Pasted image 20231024203459.png",
-    "attachments/Pasted image 20231024201651.png",
-    "attachments/Pasted image 20231024201625.png",
-    "attachments/Pasted image 20231024200331.png",
-    "attachments/Pasted image 20231024200309.png",
-    "attachments/Pasted image 20231024195529.png",
-    "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
-    "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
-    "Algorithms/Recurrence-Relation/Masters Theorem.md",
-    "Temporary Plan.md",
-    "GATE-LOG.md",
-    "Algorithms/Algorithms.md",
-    "templates/dashboard-template.md",
+    "DiscreteMathematics/Set-Theory/Set Ordering.md",
+    "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
+    "DiscreteMathematics/Set-Theory/Hasse Diagram of TOR.md",
+    "attachments/Pasted image 20231025223857.png",
+    "Pending Notes.md",
+    "C/Types/Types.md",
+    "attachments/Pasted image 20231025222131.png",
+    "attachments/Pasted image 20231025211419.png",
+    "attachments/Pasted image 20231025211401.png",
+    "attachments/Pasted image 20231025211336.png",
+    "attachments/Pasted image 20231025211307.png",
+    "attachments/Pasted image 20231025211229.png",
+    "attachments/Pasted image 20231025211206.png",
+    "attachments/Pasted image 20231025210331.png",
+    "attachments/Pasted image 20231025210313.png",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
+    "Algorithms/Algorithms.md",
+    "Algorithms/Divide-and-Conquer/Divide and Conquer.md",
+    "Untitled.md",
+    "Algorithms/Recurrence-Relation/Masters Theorem.md",
+    "Algorithms/Divide-and-Conquer",
+    "Temporary Plan.md",
+    "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
+    "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
+    "GATE-LOG.md",
+    "templates/dashboard-template.md",
     "DiscreteMathematics/Set Theory.md",
     "DiscreteMathematics/Discrete Mathematics.md",
     "GATE.md",
@@ -239,18 +225,11 @@
     "Algorithms/Design And Analysis of Algorithms.md",
     "TheoryOfComputation/Theory of Computation.md",
     "Algorithms",
-    "DiscreteMathematics/Set-Theory/Set Ordering.md",
-    "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
-    "DiscreteMathematics/Set-Theory/Hasse Diagram of TOR.md",
     "DiscreteMathematics/Mathematical Logic.md",
     "DiscreteMathematics/Set-Theory/Hasse Diagram.md",
     "Pending Lectures.md",
     "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
     "Fundamentals of Computer Science/Fundamentals of Computer Science.md",
-    "Fundamentals of Computer Science/Number Theory.md",
-    "DiscreteMathematics/Set-Theory/Relations.md",
-    "DiscreteMathematics/Set-Theory/Practice Sets.md",
-    "DiscreteMathematics/Set-Theory/Set Identities.md",
     "Fundamentals of Computer Science",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set",
     "logseq/config.edn.crswap",
@@ -258,7 +237,6 @@
     "logseq/custom.css",
     "pages",
     "logseq/config.edn",
-    "journals",
     "Untitled.canvas"
   ]
 }

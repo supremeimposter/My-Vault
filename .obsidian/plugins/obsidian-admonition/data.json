@@ -203,11 +203,37 @@
       "type": "cases",
       "color": "226, 44, 44",
       "icon": {
-        "type": "octicons",
-        "name": "number"
+        "type": "obsidian",
+        "name": "lucide-signal-medium"
       },
       "command": false,
       "title": "Cases",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "reference": {
+      "type": "reference",
+      "color": "42, 147, 93",
+      "icon": {
+        "type": "octicons",
+        "name": "cross-reference"
+      },
+      "command": false,
+      "title": "Reference",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "diagram": {
+      "type": "diagram",
+      "color": "186, 99, 18",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-image-plus"
+      },
+      "command": false,
+      "title": "Diagram",
       "injectColor": true,
       "noTitle": false
     }
