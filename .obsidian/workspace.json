@@ -4,15 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "94c4863aba0a18a9",
+        "id": "6dae253eacabb143",
         "type": "tabs",
         "children": [
           {
-            "id": "79714c3fddef1652",
+            "id": "be5234d1700a90c2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28800e51f19d304a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Relations.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "806633be75a960d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Lattice.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -70,12 +101,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -92,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +168,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md"
+              }
             }
           },
           {
@@ -190,10 +224,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "79714c3fddef1652",
+  "active": "be5234d1700a90c2",
   "lastOpenFiles": [
-    "DiscreteMathematics/Set-Theory/Set Ordering.md",
+    "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
+    "DiscreteMathematics/Set-Theory/Relations.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
+    "DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
     "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
+    "DiscreteMathematics/Set-Theory/Set Ordering.md",
+    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Reflexive Relation.md",
+    "DiscreteMathematics/Set-Theory/Lattice.md",
+    "attachments/Pasted image 20231026105049.png",
+    "Temporary Plan.md",
+    "attachments/Pasted image 20231026093542.png",
+    "DiscreteMathematics/Set Theory.md",
     "DiscreteMathematics/Set-Theory/Hasse Diagram of TOR.md",
     "attachments/Pasted image 20231025223857.png",
     "Pending Notes.md",
@@ -205,31 +250,21 @@
     "attachments/Pasted image 20231025211307.png",
     "attachments/Pasted image 20231025211229.png",
     "attachments/Pasted image 20231025211206.png",
-    "attachments/Pasted image 20231025210331.png",
-    "attachments/Pasted image 20231025210313.png",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
     "Algorithms/Algorithms.md",
     "Algorithms/Divide-and-Conquer/Divide and Conquer.md",
     "Untitled.md",
     "Algorithms/Recurrence-Relation/Masters Theorem.md",
     "Algorithms/Divide-and-Conquer",
-    "Temporary Plan.md",
     "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
     "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
     "GATE-LOG.md",
     "templates/dashboard-template.md",
-    "DiscreteMathematics/Set Theory.md",
     "DiscreteMathematics/Discrete Mathematics.md",
     "GATE.md",
     "Algorithms/Recurrence-Relation",
     "Algorithms/Design And Analysis of Algorithms.md",
-    "TheoryOfComputation/Theory of Computation.md",
     "Algorithms",
-    "DiscreteMathematics/Mathematical Logic.md",
-    "DiscreteMathematics/Set-Theory/Hasse Diagram.md",
-    "Pending Lectures.md",
-    "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
-    "Fundamentals of Computer Science/Fundamentals of Computer Science.md",
     "Fundamentals of Computer Science",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set",
     "logseq/config.edn.crswap",
