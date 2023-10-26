@@ -8,33 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "be5234d1700a90c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28800e51f19d304a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMathematics/Set-Theory/Relations.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "806633be75a960d8",
+            "id": "98fa8cb69340fdb9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,8 +19,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a4499eed70f49f52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Set Ordering.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "efc12800c28b7429",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Ordering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Ordering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md"
+                "file": "DiscreteMathematics/Set-Theory/Set Ordering.md"
               }
             }
           },
@@ -224,17 +225,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "be5234d1700a90c2",
+  "active": "a4499eed70f49f52",
   "lastOpenFiles": [
-    "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
+    "DiscreteMathematics/Set-Theory/Lattice.md",
+    "attachments/Pasted image 20231026190045.png",
+    "attachments/Pasted image 20231026185901.png",
+    "DiscreteMathematics/Set-Theory/Set Ordering.md",
+    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
+    "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
+    "DiscreteMathematics/Propositional-Logic/Analysis of Equivalence of Propositions.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
+    "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
+    "DiscreteMathematics/Propositional-Logic/Important Logical Equivalences.md",
     "DiscreteMathematics/Set-Theory/Relations.md",
+    "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
+    "DiscreteMathematics/First-Order-Logic/Quantifiers.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
     "DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
-    "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
-    "DiscreteMathematics/Set-Theory/Set Ordering.md",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Reflexive Relation.md",
-    "DiscreteMathematics/Set-Theory/Lattice.md",
     "attachments/Pasted image 20231026105049.png",
     "Temporary Plan.md",
     "attachments/Pasted image 20231026093542.png",
@@ -248,22 +257,13 @@
     "attachments/Pasted image 20231025211401.png",
     "attachments/Pasted image 20231025211336.png",
     "attachments/Pasted image 20231025211307.png",
-    "attachments/Pasted image 20231025211229.png",
-    "attachments/Pasted image 20231025211206.png",
-    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
     "Algorithms/Algorithms.md",
     "Algorithms/Divide-and-Conquer/Divide and Conquer.md",
     "Untitled.md",
     "Algorithms/Recurrence-Relation/Masters Theorem.md",
     "Algorithms/Divide-and-Conquer",
     "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
-    "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
-    "GATE-LOG.md",
-    "templates/dashboard-template.md",
-    "DiscreteMathematics/Discrete Mathematics.md",
-    "GATE.md",
     "Algorithms/Recurrence-Relation",
-    "Algorithms/Design And Analysis of Algorithms.md",
     "Algorithms",
     "Fundamentals of Computer Science",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set",

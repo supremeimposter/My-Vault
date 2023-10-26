@@ -23,7 +23,8 @@
       "command": false,
       "title": "Intuition",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "think": {
       "type": "think",
@@ -35,7 +36,8 @@
       "command": false,
       "title": "Think",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "youtube": {
       "type": "youtube",
@@ -47,7 +49,8 @@
       "command": false,
       "title": "Youtube",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "remember": {
       "type": "remember",
@@ -110,7 +113,8 @@
       "command": false,
       "title": "Suggestion",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "discussion": {
       "type": "discussion",
@@ -122,7 +126,8 @@
       "command": false,
       "title": "Discussion",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "definition": {
       "type": "definition",
@@ -134,7 +139,8 @@
       "command": false,
       "title": "Definition",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "claim": {
       "type": "claim",
@@ -146,7 +152,8 @@
       "command": false,
       "title": "Claim",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "doubt": {
       "type": "doubt",
@@ -158,7 +165,8 @@
       "command": false,
       "title": "Doubt",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "point": {
       "type": "point",
@@ -235,7 +243,21 @@
       "command": false,
       "title": "Diagram",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
+    },
+    "conflict": {
+      "type": "conflict",
+      "color": "56, 169, 255",
+      "icon": {
+        "name": "car-crash",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Conflict",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
     }
   },
   "syntaxHighlight": false,
