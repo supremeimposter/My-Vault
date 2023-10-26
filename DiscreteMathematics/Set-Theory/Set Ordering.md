@@ -74,6 +74,9 @@ tags:
 > - No two elements of the set are comparable.
 > - This set is a POSET since there is NO violation of Anti-Symmetric and Transitive relation.
 
+#### Important Results
+- For a finite POSET, there must be at least one minimal and maximal element.
+- For an infinite POSET, there is NO minimal or maximal elements.
 
 
 #### Examples
@@ -83,6 +86,15 @@ tags:
 - $(\mathbb{N}, \mid)$ and $(\mathbb{Z}^+, \mid)$
 
 #### [[Hasse Diagram of POR|Hasse Diagram of Partial Order Relation]]
+
+#### Deletion of Elements from POSET
+
+> [!seealso] Deletion of elements from relation $POR$ set
+> When elements of the $POR$ set is deleted, it is NOT guaranteed to be a POSET anymore.
+> It is different from deletion of elements from the base set.
+
+- When elements are deleted from a base POSET, the set is still a POSET.
+- For a POSET $(A, R)$, any subset $B$ i.e. $B \subseteq A$ such that $(B, R)$ is also a POSET.
 
 ---
 
@@ -98,7 +110,7 @@ $$
 
 - If a relation is total order, then it is also partial order.
 - If a relation is NOT partial order, then it is definitely NOT total order.
-
+- Every TOSET is a [[Lattice|lattice]].
 #### Examples
 - $(\mathbb{Z}, \le)$ is a chain
 

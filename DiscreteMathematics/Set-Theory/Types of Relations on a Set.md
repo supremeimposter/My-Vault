@@ -12,22 +12,24 @@ tags:
   - DM/Sets
   - DM/Sets/Relations
 ---
-
+# Types of Relations on a Set
 - These special types of relations are only for relations $R$ on a set $A$ i.e. $R : A \rightarrow A$
 
 1. [[Reflexive Relation]]
 2. [[Symmetric Relation]]
 3. [[Transitive Relation]]
+4. [[Equivalence Relation]]
 
-### Summary of Reflexive, Symmetric and Transitive Relation
+----
+## Summary of Reflexive, Symmetric and Transitive Relation
 
 - Understanding Reflexive, Symmetric, Transitive relations and [[Partition of a Set|partition of a set]] is essential for understanding Equivalence Relation.
 
 ![[Pasted image 20231015000038.png]]
 
-#### Important results
+## Important results
 
-##### Empty relation on non-empty and empty base set
+### Empty relation on non-empty base set
 
 > [!point] $R = \phi$ on any non-empty set $S$ i.e. $R = \{\}$
 > 1. Not an equivalence relation - $\forall_x \in S \; (x \not R x)$ 
@@ -39,6 +41,10 @@ tags:
 >> [!example] $A = \{a, b, c, d\}$
 >> ![[Pasted image 20231019214901.png|180]]
 
+### Empty Relation on empty base set
+
+![[Quantifiers#What an empty domain does?]]
+
 > [!point] $R = \phi$ on an empty set $S$ 
 > 1. Reflexive and Ir-reflexive (No elements to violate)
 > 2. Symmetric, Anti-symmetric and Asymmetric
@@ -46,8 +52,9 @@ tags:
 > 4. Equivalent and Partial Order
 >> [!important] There are no elements to violate any of the conditions.
 
+- All the definitions of the above relations involve universal quantifiers.
 
-#### Examples
+## Examples
 ![[Pasted image 20231015000302.png]]
 
 ---
@@ -71,6 +78,6 @@ tags:
 
 ---
 
-4. [[Equivalence Relation]]
+
 
 ----

@@ -23,6 +23,7 @@ tags:
 	- Each part of this partition is called equivalence class of $R$.
 - For every partition of a set $A$, there is an unique equivalence relation $R$.
 - $\sim$ is used to represent an equivalence relation instead of $R$. i.e. $(A, \sim)$
+- If $(A, R)$ is an equivalence relation, then any subset of $A$ i.e. $\forall_B (B \subseteq A)$, then $(B, R)$ is also an equivalence relation.
 
 ## Examples
 

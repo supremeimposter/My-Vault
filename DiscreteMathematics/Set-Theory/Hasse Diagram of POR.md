@@ -79,10 +79,13 @@ flexGrow=1
 - $\mid R \mid = \{ (a, a), (b, b), (c, c), (a, b) \}$
 - Base set $A = \{a, b, c\}$ and $\mid A \mid =$ No of vertices in the Hasse Diagram
 
-- For a POSET of $n$ elements, a chain or a total order set will have the maximum possible cardinality for relation.
+### Maximum and Minimum POR cardinality
+- For a POSET of $n$ elements, 
+	- A chain or a total order set will have the maximum possible cardinality for relation $\mid POR_{chain} \mid = \frac{n(n + 1)}{2}$
+	- Identity relation will have the minimum possible cardinality for relation $\mid {POR}_{identity} \mid = n$
 
 ---
-## Examples
+## Examples of Hasse Diagram
 
 > [!example] $(\{1, 2, 3, 4, 6, 8, 12\}, \mid)$
 > ![[Pasted image 20231025132302.png]]
