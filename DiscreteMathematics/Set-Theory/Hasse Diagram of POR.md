@@ -1,7 +1,7 @@
 ---
-pdf: lec-34-36, lec-37-38, lec-39-40
+pdf: lec-34-36, lec-37-38, lec-39-40, lec-42-43
 module: 5
-lecture: 35, 36, 37, 38, 39
+lecture: 35, 36, 37, 38, 39, 42, 43
 date: 2023-10-21T14:45:00
 version:
   - DM-24
@@ -16,7 +16,8 @@ tags:
 > [!lecture] Lecture-35
 
 # Hasse Diagram
-- Any relation on a set has many representations such as Set, Arrow, Matrix and Graph, but this graph-like (Hasse Diagram) representation is only for [[#Set Ordering#Partial Order Relation|POR]] and [[Set Ordering#Total Order Relation|TOR]].
+- Any relation on a set has many representations such as Set, Arrow, Matrix and Graph, but this graph-like (Hasse Diagram) representation is only for [[Set Ordering#Partial Order Relation (POR)|POR]] and [[Set Ordering#Total Order Relation|TOR]].
+- Hasse Diagram is a property of Partial Order Relation.
 - Normal Graph representations of relation on a set can be messy and confusing.
 > [!example] 
 > ![[Pasted image 20231025131339.png]]
@@ -69,6 +70,18 @@ flexGrow=1
 ```
 ````
 
+## Cardinality of POR from Hasse Diagram
+
+> [!lecture] Lecture-42, 43
+
+![[Pasted image 20231026105049.png]]
+
+- $\mid R \mid = \{ (a, a), (b, b), (c, c), (a, b) \}$
+- Base set $A = \{a, b, c\}$ and $\mid A \mid =$ No of vertices in the Hasse Diagram
+
+- For a POSET of $n$ elements, a chain or a total order set will have the maximum possible cardinality for relation.
+
+---
 ## Examples
 
 > [!example] $(\{1, 2, 3, 4, 6, 8, 12\}, \mid)$
@@ -302,7 +315,9 @@ flexGrow=1
 > [!cases] If $a, b$ are comparable i.e $aRb$, then what is LUB and GLB?
 > $LUB\{a, b\} = \;a \; \lor \; b = b$
 > $GLB\{a, b\} = \;a \; \land \; b = a$
->> [!diagram] ![[Pasted image 20231025203258.png|$aRb$]]
+
+- For every two comparable elements, LUB and GLB definitely exists.
+![[Pasted image 20231026093542.png|$aRb$]] ^d4c5bd
 
 > [!cases] If $a, b$ are NOT comparable, then what is LUB and GLB?
 > LUB is $a \lor b =$ "unique **first** joining point in upward direction"

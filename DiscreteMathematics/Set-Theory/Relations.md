@@ -136,6 +136,20 @@ flexGrow=1
 ```
 ````
 
+### Empty Base set
+
+![[Quantifiers#What an empty domain does?]]
+
+> [!discussion] Empty base set
+> ![[Pasted image 20231011121224.png]]
+
+- When base set is empty, a relation CANNOT be defined. For an $\phi$ base set, the relation is $\phi$
+- On a base set, the relation is,
+	- Reflexive and Ir-reflexive
+	- Symmetric, Anti-symmetric and Asymmetric
+	- Transitive
+- All the definitions of the above relations involve universal quantifiers.
+
 ## Representation of Relations
 
 ### Set representation
@@ -201,6 +215,9 @@ Example 4
 
 > [!pdf] lec-18-21 
 > More examples on relations Pg. No. 44 - 85
+
+
+---
 
 
 > [!youtube] 

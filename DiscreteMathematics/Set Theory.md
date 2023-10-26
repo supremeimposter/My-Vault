@@ -14,8 +14,10 @@
 - [[Set Ordering]]
 	- [[Hasse Diagram of POR]]
 	- [[Hasse Diagram of TOR]]
-- 
+	- [[Lattice]]
 
+
+- [[Practice Sets]]
 ---
 
 ## Resources

@@ -59,6 +59,9 @@ tags:
 - If $R$ on set $A$ is a POR then $(A, R)$ is called a POSET.
 - Generally $\preceq$ is used to represent a POR instead of $R$ i.e $(A, \preceq)$ 
 
+- For a non-empty base set $A$, Universal relation is POR iff $\mid A \mid \le 1$.
+- Identity relation on a set $A$ is a POSET.
+
 #### Comparable and Incomparable elements
 - The elements $a$ and $b$ of a POSET are called **comparable** iff either $a \preceq b$ or $b \preceq a$ . 
 - If neither $a \preceq b$ nor $b \preceq a$, then $a$ and $b$ are called **incomparable**.
@@ -70,7 +73,7 @@ tags:
 > [!example] $({3, 4, 5}, \mid)$
 > - No two elements of the set are comparable.
 > - This set is a POSET since there is NO violation of Anti-Symmetric and Transitive relation.
- 
+
 
 
 #### Examples

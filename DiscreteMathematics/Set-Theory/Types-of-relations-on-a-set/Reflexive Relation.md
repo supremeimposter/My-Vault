@@ -38,11 +38,6 @@ $$
 > - If a relation is ir-reflexive, then it is NOT reflexive, but the converse is NOT true.
 > - If a relation is reflexive or ir-reflexive, then the relation is NOT reflexive.
 
-## Empty base set 
-
-> [!discussion] Empty base set
-> ![[Pasted image 20231011121224.png]]
-
 ## Examples
 
 > [!info] Equality Relation
