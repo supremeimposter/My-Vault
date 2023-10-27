@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "8be14f933504ed34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pending Lectures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a4499eed70f49f52",
             "type": "leaf",
             "state": {
@@ -45,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7bd712cd249229c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aptitude/Quantitative-Aptitude/Floor and Ceiling Functions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -101,8 +127,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -115,7 +140,7 @@
       {
         "id": "e047f71d444b979e",
         "type": "tabs",
-        "dimension": 40.68627450980392,
+        "dimension": 61.66666666666667,
         "children": [
           {
             "id": "4de834b516a58502",
@@ -123,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Ordering.md",
+                "file": "Aptitude/Quantitative-Aptitude/Floor and Ceiling Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Ordering.md",
+                "file": "Aptitude/Quantitative-Aptitude/Floor and Ceiling Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Ordering.md"
+                "file": "Aptitude/Quantitative-Aptitude/Floor and Ceiling Functions.md"
               }
             }
           },
@@ -191,7 +216,7 @@
       {
         "id": "5df95600f2476df0",
         "type": "tabs",
-        "dimension": 59.31372549019608,
+        "dimension": 38.333333333333336,
         "children": [
           {
             "id": "537addfb8bc17cc8",
@@ -225,14 +250,28 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a4499eed70f49f52",
+  "active": "7bd712cd249229c1",
   "lastOpenFiles": [
+    "attachments/Pasted image 20231027183023.png",
+    "attachments/Pasted image 20231027182927.png",
+    "GATE.md",
+    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
+    "Aptitude/Quantitative-Aptitude/Absolute Value.md",
+    "Aptitude/Quantitative-Aptitude/Floor and Ceiling Functions.md",
+    "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
+    "Aptitude/Quantitative-Aptitude",
+    "DiscreteMathematics/Set-Theory/Set Ordering.md",
+    "Pending Lectures.md",
     "DiscreteMathematics/Set-Theory/Lattice.md",
+    "DiscreteMathematics/Set-Theory/Practice Sets.md",
+    "attachments/Pasted image 20231027084236.png",
+    "attachments/Pasted image 20231027084202.png",
+    "attachments/Pasted image 20231027083626.png",
+    "attachments/Pasted image 20231027083600.png",
+    "attachments/Pasted image 20231027083245.png",
+    "Temporary Plan.md",
     "attachments/Pasted image 20231026190045.png",
     "attachments/Pasted image 20231026185901.png",
-    "DiscreteMathematics/Set-Theory/Set Ordering.md",
-    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
-    "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
     "DiscreteMathematics/Propositional-Logic/Analysis of Equivalence of Propositions.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
     "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
@@ -245,24 +284,12 @@
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Reflexive Relation.md",
     "attachments/Pasted image 20231026105049.png",
-    "Temporary Plan.md",
     "attachments/Pasted image 20231026093542.png",
     "DiscreteMathematics/Set Theory.md",
     "DiscreteMathematics/Set-Theory/Hasse Diagram of TOR.md",
-    "attachments/Pasted image 20231025223857.png",
     "Pending Notes.md",
     "C/Types/Types.md",
-    "attachments/Pasted image 20231025222131.png",
-    "attachments/Pasted image 20231025211419.png",
-    "attachments/Pasted image 20231025211401.png",
-    "attachments/Pasted image 20231025211336.png",
-    "attachments/Pasted image 20231025211307.png",
-    "Algorithms/Algorithms.md",
-    "Algorithms/Divide-and-Conquer/Divide and Conquer.md",
-    "Untitled.md",
-    "Algorithms/Recurrence-Relation/Masters Theorem.md",
     "Algorithms/Divide-and-Conquer",
-    "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
     "Algorithms/Recurrence-Relation",
     "Algorithms",
     "Fundamentals of Computer Science",
@@ -271,7 +298,6 @@
     "pages/contents.md.crswap",
     "logseq/custom.css",
     "pages",
-    "logseq/config.edn",
     "Untitled.canvas"
   ]
 }
