@@ -1,7 +1,7 @@
 ---
-pdf: lec-41, lec-44, lec-45-46
+pdf: lec-41, lec-44, lec-45-46, lec-48
 module: 5
-lecture: 41, 44, 45
+lecture: 41, 44, 45, 48
 date: 2023-10-26T08:45:00
 version:
   - DM-24
@@ -18,6 +18,7 @@ tags:
 - A lattice is a POSET in which any two elements $a, b$ have both LUB and GLB.
 ![[Hasse Diagram of POR#^d4c5bd]]
 - A lattice is a POSET in which any two non-comparable elements $a, b$ have both LUB and GLB.
+- In a lattice $L$, any element $x, y \in L$ and $x R y$ then $x R (x \lor y)$ and $(x \land y) R x$ . 
 
 ---
 
@@ -48,7 +49,7 @@ tags:
 
 ---
 
-# Sub-Lattice
+## Sub-Lattice
 
 > [!lecture] Lecture-45
 
@@ -65,4 +66,10 @@ tags:
 > [!doubt] 
 > - If a subset of a lattice contains only comparable elements, then it is guaranteed to form a sub-lattice.
 > - Because two comparable elements definitely has a GLB and LUB.
+
+
+## Elements in a Lattice
+
+> [!lecture] Lecture-48
+>> [!youtube] [Lecture 48 - Questions - Maximal, Greatest Elements in a Lattice | Set Theory | Discrete Mathematics - YouTube](https://www.youtube.com/watch?v=yqHGdWzeGeE)
 

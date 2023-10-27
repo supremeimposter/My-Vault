@@ -1,7 +1,7 @@
 ---
-pdf: lec-34-36, lec-37-38, lec-39-40, lec-42-43
+pdf: lec-34-36, lec-37-38, lec-39-40, lec-42-43, lec-45-46, lec-47
 module: 5
-lecture: 35, 36, 37, 38, 39, 42, 43
+lecture: 35, 36, 37, 38, 39, 42, 43, 46, 47
 date: 2023-10-21T14:45:00
 version:
   - DM-24
@@ -119,8 +119,7 @@ flexGrow=1
 > [!example] $(\mathcal{P}(\{a, b, c\}), \subseteq)$
 > ![[Pasted image 20231025161526.png]]
 
-> [!example] 
-> $(\mathcal{P}(\{a, b, c\} - \{\phi, \{a, b, c\}\}), \subseteq)$
+> [!example] $(\mathcal{P}(\{a, b, c\} - \{\phi, \{a, b, c\}\}), \subseteq)$
 > ![[Pasted image 20231025164100.png]]
 
 ---
@@ -156,7 +155,7 @@ flexGrow=1
 ```
 ````
 
-- Greatest and Least elements are unique. There cannot be more than one.
+- Greatest(Largest) and Least(Smallest) elements are unique. There cannot be more than one.
 - There can be more than one Maximal and Minimal elements in a POSET.
 #### Examples
 
@@ -172,7 +171,6 @@ flexGrow=1
 > Minimal : d, e
 > Greatest : b
 > Least : Does not exist
->> [!tip] If there is only one maximal or minimal element, then it is the greatest or least element respectively. 
 
 > [!example] $(\{2, 3, 4, 5, 6, 7, 8, 9\}, \mid)$
 > ![[Pasted image 20231025164329.png]]
@@ -415,3 +413,53 @@ $$
 > [!pdf] pdf lec-39-40 Pg. No. 17-30
 
 ---
+
+### Important results
+
+> [!lecture] Lecture-46
+
+- For a finite POSET, there must be at least one minimal and maximal element.
+- For an infinite POSET, there is NO minimal or maximal elements.
+- If a POSET contains a smallest and largest elements, then it does NOT mean that every two elements are comparable. 
+- If a POSET $(A, R)$ has NO maximal elements, then $A$ is infinite.
+- In an infinite POSET, if there is an unique maximal or minimal element, then it does NOT mean that it is the Greatest or Least element.
+- In an finite POSET, if there is an unique maximal or minimal element, then it is the Greatest or Least element.
+
+````col
+```col-md
+flexGrow=1
+===
+##### Infinite POSET
+![[Pasted image 20231027083600.png|Z is also maximal, but not greatest|150]]
+```
+```col-md
+flexGrow=1
+===
+##### Finite POSET
+![[Pasted image 20231027083626.png|d is maximal and greatest|200]]
+```
+````
+
+- In an infinite POSET, if every two elements are comparable, then it does NOT mean that there is a largest and smallest element.
+- In an finite POSET, if every two elements are comparable, then there is a largest and smallest element.
+````col
+```col-md
+flexGrow=1
+===
+#### Infinite POSET
+![[Pasted image 20231027084202.png|180]]
+```
+```col-md
+flexGrow=1
+===
+#### Finite POSET
+![[Pasted image 20231027084236.png|230]]
+```
+````
+
+> [!lecture] Lecture-47
+>> [!youtube] [Questions related to Maximal, Minimal, Greatest, Least Elements in a POSET | Set Theory | Lattice - YouTube](https://www.youtube.com/watch?v=g0utoFh0yQQ)
+
+
+
+----

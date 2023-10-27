@@ -74,11 +74,6 @@ tags:
 > - No two elements of the set are comparable.
 > - This set is a POSET since there is NO violation of Anti-Symmetric and Transitive relation.
 
-#### Important Results
-- For a finite POSET, there must be at least one minimal and maximal element.
-- For an infinite POSET, there is NO minimal or maximal elements.
-
-
 #### Examples
 
 - $\le$  and $\ge$ on $\mathbb{Z}, \mathbb{N}, \mathbb{R}$ 

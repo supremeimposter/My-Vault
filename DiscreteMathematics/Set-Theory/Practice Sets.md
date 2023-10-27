@@ -16,3 +16,14 @@ Q 25 b)
 # Practice set 2
 
 Q 30 c) d)
+
+---
+
+# Practice set 3
+
+
+---
+# Practice set 4
+
+
+---
