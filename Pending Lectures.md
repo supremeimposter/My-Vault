@@ -16,7 +16,10 @@
 # [[C]]
 - [ ] C Programming - [Pointer Summary](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHgJFMCeS5c13pREPXcoRkaZ)
 - [ ] C Programming - Weekly Quiz 15, 17, 18
-- [ ] Aptitude - ceil and floor
+
+# Aptitude
+- [x] Aptitude - ceil and floor
+- [ ] Number system - `27:45`
 
 # [[Discrete Mathematics]]
 - [ ] Discrete Mathematics - [[First Order Logic]] Optional Lectures

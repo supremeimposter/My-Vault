@@ -11,7 +11,7 @@ tags:
 ---
 
 ---
-## "divides" ( $\mid$ )
+## divides ( $\mid$ )
 
 - $a \; | \; b$ means "a divides b"
 $$
@@ -21,7 +21,7 @@ $$
 
 > [!example] 
 > $0 | 0 =$ True (but $0 \div 0 =$ indeterminate)
-> $5 | 0 =$ False
+> $5 | 0 =$ True
 > $0 | 5 =$ False
 > $2 | 4 =$ True
 > $4 | 2 =$ False

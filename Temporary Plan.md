@@ -1,7 +1,9 @@
 
-Oct - DM sets, DS, Algo
-Nov - DM functions, DM group theory, OS, DL
-Dec - DM combinatronics, CN, DBMS
-Jan - DM Graph Theory, Compiler, TOC
-Feb - COA, Gate video solutions
+Oct - DM sets, DS
+Nov - OS, DL
+Dec - CN, DBMS
+Jan - Compiler, TOC
+Feb - COA, Gate video solutions, Algo
+March - DM functions, DM group theory, DM combinatronics
+April - DM Graph Theory
 

@@ -3,6 +3,7 @@
 - $a = b$ or $a = -b$ means $\mid a \mid = \mid b \mid$
 - `0` is neither positive nor negative.
 
+- Identity element does NOT exists for subtraction and division.
 ## Rational Numbers
 - [Lesson Explainer: The Set of Rational Numbers | Nagwa](https://www.nagwa.com/en/explainers/584141491646/)
 - The set of rational numbers contain `0`.
