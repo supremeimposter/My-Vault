@@ -258,6 +258,18 @@
       "injectColor": true,
       "noTitle": false,
       "copy": false
+    },
+    "convention": {
+      "type": "convention",
+      "color": "221, 39, 197",
+      "icon": {
+        "type": "octicons",
+        "name": "container"
+      },
+      "command": false,
+      "title": "Convention",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,
