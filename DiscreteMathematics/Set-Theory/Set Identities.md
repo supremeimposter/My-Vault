@@ -38,4 +38,8 @@ notes-taken: false
 - Absorption law can be interpreted quickly using venn diagram. It is only for $\cup$ and $\cap$ .
 - De-Morgan's law of complement is for $\cup$,  $\cap$ and complements of sets only.
 
+- Domination Law
+	- $A \cup M = M$, $M$ is the dominator for the operation $\cup$.
+	- $A \cap \phi = \phi$, $\phi$ is the dominator for the operation $\cap$.
+
 ## Comparison between Propositional Logic and Set Theory
