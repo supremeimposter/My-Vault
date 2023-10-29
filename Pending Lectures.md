@@ -2,6 +2,7 @@
 - [ ] Data Structures - Heaps practice set live 2📅 2023-09-27 
 - [ ] Data Structures - Heaps practice set live 3📅 2023-09-29
 - [ ] Data Structures - Hashing
+- [ ] Row-major, Column-major
 
 # Engineering Mathematics
 - [ ] Probability - Weekly Quiz - 8, 11
@@ -28,3 +29,5 @@
 - [ ] Discrete Mathematics - [[Set Theory]] [Lecture-48](https://www.youtube.com/watch?v=yqHGdWzeGeE)
 - [ ] Discrete Mathematics - [[Set Theory]] Practice Set 4
 - [ ] Discrete Mathematics - [[Set Theory]] Practice Set 5
+- [ ] [[Set Theory]] - [Lecture 61](https://www.youtube.com/watch?v=5ia3SsbB7Ks)
+- [ ] [[Set Theory]] - [Lecture 62](https://www.youtube.com/watch?v=aWJHVZDlGzQ)

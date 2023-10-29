@@ -11,11 +11,69 @@
             "id": "a3b73b11cdc98d0f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Types of Lattices.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "739403016e9152f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Lattice.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2df051cfbd96cb20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5fe326d4d4dfd4d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Set Ordering.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "587e6c887996477e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Analysis on Some Relations.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -69,7 +127,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -90,6 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DiscreteMathematics/Set-Theory/Analysis on Some Relations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DiscreteMathematics/Set-Theory/Analysis on Some Relations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +195,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Analysis on Some Relations.md"
+              }
             }
           },
           {
@@ -188,26 +251,30 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a3b73b11cdc98d0f",
+  "active": "587e6c887996477e",
   "lastOpenFiles": [
+    "Pending Lectures.md",
+    "DiscreteMathematics/Set-Theory/Analysis on Some Relations.md",
+    "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
+    "DiscreteMathematics/Set-Theory/Relations.md",
+    "DiscreteMathematics/Set Theory.md",
+    "DiscreteMathematics/Set-Theory/Types of Lattices.md",
+    "DiscreteMathematics/Set-Theory/Set Ordering.md",
+    "DiscreteMathematics/Set-Theory/Lattice.md",
+    "attachments/Pasted image 20231029115856.png",
+    "attachments/Pasted image 20231029112235.png",
     "Fundamentals of Computer Science/Number Theory.md",
     "DiscreteMathematics/Set-Theory/Set Identities.md",
     "Weekly-Quizzes/Weekly Quizzes.md",
-    "DiscreteMathematics/Set-Theory/Types of Lattices.md",
-    "DiscreteMathematics/Set-Theory/Lattice.md",
     "Weekly-Quizzes",
     "attachments/Pasted image 20231028183824.png",
     "attachments/Pasted image 20231028183707.png",
-    "DiscreteMathematics/Set Theory.md",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
     "Fundamentals of Computer Science/Fundamentals of Computer Science.md",
     "GATE-materials/Links for Resources.md",
     "GATE.md",
     "Temporary Plan.md",
-    "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
-    "DiscreteMathematics/Set-Theory/Set Ordering.md",
-    "Pending Lectures.md",
     "attachments/Pasted image 20231028124858.png",
     "attachments/Pasted image 20231028124546.png",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
@@ -218,16 +285,12 @@
     "attachments/Pasted image 20231028100654.png",
     "DiscreteMathematics/Propositional-Logic/Bi-Implication.md",
     "attachments/Pasted image 20231028092827.png",
-    "attachments/Pasted image 20231028092732.png",
-    "attachments/Pasted image 20231027183023.png",
     "Aptitude/Quantitative-Aptitude/Absolute Value.md",
     "Aptitude/Quantitative-Aptitude",
     "DiscreteMathematics/Set-Theory/Practice Sets.md",
     "DiscreteMathematics/Propositional-Logic/Analysis of Equivalence of Propositions.md",
     "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
     "DiscreteMathematics/Propositional-Logic/Important Logical Equivalences.md",
-    "DiscreteMathematics/Set-Theory/Relations.md",
-    "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
     "Algorithms/Divide-and-Conquer",
     "Algorithms/Recurrence-Relation",
     "Algorithms",
