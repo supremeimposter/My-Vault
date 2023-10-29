@@ -16,6 +16,7 @@
 	- [[Hasse Diagram of TOR]]
 - [[Lattice]]
 	- [[Types of Lattices]]
+- [[Analysis on Some Relations]]
 
 
 - [[Practice Sets]]

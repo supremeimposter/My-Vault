@@ -157,6 +157,7 @@ flexGrow=1
 
 - Greatest(Largest) and Least(Smallest) elements are unique. There cannot be more than one.
 - There can be more than one Maximal and Minimal elements in a POSET.
+- In a POSET, the greatest element is called Unit element and it is denoted by `1` and the least element is called Zero element and it is denoted by `0`.
 #### Examples
 
 > [!example] ![[Pasted image 20231025162513.png]]
@@ -402,7 +403,7 @@ $$
 ![[Pasted image 20231025211419.png]]
 
 ----
-### Relation between LUB and GLB and with the elements of the set
+### LUB and GLB of a set 
 - For a POSET $P$,
 	- $\bigcup P =$ LUB of all elements in $P =$ Greatest element of $P$
 	- $\bigcap P =$ GLB of all elements in $P =$ Least element of $P$ 
@@ -419,6 +420,7 @@ $$
 > [!lecture] Lecture-46
 
 - For a finite POSET, there must be at least one minimal and maximal element.
+- A finite (non-empty) POSET is not guaranteed to have a greatest and least element.
 - For an infinite POSET, there is NO minimal or maximal elements.
 - If a POSET contains a smallest and largest elements, then it does NOT mean that every two elements are comparable. 
 - If a POSET $(A, R)$ has NO maximal elements, then $A$ is infinite.

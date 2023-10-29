@@ -42,11 +42,9 @@ tags:
 
 ![[Pasted image 20231028124858.png]]
 
-
 > [!conflict] 
 > **Is a single element POSET a lattice?**
 > It is author dependent. We will consider that a single element POSET is a latice.
-
 
 ---
 
@@ -55,21 +53,52 @@ tags:
 > [!lecture] Lecture-44
 
 ### Properties satisfied by every lattices
+- $\forall_{a, b} \in L,$ 
 #### Idempotent
+$$
+a \lor a = a
+$$
+$$
+a \land a = a
+$$
 
 #### Commutative
+$$
+\begin{align}\\
+a \lor b = b \lor a \\
+a \land b = b \land a
+\end{align}
+$$
 
 #### Associative
+$$
+\begin{align}\\ \\
+a \lor (b \lor c) = (a \lor b) \lor c \\
+a \land (b \land c) = (a \land b) \land c
+\end{align}
+$$
 
 #### Absorption
-
+$$
+\begin{align}\\ \\
+a \lor (a \land b) = a \\
+a \land (a \lor b) = a
+\end{align}
+$$
 
 > [!cases] By-case cases
 > case 1 : $aRb$
 > case 2 : $bRa$
 > case 3  : $a, b$ are not comparable
 
+#### Consistency
+$$
+a R b \leftrightarrow a \lor b = b \leftrightarrow a \land b = b
+$$
+
+---
 ### Properties satisfied by some lattices
+
 #### Identity 
 > [!lecture] Lecture-53
 >> [!youtube] [Identity Property in Lattices | Domination Law | Bounded Lattice | Set Theory | Discrete Mathematics - YouTube](https://www.youtube.com/watch?v=HBAZEv2Lj00)
@@ -89,7 +118,10 @@ tags:
 - Complement may not exist for all elements.
 - There can be one or more complements for an element.
 - In a bounded lattice, ${L}^\complement = G$ and ${G}^\complement = L$
+![[Pasted image 20231029115856.png]]
+
 #### Distributive
+- $\forall_{a, b} \in L,$ 
 $$
 \begin{align} \\
 a \lor (b \land c) = (a \lor b) \land (a \lor c)\\
@@ -98,7 +130,14 @@ a \land (b \lor c) = (a \land b) \lor (a \land c)
 $$
 
 #### De-Morgan
-
+- $\forall_{a, b} \in L,$ 
+$$
+\begin{align}\\
+\overline{a \lor b} = \overline{a} \land \overline{b}\\
+\overline{a \land b} = \overline{a} \lor \overline{b}
+\end{align}
+$$
+- where $\overline{a} =a^{-1}$ and $\overline{b} =b^{-1}$
 
 ---
 
@@ -125,6 +164,13 @@ $$
 
 > [!lecture] Lecture-48
 >> [!youtube] [Lecture 48 - Questions - Maximal, Greatest Elements in a Lattice | Set Theory | Discrete Mathematics - YouTube](https://www.youtube.com/watch?v=yqHGdWzeGeE)
+
+## Number of Structures of Lattice
+> [!lecture] Lecture-57
+
+
+> [!note] 
+> There is NO formula for the number of structures of lattices of cardinality `n` 
 
 
 ----

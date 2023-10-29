@@ -1,12 +1,12 @@
 ---
-pdf: lec-33, lec-34-36
+pdf: lec-33, lec-34-36, lec-56-60
 module: 5
-lecture: 33, 34
+lecture: 33, 34, 59, 60
 date: 2023-10-18T20:51:00
 version:
   - DM-24
 last-revision: 
-notes-taken: true
+notes-taken: false
 tags:
   - DM
   - DM/Sets
@@ -105,11 +105,39 @@ $$
 
 - If a relation is total order, then it is also partial order.
 - If a relation is NOT partial order, then it is definitely NOT total order.
-- Every TOSET is a [[Lattice|lattice]].
+- Every TOSET is a [[Lattice|lattice]]. 
 #### Examples
 - $(\mathbb{Z}, \le)$ is a chain
 
 
 #### [[Hasse Diagram of TOR|Hasse Diagram of Total Order Relation]]
 
+#### Analysis on Total Order Relation
+> [!lecture] Lecture-59-60
+
+##### Finite VS Infinite TOSET as [[Lattice]]
+
+````col
+```col-md
+flexGrow=1
+===
+###### Finite TOSET
+Bounded
+Complemented if $\le 2$ elements
+Distributive
+Boolean if $\le 2$ elements
+```
+```col-md
+flexGrow=1
+===
+###### Infinite TOSET
+May or may not be Bounded
+Not complemented
+Distributive
+Not Boolean Algebra
+```
+````
+
 ---
+
+
