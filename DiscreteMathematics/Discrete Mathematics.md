@@ -11,3 +11,4 @@ Example : integers, humans, eggs, etc...
 
 ## [[Mathematical Logic]]
 ## [[Set Theory]]
+## [[Functions]]

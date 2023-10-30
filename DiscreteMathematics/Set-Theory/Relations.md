@@ -26,7 +26,7 @@ tags:
 $$
 R = \{\;(a, b)\; | \; a \text{ condition } b \}
 $$
-- The condition is how the relationship is defined between the elements of the two sets. $R$ is the binary relation between two sets $A$ and $B$.
+- The condition is how the relationship is defined between the elements of the two sets. $R$ is the binary relation between two sets $A$ and $B$. Set $A$ is called Domain and set $B$ is called Co-Domain.
 $$
 R : A \rightarrow B
 $$
@@ -224,3 +224,7 @@ Example 4
 > [!youtube] 
 > [Relations - Complete Revision & Summary](https://www.youtube.com/watch?v=J2l-MN6IP9Q)
 > [Relations - GATE PYQs Part 1- Set Theory | Discrete Mathematics Revision | GoClasses | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=b8OifcB2Wh4)
+
+
+> [!link] 
+> [[Functions]] are special types of relations.
