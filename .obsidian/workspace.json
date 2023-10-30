@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2e6e54624ba9775a",
+        "id": "c880c47ab7f4c9e6",
         "type": "tabs",
         "children": [
           {
-            "id": "a3b73b11cdc98d0f",
+            "id": "b682086c59a8aae1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Types of Lattices.md",
+                "file": "DiscreteMathematics/Functions/Function Definition.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,59 +21,19 @@
             }
           },
           {
-            "id": "739403016e9152f1",
+            "id": "de7831eb0e60aa41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Lattice.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2df051cfbd96cb20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5fe326d4d4dfd4d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Ordering.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "587e6c887996477e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMathematics/Set-Theory/Analysis on Some Relations.md",
+                "file": "DiscreteMathematics/Set-Theory/Relations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,8 +87,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -149,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Analysis on Some Relations.md",
+                "file": "DiscreteMathematics/Functions/Function Definition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Analysis on Some Relations.md",
+                "file": "DiscreteMathematics/Functions/Function Definition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Analysis on Some Relations.md"
+                "file": "DiscreteMathematics/Functions/Function Definition.md"
               }
             }
           },
@@ -251,15 +210,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "587e6c887996477e",
+  "active": "b682086c59a8aae1",
   "lastOpenFiles": [
+    "DiscreteMathematics/Set-Theory/Relations.md",
+    "DiscreteMathematics/Functions/Function Definition.md",
     "Pending Lectures.md",
+    "DiscreteMathematics/Functions.md",
+    "DiscreteMathematics/Set Theory.md",
+    "DiscreteMathematics/Discrete Mathematics.md",
+    "DiscreteMathematics/Functions",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+    "DatabaseManagementSystem/Database Management System.md",
+    "GATE-LOG.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
+    "Temporary Plan.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization",
+    "GATE.md",
+    "DatabaseManagementSystem",
+    "DiscreteMathematics/Set-Theory/Set Ordering.md",
     "DiscreteMathematics/Set-Theory/Analysis on Some Relations.md",
     "DiscreteMathematics/Set-Theory/Hasse Diagram of POR.md",
-    "DiscreteMathematics/Set-Theory/Relations.md",
-    "DiscreteMathematics/Set Theory.md",
     "DiscreteMathematics/Set-Theory/Types of Lattices.md",
-    "DiscreteMathematics/Set-Theory/Set Ordering.md",
     "DiscreteMathematics/Set-Theory/Lattice.md",
     "attachments/Pasted image 20231029115856.png",
     "attachments/Pasted image 20231029112235.png",
@@ -273,32 +244,20 @@
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
     "Fundamentals of Computer Science/Fundamentals of Computer Science.md",
     "GATE-materials/Links for Resources.md",
-    "GATE.md",
-    "Temporary Plan.md",
     "attachments/Pasted image 20231028124858.png",
     "attachments/Pasted image 20231028124546.png",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
     "Aptitude/Quantitative-Aptitude/Number System.md",
     "attachments/Pasted image 20231028120907.png",
-    "Aptitude/Quantitative-Aptitude/Floor and Ceiling Functions.md",
     "attachments/Pasted image 20231028101639.png",
     "attachments/Pasted image 20231028100654.png",
-    "DiscreteMathematics/Propositional-Logic/Bi-Implication.md",
     "attachments/Pasted image 20231028092827.png",
-    "Aptitude/Quantitative-Aptitude/Absolute Value.md",
     "Aptitude/Quantitative-Aptitude",
-    "DiscreteMathematics/Set-Theory/Practice Sets.md",
-    "DiscreteMathematics/Propositional-Logic/Analysis of Equivalence of Propositions.md",
-    "DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
-    "DiscreteMathematics/Propositional-Logic/Important Logical Equivalences.md",
     "Algorithms/Divide-and-Conquer",
     "Algorithms/Recurrence-Relation",
     "Algorithms",
     "Fundamentals of Computer Science",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set",
-    "logseq/config.edn.crswap",
-    "pages/contents.md.crswap",
-    "logseq/custom.css",
     "Untitled.canvas"
   ]
 }

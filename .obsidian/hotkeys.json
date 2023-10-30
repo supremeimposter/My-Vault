@@ -84,5 +84,13 @@
       ],
       "key": "ArrowDown"
     }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "/"
+    }
   ]
 }

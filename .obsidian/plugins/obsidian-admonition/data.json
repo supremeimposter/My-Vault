@@ -270,6 +270,18 @@
       "title": "Convention",
       "injectColor": true,
       "noTitle": false
+    },
+    "terminology": {
+      "type": "terminology",
+      "color": "3, 148, 196",
+      "icon": {
+        "name": "ethereum",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Terminology",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,

@@ -2,7 +2,7 @@
 - [[C]]
 - [[Theory of Computation]]
 - [[Algorithms]]
-
+- [[Database Management System]]
 
 - Aptitude
 	- Quantitative 

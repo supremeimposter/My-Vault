@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -8,38 +8,31 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:DiscreteMathematics/First-Order-Logic  ",
+      "query": "tag:#ALGO  ",
       "color": {
         "a": 1,
-        "rgb": 16024965
+        "rgb": 14048348
       }
     },
     {
-      "query": "path:DiscreteMathematics/Propositional-Logic  ",
+      "query": "tag:#DM",
       "color": {
         "a": 1,
-        "rgb": 9105919
+        "rgb": 14069084
       }
     },
     {
-      "query": "path:C  ",
+      "query": "tag:#DBMS",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
+    },
+    {
+      "query": "tag:#Aptitude #Fundamentals ",
       "color": {
         "a": 1,
         "rgb": 6084188
-      }
-    },
-    {
-      "query": "path:TheoryOfComputation  ",
-      "color": {
-        "a": 1,
-        "rgb": 6084269
-      }
-    },
-    {
-      "query": "path:Aptitude  ",
-      "color": {
-        "a": 1,
-        "rgb": 14074460
       }
     }
   ],
@@ -53,6 +46,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.4288427452251967,
+  "scale": 0.27827064274481633,
   "close": true
 }
