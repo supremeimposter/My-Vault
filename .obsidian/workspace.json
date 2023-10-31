@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "de7831eb0e60aa41",
+            "id": "f6708fe8ddad6364",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Functions/Types of Functions.md",
+                "file": "DiscreteMathematics/Set-Theory/Set Operations.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4991fd05439b3d18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fundamentals of Computer Science/Fundamentals of Computer Science.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -45,8 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "060565bf8f6846cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Relations.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -121,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Functions/Function Definition.md",
+                "file": "DiscreteMathematics/Set-Theory/Relations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Functions/Function Definition.md",
+                "file": "DiscreteMathematics/Set-Theory/Relations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Functions/Function Definition.md"
+                "file": "DiscreteMathematics/Set-Theory/Relations.md"
               }
             }
           },
@@ -223,15 +250,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b682086c59a8aae1",
+  "active": "060565bf8f6846cd",
   "lastOpenFiles": [
     "DiscreteMathematics/Functions/Function Definition.md",
-    "DiscreteMathematics/Functions/Types of Functions.md",
-    "attachments/Pasted image 20231031160636.png",
+    "DiscreteMathematics/Set-Theory/Set Operations.md",
     "DiscreteMathematics/Functions.md",
-    "DiscreteMathematics/Set-Theory/Relations.md",
+    "DiscreteMathematics/Functions/Set Operations on Functions.md",
+    "DiscreteMathematics/Functions/Types of Functions.md",
     "Fundamentals of Computer Science/Fundamentals of Computer Science.md",
+    "GATE.md",
     "Fundamentals of Computer Science/Number Theory.md",
+    "attachments/Pasted image 20231031160636.png",
+    "DiscreteMathematics/Set-Theory/Relations.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "Pending Lectures.md",
     "DiscreteMathematics/Set Theory.md",
@@ -242,7 +272,6 @@
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
     "Temporary Plan.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization",
-    "GATE.md",
     "DatabaseManagementSystem",
     "DiscreteMathematics/Set-Theory/Set Ordering.md",
     "DiscreteMathematics/Set-Theory/Analysis on Some Relations.md",
@@ -256,7 +285,6 @@
     "Weekly-Quizzes",
     "attachments/Pasted image 20231028183824.png",
     "attachments/Pasted image 20231028183707.png",
-    "DiscreteMathematics/Set-Theory/Set Operations.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
     "GATE-materials/Links for Resources.md",
     "attachments/Pasted image 20231028124858.png",
