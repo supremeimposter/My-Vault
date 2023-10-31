@@ -67,6 +67,7 @@ tags:
 - It is a minimal super key. If any one attribute is removed from the candidate key, it is no longer a super key.
 - `NULL` values are allowed. It must identify all non-null values uniquely.
 
+
 ### Primary Key
 - It is one of the candidate key.
 - `NULL` values are NOT allowed in primary key.
@@ -75,5 +76,6 @@ tags:
 > [!summary] Summary of Keys
 > - A primary key is a candidate key.
 > - In relational model, no tuple can be completely `NULL` since, there must be exactly one primary key in the relational model.
+> - Superset of candidate keys are super keys.
 
 ---
