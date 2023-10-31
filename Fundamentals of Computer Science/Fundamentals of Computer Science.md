@@ -40,3 +40,13 @@ $$
 ---
 
 [[Number Theory]]
+
+---
+
+## Square root and plus or minus
+- $\sqrt{25} = 5$ and not $\pm 5$
+- $x^2 = 25$, then $x = \pm 5$
+- $x^2 = a^2$, then $x = \pm a$
+- $x^2 = a$, then $x = \pm \sqrt{a}$
+- $x = \sqrt{a^2}$, then $x = \mid a \mid$
+

@@ -1,3 +1,5 @@
+
+- [[Fundamentals of Computer Science]]
 - [[Discrete Mathematics]]
 - [[C]]
 - [[Theory of Computation]]
