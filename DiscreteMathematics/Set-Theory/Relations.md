@@ -17,7 +17,7 @@ tags:
 ![[Pasted image 20231011100505.png]]
 
 - Relations is a **set** containing ordered pairs of elements from sets $A$ and $B$.
-
+- Every relation is a set, but NOT every set is a relation.
 > [!important] Relation is NOT a cross product, but contains ordered pairs based on a condition. 
 > Only [[Equivalence Relation#Universal Relation on $A$ is Equivalent|universal relation]] is a cross product.
 

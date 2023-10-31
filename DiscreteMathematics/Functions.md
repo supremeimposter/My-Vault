@@ -1,2 +1,3 @@
 - [[Function Definition]]
+- [[Types of Functions]]
 - 
