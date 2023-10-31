@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Set-Theory/Relations.md",
+                "file": "DiscreteMathematics/Functions/Types of Functions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d75403cffdf9e914",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Functions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -212,14 +225,18 @@
   },
   "active": "b682086c59a8aae1",
   "lastOpenFiles": [
-    "DiscreteMathematics/Set-Theory/Relations.md",
     "DiscreteMathematics/Functions/Function Definition.md",
-    "Pending Lectures.md",
+    "DiscreteMathematics/Functions/Types of Functions.md",
+    "attachments/Pasted image 20231031160636.png",
     "DiscreteMathematics/Functions.md",
+    "DiscreteMathematics/Set-Theory/Relations.md",
+    "Fundamentals of Computer Science/Fundamentals of Computer Science.md",
+    "Fundamentals of Computer Science/Number Theory.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+    "Pending Lectures.md",
     "DiscreteMathematics/Set Theory.md",
     "DiscreteMathematics/Discrete Mathematics.md",
     "DiscreteMathematics/Functions",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "DatabaseManagementSystem/Database Management System.md",
     "GATE-LOG.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
@@ -234,7 +251,6 @@
     "DiscreteMathematics/Set-Theory/Lattice.md",
     "attachments/Pasted image 20231029115856.png",
     "attachments/Pasted image 20231029112235.png",
-    "Fundamentals of Computer Science/Number Theory.md",
     "DiscreteMathematics/Set-Theory/Set Identities.md",
     "Weekly-Quizzes/Weekly Quizzes.md",
     "Weekly-Quizzes",
@@ -242,16 +258,12 @@
     "attachments/Pasted image 20231028183707.png",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
-    "Fundamentals of Computer Science/Fundamentals of Computer Science.md",
     "GATE-materials/Links for Resources.md",
     "attachments/Pasted image 20231028124858.png",
     "attachments/Pasted image 20231028124546.png",
-    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
-    "Aptitude/Quantitative-Aptitude/Number System.md",
     "attachments/Pasted image 20231028120907.png",
     "attachments/Pasted image 20231028101639.png",
     "attachments/Pasted image 20231028100654.png",
-    "attachments/Pasted image 20231028092827.png",
     "Aptitude/Quantitative-Aptitude",
     "Algorithms/Divide-and-Conquer",
     "Algorithms/Recurrence-Relation",
