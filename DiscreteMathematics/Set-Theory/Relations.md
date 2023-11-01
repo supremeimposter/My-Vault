@@ -136,7 +136,7 @@ flexGrow=1
 ```
 ````
 
-### Empty Base set
+#### Empty Base set
 
 ![[Quantifiers#What an empty domain does?]]
 
@@ -228,3 +228,10 @@ Example 4
 
 > [!link] 
 > [[Functions]] are special types of relations.
+
+## Composition of Relations
+> [!lecture] Functions Lecture-7
+
+- Composition of relation is associative.
+
+---

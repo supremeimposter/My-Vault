@@ -80,6 +80,6 @@ $$
 
 
 
-## Set Operations on Functions
-- A relation is a subset of cross-product of two sets $\therefore$ A relation is a set so as is a function.
-- [[Set Operations]] can be performed on functions.
+## [[Set Operations on Functions]]
+
+## [[Inverse of Functions]]

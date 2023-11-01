@@ -15,7 +15,7 @@ tags:
 > [!lecture] Lecture-4
 
 ## One-One function 
-- Every different element in the domain must have different co-domain.
+- Every different element in the domain must have different image in the co-domain.
 - It is also called **Injection** or Injunctive function or Injunction.
 - If $\mid domain \mid \gt \mid co-domain \mid$ , then one-one function  is NOT possible.
 
