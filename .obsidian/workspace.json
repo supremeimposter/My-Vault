@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f9fa3e12df382639",
+        "id": "7e4f8eee7157ba11",
         "type": "tabs",
         "children": [
           {
-            "id": "f0f08ddd44494cd2",
+            "id": "0bf9a57cd1c88701",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Group Theory.md",
+                "file": "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,20 +21,19 @@
             }
           },
           {
-            "id": "6b795388e690c87a",
+            "id": "0fddce453bdff1f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Properties.md",
+                "file": "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Properties.md",
+                "file": "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Properties.md",
+                "file": "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Properties.md"
+                "file": "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
               }
             }
           },
@@ -211,11 +210,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6b795388e690c87a",
+  "active": "0bf9a57cd1c88701",
   "lastOpenFiles": [
-    "DiscreteMathematics/Functions/Inverse of Functions.md",
-    "DiscreteMathematics/Group Theory/Properties.md",
+    "Algorithms/Recurrence-Relation/Iteration Method (Repeated Substitution Method).md",
+    "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
+    "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
+    "attachments/Pasted image 20231101221857.png",
+    "attachments/Pasted image 20231101221822.png",
+    "attachments/Pasted image 20231101221753.png",
+    "attachments/Pasted image 20231101215443.png",
+    "attachments/Pasted image 20231101215430.png",
+    "attachments/Pasted image 20231101215408.png",
+    "attachments/Pasted image 20231101213145.png",
+    "attachments/Pasted image 20231101213113.png",
+    "attachments/Pasted image 20231101213046.png",
+    "attachments/Pasted image 20231101212653.png",
+    "Algorithms/Algorithms.md",
+    "Temporary Plan.md",
+    "Pending Notes.md",
     "DiscreteMathematics/Group Theory.md",
+    "DiscreteMathematics/Group Theory/Properties.md",
+    "DiscreteMathematics/Functions/Inverse of Functions.md",
     "GATE-CS.md",
     "README.md",
     "DiscreteMathematics/Group Theory/Abstract Algebra.md",
@@ -226,33 +241,17 @@
     "DiscreteMathematics/Set-Theory/Set Operations.md",
     "Fundamentals of Computer Science/Fundamentals of Computer Science.md",
     "DiscreteMathematics/Functions.md",
-    "attachments/Pasted image 20231101112348.png",
-    "attachments/Pasted image 20231101092617.png",
-    "attachments/Pasted image 20231101092555.png",
-    "attachments/Pasted image 20231101090131.png",
-    "attachments/Pasted image 20231101085916.png",
     "DiscreteMathematics/Set-Theory/Relations.md",
-    "Algorithms/Algorithms.md",
     "DiscreteMathematics/Functions/Function Definition.md",
     "DiscreteMathematics/Functions/Set Operations on Functions.md",
-    "attachments/Pasted image 20231101083434.png",
     "DiscreteMathematics/Functions/Types of Functions.md",
-    "attachments/Pasted image 20231101080000.png",
     "Fundamentals of Computer Science/Number Theory.md",
-    "attachments/Pasted image 20231031160636.png",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "Pending Lectures.md",
     "DiscreteMathematics/Set Theory.md",
     "DiscreteMathematics/Functions",
-    "DatabaseManagementSystem/Database Management System.md",
-    "GATE-LOG.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
-    "Temporary Plan.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization",
     "DatabaseManagementSystem",
-    "DiscreteMathematics/Set-Theory/Set Ordering.md",
-    "attachments/Pasted image 20231029115856.png",
-    "attachments/Pasted image 20231029112235.png",
     "Weekly-Quizzes",
     "Aptitude/Quantitative-Aptitude",
     "Algorithms/Divide-and-Conquer",
