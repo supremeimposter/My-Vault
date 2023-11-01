@@ -1,51 +1,22 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "tag:#ALGO  ",
-      "color": {
-        "a": 1,
-        "rgb": 14048348
-      }
-    },
-    {
-      "query": "tag:#DM",
-      "color": {
-        "a": 1,
-        "rgb": 14069084
-      }
-    },
-    {
-      "query": "tag:#DBMS",
-      "color": {
-        "a": 1,
-        "rgb": 11392604
-      }
-    },
-    {
-      "query": "tag:#Aptitude #Fundamentals ",
-      "color": {
-        "a": 1,
-        "rgb": 6084188
-      }
-    }
-  ],
-  "collapse-display": true,
+  "colorGroups": [],
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
+  "nodeSizeMultiplier": 1.00598958333333,
+  "lineSizeMultiplier": 1.03151041666667,
+  "collapse-forces": false,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.27827064274481633,
+  "scale": 0.24391456365720626,
   "close": true
 }
