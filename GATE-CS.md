@@ -6,12 +6,14 @@
 - [[Algorithms]]
 - [[Database Management System]]
 
-- Aptitude
-	- Quantitative 
-		- [[Absolute Value]]
-		- [[Floor and Ceiling Functions]]
+- [[Aptitude]]
 
+---
+- [[Pending Notes]]
+- [[Pending Lectures]]
+- [[Temporary Plan]]
 ---
 
 [[Links for Resources]]
-[[Temporary Plan]]
+
+---
