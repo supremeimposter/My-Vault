@@ -5,15 +5,17 @@ instructor: SachinMittal
 tags:
   - ALGO
 ---
-- Algorithms are a step by step instructions that are terminated after a finite number of instructions.
+# Algorithms
+- Algorithms are a step by step instructions that are terminated after a finite number of steps.
+
 ## Analysis of Algorithms
-`fas:Folder` Recurrence-Relation
 - [[Time Complexity for Recursive Programs]]
 - [[Masters Theorem]]
+- [[Change of Variable or Domain Transformation]]
 
 ## Design of Algorithms
 
-- 
+
 
 ---
 
