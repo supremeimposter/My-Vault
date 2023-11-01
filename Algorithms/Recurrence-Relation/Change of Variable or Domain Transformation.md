@@ -231,3 +231,15 @@ flexGrow=1
 ````
 
 ----
+
+
+> [!example] 
+> ![[Pasted image 20231101215408.png]]
+
+![[Pasted image 20231101215430.png]]
+
+- Since polynomial comparison cannot be made, generalised masters theorem can be used.
+![[Pasted image 20231101215443.png]]
+
+---
+

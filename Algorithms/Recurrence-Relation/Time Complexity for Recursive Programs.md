@@ -5,7 +5,7 @@ lecture: 2.a, 2.b, 2.c, 3.a, 3.b, 3.c, 3.d
 date: 2023-10-21T22:09:00
 version:
   - ALGO-24
-last-revision: 
+last-revision: 2023-11-01T21:33:00
 notes-taken: false
 tags:
   - ALGO/Recursion
@@ -16,7 +16,7 @@ tags:
 - $T(n)$ is a recursive function of $n$. 
 
 ## Misinterpretations between recurrence relation and computer program
-- Computer program is different from recurrence relation from mathematics.
+- Computer program is different from recurrence relation
 
 ```c hl:3
 int A(n) {
@@ -31,33 +31,36 @@ $$
 T(n) = T(n - 1) + 1
 $$
 
-
 ```c hl:3
 int B(n) {
 	if (n <= 1) return 1;
-	else return 2 * B(n - 1);
+	else return 2 * B(n / 2);
 }
 ```
 
 - In LINE 3, `2 * B(n - 1)` does NOT mean the function is called two times, it means `2` is multiplied to the result of that current recursion, which is just a constant amount of work.
 - The equivalent recurrence relation of the code in LINE 3 is,
 $$
-T(n) = T(n - 1) + 1
+T(n) = T\left( \frac{n}{2} \right) + 1
+$$
+
+```c hl:3
+int C(n) {
+	if (n <= 1) return 1;
+	else return C(n / 2) + C(n / 2) + n;
+}
+```
+
+- In LINE 3, there are two recursive calls to the function `C`
+- The equivalent recurrence relation of the code in LINE 3 is,
+$$
+T(n) = 2 \;T\left( \frac{n}{2} \right) + 1
 $$
 
 ---
 ## Solving Recurrence Relations
 
-### Iteration Method
-> [!lecture] Lecture-2.b, 2.c
-
-> [!remember] Don't solve GP 
-> It will anyways be a constant value (however high) after solving. We don't need exact answer for solving recurrence relation in Algorithms.
-> 1. Decreasing GP with $\mid r \mid \lt 1$ almost gives the first term
-> 2. Increasing GP with $\mid r \mid \gt 1$ almost gives the last term
-> 3. Constant GP with $\mid r \mid = 1$ gives $n*c$
-
----
+### [[Iteration Method (Repeated Substitution Method)]]
 ### Tree Method
 > [!lecture] Lecture-3.a-3.d
 - The examples in these lectures are recurrence relations and not computer program.
