@@ -282,6 +282,17 @@
       "title": "Terminology",
       "injectColor": true,
       "noTitle": false
+    },
+    "proof": {
+      "type": "proof",
+      "color": "145, 38, 232",
+      "icon": {
+        "name": "vote-yea",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,

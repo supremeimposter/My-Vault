@@ -32,3 +32,11 @@
 - [ ] [[Set Theory]] - [Lecture 61](https://www.youtube.com/watch?v=5ia3SsbB7Ks)
 - [ ] [[Set Theory]] - [Lecture 62](https://www.youtube.com/watch?v=aWJHVZDlGzQ)
 - [ ] [[Functions]] - Practice set 1 - Live 1, 2, 3, 4
+- [ ] [[Group Theory]] - summary lectures - 1-6
+	- [ ] [Group Theory Summary Lecture 1 - Introduction to Abstract Algebra, Group Theory, Algebraic Structure - YouTube](https://www.youtube.com/watch?v=huQ3UPATWcY)
+	- [ ] [Group Theory Summary Lecture 2 - Binary Operation, Closure Property |Discrete Mathematics |GoClasses - YouTube](https://www.youtube.com/watch?v=gKSjzfY17qE)
+	- [ ] [Group Theory Summary Lecture 3 - Questions on Binary Operation, Closure Property | GO Classes - YouTube](https://www.youtube.com/watch?v=qZKWuy6O4fQ)
+	- [ ] [Group Theory Summary Lecture 4 - Ques on Binary Operation, Closure Property | GO Classes Deepak Sir - YouTube](https://www.youtube.com/watch?v=CZ32gw6h6kw)
+	- [ ] [Group Theory Summary Lecture 5 - Associative, Commutative Property | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=3Vf_61ZLn2w)
+	- [ ] [Group Theory Summary Lecture 6 - Questions on Associative, Commutative Property | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=rcY0-Tp47uY)
+- [ ] 

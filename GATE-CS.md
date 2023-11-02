@@ -15,5 +15,6 @@
 ---
 
 [[Links for Resources]]
+[[GATE-LOG]]
 
 ---

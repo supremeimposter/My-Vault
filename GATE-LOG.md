@@ -90,3 +90,5 @@
 **October 23, 2023** Spending some more time on taking clear notes is much better than spending more time while revising. Clear flow of idea will definitely help you a lot. You won't remember everything or have the same understanding of ideas after a month or two when you come back to the same topic.
 
 **October 30, 2023** Calculating the time I study really says a lot of things about my focus.
+
+**November 2, 2023** Understanding the definitions really clears a lot of doubts and confusions. Think about the definitions and understand it better.
