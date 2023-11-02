@@ -1,4 +1,7 @@
 
+![[Pasted image 20231102184723.png]]
+
+
 - Non negative integers is a set which includes `0` i.e. $\{0, 1, 2, 3, 4, \dots\}$
 - $a = b$ or $a = -b$ means $\mid a \mid = \mid b \mid$
 - `0` is neither positive nor negative.

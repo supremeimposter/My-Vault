@@ -9,7 +9,7 @@ tags:
   - Fundamentals
 ---
 # Number System
-
+![[Pasted image 20231102145517.png]]
 
 # Divisibility Rules
 

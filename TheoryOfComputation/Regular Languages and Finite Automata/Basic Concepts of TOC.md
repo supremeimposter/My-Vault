@@ -37,7 +37,7 @@ version: TOC-24
 - There can be infinite number of strings of finite length over an alphabet $\Sigma$. 
 - In a string, the order and the repetition of the symbols matter.
 	- $a^2 = aa \not= a$, $a$ is one string and $aa$ is another string.
-- The set of all strings over an alphabet $\Sigma$ is $\Sigma^{*}$ 
+- The set of all strings over an alphabet $\Sigma$ is $\Sigma^{\star}$ 
 - A string $w \not\in \Sigma$ .
 
 > [!attention] String over alphabet $\Sigma$ is NOT a set.

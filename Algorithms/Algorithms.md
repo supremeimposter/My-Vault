@@ -10,6 +10,7 @@ tags:
 
 ## Analysis of Algorithms
 - [[Time Complexity for Recursive Programs]]
+	- [[Iteration Method (Repeated Substitution Method)]]
 - [[Masters Theorem]]
 - [[Change of Variable or Domain Transformation]]
 
