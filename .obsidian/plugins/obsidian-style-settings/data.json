@@ -319,5 +319,7 @@
   "anuppuccin-theme-settings@@anp-background-image-toggle": true,
   "anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-light": false,
   "anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-dark": false,
-  "sanctum@@color-accent-rgb-d": "141, 147, 25"
+  "sanctum@@color-accent-rgb-d": "141, 147, 25",
+  "Appearance-light@@mod-root-split-background-select-light": "mod-root-split-background-primary-light",
+  "Appearance-light@@accent-color-override-light": false
 }

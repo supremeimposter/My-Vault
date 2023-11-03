@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Monoid.md",
+                "file": "DiscreteMathematics/Group Theory/Abstract Algebra.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee9036c12841a7c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Group Theory/Group.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +114,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -113,7 +128,7 @@
       {
         "id": "e047f71d444b979e",
         "type": "tabs",
-        "dimension": 59.80392156862745,
+        "dimension": 59.803921568627445,
         "children": [
           {
             "id": "4de834b516a58502",
@@ -121,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Monoid.md",
+                "file": "DiscreteMathematics/Group Theory/Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Monoid.md",
+                "file": "DiscreteMathematics/Group Theory/Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Monoid.md"
+                "file": "DiscreteMathematics/Group Theory/Group.md"
               }
             }
           },
@@ -223,12 +238,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4838edf35c6db379",
+  "active": "ee9036c12841a7c8",
   "lastOpenFiles": [
-    "DiscreteMathematics/Group Theory/Abstract Algebra.md",
-    "DiscreteMathematics/Group Theory/Monoid.md",
     "DiscreteMathematics/Group Theory/Properties.md",
+    "DiscreteMathematics/Group Theory/Abstract Algebra.md",
+    "daily-agenda/2023-11-03.md",
+    "DiscreteMathematics/Group Theory/Group.md",
+    "DiscreteMathematics/Group Theory/Monoid.md",
     "Pending Lectures.md",
+    "DiscreteMathematics/Group Theory/Practice Set.md",
     "attachments/Pasted image 20231102190449.png",
     "Fundamentals of Computer Science/Number Theory.md",
     "attachments/Pasted image 20231102184723.png",
@@ -259,9 +277,6 @@
     "DiscreteMathematics/Group Theory",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
     "Fundamentals of Computer Science/Fundamentals of Computer Science.md",
-    "DiscreteMathematics/Functions.md",
-    "DiscreteMathematics/Set-Theory/Relations.md",
-    "DiscreteMathematics/Functions/Function Definition.md",
     "DiscreteMathematics/Functions",
     "DatabaseManagementSystem/Relational-Model-and-Normalization",
     "DatabaseManagementSystem",
