@@ -11,3 +11,6 @@ tags:
   - DM
   - DM/GroupTheory
 ---
+# Monoid
+- A semi-group with identity element.
+- In a monoid, there is NO left and right cancellation property.

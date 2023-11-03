@@ -14,6 +14,11 @@ tags:
 # Abstract Algebra
 Abstract Algebra is the study of abstract mathematical structures.
 
+> [!important] 
+> In Group theory, Proofs are important to solve the problems
+> 1. **Apply the definitions**
+> 2. **Multiply by the inverse on both sides**
+
 ## Algebraic Structure (AS)
 > [!lecture] Lecture-3
 
@@ -46,9 +51,11 @@ $$
 - Quasigroup
 - [[Monoid]]
 - Semi-group
-- Group
+- [[Group]]
 
+- Every group is a Magma, but NOT every magma is a group.
 - If any magma satisfies [[Properties#Commutative Property|commutative]] property, then it is called abelian magma.
+- A magma may or may not satisfy associative property.
 
 
 > [!discussion] Lecture-11 homework solutions

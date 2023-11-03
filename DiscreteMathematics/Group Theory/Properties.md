@@ -1,7 +1,7 @@
 ---
-pdf: lec-1-6, lec-7-12
+pdf: lec-1-6, lec-7-12, lec-13-18, lec-19-20
 module: 7
-lecture: 4, 5, 6, 7, 8, 9, 10, 12
+lecture: 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 19, 20
 date: 2023-11-01T15:20:00
 version:
   - DM-24
@@ -41,6 +41,10 @@ tags:
 > [!lecture] Lecture-5
 - Addition and multiplication are always associative.
 
+## Associativity and Parenthesis
+> [!lecture] Lecture-19
+- Associative property allows use to remove parenthesis from expressions.
+- Associative property removes ambiguity from expressions without parenthesis. i.e. $a \;\#\; b \;\#\; c \;\#\; d$ is unambiguous if $\#$ associative.
 
 ----
 
@@ -74,6 +78,7 @@ $$
 - If an algebraic structure does NOT have an identity element, then identity property is NOT defined.
 - The inverse of the identity element is the identity element itself.
 - For elements other than identity element, it is possible to have more than one inverse.
+- If a structure does NOT have inverse property, then it does NOT mean that all the elements do not have an inverse.
 
 > [!discussion] Lecture-9
 > ![[Pasted image 20231102152316.png]]
@@ -81,8 +86,40 @@ $$
 
 # Commutative Property
 > [!lecture] Lecture-10
-
+- Commutative property must be satisfied by all the elements in the base set.
+$$
+\forall\; a, b \in S\; (a \star b = b \star a)
+$$
+- A structure is NOT commutative if 
+$$
+\exists\; a, b \in S \; (a \star b \not = b \star a)
+$$
+- $a, b$ can be same or different
 
 ## Number of Commutative Binary Operations
 > [!lecture] Lecture-12
 
+
+
+# Cancellation Property
+## Left Cancellation Property
+
+
+## Right Cancellation Property
+
+
+# Idempotent Property
+- All elements in the base set should satisfy idempotent property in order for the structure to have idempotent property.
+- Every structure do NOT have idempotent property.
+$$
+\forall a \in S, \; a \;\#\; a = a
+$$
+- An element which satisfies the above property is called idempotent element.
+- Binary operation on the same element.
+
+# Cayley Table
+> [!lecture] Lecture-20
+- Cayley Table is also called as Operation table or Multiplication table.
+- A binary operation on a finite set can be represented in the form of arrays called Cayley Table.
+- Read the Cayley table as "row operation column".
+- All the properties can be verified using this table.
