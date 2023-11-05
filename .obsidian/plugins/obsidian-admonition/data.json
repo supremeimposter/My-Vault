@@ -293,6 +293,28 @@
       "command": false,
       "injectColor": true,
       "noTitle": false
+    },
+    "analogy": {
+      "type": "analogy",
+      "color": "74, 61, 255",
+      "icon": {
+        "name": "simplybuilt",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
+    },
+    "header": {
+      "type": "header",
+      "color": "0, 110, 255",
+      "icon": {
+        "name": "heading",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,

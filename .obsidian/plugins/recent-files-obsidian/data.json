@@ -1,0 +1,39 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Functional Dependency",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+    },
+    {
+      "basename": "Constraints in Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE-LOG.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+    },
+    {
+      "basename": "2023-11-05",
+      "path": "daily-agenda/2023-11-05.md"
+    },
+    {
+      "basename": "SQL",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/SQL.md"
+    },
+    {
+      "basename": "DDL and DML",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/DDL and DML.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

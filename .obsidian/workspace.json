@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4838edf35c6db379",
+            "id": "e02ec8f2aa7e1226",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Abstract Algebra.md",
+                "file": "daily-agenda/2023-11-05.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "ee9036c12841a7c8",
+            "id": "88ba9a155feb4015",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Group.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,25 +34,12 @@
             }
           },
           {
-            "id": "6534ab964ae590ce",
+            "id": "6039d9d5c633a8fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Properties.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4aa4084e7917845a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pending Lectures.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -89,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"*\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,6 +98,14 @@
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "25fb3027bb42d785",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
               "state": {}
             }
           }
@@ -136,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Group.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Group.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Group.md"
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
               }
             }
           },
@@ -238,14 +233,31 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ee9036c12841a7c8",
+  "active": "88ba9a155feb4015",
   "lastOpenFiles": [
-    "DiscreteMathematics/Group Theory/Properties.md",
-    "DiscreteMathematics/Group Theory/Abstract Algebra.md",
-    "daily-agenda/2023-11-03.md",
-    "DiscreteMathematics/Group Theory/Group.md",
-    "DiscreteMathematics/Group Theory/Monoid.md",
+    "attachments/Functional Dependency-20231105180019782.webp",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+    "GATE-LOG.md",
+    "DatabaseManagementSystem/Database Management System.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+    "daily-agenda/2023-11-05.md",
+    "attachments/Constraints in Relational Model-20231105112424265.webp",
+    "attachments/Constraints in Relational Model-20231105102538321.webp",
+    "attachments/Constraints in Relational Model-20231105095137087.webp",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/SQL.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/DDL and DML.md",
+    "DiscreteMathematics/Set-Theory/Set Ordering.md",
+    "DiscreteMathematics/Discrete Mathematics.md",
+    "daily-agenda/2023-11-04.md",
     "Pending Lectures.md",
+    "DiscreteMathematics/Group Theory/Monoid.md",
+    "DiscreteMathematics/Group Theory.md",
+    "DiscreteMathematics/Group Theory/Abstract Algebra.md",
+    "DiscreteMathematics/Group Theory/Group.md",
+    "DiscreteMathematics/Group Theory/Properties.md",
+    "attachments/Pasted image 20231104130358.png",
+    "daily-agenda/2023-11-03.md",
     "DiscreteMathematics/Group Theory/Practice Set.md",
     "attachments/Pasted image 20231102190449.png",
     "Fundamentals of Computer Science/Number Theory.md",
@@ -256,27 +268,10 @@
     "Aptitude/Quantitative-Aptitude/Number System.md",
     "attachments/Pasted image 20231102145517.png",
     "README.md",
-    "GATE-LOG.md",
     "GATE-CS.md",
     "Algorithms/Algorithms.md",
-    "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
-    "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
-    "Algorithms/Recurrence-Relation/Iteration Method (Repeated Substitution Method).md",
     "attachments/Pasted image 20231101221857.png",
-    "attachments/Pasted image 20231101221822.png",
-    "attachments/Pasted image 20231101221753.png",
-    "attachments/Pasted image 20231101215443.png",
-    "attachments/Pasted image 20231101215430.png",
-    "Temporary Plan.md",
-    "Pending Notes.md",
-    "DiscreteMathematics/Group Theory.md",
-    "DiscreteMathematics/Functions/Inverse of Functions.md",
-    "DiscreteMathematics/Discrete Mathematics.md",
-    "Aptitude/Aptitude.md",
-    "Aptitude/Quantitative-Aptitude/Absolute Value.md",
     "DiscreteMathematics/Group Theory",
-    "DiscreteMathematics/Set-Theory/Set Operations.md",
-    "Fundamentals of Computer Science/Fundamentals of Computer Science.md",
     "DiscreteMathematics/Functions",
     "DatabaseManagementSystem/Relational-Model-and-Normalization",
     "DatabaseManagementSystem",
