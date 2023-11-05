@@ -48,10 +48,14 @@ $$
 ![[Pasted image 20231102190449.png]]
 
 - Magma (Groupoid)
-- Quasigroup
-- [[Monoid]]
 - Semi-group
+- [[Monoid]]
 - [[Group]]
+
+
+> [!important] 
+> The above structures are NOT guaranteed to be [[Properties#Commutative Property|commutative]].
+
 
 - Every group is a Magma, but NOT every magma is a group.
 - If any magma satisfies [[Properties#Commutative Property|commutative]] property, then it is called abelian magma.

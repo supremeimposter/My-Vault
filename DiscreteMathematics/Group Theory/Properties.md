@@ -1,5 +1,5 @@
 ---
-pdf: lec-1-6, lec-7-12, lec-13-18, lec-19-20
+pdf: lec-1-6, lec-7-12, lec-13-18, lec-19-20, lec-22
 module: 7
 lecture: 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 19, 20
 date: 2023-11-01T15:20:00
@@ -10,6 +10,7 @@ notes-taken: false
 tags:
   - DM
   - DM/GroupTheory
+  - DM/GroupTheory/Properties
 ---
 # Closure Property
 > [!lecture] Lecture-4
@@ -40,11 +41,20 @@ tags:
 # Associative Property
 > [!lecture] Lecture-5
 - Addition and multiplication are always associative.
+- Associative Property has to be checked for every triple of elements.
 
 ## Associativity and Parenthesis
 > [!lecture] Lecture-19
 - Associative property allows use to remove parenthesis from expressions.
 - Associative property removes ambiguity from expressions without parenthesis. i.e. $a \;\#\; b \;\#\; c \;\#\; d$ is unambiguous if $\#$ associative.
+
+## Operation Table
+> [!lecture] Lecture-22
+- If $\mid S \mid = n$, then there are $n^3$ triples.
+
+> [!NOTE] 
+> Questions such as find whether a structure is associative or not from Cayley table are not asked.
+
 
 ----
 
@@ -74,8 +84,8 @@ tags:
 $$
 a \; \# \; a^{-1} = e = a^{-1} \; \# \; a
 $$
-- An algebraic structure has inverse property iff it every element in the base set has an inverse element.
-- If an algebraic structure does NOT have an identity element, then identity property is NOT defined.
+- An algebraic structure has inverse property iff every element in the base set has an inverse element.
+- If any element in an algebraic structure does NOT have an identity element, then identity property is NOT defined.
 - The inverse of the identity element is the identity element itself.
 - For elements other than identity element, it is possible to have more than one inverse.
 - If a structure does NOT have inverse property, then it does NOT mean that all the elements do not have an inverse.
@@ -123,3 +133,4 @@ $$
 - A binary operation on a finite set can be represented in the form of arrays called Cayley Table.
 - Read the Cayley table as "row operation column".
 - All the properties can be verified using this table.
+
