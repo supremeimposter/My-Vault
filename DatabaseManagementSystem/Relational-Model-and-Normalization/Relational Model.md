@@ -71,11 +71,19 @@ tags:
 ### Primary Key
 - It is one of the candidate key.
 - `NULL` values are NOT allowed in primary key.
-- Primary Keys can be of multi-attribute but NO `NULL` value.
+- Primary Keys can be of multi-attribute (more than one column) but NO `NULL` value.
+- There must be definitely one Primary key.
 
 > [!summary] Summary of Keys
 > - A primary key is a candidate key.
 > - In relational model, no tuple can be completely `NULL` since, there must be exactly one primary key in the relational model.
 > - Superset of candidate keys are super keys.
 
+> [!convention] 
+> The term **key** `fas:Key` refers to super key or candidate key or primary key depending on the author.
+> But typically the term **key** is used to refer to **candidate key**.
+
+
 ---
+## [[Constraints in Relational Model]]
+

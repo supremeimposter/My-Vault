@@ -9,6 +9,11 @@ tags:
 # Module 1
 - [[Introduction to DBMS]]
 - [[Relational Model]]
+- [[SQL]]
+	- [[DDL and DML]]
+- [[Constraints in Relational Model]]
+	- [[Functional Dependency]]
+
 
 
 ---
