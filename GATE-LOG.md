@@ -92,3 +92,5 @@
 **October 30, 2023** Calculating the time I study really says a lot of things about my focus.
 
 **November 2, 2023** Understanding the definitions really clears a lot of doubts and confusions. Think about the definitions and understand it better.
+
+**November 5, 2023** Studying DM alongside other subjects is a good choice.

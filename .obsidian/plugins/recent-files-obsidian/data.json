@@ -5,24 +5,28 @@
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
     },
     {
-      "basename": "Constraints in Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE-LOG.md"
+      "basename": "Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
     },
     {
       "basename": "Database Management System",
       "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
-      "basename": "Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+      "basename": "2023-11-06",
+      "path": "daily-agenda/2023-11-06.md"
+    },
+    {
+      "basename": "Constraints in Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
     },
     {
       "basename": "2023-11-05",
       "path": "daily-agenda/2023-11-05.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE-LOG.md"
     },
     {
       "basename": "SQL",

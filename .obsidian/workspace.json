@@ -4,22 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "4401f5655bae7cd5",
+        "id": "f791f80a4e438d00",
         "type": "tabs",
         "children": [
-          {
-            "id": "e02ec8f2aa7e1226",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily-agenda/2023-11-05.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
           {
             "id": "88ba9a155feb4015",
             "type": "leaf",
@@ -32,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6039d9d5c633a8fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -235,16 +208,23 @@
   },
   "active": "88ba9a155feb4015",
   "lastOpenFiles": [
-    "attachments/Functional Dependency-20231105180019782.webp",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
-    "GATE-LOG.md",
-    "DatabaseManagementSystem/Database Management System.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+    "DatabaseManagementSystem/Database Management System.md",
+    "daily-agenda/2023-11-06.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
+    "attachments/Functional Dependency-20231106094238444.webp",
+    "attachments/Pasted image 20231106094204.webp",
+    "attachments/Pasted image 20231106094138.png",
+    "attachments/Pasted image 20231106093507.png",
+    "attachments/Pasted image 20231106092859.png",
+    "attachments/Pasted image 20231106092823.png",
+    "attachments/Pasted image 20231106092747.png",
+    "attachments/Pasted image 20231106092426.webp",
+    "attachments/Functional Dependency-20231106092216856.webp",
+    "attachments/Functional Dependency-20231106092123857.webp",
     "daily-agenda/2023-11-05.md",
-    "attachments/Constraints in Relational Model-20231105112424265.webp",
-    "attachments/Constraints in Relational Model-20231105102538321.webp",
-    "attachments/Constraints in Relational Model-20231105095137087.webp",
+    "GATE-LOG.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/SQL.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/DDL and DML.md",
     "DiscreteMathematics/Set-Theory/Set Ordering.md",
@@ -256,21 +236,13 @@
     "DiscreteMathematics/Group Theory/Abstract Algebra.md",
     "DiscreteMathematics/Group Theory/Group.md",
     "DiscreteMathematics/Group Theory/Properties.md",
-    "attachments/Pasted image 20231104130358.png",
     "daily-agenda/2023-11-03.md",
     "DiscreteMathematics/Group Theory/Practice Set.md",
-    "attachments/Pasted image 20231102190449.png",
     "Fundamentals of Computer Science/Number Theory.md",
-    "attachments/Pasted image 20231102184723.png",
-    "attachments/Pasted image 20231102183230.png",
-    "attachments/Pasted image 20231102152316.png",
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
     "Aptitude/Quantitative-Aptitude/Number System.md",
-    "attachments/Pasted image 20231102145517.png",
     "README.md",
     "GATE-CS.md",
-    "Algorithms/Algorithms.md",
-    "attachments/Pasted image 20231101221857.png",
     "DiscreteMathematics/Group Theory",
     "DiscreteMathematics/Functions",
     "DatabaseManagementSystem/Relational-Model-and-Normalization",
