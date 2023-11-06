@@ -24,6 +24,7 @@ tags:
 	- Table name
 	- Attributes name
 	- Attributes domain
+- Schema is represented as $R(A, B, C)$, where $R$ is the relation and $A, B, C$ are attributes.
 - Instance is the contents of the table at a given time, a snapshot of the records
 - Schema rarely changes but Instance changes frequently
 
@@ -78,12 +79,12 @@ tags:
 > - A primary key is a candidate key.
 > - In relational model, no tuple can be completely `NULL` since, there must be exactly one primary key in the relational model.
 > - Superset of candidate keys are super keys.
-
-> [!convention] 
-> The term **key** `fas:Key` refers to super key or candidate key or primary key depending on the author.
-> But typically the term **key** is used to refer to **candidate key**.
-
+>> [!convention] 
+>> The term **key** `fas:Key` refers to super key or candidate key or primary key depending on the author. But typically the term **key** is used to refer to **candidate key**.
 
 ---
 ## [[Constraints in Relational Model]]
 
+
+
+----
