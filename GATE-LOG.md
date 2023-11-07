@@ -94,3 +94,7 @@
 **November 2, 2023** Understanding the definitions really clears a lot of doubts and confusions. Think about the definitions and understand it better.
 
 **November 5, 2023** Studying DM alongside other subjects is a good choice.
+
+**November 7, 2023** Sometimes we just forget that the answer is always on the question paper.
+
+**November 7, 2023** Do not worry about some person who is shallow minded to judge you. They can think about you for a minute at max.

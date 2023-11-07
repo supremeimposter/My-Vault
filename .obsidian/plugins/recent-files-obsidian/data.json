@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+    },
+    {
       "basename": "Functional Dependency",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
     },
     {
-      "basename": "Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+      "basename": "2023-11-07",
+      "path": "daily-agenda/2023-11-07.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE-LOG.md"
     },
     {
       "basename": "Database Management System",
@@ -23,10 +31,6 @@
     {
       "basename": "2023-11-05",
       "path": "daily-agenda/2023-11-05.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE-LOG.md"
     },
     {
       "basename": "SQL",

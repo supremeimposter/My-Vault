@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f791f80a4e438d00",
+        "id": "fa1802f17682563e",
         "type": "tabs",
         "children": [
           {
-            "id": "88ba9a155feb4015",
+            "id": "9df24ecd79a8343a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -104,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +115,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
-              }
+              "state": {}
             }
           },
           {
@@ -206,11 +197,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "88ba9a155feb4015",
+  "active": "9df24ecd79a8343a",
   "lastOpenFiles": [
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+    "daily-agenda/2023-11-07.md",
+    "GATE-LOG.md",
     "DatabaseManagementSystem/Database Management System.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Finding Candidate keys from Functional Dependencies.md",
     "daily-agenda/2023-11-06.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
     "attachments/Functional Dependency-20231106094238444.webp",
@@ -224,7 +218,6 @@
     "attachments/Functional Dependency-20231106092216856.webp",
     "attachments/Functional Dependency-20231106092123857.webp",
     "daily-agenda/2023-11-05.md",
-    "GATE-LOG.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/SQL.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/DDL and DML.md",
     "DiscreteMathematics/Set-Theory/Set Ordering.md",
@@ -242,7 +235,6 @@
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
     "Aptitude/Quantitative-Aptitude/Number System.md",
     "README.md",
-    "GATE-CS.md",
     "DiscreteMathematics/Group Theory",
     "DiscreteMathematics/Functions",
     "DatabaseManagementSystem/Relational-Model-and-Normalization",

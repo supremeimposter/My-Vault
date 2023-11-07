@@ -315,6 +315,28 @@
       "command": false,
       "injectColor": true,
       "noTitle": false
+    },
+    "steps": {
+      "type": "steps",
+      "color": "255, 234, 0",
+      "icon": {
+        "name": "step-forward",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
+    },
+    "question": {
+      "type": "question",
+      "color": "255, 0, 111",
+      "icon": {
+        "name": "question-circle",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,
