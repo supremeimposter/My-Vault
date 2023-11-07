@@ -14,8 +14,7 @@ tags:
 # Relational Model
 > [!lecture] Lecture-2A
 
-- Relational model is implementation friendly.
-
+- Relational model is implementation friendly but it is a theoretical model.
 - Every data in the table must be a single atomic entity i.e. should NOT be divisible.
 - Two records can NEVER be same in a relational model.
 
@@ -73,13 +72,15 @@ tags:
 - It is one of the candidate key.
 - `NULL` values are NOT allowed in primary key.
 - Primary Keys can be of multi-attribute (more than one column) but NO `NULL` value.
-- There must be definitely one Primary key.
+- There must be definitely one Primary key in Relational Model.
 
 > [!summary] Summary of Keys
 > - A primary key is a candidate key.
 > - In relational model, no tuple can be completely `NULL` since, there must be exactly one primary key in the relational model.
 > - Superset of candidate keys are super keys.
->> [!convention] 
+
+
+> [!convention] 
 >> The term **key** `fas:Key` refers to super key or candidate key or primary key depending on the author. But typically the term **key** is used to refer to **candidate key**.
 
 ---

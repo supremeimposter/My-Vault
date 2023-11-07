@@ -1,7 +1,7 @@
 ---
-pdf: lec-5A, lec-5B
+pdf: lec-5A, lec-5B, lec-5C, lec-5D
 module: 1
-lecture: 5A, 5B, 5C
+lecture: 5A, 5B, 5C, 5D
 date: 2023-11-05T13:40:00
 version:
   - DBMS-24
@@ -15,6 +15,7 @@ tags:
 # Functional Dependency (FD)
 > [!lecture] Lecture-5A
 - Functional dependencies are defined for schema as this is one of the [[Constraints in Relational Model#Integrity Constraint (IC)|Integrity constraints]].
+- FD's hold only when every legal instance of the schema is satisfied.
 - An attribute can be functionally dependent on another attribute.
 
 > [!convention] 
@@ -44,7 +45,10 @@ $$
 
 - If some instance does not satisfy functional dependency $X \rightarrow Y$, then schema can never satisfy functional dependency $X \rightarrow Y$.
 - If the schema does not satisfy functional dependency $X \rightarrow Y$, then it is possible that some instance can satisfy functional dependency $X \rightarrow Y$.
-- By looking at an instance, we can be sure about which FD's DO NOT hold, but we cannot be sure about which FD's hold.
+- By looking at an instance, we are sure about which FD's DO NOT hold, but we cannot be sure about which FD's hold.
+
+> [!important] 
+> Functional dependencies are NOT defined for an instance. They are defined for schema.
 
 
 ## Types of Functional Dependency
@@ -140,6 +144,7 @@ flexGrow=1
 ### More functional dependency laws
 
 
+
 > [!NOTE] 
 > - In Non-trivial FD's, we can split on RHS and remove the trivial part from RHS and get completely non-trivial FD.
 
@@ -160,22 +165,94 @@ $$
 
 ---
 ## Defining Keys in terms of Functional Dependencies
-> [!lecture] Lecture-5C
 
 > [!suggestion] 
 > Keep in mind that these are keys from the first chapter.
 ### [[Relational Model#Candidate Key|Candidate Key]]
-- $X$ is a candidate key if,
+- $X$ is a candidate key iff,
 	- $X^{+} = R$ and
 	- No proper subsets of $X$ can determine all the attributes i.e. $X$ is minimal.
+	- $X$ can be a set of attributes as well.
 - A candidate key is also a super key.
 - If $X$ is a candidate key, then $XY$ cannot be a candidate key, where $Y \not = \phi$.
+	- Proper super-sets of candidate keys are definitely NOT candidate keys.
 
+- [[Finding Candidate keys from Functional Dependencies|Candidate keys can be found from functional dependencies]]
+- Candidate key cannot be concluded from an instance.
 ### [[Relational Model#Super Key|Super Key]]
-- In a relation schema $R$ , $X$ is a super-key iff $X^{+} = R$.
-
+- In a relation scheme $R$ , $X$ is a super-key iff $X^{+} = R$.
 
 > [!NOTE]
-> Primary key cannot be determined. It must be given, as it is chosen as one of the candidate keys.
+> Primary key cannot be determined. It is chosen as one of the candidate keys. But there must be one Primary key in Relational Model.
+
+- The attributes which do not appear on the RHS of any FD can be determined only by themselves. Such attributes MUST be a part of every candidate key since they have to be determined to determine all the remaining attributes.
+
+## Finding candidate keys
+> [!lecture] Lecture-5C
+
+> [!NOTE] The objective is to find Candidate Keys and NOT super keys.
+
+<u>Step 1</u>: Find the attributes which do not appear on the RHS of any FD and start checking for candidate keys from them. Because they must be a part of every candidate key.
+
+> [!trick] 
+> Options can be eliminated on the basis of the above step.
+
+- If a set of attributes $X$ is NOT a super key i.e. $X^+ = \{A, B, C, D\}$, then any combination of them ($ABCD$) are also NOT a super key.
+- Once a single attribute is found out to be a candidate key, then their super sets can be ignored as its super sets cannot be a candidate key. i.e. there is no bigger candidate key.
+
+<u>Step 2</u>: Find the combination of attributes which determine the candidate key. The combination is also a candidate key because they are minimal.
 
 ----
+> [!lecture] Lecture-5D
+
+## Inference 
+- FD's which can be inferred from the set of functional dependencies.
+- If $S$ is a set of functional dependencies and if $f$ is a FD that is inferred by $S$, then it is denoted as $S \models f$
+	- S infers f
+	- S implies f
+	- f follows from S
+	- f is derived from S
+- If $S$ does not infer $f$, then it is denoted as $S \not\models f$
+
+> [!terminology] 
+> Inferred = derived = implied = followed from
+
+
+> [!question] 
+> **If two FD infer each other, does that mean that they are equal?**
+>> $A \rightarrow AB \models A \rightarrow B$, but both are not equal 
+
+
+### Methods to prove Inference
+#### Method 1 : Functional Dependency Laws
+- Use the FD laws to prove if $f$ can be inferred from the set of functional dependencies $S$.
+
+#### Method 2 : Closure of Attribute Set
+
+> [!NOTE] This is the most preferred method.
+- If the closure of the LHS of the $f$ contains the RHS, then $f$ can be inferred from the set of functional dependencies $S$.
+
+### Closure of a FD Set
+- If $S$ is a set of functional dependencies, then closure of $S$ is, 
+$$S^+ = \{f \mid S \models f\}$$
+#### Size of Closure of a FD Set
+
+> [!NOTE] Questions on this topic are not asked on this topic since computing this takes more time.
+- Size of closure of a FD $F$ is the number of all FD's that can be inferred by $F$. 
+
+### Covering
+- If $F$ and $G$ are two sets of functional dependencies, then "$F$ covers $G$" iff $F$ infers every functional dependencies of $G$.
+$$
+F \Rightarrow G
+$$
+- If $F$ covers $G$, it does NOT mean that $G$ also covers $F$.
+
+### Equivalence
+- If $F$ and $G$ are two sets of functional dependencies, then $F$ is equivalent to $G$, iff $F$ covers $G$ and $G$ covers $F$.
+$$
+F \equiv G \text{ iff } F^+ = G^+
+$$
+- $F^+$ is all the FD's derived from $F$ 
+- $G^+$ is all the FD's derived from $G$ 
+
+---
