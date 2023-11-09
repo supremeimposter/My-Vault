@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Group",
+      "path": "DiscreteMathematics/Group Theory/Group.md"
+    },
+    {
+      "basename": "Pending Notes",
+      "path": "Pending Notes.md"
+    },
+    {
+      "basename": "Monoid",
+      "path": "DiscreteMathematics/Group Theory/Monoid.md"
+    },
+    {
+      "basename": "Abstract Algebra",
+      "path": "DiscreteMathematics/Group Theory/Abstract Algebra.md"
+    },
+    {
+      "basename": "Semi-Group",
+      "path": "DiscreteMathematics/Group Theory/Semi-Group.md"
+    },
+    {
+      "basename": "Properties",
+      "path": "DiscreteMathematics/Group Theory/Properties.md"
+    },
+    {
+      "basename": "Fundamentals of Computer Science",
+      "path": "Fundamentals of Computer Science/Fundamentals of Computer Science.md"
+    },
+    {
+      "basename": "2023-11-08",
+      "path": "daily-agenda/2023-11-08.md"
+    },
+    {
       "basename": "Relational Model",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
     },

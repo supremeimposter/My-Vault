@@ -11,11 +11,9 @@
   "media-extended",
   "oz-clear-unused-images",
   "obsidian-icon-folder",
-  "cycle-through-panes",
   "calendar",
   "find-unlinked-files",
   "markdown-table-editor",
-  "obsidian-outliner",
   "map-of-content",
   "obsidian-tabs",
   "obsidian-timestamper",
@@ -29,8 +27,8 @@
   "obsidian-style-settings",
   "lapel",
   "dataview",
-  "table-extended",
   "code-styler",
   "recent-files-obsidian",
-  "image-converter"
+  "image-converter",
+  "obsidian-outliner"
 ]
