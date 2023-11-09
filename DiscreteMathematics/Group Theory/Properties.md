@@ -42,6 +42,7 @@ tags:
 > [!lecture] Lecture-5
 - Addition and multiplication are always associative.
 - Associative Property has to be checked for every triple of elements.
+- When Associative property is defined on a structure, then the power of an element can be defined in that structure.
 
 ## Associativity and Parenthesis
 > [!lecture] Lecture-19

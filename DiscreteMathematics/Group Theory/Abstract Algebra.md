@@ -48,7 +48,7 @@ $$
 ![[Pasted image 20231102190449.png]]
 
 - Magma (Groupoid)
-- Semi-group
+- [[Semi-Group]]
 - [[Monoid]]
 - [[Group]]
 
@@ -67,6 +67,6 @@ $$
 
 
 - Order of Algebraic Structure is the cardinality of the base set.
-
+- Power of any element is defined if the structure holds true for associative property.
 
 ---
