@@ -50,3 +50,11 @@ $$
 - $x^2 = a$, then $x = \pm \sqrt{a}$
 - $x = \sqrt{a^2}$, then $x = \mid a \mid$
 
+
+---
+## Co-prime integers
+
+> [!youtube] [Lecture 28 - Relatively Prime Numbers / Coprime Integers | Group Theory | Discrete Mathematics - YouTube](https://www.youtube.com/watch?v=Wz7EAhB7izk)
+ 
+> [!discussion] Lecture-28
+> ![[Fundamentals of Computer Science-20231108162153911.webp]]
