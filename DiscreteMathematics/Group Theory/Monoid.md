@@ -10,7 +10,6 @@ notes-taken: false
 tags:
   - DM
   - DM/GroupTheory
-  - DM/GroupTheory/AlgebraicStructure
 ---
 # Monoid
 - A semi-group with identity element.

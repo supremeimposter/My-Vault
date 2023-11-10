@@ -10,7 +10,6 @@ notes-taken: false
 tags:
   - DM
   - DM/GroupTheory
-  - DM/GroupTheory/Properties
 ---
 # Closure Property
 > [!lecture] Lecture-4

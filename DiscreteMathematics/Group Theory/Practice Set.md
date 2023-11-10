@@ -3,7 +3,6 @@ module: 7
 tags:
   - DM
   - DM/GroupTheory
-  - DM/GroupTheory/PracticeSet
 ---
 # Practice Set 1
 

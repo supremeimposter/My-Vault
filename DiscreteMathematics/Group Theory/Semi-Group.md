@@ -10,7 +10,6 @@ notes-taken: false
 tags:
   - DM
   - DM/GroupTheory
-  - DM/GroupTheory/AlgebraicStructure
 ---
 # Semi-Group
 
