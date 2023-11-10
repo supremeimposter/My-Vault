@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6c646184465fe02a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -76,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#DM/GroupTheory",
+                "query": "prime",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +136,7 @@
       {
         "id": "e047f71d444b979e",
         "type": "tabs",
-        "dimension": 59.803921568627445,
+        "dimension": 57.94117647058823,
         "children": [
           {
             "id": "4de834b516a58502",
@@ -131,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
               }
             }
           },
@@ -199,7 +212,7 @@
       {
         "id": "5df95600f2476df0",
         "type": "tabs",
-        "dimension": 40.19607843137255,
+        "dimension": 42.05882352941176,
         "children": [
           {
             "id": "537addfb8bc17cc8",
@@ -233,12 +246,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f8527e754bc46343",
+  "active": "6c646184465fe02a",
   "lastOpenFiles": [
+    "attachments/Normal Forms-20231110225510468.webp",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
     "DatabaseManagementSystem/Database Management System.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Finding Candidate keys from Functional Dependencies.md",
+    "Pending Notes.md",
     "daily-agenda/2023-11-10.md",
     "DiscreteMathematics/Group Theory/Group.md",
     "DiscreteMathematics/Group Theory/Semi-Group.md",
@@ -249,7 +266,6 @@
     "DiscreteMathematics/Group Theory/Monoid.md",
     "DiscreteMathematics/Group Theory/Sub-Group.md",
     "GATE-LOG.md",
-    "Pending Notes.md",
     "daily-agenda/2023-11-08.md",
     "GATE-CS.md",
     "DiscreteMathematics/Discrete Mathematics.md",
@@ -257,7 +273,6 @@
     "attachments/Fundamentals of Computer Science-20231108162153911.webp",
     "attachments/Group-20231108100426228.webp",
     "daily-agenda/2023-11-07.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Finding Candidate keys from Functional Dependencies.md",
     "daily-agenda/2023-11-06.md",
     "attachments/Functional Dependency-20231106094238444.webp",
     "attachments/Pasted image 20231106094204.webp",
@@ -269,8 +284,6 @@
     "attachments/Pasted image 20231106092426.webp",
     "daily-agenda/2023-11-05.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/SQL.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/DDL and DML.md",
-    "DiscreteMathematics/Set-Theory/Set Ordering.md",
     "DiscreteMathematics/Group Theory",
     "DiscreteMathematics/Functions",
     "DatabaseManagementSystem/Relational-Model-and-Normalization",

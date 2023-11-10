@@ -318,14 +318,15 @@
     },
     "steps": {
       "type": "steps",
-      "color": "255, 234, 0",
+      "color": "217, 185, 23",
       "icon": {
         "name": "step-forward",
         "type": "font-awesome"
       },
       "command": false,
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "question": {
       "type": "question",

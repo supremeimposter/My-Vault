@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Functional Dependency",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+      "basename": "Normal Forms",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
     },
     {
       "basename": "Relational Model",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+    },
+    {
+      "basename": "Functional Dependency",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
     },
     {
       "basename": "Constraints in Relational Model",
@@ -15,6 +19,10 @@
     {
       "basename": "Database Management System",
       "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Pending Notes",
+      "path": "Pending Notes.md"
     },
     {
       "basename": "2023-11-10",
@@ -51,10 +59,6 @@
     {
       "basename": "GATE-LOG",
       "path": "GATE-LOG.md"
-    },
-    {
-      "basename": "Pending Notes",
-      "path": "Pending Notes.md"
     },
     {
       "basename": "2023-11-08",
