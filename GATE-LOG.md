@@ -98,3 +98,5 @@
 **November 7, 2023** Sometimes we just forget that the answer is always on the question paper.
 
 **November 7, 2023** Do not worry about some person who is shallow minded to judge you. They can think about you for a minute at max.
+
+**November 10, 2023** File formatting can be done later after finishing the notes from the PDF. Do not worry about it too much. 

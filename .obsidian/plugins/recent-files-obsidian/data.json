@@ -1,64 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "Group",
-      "path": "DiscreteMathematics/Group Theory/Group.md"
-    },
-    {
-      "basename": "Pending Notes",
-      "path": "Pending Notes.md"
-    },
-    {
-      "basename": "Monoid",
-      "path": "DiscreteMathematics/Group Theory/Monoid.md"
-    },
-    {
-      "basename": "Abstract Algebra",
-      "path": "DiscreteMathematics/Group Theory/Abstract Algebra.md"
-    },
-    {
-      "basename": "Semi-Group",
-      "path": "DiscreteMathematics/Group Theory/Semi-Group.md"
-    },
-    {
-      "basename": "Properties",
-      "path": "DiscreteMathematics/Group Theory/Properties.md"
-    },
-    {
-      "basename": "Fundamentals of Computer Science",
-      "path": "Fundamentals of Computer Science/Fundamentals of Computer Science.md"
-    },
-    {
-      "basename": "2023-11-08",
-      "path": "daily-agenda/2023-11-08.md"
+      "basename": "Functional Dependency",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
     },
     {
       "basename": "Relational Model",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
     },
     {
-      "basename": "Functional Dependency",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
-    },
-    {
-      "basename": "2023-11-07",
-      "path": "daily-agenda/2023-11-07.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE-LOG.md"
+      "basename": "Constraints in Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
     },
     {
       "basename": "Database Management System",
       "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
-      "basename": "2023-11-06",
-      "path": "daily-agenda/2023-11-06.md"
+      "basename": "2023-11-10",
+      "path": "daily-agenda/2023-11-10.md"
     },
     {
-      "basename": "Constraints in Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
+      "basename": "Group",
+      "path": "DiscreteMathematics/Group Theory/Group.md"
+    },
+    {
+      "basename": "Semi-Group",
+      "path": "DiscreteMathematics/Group Theory/Semi-Group.md"
+    },
+    {
+      "basename": "Group Theory",
+      "path": "DiscreteMathematics/Group Theory.md"
+    },
+    {
+      "basename": "Practice Set",
+      "path": "DiscreteMathematics/Group Theory/Practice Set.md"
+    },
+    {
+      "basename": "Properties",
+      "path": "DiscreteMathematics/Group Theory/Properties.md"
+    },
+    {
+      "basename": "Abstract Algebra",
+      "path": "DiscreteMathematics/Group Theory/Abstract Algebra.md"
+    },
+    {
+      "basename": "Monoid",
+      "path": "DiscreteMathematics/Group Theory/Monoid.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE-LOG.md"
+    },
+    {
+      "basename": "Pending Notes",
+      "path": "Pending Notes.md"
+    },
+    {
+      "basename": "2023-11-08",
+      "path": "daily-agenda/2023-11-08.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Fundamentals of Computer Science",
+      "path": "Fundamentals of Computer Science/Fundamentals of Computer Science.md"
+    },
+    {
+      "basename": "2023-11-07",
+      "path": "daily-agenda/2023-11-07.md"
+    },
+    {
+      "basename": "2023-11-06",
+      "path": "daily-agenda/2023-11-06.md"
     },
     {
       "basename": "2023-11-05",
