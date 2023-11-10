@@ -1,7 +1,7 @@
 ---
-pdf: lec-5A, lec-5B, lec-5C, lec-5D
+pdf: lec-5A, lec-5B, lec-5C, lec-5D, lec-6A
 module: 1
-lecture: 5A, 5B, 5C, 5D
+lecture: 5A, 5B, 5C, 5D, 6A
 date: 2023-11-05T13:40:00
 version:
   - DBMS-24
@@ -70,9 +70,9 @@ $$
 	- $AB \rightarrow AC$
 	- $A \rightarrow BC$
 
-
 > [!think] 
 > Trivial FD's always hold true and they are NOT interesting to study, whereas Non-trivial FD's are interesting to study and useful.
+
 
 ### Completely Non Trivial FD
 - $X \rightarrow Y$ is completely non-trivial iff $X \cap Y = \phi$
@@ -82,6 +82,20 @@ $$
 
 > [!caution] 
 > There is no concept as "Semi Trivial FD" in standard resources.
+
+---
+> [!lecture] Lecture-6A
+>> [!youtube] [Normalization Lecture 6A - Full, Partial Functional Dependency | Transitive FD |DBMS | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=SN1Fa1c5Kg8)
+
+> [!convention] 
+> $A, B, C$ - Single attributes
+> $\alpha, \beta, \gamma, X, Y, Z$ - Set of attributes
+
+### Partial and Full Functional Dependency
+- Non-trivial FD's with single attributes in the RHS is considered for Normal forms.
+
+### Transitive Functional Dependency
+
 
 ---
 
@@ -161,7 +175,6 @@ $$
 
 > [!conflict] 
 > Do NOT get confused between a FD notation and closure notation.
----
 
 ---
 ## Defining Keys in terms of Functional Dependencies
@@ -177,7 +190,7 @@ $$
 - If $X$ is a candidate key, then $XY$ cannot be a candidate key, where $Y \not = \phi$.
 	- Proper super-sets of candidate keys are definitely NOT candidate keys.
 
-- [[Finding Candidate keys from Functional Dependencies|Candidate keys can be found from functional dependencies]]
+- Candidate keys can be found from functional dependencies.
 - Candidate key cannot be concluded from an instance.
 ### [[Relational Model#Super Key|Super Key]]
 - In a relation scheme $R$ , $X$ is a super-key iff $X^{+} = R$.

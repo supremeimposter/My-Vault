@@ -1,7 +1,7 @@
 ---
-pdf: lec-2
+pdf: lec-2, lec-6A
 module: 1
-lecture: 2A, 2B, 2C, 2D
+lecture: 2A, 2B, 2C, 2D, 6A
 date: 2023-10-30T11:31:00
 version:
   - DBMS-24
@@ -83,9 +83,16 @@ tags:
 > [!convention] 
 >> The term **key** `fas:Key` refers to super key or candidate key or primary key depending on the author. But typically the term **key** is used to refer to **candidate key**.
 
+## Prime and Non-prime attributes
+> [!lecture] Lecture-6A
+- Prime attributes are those attributes which are a part of some candidate key
+- Non-prime attributes are those attributes which are NOT a part of any candidate key.
+
+> [!think]
+- A non-prime attribute can never determine a prime attribute.
+- A non-prime attribute can determine another non-prime attribute.
+- A prime attribute can determine another prime attribute.
+
 ---
 ## [[Constraints in Relational Model]]
 
-
-
-----

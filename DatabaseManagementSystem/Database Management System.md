@@ -13,8 +13,7 @@ tags:
 	- [[DDL and DML]]
 - [[Constraints in Relational Model]]
 	- [[Functional Dependency]]
-	- [[Finding Candidate keys from Functional Dependencies]]
-
+- [[Normal Forms]]
 
 
 ---
