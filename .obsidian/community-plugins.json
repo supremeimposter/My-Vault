@@ -31,5 +31,7 @@
   "recent-files-obsidian",
   "image-converter",
   "obsidian-outliner",
-  "obsidian-linter"
+  "obsidian-linter",
+  "settings-search",
+  "inline-math"
 ]

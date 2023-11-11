@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-11-11",
+      "path": "daily-agenda/2023-11-11.md"
+    },
+    {
+      "basename": "Group",
+      "path": "DiscreteMathematics/Group Theory/Group.md"
+    },
+    {
+      "basename": "Group Theory",
+      "path": "DiscreteMathematics/Group Theory.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
+    },
+    {
       "basename": "Normal Forms",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
+    },
+    {
+      "basename": "Functional Dependency",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+    },
+    {
+      "basename": "Implication",
+      "path": "DiscreteMathematics/Propositional-Logic/Implication.md"
+    },
+    {
+      "basename": "Arguments and Inference",
+      "path": "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md"
     },
     {
       "basename": "Relational Model",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
     },
     {
-      "basename": "Functional Dependency",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+      "basename": "2023-11-10",
+      "path": "daily-agenda/2023-11-10.md"
     },
     {
       "basename": "Constraints in Relational Model",
@@ -25,20 +53,8 @@
       "path": "Pending Notes.md"
     },
     {
-      "basename": "2023-11-10",
-      "path": "daily-agenda/2023-11-10.md"
-    },
-    {
-      "basename": "Group",
-      "path": "DiscreteMathematics/Group Theory/Group.md"
-    },
-    {
       "basename": "Semi-Group",
       "path": "DiscreteMathematics/Group Theory/Semi-Group.md"
-    },
-    {
-      "basename": "Group Theory",
-      "path": "DiscreteMathematics/Group Theory.md"
     },
     {
       "basename": "Practice Set",
@@ -63,10 +79,6 @@
     {
       "basename": "2023-11-08",
       "path": "daily-agenda/2023-11-08.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE-CS.md"
     },
     {
       "basename": "Discrete Mathematics",
