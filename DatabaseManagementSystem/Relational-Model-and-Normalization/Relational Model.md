@@ -93,6 +93,5 @@ tags:
 - A non-prime attribute can determine another non-prime attribute.
 - A prime attribute can determine another prime attribute.
 
----
 ## [[Constraints in Relational Model]]
 

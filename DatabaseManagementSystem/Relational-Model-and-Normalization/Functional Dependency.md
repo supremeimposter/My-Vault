@@ -73,7 +73,6 @@ $$
 > [!think] 
 > Trivial FD's always hold true and they are NOT interesting to study, whereas Non-trivial FD's are interesting to study and useful.
 
-
 ### Completely Non Trivial FD
 - $X \rightarrow Y$ is completely non-trivial iff $X \cap Y = \phi$
 	- $AB \rightarrow CD$
@@ -95,13 +94,11 @@ $$
 - Non-trivial FD's with single attributes in the RHS is considered for Normal forms.
 
 ### Transitive Functional Dependency
-
+![[Functional Dependency-20231111140610566.webp]]
 
 ---
-
-> [!lecture] Lecture-5B
 ## Functional Dependency Laws
-
+> [!lecture] Lecture-5B
 ### Reflexivity Law
 - If $X \supseteq Y$, then $X \rightarrow Y$
 - These FD's are called trivial FD's.
