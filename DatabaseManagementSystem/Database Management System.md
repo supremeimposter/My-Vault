@@ -14,7 +14,8 @@ tags:
 - [[Constraints in Relational Model]]
 	- [[Functional Dependency]]
 - [[Normal Forms]]
-
+- [[Natural Join]]
+- [[Decomposition]]
 
 ---
 

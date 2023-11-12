@@ -10,7 +10,6 @@ notes-taken: false
 tags:
   - DBMS
   - DBMS/RelationalModel
-  - DBMS/NF
 ---
 # Normal Forms
 

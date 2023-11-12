@@ -10,7 +10,6 @@ notes-taken: false
 tags:
   - DBMS
   - DBMS/RelationalModel
-  - DBMS/RelationalModel/Constraints
 ---
 # Functional Dependency (FD)
 > [!lecture] Lecture-5A

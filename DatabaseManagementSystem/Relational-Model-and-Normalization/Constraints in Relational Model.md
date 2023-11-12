@@ -10,7 +10,6 @@ notes-taken: false
 tags:
   - DBMS
   - DBMS/RelationalModel
-  - DBMS/RelationalModel/Constraints
 ---
 
 # Integrity Constraint (IC)
