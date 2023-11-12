@@ -223,6 +223,9 @@ $$
 
 > [!lecture] Lecture-38
 >> [!youtube] [Abelian Group - Alternative Definitions | GATE CSE 1988, 2022 | Group Theory | GO Classes | Deepak - YouTube](https://www.youtube.com/watch?v=27dpP0LS00Q)
+- To prove that a group is abelian, think about proving ${} ab = ba {}$
+- A group $G {}$ is abelian iff ${} (ab)^2 = a^2b^2 \;\;\forall a, b \in G {}$
+- Every sub-group of an abelian group is abelian.
 
 
 

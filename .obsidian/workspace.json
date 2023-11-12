@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-agenda/2023-11-11.md",
+                "file": "daily-agenda/2023-11-12.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,7 +33,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +97,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-agenda/2023-11-11.md",
+                "file": "DiscreteMathematics/Group Theory/Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-agenda/2023-11-11.md",
+                "file": "DiscreteMathematics/Group Theory/Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-agenda/2023-11-11.md"
+                "file": "DiscreteMathematics/Group Theory/Group.md"
               }
             }
           },
@@ -219,11 +220,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "82196ff065171b3a",
+  "active": "7138f476aa3b1421",
   "lastOpenFiles": [
+    "daily-agenda/2023-11-12.md",
+    "daily-agenda/2023-11-11.md",
     "DiscreteMathematics/Group Theory/Group.md",
     "DiscreteMathematics/Group Theory.md",
-    "daily-agenda/2023-11-11.md",
     "GATE-CS.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
     "attachments/Normal Forms-20231111145958891.webp",
