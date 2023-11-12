@@ -9,6 +9,8 @@ date: "{{date}}-{{time}}"
 - [ ] 
 - [ ] 
 
+Focus time : `` hrs
+
 # My thoughts on today
 
 
