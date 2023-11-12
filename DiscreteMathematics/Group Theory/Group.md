@@ -1,7 +1,7 @@
 ---
 pdf: lec-13-18, lec-21, lec-23A, lec-23B, lec-25, lec-26-27, lec-28-30, lec-31-34, lec-35-40
 module: 7
-lecture: 15, 16, 17, 18, 21, 23-A, 23-B, 25-A, 25-B, 25-C, 26, 27A, 27B, 29, 30, 31, 32-A, 33, 34, 35A, 35B, 36, 37
+lecture: 15, 16, 17, 18, 21, 23-A, 23-B, 25-A, 25-B, 25-C, 26, 27A, 27B, 29, 30, 31, 32-A, 33, 34, 35A, 35B, 36, 37, 38, 39, 40
 date: 2023-11-03T10:55:00
 version:
   - DM-24
@@ -227,6 +227,16 @@ $$
 - A group $G {}$ is abelian iff ${} (ab)^2 = a^2b^2 \;\;\forall a, b \in G {}$
 - Every sub-group of an abelian group is abelian.
 
+
+---
+## Intersection of Sub-groups
+> [!lecture] Lecture-39
+- Intersection of two sub-groups is also a sub-group.
+- Union of two sub-groups may NOT be a sub-group.
+
+---
+## Alternative Definitions of Sub-group
+> [!lecture] Lecture-40
 
 
 ---
