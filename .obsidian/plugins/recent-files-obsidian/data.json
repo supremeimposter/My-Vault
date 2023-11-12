@@ -1,12 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "Group",
-      "path": "DiscreteMathematics/Group Theory/Group.md"
+      "basename": "Decomposition",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
     },
     {
       "basename": "2023-11-12",
       "path": "daily-agenda/2023-11-12.md"
+    },
+    {
+      "basename": "daily-notes-template",
+      "path": "templates/daily-notes-template.md"
+    },
+    {
+      "basename": "Normal Forms",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
+    },
+    {
+      "basename": "Constraints in Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
+    },
+    {
+      "basename": "Functional Dependency",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+    },
+    {
+      "basename": "Natural Join",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
+    },
+    {
+      "basename": "Pending Lectures",
+      "path": "Pending Lectures.md"
+    },
+    {
+      "basename": "Tautology in FOL",
+      "path": "DiscreteMathematics/First-Order-Logic/Tautology in FOL.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE-LOG.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "Temporary Plan.md"
+    },
+    {
+      "basename": "Links for Resources",
+      "path": "GATE-materials/Links for Resources.md"
+    },
+    {
+      "basename": "Group",
+      "path": "DiscreteMathematics/Group Theory/Group.md"
     },
     {
       "basename": "2023-11-11",
@@ -17,18 +73,6 @@
       "path": "DiscreteMathematics/Group Theory.md"
     },
     {
-      "basename": "GATE-CS",
-      "path": "GATE-CS.md"
-    },
-    {
-      "basename": "Normal Forms",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
-    },
-    {
-      "basename": "Functional Dependency",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
-    },
-    {
       "basename": "Implication",
       "path": "DiscreteMathematics/Propositional-Logic/Implication.md"
     },
@@ -37,20 +81,8 @@
       "path": "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md"
     },
     {
-      "basename": "Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
-    },
-    {
       "basename": "2023-11-10",
       "path": "daily-agenda/2023-11-10.md"
-    },
-    {
-      "basename": "Constraints in Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "Pending Notes",
@@ -75,10 +107,6 @@
     {
       "basename": "Monoid",
       "path": "DiscreteMathematics/Group Theory/Monoid.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE-LOG.md"
     },
     {
       "basename": "2023-11-08",

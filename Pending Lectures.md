@@ -39,4 +39,7 @@
 	- [ ] [Group Theory Summary Lecture 4 - Ques on Binary Operation, Closure Property | GO Classes Deepak Sir - YouTube](https://www.youtube.com/watch?v=CZ32gw6h6kw)
 	- [ ] [Group Theory Summary Lecture 5 - Associative, Commutative Property | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=3Vf_61ZLn2w)
 	- [ ] [Group Theory Summary Lecture 6 - Questions on Associative, Commutative Property | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=rcY0-Tp47uY)
+- [ ] [[Group Theory]] - Weekly Quiz [16](https://gateoverflow.in/exam/476/go-classes-2024-weekly-quiz-16-group-theory)
+	- [ ] [Weekly Quiz 16 Solutions Part 1 - Group Theory | Discrete Mathematics | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=EPtNtFjjnm4&list=PLIPZ2_p3RNHjUd2BHqInF3wwZ5kF4Yk6h&index=11)
+	- [ ] [Weekly Quiz 16 Solutions Part 2 - Group Theory | Discrete Mathematics | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=uCTA_ZU9zks&list=PLIPZ2_p3RNHjUd2BHqInF3wwZ5kF4Yk6h&index=11)
 - [ ] 

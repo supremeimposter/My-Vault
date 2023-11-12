@@ -13,7 +13,7 @@
 - [[Pending Lectures]]
 - [[Temporary Plan]]
 ---
-
+[[Weekly Quizzes]]
 [[Links for Resources]]
 [[GATE-LOG]]
 

@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "82196ff065171b3a",
+            "id": "3307c51886a41686",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-agenda/2023-11-12.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,20 +21,19 @@
             }
           },
           {
-            "id": "7138f476aa3b1421",
+            "id": "8ae97c2fd32bd61c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Group.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#DBMS/NF",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,8 +95,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -118,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Group.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Group.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Group Theory/Group.md"
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
               }
             }
           },
@@ -220,44 +218,44 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7138f476aa3b1421",
+  "active": "3307c51886a41686",
   "lastOpenFiles": [
     "daily-agenda/2023-11-12.md",
-    "daily-agenda/2023-11-11.md",
-    "DiscreteMathematics/Group Theory/Group.md",
-    "DiscreteMathematics/Group Theory.md",
-    "GATE-CS.md",
+    "templates/daily-notes-template.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
-    "attachments/Normal Forms-20231111145958891.webp",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+    "attachments/Decomposition-20231112193528169.webp",
+    "attachments/Decomposition-20231112191720577.webp",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
+    "DatabaseManagementSystem/Database Management System.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+    "GATE-CS.md",
+    "Pending Lectures.md",
+    "DiscreteMathematics/First-Order-Logic/Tautology in FOL.md",
+    "GATE-LOG.md",
+    "attachments/Natural Join-20231112170414169.webp",
+    "Temporary Plan.md",
+    "GATE-materials/Links for Resources.md",
+    "DiscreteMathematics/Group Theory/Group.md",
+    "daily-agenda/2023-11-11.md",
+    "DiscreteMathematics/Group Theory.md",
+    "attachments/Normal Forms-20231111145958891.webp",
     "DiscreteMathematics/Propositional-Logic/Implication.md",
     "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "attachments/Functional Dependency-20231111140610566.webp",
     "daily-agenda/2023-11-10.md",
     "attachments/Normal Forms-20231110225510468.webp",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
-    "DatabaseManagementSystem/Database Management System.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Finding Candidate keys from Functional Dependencies.md",
     "Pending Notes.md",
     "DiscreteMathematics/Group Theory/Semi-Group.md",
     "DiscreteMathematics/Group Theory/Practice Set.md",
     "DiscreteMathematics/Group Theory/Properties.md",
-    "DiscreteMathematics/Group Theory/Abstract Algebra.md",
-    "DiscreteMathematics/Group Theory/Monoid.md",
-    "DiscreteMathematics/Group Theory/Sub-Group.md",
-    "GATE-LOG.md",
-    "daily-agenda/2023-11-08.md",
-    "DiscreteMathematics/Discrete Mathematics.md",
-    "Fundamentals of Computer Science/Fundamentals of Computer Science.md",
     "attachments/Fundamentals of Computer Science-20231108162153911.webp",
     "attachments/Group-20231108100426228.webp",
-    "daily-agenda/2023-11-07.md",
     "attachments/Functional Dependency-20231106094238444.webp",
     "attachments/Pasted image 20231106094204.webp",
-    "attachments/Pasted image 20231106094138.png",
-    "attachments/Pasted image 20231106093507.png",
-    "attachments/Pasted image 20231106092859.png",
     "DiscreteMathematics/Group Theory",
     "DiscreteMathematics/Functions",
     "DatabaseManagementSystem/Relational-Model-and-Normalization",

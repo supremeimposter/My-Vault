@@ -26,7 +26,7 @@
   "desiredWidth": 600,
   "desiredHeight": 800,
   "desiredLength": 800,
-  "resizeByDragging": true,
-  "resizeWithShiftScrollwheel": true,
-  "rightClickContextMenu": true
+  "resizeByDragging": false,
+  "resizeWithShiftScrollwheel": false,
+  "rightClickContextMenu": false
 }
