@@ -20,7 +20,12 @@ tags:
 ![[Functional Dependency#Partial and Full Functional Dependency]]
 ![[Functional Dependency#Transitive Functional Dependency]]
 
-## Types of Normal Forms
+
+> [!lecture] Lecture-7C
+
+- As relations move to higher levels of Normal forms, **redundancies due to FD's** decrease.
+
+## Levels of Normal Forms
 > [!lecture] Lecture-6B
 
 ![[Normal Forms-20231111145958891.webp]]

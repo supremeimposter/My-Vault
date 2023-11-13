@@ -1,7 +1,7 @@
 ---
-pdf: lec-5A, lec-5B, lec-5C, lec-5D, lec-6A
+pdf: lec-5A, lec-5B, lec-5C, lec-5D, lec-6A, lec-8
 module: 1
-lecture: 5A, 5B, 5C, 5D, 6A
+lecture: 5A, 5B, 5C, 5D, 6A, 8
 date: 2023-11-05T13:40:00
 version:
   - DBMS-24
@@ -32,7 +32,28 @@ $$
 $$
 - The above FD means whenever $AB$ combination is same in two tuples, then $C$ must be same in those two tuples.
 > [!convention] 
-> Notations can be abused while writing two or more sets i.e. $AB \rightarrow C$
+> Notations can be abused while writing two or more sets i.e. $AB \rightarrow C$ 
+> $A, B, C$ - Single attributes
+> $\alpha, \beta, \gamma, X, Y, Z$ - Set of attributes
+
+
+````col
+```col-md
+flexGrow=1
+===
+> $A \rightarrow B$ holds
+![[Functional Dependency-20231113155546133.webp]]
+
+```
+```col-md
+flexGrow=1
+===
+> $A \rightarrow B$ does not hold
+![[Functional Dependency-20231113155602892.webp]]
+
+```
+````
+
 
 ## Violation of Functional Dependency
 ![[Functional Dependency-20231105180019782.webp]]
@@ -42,7 +63,7 @@ $$
 > [!example] 
 > Quiz 30 vs All Quizzes in a school
 
-- If some instance does not satisfy functional dependency $X \rightarrow Y$, then schema can never satisfy functional dependency $X \rightarrow Y$.
+- If some instance does not satisfy functional dependency ${} X \rightarrow Y$, then schema can never satisfy functional dependency $X \rightarrow Y$.
 - If the schema does not satisfy functional dependency $X \rightarrow Y$, then it is possible that some instance can satisfy functional dependency $X \rightarrow Y$.
 - By looking at an instance, we are sure about which FD's DO NOT hold, but we cannot be sure about which FD's hold.
 
@@ -85,9 +106,6 @@ $$
 > [!lecture] Lecture-6A
 >> [!youtube] [Normalization Lecture 6A - Full, Partial Functional Dependency | Transitive FD |DBMS | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=SN1Fa1c5Kg8)
 
-> [!convention] 
-> $A, B, C$ - Single attributes
-> $\alpha, \beta, \gamma, X, Y, Z$ - Set of attributes
 
 ### Partial and Full Functional Dependency
 - Non-trivial FD's with single attributes in the RHS is considered for Normal forms.
@@ -244,10 +262,11 @@ $$
 ### Closure of a FD Set
 - If $S$ is a set of functional dependencies, then closure of $S$ is, 
 $$S^+ = \{f \mid S \models f\}$$
+- For any set $S {}$, its ${} S^+ {}$ is unique.
 #### Size of Closure of a FD Set
 
 > [!NOTE] Questions on this topic are not asked on this topic since computing this takes more time.
-- Size of closure of a FD $F$ is the number of all FD's that can be inferred by $F$. 
+- Size of closure of a FD ${} F$ is the number of all FD's that can be inferred by $F$. 
 
 ### Covering
 - If $F$ and $G$ are two sets of functional dependencies, then "$F$ covers $G$" iff $F$ infers every functional dependencies of $G$.
@@ -263,5 +282,41 @@ F \equiv G \text{ iff } F^+ = G^+
 $$
 - $F^+$ is all the FD's derived from $F$ 
 - $G^+$ is all the FD's derived from $G$ 
+- If $S$ is a set of functional dependencies, then ${} S \equiv S^+ {}$
 
----
+### Extraneous attribute on LHS of a FD
+> [!lecture] Lecture-8
+- Consider an FD set $F {}$ containing the following FD,
+$$
+XA \rightarrow Y
+$$
+- $A$ is extraneous on LHS if ${} Y \in X^+ {}$.
+
+
+> [!steps] 
+1. Find ${} X^+ {}$ in the set $F$.
+2. Check if $Y \in X^+$, then $A {}$ is extraneous.
+
+
+### Removing a Redundant FD
+
+
+> [!steps] 
+1. First make sure all the FDs have a single attribute on the RHS.
+2. First remove the FD from the FD set.
+3. Find ${} (LHS)^+ {}$ from the current FD set after removing the FD and see if ${} (RHS) \in (LHS)^+ {}$. If it is true then the FD is redundant in the set $F$.
+
+
+### Minimal Cover of FD set
+- Minimal cover ${} F_m {}$ of a FD set $F$ is the **irreducible set of FDs** which is equivalent to $F {}$.
+- It is also known as minimal form ${} F_m {}$ or canonical form ${} F_c {}$ or Ir-reducible form.
+- If we remove any attribute or FD from ${} F_m {}$, then ${} F_m \not\equiv F {}$.
+- For any set $F$, $F_m$ does not need to be unique.
+
+
+> [!steps] 
+
+1. Simplify all the RHS (decompose)
+2. For all the FDs, find a extraneous attribute on the LHS
+3. Eliminate all the redundant FDs.
+
