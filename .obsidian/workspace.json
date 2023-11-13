@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+                "file": "daily-agenda/2023-11-13.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -32,8 +32,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7116c41731959c82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02b882fe68685442",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "502bddf664847c23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -62,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#DBMS/NF",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +135,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -116,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
               }
             }
           },
@@ -218,44 +259,43 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3307c51886a41686",
+  "active": "e916f63bd4c6c102",
   "lastOpenFiles": [
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
+    "daily-agenda/2023-11-13.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+    "attachments/Functional Dependency-20231113155602892.webp",
+    "attachments/Functional Dependency-20231113155546133.webp",
+    "attachments/Functional Dependency-20231113155230305.webp",
+    "attachments/Functional Dependency-20231113155211139.webp",
+    "attachments/Functional Dependency-20231113155152078.webp",
+    "attachments/Functional Dependency-20231113155041915.webp",
+    "attachments/Functional Dependency-20231113155016965.webp",
+    "attachments/Functional Dependency-20231113155002174.webp",
+    "attachments/Functional Dependency-20231113154928201.webp",
+    "DatabaseManagementSystem/Database Management System.md",
     "daily-agenda/2023-11-12.md",
     "templates/daily-notes-template.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
     "attachments/Decomposition-20231112193528169.webp",
-    "attachments/Decomposition-20231112191720577.webp",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
-    "DatabaseManagementSystem/Database Management System.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "GATE-CS.md",
     "Pending Lectures.md",
     "DiscreteMathematics/First-Order-Logic/Tautology in FOL.md",
     "GATE-LOG.md",
-    "attachments/Natural Join-20231112170414169.webp",
     "Temporary Plan.md",
     "GATE-materials/Links for Resources.md",
     "DiscreteMathematics/Group Theory/Group.md",
     "daily-agenda/2023-11-11.md",
     "DiscreteMathematics/Group Theory.md",
-    "attachments/Normal Forms-20231111145958891.webp",
     "DiscreteMathematics/Propositional-Logic/Implication.md",
     "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
-    "attachments/Functional Dependency-20231111140610566.webp",
     "daily-agenda/2023-11-10.md",
-    "attachments/Normal Forms-20231110225510468.webp",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Finding Candidate keys from Functional Dependencies.md",
     "Pending Notes.md",
     "DiscreteMathematics/Group Theory/Semi-Group.md",
-    "DiscreteMathematics/Group Theory/Practice Set.md",
-    "DiscreteMathematics/Group Theory/Properties.md",
-    "attachments/Fundamentals of Computer Science-20231108162153911.webp",
-    "attachments/Group-20231108100426228.webp",
-    "attachments/Functional Dependency-20231106094238444.webp",
-    "attachments/Pasted image 20231106094204.webp",
     "DiscreteMathematics/Group Theory",
     "DiscreteMathematics/Functions",
     "DatabaseManagementSystem/Relational-Model-and-Normalization",
