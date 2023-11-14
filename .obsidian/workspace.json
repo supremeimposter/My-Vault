@@ -47,6 +47,19 @@
             }
           },
           {
+            "id": "c9c35ed039af4df4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "02b882fe68685442",
             "type": "leaf",
             "state": {
@@ -72,8 +85,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -157,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+                "file": "daily-agenda/2023-11-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+                "file": "daily-agenda/2023-11-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
+                "file": "daily-agenda/2023-11-14.md"
               }
             }
           },
@@ -259,30 +271,33 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7116c41731959c82",
+  "active": "3307c51886a41686",
   "lastOpenFiles": [
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
-    "daily-agenda/2023-11-14.md",
-    "daily-agenda/2023-11-13.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+    "Aptitude/Verbal-Ability/Verbal-Ability.md",
+    "GATE-CS.md",
+    "Aptitude/Aptitude.md",
+    "attachments/Decomposition into Normal Forms-20231114163811836.webp",
+    "attachments/Decomposition into Normal Forms-20231114160828803.webp",
+    "attachments/Decomposition into Normal Forms-20231114153105512.webp",
+    "attachments/Decomposition into Normal Forms-20231114152611706.webp",
+    "daily-agenda/2023-11-14.md",
+    "attachments/Decomposition into Normal Forms-20231114101126130.webp",
+    "DatabaseManagementSystem/Database Management System.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
+    "daily-agenda/2023-11-13.md",
     "attachments/Functional Dependency-20231113155602892.webp",
     "attachments/Functional Dependency-20231113155546133.webp",
     "attachments/Functional Dependency-20231113155230305.webp",
     "attachments/Functional Dependency-20231113155211139.webp",
     "attachments/Functional Dependency-20231113155152078.webp",
-    "attachments/Functional Dependency-20231113155041915.webp",
-    "attachments/Functional Dependency-20231113155016965.webp",
-    "attachments/Functional Dependency-20231113155002174.webp",
-    "attachments/Functional Dependency-20231113154928201.webp",
-    "DatabaseManagementSystem/Database Management System.md",
     "daily-agenda/2023-11-12.md",
     "templates/daily-notes-template.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
-    "attachments/Decomposition-20231112193528169.webp",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
-    "GATE-CS.md",
     "Pending Lectures.md",
     "DiscreteMathematics/First-Order-Logic/Tautology in FOL.md",
     "GATE-LOG.md",
@@ -294,9 +309,6 @@
     "DiscreteMathematics/Propositional-Logic/Implication.md",
     "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
     "daily-agenda/2023-11-10.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Finding Candidate keys from Functional Dependencies.md",
-    "Pending Notes.md",
-    "DiscreteMathematics/Group Theory/Semi-Group.md",
     "DiscreteMathematics/Group Theory",
     "DiscreteMathematics/Functions",
     "DatabaseManagementSystem/Relational-Model-and-Normalization",

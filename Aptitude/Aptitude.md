@@ -9,7 +9,7 @@ tags:
 	- [[Absolute Value]]
 	- [[Floor and Ceiling Functions]]
 
-- Verbal Ability
+- [[Verbal-Ability]]
 
 ---
 

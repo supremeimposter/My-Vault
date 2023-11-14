@@ -1,32 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Decomposition",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
-    },
-    {
-      "basename": "Natural Join",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
-    },
-    {
       "basename": "2023-11-14",
       "path": "daily-agenda/2023-11-14.md"
     },
     {
-      "basename": "2023-11-13",
-      "path": "daily-agenda/2023-11-13.md"
+      "basename": "Decomposition into Normal Forms",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md"
     },
     {
-      "basename": "Functional Dependency",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+      "basename": "Decomposition",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
     },
     {
       "basename": "Normal Forms",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
     },
     {
+      "basename": "Functional Dependency",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+    },
+    {
+      "basename": "Verbal-Ability",
+      "path": "Aptitude/Verbal-Ability/Verbal-Ability.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
+    },
+    {
+      "basename": "Aptitude",
+      "path": "Aptitude/Aptitude.md"
+    },
+    {
       "basename": "Database Management System",
       "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Natural Join",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
+    },
+    {
+      "basename": "2023-11-13",
+      "path": "daily-agenda/2023-11-13.md"
     },
     {
       "basename": "2023-11-12",
@@ -43,10 +59,6 @@
     {
       "basename": "Relational Model",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE-CS.md"
     },
     {
       "basename": "Pending Lectures",
