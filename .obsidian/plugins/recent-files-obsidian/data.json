@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Functional Dependency",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+      "basename": "Decomposition",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
     },
     {
-      "basename": "Normal Forms",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
+      "basename": "Natural Join",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
+    },
+    {
+      "basename": "2023-11-14",
+      "path": "daily-agenda/2023-11-14.md"
     },
     {
       "basename": "2023-11-13",
       "path": "daily-agenda/2023-11-13.md"
     },
     {
-      "basename": "Decomposition",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
+      "basename": "Functional Dependency",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+    },
+    {
+      "basename": "Normal Forms",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
     },
     {
       "basename": "Database Management System",
@@ -31,10 +39,6 @@
     {
       "basename": "Constraints in Relational Model",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
-    },
-    {
-      "basename": "Natural Join",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
     },
     {
       "basename": "Relational Model",

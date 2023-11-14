@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-agenda/2023-11-13.md",
+                "file": "daily-agenda/2023-11-14.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
               }
             }
           },
@@ -259,12 +259,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e916f63bd4c6c102",
+  "active": "7116c41731959c82",
   "lastOpenFiles": [
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
+    "daily-agenda/2023-11-14.md",
     "daily-agenda/2023-11-13.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
     "attachments/Functional Dependency-20231113155602892.webp",
     "attachments/Functional Dependency-20231113155546133.webp",
     "attachments/Functional Dependency-20231113155230305.webp",
@@ -279,7 +281,6 @@
     "templates/daily-notes-template.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
     "attachments/Decomposition-20231112193528169.webp",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "GATE-CS.md",
     "Pending Lectures.md",
