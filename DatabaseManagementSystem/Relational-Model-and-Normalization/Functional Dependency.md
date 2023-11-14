@@ -309,14 +309,16 @@ $$
 
 ### Minimal Cover of FD set
 - Minimal cover ${} F_m {}$ of a FD set $F$ is the **irreducible set of FDs** which is equivalent to $F {}$.
-- It is also known as minimal form ${} F_m {}$ or canonical form ${} F_c {}$ or Ir-reducible form.
+- It is also known as minimal form ${} F_m {}$ or canonical form ${} F_c {}$ or Ir-reducible set of FDs.
 - If we remove any attribute or FD from ${} F_m {}$, then ${} F_m \not\equiv F {}$.
-- For any set $F$, $F_m$ does not need to be unique.
+- For any set $F {}$, the minimal cover ${} F_m$ does not need to be unique. 
+- There can be multiple minimal covers for a set $F$. There can be different minimal covers with different FDs.
 
 
 > [!steps] 
 
-1. Simplify all the RHS (decompose)
+1. Simplify all the RHS of the FDs (decompose)
 2. For all the FDs, find a extraneous attribute on the LHS
 3. Eliminate all the redundant FDs.
-
+4. Stop when no more extraneous attribute is on the LHS or no more redundant FD is present.
+> [!note] Steps 2 and 3 can be done in any order.
