@@ -16,6 +16,8 @@ tags:
 - [[Normal Forms]]
 - [[Natural Join]]
 - [[Decomposition]]
+- [[Decomposition into Normal Forms]]
+
 
 ---
 

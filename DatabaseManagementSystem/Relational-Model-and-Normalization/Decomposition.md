@@ -1,7 +1,7 @@
 ---
-pdf: lec-7A-7C, lec-7D
+pdf: lec-7A-7C, lec-7D, lec-9B-9C
 module: 1
-lecture: 7A, 7B, 7C, 7D
+lecture: 7A, 7B, 7C, 7D, 9C
 date: 2023-11-12T17:14:00
 version:
   - DBMS-24
@@ -89,11 +89,14 @@ $$
 - Always check lossy or lossless only on schema and NOT on instances.
 
 ## Dependency Preserving Decomposition
-> [!lecture] Lecture-7C
+> [!lecture] Lecture-7C, 9C
 
 - In any decomposition ${} F {}$ covers ${} (F_1 \cup F_2 \cup \ldots \cup F_n) {}$.
-- If ${} (F_1 \cup F_2 \cup \ldots \cup F_n) {}$ covers $F {}$, then there is NO need to join relations to enforce functional dependencies. (Dependency preserving)
-- If ${} (F_1 \cup F_2 \cup \ldots \cup F_n) {}$ does NOT cover ${} F$, then there is a need to join relations to enforce functional dependencies (Non-dependency preserving). Tables can be joined only when decomposition is lossless.
+- If ${} (F_1 \cup F_2 \cup \ldots \cup F_n) {}$ covers $F {}$, then there is NO need to join relations to enforce functional dependencies. (**Dependency preserving**)
+- If ${} (F_1 \cup F_2 \cup \ldots \cup F_n) {}$ does NOT cover ${} F$, then there is a need to join relations to enforce functional dependencies (**Non-dependency preserving**). Tables can be joined only when decomposition is lossless.
+	- Individual relations cannot enforce FDs.  
+	- Before every insertion or modification, two or more relations may have to be joined to enforce some FDs. 
+	- Some FDs may be already enforced in the individual relations.
 
 > [!important] Consider only non-trivial FDs.
 
@@ -115,3 +118,4 @@ $$
 - Now according to the FD's fill the table whenever there are at least two matching tuples.
 - If a row has all the entries as 'a', then no more further checking is necessary and it is lossless. Or else, the decomposition is lossy.
 - If a table cannot be changed from the initial state and there is no row full of 'a' entries, then the decomposition is lossy.
+

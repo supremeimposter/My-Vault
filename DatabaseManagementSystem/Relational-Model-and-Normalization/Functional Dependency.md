@@ -1,7 +1,7 @@
 ---
-pdf: lec-5A, lec-5B, lec-5C, lec-5D, lec-6A, lec-8
+pdf: lec-5A, lec-5B, lec-5C, lec-5D, lec-6A, lec-8, lec-9B-9C
 module: 1
-lecture: 5A, 5B, 5C, 5D, 6A, 8
+lecture: 5A, 5B, 5C, 5D, 6A, 8, 9B
 date: 2023-11-05T13:40:00
 version:
   - DBMS-24
@@ -314,7 +314,6 @@ $$
 - For any set $F {}$, the minimal cover ${} F_m$ does not need to be unique. 
 - There can be multiple minimal covers for a set $F$. There can be different minimal covers with different FDs.
 
-
 > [!steps] 
 
 1. Simplify all the RHS of the FDs (decompose)
@@ -322,3 +321,15 @@ $$
 3. Eliminate all the redundant FDs.
 4. Stop when no more extraneous attribute is on the LHS or no more redundant FD is present.
 > [!note] Steps 2 and 3 can be done in any order.
+
+
+## Redundancies due to FDs
+> [!lecture] Lecture-9B
+
+- Trivial FDs do not create redundancies as they always hold.
+- Non-trivial FDs in which LHS is NOT a super key may create redundancies in the database.
+- Non-trivial FDs with super key as LHS never create redundancies in the database.
+
+
+## Redundancies due to MVDs
+- When there are more than one "many-many" relationships in a single relation, then it creates Multi-valued Dependency.
