@@ -24,6 +24,10 @@
 
 # [[Discrete Mathematics]]
 - [ ] Discrete Mathematics - [[First Order Logic]] Optional Lectures
+	- [ ] [Model in Propositional Logic | Interpretation, Model in Logic | Discrete Mathematics - YouTube](https://www.youtube.com/watch?v=12lUdO2mOp4)
+	- [ ] [Interpretation, Model in First Order Logic - Discrete Mathematics - YouTube](https://www.youtube.com/watch?v=7cO0TMAQt5I)
+	- [ ] [Uniqueness Quantifier - First Order Logic - Discrete Mathematics - YouTube](https://www.youtube.com/watch?v=6L9JtnKtgUc)
+	- [ ] [Tautology in First Order Logic | Predicate Logic | Mathematical Logic | Discrete Mathematics - YouTube](https://www.youtube.com/watch?v=mhpBJ4BxXks)
 - [ ] Discrete Mathematics - [[Set Theory]] Practice Set 3
 - [ ] Discrete Mathematics - [[Set Theory]] [Lecture-47](https://www.youtube.com/watch?v=g0utoFh0yQQ)
 - [ ] Discrete Mathematics - [[Set Theory]] [Lecture-48](https://www.youtube.com/watch?v=yqHGdWzeGeE)
@@ -42,4 +46,9 @@
 - [ ] [[Group Theory]] - Weekly Quiz [16](https://gateoverflow.in/exam/476/go-classes-2024-weekly-quiz-16-group-theory)
 	- [ ] [Weekly Quiz 16 Solutions Part 1 - Group Theory | Discrete Mathematics | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=EPtNtFjjnm4&list=PLIPZ2_p3RNHjUd2BHqInF3wwZ5kF4Yk6h&index=11)
 	- [ ] [Weekly Quiz 16 Solutions Part 2 - Group Theory | Discrete Mathematics | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=uCTA_ZU9zks&list=PLIPZ2_p3RNHjUd2BHqInF3wwZ5kF4Yk6h&index=11)
-- [ ] 
+- [ ] [[Group Theory]] PYQs
+	- [ ] [GATE CSE 1989 | Number of Commutative Binary Operations | Group Theory Discrete Maths| Deepak Poonia - YouTube](https://www.youtube.com/watch?v=tWS2SlFHg7U)
+	- [ ] [Site Unreachable](https://www.youtube.com/watch?v=gwQ-K3oHtS0)
+	- [ ] [Site Unreachable](https://www.youtube.com/watch?v=rVWTU8gwpss)
+	- [ ] [Site Unreachable](https://www.youtube.com/watch?v=qyRRNRxvsjQ)
+	- [ ] 

@@ -8,12 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3307c51886a41686",
+            "id": "f0a7eb0b8caed52c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pending Lectures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "f796fa0912ee1f6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-agenda/2023-11-14.md",
+                "file": "DatabaseManagementSystem/Queries-Relational-Algebra/Relational Algebra.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +36,12 @@
             }
           },
           {
-            "id": "8ae97c2fd32bd61c",
+            "id": "6a11985cc7d6baa3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
+                "file": "DatabaseManagementSystem/Queries-Relational-Algebra/Basic Operations in Relational Algebra.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,58 +49,20 @@
             }
           },
           {
-            "id": "7116c41731959c82",
+            "id": "a0d31e19e38992ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9c35ed039af4df4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02b882fe68685442",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "502bddf664847c23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+                "file": "DatabaseManagementSystem/Queries-Relational-Algebra/Procedural and Declarative Query Languages.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -169,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-agenda/2023-11-14.md",
+                "file": "DatabaseManagementSystem/Queries-Relational-Algebra/Relational Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-agenda/2023-11-14.md",
+                "file": "DatabaseManagementSystem/Queries-Relational-Algebra/Relational Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-agenda/2023-11-14.md"
+                "file": "DatabaseManagementSystem/Queries-Relational-Algebra/Relational Algebra.md"
               }
             }
           },
@@ -271,10 +248,28 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3307c51886a41686",
+  "active": "f796fa0912ee1f6d",
   "lastOpenFiles": [
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md",
+    "Pending Lectures.md",
+    "daily-agenda/2023-11-15.md",
+    "DatabaseManagementSystem/Queries-Relational-Algebra/Basic Operations in Relational Algebra.md",
+    "DatabaseManagementSystem/Queries-Relational-Algebra/Relational Algebra.md",
+    "DatabaseManagementSystem/Database Management System.md",
+    "DatabaseManagementSystem/Queries-Relational-Algebra/Procedural and Declarative Query Languages.md",
+    "DiscreteMathematics/Set-Theory/Set Operations.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md",
+    "templates/daily-notes-template.md",
+    "DatabaseManagementSystem/Queries-Relational-Algebra/Projection Operator.md",
+    "DatabaseManagementSystem/Queries-Relational-Algebra/Selection Operator.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+    "attachments/Relational Algebra-20231115162732676.webp",
+    "TheoryOfComputation/Introduction to Theory of Computation.md",
+    "DatabaseManagementSystem/Queries-Relational-Algebra",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/SQL.md",
+    "attachments/Three Levels of Schema-20231115085742091.webp",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+    "daily-agenda/2023-11-14.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
     "Aptitude/Verbal-Ability/Verbal-Ability.md",
@@ -284,31 +279,14 @@
     "attachments/Decomposition into Normal Forms-20231114160828803.webp",
     "attachments/Decomposition into Normal Forms-20231114153105512.webp",
     "attachments/Decomposition into Normal Forms-20231114152611706.webp",
-    "daily-agenda/2023-11-14.md",
     "attachments/Decomposition into Normal Forms-20231114101126130.webp",
-    "DatabaseManagementSystem/Database Management System.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
     "daily-agenda/2023-11-13.md",
     "attachments/Functional Dependency-20231113155602892.webp",
     "attachments/Functional Dependency-20231113155546133.webp",
     "attachments/Functional Dependency-20231113155230305.webp",
-    "attachments/Functional Dependency-20231113155211139.webp",
-    "attachments/Functional Dependency-20231113155152078.webp",
     "daily-agenda/2023-11-12.md",
-    "templates/daily-notes-template.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
-    "Pending Lectures.md",
-    "DiscreteMathematics/First-Order-Logic/Tautology in FOL.md",
-    "GATE-LOG.md",
-    "Temporary Plan.md",
-    "GATE-materials/Links for Resources.md",
-    "DiscreteMathematics/Group Theory/Group.md",
-    "daily-agenda/2023-11-11.md",
-    "DiscreteMathematics/Group Theory.md",
-    "DiscreteMathematics/Propositional-Logic/Implication.md",
-    "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
-    "daily-agenda/2023-11-10.md",
     "DiscreteMathematics/Group Theory",
     "DiscreteMathematics/Functions",
     "DatabaseManagementSystem/Relational-Model-and-Normalization",
@@ -318,7 +296,6 @@
     "Algorithms/Divide-and-Conquer",
     "Algorithms/Recurrence-Relation",
     "Algorithms",
-    "Fundamentals of Computer Science",
     "Untitled.canvas"
   ]
 }

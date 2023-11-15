@@ -1,16 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "Relational Algebra",
+      "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Relational Algebra.md"
+    },
+    {
+      "basename": "Pending Lectures",
+      "path": "Pending Lectures.md"
+    },
+    {
+      "basename": "2023-11-15",
+      "path": "daily-agenda/2023-11-15.md"
+    },
+    {
+      "basename": "Basic Operations in Relational Algebra",
+      "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Basic Operations in Relational Algebra.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Procedural and Declarative Query Languages",
+      "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Procedural and Declarative Query Languages.md"
+    },
+    {
+      "basename": "Set Operations",
+      "path": "DiscreteMathematics/Set-Theory/Set Operations.md"
+    },
+    {
+      "basename": "Three Levels of Schema",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md"
+    },
+    {
+      "basename": "daily-notes-template",
+      "path": "templates/daily-notes-template.md"
+    },
+    {
+      "basename": "Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+    },
+    {
+      "basename": "Introduction to Theory of Computation",
+      "path": "TheoryOfComputation/Introduction to Theory of Computation.md"
+    },
+    {
+      "basename": "SQL",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/SQL.md"
+    },
+    {
+      "basename": "Decomposition",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
+    },
+    {
       "basename": "2023-11-14",
       "path": "daily-agenda/2023-11-14.md"
     },
     {
       "basename": "Decomposition into Normal Forms",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md"
-    },
-    {
-      "basename": "Decomposition",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
     },
     {
       "basename": "Normal Forms",
@@ -33,10 +81,6 @@
       "path": "Aptitude/Aptitude.md"
     },
     {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
-    },
-    {
       "basename": "Natural Join",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
     },
@@ -49,20 +93,8 @@
       "path": "daily-agenda/2023-11-12.md"
     },
     {
-      "basename": "daily-notes-template",
-      "path": "templates/daily-notes-template.md"
-    },
-    {
       "basename": "Constraints in Relational Model",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
-    },
-    {
-      "basename": "Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "Pending Lectures.md"
     },
     {
       "basename": "Tautology in FOL",
@@ -151,10 +183,6 @@
     {
       "basename": "2023-11-05",
       "path": "daily-agenda/2023-11-05.md"
-    },
-    {
-      "basename": "SQL",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/SQL.md"
     },
     {
       "basename": "DDL and DML",
