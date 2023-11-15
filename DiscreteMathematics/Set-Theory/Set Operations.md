@@ -17,10 +17,13 @@ tags:
 ### Set Union ($\cup$)
 - "$A \cup B$ is the **smallest** set of $S$ which has $A$ and $B$ as subsets" is another way to define Unions
 
-### Set Intersection ($\cap$)
+### Set Intersection ($\cap {}$)
 
+$$
+A \; \cap \; B = A - (A - B) = B - (B - A) 
+$$
 
-### Set Difference ($\textbackslash$ or $-$)
+### Set Difference (${} \textbackslash$ or $-$)
 
 
 ### Set Symmetric Difference ($\Delta$ or $\oplus$)
