@@ -16,14 +16,21 @@ tags:
 
 - Relational model is implementation friendly but it is a theoretical model.
 - Every data in the table must be a single atomic entity i.e. should NOT be divisible.
+- In relational model, a database is a collection of relations and a table is a collection of tuples.
 - Two records can NEVER be same in a relational model.
+- Order of attributes matter.
+- Order of tuples does NOT matter.
+- There are two theoretical query languages based on the relational model,
+	1. [[Relational Algebra]]
+	2. Relational Calculus
+- [[SQL]] is a practical query language based on the relational model.
 
 ## Schema vs Instance
 - Schema contains,
 	- Table name
 	- Attributes name
 	- Attributes domain
-- Schema is represented as $R(A, B, C)$, where $R$ is the relation and $A, B, C$ are attributes.
+- Schema is represented as ${} R(A, B, C)$, where $R$ is the relation and $A, B, C$ are attributes.
 - Instance is the contents of the table at a given time, a snapshot of the records
 - Schema rarely changes but Instance changes frequently
 
@@ -34,7 +41,6 @@ tags:
 > [!summary] 
 > - Degree is the number of columns 
 > - Cardinality is the number of rows
-
 
 ## Why table is called a relation?
 > [!lecture] Lecture-2B

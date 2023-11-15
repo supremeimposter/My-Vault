@@ -17,11 +17,11 @@ version: TOC-24
 - A function is a definition of the problem.
 - An algorithm is a guide or manual or "how to" solve the problem.
 
-- For example, 
-
-**Prime Numbers**
-Function = A number whose factors are 1 and itself (definition).
-Algorithm = Find if there is not a factor until the square root of the number (how to solve).
+> [!example] 
+> **Prime Numbers**
+> Function = A number whose factors are 1 and itself (definition).
+> Algorithm = Find if there is not a factor until the square root of the number (how to solve).
+> 
 
 - No algorithm exists for Halting problem (will the program stop?), and it can NEVER be solved.
 

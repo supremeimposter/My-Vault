@@ -6,7 +6,7 @@ tags:
   - DBMS
 ---
 
-# Module 1
+# Module 1 - Relational Model and Normalization
 - [[Introduction to DBMS]]
 - [[Relational Model]]
 - [[SQL]]
@@ -17,6 +17,14 @@ tags:
 - [[Natural Join]]
 - [[Decomposition]]
 - [[Decomposition into Normal Forms]]
+- [[Three Levels of Schema]]
+
+
+# Module 2 - Queries - Relational Algebra
+- [[Procedural and Declarative Query Languages]]
+- [[Relational Algebra]]
+- [[Basic Operators in Relational Algebra]]
+
 
 
 ---
