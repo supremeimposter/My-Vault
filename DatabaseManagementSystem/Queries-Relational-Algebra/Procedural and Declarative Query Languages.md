@@ -22,3 +22,5 @@ tags:
 
 > [!convention] 
 > Query ${} \equiv {}$ Data Retrieval Query
+
+- In relational algebra and relational calculus, data retrieval queries never change or alter the original database. New relations may be created temporarily or permanently.

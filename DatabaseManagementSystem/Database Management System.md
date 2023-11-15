@@ -23,7 +23,7 @@ tags:
 # Module 2 - Queries - Relational Algebra
 - [[Procedural and Declarative Query Languages]]
 - [[Relational Algebra]]
-- [[Basic Operators in Relational Algebra]]
+- [[Basic Operations in Relational Algebra]]
 
 
 

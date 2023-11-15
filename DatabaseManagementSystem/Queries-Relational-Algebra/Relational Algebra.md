@@ -31,5 +31,11 @@ tags:
 ![[Relational Algebra-20231115162732676.webp]]
 
 
-- [[Basic Operators in Relational Algebra]]
+- There are 6 [[Basic Operations in Relational Algebra]]
+	- Selection
+	- Projection
+	- Set Union
+	- Set Difference
+	- Cartesian Product
+	- Rename
 - Derived Operators
