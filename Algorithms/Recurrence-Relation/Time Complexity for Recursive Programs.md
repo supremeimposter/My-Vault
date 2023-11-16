@@ -13,7 +13,12 @@ tags:
 # Recursive Relations
 > [!lecture] Lecture-2.a
 
-- $T(n)$ is a recursive function of $n$. 
+- $T(n)$ is a recursive function of $n {}$. 
+
+## Recursion Rules
+1. Always have at least once case that can be solved without using recursion.
+2. Any recursive call must progress towards a base case.
+3. Always assume that the recursive call works, and use this assumption to design your algorithms. 
 
 ## Misinterpretations between recurrence relation and computer program
 - Computer program is different from recurrence relation

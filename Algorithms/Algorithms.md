@@ -16,6 +16,8 @@ tags:
 
 ## Design of Algorithms
 
+### Divide and Conquer
+- [[Divide and Conquer]]
 
 
 ---
