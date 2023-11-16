@@ -9,6 +9,8 @@ last-revision:
 notes-taken: false
 tags:
   - DBMS
+  - DBMS/Queries
+  - DBMS/RelationalModel
 ---
 # Procedural and Declarative Query Language
 > [!lecture] Lecture-1

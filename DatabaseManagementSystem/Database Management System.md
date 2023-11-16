@@ -24,6 +24,7 @@ tags:
 - [[Procedural and Declarative Query Languages]]
 - [[Relational Algebra]]
 - [[Basic Operations in Relational Algebra]]
+- [[Derived Operations in Relational Algebra]]
 
 
 

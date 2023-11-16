@@ -11,6 +11,7 @@ tags:
   - DBMS
   - DBMS/Queries
   - DBMS/RelationalAlgebra
+  - DBMS/RelationalModel
 ---
 
 > [!lecture] Lecture-1

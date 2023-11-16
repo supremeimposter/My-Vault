@@ -9,6 +9,9 @@ last-revision:
 notes-taken: false
 tags:
   - DBMS
+  - DBMS/RelationalAlgebra
+  - DBMS/Queries
+  - DBMS/RelationalModel
 ---
 # Natural Join
 > [!lecture] Lecture-7A

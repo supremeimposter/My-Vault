@@ -36,6 +36,7 @@ tags:
 
 ### Degree and Cardinality
 - Degree (arity) of a relation is the number of attributes in its schema.
+	- Degree of a relation can NEVER be $0$.
 - Cardinality is the number of rows in any given instance of a relation.
 
 > [!summary] 
