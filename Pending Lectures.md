@@ -48,7 +48,9 @@
 	- [ ] [Weekly Quiz 16 Solutions Part 2 - Group Theory | Discrete Mathematics | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=uCTA_ZU9zks&list=PLIPZ2_p3RNHjUd2BHqInF3wwZ5kF4Yk6h&index=11)
 - [ ] [[Group Theory]] PYQs
 	- [ ] [GATE CSE 1989 | Number of Commutative Binary Operations | Group Theory Discrete Maths| Deepak Poonia - YouTube](https://www.youtube.com/watch?v=tWS2SlFHg7U)
-	- [ ] [Site Unreachable](https://www.youtube.com/watch?v=gwQ-K3oHtS0)
-	- [ ] [Site Unreachable](https://www.youtube.com/watch?v=rVWTU8gwpss)
-	- [ ] [Site Unreachable](https://www.youtube.com/watch?v=qyRRNRxvsjQ)
-	- [ ] 
+	- [ ] [GATE CSE 1994 | Associative Non-Commutative Operation on N | Group Theory |GoClasses | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=gwQ-K3oHtS0)
+	- [ ] [GATE CSE 2013 | Binary operation ⊕ Question | Group Theory |GATEOverflow | GOClasses | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=rVWTU8gwpss)
+	- [ ] [GATE CSE IT 2006 | Identity Element | Group Theory | GATE Overflow | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=qyRRNRxvsjQ)
+	- [ ] [GATE CSE 2003 | Binary Operators + and \* | Group Theory | GATE Overflow | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=y31SYpVjp7E)
+	- [ ] [GATE CSE 1988 - Abelian Group | Group Theory | GATE Overflow | GO Classes | Deepak Poonia Sir - YouTube](https://www.youtube.com/watch?v=cmO6Wq0uzNQ)
+	- [ ] [GATE CSE 1992 - Group of Even Order | Group Theory | Discrete Mathematics |GoClasses | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=Ewdz0FQJ14w)

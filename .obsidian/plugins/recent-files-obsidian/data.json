@@ -1,8 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Derived Operations in Relational Algebra",
+      "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Derived Operations in Relational Algebra.md"
+    },
+    {
+      "basename": "Natural Join",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
+    },
+    {
+      "basename": "Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+    },
+    {
+      "basename": "2023-11-16",
+      "path": "daily-agenda/2023-11-16.md"
+    },
+    {
       "basename": "Relational Algebra",
       "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Relational Algebra.md"
+    },
+    {
+      "basename": "Basic Operations in Relational Algebra",
+      "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Basic Operations in Relational Algebra.md"
+    },
+    {
+      "basename": "Procedural and Declarative Query Languages",
+      "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Procedural and Declarative Query Languages.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Divide and Conquer",
+      "path": "Algorithms/Divide-and-Conquer/Divide and Conquer.md"
+    },
+    {
+      "basename": "Algorithms",
+      "path": "Algorithms/Algorithms.md"
+    },
+    {
+      "basename": "Merge Sort",
+      "path": "Algorithms/Divide-and-Conquer/Merge Sort.md"
+    },
+    {
+      "basename": "Time Complexity for Recursive Programs",
+      "path": "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
     },
     {
       "basename": "Pending Lectures",
@@ -11,18 +55,6 @@
     {
       "basename": "2023-11-15",
       "path": "daily-agenda/2023-11-15.md"
-    },
-    {
-      "basename": "Basic Operations in Relational Algebra",
-      "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Basic Operations in Relational Algebra.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
-    },
-    {
-      "basename": "Procedural and Declarative Query Languages",
-      "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Procedural and Declarative Query Languages.md"
     },
     {
       "basename": "Set Operations",
@@ -35,10 +67,6 @@
     {
       "basename": "daily-notes-template",
       "path": "templates/daily-notes-template.md"
-    },
-    {
-      "basename": "Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
     },
     {
       "basename": "Introduction to Theory of Computation",
@@ -79,10 +107,6 @@
     {
       "basename": "Aptitude",
       "path": "Aptitude/Aptitude.md"
-    },
-    {
-      "basename": "Natural Join",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
     },
     {
       "basename": "2023-11-13",
@@ -171,22 +195,6 @@
     {
       "basename": "Fundamentals of Computer Science",
       "path": "Fundamentals of Computer Science/Fundamentals of Computer Science.md"
-    },
-    {
-      "basename": "2023-11-07",
-      "path": "daily-agenda/2023-11-07.md"
-    },
-    {
-      "basename": "2023-11-06",
-      "path": "daily-agenda/2023-11-06.md"
-    },
-    {
-      "basename": "2023-11-05",
-      "path": "daily-agenda/2023-11-05.md"
-    },
-    {
-      "basename": "DDL and DML",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/DDL and DML.md"
     }
   ],
   "omittedPaths": [],

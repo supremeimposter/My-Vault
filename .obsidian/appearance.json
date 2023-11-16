@@ -2,7 +2,7 @@
   "accentColor": "#2f909d",
   "cssTheme": "Border",
   "showViewHeader": true,
-  "theme": "obsidian",
+  "theme": "moonstone",
   "baseFontSize": 18,
   "enabledCssSnippets": [
     "custom-callout",
