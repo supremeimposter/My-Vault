@@ -1,36 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-11-17",
+      "path": "daily-agenda/2023-11-17.md"
+    },
+    {
       "basename": "Derived Operations in Relational Algebra",
       "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Derived Operations in Relational Algebra.md"
     },
     {
-      "basename": "Natural Join",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
+      "basename": "GATE-LOG",
+      "path": "GATE-LOG.md"
     },
     {
-      "basename": "Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
-    },
-    {
-      "basename": "2023-11-16",
-      "path": "daily-agenda/2023-11-16.md"
-    },
-    {
-      "basename": "Relational Algebra",
-      "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Relational Algebra.md"
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "Basic Operations in Relational Algebra",
       "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Basic Operations in Relational Algebra.md"
     },
     {
+      "basename": "Natural Join",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
+    },
+    {
       "basename": "Procedural and Declarative Query Languages",
       "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Procedural and Declarative Query Languages.md"
     },
     {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
+      "basename": "2023-11-16",
+      "path": "daily-agenda/2023-11-16.md"
+    },
+    {
+      "basename": "daily-notes-template",
+      "path": "templates/daily-notes-template.md"
+    },
+    {
+      "basename": "Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+    },
+    {
+      "basename": "Relational Algebra",
+      "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Relational Algebra.md"
     },
     {
       "basename": "Divide and Conquer",
@@ -63,10 +75,6 @@
     {
       "basename": "Three Levels of Schema",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md"
-    },
-    {
-      "basename": "daily-notes-template",
-      "path": "templates/daily-notes-template.md"
     },
     {
       "basename": "Introduction to Theory of Computation",
@@ -123,10 +131,6 @@
     {
       "basename": "Tautology in FOL",
       "path": "DiscreteMathematics/First-Order-Logic/Tautology in FOL.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE-LOG.md"
     },
     {
       "basename": "Temporary Plan",

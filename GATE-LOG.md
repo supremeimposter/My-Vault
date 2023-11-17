@@ -102,3 +102,5 @@
 **November 10, 2023** File formatting can be done later after finishing the notes from the PDF. Do not worry about it too much. 
 
 **November 12, 2023** Stop trying to template or generalize everything you learn. You are not writing a book that is to be published. You are constructing your knowledge base that you can understand. 
+
+**November 17, 2023** Deepak Sir is a Movie-buff.

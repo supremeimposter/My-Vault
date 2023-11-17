@@ -338,6 +338,17 @@
       "command": false,
       "injectColor": true,
       "noTitle": false
+    },
+    "timer": {
+      "type": "timer",
+      "color": "#7d7d7d",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-timer"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,
