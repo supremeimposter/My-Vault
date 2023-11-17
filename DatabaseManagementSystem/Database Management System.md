@@ -20,7 +20,7 @@ tags:
 - [[Three Levels of Schema]]
 
 
-# Module 2 - Queries - Relational Algebra
+# Module 2 - Relational Algebra
 - [[Procedural and Declarative Query Languages]]
 - [[Relational Algebra]]
 - [[Basic Operations in Relational Algebra]]
@@ -30,7 +30,7 @@ tags:
 
 ---
 
-## References
+# References
 [DBMS : Decomposition of a Relation | Non-Binary Decomposition | The Chase Test for Lossless Join Decomposition | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjweUdD-fgcdD-oMiylqE9t)
 
 
