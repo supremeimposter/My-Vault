@@ -3,18 +3,19 @@ date: "{{date}}-{{time}}"
 ---
 
 # Task List
+> [!col]
+> - [ ] 
+> - [ ] 
+> - [ ] 
+> - [ ] 
+> 
+>> [!col-md] 
+> - [ ] 
+> - [ ] 
+> - [ ] 
+> - [ ] 
 
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-Focus time : `` hrs
+> [!timer] Focus time : `` hrs
 
 # My thoughts on today
 
