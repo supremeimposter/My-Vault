@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "dashboard-template",
+      "path": "templates/dashboard-template.md"
+    },
+    {
       "basename": "2023-11-17",
       "path": "daily-agenda/2023-11-17.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "GATE-LOG",
       "path": "GATE-LOG.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "Basic Operations in Relational Algebra",
@@ -195,10 +199,6 @@
     {
       "basename": "Discrete Mathematics",
       "path": "DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
-      "basename": "Fundamentals of Computer Science",
-      "path": "Fundamentals of Computer Science/Fundamentals of Computer Science.md"
     }
   ],
   "omittedPaths": [],
