@@ -20,7 +20,6 @@ tags:
 - It is denoted by ${} \sigma_p(r) {}$
 - It is an unary operator.
 - Select the desired tuples and discard the remaining tuples. (Horizontal Partition)
-
 $$
 S = \sigma_{condition} (r)
 $$
@@ -43,7 +42,8 @@ $$
 - It removes duplicates tuples in the resultant relation.
 
 
-> [!search] Extended Projection
+> [!search] 
+> Extended Projection in Relational Algebra
 
 ## Properties
 - It is NOT commutative.
@@ -71,7 +71,7 @@ $$
 - Set union is commutative though the schema is different. We are concerned only about the data.
 
 ## Set Intersection
-- Set intersection is not a basic operation.
+- Set intersection is not a basic operation. It is a derived operation.
 
 ## Set Difference
 

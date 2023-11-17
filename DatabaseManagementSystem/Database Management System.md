@@ -33,4 +33,10 @@ tags:
 ## References
 [DBMS : Decomposition of a Relation | Non-Binary Decomposition | The Chase Test for Lossless Join Decomposition | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjweUdD-fgcdD-oMiylqE9t)
 
+
+Navathe
+Korth
+Raguramakrishna
+Ullman
+
 ---

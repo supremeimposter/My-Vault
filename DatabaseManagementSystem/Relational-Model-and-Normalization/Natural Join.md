@@ -16,9 +16,8 @@ tags:
 # Natural Join
 > [!lecture] Lecture-7A
 
-- If two relations $R$ and $S {}$ have no attributes in common, then combine every row of $R {}$ with every row of $S$.
+- If two relations $R$ and $S {}$ have no attributes in common, then combine every row of $R {}$ with every row of $S$ i.e. ${} R \times S {}$
 
 ![[Natural Join-20231112170414169.webp]]
-
 
 ---
