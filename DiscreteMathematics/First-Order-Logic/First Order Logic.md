@@ -2,19 +2,4 @@
 - First Order logic overcomes the [[Limitations of Propositional Logic |limitations]] that propositional logic poses.
 - We need a better logic for our real world that deals with objects, the domain in which they reside, their properties, the relationship between various objects, the transformations (functions) on objects and quantification (reason about multiple objects).
 
-----
-- [[Features of First Order Logic]]
-- [[Quantifiers]]
-	- [[Bounded and Free Variables]]
-- [[English-FOL Translation]]
-	- [[Numerical-FOL Translation]]
-	- [[Nested Quantifiers]]
-	- [[Negation of Quantifiers]]
-- [[Validity of FOL expressions]]
-	- [[Equivalence of FOL expressions]]
-- [[Null Quantification]]
-- [[Arguments in FOL]]
-
-
-- [[Doubts - FOL]]
 ---

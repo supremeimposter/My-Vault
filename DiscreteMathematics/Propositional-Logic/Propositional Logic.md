@@ -60,20 +60,3 @@ Questions such as "the given sentence is proposition or not" will never be asked
 - The order of the combinations does not matter. But a standard order of binary numbers can be followed to avoid confusion in which 0 means False and 1 means True.
 
 ![[Pasted image 20230911134824.png]]
-
-
-- [[Propositional Variables vs Propositional Formulae]]
-- [[Logical Connectives]]
-- [[Converse, Inverse and Contra-positive]]
-- [[Classes of Propositional Expressions]]
-	- [[Tautology in PL]]
-	- [[Contradiction]]
-	- [[Contingency]]
-- [[Logical Equivalence]]
-	- [[Important Logical Equivalences]]
-	- [[Analysis of Equivalence of Propositions]]
-- [[Satisfiable and Falsifiable]]
-- [[English - Propositional Logic Translation]]
-- [[Write expressions from Tables]]
-- [[Arguments and Inference]]
-	- [[Rules of Inference]]
