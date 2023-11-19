@@ -4,6 +4,7 @@ version:
 instructor: SachinMittal
 tags:
   - ALGO
+  - GATE/Dashboard
 ---
 # Algorithms
 - Algorithms are a step by step instructions that are terminated after a finite number of steps.

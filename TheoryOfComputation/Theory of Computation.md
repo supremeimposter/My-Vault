@@ -1,7 +1,11 @@
 ---
 pdf: 
 date: 2023-09-26-21:14
-version: TOC-24
+version:
+  - TOC-24
+tags:
+  - TOC
+  - GATE/Dashboard
 ---
 
 # Module 1 - Regular Languages and Finite Automata

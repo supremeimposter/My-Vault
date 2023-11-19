@@ -4,6 +4,7 @@ version:
 instructor: DeepakPoonia
 tags:
   - DBMS
+  - GATE/Dashboard
 ---
 
 # Module 1 - Relational Model and Normalization

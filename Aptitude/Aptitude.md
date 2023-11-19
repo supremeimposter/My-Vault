@@ -3,6 +3,7 @@ version:
 instructor: 
 tags:
   - Aptitude
+  - GATE/Dashboard
 ---
 
 - Quantitative 
