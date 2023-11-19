@@ -5,6 +5,7 @@ version:
 instructor: DeepakPoonia
 tags:
   - DM
+  - GATE/Dashboard
 ---
 # Discrete Mathematics
 - Study of discrete objects
