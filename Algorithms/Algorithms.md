@@ -18,6 +18,7 @@ tags:
 
 ### Divide and Conquer
 - [[Divide and Conquer]]
+- [[Merge Sort]]
 
 
 ---
