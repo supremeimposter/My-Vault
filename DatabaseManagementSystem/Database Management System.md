@@ -19,13 +19,15 @@ tags:
 - [[Decomposition into Normal Forms]]
 - [[Three Levels of Schema]]
 
-
 # Module 2 - Relational Algebra
 - [[Procedural and Declarative Query Languages]]
 - [[Relational Algebra]]
 - [[Basic Operations in Relational Algebra]]
 - [[Derived Operations in Relational Algebra]]
+- [[Relational Algebra Queries]]
 
+# Module 3 - Tuple Relational Calculus
+- [[Tuple Relational Calculus]]
 
 
 ---
@@ -36,7 +38,7 @@ tags:
 
 Navathe
 Korth
-Raguramakrishna
-Ullman
+Raguramakrishna - For writing queries
+Ullman - For concepts
 
 ---

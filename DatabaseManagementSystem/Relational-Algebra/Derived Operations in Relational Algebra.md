@@ -36,6 +36,9 @@ $$
 - Conditional join is called Equi join, if $c {}$ only contains equality condition.
 - Every Equi join is a conditional join.
 
+> [!conflict] 
+> In `Raghuramakrishna` book, the redundant attributes are not included in the final resultant schema of Equi Join
+
 ## Natural Join
 ![[Natural Join#Natural Join]]
 - Natural Join is equality of common attributes.
@@ -87,8 +90,9 @@ $$
 - First perform the condition ${} \theta {}$ and then perform the outer join.
 - Conditional Outer Join = Conditional Join + dangling tuples of both relations.
 
-
-> [!summary] Summary of Inner and Outer Joins
-
-
 ## Outer Join using Basic Operations
+
+
+# Summary
+
+- In natural join, if there are no common attributes, then ${} R \bowtie S = R \times S {}$.

@@ -90,6 +90,13 @@ $$
 
 # Rename Operation
 - It is denoted as ${} \rho_S (R) {}$. 
-- A new copy of the relation $R$ is created under the name $S$.
+- A new copy of the relation $R$ is created under the name $S {}$.
 - Attributes can also be changed.
 - A copy of the relation can also be renamed in the main memory.
+
+
+# Summary of Basic Operations
+- The below conditions are equivalent iff the condition ${} c {}$ acts only on the attributes of $A$
+$$
+\sigma_c\;(\Pi_A \;R) \equiv \Pi_A\;(\sigma_c\;R)
+$$
