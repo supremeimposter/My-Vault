@@ -1,8 +1,68 @@
 {
   "recentFiles": [
     {
+      "basename": "Combinatronics",
+      "path": "DiscreteMathematics/Combinatronics/Combinatronics.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "First Order Logic",
+      "path": "DiscreteMathematics/First-Order-Logic/First Order Logic.md"
+    },
+    {
+      "basename": "Limitations of Propositional Logic",
+      "path": "DiscreteMathematics/Propositional-Logic/Limitations of Propositional Logic.md"
+    },
+    {
+      "basename": "Propositional Logic",
+      "path": "DiscreteMathematics/Propositional-Logic/Propositional Logic.md"
+    },
+    {
+      "basename": "Tuple Relational Calculus",
+      "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
+    },
+    {
       "basename": "Database Management System",
       "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Merge Sort",
+      "path": "Algorithms/Divide-and-Conquer/Merge Sort.md"
+    },
+    {
+      "basename": "Algorithms",
+      "path": "Algorithms/Algorithms.md"
+    },
+    {
+      "basename": "Procedural and Declarative Query Languages",
+      "path": "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md"
+    },
+    {
+      "basename": "2023-11-19",
+      "path": "daily-agenda/2023-11-19.md"
+    },
+    {
+      "basename": "Relational Algebra Queries",
+      "path": "DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md"
+    },
+    {
+      "basename": "2023-11-18",
+      "path": "daily-agenda/2023-11-18.md"
+    },
+    {
+      "basename": "Derived Operations in Relational Algebra",
+      "path": "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md"
+    },
+    {
+      "basename": "Set Operations",
+      "path": "DiscreteMathematics/Set-Theory/Set Operations.md"
+    },
+    {
+      "basename": "Basic Operations in Relational Algebra",
+      "path": "DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md"
     },
     {
       "basename": "dashboard-template",
@@ -13,24 +73,12 @@
       "path": "daily-agenda/2023-11-17.md"
     },
     {
-      "basename": "Derived Operations in Relational Algebra",
-      "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Derived Operations in Relational Algebra.md"
-    },
-    {
       "basename": "GATE-LOG",
       "path": "GATE-LOG.md"
     },
     {
-      "basename": "Basic Operations in Relational Algebra",
-      "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Basic Operations in Relational Algebra.md"
-    },
-    {
       "basename": "Natural Join",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
-    },
-    {
-      "basename": "Procedural and Declarative Query Languages",
-      "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Procedural and Declarative Query Languages.md"
     },
     {
       "basename": "2023-11-16",
@@ -46,19 +94,11 @@
     },
     {
       "basename": "Relational Algebra",
-      "path": "DatabaseManagementSystem/Queries-Relational-Algebra/Relational Algebra.md"
+      "path": "DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md"
     },
     {
       "basename": "Divide and Conquer",
       "path": "Algorithms/Divide-and-Conquer/Divide and Conquer.md"
-    },
-    {
-      "basename": "Algorithms",
-      "path": "Algorithms/Algorithms.md"
-    },
-    {
-      "basename": "Merge Sort",
-      "path": "Algorithms/Divide-and-Conquer/Merge Sort.md"
     },
     {
       "basename": "Time Complexity for Recursive Programs",
@@ -71,10 +111,6 @@
     {
       "basename": "2023-11-15",
       "path": "daily-agenda/2023-11-15.md"
-    },
-    {
-      "basename": "Set Operations",
-      "path": "DiscreteMathematics/Set-Theory/Set Operations.md"
     },
     {
       "basename": "Three Levels of Schema",
@@ -151,54 +187,6 @@
     {
       "basename": "2023-11-11",
       "path": "daily-agenda/2023-11-11.md"
-    },
-    {
-      "basename": "Group Theory",
-      "path": "DiscreteMathematics/Group Theory.md"
-    },
-    {
-      "basename": "Implication",
-      "path": "DiscreteMathematics/Propositional-Logic/Implication.md"
-    },
-    {
-      "basename": "Arguments and Inference",
-      "path": "DiscreteMathematics/Propositional-Logic/Arguments and Inference.md"
-    },
-    {
-      "basename": "2023-11-10",
-      "path": "daily-agenda/2023-11-10.md"
-    },
-    {
-      "basename": "Pending Notes",
-      "path": "Pending Notes.md"
-    },
-    {
-      "basename": "Semi-Group",
-      "path": "DiscreteMathematics/Group Theory/Semi-Group.md"
-    },
-    {
-      "basename": "Practice Set",
-      "path": "DiscreteMathematics/Group Theory/Practice Set.md"
-    },
-    {
-      "basename": "Properties",
-      "path": "DiscreteMathematics/Group Theory/Properties.md"
-    },
-    {
-      "basename": "Abstract Algebra",
-      "path": "DiscreteMathematics/Group Theory/Abstract Algebra.md"
-    },
-    {
-      "basename": "Monoid",
-      "path": "DiscreteMathematics/Group Theory/Monoid.md"
-    },
-    {
-      "basename": "2023-11-08",
-      "path": "daily-agenda/2023-11-08.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "DiscreteMathematics/Discrete Mathematics.md"
     }
   ],
   "omittedPaths": [],

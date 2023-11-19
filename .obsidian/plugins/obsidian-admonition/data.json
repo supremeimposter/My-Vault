@@ -92,13 +92,13 @@
     },
     "lecture": {
       "type": "lecture",
-      "color": "77, 113, 219",
+      "color": "77, 101, 219",
       "icon": {
-        "name": "video",
+        "name": "gofore",
         "type": "font-awesome"
       },
       "command": false,
-      "title": "Lecture",
+      "title": "Go-classes",
       "injectColor": true,
       "noTitle": false,
       "copy": false
