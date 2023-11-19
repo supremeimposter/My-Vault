@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Combinatronics",
-      "path": "DiscreteMathematics/Combinatronics/Combinatronics.md"
+      "basename": "2023-11-19",
+      "path": "daily-agenda/2023-11-19.md"
+    },
+    {
+      "basename": "Tuple Relational Calculus",
+      "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "Discrete Mathematics",
       "path": "DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Theory of Computation",
+      "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Links for Resources",
+      "path": "GATE-materials/Links for Resources.md"
+    },
+    {
+      "basename": "Fundamentals of Computer Science",
+      "path": "Fundamentals of Computer Science/Fundamentals of Computer Science.md"
+    },
+    {
+      "basename": "C",
+      "path": "C/C.md"
+    },
+    {
+      "basename": "Aptitude",
+      "path": "Aptitude/Aptitude.md"
+    },
+    {
+      "basename": "Algorithms",
+      "path": "Algorithms/Algorithms.md"
+    },
+    {
+      "basename": "Combinatronics",
+      "path": "DiscreteMathematics/Combinatronics/Combinatronics.md"
     },
     {
       "basename": "First Order Logic",
@@ -21,28 +57,12 @@
       "path": "DiscreteMathematics/Propositional-Logic/Propositional Logic.md"
     },
     {
-      "basename": "Tuple Relational Calculus",
-      "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
-    },
-    {
       "basename": "Merge Sort",
       "path": "Algorithms/Divide-and-Conquer/Merge Sort.md"
     },
     {
-      "basename": "Algorithms",
-      "path": "Algorithms/Algorithms.md"
-    },
-    {
       "basename": "Procedural and Declarative Query Languages",
       "path": "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md"
-    },
-    {
-      "basename": "2023-11-19",
-      "path": "daily-agenda/2023-11-19.md"
     },
     {
       "basename": "Relational Algebra Queries",
@@ -153,10 +173,6 @@
       "path": "GATE-CS.md"
     },
     {
-      "basename": "Aptitude",
-      "path": "Aptitude/Aptitude.md"
-    },
-    {
       "basename": "2023-11-13",
       "path": "daily-agenda/2023-11-13.md"
     },
@@ -175,10 +191,6 @@
     {
       "basename": "Temporary Plan",
       "path": "Temporary Plan.md"
-    },
-    {
-      "basename": "Links for Resources",
-      "path": "GATE-materials/Links for Resources.md"
     },
     {
       "basename": "Group",

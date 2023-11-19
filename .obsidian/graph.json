@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#ALGO  ",
@@ -48,6 +48,20 @@
         "a": 1,
         "rgb": 5419488
       }
+    },
+    {
+      "query": "tag:#DM/Combinatronics  ",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    },
+    {
+      "query": "tag:#GATE/Dashboard  ",
+      "color": {
+        "a": 1,
+        "rgb": 11361494
+      }
     }
   ],
   "collapse-display": false,
@@ -60,6 +74,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.36340770974911646,
+  "scale": 0.42023624241153723,
   "close": true
 }

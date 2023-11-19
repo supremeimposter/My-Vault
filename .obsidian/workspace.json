@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "71a6e46d708cbc93",
+            "id": "fc1dbfa00b75e4c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Discrete Mathematics.md",
+                "file": "daily-agenda/2023-11-19.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,20 +21,32 @@
             }
           },
           {
-            "id": "55dc0798f62160f2",
+            "id": "bd3d450a83774484",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Combinatronics/Combinatronics.md",
+                "file": "DatabaseManagementSystem/Database Management System.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e62bc473a050aedc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +108,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -117,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Combinatronics/Combinatronics.md",
+                "file": "daily-agenda/2023-11-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Combinatronics/Combinatronics.md",
+                "file": "daily-agenda/2023-11-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Combinatronics/Combinatronics.md"
+                "file": "daily-agenda/2023-11-19.md"
               }
             }
           },
@@ -219,10 +232,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "55dc0798f62160f2",
+  "active": "fc1dbfa00b75e4c9",
   "lastOpenFiles": [
+    "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
+    "attachments/Tuple Relational Calculus-20231119214519342.webp",
+    "attachments/Tuple Relational Calculus-20231119212912762.webp",
+    "DatabaseManagementSystem/Database Management System.md",
+    "daily-agenda/2023-11-19.md",
     "DiscreteMathematics/Discrete Mathematics.md",
+    "TheoryOfComputation/Theory of Computation.md",
+    "GATE-materials/Links for Resources.md",
+    "Fundamentals of Computer Science/Fundamentals of Computer Science.md",
+    "C/C.md",
+    "Aptitude/Aptitude.md",
+    "Algorithms/Algorithms.md",
     "DiscreteMathematics/Combinatronics/Combinatronics.md",
+    "attachments/Combinatronics-20231119165212742.webp",
     "DiscreteMathematics/Group Theory.md",
     "DiscreteMathematics/Functions.md",
     "DiscreteMathematics/Set Theory.md",
@@ -231,24 +256,14 @@
     "DiscreteMathematics/Propositional-Logic/Limitations of Propositional Logic.md",
     "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
     "DiscreteMathematics/Combinatronics",
-    "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
-    "DatabaseManagementSystem/Database Management System.md",
     "Algorithms/Divide-and-Conquer/Merge Sort.md",
-    "Algorithms/Algorithms.md",
     "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md",
-    "daily-agenda/2023-11-19.md",
     "DatabaseManagementSystem/Tuple-Relational-Calculus",
     "DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md",
     "daily-agenda/2023-11-18.md",
     "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
     "DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md",
-    "templates/dashboard-template.md",
-    "daily-agenda/2023-11-17.md",
-    "GATE-LOG.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
-    "daily-agenda/2023-11-16.md",
-    "templates/daily-notes-template.md",
     "attachments/Relational Algebra-20231115162732676.webp",
     "DatabaseManagementSystem/Relational-Algebra",
     "attachments/Three Levels of Schema-20231115085742091.webp",
@@ -257,9 +272,6 @@
     "attachments/Decomposition into Normal Forms-20231114153105512.webp",
     "attachments/Decomposition into Normal Forms-20231114152611706.webp",
     "attachments/Decomposition into Normal Forms-20231114101126130.webp",
-    "attachments/Functional Dependency-20231113155602892.webp",
-    "attachments/Functional Dependency-20231113155546133.webp",
-    "attachments/Functional Dependency-20231113155230305.webp",
     "DiscreteMathematics/Group Theory",
     "DiscreteMathematics/Functions",
     "DatabaseManagementSystem/Relational-Model-and-Normalization",
