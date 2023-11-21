@@ -34,3 +34,8 @@ $$
 
 > [!discussion] Lecture-3A
 > ![[Combinatronics-20231119165212742.webp]]
+
+### Subtraction Rule
+> [!lecture] Lecture-4
+
+
