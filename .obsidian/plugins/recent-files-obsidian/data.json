@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2023-11-19",
-      "path": "daily-agenda/2023-11-19.md"
+      "basename": "Combinatronics",
+      "path": "DiscreteMathematics/Combinatronics/Combinatronics.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "2023-11-21",
+      "path": "daily-agenda/2023-11-21.md"
     },
     {
       "basename": "Tuple Relational Calculus",
@@ -13,8 +21,44 @@
       "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
-      "basename": "Discrete Mathematics",
-      "path": "DiscreteMathematics/Discrete Mathematics.md"
+      "basename": "GATE-LOG",
+      "path": "GATE-LOG.md"
+    },
+    {
+      "basename": "Functional Dependency",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+    },
+    {
+      "basename": "Normal Forms",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
+    },
+    {
+      "basename": "DDL and DML",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/DDL and DML.md"
+    },
+    {
+      "basename": "Three Levels of Schema",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md"
+    },
+    {
+      "basename": "Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+    },
+    {
+      "basename": "Introduction to DBMS",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
+    },
+    {
+      "basename": "2023-11-20",
+      "path": "daily-agenda/2023-11-20.md"
+    },
+    {
+      "basename": "Derived Operations in Relational Algebra",
+      "path": "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md"
+    },
+    {
+      "basename": "2023-11-19",
+      "path": "daily-agenda/2023-11-19.md"
     },
     {
       "basename": "Theory of Computation",
@@ -39,10 +83,6 @@
     {
       "basename": "Algorithms",
       "path": "Algorithms/Algorithms.md"
-    },
-    {
-      "basename": "Combinatronics",
-      "path": "DiscreteMathematics/Combinatronics/Combinatronics.md"
     },
     {
       "basename": "First Order Logic",
@@ -73,10 +113,6 @@
       "path": "daily-agenda/2023-11-18.md"
     },
     {
-      "basename": "Derived Operations in Relational Algebra",
-      "path": "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md"
-    },
-    {
       "basename": "Set Operations",
       "path": "DiscreteMathematics/Set-Theory/Set Operations.md"
     },
@@ -93,10 +129,6 @@
       "path": "daily-agenda/2023-11-17.md"
     },
     {
-      "basename": "GATE-LOG",
-      "path": "GATE-LOG.md"
-    },
-    {
       "basename": "Natural Join",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
     },
@@ -107,10 +139,6 @@
     {
       "basename": "daily-notes-template",
       "path": "templates/daily-notes-template.md"
-    },
-    {
-      "basename": "Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
     },
     {
       "basename": "Relational Algebra",
@@ -133,10 +161,6 @@
       "path": "daily-agenda/2023-11-15.md"
     },
     {
-      "basename": "Three Levels of Schema",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md"
-    },
-    {
       "basename": "Introduction to Theory of Computation",
       "path": "TheoryOfComputation/Introduction to Theory of Computation.md"
     },
@@ -157,14 +181,6 @@
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md"
     },
     {
-      "basename": "Normal Forms",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
-    },
-    {
-      "basename": "Functional Dependency",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
-    },
-    {
       "basename": "Verbal-Ability",
       "path": "Aptitude/Verbal-Ability/Verbal-Ability.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Constraints in Relational Model",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
-    },
-    {
-      "basename": "Tautology in FOL",
-      "path": "DiscreteMathematics/First-Order-Logic/Tautology in FOL.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "Temporary Plan.md"
-    },
-    {
-      "basename": "Group",
-      "path": "DiscreteMathematics/Group Theory/Group.md"
-    },
-    {
-      "basename": "2023-11-11",
-      "path": "daily-agenda/2023-11-11.md"
     }
   ],
   "omittedPaths": [],

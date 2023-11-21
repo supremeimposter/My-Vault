@@ -104,3 +104,5 @@
 **November 12, 2023** Stop trying to template or generalize everything you learn. You are not writing a book that is to be published. You are constructing your knowledge base that you can understand. 
 
 **November 17, 2023** Deepak Sir is a Movie-buff.
+
+**November 21, 2023** "When you see someone making great progress, don't assume that they are outstanding students, their works are standing out. Don't convince yourself that you are enough. Put their hard word and evaluate yourself" - Deepak Poonia.
