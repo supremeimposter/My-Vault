@@ -64,7 +64,7 @@ $$
 
 - It is called Healy's division
 $$
-\frac{R(A, B)}{S(B)} = Q(A) = \Pi_A \; (R) - \Pi_A \; [\=;(\Pi_A \;(R) \times S\;) - R\;]
+\frac{R(A, B)}{S(B)} = Q(A) = \Pi_A \; (R) - \Pi_A \; [\;(\Pi_A \;(R) \times S\;) - R\;]
 $$
 
 - It is called Maier's division
