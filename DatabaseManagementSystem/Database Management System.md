@@ -27,8 +27,9 @@ tags:
 - [[Derived Operations in Relational Algebra]]
 - [[Relational Algebra Queries]]
 
-# Module 3 - Tuple Relational Calculus
+# Module 3 - Relational Calculus
 - [[Tuple Relational Calculus]]
+- [[TRC for Relational Algebra]]
 
 
 ---

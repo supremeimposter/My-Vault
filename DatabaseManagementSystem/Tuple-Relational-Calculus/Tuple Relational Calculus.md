@@ -21,42 +21,38 @@ tags:
 - There are two standard ways to write every TRC query.
 - Relational Algebra operators are NOT allowed in Tuple Relational Calculus queries. If it is given, then focus on understanding of the query.
 
-## Way 1
+---
+## TRC 1
 - Logic ${} \rightarrow {}$ Result
 
-## Way 2
+## TRC 2
 - Result ${} \rightarrow {}$ Logic
 - From the relation $R$, there is a tuple $x$ which leads to the resultant relation $A$.
 - From the resultant relation $A$ out of ${} R {}$, we write a query for a tuple $t$ in ${} A$.
 - The schema of a tuple $t$ is $A$.
+- The variables $t$ is a free variable. It can never be bounded.
 - Write a query from the logic.
 
 > [!attention] 
-> No condition is **implicit** in Way 2. Mention the condition to supply the value to the output in the query.
+> No condition is **implicit** in TRC 2. Mention the condition to supply the value to the output in the query.
 
-## Examples
+---
+## Safe and Unsafe Query
+````col
+```col-md
+flexGrow=1
+===
+### Safe Query
+If a TRC query provides data that is in the database then that TRC query is **safe**.
+```
+```col-md
+flexGrow=1
+===
+### Unsafe Query
+If a TRC query provides any data that is NOT in the database then that TRC query is **unsafe**.
+```
+````
 
-> [!example] 
-> ![[Tuple Relational Calculus-20231119212912762.webp]]
-
-> [!example] 
-> ![[Tuple Relational Calculus-20231119214519342.webp]]
-
-- Division operator
-![[Tuple Relational Calculus-20231121091724946.webp]]
-
-![[Tuple Relational Calculus-20231121091742922.webp]]
-
-
-> [!example] 
-> ![[Tuple Relational Calculus-20231121215802955.webp]]
-
-![[Tuple Relational Calculus-20231121215952987.webp]]
-![[Tuple Relational Calculus-20231121220201107.webp]]
-
-
-> [!example] 
-> ![[Tuple Relational Calculus-20231121223821283.webp]]
-
-![[Tuple Relational Calculus-20231121223849844.webp]]
-![[Tuple Relational Calculus-20231121223911373.webp]]
+- If a TRC query provides infinite number of tuples, then that query is guaranteed to be unsafe. Because data in database is finite.
+- [[Relational Algebra]] has the same expressive power as safe TRC query and as safe DRC query.
+- All TRC queries have greater expressive power than Relational Algebra.
