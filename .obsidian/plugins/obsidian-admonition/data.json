@@ -94,7 +94,7 @@
       "type": "lecture",
       "color": "77, 101, 219",
       "icon": {
-        "name": "gofore",
+        "name": "video",
         "type": "font-awesome"
       },
       "command": false,

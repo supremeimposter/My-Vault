@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "418f0bf808b6aa84",
+        "id": "658ea9d939138935",
         "type": "tabs",
         "children": [
           {
-            "id": "939ea5de3a5d16f4",
+            "id": "2280ae9adb1e9a9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Discrete Mathematics.md",
+                "file": "DatabaseManagementSystem/Database Management System.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "19dfe4e8f6fbce17",
+            "id": "a4af37c7a2aa7d6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiscreteMathematics/Combinatronics/Combinatronics.md",
+                "file": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,7 +97,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DiscreteMathematics/Combinatronics/Combinatronics.md",
+                "file": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DiscreteMathematics/Combinatronics/Combinatronics.md",
+                "file": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DiscreteMathematics/Combinatronics/Combinatronics.md"
+                "file": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
               }
             }
           },
@@ -220,20 +220,28 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "19dfe4e8f6fbce17",
+  "active": "a4af37c7a2aa7d6c",
   "lastOpenFiles": [
-    "DiscreteMathematics/Discrete Mathematics.md",
-    "DiscreteMathematics/Combinatronics/Combinatronics.md",
-    "daily-agenda/2023-11-21.md",
+    "daily-agenda/2023-11-22.md",
     "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
     "DatabaseManagementSystem/Database Management System.md",
+    "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md",
+    "DatabaseManagementSystem/Tuple-Relational-Calculus/TRC for Relational Algebra.md",
+    "attachments/Tuple Relational Calculus-20231121220201107.webp",
+    "DiscreteMathematics/Discrete Mathematics.md",
+    "DiscreteMathematics/Functions/Function Definition.md",
+    "DiscreteMathematics/Combinatronics/Combinatronics.md",
+    "attachments/Combinatronics-20231122135618297.webp",
+    "attachments/Combinatronics-20231122135558284.webp",
+    "attachments/Combinatronics-20231122111500579.webp",
+    "DiscreteMathematics/Functions/Types of Functions.md",
+    "attachments/Combinatronics-20231122105623119.webp",
+    "daily-agenda/2023-11-21.md",
     "attachments/Tuple Relational Calculus-20231121223911373.webp",
     "attachments/Tuple Relational Calculus-20231121223849844.webp",
     "attachments/Tuple Relational Calculus-20231121223821283.webp",
-    "attachments/Tuple Relational Calculus-20231121220201107.webp",
     "attachments/Tuple Relational Calculus-20231121215952987.webp",
     "attachments/Tuple Relational Calculus-20231121215846563.webp",
-    "attachments/Tuple Relational Calculus-20231121215802955.webp",
     "GATE-LOG.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
@@ -241,9 +249,6 @@
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
-    "attachments/Tuple Relational Calculus-20231121091742922.webp",
-    "attachments/Tuple Relational Calculus-20231121091724946.webp",
-    "attachments/Tuple Relational Calculus-20231121090748485.webp",
     "daily-agenda/2023-11-20.md",
     "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
     "daily-agenda/2023-11-19.md",
@@ -253,10 +258,6 @@
     "C/C.md",
     "Aptitude/Aptitude.md",
     "Algorithms/Algorithms.md",
-    "DiscreteMathematics/Group Theory.md",
-    "DiscreteMathematics/Functions.md",
-    "DiscreteMathematics/Set Theory.md",
-    "DiscreteMathematics/Mathematical Logic.md",
     "DiscreteMathematics/Combinatronics",
     "DatabaseManagementSystem/Tuple-Relational-Calculus",
     "DatabaseManagementSystem/Relational-Algebra",

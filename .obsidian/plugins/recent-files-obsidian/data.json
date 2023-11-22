@@ -1,24 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Combinatronics",
-      "path": "DiscreteMathematics/Combinatronics/Combinatronics.md"
+      "basename": "Tuple Relational Calculus",
+      "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
+    },
+    {
+      "basename": "2023-11-22",
+      "path": "daily-agenda/2023-11-22.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Procedural and Declarative Query Languages",
+      "path": "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md"
+    },
+    {
+      "basename": "TRC for Relational Algebra",
+      "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/TRC for Relational Algebra.md"
+    },
+    {
+      "basename": "Tuple Relational Calculus-20231121220201107",
+      "path": "attachments/Tuple Relational Calculus-20231121220201107.webp"
     },
     {
       "basename": "Discrete Mathematics",
       "path": "DiscreteMathematics/Discrete Mathematics.md"
     },
     {
+      "basename": "Function Definition",
+      "path": "DiscreteMathematics/Functions/Function Definition.md"
+    },
+    {
+      "basename": "Combinatronics",
+      "path": "DiscreteMathematics/Combinatronics/Combinatronics.md"
+    },
+    {
+      "basename": "Types of Functions",
+      "path": "DiscreteMathematics/Functions/Types of Functions.md"
+    },
+    {
       "basename": "2023-11-21",
       "path": "daily-agenda/2023-11-21.md"
-    },
-    {
-      "basename": "Tuple Relational Calculus",
-      "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "GATE-LOG",
@@ -101,10 +125,6 @@
       "path": "Algorithms/Divide-and-Conquer/Merge Sort.md"
     },
     {
-      "basename": "Procedural and Declarative Query Languages",
-      "path": "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md"
-    },
-    {
       "basename": "Relational Algebra Queries",
       "path": "DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Decomposition into Normal Forms",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md"
-    },
-    {
-      "basename": "Verbal-Ability",
-      "path": "Aptitude/Verbal-Ability/Verbal-Ability.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE-CS.md"
-    },
-    {
-      "basename": "2023-11-13",
-      "path": "daily-agenda/2023-11-13.md"
-    },
-    {
-      "basename": "2023-11-12",
-      "path": "daily-agenda/2023-11-12.md"
-    },
-    {
-      "basename": "Constraints in Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
     }
   ],
   "omittedPaths": [],
