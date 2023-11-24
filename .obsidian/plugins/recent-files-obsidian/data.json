@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Tuple Relational Calculus",
-      "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
+      "basename": "SQL Queries",
+      "path": "DatabaseManagementSystem/SQL Queries.md"
     },
     {
-      "basename": "2023-11-22",
-      "path": "daily-agenda/2023-11-22.md"
+      "basename": "Set Definition",
+      "path": "DiscreteMathematics/Set-Theory/Set Definition.md"
     },
     {
       "basename": "Database Management System",
@@ -17,16 +17,36 @@
       "path": "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md"
     },
     {
+      "basename": "Structured Query Language",
+      "path": "DatabaseManagementSystem/SQL/Structured Query Language.md"
+    },
+    {
+      "basename": "Constraints in Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
+    },
+    {
+      "basename": "Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Tuple Relational Calculus",
+      "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
+    },
+    {
+      "basename": "2023-11-22",
+      "path": "daily-agenda/2023-11-22.md"
+    },
+    {
       "basename": "TRC for Relational Algebra",
       "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/TRC for Relational Algebra.md"
     },
     {
       "basename": "Tuple Relational Calculus-20231121220201107",
       "path": "attachments/Tuple Relational Calculus-20231121220201107.webp"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "DiscreteMathematics/Discrete Mathematics.md"
     },
     {
       "basename": "Function Definition",
@@ -57,16 +77,8 @@
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
     },
     {
-      "basename": "DDL and DML",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/DDL and DML.md"
-    },
-    {
       "basename": "Three Levels of Schema",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md"
-    },
-    {
-      "basename": "Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
     },
     {
       "basename": "Introduction to DBMS",
@@ -185,20 +197,8 @@
       "path": "TheoryOfComputation/Introduction to Theory of Computation.md"
     },
     {
-      "basename": "SQL",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/SQL.md"
-    },
-    {
       "basename": "Decomposition",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
-    },
-    {
-      "basename": "2023-11-14",
-      "path": "daily-agenda/2023-11-14.md"
-    },
-    {
-      "basename": "Decomposition into Normal Forms",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md"
     }
   ],
   "omittedPaths": [],

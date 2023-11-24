@@ -21,12 +21,38 @@
             }
           },
           {
-            "id": "a4af37c7a2aa7d6c",
+            "id": "a98371b0d1a906fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
+                "file": "DatabaseManagementSystem/SQL Queries.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "43ae877e26738571",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad11f2c3e053b50f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/SQL/Structured Query Language.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -118,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
+                "file": "DatabaseManagementSystem/SQL Queries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
+                "file": "DatabaseManagementSystem/SQL Queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
+                "file": "DatabaseManagementSystem/SQL Queries.md"
               }
             }
           },
@@ -220,15 +246,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a4af37c7a2aa7d6c",
+  "active": "a98371b0d1a906fe",
   "lastOpenFiles": [
-    "daily-agenda/2023-11-22.md",
-    "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
+    "DiscreteMathematics/Set-Theory/Set Definition.md",
+    "DatabaseManagementSystem/SQL Queries.md",
     "DatabaseManagementSystem/Database Management System.md",
     "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md",
+    "DatabaseManagementSystem/SQL/Structured Query Language.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+    "DiscreteMathematics/Discrete Mathematics.md",
+    "DatabaseManagementSystem/SQL/DDL and DML.md",
+    "DatabaseManagementSystem/SQL",
+    "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
+    "daily-agenda/2023-11-22.md",
     "DatabaseManagementSystem/Tuple-Relational-Calculus/TRC for Relational Algebra.md",
     "attachments/Tuple Relational Calculus-20231121220201107.webp",
-    "DiscreteMathematics/Discrete Mathematics.md",
     "DiscreteMathematics/Functions/Function Definition.md",
     "DiscreteMathematics/Combinatronics/Combinatronics.md",
     "attachments/Combinatronics-20231122135618297.webp",
@@ -245,19 +278,13 @@
     "GATE-LOG.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/DDL and DML.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
     "daily-agenda/2023-11-20.md",
     "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
     "daily-agenda/2023-11-19.md",
     "TheoryOfComputation/Theory of Computation.md",
     "GATE-materials/Links for Resources.md",
-    "Fundamentals of Computer Science/Fundamentals of Computer Science.md",
-    "C/C.md",
-    "Aptitude/Aptitude.md",
-    "Algorithms/Algorithms.md",
     "DiscreteMathematics/Combinatronics",
     "DatabaseManagementSystem/Tuple-Relational-Calculus",
     "DatabaseManagementSystem/Relational-Algebra",
@@ -267,7 +294,6 @@
     "DatabaseManagementSystem",
     "Weekly-Quizzes",
     "Aptitude/Quantitative-Aptitude",
-    "Algorithms/Divide-and-Conquer",
     "Untitled.canvas"
   ]
 }
