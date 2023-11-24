@@ -23,7 +23,7 @@ tags:
 - There are two theoretical query languages based on the relational model,
 	1. [[Relational Algebra]]
 	2. Relational Calculus
-- [[SQL]] is a practical query language based on the relational model.
+- [[Structured Query Language]] is a practical query language based on the relational model.
 
 ## Schema vs Instance
 - Schema contains,

@@ -20,9 +20,10 @@ tags:
 - Procedural Query language is similar to Algorithms and Declarative Query language is similar to Functions.
 
 - Examples of Procedural Query language is [[Relational Algebra]].
-- Examples of Declarative Query language is [[Tuple Relational Calculus]] and [[SQL]].
+- Examples of Declarative Query language is [[Tuple Relational Calculus]] and [[Structured Query Language]].
 
 > [!convention] 
 > Query ${} \equiv {}$ Data Retrieval Query
 
 - In relational algebra and relational calculus, data retrieval queries never change or alter the original database. New relations may be created temporarily or permanently.
+- In declarative query languages, there is no concept of efficient or inefficient query.

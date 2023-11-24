@@ -10,10 +10,8 @@ tags:
 # Module 1 - Relational Model and Normalization
 - [[Introduction to DBMS]]
 - [[Relational Model]]
-- [[SQL]]
-	- [[DDL and DML]]
 - [[Constraints in Relational Model]]
-	- [[Functional Dependency]]
+- [[Functional Dependency]]
 - [[Normal Forms]]
 - [[Natural Join]]
 - [[Decomposition]]
@@ -31,16 +29,21 @@ tags:
 - [[Tuple Relational Calculus]]
 - [[TRC for Relational Algebra]]
 
+# Module 4 - SQL
+- [[Structured Query Language]]
+- [[SQL Queries]]
+
 
 ---
 
 # References
 [DBMS : Decomposition of a Relation | Non-Binary Decomposition | The Chase Test for Lossless Join Decomposition | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjweUdD-fgcdD-oMiylqE9t)
 
-
 Navathe
 Korth
 Raguramakrishna - For writing queries
 Ullman - For concepts
+
+[One-compile for Boats Reserves Sailors Table](https://www.mycompiler.io/view/GPP0ejSCIOW)
 
 ---
