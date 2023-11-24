@@ -204,3 +204,9 @@ flexGrow=1
 - If $A$ and $B$ are disjoint sets, then $B - A = B$
 
 ---
+## Multi Sets
+- It is also called as Bag.
+- Unordered collection of elements
+- Duplicate elements matter.
+
+---
