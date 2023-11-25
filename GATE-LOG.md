@@ -106,3 +106,5 @@
 **November 17, 2023** Deepak Sir is a Movie-buff.
 
 **November 21, 2023** "When you see someone making great progress, don't assume that they are outstanding students, their works are standing out. Don't convince yourself that you are enough. Put their hard word and evaluate yourself" - Deepak Poonia.
+
+**November 24, 2023** Spend time on the basics, build the context with better understanding. It is worth the time.

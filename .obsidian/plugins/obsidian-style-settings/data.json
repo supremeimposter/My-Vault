@@ -242,7 +242,7 @@
   "blue-topaz-theme@@background-image-settings-command-palette-switch": false,
   "blue-topaz-theme@@background-image-settings-command-palette-custom": false,
   "blue-topaz-theme@@background-image-settings-command-palette-same-as-workplace": false,
-  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-avocado-topaz",
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-autumn-topaz",
   "blue-topaz-theme@@toggle-nonoverlapping-bg": false,
   "Olivier-s-Theme@@OT-pageBackground-lightMode": "pb-lm-paper-1",
   "Olivier-s-Theme@@OT-pageBackground-darkMode": "pb-dm-blackPaper-1",
@@ -329,5 +329,8 @@
   "anuppuccin-theme-settings@@anp-table-toggle": true,
   "anuppuccin-theme-settings@@anp-table-auto": true,
   "anuppuccin-theme-settings@@anp-list-toggle": true,
-  "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true
+  "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true,
+  "encore-settings@@encore-coloured-tooltip": false,
+  "encore-settings@@blur-amount": "encore-blur-off",
+  "encore-settings@@encore-disable-grain": false
 }
