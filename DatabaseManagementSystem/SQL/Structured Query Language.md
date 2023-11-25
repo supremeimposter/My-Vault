@@ -40,6 +40,8 @@ flexGrow=1
 ### Relational Model
 ```
 ````
+## Analysis of Bag
+> [!lecture] Lecture-4
 
 
 ## SQL Sub-languages

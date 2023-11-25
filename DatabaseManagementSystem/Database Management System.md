@@ -31,12 +31,14 @@ tags:
 
 # Module 4 - SQL
 - [[Structured Query Language]]
-- [[SQL Queries]]
+- [[SQL Retrieval Queries]]
 
 
 ---
 
 # References
+[DBMS : Normalization Complete Course | Normal Forms | Decomposition | 2NF, 3NF, BCNF | Partial, Transitive Dependency | GO Classes | Deepak Poonia Sir - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhJjQGnZB2jORa0JxLdMp4X)
+
 [DBMS : Decomposition of a Relation | Non-Binary Decomposition | The Chase Test for Lossless Join Decomposition | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjweUdD-fgcdD-oMiylqE9t)
 
 Navathe

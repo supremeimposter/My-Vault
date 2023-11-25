@@ -208,5 +208,6 @@ flexGrow=1
 - It is also called as Bag.
 - Unordered collection of elements
 - Duplicate elements matter.
+- Every set is a multi-set, whereas the converse is NOT true.
 
----
+### Applications of Multi Sets
