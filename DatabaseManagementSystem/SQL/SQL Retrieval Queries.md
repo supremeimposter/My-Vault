@@ -1,7 +1,7 @@
 ---
-pdf: lec-1-2, lec-3, lec-4-6
+pdf: lec-1-2, lec-3, lec-4-6, lec-7, lec-8
 module: 4
-lecture: 1, 2, 3, 4, 5, 6
+lecture: 1, 2, 3, 4, 5, 6, 7, 8
 date: 2023-11-23T10:28:00
 version:
   - DBMS-24
@@ -36,6 +36,17 @@ tags:
 > [!conflict] 
 > The conceptual evaluation is NOT followed by any DBMS software. And also SQL is declarative and NOT procedural.
 
+```mermaid
+flowchart TD
+	A[FROM] --> B[WHERE]
+	B --> C[GROUP BY]
+	C --> D[HAVING]
+	D --> E[SELECT]
+	E --> F[ORDER BY]
+```
+
+^371647
+
 ## Range Variables
 - When the same table is used more than once for a clause, then it is mandatory to use aliases which is called a range variable.
 - It is also called as tuple variable.
@@ -66,7 +77,7 @@ graph TD
 
 - `UNION ALL`, `EXCEPT ALL`, `INTERSECT ALL` are used to frequency-based operations. They result in a multi-set of tuples.
 
-## AND, OR
+## AND, OR, NOT
 - `AND` is trickier than `OR` if we use it on the same attribute.
 
 > [!important] 
@@ -86,9 +97,59 @@ graph TD
 > [!lecture] Lecture-6
 
 - `NULL` cannot be used in a query as an operand in SQL. But `IS NULL` and `IS NOT NULL` can be used as an operand in SQL.
+> [!important] `IS` and `IS NOT` is used only for comparison with `NULL`
 - Aggregate operators will first remove `NULL` and then perform the aggregation operation.
 - Only `COUNT(*)` will NOT ignore `NULL` entries.
 - If ${} R$ is an empty table, then all of the aggregate functions except `COUNT` return `NULL`.
 
+| `SUM(R)`   | `NULL` |
+|:-----------|:-------|
+| `MIN(R)`   | `NULL` |
+| `MAX(R)`   | `NULL` |
+| `AVG(R)`   | `NULL` |
+| `COUNT(R)` |      $0$ |  
+
 - Arithmetic operations with `NULL` will always result in `NULL`.
 - Comparison with `NULL` is unknown.
+
+## GROUP BY, HAVING
+> [!lecture] Lecture-7
+
+- `GROUP BY` and `HAVING` are used for aggregation.
+- `GROUP BY` provides a group based imaginary partition of tuples, but it does NOT sort or rearrange the tuples in the original database.
+- `HAVING` filters the groups.
+
+> [!point] `WHERE` VS `HAVING`
+>  - `WHERE` filters the tuples individually and independently
+>  - `HAVING` filters the groups individually and independently
+
+- `HAVING` is used when there is a need to filter the groups after creating the group.
+- Aggregation in `SELECT` clause happens only within group when we have `GROUP BY` clause.
+- `SELECT` in presence of `GROUP BY` clause must have the same unaggregated attributes as in `GROUP BY`.
+```sql
+SELECT A, B, SUM(A), AVG(C), MIN(D)
+FROM R
+GROUP BY A, B;
+```
+
+- If there is no `GROUP BY` clause then, the entire table is regarded as one single group.
+
+> [!header] `GROUP BY` with multiple relations in `FROM` clause
+
+- Unaggregated attributes of `HAVING` must be subset of the unaggregated attributes of `GROUP BY`. There can be any aggregated attributes for `HAVING`.
+
+
+> [!think] 
+> Think about the desired people and the additional people. Will the additional people affect out calculation?
+
+
+## ORDER BY
+- Sorts the output in a sorted order.
+- `ASC` and `DESC` are used to sort the attributes.
+- By default the ordering is `ASC`.
+
+![[SQL Retrieval Queries#^371647]]
+
+# Practice
+> [!lecture] Lecture-8
+>> [!youtube] [SQL Standard Practice Questions - DBMS | SQL Exercises | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=5O9Hk46boGI)
