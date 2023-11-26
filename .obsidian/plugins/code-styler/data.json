@@ -265,7 +265,7 @@
       }
     }
   },
-  "selectedTheme": "Solarized",
+  "selectedTheme": "Default",
   "currentTheme": {
     "settings": {
       "codeblock": {
@@ -312,7 +312,7 @@
         "titleFontWeight": 8
       },
       "advanced": {
-        "gradientHighlights": true,
+        "gradientHighlights": false,
         "gradientHighlightsColourStop": "70%",
         "languageBorderColour": false,
         "languageBorderWidth": 5,
@@ -322,36 +322,36 @@
     "colours": {
       "light": {
         "codeblock": {
-          "backgroundColour": "#fdf6e3",
-          "textColour": "#bababa"
+          "backgroundColour": "--code-background",
+          "textColour": "--code-normal"
         },
         "gutter": {
-          "backgroundColour": "#eee8d5",
-          "textColour": "#6c6c6c",
-          "activeTextColour": "#8c8c8c"
+          "backgroundColour": "--code-background",
+          "textColour": "--text-faint",
+          "activeTextColour": "--text-muted"
         },
         "header": {
-          "backgroundColour": "#D5CCB4",
+          "backgroundColour": "--code-background",
           "title": {
-            "textColour": "#866704"
+            "textColour": "--code-comment"
           },
           "languageTag": {
-            "backgroundColour": "#B8B5AA",
-            "textColour": "#C25F30"
+            "backgroundColour": "--code-background",
+            "textColour": "--code-comment"
           },
-          "lineColour": "#EDD489"
+          "lineColour": "--color-base-30"
         },
         "highlights": {
-          "activeCodeblockLineColour": "#eee8d5",
-          "activeEditorLineColour": "#60460633",
-          "defaultColour": "#E9DFBA",
+          "activeCodeblockLineColour": "--color-base-30",
+          "activeEditorLineColour": "--color-base-20",
+          "defaultColour": "--text-highlight-bg",
           "alternativeHighlights": {}
         },
         "inline": {
-          "backgroundColour": "#fdf6e3",
-          "textColour": "#bababa",
-          "activeTextColour": "#bababa",
-          "titleTextColour": "#C25F30"
+          "backgroundColour": "--code-background",
+          "textColour": "--code-normal",
+          "activeTextColour": "--code-normal",
+          "titleTextColour": "--code-comment"
         },
         "advanced": {
           "buttonColour": "--text-muted",
@@ -360,36 +360,36 @@
       },
       "dark": {
         "codeblock": {
-          "backgroundColour": "#002b36",
-          "textColour": "#bababa"
+          "backgroundColour": "--code-background",
+          "textColour": "--code-normal"
         },
         "gutter": {
-          "backgroundColour": "#073642",
-          "textColour": "#6c6c6c",
-          "activeTextColour": "#4c4c4c"
+          "backgroundColour": "--code-background",
+          "textColour": "--text-faint",
+          "activeTextColour": "--text-muted"
         },
         "header": {
-          "backgroundColour": "#0a4554",
+          "backgroundColour": "--code-background",
           "title": {
-            "textColour": "#dadada"
+            "textColour": "--code-comment"
           },
           "languageTag": {
-            "backgroundColour": "#008080",
-            "textColour": "#000000"
+            "backgroundColour": "--code-background",
+            "textColour": "--code-comment"
           },
-          "lineColour": "#46cced"
+          "lineColour": "--color-base-30"
         },
         "highlights": {
-          "activeCodeblockLineColour": "#073642",
-          "activeEditorLineColour": "#468eeb33",
-          "defaultColour": "#054b5c",
+          "activeCodeblockLineColour": "--color-base-30",
+          "activeEditorLineColour": "--color-base-20",
+          "defaultColour": "--text-highlight-bg",
           "alternativeHighlights": {}
         },
         "inline": {
-          "backgroundColour": "#002b36",
-          "textColour": "#bababa",
-          "activeTextColour": "#bababa",
-          "titleTextColour": "#000000"
+          "backgroundColour": "--code-background",
+          "textColour": "--code-normal",
+          "activeTextColour": "--code-normal",
+          "titleTextColour": "--code-comment"
         },
         "advanced": {
           "buttonColour": "--text-muted",
