@@ -9,20 +9,36 @@
       "path": "DatabaseManagementSystem/SQL/Structured Query Language.md"
     },
     {
-      "basename": "Constraints in Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
-    },
-    {
       "basename": "Set Definition",
       "path": "DiscreteMathematics/Set-Theory/Set Definition.md"
     },
     {
-      "basename": "GATE-LOG",
-      "path": "GATE-LOG.md"
+      "basename": "Derived Operations in Relational Algebra",
+      "path": "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md"
+    },
+    {
+      "basename": "Functional Dependency",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
     },
     {
       "basename": "Database Management System",
       "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Implication",
+      "path": "DiscreteMathematics/Propositional-Logic/Implication.md"
+    },
+    {
+      "basename": "Constraints in Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
+    },
+    {
+      "basename": "Set Operations",
+      "path": "DiscreteMathematics/Set-Theory/Set Operations.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE-LOG.md"
     },
     {
       "basename": "Basic Operations in Relational Algebra",
@@ -73,10 +89,6 @@
       "path": "daily-agenda/2023-11-21.md"
     },
     {
-      "basename": "Functional Dependency",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
-    },
-    {
       "basename": "Normal Forms",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
     },
@@ -91,10 +103,6 @@
     {
       "basename": "2023-11-20",
       "path": "daily-agenda/2023-11-20.md"
-    },
-    {
-      "basename": "Derived Operations in Relational Algebra",
-      "path": "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md"
     },
     {
       "basename": "2023-11-19",
@@ -149,10 +157,6 @@
       "path": "daily-agenda/2023-11-18.md"
     },
     {
-      "basename": "Set Operations",
-      "path": "DiscreteMathematics/Set-Theory/Set Operations.md"
-    },
-    {
       "basename": "dashboard-template",
       "path": "templates/dashboard-template.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Introduction to Theory of Computation",
       "path": "TheoryOfComputation/Introduction to Theory of Computation.md"
-    },
-    {
-      "basename": "Decomposition",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
     }
   ],
   "omittedPaths": [],

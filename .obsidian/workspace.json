@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -53,6 +53,19 @@
               "type": "markdown",
               "state": {
                 "file": "DatabaseManagementSystem/SQL/Structured Query Language.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c65bfaee757f9d39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -248,13 +261,17 @@
   },
   "active": "a98371b0d1a906fe",
   "lastOpenFiles": [
-    "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md",
-    "attachments/SQL Queries-20231125221511859.webp",
     "DatabaseManagementSystem/SQL/Structured Query Language.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
     "DiscreteMathematics/Set-Theory/Set Definition.md",
-    "GATE-LOG.md",
+    "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md",
+    "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
     "DatabaseManagementSystem/Database Management System.md",
+    "DiscreteMathematics/Propositional-Logic/Implication.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
+    "DiscreteMathematics/Set-Theory/Set Operations.md",
+    "attachments/SQL Queries-20231125221511859.webp",
+    "GATE-LOG.md",
     "DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md",
     "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
@@ -277,13 +294,10 @@
     "attachments/Tuple Relational Calculus-20231121223849844.webp",
     "attachments/Tuple Relational Calculus-20231121223821283.webp",
     "attachments/Tuple Relational Calculus-20231121215952987.webp",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
     "daily-agenda/2023-11-20.md",
-    "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
-    "daily-agenda/2023-11-19.md",
     "DiscreteMathematics/Combinatronics",
     "DatabaseManagementSystem/Tuple-Relational-Calculus",
     "DatabaseManagementSystem/Relational-Algebra",
