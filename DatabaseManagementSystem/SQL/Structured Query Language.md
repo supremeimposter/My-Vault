@@ -20,6 +20,8 @@ tags:
 	1. Data Definition sub-Language (DDL) - deals with schema
 	2. Data Manipulation sub-Language (DML) - deals with data (tuples) and querying
 
+> [!check] SQL-92 Standard is important for GATE Exam rather than practical DBMS standard.
+
 ## SQL vs Relational Model
 - SQL is different from [[Relational Model]]
 
@@ -38,6 +40,11 @@ flexGrow=1
 flexGrow=1
 ===
 ### Relational Model
+- A relation is a set of tuples.
+- No two tuples are same. There are no duplicate tuples.
+- `NULL` is not allowed except for outer join.
+- It is necessary to have exactly one primary key.
+- It contains super keys and candidate keys.
 ```
 ````
 ## Analysis of Bag

@@ -33,6 +33,8 @@ tags:
 - [[Structured Query Language]]
 - [[SQL Retrieval Queries]]
 
+# Module 5 - ER Model
+
 
 ---
 

@@ -234,12 +234,12 @@ $$
 
 ## Inference 
 - FD's which can be inferred from the set of functional dependencies.
-- If $S$ is a set of functional dependencies and if $f$ is a FD that is inferred by $S$, then it is denoted as $S \models f$
+- If $S$ is a set of functional dependencies and if $f {}$ is a FD that is inferred by the set ${} S {}$, then it is represented as ${} S \models f$
 	- S infers f
 	- S implies f
 	- f follows from S
 	- f is derived from S
-- If $S$ does not infer $f$, then it is denoted as $S \not\models f$
+- If $S$ does not infer $f {}$, then it is represented as ${} S \not\models f$
 
 > [!terminology] 
 > Inferred = derived = implied = followed from

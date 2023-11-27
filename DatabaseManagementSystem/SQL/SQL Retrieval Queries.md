@@ -51,6 +51,13 @@ flowchart TD
 - When the same table is used more than once for a clause, then it is mandatory to use aliases which is called a range variable.
 - It is also called as tuple variable.
 
+## Aliases using AS
+1. Table Alias - `FROM` clause.
+	- Since conceptually `FROM` is executed first, the alias can be used in `GROUP BY`
+2. Column Alias - `SELECT` clause.
+	- Column alias cannot be used in `GROUP BY` or `HAVING`
+
+
 ## Boolean values in SQL
 > [!lecture] Lecture-6
 
@@ -124,8 +131,10 @@ graph TD
 >  - `HAVING` filters the groups individually and independently
 
 - `HAVING` is used when there is a need to filter the groups after creating the group.
+- An SQL query contains `HAVING` clause only when it contains `GROUP BY` clause as per SQL-92 standard.
 - Aggregation in `SELECT` clause happens only within group when we have `GROUP BY` clause.
 - `SELECT` in presence of `GROUP BY` clause must have the same unaggregated attributes as in `GROUP BY`.
+- All attributes used in `GROUP BY` clause must appear in the `SELECT` clause as per SQL-92 standard.
 ```sql
 SELECT A, B, SUM(A), AVG(C), MIN(D)
 FROM R
@@ -133,14 +142,16 @@ GROUP BY A, B;
 ```
 
 - If there is no `GROUP BY` clause then, the entire table is regarded as one single group.
+- In the context of `GROUP BY` clause, aggregation combines data of similar rows into one row.
 
 > [!header] `GROUP BY` with multiple relations in `FROM` clause
 
 - Unaggregated attributes of `HAVING` must be subset of the unaggregated attributes of `GROUP BY`. There can be any aggregated attributes for `HAVING`.
-
+- When there is a `GROUP BY` clause without a `HAVING` clause, then the number of tuples in the output is the number of groups.
 
 > [!think] 
 > Think about the desired people and the additional people. Will the additional people affect out calculation?
+>> When `WHERE` clause is used instead of `HAVING` clause?  
 
 
 ## ORDER BY
@@ -149,7 +160,16 @@ GROUP BY A, B;
 - By default the ordering is `ASC`.
 
 ![[SQL Retrieval Queries#^371647]]
+## Views in SQL
 
-# Practice
+## Joins in SQL
+- Joins in SQL are exactly same as joins in [[Derived Operations in Relational Algebra|Relational Algebra]] except that there can be duplicates in SQL.
+
+
+
+# Practice 
 > [!lecture] Lecture-8
 >> [!youtube] [SQL Standard Practice Questions - DBMS | SQL Exercises | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=5O9Hk46boGI)
+
+- Don't waste your time on analysing the query when you are asked to give the number of tuples in the output.
+
