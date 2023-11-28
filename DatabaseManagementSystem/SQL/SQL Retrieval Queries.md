@@ -20,7 +20,6 @@ tags:
 ## Basic form
 
 - `SELECT`and `FROM` clauses are mandatory in all SQL queries, whereas `WHERE` is optional.
-
 - When primary key attributes (columns) are selected from the cross product of two tables, then it is guaranteed to NOT contain duplicate rows.
 - Once an alias for a table is declared in the query, then the original table name cannot be used in the query.
 - `DISTINCT` works on the whole instance in the final output.
@@ -34,7 +33,7 @@ tags:
 	3. Discard unwanted columns (`SELECT`)
 
 > [!conflict] 
-> The conceptual evaluation is NOT followed by any DBMS software. And also SQL is declarative and NOT procedural.
+> The conceptual order of evaluation is NOT followed by any DBMS software. And also SQL is declarative and NOT procedural.
 
 ```mermaid
 flowchart TD

@@ -19,6 +19,7 @@ tags:
 - SQL has two sub-languages,
 	1. Data Definition sub-Language (DDL) - deals with schema
 	2. Data Manipulation sub-Language (DML) - deals with data (tuples) and querying
+- There is NO concept of efficiency of inefficiency in SQL queries.
 
 > [!check] SQL-92 Standard is important for GATE Exam rather than practical DBMS standard.
 
