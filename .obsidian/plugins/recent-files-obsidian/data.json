@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Disk Structure and Performance",
+      "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
       "basename": "SQL Retrieval Queries",
       "path": "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md"
     },
     {
+      "basename": "Nested Queries in SQL",
+      "path": "DatabaseManagementSystem/SQL/Nested Queries in SQL.md"
+    },
+    {
+      "basename": "Pending Lectures",
+      "path": "Pending Lectures.md"
+    },
+    {
       "basename": "Structured Query Language",
       "path": "DatabaseManagementSystem/SQL/Structured Query Language.md"
+    },
+    {
+      "basename": "Relational Algebra Queries",
+      "path": "DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md"
     },
     {
       "basename": "Set Definition",
@@ -19,10 +39,6 @@
     {
       "basename": "Functional Dependency",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "Implication",
@@ -149,10 +165,6 @@
       "path": "Algorithms/Divide-and-Conquer/Merge Sort.md"
     },
     {
-      "basename": "Relational Algebra Queries",
-      "path": "DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md"
-    },
-    {
       "basename": "2023-11-18",
       "path": "daily-agenda/2023-11-18.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Time Complexity for Recursive Programs",
       "path": "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "Pending Lectures.md"
-    },
-    {
-      "basename": "2023-11-15",
-      "path": "daily-agenda/2023-11-15.md"
-    },
-    {
-      "basename": "Introduction to Theory of Computation",
-      "path": "TheoryOfComputation/Introduction to Theory of Computation.md"
     }
   ],
   "omittedPaths": [],

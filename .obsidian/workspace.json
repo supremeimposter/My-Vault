@@ -21,51 +21,12 @@
             }
           },
           {
-            "id": "a98371b0d1a906fe",
+            "id": "a01a4776eaff0555",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "43ae877e26738571",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad11f2c3e053b50f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/SQL/Structured Query Language.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c65bfaee757f9d39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DiscreteMathematics/Set-Theory/Set Definition.md",
+                "file": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -135,8 +96,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md",
+                "file": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md",
+                "file": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md"
+                "file": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
               }
             }
           },
@@ -259,14 +219,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a98371b0d1a906fe",
+  "active": "a01a4776eaff0555",
   "lastOpenFiles": [
-    "DatabaseManagementSystem/SQL/Structured Query Language.md",
-    "DiscreteMathematics/Set-Theory/Set Definition.md",
+    "DatabaseManagementSystem/Database Management System.md",
+    "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
+    "DatabaseManagementSystem/Magnetic-Disk",
     "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md",
+    "DatabaseManagementSystem/SQL/Nested Queries in SQL.md",
+    "Pending Lectures.md",
+    "attachments/Nested Queries in SQL-20231128175911500.webp",
+    "DatabaseManagementSystem/SQL/Structured Query Language.md",
+    "DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md",
+    "attachments/Relational Algebra Queries-20231128164155615.webp",
+    "DiscreteMathematics/Set-Theory/Set Definition.md",
     "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
-    "DatabaseManagementSystem/Database Management System.md",
     "DiscreteMathematics/Propositional-Logic/Implication.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
@@ -292,12 +259,6 @@
     "daily-agenda/2023-11-21.md",
     "attachments/Tuple Relational Calculus-20231121223911373.webp",
     "attachments/Tuple Relational Calculus-20231121223849844.webp",
-    "attachments/Tuple Relational Calculus-20231121223821283.webp",
-    "attachments/Tuple Relational Calculus-20231121215952987.webp",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
-    "daily-agenda/2023-11-20.md",
     "DiscreteMathematics/Combinatronics",
     "DatabaseManagementSystem/Tuple-Relational-Calculus",
     "DatabaseManagementSystem/Relational-Algebra",
@@ -306,7 +267,6 @@
     "DatabaseManagementSystem/Relational-Model-and-Normalization",
     "DatabaseManagementSystem",
     "Weekly-Quizzes",
-    "Aptitude/Quantitative-Aptitude",
     "Untitled.canvas"
   ]
 }

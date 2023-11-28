@@ -349,6 +349,18 @@
       "command": false,
       "injectColor": true,
       "noTitle": false
+    },
+    "pyq": {
+      "type": "pyq",
+      "color": "65, 171, 7",
+      "icon": {
+        "name": "torii-gate",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "PYQ",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,
