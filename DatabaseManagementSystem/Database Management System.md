@@ -32,8 +32,10 @@ tags:
 # Module 4 - SQL
 - [[Structured Query Language]]
 - [[SQL Retrieval Queries]]
+- [[Nested Queries in SQL]]
 
-# Module 5 - ER Model
+# Module 5 - Magnetic Disk
+- [[Disk Structure and Performance]]
 
 
 ---

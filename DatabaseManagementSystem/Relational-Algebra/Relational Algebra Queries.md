@@ -23,3 +23,5 @@ tags:
 > 3. Keep the tables side by side to get some ideas.
 > 4. Union, Intersection, any type of join done on Non-key attribute MAY lead to wrong answer.
 > 5. Union is straightforward, whereas Intersection is tricky.
+
+![[Relational Algebra Queries-20231128164155615.webp]]
