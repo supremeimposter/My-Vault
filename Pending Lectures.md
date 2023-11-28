@@ -54,3 +54,9 @@
 	- [ ] [GATE CSE 2003 | Binary Operators + and \* | Group Theory | GATE Overflow | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=y31SYpVjp7E)
 	- [ ] [GATE CSE 1988 - Abelian Group | Group Theory | GATE Overflow | GO Classes | Deepak Poonia Sir - YouTube](https://www.youtube.com/watch?v=cmO6Wq0uzNQ)
 	- [ ] [GATE CSE 1992 - Group of Even Order | Group Theory | Discrete Mathematics |GoClasses | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=Ewdz0FQJ14w)
+
+# [[Database Management System]]
+- [ ] [[SQL Retrieval Queries]] Complete analysis [GATE pyqs](https://www.youtube.com/watch?v=zb6vXpZVo1E)
+
+
+
