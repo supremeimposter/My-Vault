@@ -36,6 +36,8 @@ tags:
 
 # Module 5 - Magnetic Disk
 - [[Disk Structure and Performance]]
+- [[Disk Addressing]]
+
 
 
 ---
