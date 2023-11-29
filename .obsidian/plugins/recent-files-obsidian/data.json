@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Disk Addressing",
+      "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md"
+    },
+    {
       "basename": "Disk Structure and Performance",
       "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
+    },
+    {
+      "basename": "Equivalence Relation",
+      "path": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md"
     },
     {
       "basename": "Database Management System",
       "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
-      "basename": "SQL Retrieval Queries",
-      "path": "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md"
-    },
-    {
       "basename": "Nested Queries in SQL",
       "path": "DatabaseManagementSystem/SQL/Nested Queries in SQL.md"
+    },
+    {
+      "basename": "SQL Retrieval Queries",
+      "path": "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md"
     },
     {
       "basename": "Pending Lectures",
@@ -191,14 +199,6 @@
     {
       "basename": "Relational Algebra",
       "path": "DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md"
-    },
-    {
-      "basename": "Divide and Conquer",
-      "path": "Algorithms/Divide-and-Conquer/Divide and Conquer.md"
-    },
-    {
-      "basename": "Time Complexity for Recursive Programs",
-      "path": "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
     }
   ],
   "omittedPaths": [],
