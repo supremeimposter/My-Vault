@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "a01a4776eaff0555",
+            "id": "dc9ad31e3786a3f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa28c91e4d633a17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +34,8 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1,
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -130,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md"
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md"
               }
             }
           },
@@ -232,14 +220,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "aa28c91e4d633a17",
+  "active": "dc9ad31e3786a3f2",
   "lastOpenFiles": [
+    "DatabaseManagementSystem/Database Management System.md",
+    "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
     "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
+    "DatabaseManagementSystem/File-Organization-and-Indexing",
     "DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
+    "DatabaseManagementSystem/Magnetic-Disk/Disk Scheduling Algorithms.md",
+    "GATE-LOG.md",
+    "Temporary Plan.md",
+    "DatabaseManagementSystem/Magnetic-Disk/Untitled.md",
+    "attachments/Disk Addressing-20231130161036855.webp",
+    "attachments/Disk Addressing-20231130161020169.webp",
     "attachments/Disk Structure and Performance-20231129220048021.webp",
     "attachments/Disk Structure and Performance-20231129210030326.webp",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
-    "DatabaseManagementSystem/Database Management System.md",
     "attachments/Disk Structure and Performance-20231129130255654.webp",
     "attachments/Disk Structure and Performance-20231129120142875.webp",
     "attachments/Disk Structure and Performance-20231129113234698.webp",
@@ -258,8 +254,6 @@
     "DiscreteMathematics/Propositional-Logic/Implication.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
-    "attachments/SQL Queries-20231125221511859.webp",
-    "GATE-LOG.md",
     "DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md",
     "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
@@ -267,10 +261,6 @@
     "DatabaseManagementSystem/SQL/DDL and DML.md",
     "DatabaseManagementSystem/SQL",
     "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
-    "daily-agenda/2023-11-22.md",
-    "DatabaseManagementSystem/Tuple-Relational-Calculus/TRC for Relational Algebra.md",
-    "attachments/Tuple Relational Calculus-20231121220201107.webp",
-    "DiscreteMathematics/Functions/Function Definition.md",
     "DiscreteMathematics/Combinatronics",
     "DatabaseManagementSystem/Tuple-Relational-Calculus",
     "DatabaseManagementSystem/Relational-Algebra",
@@ -278,7 +268,6 @@
     "DiscreteMathematics/Functions",
     "DatabaseManagementSystem/Relational-Model-and-Normalization",
     "DatabaseManagementSystem",
-    "Weekly-Quizzes",
     "Untitled.canvas"
   ]
 }

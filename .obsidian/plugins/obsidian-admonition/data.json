@@ -309,12 +309,13 @@
       "type": "header",
       "color": "0, 110, 255",
       "icon": {
-        "name": "heading",
+        "name": "hand-point-right",
         "type": "font-awesome"
       },
       "command": false,
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "steps": {
       "type": "steps",
