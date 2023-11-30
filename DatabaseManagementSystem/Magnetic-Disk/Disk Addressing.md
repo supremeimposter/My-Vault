@@ -19,6 +19,8 @@ tags:
 - The order in which the sectors are read from the disk has a tremendous effect on I/O performance.
 - Sectors are the smallest unit that can be read or write. 
 - Sectors are given addresses.
+- Sectors are numbered from $0 {}$
+
 ![[Disk Structure and Performance-20231129130255654.webp]]
 
 ## Closeness of Sectors
@@ -29,4 +31,20 @@ tags:
 1. Logical Block Addressing (LBA)
 2. Cylinder Head Sector (CHS)
 
+### CHS to LBA
+LBA is an integer starting from the 0, denoting the sector number.
+It can be calculated from CHS addressing.
+If Sectors per cylinder is ${} n_c {}$ and sectors per track is ${} n_t {}$
+$${} \langle c, h, s\rangle = c\;n_c + h\; n_t + s {}$$
+### LBA to CHS
 
+
+
+
+> [!summary] 
+
+![[Disk Addressing-20231130161020169.webp]]
+
+![[Disk Addressing-20231130161036855.webp]]
+
+---

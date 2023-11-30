@@ -25,7 +25,7 @@ tags:
 
 ![[Disk Structure and Performance-20231129120142875.webp]]
 
-- A **Block** is a set of consecutive sectors that is decided by the DBMS software. It is not a property of the disk itself.
+- A **Block** is a set of consecutive sectors within a track that is decided by the DBMS software. It is not a property of the disk itself.
 - The size of a sector is fixed on a disk. It cannot be changed, whereas how many sectors form a block can be decided or changed.
 - In any sector, apart from the actual data, every extra information is called Disk formatting or formatted data.
 - All the tracks on the surface of a platter hold the same amount of data though there is a variation in the radius. The intersectional gap increases as the radius of a track increases.
