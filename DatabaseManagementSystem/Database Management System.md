@@ -37,7 +37,10 @@ tags:
 # Module 5 - Magnetic Disk
 - [[Disk Structure and Performance]]
 - [[Disk Addressing]]
+- [[Disk Scheduling Algorithms]]
 
+# Module 6 - File Organization and Indexing
+- [[File Organization]]
 
 
 ---
