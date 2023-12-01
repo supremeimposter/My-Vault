@@ -33,5 +33,7 @@
   "obsidian-outliner",
   "obsidian-linter",
   "settings-search",
-  "inline-math"
+  "inline-math",
+  "obsidian-nomnoml-diagram",
+  "obsidian-diagrams-net"
 ]
