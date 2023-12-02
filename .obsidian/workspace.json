@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "afa2b5d39f4fa1ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -131,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md"
               }
             }
           },
@@ -233,11 +246,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "916da5aec2e0b149",
+  "active": "afa2b5d39f4fa1ff",
   "lastOpenFiles": [
-    "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
-    "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
     "DatabaseManagementSystem/Database Management System.md",
+    "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
+    "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
+    "DatabaseManagementSystem/File-Organization-and-Indexing/Disk Space Management.md",
+    "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
     "DatabaseManagementSystem/File-Organization-and-Indexing/Untitled Diagram.svg",
     "attachments/Diagram 1.svg.xml",
     "attachments/Diagram 1.svg",
@@ -273,7 +288,6 @@
     "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "DiscreteMathematics/Discrete Mathematics.md",
-    "DatabaseManagementSystem/SQL/DDL and DML.md",
     "DatabaseManagementSystem/SQL",
     "DiscreteMathematics/Combinatronics",
     "DatabaseManagementSystem/Tuple-Relational-Calculus",

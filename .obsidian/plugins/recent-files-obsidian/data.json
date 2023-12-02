@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Disk Structure and Performance",
-      "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
+      "basename": "Indexing",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "File Organization",
       "path": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md"
     },
     {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
+      "basename": "Disk Space Management",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Disk Space Management.md"
+    },
+    {
+      "basename": "Disk Structure and Performance",
+      "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
     },
     {
       "basename": "Disk Addressing",
@@ -191,10 +199,6 @@
     {
       "basename": "dashboard-template",
       "path": "templates/dashboard-template.md"
-    },
-    {
-      "basename": "2023-11-17",
-      "path": "daily-agenda/2023-11-17.md"
     }
   ],
   "omittedPaths": [],
