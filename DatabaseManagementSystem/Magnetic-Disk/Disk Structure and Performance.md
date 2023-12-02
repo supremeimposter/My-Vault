@@ -63,7 +63,7 @@ tags:
 
 
 > [!note] 
-> Consider Average seek time and Average rotational latency unless explicitly mentioned otherwise.
+> Consider using Average seek time and Average rotational latency unless explicitly mentioned otherwise.
 
 - **Data Transfer Rate** has nothing to do with the track size or sector size. It is a measure of how much data that is read or write for a considered time frame.
 
@@ -76,3 +76,7 @@ It is also called as Average Latency
 If a disk rotates with $x$ rotations per minute (RPM), then the time taken for 1 rotation is ${} \frac{60}{x} {}$ seconds.
 
 Block Transfer Time (btt) is the number of blocks transferred for a given amount of time.
+
+> [!important] 
+> Data is expressed in terms of powers of 2
+> Time is expressed in terms of powers of 10

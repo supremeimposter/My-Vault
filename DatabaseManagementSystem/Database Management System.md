@@ -41,7 +41,8 @@ tags:
 
 # Module 6 - File Organization and Indexing
 - [[File Organization]]
-
+- [[Disk Space Management]]
+- [[Indexing]]
 
 ---
 

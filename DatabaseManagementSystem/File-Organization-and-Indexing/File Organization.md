@@ -16,7 +16,7 @@ tags:
 
 - How the database is stored in the [[Disk Structure and Performance|Disk]].
 - Each table/relation is stored as a separate file on the disk.
-- A file is a sequence of consecutive blocks.
+- A file is a sequence of (not necessarily need to be consecutive) blocks.
 - Databases are stored physically as files of records, which are typically stored on magnetic disks.
 - A database is mapped into a number of different files.
 - A file is organized logically as a sequence of records. These records are mapped onto disk blocks.
@@ -56,6 +56,7 @@ flexGrow=1
 
 ### Find a field in variable-length record
 - Create pointers consecutively for each field after the Record header and a pointer for the end of the record.
+- Blocking factor (${} bfr {}$) is the number of records in a block.
 
 ## Record Organization
 
@@ -94,7 +95,6 @@ flexGrow=1
 - Only one field can be used to order the records, and for effective binary search use the same field to search rather than any other field.
 
 ## Block and Sector Address
-
 
 
 > [!lecture] Lecture-2
