@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "File Organization",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md"
+    },
+    {
+      "basename": "Data Structures",
+      "path": "DataStructures/Data Structures.md"
+    },
+    {
+      "basename": "Expectation of Hashing",
+      "path": "DataStructures/Hashing/Expectation of Hashing.md"
+    },
+    {
+      "basename": "Hashing",
+      "path": "DataStructures/Hashing/Hashing.md"
+    },
+    {
+      "basename": "Analysis of Open Addressing",
+      "path": "DataStructures/Hashing/Analysis of Open Addressing.md"
+    },
+    {
+      "basename": "Collision Resolution Techniques",
+      "path": "DataStructures/Hashing/Collision Resolution Techniques.md"
+    },
+    {
+      "basename": "Probing Strategies",
+      "path": "DataStructures/Hashing/Probing Strategies.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
+    },
+    {
       "basename": "Indexing",
       "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md"
     },
     {
       "basename": "Database Management System",
       "path": "DatabaseManagementSystem/Database Management System.md"
-    },
-    {
-      "basename": "File Organization",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md"
     },
     {
       "basename": "Disk Space Management",
@@ -171,34 +199,6 @@
     {
       "basename": "Aptitude",
       "path": "Aptitude/Aptitude.md"
-    },
-    {
-      "basename": "Algorithms",
-      "path": "Algorithms/Algorithms.md"
-    },
-    {
-      "basename": "First Order Logic",
-      "path": "DiscreteMathematics/First-Order-Logic/First Order Logic.md"
-    },
-    {
-      "basename": "Limitations of Propositional Logic",
-      "path": "DiscreteMathematics/Propositional-Logic/Limitations of Propositional Logic.md"
-    },
-    {
-      "basename": "Propositional Logic",
-      "path": "DiscreteMathematics/Propositional-Logic/Propositional Logic.md"
-    },
-    {
-      "basename": "Merge Sort",
-      "path": "Algorithms/Divide-and-Conquer/Merge Sort.md"
-    },
-    {
-      "basename": "2023-11-18",
-      "path": "daily-agenda/2023-11-18.md"
-    },
-    {
-      "basename": "dashboard-template",
-      "path": "templates/dashboard-template.md"
     }
   ],
   "omittedPaths": [],

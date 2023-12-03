@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#ALGO  ",
@@ -68,6 +68,13 @@
       "color": {
         "a": 1,
         "rgb": 14048429
+      }
+    },
+    {
+      "query": "tag:#DataStructures  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
       }
     }
   ],

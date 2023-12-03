@@ -5,7 +5,7 @@
 - [[Theory of Computation]]
 - [[Algorithms]]
 - [[Database Management System]]
-
+- [[Data Structures]]
 - [[Aptitude]]
 
 ---

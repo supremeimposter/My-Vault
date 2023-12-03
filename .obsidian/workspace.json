@@ -45,22 +45,10 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "afa2b5d39f4fa1ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2,
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -144,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md"
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md"
               }
             }
           },
@@ -246,11 +234,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "afa2b5d39f4fa1ff",
+  "active": "dc9ad31e3786a3f2",
   "lastOpenFiles": [
+    "DataStructures/Data Structures.md",
+    "DataStructures/Hashing/Expectation of Hashing.md",
+    "attachments/Expectation of Hashing-20231203232211091.webp",
+    "DataStructures/Hashing/Hashing.md",
+    "DataStructures/Hashing/Analysis of Open Addressing.md",
+    "DataStructures/Hashing/Collision Resolution Techniques.md",
+    "DataStructures/Hashing/Probing Strategies.md",
+    "attachments/Probing Strategies-20231203160400616.webp",
+    "attachments/Probing Strategies-20231203141813008.webp",
+    "attachments/Hashing-20231203082728834.webp",
+    "GATE-CS.md",
+    "DataStructures/Hashing",
+    "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
+    "DataStructures",
     "DatabaseManagementSystem/Database Management System.md",
     "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
     "DatabaseManagementSystem/File-Organization-and-Indexing/Disk Space Management.md",
     "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
     "DatabaseManagementSystem/File-Organization-and-Indexing/Untitled Diagram.svg",
@@ -267,11 +268,7 @@
     "attachments/Disk Addressing-20231130161036855.webp",
     "attachments/Disk Addressing-20231130161020169.webp",
     "attachments/Disk Structure and Performance-20231129220048021.webp",
-    "attachments/Disk Structure and Performance-20231129210030326.webp",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
-    "attachments/Disk Structure and Performance-20231129130255654.webp",
-    "attachments/Disk Structure and Performance-20231129120142875.webp",
-    "attachments/Disk Structure and Performance-20231129113234698.webp",
     "DatabaseManagementSystem/SQL/Nested Queries in SQL.md",
     "DatabaseManagementSystem/Magnetic-Disk",
     "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md",
@@ -280,20 +277,10 @@
     "DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md",
     "DiscreteMathematics/Set-Theory/Set Definition.md",
     "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
-    "DiscreteMathematics/Propositional-Logic/Implication.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
-    "DiscreteMathematics/Set-Theory/Set Operations.md",
-    "DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md",
-    "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
-    "DiscreteMathematics/Discrete Mathematics.md",
     "DatabaseManagementSystem/SQL",
     "DiscreteMathematics/Combinatronics",
     "DatabaseManagementSystem/Tuple-Relational-Calculus",
     "DatabaseManagementSystem/Relational-Algebra",
-    "DiscreteMathematics/Group Theory",
-    "DiscreteMathematics/Functions",
     "Untitled.canvas"
   ]
 }
