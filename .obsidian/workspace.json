@@ -195,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "5df95600f2476df0",
@@ -236,7 +236,10 @@
   },
   "active": "dc9ad31e3786a3f2",
   "lastOpenFiles": [
+    "Pending Lectures.md",
+    "Aptitude/Aptitude.md",
     "DataStructures/Data Structures.md",
+    "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
     "DataStructures/Hashing/Expectation of Hashing.md",
     "attachments/Expectation of Hashing-20231203232211091.webp",
     "DataStructures/Hashing/Hashing.md",
@@ -251,7 +254,6 @@
     "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
     "DataStructures",
     "DatabaseManagementSystem/Database Management System.md",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
     "DatabaseManagementSystem/File-Organization-and-Indexing/Disk Space Management.md",
     "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
     "DatabaseManagementSystem/File-Organization-and-Indexing/Untitled Diagram.svg",
@@ -272,7 +274,6 @@
     "DatabaseManagementSystem/SQL/Nested Queries in SQL.md",
     "DatabaseManagementSystem/Magnetic-Disk",
     "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md",
-    "Pending Lectures.md",
     "DatabaseManagementSystem/SQL/Structured Query Language.md",
     "DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md",
     "DiscreteMathematics/Set-Theory/Set Definition.md",

@@ -1,7 +1,7 @@
-# Data Structures
+# [[Data Structures]]
 - [ ] Data Structures - Heaps practice set live 2📅 2023-09-27 
 - [ ] Data Structures - Heaps practice set live 3📅 2023-09-29
-- [ ] Data Structures - Hashing
+- [x] Data Structures - Hashing
 - [ ] Row-major, Column-major
 
 # Engineering Mathematics
@@ -18,7 +18,7 @@
 - [ ] C Programming - [Pointer Summary](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHgJFMCeS5c13pREPXcoRkaZ)
 - [ ] C Programming - Weekly Quiz 15, 17, 18
 
-# Aptitude
+# [[Aptitude]]
 - [x] Aptitude - ceiling and floor
 - [ ] Number system - `27:45`
 

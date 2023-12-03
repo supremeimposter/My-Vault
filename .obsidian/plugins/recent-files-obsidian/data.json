@@ -5,6 +5,14 @@
       "path": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md"
     },
     {
+      "basename": "Pending Lectures",
+      "path": "Pending Lectures.md"
+    },
+    {
+      "basename": "Aptitude",
+      "path": "Aptitude/Aptitude.md"
+    },
+    {
       "basename": "Data Structures",
       "path": "DataStructures/Data Structures.md"
     },
@@ -75,10 +83,6 @@
     {
       "basename": "SQL Retrieval Queries",
       "path": "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "Pending Lectures.md"
     },
     {
       "basename": "Structured Query Language",
@@ -195,10 +199,6 @@
     {
       "basename": "C",
       "path": "C/C.md"
-    },
-    {
-      "basename": "Aptitude",
-      "path": "Aptitude/Aptitude.md"
     }
   ],
   "omittedPaths": [],
