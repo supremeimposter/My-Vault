@@ -43,6 +43,7 @@ tags:
 - [[File Organization]]
 - [[Disk Space Management]]
 - [[Indexing]]
+- [[Single Level Ordered Index]]
 
 ---
 

@@ -17,7 +17,7 @@ tags:
 - constraints on data integrity.
 - Prevents the entry of incorrect information.
 - Many kinds of Integrity Constraints IC can be specified in the relational model.
-- IC's are defined on Scheme and a part of [[DDL and DML#DDL|DDL]].
+- IC's are defined on Scheme and a part of DDL.
 - IC checks are enforced by DBMS at run-time.
 
 > [!terminology] 

@@ -37,6 +37,11 @@ flexGrow=1
 - The main data file can be sorted by only one index field value, but all of the attributes can be used as index field values.
 - When the data file is sorted by one index field value, then it becomes unsorted on another index field value.
 - Sorting the data file is expensive, whereas sorting the index is NOT.
+- There can be separate indexes based on each attribute.
+- To gain fast random access to records in a file, we use an index structure.
+- The records in the data file may or may not be sorted.
+- Each index structure is associated with a particular search key.
+- A file may have several indices, on different search keys.
 
 ```nomnoml
 [Index] -- [Ordered Index(Static)]
@@ -47,3 +52,16 @@ flexGrow=1
 [Tree Based Index(Dynamic)] -- [B+ Tree]
 ```
 
+- There is another type of index called the **Hash Index** which is based on the concept of [[hashing]].
+- A relation can be physically stored on a disk either sequentially (sorted on some field) or unordered (heap file).
+- There are two types of index implementation
+```nomnoml
+[Index
+Implementation] -- [Sparse Index]
+[Index] -- [Dense Index]
+```
+
+- Blocking factor of index file is the number of index entries per block.
+## Ordered Index
+- In an ordered index file, index entries are stored sorted by the search key value.
+- The main data file is physically stored [[File Organization#Sequential File Organization|sequentially]].
