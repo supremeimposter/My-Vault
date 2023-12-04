@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Single Level Ordered Index",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md"
+    },
+    {
+      "basename": "Indexing",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md"
+    },
+    {
+      "basename": "Collision Resolution Techniques",
+      "path": "DataStructures/Hashing/Collision Resolution Techniques.md"
+    },
+    {
+      "basename": "Nested Queries in SQL",
+      "path": "DatabaseManagementSystem/SQL/Nested Queries in SQL.md"
+    },
+    {
+      "basename": "SQL Retrieval Queries",
+      "path": "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
       "basename": "File Organization",
       "path": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md"
+    },
+    {
+      "basename": "Constraints in Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
+    },
+    {
+      "basename": "Disk Structure and Performance",
+      "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "Temporary Plan.md"
     },
     {
       "basename": "Pending Lectures",
@@ -29,10 +65,6 @@
       "path": "DataStructures/Hashing/Analysis of Open Addressing.md"
     },
     {
-      "basename": "Collision Resolution Techniques",
-      "path": "DataStructures/Hashing/Collision Resolution Techniques.md"
-    },
-    {
       "basename": "Probing Strategies",
       "path": "DataStructures/Hashing/Probing Strategies.md"
     },
@@ -41,20 +73,8 @@
       "path": "GATE-CS.md"
     },
     {
-      "basename": "Indexing",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
-    },
-    {
       "basename": "Disk Space Management",
       "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Disk Space Management.md"
-    },
-    {
-      "basename": "Disk Structure and Performance",
-      "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
     },
     {
       "basename": "Disk Addressing",
@@ -69,20 +89,8 @@
       "path": "GATE-LOG.md"
     },
     {
-      "basename": "Temporary Plan",
-      "path": "Temporary Plan.md"
-    },
-    {
       "basename": "Equivalence Relation",
       "path": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md"
-    },
-    {
-      "basename": "Nested Queries in SQL",
-      "path": "DatabaseManagementSystem/SQL/Nested Queries in SQL.md"
-    },
-    {
-      "basename": "SQL Retrieval Queries",
-      "path": "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md"
     },
     {
       "basename": "Structured Query Language",
@@ -107,10 +115,6 @@
     {
       "basename": "Implication",
       "path": "DiscreteMathematics/Propositional-Logic/Implication.md"
-    },
-    {
-      "basename": "Constraints in Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
     },
     {
       "basename": "Set Operations",
@@ -191,14 +195,6 @@
     {
       "basename": "Links for Resources",
       "path": "GATE-materials/Links for Resources.md"
-    },
-    {
-      "basename": "Fundamentals of Computer Science",
-      "path": "Fundamentals of Computer Science/Fundamentals of Computer Science.md"
-    },
-    {
-      "basename": "C",
-      "path": "C/C.md"
     }
   ],
   "omittedPaths": [],
