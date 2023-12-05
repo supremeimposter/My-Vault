@@ -47,6 +47,19 @@
             }
           },
           {
+            "id": "c956e30ef8c9a0bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "dc9ad31e3786a3f2",
             "type": "leaf",
             "state": {
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -107,23 +120,23 @@
             }
           },
           {
-            "id": "e916f63bd4c6c102",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
-          },
-          {
             "id": "25fb3027bb42d785",
             "type": "leaf",
             "state": {
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "8da1f757c3632b0c",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -144,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md",
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md",
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md"
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md"
               }
             }
           },
@@ -237,30 +250,33 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
       "map-of-content:Update Map of Content": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "a51300f4b9656eaf",
+  "active": "c956e30ef8c9a0bc",
   "lastOpenFiles": [
     "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
+    "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md",
+    "attachments/Multi Level Ordered Index-20231205194831963.webp",
     "DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md",
+    "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
+    "DatabaseManagementSystem/Database Management System.md",
+    "Pending Lectures.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md",
     "DataStructures/Hashing/Collision Resolution Techniques.md",
     "DatabaseManagementSystem/SQL/Nested Queries in SQL.md",
     "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md",
-    "DatabaseManagementSystem/Database Management System.md",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
     "Set Theory.md",
     "DDL and DML.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
     "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
     "Temporary Plan.md",
-    "Pending Lectures.md",
     "Aptitude/Aptitude.md",
     "DataStructures/Data Structures.md",
     "DataStructures/Hashing/Expectation of Hashing.md",
@@ -283,12 +299,8 @@
     "DatabaseManagementSystem/File-Organization-and-Indexing",
     "DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
     "DatabaseManagementSystem/Magnetic-Disk/Disk Scheduling Algorithms.md",
-    "GATE-LOG.md",
-    "DatabaseManagementSystem/Magnetic-Disk/Untitled.md",
     "attachments/Disk Addressing-20231130161036855.webp",
     "attachments/Disk Addressing-20231130161020169.webp",
-    "attachments/Disk Structure and Performance-20231129220048021.webp",
-    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
     "DatabaseManagementSystem/Magnetic-Disk",
     "DatabaseManagementSystem/SQL",
     "DiscreteMathematics/Combinatronics",
