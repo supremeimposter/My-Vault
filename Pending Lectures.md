@@ -57,6 +57,8 @@
 
 # [[Database Management System]]
 - [ ] [[SQL Retrieval Queries]] Complete analysis [GATE pyqs](https://www.youtube.com/watch?v=zb6vXpZVo1E)
-
+- [ ] [Practice Set 1 - Normalization | Ullman DBMS Questions | Live Discussion | GoClasses | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=2dAWjK4JVco)
+- [ ] [Practice Set 1 Part 2 - Normalization | Ullman DBMS Questions | Live | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=EU5O_8wH3Xw)
+- [ ] [NPTEL DBMS 2022 Assignment 1 - Normalization, Relational Algebra | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=jp-9OeD-6qw)
 
 
