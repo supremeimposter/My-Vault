@@ -24,6 +24,7 @@ flexGrow=1
 ## Data File
 - Data file or main file or indexed file or file
 - Data file is not sorted based on index
+- Blocks containing the main data records are called **Data Blocks** or Blocks
 ```
 ```col-md
 flexGrow=1
@@ -31,6 +32,7 @@ flexGrow=1
 ## Index File
 - Index file or Index
 - Index is sorted based on index field value or search key
+- Blocks containing the index records are called **Index Blocks** or index fan-out
 ```
 ````
 
@@ -53,15 +55,45 @@ flexGrow=1
 ```
 
 - There is another type of index called the **Hash Index** which is based on the concept of [[hashing]].
+- Hash indexes may or may not be ordered.
 - A relation can be physically stored on a disk either sequentially (sorted on some field) or unordered (heap file).
-- There are two types of index implementation
+- There are two ways to implement index
 ```nomnoml
 [Index
 Implementation] -- [Sparse Index]
 [Index] -- [Dense Index]
 ```
-
+- By default, dense index requires record address. But either block or record address can be given.
+- Only block address is used for sparse index.
 - Blocking factor of index file is the number of index entries per block.
+
+
+> [!faq] Can multi-attributes be used as search key in index?
+> Yes. But only single attribute search keys are in standard resources. Mutli attribut search keys are complicated.
+
 ## Ordered Index
-- In an ordered index file, index entries are stored sorted by the search key value.
-- The main data file is physically stored [[File Organization#Sequential File Organization|sequentially]].
+- In an ordered index file, index entries are stored sorted by the search key field.
+- All the types of indexes are ordered, though the corresponding search key field may or may not ordered in the main data file.
+
+```nomnoml
+[Ordered 
+Index] -- [Single 
+Level 
+Index]
+[Ordered 
+Index] -- [Multi 
+Level 
+Index]
+[Single 
+Level 
+Index] -- [Primary 
+Index]
+[Single 
+Level 
+Index] -- [Clustering 
+Index]
+[Single 
+Level 
+Index] -- [Secondary 
+Index]
+```

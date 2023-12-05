@@ -61,12 +61,52 @@ tags:
 - Number of index entries = Number of clusters = Number of distinct search key values
 - One index entry for every distinct search key value in Clustering index.
 
+
+> [!attention] 
+> The term **Anchor Index** is not there in clustering index.
+> In Korth book, primary index is the same as clustering index.
+
 ### Implementation
 
 - The index entry contains block address of the first entry of the index search key.
 - Clustering index is a sparse index.
 
+- Both primary index and clustering index cannot be created at the same time.
 
 ---
 ## Secondary Index
 > [!lecture] Lecture-7
+
+- If a field is unordered in the data file, if that field is used to create an index, then the index is called secondary index.
+- That field can be either key or a non-key. 
+	1. Secondary Index on Key
+	2. Secondary Index on non-key
+
+> [!intuition] 
+> When the secondary index is created, it is an ordered index, whereas the field used as the secondary index must be non-ordered in the main data file.
+
+- Secondary index can be created for a heap file.
+- In a data file, at most one field must be unordered. So Secondary index is possible on any file organization i.e. sequential or heap.
+- Secondary index is also called as unclustered index.
+### Implementation
+- Secondary Index is dense index.
+- Record address is used since there is a index record for each record in the data file.
+- Number of disk block access is the same as before.
+
+#### Secondary Index on Non key
+- Various implementations are possible.
+- When there is a secondary index on non-key, there will be an extra level.
+
+#### Secondary Index on Key
+
+- Dense index
+
+
+> [!header] When Secondary Index is a burden?
+> 
+
+
+---
+
+> [!lecture] Lecture-8
+>> [!youtube] [32 Questions on Indexes - Primary Index, Clustering Index, Secondary Indexing | DBMS | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=EbsiJ86T1RE)

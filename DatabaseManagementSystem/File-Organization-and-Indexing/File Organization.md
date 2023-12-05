@@ -57,11 +57,13 @@ flexGrow=1
 flexGrow=1
 ===
 ### Record Address
+Block address + position of record in the block
 ```
 ```col-md
 flexGrow=1
 ===
 ### Block Address
+Block address
 ```
 ````
 
