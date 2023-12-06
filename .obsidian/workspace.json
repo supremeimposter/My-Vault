@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "240799532e3e2af0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a51300f4b9656eaf",
             "type": "leaf",
             "state": {
@@ -73,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md",
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md",
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md"
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
               }
             }
           },
@@ -259,14 +272,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c956e30ef8c9a0bc",
+  "active": "240799532e3e2af0",
   "lastOpenFiles": [
     "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md",
-    "attachments/Multi Level Ordered Index-20231205194831963.webp",
+    "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
+    "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md",
     "DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
+    "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md",
     "DatabaseManagementSystem/Database Management System.md",
+    "attachments/Indexing-20231206221432011.webp",
+    "attachments/Indexing-20231206220849032.webp",
+    "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
+    "attachments/Multi Level Ordered Index-20231206172318743.webp",
+    "attachments/Multi Level Ordered Index-20231206172236862.webp",
+    "attachments/Multi Level Ordered Index-20231206172205015.webp",
+    "attachments/Multi Level Ordered Index-20231206172141253.webp",
+    "attachments/Multi Level Ordered Index-20231206172109811.webp",
+    "attachments/Multi Level Ordered Index-20231206165816013.webp",
+    "attachments/Multi Level Ordered Index-20231206163716795.webp",
+    "attachments/Multi Level Ordered Index-20231205194831963.webp",
     "Pending Lectures.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md",
     "DataStructures/Hashing/Collision Resolution Techniques.md",
@@ -280,27 +304,17 @@
     "Aptitude/Aptitude.md",
     "DataStructures/Data Structures.md",
     "DataStructures/Hashing/Expectation of Hashing.md",
-    "attachments/Expectation of Hashing-20231203232211091.webp",
     "DataStructures/Hashing/Hashing.md",
     "DataStructures/Hashing/Analysis of Open Addressing.md",
     "DataStructures/Hashing/Probing Strategies.md",
-    "attachments/Probing Strategies-20231203160400616.webp",
-    "attachments/Probing Strategies-20231203141813008.webp",
-    "attachments/Hashing-20231203082728834.webp",
     "GATE-CS.md",
     "DataStructures/Hashing",
     "DataStructures",
     "DatabaseManagementSystem/File-Organization-and-Indexing/Disk Space Management.md",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/Untitled Diagram.svg",
     "attachments/Diagram 1.svg.xml",
-    "attachments/Diagram 1.svg",
     "attachments/Diagram.svg.xml",
-    "attachments/Diagram.svg",
     "DatabaseManagementSystem/File-Organization-and-Indexing",
     "DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
-    "DatabaseManagementSystem/Magnetic-Disk/Disk Scheduling Algorithms.md",
-    "attachments/Disk Addressing-20231130161036855.webp",
-    "attachments/Disk Addressing-20231130161020169.webp",
     "DatabaseManagementSystem/Magnetic-Disk",
     "DatabaseManagementSystem/SQL",
     "DiscreteMathematics/Combinatronics",
