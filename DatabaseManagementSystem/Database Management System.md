@@ -45,6 +45,9 @@ tags:
 - [[Indexing]]
 - [[Single Level Ordered Index]]
 - [[Multi Level Ordered Index]]
+- [[B Tree]]
+
+
 
 ---
 

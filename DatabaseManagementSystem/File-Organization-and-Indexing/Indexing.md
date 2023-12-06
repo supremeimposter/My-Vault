@@ -1,7 +1,7 @@
 ---
 pdf: lec-4-6
 module: 6
-lecture: "4"
+lecture: 4, 11
 date: 2023-12-02T18:16:00
 version:
   - DBMS-24
@@ -76,24 +76,57 @@ Implementation] -- [Sparse Index]
 - All the types of indexes are ordered, though the corresponding search key field may or may not ordered in the main data file.
 
 ```nomnoml
-[Ordered 
-Index] -- [Single 
-Level 
-Index]
-[Ordered 
-Index] -- [Multi 
-Level 
-Index]
-[Single 
-Level 
-Index] -- [Primary 
-Index]
-[Single 
-Level 
-Index] -- [Clustering 
-Index]
-[Single 
-Level 
-Index] -- [Secondary 
-Index]
+[Ordered Index] -- [Single Level Index]
+[Ordered Index] -- [Multi Level Index]
+[Single Level Index] -- [Primary Index]
+[Single Level Index] -- [Clustering Index]
+[Single Level Index] -- [Secondary Index]
 ```
+
+- [[Single Level Ordered Index]]
+- [[Multi Level Ordered Index]]
+
+### Disadvantages of Ordered Index
+> [!lecture] Lecture-10
+- Issues arise when data file is modified.
+- All the indexes may have to be changed for a little modification in the data file.
+- Use ordered index only when the data file is almost static i.e. ordered indexes are called static indexes.
+
+---
+## Tree based Index
+> [!lecture] Lecture-11
+
+- Dynamic multi level tree based index.
+- Modification is less costly.
+- Lots of keys can be put together in a single node in Tree based indexes.
+
+```nomnoml
+[Tree Based Index] -- [B Tree]
+[Tree Based Index] -- [B+ Tree]
+```
+
+## Disadvantages of In-memory data structures
+> [!header] Why in-memory data structures are not suitable for disk data structures?
+
+- In-memory data structures are not using the disk block space completely.
+- In-memory tree data structures use all those space in the data block only for two pointers and a small node of data.
+- They form many levels compared to B and B+ Trees leading to more I/O costs.
+
+![[Indexing-20231206221432011.webp]]
+
+## Obvious Rules of Search Trees
+
+- B and B+ trees are multi way search trees.
+
+## Design of Disk Data Structures
+1. Minimize I/O access cost
+2. Completely utilize the disk block space
+
+- [[B Tree]] and [[B+ Tree]] addresses both of these issues with additional constraints on the search tree.
+- A parameter $p$ called **Order** is associated with each of the index. It is the number of tree (block or node) pointers per node.
+
+> [!convention] 
+> - Block ${} \equiv {}$ Node
+> - Block Pointer $\equiv$ Node pointer $\equiv$ Tree pointer ${} \equiv {}$ Child pointer
+> - Record Pointer is just record pointer
+
