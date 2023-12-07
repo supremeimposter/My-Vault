@@ -9,12 +9,16 @@
       "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md"
     },
     {
-      "basename": "B+ Tree",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md"
-    },
-    {
       "basename": "Single Level Ordered Index",
       "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md"
+    },
+    {
+      "basename": "File Organization",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md"
+    },
+    {
+      "basename": "B+ Tree",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md"
     },
     {
       "basename": "Multi Level Ordered Index",
@@ -23,10 +27,6 @@
     {
       "basename": "Database Management System",
       "path": "DatabaseManagementSystem/Database Management System.md"
-    },
-    {
-      "basename": "File Organization",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md"
     },
     {
       "basename": "Pending Lectures",
