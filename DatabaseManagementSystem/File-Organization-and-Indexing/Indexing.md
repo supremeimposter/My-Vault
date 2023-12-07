@@ -130,3 +130,7 @@ Implementation] -- [Sparse Index]
 > - Block Pointer $\equiv$ Node pointer $\equiv$ Tree pointer ${} \equiv {}$ Child pointer
 > - Record Pointer is just record pointer
 
+
+> [!tip] 
+> Duplication of keys is NOT discussed in the standard books.
+> B and B+ trees are discussed in the data structure point of view.
