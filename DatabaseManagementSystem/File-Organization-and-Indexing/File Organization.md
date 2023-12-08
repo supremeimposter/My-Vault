@@ -58,15 +58,17 @@ flexGrow=1
 ===
 ### Record Address
 Block address + position of record in the block
+![[File Organization-20231208184445733.webp]]
 ```
 ```col-md
 flexGrow=1
 ===
 ### Block Address
 Block address
+![[File Organization-20231208184429236.webp]]
 ```
 ````
-
+^458978
 
 ### Find a field in fixed-length record
 

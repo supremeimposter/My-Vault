@@ -12,14 +12,19 @@ tags:
   - DBMS/Indexing
 ---
 # B Tree
+> [!lecture] Lecture-16
 
-- Order is the maximum number of block pointers.
+- A parameter ${} p {}$ called **Order** of a B tree is associated with each of the index. It is the number of tree (block or node) pointers per node.
 - All nodes have the same structure and same size.
 
 > [!attention] 
 > The concept of **order** is the same but take the definition of order as per the given question.
 
-## Rules of a B Tree of order p
+- The block pointers of B tree are present in the leaf node though they are `NULL`.
+- There is no key duplication in B trees.
+
+## Rules of a B Tree
+If a B tree has an order ${} p {}$, then these are the following rules
 
 1. Obvious search tree rules
 2. All leaves must be on the same level
@@ -55,11 +60,12 @@ For a B Tree of order ${} p$,
 
 - The levels are reduced, but within a node or block, search occurs.
 - Every unsuccessful search goes till the leaf level.
-- Search time complexity - ${} \mathcal{O}(log_2 \;n)$, $n$ is the number of keys.
+- Search time complexity - ${} \mathcal{O}(log_2 \;n)$, $n {}$ is the number of keys.
 
 ## Insertion
 
 - In B tree, insertion always starts at the leaf node.
+- In B trees, insertion may cause split from leaf to root.
 
 ### Odd Order Tree
 - when leaf is not full, then insert in sorted order.
@@ -71,10 +77,21 @@ For a B Tree of order ${} p$,
 - Right-biased
 - Left-biased
 
-
 > [!question] Does the order of insertion of keys matter?
 > With the same set of keys, different B trees of varied heights can be obtained by changing the *order-of-insertion* of keys.
 
-- In B trees, insertion can cause split from leaf to root.
 
+## Variation of B Tree
+> [!lecture] Lecture-14
 
+- In a variation of a B Tree, the leaf nodes can accomodate key values instead of block pointers that point to `NULL`.
+
+## Keys, Nodes, Height
+
+- For the height to be maximum, there should be as many keys as possible at each node.
+- For the height to be minimum, there should be minumum number of keys possible at each node.
+
+- levels = height + 1
+
+> [!question] Why floor for maximum height and ceil for minimum height?
+> If the maximum height is ${} 5.6$, then it is the maximum height it can have and cannot go beyound $5.6$. We need a integer value to be height, so the possible maximum height is ${} \lfloor 5.6 \rfloor = 5 {}$.

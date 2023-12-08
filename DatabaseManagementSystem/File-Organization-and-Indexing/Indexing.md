@@ -105,7 +105,11 @@ Implementation] -- [Sparse Index]
 [Tree Based Index] -- [B+ Tree]
 ```
 
-## Disadvantages of In-memory data structures
+> [!tip] 
+> - Duplication of keys is NOT discussed in the standard books for B trees.
+> - B and B+ trees are discussed in the data structure point of view not the implementation point of view.
+
+### Disadvantages of In-memory data structures
 > [!header] Why in-memory data structures are not suitable for disk data structures?
 
 - In-memory data structures are not using the disk block space completely.
@@ -114,23 +118,18 @@ Implementation] -- [Sparse Index]
 
 ![[Indexing-20231206221432011.webp]]
 
-## Obvious Rules of Search Trees
+### Obvious Rules of Search Trees
 
 - B and B+ trees are multi way search trees.
 
-## Design of Disk Data Structures
+### Design of Disk Data Structures
 1. Minimize I/O access cost
 2. Completely utilize the disk block space
 
 - [[B Tree]] and [[B+ Tree]] addresses both of these issues with additional constraints on the search tree.
-- A parameter $p$ called **Order** is associated with each of the index. It is the number of tree (block or node) pointers per node.
 
 > [!convention] 
 > - Block ${} \equiv {}$ Node
 > - Block Pointer $\equiv$ Node pointer $\equiv$ Tree pointer ${} \equiv {}$ Child pointer
 > - Record Pointer is just record pointer
 
-
-> [!tip] 
-> Duplication of keys is NOT discussed in the standard books.
-> B and B+ trees are discussed in the data structure point of view.
