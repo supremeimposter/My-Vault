@@ -60,7 +60,7 @@
         "name": "lucide-brain"
       },
       "command": false,
-      "title": "Remember",
+      "title": "Points to Remember",
       "injectColor": true,
       "noTitle": false,
       "copy": false

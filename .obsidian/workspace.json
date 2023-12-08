@@ -34,38 +34,25 @@
             }
           },
           {
+            "id": "daccfc3ca324af00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "240799532e3e2af0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a51300f4b9656eaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c956e30ef8c9a0bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -170,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
+                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md"
               }
             }
           },
@@ -272,25 +259,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "240799532e3e2af0",
+  "active": "daccfc3ca324af00",
   "lastOpenFiles": [
     "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
+    "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md",
     "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
+    "attachments/B+ Tree-20231208225053941.webp",
+    "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
+    "attachments/File Organization-20231208184445733.webp",
+    "attachments/File Organization-20231208184429236.webp",
+    "attachments/B+ Tree-20231208155433296.webp",
+    "attachments/B+ Tree-20231208151220349.webp",
+    "attachments/B+ Tree-20231208150329093.webp",
     "attachments/B Tree-20231207205757961.webp",
     "DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md",
     "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md",
     "DatabaseManagementSystem/Database Management System.md",
     "attachments/Indexing-20231206221432011.webp",
     "attachments/Indexing-20231206220849032.webp",
     "attachments/Multi Level Ordered Index-20231206172318743.webp",
-    "attachments/Multi Level Ordered Index-20231206172236862.webp",
-    "attachments/Multi Level Ordered Index-20231206172205015.webp",
-    "attachments/Multi Level Ordered Index-20231206172141253.webp",
-    "attachments/Multi Level Ordered Index-20231206172109811.webp",
-    "attachments/Multi Level Ordered Index-20231206165816013.webp",
-    "attachments/Multi Level Ordered Index-20231206163716795.webp",
     "Pending Lectures.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md",
     "DataStructures/Hashing/Collision Resolution Techniques.md",
