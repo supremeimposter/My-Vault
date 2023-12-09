@@ -29,28 +29,28 @@
       }
     },
     {
-      "query": "tag:#DM/Sets ",
+      "query": "tag:#DiscreteMath/Sets ",
       "color": {
         "a": 1,
         "rgb": 5431378
       }
     },
     {
-      "query": "tag:#DM/GroupTheory  ",
+      "query": "tag:#DiscreteMath/GroupTheory  ",
       "color": {
         "a": 1,
         "rgb": 5431473
       }
     },
     {
-      "query": "tag:#DM/Functions  ",
+      "query": "tag:#DiscreteMath/Functions  ",
       "color": {
         "a": 1,
         "rgb": 5419488
       }
     },
     {
-      "query": "tag:#DM/Combinatronics  ",
+      "query": "tag:#DiscreteMath/Combinatronics  ",
       "color": {
         "a": 1,
         "rgb": 6053078

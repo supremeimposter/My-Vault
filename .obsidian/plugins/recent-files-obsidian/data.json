@@ -1,12 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "B+ Tree",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md"
+      "basename": "ER Model",
+      "path": "DatabaseManagementSystem/ER-Model/ER Model.md"
+    },
+    {
+      "basename": "Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Introduction to DBMS",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
+    },
+    {
+      "basename": "Time Complexity for Recursive Programs",
+      "path": "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
+    },
+    {
+      "basename": "Algorithms",
+      "path": "Algorithms/Algorithms.md"
+    },
+    {
+      "basename": "Masters Theorem",
+      "path": "Algorithms/Recurrence-Relation/Masters Theorem.md"
+    },
+    {
+      "basename": "Divide and Conquer",
+      "path": "Algorithms/Divide-and-Conquer/Divide and Conquer.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Transitive Relation",
+      "path": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Transitive Relation.md"
     },
     {
       "basename": "Indexing",
       "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md"
+    },
+    {
+      "basename": "B+ Tree",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md"
     },
     {
       "basename": "B Tree",
@@ -23,10 +63,6 @@
     {
       "basename": "Multi Level Ordered Index",
       "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "Pending Lectures",
@@ -145,14 +181,6 @@
       "path": "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md"
     },
     {
-      "basename": "Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
       "basename": "Tuple Relational Calculus",
       "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
     },
@@ -167,38 +195,6 @@
     {
       "basename": "Tuple Relational Calculus-20231121220201107",
       "path": "attachments/Tuple Relational Calculus-20231121220201107.webp"
-    },
-    {
-      "basename": "Function Definition",
-      "path": "DiscreteMathematics/Functions/Function Definition.md"
-    },
-    {
-      "basename": "Combinatronics",
-      "path": "DiscreteMathematics/Combinatronics/Combinatronics.md"
-    },
-    {
-      "basename": "Types of Functions",
-      "path": "DiscreteMathematics/Functions/Types of Functions.md"
-    },
-    {
-      "basename": "2023-11-21",
-      "path": "daily-agenda/2023-11-21.md"
-    },
-    {
-      "basename": "Normal Forms",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
-    },
-    {
-      "basename": "Introduction to DBMS",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
-    },
-    {
-      "basename": "2023-11-20",
-      "path": "daily-agenda/2023-11-20.md"
-    },
-    {
-      "basename": "2023-11-19",
-      "path": "daily-agenda/2023-11-19.md"
     }
   ],
   "omittedPaths": [],

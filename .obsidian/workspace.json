@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "1f2b957c21850351",
+            "id": "bc60db9fbca46f17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
+                "file": "DatabaseManagementSystem/ER-Model/ER Model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "daccfc3ca324af00",
+            "id": "b6854b4414703d0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,25 +47,12 @@
             }
           },
           {
-            "id": "240799532e3e2af0",
+            "id": "a08da817b4f5eb32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc9ad31e3786a3f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
+                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +74,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "145ab42fd1c419a0",
+            "id": "80784521bca5ca54",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -135,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md",
+                "file": "DatabaseManagementSystem/ER-Model/ER Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md",
+                "file": "DatabaseManagementSystem/ER-Model/ER Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md"
+                "file": "DatabaseManagementSystem/ER-Model/ER Model.md"
               }
             }
           },
@@ -239,15 +225,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 309.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "cloze:Toggle all clozes": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "oz-clear-unused-images:Clear Unused Images": false,
@@ -259,25 +245,40 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "daccfc3ca324af00",
+  "active": "bc60db9fbca46f17",
   "lastOpenFiles": [
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+    "DatabaseManagementSystem/Database Management System.md",
+    "DatabaseManagementSystem/ER-Model/ER Model.md",
+    "attachments/DatabaseManagementSystem/ER-Model/ER Model/IMG-20231209215520398.svg",
+    "attachments/DatabaseManagementSystem/ER-Model/ER Model",
+    "attachments/DatabaseManagementSystem/ER-Model",
+    "attachments/DatabaseManagementSystem",
+    "attachments/DatabaseManagementSystem/ER-Model/ER Model/IMG-20231209215520398.svg.xml",
+    "attachments/ER Model-20231209183712894.webp",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
+    "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
+    "attachments/Time Complexity for Recursive Programs-20231209181242863.webp",
+    "Algorithms/Algorithms.md",
+    "Algorithms/Recurrence-Relation/Masters Theorem.md",
+    "Algorithms/Divide-and-Conquer/Divide and Conquer.md",
+    "DiscreteMathematics/Discrete Mathematics.md",
+    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Transitive Relation.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Relation.md",
     "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
+    "DatabaseManagementSystem/ER-Model",
     "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md",
     "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
-    "attachments/B+ Tree-20231208225053941.webp",
     "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
+    "attachments/File Organization-20231209100245947.webp",
+    "attachments/B+ Tree-20231208225053941.webp",
     "attachments/File Organization-20231208184445733.webp",
     "attachments/File Organization-20231208184429236.webp",
     "attachments/B+ Tree-20231208155433296.webp",
     "attachments/B+ Tree-20231208151220349.webp",
     "attachments/B+ Tree-20231208150329093.webp",
-    "attachments/B Tree-20231207205757961.webp",
     "DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md",
     "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md",
-    "DatabaseManagementSystem/Database Management System.md",
-    "attachments/Indexing-20231206221432011.webp",
-    "attachments/Indexing-20231206220849032.webp",
-    "attachments/Multi Level Ordered Index-20231206172318743.webp",
     "Pending Lectures.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md",
     "DataStructures/Hashing/Collision Resolution Techniques.md",
@@ -286,26 +287,11 @@
     "Set Theory.md",
     "DDL and DML.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
-    "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
-    "Temporary Plan.md",
-    "Aptitude/Aptitude.md",
-    "DataStructures/Data Structures.md",
-    "DataStructures/Hashing/Expectation of Hashing.md",
-    "DataStructures/Hashing/Hashing.md",
-    "DataStructures/Hashing/Analysis of Open Addressing.md",
-    "DataStructures/Hashing/Probing Strategies.md",
-    "GATE-CS.md",
     "DataStructures/Hashing",
     "DataStructures",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/Disk Space Management.md",
     "attachments/Diagram 1.svg.xml",
-    "attachments/Diagram.svg.xml",
     "DatabaseManagementSystem/File-Organization-and-Indexing",
     "DatabaseManagementSystem/Magnetic-Disk",
-    "DatabaseManagementSystem/SQL",
-    "DiscreteMathematics/Combinatronics",
-    "DatabaseManagementSystem/Tuple-Relational-Calculus",
-    "DatabaseManagementSystem/Relational-Algebra",
     "Untitled.canvas"
   ]
 }

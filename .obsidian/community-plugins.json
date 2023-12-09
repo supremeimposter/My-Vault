@@ -1,12 +1,10 @@
 [
   "darlal-switcher-plus",
   "highlightr-plugin",
-  "obsidian-image-toolkit",
   "obsidian-admonition",
   "file-tree-alternative",
   "tag-wrangler",
   "obsidian-auto-link-title",
-  "media-extended",
   "oz-clear-unused-images",
   "calendar",
   "find-unlinked-files",
@@ -19,7 +17,6 @@
   "periodic-notes",
   "obsidian-columns",
   "obsidian-text-format",
-  "oz-image-plugin",
   "obsidian-style-settings",
   "lapel",
   "dataview",
@@ -31,5 +28,10 @@
   "inline-math",
   "obsidian-nomnoml-diagram",
   "obsidian-diagrams-net",
-  "badges"
+  "badges",
+  "links",
+  "obsidian-timelines",
+  "cloze",
+  "obsidian-image-toolkit",
+  "media-extended"
 ]
