@@ -8,8 +8,8 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DM
-  - DM/Functions
+  - DiscreteMath
+  - DiscreteMath/Functions
 ---
 # Special types of functions
 > [!lecture] Lecture-4

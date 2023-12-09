@@ -8,10 +8,10 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DM
-  - DM/Sets
-  - DM/Sets/Relations
-  - DM/Sets/Ordering
+  - DiscreteMath
+  - DiscreteMath/Sets
+  - DiscreteMath/Sets/Relations
+  - DiscreteMath/Sets/Ordering
 ---
 
 # Set Ordering

@@ -1,8 +1,8 @@
 ---
 module: 7
 tags:
-  - DM
-  - DM/GroupTheory
+  - DiscreteMath
+  - DiscreteMath/GroupTheory
 ---
 # Practice Set 1
 

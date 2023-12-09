@@ -4,7 +4,7 @@ version:
   - DM-23
 instructor: DeepakPoonia
 tags:
-  - DM
+  - DiscreteMath
   - GATE/Dashboard
 ---
 # Discrete Mathematics

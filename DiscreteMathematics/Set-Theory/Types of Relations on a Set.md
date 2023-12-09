@@ -8,9 +8,9 @@ version:
 last-revision: 
 notes-taken: true
 tags:
-  - DM
-  - DM/Sets
-  - DM/Sets/Relations
+  - DiscreteMath
+  - DiscreteMath/Sets
+  - DiscreteMath/Sets/Relations
 ---
 # Types of Relations on a Set
 - These special types of relations are only for relations $R$ on a set $A$ i.e. $R : A \rightarrow A$

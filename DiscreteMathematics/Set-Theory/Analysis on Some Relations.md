@@ -8,9 +8,9 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DM
-  - DM/Sets
-  - DM/Sets/Relations
+  - DiscreteMath
+  - DiscreteMath/Sets
+  - DiscreteMath/Sets/Relations
 ---
 # Subset Relation
 > [!lecture] Lecture-60

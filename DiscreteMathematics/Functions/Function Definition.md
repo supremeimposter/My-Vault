@@ -8,9 +8,9 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DM/Sets/Relations
-  - DM/Functions
-  - DM
+  - DiscreteMath/Sets/Relations
+  - DiscreteMath/Functions
+  - DiscreteMath
 ---
 # Function
 > [!lecture] Lecture-1

@@ -8,8 +8,8 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DM
-  - DM/GroupTheory
+  - DiscreteMath
+  - DiscreteMath/GroupTheory
 ---
 # Monoid
 - A semi-group with identity element.

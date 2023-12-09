@@ -8,8 +8,8 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DM/Combinatronics
-  - DM/Combinatronics/Principles
+  - DiscreteMath/Combinatronics
+  - DiscreteMath/Combinatronics/Principles
 ---
 # Combinatronics
 - How to count without counting? 

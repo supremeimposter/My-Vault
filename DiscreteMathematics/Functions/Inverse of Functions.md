@@ -8,9 +8,9 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DM
-  - DM/Functions
-  - DM/Sets/Relations
+  - DiscreteMath
+  - DiscreteMath/Functions
+  - DiscreteMath/Sets/Relations
 ---
 # Inverse of Functions
 

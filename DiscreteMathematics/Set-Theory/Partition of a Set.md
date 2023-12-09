@@ -8,8 +8,8 @@ version:
 last-revision: 
 notes-taken: true
 tags:
-  - DM/Sets
-  - DM
+  - DiscreteMath/Sets
+  - DiscreteMath
 ---
 # Partition of a Set
 

@@ -8,7 +8,7 @@ version:
 last-revision: ""
 notes-taken: false
 tags:
-  - DM/Sets
+  - DiscreteMath/Sets
 ---
 # Set Operations
 

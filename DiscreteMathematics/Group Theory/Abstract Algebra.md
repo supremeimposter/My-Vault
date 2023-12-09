@@ -8,8 +8,8 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DM
-  - DM/GroupTheory
+  - DiscreteMath
+  - DiscreteMath/GroupTheory
 ---
 # Abstract Algebra
 Abstract Algebra is the study of abstract mathematical structures.

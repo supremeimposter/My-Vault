@@ -8,8 +8,8 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DM
-  - DM/GroupTheory
+  - DiscreteMath
+  - DiscreteMath/GroupTheory
 ---
 # Closure Property
 > [!lecture] Lecture-4

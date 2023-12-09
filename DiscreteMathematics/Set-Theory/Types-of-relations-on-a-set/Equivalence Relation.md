@@ -8,9 +8,9 @@ version:
 last-revision: 
 notes-taken: true
 tags:
-  - DM
-  - DM/Sets
-  - DM/Sets/Relations
+  - DiscreteMath
+  - DiscreteMath/Sets
+  - DiscreteMath/Sets/Relations
 ---
 # Equivalence Relation
 

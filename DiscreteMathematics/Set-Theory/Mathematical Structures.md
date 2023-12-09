@@ -8,7 +8,7 @@ version:
 last-revision: 
 notes-taken: true
 tags:
-  - "#DM/Sets"
+  - "#DiscreteMath/Sets"
 ---
 
 

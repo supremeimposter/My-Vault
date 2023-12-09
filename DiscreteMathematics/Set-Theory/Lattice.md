@@ -8,8 +8,8 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DM
-  - DM/Sets/Lattices
+  - DiscreteMath
+  - DiscreteMath/Sets/Lattices
 ---
 # Lattice
 

@@ -1,9 +1,9 @@
 ---
 module: 5
 tags:
-  - DM
-  - DM/Sets
-  - DM/Sets/PracticeSet
+  - DiscreteMath
+  - DiscreteMath/Sets
+  - DiscreteMath/Sets/PracticeSet
 ---
 # Practice set 1
 

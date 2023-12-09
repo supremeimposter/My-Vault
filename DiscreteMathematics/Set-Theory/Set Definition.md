@@ -7,8 +7,8 @@ version:
   - DM-2024
 notes-taken: false
 tags:
-  - DM
-  - DM/Sets
+  - DiscreteMath
+  - DiscreteMath/Sets
 ---
 
 - Set is a collection of any elements or sets.
