@@ -90,12 +90,12 @@ T_2(n) = T \Big( \frac{n}{3} \Big) + T \Big(\frac{2n}{3} \Big) + n^2
 $$
 - For every call for the function, the work done is $n^2$ and the rest are recursive calls made
 
-- When there are two different dividing functions in a recurrence relation as in $T_1(n)$, then there is a lower bound and upper bound for that recurrence relation as the levels of the tree of different branches varies for those two different dividing functions.
+- When there are two different dividing functions in a recurrence relation as in $T_1(n) {}$, then there is a lower bound and upper bound for that recurrence relation as the levels of the tree of different branches varies for those two different dividing functions.
 - Each level of the tree is one recursion.
 
-![[Pasted image 20231022181751.png]]
+![[Time Complexity for Recursive Programs-20231209181242863.webp]]
 
-- Since $k \lt l$ , so $log_3 \; n \lt log_{\frac{3}{2}}\; n$
+- Since ${} k \lt l$ , so $log_3 \; n \lt log_{\frac{3}{2}}\; n$
 - The left-most branch is of minimum height and the right-most branch is the of maximum height. Until the minimum height is the lower bound and until the maximum height is the upper bound.
 - At each level, sum up the work done by all of the nodes in that level.
 
