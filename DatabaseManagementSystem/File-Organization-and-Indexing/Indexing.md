@@ -121,6 +121,7 @@ Implementation] -- [Sparse Index]
 ### Obvious Rules of Search Trees
 
 - B and B+ trees are multi way search trees.
+- Height of a tree is the number of edges along a path.
 
 ### Design of Disk Data Structures
 1. Minimize I/O access cost
@@ -130,6 +131,6 @@ Implementation] -- [Sparse Index]
 
 > [!convention] 
 > - Block ${} \equiv {}$ Node
-> - Block Pointer $\equiv$ Node pointer $\equiv$ Tree pointer ${} \equiv {}$ Child pointer
+> - Block Pointer $\equiv$ Node pointer $\equiv$ Tree pointer ${} \equiv {}$ Child pointer ${} \equiv {}$ Index pointer
 > - Record Pointer is just record pointer
 

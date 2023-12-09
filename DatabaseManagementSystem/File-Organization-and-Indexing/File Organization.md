@@ -57,15 +57,14 @@ flexGrow=1
 flexGrow=1
 ===
 ### Record Address
-Block address + position of record in the block
-![[File Organization-20231208184445733.webp]]
+Block address + position of desired record in the block
+### Block Address
+Block address
 ```
 ```col-md
 flexGrow=1
 ===
-### Block Address
-Block address
-![[File Organization-20231208184429236.webp]]
+![[File Organization-20231209100245947.webp]]
 ```
 ````
 ^458978

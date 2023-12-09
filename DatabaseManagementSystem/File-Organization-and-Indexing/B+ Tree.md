@@ -37,6 +37,7 @@ $$
 ![[B+ Tree-20231208155433296.webp]]
 
 - Order of a B+ Tree is the maximum number of total pointers per node.
+- If the order of a B+ tree is $p {}$, then each node can have atmost $p {}$ pointers and ${} p - 1 {}$ search key values.
 
 > [!question] Does the order of insertion of keys matter?
 > With the same set of keys, different B+ trees of varied heights can be obtained by changing the *order-of-insertion* of keys.
@@ -71,6 +72,7 @@ k = 10]
 ```
 
 - Range search fetches the keys between the given range. Exact end points need not be present.
+- All searches (successful or unsuccessful) in B+ trees take the same amount of index I/O cost.
 
 ## Insertion Algorithm
 
@@ -83,3 +85,9 @@ k = 10]
 ![[B+ Tree-20231208225053941.webp|Right-biased Insertion Algorithm]]
 
 ![[B+ Tree#^noderel]]
+
+## Keys, Nodes, Height
+
+
+- For a given set of keys, the maximum or minimum height can be found by Bulk loading of keys i.e. bottom up approach.
+- Bulk loading is also applied to Heap data structure.

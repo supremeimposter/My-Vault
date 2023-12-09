@@ -17,6 +17,7 @@ tags:
 - Relational model is implementation friendly but it is a theoretical model.
 - Every data in the table must be a single atomic entity i.e. should NOT be divisible.
 - In relational model, a database is a collection of relations and a table is a collection of tuples.
+- [[Relations|Relation]] is the data structure of the relational model visualized as a table.
 - Two records can NEVER be same in a relational model.
 - Order of attributes matter.
 - Order of tuples does NOT matter.

@@ -23,12 +23,21 @@ tags:
 
 ## Design Process
 
+```mermaid
+flowchart TD
+	A[Requirement Analysis phase] --> B[Conceptual Design phase]
+	B --> C[Logical Design phase]
+```
+
 ### Requirement Analysis phase
 - Gather information
 
 ### Conceptual Design phase
 - Represent the gathered information in an user-friendly model
 	- Example: ER model
+
+> [!info] 
+> No DBMS software is based on ER model
 
 ### Logical Design phase
 - Conceptual design is converted to logical design using implementation friendly model

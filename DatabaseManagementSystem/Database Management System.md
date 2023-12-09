@@ -46,7 +46,10 @@ tags:
 - [[Single Level Ordered Index]]
 - [[Multi Level Ordered Index]]
 - [[B Tree]]
+- [[B+ Tree]]
 
+# Module 7 - ER Model
+- [[ER Model]]
 
 
 ---
