@@ -8,9 +8,9 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - ALGO
-  - ALGO/DivideAndConquer
-  - ALGO/Sorts
+  - Algorithm
+  - Algorithm/DivideAndConquer
+  - Algorithm/Sorts
 ---
 # Merge Sort
 

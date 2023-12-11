@@ -8,8 +8,8 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - ALGO
-  - ALGO/Recursion
+  - Algorithm
+  - Algorithm/Recursion
 ---
 # Masters Theorem
 > [!lecture] Lecture-4.a-4.c

@@ -3,7 +3,7 @@ version:
   - ALGO-24
 instructor: SachinMittal
 tags:
-  - ALGO
+  - Algorithm
   - GATE/Dashboard
 ---
 # Algorithms

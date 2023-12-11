@@ -8,8 +8,8 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - ALGO
-  - ALGO/Recursion
+  - Algorithm
+  - Algorithm/Recursion
 ---
 # Change of Variable
 - When creating a new recurrence relation $S(m)$, only the function inputs should be changed, and the cost function should NOT be changed.

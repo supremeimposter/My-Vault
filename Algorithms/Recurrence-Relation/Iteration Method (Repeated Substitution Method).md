@@ -8,8 +8,8 @@ version:
 last-revision: 2023-11-01T22:20:00
 notes-taken: true
 tags:
-  - ALGO
-  - ALGO/Recursion
+  - Algorithm
+  - Algorithm/Recursion
 ---
 ### Iteration Method (Repeated Substitution Method)
 > [!lecture] Lecture-2.b, 2.c

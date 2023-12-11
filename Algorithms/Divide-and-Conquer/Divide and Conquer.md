@@ -8,8 +8,8 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - ALGO
-  - ALGO/DivideAndConquer
+  - Algorithm
+  - Algorithm/DivideAndConquer
 ---
 # Divide and Conquer
 

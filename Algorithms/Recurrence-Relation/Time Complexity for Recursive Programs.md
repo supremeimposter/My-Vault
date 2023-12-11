@@ -8,7 +8,7 @@ version:
 last-revision: 2023-11-01T21:33:00
 notes-taken: false
 tags:
-  - ALGO/Recursion
+  - Algorithm/Recursion
 ---
 # Recursive Relations
 > [!lecture] Lecture-2.a
