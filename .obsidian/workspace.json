@@ -32,6 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d3c5670b8f7d919b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Terminology for Transaction.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -223,7 +236,10 @@
   "active": "503fa5a56b71e72e",
   "lastOpenFiles": [
     "DatabaseManagementSystem/Database Management System.md",
+    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Terminology for Transaction.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md",
+    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Properties for Transaction Processing.md",
+    "Temporary Plan.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery",
     "DatabaseManagementSystem/ER-Model/ER Model.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
@@ -261,9 +277,6 @@
     "DataStructures/Hashing/Collision Resolution Techniques.md",
     "DatabaseManagementSystem/SQL/Nested Queries in SQL.md",
     "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md",
-    "Set Theory.md",
-    "DDL and DML.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
     "DataStructures/Hashing",
     "DataStructures",
     "attachments/Diagram 1.svg.xml",

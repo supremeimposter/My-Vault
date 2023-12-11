@@ -94,8 +94,8 @@
       "type": "lecture",
       "color": "77, 101, 219",
       "icon": {
-        "name": "video",
-        "type": "font-awesome"
+        "type": "obsidian",
+        "name": "lucide-video"
       },
       "command": false,
       "title": "Lecture",

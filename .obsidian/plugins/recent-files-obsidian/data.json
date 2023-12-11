@@ -9,6 +9,14 @@
       "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
+      "basename": "Terminology for Transaction",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Terminology for Transaction.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "Temporary Plan.md"
+    },
+    {
       "basename": "ER Model",
       "path": "DatabaseManagementSystem/ER-Model/ER Model.md"
     },
@@ -95,10 +103,6 @@
     {
       "basename": "Disk Structure and Performance",
       "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "Temporary Plan.md"
     },
     {
       "basename": "Aptitude",
@@ -191,17 +195,11 @@
     {
       "basename": "2023-11-22",
       "path": "daily-agenda/2023-11-22.md"
-    },
-    {
-      "basename": "TRC for Relational Algebra",
-      "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/TRC for Relational Algebra.md"
-    },
-    {
-      "basename": "Tuple Relational Calculus-20231121220201107",
-      "path": "attachments/Tuple Relational Calculus-20231121220201107.webp"
     }
   ],
-  "omittedPaths": [],
+  "omittedPaths": [
+    ""
+  ],
   "maxLength": null,
   "openType": "tab"
 }
