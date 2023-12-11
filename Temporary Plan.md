@@ -1,8 +1,7 @@
 
 
-Nov - DBMS
-Dec - DBMS-last half, OS, TOC, DS-left-out-topics
-Jan - CN, DL, Algo-half
-Feb - COA, Compiler, Algo-half
+Dec - DBMS-last half, OS, Algo, DS-left-out-topics
+Jan - TOC, DL
+Feb - COA, Compiler, CN
 March - DM combinatronics, DM Graph Theory
 
