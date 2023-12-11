@@ -48,7 +48,11 @@ tags:
 - [[B Tree]]
 - [[B+ Tree]]
 
-# Module 7 - ER Model
+# Module 7 - Transaction Management and Recovery
+- [[Terminology for Transaction]]
+- [[Transaction]]
+
+# Module 8 - ER Model
 - [[ER Model]]
 
 

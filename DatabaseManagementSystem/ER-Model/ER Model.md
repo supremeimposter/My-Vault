@@ -1,6 +1,6 @@
 ---
 pdf: lec-1-2
-module: 7
+module: 8
 lecture: "1"
 date: 2023-12-09T17:18:00
 version:
@@ -18,13 +18,11 @@ tags:
 - **Attributes** = Description of Entities; Properties of Entity
 - **Entity set** or **Entity Type** = Set of similar entities; entities with same attributes
 - **Relationship Set** = Set of similar relationships; relationship between same entity types.
+	- Degree of the relationship set is the number of the entities the relationship is between.
 
 - Two entity types must have different names.
 - The concept of [[Relational Model#Keys|keys]] in ER model is same as Relational model.
-
-## Schema of ER Model
-
-![[ER Model-20231209183712894.webp]]
+- Entity sets participate in relationship sets.
 
 ## Similarities between ER Model and Relational Model
 
@@ -36,5 +34,20 @@ tags:
 | Attribute domain              | Attribute domain              |
 | Cardinality of entity type    | Cardinality of instance       |  
 
-## Visualization of ER Model
+## Schema of ER Model
+
+![[ER Model-20231209183712894.webp]]
+
+
+
+## Types of Attributes in ER Model
+
+```nomnoml
+[Attributes in ER Model] - [Simple
+Composite]
+[Attributes in ER Model] - [Single-valued
+Multi-valued]
+[Attributes in ER Model] - [Base/Source
+Derived]
+```
 
