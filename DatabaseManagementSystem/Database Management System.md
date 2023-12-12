@@ -49,7 +49,7 @@ tags:
 - [[B+ Tree]]
 
 # Module 7 - Transaction Management and Recovery
-- [[Terminology for Transaction]]
+- [[ACID Properties for Transaction Processing]]
 - [[Transaction]]
 
 # Module 8 - ER Model

@@ -18,6 +18,8 @@ tags:
 > [!NOTE] 
 > DBS = Database + DBMS
 
+![[Introduction to DBMS-20231212132828103.webp]]
+
 ## Why use DBMS instead of File system in OS?
 
 
