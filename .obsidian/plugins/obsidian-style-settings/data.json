@@ -299,7 +299,7 @@
   "blue-topaz-theme@@callout-style-settings": "admonition-bg-color-same",
   "blue-topaz-theme@@loading-page-style-option": "default-loading-page",
   "blue-topaz-theme@@link-underline-internal": true,
-  "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-teal",
+  "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-sky",
   "royal-velvet@@inline-document-title-color": "doc-title-disable",
   "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
   "minimal-style@@image-blend-light": true,
@@ -356,5 +356,6 @@
   "anuppuccin-theme-settings@@anp-canvas-dark-bg": false,
   "anuppuccin-theme-settings@@anp-simple-rainbow-indentation-toggle": true,
   "anuppuccin-theme-settings@@anp-active-line": "anp-current-line",
-  "minimal-style@@callouts-style": "callouts-default"
+  "minimal-style@@callouts-style": "callouts-default",
+  "kakano-style@@setting-properties-position": "setting-properties-position-above"
 }

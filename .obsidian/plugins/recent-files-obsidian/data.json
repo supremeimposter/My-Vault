@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ACID Properties for Transaction Processing",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md"
+    },
+    {
       "basename": "Transaction",
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md"
     },
@@ -9,8 +13,8 @@
       "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
-      "basename": "Terminology for Transaction",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Terminology for Transaction.md"
+      "basename": "Introduction to DBMS",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
     },
     {
       "basename": "Temporary Plan",
@@ -23,10 +27,6 @@
     {
       "basename": "Relational Model",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
-    },
-    {
-      "basename": "Introduction to DBMS",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
     },
     {
       "basename": "Time Complexity for Recursive Programs",
