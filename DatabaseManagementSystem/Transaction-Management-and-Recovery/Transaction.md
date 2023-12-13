@@ -104,4 +104,6 @@ Explicit constraints are [[Constraints in Relational Model|integrity constraints
 
 ![[Transaction-20231213112342617.webp]]
 
+- We can never swap two non-consecutive operations in any schedule.
+
 ---

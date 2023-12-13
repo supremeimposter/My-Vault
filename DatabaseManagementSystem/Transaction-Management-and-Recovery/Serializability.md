@@ -23,3 +23,8 @@ tags:
 - Serializability in general, relies on all the operations and computations in the transactions which makes it very hard to implement.
 
 ![[Serializability-20231213131409716.webp]]
+
+
+> [!NOTE] 
+> `COMMIT` operation is irrelevant to serializability.
+> Imagine aborted transactions are never there for serializability.

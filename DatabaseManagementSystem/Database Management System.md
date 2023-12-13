@@ -52,21 +52,19 @@ tags:
 - [[ACID Properties for Transaction Processing]]
 - [[Transaction]]
 - [[Serializability]]
+- [[Conflict Serializability]]
 
 # Module 8 - ER Model
 - [[ER Model]]
 
 
 ---
-
 # Practice Sets
 - [ ] [Practice Set 1 - Normalization | Ullman DBMS Questions | Live Discussion | GoClasses | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=2dAWjK4JVco)
 - [ ] [Practice Set 1 Part 2 - Normalization | Ullman DBMS Questions | Live | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=EU5O_8wH3Xw)
 - [ ] [NPTEL DBMS 2022 Assignment 1 - Normalization, Relational Algebra | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=jp-9OeD-6qw)
 
-
 ---
-
 # References
 [DBMS : Normalization Complete Course | Normal Forms | Decomposition | 2NF, 3NF, BCNF | Partial, Transitive Dependency | GO Classes | Deepak Poonia Sir - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhJjQGnZB2jORa0JxLdMp4X)
 
