@@ -1,8 +1,8 @@
 {
   "accentColor": "#2f909d",
-  "cssTheme": "Ultra Lobster",
+  "cssTheme": "Feather",
   "showViewHeader": true,
-  "theme": "moonstone",
+  "theme": "obsidian",
   "baseFontSize": 18,
   "enabledCssSnippets": [
     "custom-callout",

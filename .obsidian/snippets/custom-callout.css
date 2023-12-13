@@ -34,3 +34,215 @@
   --callout-icon : <svg version="1.1" id="Uploaded to svgrepo.com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" fill="#00ccff" stroke="#00ccff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .puchipuchi_een{fill:#111918;} </style> <path class="puchipuchi_een" d="M21,24c0,0.552-0.447,1-1,1h-8c-0.553,0-1-0.448-1-1s0.447-1,1-1h8C20.553,23,21,23.448,21,24z M20,26h-8c-0.553,0-1,0.448-1,1s0.447,1,1,1h8c0.553,0,1-0.448,1-1S20.553,26,20,26z M15,29v1c0,0.552,0.448,1,1,1s1-0.448,1-1v-1 H15z M26,11c0,5-5,8-5,10c0,0.552-0.448,1-1,1h-8c-0.552,0-1-0.448-1-1c0-2-5-5-5-10C6,5.477,10.477,1,16,1S26,5.477,26,11z M17,4 c0-0.552-0.447-1-1-1c-4.411,0-8,3.589-8,8c0,0.552,0.447,1,1,1s1-0.448,1-1c0-3.309,2.691-6,6-6C16.553,5,17,4.552,17,4z"></path> </g></svg>;
 }
 
+.callout[data-callout="theorem"] {
+  --callout-color: var(--text-normal);
+  font-family: Times;
+  background-color: rgb(0, 0, 0, 0);
+  border: solid;
+  border-radius: 6px;
+}
+.callout[data-callout="theorem"] .callout-icon {
+  display: none;
+}
+.callout[data-callout="theorem"] .callout-title-inner {
+  font-weight: revert;
+}
+.callout[data-callout="theorem"] .callout-content {
+  font-style: italic;
+}
+
+.callout[data-callout="folder" i] {
+  --list-indent: 0em;
+  --indentation-guide-color: transparent;
+  overflow: scroll;
+}
+.callout[data-callout="folder" i] .list-bullet {
+  display: none;
+}
+.callout[data-callout="folder" i] ul {
+  -webkit-margin-after: 0;
+  margin-block-end: 0;
+}
+.callout[data-callout="folder" i] li {
+  --list-indent: 1.5em;
+  list-style-type: none;
+  font-family: var(--font-monospace);
+  white-space: nowrap;
+}
+.callout[data-callout="folder" i] li li {
+  position: relative;
+  box-sizing: border-box;
+}
+.callout[data-callout="folder" i] li li::before,
+.callout[data-callout="folder" i] li li::after {
+  content: "";
+  position: absolute;
+  left: -1em;
+  background: var(--list-marker-color);
+}
+.callout[data-callout="folder" i] li li::before {
+  top: 0.85em;
+  width: 10px;
+  height: 1.5px;
+  margin: auto;
+}
+.callout[data-callout="folder" i] li li::after {
+  top: 0;
+  bottom: 0;
+  width: 1.5px;
+  height: 100%;
+}
+.callout[data-callout="folder" i] li li:last-child::after {
+  height: 0.85em;
+}
+.callout[data-callout="folder" i] li .list-collapse-indicator {
+  position: absolute;
+  left: -2em;
+  margin: 0;
+}
+.callout[data-callout="folder" i] li em {
+  opacity: 0.5;
+  font-family: var(--font-text);
+}
+.callout[data-callout="folder" i] li code {
+  font-size: 1em;
+  font-family: var(--font-monospace);
+  font-style: normal !important;
+  background: none;
+  white-space: pre;
+  margin: 0;
+  padding: 0;
+}
+.callout[data-callout="folder" i] li mark {
+  font-style: italic;
+  color: #d3a3e5;
+}
+.callout[data-callout="folder" i] .callout-content {
+  overflow-x: visible;
+}
+
+/*
+author: FireIsGood
+source: https://discord.com/channels/686053708261228577/702656734631821413/1156868388249935883
+*/
+
+/* Timeline Callout settings */
+body {
+  --timeline-title-color: var(--text-normal);
+  --timeline-title-size: var(--h2-size);
+  --timeline-title-width: 150px;
+
+  --timeline-line-color: var(--color-base-35);
+  --timeline-line-margin: 16px;
+  --timeline-line-width: 4px;
+  --timeline-line-style: solid;
+
+  --timeline-dot-color: var(--color-base-70);
+  --timeline-dot-size: 32px;
+  --timeline-dot-radius: 100%;
+  --timeline-dot-border-color: var(--background-primary);
+  --timeline-dot-border-size: 6px;
+  --timeline-dot-offset-x: -18px;
+  --timeline-dot-offset-y: -2px;
+
+  --timeline-card-margin: 16px;
+  --timeline-card-background-color: var(--color-base-30);
+  --timeline-card-padding-x: 10px;
+  --timeline-card-padding-y: 16px;
+}
+
+/* Timeline styling */
+[data-callout="timeline"] {
+  order: 1;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  mix-blend-mode: normal;
+  background-color: unset;
+  grid-template-columns: var(--timeline-title-width, 150px) auto;
+  --dot-offset: calc(
+    var(--timeline-dot-offset-y) + var(--timeline-card-padding-y)
+  );
+
+  .callout-title-inner {
+    width: 100%;
+    text-align: right;
+    color: var(--timeline-title-color);
+    font-size: var(--timeline-title-size);
+    margin-top: var(--dot-offset);
+  }
+  .callout-icon {
+    order: 2;
+    margin-inline: var(--timeline-line-margin);
+    border-left: var(--timeline-line-width) var(--timeline-line-style) var(--timeline-line-color);
+    height: 100%;
+    position: relative;
+
+    &::after {
+      content: "";
+      box-sizing: border-box;
+      background-color: var(--timeline-dot-color);
+      position: absolute;
+      border: var(--timeline-dot-border-size) solid var(
+          --timeline-dot-border-color
+        );
+      border-radius: var(--timeline-dot-radius);
+      width: var(--timeline-dot-size);
+      height: var(--timeline-dot-size);
+      top: var(--dot-offset);
+      left: var(--timeline-dot-offset-x);
+    }
+  }
+  .svg-icon {
+    display: none;
+  }
+
+  .callout-content {
+    order: 3;
+    --p-spacing: 0.5rem;
+    background-color: var(--timeline-card-background-color);
+    border-radius: 1rem;
+    margin-bottom: var(--timeline-card-margin);
+    padding: var(--timeline-card-padding-x) var(--timeline-card-padding-y);
+
+    & > h2:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+/* Stacking multiple timelines */
+div:not(:has(> [data-callout="timeline"])) + div > [data-callout="timeline"] {
+  margin-top: var(--p-spacing);
+}
+div:has(> [data-callout="timeline"]) + div:not(> [data-callout="timeline"]) {
+  margin-bottom: 1rem;
+}
+
+/* Timeline dot colors */
+[data-callout-metadata="red"] {
+  --timeline-dot-color: var(--color-red);
+}
+[data-callout-metadata="orange"] {
+  --timeline-dot-color: var(--color-orange);
+}
+[data-callout-metadata="yellow"] {
+  --timeline-dot-color: var(--color-yellow);
+}
+[data-callout-metadata="green"] {
+  --timeline-dot-color: var(--color-green);
+}
+[data-callout-metadata="cyan"] {
+  --timeline-dot-color: var(--color-cyan);
+}
+[data-callout-metadata="blue"] {
+  --timeline-dot-color: var(--color-blue);
+}
+[data-callout-metadata="purple"] {
+  --timeline-dot-color: var(--color-purple);
+}
+[data-callout-metadata="pink"] {
+  --timeline-dot-color: var(--color-pink);
+}
+
+
