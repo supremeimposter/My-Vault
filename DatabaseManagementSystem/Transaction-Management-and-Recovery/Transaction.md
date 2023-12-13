@@ -70,7 +70,7 @@ Explicit constraints are [[Constraints in Relational Model|integrity constraints
 ## Serial Execution
 - Database is consistent after a serial execution
 - In serial execution, a transaction begins after the completion of a complete transaction.
-
+- Different serial execution can give different database state.
 
 > [!question] 
 > Does Serial Execution always preserve database consistency?
@@ -98,8 +98,10 @@ Explicit constraints are [[Constraints in Relational Model|integrity constraints
 > [!lecture] Lecture-5
 
 - A valid schedule must follow the order of operations within a transaction.
-- Every serial schedule is also a concurrent schedule.
 - Serial schedule always preserve consistency.
 - Concurrent schedules may or may not preserve consistency.
+- Every serial schedule is also a concurrent schedule.
+
+![[Transaction-20231213112342617.webp]]
 
 ---

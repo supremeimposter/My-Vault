@@ -51,6 +51,7 @@ tags:
 # Module 7 - Transaction Management and Recovery
 - [[ACID Properties for Transaction Processing]]
 - [[Transaction]]
+- [[Serializability]]
 
 # Module 8 - ER Model
 - [[ER Model]]

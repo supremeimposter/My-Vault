@@ -63,4 +63,4 @@ flowchart LR
 - Concurrency control component is responsible for ensuring isolation.
 - There are many ways to ensure isolation property. One of the strongest ways to ensure is Serializability.
 - Serial Execution ensures isolation property but the performance is really poor i.e. poor throughput.
-- Serializability allows those concurrent executions whose effect is similar to some serial schedule.
+- [[Serializability]] allows those concurrent executions whose effect is similar to some serial schedule.
