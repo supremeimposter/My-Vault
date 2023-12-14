@@ -13,5 +13,6 @@
   "showInlineTitle": true,
   "trashOption": "local",
   "vimMode": false,
-  "spellcheck": false
+  "spellcheck": false,
+  "userIgnoreFilters": null
 }

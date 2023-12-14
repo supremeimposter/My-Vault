@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Conflict Serializability",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md"
+      "basename": "Recoverability",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "Serializability",
@@ -13,12 +17,16 @@
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md"
     },
     {
+      "basename": "Conflict Serializability",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md"
+    },
+    {
       "basename": "Transaction",
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md"
     },
     {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
+      "basename": "View Serializability",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/View Serializability.md"
     },
     {
       "basename": "Temporary Plan",
@@ -187,18 +195,6 @@
     {
       "basename": "Set Operations",
       "path": "DiscreteMathematics/Set-Theory/Set Operations.md"
-    },
-    {
-      "basename": "Basic Operations in Relational Algebra",
-      "path": "DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md"
-    },
-    {
-      "basename": "Procedural and Declarative Query Languages",
-      "path": "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md"
-    },
-    {
-      "basename": "Tuple Relational Calculus",
-      "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
     }
   ],
   "omittedPaths": [

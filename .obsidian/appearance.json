@@ -1,13 +1,14 @@
 {
   "accentColor": "#2f909d",
-  "cssTheme": "Feather",
+  "cssTheme": "Border",
   "showViewHeader": true,
   "theme": "obsidian",
   "baseFontSize": 18,
   "enabledCssSnippets": [
     "custom-callout",
     "custom-admonitions.971f1e",
-    "supercharged-links-gen"
+    "supercharged-links-gen",
+    "callout-theorem"
   ],
   "nativeMenus": false,
   "translucency": false
