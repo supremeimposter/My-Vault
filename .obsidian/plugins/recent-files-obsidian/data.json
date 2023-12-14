@@ -5,12 +5,20 @@
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md"
     },
     {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
+      "basename": "Temporary Plan",
+      "path": "Temporary Plan.md"
     },
     {
       "basename": "Serializability",
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Transaction",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md"
     },
     {
       "basename": "ACID Properties for Transaction Processing",
@@ -21,16 +29,8 @@
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md"
     },
     {
-      "basename": "Transaction",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md"
-    },
-    {
       "basename": "View Serializability",
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/View Serializability.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "Temporary Plan.md"
     },
     {
       "basename": "Introduction to DBMS",

@@ -34,64 +34,12 @@
             }
           },
           {
-            "id": "6a8fdfee9ca2dd42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94d2e55939f17acd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "96246e2ffedf1194",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c8d5679a3d0c2276",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa4f46f3cd90e056",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/View Serializability.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -304,15 +252,15 @@
   },
   "active": "6d360f4d603a6a0c",
   "lastOpenFiles": [
-    "DatabaseManagementSystem/Database Management System.md",
+    "Temporary Plan.md",
+    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md",
+    "DatabaseManagementSystem/Database Management System.md",
+    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md",
-    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Untitled Kanban.md",
-    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/View Serializability.md",
-    "Temporary Plan.md",
     "attachments/View Serializability-20231214111830641.webp",
     "attachments/Transaction-20231214105933142.webp",
     "attachments/Serializability-20231213131409716.webp",
