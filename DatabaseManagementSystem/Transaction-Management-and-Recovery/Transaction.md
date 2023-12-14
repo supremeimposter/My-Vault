@@ -16,7 +16,10 @@ tags:
 
 - A transaction is a sequence of read-write operations on database items.
 - From user point-of-view, a transaction is a single logical task.
-- Every transaction has its own main memory buffer.
+
+> [!doubt] 
+> - Every transaction has its own main memory buffer.
+
 - Transaction is the unit of execution of database operations.
 - `commit` or `abort` is the end of a transaction. (by default `commit`)
 - After `commit`, all the changes may or may not be stored to the disk.
@@ -94,6 +97,8 @@ Explicit constraints are [[Constraints in Relational Model|integrity constraints
 > [!definition] Concurrency Control
 > Database must go from one consistent state to another consistent state after concurrent execution of transactions.
 
+- Buffer in main memory is shared by transactions but each transactions have their own private temporary variables.
+
 ## Schedule
 > [!lecture] Lecture-5
 
@@ -104,6 +109,11 @@ Explicit constraints are [[Constraints in Relational Model|integrity constraints
 
 ![[Transaction-20231213112342617.webp]]
 
+![[Transaction-20231214105933142.webp]]
+
 - We can never swap two non-consecutive operations in any schedule.
+
+## Failure
+
 
 ---

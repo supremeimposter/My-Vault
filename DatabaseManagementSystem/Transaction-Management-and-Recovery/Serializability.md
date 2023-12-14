@@ -13,6 +13,10 @@ tags:
 ---
 # Serializability
 
+> [!abstract] 
+> Every Serial schedule preserves database consistency, but they are of poor performance. We need concurrent schedules that have the same effect (preserve database consistency) as serial schedules while having a good throughput. So we need to find equivalent serializable schedules.
+
+
 > [!definition] 
 > If ${} S$ is a concurrent schedule, $S {}$ is serialiazble if and only if for **every** initial consistent database state, effect of ${} S {}$ is same as **some** serial schedule.
 
@@ -28,3 +32,6 @@ tags:
 > [!NOTE] 
 > `COMMIT` operation is irrelevant to serializability.
 > Imagine aborted transactions are never there for serializability.
+
+
+---

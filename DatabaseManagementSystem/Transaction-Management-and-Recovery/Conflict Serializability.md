@@ -49,8 +49,6 @@ flexGrow=1
 
 ## Conflict Serializable schedules
 - A schedule $S {}$ is conflict serializable if it is conflict equivalent to a serial schedule.
-
-
 - Every serial schedule is conflict serializable.
 
 ## Precedence Graph Test
@@ -59,7 +57,10 @@ flexGrow=1
 - Transactions from the given schedule are the nodes.
 
 - A schedule ${} S$ is conflict serializable iff precedence graph of $S$ is **acyclic**.
-- Topological order of the graph is the equivalent serial schedule for the given schedule.
-- If there is a bidirectional edge between two nodes, then no need to check further, it is NOT conflict equivalent serial schedule
+- Topological order of the graph gives the conflict equivalent serial schedule for the given schedule.
+- If there is a bidirectional edge between two nodes, then no need to check further, it is NOT conflict equivalent serial schedule.
+- A cycle in the precedence graph signifies a contradiction.
+- Topological order is not possible for a cyclic graph.
+- The time complexity for implementing precedence graph is polynomial complexity.
 
 ---

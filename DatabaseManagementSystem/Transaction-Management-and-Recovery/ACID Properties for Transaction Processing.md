@@ -14,7 +14,7 @@ tags:
 # ACID Properties
 
 These are the desirable Properties for [[Transaction]] Processing
-Every property is responsible for database consistency.
+Every property is responsible for preserving the database consistency.
 
 > [!NOTE] 
 > - Consistency property is the responsibility of Programmer
@@ -27,7 +27,7 @@ Every property is responsible for database consistency.
 - No transaction must be left half-done.
 
 ## Durability Property
-- After the commit of a transaction $T$, despite any failure all the changes by transaction $T$ must reflect in the database.
+- After the commit of a transaction ${} T$, despite any failure all the changes by transaction $T$ must reflect in the database.
 - This property is also called as **Permanency**.
 
 ## Consistency Property

@@ -53,6 +53,8 @@ tags:
 - [[Transaction]]
 - [[Serializability]]
 - [[Conflict Serializability]]
+- [[View Serializability]]
+- [[Recoverability]]
 
 # Module 8 - ER Model
 - [[ER Model]]
