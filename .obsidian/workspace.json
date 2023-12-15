@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "6d360f4d603a6a0c",
+            "id": "ca883985933f42d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md",
+                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Concurrency Control Protocols.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,38 @@
             }
           },
           {
-            "id": "96246e2ffedf1194",
+            "id": "3e0222a4fcd05e17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md",
+                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "46e0e3d74f05bbed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7cd369b913ebdaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,8 +135,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md",
+                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md",
+                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md"
+                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md"
               }
             }
           },
@@ -225,8 +250,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -250,33 +274,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6d360f4d603a6a0c",
+  "active": "46e0e3d74f05bbed",
   "lastOpenFiles": [
-    "Temporary Plan.md",
-    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md",
-    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md",
     "DatabaseManagementSystem/Database Management System.md",
+    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md",
-    "DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md",
+    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md",
+    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Concurrency Control Protocols.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md",
+    "README.md",
+    "attachments/Lock-based Protocols-20231215213208633.webp",
+    "attachments/Lock-based Protocols-20231215195903743.webp",
+    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md",
+    "attachments/Lock-based Protocols-20231215135246825.webp",
+    "attachments/Lock-based Protocols-20231215135225130.webp",
+    "attachments/Lock-based Protocols-20231215135211528.webp",
+    "attachments/Concurrency Control Protocols-20231215125744804.webp",
+    "attachments/Concurrency Control Protocols-20231215124908309.webp",
+    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md",
+    "Temporary Plan.md",
+    "DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Untitled Kanban.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/View Serializability.md",
     "attachments/View Serializability-20231214111830641.webp",
     "attachments/Transaction-20231214105933142.webp",
     "attachments/Serializability-20231213131409716.webp",
-    "attachments/Serializability-20231213131325204.webp",
-    "attachments/Serializability-20231213124447209.webp",
-    "attachments/Transaction-20231213112342617.webp",
-    "attachments/Transaction-20231212220034956.webp",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Terminology for Transaction.md",
-    "attachments/ACID Properties for Transaction Processing-20231212135912528.webp",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
-    "attachments/Introduction to DBMS-20231212132828103.webp",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Properties for Transaction Processing.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery",
     "DatabaseManagementSystem/ER-Model/ER Model.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
-    "attachments/DatabaseManagementSystem/ER-Model/ER Model/IMG-20231209215520398.svg",
     "attachments/DatabaseManagementSystem/ER-Model/ER Model",
     "attachments/DatabaseManagementSystem/ER-Model",
     "attachments/DatabaseManagementSystem",
@@ -290,10 +318,6 @@
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relation.md",
     "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
     "DatabaseManagementSystem/ER-Model",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md",
     "DataStructures/Hashing",
     "DataStructures",
     "attachments/Diagram 1.svg.xml",

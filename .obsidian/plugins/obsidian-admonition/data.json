@@ -362,6 +362,17 @@
       "title": "PYQ",
       "injectColor": true,
       "noTitle": false
+    },
+    "conclusion": {
+      "type": "conclusion",
+      "color": "255, 0, 187",
+      "icon": {
+        "name": "comment-dots",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,

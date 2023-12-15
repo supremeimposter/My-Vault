@@ -1,16 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Recoverability",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "Temporary Plan.md"
-    },
-    {
-      "basename": "Serializability",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md"
+      "basename": "Deadlock Handling in Transactions",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md"
     },
     {
       "basename": "Database Management System",
@@ -21,12 +13,36 @@
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md"
     },
     {
-      "basename": "ACID Properties for Transaction Processing",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md"
+      "basename": "Lock-based Protocols",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md"
+    },
+    {
+      "basename": "Concurrency Control Protocols",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Concurrency Control Protocols.md"
     },
     {
       "basename": "Conflict Serializability",
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Recoverability",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md"
+    },
+    {
+      "basename": "Serializability",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "Temporary Plan.md"
+    },
+    {
+      "basename": "ACID Properties for Transaction Processing",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md"
     },
     {
       "basename": "View Serializability",
@@ -183,18 +199,6 @@
     {
       "basename": "Derived Operations in Relational Algebra",
       "path": "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md"
-    },
-    {
-      "basename": "Functional Dependency",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
-    },
-    {
-      "basename": "Implication",
-      "path": "DiscreteMathematics/Propositional-Logic/Implication.md"
-    },
-    {
-      "basename": "Set Operations",
-      "path": "DiscreteMathematics/Set-Theory/Set Operations.md"
     }
   ],
   "omittedPaths": [
