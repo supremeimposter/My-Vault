@@ -5,6 +5,10 @@
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md"
     },
     {
+      "basename": "Pending Lectures",
+      "path": "Pending Lectures.md"
+    },
+    {
       "basename": "Database Management System",
       "path": "DatabaseManagementSystem/Database Management System.md"
     },
@@ -107,10 +111,6 @@
     {
       "basename": "Multi Level Ordered Index",
       "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "Pending Lectures.md"
     },
     {
       "basename": "Three Levels of Schema",

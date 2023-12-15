@@ -135,7 +135,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -276,8 +277,9 @@
   },
   "active": "46e0e3d74f05bbed",
   "lastOpenFiles": [
-    "DatabaseManagementSystem/Database Management System.md",
+    "Pending Lectures.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md",
+    "DatabaseManagementSystem/Database Management System.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Concurrency Control Protocols.md",
@@ -316,7 +318,6 @@
     "DiscreteMathematics/Discrete Mathematics.md",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Transitive Relation.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relation.md",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
     "DatabaseManagementSystem/ER-Model",
     "DataStructures/Hashing",
     "DataStructures",
