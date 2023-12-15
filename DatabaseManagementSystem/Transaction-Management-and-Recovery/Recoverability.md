@@ -13,7 +13,6 @@ tags:
 ---
 # Recoverability
 
-
 >[!diagram] Classification of schedules based on Recoverability
 ```mermaid
 flowchart TD 

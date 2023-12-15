@@ -24,6 +24,7 @@ tags:
 - `commit` or `abort` is the end of a transaction. (by default `commit`)
 - After `commit`, all the changes may or may not be stored to the disk.
 - There are certain [[ACID Properties for Transaction Processing]].
+- Transaction time stamp is the time at which the transaction was created.
 
 > [!claim] Assumption
 > - There is only once CPU.

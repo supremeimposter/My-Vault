@@ -49,12 +49,15 @@ tags:
 - [[B+ Tree]]
 
 # Module 7 - Transaction Management and Recovery
-- [[ACID Properties for Transaction Processing]]
 - [[Transaction]]
+- [[ACID Properties for Transaction Processing]]
 - [[Serializability]]
 - [[Conflict Serializability]]
 - [[View Serializability]]
 - [[Recoverability]]
+- [[Concurrency Control Protocols]]
+- [[Lock-based Protocols]]
+- [[Deadlock Handling in Transactions]]
 
 # Module 8 - ER Model
 - [[ER Model]]
