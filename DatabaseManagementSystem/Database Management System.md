@@ -58,6 +58,7 @@ tags:
 - [[Concurrency Control Protocols]]
 - [[Lock-based Protocols]]
 - [[Deadlock Handling in Transactions]]
+- [[Time Stamp-based Protocols]]
 
 # Module 8 - ER Model
 - [[ER Model]]

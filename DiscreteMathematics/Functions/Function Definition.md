@@ -18,13 +18,18 @@ tags:
 - A function is a special type of relation.
 - A function is also called as Mapping or Transformation.
 > [!definition] 
-> A function is a binary relation from $A$ to $B$ in which every element in $A$ is related to exactly one element in $B$ 
+> A function is a binary relation from $A$ to $B$ in which every element in $A$ is related to exactly one element in $B {}$ 
 - Every function is a relation but not all relations are functions.
+
+> [!definition] Partial Function
+> A partial funciton is a binary relation from $A {}$ to $B$ in which every element in $A {}$ is related to at most one element in $B {}$ 
+
+- Every function is a partial funciton
 
 ## Terminologies
 
 ### Domain and Co-domain
-- $A$ is called **Domain**
+- ${} A$ is called **Domain**
 - $B$ is called **Co-domain**
 $$
 f : A \rightarrow B

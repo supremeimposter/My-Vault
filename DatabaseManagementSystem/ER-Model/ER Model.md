@@ -8,7 +8,6 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DBMS
   - DBMS/ERModel
 ---
 # ER Model
@@ -18,7 +17,8 @@ tags:
 - **Attributes** = Description of Entities; Properties of Entity
 - **Entity set** or **Entity Type** = Set of similar entities; entities with same attributes
 - **Relationship Set** = Set of similar relationships; relationship between same entity types.
-	- Degree of the relationship set is the number of the entities the relationship is between.
+- Degree of the relationship set is the number of the entities the relationship is between.
+- **Relationship Attributes** = Properties of the relationship (association)
 
 - Two entity types must have different names.
 - The concept of [[Relational Model#Keys|keys]] in ER model is same as Relational model.
@@ -26,7 +26,7 @@ tags:
 
 ## Similarities between ER Model and Relational Model
 
-| ER Model                      | Relational Model              |
+| ER Model                      | [[Relational Model]]              |
 |:------------------------------|:------------------------------|
 | Entity                        | Tuple/Row/Record              |
 | Entity Type/Entity Set        | Relation/Table                |
@@ -38,8 +38,6 @@ tags:
 
 ![[ER Model-20231209183712894.webp]]
 
-
-
 ## Types of Attributes in ER Model
 
 ```nomnoml
@@ -50,4 +48,18 @@ Multi-valued]
 [Attributes in ER Model] - [Base/Source
 Derived]
 ```
+> [!NOTE] 
+> Which attribute is of which type is decided by the database owner.
 
+## Mapping Cardinalities
+- One entity is related to how many entities
+
+1. One-One relationship
+2. One-Many relationship
+3. Many-One relationship
+4. Many-Many relationship
+
+> [!discussion]
+> ![[ER Model-20231216205753795.webp]]
+
+### Participation of Entities in Relationship
