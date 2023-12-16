@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "ER Model",
+      "path": "DatabaseManagementSystem/ER-Model/ER Model.md"
+    },
+    {
+      "basename": "Function Definition",
+      "path": "DiscreteMathematics/Functions/Function Definition.md"
+    },
+    {
+      "basename": "Pending Lectures",
+      "path": "Pending Lectures.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
       "basename": "Time Stamp-based Protocols",
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md"
     },
     {
       "basename": "Deadlock Handling in Transactions",
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "Lock-based Protocols",
@@ -23,10 +35,6 @@
     {
       "basename": "Transaction",
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "Pending Lectures.md"
     },
     {
       "basename": "Conflict Serializability",
@@ -59,10 +67,6 @@
     {
       "basename": "Introduction to DBMS",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
-    },
-    {
-      "basename": "ER Model",
-      "path": "DatabaseManagementSystem/ER-Model/ER Model.md"
     },
     {
       "basename": "Relational Model",
@@ -195,10 +199,6 @@
     {
       "basename": "Relational Algebra Queries",
       "path": "DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md"
-    },
-    {
-      "basename": "Set Definition",
-      "path": "DiscreteMathematics/Set-Theory/Set Definition.md"
     }
   ],
   "omittedPaths": [

@@ -1,9 +1,5 @@
 {
   "accentColor": "#2f909d",
-  "cssTheme": "Flexoki",
-  "showViewHeader": true,
-  "theme": "moonstone",
-  "baseFontSize": 18,
   "enabledCssSnippets": [
     "custom-callout",
     "custom-admonitions.971f1e",
@@ -12,6 +8,10 @@
     "anuppuccin-checkboxes",
     "timeline-callout"
   ],
+  "cssTheme": "Border",
+  "theme": "moonstone",
+  "showViewHeader": true,
+  "baseFontSize": 18,
   "nativeMenus": false,
   "translucency": false
 }
