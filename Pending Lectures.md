@@ -61,5 +61,6 @@
 - [ ] [Practice Set 1 Part 2 - Normalization | Ullman DBMS Questions | Live | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=EU5O_8wH3Xw)
 - [ ] [NPTEL DBMS 2022 Assignment 1 - Normalization, Relational Algebra | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=jp-9OeD-6qw)
 - [ ] [Timestamp Protocol 50 Questions - Transactions & Concurrency Control | GATE PYQs | DBMS Revision - YouTube](https://www.youtube.com/watch?v=gM76xs2NEgE) - Lecture-15 Transaction management and recovery
+- [ ] Recovery Manager
 
 
