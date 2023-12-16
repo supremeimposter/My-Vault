@@ -60,6 +60,19 @@
             }
           },
           {
+            "id": "b7d05b972d9d87e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a7cd369b913ebdaf",
             "type": "leaf",
             "state": {
@@ -73,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -157,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md",
+                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md",
+                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,20 +204,12 @@
             }
           },
           {
-            "id": "537571ecdd646915",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "8488c56ed1a27af9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md"
+                "file": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md"
               }
             }
           },
@@ -228,7 +233,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "5df95600f2476df0",
@@ -275,14 +280,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "46e0e3d74f05bbed",
+  "active": "b7d05b972d9d87e5",
   "lastOpenFiles": [
-    "Pending Lectures.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md",
     "DatabaseManagementSystem/Database Management System.md",
-    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md",
+    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Concurrency Control Protocols.md",
+    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md",
+    "Pending Lectures.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md",
     "README.md",
     "attachments/Lock-based Protocols-20231215213208633.webp",
@@ -317,7 +323,6 @@
     "Algorithms/Divide-and-Conquer/Divide and Conquer.md",
     "DiscreteMathematics/Discrete Mathematics.md",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Transitive Relation.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Relation.md",
     "DatabaseManagementSystem/ER-Model",
     "DataStructures/Hashing",
     "DataStructures",

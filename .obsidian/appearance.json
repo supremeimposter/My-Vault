@@ -1,8 +1,8 @@
 {
   "accentColor": "#2f909d",
-  "cssTheme": "Feather",
+  "cssTheme": "Flexoki",
   "showViewHeader": true,
-  "theme": "obsidian",
+  "theme": "moonstone",
   "baseFontSize": 18,
   "enabledCssSnippets": [
     "custom-callout",

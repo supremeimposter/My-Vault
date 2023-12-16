@@ -1,20 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Time Stamp-based Protocols",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md"
+    },
+    {
       "basename": "Deadlock Handling in Transactions",
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md"
     },
     {
-      "basename": "Pending Lectures",
-      "path": "Pending Lectures.md"
-    },
-    {
       "basename": "Database Management System",
       "path": "DatabaseManagementSystem/Database Management System.md"
-    },
-    {
-      "basename": "Transaction",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md"
     },
     {
       "basename": "Lock-based Protocols",
@@ -23,6 +19,14 @@
     {
       "basename": "Concurrency Control Protocols",
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Concurrency Control Protocols.md"
+    },
+    {
+      "basename": "Transaction",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md"
+    },
+    {
+      "basename": "Pending Lectures",
+      "path": "Pending Lectures.md"
     },
     {
       "basename": "Conflict Serializability",
@@ -195,10 +199,6 @@
     {
       "basename": "Set Definition",
       "path": "DiscreteMathematics/Set-Theory/Set Definition.md"
-    },
-    {
-      "basename": "Derived Operations in Relational Algebra",
-      "path": "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md"
     }
   ],
   "omittedPaths": [
