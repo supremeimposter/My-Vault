@@ -8,7 +8,6 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DBMS
   - DBMS/Transaction
 ---
 # Lock-based Protocols
@@ -52,9 +51,11 @@ tags:
 
 - Beyond lock point, there is no lock request.
 - If every transaction individually is 2PL, then the schedule generated is conflict serializable and the equivalent serial schedule is in the order of lock points of transactions.
+- In 2PL protocol, the serializability order is decided at execution time.
 
 > [!tip] 
-> If a schedule ${} S$ is allowed by 2PL, then $S$ is conflict serializable.
+> If a schedule ${} S$ is allowed by 2PL, then $S {}$ is conflict serializable.
+> If $S {}$ is not conflict serializable, then $S {}$ is not allowed by 2PL.
 
 
 > [!conflict] Schedule VS Transaction in terms of 2PL
@@ -83,7 +84,7 @@ tags:
 
 
 > [!NOTE] 
-> To upgrade an item $A$, no other transaction should have a shared lock on $A$.
+> To upgrade an item ${} A$, no other transaction should have a shared lock on $A$.
 
 - upgrade is only possible in the growing phase and downgrade is only possible in the shrinking phase.
 - It is possible for a deadlock.
