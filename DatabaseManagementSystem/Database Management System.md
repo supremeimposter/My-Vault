@@ -62,7 +62,7 @@ tags:
 
 # Module 8 - ER Model
 - [[ER Model]]
-
+- [[ER Model to Relational Model Conversion]]
 
 ---
 # Practice Sets

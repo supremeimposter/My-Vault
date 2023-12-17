@@ -8,7 +8,6 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DBMS
   - DBMS/SQL
   - DBMS/Queries
 ---

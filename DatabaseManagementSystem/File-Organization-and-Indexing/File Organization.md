@@ -9,7 +9,6 @@ last-revision:
 notes-taken: false
 tags:
   - DBMS/FileOrganization
-  - DBMS
 ---
 # File Organization
 > [!lecture] Lecture-1

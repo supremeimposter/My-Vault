@@ -9,7 +9,6 @@ last-revision:
 notes-taken: false
 tags:
   - DBMS/RelationalAlgebra
-  - DBMS
   - DBMS/Queries
 ---
 # Relational Algebra
