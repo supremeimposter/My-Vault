@@ -5,6 +5,170 @@
       "path": "DatabaseManagementSystem/ER-Model/ER Model.md"
     },
     {
+      "basename": "Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+    },
+    {
+      "basename": "Normal Forms",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "View Serializability",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/View Serializability.md"
+    },
+    {
+      "basename": "Tuple Relational Calculus",
+      "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
+    },
+    {
+      "basename": "TRC for Relational Algebra",
+      "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/TRC for Relational Algebra.md"
+    },
+    {
+      "basename": "Transaction",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md"
+    },
+    {
+      "basename": "Time Stamp-based Protocols",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md"
+    },
+    {
+      "basename": "Three Levels of Schema",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md"
+    },
+    {
+      "basename": "Structured Query Language",
+      "path": "DatabaseManagementSystem/SQL/Structured Query Language.md"
+    },
+    {
+      "basename": "SQL Retrieval Queries",
+      "path": "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md"
+    },
+    {
+      "basename": "Single Level Ordered Index",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md"
+    },
+    {
+      "basename": "Serializability",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md"
+    },
+    {
+      "basename": "Relational Algebra Queries",
+      "path": "DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md"
+    },
+    {
+      "basename": "Relational Algebra",
+      "path": "DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md"
+    },
+    {
+      "basename": "Recoverability",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md"
+    },
+    {
+      "basename": "Procedural and Declarative Query Languages",
+      "path": "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md"
+    },
+    {
+      "basename": "Nested Queries in SQL",
+      "path": "DatabaseManagementSystem/SQL/Nested Queries in SQL.md"
+    },
+    {
+      "basename": "Natural Join",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
+    },
+    {
+      "basename": "Multi Level Ordered Index",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md"
+    },
+    {
+      "basename": "Lock-based Protocols",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md"
+    },
+    {
+      "basename": "Introduction to DBMS",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
+    },
+    {
+      "basename": "Indexing",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md"
+    },
+    {
+      "basename": "Functional Dependency",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+    },
+    {
+      "basename": "File Organization",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md"
+    },
+    {
+      "basename": "Disk Structure and Performance",
+      "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
+    },
+    {
+      "basename": "Disk Space Management",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Disk Space Management.md"
+    },
+    {
+      "basename": "Disk Scheduling Algorithms",
+      "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Scheduling Algorithms.md"
+    },
+    {
+      "basename": "Disk Addressing",
+      "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md"
+    },
+    {
+      "basename": "Derived Operations in Relational Algebra",
+      "path": "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md"
+    },
+    {
+      "basename": "Decomposition",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
+    },
+    {
+      "basename": "Decomposition into Normal Forms",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md"
+    },
+    {
+      "basename": "Deadlock Handling in Transactions",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md"
+    },
+    {
+      "basename": "Constraints in Relational Model",
+      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
+    },
+    {
+      "basename": "Conflict Serializability",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md"
+    },
+    {
+      "basename": "Concurrency Control Protocols",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Concurrency Control Protocols.md"
+    },
+    {
+      "basename": "Basic Operations in Relational Algebra",
+      "path": "DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md"
+    },
+    {
+      "basename": "B+ Tree",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md"
+    },
+    {
+      "basename": "B Tree",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
+    },
+    {
+      "basename": "ACID Properties for Transaction Processing",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md"
+    },
+    {
+      "basename": "ER Model to Relational Model Conversion",
+      "path": "DatabaseManagementSystem/ER-Model/ER Model to Relational Model Conversion.md"
+    },
+    {
       "basename": "Function Definition",
       "path": "DiscreteMathematics/Functions/Function Definition.md"
     },
@@ -13,64 +177,12 @@
       "path": "Pending Lectures.md"
     },
     {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
-    },
-    {
-      "basename": "Time Stamp-based Protocols",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md"
-    },
-    {
-      "basename": "Deadlock Handling in Transactions",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md"
-    },
-    {
-      "basename": "Lock-based Protocols",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md"
-    },
-    {
-      "basename": "Concurrency Control Protocols",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Concurrency Control Protocols.md"
-    },
-    {
-      "basename": "Transaction",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md"
-    },
-    {
-      "basename": "Conflict Serializability",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "Recoverability",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md"
-    },
-    {
-      "basename": "Serializability",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md"
-    },
-    {
       "basename": "Temporary Plan",
       "path": "Temporary Plan.md"
-    },
-    {
-      "basename": "ACID Properties for Transaction Processing",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md"
-    },
-    {
-      "basename": "View Serializability",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/View Serializability.md"
-    },
-    {
-      "basename": "Introduction to DBMS",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
-    },
-    {
-      "basename": "Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
     },
     {
       "basename": "Time Complexity for Recursive Programs",
@@ -87,118 +199,6 @@
     {
       "basename": "Divide and Conquer",
       "path": "Algorithms/Divide-and-Conquer/Divide and Conquer.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
-      "basename": "Transitive Relation",
-      "path": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Transitive Relation.md"
-    },
-    {
-      "basename": "Indexing",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md"
-    },
-    {
-      "basename": "B+ Tree",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md"
-    },
-    {
-      "basename": "B Tree",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
-    },
-    {
-      "basename": "File Organization",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md"
-    },
-    {
-      "basename": "Single Level Ordered Index",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md"
-    },
-    {
-      "basename": "Multi Level Ordered Index",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md"
-    },
-    {
-      "basename": "Three Levels of Schema",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md"
-    },
-    {
-      "basename": "Collision Resolution Techniques",
-      "path": "DataStructures/Hashing/Collision Resolution Techniques.md"
-    },
-    {
-      "basename": "Nested Queries in SQL",
-      "path": "DatabaseManagementSystem/SQL/Nested Queries in SQL.md"
-    },
-    {
-      "basename": "SQL Retrieval Queries",
-      "path": "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md"
-    },
-    {
-      "basename": "Constraints in Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
-    },
-    {
-      "basename": "Disk Structure and Performance",
-      "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
-    },
-    {
-      "basename": "Aptitude",
-      "path": "Aptitude/Aptitude.md"
-    },
-    {
-      "basename": "Data Structures",
-      "path": "DataStructures/Data Structures.md"
-    },
-    {
-      "basename": "Expectation of Hashing",
-      "path": "DataStructures/Hashing/Expectation of Hashing.md"
-    },
-    {
-      "basename": "Hashing",
-      "path": "DataStructures/Hashing/Hashing.md"
-    },
-    {
-      "basename": "Analysis of Open Addressing",
-      "path": "DataStructures/Hashing/Analysis of Open Addressing.md"
-    },
-    {
-      "basename": "Probing Strategies",
-      "path": "DataStructures/Hashing/Probing Strategies.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE-CS.md"
-    },
-    {
-      "basename": "Disk Space Management",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Disk Space Management.md"
-    },
-    {
-      "basename": "Disk Addressing",
-      "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md"
-    },
-    {
-      "basename": "Disk Scheduling Algorithms",
-      "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Scheduling Algorithms.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE-LOG.md"
-    },
-    {
-      "basename": "Equivalence Relation",
-      "path": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md"
-    },
-    {
-      "basename": "Structured Query Language",
-      "path": "DatabaseManagementSystem/SQL/Structured Query Language.md"
-    },
-    {
-      "basename": "Relational Algebra Queries",
-      "path": "DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md"
     }
   ],
   "omittedPaths": [

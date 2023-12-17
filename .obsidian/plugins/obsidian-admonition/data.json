@@ -373,6 +373,17 @@
       "command": false,
       "injectColor": true,
       "noTitle": false
+    },
+    "misconception": {
+      "type": "misconception",
+      "color": "2, 105, 202",
+      "icon": {
+        "name": "simplybuilt",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,

@@ -9,7 +9,7 @@
     "timeline-callout"
   ],
   "cssTheme": "Border",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "showViewHeader": true,
   "baseFontSize": 18,
   "nativeMenus": false,
