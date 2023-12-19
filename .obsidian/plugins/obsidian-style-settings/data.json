@@ -97,7 +97,7 @@
   "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-theme-light-in-the-sky",
   "blue-topaz-theme@@blur-depth": 17,
   "blue-topaz-theme@@background-settings-workplace-theme-dark": "background-settings-workplace-theme-dark-jellyfish-1",
-  "encore-settings@@encore-fancy-headers": true,
+  "encore-settings@@encore-fancy-headers": false,
   "chime-theme@@custom-image": "url(https://images.unsplash.com/flagged/photo-1559717865-a99cac1c95d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80)",
   "aura@@aura-workspace-background-blur-dark": 15,
   "big-and-bold-theme@@enable-bg-img": true,
@@ -392,5 +392,13 @@
   "Appearance-dark@@interactive-normal@@dark": "#363636",
   "Appearance-dark@@interactive-hover@@dark": "#3F3F3F",
   "Appearance-dark@@background-activated-tab-header-dark": "#FFFFFF13",
-  "Appearance-dark@@shadow-activated-tab-header-dark": "none"
+  "Appearance-dark@@shadow-activated-tab-header-dark": "none",
+  "encore-settings@@encore-bright-accent": false,
+  "encore-settings@@encore-mobile-translucency": false,
+  "minimal-style@@h1-size": "2em",
+  "minimal-style@@h2-size": "1.75em",
+  "minimal-style@@h3-size": "1.5em",
+  "minimal-style@@h4-size": "1.25em",
+  "minimal-style@@h5-size": "1em",
+  "minimal-style@@h6-size": "0.75em"
 }

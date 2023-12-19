@@ -4,63 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "0edb9e289f9b0856",
+        "id": "8254fff6e9b21e55",
         "type": "tabs",
         "children": [
           {
-            "id": "2280ae9adb1e9a9c",
+            "id": "6a9cd7948e499332",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DatabaseManagementSystem/Database Management System.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d96d86282e545ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/ER-Model/ER Model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b429236a8b737fa8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/ER-Model/ER Model to Relational Model Conversion.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dae6f2ec9fcb26ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+                "file": "DataStructures/Data Structures.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,8 +82,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -144,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DatabaseManagementSystem/ER-Model/ER Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +119,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DatabaseManagementSystem/ER-Model/ER Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DatabaseManagementSystem/ER-Model/ER Model.md"
-              }
+              "state": {}
             }
           },
           {
@@ -230,7 +185,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -254,11 +210,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5d96d86282e545ee",
+  "active": "503fa5a56b71e72e",
   "lastOpenFiles": [
+    "DataStructures/Data Structures.md",
+    "DatabaseManagementSystem/ER-Model/ER Model to Relational Model Conversion.md",
+    "attachments/ER Model to Relational Model Conversion-20231219211819452.webp",
+    "DatabaseManagementSystem/ER-Model/ER Model.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
     "DatabaseManagementSystem/Database Management System.md",
+    "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
     "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
     "DatabaseManagementSystem/Tuple-Relational-Calculus/TRC for Relational Algebra.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md",
@@ -279,9 +239,6 @@
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
     "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
-    "DatabaseManagementSystem/ER-Model/ER Model.md",
-    "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
     "attachments/ER Model-20231216205753795.webp",
     "attachments/Lock-based Protocols-20231215213208633.webp",
     "attachments/Lock-based Protocols-20231215195903743.webp",
@@ -291,7 +248,6 @@
     "attachments/Concurrency Control Protocols-20231215125744804.webp",
     "attachments/Concurrency Control Protocols-20231215124908309.webp",
     "attachments/View Serializability-20231214111830641.webp",
-    "attachments/Transaction-20231214105933142.webp",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery",
     "attachments/DatabaseManagementSystem/ER-Model/ER Model",
     "attachments/DatabaseManagementSystem/ER-Model",

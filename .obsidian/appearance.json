@@ -8,8 +8,8 @@
     "anuppuccin-checkboxes",
     "timeline-callout"
   ],
-  "cssTheme": "Border",
-  "theme": "obsidian",
+  "cssTheme": "Minimal",
+  "theme": "moonstone",
   "showViewHeader": true,
   "baseFontSize": 18,
   "nativeMenus": false,
