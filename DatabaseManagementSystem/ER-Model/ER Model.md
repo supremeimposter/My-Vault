@@ -56,11 +56,11 @@ Derived]
 ## Mapping Cardinalities
 - One entity is related to how many entities
 
-> - One-One relationship
-> - One-Many relationship
-> - Many-One relationship
-> - Many-Many relationship
-^cardmappings
+1. One-One relationship
+2. One-Many relationship
+3. Many-One relationship
+4. Many-Many relationship
+
 
 > [!discussion]
 > ![[ER Model-20231216205753795.webp]]
@@ -75,7 +75,12 @@ Derived]
 
 ## Self-Referential Relationships
 - It is also called as *recursive* or *cyclic* relationship.
-- Recursive relationships can have any of the cardinality mappings.![[#^cardmappings]]
+- Recursive relationships can have any of the cardinality mappings.
+
+1. One-One relationship
+2. One-Many relationship
+3. Many-One relationship
+4. Many-Many relationship
 
 ## Weak Entity Set
 - An entity set without any key. A set in which entities are not uniquely identifiable.
