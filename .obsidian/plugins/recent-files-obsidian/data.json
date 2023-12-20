@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Process in Operating Systems",
+      "path": "OperatingSystems/Process in Operating Systems.md"
+    },
+    {
+      "basename": "Operating Systems",
+      "path": "OperatingSystems/Operating Systems.md"
+    },
+    {
+      "basename": "Introduction to Operating Systems",
+      "path": "OperatingSystems/Introduction to Operating Systems.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
+    },
+    {
+      "basename": "Row and Column Major Mapping",
+      "path": "DataStructures/Row and Column Major Mapping/Row and Column Major Mapping.md"
+    },
+    {
+      "basename": "Pending Lectures",
+      "path": "Pending Lectures.md"
+    },
+    {
       "basename": "Data Structures",
       "path": "DataStructures/Data Structures.md"
     },
     {
       "basename": "ER Model to Relational Model Conversion",
       "path": "DatabaseManagementSystem/ER-Model/ER Model to Relational Model Conversion.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "ER Model",
@@ -175,30 +199,6 @@
     {
       "basename": "Function Definition",
       "path": "DiscreteMathematics/Functions/Function Definition.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "Pending Lectures.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "Temporary Plan.md"
-    },
-    {
-      "basename": "Time Complexity for Recursive Programs",
-      "path": "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
-    },
-    {
-      "basename": "Algorithms",
-      "path": "Algorithms/Algorithms.md"
-    },
-    {
-      "basename": "Masters Theorem",
-      "path": "Algorithms/Recurrence-Relation/Masters Theorem.md"
     }
   ],
   "omittedPaths": [

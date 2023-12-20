@@ -4,23 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "8254fff6e9b21e55",
+        "id": "890c5e5dc7f033dc",
         "type": "tabs",
         "children": [
           {
-            "id": "6a9cd7948e499332",
+            "id": "fe8cc53b330768cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataStructures/Data Structures.md",
+                "file": "OperatingSystems/Operating Systems.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6094973d76d2226",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Introduction to Operating Systems.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a1a030252eca97e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Process in Operating Systems.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +109,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -103,6 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OperatingSystems/Process in Operating Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OperatingSystems/Process in Operating Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +169,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "OperatingSystems/Process in Operating Systems.md"
+              }
             }
           },
           {
@@ -154,7 +186,7 @@
             }
           },
           {
-            "id": "7035dd3143b72f3a",
+            "id": "ceb66d1997bcc4bf",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -162,7 +194,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "5df95600f2476df0",
@@ -210,14 +242,30 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "503fa5a56b71e72e",
+  "active": "6a1a030252eca97e",
   "lastOpenFiles": [
+    "attachments/Process in Operating Systems-20231220230221320.webp",
+    "OperatingSystems/Operating Systems.md",
+    "OperatingSystems/Introduction to Operating Systems.md",
+    "OperatingSystems/Process in Operating Systems.md",
+    "attachments/Process in Operating Systems-20231220172031623.webp",
+    "attachments/Process in Operating Systems-20231220170719527.webp",
+    "attachments/Process in Operating Systems-20231220164740489.webp",
+    "attachments/Process in Operating Systems-20231220164425541.webp",
+    "attachments/Process in Operating Systems-20231220164300085.webp",
+    "attachments/Process in Operating Systems-20231220141025158.webp",
+    "DatabaseManagementSystem/Database Management System.md",
+    "attachments/Introduction to Operating Systems-20231220102654548.webp",
+    "GATE-CS.md",
+    "OperatingSystems",
+    "DataStructures/Row and Column Major Mapping/Row and Column Major Mapping.md",
+    "Pending Lectures.md",
+    "DataStructures/Row and Column Major Mapping",
     "DataStructures/Data Structures.md",
     "DatabaseManagementSystem/ER-Model/ER Model to Relational Model Conversion.md",
     "attachments/ER Model to Relational Model Conversion-20231219211819452.webp",
     "DatabaseManagementSystem/ER-Model/ER Model.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
-    "DatabaseManagementSystem/Database Management System.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
     "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
     "DatabaseManagementSystem/Tuple-Relational-Calculus/TRC for Relational Algebra.md",
@@ -232,22 +280,8 @@
     "DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md",
     "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md",
-    "DatabaseManagementSystem/SQL/Nested Queries in SQL.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md",
-    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
-    "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
-    "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
     "attachments/ER Model-20231216205753795.webp",
     "attachments/Lock-based Protocols-20231215213208633.webp",
-    "attachments/Lock-based Protocols-20231215195903743.webp",
-    "attachments/Lock-based Protocols-20231215135246825.webp",
-    "attachments/Lock-based Protocols-20231215135225130.webp",
-    "attachments/Lock-based Protocols-20231215135211528.webp",
-    "attachments/Concurrency Control Protocols-20231215125744804.webp",
-    "attachments/Concurrency Control Protocols-20231215124908309.webp",
-    "attachments/View Serializability-20231214111830641.webp",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery",
     "attachments/DatabaseManagementSystem/ER-Model/ER Model",
     "attachments/DatabaseManagementSystem/ER-Model",
@@ -256,8 +290,6 @@
     "DatabaseManagementSystem/ER-Model",
     "DataStructures/Hashing",
     "DataStructures",
-    "attachments/Diagram 1.svg.xml",
-    "DatabaseManagementSystem/File-Organization-and-Indexing",
     "Untitled.canvas"
   ]
 }
