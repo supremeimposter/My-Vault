@@ -14,6 +14,9 @@ tags:
 - [[Analysis of Open Addressing]]
 - [[Expectation of Hashing]]
 
+# Row and Column Major Mapping
+- [[Row and Column Major Mapping]]
+
 ---
 
 # References
