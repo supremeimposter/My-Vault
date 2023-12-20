@@ -9,6 +9,7 @@ last-revision:
 notes-taken: false
 tags:
   - OperatingSystems
+  - GATE/Dashboard
 ---
 # Introduction to Operating Systems
 
