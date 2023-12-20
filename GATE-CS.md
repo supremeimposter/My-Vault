@@ -6,6 +6,7 @@
 - [[Algorithms]]
 - [[Database Management System]]
 - [[Data Structures]]
+- [[Operating Systems]]
 - [[Aptitude]]
 
 ---
