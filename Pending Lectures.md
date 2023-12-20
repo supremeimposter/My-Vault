@@ -2,14 +2,13 @@
 - [ ] Data Structures - Heaps practice set live 2📅 2023-09-27 
 - [ ] Data Structures - Heaps practice set live 3📅 2023-09-29
 - [x] Data Structures - Hashing
-- [ ] Row-major, Column-major
+- [x] Row-major, Column-major
 
 # Engineering Mathematics
 - [ ] Probability - Weekly Quiz - 8, 11
 - [ ] Calculus - [Weekly Quiz - 14](https://www.youtube.com/watch?v=6aIuj2b2J38)
 - [ ] Linear Algebra - Types of Matrices
 - [ ] Linear Algebra - Weekly Quiz - 3
-- [ ] Linear Algebra - Lecture 11 
 - [ ] Linear Algebra - Weekly Quiz - 7, Live 8
 - [ ] Scholarship test LA solution
 
@@ -61,6 +60,6 @@
 - [ ] [Practice Set 1 Part 2 - Normalization | Ullman DBMS Questions | Live | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=EU5O_8wH3Xw)
 - [ ] [NPTEL DBMS 2022 Assignment 1 - Normalization, Relational Algebra | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=jp-9OeD-6qw)
 - [ ] [Timestamp Protocol 50 Questions - Transactions & Concurrency Control | GATE PYQs | DBMS Revision - YouTube](https://www.youtube.com/watch?v=gM76xs2NEgE) - Lecture-15 Transaction management and recovery
-- [ ] Recovery Manager
+- [ ] Recovery Manager - Topic not covered in Go classes
 
 
