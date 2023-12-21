@@ -21,20 +21,7 @@
             }
           },
           {
-            "id": "f6094973d76d2226",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OperatingSystems/Introduction to Operating Systems.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a1a030252eca97e",
+            "id": "09faa18f4fea4cab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,9 +32,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "be3c3209d7aeb84f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/System Calls.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6631e8eafa68ae3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Threads.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -131,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Process in Operating Systems.md",
+                "file": "OperatingSystems/Threads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Process in Operating Systems.md",
+                "file": "OperatingSystems/Threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Process in Operating Systems.md"
+                "file": "OperatingSystems/Threads.md"
               }
             }
           },
@@ -217,8 +230,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -242,20 +254,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6a1a030252eca97e",
+  "active": "6631e8eafa68ae3e",
   "lastOpenFiles": [
-    "attachments/Process in Operating Systems-20231220230221320.webp",
-    "OperatingSystems/Operating Systems.md",
-    "OperatingSystems/Introduction to Operating Systems.md",
+    "attachments/Threads-20231221185630844.webp",
+    "OperatingSystems/Threads.md",
+    "OperatingSystems/System Calls.md",
     "OperatingSystems/Process in Operating Systems.md",
+    "OperatingSystems/Operating Systems.md",
+    "attachments/System Calls-20231221115109525.webp",
+    "attachments/Process in Operating Systems-20231221080722999.webp",
+    "attachments/Process in Operating Systems-20231221080539522.webp",
+    "attachments/Process in Operating Systems-20231221074718343.webp",
+    "attachments/Process in Operating Systems-20231221072317679.webp",
+    "attachments/Process in Operating Systems-20231221071926557.webp",
+    "OperatingSystems/Introduction to Operating Systems.md",
+    "daily-agenda/2023-12-21.md",
+    "attachments/Process in Operating Systems-20231220230221320.webp",
     "attachments/Process in Operating Systems-20231220172031623.webp",
     "attachments/Process in Operating Systems-20231220170719527.webp",
     "attachments/Process in Operating Systems-20231220164740489.webp",
-    "attachments/Process in Operating Systems-20231220164425541.webp",
-    "attachments/Process in Operating Systems-20231220164300085.webp",
-    "attachments/Process in Operating Systems-20231220141025158.webp",
     "DatabaseManagementSystem/Database Management System.md",
-    "attachments/Introduction to Operating Systems-20231220102654548.webp",
     "GATE-CS.md",
     "OperatingSystems",
     "DataStructures/Row and Column Major Mapping/Row and Column Major Mapping.md",
@@ -263,7 +281,6 @@
     "DataStructures/Row and Column Major Mapping",
     "DataStructures/Data Structures.md",
     "DatabaseManagementSystem/ER-Model/ER Model to Relational Model Conversion.md",
-    "attachments/ER Model to Relational Model Conversion-20231219211819452.webp",
     "DatabaseManagementSystem/ER-Model/ER Model.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
@@ -277,11 +294,6 @@
     "DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md",
     "DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md",
-    "DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md",
-    "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md",
-    "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md",
-    "attachments/ER Model-20231216205753795.webp",
-    "attachments/Lock-based Protocols-20231215213208633.webp",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery",
     "attachments/DatabaseManagementSystem/ER-Model/ER Model",
     "attachments/DatabaseManagementSystem/ER-Model",

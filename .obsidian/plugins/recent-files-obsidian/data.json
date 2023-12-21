@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Threads",
+      "path": "OperatingSystems/Threads.md"
+    },
+    {
+      "basename": "System Calls",
+      "path": "OperatingSystems/System Calls.md"
+    },
+    {
       "basename": "Process in Operating Systems",
       "path": "OperatingSystems/Process in Operating Systems.md"
     },
@@ -187,18 +195,6 @@
     {
       "basename": "B+ Tree",
       "path": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md"
-    },
-    {
-      "basename": "B Tree",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
-    },
-    {
-      "basename": "ACID Properties for Transaction Processing",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md"
-    },
-    {
-      "basename": "Function Definition",
-      "path": "DiscreteMathematics/Functions/Function Definition.md"
     }
   ],
   "omittedPaths": [

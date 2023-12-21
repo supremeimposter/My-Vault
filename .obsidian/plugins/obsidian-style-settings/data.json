@@ -374,5 +374,7 @@
   "Appearance-dark@@background-secondary@@dark": "#232136",
   "Appearance-dark@@text-normal@@dark": "#e0def4",
   "Appearance-dark@@text-muted@@dark": "#908caa",
-  "Appearance-dark@@text-faint@@dark": "#6e6a86"
+  "Appearance-dark@@text-faint@@dark": "#6e6a86",
+  "custom-diegoeis-simple@@eis-sidebar-dark": false,
+  "minimal-style@@tabs-style": "tabs-modern"
 }
