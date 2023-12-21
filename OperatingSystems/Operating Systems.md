@@ -8,10 +8,10 @@ tags:
 # Operating Systems
 - [[Introduction to Operating Systems]]
 - [[Process in Operating Systems]]
-
+- [[System Calls]]
+- [[Threads]]
 
 ---
-
 # References
 
 
