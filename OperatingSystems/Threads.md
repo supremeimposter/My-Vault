@@ -32,3 +32,11 @@ tags:
 - User level threads cannot take help from the kernel scheduler to schedule the threads.
 
 ### Kernel Level Threads
+- In kernel level threads, multiple threads from the same process can be scheduled on multiple CPUs simultaneously.
+
+> [!link]
+> [java - Difference between CPU threads, Kernel threads, OS threads, user threads - Stack Overflow](https://stackoverflow.com/questions/46619223/difference-between-cpu-threads-kernel-threads-os-threads-user-threads)
+
+## Multithreading Models
+
+
