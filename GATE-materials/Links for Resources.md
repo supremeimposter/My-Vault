@@ -7,4 +7,4 @@
 ---
 
 - [GO Classes Tests, Quizzes, Homework Discussions | Test Series | Weekly Quizzes - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjUd2BHqInF3wwZ5kF4Yk6h)
-- 
+- [BEST Standard Free Lectures for GATE CSE | GATE 2023 | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=fCCoi-kWSJQ&t=210s)

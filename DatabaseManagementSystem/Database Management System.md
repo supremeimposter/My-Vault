@@ -80,6 +80,7 @@ Navathe
 Korth
 Raguramakrishna - For writing queries
 Ullman - For concepts
+[cs.uct.ac.za/mit\_notes/database/htmls/chp01.html#](https://www.cs.uct.ac.za/mit_notes/database/htmls/chp01.html#)
 
 [One-compile for Boats Reserves Sailors Table](https://www.mycompiler.io/view/GPP0ejSCIOW)
 

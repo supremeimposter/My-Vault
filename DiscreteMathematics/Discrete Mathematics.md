@@ -122,3 +122,11 @@ flowchart LR
 ---
 ## Combinatronics
 - [[Combinatronics]]
+
+
+> [!youtube] [Recurrence Relations in Discrete Mathematics | Complete Playlist | Applications of Recurrence Relations | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhhTH0o1JBMgscMUvxs4E_4)
+
+---
+
+# References
+- [Discrete Mathematics - Oscar Levin](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
