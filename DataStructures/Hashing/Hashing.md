@@ -65,3 +65,7 @@ n - \text{Number of elements} \\
 m - \text{Size of Table or No of slots} 
 \end{align}
 $$
+
+# References
+
+[CSE 326: Data Structures](https://courses.cs.washington.edu/courses/cse326/00wi/handouts/lecture16/sld001.htm)
