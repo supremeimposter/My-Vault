@@ -1,8 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Threads",
-      "path": "OperatingSystems/Threads.md"
+      "basename": "Cases of languages in DFA",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md"
+    },
+    {
+      "basename": "Deterministic Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
+    },
+    {
+      "basename": "Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md"
+    },
+    {
+      "basename": "Links for Resources",
+      "path": "GATE-materials/Links for Resources.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
+    },
+    {
+      "basename": "Basic Concepts of TOC",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
+    },
+    {
+      "basename": "Theory of Computation",
+      "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Non-Deterministic Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md"
+    },
+    {
+      "basename": "Introduction to Theory of Computation",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md"
+    },
+    {
+      "basename": "Regular Languages",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages.md"
+    },
+    {
+      "basename": "What does Theory of Computation do",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/What does Theory of Computation do.md"
+    },
+    {
+      "basename": "Pending Notes",
+      "path": "Pending Notes.md"
+    },
+    {
+      "basename": "Doubt - Regular Languages and Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md"
+    },
+    {
+      "basename": "Procedural and Declarative Query Languages",
+      "path": "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md"
     },
     {
       "basename": "System Calls",
@@ -13,20 +65,40 @@
       "path": "OperatingSystems/Process in Operating Systems.md"
     },
     {
+      "basename": "Introduction to Operating Systems",
+      "path": "OperatingSystems/Introduction to Operating Systems.md"
+    },
+    {
       "basename": "Operating Systems",
       "path": "OperatingSystems/Operating Systems.md"
     },
     {
-      "basename": "Introduction to Operating Systems",
-      "path": "OperatingSystems/Introduction to Operating Systems.md"
+      "basename": "What happens when a system is started?",
+      "path": "OperatingSystems/What happens when a system is started?.md"
     },
     {
       "basename": "Database Management System",
       "path": "DatabaseManagementSystem/Database Management System.md"
     },
     {
-      "basename": "GATE-CS",
-      "path": "GATE-CS.md"
+      "basename": "Hashing",
+      "path": "DataStructures/Hashing/Hashing.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Combinatronics",
+      "path": "DiscreteMathematics/Combinatronics/Combinatronics.md"
+    },
+    {
+      "basename": "Threads",
+      "path": "OperatingSystems/Threads.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "Temporary Plan.md"
     },
     {
       "basename": "Row and Column Major Mapping",
@@ -109,10 +181,6 @@
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md"
     },
     {
-      "basename": "Procedural and Declarative Query Languages",
-      "path": "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md"
-    },
-    {
       "basename": "Nested Queries in SQL",
       "path": "DatabaseManagementSystem/SQL/Nested Queries in SQL.md"
     },
@@ -131,70 +199,6 @@
     {
       "basename": "Introduction to DBMS",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
-    },
-    {
-      "basename": "Indexing",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md"
-    },
-    {
-      "basename": "Functional Dependency",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
-    },
-    {
-      "basename": "File Organization",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md"
-    },
-    {
-      "basename": "Disk Structure and Performance",
-      "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
-    },
-    {
-      "basename": "Disk Space Management",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Disk Space Management.md"
-    },
-    {
-      "basename": "Disk Scheduling Algorithms",
-      "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Scheduling Algorithms.md"
-    },
-    {
-      "basename": "Disk Addressing",
-      "path": "DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md"
-    },
-    {
-      "basename": "Derived Operations in Relational Algebra",
-      "path": "DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md"
-    },
-    {
-      "basename": "Decomposition",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
-    },
-    {
-      "basename": "Decomposition into Normal Forms",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md"
-    },
-    {
-      "basename": "Deadlock Handling in Transactions",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md"
-    },
-    {
-      "basename": "Constraints in Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
-    },
-    {
-      "basename": "Conflict Serializability",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md"
-    },
-    {
-      "basename": "Concurrency Control Protocols",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Concurrency Control Protocols.md"
-    },
-    {
-      "basename": "Basic Operations in Relational Algebra",
-      "path": "DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md"
-    },
-    {
-      "basename": "B+ Tree",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md"
     }
   ],
   "omittedPaths": [
