@@ -1,9 +1,13 @@
 ---
 pdf: lec-1
 date: 2023-09-26-22:07
-version: TOC-24
+version:
+  - TOC-24
+last-revision: 2023-12-24T10:02:00
+tags:
+  - TheoryOfComputation
 ---
-
+# Introduction to Theory of Computation
 > [!youtube] [Why Theory of Computation? What is the motivation of Theory of Computation](https://www.youtube.com/watch?v=3MAwb_kF2FI)
 
 - Theory of Computation deals with what are the problems that are solvable by computers.
