@@ -94,7 +94,7 @@ $$
 
 #### 9. Finite Languages
 - First accept the longest strings, then accept the remaining strings.
-- ${} \phi, \{ \epsilon \}$
+- ${} \phi, \{ \epsilon \}$ 
 
 #### 10. Unary Alphabet
 - We are NOT familiar with unary alphabet DFA construction.

@@ -17,7 +17,10 @@ $$
 $$
 - Every transaction is defined and no transaction is ambiguous.
 - A Finite Automata with undefined transaction can NEVER be a DFA.
-- There can be 0 to many final states.
+
+> [!doubt] 
+> - There can be 0 to many final states.
+
 ## Designing a DFA
 
 - A dead state is used to redirect unaccepted string formats.
@@ -31,8 +34,13 @@ $$
 
 - There are certain [[Cases of languages in DFA|cases of languages]] in DFA. This section discusses the various types of languages that are generally used in designing a DFA.
 
-## Extended Transition Function in DFA (${} \delta^*$)
+## Extended Transition Function in DFA
+
+- It is represented as $\delta^*$ 
 - The arguments of the $\delta^*$ is (state, string) and it maps to a state
+$$
+\delta^\ast : Q \times \Sigma^\ast \rightarrow Q
+$$
 - The strings reduces symbol by symbol as the extended transition progresses.
 - In case of a null string, the state does not read any input. Its an empty cell. It returns the same state.
 $$
@@ -42,6 +50,10 @@ $$
 $$
 \delta^* \;(q,\;a \cdot w) = \delta^* \;(\delta\;(q, a), w)
 $$
+- If `w` is a string of a language $L$ of a DFA, then $\delta^\ast \;(q_0,\; w) \in F$ 
+
+> [!NOTE] 
+> In DFA, from any state on any string, there will be exaclty one unique path
 
 ## Regular Languages
 
@@ -57,7 +69,30 @@ $$
 - A language which is recognised by DFA is called a regular language. A language which is not recognised by DFA is called a Non-regular language.
 
 ### DFA for complement of a regular language
+> [!youtube] [DFA for Complement of a Regular Language | Complementing a DFA | TOC | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=HE2iPU8qZaQ)
 
-> [!youtube] [video](https://www.youtube.com/watch?v=HE2iPU8qZaQ)
+- Any DFA $D$ on any string $w$ goes through a sequence of states. If $\mid w \mid = n$, then the number of states in the sequence is $(n + 1)$
+- The sequence of states is unique on a DFA.
+
+DFA for the complement of a regular language has the following rules,
+1. final states become non-final and non-final states become final.
+2. The transitions do not change
+The resultant language $\overline {L}$ is the complement of the language $L$.
+
+> [!think] 
+> Complement is for languages rather than mathematical models.
+
+![[Deterministic Finite Automata-20231225163057017.webp]]
+
+> [!discussion] 
+> ![[Deterministic Finite Automata-20231225163642391.webp]]
+> ![[Deterministic Finite Automata-20231225163654669.webp]]
 
 
+> [!youtube] [Lecture 11 - The Product Construction of DFAs | Running DFAs in Parallel | Theory of Computation - YouTube](https://www.youtube.com/watch?v=jadiLyb2hT4)
+
+## Unreachable States
+- The states which cannot be reached from the initial state.
+- They NEVER affect the language accepted by a machine. So they can be removed without changing the language that is accepted.
+
+## Running DFAs in Parallel
