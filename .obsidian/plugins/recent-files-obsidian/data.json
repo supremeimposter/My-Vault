@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Cases of languages in DFA",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md"
-    },
-    {
       "basename": "Deterministic Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
     },
     {
+      "basename": "Pending Lectures",
+      "path": "Pending Lectures.md"
+    },
+    {
       "basename": "Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md"
+    },
+    {
+      "basename": "Cases of languages in DFA",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md"
+    },
+    {
+      "basename": "Introduction to Theory of Computation",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md"
     },
     {
       "basename": "Links for Resources",
@@ -31,10 +39,6 @@
     {
       "basename": "Non-Deterministic Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md"
-    },
-    {
-      "basename": "Introduction to Theory of Computation",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md"
     },
     {
       "basename": "Regular Languages",
@@ -103,10 +107,6 @@
     {
       "basename": "Row and Column Major Mapping",
       "path": "DataStructures/Row and Column Major Mapping/Row and Column Major Mapping.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "Pending Lectures.md"
     },
     {
       "basename": "Data Structures",

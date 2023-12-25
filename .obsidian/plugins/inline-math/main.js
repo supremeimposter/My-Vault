@@ -27,7 +27,6 @@ __export(main_exports, {
   default: () => NoMoreFlicker
 });
 module.exports = __toCommonJS(main_exports);
-var import_state2 = require("@codemirror/state");
 var import_obsidian2 = require("obsidian");
 
 // src/settings.ts
@@ -60,7 +59,7 @@ var NoMoreFlickerSettingTab = class extends import_obsidian.PluginSettingTab {
       });
     });
     new import_obsidian.Setting(containerEl).setName("Disable atomic ranges").setDesc(createFragment((el) => {
-      el.createSpan({ text: 'If turned on, atomic ranges to treat "' });
+      el.createSpan({ text: 'If turned on, atomic ranges to treat each of "' });
       el.createEl("code", { text: "${} " });
       el.createSpan({ text: '" or "' });
       el.createEl("code", { text: " {}$" });
@@ -82,17 +81,13 @@ var NoMoreFlickerSettingTab = class extends import_obsidian.PluginSettingTab {
   }
 };
 
-// src/handlers.ts
+// src/cleaner.ts
 var import_language2 = require("@codemirror/language");
 
 // src/utils.ts
 var import_language = require("@codemirror/language");
-
-// src/node_names.ts
 var INLINE_MATH_BEGIN = "formatting_formatting-math_formatting-math-begin_keyword_math";
 var MATH_END = "formatting_formatting-math_formatting-math-end_keyword_math_math-";
-
-// src/utils.ts
 function nodeText(node, state) {
   return state.sliceDoc(node.from, node.to);
 }
@@ -120,68 +115,10 @@ function selectionSatisfies(state, predicate) {
   return ret;
 }
 
-// src/handlers.ts
-function getChangesForDeletion(state) {
-  const tree = (0, import_language2.syntaxTree)(state);
-  const doc = state.doc.toString();
-  const changes = [];
-  for (const range of state.selection.ranges) {
-    const from = range.empty ? range.from - 4 : range.from;
-    const to = range.to;
-    const text = state.sliceDoc(from, to);
-    const index = text.lastIndexOf("$");
-    if (index == -1) {
-      continue;
-    }
-    const indexNextDollar = doc.indexOf("$", from + index + 1);
-    const indexPrevDollar = doc.lastIndexOf("$", from);
-    tree.iterate({
-      from: indexPrevDollar,
-      to: indexNextDollar >= 0 ? indexNextDollar : to,
-      enter(node) {
-        if (isInlineMathBegin(node, state) && state.sliceDoc(node.to, node.to + 3) == "{} ") {
-          changes.push({ from: node.to, to: node.to + 3 });
-        } else if (isInlineMathEnd(node, state) && state.sliceDoc(node.from - 3, node.from) == " {}") {
-          changes.push({ from: node.from - 3, to: node.from });
-        }
-      }
-    });
-  }
-  return changes;
-}
-function getChangesForInsertion(state) {
-  const tree = (0, import_language2.syntaxTree)(state);
-  const doc = state.doc.toString();
-  let changes = [];
-  for (const range of state.selection.ranges) {
-    const indexNextDollar = doc.indexOf("$", range.to);
-    const indexPrevDollar = doc.lastIndexOf("$", range.from);
-    if (indexNextDollar >= 0) {
-      tree.iterate({
-        from: indexPrevDollar,
-        to: indexNextDollar + 1,
-        enter(node) {
-          if (isInlineMathBegin(node, state)) {
-            if (!(state.sliceDoc(node.to, node.to + 3) == "{} ")) {
-              changes.push({ from: node.to, insert: "{} " });
-            }
-          } else if (isInlineMathEnd(node, state)) {
-            if (!(state.sliceDoc(node.from - 3, node.from) == " {}")) {
-              changes.push({ from: node.from, insert: " {}" });
-            }
-          }
-        }
-      });
-    }
-  }
-  return changes;
-}
-
 // src/cleaner.ts
-var import_language3 = require("@codemirror/language");
 function cleaner(view) {
   const changes = [];
-  (0, import_language3.syntaxTree)(view.state).iterate({
+  (0, import_language2.syntaxTree)(view.state).iterate({
     enter(node) {
       if (isInlineMathBegin(node, view.state)) {
         if (view.state.sliceDoc(node.to, node.to + 3) == "{} ") {
@@ -203,10 +140,10 @@ function cleanerCallback(editor) {
   }
 }
 
-// src/decoration_and_atomic-range.ts
+// src/decoration-and-atomic-range.ts
 var import_state = require("@codemirror/state");
 var import_view = require("@codemirror/view");
-var import_language4 = require("@codemirror/language");
+var import_language3 = require("@codemirror/language");
 var DummyRangeValue = class extends import_state.RangeValue {
 };
 var createViewPlugin = (plugin) => import_view.ViewPlugin.fromClass(
@@ -220,7 +157,7 @@ var createViewPlugin = (plugin) => import_view.ViewPlugin.fromClass(
     impl(view) {
       const decorationBulder = new import_state.RangeSetBuilder();
       const atomicRangeBulder = new import_state.RangeSetBuilder();
-      const tree = (0, import_language4.syntaxTree)(view.state);
+      const tree = (0, import_language3.syntaxTree)(view.state);
       for (const { from, to } of view.visibleRanges) {
         tree.iterate({
           from,
@@ -269,11 +206,205 @@ var createViewPlugin = (plugin) => import_view.ViewPlugin.fromClass(
   }
 );
 
+// src/transaction-filter.ts
+var import_state3 = require("@codemirror/state");
+var import_language5 = require("@codemirror/language");
+
+// src/latex-suite.ts
+var import_state2 = require("@codemirror/state");
+var import_language4 = require("@codemirror/language");
+function handleLatexSuite(tr, plugin) {
+  if (tr.docChanged && !tr.selection) {
+    const changes = handleLatexSuiteBoxing(tr.startState, tr.changes);
+    if (changes) {
+      plugin._latexSuiteBoxing = true;
+      return { changes };
+    }
+  } else if (!tr.docChanged && tr.selection) {
+    if (plugin._latexSuiteBoxing) {
+      plugin._latexSuiteBoxing = false;
+      return { selection: { anchor: tr.selection.main.anchor - 3 } };
+    } else {
+      const selection = handleLatexSuiteTabout(tr.startState, tr.selection);
+      return [tr, { selection }];
+    }
+  }
+}
+function handleLatexSuiteTabout(state, newSelection) {
+  const tree = (0, import_language4.syntaxTree)(state);
+  const doc = state.doc.toString();
+  const newRanges = [];
+  for (let i = 0; i < newSelection.ranges.length; i++) {
+    const range = newSelection.ranges[i];
+    const indexNextDollar = doc.indexOf("$", range.to);
+    if (indexNextDollar >= 0) {
+      const node = tree.cursorAt(indexNextDollar, 1).node;
+      if (range.from === range.to && range.to === indexNextDollar && isInlineMathEnd(node, state) && state.sliceDoc(node.from - 3, node.from) === " {}") {
+        newRanges.push(import_state2.EditorSelection.cursor(node.to));
+        continue;
+      }
+    }
+    newRanges.push(range);
+  }
+  return import_state2.EditorSelection.create(newRanges, newSelection.mainIndex);
+}
+function handleLatexSuiteBoxing(state, changes) {
+  const tree = (0, import_language4.syntaxTree)(state);
+  let changeToReplace;
+  changes.iterChanges((fromA, toA, fromB, toB, inserted) => {
+    if (inserted.toString() === "\\boxed{" + state.sliceDoc(fromA, toA) + "}") {
+      const nodeFrom = tree.cursorAt(fromA, -1).node;
+      const nodeTo = tree.cursorAt(toA, 1).node;
+      if (isInlineMathBegin(nodeFrom, state) && isInlineMathEnd(nodeTo, state)) {
+        if (state.sliceDoc(fromA, fromA + 3) === "{} " && state.sliceDoc(toA - 3, toA) === " {}") {
+          changeToReplace = { from: fromA, to: toA, insert: "\\boxed{" + state.sliceDoc(fromA + 3, toA - 3) + "}" };
+        }
+      }
+    }
+  });
+  return changeToReplace;
+}
+
+// src/transaction-filter.ts
+var makeTransactionFilter = (plugin) => {
+  return import_state3.EditorState.transactionFilter.of((tr) => {
+    var _a;
+    if (plugin.shouldIgnore(tr.startState))
+      return tr;
+    const userEvent = (_a = tr.annotation(import_state3.Transaction.userEvent)) == null ? void 0 : _a.split(".")[0];
+    if (userEvent === "input") {
+      const changes = getChangesForInsertion(tr.startState, tr.changes);
+      return [tr, { changes }];
+    } else if (userEvent === "select" && tr.selection) {
+      const changes = getChangesForSelection(tr.startState, tr.selection);
+      return [tr, { changes }];
+    } else if (userEvent === "delete") {
+      const changes = getChangesForDeletion(tr.startState);
+      return [tr, { changes }];
+    } else if (userEvent === void 0) {
+      const spec = handleLatexSuite(tr, plugin);
+      if (spec)
+        return spec;
+    }
+    return tr;
+  });
+};
+function getChangesForDeletion(state) {
+  const tree = (0, import_language5.syntaxTree)(state);
+  const doc = state.doc.toString();
+  const changes = [];
+  for (const range of state.selection.ranges) {
+    const from = range.empty ? range.from - 4 : range.from;
+    const to = range.to;
+    const text = state.sliceDoc(from, to);
+    const index = text.lastIndexOf("$");
+    if (index == -1) {
+      continue;
+    }
+    const indexNextDollar = doc.indexOf("$", from + index + 1);
+    const indexPrevDollar = doc.lastIndexOf("$", from);
+    tree.iterate({
+      from: indexPrevDollar,
+      to: indexNextDollar >= 0 ? indexNextDollar : to,
+      enter(node) {
+        if (isInlineMathBegin(node, state) && state.sliceDoc(node.to, node.to + 3) == "{} ") {
+          changes.push({ from: node.to, to: node.to + 3 });
+        } else if (isInlineMathEnd(node, state) && state.sliceDoc(node.from - 3, node.from) == " {}") {
+          changes.push({ from: node.from - 3, to: node.from });
+        }
+      }
+    });
+  }
+  return changes;
+}
+function getChangesForInsertion(state, changes) {
+  const tree = (0, import_language5.syntaxTree)(state);
+  const doc = state.doc.toString();
+  const changesToAdd = [];
+  const beginningOfChanges = /* @__PURE__ */ new Map();
+  changes.iterChangedRanges((fromA, toA, fromB, toB) => {
+    beginningOfChanges.set(fromA, true);
+  });
+  for (const range of state.selection.ranges) {
+    if (range.from >= 1) {
+      const indexPrevDollar = doc.lastIndexOf("$", range.from - 1);
+      if (indexPrevDollar >= 0) {
+        const node = tree.cursorAt(indexPrevDollar, 1).node;
+        if (isInlineMathBegin(node, state)) {
+          if (indexPrevDollar === range.from - 1 && beginningOfChanges.has(range.from)) {
+            changesToAdd.push({ from: indexPrevDollar, to: range.from, insert: "${} " });
+            continue;
+          }
+          if (state.sliceDoc(node.to, node.to + 3) !== "{} ") {
+            changesToAdd.push({ from: node.to, insert: "{} " });
+          }
+        } else if (isInlineMathEnd(node, state) && state.sliceDoc(node.from - 3, node.from) === " {}") {
+          const openIndex = doc.lastIndexOf("${} ", node.from - 3);
+          changesToAdd.push({ from: openIndex + 1, to: node.from, insert: doc.slice(openIndex + 4, node.from - 3).trim() });
+        }
+      }
+    }
+    const indexNextDollar = doc.indexOf("$", range.to);
+    if (indexNextDollar >= 0) {
+      const node = tree.cursorAt(indexNextDollar, 1).node;
+      if (isInlineMathEnd(node, state)) {
+        if (state.sliceDoc(node.from - 3, node.from) !== " {}") {
+          changesToAdd.push({ from: node.from, insert: " {}" });
+        }
+      } else if (isInlineMathBegin(node, state) && state.sliceDoc(node.to, node.to + 3) === "{} ") {
+        const closeIndex = doc.indexOf(" {}$", node.to + 3);
+        if (closeIndex >= 0) {
+          changesToAdd.push({ from: node.to, to: closeIndex + 3, insert: doc.slice(node.to + 3, closeIndex).trim() });
+        }
+      }
+    }
+  }
+  return changesToAdd;
+}
+function getChangesForSelection(state, newSelection) {
+  const tree = (0, import_language5.syntaxTree)(state);
+  const doc = state.doc.toString();
+  const changes = [];
+  for (let i = 0; i < newSelection.ranges.length; i++) {
+    const range = newSelection.ranges[i];
+    const indexNextDollar = doc.indexOf("$", range.to);
+    const indexPrevDollar = doc.lastIndexOf("$", range.from - 1);
+    if (indexPrevDollar >= 0) {
+      const node = tree.cursorAt(indexPrevDollar, 1).node;
+      if (isInlineMathEnd(node, state) && state.sliceDoc(node.from - 3, node.from) === " {}") {
+        const openIndex = doc.lastIndexOf("${} ", node.from - 3);
+        changes.push({ from: openIndex + 1, to: node.from, insert: doc.slice(openIndex + 4, node.from - 3).trim() });
+      }
+    }
+    if (indexNextDollar >= 0) {
+      const node = tree.cursorAt(indexNextDollar, 1).node;
+      if (isInlineMathBegin(node, state) && state.sliceDoc(node.to, node.to + 3) === "{} ") {
+        const closeIndex = doc.indexOf(" {}$", node.to + 3);
+        if (closeIndex >= 0) {
+          changes.push({ from: node.to, to: closeIndex + 3, insert: doc.slice(node.to + 3, closeIndex).trim() });
+        }
+      }
+    }
+  }
+  return changes;
+}
+
 // src/main.ts
 var NoMoreFlicker = class extends import_obsidian2.Plugin {
   constructor() {
     super(...arguments);
+    /** 
+     * a view plugin that provides
+     * - decorations to hide braces adjacent to "$"s
+     * - & atomic ranges to treat each of "${} " and " {}$" as one character
+     */
     this.viewPlugin = [];
+    /** 
+     * Indicates whether the previous transaction was the first of the two transactions
+     * (1. text replacement & 2. cursor position change) that Latex Suite's "box current equation" 
+     * command produces or not. See the commend in the makeTransactionFilter() method for details.
+     */
+    this._latexSuiteBoxing = false;
   }
   async onload() {
     await this.loadSettings();
@@ -281,7 +412,7 @@ var NoMoreFlicker = class extends import_obsidian2.Plugin {
     this.addSettingTab(new NoMoreFlickerSettingTab(this.app, this));
     this.registerEditorExtension(this.viewPlugin);
     this.remakeViewPlugin();
-    this.registerEditorExtension(this.makeTransactionFilter());
+    this.registerEditorExtension(makeTransactionFilter(this));
     this.addCommand({
       id: "clean",
       name: "Clean up braces in this note",
@@ -298,22 +429,6 @@ var NoMoreFlicker = class extends import_obsidian2.Plugin {
   }
   async saveSettings() {
     await this.saveData(this.settings);
-  }
-  makeTransactionFilter() {
-    return import_state2.EditorState.transactionFilter.of((tr) => {
-      if (this.shouldIgnore(tr.startState)) {
-        return tr;
-      }
-      const userEvent = tr.annotation(import_state2.Transaction.userEvent);
-      if ((userEvent == null ? void 0 : userEvent.split(".")[0]) == "input") {
-        const changes = getChangesForInsertion(tr.startState);
-        return [tr, { changes }];
-      } else if ((userEvent == null ? void 0 : userEvent.split(".")[0]) == "delete") {
-        const changes = getChangesForDeletion(tr.startState);
-        return [tr, { changes }];
-      }
-      return tr;
-    });
   }
   shouldIgnore(state) {
     return this.settings.disableInTable && selectionSatisfies(

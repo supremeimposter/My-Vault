@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -143,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md"
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
               }
             }
           },
@@ -206,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "aad50c96c120c560",
@@ -252,19 +253,24 @@
       "command-palette:Open command palette": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "map-of-content:Update Map of Content": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "a2f9b5a7dad43f6b",
+  "active": "2cffb3a731e34e5f",
   "lastOpenFiles": [
+    "Pending Lectures.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+    "attachments/Deterministic Finite Automata-20231225163654669.webp",
+    "attachments/Deterministic Finite Automata-20231225163642391.webp",
+    "attachments/Deterministic Finite Automata-20231225163057017.webp",
     "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md",
     "attachments/Cases of languages in DFA-20231225002703439.webp",
     "GATE-materials/Links for Resources.md",
     "GATE-CS.md",
@@ -274,7 +280,6 @@
     "attachments/Finite Automata-20231224155839512.webp",
     "attachments/Finite Automata-20231224155805006.webp",
     "attachments/Finite Automata-20231224155117842.webp",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/What does Theory of Computation do.md",
     "attachments/What does Theory of Computation do-20231224134923802.webp",
@@ -294,9 +299,6 @@
     "DiscreteMathematics/Combinatronics/Combinatronics.md",
     "OperatingSystems/Threads.md",
     "Temporary Plan.md",
-    "attachments/Threads-20231221185630844.webp",
-    "attachments/System Calls-20231221115109525.webp",
-    "attachments/Process in Operating Systems-20231221080722999.webp",
     "OperatingSystems",
     "DataStructures/Row and Column Major Mapping",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery",

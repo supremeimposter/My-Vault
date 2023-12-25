@@ -309,6 +309,8 @@ function decodeHtmlEntities(text) {
   charByHe.set("amp", "&");
   charByHe.set("nbsp", " ");
   charByHe.set("quot", '"');
+  charByHe.set("gt", ">");
+  charByHe.set("lt", "<");
   return text.replace(regexpHe, (match, he) => {
     const entry = charByHe.get(he);
     return entry != null ? entry : match;
@@ -2333,6 +2335,31 @@ var VaultImp = class {
   constructor(app2) {
     this.app = app2;
   }
+  getFilesInFolder(folder) {
+    let folders = [];
+    let files = [];
+    folders.push(folder);
+    while (folders.length > 0) {
+      const currentFolder = folders.pop();
+      if (!currentFolder) {
+        break;
+      }
+      for (let child of currentFolder.children) {
+        if (child instanceof import_obsidian4.TFolder) {
+          folders.push(child);
+        } else {
+          files.push(child);
+        }
+      }
+    }
+    return files;
+  }
+  read(file) {
+    return app.vault.read(file);
+  }
+  modify(file, data, options) {
+    return app.vault.modify(file, data, options);
+  }
   rename(normalizedPath, normalizedNewPath) {
     return this.app.vault.adapter.rename(normalizedPath, normalizedNewPath);
   }
@@ -2347,6 +2374,16 @@ var VaultImp = class {
   }
   createNote(path, content) {
     return this.app.vault.create(path, content);
+  }
+  getBacklinksForFileByPath(path) {
+    const file = this.app.vault.getAbstractFileByPath(path);
+    if (file) {
+      return this.app.metadataCache.getBacklinksForFile(file).data;
+    }
+    return null;
+  }
+  getRoot() {
+    return this.app.vault.getRoot();
   }
 };
 
@@ -2389,7 +2426,7 @@ var DEFAULT_SETTINGS = {
   ffExtractSection: false,
   ffSetLinkTextFromClipboard: false,
   ffWrapNoteInFolder: false,
-  ffCopyLinkToClipboard: false,
+  ffConvertLinksInFolder: false,
   //context menu
   contexMenu: {
     editLinkText: true,
@@ -2481,14 +2518,6 @@ var ObsidianLinksSettingTab = class extends import_obsidian6.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    const toggleCopyLinkToClipboard = (enabled) => {
-      if (enabled) {
-        settingCopyLink.settingEl.show();
-      } else {
-        settingCopyLink.settingEl.hide();
-      }
-    };
-    toggleCopyLinkToClipboard(this.plugin.settings.ffCopyLinkToClipboard);
     new import_obsidian6.Setting(containerEl).setName("Copy link destination").setDesc("").addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.contexMenu.copyLinkDestination).onChange(async (value) => {
         this.plugin.settings.contexMenu.copyLinkDestination = value;
@@ -2607,24 +2636,6 @@ var ObsidianLinksSettingTab = class extends import_obsidian6.PluginSettingTab {
     earlyAccessDescription.createEl("span", {
       text: " to be fixed."
     });
-    new import_obsidian6.Setting(containerEl).setName("Copy link").setDesc("Copy link to clipboard").setClass("setting-item--insider-feature-copy-link-to-cliboard").addToggle((toggle) => {
-      toggle.setValue(this.plugin.settings.ffCopyLinkToClipboard).onChange(async (value) => {
-        this.plugin.settings.ffCopyLinkToClipboard = value;
-        await this.plugin.saveSettings();
-        toggleCopyLinkToClipboard(this.plugin.settings.ffCopyLinkToClipboard);
-      });
-    });
-    const copyLinkSettingDesc = containerEl.querySelector(".setting-item--insider-feature-copy-link-to-cliboard .setting-item-description");
-    if (copyLinkSettingDesc) {
-      copyLinkSettingDesc.appendText(" see ");
-      copyLinkSettingDesc.appendChild(
-        createEl("a", {
-          href: "https://github.com/mii-key/obsidian-links#copy-link",
-          text: "docs"
-        })
-      );
-      copyLinkSettingDesc.appendText(".");
-    }
     containerEl.createEl("h3", { text: "Insider features" });
     const insiderDescription = containerEl.createEl("p");
     insiderDescription.createEl("span", {
@@ -2637,6 +2648,41 @@ var ObsidianLinksSettingTab = class extends import_obsidian6.PluginSettingTab {
     insiderDescription.createEl("span", {
       text: " and influence the direction of development."
     });
+    new import_obsidian6.Setting(containerEl).setName("Set link text from clipboard").setDesc("Set text of a link from the clipboard").setClass("setting-item--insider-feature3").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.ffSetLinkTextFromClipboard).onChange(async (value) => {
+        this.plugin.settings.ffSetLinkTextFromClipboard = value;
+        await this.plugin.saveSettings();
+        toggleSetLinkTextFromClipboard(this.plugin.settings.ffSetLinkTextFromClipboard);
+      });
+    });
+    const feature3SettingDesc = containerEl.querySelector(".setting-item--insider-feature3 .setting-item-description");
+    if (feature3SettingDesc) {
+      feature3SettingDesc.appendText(" see ");
+      feature3SettingDesc.appendChild(
+        createEl("a", {
+          href: "https://github.com/mii-key/obsidian-links/blob/master/docs/insider/set-link-text-from-clipboard.md",
+          text: "docs"
+        })
+      );
+      feature3SettingDesc.appendText(".");
+    }
+    new import_obsidian6.Setting(containerEl).setName("Convert links in folder").setDesc("Convert links in a folder").setClass("setting-item--insider-feature-convert-links-in-folder").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.ffConvertLinksInFolder).onChange(async (value) => {
+        this.plugin.settings.ffConvertLinksInFolder = value;
+        await this.plugin.saveSettings();
+      });
+    });
+    const feature1SettingDesc = containerEl.querySelector(".setting-item--insider-feature-convert-links-in-folder .setting-item-description");
+    if (feature1SettingDesc) {
+      feature1SettingDesc.appendText(" see ");
+      feature1SettingDesc.appendChild(
+        createEl("a", {
+          href: "https://github.com/mii-key/obsidian-links/blob/master/docs/insider/convert-links-in-folder.md",
+          text: "docs"
+        })
+      );
+      feature1SettingDesc.appendText(".");
+    }
   }
 };
 
@@ -2777,6 +2823,49 @@ var ConvertToMdlinkCommandBase = class extends CommandBase {
       }
     }
   }
+  //TODO: refactor
+  async convertLinkToMarkdownLink1(linkData, textBuffer, setCursor = true, linkOffset = 0) {
+    let text = linkData.text ? linkData.text.content : "";
+    const link = linkData.link ? linkData.link.content : "";
+    if (linkData.type === 2 /* Wiki */ && !text) {
+      text = link;
+    }
+    let destination = "";
+    const urlRegEx = /^(http|https):\/\/[^ "]+$/i;
+    if ((linkData.type === 8 /* Autolink */ || linkData.type === 16 /* PlainUrl */) && linkData.link && urlRegEx.test(linkData.link.content)) {
+      const notice = this.obsidianProxy.createNotice("Getting title ...", 0);
+      try {
+        text = await getPageTitle(new URL(linkData.link.content), this.getPageText.bind(this));
+      } catch (error) {
+        this.obsidianProxy.createNotice(error);
+      } finally {
+        notice.hide();
+      }
+    }
+    let rawLinkText = "";
+    if (linkData.type === 8 /* Autolink */ && linkData.link && RegExPatterns.Email.test(linkData.link.content)) {
+      rawLinkText = `[${text}](${this.EmailScheme}${linkData.link.content})`;
+    } else {
+      destination = encodeURI(link);
+      if (destination && linkData.type === 2 /* Wiki */ && destination.indexOf("%20") > 0) {
+        destination = `<${destination.replace(/%20/g, " ")}>`;
+      }
+      const embededSymbol = linkData.embedded ? "!" : "";
+      rawLinkText = `${embededSymbol}[${text}](${destination})`;
+    }
+    textBuffer.replaceRange(
+      rawLinkText,
+      linkOffset + linkData.position.start,
+      linkOffset + linkData.position.end
+    );
+    if (setCursor) {
+      if (text) {
+        textBuffer.setPosition(linkData.position.start + rawLinkText.length);
+      } else {
+        textBuffer.setPosition(linkData.position.start + 1);
+      }
+    }
+  }
   async getPageText(url) {
     const response = await this.obsidianProxy.requestUrl({ url: url.toString() });
     if (response.status !== 200) {
@@ -2872,36 +2961,53 @@ var ConvertLinkToAutolinkCommand = class extends CommandBase {
     this.icon = "rotate-cw";
   }
   handler(editor, checking) {
-    var _a;
     if (checking && !this.isEnabled()) {
+      return false;
+    }
+    if (checking && editor.getSelection()) {
       return false;
     }
     const text = editor.getValue();
     const cursorOffset = editor.posToOffset(editor.getCursor("from"));
-    const linkData = findLink(text, cursorOffset, cursorOffset, 1 /* Markdown */);
+    const links = findLinks(text, 1 /* Markdown */ | 16 /* PlainUrl */, cursorOffset, cursorOffset);
     if (checking) {
-      return !!linkData && ((_a = linkData.link) == null ? void 0 : _a.content) != void 0 && (RegExPatterns.AbsoluteUri.test(linkData.link.content) || linkData.link.content.startsWith(this.EmailScheme));
+      if (links.length === 0 || links[0].link === void 0) {
+        return false;
+      }
+      switch (links[0].type) {
+        case 1 /* Markdown */:
+          if (!(RegExPatterns.AbsoluteUri.test(links[0].link.content) || links[0].link.content.startsWith(this.EmailScheme))) {
+            return false;
+          }
+          break;
+        case 16 /* PlainUrl */:
+          if (!RegExPatterns.AbsoluteUri.test(links[0].link.content)) {
+            return false;
+          }
+          break;
+      }
+      return true;
     }
-    if (linkData) {
-      this.convertLinkToAutolink(linkData, editor);
+    if (links.length === 1) {
+      this.convertLinkToAutolink(links[0], editor);
     }
   }
   convertLinkToAutolink(linkData, editor) {
     var _a;
-    if (linkData.type === 1 /* Markdown */ && ((_a = linkData.link) == null ? void 0 : _a.content)) {
-      let rawLinkText;
+    if (((_a = linkData.link) == null ? void 0 : _a.content) && (linkData.type === 1 /* Markdown */ || linkData.type === 16 /* PlainUrl */)) {
+      let linkContent;
       if (linkData.link.content.startsWith(this.EmailScheme)) {
-        rawLinkText = `<${linkData.link.content.substring(this.EmailScheme.length)}>`;
+        linkContent = `<${linkData.link.content.substring(this.EmailScheme.length)}>`;
       } else if (RegExPatterns.AbsoluteUri.test(linkData.link.content)) {
-        rawLinkText = `<${linkData.link.content}>`;
+        linkContent = `<${linkData.link.content}>`;
       }
-      if (rawLinkText) {
+      if (linkContent) {
         editor.replaceRange(
-          rawLinkText,
+          linkContent,
           editor.offsetToPos(linkData.position.start),
           editor.offsetToPos(linkData.position.end)
         );
-        editor.setCursor(editor.offsetToPos(linkData.position.start + rawLinkText.length));
+        editor.setCursor(editor.offsetToPos(linkData.position.start + linkContent.length));
       }
     }
   }
@@ -3031,7 +3137,7 @@ var SetLinkTextCommand = class extends CommandBase {
     }
     const linkData = this.getLink(editor);
     if (checking) {
-      return !!linkData && (linkData.type & (1 /* Markdown */ | 2 /* Wiki */)) != 0 && !!((_a = linkData.link) == null ? void 0 : _a.content) && (!linkData.text || !(linkData == null ? void 0 : linkData.text.content) || linkData.link.content.includes("#"));
+      return !!linkData && (linkData.type & (1 /* Markdown */ | 2 /* Wiki */)) != 0 && !!((_a = linkData.link) == null ? void 0 : _a.content) && (!linkData.text || !(linkData == null ? void 0 : linkData.text.content) || !linkData.link.content.startsWith("#") && linkData.link.content.includes("#"));
     }
     if (linkData) {
       setTimeout(() => {
@@ -3054,7 +3160,7 @@ var SetLinkTextCommand = class extends CommandBase {
       if (this.showLinkTextSuggestions(linkData, editor)) {
         return;
       }
-      const text = getFileName((_a = linkData.link) == null ? void 0 : _a.content);
+      const text = linkData.link.content[0] === "#" ? linkData.link.content.substring(1) : getFileName((_a = linkData.link) == null ? void 0 : _a.content);
       let textStart = linkData.position.start + linkData.link.position.end;
       if (linkData.text) {
         editor.replaceRange("|" + text, editor.offsetToPos(textStart), editor.offsetToPos(linkData.text.content.length + 1));
@@ -3208,7 +3314,9 @@ var CreateLinkFromClipboardCommand = class extends CommandBase {
       const linkDestination = await this.obsidianProxy.clipboardReadText();
       let linkText = linkDestination;
       const selection = editor.getSelection();
+      let isUrl = false;
       if (selection.length == 0 && urlRegEx.test(linkDestination)) {
+        isUrl = true;
         const notice = this.obsidianProxy.createNotice("Getting title ...", 0);
         try {
           linkText = await getPageTitle(new URL(linkDestination), this.getPageText.bind(this));
@@ -3227,7 +3335,8 @@ var CreateLinkFromClipboardCommand = class extends CommandBase {
         posRangeEnd = editor.getCursor("to");
         linkText = selection;
       }
-      const linkRawText = `[${linkText}](${linkDestination})`;
+      const requireAngleBrackets = !isUrl && linkDestination && linkDestination.indexOf(" ") > 0;
+      const linkRawText = requireAngleBrackets ? `[${linkText}](<${linkDestination}>)` : `[${linkText}](${linkDestination})`;
       const endOffset = editor.posToOffset(posRangeStart) + linkRawText.length;
       editor.replaceRange(linkRawText, posRangeStart, posRangeEnd);
       editor.setCursor(editor.offsetToPos(endOffset));
@@ -3391,6 +3500,26 @@ var ConvertWikilinksToMdlinksCommand = class extends ConvertToMdlinkCommandBase 
   }
 };
 
+// EditorTextBuffer.ts
+var EditorTextBuffer = class {
+  constructor(editor) {
+    this.editor = editor;
+  }
+  getValue() {
+    return this.editor.getValue();
+  }
+  replaceRange(text, from, to) {
+    let posTo;
+    if (to) {
+      posTo = this.editor.offsetToPos(to);
+    }
+    this.editor.replaceRange(text, this.editor.offsetToPos(from), posTo);
+  }
+  setPosition(offset2) {
+    this.editor.setCursor(this.editor.offsetToPos(offset2));
+  }
+};
+
 // commands/ConvertAutolinksToMdlinksCommand.ts
 var ConvertAutolinksToMdlinksCommand = class extends ConvertToMdlinkCommandBase {
   constructor(obsidianProxy, isPresentInContextMenu = () => true, isEnabled = () => true, callback = void 0) {
@@ -3415,9 +3544,10 @@ var ConvertAutolinksToMdlinksCommand = class extends ConvertToMdlinkCommandBase 
     }
     const selectionOffset = selection ? editor.posToOffset(editor.getCursor("from")) : 0;
     (async () => {
+      const textBuffer = new EditorTextBuffer(editor);
       for (let i = autolinks.length - 1; i >= 0; i--) {
         const link = autolinks[i];
-        await this.convertLinkToMarkdownLink(link, editor, false, selectionOffset);
+        await this.convertLinkToMarkdownLink1(link, textBuffer, false, selectionOffset);
       }
     })().then(() => {
       if (this.callback) {
@@ -3499,6 +3629,7 @@ var ExtractSectionCommand = class extends CommandBase {
     const cursorOffset = editor.posToOffset(editor.getCursor("from"));
     let found = false;
     blockStart = blockEnd = cursorOffset;
+    let headerLevel = 1;
     while (true) {
       blockStart = text.lastIndexOf("# ", blockStart);
       if (blockStart < 0) {
@@ -3507,9 +3638,11 @@ var ExtractSectionCommand = class extends CommandBase {
       } else {
         while (blockStart >= 0 && text[blockStart] == "#") {
           blockStart--;
+          headerLevel++;
         }
         if (blockStart < 0 || text[blockStart] == "\n") {
           blockStart++;
+          headerLevel--;
           break;
         }
       }
@@ -3520,7 +3653,7 @@ var ExtractSectionCommand = class extends CommandBase {
     found = false;
     let idx = blockEnd;
     while (true) {
-      blockEnd = text.indexOf("\n#", blockEnd);
+      blockEnd = text.indexOf("\n" + "#".repeat(headerLevel) + " ", blockEnd);
       if (blockEnd < 0) {
         blockEnd = text.length;
         break;
@@ -3595,15 +3728,15 @@ var ConvertHtmlLinksToMdlinksCommand = class extends ConvertToMdlinkCommandBase 
   }
 };
 
-// commands/SetTextFromClipboardCommand.ts
-var SetTextFromClipboardCommand = class extends CommandBase {
+// commands/SetLinkTextFromClipboardCommand.ts
+var SetLinkTextFromClipboardCommand = class extends ConvertToMdlinkCommandBase {
   constructor(obsidianProxy, isPresentInContextMenu = () => true, isEnabled = () => true, callback = void 0) {
-    super(isPresentInContextMenu, isEnabled);
+    super(obsidianProxy, isPresentInContextMenu, isEnabled);
     this.isEnabled = () => this.obsidianProxy.settings.ffSetLinkTextFromClipboard;
     this.isPresentInContextMenu = () => this.obsidianProxy.settings.contexMenu.setLinkTextFromClipboard;
     this.id = "editor-set-link-text-from-clipboard";
-    this.displayNameCommand = "Set text from clipboard";
-    this.displayNameContextMenu = "Set text from clipboard";
+    this.displayNameCommand = "Set link text from clipboard";
+    this.displayNameContextMenu = "Set link text from clipboard";
     this.icon = "link";
     this.obsidianProxy = obsidianProxy;
     this.callback = callback;
@@ -3615,21 +3748,22 @@ var SetTextFromClipboardCommand = class extends CommandBase {
     if (checking) {
       const noteText = editor.getValue();
       const cursorOffset = editor.posToOffset(editor.getCursor("from"));
-      const link = findLink(noteText, cursorOffset, cursorOffset, 1 /* Markdown */ | 2 /* Wiki */);
-      if (!link || cursorOffset < link.position.start || cursorOffset >= link.position.end) {
+      const links = findLinks(noteText, 1 /* Markdown */ | 2 /* Wiki */ | 16 /* PlainUrl */, cursorOffset, cursorOffset);
+      if (!links.length || cursorOffset < links[0].position.start || cursorOffset >= links[0].position.end) {
         return false;
       }
       return true;
     }
     (async () => {
-      var _a, _b, _c;
+      var _a, _b, _c, _d, _e;
       const noteText = editor.getValue();
       const cursorOffset = editor.posToOffset(editor.getCursor("from"));
-      const link = findLink(noteText, cursorOffset, cursorOffset, 1 /* Markdown */ | 2 /* Wiki */);
-      if (!link || cursorOffset < link.position.start || cursorOffset >= link.position.end) {
+      const links = findLinks(noteText, 1 /* Markdown */ | 2 /* Wiki */ | 16 /* PlainUrl */, cursorOffset, cursorOffset);
+      if (!links.length || cursorOffset < links[0].position.start || cursorOffset >= links[0].position.end) {
         (_a = this.callback) == null ? void 0 : _a.call(this, null, void 0);
         return;
       }
+      const link = links[0];
       const clipboardText = await this.obsidianProxy.clipboardReadText();
       let linkText = clipboardText;
       let textStartOffset;
@@ -3647,14 +3781,22 @@ var SetTextFromClipboardCommand = class extends CommandBase {
           case 1 /* Markdown */:
             textStartOffset = textEndOffset = link.position.start + 1;
             break;
+          case 16 /* PlainUrl */:
+            const rawLink = `[${linkText}](${(_b = link.link) == null ? void 0 : _b.content})`;
+            editor.replaceRange(rawLink, editor.offsetToPos(link.position.start), editor.offsetToPos(link.position.end));
+            editor.setCursor(editor.offsetToPos(link.position.start + linkText.length + 1));
+            (_c = this.callback) == null ? void 0 : _c.call(this, null, void 0);
+            return;
           default:
-            (_b = this.callback) == null ? void 0 : _b.call(this, null, void 0);
+            (_d = this.callback) == null ? void 0 : _d.call(this, null, void 0);
             return;
         }
       }
-      editor.replaceRange(linkText, editor.offsetToPos(textStartOffset), editor.offsetToPos(textEndOffset));
-      editor.setCursor(editor.offsetToPos(textStartOffset + linkText.length));
-      (_c = this.callback) == null ? void 0 : _c.call(this, null, void 0);
+      if (((link == null ? void 0 : link.type) & (1 /* Markdown */ | 2 /* Wiki */)) != 0) {
+        editor.replaceRange(linkText, editor.offsetToPos(textStartOffset), editor.offsetToPos(textEndOffset));
+        editor.setCursor(editor.offsetToPos(textStartOffset + linkText.length));
+        (_e = this.callback) == null ? void 0 : _e.call(this, null, void 0);
+      }
     })();
   }
   async getPageText(url) {
@@ -3713,7 +3855,6 @@ var CopyLinkToClipboardCommand = class extends CommandBase {
     this.displayNameContextMenu = "Copy link";
     this.icon = "copy";
     this.obsidianProxy = obsidianProxy;
-    this.isEnabled = () => this.obsidianProxy.settings.ffCopyLinkToClipboard;
     this.isPresentInContextMenu = () => this.obsidianProxy.settings.contexMenu.copyLinkToClipboard;
   }
   handler(editor, checking) {
@@ -3735,6 +3876,86 @@ var CopyLinkToClipboardCommand = class extends CommandBase {
       this.obsidianProxy.clipboardWriteText(linkData.content);
       this.obsidianProxy.createNotice("Link copied to your clipboard");
     }
+  }
+};
+
+// TextBuffer.ts
+var TextBuffer = class {
+  constructor(text) {
+    this.position = 0;
+    this.text = text;
+  }
+  getValue() {
+    return this.text;
+  }
+  replaceRange(text, from, to) {
+    let tmp = this.text.substring(0, from) + text;
+    if (to) {
+      tmp += this.text.substring(to);
+    }
+    this.text = tmp;
+  }
+  setPosition(pos) {
+    this.position = pos;
+  }
+};
+
+// commands/ConvertLinksInFolderCommand.ts
+var ConvertLinksInFolderCommand = class extends ConvertToMdlinkCommandBase {
+  constructor(obsidianProxy, isPresentInContextMenu = () => false, isEnabled = () => true, callback = void 0) {
+    super(obsidianProxy, isPresentInContextMenu, isEnabled);
+    this.id = "editor-convert-links-in-folder";
+    this.displayNameCommand = "Convert links in folder";
+    this.displayNameContextMenu = "Convert links in folder";
+    this.icon = "rotate-cw";
+    this.callback = callback;
+    this.isEnabled = () => this.obsidianProxy.settings.ffConvertLinksInFolder;
+  }
+  handler(editor, checking) {
+    var _a;
+    if (checking) {
+      if (!this.isEnabled()) {
+        return false;
+      }
+      return true;
+    }
+    const activeView = this.obsidianProxy.Vault.getActiveNoteView();
+    if (!activeView) {
+      return;
+    }
+    const parentFolder = activeView.file.parent;
+    const files = this.obsidianProxy.Vault.getFilesInFolder(parentFolder);
+    if (!files) {
+      (_a = this.callback) == null ? void 0 : _a.call(this, null);
+      return;
+    }
+    (async () => {
+      var _a2, _b;
+      try {
+        for (let file of files) {
+          if (file.extension !== "md") {
+            continue;
+          }
+          const content = await this.obsidianProxy.Vault.read(file);
+          const links = findLinks(content, 2 /* Wiki */);
+          if (links.length > 0) {
+            const textBuffer = new TextBuffer(content);
+            for (let i = links.length - 1; i >= 0; i--) {
+              const link = links[i];
+              await this.convertLinkToMarkdownLink1(link, textBuffer, false);
+            }
+            const updatedContent = textBuffer.getValue();
+            await this.obsidianProxy.Vault.modify(file, updatedContent);
+          }
+        }
+        this.obsidianProxy.createNotice(`${files.length} notes processed.`);
+        (_a2 = this.callback) == null ? void 0 : _a2.call(this, null);
+      } catch (err) {
+        this.obsidianProxy.createNotice(`Failed: ${err}`);
+        console.log(err);
+        (_b = this.callback) == null ? void 0 : _b.call(this, err);
+      }
+    })();
   }
 };
 
@@ -3773,8 +3994,9 @@ function createCommands(obsidianProxy, settings) {
   commands.set(ConvertAutolinksToMdlinksCommand.name, new ConvertAutolinksToMdlinksCommand(obsidianProxy));
   commands.set(ConvertHtmlLinksToMdlinksCommand.name, new ConvertHtmlLinksToMdlinksCommand(obsidianProxy));
   commands.set(ExtractSectionCommand.name, new ExtractSectionCommand(obsidianProxy));
-  commands.set(SetTextFromClipboardCommand.name, new SetTextFromClipboardCommand(obsidianProxy));
+  commands.set(SetLinkTextFromClipboardCommand.name, new SetLinkTextFromClipboardCommand(obsidianProxy));
   commands.set(WrapNoteInFolderCommand.name, new WrapNoteInFolderCommand(obsidianProxy));
+  commands.set(ConvertLinksInFolderCommand.name, new ConvertLinksInFolderCommand(obsidianProxy));
 }
 function getPaletteCommands(obsidianProxy, settings) {
   createCommands(obsidianProxy, settings);
@@ -3786,7 +4008,7 @@ function getContextMenuCommands(obsidianProxy, settings) {
     null,
     EditLinkTextCommand.name,
     SetLinkTextCommand.name,
-    SetTextFromClipboardCommand.name,
+    SetLinkTextFromClipboardCommand.name,
     EditLinkDestinationCommand.name,
     CopyLinkToClipboardCommand.name,
     CopyLinkDestinationToClipboardCommand.name,
