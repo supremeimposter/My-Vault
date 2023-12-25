@@ -62,4 +62,6 @@
 - [ ] [Timestamp Protocol 50 Questions - Transactions & Concurrency Control | GATE PYQs | DBMS Revision - YouTube](https://www.youtube.com/watch?v=gM76xs2NEgE) - Lecture-15 Transaction management and recovery
 - [ ] Recovery Manager - Topic not covered in Go classes
 
+# [[Theory of Computation]]
+- [ ] [Theory of Computation: Homework 2 Solutions | TOC Standard Questions | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=BYnZ6T2bHJI&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=6)
 
