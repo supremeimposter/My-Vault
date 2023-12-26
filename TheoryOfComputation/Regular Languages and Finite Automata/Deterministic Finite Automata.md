@@ -1,7 +1,7 @@
 ---
-pdf: lec-7B-8D, lec-8E-10B
+pdf: lec-7B-8D, lec-8E-10B, lec-10C-11, lec12A-12F
 module: 1
-lecture: 8,9,10
+lecture: 8,9,10,11,12
 date: 2023-09-30T09:10:00
 version:
   - TOC-24
@@ -95,8 +95,8 @@ The resultant language $\overline {L}$ is the complement of the language $L$.
 - The states which cannot be reached from the initial state.
 - They NEVER affect the language accepted by a machine. So they can be removed without changing the language that is accepted.
 
-## Product Construction
-- This is running two DFAs in parallel.
+## Running DFAs in Parallel
+- This is also called Product Construction.
 - When two DFAs run in parallel, they start in the initial states $p_0,\; q_0$ 
 - The two DFAs are constructed on the same alphabet $\Sigma$ 
 - In Product construction of two DFAs, every state is an ordered pair of states.
@@ -106,5 +106,41 @@ The resultant language $\overline {L}$ is the complement of the language $L$.
 > Why running states in parallel (one state at a time) is better than blind cross product?
 
 
-![[Deterministic Finite Automata-20231226104516745.webp]]
+
+> [!example] 
+> ![[Deterministic Finite Automata-20231226104516745.webp]]
+
+## DFA Minimization
+
+- For a regular language, there can be infinite number of DFAs.
+- A DFA accepts unique regular language.
+
+> [!think] 
+> Out of the infinite number of DFAs for a regular language, which of them has minimum number of states.
+
+- For a regular language, we have a unique minimal DFA i.e DFA with minimal number of states.
+- To minimize DFAs, merge the equivalent states.
+
+> [!header] Steps to minimize DFA
+1. Remove unreachable states
+2. Finding equivalent states and merging them
+
+### State Equivalence in DFA
+
+> [!terminology]
+> Equivalent $\equiv$ Indistuinguishable $\equiv$ Mergeable $\equiv$ Identical States
+
+- Two states are equivalent iff if for all string $w$, they both go to either final or non-final states.
+- When two states are final and non-final, then they are definitely not equivalent. It is better to check either two final or two non-final states for their equivalence.
+
+> [!discussion] 
+> ![[Deterministic Finite Automata-20231226173519923.webp]]
+
+- It is enough to check strings of length atmost $n - 2$, where $n$ is the number of states for equivalence of states.
+- Number of [[Equivalence Relation#Equivalence Class|equivalence classes]] is the number of states in the minimal DFA.
+
+### Partition Algorithm for DFA Minimization
+
+> [!think] 
+> This algorithm goes symbol by symbol. For each partition, it adds only a symbol and checks for the equivalence classes
 
