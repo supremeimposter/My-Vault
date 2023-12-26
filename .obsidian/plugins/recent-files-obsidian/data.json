@@ -5,16 +5,32 @@
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
     },
     {
+      "basename": "Equivalence Relation",
+      "path": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md"
+    },
+    {
+      "basename": "Types of Relations on a Set",
+      "path": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md"
+    },
+    {
+      "basename": "Symmetric Relation",
+      "path": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Symmetric Relation.md"
+    },
+    {
+      "basename": "Reflexive Relation",
+      "path": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Reflexive Relation.md"
+    },
+    {
+      "basename": "Cases of languages in DFA",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md"
+    },
+    {
       "basename": "Pending Lectures",
       "path": "Pending Lectures.md"
     },
     {
       "basename": "Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md"
-    },
-    {
-      "basename": "Cases of languages in DFA",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md"
     },
     {
       "basename": "Introduction to Theory of Computation",
@@ -183,22 +199,6 @@
     {
       "basename": "Nested Queries in SQL",
       "path": "DatabaseManagementSystem/SQL/Nested Queries in SQL.md"
-    },
-    {
-      "basename": "Natural Join",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
-    },
-    {
-      "basename": "Multi Level Ordered Index",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md"
-    },
-    {
-      "basename": "Lock-based Protocols",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md"
-    },
-    {
-      "basename": "Introduction to DBMS",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
     }
   ],
   "omittedPaths": [

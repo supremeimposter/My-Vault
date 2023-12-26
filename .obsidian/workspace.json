@@ -21,19 +21,6 @@
             }
           },
           {
-            "id": "df9e95f910f26ed7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2cffb3a731e34e5f",
             "type": "leaf",
             "state": {
@@ -45,22 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a2f9b5a7dad43f6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +147,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -263,14 +239,19 @@
   },
   "active": "2cffb3a731e34e5f",
   "lastOpenFiles": [
+    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+    "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
+    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Symmetric Relation.md",
+    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Reflexive Relation.md",
+    "attachments/Deterministic Finite Automata-20231226173519923.webp",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
     "attachments/Deterministic Finite Automata-20231226104516745.webp",
     "Pending Lectures.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
     "attachments/Deterministic Finite Automata-20231225163654669.webp",
     "attachments/Deterministic Finite Automata-20231225163642391.webp",
     "attachments/Deterministic Finite Automata-20231225163057017.webp",
     "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md",
     "attachments/Cases of languages in DFA-20231225002703439.webp",
     "GATE-materials/Links for Resources.md",
@@ -284,10 +265,8 @@
     "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/What does Theory of Computation do.md",
     "attachments/What does Theory of Computation do-20231224134923802.webp",
-    "attachments/What does Theory of Computation do-20231224134902494.webp",
     "Pending Notes.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
-    "attachments/Basic Concepts of TOC-20231224111011577.webp",
     "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md",
     "OperatingSystems/System Calls.md",
     "OperatingSystems/Process in Operating Systems.md",
@@ -296,9 +275,6 @@
     "OperatingSystems/What happens when a system is started?.md",
     "DatabaseManagementSystem/Database Management System.md",
     "DataStructures/Hashing/Hashing.md",
-    "DiscreteMathematics/Discrete Mathematics.md",
-    "DiscreteMathematics/Combinatronics/Combinatronics.md",
-    "OperatingSystems/Threads.md",
     "OperatingSystems",
     "DataStructures/Row and Column Major Mapping",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery",
