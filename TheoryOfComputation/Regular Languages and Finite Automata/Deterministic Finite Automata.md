@@ -95,4 +95,16 @@ The resultant language $\overline {L}$ is the complement of the language $L$.
 - The states which cannot be reached from the initial state.
 - They NEVER affect the language accepted by a machine. So they can be removed without changing the language that is accepted.
 
-## Running DFAs in Parallel
+## Product Construction
+- This is running two DFAs in parallel.
+- When two DFAs run in parallel, they start in the initial states $p_0,\; q_0$ 
+- The two DFAs are constructed on the same alphabet $\Sigma$ 
+- In Product construction of two DFAs, every state is an ordered pair of states.
+- More than 2 DFAs can be run in parallel.
+
+> [!question] 
+> Why running states in parallel (one state at a time) is better than blind cross product?
+
+
+![[Deterministic Finite Automata-20231226104516745.webp]]
+
