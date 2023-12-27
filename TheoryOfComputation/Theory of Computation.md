@@ -21,3 +21,13 @@ tags:
 
 - [[Doubt - Regular Languages and Finite Automata]]
 ---
+
+# Tests and Solutions
+[GO Classes 2024 | Weekly Quiz 24 | Finite Automata - GATE Overflow for GATE CSE](https://gateoverflow.in/exam/509/go-classes-2024-weekly-quiz-24-finite-automata)
+- [ ] [ISRO 2020 DFA Question - Strings Not Ending in 101 | Weekly Quiz 24 | Theory of Computation - YouTube](https://www.youtube.com/watch?v=VE71CxKb390)
+- [ ] [Question 7 - Weekly Quiz 24 - Finite Automata | Theory of Computation | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=Eb-TQcMghO4&feature=youtu.be)
+- [ ] [When L\* = L+ ? Finite Automata - Weekly Quiz 24 Q5 & Q6 | Theory of Computation | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=nwIl4PxE8C8)
+- [ ] [Question 8 - Weekly Quiz 24 - Finite Automata | Theory of Computation | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=J82SopP9N1s)
+- [ ] [Weekly Quiz 24 Solutions Part 2 - Finite Automata | Theory of Computation | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=zPIl_p2MiVY)
+
+# References

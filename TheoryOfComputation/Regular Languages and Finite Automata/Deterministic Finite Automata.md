@@ -55,6 +55,13 @@ $$
 > [!NOTE] 
 > In DFA, from any state on any string, there will be exaclty one unique path
 
+## Configuration in DFA
+- A configuration is a snapshot or current situation.
+$$
+(\text{current state}, \text{unread part of a string})
+$$
+- In DFA, for every configuration, there is a unique next configuration.
+
 ## Regular Languages
 
 - [[Set Definition#PowerSet|Power set]] of a set S is the set of all the subsets of S.
@@ -88,7 +95,6 @@ The resultant language $\overline {L}$ is the complement of the language $L$.
 > ![[Deterministic Finite Automata-20231225163642391.webp]]
 > ![[Deterministic Finite Automata-20231225163654669.webp]]
 
-
 > [!youtube] [Lecture 11 - The Product Construction of DFAs | Running DFAs in Parallel | Theory of Computation - YouTube](https://www.youtube.com/watch?v=jadiLyb2hT4)
 
 ## Unreachable States
@@ -120,6 +126,7 @@ The resultant language $\overline {L}$ is the complement of the language $L$.
 
 - For a regular language, we have a unique minimal DFA i.e DFA with minimal number of states.
 - To minimize DFAs, merge the equivalent states.
+- Dead state is also counted as a state.
 
 > [!header] Steps to minimize DFA
 1. Remove unreachable states
@@ -130,17 +137,28 @@ The resultant language $\overline {L}$ is the complement of the language $L$.
 > [!terminology]
 > Equivalent $\equiv$ Indistuinguishable $\equiv$ Mergeable $\equiv$ Identical States
 
-- Two states are equivalent iff if for all string $w$, they both go to either final or non-final states.
+- Two states are equivalent iff for all string $w$, they both go to either final or non-final states.
 - When two states are final and non-final, then they are definitely not equivalent. It is better to check either two final or two non-final states for their equivalence.
 
 > [!discussion] 
 > ![[Deterministic Finite Automata-20231226173519923.webp]]
 
-- It is enough to check strings of length atmost $n - 2$, where $n$ is the number of states for equivalence of states.
+- For equivalence of states, it is enough to check strings of length atmost $n - 2$, where $n$ is the number of states.
 - Number of [[Equivalence Relation#Equivalence Class|equivalence classes]] is the number of states in the minimal DFA.
 
 ### Partition Algorithm for DFA Minimization
 
 > [!think] 
 > This algorithm goes symbol by symbol. For each partition, it adds only a symbol and checks for the equivalence classes
+- This algorithm starts with empty strings partitioning non-final and final states.
+- $\Pi_k$ means with respect to the strings of length at most $k$ which states are distinguishable and undistinguishable.
+- Every partition consists of equivalent states.
 
+1. Remove unreachable states.
+
+- If $F = \phi$ i.e. there are no final states, then there is no such partition possible.
+
+## Can DFA recognize every language?
+> [!youtube] [Can DFAs Recognize Every Language?? | Our First Non-Regular Language | Theory of Computation - YouTube](https://www.youtube.com/watch?v=oHhCBfYhXPg)
+
+- There are some languages which cannot be recognized by any DFA. They are called non-regular languages.
