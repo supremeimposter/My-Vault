@@ -23,6 +23,8 @@ tags:
 ---
 
 # Tests and Solutions
+
+> [!header] Weekly Quiz 24
 [GO Classes 2024 | Weekly Quiz 24 | Finite Automata - GATE Overflow for GATE CSE](https://gateoverflow.in/exam/509/go-classes-2024-weekly-quiz-24-finite-automata)
 - [ ] [ISRO 2020 DFA Question - Strings Not Ending in 101 | Weekly Quiz 24 | Theory of Computation - YouTube](https://www.youtube.com/watch?v=VE71CxKb390)
 - [ ] [Question 7 - Weekly Quiz 24 - Finite Automata | Theory of Computation | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=Eb-TQcMghO4&feature=youtu.be)
