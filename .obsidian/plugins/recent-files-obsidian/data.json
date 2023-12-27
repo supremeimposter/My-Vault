@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Theory of Computation",
+      "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
       "basename": "Deterministic Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "Basic Concepts of TOC",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
-    },
-    {
-      "basename": "Theory of Computation",
-      "path": "TheoryOfComputation/Theory of Computation.md"
     },
     {
       "basename": "Non-Deterministic Finite Automata",

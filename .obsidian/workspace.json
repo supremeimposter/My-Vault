@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+                "file": "TheoryOfComputation/Theory of Computation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+                "file": "TheoryOfComputation/Theory of Computation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
+                "file": "TheoryOfComputation/Theory of Computation.md"
               }
             }
           },
@@ -237,10 +236,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2cffb3a731e34e5f",
+  "active": "bdd9138e39d92a08",
   "lastOpenFiles": [
-    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+    "TheoryOfComputation/Theory of Computation.md",
+    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
     "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Symmetric Relation.md",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Reflexive Relation.md",
@@ -257,7 +257,6 @@
     "GATE-materials/Links for Resources.md",
     "GATE-CS.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
-    "TheoryOfComputation/Theory of Computation.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md",
     "attachments/Finite Automata-20231224155839512.webp",
     "attachments/Finite Automata-20231224155805006.webp",
