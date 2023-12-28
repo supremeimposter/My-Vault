@@ -16,10 +16,13 @@ tags:
 - [[Finite Automata]]
 - [[Deterministic Finite Automata]]
 - [[Cases of languages in DFA]]
-- [[Regular Languages]]
 - [[Non-Deterministic Finite Automata]]
 
 - [[Doubt - Regular Languages and Finite Automata]]
+
+
+
+
 ---
 
 # Tests and Solutions

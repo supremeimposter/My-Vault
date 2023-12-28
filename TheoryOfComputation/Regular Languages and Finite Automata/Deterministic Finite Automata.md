@@ -25,6 +25,7 @@ $$
 
 - A dead state is used to redirect unaccepted string formats.
 - Self loops can ignore any arbitrary number of symbols.
+- To accept empty strings, even in minimal DFA, initial state must be a final state.
 
 > [!header] Guidelines to design DFA
 - Understand the given language.
@@ -78,7 +79,7 @@ $$
 ### DFA for complement of a regular language
 > [!youtube] [DFA for Complement of a Regular Language | Complementing a DFA | TOC | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=HE2iPU8qZaQ)
 
-- Any DFA $D$ on any string $w$ goes through a sequence of states. If $\mid w \mid = n$, then the number of states in the sequence is $(n + 1)$
+- Any DFA $D$ on any string $w$ goes through a sequence of states. If $\mid w \mid = n$ then the number of states in the sequence is $(n + 1)$
 - The sequence of states is unique on a DFA.
 
 DFA for the complement of a regular language has the following rules,
@@ -158,7 +159,7 @@ The resultant language $\overline {L}$ is the complement of the language $L$.
 
 - If $F = \phi$ i.e. there are no final states, then there is no such partition possible.
 
-## Can DFA recognize every language?
+## Non-Regular Languages
 > [!youtube] [Can DFAs Recognize Every Language?? | Our First Non-Regular Language | Theory of Computation - YouTube](https://www.youtube.com/watch?v=oHhCBfYhXPg)
 
 - There are some languages which cannot be recognized by any DFA. They are called non-regular languages.
