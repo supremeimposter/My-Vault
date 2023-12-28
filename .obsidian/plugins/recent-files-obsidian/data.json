@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Deterministic Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
+    },
+    {
+      "basename": "Non-Deterministic Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md"
+    },
+    {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
     },
     {
-      "basename": "Deterministic Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
+      "basename": "Doubt - Regular Languages and Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md"
     },
     {
       "basename": "Equivalence Relation",
@@ -53,24 +61,12 @@
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
     },
     {
-      "basename": "Non-Deterministic Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md"
-    },
-    {
-      "basename": "Regular Languages",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages.md"
-    },
-    {
       "basename": "What does Theory of Computation do",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/What does Theory of Computation do.md"
     },
     {
       "basename": "Pending Notes",
       "path": "Pending Notes.md"
-    },
-    {
-      "basename": "Doubt - Regular Languages and Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md"
     },
     {
       "basename": "Procedural and Declarative Query Languages",
