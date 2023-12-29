@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Deterministic Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
-    },
-    {
       "basename": "Non-Deterministic Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md"
     },
     {
+      "basename": "Deterministic Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
+    },
+    {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md"
     },
     {
       "basename": "Doubt - Regular Languages and Finite Automata",
@@ -39,10 +43,6 @@
     {
       "basename": "Pending Lectures",
       "path": "Pending Lectures.md"
-    },
-    {
-      "basename": "Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md"
     },
     {
       "basename": "Introduction to Theory of Computation",

@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md"
               }
             }
           },
@@ -250,11 +250,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4cecc24fb85d0b21",
+  "active": "f94e2350a4d7a9eb",
   "lastOpenFiles": [
-    "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md",
     "TheoryOfComputation/Theory of Computation.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/NFA to DFA Conversion.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages.md",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
@@ -268,7 +270,6 @@
     "attachments/Deterministic Finite Automata-20231225163654669.webp",
     "attachments/Deterministic Finite Automata-20231225163642391.webp",
     "attachments/Deterministic Finite Automata-20231225163057017.webp",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md",
     "attachments/Cases of languages in DFA-20231225002703439.webp",
     "GATE-materials/Links for Resources.md",
@@ -287,7 +288,6 @@
     "OperatingSystems/Operating Systems.md",
     "OperatingSystems/What happens when a system is started?.md",
     "DatabaseManagementSystem/Database Management System.md",
-    "DataStructures/Hashing/Hashing.md",
     "OperatingSystems",
     "DataStructures/Row and Column Major Mapping",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery",
