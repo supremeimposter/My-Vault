@@ -35,15 +35,19 @@ $$
 
 - There are certain [[Cases of languages in DFA|cases of languages]] in DFA. This section discusses the various types of languages that are generally used in designing a DFA.
 
+## Transition Function in DFA
+- It is an edge function in DFA.
+- $\delta\; (q, \epsilon)$ is invalid in DFA transition function.
+
 ## Extended Transition Function in DFA
 
-- It is represented as $\delta^*$ 
+- It is represented as $\delta^*$ or $\hat{\delta}$ 
 - The arguments of the $\delta^*$ is (state, string) and it maps to a state
 $$
 \delta^\ast : Q \times \Sigma^\ast \rightarrow Q
 $$
 - The strings reduces symbol by symbol as the extended transition progresses.
-- In case of a null string, the state does not read any input. Its an empty cell. It returns the same state.
+- In case of a null string $\epsilon$, the state does not read any input. Its an empty cell. It returns the same state.
 $$
 \delta^*\;(q, \epsilon) = q
 $$

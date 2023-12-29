@@ -1,5 +1,5 @@
 ---
-pdf: lec-13A-14D
+pdf: lec-13A-14D, lec-14E-14I
 module: 1
 lecture: "14"
 date: 2023-12-28T09:01:00
@@ -42,13 +42,29 @@ tags:
 flexGrow=1
 ===
 ### Null Move
+In Transition function $\delta (q, \epsilon)$, $\epsilon$ is a null move
 ```
 ```col-md
 flexGrow=1
 ===
 ### Null String
+In Extended Transition function $\delta^\ast (q, \epsilon)$, $\epsilon$ is a null string
 ```
 ````
 
 
+
+## NFA Definition
+
+
+## Epsilon Closure
+
+- $\epsilon$-closure of a state $q$ is the set of all states we can go from $q$ without consuming any symbol.
+- All the states reachable via epsilon transitions from a state $q$.
+
+
+## Transition Function in NFA
+- Since NFAs have [[#Null Transition]], $\delta\;(q, \epsilon)$ is a valid transition.
+
+## Extended Transition Function in NFA
 

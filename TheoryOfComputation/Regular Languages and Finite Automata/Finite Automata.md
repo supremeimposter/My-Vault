@@ -44,7 +44,7 @@ notes-taken: false
 
 ![[Finite Automata-20231224155117842.webp]]
 
-> [!brain] Null string ${} \epsilon {}$ is not a symbol
+> [!brain] Null string $\epsilon$ is not a symbol
 
 ### Finite Control
 - Contains all the setup (5 tuples) of the finite automata.
