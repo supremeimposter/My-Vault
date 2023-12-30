@@ -17,6 +17,7 @@ tags:
 - [[Deterministic Finite Automata]]
 - [[Cases of languages in DFA]]
 - [[Non-Deterministic Finite Automata]]
+- [[Equivalence of DFA and NFA]]
 
 
 - [[Doubt - Regular Languages and Finite Automata]]

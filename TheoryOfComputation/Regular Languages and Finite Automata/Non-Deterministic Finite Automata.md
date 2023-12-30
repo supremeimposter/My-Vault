@@ -1,7 +1,7 @@
 ---
-pdf: lec-13A-14D, lec-14E-14I
+pdf: lec-13A-14D, lec-14E-14I, lec-15A, lec-15B
 module: 1
-lecture: "14"
+lecture: 14, 15
 date: 2023-12-28T09:01:00
 version:
   - TOC-24
@@ -64,7 +64,9 @@ In Extended Transition function $\delta^\ast (q, \epsilon)$, $\epsilon$ is a nul
 
 
 ## Transition Function in NFA
+- This is an edge function.
 - Since NFAs have [[#Null Transition]], $\delta\;(q, \epsilon)$ is a valid transition.
 
 ## Extended Transition Function in NFA
 
+- $\delta^\ast\; (q, \epsilon) = \epsilon$-close $(q)$  

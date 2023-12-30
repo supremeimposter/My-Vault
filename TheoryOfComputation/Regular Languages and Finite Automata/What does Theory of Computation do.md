@@ -37,3 +37,5 @@ notes-taken: false
 - Only strings which lead to the final or desired state after scanning all the symbols are accepted by the machine.
 - Automata are called **accepter** as they accept only the strings which are from the language $\mathscr{L}(A)$.
 - The result of an Automaton (plural: Automata) are either YES or NO.
+- Two different machines $F_1, F_2$ are equivalent if they recognize the same language $L$ i.e. $F_1 \not= F_2$ but $F_1 \equiv F_2$ 
+
