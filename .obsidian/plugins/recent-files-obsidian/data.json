@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Equivalence of DFA and NFA",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of DFA and NFA.md"
+    },
+    {
+      "basename": "What does Theory of Computation do",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/What does Theory of Computation do.md"
+    },
+    {
       "basename": "Non-Deterministic Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md"
     },
     {
-      "basename": "Deterministic Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
-    },
-    {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Deterministic Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
     },
     {
       "basename": "Finite Automata",
@@ -59,10 +67,6 @@
     {
       "basename": "Basic Concepts of TOC",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
-    },
-    {
-      "basename": "What does Theory of Computation do",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/What does Theory of Computation do.md"
     },
     {
       "basename": "Pending Notes",

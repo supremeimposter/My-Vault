@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "bff95e2da783c994",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/What does Theory of Computation do.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4cecc24fb85d0b21",
             "type": "leaf",
             "state": {
@@ -45,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4389c67a6b9abed6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of DFA and NFA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -131,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md",
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of DFA and NFA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md",
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of DFA and NFA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md"
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of DFA and NFA.md"
               }
             }
           },
@@ -250,11 +276,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f94e2350a4d7a9eb",
+  "active": "4389c67a6b9abed6",
   "lastOpenFiles": [
-    "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/What does Theory of Computation do.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md",
     "TheoryOfComputation/Theory of Computation.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of DFA and NFA.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/NFA to DFA Conversion.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
@@ -278,7 +306,6 @@
     "attachments/Finite Automata-20231224155839512.webp",
     "attachments/Finite Automata-20231224155805006.webp",
     "attachments/Finite Automata-20231224155117842.webp",
-    "TheoryOfComputation/Regular Languages and Finite Automata/What does Theory of Computation do.md",
     "attachments/What does Theory of Computation do-20231224134923802.webp",
     "Pending Notes.md",
     "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md",
@@ -287,7 +314,6 @@
     "OperatingSystems/Introduction to Operating Systems.md",
     "OperatingSystems/Operating Systems.md",
     "OperatingSystems/What happens when a system is started?.md",
-    "DatabaseManagementSystem/Database Management System.md",
     "OperatingSystems",
     "DataStructures/Row and Column Major Mapping",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery",
