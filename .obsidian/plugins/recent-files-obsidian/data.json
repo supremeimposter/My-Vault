@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Regular Expressions",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md"
+    },
+    {
+      "basename": "Set Operations",
+      "path": "DiscreteMathematics/Set-Theory/Set Operations.md"
+    },
+    {
+      "basename": "Theory of Computation",
+      "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
       "basename": "Equivalence of DFA and NFA",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of DFA and NFA.md"
+    },
+    {
+      "basename": "Deterministic Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
     },
     {
       "basename": "What does Theory of Computation do",
@@ -11,14 +27,6 @@
     {
       "basename": "Non-Deterministic Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md"
-    },
-    {
-      "basename": "Theory of Computation",
-      "path": "TheoryOfComputation/Theory of Computation.md"
-    },
-    {
-      "basename": "Deterministic Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
     },
     {
       "basename": "Finite Automata",
@@ -191,14 +199,6 @@
     {
       "basename": "Relational Algebra",
       "path": "DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md"
-    },
-    {
-      "basename": "Recoverability",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md"
-    },
-    {
-      "basename": "Nested Queries in SQL",
-      "path": "DatabaseManagementSystem/SQL/Nested Queries in SQL.md"
     }
   ],
   "omittedPaths": [

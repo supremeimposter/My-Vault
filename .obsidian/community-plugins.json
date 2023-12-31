@@ -23,15 +23,13 @@
   "image-converter",
   "obsidian-outliner",
   "settings-search",
-  "inline-math",
   "obsidian-nomnoml-diagram",
   "obsidian-diagrams-net",
-  "badges",
   "obsidian-image-toolkit",
   "media-extended",
   "links",
   "better-search-views",
   "mermaid-tools",
-  "obsidian-minimal-settings",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "math-in-callout"
 ]
