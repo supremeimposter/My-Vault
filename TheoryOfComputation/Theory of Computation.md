@@ -18,7 +18,7 @@ tags:
 - [[Cases of languages in DFA]]
 - [[Non-Deterministic Finite Automata]]
 - [[Equivalence of DFA and NFA]]
-
+- [[Regular Expressions]]
 
 - [[Doubt - Regular Languages and Finite Automata]]
 
