@@ -5,12 +5,12 @@
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md"
     },
     {
-      "basename": "Set Operations",
-      "path": "DiscreteMathematics/Set-Theory/Set Operations.md"
-    },
-    {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Set Operations",
+      "path": "DiscreteMathematics/Set-Theory/Set Operations.md"
     },
     {
       "basename": "Equivalence of DFA and NFA",
