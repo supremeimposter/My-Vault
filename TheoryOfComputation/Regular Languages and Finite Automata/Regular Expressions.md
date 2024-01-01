@@ -21,6 +21,8 @@ tags:
 | $r = \epsilon$ | $\mathscr{L}(r) = \{\epsilon\}$ |
 | $r = a$ | $\mathscr{L}(r) = \{a\}$ |
 
+![[Regular Expressions-20240101155557839.webp]]
+
 > [!conflict] String vs Regular Expression
 > 
 
@@ -45,3 +47,7 @@ $$
 > [!question] 
 > ![[Regular Expressions-20231231204835231.webp]]
 
+
+> [!tip] Tips for Regular Expressions
+1. For a given regular expression, write some strings which can be generated and which cannot be generated.
+2. Expand one of the kleene star or kleene plus to understand the expression better.
