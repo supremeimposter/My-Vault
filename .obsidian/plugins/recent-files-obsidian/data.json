@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Theory of Computation",
+      "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Equivalence of Finite Automata and Regular Expressions",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of Finite Automata and Regular Expressions.md"
+    },
+    {
       "basename": "Regular Expressions",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md"
     },
     {
-      "basename": "Theory of Computation",
-      "path": "TheoryOfComputation/Theory of Computation.md"
+      "basename": "2024-01-02",
+      "path": "daily-agenda/2024-01-02.md"
+    },
+    {
+      "basename": "Pending Lectures",
+      "path": "Pending Lectures.md"
+    },
+    {
+      "basename": "Weekly Quizzes",
+      "path": "Weekly-Quizzes/Weekly Quizzes.md"
+    },
+    {
+      "basename": "daily-notes-template",
+      "path": "templates/daily-notes-template.md"
     },
     {
       "basename": "Set Operations",
@@ -55,10 +75,6 @@
     {
       "basename": "Cases of languages in DFA",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "Pending Lectures.md"
     },
     {
       "basename": "Introduction to Theory of Computation",
@@ -183,22 +199,6 @@
     {
       "basename": "SQL Retrieval Queries",
       "path": "DatabaseManagementSystem/SQL/SQL Retrieval Queries.md"
-    },
-    {
-      "basename": "Single Level Ordered Index",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md"
-    },
-    {
-      "basename": "Serializability",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md"
-    },
-    {
-      "basename": "Relational Algebra Queries",
-      "path": "DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md"
-    },
-    {
-      "basename": "Relational Algebra",
-      "path": "DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md"
     }
   ],
   "omittedPaths": [

@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "2b88b566e78fc21d",
+            "id": "820638672f93e41e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,9 +32,34 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c4c2fae9e7eefe80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of Finite Automata and Regular Expressions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b88b566e78fc21d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily-agenda/2024-01-02.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md",
+                "file": "TheoryOfComputation/Theory of Computation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md",
+                "file": "TheoryOfComputation/Theory of Computation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md"
+                "file": "TheoryOfComputation/Theory of Computation.md"
               }
             }
           },
@@ -237,10 +262,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2b88b566e78fc21d",
+  "active": "bdd9138e39d92a08",
   "lastOpenFiles": [
+    "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of Finite Automata and Regular Expressions.md",
     "TheoryOfComputation/Theory of Computation.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md",
+    "daily-agenda/2024-01-02.md",
+    "Pending Lectures.md",
+    "Weekly-Quizzes/Weekly Quizzes.md",
+    "daily-agenda/2023-11-04.md",
+    "templates/daily-notes-template.md",
     "attachments/Regular Expressions-20240101155557839.webp",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
     "attachments/Regular Expressions-20231231204835231.webp",
@@ -261,7 +292,6 @@
     "attachments/Deterministic Finite Automata-20231226173519923.webp",
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
     "attachments/Deterministic Finite Automata-20231226104516745.webp",
-    "Pending Lectures.md",
     "attachments/Deterministic Finite Automata-20231225163654669.webp",
     "attachments/Deterministic Finite Automata-20231225163642391.webp",
     "attachments/Deterministic Finite Automata-20231225163057017.webp",
@@ -270,10 +300,6 @@
     "GATE-materials/Links for Resources.md",
     "GATE-CS.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
-    "Pending Notes.md",
-    "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md",
-    "OperatingSystems/System Calls.md",
-    "OperatingSystems/Process in Operating Systems.md",
     "OperatingSystems",
     "DataStructures/Row and Column Major Mapping",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery",
