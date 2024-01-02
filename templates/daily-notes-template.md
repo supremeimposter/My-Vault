@@ -1,5 +1,7 @@
 ---
 date: "{{date}}-{{time}}"
+tags:
+  - DailyNotes
 ---
 
 # Task List
