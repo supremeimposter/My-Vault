@@ -19,6 +19,8 @@ tags:
 - [[Non-Deterministic Finite Automata]]
 - [[Equivalence of DFA and NFA]]
 - [[Regular Expressions]]
+- [[Equivalence of Finite Automata and Regular Expressions]] (optional)
+
 
 - [[Doubt - Regular Languages and Finite Automata]]
 
@@ -40,4 +42,14 @@ tags:
 > - [ ] [Weekly Quiz 24 Solutions Part 2 - Finite Automata | Theory of Computation | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=zPIl_p2MiVY)
 > 
 
+
+> [!header] Weekly Quiz 25
+> [GO Classes 2024 | Weekly Quiz 25 | Finite Automata and Regular Expression - GATE Overflow for GATE CSE](https://gateoverflow.in/exam/513/go-classes-2024-weekly-quiz-25-finite-automata-and-regular-expression)
+
+> [!youtube] 
+> - [ ] [Weekly Quiz 25 Solutions Part 1 - Finite Automata | Theory of Computation | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=XF2ygVBjlTg)
+> - [ ] [Weekly Quiz 25 Solutions Part 2 - Finite Automata | Theory of Computation | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=ldychl4M6fE)
+
+
 # References
+- [Theory of Computation | Automata Theory | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9)
