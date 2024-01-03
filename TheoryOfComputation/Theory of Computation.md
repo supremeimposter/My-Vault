@@ -19,7 +19,7 @@ tags:
 - [[Non-Deterministic Finite Automata]]
 - [[Equivalence of DFA and NFA]]
 - [[Regular Expressions]]
-- [[Equivalence of Finite Automata and Regular Expressions]] (optional)
+- [[Finite Automata and Regular Expressions]] 
 
 
 - [[Doubt - Regular Languages and Finite Automata]]
