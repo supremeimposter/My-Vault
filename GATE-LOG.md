@@ -110,3 +110,5 @@
 **November 24, 2023** Spend time on the basics, build the context with better understanding. It is worth the time.
 
 **November 30, 2023** Respecting a teacher is different from blindly following him/her. 
+
+**January 3, 2024** You are not writing a book. You did not do any post-doc. Just make clear notes that you can understand well. Do not worry about making a digital garden. You have a lot of things to worry about.

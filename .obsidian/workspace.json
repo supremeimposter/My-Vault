@@ -39,27 +39,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of Finite Automata and Regular Expressions.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b88b566e78fc21d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily-agenda/2024-01-02.md",
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata and Regular Expressions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -89,7 +77,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -121,8 +109,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -135,7 +122,7 @@
       {
         "id": "e047f71d444b979e",
         "type": "tabs",
-        "dimension": 32.33766233766234,
+        "dimension": 47.647647647647645,
         "children": [
           {
             "id": "4de834b516a58502",
@@ -143,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Theory of Computation.md",
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata and Regular Expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Theory of Computation.md",
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata and Regular Expressions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Theory of Computation.md"
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata and Regular Expressions.md"
               }
             }
           },
@@ -213,7 +200,7 @@
       {
         "id": "aad50c96c120c560",
         "type": "tabs",
-        "dimension": 33.63636363636363,
+        "dimension": 20.02002002002002,
         "children": [
           {
             "id": "503fa5a56b71e72e",
@@ -228,7 +215,7 @@
       {
         "id": "5df95600f2476df0",
         "type": "tabs",
-        "dimension": 34.02597402597402,
+        "dimension": 32.33233233233233,
         "children": [
           {
             "id": "537addfb8bc17cc8",
@@ -262,11 +249,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bdd9138e39d92a08",
+  "active": "c4c2fae9e7eefe80",
   "lastOpenFiles": [
-    "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of Finite Automata and Regular Expressions.md",
-    "TheoryOfComputation/Theory of Computation.md",
+    "attachments/Finite Automata and Regular Expressions-20240103182032402.webp",
+    "GATE-LOG.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata and Regular Expressions.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md",
+    "TheoryOfComputation/Theory of Computation.md",
     "daily-agenda/2024-01-02.md",
     "Pending Lectures.md",
     "Weekly-Quizzes/Weekly Quizzes.md",
@@ -298,8 +287,6 @@
     "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md",
     "attachments/Cases of languages in DFA-20231225002703439.webp",
     "GATE-materials/Links for Resources.md",
-    "GATE-CS.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
     "OperatingSystems",
     "DataStructures/Row and Column Major Mapping",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery",
