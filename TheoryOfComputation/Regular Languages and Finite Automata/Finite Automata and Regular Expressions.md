@@ -16,7 +16,7 @@ tags:
 - For every NFA or DFA, there is an equivalent Regular Expression.
 
 ## Converting FA to RE
-
+- This method is called **State Removal** method.
 - When focusing on a state, remove the states between the initial and the desired states and make a connection with a regular expression.
 - Language of the automata is the union of language of final states.
 

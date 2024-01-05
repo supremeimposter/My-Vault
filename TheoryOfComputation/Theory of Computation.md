@@ -20,7 +20,7 @@ tags:
 - [[Equivalence of DFA and NFA]]
 - [[Regular Expressions]]
 - [[Finite Automata and Regular Expressions]] 
-
+- [[Pumping Lemma]]
 
 - [[Doubt - Regular Languages and Finite Automata]]
 
