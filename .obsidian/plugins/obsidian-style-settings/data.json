@@ -14,8 +14,8 @@
   "obsidian-prism-theme@@pt-icons-accent": true,
   "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-accent-teal",
   "catppuccin-interface-styles@@ctp-bold-folder-title": true,
-  "encore-settings@@theme-dark": "encore-theme-dark-materialocean",
-  "encore-settings@@theme-light": "encore-theme-light-sterling",
+  "encore-settings@@theme-dark": "encore-theme-dark-rgb",
+  "encore-settings@@theme-light": "encore-theme-light",
   "encore-settings@@colors": "encore-colors-colorful",
   "light-and-bright-theme@@light-theme-settings": "theme-alternate",
   "light-and-bright-theme@@dark-theme-settings": "dark-theme-default",
@@ -318,9 +318,9 @@
   "anuppuccin-theme-settings@@anp-table-auto": true,
   "anuppuccin-theme-settings@@anp-list-toggle": true,
   "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true,
-  "encore-settings@@encore-coloured-tooltip": false,
-  "encore-settings@@blur-amount": "encore-blur-off",
-  "encore-settings@@encore-disable-grain": false,
+  "encore-settings@@encore-coloured-tooltip": true,
+  "encore-settings@@blur-amount": "encore-blur-full",
+  "encore-settings@@encore-disable-grain": true,
   "anuppuccin-theme-settings@@anp-toggle-preview": false,
   "anuppuccin-theme-settings@@anp-table-th-highlight": true,
   "anuppuccin-theme-settings@@anp-autohide-titlebar": false,
@@ -376,5 +376,6 @@
   "Appearance-dark@@text-faint@@dark": "#6e6a86",
   "custom-diegoeis-simple@@eis-sidebar-dark": false,
   "minimal-style@@tabs-style": "tabs-modern",
-  "anuppuccin-theme-settings@@anp-colorful-frame-opacity": 1
+  "anuppuccin-theme-settings@@anp-colorful-frame-opacity": 1,
+  "encore-settings@@encore-disable-logo-on-hr": true
 }
