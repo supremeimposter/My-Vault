@@ -5,6 +5,14 @@
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md"
     },
     {
+      "basename": "Theory of Computation",
+      "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Regular Expressions",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md"
+    },
+    {
       "basename": "Finite Automata and Regular Expressions",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata and Regular Expressions.md"
     },
@@ -15,14 +23,6 @@
     {
       "basename": "Cases of languages in DFA",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md"
-    },
-    {
-      "basename": "Regular Expressions",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md"
-    },
-    {
-      "basename": "Theory of Computation",
-      "path": "TheoryOfComputation/Theory of Computation.md"
     },
     {
       "basename": "GATE-LOG",

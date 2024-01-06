@@ -122,7 +122,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -208,7 +209,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "aad50c96c120c560",
@@ -264,15 +265,17 @@
   },
   "active": "d3837635c85bf3fc",
   "lastOpenFiles": [
+    "TheoryOfComputation/Theory of Computation.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata and Regular Expressions.md",
+    "attachments/Pumping Lemma-20240106084602566.webp",
+    "attachments/Pumping Lemma-20240106075511451.webp",
     "attachments/Pumping Lemma-20240105222237920.webp",
     "attachments/Pumping Lemma-20240105221941432.webp",
     "Untitled.canvas",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata and Regular Expressions.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of DFA and NFA.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md",
-    "TheoryOfComputation/Theory of Computation.md",
     "attachments/Finite Automata and Regular Expressions-20240103182032402.webp",
     "GATE-LOG.md",
     "daily-agenda/2024-01-02.md",
@@ -297,9 +300,6 @@
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Symmetric Relation.md",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Reflexive Relation.md",
     "attachments/Deterministic Finite Automata-20231226173519923.webp",
-    "attachments/Deterministic Finite Automata-20231226104516745.webp",
-    "attachments/Deterministic Finite Automata-20231225163654669.webp",
-    "attachments/Deterministic Finite Automata-20231225163642391.webp",
     "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md",
     "OperatingSystems",
     "DataStructures/Row and Column Major Mapping",

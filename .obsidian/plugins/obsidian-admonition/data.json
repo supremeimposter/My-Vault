@@ -367,12 +367,13 @@
       "type": "conclusion",
       "color": "255, 0, 187",
       "icon": {
-        "name": "comment-dots",
-        "type": "font-awesome"
+        "type": "obsidian",
+        "name": "lucide-wand-2"
       },
       "command": false,
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "misconception": {
       "type": "misconception",
