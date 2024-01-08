@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Pumping Lemma",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md"
+      "basename": "Myhill Nerode Theorem",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md"
     },
     {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Pumping Lemma",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md"
     },
     {
       "basename": "Regular Expressions",

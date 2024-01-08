@@ -21,38 +21,12 @@
             }
           },
           {
-            "id": "820638672f93e41e",
+            "id": "1e7e43d84937e89a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4c2fae9e7eefe80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata and Regular Expressions.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3837635c85bf3fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md",
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md",
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md",
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md"
+                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md"
               }
             }
           },
@@ -209,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "aad50c96c120c560",
@@ -263,11 +237,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d3837635c85bf3fc",
+  "active": "1e7e43d84937e89a",
   "lastOpenFiles": [
     "TheoryOfComputation/Theory of Computation.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata and Regular Expressions.md",
     "attachments/Pumping Lemma-20240106084602566.webp",
     "attachments/Pumping Lemma-20240106075511451.webp",
