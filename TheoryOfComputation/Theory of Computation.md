@@ -21,7 +21,7 @@ tags:
 - [[Regular Expressions]]
 - [[Finite Automata and Regular Expressions]] 
 - [[Pumping Lemma]]
-
+- [[Myhill Nerode Theorem]]
 - [[Doubt - Regular Languages and Finite Automata]]
 
 
