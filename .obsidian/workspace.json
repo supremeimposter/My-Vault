@@ -175,7 +175,7 @@
             }
           },
           {
-            "id": "ceb66d1997bcc4bf",
+            "id": "b7284cf1f0f1221a",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -239,6 +239,7 @@
   },
   "active": "1e7e43d84937e89a",
   "lastOpenFiles": [
+    "attachments/Myhill Nerode Theorem-20240110225456809.webp",
     "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
     "attachments/Myhill Nerode Theorem-20240109104117572.webp",
     "TheoryOfComputation/Theory of Computation.md",
