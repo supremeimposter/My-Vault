@@ -112,10 +112,10 @@ The resultant language $\overline {L}$ is the complement of the language $L$.
 - The two DFAs are constructed on the same alphabet $\Sigma$ 
 - In Product construction of two DFAs, every state is an ordered pair of states.
 - More than 2 DFAs can be run in parallel.
+- Product automata does not guarantee minimal DFA.
 
 > [!question] 
 > Why running states in parallel (one state at a time) is better than blind cross product?
-
 
 
 > [!example] 

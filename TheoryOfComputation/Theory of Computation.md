@@ -51,5 +51,10 @@ tags:
 > - [ ] [Weekly Quiz 25 Solutions Part 2 - Finite Automata | Theory of Computation | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=ldychl4M6fE)
 
 
+> [!youtube] 
+> - [ ] [Weekly Quiz 26 Solutions Part 1 - Regular Languages - Stanford Questions | Theory of Computation - YouTube](https://www.youtube.com/watch?v=wvsijTYqVq0)
+> - [ ] [Weekly Quiz 26 Solutions Part 2 - Regular Languages - Stanford Questions | Theory of Computation - YouTube](https://www.youtube.com/watch?v=1iEubMxkN8c)
+
+
 # References
 - [Theory of Computation | Automata Theory | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9)

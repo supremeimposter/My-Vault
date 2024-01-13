@@ -19,7 +19,7 @@ tags:
 > [Proving Non-Regular Language Part 1 | Myhill Nerode Theorem | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=OYVR64fulL4)
 
 > [!attention] 
-> The random infinite set may or may not belong to the language.
+> The random infinite set $S \subseteq \Sigma^\ast$ may or may not belong to the language.
 >> [!question] Why it can be random?
 >> Because if two random strings over $\Sigma$ goes to an intermediate state from there on going to either final or non-final states creates a problem.
 >> ![[Myhill Nerode Theorem-20240110225456809.webp]]
@@ -42,8 +42,24 @@ tags:
 
 - For a language $L$, an Infinite distinguishable set $S$ has the following properties
 	- $S$ is infinite
-	- Every two strings in $S$ are distinguishable by $L$
+	- Every two strings in $S$ are distinguishable relative to $L$
 
 ## Myhill Nerode Theorem
 - If there is SOME infinite distinguishable set in a language $L$, then $L$ is *non-regular*
 - If there is NO infinite distinguishable set in a language $L$, then $L$ is *regular*
+
+- If there is a infinite distinguishable set in a language $L$, then DFA must require infinite states which is a violation of DFA. Hence the language $L$ is non-regular.
+
+## Number of States in Minimal DFA
+
+- In every DFA (including minimal), for a regular language, the distinguishable strings go to different states.
+- In a minimal DFA, for a regular language, the equivalent strings go the same states. But in a non-minimal DFA, the equivalent strings may or may not go to the same states.
+
+- For a regular language $L$, size of the largest set of distinguishable strings is equal to the number of states in minimal DFA. 
+- For a regular language $L$, the number of equivalence classes in the Myhill Nerode theorem is equal to the number of states in minimal DFA.
+
+## Equivalence Relation
+- The number of equivalence classes in Myhill Nerode theorem are infinite, iff $L$ is non-regular.
+- $\Sigma^\ast$ splits into equivalence classes based on the destination of strings in the minimal DFA.
+
+
