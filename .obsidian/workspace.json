@@ -21,12 +21,51 @@
             }
           },
           {
-            "id": "1e7e43d84937e89a",
+            "id": "f730371613543102",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
+                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc91f59f644f3577",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f683f6abe9341d62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a76c16b22fd148a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -63,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:TheoryOfComputation/CFG",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 274.5
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -118,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
+                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
+                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md"
+                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md"
               }
             }
           },
@@ -237,14 +276,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1e7e43d84937e89a",
+  "active": "a76c16b22fd148a5",
   "lastOpenFiles": [
-    "attachments/Myhill Nerode Theorem-20240110225456809.webp",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
-    "attachments/Myhill Nerode Theorem-20240109104117572.webp",
+    "attachments/Regular Grammar-20240116231752431.webp",
+    "attachments/Regular Grammar-20240116231750120.webp",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md",
     "TheoryOfComputation/Theory of Computation.md",
+    "attachments/Context Free Grammar-20240116102047578.webp",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
+    "GATE-CS.md",
+    "GATE-materials/Links for Resources.md",
+    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md",
+    "attachments/Myhill Nerode Theorem-20240110225456809.webp",
+    "attachments/Myhill Nerode Theorem-20240109104117572.webp",
     "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata and Regular Expressions.md",
     "attachments/Pumping Lemma-20240106084602566.webp",
     "attachments/Pumping Lemma-20240106075511451.webp",
@@ -262,20 +314,8 @@
     "templates/daily-notes-template.md",
     "attachments/Regular Expressions-20240101155557839.webp",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
-    "attachments/Regular Expressions-20231231204835231.webp",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
-    "attachments/Equivalence of DFA and NFA-20231231121940064.webp",
-    "attachments/Equivalence of DFA and NFA-20231230231906263.webp",
     "TheoryOfComputation/Regular Languages and Finite Automata/What does Theory of Computation do.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/NFA to DFA Conversion.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages.md",
-    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
-    "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md",
-    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Symmetric Relation.md",
-    "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Reflexive Relation.md",
     "OperatingSystems",
     "DataStructures/Row and Column Major Mapping",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery",
@@ -284,7 +324,6 @@
     "attachments/DatabaseManagementSystem",
     "attachments/DatabaseManagementSystem/ER-Model/ER Model/IMG-20231209215520398.svg.xml",
     "DatabaseManagementSystem/ER-Model",
-    "DataStructures/Hashing",
-    "DataStructures"
+    "DataStructures/Hashing"
   ]
 }

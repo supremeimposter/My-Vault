@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Myhill Nerode Theorem",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md"
+      "basename": "Regular Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md"
+    },
+    {
+      "basename": "Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md"
+    },
+    {
+      "basename": "Deterministic Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
+    },
+    {
+      "basename": "Doubt - Regular Languages and Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md"
+    },
+    {
+      "basename": "Context Free Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
+    },
+    {
+      "basename": "Linear Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md"
     },
     {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Myhill Nerode Theorem",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
+    },
+    {
+      "basename": "Links for Resources",
+      "path": "GATE-materials/Links for Resources.md"
+    },
+    {
+      "basename": "Equivalence Relation",
+      "path": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md"
     },
     {
       "basename": "Pumping Lemma",
@@ -49,10 +85,6 @@
       "path": "DiscreteMathematics/Set-Theory/Set Operations.md"
     },
     {
-      "basename": "Deterministic Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
-    },
-    {
       "basename": "What does Theory of Computation do",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/What does Theory of Computation do.md"
     },
@@ -63,14 +95,6 @@
     {
       "basename": "Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md"
-    },
-    {
-      "basename": "Doubt - Regular Languages and Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md"
-    },
-    {
-      "basename": "Equivalence Relation",
-      "path": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md"
     },
     {
       "basename": "Types of Relations on a Set",
@@ -87,14 +111,6 @@
     {
       "basename": "Introduction to Theory of Computation",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md"
-    },
-    {
-      "basename": "Links for Resources",
-      "path": "GATE-materials/Links for Resources.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE-CS.md"
     },
     {
       "basename": "Basic Concepts of TOC",
@@ -183,22 +199,6 @@
     {
       "basename": "Tuple Relational Calculus",
       "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
-    },
-    {
-      "basename": "TRC for Relational Algebra",
-      "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/TRC for Relational Algebra.md"
-    },
-    {
-      "basename": "Transaction",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md"
-    },
-    {
-      "basename": "Time Stamp-based Protocols",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md"
-    },
-    {
-      "basename": "Three Levels of Schema",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md"
     }
   ],
   "omittedPaths": [

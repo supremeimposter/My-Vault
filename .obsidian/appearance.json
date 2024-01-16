@@ -6,9 +6,10 @@
     "supercharged-links-gen",
     "callout-theorem",
     "anuppuccin-checkboxes",
-    "timeline-callout"
+    "timeline-callout",
+    "anuppiccin-extended-color-schemes"
   ],
-  "cssTheme": "Border",
+  "cssTheme": "AnuPpuccin",
   "theme": "moonstone",
   "showViewHeader": true,
   "baseFontSize": 18,
