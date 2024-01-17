@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md",
+                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md",
+                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md"
+                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
               }
             }
           },
@@ -227,7 +227,7 @@
       {
         "id": "aad50c96c120c560",
         "type": "tabs",
-        "dimension": 20.02002002002002,
+        "dimension": 26.026026026026027,
         "children": [
           {
             "id": "503fa5a56b71e72e",
@@ -242,7 +242,7 @@
       {
         "id": "5df95600f2476df0",
         "type": "tabs",
-        "dimension": 32.33233233233233,
+        "dimension": 26.326326326326328,
         "children": [
           {
             "id": "537addfb8bc17cc8",
@@ -276,16 +276,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a76c16b22fd148a5",
+  "active": "fc91f59f644f3577",
   "lastOpenFiles": [
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
+    "attachments/Context Free Grammar-20240117165201347.webp",
+    "attachments/Context Free Grammar-20240117164337276.webp",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md",
     "attachments/Regular Grammar-20240116231752431.webp",
     "attachments/Regular Grammar-20240116231750120.webp",
-    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md",
-    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
-    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
-    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md",
     "TheoryOfComputation/Theory of Computation.md",
     "attachments/Context Free Grammar-20240116102047578.webp",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA",
@@ -301,18 +303,15 @@
     "attachments/Pumping Lemma-20240106084602566.webp",
     "attachments/Pumping Lemma-20240106075511451.webp",
     "attachments/Pumping Lemma-20240105222237920.webp",
-    "attachments/Pumping Lemma-20240105221941432.webp",
     "Untitled.canvas",
     "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of DFA and NFA.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
-    "attachments/Finite Automata and Regular Expressions-20240103182032402.webp",
     "GATE-LOG.md",
     "daily-agenda/2024-01-02.md",
     "Pending Lectures.md",
     "Weekly-Quizzes/Weekly Quizzes.md",
     "daily-agenda/2023-11-04.md",
     "templates/daily-notes-template.md",
-    "attachments/Regular Expressions-20240101155557839.webp",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/What does Theory of Computation do.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md",

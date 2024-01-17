@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Regular Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md"
+      "basename": "Context Free Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
     },
     {
       "basename": "Grammar",
       "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md"
+    },
+    {
+      "basename": "Regular Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md"
+    },
+    {
+      "basename": "Linear Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md"
     },
     {
       "basename": "Deterministic Finite Automata",
@@ -15,14 +23,6 @@
     {
       "basename": "Doubt - Regular Languages and Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md"
-    },
-    {
-      "basename": "Context Free Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
-    },
-    {
-      "basename": "Linear Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md"
     },
     {
       "basename": "Theory of Computation",
