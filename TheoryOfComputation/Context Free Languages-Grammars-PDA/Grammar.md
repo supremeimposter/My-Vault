@@ -22,5 +22,6 @@ tags:
 - The RHS of the production variable must contain only either terminal or variable.
 - Reading the terminal string (yield) from a parse tree is by reading the leaves (terminlas) from left to right in depth first traversal.
 - Regular expression syntax must not be written in the production rules.
-- The production rule $V \rightarrow V$ is trivial and can be safely removed from the grammar.
+- The production rule $V \rightarrow V$ is trivial and can be safely removed from the grammar, where $V$ is a variable.
+- Grammars are NOT one-one with languages.
 

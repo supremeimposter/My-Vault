@@ -47,6 +47,11 @@ $$
 |  |  |
 |  |  |
 |  |  |
+> Everything in the table above is two-way
 
+- If there is a left linear grammar $G_1$, then there exists an equivalent right linear grammar $G_2$.
+- If there is a right linear grammar $G_1$, then there exists an equivalent left linear grammar $G_2$.
 
-
+> [!conflict] 
+> Do not confuse between equivalent grammar and equivalent language.
+> Reversing the language does not produce equivalent language, but equivalent grammar.
