@@ -5,12 +5,28 @@
       "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
     },
     {
-      "basename": "Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md"
+      "basename": "Theory of Computation",
+      "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "Temporary Plan.md"
+    },
+    {
+      "basename": "Links for Resources",
+      "path": "GATE-materials/Links for Resources.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
     },
     {
       "basename": "Regular Grammar",
       "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md"
+    },
+    {
+      "basename": "Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md"
     },
     {
       "basename": "Linear Grammar",
@@ -25,20 +41,8 @@
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md"
     },
     {
-      "basename": "Theory of Computation",
-      "path": "TheoryOfComputation/Theory of Computation.md"
-    },
-    {
       "basename": "Myhill Nerode Theorem",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE-CS.md"
-    },
-    {
-      "basename": "Links for Resources",
-      "path": "GATE-materials/Links for Resources.md"
     },
     {
       "basename": "Equivalence Relation",
@@ -163,10 +167,6 @@
     {
       "basename": "Threads",
       "path": "OperatingSystems/Threads.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "Temporary Plan.md"
     },
     {
       "basename": "Row and Column Major Mapping",

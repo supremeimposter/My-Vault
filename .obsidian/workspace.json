@@ -227,7 +227,7 @@
       {
         "id": "aad50c96c120c560",
         "type": "tabs",
-        "dimension": 26.026026026026027,
+        "dimension": 26.02602602602603,
         "children": [
           {
             "id": "503fa5a56b71e72e",
@@ -242,7 +242,7 @@
       {
         "id": "5df95600f2476df0",
         "type": "tabs",
-        "dimension": 26.326326326326328,
+        "dimension": 26.32632632632633,
         "children": [
           {
             "id": "537addfb8bc17cc8",
@@ -278,22 +278,25 @@
   },
   "active": "fc91f59f644f3577",
   "lastOpenFiles": [
-    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md",
+    "TheoryOfComputation/Theory of Computation.md",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
+    "Temporary Plan.md",
+    "attachments/Context Free Grammar-20240118220754917.webp",
+    "attachments/Context Free Grammar-20240118220345749.webp",
+    "GATE-materials/Links for Resources.md",
+    "GATE-CS.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md",
     "attachments/Context Free Grammar-20240117165201347.webp",
     "attachments/Context Free Grammar-20240117164337276.webp",
-    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md",
-    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md",
     "attachments/Regular Grammar-20240116231752431.webp",
     "attachments/Regular Grammar-20240116231750120.webp",
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
-    "TheoryOfComputation/Theory of Computation.md",
     "attachments/Context Free Grammar-20240116102047578.webp",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA",
     "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
-    "GATE-CS.md",
-    "GATE-materials/Links for Resources.md",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md",
@@ -301,8 +304,6 @@
     "attachments/Myhill Nerode Theorem-20240109104117572.webp",
     "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata and Regular Expressions.md",
     "attachments/Pumping Lemma-20240106084602566.webp",
-    "attachments/Pumping Lemma-20240106075511451.webp",
-    "attachments/Pumping Lemma-20240105222237920.webp",
     "Untitled.canvas",
     "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of DFA and NFA.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
