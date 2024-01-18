@@ -1,7 +1,7 @@
 
-
-Dec - OS, Algo-half
-Jan - TOC, DL,Algo-remaining-half
-Feb - Compiler, CN, COA
+Jan - TOC, DL
+Feb - DL, OS, Algo
 March - DM combinatronics, DM Graph Theory
-
+April - Compiler
+May - CN
+June - COA
