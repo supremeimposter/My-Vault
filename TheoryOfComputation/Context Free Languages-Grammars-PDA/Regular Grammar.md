@@ -47,6 +47,8 @@ $$
 |  |  |
 |  |  |
 |  |  |
+> [!remember] 
+> Every DFA is an NFA
 > Everything in the table above is two-way
 
 - If there is a left linear grammar $G_1$, then there exists an equivalent right linear grammar $G_2$.

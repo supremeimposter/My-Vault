@@ -30,9 +30,10 @@ tags:
 - [[Context Free Grammar]]
 - [[Linear Grammar]]
 - [[Regular Grammar]]
+- [[Push Down Automata]]
+
 
 ---
-
 # Tests and Solutions
 
 > [!header] Weekly Quiz 24

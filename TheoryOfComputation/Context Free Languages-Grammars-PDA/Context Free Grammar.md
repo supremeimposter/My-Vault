@@ -25,7 +25,7 @@ tags:
 - A language $L$ is context free language **iff** exists some context free grammar $G$ such that $L = L(G)$ 
 - For a context free language $L$, there exists many context free grammars $G_1, G_2, G_3, \ldots$ but for a context free grammar $G$, there exists a unique context free language $L$.
 
-## Derivation and Derivation Trees
+## Derivations and Parse Trees
 > [!youtube] 
 > [Lecture 1F - Ambiguity of CFGs - Part 1 - Derivations, Parse Tree, LMD, RMD | Theory of Computation - YouTube](https://www.youtube.com/watch?v=0IntVWkFveA)
 - Derivation is dependent on the order of the production rules. There can be different derivations for different order of production rules.
@@ -34,8 +34,22 @@ tags:
 ![[Context Free Grammar-20240117165201347.webp]]
 - Any string $w \in L(G)$ has at least one parse tree.
 - For a CFG $G$, $\forall w \in L(G)$, number of parse trees of $w$ = number of LMDs = number of RMDs.
-- From a given parse tree, exactly one left-most derivation, exactly right-most derivation and many derivations can be generated.
 - For every parse tree, there is a unique leftmost and unique rightmost derivation.
+````col
+```col-md
+flexGrow=1
+===
+![[Context Free Grammar-20240119180024816.webp]]
+```
+```col-md
+flexGrow=1
+===
+![[Context Free Grammar-20240119180244331.webp]]
+![[Context Free Grammar-20240119180258471.webp]]
+```
+````
+
+- From a given parse tree, exactly one left-most derivation, exactly right-most derivation and many derivations can be generated.
 > [!summary] 
 > ![[Context Free Grammar-20240118220754917.webp]]
 
@@ -65,8 +79,16 @@ Traverse from right to left in depth-first manner.
 
 ## Ambiguity of CFG
 > [!definition] 
-> A context free grammar $G$ is ambiguous iff for at least one string $w \in L(G)$, there are more than one parse trees.
+> A context free grammar $G$ is ambiguous iff for at least one string $w \in L(G)$, there are more than one parse trees. 
 
 - A string is ambiguously derived if there exists more than 1 parse tree.
 - A string is derived unambiguosly if there exists exaclty one parse tree.
 
+> [!question] Why ambiguity of grammar is a problem?
+
+### Inherent Ambiguity of CFL
+
+- A context free language $L$ is inherently ambiguous ***iff*** every grammar for $L$ is ambiguous.
+- If there exists a unambiguous grammar for a language, then the language it is NOT inherently ambiguous.
+- A regular language CANNOT be inherently ambiguous.
+- A DCFL is never inherently ambiguous.
