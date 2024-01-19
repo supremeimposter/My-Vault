@@ -1,7 +1,12 @@
-
 Jan - TOC, DL
-Feb - DL, OS, Algo
+Feb - DL, Compiler, Algo
 March - DM combinatronics, DM Graph Theory
-April - Compiler
-May - CN
-June - COA
+April - OS
+May - COA
+June - CN
+
+Revision
+
+March - Linear Algebra
+April - Calculus + Probability
+May - Discrete math
