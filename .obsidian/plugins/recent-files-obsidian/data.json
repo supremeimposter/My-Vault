@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Context Free Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
+      "basename": "Push Down Automata",
+      "path": "TheoryOfComputation/Push Down Automata.md"
     },
     {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md"
+    },
+    {
+      "basename": "Context Free Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
+    },
+    {
+      "basename": "Regular Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md"
+    },
+    {
+      "basename": "Linear Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md"
     },
     {
       "basename": "Temporary Plan",
@@ -19,18 +35,6 @@
     {
       "basename": "GATE-CS",
       "path": "GATE-CS.md"
-    },
-    {
-      "basename": "Regular Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md"
-    },
-    {
-      "basename": "Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md"
-    },
-    {
-      "basename": "Linear Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md"
     },
     {
       "basename": "Deterministic Finite Automata",
@@ -195,10 +199,6 @@
     {
       "basename": "View Serializability",
       "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/View Serializability.md"
-    },
-    {
-      "basename": "Tuple Relational Calculus",
-      "path": "DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
     }
   ],
   "omittedPaths": [

@@ -21,51 +21,12 @@
             }
           },
           {
-            "id": "f730371613543102",
+            "id": "d769cf661865f049",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc91f59f644f3577",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f683f6abe9341d62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a76c16b22fd148a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md",
+                "file": "TheoryOfComputation/Push Down Automata.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
+                "file": "TheoryOfComputation/Push Down Automata.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
+                "file": "TheoryOfComputation/Push Down Automata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
+                "file": "TheoryOfComputation/Push Down Automata.md"
               }
             }
           },
@@ -276,18 +237,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fc91f59f644f3577",
+  "active": "d769cf661865f049",
   "lastOpenFiles": [
     "TheoryOfComputation/Theory of Computation.md",
+    "TheoryOfComputation/Push Down Automata.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md",
+    "attachments/Context Free Grammar-20240119180258471.webp",
+    "attachments/Context Free Grammar-20240119180244331.webp",
+    "attachments/Context Free Grammar-20240119180024816.webp",
     "Temporary Plan.md",
     "attachments/Context Free Grammar-20240118220754917.webp",
     "attachments/Context Free Grammar-20240118220345749.webp",
     "GATE-materials/Links for Resources.md",
     "GATE-CS.md",
-    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md",
-    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md",
-    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md",
     "attachments/Context Free Grammar-20240117165201347.webp",
     "attachments/Context Free Grammar-20240117164337276.webp",
     "attachments/Regular Grammar-20240116231752431.webp",
@@ -300,10 +265,7 @@
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md",
-    "attachments/Myhill Nerode Theorem-20240110225456809.webp",
-    "attachments/Myhill Nerode Theorem-20240109104117572.webp",
     "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata and Regular Expressions.md",
-    "attachments/Pumping Lemma-20240106084602566.webp",
     "Untitled.canvas",
     "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of DFA and NFA.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
@@ -315,7 +277,6 @@
     "templates/daily-notes-template.md",
     "DiscreteMathematics/Set-Theory/Set Operations.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/What does Theory of Computation do.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md",
     "OperatingSystems",
     "DataStructures/Row and Column Major Mapping",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery",
