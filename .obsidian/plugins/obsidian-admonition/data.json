@@ -67,7 +67,7 @@
     },
     "pdf": {
       "type": "pdf",
-      "color": "41, 219, 71",
+      "color": "44, 175, 66",
       "icon": {
         "name": "file-pdf",
         "type": "font-awesome"
@@ -342,14 +342,15 @@
     },
     "timer": {
       "type": "timer",
-      "color": "#7d7d7d",
+      "color": "71, 151, 255",
       "icon": {
         "type": "obsidian",
         "name": "lucide-timer"
       },
       "command": false,
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "pyq": {
       "type": "pyq",
