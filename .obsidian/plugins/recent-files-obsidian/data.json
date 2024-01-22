@@ -5,6 +5,14 @@
       "path": "TheoryOfComputation/Push Down Automata.md"
     },
     {
+      "basename": "Weekly Quizzes",
+      "path": "Weekly-Quizzes/Weekly Quizzes.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
+    },
+    {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "Links for Resources",
       "path": "GATE-materials/Links for Resources.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE-CS.md"
     },
     {
       "basename": "Deterministic Finite Automata",
@@ -79,10 +83,6 @@
     {
       "basename": "Pending Lectures",
       "path": "Pending Lectures.md"
-    },
-    {
-      "basename": "Weekly Quizzes",
-      "path": "Weekly-Quizzes/Weekly Quizzes.md"
     },
     {
       "basename": "daily-notes-template",
