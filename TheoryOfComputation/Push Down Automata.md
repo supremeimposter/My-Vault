@@ -29,6 +29,9 @@ tags:
 - When the top of the stack is not read, then there is no need to remove the top of the stack.
 - Even without reading the top of the stack, a string can be inserted into the stack and update the top of the stack.
 - When the string ends in the final state, the content of the stack does not matter.
+$$
+Transition = \text{read from tape}, \;\text{pop from stack} \mid\text{push into stack}
+$$
 
 > [!youtube] 
 > [Lecture 36 - PDA Analysis | Understanding PDA Transitions | Understanding Non-Determinism |Goclasses - YouTube](https://www.youtube.com/watch?v=fhLnSEQ4zLs)
@@ -36,7 +39,20 @@ tags:
 ## Designing PDA
 > [!youtube] 
 > [PDA Design Example 1 - a^nb^n Language Pushdown Automata | GO Classes | Deepak Poonia Sir - YouTube](https://www.youtube.com/watch?v=Kj2RyeOXqr8)
+> [PDA Design Example 2 - a^nb^n+1 Language Pushdown Automata | GO Classes | Deepak Poonia Sir - YouTube](https://www.youtube.com/watch?v=I6nx_FQjc8I)
+> [PDA Design Example 3 - a^nb^m Language Pushdown Automata | GO Classes | Deepak Poonia Sir - YouTube](https://www.youtube.com/watch?v=oMCMGDAWPA8)
+> [PDA Design Example 4 - a^nb^m Language Pushdown Automata | GO Classes | Deepak Poonia Sir - YouTube](https://www.youtube.com/watch?v=iFZe54M3Gjw)
+> [PDA Design Example 5 - a^nb^m Language Pushdown Automata | GO Classes | Deepak Poonia Sir - YouTube](https://www.youtube.com/watch?v=8mskmfpUeAs)
+> [PDA Design Example 6 - a^nb^2n Language Pushdown Automata | GO Classes | Deepak Poonia Sir - YouTube](https://www.youtube.com/watch?v=4WaCRkNCnfQ)
+> [PDA Design Example 7 - a^2nb^n Language Pushdown Automata | GO Classes | Deepak Poonia Sir - YouTube](https://www.youtube.com/watch?v=zDObER-zvbs)
 
 ![[Push Down Automata-20240122202220139.webp]]
 
 
+
+> [!doubt] Example 3
+> ![[Push Down Automata-20240123115422283.webp]]
+
+
+> [!youtube] 
+> [Lecture 2D - PDA Design More Examples | Nondeterminism in Pushdown Automata | Theory of Computation - YouTube](https://www.youtube.com/watch?v=WTxOPICsl4I)
