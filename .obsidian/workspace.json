@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Push Down Automata.md",
+                "file": "TheoryOfComputation/Theory of Computation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Push Down Automata.md",
+                "file": "TheoryOfComputation/Theory of Computation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Push Down Automata.md"
+                "file": "TheoryOfComputation/Theory of Computation.md"
               }
             }
           },
@@ -237,14 +237,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d769cf661865f049",
+  "active": "503fa5a56b71e72e",
   "lastOpenFiles": [
+    "TheoryOfComputation/Push Down Automata.md",
     "attachments/Push Down Automata-20240123115422283.webp",
     "attachments/Push Down Automata-20240122202220139.webp",
     "attachments/Push Down Automata-20240122102726246.webp",
     "Weekly-Quizzes/Weekly Quizzes.md",
     "GATE-CS.md",
-    "TheoryOfComputation/Push Down Automata.md",
     "TheoryOfComputation/Theory of Computation.md",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
@@ -259,7 +259,6 @@
     "GATE-materials/Links for Resources.md",
     "attachments/Context Free Grammar-20240117165201347.webp",
     "attachments/Context Free Grammar-20240117164337276.webp",
-    "attachments/Regular Grammar-20240116231752431.webp",
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA",
