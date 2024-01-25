@@ -1,7 +1,7 @@
 ---
 pdf: 
 module: 2
-lecture: "2"
+lecture: 2, 3
 date: 2024-01-19T21:30:00
 version:
   - TOC-24
@@ -15,7 +15,8 @@ tags:
 > [Lecture 2A - Push Down Automata PDA | Idea, Definition, Rules | Theory of Computation - YouTube](https://www.youtube.com/watch?v=n_get5pyyGk)
 
 - PDA = NFA + Infinite Stack
-- By default, PDA is non-deterministic i.e. $PDA \equiv NPDA$
+- By default, PDA is non-deterministic i.e. $PDA \equiv NPDA$  
+- PDA ($Q, \Sigma, q_0, F, \delta, Z, \Gamma$) 
 
 > [!tip] 
 > For PDA, take some strings and analyze.
@@ -56,3 +57,20 @@ $$
 
 > [!youtube] 
 > [Lecture 2D - PDA Design More Examples | Nondeterminism in Pushdown Automata | Theory of Computation - YouTube](https://www.youtube.com/watch?v=WTxOPICsl4I)
+
+## PDA Definition
+
+
+## Two Models of PDA
+
+1. Empty stack acceptance - after reading the string, when the stack is empty, then it is accepted, regardless of the final states.
+
+
+> [!important] 
+> In any model of PDA, a string must be completely consumed to decide the acceptance.
+
+## Deterministic PDA
+- PDA with no chance of determinism.
+
+
+> [!timer] Resume 27:00
