@@ -32,6 +32,11 @@ tags:
 - [[Regular Grammar]]
 - [[Push Down Automata]]
 
+# Module 3 - Identification of Language Class
+
+- [[Identification of Regular Languages]]
+- [[Identification of CFL, DCFL]]
+
 
 ---
 # Tests and Solutions

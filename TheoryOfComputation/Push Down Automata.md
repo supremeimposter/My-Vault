@@ -71,6 +71,12 @@ $$
 
 ## Deterministic PDA
 - PDA with no chance of determinism.
+- Non-determinism in PDA is determined by both the current symbol on the input tape and the symbol in the top of the stack.
 
 
-> [!timer] Resume 27:00
+> [!discussion] 
+> ![[Push Down Automata-20240126091354375.webp]]
+
+
+> [!info] 
+> DPDA with empty stack acceptance is author-dependent. So questions on such things will NOT be asked.

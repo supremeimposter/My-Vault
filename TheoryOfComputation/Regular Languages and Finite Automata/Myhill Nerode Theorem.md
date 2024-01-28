@@ -63,3 +63,5 @@ tags:
 - $\Sigma^\ast$ splits into equivalence classes based on the destination of strings in the minimal DFA.
 
 
+> [!youtube] 
+> [Myhill Nerode Theorem | Non regular language | Easy Proof of Non regularity of language | GO Classes - YouTube](https://www.youtube.com/watch?v=cdqRmustm4g)

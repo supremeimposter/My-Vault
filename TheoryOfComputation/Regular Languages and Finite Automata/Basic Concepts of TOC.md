@@ -260,6 +260,9 @@ $$
 - For any language L, $L^0 = \{\epsilon\}$
 - ${} \phi^n = \phi {}$, ${} n \ge 1$
 
+### Prefix Property of Language
+
+
 ### Kleene Star
 - Star closure of a language L is represented as $L^{\ast} {}$.
 $$
