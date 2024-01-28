@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Identification of CFL, DCFL",
+      "path": "TheoryOfComputation/Identification of CFL, DCFL.md"
+    },
+    {
+      "basename": "Identification of Regular Languages",
+      "path": "TheoryOfComputation/Identification of Regular Languages.md"
+    },
+    {
+      "basename": "Theory of Computation",
+      "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Myhill Nerode Theorem",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md"
+    },
+    {
       "basename": "Push Down Automata",
       "path": "TheoryOfComputation/Push Down Automata.md"
+    },
+    {
+      "basename": "Basic Concepts of TOC",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
     },
     {
       "basename": "Weekly Quizzes",
@@ -11,10 +31,6 @@
     {
       "basename": "GATE-CS",
       "path": "GATE-CS.md"
-    },
-    {
-      "basename": "Theory of Computation",
-      "path": "TheoryOfComputation/Theory of Computation.md"
     },
     {
       "basename": "Grammar",
@@ -47,10 +63,6 @@
     {
       "basename": "Doubt - Regular Languages and Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md"
-    },
-    {
-      "basename": "Myhill Nerode Theorem",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md"
     },
     {
       "basename": "Equivalence Relation",
@@ -121,10 +133,6 @@
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md"
     },
     {
-      "basename": "Basic Concepts of TOC",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
-    },
-    {
       "basename": "Pending Notes",
       "path": "Pending Notes.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Relational Model",
       "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
-    },
-    {
-      "basename": "Normal Forms",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
-    },
-    {
-      "basename": "View Serializability",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/View Serializability.md"
     }
   ],
   "omittedPaths": [
