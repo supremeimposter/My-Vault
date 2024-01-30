@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Identification of CFL, DCFL",
-      "path": "TheoryOfComputation/Identification of CFL, DCFL.md"
-    },
-    {
-      "basename": "Identification of Regular Languages",
-      "path": "TheoryOfComputation/Identification of Regular Languages.md"
+      "basename": "Closure Properties of Regular Languages",
+      "path": "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md"
     },
     {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Doubt - Regular Languages and Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md"
+    },
+    {
+      "basename": "Properties in Group Theory",
+      "path": "DiscreteMathematics/Group Theory/Properties in Group Theory.md"
+    },
+    {
+      "basename": "Identification of Regular Languages",
+      "path": "TheoryOfComputation/Language Class/Identification of Regular Languages.md"
+    },
+    {
+      "basename": "Identification of CFL, DCFL",
+      "path": "TheoryOfComputation/Language Class/Identification of CFL, DCFL.md"
     },
     {
       "basename": "Myhill Nerode Theorem",
@@ -18,7 +30,7 @@
     },
     {
       "basename": "Push Down Automata",
-      "path": "TheoryOfComputation/Push Down Automata.md"
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Push Down Automata.md"
     },
     {
       "basename": "Basic Concepts of TOC",
@@ -59,10 +71,6 @@
     {
       "basename": "Deterministic Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
-    },
-    {
-      "basename": "Doubt - Regular Languages and Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md"
     },
     {
       "basename": "Equivalence Relation",
@@ -191,14 +199,6 @@
     {
       "basename": "ER Model to Relational Model Conversion",
       "path": "DatabaseManagementSystem/ER-Model/ER Model to Relational Model Conversion.md"
-    },
-    {
-      "basename": "ER Model",
-      "path": "DatabaseManagementSystem/ER-Model/ER Model.md"
-    },
-    {
-      "basename": "Relational Model",
-      "path": "DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
     }
   ],
   "omittedPaths": [

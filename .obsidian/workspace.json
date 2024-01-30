@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "1fbe2c81c3bb0cf6",
+            "id": "52ddc2991895c96b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheoryOfComputation/Identification of Regular Languages.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e7615ed3a2a8bdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheoryOfComputation/Identification of CFL, DCFL.md",
+                "file": "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Identification of CFL, DCFL.md",
+                "file": "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Identification of CFL, DCFL.md",
+                "file": "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Identification of CFL, DCFL.md"
+                "file": "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md"
               }
             }
           },
@@ -250,13 +237,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6e7615ed3a2a8bdc",
+  "active": "52ddc2991895c96b",
   "lastOpenFiles": [
-    "TheoryOfComputation/Identification of Regular Languages.md",
-    "TheoryOfComputation/Identification of CFL, DCFL.md",
     "TheoryOfComputation/Theory of Computation.md",
+    "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
+    "DiscreteMathematics/Group Theory/Properties in Group Theory.md",
+    "TheoryOfComputation/Closure Properties",
+    "TheoryOfComputation/Language Class",
+    "TheoryOfComputation/Language Class/Identification of Regular Languages.md",
+    "TheoryOfComputation/Language Class/Identification of CFL, DCFL.md",
+    "attachments/Identification of CFL, DCFL-20240129203107033.webp",
     "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
-    "TheoryOfComputation/Push Down Automata.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Push Down Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
     "attachments/Push Down Automata-20240126091354375.webp",
     "attachments/Push Down Automata-20240123115422283.webp",
@@ -275,9 +268,7 @@
     "attachments/Context Free Grammar-20240118220754917.webp",
     "attachments/Context Free Grammar-20240118220345749.webp",
     "GATE-materials/Links for Resources.md",
-    "attachments/Context Free Grammar-20240117165201347.webp",
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA",
     "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md",
@@ -288,16 +279,12 @@
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
     "GATE-LOG.md",
     "daily-agenda/2024-01-02.md",
-    "Pending Lectures.md",
-    "daily-agenda/2023-11-04.md",
     "OperatingSystems",
     "DataStructures/Row and Column Major Mapping",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery",
     "attachments/DatabaseManagementSystem/ER-Model/ER Model",
     "attachments/DatabaseManagementSystem/ER-Model",
     "attachments/DatabaseManagementSystem",
-    "attachments/DatabaseManagementSystem/ER-Model/ER Model/IMG-20231209215520398.svg.xml",
-    "DatabaseManagementSystem/ER-Model",
-    "DataStructures/Hashing"
+    "attachments/DatabaseManagementSystem/ER-Model/ER Model/IMG-20231209215520398.svg.xml"
   ]
 }
