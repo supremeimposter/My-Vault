@@ -37,6 +37,9 @@ tags:
 - [[Identification of Regular Languages]]
 - [[Identification of CFL, DCFL]]
 
+# Module 4 - Closure Properties
+
+- [[Closure Properties of Regular Languages]]
 
 ---
 # Tests and Solutions

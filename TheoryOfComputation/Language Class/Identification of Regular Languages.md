@@ -8,7 +8,7 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - TheoryOfComputation/LanguageClass
+  - TheoryOfComputation/Language
 ---
 # Identification of Regular Languages
 > [!youtube] 

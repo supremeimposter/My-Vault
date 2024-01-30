@@ -8,7 +8,7 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - TheoryOfComputation/LanguageClass
+  - TheoryOfComputation/Language
 ---
 # Identification of CFL and DCFL
 > [!youtube] 
@@ -18,3 +18,8 @@ tags:
 - There are languages which DPDA cannot recognize but PDA can recognize because of non-determinism.
 - PDA can find the middle.
 - Every DCFL is a CFL, but NOT every CFL is a DCFL.
+- There is no CFL, DCFL which is NOT regular on unary alphabet.
+
+> [!discussion] 
+> ![[Identification of CFL, DCFL-20240129203107033.webp|Pg. 158]]
+
