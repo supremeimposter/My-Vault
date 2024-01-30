@@ -36,7 +36,7 @@ $$
 
 ## Algebraic Structure with single binary operation
 - For a single base set, there is a single binary operation.
-- There are certain [[Properties|properties]] of algebraic structures.
+- There are certain [[Properties in Group Theory|properties]] of algebraic structures.
 
 > [!doubt] 
 > If the given set is closed under the binary operation, then it is an algebraic structure. No need to consider other properties such as associative, identity, etc...
@@ -54,11 +54,11 @@ $$
 
 
 > [!important] 
-> The above structures are NOT guaranteed to be [[Properties#Commutative Property|commutative]].
+> The above structures are NOT guaranteed to be [[Properties in Group Theory#Commutative Property|commutative]].
 
 
 - Every group is a Magma, but NOT every magma is a group.
-- If any magma satisfies [[Properties#Commutative Property|commutative]] property, then it is called abelian magma.
+- If any magma satisfies [[Properties in Group Theory#Commutative Property|commutative]] property, then it is called abelian magma.
 - A magma may or may not satisfy associative property.
 
 

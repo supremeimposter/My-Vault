@@ -17,6 +17,9 @@ tags:
 - Operation on any two elements in the base set (same or different), the result must be an element from the base set.
 - $(S, \#)$ satisfy closure property iff $\forall a, b \in S \; a \# b \in S$ 
 
+> [!abstract] 
+> What happens in a set, stays inside the set
+
 ## Operation table
 - Operation table is used to check the closure property.
 - Read as "row operation column"

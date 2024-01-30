@@ -110,7 +110,7 @@ flowchart LR
 ---
 ## Group Theory
 - [[Abstract Algebra]]
-- [[Properties]]
+- [[Properties in Group Theory]]
 - [[Monoid]]
 - [[Group]]
 - [[Semi-Group]]
