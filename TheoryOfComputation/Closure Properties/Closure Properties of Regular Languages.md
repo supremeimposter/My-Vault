@@ -19,3 +19,12 @@ tags:
 - If $L$ is any regular language, then $\overline{L}$ will always be a regular language.
 - If a DFA $D$ recognizes the regular language $L$, then the DFA $\overline{D}$ recognizes the complement of the regular language $\overline{L}$. 
 - If a NFA $N$ recognizes the regular language $L$, then the NFA $\overline{N}$ ***does not necessarily*** recognize the complement of the regular language $\overline{L}$. 
+
+## Union Operation
+- Regular Languages are closed under union operation.
+- If $L_1$ and $L_2$ are any two regular languages, then $L_1 \cup L_2$ will always be a regular language.
+
+## Intersection Operation
+- Regular Languages are closed under intersection operation.
+
+> [!timer] 01:39:09
