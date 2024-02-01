@@ -27,4 +27,30 @@ tags:
 ## Intersection Operation
 - Regular Languages are closed under intersection operation.
 
-> [!timer] 01:39:09
+## Difference Operation
+- Regular Languages are closed under set difference operation.
+
+## Symmetric Difference Operation
+- Regular Languages are closed under symmetric difference operation.
+$$
+L_1 \oplus L_2 = L_1 \Delta L_2 = (L_1 - L_2) \cup (L_2 - L_1)
+$$
+
+## Concatenation Operation
+- Regular Languages are closed under concatenation operation.
+
+## Kleene Star Operation
+- Regular Languages are closed under kleene star operation.
+
+## Reversal Operation
+- Regular Languages are closed under reversal operation.
+
+| Regular Expression for $L$ | Regular Expression for $L^R$ |
+| ---- | ---- |
+| $r+s$ | $r^R+s^R$ |
+| $r \cdot s$ | $s^R \cdot r^R$ |
+| $s^\ast$ | $(s^R)^\ast$ |
+| $\phi$ | $\phi$ |
+| $\epsilon$ | $\epsilon$ |
+| $a$ | $a$ |
+
