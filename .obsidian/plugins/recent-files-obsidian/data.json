@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Closure Properties of Regular Languages",
-      "path": "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md"
+      "basename": "Closure Properties of CFL",
+      "path": "TheoryOfComputation/Closure Properties/Closure Properties of CFL.md"
     },
     {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Context Free Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
+    },
+    {
+      "basename": "Closure Properties of Regular Languages",
+      "path": "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md"
+    },
+    {
+      "basename": "Introduction to Theory of Computation",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md"
     },
     {
       "basename": "Doubt - Regular Languages and Finite Automata",
@@ -47,10 +59,6 @@
     {
       "basename": "Grammar",
       "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md"
-    },
-    {
-      "basename": "Context Free Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
     },
     {
       "basename": "Regular Grammar",
@@ -137,10 +145,6 @@
       "path": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Reflexive Relation.md"
     },
     {
-      "basename": "Introduction to Theory of Computation",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md"
-    },
-    {
       "basename": "Pending Notes",
       "path": "Pending Notes.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Data Structures",
       "path": "DataStructures/Data Structures.md"
-    },
-    {
-      "basename": "ER Model to Relational Model Conversion",
-      "path": "DatabaseManagementSystem/ER-Model/ER Model to Relational Model Conversion.md"
     }
   ],
   "omittedPaths": [

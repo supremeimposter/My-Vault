@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md",
+                "file": "TheoryOfComputation/Closure Properties/Closure Properties of CFL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,8 +96,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md",
+                "file": "TheoryOfComputation/Closure Properties/Closure Properties of CFL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md",
+                "file": "TheoryOfComputation/Closure Properties/Closure Properties of CFL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md"
+                "file": "TheoryOfComputation/Closure Properties/Closure Properties of CFL.md"
               }
             }
           },
@@ -240,7 +239,10 @@
   "active": "52ddc2991895c96b",
   "lastOpenFiles": [
     "TheoryOfComputation/Theory of Computation.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
+    "TheoryOfComputation/Closure Properties/Closure Properties of CFL.md",
     "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
     "DiscreteMathematics/Group Theory/Properties in Group Theory.md",
     "TheoryOfComputation/Closure Properties",
@@ -258,7 +260,6 @@
     "Weekly-Quizzes/Weekly Quizzes.md",
     "GATE-CS.md",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md",
-    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md",
     "attachments/Context Free Grammar-20240119180258471.webp",
@@ -277,8 +278,6 @@
     "Untitled.canvas",
     "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of DFA and NFA.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md",
-    "GATE-LOG.md",
-    "daily-agenda/2024-01-02.md",
     "OperatingSystems",
     "DataStructures/Row and Column Major Mapping",
     "DatabaseManagementSystem/Transaction-Management-and-Recovery",
