@@ -72,7 +72,7 @@ $$
 ## Deterministic PDA
 - PDA with no chance of determinism.
 - Non-determinism in PDA is determined by both the current symbol on the input tape and the symbol in the top of the stack.
-
+- Every DPDA has an equivalent DPDA that always reads the entire input string.
 
 > [!discussion] 
 > ![[Push Down Automata-20240126091354375.webp]]

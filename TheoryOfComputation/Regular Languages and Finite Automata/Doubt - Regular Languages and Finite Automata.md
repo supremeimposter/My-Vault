@@ -16,6 +16,7 @@ $$
 \text{Regular Language } L \leftrightarrow L \text{ recognized by DFA}
 $$
 - A language which is recognised by DFA is called a regular language. A language which is not recognised by DFA is called a Non-regular language.
+- For every regular language $L$, minimal DFA for $L$ and $\overline{L}$ always has the same number of states.
 
 ### DFA for complement of a regular language
 > [!youtube] [DFA for Complement of a Regular Language | Complementing a DFA | TOC | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=HE2iPU8qZaQ)

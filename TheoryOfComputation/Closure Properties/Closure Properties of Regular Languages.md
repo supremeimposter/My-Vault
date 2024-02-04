@@ -54,3 +54,8 @@ $$
 | $\epsilon$ | $\epsilon$ |
 | $a$ | $a$ |
 
+> [!youtube] 
+> [GATE CSE 2021 - Number of States in Minimal DFA for L and L-Complement | Theory of Computation - YouTube](https://www.youtube.com/watch?v=3szxKVVUo1A)
+
+> [!youtube] 
+> [GATE CS 1989 Q3 | Closure Properties of CFLs & Regular - With Proof |TOC | GoClasses | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=bz2b4XNjsWY)
