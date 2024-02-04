@@ -321,8 +321,8 @@
       "type": "steps",
       "color": "217, 185, 23",
       "icon": {
-        "name": "step-forward",
-        "type": "font-awesome"
+        "type": "obsidian",
+        "name": "lucide-cassette-tape"
       },
       "command": false,
       "injectColor": true,
@@ -384,6 +384,29 @@
         "type": "font-awesome"
       },
       "command": false,
+      "injectColor": true,
+      "noTitle": false
+    },
+    "foreshadow": {
+      "type": "foreshadow",
+      "color": "27, 187, 185",
+      "icon": {
+        "name": "step-forward",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
+    },
+    "pause": {
+      "type": "pause",
+      "color": "32, 207, 94",
+      "icon": {
+        "name": "pause",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Pause and Ponder",
       "injectColor": true,
       "noTitle": false
     }
