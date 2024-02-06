@@ -17,6 +17,7 @@ tags:
 > [!remember] 
 > - Accepting a string is similar to solving a computational problem.
 > - Turing Machine is the most powerful computational machine.
+> - Turing Machine is not a physical machine.
 
 - Turing Machine (TM) = FA + Infinite tape
 - Tape is ***not*** the input tape. Tape is a data structure of infinite number of cells for turing machine.
@@ -35,7 +36,7 @@ tags:
 ## Design of Turing Machine
 > [!youtube] 
 > [Lecture 2 - Turing Machine Design | Theory of Computation - YouTube](https://www.youtube.com/watch?v=zx4YHLWA46w)
-
+- Turing Machines are deterministic.
 
 > [!NOTE] 
 > Statements such as "Every DFA is a TM", "Every PDA is a TM" signifies lack of knowledge or a lack in understanding.
@@ -44,5 +45,9 @@ tags:
 > [!youtube] 
 > [Lecture 4 - Some Conjectures | Goldbach Conjecture | 3x+1 Conjecture | Theory of Computation - YouTube](https://www.youtube.com/watch?v=urSoOs3CPvQ)
 
+- Any string will be accepted or rejected on any number of steps (transitions) regardless of the length of the string.
+- In any turing machine, the unreachable states from the initial state can be safely removed.
 
+- Looping does not mean only some configuration is repeating.
 
+> [!timer] 00:39:41
