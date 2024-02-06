@@ -1,7 +1,7 @@
 ---
 pdf: 
 module: 5
-lecture: 1, 2
+lecture: 1, 2, 3
 date: 2024-02-04T10:38:00
 version:
   - TOC-24
@@ -35,6 +35,14 @@ tags:
 ## Design of Turing Machine
 > [!youtube] 
 > [Lecture 2 - Turing Machine Design | Theory of Computation - YouTube](https://www.youtube.com/watch?v=zx4YHLWA46w)
+
+
+> [!NOTE] 
+> Statements such as "Every DFA is a TM", "Every PDA is a TM" signifies lack of knowledge or a lack in understanding.
+
+
+> [!youtube] 
+> [Lecture 4 - Some Conjectures | Goldbach Conjecture | 3x+1 Conjecture | Theory of Computation - YouTube](https://www.youtube.com/watch?v=urSoOs3CPvQ)
 
 
 
