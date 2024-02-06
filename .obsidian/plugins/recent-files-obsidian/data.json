@@ -5,6 +5,10 @@
       "path": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md"
     },
     {
+      "basename": "Verbal-Ability",
+      "path": "Aptitude/Verbal-Ability/Verbal-Ability.md"
+    },
+    {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "What happens when a system is started?",
       "path": "OperatingSystems/What happens when a system is started?.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "DatabaseManagementSystem/Database Management System.md"
     }
   ],
   "omittedPaths": [
