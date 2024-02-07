@@ -5,12 +5,12 @@
       "path": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md"
     },
     {
-      "basename": "Verbal-Ability",
-      "path": "Aptitude/Verbal-Ability/Verbal-Ability.md"
-    },
-    {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Verbal-Ability",
+      "path": "Aptitude/Verbal-Ability/Verbal-Ability.md"
     },
     {
       "basename": "Doubt - Regular Languages and Finite Automata",
