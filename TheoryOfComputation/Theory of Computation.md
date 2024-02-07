@@ -50,6 +50,8 @@ tags:
 # Module 5 - Turing Machines, Undecidability
 
 - [[Turing Machines]]
+- [[Variants of Turing Machine]]
+- [[Dovetailiing]]
 
 ---
 # Tests and Solutions
