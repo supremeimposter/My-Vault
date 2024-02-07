@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Turing Machines",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md"
+      "basename": "Dovetailiing",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md"
     },
     {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Variants of Turing Machine",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Variants of Turing Machine.md"
+    },
+    {
+      "basename": "Turing Machines",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md"
     },
     {
       "basename": "Verbal-Ability",
@@ -191,14 +199,6 @@
     {
       "basename": "Introduction to Operating Systems",
       "path": "OperatingSystems/Introduction to Operating Systems.md"
-    },
-    {
-      "basename": "Operating Systems",
-      "path": "OperatingSystems/Operating Systems.md"
-    },
-    {
-      "basename": "What happens when a system is started?",
-      "path": "OperatingSystems/What happens when a system is started?.md"
     }
   ],
   "omittedPaths": [
