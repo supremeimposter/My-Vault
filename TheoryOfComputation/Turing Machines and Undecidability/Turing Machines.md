@@ -33,21 +33,25 @@ tags:
 | --- | --- |
 |  |  |
 
-## Design of Turing Machine
-> [!youtube] 
-> [Lecture 2 - Turing Machine Design | Theory of Computation - YouTube](https://www.youtube.com/watch?v=zx4YHLWA46w)
 - Turing Machines are deterministic.
 
 > [!NOTE] 
 > Statements such as "Every DFA is a TM", "Every PDA is a TM" signifies lack of knowledge or a lack in understanding.
 
-
-> [!youtube] 
-> [Lecture 4 - Some Conjectures | Goldbach Conjecture | 3x+1 Conjecture | Theory of Computation - YouTube](https://www.youtube.com/watch?v=urSoOs3CPvQ)
-
 - Any string will be accepted or rejected on any number of steps (transitions) regardless of the length of the string.
 - In any turing machine, the unreachable states from the initial state can be safely removed.
 
-- Looping does not mean only some configuration is repeating.
+- Looping does not only mean that some configuration is repeating, but the turing machine is never halting.
+- We cannot say whether some program will halt or not.
 
-> [!timer] 00:39:41
+## Decider and Decidable
+
+- A language $L$ is decidable, if it accepts or rejects a string within a finite amount of time.
+
+
+---
+
+> [!youtube] 
+> [Lecture 2 - Turing Machine Design | Theory of Computation - YouTube](https://www.youtube.com/watch?v=zx4YHLWA46w)
+> [Lecture 4 - Some Conjectures | Goldbach Conjecture | 3x+1 Conjecture | Theory of Computation - YouTube](https://www.youtube.com/watch?v=urSoOs3CPvQ)
+> [Lecture 8 - Revision - Story So Far - Turing Machines | Theory of Computation - YouTube](https://www.youtube.com/watch?v=WzF5J_PTxpw)
