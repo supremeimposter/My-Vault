@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Dovetailiing",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md"
+      "basename": "Turing Machines",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md"
+    },
+    {
+      "basename": "Language and Decision Problem",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Language and Decision Problem.md"
     },
     {
       "basename": "Theory of Computation",
@@ -13,8 +17,8 @@
       "path": "TheoryOfComputation/Turing Machines and Undecidability/Variants of Turing Machine.md"
     },
     {
-      "basename": "Turing Machines",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md"
+      "basename": "Dovetailiing",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md"
     },
     {
       "basename": "Verbal-Ability",
@@ -195,10 +199,6 @@
     {
       "basename": "Process in Operating Systems",
       "path": "OperatingSystems/Process in Operating Systems.md"
-    },
-    {
-      "basename": "Introduction to Operating Systems",
-      "path": "OperatingSystems/Introduction to Operating Systems.md"
     }
   ],
   "omittedPaths": [

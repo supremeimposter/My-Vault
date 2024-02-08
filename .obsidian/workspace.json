@@ -34,25 +34,12 @@
             }
           },
           {
-            "id": "4120cee3a4ea796e",
+            "id": "b37e5076a612ca55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheoryOfComputation/Turing Machines and Undecidability/Variants of Turing Machine.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d90c2ab1e1e5387c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md",
+                "file": "TheoryOfComputation/Turing Machines and Undecidability/Language and Decision Problem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md",
+                "file": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md",
+                "file": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md"
+                "file": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md"
               }
             }
           },
@@ -263,30 +250,30 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d90c2ab1e1e5387c",
+  "active": "f1c062e54674cf6a",
   "lastOpenFiles": [
+    "TheoryOfComputation/Turing Machines and Undecidability/Language and Decision Problem.md",
+    "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md",
+    "TheoryOfComputation/Theory of Computation.md",
+    "TheoryOfComputation/Turing Machines and Undecidability/Variants of Turing Machine.md",
+    "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md",
+    "attachments/Dovetailiing-20240208080352449.webp",
+    "attachments/Dovetailiing-20240208080216414.webp",
+    "attachments/Dovetailiing-20240208080035212.webp",
+    "attachments/Dovetailiing-20240208075908376.webp",
+    "attachments/Dovetailiing-20240208075657674.webp",
+    "attachments/Dovetailiing-20240208075334973.webp",
+    "attachments/Dovetailiing-20240208074713684.webp",
     "attachments/Dovetailiing-20240207231746217.webp",
     "attachments/Dovetailiing-20240207231504591.webp",
     "attachments/Dovetailiing-20240207231348608.webp",
-    "attachments/Dovetailiing-20240207231055557.webp",
-    "TheoryOfComputation/Theory of Computation.md",
-    "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md",
-    "TheoryOfComputation/Turing Machines and Undecidability/Variants of Turing Machine.md",
-    "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md",
     "Aptitude/Verbal-Ability/Verbal-Ability.md",
-    "attachments/Turing Machines-20240204141812202.webp",
-    "attachments/Turing Machines-20240204141806370.webp",
-    "attachments/Turing Machines-20240204141724596.webp",
-    "attachments/Turing Machines-20240204141634004.webp",
     "TheoryOfComputation/Turing Machines and Undecidability",
     "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
     "Weekly-Quizzes/Weekly Quizzes.md",
     "TheoryOfComputation/Closure Properties/Closure Properties of DCFL.md",
     "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md",
-    "attachments/Closure Properties of DCFL-20240204093332652.webp",
-    "attachments/Closure Properties of DCFL-20240204091337877.webp",
-    "attachments/Closure Properties of DCFL-20240204091317318.webp",
     "TheoryOfComputation/Closure Properties/Non Closure of Languages.md",
     "TheoryOfComputation/Closure Properties/Closure Properties of Finite Languages.md",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md",
