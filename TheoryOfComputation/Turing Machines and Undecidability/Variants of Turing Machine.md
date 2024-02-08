@@ -28,5 +28,11 @@ tags:
 
 > [!header] Non Deterministic Turing Machine
 - Every NTM has an equivalent DTM.
-- DTM performs BFS on tree computation, because on a DFS it may get stuck on an infinite loop route.
+- DTM performs BFS on tree computation, because on a DFS it may get stuck on an infinite loop route which is similar to [[Dovetailiing#^idea1ofdovetailing|idea #1 of dovetailing]].
+
+
+
+> [!summary] 
+
+
 

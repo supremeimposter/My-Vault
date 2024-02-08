@@ -52,6 +52,7 @@ tags:
 - [[Turing Machines]]
 - [[Variants of Turing Machine]]
 - [[Dovetailiing]]
+- [[Language and Decision Problem]]
 
 ---
 # Tests and Solutions

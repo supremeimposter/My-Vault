@@ -47,6 +47,17 @@ tags:
 ## Decider and Decidable
 
 - A language $L$ is decidable, if it accepts or rejects a string within a finite amount of time.
+- The informal notion of an [[Algorithms]] corresponds exactly to a Turing Machine that halts on all inputs.
+
+### Encoding of Alphabet
+- Input to a turing machine is a string of symbols over an alphabet.
+- Encodings are basically strings of symbols over an alphabet. The encoding alphabet can be of our choice. 
+- For a finite mathematical object $M$, we will use $\langle M \rangle$ to denote the encoding of $M$ as a string. The exact details of the encoding won't matter.
+- Any finite object can be encoded into any encoding over any alphabet (unary, binary, ternary, $\ldots$)
+- Any n-ary encoding can be converted into any n-ary encoding by Turing machine. Thats why any finite object can be encoded over any n-ary alphabet.
+- Finite representations are made for class of languages.
+- Finite representations (DFA, NFA) are created for regular languages that are infinite i.e. $\Sigma^\ast$
+- There are algorithms to convert one finite representation of a class of languages into another finite representation of same class of languages.
 
 
 ---
