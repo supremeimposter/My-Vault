@@ -1,28 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Turing Machines",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md"
-    },
-    {
-      "basename": "Language and Decision Problem",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Language and Decision Problem.md"
+      "basename": "Simplification of Context Free Grammars",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Simplification of Context Free Grammars.md"
     },
     {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
     },
     {
-      "basename": "Variants of Turing Machine",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Variants of Turing Machine.md"
+      "basename": "Decision Problems of Language Classes",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md"
     },
     {
-      "basename": "Dovetailiing",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md"
+      "basename": "Deterministic Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
     },
     {
-      "basename": "Verbal-Ability",
-      "path": "Aptitude/Verbal-Ability/Verbal-Ability.md"
+      "basename": "Language and Decision Problem",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Language and Decision Problem.md"
     },
     {
       "basename": "Doubt - Regular Languages and Finite Automata",
@@ -31,6 +27,22 @@
     {
       "basename": "Myhill Nerode Theorem",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md"
+    },
+    {
+      "basename": "Turing Machines",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md"
+    },
+    {
+      "basename": "Dovetailiing",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md"
+    },
+    {
+      "basename": "Variants of Turing Machine",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Variants of Turing Machine.md"
+    },
+    {
+      "basename": "Verbal-Ability",
+      "path": "Aptitude/Verbal-Ability/Verbal-Ability.md"
     },
     {
       "basename": "Weekly Quizzes",
@@ -117,10 +129,6 @@
       "path": "GATE-materials/Links for Resources.md"
     },
     {
-      "basename": "Deterministic Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
-    },
-    {
       "basename": "Equivalence Relation",
       "path": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Equivalence Relation.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Procedural and Declarative Query Languages",
       "path": "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md"
-    },
-    {
-      "basename": "System Calls",
-      "path": "OperatingSystems/System Calls.md"
-    },
-    {
-      "basename": "Process in Operating Systems",
-      "path": "OperatingSystems/Process in Operating Systems.md"
     }
   ],
   "omittedPaths": [
