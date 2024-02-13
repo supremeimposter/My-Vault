@@ -9,9 +9,11 @@ last-revision:
 notes-taken: false
 tags:
   - TheoryOfComputation/TuringMachine
+  - TheoryOfComputation/Decidability
 ---
 # Dovetailing
 - Proving languages recognizable or decidable often requires a technique called dovetailing.
+- Dovetailing works only when working with languages of Turing Machines.
 - In all the scenarios, there is only 1 person. No parallel digging is going on. Taiju-kun has to do all the work single-handedly, while Senku takes care of all the brainy stuffs.
 
 > [!header] **Scenario 1** : There is at least one finite tunnel among finite number of tunnels
@@ -54,3 +56,10 @@ tags:
 ![[Dovetailiing-20240208080352449.webp|Summary of More Interleaving method]]
 
 - This more interleaving method is definitely guaranteed to work.
+
+
+> [!header] Scenario 3 : There are two infinite tunnels
+
+![[Dovetailiing-20240211162728851.webp]]
+
+- It is not guaranteed that Taiju will find the tunnel even if dovetailing is used.

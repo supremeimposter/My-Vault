@@ -53,6 +53,8 @@ tags:
 - [[Variants of Turing Machine]]
 - [[Dovetailiing]]
 - [[Language and Decision Problem]]
+- [[Decision Problems of Language Classes]]
+- [[Simplification of Context Free Grammars]]
 
 ---
 # Tests and Solutions

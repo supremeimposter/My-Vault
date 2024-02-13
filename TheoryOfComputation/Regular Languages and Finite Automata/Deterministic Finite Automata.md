@@ -125,6 +125,7 @@ The resultant language $\overline {L}$ is the complement of the language $L$.
 
 - For a regular language, there can be infinite number of DFAs.
 - A DFA accepts unique regular language.
+- In a minimal DFA, there are no unreachable states.
 
 > [!think] 
 > Out of the infinite number of DFAs for a regular language, which of them has minimum number of states.

@@ -48,8 +48,15 @@ tags:
 
 - A language $L$ is decidable, if it accepts or rejects a string within a finite amount of time.
 - The informal notion of an [[Algorithms]] corresponds exactly to a Turing Machine that halts on all inputs.
+- Halting Turing machine is less powerful than Turing machine.
+- Every Halting Turing machine is a Turing machine i.e. Every decider is a recognizer, but every turing machine is not a decider.
+- If a language is recursive, then its corresponding decision problem is called decidable.
+- If a decision problem is decidable, then its corresponding language is called recursive.
 
-### Encoding of Alphabet
+> [!discussion] Lecture 12B
+> ![[Turing Machines-20240211153558544.webp]]
+
+## Encoding of Alphabet
 - Input to a turing machine is a string of symbols over an alphabet.
 - Encodings are basically strings of symbols over an alphabet. The encoding alphabet can be of our choice. 
 - For a finite mathematical object $M$, we will use $\langle M \rangle$ to denote the encoding of $M$ as a string. The exact details of the encoding won't matter.
@@ -58,6 +65,9 @@ tags:
 - Finite representations are made for class of languages.
 - Finite representations (DFA, NFA) are created for regular languages that are infinite i.e. $\Sigma^\ast$
 - There are algorithms to convert one finite representation of a class of languages into another finite representation of same class of languages.
+
+
+## High Level Descriptions
 
 
 ---

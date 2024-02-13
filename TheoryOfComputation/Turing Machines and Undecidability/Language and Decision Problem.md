@@ -9,6 +9,7 @@ last-revision:
 notes-taken: false
 tags:
   - TheoryOfComputation/Language
+  - TheoryOfComputation/Decidability
 ---
 # Language and Decision Problem
 
