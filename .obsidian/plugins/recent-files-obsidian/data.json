@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Simplification of Context Free Grammars",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Simplification of Context Free Grammars.md"
+      "basename": "Decision Problems of Language Classes",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md"
     },
     {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
     },
     {
-      "basename": "Decision Problems of Language Classes",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md"
+      "basename": "Turing Machines",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md"
+    },
+    {
+      "basename": "Simplification of Context Free Grammars",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Simplification of Context Free Grammars.md"
+    },
+    {
+      "basename": "Context Free Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
+    },
+    {
+      "basename": "Normal Forms of Context Free Grammars",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Normal Forms of Context Free Grammars.md"
+    },
+    {
+      "basename": "Regular Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md"
     },
     {
       "basename": "Deterministic Finite Automata",
@@ -27,10 +43,6 @@
     {
       "basename": "Myhill Nerode Theorem",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md"
-    },
-    {
-      "basename": "Turing Machines",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md"
     },
     {
       "basename": "Dovetailiing",
@@ -89,10 +101,6 @@
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md"
     },
     {
-      "basename": "Context Free Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
-    },
-    {
       "basename": "Properties in Group Theory",
       "path": "DiscreteMathematics/Group Theory/Properties in Group Theory.md"
     },
@@ -111,10 +119,6 @@
     {
       "basename": "GATE-CS",
       "path": "GATE-CS.md"
-    },
-    {
-      "basename": "Regular Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md"
     },
     {
       "basename": "Linear Grammar",
@@ -191,14 +195,6 @@
     {
       "basename": "Reflexive Relation",
       "path": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Reflexive Relation.md"
-    },
-    {
-      "basename": "Pending Notes",
-      "path": "Pending Notes.md"
-    },
-    {
-      "basename": "Procedural and Declarative Query Languages",
-      "path": "DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md"
     }
   ],
   "omittedPaths": [

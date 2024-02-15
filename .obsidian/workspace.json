@@ -21,20 +21,7 @@
             }
           },
           {
-            "id": "af5f772494f3cba2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f1c062e54674cf6a",
+            "id": "2d364b2329b44626",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,7 +34,7 @@
             }
           },
           {
-            "id": "60ff49b442391791",
+            "id": "024c2ced65e64316",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,22 +45,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5200665608ccf541",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheoryOfComputation/Turing Machines and Undecidability/Simplification of Context Free Grammars.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "minimal DFA",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Turing Machines and Undecidability/Simplification of Context Free Grammars.md",
+                "file": "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Turing Machines and Undecidability/Simplification of Context Free Grammars.md",
+                "file": "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Turing Machines and Undecidability/Simplification of Context Free Grammars.md"
+                "file": "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md"
               }
             }
           },
@@ -276,18 +250,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5200665608ccf541",
+  "active": "024c2ced65e64316",
   "lastOpenFiles": [
+    "TheoryOfComputation/Theory of Computation.md",
+    "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Simplification of Context Free Grammars.md",
+    "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Normal Forms of Context Free Grammars.md",
+    "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Context Free Languages.md",
+    "attachments/Normal Forms of Context Free Grammars-20240214182310827.webp",
+    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md",
     "attachments/Simplification of Context Free Grammars-20240213185418970.webp",
     "attachments/Simplification of Context Free Grammars-20240213185031145.webp",
-    "TheoryOfComputation/Theory of Computation.md",
-    "TheoryOfComputation/Turing Machines and Undecidability/Simplification of Context Free Grammars.md",
-    "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
     "TheoryOfComputation/Turing Machines and Undecidability/Language and Decision Problem.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
-    "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md",
     "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md",
     "attachments/Dovetailiing-20240211162728851.webp",
     "attachments/Turing Machines-20240211153558544.webp",
@@ -297,8 +276,6 @@
     "attachments/Dovetailiing-20240208080035212.webp",
     "attachments/Dovetailiing-20240208075908376.webp",
     "attachments/Dovetailiing-20240208075657674.webp",
-    "attachments/Dovetailiing-20240208075334973.webp",
-    "attachments/Dovetailiing-20240208074713684.webp",
     "Aptitude/Verbal-Ability/Verbal-Ability.md",
     "TheoryOfComputation/Turing Machines and Undecidability",
     "Weekly-Quizzes/Weekly Quizzes.md",
@@ -312,11 +289,8 @@
     "TheoryOfComputation/Context Free Languages-Grammars-PDA/Push Down Automata.md",
     "TheoryOfComputation/Closure Properties/Closure Properties of CFL.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md",
-    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
-    "DiscreteMathematics/Group Theory/Properties in Group Theory.md",
     "TheoryOfComputation/Closure Properties",
     "TheoryOfComputation/Language Class",
-    "TheoryOfComputation/Language Class/Identification of Regular Languages.md",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA",
     "Untitled.canvas",
     "OperatingSystems",
