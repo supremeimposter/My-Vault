@@ -1,7 +1,7 @@
 ---
 pdf: 
 module: 5
-lecture: "14"
+lecture: 14, 15D
 date: 2024-02-12T14:08:00
 version:
   - TOC-24
@@ -59,7 +59,44 @@ tags:
 
 
 
----
 
 > [!youtube] 
 > [Lecture 14B - Practice Questions on Decision Problems of Regular Languages | Theory of Computation - YouTube](https://www.youtube.com/watch?v=0gE5bNdzxE8)
+
+---
+## Decision Problems of Context Free Languages
+
+> [!definition] Membership problem of CFL
+
+- To run a string $w$ on a PDA $P$, $P$ can be converted into an equivalent PDA $P'$ such that $P'$ does not have any $\epsilon$-transitions.
+
+> [!definition] Emptiness problem of CFL
+
+> [!definition] Finiteness problem of CFL
+
+> [!definition] Undecidable problem of CFL
+
+> [!definition] Disjointness problem of CFL
+
+> [!definition] Equivalence problem of CFL
+
+> [!definition] Universality problem of CFL
+
+> [!definition] Containment problem of CFL
+
+> [!definition] Regularity problem of CFL
+
+> [!definition] Ambiguity problem of CFL
+
+> [!definition] Complementation problem of CFL
+
+---
+## Decision Problems of Turing Machine
+
+> [!definition] Membership problem of TM
+
+
+> [!timer] 00:33:46
+
+
+---

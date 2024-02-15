@@ -24,3 +24,14 @@ tags:
 ![[Simplification of Context Free Grammars-20240213185418970.webp]]
 
 ## Removing Null Productions
+
+> [!header] Given CFG $G$, such that $\lambda \not\in \mathcal{L}(G)$
+
+
+> [!header] Given CFG $G$, such that $\lambda \in \mathcal{L}(G)$
+
+
+> [!header] Nullable variables
+
+- If the starting variable $S$ is not nullable, then $\lambda \not\in L$ 
+- If the starting variable $S$ is nullable, then $\lambda \in L$ 

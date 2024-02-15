@@ -92,3 +92,7 @@ Traverse from right to left in depth-first manner.
 - If there exists a unambiguous grammar for a language, then the language it is NOT inherently ambiguous.
 - A regular language CANNOT be inherently ambiguous.
 - A DCFL is never inherently ambiguous.
+
+## CYK Parser
+> [!NOTE] This algorithm is NOT required for GATE
+

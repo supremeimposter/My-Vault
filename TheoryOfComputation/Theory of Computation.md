@@ -31,6 +31,8 @@ tags:
 - [[Linear Grammar]]
 - [[Regular Grammar]]
 - [[Push Down Automata]]
+- [[Simplification of Context Free Grammars]]
+- [[Normal Forms of Context Free Grammars]]
 
 # Module 3 - Identification of Language Class
 
@@ -54,7 +56,6 @@ tags:
 - [[Dovetailiing]]
 - [[Language and Decision Problem]]
 - [[Decision Problems of Language Classes]]
-- [[Simplification of Context Free Grammars]]
 
 ---
 # Tests and Solutions
