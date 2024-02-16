@@ -112,3 +112,5 @@
 **November 30, 2023** Respecting a teacher is different from blindly following him/her. 
 
 **January 3, 2024** You are not writing a book. You did not do any post-doc. Just make clear notes that you can understand well. Do not worry about making a digital garden. You have a lot of things to worry about.
+
+**February 16, 2024** "Don't blindly believe or stick to one resource, even if it is GO classes. You won't grow" - Deepak Poonia.

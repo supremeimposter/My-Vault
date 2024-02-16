@@ -1,9 +1,7 @@
-Jan - TOC, DL
-Feb - DL, Compiler, Algo
-March - DM combinatronics, DM Graph Theory
-April - OS
-May - COA
-June - CN
+Feb - TOC, DL
+March - Compiler, COA, Algo
+April - Algo, CN, OS
+May - Discrete pending
 
 Revision
 
