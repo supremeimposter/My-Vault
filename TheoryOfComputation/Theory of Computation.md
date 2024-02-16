@@ -56,6 +56,8 @@ tags:
 - [[Dovetailiing]]
 - [[Language and Decision Problem]]
 - [[Decision Problems of Language Classes]]
+- [[Rice Theorem]]
+
 
 ---
 # Tests and Solutions

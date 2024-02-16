@@ -1,7 +1,7 @@
 ---
 pdf: 
 module: 5
-lecture: 14, 15D
+lecture: 14, 15D, 16A, 16B
 date: 2024-02-12T14:08:00
 version:
   - TOC-24
@@ -15,6 +15,7 @@ tags:
 # Decision Problems of Language Class
 - Finite representation of any language class can be converted into any other finite representation of the same language class.
 - For each problem, clearly define the input and the output.
+- Membership problem is also called as Acceptance problem.
 ## Decision Problems of Regular Languages
 
 > [!header] Finite Representations of Regular Languages
@@ -95,8 +96,15 @@ tags:
 
 > [!definition] Membership problem of TM
 
+- This problem is whether a string is accepted by the TM or not.
 
-> [!timer] 00:33:46
+> [!definition] Halting problem of TM
+
+- This problem is whether the TM halts or not.
+
+
+> [!header] Existence of Non-RE language
+
 
 
 ---
