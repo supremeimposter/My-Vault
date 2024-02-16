@@ -409,6 +409,17 @@
       "title": "Pause and Ponder",
       "injectColor": true,
       "noTitle": false
+    },
+    "template": {
+      "type": "template",
+      "color": "169, 80, 211",
+      "icon": {
+        "name": "building",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,

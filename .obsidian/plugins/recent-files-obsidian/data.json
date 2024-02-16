@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Decision Problems of Language Classes",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md"
+      "basename": "Rice Theorem",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Rice Theorem.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE-LOG.md"
     },
     {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
     },
     {
+      "basename": "Decision Problems of Language Classes",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md"
+    },
+    {
       "basename": "Turing Machines",
       "path": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "Temporary Plan.md"
+    },
+    {
+      "basename": "Language and Decision Problem",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Language and Decision Problem.md"
+    },
+    {
+      "basename": "Change of Variable or Domain Transformation",
+      "path": "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md"
+    },
+    {
+      "basename": "Time Complexity for Recursive Programs",
+      "path": "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
+    },
+    {
+      "basename": "Masters Theorem",
+      "path": "Algorithms/Recurrence-Relation/Masters Theorem.md"
+    },
+    {
+      "basename": "Iteration Method (Repeated Substitution Method)",
+      "path": "Algorithms/Recurrence-Relation/Iteration Method (Repeated Substitution Method).md"
     },
     {
       "basename": "Simplification of Context Free Grammars",
@@ -31,10 +63,6 @@
     {
       "basename": "Deterministic Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
-    },
-    {
-      "basename": "Language and Decision Problem",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Language and Decision Problem.md"
     },
     {
       "basename": "Doubt - Regular Languages and Finite Automata",
@@ -125,10 +153,6 @@
       "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md"
     },
     {
-      "basename": "Temporary Plan",
-      "path": "Temporary Plan.md"
-    },
-    {
       "basename": "Links for Resources",
       "path": "GATE-materials/Links for Resources.md"
     },
@@ -157,10 +181,6 @@
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md"
     },
     {
-      "basename": "GATE-LOG",
-      "path": "GATE-LOG.md"
-    },
-    {
       "basename": "Pending Lectures",
       "path": "Pending Lectures.md"
     },
@@ -179,22 +199,6 @@
     {
       "basename": "Non-Deterministic Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md"
-    },
-    {
-      "basename": "Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata.md"
-    },
-    {
-      "basename": "Types of Relations on a Set",
-      "path": "DiscreteMathematics/Set-Theory/Types of Relations on a Set.md"
-    },
-    {
-      "basename": "Symmetric Relation",
-      "path": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Symmetric Relation.md"
-    },
-    {
-      "basename": "Reflexive Relation",
-      "path": "DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Reflexive Relation.md"
     }
   ],
   "omittedPaths": [
