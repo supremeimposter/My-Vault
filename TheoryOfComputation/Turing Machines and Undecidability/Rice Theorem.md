@@ -17,7 +17,7 @@ tags:
 > [Lecture 16C - Rice Theorem | Undecidability | Unrecognizability | Theory of Computation - YouTube](https://www.youtube.com/watch?v=2SeZIr2sVQ4)
 
 - Rice theorem is applicable only on the properties of languages of Turing Machine.
-
+- Rice theorem is used to determine undecidability of RE languages.
 
 > [!header] When Rice theorem is ***NOT*** applicable?
 
@@ -41,5 +41,17 @@ tags:
 > $J =$ Given a Turing Machine $M$, does $\mathcal{L}(M)$ have the property $P$ ?
 > $J =$ $\{ \langle M \rangle \mid M$ is a Turing machine and $\mathcal{L}(M)$ has some property $P \}$   
 
-# Language Property vs Machine Property
+## Language Property vs Machine Property
 
+- Language is depending on the machine. The machine says what the language is.
+- Machine properties ***may or may not*** be decidable.
+
+
+## Rice Theorem for Programs
+> [!youtube] 
+> [Rice Theorem for Programs - Undecidability | Theory of Computation | GO Classes | Deepak Poonia Sir - YouTube](https://www.youtube.com/watch?v=92BkNvlGNyY)
+
+- Language of the turing machine is equivalent to the functionality of the program.
+- Rice theorem states that all the non-trivial semantic properties of programs are undecidable.
+- Synctactic properties of programs are decidable.
+- Semantic properties (without time limit) are undecidable.

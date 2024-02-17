@@ -44,6 +44,7 @@ tags:
 - Looping does not only mean that some configuration is repeating, but the turing machine is never halting.
 - We cannot say whether some program will halt or not.
 
+- The language of Turing machine is always recognizable.
 
 ## Decider and Decidable
 
