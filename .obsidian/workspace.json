@@ -58,6 +58,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "06bffc221ab501c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -265,15 +278,18 @@
   },
   "active": "0772af014f2a50b5",
   "lastOpenFiles": [
-    "GATE-LOG.md",
-    "TheoryOfComputation/Turing Machines and Undecidability/Rice Theorem.md",
-    "attachments/Rice Theorem-20240216212030575.webp",
     "TheoryOfComputation/Theory of Computation.md",
-    "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md",
     "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md",
+    "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md",
+    "TheoryOfComputation/Turing Machines and Undecidability/Rice Theorem.md",
+    "GATE-LOG.md",
+    "TheoryOfComputation/Turing Machines and Undecidability/Language and Decision Problem.md",
+    "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages and Finite Automata.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
+    "attachments/Rice Theorem-20240216212030575.webp",
     "TheoryOfComputation/Turing Machines and Undecidability/Halting Problem of Turing Machine.md",
     "Temporary Plan.md",
-    "TheoryOfComputation/Turing Machines and Undecidability/Language and Decision Problem.md",
     "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
     "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
     "Algorithms/Recurrence-Relation/Masters Theorem.md",
@@ -287,9 +303,7 @@
     "attachments/Simplification of Context Free Grammars-20240213185418970.webp",
     "attachments/Simplification of Context Free Grammars-20240213185031145.webp",
     "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
-    "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md",
     "attachments/Dovetailiing-20240211162728851.webp",
     "attachments/Turing Machines-20240211153558544.webp",
     "TheoryOfComputation/Turing Machines and Undecidability/Variants of Turing Machine.md",
@@ -301,7 +315,6 @@
     "TheoryOfComputation/Turing Machines and Undecidability",
     "Weekly-Quizzes/Weekly Quizzes.md",
     "TheoryOfComputation/Closure Properties/Closure Properties of DCFL.md",
-    "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md",
     "TheoryOfComputation/Closure Properties",
     "TheoryOfComputation/Language Class",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA",

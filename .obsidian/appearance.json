@@ -12,9 +12,12 @@
     "anuppiccin-floating-search-bar"
   ],
   "cssTheme": "AnuPpuccin",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "showViewHeader": true,
   "baseFontSize": 18,
   "nativeMenus": false,
-  "translucency": false
+  "translucency": false,
+  "textFontFamily": "SF Pro Text",
+  "interfaceFontFamily": "SF Pro Text,SF Pro Rounded",
+  "monospaceFontFamily": "SF Mono,SF Mono Powerline"
 }

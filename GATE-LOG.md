@@ -114,3 +114,5 @@
 **January 3, 2024** You are not writing a book. You did not do any post-doc. Just make clear notes that you can understand well. Do not worry about making a digital garden. You have a lot of things to worry about.
 
 **February 16, 2024** "Don't blindly believe or stick to one resource, even if it is GO classes. You won't grow" - Deepak Poonia.
+
+**February 17, 2024** I am really grateful for the free extension on the validity of the course in GO classes.

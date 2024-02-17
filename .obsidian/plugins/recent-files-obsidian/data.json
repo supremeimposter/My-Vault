@@ -5,28 +5,40 @@
       "path": "TheoryOfComputation/Turing Machines and Undecidability/Rice Theorem.md"
     },
     {
-      "basename": "GATE-LOG",
-      "path": "GATE-LOG.md"
-    },
-    {
       "basename": "Theory of Computation",
       "path": "TheoryOfComputation/Theory of Computation.md"
-    },
-    {
-      "basename": "Decision Problems of Language Classes",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md"
     },
     {
       "basename": "Turing Machines",
       "path": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md"
     },
     {
-      "basename": "Temporary Plan",
-      "path": "Temporary Plan.md"
+      "basename": "Decision Problems of Language Classes",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE-LOG.md"
     },
     {
       "basename": "Language and Decision Problem",
       "path": "TheoryOfComputation/Turing Machines and Undecidability/Language and Decision Problem.md"
+    },
+    {
+      "basename": "Dovetailiing",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md"
+    },
+    {
+      "basename": "Regular Languages and Finite Automata",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages and Finite Automata.md"
+    },
+    {
+      "basename": "Basic Concepts of TOC",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "Temporary Plan.md"
     },
     {
       "basename": "Change of Variable or Domain Transformation",
@@ -65,16 +77,8 @@
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
     },
     {
-      "basename": "Doubt - Regular Languages and Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Doubt - Regular Languages and Finite Automata.md"
-    },
-    {
       "basename": "Myhill Nerode Theorem",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md"
-    },
-    {
-      "basename": "Dovetailiing",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md"
     },
     {
       "basename": "Variants of Turing Machine",
@@ -139,10 +143,6 @@
     {
       "basename": "Identification of CFL, DCFL",
       "path": "TheoryOfComputation/Language Class/Identification of CFL, DCFL.md"
-    },
-    {
-      "basename": "Basic Concepts of TOC",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
     },
     {
       "basename": "GATE-CS",
