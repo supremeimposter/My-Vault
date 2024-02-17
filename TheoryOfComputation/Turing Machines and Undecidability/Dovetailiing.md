@@ -16,7 +16,7 @@ tags:
 - Dovetailing works only when working with languages of Turing Machines.
 - In all the scenarios, there is only 1 person. No parallel digging is going on. Taiju-kun has to do all the work single-handedly, while Senku takes care of all the brainy stuffs.
 
-> [!header] **Scenario 1** : There is at least one finite tunnel among finite number of tunnels
+> [!header] **Scenario 1** : There is at least one finite tunnel among finite number of infinite tunnels
 
 ![[Dovetailiing-20240207231055557.webp|Scenario 1a : Taiju digging each tunnel one by one]]
 - In Scenario 1a, since the tunnel is infinite, Taiju-kun will never finish digging the tunnel 1, let alone all the three tunnels.
@@ -33,7 +33,7 @@ tags:
 
 - In scenario 1d, Taiju found the finite tunnel T3 by ***interleaving*** method. This method is guaranteed to find the finite tunnel, instead of scenario 1a.
 - Even if there is no finite tunnel, then keep digging (never halting).
-
+---
 
 > [!header] **Scenario 2** : There is at least one finite tunnel among ***infinite*** number of tunnels
 
@@ -45,6 +45,7 @@ tags:
 
 - In scenario 2b, Taiju will never find the finite tunnel as all the tunnels are infinite and the job will never be done.
 - Now the solution is to use ***more interleaving***.
+
 ![[Dovetailiing-20240208075657674.webp|Scenario 2c : Taiju digs 1km of Tunnel T1]]
 
 ![[Dovetailiing-20240208075908376.webp|In Scenario 2d : Taiju digs another km of Tunnel T1 and 2 kms of T2]]
@@ -55,11 +56,12 @@ tags:
 
 ![[Dovetailiing-20240208080352449.webp|Summary of More Interleaving method]]
 
-- This more interleaving method is definitely guaranteed to work.
-
+- This more interleaving method is definitely guaranteed to work in the scenario 2
+---
 
 > [!header] Scenario 3 : There are two infinite tunnels
 
 ![[Dovetailiing-20240211162728851.webp]]
 
-- It is not guaranteed that Taiju will find the tunnel even if dovetailing is used.
+- It is not guaranteed that Taiju will find the tunnel even if dovetailing is used in case of all tunnles are infinite.
+---

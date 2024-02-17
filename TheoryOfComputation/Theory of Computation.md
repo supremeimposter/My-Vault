@@ -18,11 +18,11 @@ tags:
 - [[Cases of languages in DFA]]
 - [[Non-Deterministic Finite Automata]]
 - [[Equivalence of DFA and NFA]]
+- [[Regular Languages and Finite Automata]]
 - [[Regular Expressions]]
 - [[Finite Automata and Regular Expressions]] 
 - [[Pumping Lemma]]
 - [[Myhill Nerode Theorem]]
-- [[Doubt - Regular Languages and Finite Automata]]
 
 # Module 2 - Context Free Languages, Grammars, Push Down Automata
 

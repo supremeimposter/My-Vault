@@ -44,6 +44,7 @@ tags:
 - Looping does not only mean that some configuration is repeating, but the turing machine is never halting.
 - We cannot say whether some program will halt or not.
 
+
 ## Decider and Decidable
 
 - A language $L$ is decidable, if it accepts or rejects a string within a finite amount of time.

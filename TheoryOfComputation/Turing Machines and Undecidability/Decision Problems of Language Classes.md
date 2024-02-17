@@ -60,7 +60,6 @@ tags:
 
 
 
-
 > [!youtube] 
 > [Lecture 14B - Practice Questions on Decision Problems of Regular Languages | Theory of Computation - YouTube](https://www.youtube.com/watch?v=0gE5bNdzxE8)
 
@@ -105,6 +104,6 @@ tags:
 
 > [!header] Existence of Non-RE language
 
-
+- Unrecognizable means undecidable also.
 
 ---

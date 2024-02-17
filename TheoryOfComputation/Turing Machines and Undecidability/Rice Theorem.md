@@ -27,11 +27,19 @@ tags:
 - All non-trivial properties of RE languages are undecidable.
 - All trivial properties of RE languages are decidable.
 
-> [!NOTE] 
-> Trivial properties of anything is desirable, because it is trivial. Its a straight ***YES*** or ***NO***.
+> [!tip] 
+> Trivial properties of anything is desirable, because it is trivial. Its a straight ***YES*** or ***NO*** answer.
 
 ![[Rice Theorem-20240216212030575.webp]]
 
 > [!header] Monotonic and Non-monotonic Property
 
 - Every trivial property is monotonic, but the converse is ***NOT*** true.
+- Rice theorem cannot say that something is RE but not REC i.e. never say that something is recognizable but not decidable.
+
+> [!template] Template for Rice Theorem
+> $J =$ Given a Turing Machine $M$, does $\mathcal{L}(M)$ have the property $P$ ?
+> $J =$ $\{ \langle M \rangle \mid M$ is a Turing machine and $\mathcal{L}(M)$ has some property $P \}$   
+
+# Language Property vs Machine Property
+
