@@ -99,11 +99,18 @@ tags:
 
 > [!definition] Halting problem of TM
 
+- Given a turing machine $M$ and a string $w$, does $M$ halt on $w$?
+
 - This problem is whether the TM halts or not.
+- Halting problem of TM is recognizable(r.e.) but not decidable or recursive(rec).
 
 
 > [!header] Existence of Non-RE language
 
 - Unrecognizable means undecidable also.
+
+
+> [!youtube] 
+> [Decidability Questions - Part 1 - GATE Questions on Undecidability | TOC | GoClasses | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=8oa4qxMryLQ)
 
 ---

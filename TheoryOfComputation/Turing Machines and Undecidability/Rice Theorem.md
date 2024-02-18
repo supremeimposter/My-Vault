@@ -17,7 +17,8 @@ tags:
 > [Lecture 16C - Rice Theorem | Undecidability | Unrecognizability | Theory of Computation - YouTube](https://www.youtube.com/watch?v=2SeZIr2sVQ4)
 
 - Rice theorem is applicable only on the properties of languages of Turing Machine.
-- Rice theorem is used to determine undecidability of RE languages.
+- Base set of Rice theorem is the set of all RE languages.
+- Rice theorem is used to determine ***undecidability*** of RE languages.
 
 > [!header] When Rice theorem is ***NOT*** applicable?
 
@@ -37,7 +38,7 @@ tags:
 - Every trivial property is monotonic, but the converse is ***NOT*** true.
 - Rice theorem cannot say that something is RE but not REC i.e. never say that something is recognizable but not decidable.
 
-> [!template] Template for Rice Theorem
+> [!template] Fixed Template for Rice Theorem
 > $J =$ Given a Turing Machine $M$, does $\mathcal{L}(M)$ have the property $P$ ?
 > $J =$ $\{ \langle M \rangle \mid M$ is a Turing machine and $\mathcal{L}(M)$ has some property $P \}$   
 
