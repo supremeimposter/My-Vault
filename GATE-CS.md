@@ -7,8 +7,8 @@
 - [[Database Management System]]
 - [[Data Structures]]
 - [[Operating Systems]]
+- [[Digital Logic]]
 - [[Aptitude]]
-
 ---
 - [[Pending Notes]]
 - [[Pending Lectures]]
