@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Rice Theorem",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Rice Theorem.md"
+      "basename": "Boolean Algebraic Function",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebraic Function.md"
     },
     {
-      "basename": "Theory of Computation",
-      "path": "TheoryOfComputation/Theory of Computation.md"
+      "basename": "Laws of Boolean Algebra",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
+    },
+    {
+      "basename": "Boolean Algebra",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
+    },
+    {
+      "basename": "Types of Lattices",
+      "path": "DiscreteMathematics/Set-Theory/Types of Lattices.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Decimal and Binary System",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
+    },
+    {
+      "basename": "Introduction to Digital Logic",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
+    },
+    {
+      "basename": "Decision Problems of Language Classes",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md"
     },
     {
       "basename": "Turing Machines",
       "path": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md"
     },
     {
-      "basename": "Decision Problems of Language Classes",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md"
+      "basename": "Rice Theorem",
+      "path": "TheoryOfComputation/Turing Machines and Undecidability/Rice Theorem.md"
+    },
+    {
+      "basename": "Theory of Computation",
+      "path": "TheoryOfComputation/Theory of Computation.md"
     },
     {
       "basename": "GATE-LOG",
@@ -145,10 +177,6 @@
       "path": "TheoryOfComputation/Language Class/Identification of CFL, DCFL.md"
     },
     {
-      "basename": "GATE-CS",
-      "path": "GATE-CS.md"
-    },
-    {
       "basename": "Linear Grammar",
       "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "Finite Automata and Regular Expressions",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata and Regular Expressions.md"
-    },
-    {
-      "basename": "Equivalence of DFA and NFA",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Equivalence of DFA and NFA.md"
-    },
-    {
-      "basename": "Cases of languages in DFA",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Cases of languages in DFA.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "Pending Lectures.md"
-    },
-    {
-      "basename": "daily-notes-template",
-      "path": "templates/daily-notes-template.md"
-    },
-    {
-      "basename": "Set Operations",
-      "path": "DiscreteMathematics/Set-Theory/Set Operations.md"
-    },
-    {
-      "basename": "What does Theory of Computation do",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/What does Theory of Computation do.md"
-    },
-    {
-      "basename": "Non-Deterministic Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Non-Deterministic Finite Automata.md"
     }
   ],
   "omittedPaths": [
