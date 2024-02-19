@@ -21,19 +21,6 @@
             }
           },
           {
-            "id": "a0c69da99cf4cc3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0239dee899ab1c97",
             "type": "leaf",
             "state": {
@@ -66,6 +53,19 @@
               "type": "markdown",
               "state": {
                 "file": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebraic Function.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ca4b5e9050a4ec9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -135,7 +135,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -156,7 +157,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebraic Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebraic Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,9 +195,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebraic Function.md"
-              }
+              "state": {}
             }
           },
           {
@@ -275,24 +272,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ff12d1c393702833",
+  "active": "503fa5a56b71e72e",
   "lastOpenFiles": [
+    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
+    "attachments/Standard Forms of Boolean Expressions-20240219145717040.webp",
+    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
+    "Digital-Logic/Digital Logic.md",
+    "attachments/Standard Forms of Boolean Expressions-20240219143433479.webp",
+    "attachments/Standard Forms of Boolean Expressions-20240219143416775.webp",
+    "attachments/Standard Forms of Boolean Expressions-20240219140303919.webp",
+    "attachments/Standard Forms of Boolean Expressions-20240219140246233.webp",
+    "attachments/Standard Forms of Boolean Expressions-20240219123357113.webp",
+    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebraic Function.md",
+    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
+    "attachments/Boolean Algebra-20240219081358316.webp",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
     "attachments/Laws of Boolean Algebra-20240218225050396.webp",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebraic Function.md",
     "attachments/Boolean Algebraic Function-20240218224735432.webp",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
     "attachments/Laws of Boolean Algebra-20240218223629099.webp",
     "DiscreteMathematics/Set-Theory/Types of Lattices.md",
-    "Digital-Logic/Digital Logic.md",
-    "attachments/Boolean Algebra-20240218202838818.webp",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
-    "attachments/Decimal and Binary System-20240218200317458.webp",
-    "attachments/Algebraic Simplification-20240218180705620.webp",
-    "attachments/Boolean Algebra-20240218165135808.webp",
-    "attachments/Boolean Algebra-20240218165123821.webp",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
-    "attachments/Introduction to Digital Logic-20240218153009310.webp",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions",
     "GATE-CS.md",
     "Digital-Logic",
@@ -305,7 +304,6 @@
     "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages and Finite Automata.md",
     "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
-    "attachments/Rice Theorem-20240216212030575.webp",
     "TheoryOfComputation/Turing Machines and Undecidability/Halting Problem of Turing Machine.md",
     "Temporary Plan.md",
     "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
@@ -313,7 +311,6 @@
     "Algorithms/Recurrence-Relation/Masters Theorem.md",
     "Algorithms/Recurrence-Relation/Iteration Method (Repeated Substitution Method).md",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA/Simplification of Context Free Grammars.md",
-    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
     "TheoryOfComputation/Turing Machines and Undecidability",
     "TheoryOfComputation/Closure Properties",
     "TheoryOfComputation/Language Class",

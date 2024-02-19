@@ -420,6 +420,17 @@
       "command": false,
       "injectColor": true,
       "noTitle": false
+    },
+    "observation": {
+      "type": "observation",
+      "color": "201, 176, 49",
+      "icon": {
+        "name": "eye",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,

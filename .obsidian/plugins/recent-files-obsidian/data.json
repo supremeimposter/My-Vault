@@ -1,32 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Boolean Algebraic Function",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebraic Function.md"
-    },
-    {
-      "basename": "Laws of Boolean Algebra",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
+      "basename": "Standard and Canonical Forms of Boolean Expressions",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
     },
     {
       "basename": "Boolean Algebra",
       "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
     },
     {
-      "basename": "Types of Lattices",
-      "path": "DiscreteMathematics/Set-Theory/Types of Lattices.md"
-    },
-    {
       "basename": "Digital Logic",
       "path": "Digital-Logic/Digital Logic.md"
     },
     {
-      "basename": "Decimal and Binary System",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
+      "basename": "Boolean Algebraic Function",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebraic Function.md"
     },
     {
       "basename": "Introduction to Digital Logic",
       "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
+    },
+    {
+      "basename": "Laws of Boolean Algebra",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
+    },
+    {
+      "basename": "Types of Lattices",
+      "path": "DiscreteMathematics/Set-Theory/Types of Lattices.md"
+    },
+    {
+      "basename": "Decimal and Binary System",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
     },
     {
       "basename": "GATE-CS",
@@ -195,10 +199,6 @@
     {
       "basename": "Regular Expressions",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Regular Expressions.md"
-    },
-    {
-      "basename": "Finite Automata and Regular Expressions",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Finite Automata and Regular Expressions.md"
     }
   ],
   "omittedPaths": [
