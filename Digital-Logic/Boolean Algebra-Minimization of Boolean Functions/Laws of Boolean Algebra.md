@@ -14,6 +14,7 @@ tags:
 - Laws of Boolean Algebra are similar or isomorphic to [[Propositional Logic]], [[Set Theory]], [[Group|Group theory]], [[Types of Lattices#Boolean Lattice or Boolean Algebra|Boolean Lattice]].
 > [!tip] 
 > By-case method can be used to prove or disprove certain laws.
+> Cancellation laws **do not hold** in Boolean Algebra.
 
 ![[Laws of Boolean Algebra-20240218225050396.webp]]
 

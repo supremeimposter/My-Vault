@@ -65,6 +65,10 @@ tags:
 ## Literal
 - Each appearance of a variable and its complement in an expression is referred to as a literal.
 - Literal count tells how big an expression is.
+- $x$ is a boolean variable and its complement $\overline{x}$ is not a variable. But both are literals.
+
+> [!discussion] 
+> ![[Boolean Algebra-20240219081358316.webp]]
 
 ---
 

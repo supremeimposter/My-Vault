@@ -15,6 +15,9 @@ tags:
 - [[Decimal and Binary System]]
 - [[Laws of Boolean Algebra]]
 - [[Boolean Algebraic Function]]
+- [[Standard and Canonical Forms of Boolean Expressions]]
+
+
 
 ---
 
