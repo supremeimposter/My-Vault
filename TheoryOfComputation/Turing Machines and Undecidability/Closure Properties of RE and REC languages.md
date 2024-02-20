@@ -18,7 +18,22 @@ tags:
 
 ## Union Operation
 
-- Recurisive languages are closed under union operation.
+- Recursive languages are closed under union operation.
 - RE languages are closed under union operation.
 
+## Intersection Operation
 
+- Decidable languages are closed under intersection operation.
+- RE languages are closed under intersection operation.
+
+## Concatenation Operation
+
+
+## Kleene Star Operation
+
+
+## Complementation Operation
+- RE languages ***may or may not*** be closed under complementation operation.
+- Recursive languages are closed under complementation operation.
+- $L$ and $\overline{L}$ are both RE ***iff*** $L$ and $\overline{L}$ are both recursive.
+- If $L$ is RE but not REC, then $\overline{L}$ is not RE.

@@ -7,7 +7,6 @@ tags:
   - GATE/Dashboard
   - TheoryOfComputation
 ---
-
 # Module 1 - Regular Languages and Finite Automata
 
 - [[Introduction to Theory of Computation]]
@@ -53,11 +52,15 @@ tags:
 
 - [[Turing Machines]]
 - [[Variants of Turing Machine]]
-- [[Dovetailiing]]
+- [[Dovetailiing Technique]]
 - [[Language and Decision Problem]]
 - [[Decision Problems of Language Classes]]
 - [[Rice Theorem]]
 - [[Closure Properties of RE and REC languages]]
+- [[Reductions]]
+
+> [!youtube] 
+>  - [*] [Decidability, Undecidability | Rice Theorem | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHiMGiPFIOPJG_ApL43JkILI)
 
 ---
 # Tests and Solutions
@@ -88,3 +91,7 @@ tags:
 
 # References
 - [Theory of Computation | Automata Theory | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9)
+
+> [!youtube] 
+> [Theory of Computation | Automata Theory | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9)
+

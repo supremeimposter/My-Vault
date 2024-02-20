@@ -47,6 +47,11 @@ tags:
 - A language $L$ is recursive enumerable (RE) iff there exists a Turing machine $M$ such that $L = L(M)$.
 - The language of Turing machine is always recognizable.
 
+> [!convention] 
+> RE = Recursive Enumerable
+> REC = Recursive
+> RE - REC = RE but not REC
+
 ## Decider and Decidable
 
 - A language $L$ is decidable, if it accepts or rejects a string within a finite amount of time.
