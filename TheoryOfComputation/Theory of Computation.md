@@ -57,7 +57,7 @@ tags:
 - [[Language and Decision Problem]]
 - [[Decision Problems of Language Classes]]
 - [[Rice Theorem]]
-
+- [[Closure Properties of RE and REC languages]]
 
 ---
 # Tests and Solutions

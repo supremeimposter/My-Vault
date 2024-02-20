@@ -44,6 +44,7 @@ tags:
 - Looping does not only mean that some configuration is repeating, but the turing machine is never halting.
 - We cannot say whether some program will halt or not.
 
+- A language $L$ is recursive enumerable (RE) iff there exists a Turing machine $M$ such that $L = L(M)$.
 - The language of Turing machine is always recognizable.
 
 ## Decider and Decidable
@@ -51,6 +52,7 @@ tags:
 - A language $L$ is decidable, if it accepts or rejects a string within a finite amount of time.
 - The informal notion of an [[Algorithms]] corresponds exactly to a Turing Machine that halts on all inputs.
 - Halting Turing machine is less powerful than Turing machine.
+- A language $L$ is recursive (REC) or decidable iff there exists a halting turing machine $M$ such that $L(M) = L$.
 - Every Halting Turing machine is a Turing machine i.e. Every decider is a recognizer, but every turing machine is not a decider.
 - If a language is recursive, then its corresponding decision problem is called decidable.
 - If a decision problem is decidable, then its corresponding language is called recursive.
@@ -67,7 +69,6 @@ tags:
 - Finite representations are made for class of languages.
 - Finite representations (DFA, NFA) are created for regular languages that are infinite i.e. $\Sigma^\ast$
 - There are algorithms to convert one finite representation of a class of languages into another finite representation of same class of languages.
-
 
 ## High Level Descriptions
 

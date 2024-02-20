@@ -16,7 +16,7 @@ tags:
 - Dovetailing works only when working with languages of Turing Machines.
 - In all the scenarios, there is only 1 person. No parallel digging is going on. Taiju-kun has to do all the work single-handedly, while Senku takes care of all the brainy stuffs.
 
-> [!header] **Scenario 1** : There is at least one finite tunnel among finite number of infinite tunnels
+> [!cases] **Scenario 1** : There is at least one finite tunnel among finite number of infinite tunnels
 
 ![[Dovetailiing-20240207231055557.webp|Scenario 1a : Taiju digging each tunnel one by one]]
 - In Scenario 1a, since the tunnel is infinite, Taiju-kun will never finish digging the tunnel 1, let alone all the three tunnels.
@@ -34,8 +34,7 @@ tags:
 - In scenario 1d, Taiju found the finite tunnel T3 by ***interleaving*** method. This method is guaranteed to find the finite tunnel, instead of scenario 1a.
 - Even if there is no finite tunnel, then keep digging (never halting).
 ---
-
-> [!header] **Scenario 2** : There is at least one finite tunnel among ***infinite*** number of tunnels
+> [!cases] **Scenario 2** : There is at least one finite tunnel among ***infinite*** number of tunnels
 
 ![[Dovetailiing-20240208074713684.webp|Scenario 2a : Taiju digs each tunnel individually]]
 
@@ -58,8 +57,7 @@ tags:
 
 - This more interleaving method is definitely guaranteed to work in the scenario 2
 ---
-
-> [!header] Scenario 3 : There are two infinite tunnels
+> [!cases] Scenario 3 : There are two infinite tunnels
 
 ![[Dovetailiing-20240211162728851.webp]]
 
