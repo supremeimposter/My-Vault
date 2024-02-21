@@ -27,21 +27,33 @@ tags:
 
 ![[Laws of Boolean Algebra-20240218225050396.webp]]
 
-## Simplification of Boolean Functions
-- A simplified equivalent booean expression means smaller logical circuit with minimum number of gates i.e. reduced literal count.
+## Number of Different Boolean Functions
 
-### Uniting
+## Minimization of Boolean Functions
 
-### Absorption
+```mermaid
+flowchart TD
+	A[Minimization Techniques] --> B[Algebraic Simplification]
+	A --> C[K-maps]
+```
 
-### Elimination
+### Algebraic Simplification of Boolean Functions
+- A simplified equivalent boolean expression means smaller logical circuit with minimum number of gates i.e. reduced literal count.
 
-### Consensus
+#### Uniting
 
+#### Absorption
 
+#### Elimination
+
+#### Consensus
 
 
 > [!pdf] pdf lec-4d
 > ![[Algebraic Simplification-20240218180705620.webp]]
 
-## Number of Different Boolean Functions
+
+
+> [!header] Disadvantages of Simplification technique
+
+- Some expressions which can't be further minimized using algebraic simplification can be minimized using [[Minimization using K Map|K-map]].

@@ -39,7 +39,9 @@ tags:
 > - An expression can be both in SOP and POS form.
 > - SOP and POS expressions for a function $f$ are not unique.
 
-# Min-term and Max-term
+# Canonical Forms of Boolean Expressions
+
+## Min-term and Max-term
 - Min-term is a ***product term*** containing each variable in the function exactly once either in complemented or in uncomplemented form, but not both.
 - Max-term is a ***sum term*** containing each variable in the function exactly once either in complemented or in uncomplemented form, but not both.
 
@@ -103,9 +105,31 @@ $$
 - The product of such maxterms is called ***Canonical POS***.
 
 > [!summary] Summary of Canonical forms
-- True minterms are the minterms of the function and False maxterms are called the maxterms of the function.
 - For any boolean function $f$, both canonical SOP and canonical POS forms are unique.
-- For any boolean function $f$, canonical SOP form is equivalent to canonical POS form.
+- For any boolean function $f$, canonical SOP form is equivalent to canonical POS form. 
+- They are not complements of each other. When $f$ is complemented, then $\overline{f}$ is a new function.
+
+> [!remember] 
+> 1. Minterms and maxterms contain all the variables in the boolean function.
+> 2. True minterms = minterms of the function
+> 3. False maxterms = maxterms of the function
 
 
-> [!timer] 02:28:37
+> [!terminology] 
+|Boolean Algebra | Propositional Logic |
+| --- | --- |
+| SOP | Disjunctive Normal Form (DNF) |
+|POS | Conjunctive Normal Form (CNF) | 
+|Canonical SOP | Canonical DNF (Principle DNF)|
+|Canonical POS | Canonical CNF (Principle CNF)|
+
+- Do not confuse between function $f$ and its complement $\overline{f}$.
+![[Standard and Canonical Forms of Boolean Expressions-20240221114908092.webp]]
+
+![[Standard and Canonical Forms of Boolean Expressions-20240221114934210.webp]]
+
+> [!discussion] 
+> ![[Standard and Canonical Forms of Boolean Expressions-20240221111914176.webp]]
+
+
+

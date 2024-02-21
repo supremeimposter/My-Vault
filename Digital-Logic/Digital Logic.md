@@ -16,7 +16,11 @@ tags:
 - [[Laws of Boolean Algebra]]
 - [[Boolean Algebraic Function]]
 - [[Standard and Canonical Forms of Boolean Expressions]]
+- [[Minimization using K Map]]
 
+
+> [!youtube] 
+> [Digital Logic: Standard Questions Session 1 - Boolean Algebra | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=IvywHr5Oc00)
 
 
 ---
