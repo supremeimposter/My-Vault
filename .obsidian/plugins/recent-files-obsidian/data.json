@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Implicants in K Map",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md"
+    },
+    {
       "basename": "Minimization using K Map",
       "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Unless",
+      "path": "DiscreteMathematics/Propositional-Logic/Unless.md"
     },
     {
       "basename": "Digital Logic",
@@ -187,18 +199,6 @@
     {
       "basename": "Properties in Group Theory",
       "path": "DiscreteMathematics/Group Theory/Properties in Group Theory.md"
-    },
-    {
-      "basename": "Identification of Regular Languages",
-      "path": "TheoryOfComputation/Language Class/Identification of Regular Languages.md"
-    },
-    {
-      "basename": "Identification of CFL, DCFL",
-      "path": "TheoryOfComputation/Language Class/Identification of CFL, DCFL.md"
-    },
-    {
-      "basename": "Linear Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Linear Grammar.md"
     }
   ],
   "omittedPaths": [

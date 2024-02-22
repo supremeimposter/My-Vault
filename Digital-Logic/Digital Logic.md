@@ -17,6 +17,7 @@ tags:
 - [[Boolean Algebraic Function]]
 - [[Standard and Canonical Forms of Boolean Expressions]]
 - [[Minimization using K Map]]
+- [[Implicants in K Map]]
 
 
 > [!youtube] 
