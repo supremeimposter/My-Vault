@@ -20,9 +20,15 @@ tags:
 - [[Minimization using K Map]]
 - [[Implicants in K Map]]
 
-
 > [!youtube] 
 > [Digital Logic: Standard Questions Session 1 - Boolean Algebra | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=IvywHr5Oc00)
+
+## Module 2 - Number Systems
+
+- [[Octal and Hexadecimal System]]
+- [[Number Systems]]
+- [[Binary System]]
+- [[Complements in Number System]]
 
 
 ---

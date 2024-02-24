@@ -22,7 +22,7 @@ tags:
 
 ### Binary to Decimal Conversion
 
-### Binary to Decimal Conversion
+### Decimal to Binary Conversion
 
 ![[Decimal and Binary System-20240218200317458.webp|General form of Successive division by 2]]
 
