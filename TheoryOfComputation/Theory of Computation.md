@@ -62,6 +62,14 @@ tags:
 > [!youtube] 
 >  - [*] [Decidability, Undecidability | Rice Theorem | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHiMGiPFIOPJG_ApL43JkILI)
 
+# Module 6 - Countability
+
+- [[Function Definition]]
+- [[Types of Functions]]
+- [[Understanding Infinity and Cardinality]]
+- [[Countable Sets]]
+
+
 ---
 # Tests and Solutions
 
