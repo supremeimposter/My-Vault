@@ -64,5 +64,4 @@ tags:
 > [!header] Removing literals from Implicants
 
 
-> [!timer] 02:16:44
 
