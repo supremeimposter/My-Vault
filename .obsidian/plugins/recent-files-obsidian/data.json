@@ -1,36 +1,88 @@
 {
   "recentFiles": [
     {
-      "basename": "Implicants in K Map",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md"
-    },
-    {
-      "basename": "Minimization using K Map",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
-      "basename": "Unless",
-      "path": "DiscreteMathematics/Propositional-Logic/Unless.md"
+      "basename": "Complements in Number System",
+      "path": "Digital-Logic/Number Systems/Complements in Number System.md"
     },
     {
       "basename": "Digital Logic",
       "path": "Digital-Logic/Digital Logic.md"
     },
     {
-      "basename": "Boolean Algebraic Function",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebraic Function.md"
+      "basename": "Binary System",
+      "path": "Digital-Logic/Number Systems/Binary System.md"
+    },
+    {
+      "basename": "Number Systems",
+      "path": "Digital-Logic/Number Systems/Number Systems.md"
+    },
+    {
+      "basename": "Decimal and Binary System",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
+    },
+    {
+      "basename": "Octal and Hexadecimal System",
+      "path": "Digital-Logic/Number Systems/Octal and Hexadecimal System.md"
+    },
+    {
+      "basename": "Theory of Computation",
+      "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Countable Sets",
+      "path": "TheoryOfComputation/Countability/Countable Sets.md"
+    },
+    {
+      "basename": "Understanding Infinity and Cardinality",
+      "path": "TheoryOfComputation/Countability/Understanding Infinity and Cardinality.md"
+    },
+    {
+      "basename": "Function Definition",
+      "path": "DiscreteMathematics/Functions/Function Definition.md"
+    },
+    {
+      "basename": "Types of Functions",
+      "path": "DiscreteMathematics/Functions/Types of Functions.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Introduction to Digital Logic",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
+    },
+    {
+      "basename": "Boolean Function",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
+    },
+    {
+      "basename": "Laws of Boolean Algebra",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "Temporary Plan.md"
+    },
+    {
+      "basename": "Algebraic Simplification of Boolean Functions",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md"
     },
     {
       "basename": "Standard and Canonical Forms of Boolean Expressions",
       "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
     },
     {
-      "basename": "Theory of Computation",
-      "path": "TheoryOfComputation/Theory of Computation.md"
+      "basename": "Minimization using K Map",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
+    },
+    {
+      "basename": "Implicants in K Map",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md"
+    },
+    {
+      "basename": "Unless",
+      "path": "DiscreteMathematics/Propositional-Logic/Unless.md"
     },
     {
       "basename": "Reductions",
@@ -81,20 +133,8 @@
       "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
     },
     {
-      "basename": "Introduction to Digital Logic",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
-    },
-    {
-      "basename": "Laws of Boolean Algebra",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
-    },
-    {
       "basename": "Types of Lattices",
       "path": "DiscreteMathematics/Set-Theory/Types of Lattices.md"
-    },
-    {
-      "basename": "Decimal and Binary System",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
     },
     {
       "basename": "GATE-CS",
@@ -119,10 +159,6 @@
     {
       "basename": "Basic Concepts of TOC",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "Temporary Plan.md"
     },
     {
       "basename": "Change of Variable or Domain Transformation",
@@ -163,42 +199,6 @@
     {
       "basename": "Verbal-Ability",
       "path": "Aptitude/Verbal-Ability/Verbal-Ability.md"
-    },
-    {
-      "basename": "Weekly Quizzes",
-      "path": "Weekly-Quizzes/Weekly Quizzes.md"
-    },
-    {
-      "basename": "Closure Properties of Regular Languages",
-      "path": "TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md"
-    },
-    {
-      "basename": "Non Closure of Languages",
-      "path": "TheoryOfComputation/Closure Properties/Non Closure of Languages.md"
-    },
-    {
-      "basename": "Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Grammar.md"
-    },
-    {
-      "basename": "Chomsky Hierarchy",
-      "path": "TheoryOfComputation/Closure Properties/Chomsky Hierarchy.md"
-    },
-    {
-      "basename": "Closure Properties of Non Regular Languages",
-      "path": "TheoryOfComputation/Closure Properties/Closure Properties of Non Regular Languages.md"
-    },
-    {
-      "basename": "Push Down Automata",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Push Down Automata.md"
-    },
-    {
-      "basename": "Introduction to Theory of Computation",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md"
-    },
-    {
-      "basename": "Properties in Group Theory",
-      "path": "DiscreteMathematics/Group Theory/Properties in Group Theory.md"
     }
   ],
   "omittedPaths": [

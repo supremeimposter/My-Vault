@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9c0208d80a9f9bf3",
+        "id": "7dfb6b88e6dcbd44",
         "type": "tabs",
         "children": [
           {
-            "id": "3bea552333fbd47d",
+            "id": "39f9c4da6a2d370e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "0c911bc5ce9f1792",
+            "id": "08e49defa4359aed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
+                "file": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,25 @@
             }
           },
           {
-            "id": "04b345d4d6247a7b",
+            "id": "e5c666e5f08b4d89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md",
+                "file": "Digital-Logic/Number Systems/Binary System.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bff6450ea7903291",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digital-Logic/Number Systems/Complements in Number System.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,7 +127,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 281.5
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -123,7 +136,7 @@
       {
         "id": "e047f71d444b979e",
         "type": "tabs",
-        "dimension": 47.647647647647645,
+        "dimension": 64.41136671177266,
         "children": [
           {
             "id": "4de834b516a58502",
@@ -131,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md",
+                "file": "Digital-Logic/Number Systems/Complements in Number System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md",
+                "file": "Digital-Logic/Number Systems/Complements in Number System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md"
+                "file": "Digital-Logic/Number Systems/Complements in Number System.md"
               }
             }
           },
@@ -199,24 +212,9 @@
         "currentTab": 3
       },
       {
-        "id": "aad50c96c120c560",
-        "type": "tabs",
-        "dimension": 26.02602602602603,
-        "children": [
-          {
-            "id": "503fa5a56b71e72e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "5df95600f2476df0",
         "type": "tabs",
-        "dimension": 26.32632632632633,
+        "dimension": 35.588633288227335,
         "children": [
           {
             "id": "537addfb8bc17cc8",
@@ -250,54 +248,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "04b345d4d6247a7b",
+  "active": "bff6450ea7903291",
   "lastOpenFiles": [
+    "Digital-Logic/Digital Logic.md",
+    "Digital-Logic/Number Systems/Complements in Number System.md",
+    "Digital-Logic/Number Systems/Binary System.md",
+    "Digital-Logic/Number Systems/Number Systems.md",
+    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
+    "Digital-Logic/Number Systems/Octal and Hexadecimal System.md",
+    "attachments/Number Systems-20240224183608079.webp",
+    "attachments/Number Systems-20240224181422411.webp",
+    "attachments/Number Systems-20240224181003337.webp",
+    "attachments/Number Systems-20240224180928798.webp",
+    "attachments/Number Systems-20240224175709893.webp",
+    "Digital-Logic/Number Systems",
+    "TheoryOfComputation/Theory of Computation.md",
+    "TheoryOfComputation/Countability/Countable Sets.md",
+    "TheoryOfComputation/Countability/Understanding Infinity and Cardinality.md",
+    "TheoryOfComputation/Countability/Cardinality.md",
+    "TheoryOfComputation/Countability",
+    "DiscreteMathematics/Functions/Function Definition.md",
+    "DiscreteMathematics/Functions/Types of Functions.md",
+    "DiscreteMathematics/Discrete Mathematics.md",
+    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
+    "attachments/Introduction to Digital Logic-20240224082335788.webp",
+    "attachments/Introduction to Digital Logic-20240224082311216.webp",
+    "attachments/Introduction to Digital Logic-20240224081928204.webp",
+    "attachments/Introduction to Digital Logic-20240224075130510.webp",
+    "attachments/Introduction to Digital Logic-20240224074858492.webp",
+    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
+    "Temporary Plan.md",
+    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
+    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
+    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Untitled.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md",
-    "DiscreteMathematics/Discrete Mathematics.md",
     "DiscreteMathematics/Propositional-Logic/Unless.md",
-    "Digital-Logic/Digital Logic.md",
-    "attachments/Minimization using K Map-20240222164831549.webp",
-    "attachments/Minimization using K Map-20240222164627782.webp",
-    "attachments/Minimization using K Map-20240222163428348.webp",
-    "attachments/Minimization using K Map-20240222163219601.webp",
-    "attachments/Minimization using K Map-20240222122555676.webp",
-    "attachments/Minimization using K Map-20240222122535497.webp",
-    "attachments/Minimization using K Map-20240222122306722.webp",
-    "attachments/Minimization using K Map-20240222121952512.webp",
-    "attachments/Minimization using K Map-20240222121738212.webp",
-    "attachments/Minimization using K Map-20240222121525080.webp",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebraic Function.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
-    "TheoryOfComputation/Theory of Computation.md",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA/Reductions.md",
     "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
-    "Pending Lectures.md",
-    "TheoryOfComputation/Turing Machines and Undecidability/Closure Properties of RE and REC languages.md",
-    "TheoryOfComputation/Closure Properties/Closure Properties of DCFL.md",
-    "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing Technique.md",
-    "TheoryOfComputation/Closure Properties/Closure Properties of CFL.md",
-    "TheoryOfComputation/Closure Properties/Closure Properties of Finite Languages.md",
-    "TheoryOfComputation/Turing Machines and Undecidability/Variants of Turing Machine.md",
-    "TheoryOfComputation/Turing Machines and Undecidability/Language and Decision Problem.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
-    "DiscreteMathematics/Set-Theory/Types of Lattices.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions",
-    "GATE-CS.md",
     "Digital-Logic",
-    "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md",
     "TheoryOfComputation/Turing Machines and Undecidability",
     "TheoryOfComputation/Closure Properties",
     "TheoryOfComputation/Language Class",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA",
     "Untitled.canvas",
     "OperatingSystems",
-    "DataStructures/Row and Column Major Mapping",
-    "DatabaseManagementSystem/Transaction-Management-and-Recovery",
-    "attachments/DatabaseManagementSystem/ER-Model/ER Model"
+    "DataStructures/Row and Column Major Mapping"
   ]
 }
