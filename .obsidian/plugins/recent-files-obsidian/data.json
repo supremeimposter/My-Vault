@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Signed Binary Numbers",
+      "path": "Digital-Logic/Number Systems/Signed Binary Numbers.md"
+    },
+    {
       "basename": "Complements in Number System",
       "path": "Digital-Logic/Number Systems/Complements in Number System.md"
     },
@@ -9,16 +13,24 @@
       "path": "Digital-Logic/Digital Logic.md"
     },
     {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
+    },
+    {
+      "basename": "2's complement",
+      "path": "C/Binary and 2'complements/2's complement.md"
+    },
+    {
       "basename": "Binary System",
       "path": "Digital-Logic/Number Systems/Binary System.md"
     },
     {
-      "basename": "Number Systems",
-      "path": "Digital-Logic/Number Systems/Number Systems.md"
-    },
-    {
       "basename": "Decimal and Binary System",
       "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
+    },
+    {
+      "basename": "Number Systems",
+      "path": "Digital-Logic/Number Systems/Number Systems.md"
     },
     {
       "basename": "Octal and Hexadecimal System",
@@ -137,10 +149,6 @@
       "path": "DiscreteMathematics/Set-Theory/Types of Lattices.md"
     },
     {
-      "basename": "GATE-CS",
-      "path": "GATE-CS.md"
-    },
-    {
       "basename": "Decision Problems of Language Classes",
       "path": "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Deterministic Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
-    },
-    {
-      "basename": "Myhill Nerode Theorem",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md"
-    },
-    {
-      "basename": "Verbal-Ability",
-      "path": "Aptitude/Verbal-Ability/Verbal-Ability.md"
     }
   ],
   "omittedPaths": [

@@ -21,32 +21,6 @@
             }
           },
           {
-            "id": "08e49defa4359aed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5c666e5f08b4d89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Digital-Logic/Number Systems/Binary System.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bff6450ea7903291",
             "type": "leaf",
             "state": {
@@ -58,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d28c52b2421a3d21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digital-Logic/Number Systems/Signed Binary Numbers.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,8 +109,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -136,7 +122,7 @@
       {
         "id": "e047f71d444b979e",
         "type": "tabs",
-        "dimension": 64.41136671177266,
+        "dimension": 67.4,
         "children": [
           {
             "id": "4de834b516a58502",
@@ -144,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital-Logic/Number Systems/Complements in Number System.md",
+                "file": "Digital-Logic/Number Systems/Signed Binary Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital-Logic/Number Systems/Complements in Number System.md",
+                "file": "Digital-Logic/Number Systems/Signed Binary Numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital-Logic/Number Systems/Complements in Number System.md"
+                "file": "Digital-Logic/Number Systems/Signed Binary Numbers.md"
               }
             }
           },
@@ -214,7 +200,7 @@
       {
         "id": "5df95600f2476df0",
         "type": "tabs",
-        "dimension": 35.588633288227335,
+        "dimension": 32.6,
         "children": [
           {
             "id": "537addfb8bc17cc8",
@@ -248,13 +234,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bff6450ea7903291",
+  "active": "d28c52b2421a3d21",
   "lastOpenFiles": [
-    "Digital-Logic/Digital Logic.md",
+    "attachments/Signed Binary Numbers-20240225231026664.webp",
     "Digital-Logic/Number Systems/Complements in Number System.md",
+    "Digital-Logic/Number Systems/Signed Binary Numbers.md",
+    "Digital-Logic/Digital Logic.md",
+    "GATE-CS.md",
+    "C/Binary and 2'complements/2's complement.md",
     "Digital-Logic/Number Systems/Binary System.md",
-    "Digital-Logic/Number Systems/Number Systems.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
+    "attachments/Complements in Number System-20240225093342933.webp",
+    "Digital-Logic/Number Systems/Number Systems.md",
     "Digital-Logic/Number Systems/Octal and Hexadecimal System.md",
     "attachments/Number Systems-20240224183608079.webp",
     "attachments/Number Systems-20240224181422411.webp",
@@ -275,7 +266,6 @@
     "attachments/Introduction to Digital Logic-20240224082311216.webp",
     "attachments/Introduction to Digital Logic-20240224081928204.webp",
     "attachments/Introduction to Digital Logic-20240224075130510.webp",
-    "attachments/Introduction to Digital Logic-20240224074858492.webp",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
     "Temporary Plan.md",
@@ -284,10 +274,6 @@
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Untitled.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md",
-    "DiscreteMathematics/Propositional-Logic/Unless.md",
-    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Reductions.md",
-    "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md",
-    "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions",
     "Digital-Logic",
     "TheoryOfComputation/Turing Machines and Undecidability",
