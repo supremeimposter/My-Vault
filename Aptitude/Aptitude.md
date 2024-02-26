@@ -9,6 +9,7 @@ tags:
 - Quantitative 
 	- [[Absolute Value]]
 	- [[Floor and Ceiling Functions]]
+	- [[Number System]]
 
 - [[Verbal-Ability]]
 

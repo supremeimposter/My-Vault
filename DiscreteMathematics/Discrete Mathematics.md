@@ -12,8 +12,7 @@ tags:
 - Example : integers, humans, eggs, etc...
 
 ## Discrete Math vs Continuous Math
-
-![[Pasted image 20230907225144.png]]
+![[Discrete Mathematics-20240226181625655.webp]]
 
 ---
 ## Mathematical Logic
@@ -72,7 +71,7 @@ flowchart LR
 	- [[Equivalence of FOL expressions]]
 - [[Null Quantification]]
 - [[Arguments in FOL]]
-
+- [[Tautology in FOL]]
 - [[Doubts - FOL]]
 
 ---
