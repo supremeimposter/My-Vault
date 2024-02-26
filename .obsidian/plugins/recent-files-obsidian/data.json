@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Overflow",
+      "path": "Digital-Logic/Number Systems/Overflow.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Aptitude",
+      "path": "Aptitude/Aptitude.md"
+    },
+    {
+      "basename": "Number System",
+      "path": "Aptitude/Quantitative-Aptitude/Number System.md"
+    },
+    {
       "basename": "Signed Binary Numbers",
       "path": "Digital-Logic/Number Systems/Signed Binary Numbers.md"
+    },
+    {
+      "basename": "Addition of Signed Binary Numbers",
+      "path": "Digital-Logic/Number Systems/Addition of Signed Binary Numbers.md"
+    },
+    {
+      "basename": "Introduction to Digital Logic",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
     },
     {
       "basename": "Complements in Number System",
       "path": "Digital-Logic/Number Systems/Complements in Number System.md"
     },
     {
-      "basename": "Digital Logic",
-      "path": "Digital-Logic/Digital Logic.md"
+      "basename": "Subtraction of Unsigned Numbers",
+      "path": "Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md"
     },
     {
       "basename": "GATE-CS",
@@ -55,14 +83,6 @@
     {
       "basename": "Types of Functions",
       "path": "DiscreteMathematics/Functions/Types of Functions.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
-      "basename": "Introduction to Digital Logic",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
     },
     {
       "basename": "Boolean Function",
@@ -179,26 +199,6 @@
     {
       "basename": "Masters Theorem",
       "path": "Algorithms/Recurrence-Relation/Masters Theorem.md"
-    },
-    {
-      "basename": "Iteration Method (Repeated Substitution Method)",
-      "path": "Algorithms/Recurrence-Relation/Iteration Method (Repeated Substitution Method).md"
-    },
-    {
-      "basename": "Simplification of Context Free Grammars",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Simplification of Context Free Grammars.md"
-    },
-    {
-      "basename": "Normal Forms of Context Free Grammars",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Normal Forms of Context Free Grammars.md"
-    },
-    {
-      "basename": "Regular Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Regular Grammar.md"
-    },
-    {
-      "basename": "Deterministic Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md"
     }
   ],
   "omittedPaths": [

@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "bff6450ea7903291",
+            "id": "44dd8db371fc1110",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Number Systems/Complements in Number System.md",
+                "file": "Digital-Logic/Number Systems/Addition of Signed Binary Numbers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "d28c52b2421a3d21",
+            "id": "e4445ac311321101",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Number Systems/Signed Binary Numbers.md",
+                "file": "Digital-Logic/Number Systems/Overflow.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -109,7 +109,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital-Logic/Number Systems/Signed Binary Numbers.md",
+                "file": "Digital-Logic/Number Systems/Overflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital-Logic/Number Systems/Signed Binary Numbers.md",
+                "file": "Digital-Logic/Number Systems/Overflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital-Logic/Number Systems/Signed Binary Numbers.md"
+                "file": "Digital-Logic/Number Systems/Overflow.md"
               }
             }
           },
@@ -234,12 +235,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d28c52b2421a3d21",
+  "active": "e4445ac311321101",
   "lastOpenFiles": [
-    "attachments/Signed Binary Numbers-20240225231026664.webp",
-    "Digital-Logic/Number Systems/Complements in Number System.md",
-    "Digital-Logic/Number Systems/Signed Binary Numbers.md",
     "Digital-Logic/Digital Logic.md",
+    "Digital-Logic/Number Systems/Overflow.md",
+    "attachments/Overflow-20240226184046987.webp",
+    "attachments/Overflow-20240226182438540.webp",
+    "DiscreteMathematics/Discrete Mathematics.md",
+    "attachments/Discrete Mathematics-20240226181625655.webp",
+    "Aptitude/Aptitude.md",
+    "Aptitude/Quantitative-Aptitude/Number System.md",
+    "Digital-Logic/Number Systems/Signed Binary Numbers.md",
+    "Digital-Logic/Number Systems/Addition of Signed Binary Numbers.md",
+    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
+    "Digital-Logic/Number Systems/Complements in Number System.md",
+    "Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md",
+    "attachments/Addition and Subtraction of Signed Binary Numbers-20240226124212450.webp",
+    "attachments/Signed Binary Numbers-20240225231026664.webp",
     "GATE-CS.md",
     "C/Binary and 2'complements/2's complement.md",
     "Digital-Logic/Number Systems/Binary System.md",
@@ -251,7 +263,6 @@
     "attachments/Number Systems-20240224181422411.webp",
     "attachments/Number Systems-20240224181003337.webp",
     "attachments/Number Systems-20240224180928798.webp",
-    "attachments/Number Systems-20240224175709893.webp",
     "Digital-Logic/Number Systems",
     "TheoryOfComputation/Theory of Computation.md",
     "TheoryOfComputation/Countability/Countable Sets.md",
@@ -260,20 +271,9 @@
     "TheoryOfComputation/Countability",
     "DiscreteMathematics/Functions/Function Definition.md",
     "DiscreteMathematics/Functions/Types of Functions.md",
-    "DiscreteMathematics/Discrete Mathematics.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
-    "attachments/Introduction to Digital Logic-20240224082335788.webp",
-    "attachments/Introduction to Digital Logic-20240224082311216.webp",
-    "attachments/Introduction to Digital Logic-20240224081928204.webp",
-    "attachments/Introduction to Digital Logic-20240224075130510.webp",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
     "Temporary Plan.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Untitled.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions",
     "Digital-Logic",
     "TheoryOfComputation/Turing Machines and Undecidability",
