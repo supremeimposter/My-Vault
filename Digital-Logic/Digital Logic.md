@@ -27,15 +27,21 @@ tags:
 
 - [[Octal and Hexadecimal System]]
 - [[Number Systems]]
-- [[Complements in Number System]]
 - [[Binary System]]
+- [[Complements in Number System]]
+- [[Subtraction of Unsigned Numbers]]
 - [[Signed Binary Numbers]]
+- [[Addition of Signed Binary Numbers]]
+- [[Overflow]]
 
 
 
 ---
 
 # References
+
+> [!youtube] 
+> [Building an 8-bit breadboard computer! - YouTube](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU)
 
 
 ---

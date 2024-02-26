@@ -38,39 +38,6 @@ $$
 > [!discussion] 
 > ![[Complements in Number System-20240225093342933.webp]]
 
----
-
-> [!header] Subtraction of Unsigned numbers using $r$'s complement
-
-- If $M$ and $N$ are unsigned numbers
-
-> [!cases] $M \ge N$
-
-- Discard the end carry of the result.
-
-> [!cases] $M \lt N$
-
-- There is no end carry in the result.
-
-
-> [!summary] 
-
-
----
-
-> [!header] Subtraction of Unsigned numbers using $(r - 1)$'s complement
-
-> [!cases] $M \ge N$
-
-- Discard the end carry and add $1$ to the result
-
-> [!cases] $M \lt N$
-
-- There is no end carry in the result
-
-> [!summary] 
-
-
----
-
 - The complement of the complement restores the number to its original value.
+
+---
