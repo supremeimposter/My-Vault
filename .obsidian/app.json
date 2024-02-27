@@ -14,5 +14,9 @@
   "trashOption": "local",
   "vimMode": false,
   "spellcheck": false,
-  "userIgnoreFilters": null
+  "userIgnoreFilters": [
+    "daily-agenda/",
+    "templates/",
+    "attachments/"
+  ]
 }

@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Overflow",
-      "path": "Digital-Logic/Number Systems/Overflow.md"
+      "basename": "Uncountable Sets",
+      "path": "TheoryOfComputation/Countability/Uncountable Sets.md"
+    },
+    {
+      "basename": "Countable Sets",
+      "path": "TheoryOfComputation/Countability/Countable Sets.md"
+    },
+    {
+      "basename": "Theory of Computation",
+      "path": "TheoryOfComputation/Theory of Computation.md"
     },
     {
       "basename": "Digital Logic",
       "path": "Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Binary Codes",
+      "path": "Digital-Logic/Number Systems/Binary Codes.md"
+    },
+    {
+      "basename": "Verbal-Ability",
+      "path": "Aptitude/Verbal-Ability/Verbal-Ability.md"
+    },
+    {
+      "basename": "Sign Extension",
+      "path": "Digital-Logic/Number Systems/Sign Extension.md"
+    },
+    {
+      "basename": "Signed Binary Numbers",
+      "path": "Digital-Logic/Number Systems/Signed Binary Numbers.md"
+    },
+    {
+      "basename": "Overflow",
+      "path": "Digital-Logic/Number Systems/Overflow.md"
     },
     {
       "basename": "Discrete Mathematics",
@@ -19,10 +47,6 @@
     {
       "basename": "Number System",
       "path": "Aptitude/Quantitative-Aptitude/Number System.md"
-    },
-    {
-      "basename": "Signed Binary Numbers",
-      "path": "Digital-Logic/Number Systems/Signed Binary Numbers.md"
     },
     {
       "basename": "Addition of Signed Binary Numbers",
@@ -63,14 +87,6 @@
     {
       "basename": "Octal and Hexadecimal System",
       "path": "Digital-Logic/Number Systems/Octal and Hexadecimal System.md"
-    },
-    {
-      "basename": "Theory of Computation",
-      "path": "TheoryOfComputation/Theory of Computation.md"
-    },
-    {
-      "basename": "Countable Sets",
-      "path": "TheoryOfComputation/Countability/Countable Sets.md"
     },
     {
       "basename": "Understanding Infinity and Cardinality",
@@ -183,22 +199,6 @@
     {
       "basename": "Regular Languages and Finite Automata",
       "path": "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages and Finite Automata.md"
-    },
-    {
-      "basename": "Basic Concepts of TOC",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
-    },
-    {
-      "basename": "Change of Variable or Domain Transformation",
-      "path": "Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md"
-    },
-    {
-      "basename": "Time Complexity for Recursive Programs",
-      "path": "Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
-    },
-    {
-      "basename": "Masters Theorem",
-      "path": "Algorithms/Recurrence-Relation/Masters Theorem.md"
     }
   ],
   "omittedPaths": [

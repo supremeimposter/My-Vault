@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7dfb6b88e6dcbd44",
+        "id": "8a224017f719d88a",
         "type": "tabs",
         "children": [
           {
-            "id": "39f9c4da6a2d370e",
+            "id": "b96af29cd74d25df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Digital Logic.md",
+                "file": "TheoryOfComputation/Theory of Computation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "44dd8db371fc1110",
+            "id": "7d33bae3a24ed247",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Number Systems/Addition of Signed Binary Numbers.md",
+                "file": "TheoryOfComputation/Countability/Countable Sets.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "e4445ac311321101",
+            "id": "11bacb6c5c6833d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Number Systems/Overflow.md",
+                "file": "TheoryOfComputation/Countability/Uncountable Sets.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital-Logic/Number Systems/Overflow.md",
+                "file": "TheoryOfComputation/Countability/Uncountable Sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital-Logic/Number Systems/Overflow.md",
+                "file": "TheoryOfComputation/Countability/Uncountable Sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital-Logic/Number Systems/Overflow.md"
+                "file": "TheoryOfComputation/Countability/Uncountable Sets.md"
               }
             }
           },
@@ -235,9 +235,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e4445ac311321101",
+  "active": "11bacb6c5c6833d8",
   "lastOpenFiles": [
+    "TheoryOfComputation/Countability/Uncountable Sets.md",
+    "TheoryOfComputation/Countability/Countable Sets.md",
+    "TheoryOfComputation/Theory of Computation.md",
     "Digital-Logic/Digital Logic.md",
+    "Digital-Logic/Number Systems/Binary Codes.md",
+    "attachments/Binary Codes-20240227140520407.webp",
+    "attachments/Binary Codes-20240227133944487.webp",
+    "Aptitude/Verbal-Ability/Verbal-Ability.md",
+    "Digital-Logic/Number Systems/Sign Extension.md",
+    "Digital-Logic/Number Systems/Signed Binary Numbers.md",
     "Digital-Logic/Number Systems/Overflow.md",
     "attachments/Overflow-20240226184046987.webp",
     "attachments/Overflow-20240226182438540.webp",
@@ -245,7 +254,6 @@
     "attachments/Discrete Mathematics-20240226181625655.webp",
     "Aptitude/Aptitude.md",
     "Aptitude/Quantitative-Aptitude/Number System.md",
-    "Digital-Logic/Number Systems/Signed Binary Numbers.md",
     "Digital-Logic/Number Systems/Addition of Signed Binary Numbers.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
     "Digital-Logic/Number Systems/Complements in Number System.md",
@@ -261,19 +269,12 @@
     "Digital-Logic/Number Systems/Octal and Hexadecimal System.md",
     "attachments/Number Systems-20240224183608079.webp",
     "attachments/Number Systems-20240224181422411.webp",
-    "attachments/Number Systems-20240224181003337.webp",
-    "attachments/Number Systems-20240224180928798.webp",
     "Digital-Logic/Number Systems",
-    "TheoryOfComputation/Theory of Computation.md",
-    "TheoryOfComputation/Countability/Countable Sets.md",
     "TheoryOfComputation/Countability/Understanding Infinity and Cardinality.md",
     "TheoryOfComputation/Countability/Cardinality.md",
     "TheoryOfComputation/Countability",
     "DiscreteMathematics/Functions/Function Definition.md",
     "DiscreteMathematics/Functions/Types of Functions.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
-    "Temporary Plan.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions",
     "Digital-Logic",
     "TheoryOfComputation/Turing Machines and Undecidability",
