@@ -60,7 +60,7 @@ tags:
 - [[Reductions]]
 
 > [!youtube] 
->  - [*] [Decidability, Undecidability | Rice Theorem | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHiMGiPFIOPJG_ApL43JkILI)
+> [Decidability, Undecidability | Rice Theorem | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHiMGiPFIOPJG_ApL43JkILI)
 
 # Module 6 - Countability
 
@@ -68,6 +68,7 @@ tags:
 - [[Types of Functions]]
 - [[Understanding Infinity and Cardinality]]
 - [[Countable Sets]]
+- [[Uncountable Sets]]
 
 
 ---
