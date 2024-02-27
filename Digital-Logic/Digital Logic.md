@@ -33,7 +33,8 @@ tags:
 - [[Signed Binary Numbers]]
 - [[Addition of Signed Binary Numbers]]
 - [[Overflow]]
-
+- [[Sign Extension]]
+- [[Binary Codes]]
 
 
 ---

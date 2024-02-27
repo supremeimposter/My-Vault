@@ -16,10 +16,9 @@ tags:
 
 ```mermaid
 flowchart LR
-A[Signed \nBinary \nRepresentation] --> B[Signed \nMagnitude \nSystem]
-A --> C[Signed \nComplement \nSystem]
-C --> D[1's complement \nsystem]
-C --> E[2's complement \nsystem]
+A[Signed Binary \nRepresentation] --> B[Signed \nMagnitude  System]
+A --> C[1's complement system]
+A --> D[2's complement system]
 ```
 
 - A computer can use any of the above three representations.

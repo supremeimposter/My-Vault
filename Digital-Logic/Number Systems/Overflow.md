@@ -42,9 +42,12 @@ tags:
 ### 2's Complement Representation
 
 
-> [!timer] Resume 00:26:00
 
 ---
 
 > [!search] 
 > See if there is anything regarding **Underflow**
+
+
+> [!summary] 
+
