@@ -18,4 +18,5 @@
 ---
 # References
 > [!youtube]
-> [Verbal Aptitude for Competitive Examinations| The Sentence - YouTube](https://www.youtube.com/watch?v=Zf7hwQXwVuo&list=PL6aB9AKiIjgvKs4MepL6YC-l0EB8wN7gr)
+> [Verbal Aptitude - YouTube](https://www.youtube.com/playlist?list=PL6aB9AKiIjgvKs4MepL6YC-l0EB8wN7gr)
+
