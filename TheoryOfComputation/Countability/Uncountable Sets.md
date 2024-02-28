@@ -16,6 +16,6 @@ tags:
 
 ## Cantor's Diagonalization Argument
 
+- If we proved that for an arbitrary bijection $f$ between $S$ and $\mathbb{N}$, there exists an element $x \in S$ such that $x$ is not covered by $f$, then bijection does not exist between $S$ and $\mathbb{N}$.
 
-> [!timer] 00:55:57
 

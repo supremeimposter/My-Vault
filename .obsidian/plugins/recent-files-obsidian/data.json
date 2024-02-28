@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Uncountable Sets",
-      "path": "TheoryOfComputation/Countability/Uncountable Sets.md"
-    },
-    {
       "basename": "Countable Sets",
       "path": "TheoryOfComputation/Countability/Countable Sets.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "Temporary Plan.md"
+    },
+    {
+      "basename": "Uncountable Sets",
+      "path": "TheoryOfComputation/Countability/Uncountable Sets.md"
     },
     {
       "basename": "Theory of Computation",
@@ -107,10 +111,6 @@
     {
       "basename": "Laws of Boolean Algebra",
       "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "Temporary Plan.md"
     },
     {
       "basename": "Algebraic Simplification of Boolean Functions",

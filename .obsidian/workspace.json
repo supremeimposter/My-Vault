@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Countability/Uncountable Sets.md",
+                "file": "TheoryOfComputation/Countability/Countable Sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Countability/Uncountable Sets.md",
+                "file": "TheoryOfComputation/Countability/Countable Sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Countability/Uncountable Sets.md"
+                "file": "TheoryOfComputation/Countability/Countable Sets.md"
               }
             }
           },
@@ -235,10 +235,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "11bacb6c5c6833d8",
+  "active": "7d33bae3a24ed247",
   "lastOpenFiles": [
-    "TheoryOfComputation/Countability/Uncountable Sets.md",
+    "Temporary Plan.md",
     "TheoryOfComputation/Countability/Countable Sets.md",
+    "TheoryOfComputation/Countability/Uncountable Sets.md",
     "TheoryOfComputation/Theory of Computation.md",
     "Digital-Logic/Digital Logic.md",
     "Digital-Logic/Number Systems/Binary Codes.md",
@@ -274,7 +275,6 @@
     "TheoryOfComputation/Countability/Cardinality.md",
     "TheoryOfComputation/Countability",
     "DiscreteMathematics/Functions/Function Definition.md",
-    "DiscreteMathematics/Functions/Types of Functions.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions",
     "Digital-Logic",
     "TheoryOfComputation/Turing Machines and Undecidability",
