@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8a224017f719d88a",
+        "id": "9779c22d5bd23565",
         "type": "tabs",
         "children": [
           {
-            "id": "b96af29cd74d25df",
+            "id": "68a25a8dcacfb30e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "7d33bae3a24ed247",
+            "id": "0aa1c25e6618fa10",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "11bacb6c5c6833d8",
+            "id": "c257c858197b2776",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,9 +45,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a1e4c00147732803",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TheoryOfComputation/Countability/Cantor's Theorem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Countability/Countable Sets.md",
+                "file": "TheoryOfComputation/Theory of Computation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Countability/Countable Sets.md",
+                "file": "TheoryOfComputation/Theory of Computation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Countability/Countable Sets.md"
+                "file": "TheoryOfComputation/Theory of Computation.md"
               }
             }
           },
@@ -188,7 +200,7 @@
             }
           },
           {
-            "id": "b7284cf1f0f1221a",
+            "id": "ab4bcad2782c492f",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -226,7 +238,6 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "markdown-table-editor:Open Markdown Table Editor": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
@@ -235,14 +246,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7d33bae3a24ed247",
+  "active": "68a25a8dcacfb30e",
   "lastOpenFiles": [
-    "Temporary Plan.md",
-    "TheoryOfComputation/Countability/Countable Sets.md",
+    "TheoryOfComputation/Countability/Cantor's Theorem.md",
     "TheoryOfComputation/Countability/Uncountable Sets.md",
+    "TheoryOfComputation/Countability/Countable Sets.md",
     "TheoryOfComputation/Theory of Computation.md",
+    "TheoryOfComputation/Countability/Theorems for Countable Sets.md",
     "Digital-Logic/Digital Logic.md",
+    "Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
+    "Digital-Logic/Combinational Circuits",
     "Digital-Logic/Number Systems/Binary Codes.md",
+    "Digital-Logic/Number Systems/Gray code.md",
+    "attachments/Gray code-20240229104826823.webp",
+    "Temporary Plan.md",
     "attachments/Binary Codes-20240227140520407.webp",
     "attachments/Binary Codes-20240227133944487.webp",
     "Aptitude/Verbal-Ability/Verbal-Ability.md",
@@ -267,14 +284,9 @@
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
     "attachments/Complements in Number System-20240225093342933.webp",
     "Digital-Logic/Number Systems/Number Systems.md",
-    "Digital-Logic/Number Systems/Octal and Hexadecimal System.md",
     "attachments/Number Systems-20240224183608079.webp",
-    "attachments/Number Systems-20240224181422411.webp",
     "Digital-Logic/Number Systems",
-    "TheoryOfComputation/Countability/Understanding Infinity and Cardinality.md",
-    "TheoryOfComputation/Countability/Cardinality.md",
     "TheoryOfComputation/Countability",
-    "DiscreteMathematics/Functions/Function Definition.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions",
     "Digital-Logic",
     "TheoryOfComputation/Turing Machines and Undecidability",
@@ -282,7 +294,6 @@
     "TheoryOfComputation/Language Class",
     "TheoryOfComputation/Context Free Languages-Grammars-PDA",
     "Untitled.canvas",
-    "OperatingSystems",
-    "DataStructures/Row and Column Major Mapping"
+    "OperatingSystems"
   ]
 }

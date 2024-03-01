@@ -1,28 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Countable Sets",
-      "path": "TheoryOfComputation/Countability/Countable Sets.md"
+      "basename": "Theory of Computation",
+      "path": "TheoryOfComputation/Theory of Computation.md"
     },
     {
-      "basename": "Temporary Plan",
-      "path": "Temporary Plan.md"
+      "basename": "Cantor's Theorem",
+      "path": "TheoryOfComputation/Countability/Cantor's Theorem.md"
     },
     {
       "basename": "Uncountable Sets",
       "path": "TheoryOfComputation/Countability/Uncountable Sets.md"
     },
     {
-      "basename": "Theory of Computation",
-      "path": "TheoryOfComputation/Theory of Computation.md"
+      "basename": "Countable Sets",
+      "path": "TheoryOfComputation/Countability/Countable Sets.md"
+    },
+    {
+      "basename": "Theorems for Countable Sets",
+      "path": "TheoryOfComputation/Countability/Theorems for Countable Sets.md"
     },
     {
       "basename": "Digital Logic",
       "path": "Digital-Logic/Digital Logic.md"
     },
     {
+      "basename": "Compact Truth Table Representation",
+      "path": "Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
+    },
+    {
       "basename": "Binary Codes",
       "path": "Digital-Logic/Number Systems/Binary Codes.md"
+    },
+    {
+      "basename": "Gray code",
+      "path": "Digital-Logic/Number Systems/Gray code.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "Temporary Plan.md"
     },
     {
       "basename": "Verbal-Ability",
@@ -183,22 +199,6 @@
     {
       "basename": "Types of Lattices",
       "path": "DiscreteMathematics/Set-Theory/Types of Lattices.md"
-    },
-    {
-      "basename": "Decision Problems of Language Classes",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Decision Problems of Language Classes.md"
-    },
-    {
-      "basename": "Rice Theorem",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Rice Theorem.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE-LOG.md"
-    },
-    {
-      "basename": "Regular Languages and Finite Automata",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Regular Languages and Finite Automata.md"
     }
   ],
   "omittedPaths": [
