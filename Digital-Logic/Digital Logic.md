@@ -35,10 +35,21 @@ tags:
 - [[Overflow]]
 - [[Sign Extension]]
 - [[Binary Codes]]
+- [[Gray code]]
+
+## Module 3 - Combinational Circuits
+
+- [[Compact Truth Table Representation]]
 
 
 ---
+# Tests and Quizzes
 
+> [!link] Weekly Quiz 30
+> [GO Classes 2024 | Weekly Quiz 30 | Boolean Algebra, Minimization, Number System - GATE Overflow for GATE CSE](https://gateoverflow.in/exam/551/go-classes-2024-weekly-quiz-30-boolean-algebra-minimization-number-system)
+> [Weekly Quiz 30 Solutions Part 1 - Boolean Algebra, Minimization, Number System | Digital Logic - YouTube](https://www.youtube.com/watch?v=EVHvvffg8Uc&feature=youtu.be&themeRefresh=1)
+
+---
 # References
 
 > [!youtube] 
