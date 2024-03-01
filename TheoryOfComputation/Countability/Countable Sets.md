@@ -53,7 +53,6 @@ A --> C[Countable Infinite sets]
 > Definition #3 is from a research paper and it is not found from standard books.
 
 
-> [!timer] 02:08:52
 
 
 ---

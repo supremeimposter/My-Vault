@@ -69,6 +69,9 @@ tags:
 - [[Understanding Infinity and Cardinality]]
 - [[Countable Sets]]
 - [[Uncountable Sets]]
+- [[Theorems for Countable Sets]]
+- [[Cantor's Theorem]]
+
 
 
 ---
