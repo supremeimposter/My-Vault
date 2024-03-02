@@ -8,7 +8,7 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DigitalLogic/CombinationalCircuits
+  - DigitalLogic/BooleanAlgebra
 ---
 # Compact Truth Table
 

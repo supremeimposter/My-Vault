@@ -40,6 +40,8 @@ tags:
 ## Module 3 - Combinational Circuits
 
 - [[Compact Truth Table Representation]]
+- [[Multiplexer]]
+
 
 
 ---
