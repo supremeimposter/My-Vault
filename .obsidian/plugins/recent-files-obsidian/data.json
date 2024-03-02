@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Theory of Computation",
-      "path": "TheoryOfComputation/Theory of Computation.md"
+      "basename": "Multiplexer",
+      "path": "Digital-Logic/Combinational Circuits/Multiplexer.md"
     },
     {
-      "basename": "Cantor's Theorem",
-      "path": "TheoryOfComputation/Countability/Cantor's Theorem.md"
+      "basename": "Logical Connectives",
+      "path": "DiscreteMathematics/Propositional-Logic/Logical Connectives.md"
+    },
+    {
+      "basename": "Negation",
+      "path": "DiscreteMathematics/Propositional-Logic/Negation.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Propositional Logic",
+      "path": "DiscreteMathematics/Propositional-Logic/Propositional Logic.md"
+    },
+    {
+      "basename": "Compact Truth Table Representation",
+      "path": "Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Basic Concepts of TOC",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
+    },
+    {
+      "basename": "Countability Results in Theory of Computation",
+      "path": "TheoryOfComputation/Countability/Countability Results in Theory of Computation.md"
+    },
+    {
+      "basename": "Theory of Computation",
+      "path": "TheoryOfComputation/Theory of Computation.md"
     },
     {
       "basename": "Uncountable Sets",
@@ -17,16 +49,12 @@
       "path": "TheoryOfComputation/Countability/Countable Sets.md"
     },
     {
+      "basename": "Cantor's Theorem",
+      "path": "TheoryOfComputation/Countability/Cantor's Theorem.md"
+    },
+    {
       "basename": "Theorems for Countable Sets",
       "path": "TheoryOfComputation/Countability/Theorems for Countable Sets.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "Digital-Logic/Digital Logic.md"
-    },
-    {
-      "basename": "Compact Truth Table Representation",
-      "path": "Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
     },
     {
       "basename": "Binary Codes",
@@ -55,10 +83,6 @@
     {
       "basename": "Overflow",
       "path": "Digital-Logic/Number Systems/Overflow.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "DiscreteMathematics/Discrete Mathematics.md"
     },
     {
       "basename": "Aptitude",
@@ -175,30 +199,6 @@
     {
       "basename": "Dovetailiing Technique",
       "path": "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing Technique.md"
-    },
-    {
-      "basename": "Closure Properties of CFL",
-      "path": "TheoryOfComputation/Closure Properties/Closure Properties of CFL.md"
-    },
-    {
-      "basename": "Closure Properties of Finite Languages",
-      "path": "TheoryOfComputation/Closure Properties/Closure Properties of Finite Languages.md"
-    },
-    {
-      "basename": "Variants of Turing Machine",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Variants of Turing Machine.md"
-    },
-    {
-      "basename": "Language and Decision Problem",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Language and Decision Problem.md"
-    },
-    {
-      "basename": "Boolean Algebra",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
-    },
-    {
-      "basename": "Types of Lattices",
-      "path": "DiscreteMathematics/Set-Theory/Types of Lattices.md"
     }
   ],
   "omittedPaths": [

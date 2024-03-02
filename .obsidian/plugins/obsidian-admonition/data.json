@@ -431,6 +431,17 @@
       "command": false,
       "injectColor": true,
       "noTitle": false
+    },
+    "results": {
+      "type": "results",
+      "color": "24, 205, 145",
+      "icon": {
+        "name": "hourglass-end",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9779c22d5bd23565",
+        "id": "348e77c1f9d01ece",
         "type": "tabs",
         "children": [
           {
-            "id": "68a25a8dcacfb30e",
+            "id": "fe5fa7baed4b28c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheoryOfComputation/Theory of Computation.md",
+                "file": "Digital-Logic/Digital Logic.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "0aa1c25e6618fa10",
+            "id": "863e3d03a8881efe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheoryOfComputation/Countability/Countable Sets.md",
+                "file": "Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,32 +34,20 @@
             }
           },
           {
-            "id": "c257c858197b2776",
+            "id": "fcfd1a25184a4c60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheoryOfComputation/Countability/Uncountable Sets.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1e4c00147732803",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheoryOfComputation/Countability/Cantor's Theorem.md",
+                "file": "Digital-Logic/Combinational Circuits/Multiplexer.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -143,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheoryOfComputation/Theory of Computation.md",
+                "file": "Digital-Logic/Combinational Circuits/Multiplexer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TheoryOfComputation/Theory of Computation.md",
+                "file": "Digital-Logic/Combinational Circuits/Multiplexer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TheoryOfComputation/Theory of Computation.md"
+                "file": "Digital-Logic/Combinational Circuits/Multiplexer.md"
               }
             }
           },
@@ -246,15 +234,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "68a25a8dcacfb30e",
+  "active": "fcfd1a25184a4c60",
   "lastOpenFiles": [
-    "TheoryOfComputation/Countability/Cantor's Theorem.md",
+    "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
+    "DiscreteMathematics/Propositional-Logic/Negation.md",
+    "DiscreteMathematics/Discrete Mathematics.md",
+    "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
+    "Digital-Logic/Combinational Circuits/Multiplexer.md",
+    "Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
+    "Digital-Logic/Digital Logic.md",
+    "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
+    "TheoryOfComputation/Countability/Countability Results in Theory of Computation.md",
+    "TheoryOfComputation/Theory of Computation.md",
     "TheoryOfComputation/Countability/Uncountable Sets.md",
     "TheoryOfComputation/Countability/Countable Sets.md",
-    "TheoryOfComputation/Theory of Computation.md",
+    "TheoryOfComputation/Countability/Cantor's Theorem.md",
     "TheoryOfComputation/Countability/Theorems for Countable Sets.md",
-    "Digital-Logic/Digital Logic.md",
-    "Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
     "Digital-Logic/Combinational Circuits",
     "Digital-Logic/Number Systems/Binary Codes.md",
     "Digital-Logic/Number Systems/Gray code.md",
@@ -268,22 +263,15 @@
     "Digital-Logic/Number Systems/Overflow.md",
     "attachments/Overflow-20240226184046987.webp",
     "attachments/Overflow-20240226182438540.webp",
-    "DiscreteMathematics/Discrete Mathematics.md",
     "attachments/Discrete Mathematics-20240226181625655.webp",
     "Aptitude/Aptitude.md",
     "Aptitude/Quantitative-Aptitude/Number System.md",
     "Digital-Logic/Number Systems/Addition of Signed Binary Numbers.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
     "Digital-Logic/Number Systems/Complements in Number System.md",
-    "Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md",
     "attachments/Addition and Subtraction of Signed Binary Numbers-20240226124212450.webp",
     "attachments/Signed Binary Numbers-20240225231026664.webp",
-    "GATE-CS.md",
-    "C/Binary and 2'complements/2's complement.md",
-    "Digital-Logic/Number Systems/Binary System.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
     "attachments/Complements in Number System-20240225093342933.webp",
-    "Digital-Logic/Number Systems/Number Systems.md",
     "attachments/Number Systems-20240224183608079.webp",
     "Digital-Logic/Number Systems",
     "TheoryOfComputation/Countability",
