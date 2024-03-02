@@ -286,6 +286,11 @@ $$
 
 - $(L^*)^R = (L^R)^*$
 
+
+> [!conflict] Set of all strings and Set of all Languages
+> Set of all strings over $\Sigma$ = $\Sigma^\ast$
+> Set of all languages over $\Sigma$ = $\mathcal{P}(\Sigma^\ast)$
+
 ### Kleene Plus
 - Positive closure of a language L is represented as $L^{+} {}$.
 $$

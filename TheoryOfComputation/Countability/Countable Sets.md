@@ -9,6 +9,7 @@ last-revision:
 notes-taken: false
 tags:
   - TheoryOfComputation/Countability
+  - DiscreteMath/Sets
 ---
 # Countable Sets
 

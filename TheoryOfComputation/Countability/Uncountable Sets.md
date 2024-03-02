@@ -9,6 +9,7 @@ last-revision:
 notes-taken: false
 tags:
   - TheoryOfComputation/Countability
+  - DiscreteMath/Sets
 ---
 # Uncountable Sets
 - A set $S$ is uncountable iff $S$ is not countable.

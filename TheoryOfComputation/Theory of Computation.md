@@ -63,6 +63,8 @@ tags:
 > [Decidability, Undecidability | Rice Theorem | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHiMGiPFIOPJG_ApL43JkILI)
 
 # Module 6 - Countability
+> [!youtube] 
+> [Countability Lecture 1 - Hilbert's Grand Hotel | Bijection, Cardinality | Understanding Infinity - YouTube](https://www.youtube.com/watch?v=UWuIllbQuP0&list=PLIPZ2_p3RNHgXosiQv-gL1PvJkcHokW1p)
 
 - [[Function Definition]]
 - [[Types of Functions]]
@@ -71,7 +73,7 @@ tags:
 - [[Uncountable Sets]]
 - [[Theorems for Countable Sets]]
 - [[Cantor's Theorem]]
-
+- [[Countability Results in Theory of Computation]]
 
 
 ---
@@ -107,3 +109,6 @@ tags:
 > [!youtube] 
 > [Theory of Computation | Automata Theory | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9)
 
+
+> [!youtube] Open mic with students
+> [Open Mic with Students | One-to-One Discussion | GO Classes - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHh3iz2lIqW8olvQOCIqVtW7)
