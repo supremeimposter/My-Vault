@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Multiplexer",
-      "path": "Digital-Logic/Combinational Circuits/Multiplexer.md"
+      "basename": "Encoder",
+      "path": "Digital-Logic/Combinational Circuits/Encoder.md"
+    },
+    {
+      "basename": "Minimization using K Map",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Multiplexer and Demultiplexer",
+      "path": "Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
     },
     {
       "basename": "Logical Connectives",
@@ -23,10 +35,6 @@
     {
       "basename": "Compact Truth Table Representation",
       "path": "Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Basic Concepts of TOC",
@@ -161,10 +169,6 @@
       "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
     },
     {
-      "basename": "Minimization using K Map",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
-    },
-    {
       "basename": "Implicants in K Map",
       "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Closure Properties of DCFL",
       "path": "TheoryOfComputation/Closure Properties/Closure Properties of DCFL.md"
-    },
-    {
-      "basename": "Dovetailiing Technique",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing Technique.md"
     }
   ],
   "omittedPaths": [
