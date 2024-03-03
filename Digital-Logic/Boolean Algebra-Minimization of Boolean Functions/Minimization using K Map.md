@@ -80,7 +80,9 @@ tags:
 - A partial function with $k$ don't care combinations corresponds to a class of $2^k$ functions.
 
 - Dont cares can be used in any way we desire. We can try to create bigger cubes using don't cares to create minimized SOP and minimized POS.
-- Since don't cares can be anything, we can utilize it to create cubes of appropriate size to create the minimized SOP and minimized POS.
+
+> [!tip]
+> Since don't cares can be anything, we can utilize it to create cubes of appropriate size to create the minimized SOP and minimized POS.
 
 ## Covering Functions
 - A function $f$ covers $g$ iff whenever $g = 1$, then $f = 1$ or whenever $f = 0$, then $g = 0$.
