@@ -14,6 +14,7 @@ tags:
 
 > [!analogy] 
 > Encoding is like giving a code to each people.
+> Each person is considered as a function.
 
 ## Binary Encoder
 
@@ -27,5 +28,4 @@ tags:
 - Priority is given to the one input which has the most priority among the inputs that are 1.
 
 
-> [!timer] 00:17:41
 

@@ -42,6 +42,11 @@ tags:
 - [[Compact Truth Table Representation]]
 - [[Multiplexer and Demultiplexer]]
 - [[Encoder]]
+- [[Decoder]]
+- [[Propagation Delay and Timing Diagrams]]
+- [[Half Adder and Full Adder]]
+- [[Ripple Carry Adder]]
+- [[Carry Look Ahead Adder]]
 
 
 ---
@@ -51,11 +56,9 @@ tags:
 > [GO Classes 2024 | Weekly Quiz 30 | Boolean Algebra, Minimization, Number System - GATE Overflow for GATE CSE](https://gateoverflow.in/exam/551/go-classes-2024-weekly-quiz-30-boolean-algebra-minimization-number-system)
 > [Weekly Quiz 30 Solutions Part 1 - Boolean Algebra, Minimization, Number System | Digital Logic - YouTube](https://www.youtube.com/watch?v=EVHvvffg8Uc&feature=youtu.be&themeRefresh=1)
 
-
 > [!link] Weekly Quiz 31
 > [GO Classes 2024 | Weekly Quiz 31 | Multiplexer - GATE Overflow for GATE CSE](https://gateoverflow.in/exam/554/go-classes-2024-weekly-quiz-31-multiplexer)
 > [Multiplexer - 15 GATE Previous Years Questions | GATE EC, EE, IN | Digital Logic | Weekly Quiz 31 - YouTube](https://www.youtube.com/watch?v=iH-tWF51Zbc)
-
 
 ---
 # References
