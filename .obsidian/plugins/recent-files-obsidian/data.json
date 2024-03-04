@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Carry Look Ahead Adder",
+      "path": "Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md"
+    },
+    {
+      "basename": "Pending Lectures",
+      "path": "Pending Lectures.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Ripple Carry Adder",
+      "path": "Digital-Logic/Combinational Circuits/Ripple Carry Adder.md"
+    },
+    {
+      "basename": "Half Adder and Full Adder",
+      "path": "Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md"
+    },
+    {
+      "basename": "Propagation Delay and Timing Diagrams",
+      "path": "Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md"
+    },
+    {
+      "basename": "Decoder",
+      "path": "Digital-Logic/Combinational Circuits/Decoder.md"
+    },
+    {
       "basename": "Encoder",
       "path": "Digital-Logic/Combinational Circuits/Encoder.md"
     },
     {
       "basename": "Minimization using K Map",
       "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Multiplexer and Demultiplexer",
@@ -175,30 +199,6 @@
     {
       "basename": "Unless",
       "path": "DiscreteMathematics/Propositional-Logic/Unless.md"
-    },
-    {
-      "basename": "Reductions",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Reductions.md"
-    },
-    {
-      "basename": "Turing Machines",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Turing Machines.md"
-    },
-    {
-      "basename": "Context Free Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "Pending Lectures.md"
-    },
-    {
-      "basename": "Closure Properties of RE and REC languages",
-      "path": "TheoryOfComputation/Turing Machines and Undecidability/Closure Properties of RE and REC languages.md"
-    },
-    {
-      "basename": "Closure Properties of DCFL",
-      "path": "TheoryOfComputation/Closure Properties/Closure Properties of DCFL.md"
     }
   ],
   "omittedPaths": [

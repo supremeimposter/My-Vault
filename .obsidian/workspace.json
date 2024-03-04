@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "863e3d03a8881efe",
+            "id": "ce1039de388bceea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
+                "file": "Digital-Logic/Combinational Circuits/Ripple Carry Adder.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,25 +34,12 @@
             }
           },
           {
-            "id": "fcfd1a25184a4c60",
+            "id": "f8f3cc1154f2da65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a9f6f65ad0c645b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Digital-Logic/Combinational Circuits/Encoder.md",
+                "file": "Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -144,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital-Logic/Combinational Circuits/Encoder.md",
+                "file": "Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital-Logic/Combinational Circuits/Encoder.md",
+                "file": "Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital-Logic/Combinational Circuits/Encoder.md"
+                "file": "Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md"
               }
             }
           },
@@ -247,23 +234,28 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a9f6f65ad0c645b3",
+  "active": "f8f3cc1154f2da65",
   "lastOpenFiles": [
+    "Pending Lectures.md",
+    "Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md",
+    "Digital-Logic/Digital Logic.md",
+    "Digital-Logic/Combinational Circuits/Ripple Carry Adder.md",
+    "attachments/Ripple Carry Adder-20240304184746617.webp",
+    "Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md",
+    "attachments/Adder-20240304182937620.webp",
+    "attachments/Adder-20240304182909123.webp",
+    "Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md",
+    "attachments/Adder-20240304174851806.webp",
+    "attachments/Adder-20240304174614123.webp",
+    "attachments/Adder-20240304171518757.webp",
+    "attachments/Adder-20240304165228441.webp",
+    "Digital-Logic/Combinational Circuits/Decoder.md",
+    "Digital-Logic/Combinational Circuits/Encoder.md",
     "attachments/Encoder-20240303232321147.webp",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
-    "Digital-Logic/Combinational Circuits/Encoder.md",
-    "Digital-Logic/Digital Logic.md",
     "Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
     "attachments/Multiplexer and Demultiplexer-20240303202450744.webp",
     "attachments/Multiplexer-20240303085656863.webp",
-    "attachments/Multiplexer-20240303085009336.webp",
-    "attachments/Multiplexer-20240303084651501.webp",
-    "attachments/Multiplexer-20240303084158702.webp",
-    "attachments/Multiplexer-20240303083740711.webp",
-    "attachments/Multiplexer-20240303083438217.webp",
-    "attachments/Multiplexer-20240303080640017.webp",
-    "attachments/Multiplexer-20240303075206381.webp",
-    "attachments/Multiplexer-20240303073450940.webp",
     "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
     "DiscreteMathematics/Propositional-Logic/Negation.md",
     "DiscreteMathematics/Discrete Mathematics.md",
@@ -281,11 +273,6 @@
     "Digital-Logic/Number Systems/Gray code.md",
     "Temporary Plan.md",
     "Aptitude/Verbal-Ability/Verbal-Ability.md",
-    "Digital-Logic/Number Systems/Sign Extension.md",
-    "Digital-Logic/Number Systems/Signed Binary Numbers.md",
-    "Digital-Logic/Number Systems/Overflow.md",
-    "Aptitude/Aptitude.md",
-    "Aptitude/Quantitative-Aptitude/Number System.md",
     "Digital-Logic/Number Systems",
     "TheoryOfComputation/Countability",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions",
