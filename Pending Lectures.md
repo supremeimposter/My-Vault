@@ -66,4 +66,5 @@
 - [ ] [Theory of Computation: Homework 2 Solutions | TOC Standard Questions | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=BYnZ6T2bHJI&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=6)
 - [ ] [Theory of Computation: Homework 3 Solutions Part 1 - Top Universities Questions | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=hTUGFT5WzTM&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=8)
 - [ ] [Theory of Computation: Homework 3 Solutions Part 2 - Top Universities Questions | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=A2KRjA7FvXw&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=34)
+- [ ] Countability PYQs from GATE, TIFR, NIELET
 
