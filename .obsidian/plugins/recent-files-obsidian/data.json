@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Carry Look Ahead Adder",
-      "path": "Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md"
+      "basename": "Compiler Design",
+      "path": "CompilerDesign/Compiler Design.md"
+    },
+    {
+      "basename": "Lexical Analysis",
+      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md"
     },
     {
       "basename": "Pending Lectures",
       "path": "Pending Lectures.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "Temporary Plan.md"
+    },
+    {
+      "basename": "Introduction to Compiler Design",
+      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
     },
     {
       "basename": "Digital Logic",
@@ -15,6 +31,14 @@
     {
       "basename": "Ripple Carry Adder",
       "path": "Digital-Logic/Combinational Circuits/Ripple Carry Adder.md"
+    },
+    {
+      "basename": "Adder for Signed Addition",
+      "path": "Digital-Logic/Combinational Circuits/Adder for Signed Addition.md"
+    },
+    {
+      "basename": "Carry Look Ahead Adder",
+      "path": "Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md"
     },
     {
       "basename": "Half Adder and Full Adder",
@@ -97,10 +121,6 @@
       "path": "Digital-Logic/Number Systems/Gray code.md"
     },
     {
-      "basename": "Temporary Plan",
-      "path": "Temporary Plan.md"
-    },
-    {
       "basename": "Verbal-Ability",
       "path": "Aptitude/Verbal-Ability/Verbal-Ability.md"
     },
@@ -141,10 +161,6 @@
       "path": "Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md"
     },
     {
-      "basename": "GATE-CS",
-      "path": "GATE-CS.md"
-    },
-    {
       "basename": "2's complement",
       "path": "C/Binary and 2'complements/2's complement.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Laws of Boolean Algebra",
       "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
-    },
-    {
-      "basename": "Algebraic Simplification of Boolean Functions",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md"
-    },
-    {
-      "basename": "Standard and Canonical Forms of Boolean Expressions",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
-    },
-    {
-      "basename": "Implicants in K Map",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md"
-    },
-    {
-      "basename": "Unless",
-      "path": "DiscreteMathematics/Propositional-Logic/Unless.md"
     }
   ],
   "omittedPaths": [
