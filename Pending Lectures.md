@@ -65,6 +65,7 @@
 - [ ] [Theory of Computation: Homework 2 Solutions | TOC Standard Questions | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=BYnZ6T2bHJI&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=6)
 - [ ] [Theory of Computation: Homework 3 Solutions Part 1 - Top Universities Questions | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=hTUGFT5WzTM&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=8)
 - [ ] [Theory of Computation: Homework 3 Solutions Part 2 - Top Universities Questions | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=A2KRjA7FvXw&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=34)
+- [ ] [Theory of Computation: Homework 5 Solutions | TOC Standard Questions Session 5 | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=pIm7BPt-bJ4&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=14)
 - [ ] [Countability - GATE PYQs, TIFR, UGC NET Questions - ALL Previous Exams Questions | GO Classes - YouTube](https://www.youtube.com/watch?v=fl8Z3oM2EJk&list=PLIPZ2_p3RNHgXosiQv-gL1PvJkcHokW1p&index=8)
 
 # [[Digital Logic]]
