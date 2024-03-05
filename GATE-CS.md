@@ -1,3 +1,9 @@
+---
+version: 
+instructor: 
+tags:
+  - GATE
+---
 
 - [[Fundamentals of Computer Science]]
 - [[Discrete Mathematics]]
@@ -8,7 +14,19 @@
 - [[Data Structures]]
 - [[Operating Systems]]
 - [[Digital Logic]]
+- [[Compiler Design]]
 - [[Aptitude]]
+
+
+
+
+---
+
+# References
+
+
+---
+
 ---
 - [[Pending Notes]]
 - [[Pending Lectures]]
