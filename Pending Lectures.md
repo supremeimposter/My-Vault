@@ -12,7 +12,6 @@
 - [ ] Linear Algebra - Weekly Quiz - 7, Live 8
 - [ ] Scholarship test LA solution
 
-
 # [[C]]
 - [ ] C Programming - [Pointer Summary](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHgJFMCeS5c13pREPXcoRkaZ)
 - [ ] C Programming - Weekly Quiz 15, 17, 18
@@ -66,5 +65,8 @@
 - [ ] [Theory of Computation: Homework 2 Solutions | TOC Standard Questions | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=BYnZ6T2bHJI&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=6)
 - [ ] [Theory of Computation: Homework 3 Solutions Part 1 - Top Universities Questions | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=hTUGFT5WzTM&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=8)
 - [ ] [Theory of Computation: Homework 3 Solutions Part 2 - Top Universities Questions | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=A2KRjA7FvXw&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=34)
-- [ ] Countability PYQs from GATE, TIFR, NIELET
+- [ ] [Countability - GATE PYQs, TIFR, UGC NET Questions - ALL Previous Exams Questions | GO Classes - YouTube](https://www.youtube.com/watch?v=fl8Z3oM2EJk&list=PLIPZ2_p3RNHgXosiQv-gL1PvJkcHokW1p&index=8)
+
+# [[Digital Logic]]
+- [ ] [GRE Computer Science - Ripple Carry Adder Delay Question - Complete Analysis | Deepak Poonia Sir - YouTube](https://www.youtube.com/watch?v=O-ymWW0ZH9o)
 

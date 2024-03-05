@@ -1,7 +1,6 @@
-Feb - TOC, DL
-March - Compiler, COA, Algo
-April - Algo, CN, OS
-May - Discrete pending
+March - DL, Compiler, COA
+April - CN, OS
+May - Algo, OS
 
 Revision
 
