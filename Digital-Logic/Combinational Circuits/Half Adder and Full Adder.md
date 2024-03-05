@@ -18,8 +18,14 @@ tags:
 | Addition of three bits                   | Full Adder                                   |
 | Addition of two multi-bit binary numbers | Ripple Carry Adder or Carry Look Ahead Adder |
 
+> [!observation] 
+> Each output of a circuit can be looked at the perspective of a function. Check for when it will 1 with the help of minterms.
+
+
 ## Half Adder
 ![[Adder-20240304182909123.webp]]
+
+<iframe src="https://circuitverse.org/simulator/embed/half-adder-0b84148b-220e-4940-ae10-a01daf00b621?theme=default&display_title=true&clock_time=true&fullscreen=true&zoom_in_out=true" style="border-width:; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
 
 > [!discussion] 
 > ![[Adder-20240304165228441.webp]]

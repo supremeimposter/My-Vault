@@ -47,7 +47,19 @@ tags:
 - [[Half Adder and Full Adder]]
 - [[Ripple Carry Adder]]
 - [[Carry Look Ahead Adder]]
+- [[Adder for Signed Addition]]
 
+## Module 4 - Function Completeness
+
+> [!youtube] 
+> [Digital Logic : Functional Completeness | Complete Playlist - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHh7tLVtGdh2mIRXJv8_Udnl)
+
+
+
+
+---
+# Pending Lectures
+![[Pending Lectures#Digital Logic]]
 
 ---
 # Tests and Quizzes
