@@ -882,8 +882,7 @@ class VaultChangeModal extends obsidian.Modal {
             let newName = inputEl.value;
             if (this.action === 'rename') {
                 // Manual Rename Handler For md Files
-                if (this.file.path.endsWith('.md'))
-                    newName = newName + '.md';
+                newName = newName + '.' + this.file.path.slice(this.file.path.lastIndexOf('.') + 1);
                 // Folder Note files to be updated
                 if (this.file instanceof obsidian.TFolder && this.plugin.settings.folderNote) {
                     let folderNoteFile = this.app.vault.getAbstractFileByPath(this.file.path + '/' + this.file.name + '.md');

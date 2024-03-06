@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Emil Post's Functional Completeness Theoorem",
+      "path": "Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theoorem.md"
+    },
+    {
+      "basename": "Functional Completeness",
+      "path": "Digital-Logic/Functional Completeness/Functional Completeness.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Syntax Analysis",
+      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md"
+    },
+    {
       "basename": "Compiler Design",
       "path": "CompilerDesign/Compiler Design.md"
     },
@@ -23,10 +39,6 @@
     {
       "basename": "GATE-CS",
       "path": "GATE-CS.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Ripple Carry Adder",
@@ -187,18 +199,6 @@
     {
       "basename": "Function Definition",
       "path": "DiscreteMathematics/Functions/Function Definition.md"
-    },
-    {
-      "basename": "Types of Functions",
-      "path": "DiscreteMathematics/Functions/Types of Functions.md"
-    },
-    {
-      "basename": "Boolean Function",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
-    },
-    {
-      "basename": "Laws of Boolean Algebra",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
     }
   ],
   "omittedPaths": [
