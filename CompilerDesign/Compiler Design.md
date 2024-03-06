@@ -11,7 +11,7 @@ tags:
 
 - [[Introduction to Compiler Design]]
 - [[Lexical Analysis]]
-
+- [[Syntax Analysis]]
 
 
 ---
