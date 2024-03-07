@@ -55,7 +55,7 @@ tags:
 > [Digital Logic : Functional Completeness | Complete Playlist - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHh7tLVtGdh2mIRXJv8_Udnl)
 
 - [[Functional Completeness]]
-- [[Emil Post's Functional Completeness Theoorem]]
+- [[Standard Functional Complete Sets]]
 
 ---
 # Pending Lectures

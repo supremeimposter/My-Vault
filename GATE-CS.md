@@ -24,6 +24,9 @@ tags:
 
 # References
 
+> [!youtube] 
+> [Misconceptions in Computer Science | Misconceptions for GATE CSE - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHh1eUa2maGFYeI1oc6XBdfA)
+
 
 ---
 
