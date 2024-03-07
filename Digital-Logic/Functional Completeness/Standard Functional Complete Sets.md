@@ -46,3 +46,5 @@ $$
 
 
 ---
+
+- If a single gate or an operation is functionally complete, then we call it universal gate e.g. NAND, NOR, $\rightarrow$

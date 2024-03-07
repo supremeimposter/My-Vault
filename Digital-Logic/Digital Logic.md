@@ -56,9 +56,18 @@ tags:
 
 - [[Functional Completeness]]
 - [[Standard Functional Complete Sets]]
+- [[Boolean Functions vs Digital Circuits]]
+
+## Module 5 - Sequential Circuits
+
+- [[Sequential Circuits]]
+- [[SR Latch]]
+
+
 
 ---
 # Pending Lectures
+
 ![[Pending Lectures#Digital Logic]]
 
 ---

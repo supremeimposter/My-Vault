@@ -55,7 +55,6 @@ tags:
 
 > [!header] **Property 5** : Monotonic Boolean Functions
 
-
-
+- Constant functions `0` and`1` are monotonic functions.
 
 ---
