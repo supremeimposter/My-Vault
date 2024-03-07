@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "f1a328efa0d6828d",
+            "id": "c229e699eab6234a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Functional Completeness/Functional Completeness.md",
+                "file": "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "58244d9b2a7498bf",
+            "id": "823ef65670ca33df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theoorem.md",
+                "file": "Digital-Logic/Sequential Circuits/SR Latch.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theoorem.md",
+                "file": "Digital-Logic/Sequential Circuits/SR Latch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theoorem.md",
+                "file": "Digital-Logic/Sequential Circuits/SR Latch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theoorem.md"
+                "file": "Digital-Logic/Sequential Circuits/SR Latch.md"
               }
             }
           },
@@ -235,11 +235,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "58244d9b2a7498bf",
+  "active": "823ef65670ca33df",
   "lastOpenFiles": [
-    "Digital-Logic/Functional Completeness/Functional Completeness.md",
-    "Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theoorem.md",
     "Digital-Logic/Digital Logic.md",
+    "Digital-Logic/Sequential Circuits/SR Latch.md",
+    "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
+    "attachments/Sequential Circuits-20240307224116950.webp",
+    "Digital-Logic/Sequential Circuits",
+    "Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md",
+    "Digital-Logic/Functional Completeness/Functional Completeness.md",
+    "Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
+    "attachments/Boolean Functions vs Digital Circuits-20240307172117084.webp",
+    "GATE-CS.md",
+    "Temporary Plan.md",
     "attachments/Functional Completeness-20240306225403308.webp",
     "Digital-Logic/Functional Completeness",
     "CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md",
@@ -253,16 +261,12 @@
     "attachments/Lexical Analysis-20240306125751726.webp",
     "attachments/Lexical Analysis-20240306125729455.webp",
     "Pending Lectures.md",
-    "Temporary Plan.md",
     "CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md",
-    "attachments/Introduction to Compiler Design-20240305191600287.webp",
     "CompilerDesign/Lexical Analysis and Syntax Analysis",
-    "GATE-CS.md",
     "CompilerDesign",
     "Digital-Logic/Combinational Circuits/Ripple Carry Adder.md",
     "Digital-Logic/Combinational Circuits/Adder for Signed Addition.md",
     "Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md",
-    "attachments/Pending Lectures-20240305180338390.webp",
     "Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md",
     "Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md",
     "Digital-Logic/Combinational Circuits/Decoder.md",
@@ -273,16 +277,12 @@
     "DiscreteMathematics/Propositional-Logic/Negation.md",
     "DiscreteMathematics/Discrete Mathematics.md",
     "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
-    "Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
-    "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
-    "TheoryOfComputation/Countability/Countability Results in Theory of Computation.md",
     "Digital-Logic/Combinational Circuits",
     "Digital-Logic/Number Systems",
     "TheoryOfComputation/Countability",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions",
     "Digital-Logic",
     "TheoryOfComputation/Turing Machines and Undecidability",
-    "TheoryOfComputation/Closure Properties",
     "Untitled.canvas"
   ]
 }

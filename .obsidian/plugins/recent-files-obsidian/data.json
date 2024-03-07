@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Emil Post's Functional Completeness Theoorem",
-      "path": "Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theoorem.md"
+      "basename": "SR Latch",
+      "path": "Digital-Logic/Sequential Circuits/SR Latch.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Sequential Circuits",
+      "path": "Digital-Logic/Sequential Circuits/Sequential Circuits.md"
+    },
+    {
+      "basename": "Standard Functional Complete Sets",
+      "path": "Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md"
     },
     {
       "basename": "Functional Completeness",
       "path": "Digital-Logic/Functional Completeness/Functional Completeness.md"
     },
     {
-      "basename": "Digital Logic",
-      "path": "Digital-Logic/Digital Logic.md"
+      "basename": "Boolean Functions vs Digital Circuits",
+      "path": "Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "Temporary Plan.md"
     },
     {
       "basename": "Syntax Analysis",
@@ -29,16 +49,8 @@
       "path": "Pending Lectures.md"
     },
     {
-      "basename": "Temporary Plan",
-      "path": "Temporary Plan.md"
-    },
-    {
       "basename": "Introduction to Compiler Design",
       "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE-CS.md"
     },
     {
       "basename": "Ripple Carry Adder",
@@ -187,18 +199,6 @@
     {
       "basename": "Number Systems",
       "path": "Digital-Logic/Number Systems/Number Systems.md"
-    },
-    {
-      "basename": "Octal and Hexadecimal System",
-      "path": "Digital-Logic/Number Systems/Octal and Hexadecimal System.md"
-    },
-    {
-      "basename": "Understanding Infinity and Cardinality",
-      "path": "TheoryOfComputation/Countability/Understanding Infinity and Cardinality.md"
-    },
-    {
-      "basename": "Function Definition",
-      "path": "DiscreteMathematics/Functions/Function Definition.md"
     }
   ],
   "omittedPaths": [
