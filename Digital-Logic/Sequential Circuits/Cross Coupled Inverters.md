@@ -2,7 +2,7 @@
 pdf: 
 module: 5
 lecture: 
-date: 2024-03-07T22:44:00
+date: 2024-03-08T07:34:00
 version:
   - DL-24
 last-revision: 
@@ -10,10 +10,7 @@ notes-taken: false
 tags:
   - DigitalLogic/SequentialCircuits
 ---
-# SR Latch
-
-
-## Single Bit Storage Device
+# Single Bit Storage Device
 
 - Remembering information means storing and retaining until it is changed further.
 

@@ -61,9 +61,10 @@ tags:
 ## Module 5 - Sequential Circuits
 
 - [[Sequential Circuits]]
-- [[SR Latch]]
-
-
+- [[Cross Coupled Inverters]]
+- [[Cross Coupled NOR, NAND Gates]]
+- [[Clock in Digital Circuits]]
+- [[SR Flip Flop]]
 
 ---
 # Pending Lectures

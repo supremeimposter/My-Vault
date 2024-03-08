@@ -12,4 +12,19 @@ tags:
 ---
 # Sequential Circuits
 
+- In sequential circuits, state = output = stored data.
+
+## Implementation
+
+
+## Characteristic Table
+
+
+
+## Excitation Table
+- It signifies what excites the output.
+
+## State Diagram
+
+
 
