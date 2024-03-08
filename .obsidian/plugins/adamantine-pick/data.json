@@ -1,0 +1,21 @@
+{
+  "block_identify": [
+    "pikchr",
+    "pick"
+  ],
+  "output_dom_mark": "adamantine",
+  "encoder_type": 1,
+  "sample_to_render": 4,
+  "bleach_diagram": true,
+  "output_diagram_stats": false,
+  "preserve_diagram_debug_print": true,
+  "samples_list": [
+    "Cheatsheet",
+    "Palindrome",
+    "Triforce",
+    "Dummy"
+  ],
+  "samples_dir": "sample-diagrams",
+  "adamantine_dir": "adamantine",
+  "decode_locally": false
+}

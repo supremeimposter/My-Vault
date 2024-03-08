@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "c229e699eab6234a",
+            "id": "43aedf26d6b19636",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -39,7 +39,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/SR Latch.md",
+                "file": "Digital-Logic/Sequential Circuits/Cross Coupled NOR, NAND Gates.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28e8be60b951c6d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "facfc348a425ee9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digital-Logic/Sequential Circuits/SR Flip Flop.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/SR Latch.md",
+                "file": "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/SR Latch.md",
+                "file": "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/SR Latch.md"
+                "file": "Digital-Logic/Sequential Circuits/Sequential Circuits.md"
               }
             }
           },
@@ -231,35 +257,42 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "media-extended:Open media": false,
+      "obsidian-read-it-later:ReadItLater: Save clipboard": false,
       "map-of-content:Update Map of Content": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "823ef65670ca33df",
+  "active": "43aedf26d6b19636",
   "lastOpenFiles": [
-    "Digital-Logic/Digital Logic.md",
-    "Digital-Logic/Sequential Circuits/SR Latch.md",
+    "Digital-Logic/Sequential Circuits/Cross Coupled NOR, NAND Gates.md",
+    "Digital-Logic/Sequential Circuits/SR Flip Flop.md",
     "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
+    "Digital-Logic/Digital Logic.md",
+    "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
+    "Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md",
+    "attachments/Clock in Digital Circuits-20240308204802266.webp",
+    "attachments/Clock in Digital Circuits-20240308204751428.webp",
+    "attachments/Clock in Digital Circuits-20240308204734549.webp",
+    "attachments/Clock in Digital Circuits-20240308203017963.webp",
+    "Digital-Logic/Sequential Circuits/Cross Coupled Inverters.md",
+    "Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
+    "attachments/Cross Coupled NOR, NAND Gates-20240308120411595.webp",
+    "attachments/Cross Coupled NOR, NAND Gates-20240308120357547.webp",
+    "attachments/SR Latch-20240308110009365.webp",
+    "SR Latch.canvas",
+    "Digital-Logic/Sequential Circuits/Untitled.md",
     "attachments/Sequential Circuits-20240307224116950.webp",
     "Digital-Logic/Sequential Circuits",
     "Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md",
     "Digital-Logic/Functional Completeness/Functional Completeness.md",
-    "Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
     "attachments/Boolean Functions vs Digital Circuits-20240307172117084.webp",
     "GATE-CS.md",
     "Temporary Plan.md",
     "attachments/Functional Completeness-20240306225403308.webp",
     "Digital-Logic/Functional Completeness",
     "CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md",
-    "attachments/Syntax Analysis-20240306161258996.webp",
     "CompilerDesign/Compiler Design.md",
     "CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md",
-    "attachments/Lexical Analysis-20240306135018971.webp",
-    "attachments/Lexical Analysis-20240306133708060.webp",
-    "attachments/Lexical Analysis-20240306133420682.webp",
-    "attachments/Lexical Analysis-20240306132833261.webp",
-    "attachments/Lexical Analysis-20240306125751726.webp",
-    "attachments/Lexical Analysis-20240306125729455.webp",
     "Pending Lectures.md",
     "CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md",
     "CompilerDesign/Lexical Analysis and Syntax Analysis",
@@ -267,16 +300,11 @@
     "Digital-Logic/Combinational Circuits/Ripple Carry Adder.md",
     "Digital-Logic/Combinational Circuits/Adder for Signed Addition.md",
     "Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md",
-    "Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md",
     "Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md",
     "Digital-Logic/Combinational Circuits/Decoder.md",
     "Digital-Logic/Combinational Circuits/Encoder.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
     "Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
-    "DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
-    "DiscreteMathematics/Propositional-Logic/Negation.md",
-    "DiscreteMathematics/Discrete Mathematics.md",
-    "DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
     "Digital-Logic/Combinational Circuits",
     "Digital-Logic/Number Systems",
     "TheoryOfComputation/Countability",

@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "SR Latch",
-      "path": "Digital-Logic/Sequential Circuits/SR Latch.md"
+      "basename": "Sequential Circuits",
+      "path": "Digital-Logic/Sequential Circuits/Sequential Circuits.md"
+    },
+    {
+      "basename": "Cross Coupled NOR, NAND Gates",
+      "path": "Digital-Logic/Sequential Circuits/Cross Coupled NOR, NAND Gates.md"
+    },
+    {
+      "basename": "SR Flip Flop",
+      "path": "Digital-Logic/Sequential Circuits/SR Flip Flop.md"
     },
     {
       "basename": "Digital Logic",
       "path": "Digital-Logic/Digital Logic.md"
     },
     {
-      "basename": "Sequential Circuits",
-      "path": "Digital-Logic/Sequential Circuits/Sequential Circuits.md"
+      "basename": "Clock in Digital Circuits",
+      "path": "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
+    },
+    {
+      "basename": "Half Adder and Full Adder",
+      "path": "Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md"
+    },
+    {
+      "basename": "Cross Coupled Inverters",
+      "path": "Digital-Logic/Sequential Circuits/Cross Coupled Inverters.md"
+    },
+    {
+      "basename": "Boolean Functions vs Digital Circuits",
+      "path": "Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Digital-Logic/Sequential Circuits/Untitled.md"
     },
     {
       "basename": "Standard Functional Complete Sets",
@@ -19,10 +43,6 @@
     {
       "basename": "Functional Completeness",
       "path": "Digital-Logic/Functional Completeness/Functional Completeness.md"
-    },
-    {
-      "basename": "Boolean Functions vs Digital Circuits",
-      "path": "Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md"
     },
     {
       "basename": "GATE-CS",
@@ -63,10 +83,6 @@
     {
       "basename": "Carry Look Ahead Adder",
       "path": "Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md"
-    },
-    {
-      "basename": "Half Adder and Full Adder",
-      "path": "Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md"
     },
     {
       "basename": "Propagation Delay and Timing Diagrams",
@@ -183,22 +199,6 @@
     {
       "basename": "Subtraction of Unsigned Numbers",
       "path": "Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md"
-    },
-    {
-      "basename": "2's complement",
-      "path": "C/Binary and 2'complements/2's complement.md"
-    },
-    {
-      "basename": "Binary System",
-      "path": "Digital-Logic/Number Systems/Binary System.md"
-    },
-    {
-      "basename": "Decimal and Binary System",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
-    },
-    {
-      "basename": "Number Systems",
-      "path": "Digital-Logic/Number Systems/Number Systems.md"
     }
   ],
   "omittedPaths": [
