@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f7a3a4154d3a02f7",
+        "id": "a2e9dc133b0c542c",
         "type": "tabs",
         "children": [
           {
-            "id": "5f574c89ccd35290",
+            "id": "bf5b40b567e05327",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Digital Logic.md",
+                "file": "CompilerDesign/Compiler Design.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "43aedf26d6b19636",
+            "id": "e7f3981ec3735b8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
+                "file": "CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "823ef65670ca33df",
+            "id": "584942837c10102b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Cross Coupled NOR, NAND Gates.md",
+                "file": "CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,25 +47,12 @@
             }
           },
           {
-            "id": "28e8be60b951c6d6",
+            "id": "179396106039c867",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "facfc348a425ee9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Digital-Logic/Sequential Circuits/SR Flip Flop.md",
+                "file": "CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -135,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
+                "file": "CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
+                "file": "CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Sequential Circuits.md"
+                "file": "CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md"
               }
             }
           },
@@ -262,12 +248,28 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "43aedf26d6b19636",
+  "active": "584942837c10102b",
   "lastOpenFiles": [
-    "Digital-Logic/Sequential Circuits/Cross Coupled NOR, NAND Gates.md",
-    "Digital-Logic/Sequential Circuits/SR Flip Flop.md",
+    "CompilerDesign/Compiler Design.md",
+    "CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md",
+    "CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md",
+    "CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md",
+    "attachments/Problems faced by the Parsers-20240309201507949.webp",
+    "attachments/Problems faced by the Parsers-20240309201238186.webp",
+    "attachments/Problems faced by the Parsers-20240309201212024.webp",
+    "Digital-Logic/Sequential Circuits/T Flip Flop.md",
     "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
+    "Digital-Logic/Sequential Circuits/D Flip Flop.md",
+    "GATE-CS.md",
+    "Digital-Logic/Sequential Circuits/Flip Flop.md",
     "Digital-Logic/Digital Logic.md",
+    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
+    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
+    "Digital-Logic/Sequential Circuits/SR Flip Flop.md",
+    "Digital-Logic/Sequential Circuits/JK Flip Flop.md",
+    "GATE-LOG.md",
+    "Digital-Logic/Sequential Circuits/Cross Coupled NOR, NAND Gates.md",
+    "attachments/SR Flip Flop-20240309093721483.webp",
     "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
     "Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md",
     "attachments/Clock in Digital Circuits-20240308204802266.webp",
@@ -278,33 +280,17 @@
     "Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
     "attachments/Cross Coupled NOR, NAND Gates-20240308120411595.webp",
     "attachments/Cross Coupled NOR, NAND Gates-20240308120357547.webp",
-    "attachments/SR Latch-20240308110009365.webp",
     "SR Latch.canvas",
-    "Digital-Logic/Sequential Circuits/Untitled.md",
-    "attachments/Sequential Circuits-20240307224116950.webp",
     "Digital-Logic/Sequential Circuits",
     "Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md",
     "Digital-Logic/Functional Completeness/Functional Completeness.md",
-    "attachments/Boolean Functions vs Digital Circuits-20240307172117084.webp",
-    "GATE-CS.md",
     "Temporary Plan.md",
-    "attachments/Functional Completeness-20240306225403308.webp",
     "Digital-Logic/Functional Completeness",
-    "CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md",
-    "CompilerDesign/Compiler Design.md",
     "CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md",
     "Pending Lectures.md",
     "CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md",
     "CompilerDesign/Lexical Analysis and Syntax Analysis",
     "CompilerDesign",
-    "Digital-Logic/Combinational Circuits/Ripple Carry Adder.md",
-    "Digital-Logic/Combinational Circuits/Adder for Signed Addition.md",
-    "Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md",
-    "Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md",
-    "Digital-Logic/Combinational Circuits/Decoder.md",
-    "Digital-Logic/Combinational Circuits/Encoder.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
-    "Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
     "Digital-Logic/Combinational Circuits",
     "Digital-Logic/Number Systems",
     "TheoryOfComputation/Countability",

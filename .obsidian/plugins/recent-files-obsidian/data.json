@@ -1,20 +1,60 @@
 {
   "recentFiles": [
     {
+      "basename": "Top Down Parsing",
+      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md"
+    },
+    {
+      "basename": "Compiler Design",
+      "path": "CompilerDesign/Compiler Design.md"
+    },
+    {
+      "basename": "Syntax Analysis",
+      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md"
+    },
+    {
+      "basename": "Problems faced by the Parsers",
+      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md"
+    },
+    {
+      "basename": "T Flip Flop",
+      "path": "Digital-Logic/Sequential Circuits/T Flip Flop.md"
+    },
+    {
       "basename": "Sequential Circuits",
       "path": "Digital-Logic/Sequential Circuits/Sequential Circuits.md"
     },
     {
-      "basename": "Cross Coupled NOR, NAND Gates",
-      "path": "Digital-Logic/Sequential Circuits/Cross Coupled NOR, NAND Gates.md"
+      "basename": "D Flip Flop",
+      "path": "Digital-Logic/Sequential Circuits/D Flip Flop.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
+    },
+    {
+      "basename": "Flip Flop",
+      "path": "Digital-Logic/Sequential Circuits/Flip Flop.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "SR Flip Flop",
       "path": "Digital-Logic/Sequential Circuits/SR Flip Flop.md"
     },
     {
-      "basename": "Digital Logic",
-      "path": "Digital-Logic/Digital Logic.md"
+      "basename": "JK Flip Flop",
+      "path": "Digital-Logic/Sequential Circuits/JK Flip Flop.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE-LOG.md"
+    },
+    {
+      "basename": "Cross Coupled NOR, NAND Gates",
+      "path": "Digital-Logic/Sequential Circuits/Cross Coupled NOR, NAND Gates.md"
     },
     {
       "basename": "Clock in Digital Circuits",
@@ -33,10 +73,6 @@
       "path": "Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md"
     },
     {
-      "basename": "Untitled",
-      "path": "Digital-Logic/Sequential Circuits/Untitled.md"
-    },
-    {
       "basename": "Standard Functional Complete Sets",
       "path": "Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md"
     },
@@ -45,20 +81,8 @@
       "path": "Digital-Logic/Functional Completeness/Functional Completeness.md"
     },
     {
-      "basename": "GATE-CS",
-      "path": "GATE-CS.md"
-    },
-    {
       "basename": "Temporary Plan",
       "path": "Temporary Plan.md"
-    },
-    {
-      "basename": "Syntax Analysis",
-      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md"
-    },
-    {
-      "basename": "Compiler Design",
-      "path": "CompilerDesign/Compiler Design.md"
     },
     {
       "basename": "Lexical Analysis",
@@ -175,30 +199,6 @@
     {
       "basename": "Overflow",
       "path": "Digital-Logic/Number Systems/Overflow.md"
-    },
-    {
-      "basename": "Aptitude",
-      "path": "Aptitude/Aptitude.md"
-    },
-    {
-      "basename": "Number System",
-      "path": "Aptitude/Quantitative-Aptitude/Number System.md"
-    },
-    {
-      "basename": "Addition of Signed Binary Numbers",
-      "path": "Digital-Logic/Number Systems/Addition of Signed Binary Numbers.md"
-    },
-    {
-      "basename": "Introduction to Digital Logic",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
-    },
-    {
-      "basename": "Complements in Number System",
-      "path": "Digital-Logic/Number Systems/Complements in Number System.md"
-    },
-    {
-      "basename": "Subtraction of Unsigned Numbers",
-      "path": "Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md"
     }
   ],
   "omittedPaths": [
