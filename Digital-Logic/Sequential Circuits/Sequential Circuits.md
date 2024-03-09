@@ -14,17 +14,11 @@ tags:
 
 - In sequential circuits, state = output = stored data.
 
-## Implementation
+
+> [!convention] 
+> $Q^+ = Q_n = Q_{t + 1}$
 
 
-## Characteristic Table
-
-
-
-## Excitation Table
-- It signifies what excites the output.
-
-## State Diagram
 
 
 

@@ -64,7 +64,13 @@ tags:
 - [[Cross Coupled Inverters]]
 - [[Cross Coupled NOR, NAND Gates]]
 - [[Clock in Digital Circuits]]
+- [[Flip Flop]]
 - [[SR Flip Flop]]
+- [[D Flip Flop]]
+- [[JK Flip Flop]]
+- [[T Flip Flop]]
+
+
 
 ---
 # Pending Lectures
