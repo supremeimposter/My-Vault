@@ -12,6 +12,8 @@ tags:
 - [[Introduction to Compiler Design]]
 - [[Lexical Analysis]]
 - [[Syntax Analysis]]
+- [[Problems faced by the Parsers]]
+- [[Top Down Parsing]]
 
 
 ---
