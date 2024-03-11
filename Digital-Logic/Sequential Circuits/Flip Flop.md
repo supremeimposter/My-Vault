@@ -28,3 +28,6 @@ C --> G[Negative Edge\nTriggered \nFlip Flop]
 - For any flip flop, by default edge triggering is used.
 - [[Clock in Digital Circuits|Clock]] is fixed for all flip flops.
 - Don't consider clock in the equations, because any flip flop can have any triggering.
+- There are many ways to implement edge triggered flip flop and [[Master Slave Flip Flops]] is one of them.
+
+

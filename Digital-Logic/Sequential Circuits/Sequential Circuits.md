@@ -19,6 +19,5 @@ tags:
 > $Q^+ = Q_n = Q_{t + 1}$
 
 
-
-
+- In sequential circuits, synchronous means **in sync with clock** and asynchronous means **not in sync with clock**.
 

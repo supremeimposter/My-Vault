@@ -22,6 +22,10 @@ tags:
 > Analyze the given circuits to understand their behaviour by plugging inputs.
 
 
+## Algorithm for Flip Flop Conversion
+
+
+
 ## D to T Conversion
 
 
@@ -37,4 +41,11 @@ tags:
 >> [Digital Logic: GATE IT 2008 | Question: 37](https://gateoverflow.in/3347/gate-it-2008-question-37)
 >
 > [GATE IT 2008 Question 37 - JK Flip flop | XY Flipflop | Sequential Circuits | Digital Logic - YouTube](https://www.youtube.com/watch?v=eDyeuTA0yMk)
+
+
+## SR to T Conversion
+
+
+## T to SR Conversion
+
 

@@ -9,6 +9,7 @@ last-revision:
 notes-taken: false
 tags:
   - DigitalLogic/CombinationalCircuits
+  - DigitalLogic/SequentialCircuits
 ---
 # Propagation Delay and Timing Diagrams
 > [!youtube] 
