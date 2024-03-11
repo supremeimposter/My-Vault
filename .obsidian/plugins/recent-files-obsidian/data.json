@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Flip Flop Conversion",
-      "path": "Digital-Logic/Sequential Circuits/Flip Flop Conversion.md"
-    },
-    {
-      "basename": "JK Flip Flop",
-      "path": "Digital-Logic/Sequential Circuits/JK Flip Flop.md"
+      "basename": "Timing Issues in Flip Flop",
+      "path": "Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md"
     },
     {
       "basename": "Digital Logic",
       "path": "Digital-Logic/Digital Logic.md"
     },
     {
+      "basename": "Master Slave Flip Flops",
+      "path": "Digital-Logic/Sequential Circuits/Master Slave Flip Flops.md"
+    },
+    {
+      "basename": "Propagation Delay and Timing Diagrams",
+      "path": "Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md"
+    },
+    {
+      "basename": "Clock in Digital Circuits",
+      "path": "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
+    },
+    {
+      "basename": "Race Condition on Flip Flop",
+      "path": "Digital-Logic/Sequential Circuits/Race Condition on Flip Flop.md"
+    },
+    {
+      "basename": "Compiler Design",
+      "path": "CompilerDesign/Compiler Design.md"
+    },
+    {
       "basename": "Flip Flop",
       "path": "Digital-Logic/Sequential Circuits/Flip Flop.md"
+    },
+    {
+      "basename": "Preset and Clear Inputs",
+      "path": "Digital-Logic/Sequential Circuits/Preset and Clear Inputs.md"
+    },
+    {
+      "basename": "Sequential Circuits",
+      "path": "Digital-Logic/Sequential Circuits/Sequential Circuits.md"
+    },
+    {
+      "basename": "Flip Flop Conversion",
+      "path": "Digital-Logic/Sequential Circuits/Flip Flop Conversion.md"
+    },
+    {
+      "basename": "JK Flip Flop",
+      "path": "Digital-Logic/Sequential Circuits/JK Flip Flop.md"
     },
     {
       "basename": "Problems faced by the Parsers",
@@ -29,16 +61,8 @@
       "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md"
     },
     {
-      "basename": "Compiler Design",
-      "path": "CompilerDesign/Compiler Design.md"
-    },
-    {
       "basename": "T Flip Flop",
       "path": "Digital-Logic/Sequential Circuits/T Flip Flop.md"
-    },
-    {
-      "basename": "Sequential Circuits",
-      "path": "Digital-Logic/Sequential Circuits/Sequential Circuits.md"
     },
     {
       "basename": "D Flip Flop",
@@ -59,10 +83,6 @@
     {
       "basename": "Cross Coupled NOR, NAND Gates",
       "path": "Digital-Logic/Sequential Circuits/Cross Coupled NOR, NAND Gates.md"
-    },
-    {
-      "basename": "Clock in Digital Circuits",
-      "path": "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
     },
     {
       "basename": "Half Adder and Full Adder",
@@ -111,10 +131,6 @@
     {
       "basename": "Carry Look Ahead Adder",
       "path": "Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md"
-    },
-    {
-      "basename": "Propagation Delay and Timing Diagrams",
-      "path": "Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md"
     },
     {
       "basename": "Decoder",
@@ -183,22 +199,6 @@
     {
       "basename": "Binary Codes",
       "path": "Digital-Logic/Number Systems/Binary Codes.md"
-    },
-    {
-      "basename": "Gray code",
-      "path": "Digital-Logic/Number Systems/Gray code.md"
-    },
-    {
-      "basename": "Verbal-Ability",
-      "path": "Aptitude/Verbal-Ability/Verbal-Ability.md"
-    },
-    {
-      "basename": "Sign Extension",
-      "path": "Digital-Logic/Number Systems/Sign Extension.md"
-    },
-    {
-      "basename": "Signed Binary Numbers",
-      "path": "Digital-Logic/Number Systems/Signed Binary Numbers.md"
     }
   ],
   "omittedPaths": [
