@@ -52,15 +52,6 @@
       "key": "D"
     }
   ],
-  "obsidian-columns:insert-column-wrapper": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "["
-    }
-  ],
   "editor:insert-codeblock": [
     {
       "modifiers": [
@@ -109,6 +100,14 @@
         "Mod"
       ],
       "key": "/"
+    }
+  ],
+  "obsidian-columns:insert-column-wrapper": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "["
     }
   ]
 }

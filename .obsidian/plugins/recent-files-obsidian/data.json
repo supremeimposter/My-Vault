@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Timing Issues in Flip Flop",
-      "path": "Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md"
+      "basename": "Terminologies of Sequential Circuits",
+      "path": "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md"
+    },
+    {
+      "basename": "Sequential Circuits",
+      "path": "Digital-Logic/Sequential Circuits/Sequential Circuits.md"
+    },
+    {
+      "basename": "SR Flip Flop",
+      "path": "Digital-Logic/Sequential Circuits/SR Flip Flop.md"
     },
     {
       "basename": "Digital Logic",
       "path": "Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Registers",
+      "path": "Digital-Logic/Sequential Circuits/Registers.md"
+    },
+    {
+      "basename": "Variations of Shift Register",
+      "path": "Digital-Logic/Sequential Circuits/Variations of Shift Register.md"
+    },
+    {
+      "basename": "Flip Flop",
+      "path": "Digital-Logic/Sequential Circuits/Flip Flop.md"
+    },
+    {
+      "basename": "Clock in Digital Circuits",
+      "path": "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
+    },
+    {
+      "basename": "C",
+      "path": "C/C.md"
+    },
+    {
+      "basename": "Timing Issues in Flip Flop",
+      "path": "Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md"
     },
     {
       "basename": "Master Slave Flip Flops",
@@ -17,10 +49,6 @@
       "path": "Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md"
     },
     {
-      "basename": "Clock in Digital Circuits",
-      "path": "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
-    },
-    {
       "basename": "Race Condition on Flip Flop",
       "path": "Digital-Logic/Sequential Circuits/Race Condition on Flip Flop.md"
     },
@@ -29,16 +57,8 @@
       "path": "CompilerDesign/Compiler Design.md"
     },
     {
-      "basename": "Flip Flop",
-      "path": "Digital-Logic/Sequential Circuits/Flip Flop.md"
-    },
-    {
       "basename": "Preset and Clear Inputs",
       "path": "Digital-Logic/Sequential Circuits/Preset and Clear Inputs.md"
-    },
-    {
-      "basename": "Sequential Circuits",
-      "path": "Digital-Logic/Sequential Circuits/Sequential Circuits.md"
     },
     {
       "basename": "Flip Flop Conversion",
@@ -71,10 +91,6 @@
     {
       "basename": "GATE-CS",
       "path": "GATE-CS.md"
-    },
-    {
-      "basename": "SR Flip Flop",
-      "path": "Digital-Logic/Sequential Circuits/SR Flip Flop.md"
     },
     {
       "basename": "GATE-LOG",
@@ -183,22 +199,6 @@
     {
       "basename": "Uncountable Sets",
       "path": "TheoryOfComputation/Countability/Uncountable Sets.md"
-    },
-    {
-      "basename": "Countable Sets",
-      "path": "TheoryOfComputation/Countability/Countable Sets.md"
-    },
-    {
-      "basename": "Cantor's Theorem",
-      "path": "TheoryOfComputation/Countability/Cantor's Theorem.md"
-    },
-    {
-      "basename": "Theorems for Countable Sets",
-      "path": "TheoryOfComputation/Countability/Theorems for Countable Sets.md"
-    },
-    {
-      "basename": "Binary Codes",
-      "path": "Digital-Logic/Number Systems/Binary Codes.md"
     }
   ],
   "omittedPaths": [

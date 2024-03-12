@@ -16,7 +16,7 @@
   "baseFontSize": 18,
   "nativeMenus": false,
   "translucency": false,
-  "textFontFamily": "",
+  "textFontFamily": "SF Pro Text",
   "interfaceFontFamily": "SF Pro Text,SF Pro Rounded",
   "monospaceFontFamily": "SF Mono,SF Mono Powerline"
 }

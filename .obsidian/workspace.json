@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "fc090c0c48cd09a4",
+            "id": "019bc60d8330fa77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md",
+                "file": "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "75e7a8c126099b12",
+            "id": "ec91f37b66df4f09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md",
+                "file": "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "3dd49e222dc5885f",
+            "id": "6f39e673fd0c4e03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
+                "file": "Digital-Logic/Sequential Circuits/SR Flip Flop.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "37697d553ebcbe95",
+            "id": "4529cd9666c06f6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Flip Flop.md",
+                "file": "Digital-Logic/Sequential Circuits/Registers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md",
+                "file": "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md",
+                "file": "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md"
+                "file": "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md"
               }
             }
           },
@@ -257,23 +257,31 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "media-extended:Open media": false,
-      "obsidian-read-it-later:ReadItLater: Save clipboard": false,
       "map-of-content:Update Map of Content": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "75e7a8c126099b12",
+  "active": "ec91f37b66df4f09",
   "lastOpenFiles": [
+    "attachments/Terminologies of Sequential Circuits-20240312233622279.webp",
+    "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
+    "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md",
+    "Digital-Logic/Sequential Circuits/SR Flip Flop.md",
     "Digital-Logic/Digital Logic.md",
-    "Digital-Logic/Sequential Circuits/Master Slave Flip Flops.md",
+    "Digital-Logic/Sequential Circuits/Terminologies of Sequential Cicuits.md",
+    "Digital-Logic/Sequential Circuits/Registers.md",
+    "Digital-Logic/Sequential Circuits/Variations of Shift Register.md",
+    "Digital-Logic/Sequential Circuits/Flip Flop.md",
+    "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
+    "C/C.md",
     "Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md",
+    "attachments/Timing Issues in Flip Flop-20240312091213476.webp",
+    "Digital-Logic/Sequential Circuits/Master Slave Flip Flops.md",
     "attachments/Timing Issues in Flip Flop-20240311233747370.webp",
     "Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md",
     "attachments/Timing Issues in Flip Flop-20240311223706505.webp",
-    "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
     "Digital-Logic/Sequential Circuits/Race Condition on Flip Flop.md",
     "CompilerDesign/Compiler Design.md",
-    "Digital-Logic/Sequential Circuits/Flip Flop.md",
     "attachments/Master Slave Flip Flops-20240311183835013.webp",
     "attachments/Master Slave Flip Flops-20240311183550079.webp",
     "attachments/Master Slave Flip Flops-20240311183442783.webp",
@@ -281,9 +289,7 @@
     "attachments/Master Slave Flip Flops-20240311173533041.webp",
     "attachments/Master Slave Flip Flops-20240311172903054.webp",
     "attachments/Master Slave Flip Flops-20240311172839371.webp",
-    "attachments/Master Slave Flip Flops-20240311172626301.webp",
     "Digital-Logic/Sequential Circuits/Preset and Clear Inputs.md",
-    "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
     "Digital-Logic/Sequential Circuits/Flip Flop Conversion.md",
     "Digital-Logic/Sequential Circuits/JK Flip Flop.md",
     "CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md",
@@ -293,12 +299,6 @@
     "Digital-Logic/Sequential Circuits/D Flip Flop.md",
     "GATE-CS.md",
     "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
-    "Digital-Logic/Sequential Circuits/SR Flip Flop.md",
-    "GATE-LOG.md",
-    "Digital-Logic/Sequential Circuits/Cross Coupled NOR, NAND Gates.md",
-    "Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md",
-    "Digital-Logic/Sequential Circuits/Cross Coupled Inverters.md",
     "SR Latch.canvas",
     "Digital-Logic/Sequential Circuits",
     "Digital-Logic/Functional Completeness",
