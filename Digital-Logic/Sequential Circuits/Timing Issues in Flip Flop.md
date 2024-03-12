@@ -38,3 +38,19 @@ tags:
 - Due to propagational delay of the flip flop, if we try to use the output $Q$ right after the triggering edge it causes unpredictable behaviour.
 
 
+## Clock Period and Frequency
+
+- Hold time and propagational delay of the flip flop are overlapping, so hold time does not affect the clock period calculation.
+
+$$t_{\text{hold}} \le t_{\text{PDFF}}$$
+
+![[Timing Issues in Flip Flop-20240312091213476.webp]]
+
+$$
+t_{\text{clk}} \ge t_{\text{pFF}} + t_{\text{pC}} + t_{\text{setup}}
+$$
+
+## Setup Time Slack
+
+$$\text{Setup Slack Time} = t_{clk} - [t_{\text{pFF}} + t_{\text{pC}} + t_{\text{setup}}]$$
+- Minimum cycle time $= t_{\text{pFF}} + t_{\text{pC}} + t_{\text{setup}}$

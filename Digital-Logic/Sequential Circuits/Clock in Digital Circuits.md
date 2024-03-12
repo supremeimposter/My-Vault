@@ -12,6 +12,9 @@ tags:
 ---
 # Clock in Digital Circuits
 
+- The system clock is the same or fixed for all the circuits in the machine.
+
+## Terminologies of Clock
 
 **Time Period :**
 - Time period is the duration between two consecutive raising edge or falling edges.

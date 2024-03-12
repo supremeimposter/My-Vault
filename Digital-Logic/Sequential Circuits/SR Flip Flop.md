@@ -36,6 +36,8 @@ tags:
 ## Characteristic Table
 
 
+> [!important] 
+> Forbidden combination is a don't care combination.
 
 ## Excitation Table
 - It signifies what excites the output.

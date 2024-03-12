@@ -31,3 +31,7 @@ C --> G[Negative Edge\nTriggered \nFlip Flop]
 - There are many ways to implement edge triggered flip flop and [[Master Slave Flip Flops]] is one of them.
 
 
+> [!remember] 
+> A clock is not level or edge triggered, but a flip flop is level or edge triggered.
+
+- Flip flops are mostly used as storage devices, hence [[Registers]]. Flip flops can also be used to implement frequency dividers, etc.., hence Counters.

@@ -79,7 +79,16 @@ tags:
 
 - [[Timing Issues in Flip Flop]]
 
+> [!youtube] Registers
+> [Digital Logic - Registers in Sequential Circuits | Shift Register | Linear Feedback Shift Register | Universal Shift Register | PIOP, SISO, SIPO, PISO - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHj7EiWLYGUe0ULdZ6MRSLix)
 
+- [[Registers]]
+- [[Variations of Shift Register]]
+
+> [!youtube] Finite State Machines
+> [Digital Logic - Finite State Machines(FSM), Mealy, Moore Machines | Synchronous Sequential Circuits | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjd6P9g6XoUm8E33CsUBqDv)
+
+- [[Terminologies of Sequential Circuits]]
 
 
 ---
