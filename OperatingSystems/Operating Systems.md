@@ -17,5 +17,6 @@ tags:
 - [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - [Operating Systems Lecture Notes - William Stallings](http://williamstallings.com/Extras/OS-Notes/notes.html)
 - [Operating Systems: Course Notes UCLI](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/index.html)
+- [cs.princeton.edu/courses/archive/fall09/cos318/](https://www.cs.princeton.edu/courses/archive/fall09/cos318/)
 
 ---
