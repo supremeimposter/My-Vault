@@ -76,3 +76,8 @@ tags:
 > ![[Top Down Parsing-20240310175332977.webp]]
 > ![[Top Down Parsing-20240310175450307.webp]]
 
+
+### Predictive Parsers
+- Predictive parsers are top down parsers that look at the next few tokens and predicts which productions to use.
+- Predictive Parsers accepts LL(k) grammars.
+
