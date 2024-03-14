@@ -70,4 +70,4 @@
 
 # [[Digital Logic]]
 - [ ] [GRE Computer Science - Ripple Carry Adder Delay Question - Complete Analysis | Deepak Poonia Sir - YouTube](https://www.youtube.com/watch?v=O-ymWW0ZH9o)
-
+- [ ] [Mealy, Moore Machines PYQs](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjd6P9g6XoUm8E33CsUBqDv) 
