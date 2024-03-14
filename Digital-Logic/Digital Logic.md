@@ -89,6 +89,10 @@ tags:
 > [Digital Logic - Finite State Machines(FSM), Mealy, Moore Machines | Synchronous Sequential Circuits | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjd6P9g6XoUm8E33CsUBqDv)
 
 - [[Terminologies of Sequential Circuits]]
+- [[Finite State Machine]]
+
+- [[Counters]]
+- [[Asynchronous Counters]]
 
 
 ---
@@ -112,6 +116,10 @@ tags:
 
 > [!youtube] 
 > [Building an 8-bit breadboard computer! - YouTube](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU)
+
+
+> [!link] Alex Stoytchevs Lecture Notes
+> [Alex Stoytchev's Classes and Seminars](https://www.ece.iastate.edu/~alexs/classes/)
 
 
 ---

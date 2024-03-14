@@ -16,11 +16,11 @@ tags:
 
 
 - A register is a group of flip flops sharing a common clock, each of which is used to store a bit of data.
+- All the flip flops in a register is synchronous to the clock.
 - A n-bit register consists of n flip flops.
 - Registers are commonly used to store and shift (move) binary data.
 - Clear input is used to clear or reset the data in the register. Clear input is usually active low.
 - Preset input is used to preset or set the data in the register. Preset input is usually active low.
-
 
 ## Load Input
 

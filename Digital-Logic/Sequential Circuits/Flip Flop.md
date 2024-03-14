@@ -31,6 +31,11 @@ C --> G[Negative Edge\nTriggered \nFlip Flop]
 - There are many ways to implement edge triggered flip flop and [[Master Slave Flip Flops]] is one of them.
 
 
+> [!header] Edge Triggered Flip Flop
+
+
+
+
 > [!remember] 
 > A clock is not level or edge triggered, but a flip flop is level or edge triggered.
 

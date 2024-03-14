@@ -21,6 +21,12 @@ tags:
 
 - In sequential circuits, synchronous means **in sync with clock** and asynchronous means **not in sync with clock**.
 
+```merm
+flowchart TD
+A[Sequential Circuits] --> B[Synchronous]
+A --> C[Asynchronous]
+```
+
 - Circuits with [[Flip Flop]] is a sequential circuit.
 - The function of the sequential circuit is the next state equation $Q_n$
 $$
