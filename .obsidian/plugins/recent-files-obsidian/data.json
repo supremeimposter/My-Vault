@@ -1,36 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "Terminologies of Sequential Circuits",
-      "path": "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md"
+      "basename": "Asynchronous Counters",
+      "path": "Digital-Logic/Sequential Circuits/Asynchronous Counters.md"
     },
     {
-      "basename": "Sequential Circuits",
-      "path": "Digital-Logic/Sequential Circuits/Sequential Circuits.md"
-    },
-    {
-      "basename": "SR Flip Flop",
-      "path": "Digital-Logic/Sequential Circuits/SR Flip Flop.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "Digital-Logic/Digital Logic.md"
-    },
-    {
-      "basename": "Registers",
-      "path": "Digital-Logic/Sequential Circuits/Registers.md"
-    },
-    {
-      "basename": "Variations of Shift Register",
-      "path": "Digital-Logic/Sequential Circuits/Variations of Shift Register.md"
+      "basename": "Counters",
+      "path": "Digital-Logic/Sequential Circuits/Counters.md"
     },
     {
       "basename": "Flip Flop",
       "path": "Digital-Logic/Sequential Circuits/Flip Flop.md"
     },
     {
+      "basename": "Digital Logic",
+      "path": "Digital-Logic/Digital Logic.md"
+    },
+    {
       "basename": "Clock in Digital Circuits",
       "path": "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
+    },
+    {
+      "basename": "Sequential Circuits",
+      "path": "Digital-Logic/Sequential Circuits/Sequential Circuits.md"
+    },
+    {
+      "basename": "Registers",
+      "path": "Digital-Logic/Sequential Circuits/Registers.md"
+    },
+    {
+      "basename": "Pending Lectures",
+      "path": "Pending Lectures.md"
+    },
+    {
+      "basename": "Finite State Machine",
+      "path": "Digital-Logic/Sequential Circuits/Finite State Machine.md"
+    },
+    {
+      "basename": "Operating Systems",
+      "path": "OperatingSystems/Operating Systems.md"
+    },
+    {
+      "basename": "Compiler Design",
+      "path": "CompilerDesign/Compiler Design.md"
+    },
+    {
+      "basename": "Top Down Parsing",
+      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md"
+    },
+    {
+      "basename": "LL(1) Parser",
+      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/LL(1) Parser.md"
+    },
+    {
+      "basename": "Terminologies of Sequential Circuits",
+      "path": "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md"
+    },
+    {
+      "basename": "ACID Properties for Transaction Processing",
+      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md"
+    },
+    {
+      "basename": "SR Flip Flop",
+      "path": "Digital-Logic/Sequential Circuits/SR Flip Flop.md"
+    },
+    {
+      "basename": "Variations of Shift Register",
+      "path": "Digital-Logic/Sequential Circuits/Variations of Shift Register.md"
     },
     {
       "basename": "C",
@@ -53,10 +89,6 @@
       "path": "Digital-Logic/Sequential Circuits/Race Condition on Flip Flop.md"
     },
     {
-      "basename": "Compiler Design",
-      "path": "CompilerDesign/Compiler Design.md"
-    },
-    {
       "basename": "Preset and Clear Inputs",
       "path": "Digital-Logic/Sequential Circuits/Preset and Clear Inputs.md"
     },
@@ -71,10 +103,6 @@
     {
       "basename": "Problems faced by the Parsers",
       "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md"
-    },
-    {
-      "basename": "Top Down Parsing",
-      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md"
     },
     {
       "basename": "Syntax Analysis",
@@ -129,10 +157,6 @@
       "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md"
     },
     {
-      "basename": "Pending Lectures",
-      "path": "Pending Lectures.md"
-    },
-    {
       "basename": "Introduction to Compiler Design",
       "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "Discrete Mathematics",
       "path": "DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
-      "basename": "Propositional Logic",
-      "path": "DiscreteMathematics/Propositional-Logic/Propositional Logic.md"
-    },
-    {
-      "basename": "Compact Truth Table Representation",
-      "path": "Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
-    },
-    {
-      "basename": "Basic Concepts of TOC",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
-    },
-    {
-      "basename": "Countability Results in Theory of Computation",
-      "path": "TheoryOfComputation/Countability/Countability Results in Theory of Computation.md"
-    },
-    {
-      "basename": "Theory of Computation",
-      "path": "TheoryOfComputation/Theory of Computation.md"
-    },
-    {
-      "basename": "Uncountable Sets",
-      "path": "TheoryOfComputation/Countability/Uncountable Sets.md"
     }
   ],
   "omittedPaths": [

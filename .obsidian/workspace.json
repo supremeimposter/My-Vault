@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "da38b9fc24c04280",
+        "id": "a3596d4c9363fba1",
         "type": "tabs",
         "children": [
           {
-            "id": "a555f79330ace889",
+            "id": "0e7a8dcebca11e12",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +21,20 @@
             }
           },
           {
-            "id": "019bc60d8330fa77",
+            "id": "1da3fbed0b220c39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digital-Logic/Sequential Circuits/Flip Flop.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0bdfbb58018615da",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,12 +47,12 @@
             }
           },
           {
-            "id": "ec91f37b66df4f09",
+            "id": "9c904c22be236133",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md",
+                "file": "Digital-Logic/Sequential Circuits/Counters.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +60,12 @@
             }
           },
           {
-            "id": "6f39e673fd0c4e03",
+            "id": "e364187010064b16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/SR Flip Flop.md",
+                "file": "Digital-Logic/Sequential Circuits/Asynchronous Counters.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +73,25 @@
             }
           },
           {
-            "id": "4529cd9666c06f6f",
+            "id": "c473ad4a4500e08c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Registers.md",
+                "file": "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bab48f7792baf37e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -102,7 +128,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mermaid",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md",
+                "file": "Digital-Logic/Sequential Circuits/Asynchronous Counters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md",
+                "file": "Digital-Logic/Sequential Circuits/Asynchronous Counters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md"
+                "file": "Digital-Logic/Sequential Circuits/Asynchronous Counters.md"
               }
             }
           },
@@ -261,18 +287,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ec91f37b66df4f09",
+  "active": "e364187010064b16",
   "lastOpenFiles": [
-    "attachments/Terminologies of Sequential Circuits-20240312233622279.webp",
-    "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
-    "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md",
-    "Digital-Logic/Sequential Circuits/SR Flip Flop.md",
-    "Digital-Logic/Digital Logic.md",
-    "Digital-Logic/Sequential Circuits/Terminologies of Sequential Cicuits.md",
-    "Digital-Logic/Sequential Circuits/Registers.md",
-    "Digital-Logic/Sequential Circuits/Variations of Shift Register.md",
+    "Digital-Logic/Sequential Circuits/Counters.md",
     "Digital-Logic/Sequential Circuits/Flip Flop.md",
+    "Digital-Logic/Digital Logic.md",
     "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
+    "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
+    "Digital-Logic/Sequential Circuits/Asynchronous Counters.md",
+    "Digital-Logic/Sequential Circuits/Registers.md",
+    "Pending Lectures.md",
+    "Digital-Logic/Sequential Circuits/Finite State Machine.md",
+    "OperatingSystems/Operating Systems.md",
+    "CompilerDesign/Compiler Design.md",
+    "CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md",
+    "CompilerDesign/Lexical Analysis and Syntax Analysis/LL(1) Parser.md",
+    "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md",
+    "DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md",
+    "attachments/Terminologies of Sequential Circuits-20240312233622279.webp",
+    "Digital-Logic/Sequential Circuits/SR Flip Flop.md",
+    "Digital-Logic/Sequential Circuits/Terminologies of Sequential Cicuits.md",
+    "Digital-Logic/Sequential Circuits/Variations of Shift Register.md",
     "C/C.md",
     "Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md",
     "attachments/Timing Issues in Flip Flop-20240312091213476.webp",
@@ -281,24 +316,15 @@
     "Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md",
     "attachments/Timing Issues in Flip Flop-20240311223706505.webp",
     "Digital-Logic/Sequential Circuits/Race Condition on Flip Flop.md",
-    "CompilerDesign/Compiler Design.md",
     "attachments/Master Slave Flip Flops-20240311183835013.webp",
     "attachments/Master Slave Flip Flops-20240311183550079.webp",
     "attachments/Master Slave Flip Flops-20240311183442783.webp",
     "attachments/Master Slave Flip Flops-20240311180716258.webp",
     "attachments/Master Slave Flip Flops-20240311173533041.webp",
     "attachments/Master Slave Flip Flops-20240311172903054.webp",
-    "attachments/Master Slave Flip Flops-20240311172839371.webp",
     "Digital-Logic/Sequential Circuits/Preset and Clear Inputs.md",
     "Digital-Logic/Sequential Circuits/Flip Flop Conversion.md",
     "Digital-Logic/Sequential Circuits/JK Flip Flop.md",
-    "CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md",
-    "CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md",
-    "CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md",
-    "Digital-Logic/Sequential Circuits/T Flip Flop.md",
-    "Digital-Logic/Sequential Circuits/D Flip Flop.md",
-    "GATE-CS.md",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
     "SR Latch.canvas",
     "Digital-Logic/Sequential Circuits",
     "Digital-Logic/Functional Completeness",
