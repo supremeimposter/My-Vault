@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Synchronous Counters",
+      "path": "Digital-Logic/Sequential Circuits/Synchronous Counters.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "Digital-Logic/Digital Logic.md"
+    },
+    {
       "basename": "Asynchronous Counters",
       "path": "Digital-Logic/Sequential Circuits/Asynchronous Counters.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "Flip Flop",
       "path": "Digital-Logic/Sequential Circuits/Flip Flop.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Clock in Digital Circuits",
@@ -195,10 +199,6 @@
     {
       "basename": "Negation",
       "path": "DiscreteMathematics/Propositional-Logic/Negation.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "DiscreteMathematics/Discrete Mathematics.md"
     }
   ],
   "omittedPaths": [

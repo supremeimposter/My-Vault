@@ -73,25 +73,12 @@
             }
           },
           {
-            "id": "c473ad4a4500e08c",
+            "id": "d1ba5c58a3a45bb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bab48f7792baf37e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
+                "file": "Digital-Logic/Sequential Circuits/Synchronous Counters.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -128,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mermaid",
+                "query": "nomnoml",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,11 +149,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 313.5
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -183,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Asynchronous Counters.md",
+                "file": "Digital-Logic/Sequential Circuits/Synchronous Counters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Asynchronous Counters.md",
+                "file": "Digital-Logic/Sequential Circuits/Synchronous Counters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Asynchronous Counters.md"
+                "file": "Digital-Logic/Sequential Circuits/Synchronous Counters.md"
               }
             }
           },
@@ -287,14 +274,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e364187010064b16",
+  "active": "885564d7ad2cc180",
   "lastOpenFiles": [
+    "Digital-Logic/Digital Logic.md",
+    "Digital-Logic/Sequential Circuits/Synchronous Counters.md",
+    "Digital-Logic/Sequential Circuits/Asynchronous Counters.md",
     "Digital-Logic/Sequential Circuits/Counters.md",
     "Digital-Logic/Sequential Circuits/Flip Flop.md",
-    "Digital-Logic/Digital Logic.md",
     "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
     "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
-    "Digital-Logic/Sequential Circuits/Asynchronous Counters.md",
     "Digital-Logic/Sequential Circuits/Registers.md",
     "Pending Lectures.md",
     "Digital-Logic/Sequential Circuits/Finite State Machine.md",
@@ -324,7 +312,6 @@
     "attachments/Master Slave Flip Flops-20240311172903054.webp",
     "Digital-Logic/Sequential Circuits/Preset and Clear Inputs.md",
     "Digital-Logic/Sequential Circuits/Flip Flop Conversion.md",
-    "Digital-Logic/Sequential Circuits/JK Flip Flop.md",
     "SR Latch.canvas",
     "Digital-Logic/Sequential Circuits",
     "Digital-Logic/Functional Completeness",
