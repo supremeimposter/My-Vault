@@ -93,6 +93,7 @@ tags:
 
 - [[Counters]]
 - [[Asynchronous Counters]]
+- [[Synchronous Counters]]
 
 
 ---

@@ -21,12 +21,19 @@ tags:
 - Due to the propagational delay of Flip flops, we get glitches called Transient States.
 - Transient state occurs momentarily, when two bits are changing.
 - LSB changes first and MSB changes next.
-
+- Glitch occurs only for a moment, so they are not counted as states.
 
 ## Binary Down Ripple Counter
 
+- For the counter to perform normally, before the next triggering edge, the settlement of the propagation delay has to be done.
 - For proper functioning of any ripple counter of n flip flops, $n t_{pd} \le t_p$
 
 
-> [!timer] 07:07:00
+## Binary (Up) Ripple Counter
+
+
+
+## Cascading Counter
+
+
 
