@@ -118,3 +118,5 @@
 **February 17, 2024** I am really grateful for the free extension on the validity of the course in GO classes.
 
 **March 9, 2024** Stop compensating and start working for the sake of yourself. You cannot impress someone who wants you to be in a worst state forever. Take care of those things that are in your sphere of influence.
+
+**March 17, 2024** "Can you make a memory chip with 3 bits in a cell? Yes, maybe you are a psycho." --Deepak Poonia, COA-24.

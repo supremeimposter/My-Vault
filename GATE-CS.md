@@ -14,9 +14,9 @@ tags:
 - [[Data Structures]]
 - [[Operating Systems]]
 - [[Digital Logic]]
+- [[Computer Organization and Architecture]]
 - [[Compiler Design]]
 - [[Aptitude]]
-
 
 
 
