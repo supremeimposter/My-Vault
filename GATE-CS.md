@@ -6,6 +6,7 @@ tags:
 ---
 
 - [[Fundamentals of Computer Science]]
+- [[Linear Algebra]]
 - [[Discrete Mathematics]]
 - [[C]]
 - [[Theory of Computation]]
@@ -17,7 +18,6 @@ tags:
 - [[Computer Organization and Architecture]]
 - [[Compiler Design]]
 - [[Aptitude]]
-
 
 
 ---
