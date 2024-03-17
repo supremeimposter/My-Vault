@@ -26,3 +26,5 @@ A --> C[Asynchronous\nCounters]
 
 - All the flip flops in the synchronous counter are connected to the same clock and the circuit responds to the clock.
 - In asynchronous counter, the output of one flip flop acts as the clock for the next flip flop.
+- A divide-by-N counter (or module-N counter) is a counter that goes through a repeated sequence of N states. The sequence can be either follow a binary count or any arbitrary sequence.
+- [[Ring and Johnson Counters|Ring or Johnson counter]] is used to generate timing signals that control the sequence of operations in a digital system. The purpose of them is to turn on only one hardware at any time.

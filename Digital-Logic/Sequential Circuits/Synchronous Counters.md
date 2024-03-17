@@ -27,5 +27,5 @@ tags:
 > Design of synchronous counter is the reverse engineering of its analysis.
 
 
-> [!timer] 00:39:13
+- Synchronous counters do **NOT** have transient states even when there is no propagation delay in the flip flops.
 

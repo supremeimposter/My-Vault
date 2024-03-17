@@ -94,7 +94,7 @@ tags:
 - [[Counters]]
 - [[Asynchronous Counters]]
 - [[Synchronous Counters]]
-
+- [[Ring and Johnson Counters]]
 
 ---
 # Pending Lectures
@@ -117,7 +117,6 @@ tags:
 
 > [!youtube] 
 > [Building an 8-bit breadboard computer! - YouTube](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU)
-
 
 > [!link] Alex Stoytchevs Lecture Notes
 > [Alex Stoytchev's Classes and Seminars](https://www.ece.iastate.edu/~alexs/classes/)
