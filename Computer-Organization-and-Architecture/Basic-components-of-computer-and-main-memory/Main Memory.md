@@ -8,7 +8,7 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - ComputerOrganizationAndArchitecture/BasicComponents
+  - ComputerOrganizationAndArchitecture/Memory
 ---
 # Main Memory
 
@@ -44,4 +44,30 @@ flexGrow=1
 ```
 ````
 - Size of Address = Number of Address Lines
+- Address of a multi-byte object is the lowest address of all bytes it contains.
+
+## Byte Ordering
+- When the memory is byte-addressable and multi-byte primitive data is stored, then byte ordering (Endian-ness) comes into play.
+- Endian-ness is a property of CPU (system).
+
+> [!convention] 
+> Big Endian - Start with the bigger end
+> Small Endian - Start with the smaller end
+> ![[Main Memory-20240318115331778.webp]]
+
+- The most significant byte of the data is the bigger end of the data.
+- The least significant byte of the data is the smaller end of the data.
+- In Byte ordering, the data is ordered by **byte** and not by bit.
+
+![[Main Memory-20240318101822147.webp]]
+
+- Little Endian architecture starts with the least significant byte and Big Endian architecture starts with the most significant byte.
+
+- Endian-ness property applies only to multi-byte primitive data items. Endian-ness does not apply to strings, arrays or structs.
+- Endian-ness cannot change the order of an array.
+
+
+> [!question] When does Endian-ness matter to a programmer?
+> 1. When you store a data as integer and read it later as a character, then endian-ness causes issue.
+> 2. When you transfer data files between different computers over a network, it can lead to mis-interpretation.
 
