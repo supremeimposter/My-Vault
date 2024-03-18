@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a3596d4c9363fba1",
+        "id": "afd66b09f954650c",
         "type": "tabs",
         "children": [
           {
-            "id": "0e7a8dcebca11e12",
+            "id": "a66abc8cccaf640f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Digital Logic.md",
+                "file": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,64 +21,12 @@
             }
           },
           {
-            "id": "1da3fbed0b220c39",
+            "id": "f0d2ff311044b294",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Flip Flop.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bdfbb58018615da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c904c22be236133",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Digital-Logic/Sequential Circuits/Counters.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e364187010064b16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Digital-Logic/Sequential Circuits/Asynchronous Counters.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1ba5c58a3a45bb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Digital-Logic/Sequential Circuits/Synchronous Counters.md",
+                "file": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,8 +96,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Synchronous Counters.md",
+                "file": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Synchronous Counters.md",
+                "file": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital-Logic/Sequential Circuits/Synchronous Counters.md"
+                "file": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md"
               }
             }
           },
@@ -274,44 +221,46 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "885564d7ad2cc180",
+  "active": "f0d2ff311044b294",
   "lastOpenFiles": [
+    "Linear-Algebra/Linearly Dependent and Independent Vectors.md",
+    "attachments/Linearly Dependent and Independent Vectors-20240318235442801.webp",
+    "attachments/Linearly Dependent and Independent Vectors-20240318235144241.webp",
+    "attachments/Linearly Dependent and Independent Vectors-20240318235128738.webp",
+    "attachments/Linearly Dependent and Independent Vectors-20240318234306796.webp",
+    "attachments/Linearly Dependent and Independent Vectors-20240318232139406.webp",
+    "attachments/Linearly Dependent and Independent Vectors-20240318232122328.webp",
+    "attachments/Linearly Dependent and Independent Vectors-20240318230915499.webp",
+    "attachments/Linearly Dependent and Independent Vectors-20240318225727420.webp",
+    "attachments/Linearly Dependent and Independent Vectors-20240318225558452.webp",
+    "attachments/Linearly Dependent and Independent Vectors-20240318222140993.webp",
+    "Linear-Algebra/Linear Algebra.md",
+    "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md",
+    "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "Linear-Algebra/Introduction to Linear Algebra.md",
+    "GATE-CS.md",
+    "Linear-Algebra",
+    "GATE-LOG.md",
+    "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
+    "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory",
+    "Computer-Organization-and-Architecture",
     "Digital-Logic/Digital Logic.md",
-    "Digital-Logic/Sequential Circuits/Synchronous Counters.md",
-    "Digital-Logic/Sequential Circuits/Asynchronous Counters.md",
+    "Digital-Logic/Sequential Circuits/Ring and Johnson Counters.md",
     "Digital-Logic/Sequential Circuits/Counters.md",
+    "Digital-Logic/Combinational Circuits/Decoder.md",
+    "Digital-Logic/Combinational Circuits/Encoder.md",
+    "Digital-Logic/Sequential Circuits/Registers.md",
+    "Digital-Logic/Sequential Circuits/Asynchronous Counters.md",
     "Digital-Logic/Sequential Circuits/Flip Flop.md",
+    "Digital-Logic/Sequential Circuits/Synchronous Counters.md",
     "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
     "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
-    "Digital-Logic/Sequential Circuits/Registers.md",
     "Pending Lectures.md",
     "Digital-Logic/Sequential Circuits/Finite State Machine.md",
     "OperatingSystems/Operating Systems.md",
     "CompilerDesign/Compiler Design.md",
     "CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md",
     "CompilerDesign/Lexical Analysis and Syntax Analysis/LL(1) Parser.md",
-    "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md",
-    "DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md",
-    "attachments/Terminologies of Sequential Circuits-20240312233622279.webp",
-    "Digital-Logic/Sequential Circuits/SR Flip Flop.md",
-    "Digital-Logic/Sequential Circuits/Terminologies of Sequential Cicuits.md",
-    "Digital-Logic/Sequential Circuits/Variations of Shift Register.md",
-    "C/C.md",
-    "Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md",
-    "attachments/Timing Issues in Flip Flop-20240312091213476.webp",
-    "Digital-Logic/Sequential Circuits/Master Slave Flip Flops.md",
-    "attachments/Timing Issues in Flip Flop-20240311233747370.webp",
-    "Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md",
-    "attachments/Timing Issues in Flip Flop-20240311223706505.webp",
-    "Digital-Logic/Sequential Circuits/Race Condition on Flip Flop.md",
-    "attachments/Master Slave Flip Flops-20240311183835013.webp",
-    "attachments/Master Slave Flip Flops-20240311183550079.webp",
-    "attachments/Master Slave Flip Flops-20240311183442783.webp",
-    "attachments/Master Slave Flip Flops-20240311180716258.webp",
-    "attachments/Master Slave Flip Flops-20240311173533041.webp",
-    "attachments/Master Slave Flip Flops-20240311172903054.webp",
-    "Digital-Logic/Sequential Circuits/Preset and Clear Inputs.md",
-    "Digital-Logic/Sequential Circuits/Flip Flop Conversion.md",
     "SR Latch.canvas",
     "Digital-Logic/Sequential Circuits",
     "Digital-Logic/Functional Completeness",
@@ -320,9 +269,6 @@
     "Digital-Logic/Combinational Circuits",
     "Digital-Logic/Number Systems",
     "TheoryOfComputation/Countability",
-    "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions",
-    "Digital-Logic",
-    "TheoryOfComputation/Turing Machines and Undecidability",
     "Untitled.canvas"
   ]
 }

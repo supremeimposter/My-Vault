@@ -1,24 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "Synchronous Counters",
-      "path": "Digital-Logic/Sequential Circuits/Synchronous Counters.md"
+      "basename": "Main Memory",
+      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md"
+    },
+    {
+      "basename": "Linearly Dependent and Independent Vectors",
+      "path": "Linear-Algebra/Linearly Dependent and Independent Vectors.md"
+    },
+    {
+      "basename": "Linear Algebra",
+      "path": "Linear-Algebra/Linear Algebra.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Introduction to Linear Algebra",
+      "path": "Linear-Algebra/Introduction to Linear Algebra.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE-CS.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE-LOG.md"
+    },
+    {
+      "basename": "Introduction to COA",
+      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
     },
     {
       "basename": "Digital Logic",
       "path": "Digital-Logic/Digital Logic.md"
     },
     {
-      "basename": "Asynchronous Counters",
-      "path": "Digital-Logic/Sequential Circuits/Asynchronous Counters.md"
+      "basename": "Ring and Johnson Counters",
+      "path": "Digital-Logic/Sequential Circuits/Ring and Johnson Counters.md"
     },
     {
       "basename": "Counters",
       "path": "Digital-Logic/Sequential Circuits/Counters.md"
     },
     {
+      "basename": "Decoder",
+      "path": "Digital-Logic/Combinational Circuits/Decoder.md"
+    },
+    {
+      "basename": "Encoder",
+      "path": "Digital-Logic/Combinational Circuits/Encoder.md"
+    },
+    {
+      "basename": "Registers",
+      "path": "Digital-Logic/Sequential Circuits/Registers.md"
+    },
+    {
+      "basename": "Asynchronous Counters",
+      "path": "Digital-Logic/Sequential Circuits/Asynchronous Counters.md"
+    },
+    {
       "basename": "Flip Flop",
       "path": "Digital-Logic/Sequential Circuits/Flip Flop.md"
+    },
+    {
+      "basename": "Synchronous Counters",
+      "path": "Digital-Logic/Sequential Circuits/Synchronous Counters.md"
     },
     {
       "basename": "Clock in Digital Circuits",
@@ -27,10 +75,6 @@
     {
       "basename": "Sequential Circuits",
       "path": "Digital-Logic/Sequential Circuits/Sequential Circuits.md"
-    },
-    {
-      "basename": "Registers",
-      "path": "Digital-Logic/Sequential Circuits/Registers.md"
     },
     {
       "basename": "Pending Lectures",
@@ -121,14 +165,6 @@
       "path": "Digital-Logic/Sequential Circuits/D Flip Flop.md"
     },
     {
-      "basename": "GATE-CS",
-      "path": "GATE-CS.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE-LOG.md"
-    },
-    {
       "basename": "Cross Coupled NOR, NAND Gates",
       "path": "Digital-Logic/Sequential Circuits/Cross Coupled NOR, NAND Gates.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "Introduction to Compiler Design",
       "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md"
-    },
-    {
-      "basename": "Ripple Carry Adder",
-      "path": "Digital-Logic/Combinational Circuits/Ripple Carry Adder.md"
-    },
-    {
-      "basename": "Adder for Signed Addition",
-      "path": "Digital-Logic/Combinational Circuits/Adder for Signed Addition.md"
-    },
-    {
-      "basename": "Carry Look Ahead Adder",
-      "path": "Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md"
-    },
-    {
-      "basename": "Decoder",
-      "path": "Digital-Logic/Combinational Circuits/Decoder.md"
-    },
-    {
-      "basename": "Encoder",
-      "path": "Digital-Logic/Combinational Circuits/Encoder.md"
-    },
-    {
-      "basename": "Minimization using K Map",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
-    },
-    {
-      "basename": "Multiplexer and Demultiplexer",
-      "path": "Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
-    },
-    {
-      "basename": "Logical Connectives",
-      "path": "DiscreteMathematics/Propositional-Logic/Logical Connectives.md"
-    },
-    {
-      "basename": "Negation",
-      "path": "DiscreteMathematics/Propositional-Logic/Negation.md"
     }
   ],
   "omittedPaths": [
