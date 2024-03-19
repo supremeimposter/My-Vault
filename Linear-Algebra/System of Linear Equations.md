@@ -31,9 +31,11 @@ tags:
 
 - When two or more linear equations are put together, then it is a system of linear equations.
 $$
-\begin{equation}
-x - 3y = -5 
-\end{equation}
+\begin{align*}
+x - 3y &= -5 \\
+2x + 4y &= 12 \\
+19y &= 1
+\end{align*}
 $$
 - Solving the system of linear equations, helps us find out unknowns and variables.
 
