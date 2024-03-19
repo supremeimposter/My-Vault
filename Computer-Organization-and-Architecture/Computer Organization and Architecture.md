@@ -11,8 +11,8 @@ tags:
 
 - [[Introduction to COA]]
 - [[Main Memory]]
-
-
+- [[System Bus]]
+- [[Memory Interfacing and Expansion]]
 
 ---
 
