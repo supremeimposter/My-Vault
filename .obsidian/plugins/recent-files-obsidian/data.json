@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Main Memory",
-      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md"
+      "basename": "System of Linear Equations",
+      "path": "Linear-Algebra/System of Linear Equations.md"
     },
     {
       "basename": "Linearly Dependent and Independent Vectors",
       "path": "Linear-Algebra/Linearly Dependent and Independent Vectors.md"
     },
     {
+      "basename": "Introduction to Linear Algebra",
+      "path": "Linear-Algebra/Introduction to Linear Algebra.md"
+    },
+    {
       "basename": "Linear Algebra",
       "path": "Linear-Algebra/Linear Algebra.md"
+    },
+    {
+      "basename": "Memory Interfacing and Expansion",
+      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
+    },
+    {
+      "basename": "Main Memory",
+      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md"
     },
     {
       "basename": "Computer Organization and Architecture",
       "path": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
-      "basename": "Introduction to Linear Algebra",
-      "path": "Linear-Algebra/Introduction to Linear Algebra.md"
+      "basename": "System Bus",
+      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md"
     },
     {
       "basename": "GATE-CS",
@@ -187,18 +199,6 @@
     {
       "basename": "Functional Completeness",
       "path": "Digital-Logic/Functional Completeness/Functional Completeness.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "Temporary Plan.md"
-    },
-    {
-      "basename": "Lexical Analysis",
-      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md"
-    },
-    {
-      "basename": "Introduction to Compiler Design",
-      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md"
     }
   ],
   "omittedPaths": [
