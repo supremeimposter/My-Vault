@@ -28,3 +28,18 @@ B --> C[Processed by\nMachines]
 > Vector $\times$ Vector = Vector
 > Scalar $\times$ Vector = Vector (Vector gets scaled)
 
+---
+> [!header] Matrix Multiplication
+
+a. Matrix multiplied by a vector is again a vector.
+$$
+\text {Matrix} \times \text{Vector} = \text{Vector}
+$$
+![[System of Linear Equations-20240319235038073.webp]]
+b. Matrix multiplied by a matrix is a matrix.
+$$
+\text {Matrix} \times \text{Matrix} = \text{Matrix}
+$$
+![[Introduction to Linear Algebra-20240319235405441.webp]]
+
+---

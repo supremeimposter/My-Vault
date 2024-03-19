@@ -9,7 +9,7 @@ tags:
 
 - [[Introduction to Linear Algebra]]
 - [[Linearly Dependent and Independent Vectors]]
-
+- [[System of Linear Equations]]
 
 ---
 

@@ -54,6 +54,10 @@ v_1 = c_2 v_2 + c_7 v_7 + c_9 v_9 + c_3 v_3 + c_4 v_4 + c_5 v_5 + c_6 v_6 + c_8 
 $$
 - If the superset $S$ is a LD set, then it is not necessary that the subset $R$ is a LD set, because only the superset can contain the only vector that can be formed as a linear combination of every other vectors, and the subset may not have that vector.
 
+> [!tip] 
+> To find the linear dependency in a set of vectors, check the corresponding elements of zero entries.
+> ![[Linearly Dependent and Independent Vectors-20240319232307368.webp]]
+
 - Consider the homogenous system $Ax = 0$,
 $$
 c_1 v_1 + c_2 v_2 + c_3 v_3 + \cdots + c_n v_n = 0
@@ -73,13 +77,29 @@ $$
 $$
 c_1 v_1 + c_2 v_2 + c_3 v_3 + \cdots + c_n v_n = 0
 $$
-1. If the solution is unique i.e. trivial solution, then the columns are LI.
-2. If the solutions are infinite i.e. non-trivial solution, then the columns are LD.
+
+> [!cases] All the $c_i$'s are $0$
+- The solution is unique i.e. trivial solution, then the set is LI.
+
+> [!cases] At least one $c_i \not=0$
+- The solutions are infinite i.e. non-trivial solution, then the set is LD.
+- There exists at least one vector $v_1$ which can be formed as a linear combination of every other vectors in the set.
+$$
+v_1 = - \frac{1}{c_1} (v_2 c_2 + v_3 c_3 + \cdots + v_n c_n)
+$$
+---
+> [!header] Single Vector Set
+- If a set has only a single vector $\{v\}$, then there are two cases for the homogenous system $cv = 0$
+1. If the vector $v$ is a zero vector, then $c$ can be either $0$ or non-zero, then the set is LD.
+2. If the vector $v$ is a non-zero vector, then there exists only one solution $c = 0$ i.e. trivial solution, then the set is LI.
+
+> [!example] 
+> ![[Linearly Dependent and Independent Vectors-20240319233521805.webp]]
 
 ---
 - The identity vectors (convenient vectors) of a vector space $\mathbb{R}_n$ can represent a linear combination of any vector in $\mathbb{R}_n$
 - The co-efficients for the linear combination of identity vectors are also convenient.
-- These identity vectors are the most efficient vectors to span the vector space and they are called **Basis Vectors**.
+- These identity vectors are the most efficient vectors to span the vector space and they are called **Basis Vectors**. Basis vectors are the most optimized set of vectors to fill the vector space.
 
 > [!example] 
 > Consider the vector space $\mathbb{R}_2$ and take any vector from $\mathbb{R}_2$
@@ -130,6 +150,6 @@ $$
 
 > [!summary] 
 - If there are more than $n$ vectors from $\mathbb{R}_n$ in a set $Q$, then the set is definitely LD.
-- Any $n$ LI vectors from $\mathbb{R}_n$ can fill the space in $\mathbb{R}_n$, not just $n$ identity vectors from $\mathbb{R}_n$.
+- Any $n$ LI vectors from $\mathbb{R}_n$ can fill the space in $\mathbb{R}_n$.
 
 ---
