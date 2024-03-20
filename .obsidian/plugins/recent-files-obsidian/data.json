@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Instruction Set Architecture",
+      "path": "Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
+    },
+    {
+      "basename": "Introduction to COA",
+      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Registers and Status Flags",
+      "path": "Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md"
+    },
+    {
+      "basename": "Overflow",
+      "path": "Digital-Logic/Number Systems/Overflow.md"
+    },
+    {
+      "basename": "Memory Interfacing and Expansion",
+      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
+    },
+    {
       "basename": "System of Linear Equations",
       "path": "Linear-Algebra/System of Linear Equations.md"
     },
@@ -17,16 +41,8 @@
       "path": "Linear-Algebra/Linear Algebra.md"
     },
     {
-      "basename": "Memory Interfacing and Expansion",
-      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
-    },
-    {
       "basename": "Main Memory",
       "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
       "basename": "System Bus",
@@ -39,10 +55,6 @@
     {
       "basename": "GATE-LOG",
       "path": "GATE-LOG.md"
-    },
-    {
-      "basename": "Introduction to COA",
-      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
     },
     {
       "basename": "Digital Logic",
@@ -187,18 +199,6 @@
     {
       "basename": "Cross Coupled Inverters",
       "path": "Digital-Logic/Sequential Circuits/Cross Coupled Inverters.md"
-    },
-    {
-      "basename": "Boolean Functions vs Digital Circuits",
-      "path": "Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md"
-    },
-    {
-      "basename": "Standard Functional Complete Sets",
-      "path": "Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md"
-    },
-    {
-      "basename": "Functional Completeness",
-      "path": "Digital-Logic/Functional Completeness/Functional Completeness.md"
     }
   ],
   "omittedPaths": [

@@ -4,18 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "40e7ba12888e7af3",
+        "id": "8d01520f056ae8d0",
         "type": "tabs",
         "children": [
           {
-            "id": "06bdf58c32666994",
+            "id": "b67b099c2418cbca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "edab7d4e58e20d89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a7850749acb66d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -77,7 +109,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -98,6 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +171,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
+              }
             }
           },
           {
@@ -198,8 +235,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "06bdf58c32666994",
+  "active": "9a7850749acb66d7",
   "lastOpenFiles": [
+    "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
+    "Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
+    "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md",
+    "Digital-Logic/Number Systems/Overflow.md",
+    "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
+    "Computer-Organization-and-Architecture/CPU",
     "Linear-Algebra/System of Linear Equations.md",
     "Linear-Algebra/Linearly Dependent and Independent Vectors.md",
     "Linear-Algebra/Introduction to Linear Algebra.md",
@@ -209,9 +253,7 @@
     "attachments/Linearly Dependent and Independent Vectors-20240319233521805.webp",
     "attachments/Linearly Dependent and Independent Vectors-20240319233320574.webp",
     "attachments/Linearly Dependent and Independent Vectors-20240319232307368.webp",
-    "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
     "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md",
-    "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
     "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md",
     "attachments/System Bus-20240319112721015.webp",
     "attachments/Linearly Dependent and Independent Vectors-20240318235442801.webp",
@@ -221,7 +263,6 @@
     "GATE-CS.md",
     "Linear-Algebra",
     "GATE-LOG.md",
-    "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
     "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory",
     "Computer-Organization-and-Architecture",
     "Digital-Logic/Digital Logic.md",
@@ -236,8 +277,6 @@
     "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
     "Digital-Logic/Sequential Circuits/Sequential Circuits.md",
     "Pending Lectures.md",
-    "Digital-Logic/Sequential Circuits/Finite State Machine.md",
-    "OperatingSystems/Operating Systems.md",
     "SR Latch.canvas",
     "Digital-Logic/Sequential Circuits",
     "Digital-Logic/Functional Completeness",
@@ -245,7 +284,6 @@
     "CompilerDesign",
     "Digital-Logic/Combinational Circuits",
     "Digital-Logic/Number Systems",
-    "TheoryOfComputation/Countability",
     "Untitled.canvas"
   ]
 }

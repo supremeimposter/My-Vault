@@ -1,0 +1,26 @@
+{
+  "backgroundTheme": "transparent with shadows",
+  "customBackground": "",
+  "localBackgrounds": [],
+  "showTopLeftSearchButton": true,
+  "topLeftSearchProvider": {
+    "command": "switcher:open",
+    "display": "Obsidian Core Quick Switcher"
+  },
+  "showTime": true,
+  "timeFormat": "12-hour",
+  "showGreeting": false,
+  "greetingText": "Hello, Handsome.",
+  "showInlineSearch": true,
+  "inlineSearchProvider": {
+    "command": "darlal-switcher-plus:switcher-plus:open-headings",
+    "display": "Quick Switcher++: Open in Headings Mode"
+  },
+  "showRecentFiles": true,
+  "showBookmarks": false,
+  "bookmarkSource": "all",
+  "bookmarkGroup": "",
+  "showQuote": false,
+  "quoteSource": "Quoteable",
+  "customQuotes": []
+}

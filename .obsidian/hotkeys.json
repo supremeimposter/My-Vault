@@ -109,5 +109,14 @@
       ],
       "key": "["
     }
+  ],
+  "links:editor-create-link-from-selection": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "K"
+    }
   ]
 }
