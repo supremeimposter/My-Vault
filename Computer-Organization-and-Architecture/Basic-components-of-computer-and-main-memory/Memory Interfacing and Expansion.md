@@ -54,7 +54,7 @@ digraph G{
 
 ```dot
 digraph G {
-	head [label = "Memory Interleaving" style="filled" color="lightgreen"];
+	head [label = "Memory Interleaving in Vertical Memory Expansion" style="filled" color="lightgreen"];
 	ho [label = "High Order Memory\nInterleaving" shape="box"];
 	lo [label = "Low Order Memory\nInterleaving" shape="box"];
 
@@ -72,6 +72,8 @@ digraph G {
 - In low order memory interleaving, across the memory modules (memory chip), the addresses are consecutive.
 
 
-> [!timer] 01:30:29
+> [!NOTE] 
+> There is no name for the interleaving if we choose to pick bits from the middle to select the chips.
+
 
 

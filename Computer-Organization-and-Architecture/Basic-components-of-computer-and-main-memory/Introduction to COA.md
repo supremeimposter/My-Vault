@@ -13,6 +13,12 @@ tags:
 # Introduction to COA
 
 ## Architecture vs Organization
+
+> [!NOTE] 
+> Architecture - Conceptual Design (Blue Print)
+> Organization - Implementation
+
+
 ![[Introduction to COA-20240317130010887.webp]]
 
 ## Stored Program Architecture

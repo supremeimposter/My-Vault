@@ -7,12 +7,19 @@ tags:
 ---
 # Computer Organization and Architecture
 
-## Basic Components of Computer and Main Memory
+## Module 1 - Basic Components of Computer and Main Memory
 
 - [[Introduction to COA]]
 - [[Main Memory]]
 - [[System Bus]]
 - [[Memory Interfacing and Expansion]]
+
+## Module 2 - The CPU
+
+- [[Registers and Status Flags]]
+- [[Instruction Set Architecture]]
+
+
 
 ---
 
