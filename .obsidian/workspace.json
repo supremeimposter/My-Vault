@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nomnoml",
+                "query": "mermaid",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -237,15 +237,15 @@
   },
   "active": "9a7850749acb66d7",
   "lastOpenFiles": [
-    "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
-    "Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
     "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "Linear-Algebra/Linearly Dependent and Independent Vectors.md",
+    "Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
+    "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
     "Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md",
     "Digital-Logic/Number Systems/Overflow.md",
     "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
     "Computer-Organization-and-Architecture/CPU",
     "Linear-Algebra/System of Linear Equations.md",
-    "Linear-Algebra/Linearly Dependent and Independent Vectors.md",
     "Linear-Algebra/Introduction to Linear Algebra.md",
     "attachments/Introduction to Linear Algebra-20240319235405441.webp",
     "Linear-Algebra/Linear Algebra.md",

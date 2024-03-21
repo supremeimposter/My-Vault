@@ -5,12 +5,16 @@
       "path": "Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
     },
     {
-      "basename": "Introduction to COA",
-      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
-    },
-    {
       "basename": "Computer Organization and Architecture",
       "path": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Linearly Dependent and Independent Vectors",
+      "path": "Linear-Algebra/Linearly Dependent and Independent Vectors.md"
+    },
+    {
+      "basename": "Introduction to COA",
+      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
     },
     {
       "basename": "Registers and Status Flags",
@@ -27,10 +31,6 @@
     {
       "basename": "System of Linear Equations",
       "path": "Linear-Algebra/System of Linear Equations.md"
-    },
-    {
-      "basename": "Linearly Dependent and Independent Vectors",
-      "path": "Linear-Algebra/Linearly Dependent and Independent Vectors.md"
     },
     {
       "basename": "Introduction to Linear Algebra",
