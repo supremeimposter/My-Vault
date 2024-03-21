@@ -129,7 +129,6 @@ $$
 > ![[Linearly Dependent and Independent Vectors-20240318235442801.webp]]
 > This set is LD, since these two linearly dependent vectors cannot span $\mathbb{R}_2$. 
 
-
 > [!question]
 > ![[Linearly Dependent and Independent Vectors-20240318232139406.webp]]
 >> [!seealso]- Solution
