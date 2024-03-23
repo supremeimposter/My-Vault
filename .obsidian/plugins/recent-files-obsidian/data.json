@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Instruction Set Architecture",
-      "path": "Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
+      "basename": "Instruction Type",
+      "path": "Computer-Organization-and-Architecture/CPU/Instruction Type.md"
     },
     {
       "basename": "Computer Organization and Architecture",
       "path": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Instruction Format",
+      "path": "Computer-Organization-and-Architecture/CPU/Instruction Format.md"
+    },
+    {
+      "basename": "Lattice",
+      "path": "DiscreteMathematics/Set-Theory/Lattice.md"
+    },
+    {
+      "basename": "English-FOL Translation",
+      "path": "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md"
+    },
+    {
+      "basename": "Numerical-FOL Translation",
+      "path": "DiscreteMathematics/First-Order-Logic/Numerical-FOL Translation.md"
+    },
+    {
+      "basename": "Main Memory",
+      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md"
+    },
+    {
+      "basename": "Instruction Set Architecture",
+      "path": "Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
     },
     {
       "basename": "Linearly Dependent and Independent Vectors",
@@ -39,10 +63,6 @@
     {
       "basename": "Linear Algebra",
       "path": "Linear-Algebra/Linear Algebra.md"
-    },
-    {
-      "basename": "Main Memory",
-      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md"
     },
     {
       "basename": "System Bus",
@@ -179,26 +199,6 @@
     {
       "basename": "Syntax Analysis",
       "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md"
-    },
-    {
-      "basename": "T Flip Flop",
-      "path": "Digital-Logic/Sequential Circuits/T Flip Flop.md"
-    },
-    {
-      "basename": "D Flip Flop",
-      "path": "Digital-Logic/Sequential Circuits/D Flip Flop.md"
-    },
-    {
-      "basename": "Cross Coupled NOR, NAND Gates",
-      "path": "Digital-Logic/Sequential Circuits/Cross Coupled NOR, NAND Gates.md"
-    },
-    {
-      "basename": "Half Adder and Full Adder",
-      "path": "Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md"
-    },
-    {
-      "basename": "Cross Coupled Inverters",
-      "path": "Digital-Logic/Sequential Circuits/Cross Coupled Inverters.md"
     }
   ],
   "omittedPaths": [

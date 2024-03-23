@@ -734,6 +734,7 @@ const eventTypes = {
     activeFileChange: 'fta-active-file-change',
     refreshView: 'fta-refresh-view',
     revealFile: 'fta-reveal-file',
+    revealFolder: 'fta-reveal-folder',
     vaultChange: 'fta-vault-change',
     createNewNote: 'fta-create-new-note',
 };
@@ -1078,6 +1079,18 @@ const createNewFile = (e, folderPath, plugin) => __awaiter(void 0, void 0, void 
     let modal = new VaultChangeModal(plugin, targetFolder, 'create note');
     modal.open();
 });
+const getBookmarksPluginItems = () => {
+    return app.internalPlugins.plugins['bookmarks'].instance.items;
+};
+const getBookmarkTitle = (title) => {
+    let bookmarkItems = getBookmarksPluginItems();
+    let titleParts = title.split('/');
+    let currentItem = bookmarkItems.find((b) => b.title === titleParts[0]);
+    for (let i = 1; i < titleParts.length; i++) {
+        currentItem = currentItem.items.find((b) => b.title === titleParts[i]);
+    }
+    return currentItem;
+};
 
 /**
  * Copyright (c) Meta Platforms, Inc. and affiliates.
@@ -3912,12 +3925,14 @@ function MainTreeComponent(props) {
         window.addEventListener(eventTypes.activeFileChange, changeActiveFile);
         window.addEventListener(eventTypes.refreshView, forceUpdate);
         window.addEventListener(eventTypes.revealFile, handleRevealFileEvent);
+        window.addEventListener(eventTypes.revealFolder, handleRevealFolderEvent);
         window.addEventListener(eventTypes.createNewNote, handleCreateNewNoteEvent);
         return () => {
             window.removeEventListener(eventTypes.vaultChange, vaultChangeEvent);
             window.removeEventListener(eventTypes.activeFileChange, changeActiveFile);
             window.removeEventListener(eventTypes.refreshView, forceUpdate);
             window.removeEventListener(eventTypes.revealFile, handleRevealFileEvent);
+            window.removeEventListener(eventTypes.revealFolder, handleRevealFolderEvent);
             window.removeEventListener(eventTypes.createNewNote, handleCreateNewNoteEvent);
         };
     }, []);
@@ -4165,7 +4180,17 @@ function MainTreeComponent(props) {
             revealFileInFileTree(TFile2OZFile(file));
         }
         else {
-            new obsidian.Notice('No active file');
+            new obsidian.Notice('File not found');
+        }
+    }
+    function handleRevealFolderEvent(evt) {
+        // @ts-ignore
+        const folder = evt.detail.folder;
+        if (folder && folder instanceof obsidian.TFolder) {
+            revealFolderInFileTree(folder);
+        }
+        else {
+            new obsidian.Notice('Folder not found');
         }
     }
     // Scrolling Functions
@@ -4181,6 +4206,27 @@ function MainTreeComponent(props) {
         if (folderElement)
             folderElement.scrollIntoView(false);
     }
+    // Helper for Reveal Button: Obtain all folders that needs to be opened
+    const getAllFoldersToOpen = (fileToReveal) => {
+        let foldersToOpen = [];
+        const recursiveFx = (folder) => {
+            foldersToOpen.push(folder.path);
+            if (folder.parent)
+                recursiveFx(folder.parent);
+        };
+        recursiveFx(fileToReveal instanceof obsidian.TFile ? fileToReveal.parent : fileToReveal);
+        return foldersToOpen;
+    };
+    // --> Handle Reveal Folder Button
+    function revealFolderInFileTree(folderToReveal) {
+        if (!folderToReveal)
+            return;
+        setActiveFolderPath(folderToReveal.path);
+        const foldersToOpen = getAllFoldersToOpen(folderToReveal);
+        let openFoldersSet = new Set([...openFolders$1, ...foldersToOpen]);
+        setOpenFolders(Array.from(openFoldersSet));
+        scrollToFolder(folderToReveal);
+    }
     // --> Handle Reveal Active File Button
     function revealFileInFileTree(ozFileToReveal) {
         const fileToReveal = plugin.app.vault.getAbstractFileByPath(ozFileToReveal.path);
@@ -4191,17 +4237,6 @@ function MainTreeComponent(props) {
         // Focused Folder needs to be root for the reveal
         if (focusedFolder$1 && focusedFolder$1.path !== '/')
             setFocusedFolder(plugin.app.vault.getRoot());
-        // Obtain all folders that needs to be opened
-        const getAllFoldersToOpen = (fileToReveal) => {
-            let foldersToOpen = [];
-            const recursiveFx = (folder) => {
-                foldersToOpen.push(folder.path);
-                if (folder.parent)
-                    recursiveFx(folder.parent);
-            };
-            recursiveFx(fileToReveal.parent);
-            return foldersToOpen;
-        };
         // Sanity check - Parent to be folder and set required component states
         if (parentFolder instanceof obsidian.TFolder) {
             // Set Active Folder - It will trigger auto file list update
@@ -4311,6 +4346,7 @@ const DEFAULT_SETTINGS = {
     folderNote: false,
     deleteFileOption: 'trash',
     showFileNameAsFullPath: false,
+    bookmarksEvents: false,
 };
 class FileTreeAlternativePluginSettingsTab extends obsidian.PluginSettingTab {
     constructor(app, plugin) {
@@ -4374,6 +4410,21 @@ class FileTreeAlternativePluginSettingsTab extends obsidian.PluginSettingTab {
             .setDesc("Turn off if you don't want file tree view to be opened automatically during vault start")
             .addToggle((toggle) => toggle.setValue(this.plugin.settings.openViewOnStart).onChange((value) => {
             this.plugin.settings.openViewOnStart = value;
+            this.plugin.saveSettings();
+        }));
+        new obsidian.Setting(containerEl)
+            .setName('Bookmarks Event Listener (Shift + Click)')
+            .setDesc('This will enable to reveal file or folder from core bookmarks plugin.' +
+            'Because there is no API yet to overwrite the default behaviour for Bookmarks plugin,' +
+            'this will add an event to reveal file if you click on bookmark name using shift')
+            .addToggle((toggle) => toggle.setValue(this.plugin.settings.bookmarksEvents).onChange((value) => {
+            this.plugin.settings.bookmarksEvents = value;
+            if (value) {
+                this.plugin.bookmarksAddEventListener();
+            }
+            else {
+                this.plugin.bookmarksRemoveEventListener();
+            }
             this.plugin.saveSettings();
         }));
         /* ------------- Folder Pane Settings ------------- */
@@ -4625,6 +4676,55 @@ class FileTreeAlternativePlugin extends obsidian.Plugin {
         this.VIEW_TYPE = 'file-tree-view';
         this.VIEW_DISPLAY_TEXT = 'File Tree';
         this.ICON = 'sheets-in-box';
+        this.bookmarksEventHandler = (event) => {
+            // Find the tree-item that includes the bookmarks plugin title
+            let treeItem = event.target.closest('.tree-item');
+            if (!treeItem)
+                return;
+            // If it exists, get the title of the bookmark
+            let dataPath = treeItem.getAttribute('data-path');
+            if (!dataPath || dataPath === '')
+                return;
+            // Find the bookmark from the items
+            let bookmarkItem = getBookmarkTitle(dataPath);
+            // Create Custom Menu only if Shift is Used
+            if (event.shiftKey) {
+                if (!bookmarkItem)
+                    return;
+                event.stopImmediatePropagation();
+                if (bookmarkItem.type === 'file') {
+                    // Dispatch Reveal File Event
+                    let customEvent = new CustomEvent(eventTypes.revealFile, {
+                        detail: {
+                            file: this.app.vault.getAbstractFileByPath(bookmarkItem.path),
+                        },
+                    });
+                    window.dispatchEvent(customEvent);
+                }
+                else if (bookmarkItem.type === 'folder') {
+                    event.stopImmediatePropagation();
+                    // Dispatch Reveal Folder Event
+                    let customEvent = new CustomEvent(eventTypes.revealFolder, {
+                        detail: {
+                            folder: this.app.vault.getAbstractFileByPath(bookmarkItem.path),
+                        },
+                    });
+                    window.dispatchEvent(customEvent);
+                }
+                else {
+                    new obsidian.Notice('Not a file or folder');
+                }
+            }
+        };
+        this.getBookmarksLeafElement = () => {
+            return document.querySelector('.workspace-leaf-content[data-type="bookmarks"]');
+        };
+        this.bookmarksAddEventListener = () => {
+            this.getBookmarksLeafElement().addEventListener('click', this.bookmarksEventHandler, true);
+        };
+        this.bookmarksRemoveEventListener = () => {
+            this.getBookmarksLeafElement().removeEventListener('click', this.bookmarksEventHandler, true);
+        };
         this.triggerVaultChangeEvent = (file, changeType, oldPath) => {
             let event = new CustomEvent(eventTypes.vaultChange, {
                 detail: {
@@ -4703,6 +4803,11 @@ class FileTreeAlternativePlugin extends obsidian.Plugin {
                 name: 'Open File Tree View',
                 callback: () => __awaiter(this, void 0, void 0, function* () { return yield this.openFileTreeLeaf(true); }),
             });
+            this.app.workspace.onLayoutReady(() => {
+                if (this.settings.bookmarksEvents) {
+                    this.bookmarksAddEventListener();
+                }
+            });
             // Add Command to Reveal Active File
             this.addCommand({
                 id: 'reveal-active-file',
@@ -4752,6 +4857,7 @@ class FileTreeAlternativePlugin extends obsidian.Plugin {
         this.app.vault.off('delete', this.onDelete);
         this.app.vault.off('modify', this.onModify);
         this.app.vault.off('rename', this.onRename);
+        this.bookmarksRemoveEventListener();
     }
     loadSettings() {
         return __awaiter(this, void 0, void 0, function* () {

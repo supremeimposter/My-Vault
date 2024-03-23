@@ -22,5 +22,6 @@
   "fileNameIsHeader": false,
   "folderNote": false,
   "deleteFileOption": "system-trash",
-  "showFileNameAsFullPath": false
+  "showFileNameAsFullPath": false,
+  "bookmarksEvents": false
 }
