@@ -9,6 +9,7 @@ last-revision:
 notes-taken: false
 tags:
   - ComputerOrganizationAndArchitecture/ISA
+  - ComputerOrganizationAndArchitecture/Instruction
 ---
 # Instruction Set Architecture ISA
 - ISA defines the permissible instructions.
@@ -27,8 +28,7 @@ tags:
 ## Accumulator ISA
 
 1. Arithmetic instructions : 1 address instructions
-- One operand is specified explicitly and the other operand is implied implicitly (from accumulator).
-
+- One operand is specified explicitly (from memory) and the other operand is implied implicitly (from accumulator).
 
 2. Data instructions : 1 address instructions
 
@@ -78,5 +78,8 @@ flowchart TD
 - CISC minimizes the size of the program.
 - RISC minimizes the execution time.
 
+**Performance Equation :**
+$$
+\frac{\text{time}}{\text{program}} = \frac{\text{time}}{\text{cycle}} \times \frac{\text{cycles}}{\text{instructions}} \times \frac{\text{instructions}}{\text{program}}
+$$
 
-> [!timer] 00:58:16

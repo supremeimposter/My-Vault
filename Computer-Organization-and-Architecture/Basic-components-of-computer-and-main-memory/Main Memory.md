@@ -46,6 +46,9 @@ flexGrow=1
 - Size of Address = Number of Address Lines
 - Address of a multi-byte object is the lowest address of all bytes it contains.
 
+> [!NOTE] 
+> Memory is byte-addressable by default.
+
 ## Byte Ordering
 - When the memory is byte-addressable and multi-byte primitive data is stored, then byte ordering (Endian-ness) comes into play.
 - Endian-ness is a property of CPU (system).

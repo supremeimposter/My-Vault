@@ -18,6 +18,8 @@ tags:
 
 - [[Registers and Status Flags]]
 - [[Instruction Set Architecture]]
+- [[Instruction Format]]
+- [[Instruction Type]]
 
 
 
