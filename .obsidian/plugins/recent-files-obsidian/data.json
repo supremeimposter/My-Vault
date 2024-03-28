@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Addressing Modes",
+      "path": "Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
+    },
+    {
+      "basename": "Instruction Format",
+      "path": "Computer-Organization-and-Architecture/CPU/Instruction Format.md"
+    },
+    {
       "basename": "Instruction Type",
       "path": "Computer-Organization-and-Architecture/CPU/Instruction Type.md"
+    },
+    {
+      "basename": "B Tree",
+      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
     },
     {
       "basename": "Computer Organization and Architecture",
       "path": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
-      "basename": "Instruction Format",
-      "path": "Computer-Organization-and-Architecture/CPU/Instruction Format.md"
+      "basename": "Instruction Execution Cycle",
+      "path": "Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
     },
     {
       "basename": "Lattice",
@@ -187,18 +199,6 @@
     {
       "basename": "Flip Flop Conversion",
       "path": "Digital-Logic/Sequential Circuits/Flip Flop Conversion.md"
-    },
-    {
-      "basename": "JK Flip Flop",
-      "path": "Digital-Logic/Sequential Circuits/JK Flip Flop.md"
-    },
-    {
-      "basename": "Problems faced by the Parsers",
-      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md"
-    },
-    {
-      "basename": "Syntax Analysis",
-      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md"
     }
   ],
   "omittedPaths": [

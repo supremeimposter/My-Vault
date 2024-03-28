@@ -399,5 +399,8 @@
   "Appearance-dark@@Active-states-file-explorer-select-dark": "activated-file-tab-style-dark",
   "Appearance-dark@@workspace-divider-transparent-dark": true,
   "anuppuccin-theme-settings@@anp-custom-checkboxes": true,
-  "anuppuccin-theme-settings@@anp-depth-tab-text-invert": false
+  "anuppuccin-theme-settings@@anp-depth-tab-text-invert": false,
+  "floating-toc-styles@@enable-heading-nowrap": false,
+  "floating-toc-styles@@enable-outline-style": "float-curves-outline-style",
+  "floating-toc-styles@@enable-bar-icon": false
 }

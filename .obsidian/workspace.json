@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "31d646d092472fd3",
+            "id": "3b5d47aa8d858a28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer-Organization-and-Architecture/CPU/Instruction Format.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "985fd17abeab2038",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer-Organization-and-Architecture/CPU/Instruction Type.md",
+                "file": "Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer-Organization-and-Architecture/CPU/Instruction Type.md",
+                "file": "Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer-Organization-and-Architecture/CPU/Instruction Type.md",
+                "file": "Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer-Organization-and-Architecture/CPU/Instruction Type.md"
+                "file": "Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
               }
             }
           },
@@ -235,11 +222,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "985fd17abeab2038",
+  "active": "3b5d47aa8d858a28",
   "lastOpenFiles": [
-    "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "Computer-Organization-and-Architecture/CPU/Instruction Type.md",
     "Computer-Organization-and-Architecture/CPU/Instruction Format.md",
+    "Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
+    "Computer-Organization-and-Architecture/CPU/Instruction Type.md",
+    "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
+    "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
     "DiscreteMathematics/Set-Theory/Lattice.md",
     "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
     "DiscreteMathematics/First-Order-Logic/Numerical-FOL Translation.md",
@@ -274,9 +264,6 @@
     "Digital-Logic/Sequential Circuits/Ring and Johnson Counters.md",
     "Digital-Logic/Sequential Circuits/Counters.md",
     "Digital-Logic/Combinational Circuits/Decoder.md",
-    "Digital-Logic/Combinational Circuits/Encoder.md",
-    "Digital-Logic/Sequential Circuits/Registers.md",
-    "Digital-Logic/Sequential Circuits/Asynchronous Counters.md",
     "SR Latch.canvas",
     "Digital-Logic/Sequential Circuits",
     "Digital-Logic/Functional Completeness",

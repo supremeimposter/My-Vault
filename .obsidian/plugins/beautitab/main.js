@@ -6534,8 +6534,8 @@ var import_jsx_runtime = __toESM(require_jsx_runtime()), Icon = ({ name }) => {
       style: {
         backgroundImage: `url("${background}")`
       },
-      onKeyDown: () => {
-        plugin.openSwitcherCommand(
+      onKeyDown: (e) => {
+        !e.ctrlKey && !e.altKey && /^[A-Za-z0-9]$/.test(e.key) && plugin.openSwitcherCommand(
           settings.inlineSearchProvider.command
         );
       },
@@ -7134,7 +7134,7 @@ var BeautitabPlugin = class extends import_obsidian9.Plugin {
    * Check the local plugin version against github. If there is a new version, notify the user.
    */
   async versionCheck() {
-    let localVersion = "1.6.0", stableVersion = await (0, import_obsidian9.requestUrl)(
+    let localVersion = "1.6.1", stableVersion = await (0, import_obsidian9.requestUrl)(
       "https://raw.githubusercontent.com/andrewmcgivery/obsidian-beautitab/main/package.json"
     ).then(async (res) => {
       if (res.status === 200)
