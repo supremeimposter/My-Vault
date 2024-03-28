@@ -57,6 +57,7 @@ tags:
 - Decoding is easy in fixed length instructions though there is a wastage of space.
 - There is some wastage of space in variables length instructions because of alignment though it is lesser than that of fixed length instructions.
 - If fixed length instructions do not waste space within the instructions, then we can make the instruction set bigger.
+- If a instruction set has $n$ instructions, then it means there are $n$ operations which means there are $n$ different opcodes.
 
 ## Expanding OpCode Technique
 

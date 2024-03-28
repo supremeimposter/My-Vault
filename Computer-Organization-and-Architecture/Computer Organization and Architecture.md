@@ -20,7 +20,8 @@ tags:
 - [[Instruction Set Architecture]]
 - [[Instruction Format]]
 - [[Instruction Type]]
-
+- [[Instruction Execution Cycle]]
+- [[Addressing Modes]]
 
 
 ---
