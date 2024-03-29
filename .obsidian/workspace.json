@@ -21,12 +21,38 @@
             }
           },
           {
-            "id": "3b5d47aa8d858a28",
+            "id": "1f80b0a71714e72f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
+                "file": "Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d0fb304f91d31bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer-Organization-and-Architecture/Cache-Memory/Set Associate Cache.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96e5b7c43537e653",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
+                "file": "Computer-Organization-and-Architecture/Cache-Memory/Set Associate Cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
+                "file": "Computer-Organization-and-Architecture/Cache-Memory/Set Associate Cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
+                "file": "Computer-Organization-and-Architecture/Cache-Memory/Set Associate Cache.md"
               }
             }
           },
@@ -216,19 +242,27 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "media-extended:Open media": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "map-of-content:Update Map of Content": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "media-extended:Open media": false
     }
   },
-  "active": "3b5d47aa8d858a28",
+  "active": "5d0fb304f91d31bd",
   "lastOpenFiles": [
-    "Computer-Organization-and-Architecture/CPU/Instruction Format.md",
+    "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
+    "Computer-Organization-and-Architecture/Cache-Memory/Set Associate Cache.md",
+    "attachments/Cache Memory-20240329222343594.webp",
+    "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
+    "attachments/Direct Mapped Cache-20240329213143159.webp",
+    "attachments/Direct Mapped Cache-20240329211717855.webp",
+    "attachments/Direct Mapped Cache-20240329143036833.webp",
+    "Computer-Organization-and-Architecture/Cache-Memory",
     "Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
+    "Computer-Organization-and-Architecture/CPU/Instruction Format.md",
     "Computer-Organization-and-Architecture/CPU/Instruction Type.md",
     "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
-    "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
     "Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
     "DiscreteMathematics/Set-Theory/Lattice.md",
     "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
@@ -251,26 +285,17 @@
     "attachments/Linearly Dependent and Independent Vectors-20240319232307368.webp",
     "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md",
     "attachments/System Bus-20240319112721015.webp",
-    "attachments/Linearly Dependent and Independent Vectors-20240318235442801.webp",
-    "attachments/Linearly Dependent and Independent Vectors-20240318235144241.webp",
-    "attachments/Linearly Dependent and Independent Vectors-20240318235128738.webp",
-    "attachments/Linearly Dependent and Independent Vectors-20240318234306796.webp",
     "GATE-CS.md",
     "Linear-Algebra",
     "GATE-LOG.md",
     "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory",
     "Computer-Organization-and-Architecture",
-    "Digital-Logic/Digital Logic.md",
-    "Digital-Logic/Sequential Circuits/Ring and Johnson Counters.md",
-    "Digital-Logic/Sequential Circuits/Counters.md",
-    "Digital-Logic/Combinational Circuits/Decoder.md",
     "SR Latch.canvas",
     "Digital-Logic/Sequential Circuits",
     "Digital-Logic/Functional Completeness",
     "CompilerDesign/Lexical Analysis and Syntax Analysis",
     "CompilerDesign",
     "Digital-Logic/Combinational Circuits",
-    "Digital-Logic/Number Systems",
     "Untitled.canvas"
   ]
 }

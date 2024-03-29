@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Set Associate Cache",
+      "path": "Computer-Organization-and-Architecture/Cache-Memory/Set Associate Cache.md"
+    },
+    {
+      "basename": "Cache Memory",
+      "path": "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Direct Mapped Cache",
+      "path": "Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
+    },
+    {
       "basename": "Addressing Modes",
       "path": "Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
     },
@@ -15,10 +31,6 @@
     {
       "basename": "B Tree",
       "path": "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
       "basename": "Instruction Execution Cycle",
@@ -187,18 +199,6 @@
     {
       "basename": "Propagation Delay and Timing Diagrams",
       "path": "Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md"
-    },
-    {
-      "basename": "Race Condition on Flip Flop",
-      "path": "Digital-Logic/Sequential Circuits/Race Condition on Flip Flop.md"
-    },
-    {
-      "basename": "Preset and Clear Inputs",
-      "path": "Digital-Logic/Sequential Circuits/Preset and Clear Inputs.md"
-    },
-    {
-      "basename": "Flip Flop Conversion",
-      "path": "Digital-Logic/Sequential Circuits/Flip Flop Conversion.md"
     }
   ],
   "omittedPaths": [
