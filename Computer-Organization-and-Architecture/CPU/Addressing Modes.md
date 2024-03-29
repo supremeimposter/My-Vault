@@ -75,4 +75,4 @@ A --> D[Base Register Addressing Mode]
 
 
 
-
+---

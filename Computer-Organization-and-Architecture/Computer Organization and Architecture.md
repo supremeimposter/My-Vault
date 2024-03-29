@@ -23,6 +23,13 @@ tags:
 - [[Instruction Execution Cycle]]
 - [[Addressing Modes]]
 
+## Module 3 - Cache Memory
+
+- [[Cache Memory]]
+- [[Direct Mapped Cache]]
+- [[Set Associate Cache]]
+
+
 
 ---
 
