@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer-Organization-and-Architecture/Cache-Memory/Set Associate Cache.md",
+                "file": "Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer-Organization-and-Architecture/Cache-Memory/Set Associate Cache.md",
+                "file": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer-Organization-and-Architecture/Cache-Memory/Set Associate Cache.md",
+                "file": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer-Organization-and-Architecture/Cache-Memory/Set Associate Cache.md"
+                "file": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
               }
             }
           },
@@ -243,17 +242,18 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
+      "media-extended:Open media": false,
       "map-of-content:Update Map of Content": false,
-      "periodic-notes:Open today": false,
-      "media-extended:Open media": false
+      "periodic-notes:Open today": false
     }
   },
-  "active": "5d0fb304f91d31bd",
+  "active": "b67b099c2418cbca",
   "lastOpenFiles": [
+    "Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md",
     "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
-    "Computer-Organization-and-Architecture/Cache-Memory/Set Associate Cache.md",
-    "attachments/Cache Memory-20240329222343594.webp",
     "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "Computer-Organization-and-Architecture/Cache-Memory/Fully Associative Cache.md",
+    "attachments/Cache Memory-20240329222343594.webp",
     "Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
     "attachments/Direct Mapped Cache-20240329213143159.webp",
     "attachments/Direct Mapped Cache-20240329211717855.webp",

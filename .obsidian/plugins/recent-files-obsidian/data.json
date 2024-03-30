@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Set Associate Cache",
-      "path": "Computer-Organization-and-Architecture/Cache-Memory/Set Associate Cache.md"
+      "basename": "Computer Organization and Architecture",
+      "path": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Associate Cache",
+      "path": "Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md"
     },
     {
       "basename": "Cache Memory",
       "path": "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
       "basename": "Direct Mapped Cache",
@@ -195,10 +195,6 @@
     {
       "basename": "Master Slave Flip Flops",
       "path": "Digital-Logic/Sequential Circuits/Master Slave Flip Flops.md"
-    },
-    {
-      "basename": "Propagation Delay and Timing Diagrams",
-      "path": "Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md"
     }
   ],
   "omittedPaths": [
