@@ -17,7 +17,6 @@ tags:
 - In set associative, if a set has $n$ lines, then the cache is $n$-way associative.
 - [[Direct Mapped Cache|Direct mapped cache]] is 1-way set associative.
 
-
 $$
 \text{Number of sets in cache} = \frac{\text{Number of lines in cache}}{\text{Number of lines in a set}}
 $$
@@ -30,6 +29,9 @@ $$
 \text{Line Number} = {\text{Block Number}} \;\%\;  {\text{Number of Lines in cache}}
 $$
 
+$$\text{Number of lines} = \frac{\text{Cache size}}{\text{Block size}}$$
 
+---
+# Fully Associative Cache
 
-> [!timer] 01:02:00
+- There are no index bits in fully associative cache memory.
