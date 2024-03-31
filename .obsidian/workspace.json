@@ -59,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -143,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+                "file": "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+                "file": "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+                "file": "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
               }
             }
           },
@@ -247,14 +248,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b67b099c2418cbca",
+  "active": "96e5b7c43537e653",
   "lastOpenFiles": [
-    "Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md",
+    "Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
     "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
     "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md",
     "Computer-Organization-and-Architecture/Cache-Memory/Fully Associative Cache.md",
     "attachments/Cache Memory-20240329222343594.webp",
-    "Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
     "attachments/Direct Mapped Cache-20240329213143159.webp",
     "attachments/Direct Mapped Cache-20240329211717855.webp",
     "attachments/Direct Mapped Cache-20240329143036833.webp",
