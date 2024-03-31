@@ -15,8 +15,14 @@ tags:
 - If a memory address is requested from the main memory, then that whole block is to be sent to the cache.
 - Each block of memory contains multiple bytes.
 
+
 ## Types of Cache
 
 ![[Cache Memory-20240329222343594.webp]]
 
 
+## Cache Memory Effective Access Time
+
+
+
+> [!timer] 00:38:38
