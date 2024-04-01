@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "9c1e4cb842657ca9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pending Lectures.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1f80b0a71714e72f",
             "type": "leaf",
             "state": {
@@ -59,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
+                "file": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
+                "file": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
+                "file": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
               }
             }
           },
@@ -248,12 +260,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "96e5b7c43537e653",
+  "active": "b67b099c2418cbca",
   "lastOpenFiles": [
-    "Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
-    "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
+    "Pending Lectures.md",
     "Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
     "Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md",
+    "Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
     "Computer-Organization-and-Architecture/Cache-Memory/Fully Associative Cache.md",
     "attachments/Cache Memory-20240329222343594.webp",
     "attachments/Direct Mapped Cache-20240329213143159.webp",
@@ -288,7 +301,6 @@
     "attachments/System Bus-20240319112721015.webp",
     "GATE-CS.md",
     "Linear-Algebra",
-    "GATE-LOG.md",
     "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory",
     "Computer-Organization-and-Architecture",
     "SR Latch.canvas",

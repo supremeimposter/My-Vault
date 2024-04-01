@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Cache Memory",
-      "path": "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
-    },
-    {
-      "basename": "Direct Mapped Cache",
-      "path": "Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
-    },
-    {
       "basename": "Computer Organization and Architecture",
       "path": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
+      "basename": "Pending Lectures",
+      "path": "Pending Lectures.md"
+    },
+    {
+      "basename": "Cache Memory",
+      "path": "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
+    },
+    {
       "basename": "Associate Cache",
       "path": "Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md"
+    },
+    {
+      "basename": "Direct Mapped Cache",
+      "path": "Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
     },
     {
       "basename": "Addressing Modes",
@@ -143,10 +147,6 @@
     {
       "basename": "Sequential Circuits",
       "path": "Digital-Logic/Sequential Circuits/Sequential Circuits.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "Pending Lectures.md"
     },
     {
       "basename": "Finite State Machine",
