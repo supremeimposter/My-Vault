@@ -29,7 +29,17 @@ tags:
 - [[Direct Mapped Cache]]
 - [[Associate Cache]]
 
+## Module 4 - Pipeline
 
+> [!youtube] 
+> [Pipeline - Complete Playlist | Hazards in Pipeline | Computer Organization & Architecture | GO Classes Pipeline Playlist - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhs9DfAY9ry6XbjGn7ZumZ8)
+
+## Module 5 - Floating Point Representation
+
+
+---
+# Pending Lectures
+![[Pending Lectures#Computer Organization and Architecture]]
 
 ---
 
