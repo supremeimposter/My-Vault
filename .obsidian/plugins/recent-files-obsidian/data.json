@@ -1,8 +1,76 @@
 {
   "recentFiles": [
     {
+      "basename": "Syntax Analysis",
+      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md"
+    },
+    {
+      "basename": "Context Free Grammar",
+      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
+    },
+    {
+      "basename": "Top Down Parsing",
+      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md"
+    },
+    {
+      "basename": "Basic Concepts of TOC",
+      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
+    },
+    {
+      "basename": "Compiler Design",
+      "path": "CompilerDesign/Compiler Design.md"
+    },
+    {
+      "basename": "Introduction to Compiler Design",
+      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md"
+    },
+    {
+      "basename": "Lexical Analysis",
+      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md"
+    },
+    {
+      "basename": "Theory of Computation",
+      "path": "TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Instruction Format",
+      "path": "Computer-Organization-and-Architecture/CPU/Instruction Format.md"
+    },
+    {
       "basename": "Computer Organization and Architecture",
       "path": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Floating Point Representation",
+      "path": "Computer-Organization-and-Architecture/Floating-Point-Representation/Floating Point Representation.md"
+    },
+    {
+      "basename": "Decimal and Binary System",
+      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
+    },
+    {
+      "basename": "English-FOL Translation",
+      "path": "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md"
+    },
+    {
+      "basename": "Features of First Order Logic",
+      "path": "DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md"
+    },
+    {
+      "basename": "Nested Quantifiers",
+      "path": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md"
+    },
+    {
+      "basename": "First Order Logic",
+      "path": "DiscreteMathematics/First-Order-Logic/First Order Logic.md"
+    },
+    {
+      "basename": "Quantifiers",
+      "path": "DiscreteMathematics/First-Order-Logic/Quantifiers.md"
+    },
+    {
+      "basename": "Numerical-FOL Translation",
+      "path": "DiscreteMathematics/First-Order-Logic/Numerical-FOL Translation.md"
     },
     {
       "basename": "Pending Lectures",
@@ -25,10 +93,6 @@
       "path": "Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
     },
     {
-      "basename": "Instruction Format",
-      "path": "Computer-Organization-and-Architecture/CPU/Instruction Format.md"
-    },
-    {
       "basename": "Instruction Type",
       "path": "Computer-Organization-and-Architecture/CPU/Instruction Type.md"
     },
@@ -43,14 +107,6 @@
     {
       "basename": "Lattice",
       "path": "DiscreteMathematics/Set-Theory/Lattice.md"
-    },
-    {
-      "basename": "English-FOL Translation",
-      "path": "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md"
-    },
-    {
-      "basename": "Numerical-FOL Translation",
-      "path": "DiscreteMathematics/First-Order-Logic/Numerical-FOL Translation.md"
     },
     {
       "basename": "Main Memory",
@@ -143,58 +199,6 @@
     {
       "basename": "Clock in Digital Circuits",
       "path": "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
-    },
-    {
-      "basename": "Sequential Circuits",
-      "path": "Digital-Logic/Sequential Circuits/Sequential Circuits.md"
-    },
-    {
-      "basename": "Finite State Machine",
-      "path": "Digital-Logic/Sequential Circuits/Finite State Machine.md"
-    },
-    {
-      "basename": "Operating Systems",
-      "path": "OperatingSystems/Operating Systems.md"
-    },
-    {
-      "basename": "Compiler Design",
-      "path": "CompilerDesign/Compiler Design.md"
-    },
-    {
-      "basename": "Top Down Parsing",
-      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md"
-    },
-    {
-      "basename": "LL(1) Parser",
-      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/LL(1) Parser.md"
-    },
-    {
-      "basename": "Terminologies of Sequential Circuits",
-      "path": "Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md"
-    },
-    {
-      "basename": "ACID Properties for Transaction Processing",
-      "path": "DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md"
-    },
-    {
-      "basename": "SR Flip Flop",
-      "path": "Digital-Logic/Sequential Circuits/SR Flip Flop.md"
-    },
-    {
-      "basename": "Variations of Shift Register",
-      "path": "Digital-Logic/Sequential Circuits/Variations of Shift Register.md"
-    },
-    {
-      "basename": "C",
-      "path": "C/C.md"
-    },
-    {
-      "basename": "Timing Issues in Flip Flop",
-      "path": "Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md"
-    },
-    {
-      "basename": "Master Slave Flip Flops",
-      "path": "Digital-Logic/Sequential Circuits/Master Slave Flip Flops.md"
     }
   ],
   "omittedPaths": [
