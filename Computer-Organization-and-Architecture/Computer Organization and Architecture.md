@@ -36,6 +36,10 @@ tags:
 
 ## Module 5 - Floating Point Representation
 
+- [[Floating Point Representation]]
+
+> [!link] Additional Reads
+> [IEEE Standard 754 Floating-Point](https://steve.hollasch.net/cgindex/coding/ieeefloat.html)
 
 ---
 # Pending Lectures
@@ -55,12 +59,15 @@ tags:
 > [High Performance Computer Architecture: Part 6 - YouTube](https://www.youtube.com/playlist?list=PLAwxTw4SYaPndXEsI4kAa6BDSTRbkCKJN)
 
 
-
 > [!youtube] 
 > [Little Endian, Big Endian - ALL Practice Questions | GATE 2021 | COA | With NOTES - YouTube](https://www.youtube.com/watch?v=9RBQS5lAg00&list=PLIPZ2_p3RNHjMdZR3GYQ2KZio0NKczrik)
 
 
-> [!link] Carnegie Mellon University 18-447
-> [schedule \[18-447 Introduction to Computer Architecture – Spring 2015\]](https://course.ece.cmu.edu/~ece447/s15/doku.php?id=schedule)
+> [!link] Standard University Lectures
+> Carnegie Mellon University 18-447
+> [schedule \[18-447 Introduction to Computer Architecture – Spring 2015\]](https://course.ece.cmu.edu/~ece447/s15/doku.php?id=schedule) 
+> Stanford University CS107
+> [Index of /class/archive/cs/cs107/cs107.1194/lectures](https://web.stanford.edu/class/archive/cs/cs107/cs107.1194/lectures/)
+
 
 ---
