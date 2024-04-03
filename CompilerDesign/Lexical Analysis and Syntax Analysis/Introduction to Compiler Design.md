@@ -12,5 +12,11 @@ tags:
 ---
 # Introduction to Compiler Design
 
-![[Introduction to Compiler Design-20240305191600287.webp]]
+![[Introduction to Compiler Design-20240403145349146.webp]]
+
+![[Introduction to Compiler Design-20240403145421928.webp|Structure of a Modern Compiler]]
+
+![[Introduction to Compiler Design-20240403140308568.webp|Phases of a Compiler]]
+
+
 
