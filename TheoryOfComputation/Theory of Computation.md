@@ -112,3 +112,14 @@ tags:
 
 > [!youtube] Open mic with students
 > [Open Mic with Students | One-to-One Discussion | GO Classes - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHh3iz2lIqW8olvQOCIqVtW7)
+
+
+> [!link] 
+> Stanford University CS154
+> [CS 154: Introduction to the Theory of Computation | Omer Reingold](https://omereingold.wordpress.com/cs-154-introduction-to-automata-and-complexity-theory/)
+> [CS 154 Handouts](https://theory.stanford.edu/~rajeev/CS154/Handouts.html)
+> [Automata and Complexity](https://theory.stanford.edu/~trevisan/cs154-12/index.html#notes)
+> [CS154: Introduction to Automata and Complexity Theory](http://infolab.stanford.edu/~ullman/ialc/spr10/spr10.html#LECTURE%20NOTES)
+> [CS154 Stanford - Introduction to the Theory of Computing - YouTube](https://www.youtube.com/playlist?list=PLjG2IDGftWft9Y11xC0sfgeT5jyTJqB-i)
+> University of Winsconsin Madison
+> [CS 154](https://pages.cs.wisc.edu/~aanjneya/courses/cs154/index.html)
