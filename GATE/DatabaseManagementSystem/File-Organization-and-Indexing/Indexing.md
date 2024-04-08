@@ -53,7 +53,7 @@ flexGrow=1
 [Tree Based Index(Dynamic)] -- [B+ Tree]
 ```
 
-- There is another type of index called the **Hash Index** which is based on the concept of [[hashing]].
+- There is another type of index called the **Hash Index** which is based on the concept of [[Hashing]].
 - Hash indexes may or may not be ordered.
 - A relation can be physically stored on a disk either sequentially (sorted on some field) or unordered (heap file).
 - There are two ways to implement index

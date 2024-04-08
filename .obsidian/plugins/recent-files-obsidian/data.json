@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Syntax Analysis",
-      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md"
+      "basename": "Computer Networks",
+      "path": "GATE/ComputerNetworks/Computer Networks.md"
     },
     {
-      "basename": "Context Free Grammar",
-      "path": "TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
+      "basename": "Temporary Plan",
+      "path": "GATE/Temporary Plan.md"
     },
     {
-      "basename": "Top Down Parsing",
-      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md"
+      "basename": "Project Euler",
+      "path": "Project Euler/Project Euler.md"
     },
     {
-      "basename": "Basic Concepts of TOC",
-      "path": "TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
+      "basename": "Introduction to Computer Networks",
+      "path": "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Introduction to Computer Networks.md"
     },
     {
-      "basename": "Compiler Design",
-      "path": "CompilerDesign/Compiler Design.md"
+      "basename": "Supernetting",
+      "path": "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Supernetting.md"
     },
     {
-      "basename": "Introduction to Compiler Design",
-      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md"
+      "basename": "Subnetting",
+      "path": "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Subnetting.md"
     },
     {
-      "basename": "Lexical Analysis",
-      "path": "CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md"
+      "basename": "Problem 1",
+      "path": "Project Euler/Problem 1.md"
     },
     {
-      "basename": "Theory of Computation",
-      "path": "TheoryOfComputation/Theory of Computation.md"
+      "basename": "Vault Index",
+      "path": "Vault Index.md"
     },
     {
-      "basename": "Instruction Format",
-      "path": "Computer-Organization-and-Architecture/CPU/Instruction Format.md"
+      "basename": "Addressing",
+      "path": "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Addressing.md"
     },
     {
-      "basename": "Computer Organization and Architecture",
-      "path": "Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
-    },
-    {
-      "basename": "Floating Point Representation",
-      "path": "Computer-Organization-and-Architecture/Floating-Point-Representation/Floating Point Representation.md"
-    },
-    {
-      "basename": "Decimal and Binary System",
-      "path": "Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
-    },
-    {
-      "basename": "English-FOL Translation",
-      "path": "DiscreteMathematics/First-Order-Logic/English-FOL Translation.md"
-    },
-    {
-      "basename": "Features of First Order Logic",
-      "path": "DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md"
-    },
-    {
-      "basename": "Nested Quantifiers",
-      "path": "DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md"
-    },
-    {
-      "basename": "First Order Logic",
-      "path": "DiscreteMathematics/First-Order-Logic/First Order Logic.md"
-    },
-    {
-      "basename": "Quantifiers",
-      "path": "DiscreteMathematics/First-Order-Logic/Quantifiers.md"
-    },
-    {
-      "basename": "Numerical-FOL Translation",
-      "path": "DiscreteMathematics/First-Order-Logic/Numerical-FOL Translation.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "Pending Lectures.md"
-    },
-    {
-      "basename": "Cache Memory",
-      "path": "Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
-    },
-    {
-      "basename": "Associate Cache",
-      "path": "Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md"
-    },
-    {
-      "basename": "Direct Mapped Cache",
-      "path": "Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
-    },
-    {
-      "basename": "Addressing Modes",
-      "path": "Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
-    },
-    {
-      "basename": "Instruction Type",
-      "path": "Computer-Organization-and-Architecture/CPU/Instruction Type.md"
-    },
-    {
-      "basename": "B Tree",
-      "path": "DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
-    },
-    {
-      "basename": "Instruction Execution Cycle",
-      "path": "Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
-    },
-    {
-      "basename": "Lattice",
-      "path": "DiscreteMathematics/Set-Theory/Lattice.md"
-    },
-    {
-      "basename": "Main Memory",
-      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md"
-    },
-    {
-      "basename": "Instruction Set Architecture",
-      "path": "Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
-    },
-    {
-      "basename": "Linearly Dependent and Independent Vectors",
-      "path": "Linear-Algebra/Linearly Dependent and Independent Vectors.md"
-    },
-    {
-      "basename": "Introduction to COA",
-      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
-    },
-    {
-      "basename": "Registers and Status Flags",
-      "path": "Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md"
-    },
-    {
-      "basename": "Overflow",
-      "path": "Digital-Logic/Number Systems/Overflow.md"
-    },
-    {
-      "basename": "Memory Interfacing and Expansion",
-      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
-    },
-    {
-      "basename": "System of Linear Equations",
-      "path": "Linear-Algebra/System of Linear Equations.md"
-    },
-    {
-      "basename": "Introduction to Linear Algebra",
-      "path": "Linear-Algebra/Introduction to Linear Algebra.md"
-    },
-    {
-      "basename": "Linear Algebra",
-      "path": "Linear-Algebra/Linear Algebra.md"
-    },
-    {
-      "basename": "System Bus",
-      "path": "Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md"
+      "basename": "Operating Systems",
+      "path": "GATE/OperatingSystems/Operating Systems.md"
     },
     {
       "basename": "GATE-CS",
-      "path": "GATE-CS.md"
+      "path": "GATE/GATE-CS.md"
+    },
+    {
+      "basename": "Top Down Parsing",
+      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md"
+    },
+    {
+      "basename": "Introduction to Compiler Design",
+      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md"
+    },
+    {
+      "basename": "Context Free Grammar",
+      "path": "GATE/TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
+    },
+    {
+      "basename": "Syntax Analysis",
+      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md"
+    },
+    {
+      "basename": "Basic Concepts of TOC",
+      "path": "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
+    },
+    {
+      "basename": "Compiler Design",
+      "path": "GATE/CompilerDesign/Compiler Design.md"
+    },
+    {
+      "basename": "Lexical Analysis",
+      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md"
+    },
+    {
+      "basename": "Theory of Computation",
+      "path": "GATE/TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Instruction Format",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Floating Point Representation",
+      "path": "GATE/Computer-Organization-and-Architecture/Floating-Point-Representation/Floating Point Representation.md"
+    },
+    {
+      "basename": "Decimal and Binary System",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
+    },
+    {
+      "basename": "English-FOL Translation",
+      "path": "GATE/DiscreteMathematics/First-Order-Logic/English-FOL Translation.md"
+    },
+    {
+      "basename": "Features of First Order Logic",
+      "path": "GATE/DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md"
+    },
+    {
+      "basename": "Nested Quantifiers",
+      "path": "GATE/DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md"
+    },
+    {
+      "basename": "First Order Logic",
+      "path": "GATE/DiscreteMathematics/First-Order-Logic/First Order Logic.md"
+    },
+    {
+      "basename": "Quantifiers",
+      "path": "GATE/DiscreteMathematics/First-Order-Logic/Quantifiers.md"
+    },
+    {
+      "basename": "Numerical-FOL Translation",
+      "path": "GATE/DiscreteMathematics/First-Order-Logic/Numerical-FOL Translation.md"
+    },
+    {
+      "basename": "Pending Lectures",
+      "path": "GATE/Pending Lectures.md"
+    },
+    {
+      "basename": "Cache Memory",
+      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
+    },
+    {
+      "basename": "Associate Cache",
+      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md"
+    },
+    {
+      "basename": "Direct Mapped Cache",
+      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
+    },
+    {
+      "basename": "Addressing Modes",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
+    },
+    {
+      "basename": "Instruction Type",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
+    },
+    {
+      "basename": "B Tree",
+      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
+    },
+    {
+      "basename": "Instruction Execution Cycle",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
+    },
+    {
+      "basename": "Lattice",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Lattice.md"
+    },
+    {
+      "basename": "Main Memory",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md"
+    },
+    {
+      "basename": "Instruction Set Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
+    },
+    {
+      "basename": "Linearly Dependent and Independent Vectors",
+      "path": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
+    },
+    {
+      "basename": "Introduction to COA",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
+    },
+    {
+      "basename": "Registers and Status Flags",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md"
+    },
+    {
+      "basename": "Overflow",
+      "path": "GATE/Digital-Logic/Number Systems/Overflow.md"
+    },
+    {
+      "basename": "Memory Interfacing and Expansion",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
+    },
+    {
+      "basename": "System of Linear Equations",
+      "path": "GATE/Linear-Algebra/System of Linear Equations.md"
+    },
+    {
+      "basename": "Introduction to Linear Algebra",
+      "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
+    },
+    {
+      "basename": "Linear Algebra",
+      "path": "GATE/Linear-Algebra/Linear Algebra.md"
+    },
+    {
+      "basename": "System Bus",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md"
     },
     {
       "basename": "GATE-LOG",
-      "path": "GATE-LOG.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "Digital-Logic/Digital Logic.md"
-    },
-    {
-      "basename": "Ring and Johnson Counters",
-      "path": "Digital-Logic/Sequential Circuits/Ring and Johnson Counters.md"
-    },
-    {
-      "basename": "Counters",
-      "path": "Digital-Logic/Sequential Circuits/Counters.md"
-    },
-    {
-      "basename": "Decoder",
-      "path": "Digital-Logic/Combinational Circuits/Decoder.md"
-    },
-    {
-      "basename": "Encoder",
-      "path": "Digital-Logic/Combinational Circuits/Encoder.md"
-    },
-    {
-      "basename": "Registers",
-      "path": "Digital-Logic/Sequential Circuits/Registers.md"
-    },
-    {
-      "basename": "Asynchronous Counters",
-      "path": "Digital-Logic/Sequential Circuits/Asynchronous Counters.md"
-    },
-    {
-      "basename": "Flip Flop",
-      "path": "Digital-Logic/Sequential Circuits/Flip Flop.md"
-    },
-    {
-      "basename": "Synchronous Counters",
-      "path": "Digital-Logic/Sequential Circuits/Synchronous Counters.md"
-    },
-    {
-      "basename": "Clock in Digital Circuits",
-      "path": "Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
+      "path": "GATE/GATE-LOG.md"
     }
   ],
   "omittedPaths": [
