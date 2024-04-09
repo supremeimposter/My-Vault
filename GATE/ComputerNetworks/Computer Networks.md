@@ -17,6 +17,7 @@ tags:
 ## Module 2 - Data Link Layer
 
 
+
 > [!youtube] 
 > 1. [15 Questions on Stop Wait Protocol| GATE PYQs| MIT, Berkeley |Efficiency & Throughput| With NOTES - YouTube](https://www.youtube.com/watch?v=JydYl2sd0jI)
 > 2. [More Questions on Stop Wait Protocol | GATE PYQs 2016, 2017, 2006, 2023 MIT, Berkeley | With NOTES - YouTube](https://www.youtube.com/watch?v=5pSat-Xpgms)

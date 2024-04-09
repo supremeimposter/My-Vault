@@ -5,6 +5,18 @@
       "path": "GATE/ComputerNetworks/Computer Networks.md"
     },
     {
+      "basename": "BackPropagation",
+      "path": "Machine-Learning/BackPropagation.md"
+    },
+    {
+      "basename": "Machine Learning",
+      "path": "Machine-Learning/Machine Learning.md"
+    },
+    {
+      "basename": "Vault Index",
+      "path": "Vault Index.md"
+    },
+    {
       "basename": "Temporary Plan",
       "path": "GATE/Temporary Plan.md"
     },
@@ -27,10 +39,6 @@
     {
       "basename": "Problem 1",
       "path": "Project Euler/Problem 1.md"
-    },
-    {
-      "basename": "Vault Index",
-      "path": "Vault Index.md"
     },
     {
       "basename": "Addressing",
@@ -191,14 +199,6 @@
     {
       "basename": "Linear Algebra",
       "path": "GATE/Linear-Algebra/Linear Algebra.md"
-    },
-    {
-      "basename": "System Bus",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE/GATE-LOG.md"
     }
   ],
   "omittedPaths": [
