@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/ComputerNetworks/Computer Networks.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -82,8 +82,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -104,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/ComputerNetworks/Computer Networks.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/ComputerNetworks/Computer Networks.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/ComputerNetworks/Computer Networks.md"
+                "file": "README.md"
               }
             }
           },
@@ -209,10 +208,10 @@
   },
   "active": "9166d6b2500f2a11",
   "lastOpenFiles": [
+    "GATE/ComputerNetworks/Computer Networks.md",
     "Machine-Learning/BackPropagation.md",
     "Machine-Learning/Machine Learning.md",
     "Vault Index.md",
-    "GATE/ComputerNetworks/Computer Networks.md",
     "Machine-Learning",
     "GATE/Temporary Plan.md",
     "Project Euler/Project Euler.md",

@@ -1,4 +1,4 @@
-# GATE CSE preparation - 2024
+# My Knowledge Vault
 
 > Powered by Go-classes and Gate Overflow
 

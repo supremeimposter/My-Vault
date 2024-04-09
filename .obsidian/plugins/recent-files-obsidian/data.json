@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "Computer Networks",
       "path": "GATE/ComputerNetworks/Computer Networks.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Introduction to Linear Algebra",
       "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
-    },
-    {
-      "basename": "Linear Algebra",
-      "path": "GATE/Linear-Algebra/Linear Algebra.md"
     }
   ],
   "omittedPaths": [
