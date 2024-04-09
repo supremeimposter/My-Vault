@@ -40,7 +40,7 @@ $$
 ---
 
 [[Number Theory]]
-
+- [[Inequalities]]
 ---
 
 ## Square root and plus or minus

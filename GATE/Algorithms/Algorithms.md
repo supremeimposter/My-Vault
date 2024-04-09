@@ -11,7 +11,10 @@ tags:
 
 ## Analysis of Algorithms
 - [[Time Complexity for Recursive Programs]]
-	- [[Iteration Method (Repeated Substitution Method)]]
+
+### Solving Recurrence Relations
+- [[Iteration Method (Repeated Substitution Method)]]
+- [[Tree Method]]
 - [[Masters Theorem]]
 - [[Change of Variable or Domain Transformation]]
 
@@ -26,5 +29,6 @@ tags:
 
 ## References
 
+1. [Algorithms - Abdul Bari - YouTube](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
 
 ---
