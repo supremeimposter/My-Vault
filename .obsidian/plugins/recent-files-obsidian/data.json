@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Inequalities",
+      "path": "GATE/Fundamentals of Computer Science/Inequalities.md"
+    },
+    {
+      "basename": "Number Theory",
+      "path": "GATE/Fundamentals of Computer Science/Number Theory.md"
+    },
+    {
+      "basename": "Fundamentals of Computer Science",
+      "path": "GATE/Fundamentals of Computer Science/Fundamentals of Computer Science.md"
+    },
+    {
+      "basename": "Time Complexity for Recursive Programs",
+      "path": "GATE/Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
+    },
+    {
+      "basename": "Algorithms",
+      "path": "GATE/Algorithms/Algorithms.md"
+    },
+    {
+      "basename": "Iteration Method (Repeated Substitution Method)",
+      "path": "GATE/Algorithms/Recurrence-Relation/Iteration Method (Repeated Substitution Method).md"
+    },
+    {
+      "basename": "Tree Method",
+      "path": "GATE/Algorithms/Recurrence-Relation/Tree Method.md"
+    },
+    {
+      "basename": "Vault Index",
+      "path": "Vault Index.md"
+    },
+    {
+      "basename": "Links for Resources",
+      "path": "GATE/GATE-materials/Links for Resources.md"
+    },
+    {
+      "basename": "C",
+      "path": "GATE/C/C.md"
+    },
+    {
+      "basename": "Linear Algebra",
+      "path": "GATE/Linear-Algebra/Linear Algebra.md"
+    },
+    {
+      "basename": "Introduction to Linear Algebra",
+      "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -15,10 +63,6 @@
     {
       "basename": "Machine Learning",
       "path": "Machine-Learning/Machine Learning.md"
-    },
-    {
-      "basename": "Vault Index",
-      "path": "Vault Index.md"
     },
     {
       "basename": "Temporary Plan",
@@ -155,50 +199,6 @@
     {
       "basename": "B Tree",
       "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
-    },
-    {
-      "basename": "Instruction Execution Cycle",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
-    },
-    {
-      "basename": "Lattice",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Lattice.md"
-    },
-    {
-      "basename": "Main Memory",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md"
-    },
-    {
-      "basename": "Instruction Set Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
-    },
-    {
-      "basename": "Linearly Dependent and Independent Vectors",
-      "path": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
-    },
-    {
-      "basename": "Introduction to COA",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
-    },
-    {
-      "basename": "Registers and Status Flags",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md"
-    },
-    {
-      "basename": "Overflow",
-      "path": "GATE/Digital-Logic/Number Systems/Overflow.md"
-    },
-    {
-      "basename": "Memory Interfacing and Expansion",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
-    },
-    {
-      "basename": "System of Linear Equations",
-      "path": "GATE/Linear-Algebra/System of Linear Equations.md"
-    },
-    {
-      "basename": "Introduction to Linear Algebra",
-      "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
     }
   ],
   "omittedPaths": [

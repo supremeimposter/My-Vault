@@ -4,23 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "432cf76bd24d1d03",
+        "id": "406c6b7001aa0b90",
         "type": "tabs",
         "children": [
           {
-            "id": "9166d6b2500f2a11",
+            "id": "c106fdaa61661a9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "GATE/Algorithms/Algorithms.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b8233120d3b2f913",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Fundamentals of Computer Science/Inequalities.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d12b69a002cd4bce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Algorithms/Recurrence-Relation/Iteration Method (Repeated Substitution Method).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d300800798215cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Algorithms/Recurrence-Relation/Tree Method.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "GATE/Fundamentals of Computer Science/Inequalities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "GATE/Fundamentals of Computer Science/Inequalities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "GATE/Fundamentals of Computer Science/Inequalities.md"
               }
             }
           },
@@ -197,21 +237,33 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
       "map-of-content:Update Map of Content": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "9166d6b2500f2a11",
+  "active": "b8233120d3b2f913",
   "lastOpenFiles": [
+    "GATE/Fundamentals of Computer Science/Number Theory.md",
+    "GATE/Fundamentals of Computer Science/Fundamentals of Computer Science.md",
+    "GATE/Fundamentals of Computer Science/Inequalities.md",
+    "GATE/Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
+    "GATE/Algorithms/Algorithms.md",
+    "GATE/Algorithms/Recurrence-Relation/Iteration Method (Repeated Substitution Method).md",
+    "GATE/Algorithms/Recurrence-Relation/Tree Method.md",
+    "Vault Index.md",
+    "GATE/GATE-materials/Links for Resources.md",
+    "GATE/C/C.md",
+    "GATE/Linear-Algebra/Linear Algebra.md",
+    "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
+    "README.md",
     "GATE/ComputerNetworks/Computer Networks.md",
     "Machine-Learning/BackPropagation.md",
     "Machine-Learning/Machine Learning.md",
-    "Vault Index.md",
     "Machine-Learning",
     "GATE/Temporary Plan.md",
     "Project Euler/Project Euler.md",
@@ -235,22 +287,10 @@
     "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting",
     "GATE/ComputerNetworks",
     "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md",
-    "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md",
-    "GATE/TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md",
-    "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md",
     "attachments/Syntax Analysis-20240403221156649.webp",
     "attachments/Syntax Analysis-20240403220237047.webp",
-    "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
-    "GATE/CompilerDesign/Compiler Design.md",
-    "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md",
     "attachments/Lexical Analysis-20240403190235647.webp",
-    "GATE/TheoryOfComputation/Theory of Computation.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
-    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "GATE/Computer-Organization-and-Architecture/Floating-Point-Representation/Floating Point Representation.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
     "GATE/Computer-Organization-and-Architecture/Floating-Point-Representation",
-    "GATE/DiscreteMathematics/First-Order-Logic/English-FOL Translation.md",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory",
     "GATE/Computer-Organization-and-Architecture/CPU",
     "GATE/Linear-Algebra",
