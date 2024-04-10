@@ -12,13 +12,14 @@ notes-taken:
 # Characterizing Running Times
 
 For large enough inputs, the multiplicative constants and lower-order terms of an exact running time are dominated by the effects of the input size itself. Usually, an algorithm that is asymptotically more efûcient is the best choice for all but very small inputs.
+Asymptotic notations provide the simplest and most precise bounds possible.
 
 ## $\mathcal{O}$ Notation
 $\mathcal{O}$-notation characterizes an asymptotic **upper bound** on the asymptotic behavior of a function. In other words, it says that a function grows no faster than a certain rate, based on the highest-order term.
 $$
 f(n) = \mathcal{O} (g(n))
 $$
-The upper bound of the function $f(n)$ is the function $g(n)$ for all sufficiently large values $n$ such that $n \ge n_0$.
+The upper bound of the function $f(n)$ is the function $g(n)$ for all sufficiently large values $n$ such that $n \ge n_0$ where $n_0 \gt 0$
 
 $\mathcal{O} (g(n))$ is the set of all those functions whose upper bound is $g(n)$
 $$
@@ -44,6 +45,20 @@ $$
 ## $\Theta$ Notation
 $\Theta$-notation characterizes a asymptotic **tight bound** on the asymptotic behavior of a function. It says that a function grows precisely at a certain rate, based on the highest order term.
 
+$$
+f(n) = \Theta(g(n))
+$$
 
-![[Characterizing Running Times-20240410171442047.webp]]
+$$
+c_1 \ast g(n) \le f(n) \le c_2 \ast g(n)
+$$
+
+
+> [!NOTE] 
+> $\Theta(n)$ is the most precise and the most preferred.
+
+
+![[Characterizing Running Times-20240410222808296.webp]]
+
+## Comparing Functions
 
