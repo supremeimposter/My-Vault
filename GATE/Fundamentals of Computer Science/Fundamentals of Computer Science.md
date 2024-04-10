@@ -9,8 +9,8 @@ notes-taken: false
 tags:
   - Fundamentals
 ---
+# Fundamentals of Computer Science
 
----
 ## divides ( $\mid$ )
 
 - $a \; | \; b$ means "a divides b"
@@ -40,7 +40,8 @@ $$
 ---
 
 [[Number Theory]]
-- [[Inequalities]]
+[[Inequalities]]
+
 ---
 
 ## Square root and plus or minus

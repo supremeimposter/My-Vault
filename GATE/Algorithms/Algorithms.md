@@ -8,8 +8,11 @@ tags:
 ---
 # Algorithms
 - Algorithms are a step by step instructions that are terminated after a finite number of steps.
+- A correct algorithm halts and provides the correct input.
+- It is at the larger problem sizes that the differences in the efficiency between algorithms become particularly prominent.
 
 ## Analysis of Algorithms
+- [[Characterizing Running Times]]
 - [[Time Complexity for Recursive Programs]]
 
 ### Solving Recurrence Relations
