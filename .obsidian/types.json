@@ -10,6 +10,7 @@
     "lecture": "text",
     "revision": "datetime",
     "last-revision": "datetime",
-    "notes-taken": "checkbox"
+    "notes-taken": "checkbox",
+    "books": "multitext"
   }
 }

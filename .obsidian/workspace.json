@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "b8233120d3b2f913",
+            "id": "aa30ef1b23d2f109",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Fundamentals of Computer Science/Inequalities.md",
+                "file": "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -122,7 +122,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -143,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Fundamentals of Computer Science/Inequalities.md",
+                "file": "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Fundamentals of Computer Science/Inequalities.md",
+                "file": "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Fundamentals of Computer Science/Inequalities.md"
+                "file": "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md"
               }
             }
           },
@@ -227,7 +228,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 336.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,15 +248,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b8233120d3b2f913",
+  "active": "aa30ef1b23d2f109",
   "lastOpenFiles": [
-    "GATE/Fundamentals of Computer Science/Number Theory.md",
-    "GATE/Fundamentals of Computer Science/Fundamentals of Computer Science.md",
     "GATE/Fundamentals of Computer Science/Inequalities.md",
-    "GATE/Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
-    "GATE/Algorithms/Algorithms.md",
+    "GATE/Fundamentals of Computer Science/Fundamentals of Computer Science.md",
     "GATE/Algorithms/Recurrence-Relation/Iteration Method (Repeated Substitution Method).md",
+    "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md",
+    "attachments/Characterizing Running Times-20240410171442047.webp",
+    "GATE/Algorithms/Algorithms.md",
     "GATE/Algorithms/Recurrence-Relation/Tree Method.md",
+    "templates/text-notes-template.md",
+    "GATE/Fundamentals of Computer Science/Number Theory.md",
+    "GATE/Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
     "Vault Index.md",
     "GATE/GATE-materials/Links for Resources.md",
     "GATE/C/C.md",
@@ -282,14 +287,10 @@
     "attachments/Addressing-20240405214535780.webp",
     "attachments/Addressing-20240405214426141.webp",
     "attachments/Subnetting-20240405182253946.webp",
-    "GATE/OperatingSystems/Operating Systems.md",
-    "GATE/GATE-CS.md",
     "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting",
     "GATE/ComputerNetworks",
-    "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md",
     "attachments/Syntax Analysis-20240403221156649.webp",
     "attachments/Syntax Analysis-20240403220237047.webp",
-    "attachments/Lexical Analysis-20240403190235647.webp",
     "GATE/Computer-Organization-and-Architecture/Floating-Point-Representation",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory",
     "GATE/Computer-Organization-and-Architecture/CPU",

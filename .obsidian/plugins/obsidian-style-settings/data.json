@@ -145,7 +145,7 @@
   "title@@dim-light-mode": false,
   "Olivier-s-Theme@@OT-headings-scaling": "headings-scaling-OpSpl",
   "Olivier-s-Theme@@OT-darkPalette": "darkPalette-metallicBlue",
-  "Olivier-s-Theme@@OT-generalPalette": "generalPalette-stone",
+  "Olivier-s-Theme@@OT-generalPalette": "generalPalette-icy",
   "o-theme-settings@@o-color-accent": "o-blue",
   "o-theme-settings@@o-theme-dark": "o-purple-d",
   "o-theme-settings@@o-theme-light": "ul-solar-lt",
@@ -236,7 +236,7 @@
   "blue-topaz-theme@@background-image-settings-command-palette-same-as-workplace": false,
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-autumn-topaz",
   "blue-topaz-theme@@toggle-nonoverlapping-bg": false,
-  "Olivier-s-Theme@@OT-pageBackground-lightMode": "pb-lm-paper-1",
+  "Olivier-s-Theme@@OT-pageBackground-lightMode": "pb-lm-paper-5",
   "Olivier-s-Theme@@OT-pageBackground-darkMode": "pb-dm-blackPaper-1",
   "Olivier-s-Theme@@OT-filesNavigator-spacing": "filesNavigator-spacing-compact",
   "ul-theme-settings@@ul-floating-ribbon": false,
@@ -402,5 +402,7 @@
   "anuppuccin-theme-settings@@anp-depth-tab-text-invert": false,
   "floating-toc-styles@@enable-heading-nowrap": false,
   "floating-toc-styles@@enable-outline-style": "float-curves-outline-style",
-  "floating-toc-styles@@enable-bar-icon": false
+  "floating-toc-styles@@enable-bar-icon": false,
+  "Olivier-s-Theme@@OT-editingBackgroundColor-lightMode": "editingBackgroundColor-lightMode-default",
+  "obsidian-typewriter@@shrink-formatting": true
 }

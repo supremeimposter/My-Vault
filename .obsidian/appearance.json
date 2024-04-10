@@ -8,9 +8,10 @@
     "timeline-callout",
     "anuppiccin-extended-color-schemes",
     "sticky-notes",
-    "anuppiccin-floating-search-bar"
+    "anuppiccin-floating-search-bar",
+    "notebook-backgrounds"
   ],
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Typewriter",
   "theme": "moonstone",
   "showViewHeader": true,
   "baseFontSize": 18,

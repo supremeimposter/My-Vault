@@ -1,32 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Inequalities",
-      "path": "GATE/Fundamentals of Computer Science/Inequalities.md"
+      "basename": "Characterizing Running Times",
+      "path": "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md"
     },
     {
-      "basename": "Number Theory",
-      "path": "GATE/Fundamentals of Computer Science/Number Theory.md"
+      "basename": "Inequalities",
+      "path": "GATE/Fundamentals of Computer Science/Inequalities.md"
     },
     {
       "basename": "Fundamentals of Computer Science",
       "path": "GATE/Fundamentals of Computer Science/Fundamentals of Computer Science.md"
     },
     {
-      "basename": "Time Complexity for Recursive Programs",
-      "path": "GATE/Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
+      "basename": "Iteration Method (Repeated Substitution Method)",
+      "path": "GATE/Algorithms/Recurrence-Relation/Iteration Method (Repeated Substitution Method).md"
     },
     {
       "basename": "Algorithms",
       "path": "GATE/Algorithms/Algorithms.md"
     },
     {
-      "basename": "Iteration Method (Repeated Substitution Method)",
-      "path": "GATE/Algorithms/Recurrence-Relation/Iteration Method (Repeated Substitution Method).md"
-    },
-    {
       "basename": "Tree Method",
       "path": "GATE/Algorithms/Recurrence-Relation/Tree Method.md"
+    },
+    {
+      "basename": "text-notes-template",
+      "path": "templates/text-notes-template.md"
+    },
+    {
+      "basename": "Number Theory",
+      "path": "GATE/Fundamentals of Computer Science/Number Theory.md"
+    },
+    {
+      "basename": "Time Complexity for Recursive Programs",
+      "path": "GATE/Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
     },
     {
       "basename": "Vault Index",
@@ -191,14 +199,6 @@
     {
       "basename": "Addressing Modes",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
-    },
-    {
-      "basename": "Instruction Type",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
-    },
-    {
-      "basename": "B Tree",
-      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
     }
   ],
   "omittedPaths": [
