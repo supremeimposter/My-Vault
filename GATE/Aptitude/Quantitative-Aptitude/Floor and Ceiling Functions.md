@@ -38,4 +38,4 @@ $$
 - If $n$ is an even integer, then $\frac{n}{2} = \lfloor \frac{n}{2} \rfloor = \lceil \frac{n}{2} \rceil$ i.e. $n = 2m$
 - If $n$ is an odd integer, then $\lfloor \frac{n}{2} \rfloor = \frac{n-1}{2}$ and $\lceil\frac{n}{2}\rceil = \frac{n+1}{2}$ 
 
-![[Pasted image 20231028101639.png]]
+![[Floor and Ceiling Functions-20240411113446894.webp]]

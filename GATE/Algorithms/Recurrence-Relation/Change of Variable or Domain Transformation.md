@@ -12,11 +12,14 @@ tags:
   - Algorithm/Recursion
 ---
 # Change of Variable
-- When creating a new recurrence relation $S(m)$, only the function inputs should be changed, and the cost function should NOT be changed.
+- Change of variable is an intermediary step in solving recurrence relation using [[Masters Theorem|masters theorem]].
+
+> [!attention] 
+> When creating a new recurrence relation $S(m)$ from $T(m)$, only the function inputs should be changed, and the cost function should NOT be changed.
 
 ## Examples
 
-> [!example] 
+> [!example] Example 1
 > ![[Pasted image 20231024150216.png]]
 
 - Bring a different variable and assume the below condition which creates a new recurrence relation.
@@ -35,6 +38,7 @@ flexGrow=0.5
 ````
 
 - Assume a different recurrent relation $S$ which is equal to the newly created recurrence relation in the following manner
+
 ![[Pasted image 20231024150632.png]]
 
 - But the cost function of $S$ remains the same
@@ -72,6 +76,7 @@ flexGrow=1
 flexGrow=1
 ===
 Generalised Masters Theorem is used since there are no $m$ terms at least in one of the sides.
+
 ![[Pasted image 20231024153425.png]]
 ```
 ````
@@ -178,7 +183,7 @@ flexGrow=1
 > ![[Pasted image 20231025091338.png]]
 
 - Since $a$ is NOT a constant, masters theorem cannot be applied. 
-![[Pasted image 20231025092701.png]]
+![[Change of Variable or Domain Transformation-20240414091723069.webp]]
 - Now the regular approach of change of variable can be followed
 ![[Pasted image 20231025092733.png]]
 - Polynomial comparison cannot be made. So Generalised Masters theorem can be used.
@@ -198,8 +203,6 @@ flexGrow=1
 ![[Pasted image 20231025092413.png]]
 
 ---
-
-
 > [!example] 
 > ![[Pasted image 20231025094120.png]]
 
@@ -221,6 +224,7 @@ flexGrow=1
 flexGrow=1
 ===
 ![[Pasted image 20231025094313.png]]
+
 Polynomial comparison cannot be made. Hence Generalised Masters Theorem can be used.
 ```
 ```col-md
@@ -239,6 +243,7 @@ flexGrow=1
 ![[Pasted image 20231101215430.png]]
 
 - Since polynomial comparison cannot be made, generalised masters theorem can be used.
+
 ![[Pasted image 20231101215443.png]]
 
 ---

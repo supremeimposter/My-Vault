@@ -9,6 +9,7 @@ last-revision: 2023-11-01T21:33:00
 notes-taken: false
 tags:
   - Algorithm/Recursion
+  - Algorithm/DivideAndConquer
 ---
 # Recursive Relations
 > [!lecture] Lecture-2.a
@@ -20,7 +21,10 @@ tags:
 2. Any recursive call must progress towards a base case.
 3. Always assume that the recursive call works, and use this assumption to design your algorithms. 
 
-## Misinterpretations between recurrence relation and computer program
+> [!youtube] 
+> [5 Simple Steps for Solving Any Recursive Problem - Reducible - YouTube](https://www.youtube.com/watch?v=ngCos392W4w)
+
+## Misinterpretations among recurrence relation and computer program
 - Computer program is different from recurrence relation
 
 ```c hl:3
@@ -30,12 +34,12 @@ int A(n) {
 }
 ```
 
-- In LINE 3, `n` is just a constant. It does NOT add up to the complexity, since it just adds the value `n` to that recursion's output.
+- In LINE 3, `n` is just a constant. It does NOT add up to the complexity, since it just adds the value `n` to that recursion's output, which is just a constant amount of work.
 - The equivalent recurrence relation of the code in LINE 3 is,
 $$
 T(n) = T(n - 1) + 1
 $$
-
+---
 ```c hl:3
 int B(n) {
 	if (n <= 1) return 1;
@@ -43,12 +47,12 @@ int B(n) {
 }
 ```
 
-- In LINE 3, `2 * B(n - 1)` does NOT mean the function is called two times, it means `2` is multiplied to the result of that current recursion, which is just a constant amount of work.
+- In LINE 3, `2 * B(n / 2)` does NOT mean the function is called two times, it means the value `2` is multiplied to the result of that current recursion, which is just a constant amount of work.
 - The equivalent recurrence relation of the code in LINE 3 is,
 $$
 T(n) = T\left( \frac{n}{2} \right) + 1
 $$
-
+---
 ```c hl:3
 int C(n) {
 	if (n <= 1) return 1;
@@ -56,7 +60,7 @@ int C(n) {
 }
 ```
 
-- In LINE 3, there are two recursive calls to the function `C`
+- In LINE 3, there are two recursive calls to the function `C` and the value `n` is added to the result of the double recursive calls, which is just a constant amount of work.
 - The equivalent recurrence relation of the code in LINE 3 is,
 $$
 T(n) = 2 \;T\left( \frac{n}{2} \right) + 1

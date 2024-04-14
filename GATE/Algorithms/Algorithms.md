@@ -13,25 +13,30 @@ tags:
 
 ## Analysis of Algorithms
 - [[Characterizing Running Times]]
-- [[Time Complexity for Recursive Programs]]
-
-### Solving Recurrence Relations
-- [[Iteration Method (Repeated Substitution Method)]]
-- [[Tree Method]]
-- [[Masters Theorem]]
-- [[Change of Variable or Domain Transformation]]
 
 ## Design of Algorithms
 
 ### Divide and Conquer
 - [[Divide and Conquer]]
-- [[Merge Sort]]
+#### Solving Recurrences
+- [[Time Complexity for Recursive Programs]]
+- [[Substitution Method]]
+- [[Tree Method]]
+- [[Masters Theorem]]
+- [[Change of Variable or Domain Transformation]]
 
+
+- [[Divide and Conquer on Arrays]]
+- [[Merge Sort]]
 
 ---
 
 ## References
 
 1. [Algorithms - Abdul Bari - YouTube](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+2. [CLRS Solutions - walkccc - 3rd edition](https://walkccc.me/CLRS/)
+3. [CLRS Solutions - rutgers.edu](https://sites.math.rutgers.edu/~ajl213/CLRS/CLRS.html)
+4. [GitHub - gzc/CLRS: :notebook:Solutions to Introduction to Algorithms](https://github.com/gzc/CLRS)
+5. [CS 161 - Stanford University](https://web.stanford.edu/class/archive/cs/cs161/cs161.1204/schedule.html)
 
 ---

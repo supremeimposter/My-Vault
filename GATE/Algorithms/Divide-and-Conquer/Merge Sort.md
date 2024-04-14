@@ -8,10 +8,12 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - Algorithm
   - Algorithm/DivideAndConquer
   - Algorithm/Sorts
 ---
 # Merge Sort
 
 - Merge should take only ${} O(n) {}$.
+
+## Merging
+

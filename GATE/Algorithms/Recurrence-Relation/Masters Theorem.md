@@ -20,15 +20,14 @@ T(n) = aT \bigg( \frac{n}{b} \bigg) + f(n)
 $$
 where $a, b$ are constants and $a \ge 1, b \gt 1$
 
-- The cost of each node in the tree is function on $n$ at that level i.e. $f(n)$ 
-
-![[Pasted image 20231024110731.png|$T(n) = aT \bigg( \frac{n}{b} \bigg) + f(n)$]]
+- The cost of each node in the tree is a function of $n$ at that level i.e. $f(n)$ 
+![[Masters Theorem-20240413171745658.webp|$T(n) = aT \big( \frac{n}{b} \big) + f(n)$]]
 
 > [!attention] Masters Theorem cannot give the exact complexity. 
 > So when the options do not have asymptotic notations better use tree or substitution method.
->> [!example] ![[Pasted image 20231025095044.png|GATE IT 2008 Q.44]]
+>> [!example] GATE IT 2008 : Q44 
+>> ![[Masters Theorem-20240414092425290.webp]]
 >> Here in this example, the options are for exact value and NOT asymptotic bound.
-
 
 ## Polynomial comparison
 > [!lecture] Lecture-4.a
@@ -38,7 +37,7 @@ where $a, b$ are constants and $a \ge 1, b \gt 1$
 - After cancelling out the common terms, if there is no polynomial terms left, then it cannot be polynomially compared.
 
 > [!intuition] At least one of the sides must have the term $n$ for comparison
-> If one of the sides has only $log n$ and the other has $1$, then also comparison CANNOT be made.
+> If one of the sides has only $log n$ and the other has $1$, then also polynomial comparison CANNOT be made.
 
 - Masters theorem CANNOT be applied if polynomial comparison cannot be made. In those cases, Generalised and Extended Masters theorems can be used.
 
@@ -46,7 +45,7 @@ where $a, b$ are constants and $a \ge 1, b \gt 1$
 ## Proof of Masters Theorem
 > [!lecture] Lecture-4.c
 
-![[Pasted image 20231024093125.png|$T(n) = 3T(\frac{n}{4}) + cn^2$]]
+![[Masters Theorem-20240413104648729.webp|$T(n) = 3T(\frac{n}{4}) + cn^2$]]
 
 > [!intuition] Understanding of GP is the core of masters theorem.
 
@@ -54,7 +53,7 @@ where $a, b$ are constants and $a \ge 1, b \gt 1$
 ## Generalised Masters theorem
 > [!lecture] Lecture-5.a
 
-- This is the case when polynomial comparison CANNOT be made and $log\; n$ is in the numerator in the cost of a function.
+- This is the case when polynomial comparison CANNOT be made and $log\; n$ is not in the denominator in the cost of a function.
 $$
 \Theta \;(f(n) \cdot log(n))
 $$
@@ -67,7 +66,5 @@ $$
 
 ## Recurrences not solvable by Masters Theorem
 
-
-
 > [!discussion] 
-> ![[Pasted image 20231024120558.png|Lecture 5.d comments section]]
+> ![[Masters Theorem-20240413104719607.webp|Lecture 5.d comments section]]
