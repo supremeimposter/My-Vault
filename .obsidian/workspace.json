@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "406c6b7001aa0b90",
+        "id": "e6e74feb5e6a63ed",
         "type": "tabs",
         "children": [
           {
-            "id": "c106fdaa61661a9f",
+            "id": "acc08520c9a87076",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "aa30ef1b23d2f109",
+            "id": "38f0053bd651d7b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md",
+                "file": "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "d12b69a002cd4bce",
+            "id": "799ae8750dea6e83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Algorithms/Recurrence-Relation/Iteration Method (Repeated Substitution Method).md",
+                "file": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "8d300800798215cd",
+            "id": "6e26c352e739b5f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Algorithms/Recurrence-Relation/Tree Method.md",
+                "file": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer on Arrays.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md",
+                "file": "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md",
+                "file": "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md"
+                "file": "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md"
               }
             }
           },
@@ -228,8 +228,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5,
-    "collapsed": true
+    "width": 336.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,49 +247,50 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "aa30ef1b23d2f109",
+  "active": "38f0053bd651d7b8",
   "lastOpenFiles": [
+    "GATE/Algorithms/Algorithms.md",
+    "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer on Arrays.md",
+    "GATE/Algorithms/Divide-and-Conquer/Untitled.md",
+    "GATE/DataStructures/Data Structures.md",
+    "attachments/Divide and Conquer on Arrays-20240414151343555.webp",
+    "attachments/Divide and Conquer on Arrays-20240414151331498.webp",
+    "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer.md",
+    "GATE/Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
+    "GATE/Algorithms/Recurrence-Relation/Masters Theorem.md",
+    "attachments/Masters Theorem-20240414092425290.webp",
+    "GATE/Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
+    "attachments/Change of Variable or Domain Transformation-20240414091723069.webp",
+    "attachments/Masters Theorem-20240413171745658.webp",
+    "attachments/Masters Theorem-20240413104719607.webp",
+    "attachments/Masters Theorem-20240413104648729.webp",
+    "attachments/Masters Theorem-20240413104605695.webp",
+    "attachments/Masters Theorem-20240413104519217.webp",
+    "GATE/Algorithms/Recurrence-Relation/Tree Method.md",
+    "GATE/Algorithms/Recurrence-Relation/Substitution Method.md",
+    "attachments/Tree Method-20240412173648568.webp",
+    "GATE/ComputerNetworks/Computer Networks.md",
+    "GATE/Aptitude/Quantitative-Aptitude/Floor and Ceiling Functions.md",
+    "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md",
     "GATE/Fundamentals of Computer Science/Inequalities.md",
     "GATE/Fundamentals of Computer Science/Fundamentals of Computer Science.md",
-    "GATE/Algorithms/Recurrence-Relation/Iteration Method (Repeated Substitution Method).md",
-    "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md",
-    "attachments/Characterizing Running Times-20240410171442047.webp",
-    "GATE/Algorithms/Algorithms.md",
-    "GATE/Algorithms/Recurrence-Relation/Tree Method.md",
     "templates/text-notes-template.md",
     "GATE/Fundamentals of Computer Science/Number Theory.md",
-    "GATE/Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
     "Vault Index.md",
     "GATE/GATE-materials/Links for Resources.md",
     "GATE/C/C.md",
     "GATE/Linear-Algebra/Linear Algebra.md",
     "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
     "README.md",
-    "GATE/ComputerNetworks/Computer Networks.md",
     "Machine-Learning/BackPropagation.md",
     "Machine-Learning/Machine Learning.md",
     "Machine-Learning",
     "GATE/Temporary Plan.md",
-    "Project Euler/Project Euler.md",
     "GATE",
     "GATE/ComputerNetworks/Data-Link-Layer",
-    "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Introduction to Computer Networks.md",
-    "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Supernetting.md",
-    "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Subnetting.md",
-    "Project Euler/Problem 1.md",
     "Project Euler",
-    "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Addressing.md",
-    "attachments/Addressing-20240406093544191.webp",
-    "attachments/Addressing-20240406074900614.webp",
-    "attachments/Addressing-20240405231755955.webp",
-    "attachments/Addressing-20240405215520576.webp",
-    "attachments/Addressing-20240405214535780.webp",
-    "attachments/Addressing-20240405214426141.webp",
-    "attachments/Subnetting-20240405182253946.webp",
     "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting",
     "GATE/ComputerNetworks",
-    "attachments/Syntax Analysis-20240403221156649.webp",
-    "attachments/Syntax Analysis-20240403220237047.webp",
     "GATE/Computer-Organization-and-Architecture/Floating-Point-Representation",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory",
     "GATE/Computer-Organization-and-Architecture/CPU",

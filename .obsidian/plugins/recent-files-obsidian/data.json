@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Merge Sort",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md"
+    },
+    {
+      "basename": "Algorithms",
+      "path": "GATE/Algorithms/Algorithms.md"
+    },
+    {
+      "basename": "Divide and Conquer on Arrays",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer on Arrays.md"
+    },
+    {
+      "basename": "Data Structures",
+      "path": "GATE/DataStructures/Data Structures.md"
+    },
+    {
+      "basename": "Divide and Conquer",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer.md"
+    },
+    {
+      "basename": "Time Complexity for Recursive Programs",
+      "path": "GATE/Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
+    },
+    {
+      "basename": "Masters Theorem",
+      "path": "GATE/Algorithms/Recurrence-Relation/Masters Theorem.md"
+    },
+    {
+      "basename": "Change of Variable or Domain Transformation",
+      "path": "GATE/Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md"
+    },
+    {
+      "basename": "Tree Method",
+      "path": "GATE/Algorithms/Recurrence-Relation/Tree Method.md"
+    },
+    {
+      "basename": "Substitution Method",
+      "path": "GATE/Algorithms/Recurrence-Relation/Substitution Method.md"
+    },
+    {
+      "basename": "Computer Networks",
+      "path": "GATE/ComputerNetworks/Computer Networks.md"
+    },
+    {
+      "basename": "Floor and Ceiling Functions",
+      "path": "GATE/Aptitude/Quantitative-Aptitude/Floor and Ceiling Functions.md"
+    },
+    {
       "basename": "Characterizing Running Times",
       "path": "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md"
     },
@@ -13,28 +61,12 @@
       "path": "GATE/Fundamentals of Computer Science/Fundamentals of Computer Science.md"
     },
     {
-      "basename": "Iteration Method (Repeated Substitution Method)",
-      "path": "GATE/Algorithms/Recurrence-Relation/Iteration Method (Repeated Substitution Method).md"
-    },
-    {
-      "basename": "Algorithms",
-      "path": "GATE/Algorithms/Algorithms.md"
-    },
-    {
-      "basename": "Tree Method",
-      "path": "GATE/Algorithms/Recurrence-Relation/Tree Method.md"
-    },
-    {
       "basename": "text-notes-template",
       "path": "templates/text-notes-template.md"
     },
     {
       "basename": "Number Theory",
       "path": "GATE/Fundamentals of Computer Science/Number Theory.md"
-    },
-    {
-      "basename": "Time Complexity for Recursive Programs",
-      "path": "GATE/Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
     },
     {
       "basename": "Vault Index",
@@ -59,10 +91,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "Computer Networks",
-      "path": "GATE/ComputerNetworks/Computer Networks.md"
     },
     {
       "basename": "BackPropagation",
@@ -171,34 +199,6 @@
     {
       "basename": "First Order Logic",
       "path": "GATE/DiscreteMathematics/First-Order-Logic/First Order Logic.md"
-    },
-    {
-      "basename": "Quantifiers",
-      "path": "GATE/DiscreteMathematics/First-Order-Logic/Quantifiers.md"
-    },
-    {
-      "basename": "Numerical-FOL Translation",
-      "path": "GATE/DiscreteMathematics/First-Order-Logic/Numerical-FOL Translation.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "GATE/Pending Lectures.md"
-    },
-    {
-      "basename": "Cache Memory",
-      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
-    },
-    {
-      "basename": "Associate Cache",
-      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md"
-    },
-    {
-      "basename": "Direct Mapped Cache",
-      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
-    },
-    {
-      "basename": "Addressing Modes",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
     }
   ],
   "omittedPaths": [
