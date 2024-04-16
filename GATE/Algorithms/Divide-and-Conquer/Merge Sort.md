@@ -1,7 +1,7 @@
 ---
 pdf: mod-2
 module: 2
-lecture: 8A, 8B, 8C, 8D, 8E
+lecture: 8A-11D
 date: 2023-11-16T09:15:00
 version:
   - ALGO-24
@@ -16,4 +16,12 @@ tags:
 - Merge should take only ${} O(n) {}$.
 
 ## Merging
+
+
+
+> [!discussion] 
+> ![[Merge Sort-20240415063710077.webp]]
+
+## Iterative Merge-Sort
+
 

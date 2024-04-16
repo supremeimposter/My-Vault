@@ -404,5 +404,9 @@
   "floating-toc-styles@@enable-outline-style": "float-curves-outline-style",
   "floating-toc-styles@@enable-bar-icon": false,
   "Olivier-s-Theme@@OT-editingBackgroundColor-lightMode": "editingBackgroundColor-lightMode-default",
-  "obsidian-typewriter@@shrink-formatting": true
+  "obsidian-typewriter@@shrink-formatting": true,
+  "prime@@disable-file-and-folder-icons": false,
+  "prime@@syntax-highlight-theme-light": "material-lighter",
+  "prime-gradient-frames@@choose-gradient": "winter-neva",
+  "prime-gradient-frames@@choose-gradient-direction": "top"
 }

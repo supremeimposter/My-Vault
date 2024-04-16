@@ -9,9 +9,10 @@
     "anuppiccin-extended-color-schemes",
     "sticky-notes",
     "anuppiccin-floating-search-bar",
-    "notebook-backgrounds"
+    "notebook-backgrounds",
+    "prime-gradient-frames"
   ],
-  "cssTheme": "Typewriter",
+  "cssTheme": "Soloing",
   "theme": "moonstone",
   "showViewHeader": true,
   "baseFontSize": 18,

@@ -5,20 +5,20 @@
       "path": "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md"
     },
     {
-      "basename": "Algorithms",
-      "path": "GATE/Algorithms/Algorithms.md"
+      "basename": "Divide and Conquer",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer.md"
     },
     {
       "basename": "Divide and Conquer on Arrays",
       "path": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer on Arrays.md"
     },
     {
-      "basename": "Data Structures",
-      "path": "GATE/DataStructures/Data Structures.md"
+      "basename": "Algorithms",
+      "path": "GATE/Algorithms/Algorithms.md"
     },
     {
-      "basename": "Divide and Conquer",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer.md"
+      "basename": "Data Structures",
+      "path": "GATE/DataStructures/Data Structures.md"
     },
     {
       "basename": "Time Complexity for Recursive Programs",
