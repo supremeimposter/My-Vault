@@ -7,6 +7,7 @@ tags:
 
 - [[Fundamentals of Computer Science]]
 - [[Linear Algebra]]
+- [[Calculus]]
 - [[Discrete Mathematics]]
 - [[C]]
 - [[Theory of Computation]]

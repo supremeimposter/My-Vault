@@ -15,5 +15,6 @@ tags:
 
 # References
 
+1. [Mathematics - Linear Algebra - IIT Madras YouTube](https://www.youtube.com/playlist?list=PLbMVogVj5nJQ2vsW_hmyvVfO4GYWaaPp7)
 
 ---

@@ -25,3 +25,10 @@ tags:
 ## Iterative Merge-Sort
 
 
+
+> [!discussion] 
+> ![[Merge Sort-20240416195245003.webp]]
+> ![[Merge Sort-20240416195530980.webp]]
+
+
+- Iterative merge-sort is faster than recursive merge sort.

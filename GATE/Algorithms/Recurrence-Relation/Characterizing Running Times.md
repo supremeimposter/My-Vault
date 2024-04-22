@@ -3,7 +3,7 @@ pdf: CLRS
 date: 2024-04-10T13:37:00
 revision: 
 tags:
-  - Algorithms/RunningTime
+  - Algorithm/RunningTime
 books:
   - CLRS
   - chapter-3

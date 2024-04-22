@@ -120,3 +120,5 @@
 **March 9, 2024** Stop compensating and start working for the sake of yourself. You cannot impress someone who wants you to be in a worst state forever. Take care of those things that are in your sphere of influence.
 
 **March 17, 2024** "Can you make a memory chip with 3 bits in a cell? Yes, maybe you are a psycho." --Deepak Poonia, COA-24.
+
+**April 16, 2024** I am not worthy of anything. Nobody believes me. I am just a forever loser. Never forget this day, this word. You are nothing. You are no better than anything. You do not deserve a life. You are a waste. Don't ever think anything good of yourself. It is just a delusion. You are a living corpse....According to this society and your family.

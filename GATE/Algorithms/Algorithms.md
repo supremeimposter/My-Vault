@@ -18,16 +18,16 @@ tags:
 
 ### Divide and Conquer
 - [[Divide and Conquer]]
-#### Solving Recurrences
-- [[Time Complexity for Recursive Programs]]
-- [[Substitution Method]]
-- [[Tree Method]]
-- [[Masters Theorem]]
-- [[Change of Variable or Domain Transformation]]
-
+	- [[Time Complexity for Recursive Programs]]
+	- [[Substitution Method]]
+	- [[Tree Method]]
+	- [[Masters Theorem]]
+	- [[Change of Variable or Domain Transformation]]
 
 - [[Divide and Conquer on Arrays]]
 - [[Merge Sort]]
+- [[Analysis of Maximum and Minimum]]
+- [[Counting Inversion]]
 
 ---
 
@@ -38,5 +38,6 @@ tags:
 3. [CLRS Solutions - rutgers.edu](https://sites.math.rutgers.edu/~ajl213/CLRS/CLRS.html)
 4. [GitHub - gzc/CLRS: :notebook:Solutions to Introduction to Algorithms](https://github.com/gzc/CLRS)
 5. [CS 161 - Stanford University](https://web.stanford.edu/class/archive/cs/cs161/cs161.1204/schedule.html)
+6. [Computer Sc - Programming and Data Structure - YouTube](https://www.youtube.com/playlist?list=PLD9781AC5EBC9FA16)
 
 ---
