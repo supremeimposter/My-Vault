@@ -1,20 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "Merge Sort",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md"
+      "basename": "Counting Inversion",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Counting Inversion.md"
     },
     {
-      "basename": "Divide and Conquer",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer.md"
+      "basename": "Algorithms",
+      "path": "GATE/Algorithms/Algorithms.md"
+    },
+    {
+      "basename": "Analysis of Maximum and Minimum",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Analysis of Maximum and Minimum.md"
+    },
+    {
+      "basename": "Linear Algebra",
+      "path": "GATE/Linear-Algebra/Linear Algebra.md"
+    },
+    {
+      "basename": "Fundamentals of Computer Science",
+      "path": "GATE/Fundamentals of Computer Science/Fundamentals of Computer Science.md"
+    },
+    {
+      "basename": "Calculus",
+      "path": "GATE/Calculus/Calculus.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE/GATE-CS.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
+    },
+    {
+      "basename": "Introduction to Digital Logic",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
     },
     {
       "basename": "Divide and Conquer on Arrays",
       "path": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer on Arrays.md"
     },
     {
-      "basename": "Algorithms",
-      "path": "GATE/Algorithms/Algorithms.md"
+      "basename": "Divide and Conquer",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer.md"
+    },
+    {
+      "basename": "Merge Sort",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE/GATE-LOG.md"
     },
     {
       "basename": "Data Structures",
@@ -57,10 +105,6 @@
       "path": "GATE/Fundamentals of Computer Science/Inequalities.md"
     },
     {
-      "basename": "Fundamentals of Computer Science",
-      "path": "GATE/Fundamentals of Computer Science/Fundamentals of Computer Science.md"
-    },
-    {
       "basename": "text-notes-template",
       "path": "templates/text-notes-template.md"
     },
@@ -79,10 +123,6 @@
     {
       "basename": "C",
       "path": "GATE/C/C.md"
-    },
-    {
-      "basename": "Linear Algebra",
-      "path": "GATE/Linear-Algebra/Linear Algebra.md"
     },
     {
       "basename": "Introduction to Linear Algebra",
@@ -133,10 +173,6 @@
       "path": "GATE/OperatingSystems/Operating Systems.md"
     },
     {
-      "basename": "GATE-CS",
-      "path": "GATE/GATE-CS.md"
-    },
-    {
       "basename": "Top Down Parsing",
       "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "Lexical Analysis",
       "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md"
-    },
-    {
-      "basename": "Theory of Computation",
-      "path": "GATE/TheoryOfComputation/Theory of Computation.md"
-    },
-    {
-      "basename": "Instruction Format",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
-    },
-    {
-      "basename": "Floating Point Representation",
-      "path": "GATE/Computer-Organization-and-Architecture/Floating-Point-Representation/Floating Point Representation.md"
-    },
-    {
-      "basename": "Decimal and Binary System",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
-    },
-    {
-      "basename": "English-FOL Translation",
-      "path": "GATE/DiscreteMathematics/First-Order-Logic/English-FOL Translation.md"
-    },
-    {
-      "basename": "Features of First Order Logic",
-      "path": "GATE/DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md"
-    },
-    {
-      "basename": "Nested Quantifiers",
-      "path": "GATE/DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md"
-    },
-    {
-      "basename": "First Order Logic",
-      "path": "GATE/DiscreteMathematics/First-Order-Logic/First Order Logic.md"
     }
   ],
   "omittedPaths": [

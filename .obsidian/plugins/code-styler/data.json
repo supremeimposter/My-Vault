@@ -271,7 +271,7 @@
       "codeblock": {
         "lineNumbers": true,
         "unwrapLines": true,
-        "wrapLinesActive": false,
+        "wrapLinesActive": true,
         "curvature": 4
       },
       "gutter": {
@@ -314,7 +314,7 @@
       "advanced": {
         "gradientHighlights": false,
         "gradientHighlightsColourStop": "70%",
-        "languageBorderColour": false,
+        "languageBorderColour": true,
         "languageBorderWidth": 5,
         "iconSize": 28
       }
@@ -400,12 +400,12 @@
   },
   "newTheme": "",
   "newHighlight": "",
-  "exampleCodeblockParameters": "python title:foo",
-  "exampleCodeblockContent": "print(\"This line is very long and should be used as an example for how the plugin deals with wrapping and unwrapping very long lines given the choice of codeblock parameters and settings.\")\nprint(\"This line is highlighted.\")",
+  "exampleCodeblockParameters": "cpp title:foo",
+  "exampleCodeblockContent": "// Computing the tournament\n    for (int i = (2 * n - 2); i > 1; i -= 2) {\n        tournament[i / 2] = std::max(tournament[i], tournament[i + 1]);\n    }\n\n    // printing the tournament\n    std::cout << \"Tournament : \";\n    for (int i = 1; i <= 2 * n - 1; i++) {\n        std::cout << tournament[i] << \"  \";\n    }\n    std::cout << \"\\n\";",
   "exampleInlineCode": "{python icon title:foo} print(\"This is inline code\")",
   "decoratePrint": true,
   "excludedLanguages": "ad-*",
   "processedCodeblocksWhitelist": "run-*",
   "redirectLanguages": {},
-  "version": "1.0.11"
+  "version": "1.1.4"
 }

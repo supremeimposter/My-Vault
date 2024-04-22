@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e6e74feb5e6a63ed",
+        "id": "83b8d9cfeb57d443",
         "type": "tabs",
         "children": [
           {
-            "id": "acc08520c9a87076",
+            "id": "2c16ebae706f7094",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "38f0053bd651d7b8",
+            "id": "40d9919902ab99f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md",
+                "file": "GATE/Algorithms/Divide-and-Conquer/Analysis of Maximum and Minimum.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,25 +34,12 @@
             }
           },
           {
-            "id": "799ae8750dea6e83",
+            "id": "4c28d59f93ea01ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e26c352e739b5f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer on Arrays.md",
+                "file": "GATE/Algorithms/Divide-and-Conquer/Counting Inversion.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -89,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "```c hs",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -144,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md",
+                "file": "GATE/Algorithms/Divide-and-Conquer/Counting Inversion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md",
+                "file": "GATE/Algorithms/Divide-and-Conquer/Counting Inversion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md"
+                "file": "GATE/Algorithms/Divide-and-Conquer/Counting Inversion.md"
               }
             }
           },
@@ -247,44 +234,45 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "38f0053bd651d7b8",
+  "active": "4c28d59f93ea01ea",
   "lastOpenFiles": [
-    "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer.md",
-    "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer on Arrays.md",
-    "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md",
-    "attachments/Merge Sort-20240415063710077.webp",
     "GATE/Algorithms/Algorithms.md",
-    "GATE/Algorithms/Divide-and-Conquer/Untitled.md",
+    "GATE/Algorithms/Divide-and-Conquer/Counting Inversion.md",
+    "GATE/Algorithms/Divide-and-Conquer/Analysis of Maximum and Minimum.md",
+    "attachments/Analysis of Maximum and Minimum-20240421175217268.webp",
+    "attachments/Analysis of Maximum and Minimum-20240421170725479.webp",
+    "attachments/Analysis of Maximum and Minimum-20240421165653398.webp",
+    "attachments/Analysis of Maximum and Minimum-20240421121945262.webp",
+    "GATE/Linear-Algebra/Linear Algebra.md",
+    "GATE/Fundamentals of Computer Science/Fundamentals of Computer Science.md",
+    "GATE/Calculus/Calculus.md",
+    "GATE/GATE-CS.md",
+    "GATE/Calculus",
+    "attachments/Analysis of Maximum and Minimum-20240421115223677.webp",
+    "attachments/Analysis of Maximum and Minimum-20240421114812961.webp",
+    "attachments/Maximum and Minimum of Numbers-20240420220200239.webp",
+    "attachments/Maximum and Minimum of Numbers-20240420191501521.webp",
+    "attachments/Maximum and Minimum of Numbers-20240420191438031.webp",
+    "attachments/Maximum and Minimum of Numbers-20240420191417760.webp",
+    "GATE/Digital-Logic/Digital Logic.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer on Arrays.md",
+    "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer.md",
+    "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md",
+    "GATE/Algorithms/Maximum-and-Minimum",
+    "GATE/GATE-LOG.md",
     "GATE/DataStructures/Data Structures.md",
-    "attachments/Divide and Conquer on Arrays-20240414151343555.webp",
-    "attachments/Divide and Conquer on Arrays-20240414151331498.webp",
     "GATE/Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md",
     "GATE/Algorithms/Recurrence-Relation/Masters Theorem.md",
-    "attachments/Masters Theorem-20240414092425290.webp",
     "GATE/Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
-    "attachments/Change of Variable or Domain Transformation-20240414091723069.webp",
-    "attachments/Masters Theorem-20240413171745658.webp",
-    "attachments/Masters Theorem-20240413104719607.webp",
-    "attachments/Masters Theorem-20240413104648729.webp",
-    "attachments/Masters Theorem-20240413104605695.webp",
-    "attachments/Masters Theorem-20240413104519217.webp",
     "GATE/Algorithms/Recurrence-Relation/Tree Method.md",
     "GATE/Algorithms/Recurrence-Relation/Substitution Method.md",
     "GATE/ComputerNetworks/Computer Networks.md",
     "GATE/Aptitude/Quantitative-Aptitude/Floor and Ceiling Functions.md",
     "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md",
-    "GATE/Fundamentals of Computer Science/Inequalities.md",
-    "GATE/Fundamentals of Computer Science/Fundamentals of Computer Science.md",
-    "templates/text-notes-template.md",
-    "GATE/Fundamentals of Computer Science/Number Theory.md",
-    "Vault Index.md",
-    "GATE/GATE-materials/Links for Resources.md",
-    "GATE/C/C.md",
-    "GATE/Linear-Algebra/Linear Algebra.md",
-    "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
-    "README.md",
-    "Machine-Learning/BackPropagation.md",
-    "Machine-Learning/Machine Learning.md",
     "Machine-Learning",
     "GATE",
     "GATE/ComputerNetworks/Data-Link-Layer",
@@ -293,8 +281,6 @@
     "GATE/ComputerNetworks",
     "GATE/Computer-Organization-and-Architecture/Floating-Point-Representation",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory",
-    "GATE/Computer-Organization-and-Architecture/CPU",
-    "GATE/Linear-Algebra",
     "SR Latch.canvas",
     "Untitled.canvas"
   ]
