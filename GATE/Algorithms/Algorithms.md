@@ -38,6 +38,7 @@ tags:
 3. [CLRS Solutions - rutgers.edu](https://sites.math.rutgers.edu/~ajl213/CLRS/CLRS.html)
 4. [GitHub - gzc/CLRS: :notebook:Solutions to Introduction to Algorithms](https://github.com/gzc/CLRS)
 5. [CS 161 - Stanford University](https://web.stanford.edu/class/archive/cs/cs161/cs161.1204/schedule.html)
-6. [Computer Sc - Programming and Data Structure - YouTube](https://www.youtube.com/playlist?list=PLD9781AC5EBC9FA16)
+6. [Computer Sc - Data Structures and Algorithms IIT Delhi - YouTube](https://www.youtube.com/playlist?list=PLBF3763AF2E1C572F)
+7. [Computer Sc - Programming and Data Structure IIT Kharagpur - YouTube](https://www.youtube.com/playlist?list=PLD9781AC5EBC9FA16)
 
 ---

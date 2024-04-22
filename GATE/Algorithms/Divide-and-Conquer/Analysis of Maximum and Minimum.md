@@ -13,7 +13,6 @@ tags:
 ---
 # Maximum and Minimum of Numbers
 
-
 > [!important] 
 > In this analysis, we are not talking about asymptotic analysis, we are trying to get the exact number of comparisons.
 
@@ -106,7 +105,6 @@ In a tournament of $n$ numbers, the second maximum will be the among those who h
 
 ![[Analysis of Maximum and Minimum-20240421115223677.webp]]
 
-
 In the worst case, the number of comparisons made to find the second maximum is the length of the longest path in the tournament. The length of the longest path can be minimized if the tournament tree is balanced. The tree is balanced, if we take **pairwise** **tournament**.
 
 ![[Analysis of Maximum and Minimum-20240421121945262.webp]]
@@ -115,8 +113,7 @@ For $n$ elements, a tournament can be built using an array of size $2n - 1$.
 
 ![[Analysis of Maximum and Minimum-20240421165653398.webp|Setting up a Tournament]]
 
-In an array of size $2n - 1$, start filling the array from the position $n$ until the position $2n - 1$.
-Every pairwise elements at the position $i$ and $i + 1$ are compared and the largest one is stored at the position $\big\lfloor \frac{i}{2} \big\rfloor$.
+In an array of size $2n - 1$, start filling the array from the position $n$ until the position $2n - 1$. Every pairwise elements at the position $i$ and $i + 1$ are compared and the largest one is stored at the position $\big\lfloor \frac{i}{2} \big\rfloor$.
 
 If $n = 2^k$,
 
@@ -163,7 +160,7 @@ while (i <= 2 * n - 1) {
 
 The second maximum can also be obtained if a traversal is made downwards by making the largest element as a minimum value which is not in the tournament in every of its node and when going upwards recomputing the tournament again. Now the root will be the second maximum.
 
-The above procedure can be followed to obtain third maximum, fourth maximum and so on. This procedure takes  $\underbrace {N - 1}_{\text{building the tournament}} + \underbrace {2 log_2(N)}_{\text{second maximum}}$ comparisons.
+The above procedure can be followed to obtain third maximum, fourth maximum and so on. This procedure takes  $\underbrace {N - 1}_{\text{building the tournament}} + \underbrace {2\;log_2N}_{\text{second maximum}}$ comparisons.
 
 This idea can be implemented as a sorting algorithm called Tournament sort which takes $\underbrace {N - 1}_{\text{building the tournament}} + \underbrace {2 (N - 1) \;log_2N}_{\text{finding the next maximum}}$ number of comparisons. This is an efficient algorithm than bubble sorting algorithm.
 
