@@ -12,6 +12,11 @@ tags:
 - [[Process in Operating Systems]]
 - [[Threads]]
 
+
+> [!youtube] 
+> [Operating Systems GATE PYQs, Revision Playlist - Go Classes- YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHixlIaarIXGPy-eggJQMxd_)
+
+
 ---
 # References
 - [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
