@@ -28,6 +28,19 @@ tags:
 - [[Merge Sort]]
 - [[Analysis of Maximum and Minimum]]
 - [[Counting Inversion]]
+- [[Closest Pairs]]
+- [[Exponent of a Number]]
+- [[Matrix Multiplication]]
+- [[Quick Sort]]
+- [[Select Algorithm]]
+- [[Binary Search]]
+
+### Sorts
+- [[Bubble Sort]]
+- [[Insertion Sort]]
+- [[Selection Sort]]
+- [[Heap Sort]]
+
 
 ---
 

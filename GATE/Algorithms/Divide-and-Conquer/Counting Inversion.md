@@ -63,3 +63,14 @@ These two sorted sub-arrays are going to be merged.
 > **Verification** : There are 13 intersections
 > ![[Counting Inversion-20240422220733344.webp]]
 
+
+> [!example] 
+> 
+>> [!question] 
+>>![[Counting Inversion-20240423104408660.webp]]
+>
+> There are 8 inversions in the given array of numbers.
+>
+> ![[Counting Inversion-20240423105027200.webp]]
+
+

@@ -22,6 +22,8 @@ tags:
 > [!discussion] 
 > ![[Merge Sort-20240415063710077.webp]]
 
+Merge sort is stable but not in-place.
+
 ## Iterative Merge-Sort
 
 

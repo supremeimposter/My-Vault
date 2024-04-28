@@ -162,9 +162,9 @@ The second maximum can also be obtained if a traversal is made downwards by maki
 
 The above procedure can be followed to obtain third maximum, fourth maximum and so on. This procedure takes  $\underbrace {N - 1}_{\text{building the tournament}} + \underbrace {2\;log_2N}_{\text{second maximum}}$ comparisons.
 
-This idea can be implemented as a sorting algorithm called Tournament sort which takes $\underbrace {N - 1}_{\text{building the tournament}} + \underbrace {2 (N - 1) \;log_2N}_{\text{finding the next maximum}}$ number of comparisons. This is an efficient algorithm than bubble sorting algorithm.
+This idea can be implemented as a sorting algorithm called Tournament sort which takes $\underbrace {N - 1}_{\text{building the tournament}} + \underbrace {2 (N - 1) \;log_2N}_{\text{finding the next maximum}}$ number of comparisons. This is an efficient algorithm than [[Bubble Sort|bubble sorting]] algorithm.
 
-A more complex version of this tournament sort is the heap sort which takes only array of size $n$ instead of $2n - 1$.
+A more complex version of this tournament sort is the [[Heap Sort|heap sort]] which takes only array of size $n$ instead of $2n - 1$.
 
 
 > [!link] 

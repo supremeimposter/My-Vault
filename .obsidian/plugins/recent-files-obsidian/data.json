@@ -1,20 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "Counting Inversion",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Counting Inversion.md"
-    },
-    {
       "basename": "Algorithms",
       "path": "GATE/Algorithms/Algorithms.md"
+    },
+    {
+      "basename": "Linear Algebra",
+      "path": "GATE/Linear-Algebra/Linear Algebra.md"
+    },
+    {
+      "basename": "Heap Sort",
+      "path": "GATE/Algorithms/Sorts/Heap Sort.md"
     },
     {
       "basename": "Analysis of Maximum and Minimum",
       "path": "GATE/Algorithms/Divide-and-Conquer/Analysis of Maximum and Minimum.md"
     },
     {
-      "basename": "Linear Algebra",
-      "path": "GATE/Linear-Algebra/Linear Algebra.md"
+      "basename": "Selection Sort",
+      "path": "GATE/Algorithms/Sorts/Selection Sort.md"
+    },
+    {
+      "basename": "Insertion Sort",
+      "path": "GATE/Algorithms/Sorts/Insertion Sort.md"
+    },
+    {
+      "basename": "Bubble Sort",
+      "path": "GATE/Algorithms/Sorts/Bubble Sort.md"
+    },
+    {
+      "basename": "Operating Systems",
+      "path": "GATE/OperatingSystems/Operating Systems.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE/GATE-CS.md"
+    },
+    {
+      "basename": "Binary Search",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Binary Search.md"
+    },
+    {
+      "basename": "Select Algorithm",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Select Algorithm.md"
+    },
+    {
+      "basename": "Quick Sort",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Quick Sort.md"
+    },
+    {
+      "basename": "Merge Sort",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md"
+    },
+    {
+      "basename": "Matrix Multiplication",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Matrix Multiplication.md"
+    },
+    {
+      "basename": "Exponent of a Number",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Exponent of a Number.md"
+    },
+    {
+      "basename": "Closest Pairs",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Closest Pairs.md"
+    },
+    {
+      "basename": "Counting Inversion",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Counting Inversion.md"
     },
     {
       "basename": "Fundamentals of Computer Science",
@@ -23,10 +75,6 @@
     {
       "basename": "Calculus",
       "path": "GATE/Calculus/Calculus.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE/GATE-CS.md"
     },
     {
       "basename": "Digital Logic",
@@ -55,10 +103,6 @@
     {
       "basename": "Divide and Conquer",
       "path": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer.md"
-    },
-    {
-      "basename": "Merge Sort",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md"
     },
     {
       "basename": "GATE-LOG",
@@ -155,50 +199,6 @@
     {
       "basename": "Supernetting",
       "path": "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Supernetting.md"
-    },
-    {
-      "basename": "Subnetting",
-      "path": "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Subnetting.md"
-    },
-    {
-      "basename": "Problem 1",
-      "path": "Project Euler/Problem 1.md"
-    },
-    {
-      "basename": "Addressing",
-      "path": "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Addressing.md"
-    },
-    {
-      "basename": "Operating Systems",
-      "path": "GATE/OperatingSystems/Operating Systems.md"
-    },
-    {
-      "basename": "Top Down Parsing",
-      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Top Down Parsing.md"
-    },
-    {
-      "basename": "Introduction to Compiler Design",
-      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md"
-    },
-    {
-      "basename": "Context Free Grammar",
-      "path": "GATE/TheoryOfComputation/Context Free Languages-Grammars-PDA/Context Free Grammar.md"
-    },
-    {
-      "basename": "Syntax Analysis",
-      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md"
-    },
-    {
-      "basename": "Basic Concepts of TOC",
-      "path": "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
-    },
-    {
-      "basename": "Compiler Design",
-      "path": "GATE/CompilerDesign/Compiler Design.md"
-    },
-    {
-      "basename": "Lexical Analysis",
-      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md"
     }
   ],
   "omittedPaths": [
