@@ -16,10 +16,56 @@ tags:
 - [[Top Down Parsing]]
 - [[LL(1) Parser]]
 
+````col
+```col-md
+flexGrow=1
+===
+![[Compiler Design-20240501201443382.webp]]
+![[Compiler Design-20240501201525808.webp]]
+```
+```col-md
+flexGrow=1
+===
+![[Compiler Design-20240501201458826.webp]]
+```
+````
+## Module 2 - Bottom Up Parsing
+
+````col
+```col-md
+flexGrow=1
+===
+![[Compiler Design-20240501201604416.webp]]
+![[Compiler Design-20240501201639225.webp]]
+```
+```col-md
+flexGrow=1
+===
+![[Compiler Design-20240501201623789.webp]]
+```
+````
+## Module 3 - Syntax Directed Definitions and Translations
+
+![[Compiler Design-20240501201927680.webp]]
+
+## Module 4 - Intermediate Code and Code Optimization
+
+````col
+```col-md
+flexGrow=1
+===
+![[Compiler Design-20240501202023766.webp]]
+```
+```col-md
+flexGrow=1
+===
+![[Compiler Design-20240501202108237.webp]]
+```
+````
 
 ---
 # Pending Lectures
-
+![[Pending Lectures#Compiler Design]]
 
 ---
 

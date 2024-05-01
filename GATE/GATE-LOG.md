@@ -122,3 +122,5 @@
 **March 17, 2024** "Can you make a memory chip with 3 bits in a cell? Yes, maybe you are a psycho." --Deepak Poonia, COA-24.
 
 **April 16, 2024** I am not worthy of anything. Nobody believes me. I am just a forever loser. Never forget this day, this word. You are nothing. You are no better than anything. You do not deserve a life. You are a waste. Don't ever think anything good of yourself. It is just a delusion. You are a living corpse....According to this society and your family.
+
+**April 30, 2024** Remove that AIR 1 idea from your thoughts. It will create unnecessary panics for every silly mistakes or some major mistakes you do while practicing. You gain mastery eventually, even after many tries, definitely not during the second try. Just keep on learning and grinding. Rank is secondary, knowledge and practice is primary. 

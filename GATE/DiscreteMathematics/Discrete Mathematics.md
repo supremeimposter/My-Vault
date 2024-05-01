@@ -130,3 +130,6 @@ flowchart LR
 
 # References
 - [Discrete Mathematics - Oscar Levin](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
+
+> [!youtube] 
+> [Discrete Mathematics GATE PYQs, Revision, Summary Lectures Playlist - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHgjPQN2GtCVOCgrkH2zCkSU)

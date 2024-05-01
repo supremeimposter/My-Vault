@@ -16,6 +16,27 @@ tags:
 > [!youtube] 
 > [Operating Systems GATE PYQs, Revision Playlist - Go Classes- YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHixlIaarIXGPy-eggJQMxd_)
 
+````col
+```col-md
+flexGrow=1
+===
+![[Operating Systems-20240501195535294.webp]]
+![[Operating Systems-20240501195646606.webp]]
+![[Operating Systems-20240501195713625.webp]]
+![[Operating Systems-20240501195753659.webp]]
+```
+```col-md
+flexGrow=1
+===
+![[Operating Systems-20240501195613050.webp]]
+![[Operating Systems-20240501195659123.webp]]
+![[Operating Systems-20240501195728306.webp]]
+```
+````
+---
+# Pending Lectures
+
+![[Pending Lectures#Operating Systems]]
 
 ---
 # References

@@ -12,3 +12,9 @@ tags:
 ---
 # Heap Sort
 
+Heap sort is in-place and not stable algorithm.
+For creating an array of elements of increasing order, max heap is used.
+
+> [!discussion] 
+> ![[Heap Sort-20240428192633336.webp]]
+

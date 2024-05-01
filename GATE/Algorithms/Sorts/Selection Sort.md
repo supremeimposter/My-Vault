@@ -15,3 +15,4 @@ This is the most natural algorithm. Pick the largest element from anywhere in th
 
 Selection sort is not stable, but in-place algorithm.
 
+The running time of selection sort is $\mathcal{O}(n)$ in all the cases.
