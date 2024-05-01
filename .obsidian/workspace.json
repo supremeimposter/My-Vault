@@ -4,23 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "3e0618952969a54a",
+        "id": "55360042c3088759",
         "type": "tabs",
         "children": [
           {
-            "id": "e6f7f7253f7f18e2",
+            "id": "988a31a1ec382850",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Algorithms/Algorithms.md",
+                "file": "GATE/Linear-Algebra/Linear Algebra.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21e4ae9bd90dabb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "974852c34e2d4fff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "```c hs",
+                "query": "tag:#TheoryOfComputation/PDA",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Algorithms/Algorithms.md",
+                "file": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Algorithms/Algorithms.md",
+                "file": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Algorithms/Algorithms.md"
+                "file": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
               }
             }
           },
@@ -207,54 +234,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e6f7f7253f7f18e2",
+  "active": "21e4ae9bd90dabb0",
   "lastOpenFiles": [
+    "attachments/Linearly Dependent and Independent Vectors-20240501231526994.webp",
+    "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
+    "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
+    "GATE/Aptitude/Aptitude.md",
     "GATE/Linear-Algebra/Linear Algebra.md",
-    "GATE/Algorithms/Algorithms.md",
-    "GATE/Algorithms/Sorts/Heap Sort.md",
-    "GATE/Algorithms/Divide-and-Conquer/Analysis of Maximum and Minimum.md",
-    "GATE/Algorithms/Sorts/Selection Sort.md",
-    "GATE/Algorithms/Sorts/Insertion Sort.md",
-    "attachments/Insertion Sort-20240427203929664.webp",
-    "attachments/Insertion Sort-20240427201946795.webp",
-    "GATE/Algorithms/Sorts/Bubble Sort.md",
-    "attachments/Insertion Sort-20240427114023330.webp",
+    "attachments/Aptitude-20240501202854895.webp",
+    "attachments/Aptitude-20240501202841061.webp",
     "GATE/OperatingSystems/Operating Systems.md",
+    "GATE/Pending Lectures.md",
+    "GATE/CompilerDesign/Compiler Design.md",
+    "attachments/Compiler Design-20240501202108237.webp",
+    "attachments/Compiler Design-20240501202023766.webp",
+    "attachments/Compiler Design-20240501201927680.webp",
+    "attachments/Compiler Design-20240501201639225.webp",
+    "attachments/Compiler Design-20240501201623789.webp",
+    "attachments/Compiler Design-20240501201604416.webp",
+    "attachments/Compiler Design-20240501201525808.webp",
+    "attachments/Compiler Design-20240501201458826.webp",
+    "GATE/ComputerNetworks/Computer Networks.md",
+    "GATE/Algorithms/Algorithms.md",
+    "GATE/Algorithms/Dynamic-Programming",
+    "GATE/Algorithms/Graph Algorithms/Depth First Search.md",
+    "GATE/GATE-LOG.md",
+    "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "GATE/Algorithms/Graph Algorithms/Intuition for Graph Search Methods.md",
+    "GATE/Algorithms/Graph Algorithms/Representation of Graph.md",
+    "GATE/Algorithms/Graph Algorithms",
+    "GATE/Algorithms/Sorts/Linear Time Sorting Algorithms.md",
+    "GATE/Algorithms/Sorts/Comparison-based Sorting Algorithms.md",
+    "GATE/Algorithms/Sorts/Heap Sort.md",
+    "GATE/Algorithms/Divide-and-Conquer/Quick Sort.md",
+    "GATE/Algorithms/Sorts/Selection Sort.md",
+    "GATE/Algorithms/Divide-and-Conquer/Analysis of Maximum and Minimum.md",
+    "GATE/Algorithms/Sorts/Insertion Sort.md",
+    "GATE/Algorithms/Sorts/Bubble Sort.md",
     "GATE/GATE-CS.md",
     "GATE/Algorithms/Sorts",
     "GATE/Algorithms/Divide-and-Conquer/Binary Search.md",
     "GATE/Algorithms/Divide-and-Conquer/Untitled.md",
-    "attachments/Binary Search-20240426222223108.webp",
-    "GATE/Algorithms/Divide-and-Conquer/Select Algorithm.md",
-    "attachments/Select Algorithm-20240426171557471.webp",
-    "GATE/Algorithms/Divide-and-Conquer/Quick Sort.md",
-    "attachments/Quick Sort-20240426113739952.webp",
-    "attachments/Quick Sort-20240426113628820.webp",
-    "attachments/Quick Sort-20240425202201744.webp",
-    "attachments/Quick Sort-20240425191041222.webp",
-    "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md",
-    "GATE/Algorithms/Divide-and-Conquer/Matrix Multiplication.md",
-    "GATE/Algorithms/Divide-and-Conquer/Exponent of a Number.md",
-    "GATE/Algorithms/Divide-and-Conquer/Closest Pairs.md",
-    "GATE/Algorithms/Divide-and-Conquer/Counting Inversion.md",
-    "attachments/Counting Inversion-20240423105027200.webp",
-    "GATE/Fundamentals of Computer Science/Fundamentals of Computer Science.md",
-    "GATE/Calculus/Calculus.md",
     "GATE/Calculus",
-    "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
-    "GATE/DatabaseManagementSystem/Database Management System.md",
-    "GATE/DiscreteMathematics/Discrete Mathematics.md",
-    "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer on Arrays.md",
     "GATE/Algorithms/Maximum-and-Minimum",
     "Machine-Learning",
     "GATE",
     "GATE/ComputerNetworks/Data-Link-Layer",
     "Project Euler",
     "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting",
-    "GATE/ComputerNetworks",
-    "GATE/Computer-Organization-and-Architecture/Floating-Point-Representation",
     "SR Latch.canvas",
     "Untitled.canvas"
   ]

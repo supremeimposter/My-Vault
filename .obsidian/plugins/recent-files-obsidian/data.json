@@ -1,24 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "Algorithms",
-      "path": "GATE/Algorithms/Algorithms.md"
+      "basename": "Linearly Dependent and Independent Vectors",
+      "path": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
+    },
+    {
+      "basename": "Introduction to Linear Algebra",
+      "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
+    },
+    {
+      "basename": "Aptitude",
+      "path": "GATE/Aptitude/Aptitude.md"
     },
     {
       "basename": "Linear Algebra",
       "path": "GATE/Linear-Algebra/Linear Algebra.md"
     },
     {
+      "basename": "Operating Systems",
+      "path": "GATE/OperatingSystems/Operating Systems.md"
+    },
+    {
+      "basename": "Pending Lectures",
+      "path": "GATE/Pending Lectures.md"
+    },
+    {
+      "basename": "Compiler Design",
+      "path": "GATE/CompilerDesign/Compiler Design.md"
+    },
+    {
+      "basename": "Computer Networks",
+      "path": "GATE/ComputerNetworks/Computer Networks.md"
+    },
+    {
+      "basename": "Algorithms",
+      "path": "GATE/Algorithms/Algorithms.md"
+    },
+    {
+      "basename": "Depth First Search",
+      "path": "GATE/Algorithms/Graph Algorithms/Depth First Search.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE/GATE-LOG.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Intuition for Graph Search Methods",
+      "path": "GATE/Algorithms/Graph Algorithms/Intuition for Graph Search Methods.md"
+    },
+    {
+      "basename": "Representation of Graph",
+      "path": "GATE/Algorithms/Graph Algorithms/Representation of Graph.md"
+    },
+    {
+      "basename": "Linear Time Sorting Algorithms",
+      "path": "GATE/Algorithms/Sorts/Linear Time Sorting Algorithms.md"
+    },
+    {
+      "basename": "Comparison-based Sorting Algorithms",
+      "path": "GATE/Algorithms/Sorts/Comparison-based Sorting Algorithms.md"
+    },
+    {
       "basename": "Heap Sort",
       "path": "GATE/Algorithms/Sorts/Heap Sort.md"
     },
     {
-      "basename": "Analysis of Maximum and Minimum",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Analysis of Maximum and Minimum.md"
+      "basename": "Quick Sort",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Quick Sort.md"
     },
     {
       "basename": "Selection Sort",
       "path": "GATE/Algorithms/Sorts/Selection Sort.md"
+    },
+    {
+      "basename": "Analysis of Maximum and Minimum",
+      "path": "GATE/Algorithms/Divide-and-Conquer/Analysis of Maximum and Minimum.md"
     },
     {
       "basename": "Insertion Sort",
@@ -27,10 +87,6 @@
     {
       "basename": "Bubble Sort",
       "path": "GATE/Algorithms/Sorts/Bubble Sort.md"
-    },
-    {
-      "basename": "Operating Systems",
-      "path": "GATE/OperatingSystems/Operating Systems.md"
     },
     {
       "basename": "GATE-CS",
@@ -43,10 +99,6 @@
     {
       "basename": "Select Algorithm",
       "path": "GATE/Algorithms/Divide-and-Conquer/Select Algorithm.md"
-    },
-    {
-      "basename": "Quick Sort",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Quick Sort.md"
     },
     {
       "basename": "Merge Sort",
@@ -93,20 +145,12 @@
       "path": "GATE/DatabaseManagementSystem/Database Management System.md"
     },
     {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
       "basename": "Divide and Conquer on Arrays",
       "path": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer on Arrays.md"
     },
     {
       "basename": "Divide and Conquer",
       "path": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE/GATE-LOG.md"
     },
     {
       "basename": "Data Structures",
@@ -133,10 +177,6 @@
       "path": "GATE/Algorithms/Recurrence-Relation/Substitution Method.md"
     },
     {
-      "basename": "Computer Networks",
-      "path": "GATE/ComputerNetworks/Computer Networks.md"
-    },
-    {
       "basename": "Floor and Ceiling Functions",
       "path": "GATE/Aptitude/Quantitative-Aptitude/Floor and Ceiling Functions.md"
     },
@@ -159,46 +199,6 @@
     {
       "basename": "Vault Index",
       "path": "Vault Index.md"
-    },
-    {
-      "basename": "Links for Resources",
-      "path": "GATE/GATE-materials/Links for Resources.md"
-    },
-    {
-      "basename": "C",
-      "path": "GATE/C/C.md"
-    },
-    {
-      "basename": "Introduction to Linear Algebra",
-      "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "BackPropagation",
-      "path": "Machine-Learning/BackPropagation.md"
-    },
-    {
-      "basename": "Machine Learning",
-      "path": "Machine-Learning/Machine Learning.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "GATE/Temporary Plan.md"
-    },
-    {
-      "basename": "Project Euler",
-      "path": "Project Euler/Project Euler.md"
-    },
-    {
-      "basename": "Introduction to Computer Networks",
-      "path": "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Introduction to Computer Networks.md"
-    },
-    {
-      "basename": "Supernetting",
-      "path": "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Supernetting.md"
     }
   ],
   "omittedPaths": [
