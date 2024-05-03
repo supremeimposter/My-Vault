@@ -5,16 +5,48 @@
       "path": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
     },
     {
+      "basename": "System of Linear Equations",
+      "path": "GATE/Linear-Algebra/System of Linear Equations.md"
+    },
+    {
+      "basename": "Gaussian Elimination",
+      "path": "GATE/Linear-Algebra/Gaussian Elimination.md"
+    },
+    {
       "basename": "Introduction to Linear Algebra",
       "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
     },
     {
-      "basename": "Aptitude",
-      "path": "GATE/Aptitude/Aptitude.md"
-    },
-    {
       "basename": "Linear Algebra",
       "path": "GATE/Linear-Algebra/Linear Algebra.md"
+    },
+    {
+      "basename": "Machine Learning",
+      "path": "Machine-Learning/Machine Learning.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE/GATE-LOG.md"
+    },
+    {
+      "basename": "Topics-Tracker-for-GATE",
+      "path": "GATE/Topics-Tracker-for-GATE.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE/GATE-CS.md"
+    },
+    {
+      "basename": "Vault Index",
+      "path": "Vault Index.md"
+    },
+    {
+      "basename": "Memory Interfacing and Expansion",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
+    },
+    {
+      "basename": "Aptitude",
+      "path": "GATE/Aptitude/Aptitude.md"
     },
     {
       "basename": "Operating Systems",
@@ -39,10 +71,6 @@
     {
       "basename": "Depth First Search",
       "path": "GATE/Algorithms/Graph Algorithms/Depth First Search.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE/GATE-LOG.md"
     },
     {
       "basename": "Discrete Mathematics",
@@ -87,10 +115,6 @@
     {
       "basename": "Bubble Sort",
       "path": "GATE/Algorithms/Sorts/Bubble Sort.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE/GATE-CS.md"
     },
     {
       "basename": "Binary Search",
@@ -175,30 +199,6 @@
     {
       "basename": "Substitution Method",
       "path": "GATE/Algorithms/Recurrence-Relation/Substitution Method.md"
-    },
-    {
-      "basename": "Floor and Ceiling Functions",
-      "path": "GATE/Aptitude/Quantitative-Aptitude/Floor and Ceiling Functions.md"
-    },
-    {
-      "basename": "Characterizing Running Times",
-      "path": "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md"
-    },
-    {
-      "basename": "Inequalities",
-      "path": "GATE/Fundamentals of Computer Science/Inequalities.md"
-    },
-    {
-      "basename": "text-notes-template",
-      "path": "templates/text-notes-template.md"
-    },
-    {
-      "basename": "Number Theory",
-      "path": "GATE/Fundamentals of Computer Science/Number Theory.md"
-    },
-    {
-      "basename": "Vault Index",
-      "path": "Vault Index.md"
     }
   ],
   "omittedPaths": [

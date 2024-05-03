@@ -21,12 +21,38 @@
             }
           },
           {
-            "id": "21e4ae9bd90dabb0",
+            "id": "06926a7da6c2414e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f20d5e904c3e0870",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Linear-Algebra/System of Linear Equations.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b8ec4c8f0c359ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Linear-Algebra/Gaussian Elimination.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -76,8 +102,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TheoryOfComputation/PDA",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -109,8 +135,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -234,31 +259,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "21e4ae9bd90dabb0",
+  "active": "06926a7da6c2414e",
   "lastOpenFiles": [
-    "attachments/Linearly Dependent and Independent Vectors-20240501231526994.webp",
+    "GATE/Linear-Algebra/System of Linear Equations.md",
+    "GATE/Linear-Algebra/Gaussian Elimination.md",
+    "attachments/Gaussian Elimination-20240503222603929.webp",
     "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
     "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
-    "GATE/Aptitude/Aptitude.md",
     "GATE/Linear-Algebra/Linear Algebra.md",
-    "attachments/Aptitude-20240501202854895.webp",
-    "attachments/Aptitude-20240501202841061.webp",
+    "Machine-Learning/Machine Learning.md",
+    "attachments/Gaussian Elimination-20240503175359632.webp",
+    "attachments/Gaussian Elimination-20240503174759345.webp",
+    "attachments/Gaussian Elimination-20240503174537213.webp",
+    "GATE/GATE-LOG.md",
+    "attachments/Linearly Dependent and Independent Vectors-20240503131404992.webp",
+    "attachments/Linearly Dependent and Independent Vectors-20240503131340116.webp",
+    "attachments/System of Linear Equations-20240503125631939.webp",
+    "attachments/System of Linear Equations-20240503125601163.webp",
+    "attachments/Introduction to Linear Algebra-20240503124329792.webp",
+    "attachments/System of Linear Equations-20240503123845149.webp",
+    "GATE/Topics-Tracker-for-GATE.md",
+    "GATE/GATE-CS.md",
+    "Vault Index.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
+    "GATE/Aptitude/Aptitude.md",
     "GATE/OperatingSystems/Operating Systems.md",
     "GATE/Pending Lectures.md",
     "GATE/CompilerDesign/Compiler Design.md",
-    "attachments/Compiler Design-20240501202108237.webp",
-    "attachments/Compiler Design-20240501202023766.webp",
-    "attachments/Compiler Design-20240501201927680.webp",
-    "attachments/Compiler Design-20240501201639225.webp",
-    "attachments/Compiler Design-20240501201623789.webp",
-    "attachments/Compiler Design-20240501201604416.webp",
-    "attachments/Compiler Design-20240501201525808.webp",
-    "attachments/Compiler Design-20240501201458826.webp",
     "GATE/ComputerNetworks/Computer Networks.md",
     "GATE/Algorithms/Algorithms.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms/Depth First Search.md",
-    "GATE/GATE-LOG.md",
     "GATE/DiscreteMathematics/Discrete Mathematics.md",
     "GATE/Algorithms/Graph Algorithms/Intuition for Graph Search Methods.md",
     "GATE/Algorithms/Graph Algorithms/Representation of Graph.md",
@@ -267,14 +298,7 @@
     "GATE/Algorithms/Sorts/Comparison-based Sorting Algorithms.md",
     "GATE/Algorithms/Sorts/Heap Sort.md",
     "GATE/Algorithms/Divide-and-Conquer/Quick Sort.md",
-    "GATE/Algorithms/Sorts/Selection Sort.md",
-    "GATE/Algorithms/Divide-and-Conquer/Analysis of Maximum and Minimum.md",
-    "GATE/Algorithms/Sorts/Insertion Sort.md",
-    "GATE/Algorithms/Sorts/Bubble Sort.md",
-    "GATE/GATE-CS.md",
     "GATE/Algorithms/Sorts",
-    "GATE/Algorithms/Divide-and-Conquer/Binary Search.md",
-    "GATE/Algorithms/Divide-and-Conquer/Untitled.md",
     "GATE/Calculus",
     "GATE/Algorithms/Maximum-and-Minimum",
     "Machine-Learning",
