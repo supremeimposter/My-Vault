@@ -38,6 +38,7 @@ tags:
 - [[Pending Notes]]
 - [[Pending Lectures]]
 - [[Temporary Plan]]
+- [[Topics-Tracker-for-GATE]]
 ---
 [[Weekly Quizzes]]
 [[Links for Resources]]

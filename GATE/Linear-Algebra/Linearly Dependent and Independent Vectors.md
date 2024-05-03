@@ -15,7 +15,7 @@ tags:
 - **A set of vectors is linearly dependent set of vectors, if *at least one* of the vectors can be represented as a linear combination of every other vectors in the set.**
 
 > [!NOTE] 
-> The concept of independence comes with a set of vectors, not just a single vector.
+> Independence is a concept of a set of vectors i.e. a **set of vectors can be linearly dependent or independent**. It doesn't make sense to ask whether a single vector or a vector within a set, is independent.
 
 - In a set of vectors $\{v_1, v_2, \cdots, v_n\}$, there exists a vector $v_1$ which can be represented as a linear combination of every other vectors in the set, making the set LD.
 $$
@@ -28,7 +28,7 @@ $$
 > ![[Linearly Dependent and Independent Vectors-20240317233134592.webp]]
 > It is not necessary for every vector in a LD set to form a linear combination with every other vectors in the set. The vector $q$ does not form a linear combination of every other vectors, though the set is linearly dependent.
 
-- A set containing a zero vector is always a LD set.
+- A set containing a zero vector is always a LD set of vectors.
 
 > [!example] 
 > ![[Linearly Dependent and Independent Vectors-20240317230746059.webp]]
@@ -39,6 +39,8 @@ $$
 > [!example] 
 > ![[Linearly Dependent and Independent Vectors-20240317231639962.webp]]
 > In the above example, the vector $w$ has a **co-efficient of $0$,** which means it CANNOT be represented as a linear combination of every other vectors in the set, though the set is a LD set.
+
+- From a given set of LD vectors, it is not necessary that there exists only one unique linear combination of vectors.
 
 - If a set of vectors is LD, then its superset is definitely LD, whereas the converse of the statement is not necessarily true.
 
@@ -66,12 +68,21 @@ $$
 c_1 v_1 + c_2 v_2 + c_3 v_3 + \cdots + c_n v_n = 0
 $$
 - If there exists at least one $c_i \not= 0$, then the set of vectors is LD, since the corresponding vector can be represented as a linear combination of every other vectors in the set.
+- If we can obtain zero vector by non-trivial (at least one $c_i \not= 0$) linear combination of other vectors, then the set is LD.
+$$
+c_1 v_1 + c_2 v_2 + \cdots + c_n v_n = 0
+$$
+---
 
 - **A set of vectors are linearly independent iff they are not linearly dependent.**
 - If there exists no $c_i \not= 0$, then the set is Linearly Independent i.e. there is no vector in the set which can be represented as a linear combination of every other vectors.
 
-- The set of vectors $\{v_1, v_2, \cdots, v_n\}$ is LI, if the only solution to the homogenous system is trivial i.e. the only solution is when $\forall c_i = 0$.
-- If there is a possible solution where at least one $c_i \not= 0$, then the set is LD.
+- The set of vectors $\{v_1, v_2, \cdots, v_n\}$ is LI, if the **only solution** to the homogenous system is trivial i.e. the only solution is when $\forall c_i = 0$. 
+- If we can obtain zero vector only by trivial combination of other vectors.
+$$
+c_1 v_1 + c_2 v_2 + \cdots + c_n v_n = 0 \text{ iff } c_i = 0\;\; \forall i
+$$
+- If there is a possible solution where at least one $c_i \not= 0$ alongside the trivial solution, then the set is NOT LI.
 
 > [!summary] 
 
@@ -105,7 +116,13 @@ $$
 > [!example] 
 > Consider the vector space $\mathbb{R}_2$ and take any vector from $\mathbb{R}_2$
 > ![[Linearly Dependent and Independent Vectors-20240318225727420.webp]]
+>
+>> [!observation] 
+>> Though this set of vectors is LD, but these contain two LI vectors from the vector space $R^2$, this set of vectors is enough to bring solution to any vector $b$.
+>> ![[Linearly Dependent and Independent Vectors-20240503120143588.webp]]
+>
 > Any vector can be represented as a linear combination of every vector in the vector space $\mathbb{R}_2$ using those two identity vectors.
+>
 >---
 > Now consider the set,
 > ![[Linearly Dependent and Independent Vectors-20240318235128738.webp]]
@@ -150,6 +167,11 @@ $$
 > 1. If any three vectors are LI, then the fourth vector can be formed as a linear combination, making the set LD.
 > 2. If all the vectors are LD, then the set is definitely LD.
 
+If a set of $n$ vectors has $p$ LI vectors where $p \lt n$, then no new LI vectors cannot be generated from the given set.
+If you start with $n$ LI vectors, then you willl always end up with at most $n$ LI vectors.
+
+![[Linearly Dependent and Independent Vectors-20240503131340116.webp]]
+![[Linearly Dependent and Independent Vectors-20240503131404992.webp]]
 
 > [!summary] 
 - If there are more than $n$ vectors from $\mathbb{R}_n$ in a set $Q$, then the set is definitely LD. We have to check for LI or LD set, only if we have less than or equal to $n$ vectors.

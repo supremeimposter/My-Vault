@@ -42,4 +42,6 @@ $$
 $$
 ![[Introduction to Linear Algebra-20240319235405441.webp]]
 
+![[Introduction to Linear Algebra-20240503124329792.webp]]
+
 ---
