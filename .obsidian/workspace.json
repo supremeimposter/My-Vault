@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -156,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
+                "file": "GATE/Linear-Algebra/Gaussian Elimination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
+                "file": "GATE/Linear-Algebra/Gaussian Elimination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
+                "file": "GATE/Linear-Algebra/Gaussian Elimination.md"
               }
             }
           },
@@ -259,25 +260,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "06926a7da6c2414e",
+  "active": "5b8ec4c8f0c359ff",
   "lastOpenFiles": [
     "GATE/Linear-Algebra/System of Linear Equations.md",
+    "GATE/Linear-Algebra/Linear Algebra.md",
     "GATE/Linear-Algebra/Gaussian Elimination.md",
-    "attachments/Gaussian Elimination-20240503222603929.webp",
+    "attachments/Gaussian Elimination-20240504115632272.webp",
+    "attachments/Gaussian Elimination-20240504113324021.webp",
     "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
     "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
-    "GATE/Linear-Algebra/Linear Algebra.md",
+    "attachments/Gaussian Elimination-20240504093655143.webp",
+    "attachments/Gaussian Elimination-20240504093644540.webp",
+    "attachments/Gaussian Elimination-20240504093415651.webp",
+    "attachments/Gaussian Elimination-20240504092723507.webp",
+    "attachments/Gaussian Elimination-20240504092712537.webp",
+    "attachments/Gaussian Elimination-20240503222603929.webp",
     "Machine-Learning/Machine Learning.md",
     "attachments/Gaussian Elimination-20240503175359632.webp",
     "attachments/Gaussian Elimination-20240503174759345.webp",
-    "attachments/Gaussian Elimination-20240503174537213.webp",
     "GATE/GATE-LOG.md",
-    "attachments/Linearly Dependent and Independent Vectors-20240503131404992.webp",
-    "attachments/Linearly Dependent and Independent Vectors-20240503131340116.webp",
-    "attachments/System of Linear Equations-20240503125631939.webp",
-    "attachments/System of Linear Equations-20240503125601163.webp",
-    "attachments/Introduction to Linear Algebra-20240503124329792.webp",
-    "attachments/System of Linear Equations-20240503123845149.webp",
     "GATE/Topics-Tracker-for-GATE.md",
     "GATE/GATE-CS.md",
     "Vault Index.md",
