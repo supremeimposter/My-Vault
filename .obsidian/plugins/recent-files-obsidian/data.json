@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Determinants",
+      "path": "GATE/Linear-Algebra/Determinants.md"
+    },
+    {
+      "basename": "Linear Algebra",
+      "path": "GATE/Linear-Algebra/Linear Algebra.md"
+    },
+    {
       "basename": "Gaussian Elimination",
       "path": "GATE/Linear-Algebra/Gaussian Elimination.md"
     },
     {
       "basename": "System of Linear Equations",
       "path": "GATE/Linear-Algebra/System of Linear Equations.md"
-    },
-    {
-      "basename": "Linear Algebra",
-      "path": "GATE/Linear-Algebra/Linear Algebra.md"
     },
     {
       "basename": "Introduction to Linear Algebra",
@@ -195,10 +199,6 @@
     {
       "basename": "Tree Method",
       "path": "GATE/Algorithms/Recurrence-Relation/Tree Method.md"
-    },
-    {
-      "basename": "Substitution Method",
-      "path": "GATE/Algorithms/Recurrence-Relation/Substitution Method.md"
     }
   ],
   "omittedPaths": [

@@ -21,51 +21,12 @@
             }
           },
           {
-            "id": "06926a7da6c2414e",
+            "id": "5afbbfbb3d90d3c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f20d5e904c3e0870",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Linear-Algebra/System of Linear Equations.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b8ec4c8f0c359ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Linear-Algebra/Gaussian Elimination.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "974852c34e2d4fff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
+                "file": "GATE/Linear-Algebra/Determinants.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Linear-Algebra/Gaussian Elimination.md",
+                "file": "GATE/Linear-Algebra/Determinants.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Linear-Algebra/Gaussian Elimination.md",
+                "file": "GATE/Linear-Algebra/Determinants.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Linear-Algebra/Gaussian Elimination.md"
+                "file": "GATE/Linear-Algebra/Determinants.md"
               }
             }
           },
@@ -260,11 +221,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5b8ec4c8f0c359ff",
+  "active": "5afbbfbb3d90d3c4",
   "lastOpenFiles": [
-    "GATE/Linear-Algebra/System of Linear Equations.md",
+    "attachments/Determinants-20240505133732362.webp",
+    "attachments/Determinants-20240505133634287.webp",
+    "attachments/Determinants-20240505133604679.webp",
+    "attachments/Determinants-20240505133546960.webp",
     "GATE/Linear-Algebra/Linear Algebra.md",
+    "GATE/Linear-Algebra/Determinants.md",
     "GATE/Linear-Algebra/Gaussian Elimination.md",
+    "GATE/Linear-Algebra/System of Linear Equations.md",
     "attachments/Gaussian Elimination-20240504115632272.webp",
     "attachments/Gaussian Elimination-20240504113324021.webp",
     "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
@@ -274,10 +240,7 @@
     "attachments/Gaussian Elimination-20240504093415651.webp",
     "attachments/Gaussian Elimination-20240504092723507.webp",
     "attachments/Gaussian Elimination-20240504092712537.webp",
-    "attachments/Gaussian Elimination-20240503222603929.webp",
     "Machine-Learning/Machine Learning.md",
-    "attachments/Gaussian Elimination-20240503175359632.webp",
-    "attachments/Gaussian Elimination-20240503174759345.webp",
     "GATE/GATE-LOG.md",
     "GATE/Topics-Tracker-for-GATE.md",
     "GATE/GATE-CS.md",
@@ -298,7 +261,6 @@
     "GATE/Algorithms/Sorts/Linear Time Sorting Algorithms.md",
     "GATE/Algorithms/Sorts/Comparison-based Sorting Algorithms.md",
     "GATE/Algorithms/Sorts/Heap Sort.md",
-    "GATE/Algorithms/Divide-and-Conquer/Quick Sort.md",
     "GATE/Algorithms/Sorts",
     "GATE/Calculus",
     "GATE/Algorithms/Maximum-and-Minimum",
