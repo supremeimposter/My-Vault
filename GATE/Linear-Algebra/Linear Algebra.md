@@ -11,7 +11,7 @@ tags:
 - [[Linearly Dependent and Independent Vectors]]
 - [[System of Linear Equations]]
 - [[Gaussian Elimination]]
-
+- [[Determinants]]
 
 ---
 
