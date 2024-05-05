@@ -5,7 +5,7 @@ lecture:
 date: 2024-03-17T22:49:00
 version:
   - LA-24
-last-revision: 
+last-revision: 2024-05-04T10:37:00
 notes-taken: true
 tags:
   - LinearAlgebra/Vectors

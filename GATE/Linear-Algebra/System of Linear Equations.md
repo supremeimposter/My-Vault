@@ -5,7 +5,7 @@ lecture:
 date: 2024-03-19T23:37:00
 version:
   - LA-24
-last-revision: 
+last-revision: 2024-05-04T10:37:00
 notes-taken: false
 tags:
   - LinearAlgebra/LinearEquations
@@ -38,6 +38,10 @@ x - 3y &= -5 \\
 \end{align*}
 $$
 - Solving the system of linear equations, helps us find out unknowns and variables.
+
+There are two types of systems of linear equations,
+1. Homogenous $Ax = 0$
+2. Heterogenous $Ax = b$
 
 ---
 ## Geometric Interpretations and Possible Solutions
@@ -122,9 +126,4 @@ digraph G {
 ```
 
 Solving a system of linear equations have a lot of applications e.g. House price prediction, Image Classification etc...
-
-## Types of System of Linear Equations
-
-1. Homogenous $Ax = 0$
-2. Heterogenous $Ax = b$
 
