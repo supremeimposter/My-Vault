@@ -11,7 +11,7 @@
     "anuppiccin-floating-search-bar",
     "notebook-backgrounds"
   ],
-  "cssTheme": "Typewriter",
+  "cssTheme": "Neovim",
   "theme": "moonstone",
   "showViewHeader": true,
   "baseFontSize": 18,
