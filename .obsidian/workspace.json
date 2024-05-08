@@ -97,7 +97,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -216,9 +216,9 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "oz-clear-unused-images:Clear Unused Images": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
       "map-of-content:Update Map of Content": false,
-      "periodic-notes:Open today": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "periodic-notes:Open today": false
     }
   },
   "active": "5afbbfbb3d90d3c4",
