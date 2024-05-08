@@ -97,7 +97,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -216,20 +216,20 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "map-of-content:Update Map of Content": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "5afbbfbb3d90d3c4",
   "lastOpenFiles": [
+    "GATE/Linear-Algebra/Linear Algebra.md",
+    "GATE/Linear-Algebra/Determinants.md",
     "attachments/Determinants-20240505225625664.webp",
     "attachments/Determinants-20240505133732362.webp",
     "attachments/Determinants-20240505133634287.webp",
     "attachments/Determinants-20240505133604679.webp",
     "attachments/Determinants-20240505133546960.webp",
-    "GATE/Linear-Algebra/Linear Algebra.md",
-    "GATE/Linear-Algebra/Determinants.md",
     "GATE/Linear-Algebra/Gaussian Elimination.md",
     "GATE/Linear-Algebra/System of Linear Equations.md",
     "attachments/Gaussian Elimination-20240504115632272.webp",
@@ -239,7 +239,6 @@
     "attachments/Gaussian Elimination-20240504093655143.webp",
     "attachments/Gaussian Elimination-20240504093644540.webp",
     "attachments/Gaussian Elimination-20240504093415651.webp",
-    "attachments/Gaussian Elimination-20240504092723507.webp",
     "Machine-Learning/Machine Learning.md",
     "GATE/GATE-LOG.md",
     "GATE/Topics-Tracker-for-GATE.md",
