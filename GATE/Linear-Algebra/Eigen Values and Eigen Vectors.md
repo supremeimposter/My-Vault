@@ -67,6 +67,9 @@ d
 \end{bmatrix}
 $$
 
+> [!interesting] 
+> There are infinitely many eigen vectors for any matrix.
+
 If $x$ is an eigen vector for a matrix $A$, then any non-zero multiple of eigen vector $x$ is also an eigen vector for the same matrix $A$.
 
 If $x$ is an eigen vector or $A$, then 

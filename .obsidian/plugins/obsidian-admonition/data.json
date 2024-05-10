@@ -442,6 +442,17 @@
       "command": false,
       "injectColor": true,
       "noTitle": false
+    },
+    "interesting": {
+      "type": "interesting",
+      "color": "17, 153, 15",
+      "icon": {
+        "name": "journal-whills",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,
