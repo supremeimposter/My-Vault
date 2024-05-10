@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "5afbbfbb3d90d3c4",
+            "id": "c8ded822d2c529b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Linear-Algebra/Determinants.md",
+                "file": "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bae37664b67e0236",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -63,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rank",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Linear-Algebra/Determinants.md",
+                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Linear-Algebra/Determinants.md",
+                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Linear-Algebra/Determinants.md"
+                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
               }
             }
           },
@@ -183,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "5df95600f2476df0",
@@ -221,24 +234,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5afbbfbb3d90d3c4",
+  "active": "bae37664b67e0236",
   "lastOpenFiles": [
-    "GATE/Linear-Algebra/Linear Algebra.md",
-    "GATE/Linear-Algebra/Determinants.md",
-    "attachments/Determinants-20240505225625664.webp",
-    "attachments/Determinants-20240505133732362.webp",
-    "attachments/Determinants-20240505133634287.webp",
-    "attachments/Determinants-20240505133604679.webp",
-    "attachments/Determinants-20240505133546960.webp",
-    "GATE/Linear-Algebra/Gaussian Elimination.md",
-    "GATE/Linear-Algebra/System of Linear Equations.md",
-    "attachments/Gaussian Elimination-20240504115632272.webp",
-    "attachments/Gaussian Elimination-20240504113324021.webp",
     "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
+    "GATE/Linear-Algebra/Linear Algebra.md",
+    "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
+    "attachments/Eigen Values and Eigen Vectors-20240510164620740.webp",
+    "attachments/Eigen Values and Eigen Vectors-20240510164558947.webp",
+    "attachments/Eigen Values and Eigen Vectors-20240510164545756.webp",
+    "GATE/Linear-Algebra/Crammer's Rule.md",
     "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
-    "attachments/Gaussian Elimination-20240504093655143.webp",
-    "attachments/Gaussian Elimination-20240504093644540.webp",
-    "attachments/Gaussian Elimination-20240504093415651.webp",
+    "GATE/Linear-Algebra/Gaussian Elimination.md",
+    "attachments/Gaussian Elimination-20240510103241379.webp",
+    "attachments/Gaussian Elimination-20240510102359468.webp",
+    "attachments/Gaussian Elimination-20240510101134742.webp",
+    "attachments/Gaussian Elimination-20240510100414194.webp",
+    "attachments/Gaussian Elimination-20240510095738278.webp",
+    "GATE/Linear-Algebra/Determinants.md",
+    "GATE/Linear-Algebra/System of Linear Equations.md",
+    "attachments/Determinants-20240509112949647.webp",
+    "attachments/Determinants-20240509112335483.webp",
     "Machine-Learning/Machine Learning.md",
     "GATE/GATE-LOG.md",
     "GATE/Topics-Tracker-for-GATE.md",
@@ -258,8 +273,6 @@
     "GATE/Algorithms/Graph Algorithms/Representation of Graph.md",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts/Linear Time Sorting Algorithms.md",
-    "GATE/Algorithms/Sorts/Comparison-based Sorting Algorithms.md",
-    "GATE/Algorithms/Sorts/Heap Sort.md",
     "GATE/Algorithms/Sorts",
     "GATE/Calculus",
     "GATE/Algorithms/Maximum-and-Minimum",

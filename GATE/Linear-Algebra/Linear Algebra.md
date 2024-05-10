@@ -13,6 +13,8 @@ tags:
 - [[Gaussian Elimination]]
 - [[Determinants]]
 - [[Crammer's Rule]]
+- [[Eigen Values and Eigen Vectors]]
+
 
 
 ---

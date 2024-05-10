@@ -129,7 +129,7 @@ $$
 > This set is LI set, since they are not linear combinations of each other.
 
 - A vector space is a collection of vectors which should have a zero vector.
-- Any vector space $\mathbb{R}_n$ is a LD set, since they contain a zero vector.
+- Any vector space $\mathbb{R}_n$ is a LD set and has only $n$ LI vectors in the set, since they contain a zero vector.
 
 > [!important] 
 > $n$ Linearly Independent vectors (convenient or not) from a vector space $\mathbb{R}_n$ gives unique solution to the any vector picked from the same vector space $\mathbb{R}_n$. 
