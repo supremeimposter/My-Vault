@@ -68,24 +68,21 @@ d
 $$
 
 If $x$ is an eigen vector for a matrix $A$, then any non-zero multiple of eigen vector $x$ is also an eigen vector for the same matrix $A$.
-````col
-```col-md
-flexGrow=1
-===
+
 If $x$ is an eigen vector or $A$, then 
 $$
 Ax = \lambda x
 $$
-```
-```col-md
-flexGrow=1
-===
 If $kx$, where $k \not= 0$ is a eigen vector of $A$, then 
 $$
-A (kx) = \lambda (kx)
+\begin{equation}
+\begin{split}
+A (kx) &= k \; Ax\\
+&= k \; \lambda x\\
+&= \lambda \; (kx)
+\end{split}
+\end{equation}
 $$
-```
-````
 In both the cases, $\lambda$ is the eigen value.
 
 
