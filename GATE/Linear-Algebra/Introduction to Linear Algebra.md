@@ -29,7 +29,7 @@ B --> C[Processed by\nMachines]
 > Scalar $\times$ Vector = Vector (Vector gets scaled)
 
 ---
-> [!header] Matrix Multiplication
+## Matrix Multiplication
 
 a. Matrix multiplied by a vector is again a vector.
 $$

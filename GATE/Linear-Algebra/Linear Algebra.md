@@ -12,6 +12,8 @@ tags:
 - [[System of Linear Equations]]
 - [[Gaussian Elimination]]
 - [[Determinants]]
+- [[Crammer's Rule]]
+
 
 ---
 

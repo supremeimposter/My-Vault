@@ -116,11 +116,6 @@ A --> C[Nullity n - r]
 On reducing a matrix to echelon form, if there are no free variables i.e. only pivot columns, then the system has a unique solution.
 If there are free variables, then assign a constant to the free variables.
 
-For a matrix $A_{m \times n}$, 
-$$
-\text{rank}(A) \le \text{min}(m, n)
-$$
-
 ## Solutions to Linear System
 
 A linear system is consistent, if and only if an echelon form of a matrix has no row of the form $[0\;\cdots\; 0 \; b]$, where $b$ is non-zero.
@@ -192,8 +187,93 @@ If the last row has a leading entry i.e. pivot element in the last row, then the
 
 ![[Gaussian Elimination-20240504092723507.webp]]
 
-If the rank$(A)$ = $n$, then $Ax = 0$ has only trivial solution, whether $A$ is a zero or non-zero matrix.
 
+> [!header] Rank of a matrix and no of columns
+
+````col
+```col-md
+flexGrow=1
+===
+![[Gaussian Elimination-20240510095738278.webp]]
+```
+```col-md
+flexGrow=1
+===
+If the rank$(A)$ = $n$ in the system $Ax = 0$ has only trivial solution, whether $m \gt n$ or $m = n$ or $m \lt n$.
+
+All columns are pivot columns and there are no free variables.
+```
+````
+
+````col
+```col-md
+flexGrow=1
+===
+![[Gaussian Elimination-20240510100414194.webp]]
+```
+```col-md
+flexGrow=1
+===
+If rank($A$) = $m$ = $n$ in the system $Ax = b$, then all the columns are pivot columns and there are no free variables. 
+
+The system has unique solution whether $b$ is a zero matrix or not.
+```
+````
+
+````col
+```col-md
+flexGrow=1
+===
+![[Gaussian Elimination-20240510101134742.webp]]
+```
+```col-md
+flexGrow=1
+===
+If rank($A$) = $n$ in the system $Ax = b$, then all the columns are pivot columns.
+
+If $M$ is non-zero, then the system $Ax = b$ is inconsistent and has no solution.
+If $M$ is zero, then the system is consistent and has unique solution, since there are no free variables.
+```
+````
+
+````col
+```col-md
+flexGrow=1
+===
+![[Gaussian Elimination-20240510102359468.webp]]
+```
+```col-md
+flexGrow=1
+===
+If rank($A$) = $m$ and $m \not= n$ in the system $Ax = b$, then $m \lt n$ and there are free columns.
+This system cannot be inconsistent, since $[0\;0\; \cdots \;0\; \text{non-zero}]$ cannot occur here.
+$m \not\gt n$, since rank of a matrix cannot be greater than no of columns.
+```
+````
+
+Hence, the rank of a matrix can only be the lesser of the minimum of $m$ and $n$.
+For a matrix $A_{m \times n}$, 
+$$
+\text{rank}(A) \le \text{min}(m, n)
+$$
+````col
+```col-md
+flexGrow=1
+===
+![[Gaussian Elimination-20240510103241379.webp]]
+```
+```col-md
+flexGrow=1
+===
+If rank($A$) $\lt n$ and rank($A$) $\lt m$ in the system $Ax = b$, then there must be free columns and many all-zero rows.
+
+If $M = 0$, then the system is consistent and has infinitely many solutions.
+
+If $M$ is non-zero, then system is inconsistent and has no solutions. 
+```
+````
+
+---
 ```dot
 graph G {
 	label = "Solution to Ax = b\n\n\n";

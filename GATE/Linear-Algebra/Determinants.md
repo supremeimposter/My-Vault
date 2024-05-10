@@ -59,10 +59,13 @@ c&d
 \end{vmatrix}
 $$
 $$
+\begin{equation}
+\begin{split}
+
 \begin{vmatrix}
 a+p&b+q \\
 c+r&d+w
-\end{vmatrix}=
+\end{vmatrix} & =
 \begin{vmatrix}
 a&b \\
 c+r&d+w
@@ -70,7 +73,25 @@ c+r&d+w
 \begin{vmatrix}
 p&q \\
 c+r&d+w
+\end{vmatrix} \\ \\
+& = \begin{vmatrix}
+a&b \\
+c&d
+\end{vmatrix} + 
+\begin{vmatrix}
+a&b \\
+r&w
+\end{vmatrix} + 
+\begin{vmatrix}
+p&q \\
+c&d
+\end{vmatrix} + 
+\begin{vmatrix}
+p&q \\
+r&w
 \end{vmatrix}
+\end{split}
+\end{equation}
 $$
 $$
 \begin{vmatrix}
@@ -87,24 +108,26 @@ c&d
 \end{vmatrix}
 $$
 
-This property does not apply to matrices. 
-$$
-m
-\begin{bmatrix}
-a&b \\
-c&d \\
-\end{bmatrix}=
-\begin{bmatrix}
-ma&mb \\
-mc&md \\
-\end{bmatrix}
-$$
+> [!attention] 
+> This property does not apply to matrices. 
+> $$
+> m
+> \begin{bmatrix}
+> a&b \\
+> c&d \\
+> \end{bmatrix}=
+> \begin{bmatrix}
+> ma&mb \\
+> mc&md \\
+> \end{bmatrix}
+> $$
+> 
 
 ---
 
-1. $\text{det}(A + B) \not= \text{det}(A) + \text{det}(B)$
-2. If two rows (or columns) of $A$ are equal, then $\text{det}(A) = 0$
-3. This elementary row operation ($R_{i} \rightarrow R_{i} + c R_{j}$) leaves the $\det(A)$ unchanged.
+- $\text{det}(A + B) \not= \text{det}(A) + \text{det}(B)$
+- If two rows (or columns) of $A$ are equal, then $\text{det}(A) = 0$
+- This elementary row operation ($R_{i} \rightarrow R_{i} + c R_{j}$) leaves the $\det(A)$ unchanged.
 $$
 \begin{vmatrix}
 a&b \\
@@ -131,21 +154,15 @@ a&b \\
 c&d
 \end{vmatrix}
 $$
-4. If a matrix $A$ has a row (or column) of zeros, then $\det(A) = 0$.
-5. Determinant of a diagonal matrix is the product of its principle diagonal elements.
-6. Determinant of a upper triangular or lower triangular matrix is the product of its principle diagonal elements.
-7. Row operations such as $R_{i} \rightarrow c_{1} R_{j} + c_{2} R_{k}$ changes $\\det(A)$.
-8. $\det(A) = \det(A^T)$
-9. $\det(AB) = \det(A) \ast \det(B)$
-10. $\mid A^n \mid = (\;\mid A \mid\;)^n$
-11. Determinant evaluated across any row or column is zero.
-12. $\det(c \; A) = c^n\; \det(A), c \in \mathbb{R}$ 
-
-If a $n \times n$ determinant is expanded, then there are $n!$ determinants which will survive out of $n^n$ terms.
-
-![[Determinants-20240505225625664.webp]]
-
-Since the row operations such as $R_{i} \rightarrow c \;R_{i} + k\; R_{j}$ affects the value of the determinant, the original value of the determinant can be obtained by dividing the determinant by $c$.
+- If a matrix $A$ has a row (or column) of zeros, then $\det(A) = 0$.
+- Determinant of a diagonal matrix is the product of its principle diagonal elements.
+- Determinant of a upper triangular or lower triangular matrix is the product of its principle diagonal elements.
+- Row operations such as $R_{i} \rightarrow c_{1} R_{j} + c_{2} R_{k}$ changes $\\det(A)$.
+- $\det(A) = \det(A^T)$
+- $\det(AB) = \det(A) \ast \det(B)$
+- $\mid A^n \mid = (\;\mid A \mid\;)^n$
+- Determinant evaluated across any row or column is zero.
+- $\det(c \; A) = c^n\; \det(A), c \in \mathbb{R}$ and $n$ is the dimension of $A$.
 
 ## Calculating Determinants
 1. Calculate using permutations.
@@ -155,15 +172,76 @@ $$
 $$
 3. Calculate using co-factors.
 
+### Calculating using Permutations
+If a $n \times n$ determinant is expanded, then there are $n!$ determinants which will survive out of $n^n$ terms.
+
+![[Determinants-20240509094718207.webp]]
+
+````col
+```col-md
+flexGrow=1
+===
+![[Determinants-20240509112335483.webp]]
+```
+```col-md
+flexGrow=1
+===
+For the determinant to survive, each row (or column) should have atleast one non-zero accordingly.
+
+If $a$ is non-zero, then non-zero in the $2^{nd}$ row can be either $e$ or $f$, then if $e$ is non-zero, then non-zero in the $3^{rd}$ row can be only $i$.
+```
+````
+
+![[Determinants-20240509112949647.webp|6 possible determinant patterns that survives the expansion(Boxes are non-zeros)]]
+
+![[Determinants-20240505225625664.webp]]
+
+The sign of a product term here is determined by the number of row interchanges made to obtain the diagonal matrix form.
+$$
+\begin{vmatrix}
+0&a_{12}&0 \\
+0&0&a_{23} \\
+a_{31}&0&0
+\end{vmatrix} = 
+\begin{vmatrix}
+a_{31}&0&0\\
+0&0&a_{23} \\
+0&a_{12}&0 \\
+\end{vmatrix} = 
+\begin{vmatrix}
+a_{31}&0&0\\
+0&a_{12}&0 \\
+0&0&a_{23} \\
+\end{vmatrix} = a_{31} \; a_{12} \; a_{23}
+$$
+The sign of the product term $a_{31} \; a_{12} \; a_{23}$ is positive.
+
+$$
+\det(A_{n \times n}) = \sum_{\text{all permutations}} \pm \;a_{1 \alpha} \; a_{2 \beta} \; a_{3 \gamma} \; a_{n \omega} 
+$$
+
+> [!example] 
+> $$
+> \begin{vmatrix}
+> a&b&c \\
+> x&y&z \\
+> p&q&r
+> \end{vmatrix} = 
+> + ayr - azq - bxr + bzp - cyp + cxq
+> $$
+> 
+
+Since the row operations such as $R_{i} \rightarrow c \;R_{i} + k\; R_{j}$ affects the value of the determinant. The original value of the determinant can be obtained by dividing the determinant by $c$.
+
 ### Pivot Formula
-Convert given matrix to echelon form and calculate the product of pivot elements. 
-Keep track of the interchanging of the rows(or columns).
+Convert the given matrix to echelon form and calculate the product of pivot elements. 
+Keep track of interchanging of rows(or columns).
 $$
 \det(A) = \pm \; d_{1} d_{2} \cdots d_{n}
 $$
 
 ### Cofactor Formula
-Determinant is the dot product of any row (or column) of a matrix $A$ with its cofactors using other rows.
+Determinant is the dot product of any row (or column) $i$ of a matrix $A$ with its cofactors using other rows.
 
 Cofactors are auxiliary values associated with each element of a matrix.
 
@@ -172,7 +250,7 @@ The sign of the co-factor of $a_{ij} = (-1)^{(i + j)}$
 $C_{ij}$ does not depend on the element $a_{ij}$.
 
 > [!tip] 
-> Co-factor includes the sign as well. If the sign is exculded, then it is called minor.
+> Co-factor includes the sign as well. If the sign is excluded, then it is called minor.
 
 The $\det(A)$ as the dot product of the first row is as follows,
 $$
@@ -219,7 +297,6 @@ $$
 \end{vmatrix} = 52
 $$
 ---
-
 Consider the matrix $B$,
 $$
 B = \begin{bmatrix}
@@ -228,13 +305,13 @@ a_{21}&a_{22}&a_{23} \\
 a_{31}&a_{32}&a_{33}
 \end{bmatrix}
 $$
-then, $a_{21}\; C_{11} + a_{22} \;C_{12} + a_{23}\; C_{13}$ is represented as,
+then, the determinant $\Delta = a_{21}\; C_{11} + a_{22} \;C_{12} + a_{23}\; C_{13}$ is represented as,
 $$
-B = \begin{bmatrix}
+B = \begin{vmatrix}
 a_{21}&a_{22}&a_{23} \\
 a_{21}&a_{22}&a_{23} \\
 a_{31}&a_{32}&a_{33}
-\end{bmatrix}
+\end{vmatrix}
 $$
 
 > [!observation] 
@@ -243,7 +320,7 @@ $$
 > $a_{13}\; C_{12} + a_{23} \;C_{22} + a_{33}\; C_{32} = 0$
 > $a_{31}\; C_{21} + a_{32} \;C_{22} + a_{33}\; C_{23} = 0$
 >> [!note] 
->> But we cannot comment on anything about the sum of products of elements of a row and the cofactors of another column.
+>> But we cannot comment on anything about the sum of products of elements of a **row** and the cofactors of another **column**.
 >> $a_{12}\; C_{21} + a_{22} \;C_{22} + a_{32}\; C_{23}$ may or may not be zero.
 
 ---
@@ -257,8 +334,7 @@ a_{21}&a_{22}&a_{23} \\
 a_{31}&a_{32}&a_{33}
 \end{bmatrix}
 $$
-
-And another matrix $E$ whose columns co-factors of rows of matrix $A$,
+And another matrix $E$ whose columns are co-factors of rows of matrix $A$,
 $$
 E = \begin{bmatrix}
 C_{11}&C_{21}&C_{31} \\
@@ -287,11 +363,11 @@ C_{11}&C_{21}&C_{31} \\
 C_{12}&C_{22}&C_{32} \\
 C_{13}&C_{23}&C_{33}
 \end{bmatrix} = 
-\begin{vmatrix}
+\begin{bmatrix}
 \mid A \mid & 0 & 0 \\
 0 & \mid A \mid & 0 \\
 0 & 0 & \mid A \mid \\
-\end{vmatrix} = 
+\end{bmatrix} = 
 \;\;\mid A \mid \;I_{3}
 $$
 
@@ -307,25 +383,26 @@ a_{11}&a_{12}&a_{13} \\
 a_{21}&a_{22}&a_{23} \\
 a_{31}&a_{32}&a_{33}
 \end{bmatrix} =
-\begin{vmatrix}
+\begin{bmatrix}
 \mid A \mid & 0 & 0 \\
 0 & \mid A \mid & 0 \\
 0 & 0 & \mid A \mid \\
-\end{vmatrix} = 
+\end{bmatrix} = 
 \;\;\mid A \mid \;I_{3}
 $$
 
 > [!NOTE] 
-> The matrices $E$ and $F$ are both the same, but the way we see them both is different.
+> The matrices $E$ and $F$ are both the same (transpose of the cofactor matrix of $A$), but the way we see them both is different.
 
 $$
-A \cdot E = \mid A \mid \; I \Rightarrow A \bigg(  \frac{1}{\mid A \mid} \cdot E \bigg) = I \Rightarrow A A^{-1} = I
+A \cdot E = \;\mid A \mid \; I \;\Rightarrow A \cdot \bigg(  \frac{1}{\mid A \mid} \cdot E \bigg) = I \Rightarrow A A^{-1} = I
 $$
 $$
-F \cdot A = \mid A \mid \; I \Rightarrow \bigg(  \frac{1}{\mid A \mid} \cdot F \bigg) \cdot A = I \Rightarrow A A^{-1} = I
+F \cdot A = \;\mid A \mid \; I \;\Rightarrow \bigg(  \frac{1}{\mid A \mid} \cdot F \bigg) \cdot A = I \Rightarrow A^{-1} A = I
 $$
 
-**Inverse of a matrix $A$ is the one that is multiplied to $A$ to get the identity matrix $I$.**
+> [!definition] 
+> Inverse of a matrix $A$ is the one that is multiplied to $A$ to get the identity matrix $I$.
 
 Since the above two equations are equal, 
 $$
@@ -340,9 +417,19 @@ C_{21}&C_{22}&C_{23} \\
 C_{31}&C_{32}&C_{33}
 \end{bmatrix} ^ T
 $$
-**Adjoint** of a matrix $A$ is the transpose of its co-factor matrix.
 $$
 A^{-1} = \frac{1}{\mid A \mid} \; \text{adj}(A)
 $$
+**Adjoint** of a matrix $A$ is the transpose of its co-factor element matrix.
+$$
+\text{adj}(A) = \; \mid A \mid A^{-1}
+$$
+$$
+\mid A^{-1} \mid \;= \frac{1}{\mid A \mid} 
+$$
 
+Since the matrix $E$ is the adjoint of the matrix $A$,
+$$
+A \cdot \text{adj}(A) = \; \mid A \mid \; I
+$$
 ---

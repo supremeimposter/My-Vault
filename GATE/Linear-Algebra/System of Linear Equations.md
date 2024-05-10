@@ -127,3 +127,9 @@ digraph G {
 
 Solving a system of linear equations have a lot of applications e.g. House price prediction, Image Classification etc...
 
+Methods for solving $Ax = b$,
+1. [[Gaussian Elimination]]
+2. Finding $A^{-1}$ and multiplying with $b$
+3. [[Crammer's Rule]]
+
+---
