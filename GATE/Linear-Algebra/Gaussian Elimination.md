@@ -153,7 +153,7 @@ In case of infinitely many solutions, the solution to the system is in parametri
 > Homogenous system can never be the inconsistent as the rightmost column of the augmented matrix is always filled with zeros i.e. $[0\;\cdots\; 0 \; b]$ never occurs in the augmented matrix of homogenous system.
 
 > [!observation] 
-> If a single linear equation has more than 2 unknowns, then there will be infinitely many solutions.
+> If a single linear equation has greater than or equal to 2 unknowns, then there will be infinitely many solutions.
 > ![[Gaussian Elimination-20240503222603929.webp]]
 
 Non-homogenous system have a constant vector in their parametric form of the solution.
@@ -168,14 +168,16 @@ If rank($A$) $=$ rank($A\mid b$), then vector $b$ is a linear combination of col
 ```col-md
 flexGrow=1
 ===
-Rank(A) $\not=$ Rank(A | b)
+rank(A) $\not=$ rank(A | b)
+
 ![[Gaussian Elimination-20240504093644540.webp]]
 The system is inconsistent and has no solution.
 ```
 ```col-md
 flexGrow=1
 ===
-Rank(A) $=$ Rank(A | b)
+rank(A) $=$ rank(A | b)
+
 ![[Gaussian Elimination-20240504093655143.webp]]
 The system is consistent and has solutions.
 ```
@@ -186,7 +188,6 @@ The system is consistent and has solutions.
 If the last row has a leading entry i.e. pivot element in the last row, then the system always has a solution, regardless of the last entry.
 
 ![[Gaussian Elimination-20240504092723507.webp]]
-
 
 > [!header] Rank of a matrix and no of columns
 
@@ -272,7 +273,6 @@ If $M = 0$, then the system is consistent and has infinitely many solutions.
 If $M$ is non-zero, then system is inconsistent and has no solutions. 
 ```
 ````
-
 ---
 ```dot
 graph G {
@@ -294,5 +294,4 @@ graph G {
 	E -- F; E -- G;
 }
 ```
-
 

@@ -15,8 +15,6 @@ tags:
 - [[Crammer's Rule]]
 - [[Eigen Values and Eigen Vectors]]
 
-
-
 ---
 
 # References
