@@ -453,6 +453,17 @@
       "command": false,
       "injectColor": true,
       "noTitle": false
+    },
+    "perspective": {
+      "type": "perspective",
+      "color": "202, 33, 33",
+      "icon": {
+        "name": "shapes",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,

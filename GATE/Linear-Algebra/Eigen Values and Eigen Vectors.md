@@ -70,13 +70,13 @@ $$
 > [!interesting] 
 > There are infinitely many eigen vectors for any matrix.
 
-If $x$ is an eigen vector for a matrix $A$, then any non-zero multiple of eigen vector $x$ is also an eigen vector for the same matrix $A$.
+If $x$ is an eigen vector for a matrix $A$, then any non-zero multiple of eigen vector $x$ is also an eigen vector for the same matrix $A$, with $\lambda$ being the eigen value.
 
 If $x$ is an eigen vector or $A$, then 
 $$
 Ax = \lambda x
 $$
-If $kx$, where $k \not= 0$ is a eigen vector of $A$, then 
+If $kx$, where $k \in \mathbb{R} - \{0\}$ is a eigen vector of $A$, then 
 $$
 \begin{equation}
 \begin{split}
@@ -86,6 +86,30 @@ A (kx) &= k \; Ax\\
 \end{split}
 \end{equation}
 $$
-In both the cases, $\lambda$ is the eigen value.
+## Characteristic Equation
+Since both the eigen values and eigen vectors are unknown in the equation $Ax=\lambda x$, characteristic equation is solved to find $\lambda$ and $x$.
+$$
+\begin{equation} 
+\begin{split}
+Ax &= \lambda x\\
+Ax - \lambda x &= 0\\
+(A - \lambda \mathcal{I})\; x &= 0\\
+\end{split}
+\end{equation}
+$$
+Since $\lambda$ is a scalar, it is multiplied with identity matrix $\mathcal{I}$ to represent it as a matrix.
+In the above homogenous system, only non-trivial solution is possible, since eigen vector $x$ is a non-zero vector i.e. $\exists c_{i} \not= 0$ in $x$. Hence the columns of $(A - \lambda \mathcal{I})$ are LD.
 
+Since the columns of $(A - \lambda \mathcal{I})$ are LD,
+$$
+\begin{equation}
+\mid A - \lambda \mathcal{I} \mid\; = 0
+\end{equation}
+$$
+The above characteristic equation can be solved to obtain the eigen vector $\lambda$ and then $\lambda$ can be substituted back in $(A - \lambda \mathcal{I})\; x = 0$ to obtain the eigen value $x$. 
 
+Since $\mid A - \lambda \mathcal{I} \mid\; = 0$, rank ($\;\mid A - \lambda \mathcal{I} \mid\; = 0$) is always $\lt n$ and free variables always exist.
+
+![[Eigen Values and Eigen Vectors-20240511093730179.webp|Solve eigen value problem for $n \times n$ problem]]
+
+Eigen vectors from different eigen values are linearly independent.

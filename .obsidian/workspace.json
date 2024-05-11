@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "d33b8c95bf1aacac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Linear-Algebra/Determinants.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c8ded822d2c529b4",
             "type": "leaf",
             "state": {
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -196,7 +209,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "5df95600f2476df0",
@@ -236,21 +249,22 @@
   },
   "active": "bae37664b67e0236",
   "lastOpenFiles": [
-    "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
-    "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
+    "attachments/Eigen Values and Eigen Vectors-20240511093730179.webp",
     "GATE/Linear-Algebra/Linear Algebra.md",
+    "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
+    "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
+    "GATE/Linear-Algebra/Determinants.md",
+    "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
     "attachments/Eigen Values and Eigen Vectors-20240510164620740.webp",
     "attachments/Eigen Values and Eigen Vectors-20240510164558947.webp",
     "attachments/Eigen Values and Eigen Vectors-20240510164545756.webp",
     "GATE/Linear-Algebra/Crammer's Rule.md",
-    "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
     "GATE/Linear-Algebra/Gaussian Elimination.md",
     "attachments/Gaussian Elimination-20240510103241379.webp",
     "attachments/Gaussian Elimination-20240510102359468.webp",
     "attachments/Gaussian Elimination-20240510101134742.webp",
     "attachments/Gaussian Elimination-20240510100414194.webp",
     "attachments/Gaussian Elimination-20240510095738278.webp",
-    "GATE/Linear-Algebra/Determinants.md",
     "GATE/Linear-Algebra/System of Linear Equations.md",
     "attachments/Determinants-20240509112949647.webp",
     "attachments/Determinants-20240509112335483.webp",

@@ -90,7 +90,6 @@ $$
 $$
 c_1 v_1 + c_2 v_2 + c_3 v_3 + \cdots + c_n v_n = 0
 $$
-
 > [!cases] $\forall c_i = 0$
 - There is only one solution (unique solution) i.e. trivial solution, then the set is LI.
 
@@ -100,6 +99,10 @@ $$
 $$
 v_1 = - \frac{1}{c_1} (v_2 c_2 + v_3 c_3 + \cdots + v_n c_n)
 $$
+
+> [!perspective] 
+> A homogenous equation can be used to say whether the columns of a matrix are LD or LI.
+
 ---
 > [!header] Single Vector Set
 - If a set has only a single vector $\{v\}$, then there are two cases to satisfy the homogenous system $cv = 0$
