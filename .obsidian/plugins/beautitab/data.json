@@ -17,7 +17,7 @@
     "display": "Quick Switcher++: Open in Headings Mode"
   },
   "showRecentFiles": true,
-  "showBookmarks": false,
+  "showBookmarks": true,
   "bookmarkSource": "all",
   "bookmarkGroup": "",
   "showQuote": false,

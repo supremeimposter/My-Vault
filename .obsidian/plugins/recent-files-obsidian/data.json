@@ -5,32 +5,32 @@
       "path": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
     },
     {
-      "basename": "Linear Algebra",
-      "path": "GATE/Linear-Algebra/Linear Algebra.md"
-    },
-    {
-      "basename": "Linearly Dependent and Independent Vectors",
-      "path": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
-    },
-    {
-      "basename": "Determinants",
-      "path": "GATE/Linear-Algebra/Determinants.md"
-    },
-    {
-      "basename": "Introduction to Linear Algebra",
-      "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
-    },
-    {
-      "basename": "Crammer's Rule",
-      "path": "GATE/Linear-Algebra/Crammer's Rule.md"
+      "basename": "System of Linear Equations",
+      "path": "GATE/Linear-Algebra/System of Linear Equations.md"
     },
     {
       "basename": "Gaussian Elimination",
       "path": "GATE/Linear-Algebra/Gaussian Elimination.md"
     },
     {
-      "basename": "System of Linear Equations",
-      "path": "GATE/Linear-Algebra/System of Linear Equations.md"
+      "basename": "Linear Algebra",
+      "path": "GATE/Linear-Algebra/Linear Algebra.md"
+    },
+    {
+      "basename": "Introduction to Linear Algebra",
+      "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
+    },
+    {
+      "basename": "Determinants",
+      "path": "GATE/Linear-Algebra/Determinants.md"
+    },
+    {
+      "basename": "Linearly Dependent and Independent Vectors",
+      "path": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
+    },
+    {
+      "basename": "Crammer's Rule",
+      "path": "GATE/Linear-Algebra/Crammer's Rule.md"
     },
     {
       "basename": "Machine Learning",

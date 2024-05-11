@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "d33b8c95bf1aacac",
+            "id": "c58ff6a94ec0e12b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Linear-Algebra/Determinants.md",
+                "file": "GATE/Linear-Algebra/Gaussian Elimination.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "c8ded822d2c529b4",
+            "id": "a16fdb368773dfd1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
+                "file": "GATE/Linear-Algebra/System of Linear Equations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -249,25 +249,24 @@
   },
   "active": "bae37664b67e0236",
   "lastOpenFiles": [
-    "attachments/Eigen Values and Eigen Vectors-20240511093730179.webp",
+    "GATE/Linear-Algebra/System of Linear Equations.md",
+    "GATE/Linear-Algebra/Gaussian Elimination.md",
     "GATE/Linear-Algebra/Linear Algebra.md",
-    "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
     "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
-    "GATE/Linear-Algebra/Determinants.md",
     "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
+    "GATE/Linear-Algebra/Determinants.md",
+    "attachments/Eigen Values and Eigen Vectors-20240511093730179.webp",
+    "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
     "attachments/Eigen Values and Eigen Vectors-20240510164620740.webp",
     "attachments/Eigen Values and Eigen Vectors-20240510164558947.webp",
     "attachments/Eigen Values and Eigen Vectors-20240510164545756.webp",
     "GATE/Linear-Algebra/Crammer's Rule.md",
-    "GATE/Linear-Algebra/Gaussian Elimination.md",
     "attachments/Gaussian Elimination-20240510103241379.webp",
     "attachments/Gaussian Elimination-20240510102359468.webp",
     "attachments/Gaussian Elimination-20240510101134742.webp",
     "attachments/Gaussian Elimination-20240510100414194.webp",
     "attachments/Gaussian Elimination-20240510095738278.webp",
-    "GATE/Linear-Algebra/System of Linear Equations.md",
     "attachments/Determinants-20240509112949647.webp",
-    "attachments/Determinants-20240509112335483.webp",
     "Machine-Learning/Machine Learning.md",
     "GATE/GATE-LOG.md",
     "GATE/Topics-Tracker-for-GATE.md",

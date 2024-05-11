@@ -7,24 +7,6 @@
       "key": "L"
     }
   ],
-  "editor:toggle-inline-math": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "/"
-    }
-  ],
-  "editor:insert-mathblock": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "M"
-    }
-  ],
   "table-editor-obsidian:table-control-bar": [],
   "editor:delete-paragraph": [],
   "custom-callout-plugin:insert-custom-callout": [
