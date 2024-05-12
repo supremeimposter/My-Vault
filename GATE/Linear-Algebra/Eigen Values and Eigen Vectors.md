@@ -233,3 +233,35 @@ The solution for $Ax = 0$ is the LI eigen vector corresponding to $\lambda = 0$,
 $$\text{GM}_{\lambda = 0} = \text{nullity}(A)$$
 For any value of $\lambda$, the system $(A - \lambda \mathcal{I})\; x = 0$ always has at least one free variable. There always exists infinitely many eigen vectors for any eigen value.
 
+---
+## Eigen Vectors of $AB$ and $BA$
+> [!attention] 
+> Non-square matrices are also discussed in this section.
+
+Let $\lambda$ be the non-zero eigen value of $AB$,
+$$
+(AB) \; x = \lambda \; x
+$$
+Since eigen vector is non-zero by definition and given that $\lambda \neq 0$, the RHS $\lambda x$ is non-zero.
+Since $\lambda x \neq 0$, $ABx \neq 0$ i.e. $Bx \neq 0$.
+$$
+\begin{split}
+AB \; x &= \lambda \; x \\
+B \; AB x &= B \; \lambda x \\
+BA\; (Bx) &= \lambda\;  (Bx) 
+\end{split}
+$$
+Since $Bx$ is non-zero, then it is definitely the eigen vector of $AB$.
+
+> [!important] 
+> $\lambda$ is the non-zero eigen value of $AB$ and $BA$. They share ***only*** the non-zero eigen values.
+
+> [!example] 
+> ![[Eigen Values and Eigen Vectors-20240513000307270.webp]]
+> ![[Eigen Values and Eigen Vectors-20240513000328237.webp]]
+> ![[Eigen Values and Eigen Vectors-20240513000344744.webp]]
+
+> [!caution] 
+> ![[Eigen Values and Eigen Vectors-20240513000535057.webp]]
+> $AB$ cannot have all 4 as non-zero eigen values, since $AB$ and $BA$ share the non-zero eigen values, $AB$ must have 1 zero eigen value.
+

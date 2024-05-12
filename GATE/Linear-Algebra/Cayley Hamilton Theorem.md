@@ -74,6 +74,4 @@ A^2 &= 4 A - 3\mathcal{I} \\
 {(A^2)}^2 = A^4 &= (4 A - 3\mathcal{I})(4 A - 3\mathcal{I}) \\
 \end{split}
 $$
-
-
-
+---
