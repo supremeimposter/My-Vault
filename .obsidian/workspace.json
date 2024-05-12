@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Linear-Algebra/Cayley Hamilton Theorem.md",
+                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Linear-Algebra/Cayley Hamilton Theorem.md",
+                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Linear-Algebra/Cayley Hamilton Theorem.md"
+                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
               }
             }
           },
@@ -260,10 +260,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "76b8d3c7770dee55",
+  "active": "bae37664b67e0236",
   "lastOpenFiles": [
-    "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
+    "attachments/Eigen Values and Eigen Vectors-20240513000535057.webp",
+    "attachments/Eigen Values and Eigen Vectors-20240513000344744.webp",
+    "attachments/Eigen Values and Eigen Vectors-20240513000328237.webp",
+    "attachments/Eigen Values and Eigen Vectors-20240513000307270.webp",
     "GATE/Linear-Algebra/Cayley Hamilton Theorem.md",
+    "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
     "attachments/Cayley Hamilton Theorem-20240512193937906.webp",
     "GATE/Linear-Algebra/Linear Algebra.md",
     "GATE/Linear-Algebra/Gaussian Elimination.md",
@@ -277,10 +281,7 @@
     "attachments/Eigen Values and Eigen Vectors-20240511093730179.webp",
     "attachments/Eigen Values and Eigen Vectors-20240510164620740.webp",
     "attachments/Eigen Values and Eigen Vectors-20240510164558947.webp",
-    "attachments/Eigen Values and Eigen Vectors-20240510164545756.webp",
     "GATE/Linear-Algebra/Crammer's Rule.md",
-    "attachments/Gaussian Elimination-20240510103241379.webp",
-    "attachments/Gaussian Elimination-20240510102359468.webp",
     "Machine-Learning/Machine Learning.md",
     "GATE/GATE-LOG.md",
     "GATE/Topics-Tracker-for-GATE.md",
