@@ -65,8 +65,11 @@ The column picture of the system is,
 
 There are three cases of solutions for a system of linear equations $Ax = b$,
 1. Unique Solution i.e. meet at a point
+![[System of Linear Equations-20240512100425113.webp]]
 2. No Solution i.e. never intersect at any point, they run parallel
+![[System of Linear Equations-20240512100436270.webp]]
 3. Infinitely many solutions i.e. collinear equations
+![[System of Linear Equations-20240512100513470.webp]]
 
 ---
 ## Understanding $Ax = B$
@@ -82,7 +85,7 @@ $$
 2. If the solution is non-trivial to the homogenous system i.e. $\exists c_i \not= 0$, then the columns of matrix $A$ are Linearly dependent.
 
 Consider a matrix $A_{m \times n}$ which contains column vectors from vector space $\mathbb{R}^m$ and the system $Ax = b$ where b is either zero or non-zero vector i.e. any vector $b$
-1. If $m \le n$, there is a matrix $A$ which gives solution to any $b$ i.e. matrix $A$ with $m$ or more LI vectors can bring solution to any vector $b$.
+1. If $m \le n$, there is a matrix $A$ which gives solution to any $b$ i.e. matrix $A$ with $m$ LI vectors can bring solution to any vector $b$.
 2. If $m \gt n$, there does not exist a matrix $A$ which gives solution to any $b$ i.e. Less than $m$ LI vectors cannot bring solution to any vector $b$.
 
 > [!tip] 
@@ -129,7 +132,7 @@ Solving a system of linear equations have a lot of applications e.g. House price
 
 Methods for solving $Ax = b$,
 1. [[Gaussian Elimination]]
-2. Finding $A^{-1}$ and multiplying with $b$
+2. Finding $A^{-1}$ and multiplying with $b$ i.e $x = A^{-1}b$
 3. [[Crammer's Rule]]
 
 ---

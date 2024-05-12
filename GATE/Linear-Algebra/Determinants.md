@@ -164,7 +164,7 @@ $$
 - Determinant evaluated across any row or column is zero.
 - $\det(c \; A) = c^n\; \det(A), c \in \mathbb{R}$ and $n$ is the dimension of $A$.
 - If the columns of a matrix are LD set of vectors, then its determinant is 0. Since a column can be represented as a linear combination of every other vector, then the determinant can be operated to have two similar columns making its determinant 0.
-
+- If a matrix $A$ is singular, then $\det(A) = 0$.
 
 ## Calculating Determinants
 1. Calculate using permutations.

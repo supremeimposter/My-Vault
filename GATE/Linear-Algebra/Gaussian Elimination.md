@@ -11,7 +11,7 @@ tags:
   - LinearAlgebra/LinearEquations
 ---
 # Gaussian Elimination
-Gaussian Elimination is an algorithm for solving system of linear equations.
+Gaussian Elimination (or Row Reduction) is an algorithm for solving system of linear equations.
 
 ```merm
 flowchart LR
@@ -58,7 +58,7 @@ Pivots can never be 0's.
 > $x$ and $z$ are pivot variables
 > $y$ and $t$ are free variables
 
-Pivot columns are convenient vectors in reduced row echelon form.
+Pivot columns in reduced row echelon form of a matrix of order $n$ are convenient vectors of $\mathbb{R}^n$.
 
 Free column is always linearly dependant on pivot columns. If a matrix has a free column, then the column vectors form a LD set. 
 
@@ -84,7 +84,7 @@ These operations are performed on the rows of a matrix.
 >> $R_1 \rightarrow c_1 R_1 + c_2 R_2$ (This affects the value of the determinant)
 >> $R_1 \rightarrow R_1 + c_2 R_2$ (This does not affect the value of the determinant)
 
-Though elementary row operations are applied on a matrix, the matrix maintains its linear dependecy between its columns. Even after applying elementary row operations, Number of LI columns is equal to number of LI rows.
+Though elementary row operations are applied on a matrix, the matrix maintains its linear dependecy between its columns. Even after applying elementary row operations, number of LI columns is equal to number of LI rows.
 
 ## Rank of a Matrix
 
@@ -114,7 +114,10 @@ A --> C[Nullity n - r]
 ```
 
 On reducing a matrix to echelon form, if there are no free variables i.e. only pivot columns, then the system has a unique solution.
-If there are free variables, then assign a constant to the free variables.
+If there are free variables, then the number of LI solutions is the number of free variables.
+
+> [!NOTE] 
+> Nullity = Dimension of Null Space
 
 ## Solutions to Linear System
 
@@ -122,7 +125,12 @@ A linear system is consistent, if and only if an echelon form of a matrix has no
 
 If a linear system is consistent, then the solution set contains either 
 1. Unique solution, where there are no free variables.
-2. Infinitely many solutions, where there are at least one free variable.
+2. Infinitely many solutions, where there are at least one free variable. 
+
+> [!NOTE] 
+> There are no 2 or 3 solutions to a system. If there is some non-trivial solution, then it means infinitely many solutions.
+> There are only unique or infinitely many solutions.
+> There is no unique non-trivial solution to homogenous system.
 
 ```dot
 graph G {
@@ -157,6 +165,7 @@ In case of infinitely many solutions, the solution to the system is in parametri
 > ![[Gaussian Elimination-20240503222603929.webp]]
 
 Non-homogenous system have a constant vector in their parametric form of the solution.
+Non-homogenous system does not have a solution iff $[0\;\cdots\; 0 \; b]$ exist.
 
 > [!header] Rank of matrix $A$ and augmented matrix $A \mid b$
 

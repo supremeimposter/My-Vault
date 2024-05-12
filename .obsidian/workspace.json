@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "c58ff6a94ec0e12b",
+            "id": "4ee939c3eb8ec1d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "76b8d3c7770dee55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Linear-Algebra/Cayley Hamilton Theorem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -89,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rank",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -144,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
+                "file": "GATE/Linear-Algebra/Cayley Hamilton Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
+                "file": "GATE/Linear-Algebra/Cayley Hamilton Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
+                "file": "GATE/Linear-Algebra/Cayley Hamilton Theorem.md"
               }
             }
           },
@@ -247,26 +260,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bae37664b67e0236",
+  "active": "76b8d3c7770dee55",
   "lastOpenFiles": [
-    "GATE/Linear-Algebra/System of Linear Equations.md",
-    "GATE/Linear-Algebra/Gaussian Elimination.md",
-    "GATE/Linear-Algebra/Linear Algebra.md",
     "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
+    "GATE/Linear-Algebra/Cayley Hamilton Theorem.md",
+    "attachments/Cayley Hamilton Theorem-20240512193937906.webp",
+    "GATE/Linear-Algebra/Linear Algebra.md",
+    "GATE/Linear-Algebra/Gaussian Elimination.md",
+    "GATE/Linear-Algebra/System of Linear Equations.md",
+    "attachments/System of Linear Equations-20240512100513470.webp",
+    "attachments/System of Linear Equations-20240512100436270.webp",
+    "attachments/System of Linear Equations-20240512100425113.webp",
     "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
+    "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
     "GATE/Linear-Algebra/Determinants.md",
     "attachments/Eigen Values and Eigen Vectors-20240511093730179.webp",
-    "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
     "attachments/Eigen Values and Eigen Vectors-20240510164620740.webp",
     "attachments/Eigen Values and Eigen Vectors-20240510164558947.webp",
     "attachments/Eigen Values and Eigen Vectors-20240510164545756.webp",
     "GATE/Linear-Algebra/Crammer's Rule.md",
     "attachments/Gaussian Elimination-20240510103241379.webp",
     "attachments/Gaussian Elimination-20240510102359468.webp",
-    "attachments/Gaussian Elimination-20240510101134742.webp",
-    "attachments/Gaussian Elimination-20240510100414194.webp",
-    "attachments/Gaussian Elimination-20240510095738278.webp",
-    "attachments/Determinants-20240509112949647.webp",
     "Machine-Learning/Machine Learning.md",
     "GATE/GATE-LOG.md",
     "GATE/Topics-Tracker-for-GATE.md",
@@ -285,7 +299,6 @@
     "GATE/Algorithms/Graph Algorithms/Intuition for Graph Search Methods.md",
     "GATE/Algorithms/Graph Algorithms/Representation of Graph.md",
     "GATE/Algorithms/Graph Algorithms",
-    "GATE/Algorithms/Sorts/Linear Time Sorting Algorithms.md",
     "GATE/Algorithms/Sorts",
     "GATE/Calculus",
     "GATE/Algorithms/Maximum-and-Minimum",

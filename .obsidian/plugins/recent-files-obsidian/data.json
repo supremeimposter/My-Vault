@@ -1,32 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Cayley Hamilton Theorem",
+      "path": "GATE/Linear-Algebra/Cayley Hamilton Theorem.md"
+    },
+    {
       "basename": "Eigen Values and Eigen Vectors",
       "path": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
-    },
-    {
-      "basename": "System of Linear Equations",
-      "path": "GATE/Linear-Algebra/System of Linear Equations.md"
-    },
-    {
-      "basename": "Gaussian Elimination",
-      "path": "GATE/Linear-Algebra/Gaussian Elimination.md"
     },
     {
       "basename": "Linear Algebra",
       "path": "GATE/Linear-Algebra/Linear Algebra.md"
     },
     {
+      "basename": "Gaussian Elimination",
+      "path": "GATE/Linear-Algebra/Gaussian Elimination.md"
+    },
+    {
+      "basename": "System of Linear Equations",
+      "path": "GATE/Linear-Algebra/System of Linear Equations.md"
+    },
+    {
       "basename": "Introduction to Linear Algebra",
       "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
     },
     {
-      "basename": "Determinants",
-      "path": "GATE/Linear-Algebra/Determinants.md"
-    },
-    {
       "basename": "Linearly Dependent and Independent Vectors",
       "path": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
+    },
+    {
+      "basename": "Determinants",
+      "path": "GATE/Linear-Algebra/Determinants.md"
     },
     {
       "basename": "Crammer's Rule",
@@ -195,10 +199,6 @@
     {
       "basename": "Time Complexity for Recursive Programs",
       "path": "GATE/Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
-    },
-    {
-      "basename": "Masters Theorem",
-      "path": "GATE/Algorithms/Recurrence-Relation/Masters Theorem.md"
     }
   ],
   "omittedPaths": [

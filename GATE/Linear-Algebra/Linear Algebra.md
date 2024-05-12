@@ -14,6 +14,14 @@ tags:
 - [[Determinants]]
 - [[Crammer's Rule]]
 - [[Eigen Values and Eigen Vectors]]
+- [[Cayley Hamilton Theorem]]
+
+
+---
+# Revision
+
+> [!pdf] Lec-9-live-session-5
+
 
 ---
 

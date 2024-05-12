@@ -180,4 +180,8 @@ If you start with $n$ LI vectors, then you willl always end up with at most $n$ 
 - If there are more than $n$ vectors from $\mathbb{R}_n$ in a set $Q$, then the set is definitely LD. We have to check for LI or LD set, only if we have less than or equal to $n$ vectors.
 - Any $n$ LI vectors from $\mathbb{R}_n$ can fill the space in $\mathbb{R}_n$.
 
+> [!NOTE]
+> To find if the given vectors are LI or LD, just put all the vectors in a matrix and find the [[Gaussian Elimination#Rank of a Matrix|rank]] of the matrix
+
 ---
+
