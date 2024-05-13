@@ -46,4 +46,12 @@ $$
 
 ![[Introduction to Linear Algebra-20240503124329792.webp]]
 
+If the dot product of two matrices $A$ and $B$ is a zero matrix, then it does not mean that $A$ or $B$ is a zero matrix.
+![[Introduction to Linear Algebra-20240513170745538.webp]]
+
+The dot product of two column vectors $a$ and $b$ can be written as, 
+$$
+a . b = a^T . b
+$$
+
 ---

@@ -265,3 +265,73 @@ Since $Bx$ is non-zero, then it is definitely the eigen vector of $AB$.
 > ![[Eigen Values and Eigen Vectors-20240513000535057.webp]]
 > $AB$ cannot have all 4 as non-zero eigen values, since $AB$ and $BA$ share the non-zero eigen values, $AB$ must have 1 zero eigen value.
 
+Since $AB$ and $BA$ share the non-zero eigen values, $\text{trace}(AB) = \text{trace}(BA)$, even if $A$ and $B$ are not square matrices.
+
+---
+## Eigen Values of Powers of $A$
+
+If $\lambda$ is the eigen value of $A$ then, what is the eigen value of $A^k$?
+$$
+\begin{split}
+Ax &= \lambda x \\ 
+\text{Multiplying by } A &\text{ on both sides,} \\
+A \cdot Ax &= A \cdot \lambda x \\
+A \cdot Ax &= \lambda \cdot (A x) \\
+A^2x &= \lambda \cdot (\lambda x) \\
+A^2x &= \lambda^2 x \\
+\end{split}
+$$
+Similarly for the power $k$ of $A$,
+$$
+A^{k}x = \lambda^{k} x
+$$
+**For the matrix $A^k$, the eigen value is $\lambda^k$ and $x$ is the eigen vector.**
+
+> [!example] 
+> $\lambda^5$ is the eigen value of the matrix $A^5$
+> $\frac{1}{\lambda}$ is the eigen value of the matrix $A^{-1}$
+> $\lambda^{120}$ is the eigen value of the matrix $A^{120}$
+> $\frac{1}{\lambda^3}$ is the eigen value of the matrix $A^{-3}$
+
+If one of the eigen values of the matrix $A$ is 0, then the matrix $A$ is singular i.e. $\det(A) = 0$, then $A^{-1}$ does not exist.
+
+![[Eigen Values and Eigen Vectors-20240513121821741.webp]]
+In general, if $\lambda$ is the eigen value of $A$, just substitute the matrix with the eigen value.
+$$
+A^k + A^{k - 1} + A^{-1} \implies \lambda^k + \lambda^{k - 1} + \lambda^{-1}
+$$
+
+> [!NOTE] 
+> This seems similar to [[Cayley Hamilton Theorem|Cayley Hamilton Theorem]]
+
+The eigen values of a matrix $A$ are $\{ \lambda_{1}, \lambda_{2}, \dots,  \lambda_{n} \}$
+The eigen values of $A^k$ are $\{ \lambda_{1}^{k}, \lambda_{2}^{k}, \dots,  \lambda_{n}^{k} \}$
+If $A$ is invertible, then eigen values of $A^{-1}$ are $\{\frac{1}{\lambda_{1}}, \frac{1}{\lambda_{2}}, \dots, \frac{1}{\lambda_{n}}\}$
+The eigen values of $(A + \mathcal{I})$ are $\{ \lambda_{1} + 1, \lambda_{2} + 1, \dots,  \lambda_{n} + 1 \}$
+
+---
+> [!header] Do we always have eigen values and eigen vectors?
+
+It is not necessary to always have eigen values and eigen vectors for a matrix, it depends upon the matrix. 
+Eigen values and eigen vectors can be imaginary.
+
+> [!example] 
+> ````col
+> ```col-md
+> flexGrow=1
+> ===
+> ![[Eigen Values and Eigen Vectors-20240513130640947.webp]]
+> ```
+> ```col-md
+> flexGrow=1
+> ===
+> ![[Eigen Values and Eigen Vectors-20240513130649781.webp]]
+> ```
+> ````
+> 
+
+![[Eigen Values and Eigen Vectors-20240513131300841.webp]]
+
+If $(2 + i)$ is an eigen vector, then its conjugate $(2 - i)$ is also an eigen vector.
+
+---

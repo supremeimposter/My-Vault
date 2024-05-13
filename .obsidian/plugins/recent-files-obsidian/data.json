@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "LU Decomposition",
+      "path": "GATE/Linear-Algebra/LU Decomposition.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Instruction Format",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
+    },
+    {
+      "basename": "Instruction Execution Cycle",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
+    },
+    {
+      "basename": "Instruction Type",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
+    },
+    {
+      "basename": "Instruction Set Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
+    },
+    {
+      "basename": "Memory Interfacing and Expansion",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
+    },
+    {
+      "basename": "Addressing Modes",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
+    },
+    {
+      "basename": "Linear Algebra",
+      "path": "GATE/Linear-Algebra/Linear Algebra.md"
+    },
+    {
+      "basename": "System of Linear Equations",
+      "path": "GATE/Linear-Algebra/System of Linear Equations.md"
+    },
+    {
       "basename": "Eigen Values and Eigen Vectors",
       "path": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
     },
@@ -9,16 +49,8 @@
       "path": "GATE/Linear-Algebra/Cayley Hamilton Theorem.md"
     },
     {
-      "basename": "Linear Algebra",
-      "path": "GATE/Linear-Algebra/Linear Algebra.md"
-    },
-    {
       "basename": "Gaussian Elimination",
       "path": "GATE/Linear-Algebra/Gaussian Elimination.md"
-    },
-    {
-      "basename": "System of Linear Equations",
-      "path": "GATE/Linear-Algebra/System of Linear Equations.md"
     },
     {
       "basename": "Introduction to Linear Algebra",
@@ -55,10 +87,6 @@
     {
       "basename": "Vault Index",
       "path": "Vault Index.md"
-    },
-    {
-      "basename": "Memory Interfacing and Expansion",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
     },
     {
       "basename": "Aptitude",
@@ -171,34 +199,6 @@
     {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
-    },
-    {
-      "basename": "Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
-    },
-    {
-      "basename": "Introduction to Digital Logic",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
-    },
-    {
-      "basename": "Divide and Conquer on Arrays",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer on Arrays.md"
-    },
-    {
-      "basename": "Divide and Conquer",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Divide and Conquer.md"
-    },
-    {
-      "basename": "Data Structures",
-      "path": "GATE/DataStructures/Data Structures.md"
-    },
-    {
-      "basename": "Time Complexity for Recursive Programs",
-      "path": "GATE/Algorithms/Recurrence-Relation/Time Complexity for Recursive Programs.md"
     }
   ],
   "omittedPaths": [

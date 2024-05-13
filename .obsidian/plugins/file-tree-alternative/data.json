@@ -1,6 +1,6 @@
 {
   "openViewOnStart": true,
-  "ribbonIcon": true,
+  "ribbonIcon": false,
   "showRootFolder": true,
   "showFilesFromSubFolders": true,
   "searchFunction": true,
@@ -8,6 +8,9 @@
   "showFilesFromSubFoldersButton": true,
   "revealActiveFileButton": false,
   "excludedExtensions": "",
+  "excludedFolders": "attachments, templates",
+  "hideAttachments": false,
+  "attachmentsFolderName": "attachments",
   "folderIcon": "typicon",
   "folderCount": true,
   "folderCountOption": "notes",
@@ -21,7 +24,7 @@
   "createdYaml": false,
   "fileNameIsHeader": false,
   "folderNote": false,
-  "deleteFileOption": "system-trash",
+  "deleteFileOption": "trash",
   "showFileNameAsFullPath": false,
   "bookmarksEvents": false
 }

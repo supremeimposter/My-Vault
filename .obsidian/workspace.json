@@ -21,51 +21,12 @@
             }
           },
           {
-            "id": "4ee939c3eb8ec1d9",
+            "id": "9088e73bbe4975eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Linear-Algebra/Gaussian Elimination.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a16fdb368773dfd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Linear-Algebra/System of Linear Equations.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bae37664b67e0236",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "76b8d3c7770dee55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Linear-Algebra/Cayley Hamilton Theorem.md",
+                "file": "GATE/Linear-Algebra/LU Decomposition.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,15 +89,14 @@
             }
           },
           {
-            "id": "f38cbaf23fd65605",
+            "id": "4ab39c5ceada83fc",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
+                "file": "GATE/Linear-Algebra/LU Decomposition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
+                "file": "GATE/Linear-Algebra/LU Decomposition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
+                "file": "GATE/Linear-Algebra/LU Decomposition.md"
               }
             }
           },
@@ -253,52 +213,51 @@
       "command-palette:Open command palette": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "map-of-content:Update Map of Content": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "bae37664b67e0236",
+  "active": "9088e73bbe4975eb",
   "lastOpenFiles": [
+    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
+    "GATE/Linear-Algebra/LU Decomposition.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
+    "GATE/Linear-Algebra/Linear Algebra.md",
+    "GATE/Linear-Algebra/System of Linear Equations.md",
+    "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
+    "attachments/Eigen Values and Eigen Vectors-20240513131300841.webp",
+    "attachments/Eigen Values and Eigen Vectors-20240513130649781.webp",
+    "attachments/Eigen Values and Eigen Vectors-20240513130640947.webp",
+    "attachments/Eigen Values and Eigen Vectors-20240513121821741.webp",
     "attachments/Eigen Values and Eigen Vectors-20240513000535057.webp",
     "attachments/Eigen Values and Eigen Vectors-20240513000344744.webp",
     "attachments/Eigen Values and Eigen Vectors-20240513000328237.webp",
     "attachments/Eigen Values and Eigen Vectors-20240513000307270.webp",
     "GATE/Linear-Algebra/Cayley Hamilton Theorem.md",
-    "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
     "attachments/Cayley Hamilton Theorem-20240512193937906.webp",
-    "GATE/Linear-Algebra/Linear Algebra.md",
     "GATE/Linear-Algebra/Gaussian Elimination.md",
-    "GATE/Linear-Algebra/System of Linear Equations.md",
     "attachments/System of Linear Equations-20240512100513470.webp",
-    "attachments/System of Linear Equations-20240512100436270.webp",
-    "attachments/System of Linear Equations-20240512100425113.webp",
     "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
     "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
     "GATE/Linear-Algebra/Determinants.md",
-    "attachments/Eigen Values and Eigen Vectors-20240511093730179.webp",
-    "attachments/Eigen Values and Eigen Vectors-20240510164620740.webp",
-    "attachments/Eigen Values and Eigen Vectors-20240510164558947.webp",
     "GATE/Linear-Algebra/Crammer's Rule.md",
     "Machine-Learning/Machine Learning.md",
     "GATE/GATE-LOG.md",
     "GATE/Topics-Tracker-for-GATE.md",
     "GATE/GATE-CS.md",
     "Vault Index.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
     "GATE/Aptitude/Aptitude.md",
     "GATE/OperatingSystems/Operating Systems.md",
     "GATE/Pending Lectures.md",
     "GATE/CompilerDesign/Compiler Design.md",
-    "GATE/ComputerNetworks/Computer Networks.md",
-    "GATE/Algorithms/Algorithms.md",
     "GATE/Algorithms/Dynamic-Programming",
-    "GATE/Algorithms/Graph Algorithms/Depth First Search.md",
-    "GATE/DiscreteMathematics/Discrete Mathematics.md",
-    "GATE/Algorithms/Graph Algorithms/Intuition for Graph Search Methods.md",
-    "GATE/Algorithms/Graph Algorithms/Representation of Graph.md",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",
     "GATE/Calculus",
