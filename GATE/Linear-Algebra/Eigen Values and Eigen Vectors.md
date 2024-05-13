@@ -113,6 +113,7 @@ Since $\mid A - \lambda \mathcal{I} \mid\; = 0$, rank $(A - \lambda \mathcal{I})
 
 > [!caution] 
 > Matrix $A$ and $(A - \lambda \mathcal{I})$ are not the same.
+> To solve for $\lambda$, $(A - \lambda \mathcal{I})$ does not have to be in echelon form.
 
 For a matrix of order $n$ there are only $n$ eigen values (whether distinct or repeating).
 The degree of the characteristic equation is the order of the given matrix.
