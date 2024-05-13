@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Eigen Values and Eigen Vectors",
+      "path": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
+    },
+    {
+      "basename": "Determinants",
+      "path": "GATE/Linear-Algebra/Determinants.md"
+    },
+    {
+      "basename": "Linear Algebra",
+      "path": "GATE/Linear-Algebra/Linear Algebra.md"
+    },
+    {
+      "basename": "Introduction to Linear Algebra",
+      "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
+    },
+    {
       "basename": "LU Decomposition",
       "path": "GATE/Linear-Algebra/LU Decomposition.md"
+    },
+    {
+      "basename": "Matrices",
+      "path": "GATE/Linear-Algebra/Matrices.md"
     },
     {
       "basename": "Computer Organization and Architecture",
@@ -33,16 +53,8 @@
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
     },
     {
-      "basename": "Linear Algebra",
-      "path": "GATE/Linear-Algebra/Linear Algebra.md"
-    },
-    {
       "basename": "System of Linear Equations",
       "path": "GATE/Linear-Algebra/System of Linear Equations.md"
-    },
-    {
-      "basename": "Eigen Values and Eigen Vectors",
-      "path": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
     },
     {
       "basename": "Cayley Hamilton Theorem",
@@ -53,16 +65,8 @@
       "path": "GATE/Linear-Algebra/Gaussian Elimination.md"
     },
     {
-      "basename": "Introduction to Linear Algebra",
-      "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
-    },
-    {
       "basename": "Linearly Dependent and Independent Vectors",
       "path": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
-    },
-    {
-      "basename": "Determinants",
-      "path": "GATE/Linear-Algebra/Determinants.md"
     },
     {
       "basename": "Crammer's Rule",
@@ -195,10 +199,6 @@
     {
       "basename": "Calculus",
       "path": "GATE/Calculus/Calculus.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
     }
   ],
   "omittedPaths": [
