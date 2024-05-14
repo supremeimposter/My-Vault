@@ -11,7 +11,8 @@ tags:
   - DigitalLogic/NumberSystem
 ---
 # Number System
-
+Number system is a simple way to count things or ways to represent numbers.
+The base of the number system is defined as the total number of symbols (digits) available in that number system.
 
 ## Base r System
 

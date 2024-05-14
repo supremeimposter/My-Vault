@@ -12,6 +12,8 @@ tags:
 ---
 # Binary System
 
+![[Binary System-20240514133643499.webp]]
+
 ## Operations in Binary
 
 ### Binary Addition
