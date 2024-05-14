@@ -11,17 +11,32 @@ tags:
   - DigitalLogic/BooleanAlgebra
 ---
 # Boolean Function
+A boolean algebraic function can be expressed algebraically with binary variables, the logic operation symbols, paranthesis and equal sign.
 
-- A boolean expression is same as a boolean function.
+> [!question] Why boolean expression is same as a boolean function?
+> 
+> In boolean functions and boolean expression, the domain and the co-domain are the same
+> 
+> ![[Boolean Function-20240514174816504.webp]]
+> ![[Boolean Function-20240514174831630.webp]]
 
-> [!question] 
-> Why boolean expression is same as a boolean function?
+It is never possible for a boolean function to be equal to its complement i.e. $f \not= \overline{f}$ 
+For a function $f$, the complement $\overline{f}$ and the dual $f^d$ can be considered as functions themselves.
 
-- It is never possible for a boolean function to be equal to its complement i.e. $f \not= \overline{f}$
-- For a function $f$, the complement $\overline{f}$ and the dual $f^d$ can be considered as functions themselves.
-- `0` and `1` are constant boolean functions and **not** literals.
+> [!important] 
+> `0` and `1` are constant boolean functions and **not** literals.
 
-- Consider a boolean equation $x_1 = x_2$, then $x_1^d = x_2^d$ and $\overline{x_1} = \overline{x_2}$
+For a boolean equation $f_1 = f_2$, then
+$$
+\begin{split}
+\text{dual can be applied on both the sides}, \\
+f_1^d = f_2^d \\ \\
+\text{complement can be applied on both the sides}, \\
+\overline{f_1} = \overline{f_2}
+\end{split}
+$$
+
+![[Boolean Function-20240514173948737.webp]]
 
 > [!header] Number of Different Boolean Functions for $n$ variables
 

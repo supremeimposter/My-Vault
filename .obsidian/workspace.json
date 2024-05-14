@@ -4,16 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "55360042c3088759",
+        "id": "a364008f805d7950",
         "type": "tabs",
         "children": [
           {
-            "id": "988a31a1ec382850",
+            "id": "d0384f8c6636828a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Digital-Logic/Digital Logic.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "c0282a5ef839d7b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Linear-Algebra/Linear Algebra.md",
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +36,12 @@
             }
           },
           {
-            "id": "fc03c50830f84b97",
+            "id": "dcb0ba0a71be7773",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Linear-Algebra/Determinants.md",
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +49,12 @@
             }
           },
           {
-            "id": "7fcf682786948173",
+            "id": "ac255dc33985b3b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -131,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
               }
             }
           },
@@ -233,22 +248,32 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7fcf682786948173",
+  "active": "dcb0ba0a71be7773",
   "lastOpenFiles": [
-    "GATE/Linear-Algebra/Determinants.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
+    "attachments/Boolean Function-20240514174831630.webp",
+    "attachments/Boolean Function-20240514174816504.webp",
+    "attachments/Boolean Function-20240514173948737.webp",
+    "attachments/Boolean Function-20240514173915972.webp",
+    "GATE/Digital-Logic/Digital Logic.md",
+    "attachments/Boolean Algebra-20240514171833320.webp",
+    "attachments/Boolean Algebra-20240514171753690.webp",
+    "attachments/Boolean Algebra-20240514171552071.webp",
+    "attachments/Boolean Algebra-20240514171428997.webp",
+    "attachments/Boolean Algebra-20240514171358684.webp",
+    "attachments/Boolean Algebra-20240514170046032.webp",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
+    "GATE/Digital-Logic/Number Systems/Binary System.md",
+    "GATE/Digital-Logic/Number Systems/Number Systems.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
     "GATE/Linear-Algebra/Linear Algebra.md",
+    "GATE/Linear-Algebra/Determinants.md",
+    "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
     "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
     "GATE/Linear-Algebra/LU Decomposition.md",
     "GATE/Linear-Algebra/Matrices.md",
-    "attachments/Matrices-20240513175833962.webp",
-    "attachments/Matrices-20240513175817366.webp",
-    "attachments/Matrices-20240513175757997.webp",
-    "attachments/Matrices-20240513171220211.webp",
-    "attachments/Matrices-20240513171203086.webp",
-    "attachments/Matrices-20240513171053907.webp",
-    "attachments/Matrices-20240513171038909.webp",
-    "attachments/Introduction to Linear Algebra-20240513170745538.webp",
-    "attachments/LU Decomposition-20240513163147435.webp",
     "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
@@ -257,19 +282,9 @@
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
     "GATE/Linear-Algebra/System of Linear Equations.md",
-    "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
-    "attachments/Eigen Values and Eigen Vectors-20240513131300841.webp",
     "GATE/Linear-Algebra/Cayley Hamilton Theorem.md",
     "GATE/Linear-Algebra/Gaussian Elimination.md",
     "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
-    "GATE/Linear-Algebra/Crammer's Rule.md",
-    "Machine-Learning/Machine Learning.md",
-    "GATE/GATE-LOG.md",
-    "GATE/Topics-Tracker-for-GATE.md",
-    "GATE/GATE-CS.md",
-    "Vault Index.md",
-    "GATE/Aptitude/Aptitude.md",
-    "GATE/OperatingSystems/Operating Systems.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",

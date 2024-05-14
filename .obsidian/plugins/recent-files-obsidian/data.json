@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Eigen Values and Eigen Vectors",
-      "path": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
+      "basename": "Laws of Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
+    },
+    {
+      "basename": "Boolean Function",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
+    },
+    {
+      "basename": "Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Decimal and Binary System",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
+    },
+    {
+      "basename": "Binary System",
+      "path": "GATE/Digital-Logic/Number Systems/Binary System.md"
+    },
+    {
+      "basename": "Number Systems",
+      "path": "GATE/Digital-Logic/Number Systems/Number Systems.md"
+    },
+    {
+      "basename": "Introduction to Digital Logic",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
+    },
+    {
+      "basename": "Linear Algebra",
+      "path": "GATE/Linear-Algebra/Linear Algebra.md"
     },
     {
       "basename": "Determinants",
       "path": "GATE/Linear-Algebra/Determinants.md"
     },
     {
-      "basename": "Linear Algebra",
-      "path": "GATE/Linear-Algebra/Linear Algebra.md"
+      "basename": "Eigen Values and Eigen Vectors",
+      "path": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
     },
     {
       "basename": "Introduction to Linear Algebra",
@@ -167,38 +199,6 @@
     {
       "basename": "Binary Search",
       "path": "GATE/Algorithms/Divide-and-Conquer/Binary Search.md"
-    },
-    {
-      "basename": "Select Algorithm",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Select Algorithm.md"
-    },
-    {
-      "basename": "Merge Sort",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md"
-    },
-    {
-      "basename": "Matrix Multiplication",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Matrix Multiplication.md"
-    },
-    {
-      "basename": "Exponent of a Number",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Exponent of a Number.md"
-    },
-    {
-      "basename": "Closest Pairs",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Closest Pairs.md"
-    },
-    {
-      "basename": "Counting Inversion",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Counting Inversion.md"
-    },
-    {
-      "basename": "Fundamentals of Computer Science",
-      "path": "GATE/Fundamentals of Computer Science/Fundamentals of Computer Science.md"
-    },
-    {
-      "basename": "Calculus",
-      "path": "GATE/Calculus/Calculus.md"
     }
   ],
   "omittedPaths": [

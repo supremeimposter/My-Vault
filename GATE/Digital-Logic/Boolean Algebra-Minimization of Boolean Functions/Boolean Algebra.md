@@ -5,7 +5,7 @@ lecture: "4"
 date: 2024-02-18T20:32:00
 version:
   - DL-24
-last-revision: 
+last-revision: 2024-05-14T17:31:00
 notes-taken: false
 tags:
   - DigitalLogic/BooleanAlgebra
@@ -46,11 +46,14 @@ AND gate is used to perform AND operation.
 ![[Boolean Algebra-20240514140352187.webp]]
 
 ## Boolean Expression
+A boolean expression is a set of literals (possibly repeats) combined with logic operations (and possibly ordered by paranthesis).
+
 - `0` and `1` are boolean expressions.
 - Every Boolean variable and its complement is a boolean expression.
 - Each boolean expression corresponds to a circuit of logic gates. 
 ![[Boolean Algebra-20240514123037600.webp]]
 - The input of a digital circuit are the boolean variables and the output of the digital circuit is the boolean expression.
+- Boolean expression on application of inputs result in either `0` or `1`.
 ![[Boolean Algebra-20240514122856693.webp]]
 
 > [!example] 
@@ -63,9 +66,15 @@ AND gate is used to perform AND operation.
 
 Each expression is evaluated by substituting a value of 0 or 1 in each of the boolean variable.
 
+> [!convention] 
+> $a = 0$ is written as $\overline{a}$
+> $a = 1$ is written as $a$
+
+![[Boolean Function-20240514173915972.webp]]
+
 ---
 ## Literal
-- Each appearance of a variable and its complement in an expression is referred to as a literal.
+- Each appearance of a variable or its complement in an expression is referred to as a literal.
 - Literal count tells how big an expression is.
 - $x$ is a boolean variable and its complement $\overline{x}$ is not a variable. But both are literals.
 
@@ -76,7 +85,8 @@ Each expression is evaluated by substituting a value of 0 or 1 in each of the bo
 ## Truth Table
 
 > [!tip] 
-The standard form of truth table is to write the rows in order of the equivalent decimal value.
+> The standard form of truth table is to write the rows in order of the equivalent decimal value.
+> ![[Boolean Algebra-20240514171833320.webp]]
 
 The truth table specifies the values of a boolean expression for every possible combination of values of the variables in the expression.
 
@@ -96,12 +106,38 @@ The truth table specifies the values of a boolean expression for every possible 
 > [!tip] NAND and NOR are called Universal Gates
 
 ### EXOR
+![[Boolean Algebra-20240514165208565.webp]]
+$$
+\begin{split}
+a \oplus b &= 1, \text{ iff } a \not= b \\
+a \oplus b &= \overline{a}b + a\overline{b}
+\end{split}
+$$
 
-- $a \oplus b = 1$ iff $a \not= b$
+![[Boolean Algebra-20240514165554710.webp]]
+
+![[Boolean Algebra-20240514171428997.webp|EXOR gate]]
 
 ### EXNOR
+![[Boolean Algebra-20240514170029779.webp]]
 
-- $\overline{a \oplus b} = 1$ iff $a = b$
+EXNOR is also called as equivalence operation ($a \equiv b$)
+
+![[Boolean Algebra-20240514171552071.webp]]
+$$
+\begin{split}
+\overline{a \oplus b} = a ⊙ b &= 1, \text{ iff } a = b \\
+a ⊙ b &= ab + \overline{ab}
+\end{split}
+$$
+
+![[Boolean Algebra-20240514170046032.webp]]
+
+![[Boolean Algebra-20240514171358684.webp|EXNOR gate]]
+
+
+> [!important] 
+> Every logical gate can have multiple inputs.
 
 ---
 
