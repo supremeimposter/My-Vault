@@ -16,12 +16,11 @@ A boolean algebraic function can be expressed algebraically with binary variable
 > [!question] Why boolean expression is same as a boolean function?
 > 
 > In boolean functions and boolean expression, the domain and the co-domain are the same
+> **Domain** : Input combinations of variables in boolean expression or function
+> **Co-domain** : $\{0, 1\}$
 > 
 > ![[Boolean Function-20240514174816504.webp]]
 > ![[Boolean Function-20240514174831630.webp]]
-
-It is never possible for a boolean function to be equal to its complement i.e. $f \not= \overline{f}$ 
-For a function $f$, the complement $\overline{f}$ and the dual $f^d$ can be considered as functions themselves.
 
 > [!important] 
 > `0` and `1` are constant boolean functions and **not** literals.
@@ -37,6 +36,9 @@ f_1^d = f_2^d \\ \\
 $$
 
 ![[Boolean Function-20240514173948737.webp]]
+
+It is never possible for a boolean function to be equal to its complement i.e. $f \not= \overline{f}$ 
+For a function $f$, the complement $\overline{f}$ and the dual $f^d$ are functions themselves.
 
 > [!header] Number of Different Boolean Functions for $n$ variables
 

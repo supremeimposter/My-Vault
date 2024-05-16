@@ -23,6 +23,19 @@
             }
           },
           {
+            "id": "38792869f5f867c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c0282a5ef839d7b9",
             "type": "leaf",
             "state": {
@@ -49,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -241,6 +254,7 @@
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
+    "attachments/Boolean Algebra-20240516185855611.webp",
     "attachments/Boolean Function-20240514174831630.webp",
     "attachments/Boolean Function-20240514174816504.webp",
     "attachments/Boolean Function-20240514173948737.webp",
@@ -250,7 +264,6 @@
     "attachments/Boolean Algebra-20240514171552071.webp",
     "attachments/Boolean Algebra-20240514171428997.webp",
     "attachments/Boolean Algebra-20240514171358684.webp",
-    "attachments/Boolean Algebra-20240514170046032.webp",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
     "GATE/Digital-Logic/Number Systems/Binary System.md",
     "GATE/Digital-Logic/Number Systems/Number Systems.md",

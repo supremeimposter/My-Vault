@@ -51,6 +51,8 @@ A boolean expression is a set of literals (possibly repeats) combined with logic
 - `0` and `1` are boolean expressions.
 - Every Boolean variable and its complement is a boolean expression.
 - Each boolean expression corresponds to a circuit of logic gates. 
+![[Boolean Algebra-20240516185855611.webp]]
+
 ![[Boolean Algebra-20240514123037600.webp]]
 - The input of a digital circuit are the boolean variables and the output of the digital circuit is the boolean expression.
 - Boolean expression on application of inputs result in either `0` or `1`.
