@@ -63,7 +63,7 @@ A boolean expression is a set of literals (possibly repeats) combined with logic
 > ![[Boolean Algebra-20240218165135808.webp]]
 
 > [!note] Precedence of Operators (When paranthesis is not specified)
-> NOT > AND > OR
+> () > NOT > AND > OR
 > ![[Boolean Algebra-20240514125110263.webp]]
 
 Each expression is evaluated by substituting a value of 0 or 1 in each of the boolean variable.

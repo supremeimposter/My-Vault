@@ -13,8 +13,6 @@ tags:
 # Laws of Boolean Algebra
 Laws of Boolean Algebra are similar or isomorphic to [[Discrete Mathematics#Propositional Logic or 0th Order Logic|Propositional Logic]], [[Discrete Mathematics#Set Theory|Set Theory]], [[Discrete Mathematics#Group Theory|Group theory]], [[Types of Lattices#Boolean Lattice or Boolean Algebra|Boolean Lattice]].
 
-![[Laws of Boolean Algebra-20240218225050396.webp]]
-
 > [!tip] 
 > By-case method can be used to prove or disprove certain laws.
 > ![[Laws of Boolean Algebra-20240517120322980.webp]]
@@ -87,17 +85,32 @@ $$
 > [!NOTE] 
 > NAND and NOR are not associative.
 
-> [!example] 
+> [!proof] 
 > ![[Laws of Boolean Algebra-20240517120057442.webp]]
 
-> [!example] 
+> [!proof] 
 > $a \oplus (b \oplus c) = (a \oplus b) \oplus c$
 > ![[Laws of Boolean Algebra-20240517121050434.webp]]
 
-> [!example] 
+> [!proof] 
+> ![[Laws of Boolean Algebra-20240517190102204.webp]]
+
+> [!proof] 
 > ![[Laws of Boolean Algebra-20240517120943292.webp]]
 
+> [!proof] 
+> ![[Laws of Boolean Algebra-20240517162638546.webp]]
+
 ## Distributive Law
+$$
+\begin{split}
+X (Y + Z) &= XY + XZ \\ \\
+X + YZ &= (X + Y)(X + Z) 
+\end{split}
+$$
+
+> [!proof] 
+> ![[Laws of Boolean Algebra-20240517163143163.webp]]
 
 ## De-Morgan's Law
 $$
@@ -106,17 +119,50 @@ $$
 $$
 \overline{a \cdot b} = \overline{a} + \overline{b}
 $$
+
+> [!attention] 
+> AND and OR are not complement of each other
+
 ### Complementing Boolean Expressions
 
-![[Laws of Boolean Algebra-20240218223629099.webp]]
+> [!NOTE] 
+> Complement of a boolean expression $E$ can be found using De-Morgan's law if the $E$ contains only literals and AND, OR, NOT operations (no other operations)
+
+![[Laws of Boolean Algebra-20240517164131018.webp]]
 
 ## Removal of Redundancies
-### Absorption Law
 
-### Miscellaneous Property
+### Absorption Law
+$$
+\begin{split}
+\alpha + \alpha \beta &= \alpha \\ \\
+\alpha \cdot (\alpha + \beta) &= \alpha 
+\end{split}
+$$
+
+### Elimination Property
+$$
+\begin{split}
+\alpha + \overline{\alpha} \beta &= \alpha + \beta \\ \\
+\overline{\alpha} + \alpha  \beta &= \overline{\alpha} + \beta 
+\end{split}
+$$
 
 ### Consensus Property
+$$
+\alpha \beta + \overline{\alpha} \gamma + \beta \gamma = \alpha \beta + \overline{\alpha} \gamma
+$$
+
+> [!proof] 
+> ![[Laws of Boolean Algebra-20240517184959130.webp]]
 
 
 > [!caution] 
 > Cancellation laws **do not hold** in Boolean Algebra.
+
+
+> [!summary] 
+> ![[Laws of Boolean Algebra-20240517163430314.webp]]
+> ![[Laws of Boolean Algebra-20240218225050396.webp]]
+
+Boolean algebraic laws are given in pairs to show that algebra satisfies a [[Boolean Function#Complement and Dual of Boolean Functions|duality]].

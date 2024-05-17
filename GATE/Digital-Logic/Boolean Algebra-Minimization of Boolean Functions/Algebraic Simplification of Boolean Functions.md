@@ -11,21 +11,25 @@ tags:
   - DigitalLogic/BooleanAlgebra
 ---
 # Algebraic Simplification of Boolean Functions
-- A simplified equivalent boolean expression means smaller logical circuit with minimum number of gates i.e. reduced literal count.
+A simplified equivalent boolean expression means smaller logical circuit with minimum number of gates i.e. reduced literal count.
+Some expressions which can't be further minimized using algebraic simplification can be minimized using [[Minimization using K Map|K-map]].
 
 ## Uniting
+![[Algebraic Simplification of Boolean Functions-20240517203516987.webp]]
+![[Algebraic Simplification of Boolean Functions-20240517202457473.webp]]
 
 ## Absorption
+![[Algebraic Simplification of Boolean Functions-20240517203539958.webp]]
+![[Algebraic Simplification of Boolean Functions-20240517202655626.webp]]
 
 ## Elimination
+![[Algebraic Simplification of Boolean Functions-20240517203611965.webp]]
 
 ## Consensus
+![[Algebraic Simplification of Boolean Functions-20240517204231643.webp]]
 
+# Examples
+> [!pdf] mod-1/lec-04D.pdf
 
-> [!pdf] pdf lec-4d
-> ![[Algebraic Simplification-20240218180705620.webp]]
-
-
-# Disadvantages of Simplification technique
-
-- Some expressions which can't be further minimized using algebraic simplification can be minimized using [[Minimization using K Map|K-map]].
+> [!example] 
+> ![[Algebraic Simplification of Boolean Functions-20240517204550768.webp]]

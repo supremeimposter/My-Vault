@@ -23,22 +23,20 @@ A boolean algebraic function can be expressed algebraically with binary variable
 > ![[Boolean Function-20240514174831630.webp]]
 
 > [!important] 
-> `0` and `1` are constant boolean functions and **not** literals.
+> `0` and `1` are constant boolean functions and **not** [[Boolean Algebra#Literal|literals]].
+
+![[Boolean Function-20240514173948737.webp]]
 
 For a boolean equation $f_1 = f_2$, then
 $$
 \begin{split}
-\text{dual can be applied on both the sides}, \\
-f_1^d = f_2^d \\ \\
-\text{complement can be applied on both the sides}, \\
-\overline{f_1} = \overline{f_2}
+\text{dual can be applied} &  \text{ on both the sides}, \\
+f_1^d &= f_2^d \\ \\
+\text{complement can be applied}& \text{ on both the sides}, \\
+\overline{f_1} &= \overline{f_2}
 \end{split}
 $$
 
-![[Boolean Function-20240514173948737.webp]]
-
-It is never possible for a boolean function to be equal to its complement i.e. $f \not= \overline{f}$ 
-For a function $f$, the complement $\overline{f}$ and the dual $f^d$ are functions themselves.
 
 > [!header] Number of Different Boolean Functions for $n$ variables
 
@@ -48,18 +46,46 @@ For a function $f$, the complement $\overline{f}$ and the dual $f^d$ are functio
 > [!youtube] 
 > [Complement, Dual of a Boolean Function | Self Dual | Positive, Negative Logic System | Digital Logic - YouTube](https://www.youtube.com/watch?v=qed3vHqJicM)
 
+> [!NOTE] 
+> Dual of a boolean function can easily found if the function contains only literals and NOT, AND and OR operations (no other operations).
 
-![[Boolean Algebraic Function-20240223114721053.webp|Conversion between a function and its complement]]
-
-![[Boolean Algebraic Function-20240218224735432.webp|Conversion between a function and its dual]]
+![[Boolean Function-20240517191636112.webp]]
+![[Boolean Function-20240517195617657.webp]]
 
 ![[Laws of Boolean Algebra-20240218225050396.webp]]
 
-![[Boolean Algebraic Function-20240223113907531.webp]]
+For any boolean function $f(a, b)$,
+$$
+{(f^d\;(a, b))}^d = f(a, b)
+$$
 
-- For any boolean function $f(a, b)$, where $a$ and $b$ are the inputs to the function,
-$$f^d(a, b) = \overline{f}(\overline{a}, \overline{b})$$
-$$\overline{f}(a, b) = f^d(\overline{a}, \overline{b})$$
+For any boolean function $f(a, b)$, where $a$ and $b$ are the inputs to the function,
+$$f^d(a, b) = \overline{f}\;(\overline{a}, \overline{b})$$
+$$\overline{f}(a, b) = f^d\;(\overline{a}, \overline{b})$$
+
+> [!diagram] 
+> ![[Boolean Function-20240517194227826.webp]]
+
+
+> [!example] 
+> ![[Boolean Function-20240517195518874.webp]]
+
+Functions which has the literal count of 1 such as $f(a) = a$, dual is same as the function.
+$$
+\begin{split}
+f(a) &= a  \\ 
+f^d(a) & = a \\
+\therefore f(a) &= f^d(a)
+\end{split}
+$$
+It is never possible for a boolean function to be equal to its complement i.e. $f \not= \overline{f}$ 
+For a function $f$, the complement $\overline{f}$ and the dual $f^d$ are functions themselves.
+
+There are some functions $f$ for which $\overline{f} = f^d$.
+> [!example] 
+> 1. $f = 0$
+> 2. $f = 1$
+> 3. $f = a \oplus b$
 
 ---
 ## Special Types of Boolean Functions
