@@ -126,5 +126,14 @@
       ],
       "key": "/"
     }
+  ],
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
   ]
 }
