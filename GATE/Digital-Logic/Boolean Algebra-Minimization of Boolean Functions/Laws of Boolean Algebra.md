@@ -17,7 +17,7 @@ Laws of Boolean Algebra are similar or isomorphic to [[Discrete Mathematics#Prop
 
 > [!tip] 
 > By-case method can be used to prove or disprove certain laws.
-> Cancellation laws **do not hold** in Boolean Algebra.
+> ![[Laws of Boolean Algebra-20240517120322980.webp]]
 
 ## Domination or Annulment Law
 $$
@@ -61,6 +61,7 @@ A \downarrow \overline{A} &= 0 \\
 $$
 
 ## Double Complementation Law
+This law is also called as Involution Law.
 $$
 \begin{split}
 \overline {(\overline{A})} &= A \\ \\
@@ -84,9 +85,17 @@ $$
 
 ## Associative Law
 > [!NOTE] 
-> Except NAND and NOR, all operations are associative.
+> NAND and NOR are not associative.
 
+> [!example] 
+> ![[Laws of Boolean Algebra-20240517120057442.webp]]
 
+> [!example] 
+> $a \oplus (b \oplus c) = (a \oplus b) \oplus c$
+> ![[Laws of Boolean Algebra-20240517121050434.webp]]
+
+> [!example] 
+> ![[Laws of Boolean Algebra-20240517120943292.webp]]
 
 ## Distributive Law
 
@@ -108,3 +117,6 @@ $$
 
 ### Consensus Property
 
+
+> [!caution] 
+> Cancellation laws **do not hold** in Boolean Algebra.

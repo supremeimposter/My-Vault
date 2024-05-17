@@ -5,12 +5,12 @@
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
     },
     {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
-    },
-    {
       "basename": "Boolean Function",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Boolean Algebra",
