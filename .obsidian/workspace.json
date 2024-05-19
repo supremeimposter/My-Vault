@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "e82fec0bb7be9f90",
+            "id": "e921d20233c4b6d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,16 +62,20 @@
             }
           },
           {
-            "id": "dcb0ba0a71be7773",
+            "id": "d6cb0aab7caeec75",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+                "file": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
+                "viewState": {
+                  "x": -231.5713903844357,
+                  "y": -310.4267431259147,
+                  "zoom": 0
+                }
+              },
+              "pinned": true
             }
           }
         ],
@@ -159,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md"
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
               }
             }
           },
@@ -261,24 +265,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e82fec0bb7be9f90",
+  "active": "e921d20233c4b6d8",
   "lastOpenFiles": [
+    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
     "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
+    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518204604874.webp",
+    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518204450583.webp",
+    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518203148654.webp",
+    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518203128497.webp",
+    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518202426446.webp",
+    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518202022213.webp",
+    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518194827243.webp",
+    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518194801167.webp",
+    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518194643116.webp",
+    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518142218577.webp",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
-    "attachments/Algebraic Simplification of Boolean Functions-20240517204550768.webp",
-    "attachments/Algebraic Simplification of Boolean Functions-20240517204231643.webp",
-    "attachments/Algebraic Simplification of Boolean Functions-20240517203611965.webp",
-    "attachments/Algebraic Simplification of Boolean Functions-20240517203539958.webp",
-    "attachments/Algebraic Simplification of Boolean Functions-20240517203516987.webp",
-    "attachments/Algebraic Simplification of Boolean Functions-20240517203207568.webp",
-    "attachments/Algebraic Simplification of Boolean Functions-20240517202655626.webp",
-    "attachments/Algebraic Simplification of Boolean Functions-20240517202457473.webp",
-    "attachments/Boolean Function-20240517195617657.webp",
-    "attachments/Boolean Function-20240517195518874.webp",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
     "GATE/Digital-Logic/Number Systems/Binary System.md",
     "GATE/Digital-Logic/Number Systems/Number Systems.md",
@@ -297,8 +303,6 @@
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
     "GATE/Linear-Algebra/System of Linear Equations.md",
-    "GATE/Linear-Algebra/Cayley Hamilton Theorem.md",
-    "GATE/Linear-Algebra/Gaussian Elimination.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",
