@@ -51,11 +51,14 @@ A boolean expression is a set of literals (possibly repeats) combined with logic
 - `0` and `1` are boolean expressions.
 - Every Boolean variable and its complement is a boolean expression.
 - Each boolean expression corresponds to a circuit of logic gates. 
+
 ![[Boolean Algebra-20240516185855611.webp]]
 
 ![[Boolean Algebra-20240514123037600.webp]]
+
 - The input of a digital circuit are the boolean variables and the output of the digital circuit is the boolean expression.
 - Boolean expression on application of inputs result in either `0` or `1`.
+
 ![[Boolean Algebra-20240514122856693.webp]]
 
 > [!example] 
@@ -66,7 +69,7 @@ A boolean expression is a set of literals (possibly repeats) combined with logic
 > () > NOT > AND > OR
 > ![[Boolean Algebra-20240514125110263.webp]]
 
-Each expression is evaluated by substituting a value of 0 or 1 in each of the boolean variable.
+- Each expression is evaluated by substituting a value of 0 or 1 in each of the boolean variable.
 
 > [!convention] 
 > $a = 0$ is written as $\overline{a}$
@@ -79,9 +82,7 @@ Each expression is evaluated by substituting a value of 0 or 1 in each of the bo
 - Each appearance of a variable or its complement in an expression is referred to as a literal.
 - Literal count tells how big an expression is.
 - $x$ is a boolean variable and its complement $\overline{x}$ is not a variable. But both are literals.
-
-> [!discussion] 
-> ![[Boolean Algebra-20240219081358316.webp]]
+- `0` and `1` are not boolean functions and not literals.
 
 ---
 ## Truth Table
@@ -120,6 +121,7 @@ $$
 
 ![[Boolean Algebra-20240514171428997.webp|EXOR gate]]
 
+![[Boolean Algebra-20240518101611181.webp]]
 ### EXNOR
 ![[Boolean Algebra-20240514170029779.webp]]
 
@@ -137,9 +139,10 @@ $$
 
 ![[Boolean Algebra-20240514171358684.webp|EXNOR gate]]
 
+![[Boolean Algebra-20240518101704466.webp]]
 
-> [!important] 
-> Every logical gate can have multiple inputs.
+> [!note] 
+> Every logic gate can have multiple inputs.
 
 ---
 

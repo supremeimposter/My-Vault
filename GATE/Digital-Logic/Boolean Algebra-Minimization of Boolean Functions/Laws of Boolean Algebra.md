@@ -156,13 +156,16 @@ $$
 > [!proof] 
 > ![[Laws of Boolean Algebra-20240517184959130.webp]]
 
+## Cancellation Law
+Cancellation laws **do not hold** in Boolean Algebra.
 
-> [!caution] 
-> Cancellation laws **do not hold** in Boolean Algebra.
+![[Laws of Boolean Algebra-20240518100228421.webp]]
 
+There may be some functions which do hold for cancellation laws.
 
 > [!summary] 
 > ![[Laws of Boolean Algebra-20240517163430314.webp]]
 > ![[Laws of Boolean Algebra-20240218225050396.webp]]
+> ![[Laws of Boolean Algebra-20240518102236148.webp]]
 
 Boolean algebraic laws are given in pairs to show that algebra satisfies a [[Boolean Function#Complement and Dual of Boolean Functions|duality]].

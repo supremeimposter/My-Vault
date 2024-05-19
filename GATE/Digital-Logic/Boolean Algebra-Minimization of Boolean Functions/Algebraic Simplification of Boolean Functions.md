@@ -12,6 +12,20 @@ tags:
 ---
 # Algebraic Simplification of Boolean Functions
 A simplified equivalent boolean expression means smaller logical circuit with minimum number of gates i.e. reduced literal count.
+````col
+```col-md
+flexGrow=1
+===
+![[Algebraic Simplification of Boolean Functions-20240518092735235.webp]]
+```
+```col-md
+flexGrow=1
+===
+![[Algebraic Simplification of Boolean Functions-20240517204550768.webp]]
+```
+````
+
+
 Some expressions which can't be further minimized using algebraic simplification can be minimized using [[Minimization using K Map|K-map]].
 
 ## Uniting
@@ -31,5 +45,5 @@ Some expressions which can't be further minimized using algebraic simplification
 # Examples
 > [!pdf] mod-1/lec-04D.pdf
 
-> [!example] 
-> ![[Algebraic Simplification of Boolean Functions-20240517204550768.webp]]
+> [!example] By-case method can be used to solve boolean equation
+> ![[Algebraic Simplification of Boolean Functions-20240518095814815.webp]]

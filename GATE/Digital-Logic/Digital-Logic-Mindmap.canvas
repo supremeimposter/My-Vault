@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "c64c17882b00e854",
+      "type": "text",
+      "text": "**Sum of Products**\nLogical OR of product terms",
+      "x": -809,
+      "y": -58,
+      "width": 260,
+      "height": 118
+    },
+    {
+      "id": "49777b66628319e1",
+      "type": "text",
+      "text": "**Product of Sums**\nLogical AND of sum terms",
+      "x": -540,
+      "y": -58,
+      "width": 260,
+      "height": 118
+    },
+    {
+      "id": "9227413afe6efd0d",
+      "type": "text",
+      "text": "Standard Form",
+      "x": -670,
+      "y": -280,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "ad030c7659a584d9",
+      "type": "text",
+      "text": "**Canonical Form**\nThese two forms are from a function's perspective",
+      "x": -110,
+      "y": -280,
+      "width": 260,
+      "height": 160
+    },
+    {
+      "id": "00b8b156e600380a",
+      "x": -480,
+      "y": -920,
+      "width": 403,
+      "height": 380,
+      "type": "text",
+      "text": "The same boolean expression can be expressed in many ways. \n$$\n\\begin{split}\nE &= a \\\\\n&= a + aa \\\\\n&= aaaa \\\\\n&= a + aa + aaaaa \\\\\n&= aa \\\\\n&= a + a\n\\end{split}\n$$\nBut we may want a standard and unique form to express a particular boolean expression"
+    },
+    {
+      "id": "b66ba5c61f5a08ed",
+      "type": "text",
+      "text": "**Boolean Expression**\n",
+      "isStartNode": false,
+      "x": -408,
+      "y": -1480,
+      "width": 260,
+      "height": 100,
+      "color": "5"
+    },
+    {
+      "id": "816b5b2909982414",
+      "type": "text",
+      "text": "**Digital Logic**",
+      "shape": "centered-rectangle",
+      "x": 760,
+      "y": -1460,
+      "width": 250,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "24851078ccd429d1",
+      "type": "text",
+      "text": "**Canonical POS**\n\nLogical AND of those maxterms for which the function value is 0",
+      "x": 20,
+      "y": 60,
+      "width": 260,
+      "height": 178
+    },
+    {
+      "id": "c02f151cb3b91118",
+      "type": "text",
+      "text": "**Canonical SOP**\n\nLogical OR of those minterms for which the function value is 1",
+      "x": -260,
+      "y": 60,
+      "width": 260,
+      "height": 178
+    }
+  ],
+  "edges": [
+    {
+      "id": "2807cb2b5fe0341f",
+      "fromNode": "816b5b2909982414",
+      "fromSide": "left",
+      "toNode": "b66ba5c61f5a08ed",
+      "toSide": "right"
+    },
+    {
+      "id": "37213128f9fd07d8",
+      "fromNode": "00b8b156e600380a",
+      "fromSide": "bottom",
+      "toNode": "9227413afe6efd0d",
+      "toSide": "top",
+      "color": "5",
+      "label": "Not unique"
+    },
+    {
+      "id": "b45638c0586ba1ac",
+      "fromNode": "00b8b156e600380a",
+      "fromSide": "bottom",
+      "toNode": "ad030c7659a584d9",
+      "toSide": "top",
+      "color": "5",
+      "label": "Unique forms"
+    },
+    {
+      "id": "213800ae0368a1f2",
+      "fromNode": "9227413afe6efd0d",
+      "fromSide": "bottom",
+      "toNode": "c64c17882b00e854",
+      "toSide": "top"
+    },
+    {
+      "id": "0b5d065cdb832add",
+      "fromNode": "9227413afe6efd0d",
+      "fromSide": "bottom",
+      "toNode": "49777b66628319e1",
+      "toSide": "top"
+    },
+    {
+      "id": "ffb986d849f08fcd",
+      "fromNode": "ad030c7659a584d9",
+      "fromSide": "bottom",
+      "toNode": "c02f151cb3b91118",
+      "toSide": "top"
+    },
+    {
+      "id": "baa1d78136a4a136",
+      "fromNode": "ad030c7659a584d9",
+      "fromSide": "bottom",
+      "toNode": "24851078ccd429d1",
+      "toSide": "top"
+    },
+    {
+      "id": "5ac9dbcc81b18445",
+      "fromNode": "b66ba5c61f5a08ed",
+      "fromSide": "bottom",
+      "toNode": "00b8b156e600380a",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

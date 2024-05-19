@@ -22,9 +22,6 @@ A boolean algebraic function can be expressed algebraically with binary variable
 > ![[Boolean Function-20240514174816504.webp]]
 > ![[Boolean Function-20240514174831630.webp]]
 
-> [!important] 
-> `0` and `1` are constant boolean functions and **not** [[Boolean Algebra#Literal|literals]].
-
 ![[Boolean Function-20240514173948737.webp]]
 
 For a boolean equation $f_1 = f_2$, then
@@ -38,8 +35,31 @@ f_1^d &= f_2^d \\ \\
 $$
 
 
-> [!header] Number of Different Boolean Functions for $n$ variables
+## Different Boolean Functions for $n$ variables
 
+If there are no boolean variables in a boolean function $f_{1}$, then the function $f_{1}$ can be either $f_{1} = 0$ or $f_{1} = 1$ i.e. constant boolean functions.
+
+If there is only one boolean variable in a boolean function $f_{2}$, then the function $f_{2}$ can be any of the below,
+$$
+\begin{split}
+f_{2}\; (a) &= a \\
+f_{2}\; (a) &= \overline{a} \\
+f_{2}\; (a) &= 0 \\
+f_{2}\; (a) &= 1 \\
+\end{split}
+$$
+There are $2^{(2^1)} = 2^2$ different boolean functions over $1$ variable.
+
+> [!NOTE]
+> Constant boolean functions `0` and `1` always occur no matter how many variables are there in a boolean function.
+
+If there are $2$ boolean variables in a boolean function $f_{3}$, then there are 16 different boolean functions.
+![[Boolean Function-20240518120519372.webp]]
+
+If there are $k$ boolean variables in a boolean function $f$, then there are $2^{(2^k)}$ different boolean functions.
+
+![[Boolean Function-20240518105525322.webp]]
+![[Boolean Function-20240518105549538.webp]]
 
 ---
 ## Complement and Dual of Boolean Functions
@@ -135,4 +155,3 @@ flowchart TD
 ```
 
 ---
-
