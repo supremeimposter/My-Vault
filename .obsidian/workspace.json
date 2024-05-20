@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "e921d20233c4b6d8",
+            "id": "a27f4efddc1be44b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,8 @@
               "state": {
                 "file": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
                 "viewState": {
-                  "x": -231.5713903844357,
-                  "y": -310.4267431259147,
+                  "x": -248.7399999999998,
+                  "y": -2921.2899999999963,
                   "zoom": 0
                 }
               },
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
               }
             }
           },
@@ -265,26 +265,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e921d20233c4b6d8",
+  "active": "a27f4efddc1be44b",
   "lastOpenFiles": [
-    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
+    "attachments/Minimization using K Map-20240520175648429.webp",
     "GATE/Digital-Logic/Digital Logic.md",
-    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518204604874.webp",
-    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518204450583.webp",
-    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518203148654.webp",
-    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518203128497.webp",
-    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518202426446.webp",
-    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518202022213.webp",
-    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518194827243.webp",
-    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518194801167.webp",
-    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518194643116.webp",
-    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518142218577.webp",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
+    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
+    "attachments/Minimization using K Map-20240520153319420.webp",
+    "attachments/Minimization using K Map-20240520153306532.webp",
+    "attachments/Minimization using K Map-20240520144021135.webp",
+    "attachments/Minimization using K Map-20240520143519865.webp",
+    "attachments/Minimization using K Map-20240520142715965.webp",
+    "attachments/Minimization using K Map-20240520134638525.webp",
+    "attachments/Minimization using K Map-20240520134550794.webp",
+    "attachments/Minimization using K Map-20240520134453584.webp",
+    "attachments/Minimization using K Map-20240520134218400.webp",
+    "attachments/Minimization using K Map-20240520133916609.webp",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
     "GATE/Digital-Logic/Number Systems/Binary System.md",
     "GATE/Digital-Logic/Number Systems/Number Systems.md",
