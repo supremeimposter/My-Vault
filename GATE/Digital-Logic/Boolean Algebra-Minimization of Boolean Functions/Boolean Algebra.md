@@ -77,11 +77,15 @@ A boolean expression is a set of literals (possibly repeats) combined with logic
 
 ![[Boolean Function-20240514173915972.webp]]
 
+> [!tip] 
+> Some questions on boolean algebra can be solved by evaluating the boolean expressions in the options.
+
 ---
 ## Literal
 - Each appearance of a variable or its complement in an expression is referred to as a literal.
 - Literal count tells how big an expression is.
 - $x$ is a boolean variable and its complement $\overline{x}$ is not a variable. But both are literals.
+- $x$ and $\overline{x}$ represent the same variable, whereas $x$ and $\overline{y}$ represent the different variable.
 - `0` and `1` are not boolean functions and not literals.
 
 ---

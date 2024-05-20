@@ -7,6 +7,8 @@ tags:
   - DigitalLogic
 ---
 # Digital Logic
+> [!link] Mind map 
+[[Digital-Logic-Mindmap.canvas|Digital-Logic-Mindmap]]
 
 ## Module 1 - Boolean Algebra, Minimization of Boolean Functions
 
@@ -22,8 +24,6 @@ tags:
 
 > [!youtube] 
 > [Digital Logic: Standard Questions Session 1 - Boolean Algebra | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=IvywHr5Oc00)
-
-- [[Digital-Logic-Mindmap.canvas|Digital-Logic-Mindmap]]
 
 ## Module 2 - Number Systems
 

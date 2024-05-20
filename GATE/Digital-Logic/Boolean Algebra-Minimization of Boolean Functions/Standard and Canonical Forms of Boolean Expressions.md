@@ -6,7 +6,7 @@ date: 2024-02-19T09:42:00
 version:
   - DL-24
 last-revision: 
-notes-taken: false
+notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
 ---
@@ -26,6 +26,13 @@ $$
 There are two prinicipal standard forms,
 1. Sum of Products (SOP)
 2. Product of Sums (POS)
+
+There are two canonical forms,
+1. Canonical SOP
+2. Canonical POS
+
+> [!NOTE]
+> The standard and canonical forms are equivalent forms of an expression $E$. Don't confuse it with $\overline{E}$, it is now a different expression, which has its own standard and canonical forms.
 
 ## Product Term
 - A single literal or a logical product (AND) of two or more literals.
@@ -59,9 +66,11 @@ POS is the logical AND of sum terms.
 
 > [!NOTE] 
 >An expression can be both in SOP and POS form.
+>
 >![[Standard and Canonical Forms of Boolean Expressions-20240518122619304.webp]]
->SOP and POS expressions for a function $f$ are not unique.
+>SOP and POS expressions for a function $f$ are not unique. They can be infinitely many for a given expression.
 
+---
 # Canonical Forms of Boolean Expressions
 
 ## Min-term and Max-term
@@ -148,6 +157,7 @@ flexGrow=1
 ```
 ````
 
+There is a close correspondence between the truth table and minterms and maxterms.
 ![[Standard and Canonical Forms of Boolean Expressions-20240518194643116.webp]]
 
 > [!observation] 
@@ -156,6 +166,9 @@ flexGrow=1
 > - The corresponding minterms and maxterms are complements of each other i.e. $m_{i} = M_{i}$
 
 The order of the literals in the minterms and the maxterms must be in the same order (usually alphabetical order of the variables).
+
+![[Standard and Canonical Forms of Boolean Expressions-20240519151749785.webp]]
+
 The short notation for minterms and maxterms are based on the agreed order of variables. The index in the minterms and the maxterms is used to determine whethere the variable is shown in true form or its complemented form.
 
 For minterm, `1` means true form and `0` means complemented form. (standard prouduct term)
@@ -188,7 +201,7 @@ For a boolean function $f$ and for a given values of the input variables,
 - All the maxterms that have the value `1` are called true maxterms.
 - All the maxterms that have the value `0` are called false maxterms.
 
-### Canonical SOP
+## Canonical SOP (CSOP)
 A function $f$ can be expressed as a sum (OR) of its ***true minterms***.
 $$
 f = \Sigma_m \;(f = 1)
@@ -201,8 +214,7 @@ The sum of such minterms is called ***Canonical SOP***.
 > [!attention] 
 > Do not confuse between minterms of a function and the definition of minterms. 
 
-
-### Canonical POS
+## Canonical POS (CPOS)
 A function $f$ can be expressed as a product (AND) of its ***false maxterms***.
 $$
 f = \Pi_M \;(f = 0)
@@ -210,33 +222,111 @@ $$
 Such maxterms are called **maxterms of the function $f$** i.e. false maxterms of $f$ are called maxterms of the function $f$.
 The product of such maxterms is called ***Canonical POS***.
 
-> [!summary] Summary of Canonical forms
+## Analysis of Canonical forms
 
-For any boolean function $f$, both canonical SOP and canonical POS forms are unique.
+For any boolean function $f$, both canonical SOP and canonical POS forms are unique expressions.
 For any boolean function $f$, canonical SOP form is equivalent to canonical POS form. 
-They are not complements of each other. When $f$ is complemented, then $\overline{f}$ is a new function.
+Canonical forms are not complement or dual of each other, they are equivalent forms.
 
 > [!remember] 
 > 1. Minterms and maxterms contain all the variables in the boolean function.
 > 2. True minterms = minterms of the function
 > 3. False maxterms = maxterms of the function
 
+A function that includes all the minterms or all the maxterms is equal to logic 1.
+When a canonical form of an expression is simplified, then it results in standard forms.
+Standard forms can be represented using a two-level circuit.
+````col
+```col-md
+flexGrow=1
+===
+![[Standard and Canonical Forms of Boolean Expressions-20240519181356831.webp]]
+```
+```col-md
+flexGrow=1
+===
+![[Standard and Canonical Forms of Boolean Expressions-20240519181412376.webp]]
+```
+````
 
-> [!terminology] 
-|Boolean Algebra | Propositional Logic |
-| --- | --- |
-| SOP | Disjunctive Normal Form (DNF) |
-|POS | Conjunctive Normal Form (CNF) | 
-|Canonical SOP | Canonical DNF (Principle DNF)|
-|Canonical POS | Canonical CNF (Principle CNF)|
+For any function $F$, 
+- The sum of minterms is called as Canonical SOP. $\sum_{m} (F = 1)$
+- The product of maxterms is called as Canonical POS. $\prod_{m} (F = 0)$
 
-Do not confuse between function $f$ and its complement $\overline{f}$.
-![[Standard and Canonical Forms of Boolean Expressions-20240221114908092.webp]]
+![[Standard and Canonical Forms of Boolean Expressions-20240519130731986.webp]]
 
-![[Standard and Canonical Forms of Boolean Expressions-20240221114934210.webp]]
 
 > [!discussion] 
 > ![[Standard and Canonical Forms of Boolean Expressions-20240221111914176.webp]]
 
+> [!example] 
+> ![[Standard and Canonical Forms of Boolean Expressions-20240519153201598.webp]]
+> ![[Standard and Canonical Forms of Boolean Expressions-20240519153216930.webp]]
 
+> [!example] 
+> ![[Standard and Canonical Forms of Boolean Expressions-20240519153517350.webp]]
+> ![[Standard and Canonical Forms of Boolean Expressions-20240519153529305.webp]]
 
+> [!example] 
+> Sum of minterms can be found first and then the product of maxterms is easier to find just by inverting the indices.
+> ![[Standard and Canonical Forms of Boolean Expressions-20240519153743007.webp]]
+
+````col
+```col-md
+flexGrow=1
+===
+A function $F$ can be expressed using the false minterms of $\overline{F}$ and true maxterms of $\overline{F}$.
+$$
+\begin{split}
+F &= \sum_{m} (\overline{F} = 0) \\ \\
+F &= \prod_{m} (\overline{F} = 1) 
+\end{split}
+$$
+```
+```col-md
+flexGrow=1
+===
+The complement of a function $F$ can be expressed using false minterms of $\overline{F}$ and false maxterms of $\overline{F}$.
+$$
+\begin{split}
+\overline{F} &= \sum_{m} (F = 0) \\ \\
+\overline{F} &= \prod_{m} (F = 1) 
+\end{split}
+$$
+```
+````
+![[Standard and Canonical Forms of Boolean Expressions-20240221114934210.webp]]
+![[Standard and Canonical Forms of Boolean Expressions-20240519143619718.webp]]
+
+> [!example] 
+> ![[Standard and Canonical Forms of Boolean Expressions-20240519184825481.webp]]
+
+If two functions $F_{1}$, $F_{2}$ are defined over $n$ variables and if $F_{1} = \sum_{m} (P)$ and $F_{2} = \sum_{m} (Q)$ then,
+- $F_{1} F_{2} = \sum_{m} (P \cap Q)$
+- $F_{1} + F_{2} = \sum_{m} (P \cup Q)$
+where $P$ and $Q$ are the set of indices.
+
+| Boolean Algebra | [[Propositional Logic\|Propositional Logic]] |
+| --------------- | -------------------------------------------- |
+| T, F            | 1, 0                                         |
+| SOP             | Disjunctive Normal Form (DNF)                |
+| POS             | Conjunctive Normal Form (CNF)                |
+| Canonical SOP   | Canonical DNF (Principle DNF)                |
+| Canonical POS   | Canonical CNF (Principle CNF)                |
+
+## Conversions between Canonical Forms
+
+Conversion from one canonical form to its another equivalent canonical form.
+- Exchanging $\sum$ and $\prod$.
+- Listing all the missing indices
+
+![[Standard and Canonical Forms of Boolean Expressions-20240519143500876.webp]]
+
+Converting between respective canonical forms of $F$ and $\overline{F}$.
+
+![[Standard and Canonical Forms of Boolean Expressions-20240519144054348.webp]]
+![[Standard and Canonical Forms of Boolean Expressions-20240519144110441.webp]]
+
+![[Standard and Canonical Forms of Boolean Expressions-20240519145514014.webp]]
+
+---

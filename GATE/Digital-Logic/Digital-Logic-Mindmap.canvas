@@ -1,49 +1,204 @@
 {
   "nodes": [
     {
-      "id": "c64c17882b00e854",
-      "type": "text",
-      "text": "**Sum of Products**\nLogical OR of product terms",
-      "x": -809,
-      "y": -58,
-      "width": 260,
-      "height": 118
-    },
-    {
-      "id": "49777b66628319e1",
-      "type": "text",
-      "text": "**Product of Sums**\nLogical AND of sum terms",
-      "x": -540,
-      "y": -58,
-      "width": 260,
-      "height": 118
+      "id": "29fb850df294c7c8",
+      "type": "group",
+      "x": -1560,
+      "y": -1000,
+      "width": 1760,
+      "height": 1616,
+      "label": "Equivalent forms of an expression"
     },
     {
       "id": "9227413afe6efd0d",
       "type": "text",
       "text": "Standard Form",
-      "x": -670,
-      "y": -280,
+      "x": -980,
+      "y": -432,
       "width": 260,
       "height": 60
+    },
+    {
+      "id": "148952cc2c24a06c",
+      "type": "text",
+      "text": "There can be infinitely many standard forms for an expression",
+      "x": -1540,
+      "y": -372,
+      "width": 366,
+      "height": 91
+    },
+    {
+      "id": "c64c17882b00e854",
+      "type": "text",
+      "text": "**Sum of Products**\nLogical OR of product terms",
+      "x": -1220,
+      "y": -180,
+      "width": 260,
+      "height": 118
+    },
+    {
+      "id": "68ddf72b57edf565",
+      "type": "text",
+      "text": "**Product Term**\nLogical AND of literals",
+      "x": -1460,
+      "y": 60,
+      "width": 337,
+      "height": 81
+    },
+    {
+      "id": "9f75c7d1644c7108",
+      "type": "text",
+      "text": "**Minterm**\nA product term which contains every variable in either complemented or non-complemented form exactly once.",
+      "x": -1420,
+      "y": 332,
+      "width": 480,
+      "height": 160
+    },
+    {
+      "id": "a3f6e668f4ad25d1",
+      "type": "text",
+      "text": "**Minimum POS**\nTo get the minimal POS, we need to large cubes of 0's, since mPOS is the product of maxterms for which the function value is 0",
+      "x": 190,
+      "y": -3080,
+      "width": 360,
+      "height": 159
+    },
+    {
+      "id": "a20e58783c3f63d8",
+      "type": "text",
+      "text": "mPOS and mSOP are not unique expressions for a function",
+      "x": -140,
+      "y": -3380,
+      "width": 358,
+      "height": 80
+    },
+    {
+      "id": "224561fce4a32fd3",
+      "type": "text",
+      "text": "You cannot be sure that the simplified expression is the minimal and also it does not have a standard systematic way to arrive at the minimal solution, so that's why we need k-maps",
+      "x": -1160,
+      "y": -2780,
+      "width": 413,
+      "height": 187
     },
     {
       "id": "ad030c7659a584d9",
       "type": "text",
       "text": "**Canonical Form**\nThese two forms are from a function's perspective",
-      "x": -110,
-      "y": -280,
+      "x": -370,
+      "y": -340,
       "width": 260,
       "height": 160
     },
     {
-      "id": "00b8b156e600380a",
-      "x": -480,
-      "y": -920,
-      "width": 403,
-      "height": 380,
+      "id": "0ff9fe51ab0050b0",
       "type": "text",
-      "text": "The same boolean expression can be expressed in many ways. \n$$\n\\begin{split}\nE &= a \\\\\n&= a + aa \\\\\n&= aaaa \\\\\n&= a + aa + aaaaa \\\\\n&= aa \\\\\n&= a + a\n\\end{split}\n$$\nBut we may want a standard and unique form to express a particular boolean expression"
+      "text": "Minimization of Boolean Expression",
+      "x": -408,
+      "y": -2140,
+      "width": 260,
+      "height": 80
+    },
+    {
+      "id": "49777b66628319e1",
+      "type": "text",
+      "text": "**Product of Sums**\nLogical AND of sum terms",
+      "x": -700,
+      "y": -180,
+      "width": 260,
+      "height": 118
+    },
+    {
+      "id": "c02f151cb3b91118",
+      "type": "text",
+      "text": "**Canonical SOP**\n\nLogical OR of those minterms for which the function value is 1\n\nCanonical SOP is the sum of minterms",
+      "x": -630,
+      "y": 60,
+      "width": 290,
+      "height": 240
+    },
+    {
+      "id": "24851078ccd429d1",
+      "type": "text",
+      "text": "**Canonical POS**\n\nLogical AND of those maxterms for which the function value is 0\n\nCanonical POS is the product of maxterms",
+      "x": -80,
+      "y": 60,
+      "width": 260,
+      "height": 240
+    },
+    {
+      "id": "f7a07e2f0abb66a5",
+      "type": "text",
+      "text": "**Minterms of a Function**\nWhen the value of a function $F$ is 1 for a particular input combination, then the minterm associated with that input combination is a minterm of the function $F$.",
+      "x": -714,
+      "y": 412,
+      "width": 458,
+      "height": 184
+    },
+    {
+      "id": "a39ea932756edd12",
+      "type": "text",
+      "text": "You need a minimized expression or function that has minimum number of terms in which it has minimum number of literals.\n\nCanonical form $\\Rightarrow$ minimised form",
+      "x": 370,
+      "y": -2740,
+      "width": 470,
+      "height": 140
+    },
+    {
+      "id": "e947516bcc7b661a",
+      "type": "text",
+      "text": "Algebraic Simplification",
+      "x": -1103,
+      "y": -2380,
+      "width": 300,
+      "height": 50
+    },
+    {
+      "id": "e4afd210e1cae585",
+      "type": "text",
+      "text": "K-Maps",
+      "x": -80,
+      "y": -2480,
+      "width": 260,
+      "height": 50
+    },
+    {
+      "id": "8835d8b646508aeb",
+      "type": "text",
+      "text": "k-map gives the minimal expression from the canonical form",
+      "x": 335,
+      "y": -293,
+      "width": 365,
+      "height": 67
+    },
+    {
+      "id": "3672d2f169cc2e8a",
+      "type": "text",
+      "text": "**Main idea of k-map**\n\nThe canonical SOP contains the minterms where the function is 1.\n\nVisualizing it on the k-map helps us to select the minterms to reduce to get the minimized SOP expression.",
+      "x": -940,
+      "y": -3440,
+      "width": 417,
+      "height": 220
+    },
+    {
+      "id": "00b8b156e600380a",
+      "type": "text",
+      "text": "The same boolean expression can be expressed in many ways. \n$$\n\\begin{split}\nE &= a \\\\\n&= a + aa \\\\\n&= aaaa \\\\\n&= a + aa + aaaaa \\\\\n&= aa \\\\\n&= a + a\n\\end{split}\n$$\nBut we may want a standard and unique form to express a particular boolean expression",
+      "x": -740,
+      "y": -980,
+      "width": 403,
+      "height": 360
+    },
+    {
+      "id": "816b5b2909982414",
+      "type": "text",
+      "text": "**Digital Logic**",
+      "shape": "predefined-process",
+      "x": 1200,
+      "y": -1840,
+      "width": 250,
+      "height": 140,
+      "color": "1"
     },
     {
       "id": "b66ba5c61f5a08ed",
@@ -57,33 +212,23 @@
       "color": "5"
     },
     {
-      "id": "816b5b2909982414",
+      "id": "fb4e853ef9f1fd19",
       "type": "text",
-      "text": "**Digital Logic**",
-      "shape": "centered-rectangle",
-      "x": 760,
-      "y": -1460,
-      "width": 250,
-      "height": 60,
-      "color": "1"
+      "text": "When a function $F$ is complemented, then it is a different function. $\\overline{F}$ has different standard and canonical forms.",
+      "x": -160,
+      "y": -1180,
+      "width": 460,
+      "height": 120,
+      "color": "6"
     },
     {
-      "id": "24851078ccd429d1",
+      "id": "660c58cb2b4c4e1a",
       "type": "text",
-      "text": "**Canonical POS**\n\nLogical AND of those maxterms for which the function value is 0",
-      "x": 20,
-      "y": 60,
-      "width": 260,
-      "height": 178
-    },
-    {
-      "id": "c02f151cb3b91118",
-      "type": "text",
-      "text": "**Canonical SOP**\n\nLogical OR of those minterms for which the function value is 1",
-      "x": -260,
-      "y": 60,
-      "width": 260,
-      "height": 178
+      "text": "**Minimum SOP**\nTo get the minimal SOP, we need to large cubes of 1's, since mSOP is the sum of minterms for which the function value is 1",
+      "x": -480,
+      "y": -3080,
+      "width": 360,
+      "height": 159
     }
   ],
   "edges": [
@@ -146,6 +291,183 @@
       "fromSide": "bottom",
       "toNode": "00b8b156e600380a",
       "toSide": "top"
+    },
+    {
+      "id": "9a0429a43adca92e",
+      "fromNode": "c64c17882b00e854",
+      "fromSide": "right",
+      "toNode": "49777b66628319e1",
+      "toSide": "left",
+      "toEnd": "none",
+      "label": "complements of \neach other"
+    },
+    {
+      "id": "f7911121833d531b",
+      "fromNode": "c02f151cb3b91118",
+      "fromSide": "right",
+      "toNode": "24851078ccd429d1",
+      "toSide": "left",
+      "toEnd": "none",
+      "label": "equivalent forms"
+    },
+    {
+      "id": "66e89dc13100b6f8",
+      "edgeStyle": "long-dashed",
+      "fromNode": "9f75c7d1644c7108",
+      "fromSide": "right",
+      "toNode": "f7a07e2f0abb66a5",
+      "toSide": "left",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "593467c3e7fa6409",
+      "fromNode": "c64c17882b00e854",
+      "fromSide": "bottom",
+      "toNode": "68ddf72b57edf565",
+      "toSide": "top"
+    },
+    {
+      "id": "cc6f582794af7ef9",
+      "edgeStyle": "dotted",
+      "fromNode": "68ddf72b57edf565",
+      "fromSide": "bottom",
+      "toNode": "9f75c7d1644c7108",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "c107260f72f394a7",
+      "fromNode": "f7a07e2f0abb66a5",
+      "fromSide": "top",
+      "toNode": "c02f151cb3b91118",
+      "toSide": "bottom",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "62a634eb43473d69",
+      "fromNode": "148952cc2c24a06c",
+      "fromSide": "top",
+      "toNode": "9227413afe6efd0d",
+      "toSide": "left"
+    },
+    {
+      "id": "3d79e173c8b7844b",
+      "fromNode": "ad030c7659a584d9",
+      "fromSide": "left",
+      "toNode": "9227413afe6efd0d",
+      "toSide": "right",
+      "toEnd": "none",
+      "label": "Canonical form\nis also a standard \nform"
+    },
+    {
+      "id": "c277d9fe478f193a",
+      "fromNode": "fb4e853ef9f1fd19",
+      "fromSide": "bottom",
+      "toNode": "00b8b156e600380a",
+      "toSide": "right",
+      "color": "6"
+    },
+    {
+      "id": "de1f00c289981cac",
+      "fromNode": "0ff9fe51ab0050b0",
+      "fromSide": "top",
+      "toNode": "e947516bcc7b661a",
+      "toSide": "bottom"
+    },
+    {
+      "id": "332b9c899dde7205",
+      "fromNode": "0ff9fe51ab0050b0",
+      "fromSide": "top",
+      "toNode": "e4afd210e1cae585",
+      "toSide": "bottom"
+    },
+    {
+      "id": "b44c6056c618f14b",
+      "fromNode": "b66ba5c61f5a08ed",
+      "fromSide": "top",
+      "toNode": "0ff9fe51ab0050b0",
+      "toSide": "bottom"
+    },
+    {
+      "id": "62d78db2d108bcad",
+      "fromNode": "e4afd210e1cae585",
+      "fromSide": "top",
+      "toNode": "660c58cb2b4c4e1a",
+      "toSide": "bottom"
+    },
+    {
+      "id": "3c77b81cab0c3bb3",
+      "fromNode": "e4afd210e1cae585",
+      "fromSide": "top",
+      "toNode": "a3f6e668f4ad25d1",
+      "toSide": "bottom"
+    },
+    {
+      "id": "c13d8277fdac8e44",
+      "fromNode": "a39ea932756edd12",
+      "fromSide": "left",
+      "toNode": "e4afd210e1cae585",
+      "toSide": "right"
+    },
+    {
+      "id": "573b35fc67945983",
+      "fromNode": "e947516bcc7b661a",
+      "fromSide": "top",
+      "toNode": "224561fce4a32fd3",
+      "toSide": "bottom"
+    },
+    {
+      "id": "b5ec37e976a240c4",
+      "edgeStyle": "dotted",
+      "fromNode": "224561fce4a32fd3",
+      "fromSide": "right",
+      "toNode": "e4afd210e1cae585",
+      "toSide": "left"
+    },
+    {
+      "id": "b7ba5a89bc069936",
+      "edgeStyle": "long-dashed",
+      "fromNode": "660c58cb2b4c4e1a",
+      "fromSide": "right",
+      "toNode": "a3f6e668f4ad25d1",
+      "toSide": "left",
+      "toEnd": "none",
+      "label": "equivalent\nexpressions"
+    },
+    {
+      "id": "59db436206d5d52f",
+      "fromNode": "660c58cb2b4c4e1a",
+      "fromSide": "top",
+      "toNode": "a20e58783c3f63d8",
+      "toSide": "bottom"
+    },
+    {
+      "id": "cdf5a1e9f229dc5f",
+      "fromNode": "a3f6e668f4ad25d1",
+      "fromSide": "top",
+      "toNode": "a20e58783c3f63d8",
+      "toSide": "bottom"
+    },
+    {
+      "id": "d59b62de31a53486",
+      "fromNode": "ad030c7659a584d9",
+      "fromSide": "right",
+      "toNode": "8835d8b646508aeb",
+      "toSide": "left"
+    },
+    {
+      "id": "8d825638633bc166",
+      "fromNode": "8835d8b646508aeb",
+      "fromSide": "top",
+      "toNode": "e4afd210e1cae585",
+      "toSide": "right"
+    },
+    {
+      "id": "cc1176936cbe13b5",
+      "fromNode": "660c58cb2b4c4e1a",
+      "fromSide": "left",
+      "toNode": "3672d2f169cc2e8a",
+      "toSide": "bottom"
     }
   ],
   "metadata": {}
