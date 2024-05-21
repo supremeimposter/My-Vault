@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "38792869f5f867c1",
+            "id": "f018ef198737af6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,12 +49,12 @@
             }
           },
           {
-            "id": "c0282a5ef839d7b9",
+            "id": "22cc6f7dc874b7fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,8 @@
               "state": {
                 "file": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
                 "viewState": {
-                  "x": -248.7399999999998,
-                  "y": -2921.2899999999963,
+                  "x": 436.2400000000002,
+                  "y": -2745.019999999995,
                   "zoom": 0
                 }
               },
@@ -79,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -141,12 +141,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 267.5
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -163,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md"
               }
             }
           },
@@ -265,26 +264,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a27f4efddc1be44b",
+  "active": "22cc6f7dc874b7fa",
   "lastOpenFiles": [
-    "attachments/Minimization using K Map-20240520175648429.webp",
-    "GATE/Digital-Logic/Digital Logic.md",
+    "attachments/Implicants in K Map-20240521224047768.webp",
+    "attachments/Implicants in K Map-20240521224028946.webp",
+    "attachments/Implicants in K Map-20240521223659997.webp",
+    "attachments/Implicants in K Map-20240521223349805.webp",
+    "attachments/Implicants in K Map-20240521223211382.webp",
+    "attachments/Implicants in K Map-20240521215904880.webp",
+    "attachments/Implicants in K Map-20240521215501154.webp",
+    "attachments/Implicants in K Map-20240521215355363.webp",
+    "attachments/Implicants in K Map-20240521214909223.webp",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
-    "attachments/Minimization using K Map-20240520153319420.webp",
-    "attachments/Minimization using K Map-20240520153306532.webp",
-    "attachments/Minimization using K Map-20240520144021135.webp",
-    "attachments/Minimization using K Map-20240520143519865.webp",
-    "attachments/Minimization using K Map-20240520142715965.webp",
-    "attachments/Minimization using K Map-20240520134638525.webp",
-    "attachments/Minimization using K Map-20240520134550794.webp",
-    "attachments/Minimization using K Map-20240520134453584.webp",
-    "attachments/Minimization using K Map-20240520134218400.webp",
-    "attachments/Minimization using K Map-20240520133916609.webp",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md",
+    "GATE/Algorithms/Algorithms.md",
+    "attachments/Implicants in K Map-20240521174049637.webp",
+    "attachments/Implicants in K Map-20240521173623152.webp",
+    "GATE/Digital-Logic/Digital Logic.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
     "GATE/Digital-Logic/Number Systems/Binary System.md",
@@ -301,9 +303,6 @@
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
-    "GATE/Linear-Algebra/System of Linear Equations.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",

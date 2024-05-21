@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Implicants in K Map",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md"
+    },
+    {
+      "basename": "Don't Cares in K Map",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md"
+    },
+    {
+      "basename": "Digital-Logic-Mindmap",
+      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
+    },
+    {
       "basename": "Minimization using K Map",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
+    },
+    {
+      "basename": "Algorithms",
+      "path": "GATE/Algorithms/Algorithms.md"
     },
     {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
-      "basename": "Digital-Logic-Mindmap",
-      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
+      "basename": "Boolean Function",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
     },
     {
       "basename": "Algebraic Simplification of Boolean Functions",
@@ -23,10 +39,6 @@
     {
       "basename": "Laws of Boolean Algebra",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
-    },
-    {
-      "basename": "Boolean Function",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
     },
     {
       "basename": "Standard and Canonical Forms of Boolean Expressions",
@@ -161,10 +173,6 @@
       "path": "GATE/ComputerNetworks/Computer Networks.md"
     },
     {
-      "basename": "Algorithms",
-      "path": "GATE/Algorithms/Algorithms.md"
-    },
-    {
       "basename": "Depth First Search",
       "path": "GATE/Algorithms/Graph Algorithms/Depth First Search.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Heap Sort",
       "path": "GATE/Algorithms/Sorts/Heap Sort.md"
-    },
-    {
-      "basename": "Quick Sort",
-      "path": "GATE/Algorithms/Divide-and-Conquer/Quick Sort.md"
-    },
-    {
-      "basename": "Selection Sort",
-      "path": "GATE/Algorithms/Sorts/Selection Sort.md"
     }
   ],
   "omittedPaths": [
