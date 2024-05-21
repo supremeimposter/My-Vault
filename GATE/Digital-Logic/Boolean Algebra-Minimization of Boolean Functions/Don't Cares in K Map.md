@@ -1,3 +1,15 @@
+---
+pdf: 
+module: 
+lecture: 
+date: 
+version: 
+last-revision: 
+notes-taken: false
+tags:
+  - DigitalLogic/BooleanAlgebra
+  - DigitalLogic/KMap
+---
 # Don't Care
 - For a boolean function or a digital circuit, some input combinations **can never occur**. For such input combinations, we do not care about the function values.
 - For a boolean function or a digital circuit, some input combinations **can occur, but we do not care** about what happens to those input combinations.

@@ -9,6 +9,7 @@ last-revision:
 notes-taken: false
 tags:
   - DigitalLogic/BooleanAlgebra
+  - DigitalLogic/KMap
 ---
 # Minimization using K Map
 > [!abstract] 

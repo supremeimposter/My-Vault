@@ -10,49 +10,13 @@
       "label": "Equivalent forms of an expression"
     },
     {
-      "id": "9227413afe6efd0d",
+      "id": "660c58cb2b4c4e1a",
       "type": "text",
-      "text": "Standard Form",
-      "x": -980,
-      "y": -432,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "148952cc2c24a06c",
-      "type": "text",
-      "text": "There can be infinitely many standard forms for an expression",
-      "x": -1540,
-      "y": -372,
-      "width": 366,
-      "height": 91
-    },
-    {
-      "id": "c64c17882b00e854",
-      "type": "text",
-      "text": "**Sum of Products**\nLogical OR of product terms",
-      "x": -1220,
-      "y": -180,
-      "width": 260,
-      "height": 118
-    },
-    {
-      "id": "68ddf72b57edf565",
-      "type": "text",
-      "text": "**Product Term**\nLogical AND of literals",
-      "x": -1460,
-      "y": 60,
-      "width": 337,
-      "height": 81
-    },
-    {
-      "id": "9f75c7d1644c7108",
-      "type": "text",
-      "text": "**Minterm**\nA product term which contains every variable in either complemented or non-complemented form exactly once.",
-      "x": -1420,
-      "y": 332,
-      "width": 480,
-      "height": 160
+      "text": "**Minimum SOP**\nTo get the minimal SOP, we need to large cubes of 1's, since mSOP is the sum of minterms for which the function value is 1",
+      "x": -480,
+      "y": -3080,
+      "width": 360,
+      "height": 159
     },
     {
       "id": "a3f6e668f4ad25d1",
@@ -82,60 +46,6 @@
       "height": 187
     },
     {
-      "id": "ad030c7659a584d9",
-      "type": "text",
-      "text": "**Canonical Form**\nThese two forms are from a function's perspective",
-      "x": -370,
-      "y": -340,
-      "width": 260,
-      "height": 160
-    },
-    {
-      "id": "0ff9fe51ab0050b0",
-      "type": "text",
-      "text": "Minimization of Boolean Expression",
-      "x": -408,
-      "y": -2140,
-      "width": 260,
-      "height": 80
-    },
-    {
-      "id": "49777b66628319e1",
-      "type": "text",
-      "text": "**Product of Sums**\nLogical AND of sum terms",
-      "x": -700,
-      "y": -180,
-      "width": 260,
-      "height": 118
-    },
-    {
-      "id": "c02f151cb3b91118",
-      "type": "text",
-      "text": "**Canonical SOP**\n\nLogical OR of those minterms for which the function value is 1\n\nCanonical SOP is the sum of minterms",
-      "x": -630,
-      "y": 60,
-      "width": 290,
-      "height": 240
-    },
-    {
-      "id": "24851078ccd429d1",
-      "type": "text",
-      "text": "**Canonical POS**\n\nLogical AND of those maxterms for which the function value is 0\n\nCanonical POS is the product of maxterms",
-      "x": -80,
-      "y": 60,
-      "width": 260,
-      "height": 240
-    },
-    {
-      "id": "f7a07e2f0abb66a5",
-      "type": "text",
-      "text": "**Minterms of a Function**\nWhen the value of a function $F$ is 1 for a particular input combination, then the minterm associated with that input combination is a minterm of the function $F$.",
-      "x": -714,
-      "y": 412,
-      "width": 458,
-      "height": 184
-    },
-    {
       "id": "a39ea932756edd12",
       "type": "text",
       "text": "You need a minimized expression or function that has minimum number of terms in which it has minimum number of literals.\n\nCanonical form $\\Rightarrow$ minimised form",
@@ -143,15 +53,6 @@
       "y": -2740,
       "width": 470,
       "height": 140
-    },
-    {
-      "id": "e947516bcc7b661a",
-      "type": "text",
-      "text": "Algebraic Simplification",
-      "x": -1103,
-      "y": -2380,
-      "width": 300,
-      "height": 50
     },
     {
       "id": "e4afd210e1cae585",
@@ -163,15 +64,6 @@
       "height": 50
     },
     {
-      "id": "8835d8b646508aeb",
-      "type": "text",
-      "text": "k-map gives the minimal expression from the canonical form",
-      "x": 335,
-      "y": -293,
-      "width": 365,
-      "height": 67
-    },
-    {
       "id": "3672d2f169cc2e8a",
       "type": "text",
       "text": "**Main idea of k-map**\n\nThe canonical SOP contains the minterms where the function is 1.\n\nVisualizing it on the k-map helps us to select the minterms to reduce to get the minimized SOP expression.",
@@ -179,6 +71,24 @@
       "y": -3440,
       "width": 417,
       "height": 220
+    },
+    {
+      "id": "e947516bcc7b661a",
+      "type": "text",
+      "text": "Algebraic Simplification",
+      "x": -1103,
+      "y": -2380,
+      "width": 300,
+      "height": 50
+    },
+    {
+      "id": "0ff9fe51ab0050b0",
+      "type": "text",
+      "text": "Minimization of Boolean Expression",
+      "x": -408,
+      "y": -2140,
+      "width": 260,
+      "height": 80
     },
     {
       "id": "00b8b156e600380a",
@@ -222,13 +132,103 @@
       "color": "6"
     },
     {
-      "id": "660c58cb2b4c4e1a",
+      "id": "9227413afe6efd0d",
       "type": "text",
-      "text": "**Minimum SOP**\nTo get the minimal SOP, we need to large cubes of 1's, since mSOP is the sum of minterms for which the function value is 1",
-      "x": -480,
-      "y": -3080,
-      "width": 360,
-      "height": 159
+      "text": "Standard Form",
+      "x": -980,
+      "y": -432,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "148952cc2c24a06c",
+      "type": "text",
+      "text": "There can be infinitely many standard forms for an expression",
+      "x": -1540,
+      "y": -372,
+      "width": 366,
+      "height": 91
+    },
+    {
+      "id": "c64c17882b00e854",
+      "type": "text",
+      "text": "**Sum of Products**\nLogical OR of product terms",
+      "x": -1220,
+      "y": -180,
+      "width": 260,
+      "height": 118
+    },
+    {
+      "id": "ad030c7659a584d9",
+      "type": "text",
+      "text": "**Canonical Form**\nThese two forms are from a function's perspective",
+      "x": -370,
+      "y": -340,
+      "width": 260,
+      "height": 160
+    },
+    {
+      "id": "49777b66628319e1",
+      "type": "text",
+      "text": "**Product of Sums**\nLogical AND of sum terms",
+      "x": -700,
+      "y": -180,
+      "width": 260,
+      "height": 118
+    },
+    {
+      "id": "8835d8b646508aeb",
+      "type": "text",
+      "text": "k-map gives the minimal expression from the canonical form",
+      "x": 335,
+      "y": -293,
+      "width": 365,
+      "height": 67
+    },
+    {
+      "id": "68ddf72b57edf565",
+      "type": "text",
+      "text": "**Product Term**\nLogical AND of literals",
+      "x": -1460,
+      "y": 60,
+      "width": 337,
+      "height": 81
+    },
+    {
+      "id": "9f75c7d1644c7108",
+      "type": "text",
+      "text": "**Minterm**\nA product term which contains every variable in either complemented or non-complemented form exactly once.",
+      "x": -1420,
+      "y": 332,
+      "width": 480,
+      "height": 160
+    },
+    {
+      "id": "c02f151cb3b91118",
+      "type": "text",
+      "text": "**Canonical SOP**\n\nLogical OR of those minterms for which the function value is 1\n\nCanonical SOP is the sum of minterms",
+      "x": -630,
+      "y": 60,
+      "width": 290,
+      "height": 240
+    },
+    {
+      "id": "24851078ccd429d1",
+      "type": "text",
+      "text": "**Canonical POS**\n\nLogical AND of those maxterms for which the function value is 0\n\nCanonical POS is the product of maxterms",
+      "x": -80,
+      "y": 60,
+      "width": 260,
+      "height": 240
+    },
+    {
+      "id": "f7a07e2f0abb66a5",
+      "type": "text",
+      "text": "**Minterms of a Function**\nWhen the value of a function $F$ is 1 for a particular input combination, then the minterm associated with that input combination is a minterm of the function $F$.",
+      "x": -714,
+      "y": 412,
+      "width": 458,
+      "height": 184
     }
   ],
   "edges": [
