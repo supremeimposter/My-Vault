@@ -20,6 +20,7 @@ tags:
 - [[Algebraic Simplification of Boolean Functions]]
 - [[Standard and Canonical Forms of Boolean Expressions]]
 - [[Minimization using K Map]]
+- [[Don't Cares in K Map]]
 - [[Implicants in K Map]]
 
 > [!youtube] 

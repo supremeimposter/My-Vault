@@ -127,6 +127,8 @@ If the given expression is in SOP, then convert it to canonical SOP for visualiz
 
 If a minimized SOP of an expression $F$ is not unique, then it is not necessarily true that the minimized POS of $F$ is also not unique.
 
+The largest cube is not always possible in mSOP or mPOS.
+
 ## Canonical Forms using K Map
 
 For canonical SOP, take every singe cell which is 1 as a cube and add the minterms.
@@ -136,61 +138,4 @@ For canonical SOP, take every singe cell which is 1 as a cube and add the minter
 For canonical POS, take every singe cell which is 0 as a cube and multiply the maxterms.
 
 ![[Minimization using K Map-20240520153319420.webp]]
-
-## Don't Care
-- For a boolean function or a digital circuit, some input combinations **can never occur**. For such input combinations, we do not care about the function values.
-- For a boolean function or a digital circuit, some input combinations **can occur, but we do not care** about what happens to those input combinations.
-
-> [!NOTE] 
-> By default, boolean functions are completely specified i.e. total functions
-
-- Functions with don't care combinations are incompletely specified functions or partial functions.
-![[Minimization using K Map-20240520175648429.webp]]
-- A partial function with $k$ don't care combinations corresponds to a class of $2^k$ functions, since don't cares can be either 0 or 1.
-- Every partial function is a class of functions.
-
-- Dont cares can be used in any way we desire. We can try to create bigger cubes using don't cares to create minimized SOP and minimized POS.
-
-> [!tip]
-> Since don't cares can be anything, we can utilize it to create cubes of appropriate size to create the minimized SOP and minimized POS.
-
-## Covering Functions
-- A function $f$ covers $g$ iff whenever $g = 1$, then $f = 1$ or whenever $f = 0$, then $g = 0$.
-$$
-f \text{ covers } g \equiv g \text{ implies } f \equiv g \rightarrow f
-$$
-
-- If $f$ covers $g$, then $f$ is the covering function of $g$ and
-````col
-```col-md
-flexGrow=1
-===
-|g|f|
-| --- | --- |
-|1|1|
-|0|0 or 1|
-```
-```col-md
-flexGrow=1
-===
-|f|g|
-| --- | --- |
-|0|0|
-|1|0 or 1|
-```
-````
-
-
-> [!example]
->> $f = a \oplus b$ and $g = a + b$. Does $f$ cover $g$ or $g$ cover $f$ ?
->
- ![[Minimization using K Map-20240222105636186.webp]]
-
-- If $f$ covers $g$ and $g$ covers $f$, then $f$ and $g$ are the same functions.
-
-> [!tip]
-> Covering of functions is defined on minterm point of view (1's point of view).
-
-- If $P_1$ and $P_2$ are two product terms, then $P_1 \rightarrow P_2$ iff literals ($P_2$) $\subseteq$ literals ($P_1$)
-- If $S_1$ and $S_2$ are two sum terms, then $S_1 \rightarrow S_2$ iff literals ($S_1$) $\subseteq$ literals ($S_2$)
 
