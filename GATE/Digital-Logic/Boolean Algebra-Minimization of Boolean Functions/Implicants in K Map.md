@@ -11,9 +11,12 @@ tags:
   - DigitalLogic/BooleanAlgebra
 ---
 # Implicant
-- Implicant $I$ of $f$ is a ***[[Standard and Canonical Forms of Boolean Expressions#Product Term|product term]]*** such that $I \rightarrow f$ i.e. whenver $I = 1$, then $f = 1$  
-- Every Cube of 1's is an implicant.
+- An implicant is a rectangle of size 1, 2, 4, 8, ... powers of 2. The rectangle may not contain 0s.
+- Implicant $I$ of a function $f$ is a ***[[Standard and Canonical Forms of Boolean Expressions#Product Term|product term]]*** such that $I \rightarrow f$ i.e. whenever $I = 1$, then $f = 1$.  
+- Every Cube of size $2^m$ covering 1's is an implicant.
 - Every implicant is a product term.
+
+For counting the implicants of a function of different sizes, do not repeatedly count certain combinations.
 
 > [!header] Counting the number of implicants for a function
 >> [!question] 
@@ -36,6 +39,27 @@ tags:
 
 > [!caution] 
 > Do not try to use combinatronics in counting implicants as it will result in error.
+
+
+> [!example] 
+> ![[Implicants in K Map-20240521170808213.webp]]
+>
+>> Implicants of size 1
+> 
+> ![[Implicants in K Map-20240521171023917.webp]]
+>
+>> Implicants of size 2
+>
+> ![[Implicants in K Map-20240521172845931.webp]]
+>
+>> Implicants of size 4
+>
+> ![[Implicants in K Map-20240521173623152.webp]]
+>
+>> Implicants of size 8
+>
+> ![[Implicants in K Map-20240521174049637.webp]]
+
 
 ## Prime Implicant
 - A prime implicant is an implicant which is not fully contained within anyone other implicant i.e. a cube that is as big as possible.

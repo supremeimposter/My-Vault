@@ -52,7 +52,7 @@
 > ````
 
 
-## Covering Functions
+# Covering Functions
 - A function $f$ covers $g$ **iff** whenever $g = 1$, then $f = 1$ **or** whenever $f = 0$, then $g = 0$.
 $$
 f \text{ covers } g \equiv g \text{ implies } f \equiv g \rightarrow f
@@ -98,7 +98,7 @@ If $f$, then $g$
 > ![[Minimization using K Map-20240520204334283.webp]]
 > ![[Minimization using K Map-20240520204746429.webp]]
 
-### Analysis of Covering Functions
+## Analysis of Covering Functions
 - If $f$ covers $g$ and $g$ covers $f$, then $f$ and $g$ are the same functions i.e. $f = g$
 
 > [!tip]
@@ -118,7 +118,6 @@ If $f(a, b, c) = \prod_{m} (0, 5, 7)$, then the covering function of f is,
 $g = \sum_{m}(1,2,3,4,6) + d (0, 5, 7)$
 ```
 ````
-
 
 > [!pdf] lec06D pg. No. 120
 
