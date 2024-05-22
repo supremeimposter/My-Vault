@@ -32,7 +32,7 @@ For counting the implicants of a function of different sizes, do not repeatedly 
 >
 >> Implicants of size 2 
 >
-> ![[Minimization using K Map-20240222164627782.webp]]
+> ![[Implicants in K Map-20240522113335358.webp]]
 >
 >> Implicants of size 4
 >
@@ -96,6 +96,13 @@ For counting the implicants of a function of different sizes, do not repeatedly 
 > [!example] 
 > ![[Implicants in K Map-20240521215501154.webp]]
 > ![[Implicants in K Map-20240521215904880.webp]]
+> ![[Implicants in K Map-20240522100310109.webp]]
+> ![[Implicants in K Map-20240522100554882.webp]]
+
+> [!example] 
+> ![[Implicants in K Map-20240522102031912.webp]]
+> ![[Implicants in K Map-20240522102401831.webp]]
+> ![[Implicants in K Map-20240522112356021.webp]]
 
 
 > [!header] Treating Don't cares
