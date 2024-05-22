@@ -42,7 +42,7 @@ For counting the implicants of a function of different sizes, do not repeatedly 
 
 > [!caution] 
 > - Do not try to use combinatronics in counting implicants as it will result in error.
-> - Don't forget to look the ones at the **corners** of the K-map.
+> - Don't forget to look the 1s at the **corners** of the K-map.
 
 > [!example] 
 > ![[Implicants in K Map-20240521170808213.webp]]
@@ -92,6 +92,7 @@ For counting the implicants of a function of different sizes, do not repeatedly 
 > ![[Implicants in K Map-20240521215355363.webp]]
 
 - If **all** the essential prime implicants cover **all** the 1's, then we get **unique** minimal SOP. The converse is **NOT** true.
+- Essential prime implicants must be used in any minimal SOP expression.
 
 > [!example] 
 > ![[Implicants in K Map-20240521215501154.webp]]
@@ -99,16 +100,31 @@ For counting the implicants of a function of different sizes, do not repeatedly 
 > ![[Implicants in K Map-20240522100310109.webp]]
 > ![[Implicants in K Map-20240522100554882.webp]]
 
+- If all the essential prime implicants do not cover all the 1's, then we try to include less number of non-essential prime implicants in the solution.
+
+> [!example] 
+> ![[Implicants in K Map-20240522122236583.webp]]
+> ![[Implicants in K Map-20240522135941861.webp]]
+
+
 > [!example] 
 > ![[Implicants in K Map-20240522102031912.webp]]
 > ![[Implicants in K Map-20240522102401831.webp]]
 > ![[Implicants in K Map-20240522112356021.webp]]
 
-
 > [!header] Treating Don't cares
 - Consider don't cares are 1's in case of implicants and prime implicants.
 - Don't cares do not make a prime implicant essential.
-- When don't cares are there, consider only non-don't care cells for minimum SOP.
+- When don't cares exist, consider only non-don't care cells for minimum SOP.
+
+
+> [!example] 
+> ![[Implicants in K Map-20240522143417348.webp]]
+
+
+> [!example] 
+> ![[Implicants in K Map-20240522150147054.webp]]
+
 
 > [!header] Cyclic K-Map
 

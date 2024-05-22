@@ -141,7 +141,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -266,22 +267,22 @@
   },
   "active": "22cc6f7dc874b7fa",
   "lastOpenFiles": [
+    "attachments/Implicants in K Map-20240522113335358.webp",
+    "attachments/Implicants in K Map-20240522112356021.webp",
+    "attachments/Implicants in K Map-20240522102401831.webp",
+    "attachments/Implicants in K Map-20240522102031912.webp",
+    "attachments/Implicants in K Map-20240522100554882.webp",
+    "attachments/Implicants in K Map-20240522100310109.webp",
     "attachments/Implicants in K Map-20240521224047768.webp",
     "attachments/Implicants in K Map-20240521224028946.webp",
     "attachments/Implicants in K Map-20240521223659997.webp",
     "attachments/Implicants in K Map-20240521223349805.webp",
     "attachments/Implicants in K Map-20240521223211382.webp",
-    "attachments/Implicants in K Map-20240521215904880.webp",
-    "attachments/Implicants in K Map-20240521215501154.webp",
-    "attachments/Implicants in K Map-20240521215355363.webp",
-    "attachments/Implicants in K Map-20240521214909223.webp",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md",
     "GATE/Algorithms/Algorithms.md",
-    "attachments/Implicants in K Map-20240521174049637.webp",
-    "attachments/Implicants in K Map-20240521173623152.webp",
     "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",

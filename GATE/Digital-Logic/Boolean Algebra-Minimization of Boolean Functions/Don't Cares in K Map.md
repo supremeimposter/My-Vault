@@ -120,14 +120,18 @@ If $f$, then $g$
 ```col-md
 flexGrow=1
 ===
-If $f(a, b, c) = \sum_{m} (0, 5, 7)$, then the covering function of f is,
-$g = \sum_{m}(0, 5, 7) + d (1,2,3,4,6)$
+If $F(a, b, c) = \sum_{m} (0, 5, 7)$, then the covering function of $F$ is,
+$G = \sum_{m}(0, 5, 7) + d (1,2,3,4,6)$
+
+$G$ covers $F$
 ```
 ```col-md
 flexGrow=1
 ===
-If $f(a, b, c) = \prod_{m} (0, 5, 7)$, then the covering function of f is,
-$g = \sum_{m}(1,2,3,4,6) + d (0, 5, 7)$
+If $F(a, b, c) = \prod_{m} (0, 5, 7)$, then the covering function of $F$ is,
+$G = \sum_{m}(1,2,3,4,6) + d (0, 5, 7)$
+
+$G$ covers $F$
 ```
 ````
 
