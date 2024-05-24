@@ -67,7 +67,7 @@ For counting the implicants of a function of different sizes, do not repeatedly 
 
 ---
 # Prime Implicant
-- A ***prime implicant*** is an implicant (from the map point of view) which is *not fully contained* within anyone other implicant i.e. a cube of 1s that is as big as possible.
+- A ***prime implicant*** is an implicant (from the map point of view) which is *not fully contained* within anyone other implicant i.e. a cube of 1s that is as big as possible that is not fully contained within another bigger cube of 1s.
 - An ***essential prime implicant*** is a prime implicant that includes **at least one** 1 that is not in any other prime implicant.
 
 > [!important] 

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Implicants in K Map",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md"
+    },
+    {
       "basename": "Don't Cares in K Map",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "Computer Networks",
       "path": "GATE/ComputerNetworks/Computer Networks.md"
-    },
-    {
-      "basename": "Implicants in K Map",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md"
     },
     {
       "basename": "Digital Logic",

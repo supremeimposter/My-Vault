@@ -148,7 +148,8 @@ $F = 1$ for inputs ${1, 2, 3, 4, 6}$, so it also satisfies the other condition a
 For any function $F$, the minimum SOP expression for the covering function of $F$ is 1
 For any function $F$, the minimum POS expression for the covering function of $F$ is 1.
 
-![[Don't Cares in K Map-20240520225756833.webp]]
+> [!proof] 
+![[Don't Cares in K Map-20240524225333968.webp]]
 
 
 Smaller product terms cover larger product terms i.e. bigger product terms implies its subset product terms.
