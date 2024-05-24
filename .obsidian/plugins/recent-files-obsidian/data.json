@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Implicants in K Map",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md"
-    },
-    {
       "basename": "Don't Cares in K Map",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md"
-    },
-    {
-      "basename": "Digital-Logic-Mindmap",
-      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
     },
     {
       "basename": "Minimization using K Map",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
     },
     {
+      "basename": "Digital-Logic-Mindmap",
+      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
+    },
+    {
+      "basename": "Compiler Design",
+      "path": "GATE/CompilerDesign/Compiler Design.md"
+    },
+    {
       "basename": "Algorithms",
       "path": "GATE/Algorithms/Algorithms.md"
+    },
+    {
+      "basename": "Operating Systems",
+      "path": "GATE/OperatingSystems/Operating Systems.md"
+    },
+    {
+      "basename": "Computer Networks",
+      "path": "GATE/ComputerNetworks/Computer Networks.md"
+    },
+    {
+      "basename": "Implicants in K Map",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md"
     },
     {
       "basename": "Digital Logic",
@@ -157,20 +169,8 @@
       "path": "GATE/Aptitude/Aptitude.md"
     },
     {
-      "basename": "Operating Systems",
-      "path": "GATE/OperatingSystems/Operating Systems.md"
-    },
-    {
       "basename": "Pending Lectures",
       "path": "GATE/Pending Lectures.md"
-    },
-    {
-      "basename": "Compiler Design",
-      "path": "GATE/CompilerDesign/Compiler Design.md"
-    },
-    {
-      "basename": "Computer Networks",
-      "path": "GATE/ComputerNetworks/Computer Networks.md"
     },
     {
       "basename": "Depth First Search",

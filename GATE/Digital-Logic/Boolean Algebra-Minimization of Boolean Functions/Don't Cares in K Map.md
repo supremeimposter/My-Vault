@@ -67,9 +67,10 @@ tags:
 # Covering Functions
 - A function $f$ covers $g$ **iff** whenever $g = 1$, then $f = 1$ **or** whenever $f = 0$, then $g = 0$.
 $$
-f \text{ covers } g \equiv g \text{ implies } f \equiv g \rightarrow f
+f \text{ covers } g \equiv g \text{ implies } f \equiv g \rightarrow f \equiv g \subseteq f
 $$
 - There is no assignment of values that makes $g = 1$ and $f = 0$
+- If $f$ covers $g$, then the true minterms of $g$ is a subset of true minterms of $f$.
 
 - If $f$ covers $g$, then $f$ is the covering function of $g$ and either of these two conditions occur
 ````col
@@ -95,6 +96,9 @@ If $f$, then $g$
 ```
 ````
 
+> [!tip]
+> Covering of functions is defined on minterm point of view (1's point of view).
+
 > [!example] 
 > ![[Minimization using K Map-20240520200055750.webp]]
 
@@ -106,16 +110,18 @@ If $f$, then $g$
 
 > [!example] 
 > ![[Minimization using K Map-20240520204227217.webp]]
+>
+>> Covering functions are defined on minterm point of view.
+>
 > ![[Minimization using K Map-20240520204246521.webp]]
 > ![[Minimization using K Map-20240520204334283.webp]]
 > ![[Minimization using K Map-20240520204746429.webp]]
 
 ## Analysis of Covering Functions
 - If $f$ covers $g$ and $g$ covers $f$, then $f$ and $g$ are the same functions i.e. $f = g$
+![[Don't Cares in K Map-20240523184335574.webp]]
 
-> [!tip]
-> Covering of functions is defined on minterm point of view (1's point of view).
-
+In the below cases, consider the scenario $G$ covers $F$,
 ````col
 ```col-md
 flexGrow=1
@@ -123,7 +129,7 @@ flexGrow=1
 If $F(a, b, c) = \sum_{m} (0, 5, 7)$, then the covering function of $F$ is,
 $G = \sum_{m}(0, 5, 7) + d (1,2,3,4,6)$
 
-$G$ covers $F$
+Whenever $F = 1$, then $G = 1$ and for the remaining inputs we don't care.
 ```
 ```col-md
 flexGrow=1
@@ -131,7 +137,9 @@ flexGrow=1
 If $F(a, b, c) = \prod_{m} (0, 5, 7)$, then the covering function of $F$ is,
 $G = \sum_{m}(1,2,3,4,6) + d (0, 5, 7)$
 
-$G$ covers $F$
+
+whenever $G = 0$, then $F = 0$ and for the remaining inputs we don't care, or
+$F = 1$ for inputs ${1, 2, 3, 4, 6}$, so it also satisfies the other condition and for the 0 ones we do not need to care
 ```
 ````
 
@@ -139,7 +147,8 @@ $G$ covers $F$
 
 For any function $F$, the minimum SOP expression for the covering function of $F$ is 1
 For any function $F$, the minimum POS expression for the covering function of $F$ is 1.
-![[Don't Cares in K Map-20240520225756833.webp|Not sure if this is the correct explanation]]
+
+![[Don't Cares in K Map-20240520225756833.webp]]
 
 
 Smaller product terms cover larger product terms i.e. bigger product terms implies its subset product terms.
