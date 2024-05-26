@@ -118,7 +118,7 @@ If $f$, then $g$
 > ![[Minimization using K Map-20240520204746429.webp]]
 
 ## Analysis of Covering Functions
-- If $f$ covers $g$ and $g$ covers $f$, then $f$ and $g$ are the same functions i.e. $f = g$
+- If $f$ covers $g$ and $g$ covers $f$, then $f$ and $g$ are the same functions i.e. $f = g$ 
 ![[Don't Cares in K Map-20240523184335574.webp]]
 
 In the below cases, consider the scenario $G$ covers $F$,
@@ -150,7 +150,6 @@ For any function $F$, the minimum POS expression for the covering function of $F
 
 > [!proof] 
 ![[Don't Cares in K Map-20240524225333968.webp]]
-
 
 Smaller product terms cover larger product terms i.e. bigger product terms implies its subset product terms.
 - If $P_1$ and $P_2$ are two product terms, then $P_1 \rightarrow P_2$ iff literals ($P_2$) $\subseteq$ literals ($P_1$)

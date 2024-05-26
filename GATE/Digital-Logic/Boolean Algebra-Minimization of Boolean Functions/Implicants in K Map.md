@@ -19,6 +19,8 @@ tags:
 - Every implicant is a product term.
 - Each minterm in the canonical SOP form is an implicant of the function.
 
+Let $h$ be a product of literals. If $F$ covers $h$, then $h$ is said to imply $F$ or $h$ is said to be an implicant of $F$ i.e. $h \rightarrow F$
+
 For counting the implicants of a function of different sizes, do not repeatedly count certain combinations of product terms.
 
 > [!header] Counting the number of implicants for a function
@@ -67,7 +69,7 @@ For counting the implicants of a function of different sizes, do not repeatedly 
 
 ---
 # Prime Implicant
-- A ***prime implicant*** is an implicant (from the map point of view) which is *not fully contained* within anyone other implicant i.e. a cube of 1s that is as big as possible that is not fully contained within another bigger cube of 1s.
+- A ***prime implicant*** is an implicant (from the map point of view) which is *not fully contained* within anyone other implicant i.e. a cube of 1s that is as big as possible that is not fully contained within another bigger cube of 1s which means a product term that is as small as possible.
 - An ***essential prime implicant*** is a prime implicant that includes **at least one** 1 that is not in any other prime implicant.
 
 > [!important] 
@@ -106,32 +108,52 @@ For counting the implicants of a function of different sizes, do not repeatedly 
 > ![[Implicants in K Map-20240522122236583.webp]]
 > ![[Implicants in K Map-20240522135941861.webp]]
 
-
 > [!example] 
 > ![[Implicants in K Map-20240522102031912.webp]]
 > ![[Implicants in K Map-20240522102401831.webp]]
-> ![[Implicants in K Map-20240522112356021.webp]]
+> ![[Implicants in K Map-20240525100030558.webp]]
 
-> [!header] Treating Don't cares
+
+> [!attention] 
+> ![[Implicants in K Map-20240526112001316.webp]]
+> ![[Implicants in K Map-20240526114130023.webp]]
+
+
+# Treating Don't cares in case of Implicants
 - Consider don't cares are 1's in case of implicants and prime implicants.
-- Don't cares do not make a prime implicant essential.
-- When don't cares exist, consider only non-don't care cells for minimum SOP.
 
-
-> [!example] 
-> ![[Implicants in K Map-20240522143417348.webp]]
-
+- Don't cares do not make a prime implicant essential, since don't cares can be either 0 or 1. But for a prime implicant to be essential, it must cover a **unique** **1-cell**.
+- To get minimum SOP incase of don't cares, consider only the cells which do not have don't cares, because of the above reason.
+![[Implicants in K Map-20240522143417348.webp]]
 
 > [!example] 
 > ![[Implicants in K Map-20240522150147054.webp]]
 
 
-> [!header] Cyclic K-Map
+# Cyclic K-Map
 
+In a cyclic k-map, 
+- there is no prime implicant that is essential i.e. every 1-cell is not covered uniquely.
+- all the prime implicants have the same size.
+- every 1-cell is covered by **exactly two** prime implicants.
 
+From a cyclic k-map, there will be exactly two minimal SOP with no common terms.
 
+> [!example] 
+> ![[Implicants in K Map-20240526111338782.webp]]
 
-> [!header] Removing literals from Implicants
+> [!example] 
+> ![[Implicants in K Map-20240526111551979.webp]]
 
+# Removing literals from Implicants
+When a literal is removed from an implicant, it may or may not remain an implicant.
+
+> [!example] 
+> ![[Implicants in K Map-20240526172417078.webp]]
+
+Since Prime implicant is a product term (as small as possible) that does not have an reduntant literal, removing a literal from a prime implicant will not even remain an implicant.
+
+> [!example] 
+> ![[Implicants in K Map-20240526172521709.webp]]
 
 

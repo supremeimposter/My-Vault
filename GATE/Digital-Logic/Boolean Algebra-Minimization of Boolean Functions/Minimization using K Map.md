@@ -140,3 +140,4 @@ For canonical POS, take every singe cell which is 0 as a cube and multiply the m
 
 ![[Minimization using K Map-20240520153319420.webp]]
 
+---
