@@ -6,7 +6,7 @@ date: 2024-02-21T13:39:00
 version:
   - TOC-24
 last-revision: 
-notes-taken: false
+notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
   - DigitalLogic/KMap

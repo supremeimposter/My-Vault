@@ -5,7 +5,7 @@ lecture:
 date: 
 version: 
 last-revision: 
-notes-taken: false
+notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
   - DigitalLogic/KMap

@@ -6,7 +6,7 @@ date: 2024-02-22T17:19:00
 version:
   - DL-24
 last-revision: 
-notes-taken: false
+notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
   - DigitalLogic/KMap
@@ -156,4 +156,18 @@ Since Prime implicant is a product term (as small as possible) that does not hav
 > [!example] 
 > ![[Implicants in K Map-20240526172521709.webp]]
 
+
+# Implicates
+> [!pdf] lec-06E pg.no. 126
+
+> [!important] 
+> The terms Implicant, Prime Implicant, Essential Prime Implicant are defined only for SOP expressions.
+
+![[Implicants in K Map-20240527104733541.webp]]
+
+> [!example] 
+> ![[Implicants in K Map-20240527110207766.webp]]
+
+
+![[Implicants in K Map-20240527104958870.webp]]
 

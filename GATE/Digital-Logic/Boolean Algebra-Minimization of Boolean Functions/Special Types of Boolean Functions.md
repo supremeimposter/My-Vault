@@ -1,15 +1,3 @@
----
-pdf: 
-module: 1
-lecture: "4"
-date: 2024-02-18T18:06:00
-version:
-  - DL-24
-last-revision: 
-notes-taken: false
-tags:
-  - DigitalLogic/BooleanAlgebra
----
 # Boolean Function
 A boolean algebraic function can be expressed algebraically with binary variables, the logic operation symbols, paranthesis and equal sign.
 
@@ -95,13 +83,10 @@ flexGrow=1
 ![[Boolean Function-20240527115933381.webp]]
 ```
 ````
-![[Boolean Function-20240527121420948.webp]]
 
 > [!example] 
 > ![[Boolean Function-20240527115740515.webp]]
 > ![[Boolean Function-20240517195518874.webp]]
-
-![[Boolean Function-20240527175758734.webp]]
 
 Functions which has the literal count of 1 such as $f(a) = a$, dual is same as the function.
 $$
@@ -119,6 +104,8 @@ There are some functions $f$ for which $\overline{f} = f^d$.
 > 1. $f = 0$
 > 2. $f = 1$
 > 3. $f = a \oplus b$
+
+![[Boolean Function-20240527121420948.webp]]
 
 ---
 ## Special Types of Boolean Functions
