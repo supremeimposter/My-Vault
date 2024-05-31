@@ -161,7 +161,16 @@ Cancellation laws **do not hold** in Boolean Algebra.
 
 ![[Laws of Boolean Algebra-20240518100228421.webp]]
 
-There may be some functions which do hold for cancellation laws.
+There may be some functions which do hold for cancellation laws. e.g. converses of the above laws.
+![[Laws of Boolean Algebra-20240528134424642.webp]]
+
+> [!example] 
+>> In this example, it is given that $a=1$,
+>
+>![[Laws of Boolean Algebra-20240528134506968.webp]]
+>>In this example, it is given that $a=0$,
+>
+>![[Laws of Boolean Algebra-20240528134707700.webp]]
 
 > [!summary] 
 > ![[Laws of Boolean Algebra-20240517163430314.webp]]

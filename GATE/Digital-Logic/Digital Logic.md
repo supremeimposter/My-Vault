@@ -28,13 +28,13 @@ tags:
 
 ## Module 2 - Number Systems
 
-- [[Octal and Hexadecimal System]]
 - [[Number Systems]]
+- [[Octal and Hexadecimal System]]
 - [[Binary System]]
 - [[Complements in Number System]]
 - [[Subtraction of Unsigned Numbers]]
 - [[Signed Binary Numbers]]
-- [[Addition of Signed Binary Numbers]]
+- [[Arithmetic of Signed Binary Numbers]]
 - [[Overflow]]
 - [[Sign Extension]]
 - [[Binary Codes]]

@@ -6,7 +6,7 @@ date: 2024-02-18T20:32:00
 version:
   - DL-24
 last-revision: 2024-05-14T17:31:00
-notes-taken: false
+notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
 ---

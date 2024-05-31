@@ -12,6 +12,8 @@ tags:
 ---
 # Binary System
 
+Binary numbers are represented by a trailing $b$ e.g. $1011b$, $1100b$.
+
 ![[Binary System-20240514133643499.webp]]
 
 ## Operations in Binary

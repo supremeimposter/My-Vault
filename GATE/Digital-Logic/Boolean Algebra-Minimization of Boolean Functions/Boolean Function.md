@@ -6,7 +6,7 @@ date: 2024-02-18T18:06:00
 version:
   - DL-24
 last-revision: 
-notes-taken: false
+notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
 ---
@@ -62,7 +62,7 @@ If there are $k$ boolean variables in a boolean function $f$, then there are $2^
 ![[Boolean Function-20240518105549538.webp]]
 
 ---
-## Complement and Dual of Boolean Functions
+## Relationship between Complement and Dual of Boolean Functions
 > [!youtube] 
 > [Complement, Dual of a Boolean Function | Self Dual | Positive, Negative Logic System | Digital Logic - YouTube](https://www.youtube.com/watch?v=qed3vHqJicM)
 
@@ -101,6 +101,7 @@ flexGrow=1
 > ![[Boolean Function-20240527115740515.webp]]
 > ![[Boolean Function-20240517195518874.webp]]
 
+To find the dual of a function $F$ from a truth table (assuming the table is in standard order), reverse the order of the complement of the function $\overline{F}$ to find out the dual of the function $F^d$.
 ![[Boolean Function-20240527175758734.webp]]
 
 Functions which has the literal count of 1 such as $f(a) = a$, dual is same as the function.
@@ -120,38 +121,124 @@ There are some functions $f$ for which $\overline{f} = f^d$.
 > 2. $f = 1$
 > 3. $f = a \oplus b$
 
+For a function $F$ over $n$ variables, 
+$$
+f^d\;(t) = \overline{f} \;(\;(2^n - 1) - t)
+$$
+where $t$ is a decimal value such that $0 \leq t \lt 2^n$.
+
+If $f(t) = 1$, then $\overline{f}\;(t) = 0$ which means $f^d\;(\;(2^n - 1) - t) = 0$.
+
+> [!example] 
+> ![[Boolean Function-20240527193041878.webp]]
+> ![[Boolean Function-20240527194819374.webp]]
+
 ---
 ## Special Types of Boolean Functions
+> [!pdf] lec-07 Pg. no. 151
 
 ### Neutral Boolean Function
  - A boolean function over $n$ variables is neutral iff $f = 0$ for half of the input combinations and $f = 1$ for the remaining half of the input combinations.
 
-### Self Dual Boolean Function
-- $f$ is a self dual function iff $f = f^d$.
+For a boolean function of $n$ variables, number of neutral boolean functions = ${{2^n}_{C}}_{2^{(n-1)}}$.
+Out of $2^n$ rows of input combinations, select the half which gives $1$ as the output, the rest will give $0$ as the output.
 
-- Every self dual function is neutral, but the converse is **NOT** true.
+![[Boolean Function-20240527204754316.webp]]
+
+### Self Dual Boolean Function
+
+- $f$ is a self dual function iff $f = f^d$.
+![[Boolean Function-20240527210411425.webp]]
+![[Boolean Function-20240527210423613.webp]]
+![[Boolean Function-20240527210440917.webp]]
+![[Boolean Function-20240527211143763.webp]]
+
+In a self dual function $f$, 
+$$
+f(x) \not= f(\;(2^n - 1)\; - x); \: \forall x \text{ where } 0 \leq x \lt 2^n
+$$
+
+> [!observation] 
+> - Every self dual function is neutral, but the converse is **NOT** true.
+> - One half of the outputs are not equal to the other half of the outputs for the $2^n$ input combinations which means half of the outputs are 1s and the other half are 0s.
+
+![[Boolean Function-20240527211221849.webp]]
 
 > [!header] Number of Self dual functions for $n$ variables
 
+![[Boolean Function-20240527211823499.webp]]
 
-- In a self dual function $f$, 
-$$
-f(x) \not= f(\;(2^n - 1)\; - x); \: \forall x \text{ where } 0 \le x \le 2^n - 1 
-$$
+Number of self dual functions on $n$-variables $= 2^{(2^{(n-1)})}$, because each row in the first half of the standard truth table has 2 choices, whereas the lower half of the truth table has only one choice i.e. there is no choice for lower half.
 
-### Functions whose complement is same as dual
+![[Boolean Function-20240527211840794.webp]]
+
+### Functions whose Complement is same as Dual
+> [!attention] These functions do not have a standard name.
 
 - These functions are palindrome functions.
+- These functions are **NOT** neutral boolean functions.
 
-- In this type of function $f$, 
+> [!header] Number of such functions over $n$ variables
+
+![[Boolean Function-20240528132747882.webp]]
+![[Boolean Function-20240528132801810.webp]]
+
+![[Boolean Function-20240528132844185.webp]]
+![[Boolean Function-20240528132853541.webp]]
+
+![[Boolean Function-20240528133016871.webp]]
+
+In this type of function $f$, 
 $$
-f(x) = f(\;(2^n - 1)\; - x); \: \forall x \text{ where } 0 \le x \le 2^n - 1 
+f(x) = f(\;(2^n - 1)\; - x); \: \forall x \text{ where } 0 \leq x \lt 2^n
 $$
+In this type of function palindrome function $f$, 
+$$
+f(a_{1}, a_{2}, \cdots , a_{n}) = f(\overline{a_{1}}, \overline{a_{2}}, \cdots , \overline{a_{n}})
+$$
+
+Over $n$ variables, there are $2^{(2^{(n-1)})}$ such functions.
+
 
 ### EXOR and EXNOR functions
+> [!pdf] Lec-08
+
 > [!youtube] 
 > [ExOr, ExNor functions | Odd function, Even function | Boolean Algebra | Digital Logic | GO Classes - YouTube](https://www.youtube.com/watch?v=-30dUjh6Qv4)
 
+![[Boolean Function-20240528135127175.webp]]
+
+**ExOR** operation is commutative and associative and distributive.
+![[Boolean Function-20240528135705213.webp]]
+
+**ExNOR** operation is also Equivalence operation or coincidence operation.
+![[Boolean Function-20240528135452108.webp]]
+
+**ExNOR** operation is the complement of **ExOR** operation.
+![[Boolean Function-20240528135427396.webp]]
+
+**ExNOR** operation is commutative and associative.
+
+![[Boolean Function-20240528135947841.webp]]
+
+A chain of **ExOR** operations can be done in any order since ExOR is commutative and associative.
+- ExOR is 1 iff if there are odd number of 1s (number of 0s does not matter)
+- ExNOR is 1 iff if there are even number of 0s (number of 1s does not matter)
+
+ExOR is equal to ExNOR when there are **odd** number of inputs
+- $a \oplus b \oplus c = 1$ iff there are odd number of 1s
+- If there are odd number of 1s in odd number of inputs, then there are even number of 0s, which means $a ⊙ b ⊙ c = 1$
+- In this case $a \oplus b \oplus c = a ⊙ b ⊙ c$
+$$
+a_{1} \oplus a_{2} \oplus \cdots  \oplus a_{2n - 1} = a_{1} ⊙ a_{2} ⊙ \cdots ⊙ a_{2n - 1}
+$$
+ExOR and ExNOR are complement of each other when there are **even** number of inputs
+- $a ⊙ b ⊙ c ⊙ d = 1$ iff there are even number of 0s
+- If there are even number of 0s in even number of inputs, then there are even number of 1s, which means $a \oplus b \oplus c \oplus d = 0$
+- In this case $a ⊙ b ⊙ c ⊙ d = \overline{a \oplus b \oplus c \oplus d}$
+$$
+a_{1} \oplus a_{2} \oplus \cdots  \oplus a_{2n} = \overline{a_{1} ⊙ a_{2} ⊙ \cdots ⊙ a_{2n}}
+$$
 
 > [!discussion] 
 >> In standard definitions, only 2 (even) inputs are used, so XOR and XNOR are complements of each other.
