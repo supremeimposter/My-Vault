@@ -21,20 +21,26 @@ The addition of two signed binary numbers follows the rules of ordinary arithmet
 - If the sign bits are different, then subtraction has to be performed. 
 - If the sign bits are same, then addition has to be performed.
 
-$$
-\begin{split}
-A - B &= 
-\end{split}
-$$
+Both the inputs and the outputs are both in signed magnitude system.
 
 > [!example] 
 > ![[Addition of Signed Binary Numbers-20240531184509116.webp]]
 > ![[Addition of Signed Binary Numbers-20240531184406648.webp]]
 
+The cost is too much in signed magnitude system as, 
+- The sign bits has to be compared 
+- The magnitude bits (n-1) has to be compared
+- If the signs are same, then adder circuit has to be used
+- If the signs are different, then the subtractor circuit has to be used.
+So, it is not used in computer systems.
+
+
+> [!NOTE] 
+> For addition, the signed-complement system does not require any comparison or subtraction. Hence they are used in computer systems.
 
 ## 1's Complement System
 
-- The resultant value is also in $1$'s complement representation.
+- The operand values and the resultant value are also in $1$'s complement representation.
 $$
 A - B = A + (-B) = A + (\text { 1's complement of } B \;)
 $$
@@ -42,11 +48,17 @@ $$
 
 ## 2's Complement System
 
-- The resultant value is also in $2$'s complement representation.
+- The operands values and the resultant value are also in $2$'s complement representation.
 $$
 A - B = A + (-B) = A + (\text { 2's complement of } B \;)
 $$
-- Discard the carry over.
+- Discard the carry over of the signed bit and the result is automatically in 2's complement representation.
+
+> [!example] 
+> ![[Arithmetic of Signed Binary Numbers-20240531195232273.webp]]
+> ![[Arithmetic of Signed Binary Numbers-20240531222844535.webp]]
+> ![[Arithmetic of Signed Binary Numbers-20240531223407961.webp]]
+
 ---
 > [!summary] 
 
