@@ -80,4 +80,4 @@ digraph G {
 - Parity flag is set to 1 if the lowest byte has even number of 1s.
 
 ## Overflow Flag
-- Overflow flag is set to 1 if there is an [[Overflow|overflow]].
+- Overflow flag is set to 1 if there is an [[Overflow of Signed and Unsigned Numbers|overflow]].
