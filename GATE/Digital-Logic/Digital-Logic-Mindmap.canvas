@@ -10,96 +10,6 @@
       "label": "Equivalent forms of an expression"
     },
     {
-      "id": "2e412a945ca0a4b0",
-      "type": "text",
-      "text": "In case of unsigned number, it is a positive number",
-      "x": 4560,
-      "y": -3878,
-      "width": 260,
-      "height": 109
-    },
-    {
-      "id": "1a84184098b6bfe5",
-      "type": "text",
-      "text": "In case of signed number, it is a negative number",
-      "x": 4561,
-      "y": -3581,
-      "width": 260,
-      "height": 111
-    },
-    {
-      "id": "2b6b954941709eb2",
-      "type": "text",
-      "text": "**1s complement**\nTake the 1s complement of the given number.\nThe negative of the resultant number is represented in the given number.",
-      "x": 4938,
-      "y": -3627,
-      "width": 342,
-      "height": 203
-    },
-    {
-      "id": "49902b0ea4444e41",
-      "type": "text",
-      "text": "**Signed Magnitude**\nTake the MSB for sign (negative) and treat the remaining bits as unsigned.",
-      "x": 4938,
-      "y": -3878,
-      "width": 260,
-      "height": 174
-    },
-    {
-      "id": "6ecdc75da8627736",
-      "type": "text",
-      "text": "![[Pasted image 20240530185815.png]]",
-      "x": 5460,
-      "y": -3825,
-      "width": 414,
-      "height": 600
-    },
-    {
-      "id": "2ba78c56562c73f9",
-      "type": "text",
-      "text": "**2s complement**\nweighted system",
-      "x": 3780,
-      "y": -3923,
-      "width": 260,
-      "height": 90
-    },
-    {
-      "id": "b134e1841641cce9",
-      "type": "text",
-      "text": "Sign-Magnitude",
-      "x": 3188,
-      "y": -3908,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "1953cb13fbe97a55",
-      "type": "text",
-      "text": "Base = Radix = $r$\n$r$ = number of symbols in the number system",
-      "x": 2799,
-      "y": -3260,
-      "width": 322,
-      "height": 116
-    },
-    {
-      "id": "1b6ca49b5fd826d4",
-      "type": "text",
-      "text": "If the MSB of a number is 0, then the number is positive in all of the representations",
-      "x": 4197,
-      "y": -4040,
-      "width": 364,
-      "height": 100
-    },
-    {
-      "id": "9fdca09c7473f1b4",
-      "type": "text",
-      "text": "1s complement",
-      "x": 3480,
-      "y": -4040,
-      "width": 260,
-      "height": 60
-    },
-    {
       "id": "816b5b2909982414",
       "type": "text",
       "text": "**Digital Logic**",
@@ -330,6 +240,42 @@
       "height": 80
     },
     {
+      "id": "2e412a945ca0a4b0",
+      "type": "text",
+      "text": "In case of unsigned number, it is a positive number",
+      "x": 4560,
+      "y": -3878,
+      "width": 260,
+      "height": 109
+    },
+    {
+      "id": "1a84184098b6bfe5",
+      "type": "text",
+      "text": "In case of signed number, it is a negative number",
+      "x": 4561,
+      "y": -3581,
+      "width": 260,
+      "height": 111
+    },
+    {
+      "id": "2b6b954941709eb2",
+      "type": "text",
+      "text": "**1s complement**\nTake the 1s complement of the given number.\nThe negative of the resultant number is represented in the given number.",
+      "x": 4938,
+      "y": -3627,
+      "width": 342,
+      "height": 203
+    },
+    {
+      "id": "49902b0ea4444e41",
+      "type": "text",
+      "text": "**Signed Magnitude**\nTake the MSB for sign (negative) and treat the remaining bits as unsigned.",
+      "x": 4938,
+      "y": -3878,
+      "width": 260,
+      "height": 174
+    },
+    {
       "id": "e79734fab71e1483",
       "type": "text",
       "text": "**2s complement**\nTake the 2s complement of the given number.\nThe negative of the resultant number is represented in the given number.",
@@ -339,6 +285,15 @@
       "height": 203
     },
     {
+      "id": "6ecdc75da8627736",
+      "type": "text",
+      "text": "![[Pasted image 20240530185815.png]]",
+      "x": 5460,
+      "y": -3825,
+      "width": 414,
+      "height": 600
+    },
+    {
       "id": "5ddae190658120d5",
       "type": "text",
       "text": "If the MSB of a number is 1",
@@ -346,33 +301,6 @@
       "y": -3714,
       "width": 260,
       "height": 84
-    },
-    {
-      "id": "15bcc940d77942d0",
-      "type": "text",
-      "text": "Radix complement",
-      "x": 3871,
-      "y": -3154,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "28b5dd7845693546",
-      "type": "text",
-      "text": "Diminished Radix complement",
-      "x": 3871,
-      "y": -2970,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "1961ccb1881ed0e1",
-      "type": "text",
-      "text": "**Complement**\nTo perform subtraction easier and with less digital circuits, complementation operation is used",
-      "x": 3480,
-      "y": -3124,
-      "width": 260,
-      "height": 214
     },
     {
       "id": "784a184d5348609e",
@@ -393,14 +321,86 @@
       "height": 71
     },
     {
+      "id": "2ba78c56562c73f9",
+      "type": "text",
+      "text": "**2s complement**\nweighted system",
+      "x": 3780,
+      "y": -3923,
+      "width": 260,
+      "height": 90
+    },
+    {
+      "id": "b134e1841641cce9",
+      "type": "text",
+      "text": "Sign-Magnitude",
+      "x": 3188,
+      "y": -3908,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "1b6ca49b5fd826d4",
+      "type": "text",
+      "text": "If the MSB of a number is 0, then the number is positive in all of the representations",
+      "x": 4197,
+      "y": -4040,
+      "width": 364,
+      "height": 100
+    },
+    {
+      "id": "9fdca09c7473f1b4",
+      "type": "text",
+      "text": "1s complement",
+      "x": 3480,
+      "y": -4040,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "15bcc940d77942d0",
+      "type": "text",
+      "text": "Radix complement",
+      "x": 3871,
+      "y": -3154,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "1961ccb1881ed0e1",
+      "type": "text",
+      "text": "**Complement**\nTo perform subtraction easier and with less digital circuits, complementation operation is used",
+      "x": 3480,
+      "y": -3124,
+      "width": 260,
+      "height": 214
+    },
+    {
+      "id": "28b5dd7845693546",
+      "type": "text",
+      "text": "Diminished Radix complement",
+      "x": 3871,
+      "y": -2970,
+      "width": 260,
+      "height": 60
+    },
+    {
       "id": "f261b401c957d875",
       "type": "text",
-      "text": "Number System",
+      "text": "**Number System**\n\nBase = Radix = $r$\n$r$ = number of symbols in the number system",
       "x": 2960,
       "y": -2940,
       "width": 260,
-      "height": 60,
+      "height": 140,
       "color": "3"
+    },
+    {
+      "id": "93948d236faca82a",
+      "x": 3117,
+      "y": -3340,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "Overflow"
     }
   ],
   "edges": [
@@ -656,13 +656,6 @@
       "toSide": "left"
     },
     {
-      "id": "19e3e27860f36aca",
-      "fromNode": "f261b401c957d875",
-      "fromSide": "top",
-      "toNode": "1953cb13fbe97a55",
-      "toSide": "bottom"
-    },
-    {
       "id": "473d5c1ae5d08774",
       "fromNode": "f261b401c957d875",
       "fromSide": "right",
@@ -682,13 +675,6 @@
       "fromSide": "right",
       "toNode": "28b5dd7845693546",
       "toSide": "left"
-    },
-    {
-      "id": "0a2c487f336c3727",
-      "fromNode": "f261b401c957d875",
-      "fromSide": "top",
-      "toNode": "784a184d5348609e",
-      "toSide": "bottom"
     },
     {
       "id": "26d92e93f393e7d4",
@@ -793,6 +779,13 @@
       "toNode": "6ecdc75da8627736",
       "toSide": "left",
       "toEnd": "none"
+    },
+    {
+      "id": "c01535a4f310117a",
+      "fromNode": "f261b401c957d875",
+      "fromSide": "top",
+      "toNode": "93948d236faca82a",
+      "toSide": "bottom"
     }
   ],
   "metadata": {}
