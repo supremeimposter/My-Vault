@@ -31,8 +31,8 @@
               "state": {
                 "file": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
                 "viewState": {
-                  "x": 3809.9500000000135,
-                  "y": -3336.92,
+                  "x": 2963.6500000000215,
+                  "y": -3138.830000000008,
                   "zoom": 0
                 }
               },
@@ -40,12 +40,25 @@
             }
           },
           {
-            "id": "caac3b627c7f1b68",
+            "id": "2408768a7eb07e38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Number Systems/Arithmetic of Signed Binary Numbers.md",
+                "file": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0d6bbae76968b58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -115,8 +128,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Number Systems/Arithmetic of Signed Binary Numbers.md",
+                "file": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Number Systems/Arithmetic of Signed Binary Numbers.md",
+                "file": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Number Systems/Arithmetic of Signed Binary Numbers.md"
+                "file": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
               }
             }
           },
@@ -239,27 +251,30 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "caac3b627c7f1b68",
+  "active": "2408768a7eb07e38",
   "lastOpenFiles": [
-    "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Number Systems/Arithmetic of Signed Binary Numbers.md",
-    "attachments/Addition of Signed Binary Numbers-20240531184509116.webp",
-    "attachments/Addition of Signed Binary Numbers-20240531184406648.webp",
-    "attachments/Addition of Signed Binary Numbers-20240531184149807.webp",
-    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
+    "attachments/Overflow of Signed and Unsigned Numbers-20240601232115960.webp",
+    "attachments/Overflow of Signed and Unsigned Numbers-20240601232016471.webp",
+    "attachments/Overflow of Signed and Unsigned Numbers-20240601231958942.webp",
+    "attachments/Overflow of Signed and Unsigned Numbers-20240601231922144.webp",
     "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
+    "GATE/Digital-Logic/Digital Logic.md",
+    "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
+    "attachments/Overflow-20240601230859892.webp",
+    "attachments/Overflow-20240601225846720.webp",
+    "attachments/Overflow-20240601225544987.webp",
+    "attachments/Overflow-20240601222836213.webp",
+    "attachments/Overflow-20240601222456699.webp",
+    "attachments/Overflow-20240601222440409.webp",
+    "attachments/Overflow-20240601221857033.webp",
+    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
+    "GATE/Topics-Tracker-for-GATE.md",
+    "GATE/Digital-Logic/Number Systems/Arithmetic of Signed Binary Numbers.md",
     "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md",
     "GATE/Digital-Logic/Number Systems/Complements in Number System.md",
     "GATE/Digital-Logic/Number Systems/Binary System.md",
     "GATE/Digital-Logic/Number Systems/Octal and Hexadecimal System.md",
     "GATE/Digital-Logic/Number Systems/Number Systems.md",
-    "attachments/Signed Binary Numbers-20240531110322502.webp",
-    "attachments/Signed Binary Numbers-20240531110307480.webp",
-    "attachments/Signed Binary Numbers-20240531110043707.webp",
-    "attachments/Signed Binary Numbers-20240531101555934.webp",
-    "attachments/Signed Binary Numbers-20240531083754548.webp",
-    "attachments/Signed Binary Numbers-20240531083621089.webp",
-    "attachments/Signed Binary Numbers-20240530222623988.webp",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
     "GATE/Digital-Logic/Number Systems/Untitled.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
@@ -275,8 +290,6 @@
     "GATE/ComputerNetworks/Computer Networks.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
-    "GATE/Linear-Algebra/Linear Algebra.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",
