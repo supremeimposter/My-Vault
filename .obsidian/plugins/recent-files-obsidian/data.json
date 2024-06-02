@@ -1,20 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Overflow of Signed and Unsigned Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
+      "basename": "Digital-Logic-Mindmap",
+      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
     },
     {
-      "basename": "Signed Binary Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md"
+      "basename": "Gray code",
+      "path": "GATE/Digital-Logic/Number Systems/Gray code.md"
     },
     {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
-      "basename": "Digital-Logic-Mindmap",
-      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
+      "basename": "Binary Codes for Decimal Digits",
+      "path": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md"
+    },
+    {
+      "basename": "Algebraic Simplification of Boolean Functions",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md"
+    },
+    {
+      "basename": "Boolean Function",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
+    },
+    {
+      "basename": "Laws of Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
+    },
+    {
+      "basename": "Sign Extension of Unsigned and Signed Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md"
+    },
+    {
+      "basename": "Registers and Status Flags",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md"
+    },
+    {
+      "basename": "Signed Binary Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md"
+    },
+    {
+      "basename": "Overflow of Signed and Unsigned Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
     },
     {
       "basename": "Topics-Tracker-for-GATE",
@@ -49,14 +77,6 @@
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
     },
     {
-      "basename": "Boolean Function",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
-    },
-    {
-      "basename": "Laws of Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
-    },
-    {
       "basename": "Minimization using K Map",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
     },
@@ -83,10 +103,6 @@
     {
       "basename": "Computer Networks",
       "path": "GATE/ComputerNetworks/Computer Networks.md"
-    },
-    {
-      "basename": "Algebraic Simplification of Boolean Functions",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md"
     },
     {
       "basename": "Standard and Canonical Forms of Boolean Expressions",
@@ -183,22 +199,6 @@
     {
       "basename": "Vault Index",
       "path": "Vault Index.md"
-    },
-    {
-      "basename": "Aptitude",
-      "path": "GATE/Aptitude/Aptitude.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "GATE/Pending Lectures.md"
-    },
-    {
-      "basename": "Depth First Search",
-      "path": "GATE/Algorithms/Graph Algorithms/Depth First Search.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
     }
   ],
   "omittedPaths": [

@@ -31,8 +31,8 @@
               "state": {
                 "file": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
                 "viewState": {
-                  "x": 2963.6500000000215,
-                  "y": -3138.830000000008,
+                  "x": 3236.1400000000212,
+                  "y": -2857.9700000000093,
                   "zoom": 0
                 }
               },
@@ -40,12 +40,12 @@
             }
           },
           {
-            "id": "2408768a7eb07e38",
+            "id": "fab3e619b34e2a99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
+                "file": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -53,12 +53,12 @@
             }
           },
           {
-            "id": "a0d6bbae76968b58",
+            "id": "7ddac272f02e6a33",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
+                "file": "GATE/Digital-Logic/Number Systems/Gray code.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:DigitalLogic/Codes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -128,7 +128,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -149,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
+                "file": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
+                "file": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
+                "file": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
               }
             }
           },
@@ -251,23 +252,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2408768a7eb07e38",
+  "active": "d6cb0aab7caeec75",
   "lastOpenFiles": [
-    "attachments/Overflow of Signed and Unsigned Numbers-20240601232115960.webp",
-    "attachments/Overflow of Signed and Unsigned Numbers-20240601232016471.webp",
-    "attachments/Overflow of Signed and Unsigned Numbers-20240601231958942.webp",
-    "attachments/Overflow of Signed and Unsigned Numbers-20240601231922144.webp",
-    "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
+    "GATE/Digital-Logic/Number Systems/Gray code.md",
     "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
-    "attachments/Overflow-20240601230859892.webp",
-    "attachments/Overflow-20240601225846720.webp",
-    "attachments/Overflow-20240601225544987.webp",
-    "attachments/Overflow-20240601222836213.webp",
-    "attachments/Overflow-20240601222456699.webp",
-    "attachments/Overflow-20240601222440409.webp",
-    "attachments/Overflow-20240601221857033.webp",
+    "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
+    "attachments/Gray code-20240602193936333.webp",
+    "attachments/Binary Codes for Decimal Digits-20240602191641914.webp",
+    "attachments/Binary Codes for Decimal Digits-20240602191243554.webp",
+    "attachments/Binary Codes for Decimal Digits-20240602190135469.webp",
+    "attachments/Binary Codes for Decimal Digits-20240602190021888.webp",
+    "attachments/Binary Codes for Decimal Digits-20240602185738952.webp",
+    "attachments/Binary Codes for Decimal Digits-20240602185702384.webp",
+    "attachments/Binary Codes-20240602183826591.webp",
+    "attachments/Binary Codes-20240602183602488.webp",
+    "attachments/Binary Codes-20240602163359271.webp",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
+    "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md",
+    "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
+    "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
     "GATE/Topics-Tracker-for-GATE.md",
     "GATE/Digital-Logic/Number Systems/Arithmetic of Signed Binary Numbers.md",
     "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md",
@@ -278,18 +285,12 @@
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
     "GATE/Digital-Logic/Number Systems/Untitled.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Special Types of Boolean Functions.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md",
     "GATE/CompilerDesign/Compiler Design.md",
     "GATE/Algorithms/Algorithms.md",
-    "GATE/OperatingSystems/Operating Systems.md",
-    "GATE/ComputerNetworks/Computer Networks.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",
