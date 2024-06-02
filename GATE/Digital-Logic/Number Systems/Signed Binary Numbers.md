@@ -171,6 +171,7 @@ Maximum = $\underbrace{0}_{\text{positive sign bit }}\underbrace{1111\cdots 11}_
 
 ---
 # Arithmetic of Signed Binary Numbers
+Computers don't know the difference between signed and unsigned numbers, which makes the logic circuits faster and also distinguishing between signed and unsigned numbers is our responsibility.
 
 ## Signed Magnitue System
 
@@ -212,6 +213,10 @@ $$
 > ![[Arithmetic of Signed Binary Numbers-20240601083633480.webp]]
 > ![[Arithmetic of Signed Binary Numbers-20240601083644905.webp]]
 
+> [!NOTE] 
+> In 1's complement addition, we are adding `1` to the result iff the final carry out is `1`.
+
+
 ## 2's Complement System
 
 - The operands values and the resultant value are also in $2$'s complement representation.
@@ -230,6 +235,8 @@ $$
 > [!summary] 
 
 The binary signed numbers in the sign complement system are added and subtracted as the same way as unsigned numbers. Hence computer needs only one common hardware to deal with arithmetics of both types.
+
+Addition of positive numbers in both 1's and 2's complement system are same.
 
 2s complement system is better than 1s complement system because, 
 - there is no additional addition by 1

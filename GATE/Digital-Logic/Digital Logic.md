@@ -35,8 +35,8 @@ tags:
 - [[Subtraction of Unsigned Numbers]]
 - [[Signed Binary Numbers]]
 - [[Overflow of Signed and Unsigned Numbers]]
-- [[Sign Extension]]
-- [[Binary Codes]]
+- [[Sign Extension of Unsigned and Signed Numbers]]
+- [[Binary Codes for Decimal Digits]]
 - [[Gray code]]
 
 ## Module 3 - Combinational Circuits

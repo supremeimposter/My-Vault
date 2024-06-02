@@ -303,15 +303,6 @@
       "height": 84
     },
     {
-      "id": "784a184d5348609e",
-      "type": "text",
-      "text": "Representation of **Signed Binary** Numbers",
-      "x": 3377,
-      "y": -3680,
-      "width": 260,
-      "height": 99
-    },
-    {
       "id": "19c2c37018d01cda",
       "type": "text",
       "text": "MSB of a signed number",
@@ -357,13 +348,13 @@
       "height": 60
     },
     {
-      "id": "15bcc940d77942d0",
+      "id": "784a184d5348609e",
       "type": "text",
-      "text": "Radix complement",
-      "x": 3871,
-      "y": -3154,
+      "text": "Representation of **Signed Binary** Numbers",
+      "x": 3377,
+      "y": -3680,
       "width": 260,
-      "height": 60
+      "height": 99
     },
     {
       "id": "1961ccb1881ed0e1",
@@ -375,6 +366,34 @@
       "height": 214
     },
     {
+      "id": "f261b401c957d875",
+      "type": "text",
+      "text": "**Number System**\n\nBase = Radix = $r$\n$r$ = number of symbols in the number system",
+      "x": 2960,
+      "y": -2940,
+      "width": 260,
+      "height": 160,
+      "color": "3"
+    },
+    {
+      "id": "93948d236faca82a",
+      "type": "text",
+      "text": "Overflow",
+      "x": 3117,
+      "y": -3340,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "15bcc940d77942d0",
+      "type": "text",
+      "text": "Radix complement",
+      "x": 3871,
+      "y": -3154,
+      "width": 260,
+      "height": 60
+    },
+    {
       "id": "28b5dd7845693546",
       "type": "text",
       "text": "Diminished Radix complement",
@@ -382,25 +401,6 @@
       "y": -2970,
       "width": 260,
       "height": 60
-    },
-    {
-      "id": "f261b401c957d875",
-      "type": "text",
-      "text": "**Number System**\n\nBase = Radix = $r$\n$r$ = number of symbols in the number system",
-      "x": 2960,
-      "y": -2940,
-      "width": 260,
-      "height": 140,
-      "color": "3"
-    },
-    {
-      "id": "93948d236faca82a",
-      "x": 3117,
-      "y": -3340,
-      "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": "Overflow"
     }
   ],
   "edges": [
