@@ -175,6 +175,6 @@ There may be some functions which do hold for cancellation laws. e.g. converses 
 > [!summary] 
 > ![[Laws of Boolean Algebra-20240517163430314.webp]]
 > ![[Laws of Boolean Algebra-20240218225050396.webp]]
-> ![[Laws of Boolean Algebra-20240518102236148.webp]]
+> ![[Laws of Boolean Algebra-20240603120312263.webp]]
 
 Boolean algebraic laws are given in pairs to show that algebra satisfies a [[Boolean Function#Complement and Dual of Boolean Functions|duality]].

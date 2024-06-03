@@ -1,5 +1,5 @@
 ---
-pdf: 
+pdf: lec-2A-4D
 module: 3
 lecture: "2"
 date: 2024-03-02T17:49:00
@@ -12,23 +12,22 @@ tags:
 ---
 # Multiplexer
 
-- Multiplexer (MUX) is a data selector which works like a **bridge**.
+- Multiplexer (MUX) is a <mark style="background-color: #fff88f; color: black">data selector</mark> which works like a **bridge**.
 - Every MUX is a $2^n \times 1$ MUX, where $n$ is the number of select lines or control inputs and there are $2^n$ number of inputs.
-- Every MUX has only one output line.
+- It is a combinational circuit which selects one of the $2^n$ input lines are transmits the information from that line to the output line.
+- Every MUX has only one output line (because it is the design of this digital circuit).
 
-> [!question] 
-> Why MUX has only one output line?
->> 
-
-> [!important] 
->> Think of MUX as a bridge where inputs are waiting at each gates and the control inputs check the ID number for each gateway.
+> [!analogy] 
+>> Think of MUX as a bridge where inputs are waiting at each gates and the control inputs check the ID number for each gateway. At a time, only one input can cross the bridge.
 >
 > ![[Multiplexer-20240303072621253.webp|$4 \times 1$ MUX]]
 > 
 
-|  ![[Multiplexer-20240303073303413.webp]]   |  ![[Multiplexer-20240303073355096.webp]]   |
-| --- | --- |
-|  ![[Multiplexer-20240303073425779.webp]]   |  ![[Multiplexer-20240303073450940.webp]]   |
+The output line is dependent on the inputs and the control lines i.e. $f(S_{0}, S_{1}, I_{0}, I_{1}, I_{2}, I_{3})$.
+
+| ![[Multiplexer-20240303073303413.webp]] | ![[Multiplexer-20240303073355096.webp]] |
+| --------------------------------------- | --------------------------------------- |
+| ![[Multiplexer-20240303073425779.webp]] | ![[Multiplexer-20240303073450940.webp]] |
 
 
 ## Realization of functions from MUX
