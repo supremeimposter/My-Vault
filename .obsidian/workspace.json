@@ -31,8 +31,8 @@
               "state": {
                 "file": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
                 "viewState": {
-                  "x": 3236.1400000000212,
-                  "y": -2857.9700000000093,
+                  "x": 1249.6600000000242,
+                  "y": -1763.3600000000076,
                   "zoom": 0
                 }
               },
@@ -40,25 +40,12 @@
             }
           },
           {
-            "id": "fab3e619b34e2a99",
+            "id": "163416fb780779a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ddac272f02e6a33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Digital-Logic/Number Systems/Gray code.md",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -150,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
+                "file": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
               }
             }
           },
@@ -252,25 +239,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d6cb0aab7caeec75",
+  "active": "163416fb780779a6",
   "lastOpenFiles": [
-    "GATE/Digital-Logic/Number Systems/Gray code.md",
     "GATE/Digital-Logic/Digital Logic.md",
+    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
+    "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
+    "attachments/Compact Truth Table Representation-20240603225741191.webp",
+    "attachments/Compact Truth Table Representation-20240603224413418.webp",
+    "attachments/Compact Truth Table Representation-20240603224356486.webp",
+    "attachments/Compact Truth Table Representation-20240603224321048.webp",
+    "attachments/Compact Truth Table Representation-20240603224008488.webp",
+    "attachments/Compact Truth Table Representation-20240603210313609.webp",
+    "attachments/Compact Truth Table Representation-20240603193907696.webp",
     "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
+    "GATE/Digital-Logic/Number Systems/Gray code.md",
+    "attachments/Gray code-20240603190956068.webp",
+    "attachments/Gray code-20240603170040937.webp",
+    "attachments/Gray code-20240603165000412.webp",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
-    "attachments/Gray code-20240602193936333.webp",
-    "attachments/Binary Codes for Decimal Digits-20240602191641914.webp",
-    "attachments/Binary Codes for Decimal Digits-20240602191243554.webp",
-    "attachments/Binary Codes for Decimal Digits-20240602190135469.webp",
-    "attachments/Binary Codes for Decimal Digits-20240602190021888.webp",
-    "attachments/Binary Codes for Decimal Digits-20240602185738952.webp",
-    "attachments/Binary Codes for Decimal Digits-20240602185702384.webp",
-    "attachments/Binary Codes-20240602183826591.webp",
-    "attachments/Binary Codes-20240602183602488.webp",
-    "attachments/Binary Codes-20240602163359271.webp",
-    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md",
     "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
@@ -289,8 +277,6 @@
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants in K Map.md",
-    "GATE/CompilerDesign/Compiler Design.md",
-    "GATE/Algorithms/Algorithms.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",

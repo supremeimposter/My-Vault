@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Digital-Logic-Mindmap",
-      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
-    },
-    {
-      "basename": "Gray code",
-      "path": "GATE/Digital-Logic/Number Systems/Gray code.md"
+      "basename": "Multiplexer and Demultiplexer",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
     },
     {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
+      "basename": "Digital-Logic-Mindmap",
+      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
+    },
+    {
+      "basename": "Compact Truth Table Representation",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
+    },
+    {
       "basename": "Binary Codes for Decimal Digits",
       "path": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md"
+    },
+    {
+      "basename": "Gray code",
+      "path": "GATE/Digital-Logic/Number Systems/Gray code.md"
+    },
+    {
+      "basename": "Laws of Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
     },
     {
       "basename": "Algebraic Simplification of Boolean Functions",
@@ -23,10 +35,6 @@
     {
       "basename": "Boolean Function",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
-    },
-    {
-      "basename": "Laws of Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
     },
     {
       "basename": "Sign Extension of Unsigned and Signed Numbers",
@@ -191,14 +199,6 @@
     {
       "basename": "GATE-LOG",
       "path": "GATE/GATE-LOG.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE/GATE-CS.md"
-    },
-    {
-      "basename": "Vault Index",
-      "path": "Vault Index.md"
     }
   ],
   "omittedPaths": [
