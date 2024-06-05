@@ -64,6 +64,7 @@ $$
 where $m_{k}$ is the minterm of the $n$ control variables and $I_{k}$ is the corresponding data input.
 
 A combination of MUX can be used to select data inputs.
+
 ![[Multiplexer and Demultiplexer-20240604110426241.webp]]
 
 ## Realization of functions from MUX
@@ -105,11 +106,13 @@ Control inputs can also pose as data inputs.
 > [!pdf] mod-3/lec-02C.pdf Pg. No. 05-39
 
 A good MUX circuit should make use of input data and should have minimum invertors or never use one at all.
+
 ![[Multiplexer and Demultiplexer-20240604175654257.webp]]
 
 An ideal MUX should use all the data input pins and should not add extra hardware e.g. $4 \times 1$ MUX for $a \oplus b$.
 
 To the given function, you can apply the different inputs of the control inputs to see what is the value of $f$ and get to a conclusion about the MUX diagram.
+
 ![[Multiplexer and Demultiplexer-20240604201927855.webp]]
 
 ---
@@ -122,20 +125,50 @@ For the data input lines,
 1. Connect `1` to MUX input line $I_{i}$ because it is a minterm of the function.
 2. Otherwise connect `0` to MUX input line $I_{i}$.
 
-![[Multiplexer and Demultiplexer-20240605124143514.webp]]
-
 ![[Multiplexer and Demultiplexer-20240605114519342.webp]]
 
-![[Multiplexer and Demultiplexer-20240605114612396.webp]]
+![[Multiplexer and Demultiplexer-20240605124143514.webp]]
 
----
 > [!header] Single $2^{n-1} \times 1$ MUX is <mark class="hltr-cyan">not enough</mark> for any $n$-variable function
 
+We need an Invertor in this case as additional hardware.
+
+> [!example] 
+>> $f = a \oplus b$ which is a 2 variable function requires a $2^{2-1} \times 1$ MUX and an invertor. A single $2 \times 1$ MUX is not enough.
+>
+> ![[Multiplexer and Demultiplexer-20240605174411860.webp]]
+
+There are some $n$ variable functions which can be implemented using $2^{n-1} \times 1$ MUX.
 
 
+> [!example] 
+>> $f(a, b) = a + \overline{b}$ is a function with $2$ variables and a single $2^{2-1} \times 1$ MUX is enough to implement $f$ 
+>
+> ![[Multiplexer and Demultiplexer-20240605114612396.webp]]
+
+![[Multiplexer and Demultiplexer-20240605212132974.webp]]
+
+> [!example] 
+> ![[Multiplexer and Demultiplexer-20240605212428467.webp]]
+
+
+> [!summary] 
+
+- Not every 2 variable function can be implemented using single $2^{2-1} \times 1$ MUX without additional hardware.
+- Some 2 variable function can be implemented using single $2^{2-1} \times 1$ MUX without additional hardware.
+
+A function $f$ over $n$ variables can be implemented by,
+1. a single $2^n \times 1$ MUX.
+2. a single $2^{n-1} \times 1$ MUX + a single Invertor.
+3. a single $2^{n-2} \times 1$ MUX + additional hardware e.g. OR, AND, NOT gates.
 
 ---
 ## Building Bigger MUX from Smaller MUX
+
+> [!think] 
+> A circuit manufacturing company may not manufacture your required MUX, for example, a $64 \times 1$ MUX cannot be manufactured by a company that manufactures $4 \times 1$ MUX in a large scale.
+
+![[Multiplexer and Demultiplexer-20240605215408538.webp]]
 
 
 ## MUX with Enable Input
