@@ -55,7 +55,7 @@ The standard truth table of the above compact truth table is,
 
 ![[Compact Truth Table Representation-20240603193907696.webp]]
 
-Compact truth table is one of the representations of [[Boolean Function]].
+Compact truth table is one of the representations of [[Boolean Function]]. Compact truth tables are helpful in constructing combinational circuits.
 
 ---
 > [!example] 
