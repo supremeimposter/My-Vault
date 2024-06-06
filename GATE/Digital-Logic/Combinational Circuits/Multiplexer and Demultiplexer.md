@@ -5,8 +5,8 @@ lecture: "2"
 date: 2024-03-02T17:49:00
 version:
   - DL-24
-last-revision: 
-notes-taken: false
+last-revision: 2024-06-06T17:26:00
+notes-taken: true
 tags:
   - DigitalLogic/CombinationalCircuits
 ---
@@ -164,15 +164,61 @@ A function $f$ over $n$ variables can be implemented by,
 
 ---
 ## Building Bigger MUX from Smaller MUX
-
 > [!think] 
 > A circuit manufacturing company may not manufacture your required MUX, for example, a $64 \times 1$ MUX cannot be manufactured by a company that manufactures $4 \times 1$ MUX in a large scale.
 
+A single $4 \times 1$ MUX can be built using three $2 \times 1$ MUX.
+
 ![[Multiplexer and Demultiplexer-20240605215408538.webp]]
 
+A single $8 \times 1$ MUX can be built using seven $2 \times 1$ MUX.
+
+![[Multiplexer and Demultiplexer-20240606084334257.webp]]
+
+A single $8 \times 1$ MUX can be built using three $4 \times 1$ MUX.
+
+![[Multiplexer and Demultiplexer-20240606092838906.webp]]
+
+A single $16 \times 1$ MUX is built using five $4 \times 1$ MUX.
+
+![[Multiplexer and Demultiplexer-20240606102214478.webp]]
+
+The control inputs must be configured accordingly or else we may not get the desired output.
+
+![[Multiplexer and Demultiplexer-20240606094514927.webp]]
+![[Multiplexer and Demultiplexer-20240606094607152.webp]]
+
+> [!info] 
+> When constructing a bigger MUX using smaller MUX, it requires a lot of hardware than constructing the bigger MUX itself.
+
+Multiplexers can also be used to build some other useful digital circuits
+
+A $2 \times 2$ cross bar switch can be built using a single $2 \times 2$ MUX.
+
+| $2 \times 2$ MUX implemented as $2 \times 2$ cross bar switch | Working of a $2 \times 2$ cross bar switch                |
+| ------------------------------------------------------------- | --------------------------------------------------------- |
+| ![[Multiplexer and Demultiplexer-20240606104925205.webp]]     | ![[Multiplexer and Demultiplexer-20240606105049266.webp]] |
 
 ## MUX with Enable Input
-- Enable is like a switch to ON or OFF the MUX
+- Enable is like a switch to ON or OFF the MUX.
+
+> [!analogy] 
+> When laptop power button is OFF, no matter whatever keys you press on laptop, there is no response and no computation.
+> When laptop power button is ON, laptop works normally.
+
+![[Multiplexer and Demultiplexer-20240606125325000.webp]]
+
+
+<u>Active High Enable</u>
+- When the enable = 1, the MUX is ON i.e. MUX works normally.
+- When the enable = 0, the MUX is OFF i.e. MUX is idle.
+
+![[Multiplexer and Demultiplexer-20240606125356045.webp]]
+
+<u>Active Low Enable</u>
+- When the enable = 0, the MUX is ON i.e. MUX works normally.
+- When the enable = 1, the MUX is OFF i.e. MUX is idle.
+
 
 ```mermaid
 flowchart TD
@@ -182,11 +228,46 @@ B -.-> D([E = 0 Circuit works\nE = 1 Circuit does not work])
 C -.-> E([E = 1 Circuit works\nE = 0 Circuit does not work])
 ```
 
+| Active Low Enable                                         | Active High Enable                                        |
+| --------------------------------------------------------- | --------------------------------------------------------- |
+| ![[Multiplexer and Demultiplexer-20240606130855618.webp]] | ![[Multiplexer and Demultiplexer-20240606131019763.webp]] |
+| ![[Multiplexer and Demultiplexer-20240606130925707.webp]] | ![[Multiplexer and Demultiplexer-20240606131042979.webp]] |
+| ![[Multiplexer and Demultiplexer-20240606131000442.webp]] | ![[Multiplexer and Demultiplexer-20240606131112396.webp]] |
+> [!attention] 
+> When the circuit is idle, then the output of the circuit is `0`.
+
+---
 # Demultiplexer
 - An output line is selected for the incoming data in the DEMUX.
 - DEMUX is more like which output receives the incoming data. The incoming data can be either 0 or 1.
 
+![[Multiplexer and Demultiplexer-20240606133338806.webp]]
+
+A single $1 \times 2^n$ DEMUX has $n$ select lines, one input line and $2^n$ output data lines.
+
+Data is received byte by byte  by a demux in a serial manner.
+![[Multiplexer and Demultiplexer-20240606133535354.webp]]
+
+In a DEMUX, each output line can be considered as a separate funciton depending on inputs and the control lines.
+The input data (incoming data) can be either 0 or 1.
 
 > [!discussion] 
 > ![[Multiplexer and Demultiplexer-20240303202450744.webp]]
 
+## 1 X 2 DEMUX
+
+![[Multiplexer and Demultiplexer-20240606134910961.webp]]
+![[Multiplexer and Demultiplexer-20240606134953328.webp]]
+
+> [!caution] 
+> The input data $D$ can be either $0$ or $1$. Don't just put $1$ everywhere in place of $D$.
+
+## 1 X 4 DEMUX
+
+![[Multiplexer and Demultiplexer-20240606135645806.webp]]
+![[Multiplexer and Demultiplexer-20240606135708273.webp]]
+![[Multiplexer and Demultiplexer-20240606135935115.webp]]
+
+For each output line, only for one input combination, it is set to the incoming data, others are set to $0$.
+
+---
