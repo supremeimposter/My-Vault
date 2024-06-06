@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Encoder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
+    },
+    {
       "basename": "Multiplexer and Demultiplexer",
       "path": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
     },
@@ -9,16 +13,16 @@
       "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
+      "basename": "Digital-Logic-Mindmap",
+      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
+    },
+    {
       "basename": "Boolean Functions vs Digital Circuits",
       "path": "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md"
     },
     {
       "basename": "Compact Truth Table Representation",
       "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
-    },
-    {
-      "basename": "Digital-Logic-Mindmap",
-      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
     },
     {
       "basename": "Binary Codes for Decimal Digits",
@@ -195,10 +199,6 @@
     {
       "basename": "Crammer's Rule",
       "path": "GATE/Linear-Algebra/Crammer's Rule.md"
-    },
-    {
-      "basename": "Machine Learning",
-      "path": "Machine-Learning/Machine Learning.md"
     }
   ],
   "omittedPaths": [

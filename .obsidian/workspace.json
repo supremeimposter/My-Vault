@@ -40,12 +40,12 @@
             }
           },
           {
-            "id": "163416fb780779a6",
+            "id": "c551d567294eda6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
+                "file": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
               }
             }
           },
@@ -239,24 +239,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "163416fb780779a6",
+  "active": "c551d567294eda6d",
   "lastOpenFiles": [
-    "attachments/Multiplexer and Demultiplexer-20240605215408538.webp",
-    "attachments/Multiplexer and Demultiplexer-20240605212428467.webp",
-    "attachments/Multiplexer and Demultiplexer-20240605212132974.webp",
-    "attachments/Multiplexer and Demultiplexer-20240605174411860.webp",
-    "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
-    "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
-    "attachments/Multiplexer and Demultiplexer-20240605124143514.webp",
-    "attachments/Multiplexer and Demultiplexer-20240605114612396.webp",
-    "attachments/Multiplexer and Demultiplexer-20240605114519342.webp",
-    "attachments/Multiplexer and Demultiplexer-20240604201927855.webp",
-    "attachments/Multiplexer and Demultiplexer-20240604175654257.webp",
-    "attachments/Multiplexer and Demultiplexer-20240604175154034.webp",
-    "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
-    "attachments/Multiplexer and Demultiplexer-20240604142402362.webp",
+    "GATE/Digital-Logic/Digital Logic.md",
+    "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
+    "attachments/Encoder-20240606183838049.webp",
+    "attachments/Encoder-20240606183413080.webp",
+    "attachments/Encoder-20240606183129811.webp",
+    "attachments/Encoder-20240606182829682.webp",
+    "attachments/Encoder-20240606181443160.webp",
+    "attachments/Encoder-20240606181344005.webp",
+    "attachments/Encoder-20240606181135801.webp",
+    "attachments/Encoder-20240606180857156.webp",
+    "attachments/Encoder-20240606180529347.webp",
+    "attachments/Encoder-20240606174744739.webp",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
+    "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
+    "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
     "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
     "GATE/Digital-Logic/Number Systems/Gray code.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
