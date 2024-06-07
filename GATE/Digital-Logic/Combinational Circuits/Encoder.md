@@ -19,7 +19,7 @@ $2^n$ objects require $n$ codes to be mapped against uniquely.
 
 Each input of the encoder gets a unique encoding because of Encoder.
 
-There are two types of Encoder:
+There are several types of Encoder:
 1. Binary Encoder
 2. Priority Encoder
 
