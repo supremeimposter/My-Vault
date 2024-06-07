@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
+                "file": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
               }
             }
           },
@@ -252,23 +252,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dfef7de9f24ed523",
+  "active": "5debb29d3cc3fc2b",
   "lastOpenFiles": [
-    "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
+    "attachments/Decoder-20240607182110862.webp",
     "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
+    "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
+    "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
+    "attachments/Decoder-20240607175944996.webp",
+    "attachments/Decoder-20240607142538038.webp",
+    "attachments/Decoder-20240607142523363.webp",
+    "attachments/Decoder-20240607135356502.webp",
+    "attachments/Decoder-20240607134955954.webp",
+    "attachments/Decoder-20240607134943702.webp",
+    "attachments/Decoder-20240607132316697.webp",
+    "attachments/Decoder-20240607132037720.webp",
+    "attachments/Decoder-20240607131407240.webp",
+    "attachments/Decoder-20240607131228668.webp",
     "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
-    "attachments/Encoder-20240606200029856.webp",
-    "attachments/Encoder-20240606195930922.webp",
-    "attachments/Encoder-20240606195921108.webp",
-    "attachments/Encoder-20240606195912303.webp",
-    "attachments/Encoder-20240606195843501.webp",
-    "attachments/Encoder-20240606195816397.webp",
-    "attachments/Encoder-20240606195809952.webp",
-    "attachments/Encoder-20240606195555456.webp",
-    "attachments/Encoder-20240606195424791.webp",
-    "attachments/Encoder-20240606195049767.webp",
-    "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
     "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
     "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
     "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
@@ -290,7 +291,6 @@
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
     "GATE/Digital-Logic/Number Systems/Untitled.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Special Types of Boolean Functions.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",

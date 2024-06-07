@@ -211,7 +211,7 @@
   "aura@@aura-active-line": "aura-no-highlight",
   "aura@@aura-callouts": false,
   "aura@@aura-layout-select": "aura-default-layout",
-  "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-simple-rainbow-color-toggle",
+  "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-default-rainbow",
   "anuppuccin-theme-settings@@anp-rainbow-file-toggle": true,
   "anuppuccin-theme-settings@@anp-full-rainbow-text-color-toggle-light": false,
   "anuppuccin-theme-settings@@anp-collapse-folders": true,
@@ -245,9 +245,9 @@
   "ul-theme-settings@@ul-tag-bg": false,
   "ul-theme-settings@@ul-bar": false,
   "ul-theme-settings@@ul-resize-border": false,
-  "anuppuccin-theme-settings@@anp-alt-tab-style": "anp-depth-tab-toggle",
+  "anuppuccin-theme-settings@@anp-alt-tab-style": "anp-safari-tab-toggle",
   "anuppuccin-theme-settings@@anp-disable-newtab-align": true,
-  "anuppuccin-theme-settings@@anp-layout-select": "anp-border-layout",
+  "anuppuccin-theme-settings@@anp-layout-select": "none",
   "anuppuccin-theme-settings@@anp-cursor": "pointer",
   "aura@@aura-colorful-frame-opacity": 1,
   "pln@@pln-vision": false,
@@ -413,8 +413,8 @@
   "custom-diegoeis-obsidianotion@@eis-showing-scrollbar": false,
   "custom-diegoeis-obsidianotion@@eis-empty-bg": false,
   "prime@@hide-header-title": false,
-  "vauxhall@@main-color": "vauxhall-teal",
+  "vauxhall@@main-color": "vauxhall-white",
   "vauxhall@@color-intensity": "intensity-nebula",
   "vauxhall@@h1-accent": false,
-  "vauxhall@@header-color-type": "headers-gradient-mint-to-blue"
+  "vauxhall@@header-color-type": "headers-mono"
 }

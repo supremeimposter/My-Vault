@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Decoder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
+    },
+    {
       "basename": "Encoder",
       "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
     },
     {
-      "basename": "Decoder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
+      "basename": "Multiplexer and Demultiplexer",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
     },
     {
       "basename": "Digital Logic",
@@ -15,10 +19,6 @@
     {
       "basename": "Digital-Logic-Mindmap",
       "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
-    },
-    {
-      "basename": "Multiplexer and Demultiplexer",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
     },
     {
       "basename": "Boolean Functions vs Digital Circuits",
