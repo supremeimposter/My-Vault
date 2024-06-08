@@ -18,5 +18,6 @@
   "translucency": false,
   "textFontFamily": "SF Pro Text",
   "interfaceFontFamily": "SF Pro Display,SF Pro",
-  "monospaceFontFamily": "SF Mono"
+  "monospaceFontFamily": "SF Mono",
+  "baseFontSizeAction": false
 }
