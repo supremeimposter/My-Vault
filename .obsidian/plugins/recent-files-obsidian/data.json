@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "Decoder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
-    },
-    {
       "basename": "Encoder",
       "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
     },
@@ -15,6 +11,10 @@
     {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Decoder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
     },
     {
       "basename": "Digital-Logic-Mindmap",
