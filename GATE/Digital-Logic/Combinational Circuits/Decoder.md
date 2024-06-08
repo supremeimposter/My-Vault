@@ -44,9 +44,9 @@ C --> I
 
 > [!caution] 
 > Do not confuse the active high and low encoders with enable input.
-> Each type of decoder has active high and active low enable input.
+> Both decoders has active high and active low enable input.
 
-### AND Decoder
+### AND Implementation of Decoder
 
 In this AND implementation of Decoders, all of the outputs are "one-hot" encoded i.e. out of all the outputs, only one output is $1$.
 
@@ -101,7 +101,7 @@ When $E = 1$, all of the outpus are $0$.
 
 ![[Decoder-20240607130233945.webp]]
 
-### NAND Decoder
+### NAND Implementation of Decoder
 
 In this NAND implementation of Decoders, out of all the outputs, only one output is $0$, which is also the selected output.
 
@@ -209,9 +209,9 @@ For $f = 1$, any of these minterms has to be $1$, since the decoder activates on
 
 > [!summary] 
 
-Implementation of a funciton of $n$ variables using $n \times 2^n$ decoder requires,
-1. $n \times 2^n$ decoder + $1$ OR gate, in case of active high decoder or 
-2. $n \times 2^n$ decoder + $1$ NAND gate, in case of active low decoder
+Implementation of any funciton of $n$ variables decoders require either,
+1. $n \times 2^n$ active high decoder + $1$ OR gate or,
+2. $n \times 2^n$ active low decoder + $1$ NAND gate
 
 Decoder is not functionally complete by itself, it requires extra hardware.
 

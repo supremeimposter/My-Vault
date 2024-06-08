@@ -10,6 +10,17 @@
       "label": "Equivalent forms of an expression"
     },
     {
+      "id": "816b5b2909982414",
+      "type": "text",
+      "text": "**Digital Logic**",
+      "shape": "predefined-process",
+      "x": 1200,
+      "y": -1840,
+      "width": 250,
+      "height": 140,
+      "color": "1"
+    },
+    {
       "id": "fb4e853ef9f1fd19",
       "type": "text",
       "text": "When a function $F$ is complemented, then it is a different function. $\\overline{F}$ has different standard and canonical forms.",
@@ -18,26 +29,6 @@
       "width": 460,
       "height": 120,
       "color": "6"
-    },
-    {
-      "id": "b66ba5c61f5a08ed",
-      "type": "text",
-      "text": "**Boolean Expression**\n",
-      "isStartNode": false,
-      "x": -408,
-      "y": -1480,
-      "width": 260,
-      "height": 100,
-      "color": "5"
-    },
-    {
-      "id": "00b8b156e600380a",
-      "type": "text",
-      "text": "The same boolean expression can be expressed in many ways. \n$$\n\\begin{split}\nE &= a \\\\\n&= a + aa \\\\\n&= aaaa \\\\\n&= a + aa + aaaaa \\\\\n&= aa \\\\\n&= a + a\n\\end{split}\n$$\nBut we may want a standard and unique form to express a particular boolean expression",
-      "x": -740,
-      "y": -980,
-      "width": 403,
-      "height": 360
     },
     {
       "id": "5c1d143ce9c5cf00",
@@ -49,15 +40,6 @@
       "height": 207
     },
     {
-      "id": "ad030c7659a584d9",
-      "type": "text",
-      "text": "**Canonical Form**\nThese two forms are from a function's perspective",
-      "x": -370,
-      "y": -340,
-      "width": 260,
-      "height": 160
-    },
-    {
       "id": "a39ea932756edd12",
       "type": "text",
       "text": "You need a minimized expression or function that has minimum number of terms in which it has minimum number of literals.\n\nYou get minimized form out of canonical form from the k-map\n\nCanonical form $\\Rightarrow$ minimised form",
@@ -65,6 +47,15 @@
       "y": -2742,
       "width": 470,
       "height": 245
+    },
+    {
+      "id": "8835d8b646508aeb",
+      "type": "text",
+      "text": "k-map gives the minimal expression from the canonical form",
+      "x": 480,
+      "y": -653,
+      "width": 365,
+      "height": 67
     },
     {
       "id": "a20e58783c3f63d8",
@@ -85,6 +76,26 @@
       "height": 50
     },
     {
+      "id": "b66ba5c61f5a08ed",
+      "type": "text",
+      "text": "**Boolean Expression**\n",
+      "isStartNode": false,
+      "x": -408,
+      "y": -1480,
+      "width": 260,
+      "height": 100,
+      "color": "5"
+    },
+    {
+      "id": "ad030c7659a584d9",
+      "type": "text",
+      "text": "**Canonical Form**\nThese two forms are from a function's perspective",
+      "x": -370,
+      "y": -340,
+      "width": 260,
+      "height": 160
+    },
+    {
       "id": "a3f6e668f4ad25d1",
       "type": "text",
       "text": "**Minimum POS**\nTo get the minimal POS, we need to large cubes of 0's, since mPOS is the product of maxterms for which the function value is 0",
@@ -92,6 +103,24 @@
       "y": -3042,
       "width": 360,
       "height": 159
+    },
+    {
+      "id": "24851078ccd429d1",
+      "type": "text",
+      "text": "**Canonical POS**\n\nLogical AND of those maxterms for which the function value is 0\n\nCanonical POS is the product of maxterms",
+      "x": -80,
+      "y": 60,
+      "width": 260,
+      "height": 240
+    },
+    {
+      "id": "00b8b156e600380a",
+      "type": "text",
+      "text": "The same boolean expression can be expressed in many ways. \n$$\n\\begin{split}\nE &= a \\\\\n&= a + aa \\\\\n&= aaaa \\\\\n&= a + aa + aaaaa \\\\\n&= aa \\\\\n&= a + a\n\\end{split}\n$$\nBut we may want a standard and unique form to express a particular boolean expression",
+      "x": -740,
+      "y": -980,
+      "width": 403,
+      "height": 360
     },
     {
       "id": "49777b66628319e1",
@@ -109,15 +138,6 @@
       "x": -630,
       "y": 60,
       "width": 290,
-      "height": 240
-    },
-    {
-      "id": "24851078ccd429d1",
-      "type": "text",
-      "text": "**Canonical POS**\n\nLogical AND of those maxterms for which the function value is 0\n\nCanonical POS is the product of maxterms",
-      "x": -80,
-      "y": 60,
-      "width": 260,
       "height": 240
     },
     {
@@ -157,24 +177,6 @@
       "height": 184
     },
     {
-      "id": "224561fce4a32fd3",
-      "type": "text",
-      "text": "You cannot be sure that the simplified expression is the minimal and also it does not have a standard systematic way to arrive at the minimal solution, so that's why we need k-maps",
-      "x": -1835,
-      "y": -2742,
-      "width": 413,
-      "height": 187
-    },
-    {
-      "id": "e947516bcc7b661a",
-      "type": "text",
-      "text": "Algebraic Simplification",
-      "x": -1778,
-      "y": -2342,
-      "width": 300,
-      "height": 50
-    },
-    {
       "id": "9227413afe6efd0d",
       "type": "text",
       "text": "Standard Form",
@@ -193,13 +195,22 @@
       "height": 91
     },
     {
-      "id": "8835d8b646508aeb",
+      "id": "224561fce4a32fd3",
       "type": "text",
-      "text": "k-map gives the minimal expression from the canonical form",
-      "x": 480,
-      "y": -653,
-      "width": 365,
-      "height": 67
+      "text": "You cannot be sure that the simplified expression is the minimal and also it does not have a standard systematic way to arrive at the minimal solution, so that's why we need k-maps",
+      "x": -1835,
+      "y": -2742,
+      "width": 413,
+      "height": 187
+    },
+    {
+      "id": "e947516bcc7b661a",
+      "type": "text",
+      "text": "Algebraic Simplification",
+      "x": -1778,
+      "y": -2342,
+      "width": 300,
+      "height": 50
     },
     {
       "id": "3672d2f169cc2e8a",
@@ -229,39 +240,11 @@
       "height": 80
     },
     {
-      "id": "1961ccb1881ed0e1",
+      "id": "b134e1841641cce9",
       "type": "text",
-      "text": "**Complement**\nTo perform subtraction easier and with less digital circuits, complementation operation is used",
-      "x": 3480,
-      "y": -3124,
-      "width": 260,
-      "height": 214
-    },
-    {
-      "id": "f261b401c957d875",
-      "type": "text",
-      "text": "**Number System**\n\nBase = Radix = $r$\n$r$ = number of symbols in the number system",
-      "x": 2960,
-      "y": -2940,
-      "width": 260,
-      "height": 160,
-      "color": "3"
-    },
-    {
-      "id": "15bcc940d77942d0",
-      "type": "text",
-      "text": "Radix complement",
-      "x": 3871,
-      "y": -3154,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "28b5dd7845693546",
-      "type": "text",
-      "text": "Diminished Radix complement",
-      "x": 3871,
-      "y": -2970,
+      "text": "Sign-Magnitude",
+      "x": 2370,
+      "y": -4668,
       "width": 260,
       "height": 60
     },
@@ -269,8 +252,8 @@
       "id": "784a184d5348609e",
       "type": "text",
       "text": "Representation of **Signed Binary** Numbers",
-      "x": 3377,
-      "y": -3680,
+      "x": 2559,
+      "y": -4440,
       "width": 260,
       "height": 99
     },
@@ -278,8 +261,8 @@
       "id": "19c2c37018d01cda",
       "type": "text",
       "text": "MSB of a signed number",
-      "x": 3760,
-      "y": -3665,
+      "x": 2942,
+      "y": -4425,
       "width": 260,
       "height": 71
     },
@@ -287,80 +270,26 @@
       "id": "2ba78c56562c73f9",
       "type": "text",
       "text": "**2s complement**\nweighted system",
-      "x": 3780,
-      "y": -3923,
+      "x": 2962,
+      "y": -4683,
       "width": 260,
       "height": 90
-    },
-    {
-      "id": "b134e1841641cce9",
-      "type": "text",
-      "text": "Sign-Magnitude",
-      "x": 3188,
-      "y": -3908,
-      "width": 260,
-      "height": 60
     },
     {
       "id": "5ddae190658120d5",
       "type": "text",
       "text": "If the MSB of a number is 1",
-      "x": 4220,
-      "y": -3714,
+      "x": 3402,
+      "y": -4474,
       "width": 260,
       "height": 84
-    },
-    {
-      "id": "2e412a945ca0a4b0",
-      "type": "text",
-      "text": "In case of unsigned number, it is a positive number",
-      "x": 4560,
-      "y": -3878,
-      "width": 260,
-      "height": 109
-    },
-    {
-      "id": "1a84184098b6bfe5",
-      "type": "text",
-      "text": "In case of signed number, it is a negative number",
-      "x": 4561,
-      "y": -3581,
-      "width": 260,
-      "height": 111
-    },
-    {
-      "id": "2b6b954941709eb2",
-      "type": "text",
-      "text": "**1s complement**\nTake the 1s complement of the given number.\nThe negative of the resultant number is represented in the given number.",
-      "x": 4938,
-      "y": -3627,
-      "width": 342,
-      "height": 203
-    },
-    {
-      "id": "49902b0ea4444e41",
-      "type": "text",
-      "text": "**Signed Magnitude**\nTake the MSB for sign (negative) and treat the remaining bits as unsigned.",
-      "x": 4938,
-      "y": -3878,
-      "width": 260,
-      "height": 174
-    },
-    {
-      "id": "e79734fab71e1483",
-      "type": "text",
-      "text": "**2s complement**\nTake the 2s complement of the given number.\nThe negative of the resultant number is represented in the given number.",
-      "x": 4938,
-      "y": -3340,
-      "width": 342,
-      "height": 203
     },
     {
       "id": "1b6ca49b5fd826d4",
       "type": "text",
       "text": "If the MSB of a number is 0, then the number is positive in all of the representations",
-      "x": 4197,
-      "y": -4040,
+      "x": 3379,
+      "y": -4800,
       "width": 364,
       "height": 100
     },
@@ -368,8 +297,8 @@
       "id": "9fdca09c7473f1b4",
       "type": "text",
       "text": "1s complement",
-      "x": 3480,
-      "y": -4040,
+      "x": 2662,
+      "y": -4800,
       "width": 260,
       "height": 60
     },
@@ -377,8 +306,8 @@
       "id": "93948d236faca82a",
       "type": "text",
       "text": "Overflow",
-      "x": 3090,
-      "y": -3480,
+      "x": 2272,
+      "y": -4240,
       "width": 260,
       "height": 60
     },
@@ -386,30 +315,128 @@
       "id": "c952b0d6c31250e1",
       "type": "text",
       "text": "**Signed Binary Numbers**",
-      "x": 3537,
-      "y": -3450,
+      "x": 2719,
+      "y": -4210,
       "width": 323,
       "height": 50
+    },
+    {
+      "id": "15bcc940d77942d0",
+      "type": "text",
+      "text": "Radix complement",
+      "x": 3053,
+      "y": -3914,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "1961ccb1881ed0e1",
+      "type": "text",
+      "text": "**Complement**\nTo perform subtraction easier and with less digital circuits, complementation operation is used",
+      "x": 2662,
+      "y": -3884,
+      "width": 260,
+      "height": 214
+    },
+    {
+      "id": "28b5dd7845693546",
+      "type": "text",
+      "text": "Diminished Radix complement",
+      "x": 3053,
+      "y": -3730,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "f261b401c957d875",
+      "type": "text",
+      "text": "**Number System**\n\nBase = Radix = $r$\n$r$ = number of symbols in the number system",
+      "x": 2142,
+      "y": -3700,
+      "width": 260,
+      "height": 160,
+      "color": "3"
+    },
+    {
+      "id": "2e412a945ca0a4b0",
+      "type": "text",
+      "text": "In case of unsigned number, it is a positive number",
+      "x": 3742,
+      "y": -4638,
+      "width": 260,
+      "height": 109
+    },
+    {
+      "id": "1a84184098b6bfe5",
+      "type": "text",
+      "text": "In case of signed number, it is a negative number",
+      "x": 3743,
+      "y": -4341,
+      "width": 260,
+      "height": 111
+    },
+    {
+      "id": "49902b0ea4444e41",
+      "type": "text",
+      "text": "**Signed Magnitude**\nTake the MSB for sign (negative) and treat the remaining bits as unsigned.",
+      "x": 4120,
+      "y": -4638,
+      "width": 260,
+      "height": 174
+    },
+    {
+      "id": "2b6b954941709eb2",
+      "type": "text",
+      "text": "**1s complement**\nTake the 1s complement of the given number.\nThe negative of the resultant number is represented in the given number.",
+      "x": 4120,
+      "y": -4387,
+      "width": 342,
+      "height": 203
+    },
+    {
+      "id": "e79734fab71e1483",
+      "type": "text",
+      "text": "**2s complement**\nTake the 2s complement of the given number.\nThe negative of the resultant number is represented in the given number.",
+      "x": 4120,
+      "y": -4100,
+      "width": 342,
+      "height": 203
     },
     {
       "id": "6ecdc75da8627736",
       "type": "text",
       "text": "![[Pasted image 20240530185815.png]]",
-      "x": 5480,
-      "y": -3869,
+      "x": 4662,
+      "y": -4629,
       "width": 380,
       "height": 688
     },
     {
-      "id": "816b5b2909982414",
+      "id": "86d18244a4d80e8a",
       "type": "text",
-      "text": "**Digital Logic**",
-      "shape": "predefined-process",
-      "x": 1200,
-      "y": -1840,
-      "width": 250,
-      "height": 140,
-      "color": "1"
+      "text": "Combinational Circuits",
+      "x": 3216,
+      "y": -2415,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "60f0b88283b55813",
+      "type": "text",
+      "text": "Digital Circuits",
+      "x": 2110,
+      "y": -1369,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "695f8fcd69a7bf12",
+      "type": "text",
+      "text": "**Realization of a function**\n\nDigital circuits can realize a given function.\n\nFunction realization means implementing the given function.\n\nThere can be some digital circuits that have multiple outputs, but for realizing a function, there must be only one output.",
+      "x": 1400,
+      "y": -1369,
+      "width": 442,
+      "height": 350
     }
   ],
   "edges": [
@@ -809,6 +836,27 @@
       "fromSide": "top",
       "toNode": "784a184d5348609e",
       "toSide": "bottom"
+    },
+    {
+      "id": "ce4d279aa847ca2c",
+      "fromNode": "816b5b2909982414",
+      "fromSide": "bottom",
+      "toNode": "60f0b88283b55813",
+      "toSide": "top"
+    },
+    {
+      "id": "1de89f0183a018f6",
+      "fromNode": "60f0b88283b55813",
+      "fromSide": "right",
+      "toNode": "86d18244a4d80e8a",
+      "toSide": "left"
+    },
+    {
+      "id": "be995c3c7c1bc6d4",
+      "fromNode": "60f0b88283b55813",
+      "fromSide": "left",
+      "toNode": "695f8fcd69a7bf12",
+      "toSide": "right"
     }
   ],
   "metadata": {}
