@@ -5,8 +5,8 @@ lecture: "5"
 date: 2024-03-04T08:39:00
 version:
   - DL-24
-last-revision: 
-notes-taken: false
+last-revision: 2024-06-08T14:19:00
+notes-taken: true
 tags:
   - DigitalLogic/CombinationalCircuits
 ---
@@ -151,11 +151,6 @@ The last output line is connnected to an NAND gate to realize the given function
 
 ![[Decoder-20240608091251573.webp]]
 
-To convert from AND decoder to NAND decoder, use an NAND gate on the same output lines. **Do not change the output lines**.
-
-| ![[Decoder-20240608085345886.webp]] | ![[Decoder-20240608085356441.webp]] |
-| ----------------------------------- | ------------------------------------ |
-
 > [!tip] Similar Circuits
 > ![[Decoder-20240608085140804.webp]]
 > ![[Decoder-20240608085152799.webp]]
@@ -186,9 +181,43 @@ The output of the function $f = 1$, when
 | 1   | 0   | 1   |
 | 1   | 1   | 1   |
 
-
 ![[Decoder-20240608093137503.webp]]
 
 ![[Decoder-20240608093157457.webp]]
 
+> [!header] $f(a, b, c) = \sum \;(2, 4, 5, 7)$
 
+$$
+\begin{split}
+f(a, b, c) &= \sum \; (2, 4, 5, 7) \\
+&= \overline{a}.b.\overline{c} + a. \overline{b}. \overline{c} + a.\overline{b}.c + a.b.c
+\end{split}
+$$
+
+$f = 1$ iff $\overline{a}.b.\overline{c} = 1$ or $a. \overline{b}. \overline{c} = 1$ or $a.\overline{b}.c = 1$ or $a.b.c = 1$
+
+For $f = 1$, any of these minterms has to be $1$, since the decoder activates only one output line for a particular input combination.
+
+<u>AND implementation</u>
+
+![[Decoder-20240608133506992.webp]]
+
+<u>NAND implementation</u>
+
+![[Decoder-20240608133528593.webp]]
+
+
+> [!summary] 
+
+Implementation of a funciton of $n$ variables using $n \times 2^n$ decoder requires,
+1. $n \times 2^n$ decoder + $1$ OR gate, in case of active high decoder or 
+2. $n \times 2^n$ decoder + $1$ NAND gate, in case of active low decoder
+
+Decoder is not functionally complete by itself, it requires extra hardware.
+
+To convert from AND decoder to NAND decoder, use an NAND gate on the same output lines. **Do not change the output lines**.
+
+| ![[Decoder-20240608085345886.webp]] | ![[Decoder-20240608085356441.webp]] |
+| ----------------------------------- | ------------------------------------ |
+
+---
