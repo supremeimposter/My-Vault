@@ -135,7 +135,7 @@ When $E = 1$, then all of the outputs are $1$. (Nand decoder is idle)
 > [!NOTE]
 > Implementation or Realization of a function using a Digital Circuit means there should only be **one** output which is the given function.
 
-> [!header] $f = a.b$
+> [!header] $f(a, b) = a.b$
 
 ![[Decoder-20240607182110862.webp]]
 
@@ -152,14 +152,18 @@ The last output line is connnected to an NAND gate to realize the given function
 ![[Decoder-20240608091251573.webp]]
 
 > [!tip] Similar Circuits
+>> OR of ANDs is equivalent to NAND of NANDs
+> 
 > ![[Decoder-20240608085140804.webp]]
 > ![[Decoder-20240608085152799.webp]]
 
-> [!header] $f = a \oplus b$
+> [!header] $f(a, b) = a \oplus b$
 
 ![[Decoder-20240608092810783.webp]]
 
 The output of the function $f = a \oplus b = 1$ iff either $a = 0, b = 1$ or $a = 1, b = 0$.
+
+The ExOR function can be written as $f(a, b) = \sum\; (m_{1}, m_{2})$ .
 
 ![[Decoder-20240608091426957.webp]]
 
@@ -171,9 +175,9 @@ The output of the function $f = 1$ only when $a = 0, b = 1$ or $a = 1, b = 0$. (
 
 ![[Decoder-20240608092141102.webp]]
 
-> [!header] $f = a + b$
+> [!header] $f(a, b) = a + b$
 
-The output of the function $f = 1$, when
+The output of the function $f = 1$, when the inputs are,
 
 | a   | b   | f   |
 | --- | --- | --- |
@@ -181,9 +185,44 @@ The output of the function $f = 1$, when
 | 1   | 0   | 1   |
 | 1   | 1   | 1   |
 
+$$
+f(a, b) = \sum\; (m_{1}, m_{2}, m_{3})
+$$
+
 ![[Decoder-20240608093137503.webp]]
 
 ![[Decoder-20240608093157457.webp]]
+
+> [!header] $f = a \rightarrow b$
+
+| $a$ | $b$ | $f = a \rightarrow b$ |
+| --- | --- | --------------------- |
+| 0   | 0   | 1                     |
+| 0   | 1   | 1                     |
+| 1   | 0   | 0                     |
+| 1   | 1   | 1                     |
+
+$$
+\begin{split}
+f(a, b) &= a \rightarrow b \\
+&= \sum \; (m_{0}, m_{1}, m_{3}) \\
+&= \overline{a}. \overline{b} + \overline{a}.b + a.b
+\end{split}
+$$
+
+The given function $f$ is the logical OR of minterms $0, 1, 3$.
+
+<u>AND Implementation</u>
+
+![[Decoder-20240609095050114.webp]]
+
+![[Decoder-20240609102309179.webp]]
+
+<u>NAND Implementation</u>
+
+![[Decoder-20240609102815674.webp]]
+
+![[Decoder-20240609102918862.webp]]
 
 > [!header] $f(a, b, c) = \sum \;(2, 4, 5, 7)$
 
@@ -206,18 +245,63 @@ For $f = 1$, any of these minterms has to be $1$, since the decoder activates on
 
 ![[Decoder-20240608133528593.webp]]
 
-
 > [!summary] 
 
 Implementation of any funciton of $n$ variables decoders require either,
-1. $n \times 2^n$ active high decoder + $1$ OR gate or,
-2. $n \times 2^n$ active low decoder + $1$ NAND gate
-
+- $n \times 2^n$ active high decoder + $1$ OR gate or,
+- $n \times 2^n$ active low decoder + $1$ NAND gate
 Decoder is not functionally complete by itself, it requires extra hardware.
 
-To convert from AND decoder to NAND decoder, use an NAND gate on the same output lines. **Do not change the output lines**.
+To convert from AND decoder to NAND decoder, connect a NAND gate to the same output lines as the OR gate. **Do not change the output lines**.
 
 | ![[Decoder-20240608085345886.webp]] | ![[Decoder-20240608085356441.webp]] |
 | ----------------------------------- | ------------------------------------ |
+
+---
+## Decoder Expansion
+> [!NOTE] 
+> Decoder Expansion means building larger decoders from smaller decoders.
+
+> [!header] Build a $3 \times 8$ Decoder using $2 \times 4$ Decoders
+
+![[Decoder-20240609124808096.webp]]
+
+The input $I_{3}$ connected to enable inputs activates one of the $2 \times 4$ decoder and the inputs $I_{0}, I_{1}$ function as inputs to each of the $2 \times 4$ decoders.
+
+![[Decoder-20240609125713611.webp]]
+
+Instead of using a NOT gate, its functionality can be replaced by a $1 \times 2$ decoder since,
+$$
+\begin{split}
+Y_{0} &= \overline{I}\\
+Y_{1} &= I
+\end{split}
+$$
+in a $1 \times 2$ decoder.
+
+![[Decoder-20240609133157908.webp]]
+
+To avoid using a $1 \times 2$ decoder, a $2 \times 2$ decoder can be used but there will be unused outputs.
+
+![[Decoder-20240609133347475.webp]]
+
+Any of the outputs of the first $2 \times 4$ decoder can be chosen to activate those two decoders on the right by correctly configuring the inputs of the first $2 \times 4$ decoder.
+
+![[Decoder-20240609133408950.webp]]
+
+> [!header] Build a $4 \times 16$ Decoder using $2 \times 4$ Decoders
+
+The $2 \times 4$ decoder on the left is used to select each of the 4 decoders on the right through the inputs $w_{2}, w_{3}$. 
+The inputs $w_{0}, w_{1}$ activates one of the output lines in one of the activated decoders on the right.
+
+![[Decoder-20240609122857154.webp]]
+
+> [!header] Build a $5 \times 32$ Decoder using $2 \times 4$ Decoders
+
+![[Decoder-20240609123020398.webp]]
+
+> [!header] Build a $3 \times 8$ Decoder using $1 \times 2$ Decoders
+
+![[Decoder-20240609135941756.webp]]
 
 ---

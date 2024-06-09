@@ -432,7 +432,7 @@
     {
       "id": "695f8fcd69a7bf12",
       "type": "text",
-      "text": "**Realization of a function**\n\nDigital circuits can realize a given function.\n\nFunction realization means implementing the given function.\n\nThere can be some digital circuits that have multiple outputs, but for realizing a function, there must be only one output.",
+      "text": "**Realization of a given function**\n\nDigital circuits can realize a given function.\n\nFunction realization means implementing the given function.\n\nThere can be some digital circuits that have multiple outputs, but for realizing a function, there must be only one output.",
       "x": 1400,
       "y": -1369,
       "width": 442,
