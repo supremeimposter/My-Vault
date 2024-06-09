@@ -23,37 +23,27 @@
             }
           },
           {
-            "id": "d6cb0aab7caeec75",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
-                "viewState": {
-                  "x": 2001.0599999999981,
-                  "y": -971.1843749999983,
-                  "zoom": 0
-                }
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "6e13c750681d83f7",
+            "id": "af3d7848862fd2b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "383e14e166773cbe",
+        "type": "tabs",
+        "children": [
           {
-            "id": "507532d6b9181184",
+            "id": "829af6ee2b350113",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -65,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,12 +117,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -150,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
+                "file": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
               }
             }
           },
@@ -234,7 +223,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 336.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,25 +242,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "507532d6b9181184",
+  "active": "af3d7848862fd2b4",
   "lastOpenFiles": [
-    "GATE/Digital-Logic/Digital Logic.md",
+    "attachments/Encoder-20240609230450473.webp",
+    "attachments/Encoder-20240609230213798.webp",
+    "attachments/Encoder-20240609225806541.webp",
+    "attachments/Encoder-20240609225629100.webp",
     "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
-    "GATE/Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md",
-    "GATE/Pending Lectures.md",
-    "attachments/Propagation Delay and Timing Diagrams-20240608230921539.webp",
-    "attachments/Propagation Delay and Timing Diagrams-20240608183648645.webp",
-    "attachments/Propagation Delay and Timing Diagrams-20240608183443734.webp",
-    "attachments/Propagation Delay and Timing Diagrams-20240608182717375.webp",
-    "attachments/Propagation Delay and Timing Diagrams-20240608182507915.webp",
-    "attachments/Propagation Delay and Timing Diagrams-20240608182215042.webp",
-    "attachments/Propagation Delay and Timing Diagrams-20240608181908462.webp",
-    "attachments/Propagation Delay and Timing Diagrams-20240608174442582.webp",
-    "attachments/Propagation Delay and Timing Diagrams-20240608174425028.webp",
-    "attachments/Propagation Delay and Timing Diagrams-20240608173610848.webp",
-    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
     "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
+    "attachments/Decoder-20240609213455253.webp",
+    "attachments/Decoder-20240609213045628.webp",
+    "attachments/Decoder-20240609212655036.webp",
+    "attachments/Decoder-20240609212406911.webp",
+    "attachments/Decoder-20240609211610204.webp",
+    "GATE/Digital-Logic/Digital Logic.md",
+    "attachments/Decoder-20240609192206905.webp",
+    "attachments/Decoder-20240609190731548.webp",
+    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
+    "GATE/Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md",
+    "GATE/Pending Lectures.md",
     "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
     "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
     "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
@@ -290,7 +281,6 @@
     "GATE/Digital-Logic/Number Systems/Octal and Hexadecimal System.md",
     "GATE/Digital-Logic/Number Systems/Number Systems.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
-    "GATE/Digital-Logic/Number Systems/Untitled.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",

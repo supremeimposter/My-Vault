@@ -247,7 +247,7 @@
   "ul-theme-settings@@ul-resize-border": false,
   "anuppuccin-theme-settings@@anp-alt-tab-style": "anp-safari-tab-toggle",
   "anuppuccin-theme-settings@@anp-disable-newtab-align": true,
-  "anuppuccin-theme-settings@@anp-layout-select": "none",
+  "anuppuccin-theme-settings@@anp-layout-select": "anp-border-layout",
   "anuppuccin-theme-settings@@anp-cursor": "pointer",
   "aura@@aura-colorful-frame-opacity": 1,
   "pln@@pln-vision": false,
@@ -357,7 +357,7 @@
   "minimal-style@@h5-size": "0.75em",
   "minimal-style@@h6-size": "0.5em",
   "custom-diegoeis-simple@@eis-sidebar-dark": false,
-  "minimal-style@@tabs-style": "tabs-modern",
+  "minimal-style@@tabs-style": "tabs-default",
   "anuppuccin-theme-settings@@anp-colorful-frame-opacity": 1,
   "encore-settings@@encore-disable-logo-on-hr": true,
   "anuppuccin-theme-settings-extended@@anp-theme-ext-light": true,
@@ -416,5 +416,8 @@
   "vauxhall@@main-color": "vauxhall-white",
   "vauxhall@@color-intensity": "intensity-nebula",
   "vauxhall@@h1-accent": false,
-  "vauxhall@@header-color-type": "headers-mono"
+  "vauxhall@@header-color-type": "headers-mono",
+  "minimal-style@@tab-stacked-spine-orientation": "tab-stack-top",
+  "minimal-style@@sidebar-tabs-style": "sidebar-tabs-default",
+  "minimal-style@@sidebar-tabs-names": "tab-names-off"
 }
