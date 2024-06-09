@@ -32,8 +32,9 @@ The output line is dependent on the input and the control lines i.e. $f(S_{0}, S
 
 ## 2 X 1 MUX
 
-| ![[Multiplexer and Demultiplexer-20240604100052176.webp\|Graphical symbol for a $2 \times 1$ MUX]] | ![[Multiplexer and Demultiplexer-20240604102651924.webp\|Circuit Diagram for $2 \times 1$ MUX]] |
-| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Graphical symbol for a $2 \times 1$ MUX                   | Circuit Diagram for $2 \times 1$ MUX                      |
+| --------------------------------------------------------- | --------------------------------------------------------- |
+| ![[Multiplexer and Demultiplexer-20240604100052176.webp]] | ![[Multiplexer and Demultiplexer-20240604102651924.webp]] |
 
 ![[Multiplexer and Demultiplexer-20240604101632997.webp]]
 ![[Multiplexer and Demultiplexer-20240604102515658.webp]]

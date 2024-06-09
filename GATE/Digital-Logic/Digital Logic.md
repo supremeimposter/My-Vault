@@ -7,8 +7,7 @@ tags:
   - DigitalLogic
 ---
 # Digital Logic
-> [!link] Mind map 
-[[Digital-Logic-Mindmap.canvas|Digital-Logic-Mindmap]]
+- [[Digital-Logic-Mindmap.canvas|Digital-Logic-Mindmap]]
 
 ## Module 1 - Boolean Algebra, Minimization of Boolean Functions
 

@@ -5,7 +5,7 @@ lecture: "5"
 date: 2024-03-04T08:39:00
 version:
   - DL-24
-last-revision: 2024-06-08T14:19:00
+last-revision: 2024-06-09T14:19:00
 notes-taken: true
 tags:
   - DigitalLogic/CombinationalCircuits
@@ -303,5 +303,116 @@ The inputs $w_{0}, w_{1}$ activates one of the output lines in one of the activa
 > [!header] Build a $3 \times 8$ Decoder using $1 \times 2$ Decoders
 
 ![[Decoder-20240609135941756.webp]]
+
+---
+## Building a DEMUX using Decoder
+
+> [!header] Build a $1 \times 4$ DEMUX from a $2 \times 4$ Decoder
+
+![[Decoder-20240609183200970.webp]]
+
+The truth table of a $2 \times 4$ Decoder is as follows,
+![[Decoder-20240607124157664.webp]]
+
+The enable input $E$ in the encoder can considered as the input data $I$ in a DEMUX because, 
+
+If the Input data $I = 0$, then anyways all of the output lines are going to be 0 i.e. The data $0$ goes where it has to go through the selected output lines and also every other output lines sends the data $0$ through the non-selected output lines which is a default behaviour of the DEMUX. 
+
+> [!remember] 
+The idea of DEMUX is that a particular output line is selected for the incoming data and the rest of the ouput lines receives $0$.
+
+![[Decoder-20240609183709931.webp]]
+
+If the input data $I = 1$ which makes the enable input $E = 1$, then it behaves like a AND decoder and a enable-active-high DEMUX.
+
+![[Multiplexer and Demultiplexer-20240606135708273.webp]]
+
+
+![[Decoder-20240609182657003.webp]]
+
+![[Decoder-20240609190731548.webp]]
+
+---
+## Implementing MUX using Decoder
+
+> [!header] Implement $2 \times 1$ MUX using $1 \times 2$ Decoder
+
+A $2 \times 1$ MUX has one select output line, 2 data input lines and one output line.
+
+![[Multiplexer and Demultiplexer-20240604101632997.webp]]
+
+The function to be implemented is $f = \overline{S} I_{0} + S I_{1}$.
+
+A $1 \times 2$ Decoder has a single input line and two output lines and one enable-input.
+
+![[Decoder-20240609213045628.webp]]
+$$
+\begin{split}
+Y_{0} &= \overline{S} \\
+Y_{1} &= S
+\end{split}
+$$
+
+![[Decoder-20240609213455253.webp]]
+
+$$
+\begin{split}
+f(S, I_{0}, I_{1}) &= Y_{0}. I_{0} + Y_{1} . I_{1}\\
+&= \overline{S} . I_{0} + S . I_{1}
+\end{split}
+$$
+
+```sheet
+| $S$ | $Y_{0}$ | $Y_{1}$ | $f$     |                                                           |
+| --- | ------- | ------- | ------- | --------------------------------------------------------- |
+| 0   | 1       | 0       | $I_{0}$ | ![[Multiplexer and Demultiplexer-20240604100052176.webp]] |
+| 1   | 0       | 1       | $I_{1}$ | ^                                                         |
+```
+
+> [!header] Implement a $4 \times 1$ MUX using $2 \times 4$ Decoder
+
+![[Decoder-20240609185940488.webp]]
+
+$$
+\begin{split}
+f(s_{1}, s_{0}, \;w_{3}, w_{2}, w_{1}, w_{0}) &= y_{0} . w_{0} + y_{1} . w_{1} + y_{2} . w_{2} + y_{3} . w_{3}
+\end{split}
+$$
+
+A $2 \times 4$ AND decoder has the following truth table,
+
+![[Decoder-20240609190452891.webp]]
+
+$$
+\begin{split}
+y_{0} &= \overline{s_{1}}.\overline{s_{0}}\\
+y_{1} &= \overline{s_{1}}.{s_{0}}\\
+y_{2} &= {s_{1}}.\overline{s_{0}}\\
+y_{3} &= {s_{1}}.{w_{0}}
+\end{split}
+$$
+$$
+\begin{split}
+f(s_{1}, s_{0}, \;w_{3}, w_{2}, w_{1}, w_{0}) &= \overline{s_{1}}.\overline{s_{0}} . w_{0} + 
+\overline{s_{1}}.{s_{0}} . w_{1} + 
+{s_{1}}.\overline{s_{0}} . w_{2} + 
+{s_{1}}.{w_{0}} . w_{3}
+\end{split}
+$$
+
+Now the function $f$ is the function of a $4 \times 1$ MUX.
+
+```sheet
+| $s_{1}$ | $s_{0}$ | $f$     |                                     |
+| ------- | ------- | ------- | ----------------------------------- |
+| 0       | 0       | $w_{0}$ | ![[Decoder-20240609192206905.webp]] |
+| 0       | 1       | $w_{1}$ | ^                                   |
+| 1       | 0       | $w_{2}$ | ^                                   |
+| 1       | 1       | $w_{3}$ | ^                                   |
+```
+
+
+> [!observation] 
+> A decoder can pose as DEMUX, whereas a decoder is used to implement a MUX.
 
 ---
