@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a364008f805d7950",
+        "id": "7988627f0e1c7e4e",
         "type": "tabs",
         "children": [
           {
-            "id": "d0384f8c6636828a",
+            "id": "e8ac450256d23721",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Digital Logic.md",
+                "file": "GATE/Programming-with-C/Programming with C.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -23,12 +23,25 @@
             }
           },
           {
-            "id": "af3d7848862fd2b4",
+            "id": "393ec9bc459eb028",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
+                "file": "GATE/Programming-with-C/Types/Types.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "940840b70d398eb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Programming-with-C/Binary and 2'complements/2's Complement.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,19 +49,19 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
-        "id": "383e14e166773cbe",
+        "id": "7ffe585cecf06d2c",
         "type": "tabs",
         "children": [
           {
-            "id": "829af6ee2b350113",
+            "id": "578b5360581a2b1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
+                "file": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
+                "file": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
+                "file": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
+                "file": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md"
               }
             }
           },
@@ -223,8 +236,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5,
-    "collapsed": true
+    "width": 336.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,23 +254,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "af3d7848862fd2b4",
+  "active": "578b5360581a2b1b",
   "lastOpenFiles": [
-    "attachments/Encoder-20240609230450473.webp",
-    "attachments/Encoder-20240609230213798.webp",
-    "attachments/Encoder-20240609225806541.webp",
-    "attachments/Encoder-20240609225629100.webp",
-    "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
-    "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
     "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
-    "attachments/Decoder-20240609213455253.webp",
-    "attachments/Decoder-20240609213045628.webp",
-    "attachments/Decoder-20240609212655036.webp",
-    "attachments/Decoder-20240609212406911.webp",
-    "attachments/Decoder-20240609211610204.webp",
+    "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
+    "GATE/Programming-with-C/Binary and 2'complements/2's Complement.md",
+    "GATE/Programming-with-C/Programming with C.md",
+    "GATE/Programming-with-C/Types/Types.md",
+    "attachments/Types-20240610220219071.webp",
+    "attachments/Types-20240610220049383.webp",
+    "attachments/Programming with C-20240610202821643.webp",
+    "GATE/Topics-Tracker-for-GATE.md",
     "GATE/Digital-Logic/Digital Logic.md",
-    "attachments/Decoder-20240609192206905.webp",
-    "attachments/Decoder-20240609190731548.webp",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md",
+    "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
+    "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
+    "attachments/Encoder-20240610200014762.webp",
+    "attachments/Encoder-20240610193205813.webp",
+    "attachments/Encoder-20240610192656651.webp",
+    "attachments/Encoder-20240610085406178.webp",
+    "attachments/Encoder-20240610084933050.webp",
+    "attachments/Encoder-20240610084217359.webp",
+    "attachments/Encoder-20240609230450473.webp",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md",
     "GATE/Pending Lectures.md",
@@ -266,21 +284,15 @@
     "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
     "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
     "GATE/Digital-Logic/Number Systems/Gray code.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
     "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md",
-    "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
     "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
-    "GATE/Topics-Tracker-for-GATE.md",
     "GATE/Digital-Logic/Number Systems/Arithmetic of Signed Binary Numbers.md",
     "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md",
     "GATE/Digital-Logic/Number Systems/Complements in Number System.md",
     "GATE/Digital-Logic/Number Systems/Binary System.md",
-    "GATE/Digital-Logic/Number Systems/Octal and Hexadecimal System.md",
-    "GATE/Digital-Logic/Number Systems/Number Systems.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",

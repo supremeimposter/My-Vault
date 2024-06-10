@@ -1,20 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Encoder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
-    },
-    {
-      "basename": "Decoder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
+      "basename": "Signed Binary Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md"
     },
     {
       "basename": "Multiplexer and Demultiplexer",
       "path": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
     },
     {
+      "basename": "Laws of Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
+    },
+    {
+      "basename": "2's Complement",
+      "path": "GATE/Programming-with-C/Binary and 2'complements/2's Complement.md"
+    },
+    {
+      "basename": "Programming with C",
+      "path": "GATE/Programming-with-C/Programming with C.md"
+    },
+    {
+      "basename": "Types",
+      "path": "GATE/Programming-with-C/Types/Types.md"
+    },
+    {
+      "basename": "Topics-Tracker-for-GATE",
+      "path": "GATE/Topics-Tracker-for-GATE.md"
+    },
+    {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Don't Cares in K Map",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md"
+    },
+    {
+      "basename": "Encoder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
+    },
+    {
+      "basename": "Decoder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
     },
     {
       "basename": "Digital-Logic-Mindmap",
@@ -45,10 +73,6 @@
       "path": "GATE/Digital-Logic/Number Systems/Gray code.md"
     },
     {
-      "basename": "Laws of Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
-    },
-    {
       "basename": "Algebraic Simplification of Boolean Functions",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md"
     },
@@ -65,16 +89,8 @@
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md"
     },
     {
-      "basename": "Signed Binary Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md"
-    },
-    {
       "basename": "Overflow of Signed and Unsigned Numbers",
       "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
-    },
-    {
-      "basename": "Topics-Tracker-for-GATE",
-      "path": "GATE/Topics-Tracker-for-GATE.md"
     },
     {
       "basename": "Subtraction of Unsigned Numbers",
@@ -107,10 +123,6 @@
     {
       "basename": "Minimization using K Map",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
-    },
-    {
-      "basename": "Don't Cares in K Map",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md"
     },
     {
       "basename": "Implicants in K Map",
@@ -187,18 +199,6 @@
     {
       "basename": "Memory Interfacing and Expansion",
       "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
-    },
-    {
-      "basename": "Addressing Modes",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
-    },
-    {
-      "basename": "System of Linear Equations",
-      "path": "GATE/Linear-Algebra/System of Linear Equations.md"
-    },
-    {
-      "basename": "Cayley Hamilton Theorem",
-      "path": "GATE/Linear-Algebra/Cayley Hamilton Theorem.md"
     }
   ],
   "omittedPaths": [

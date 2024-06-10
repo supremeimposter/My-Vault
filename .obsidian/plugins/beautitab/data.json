@@ -7,7 +7,7 @@
     "command": "switcher:open",
     "display": "Obsidian Core Quick Switcher"
   },
-  "showTime": true,
+  "showTime": false,
   "timeFormat": "12-hour",
   "showGreeting": false,
   "greetingText": "Hello, Handsome.",
