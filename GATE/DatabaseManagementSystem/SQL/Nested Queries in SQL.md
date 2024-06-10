@@ -15,7 +15,7 @@ tags:
 # Nested Queries
 > [!lecture] Lecture-9
 
-- Nested Queries in SQL are like function calls in [[C]].
+- Nested Queries in SQL are like function calls in [[Programming with C]].
 - To nest a query for the `SELECT` clause, the result of the sub-query must be of a single tuple with a single column.
 	- The sub-query's `SELECT` clause must use a single aggregate function without `GROUP BY`.
 

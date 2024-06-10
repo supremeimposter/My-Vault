@@ -9,7 +9,7 @@ tags:
 - [[Linear Algebra]]
 - [[Calculus]]
 - [[Discrete Mathematics]]
-- [[C]]
+- [[Programming with C]]
 - [[Theory of Computation]]
 - [[Algorithms]]
 - [[Database Management System]]
