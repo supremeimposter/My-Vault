@@ -1,14 +1,29 @@
-- Computers use 2’s complement to store negative numbers 
+---
+pdf: 
+module: 1
+lecture: 
+date: 
+version:
+  - C-24
+last-revision: 
+notes-taken: false
+tags:
+  - ProgrammingWithC/2sComplement
+  - DigitalLogic/NumberSystem
+---
+# 2's Complement
+
+Computers use 2’s complement system to represent numbers.
+
 ```ad-caution
 In C, it is not mandatory for signed numbers to use 2’s complement, so they have to mention in the question.
 ```
 
-- For a number N,
-	- N + 2’s Complement (N) = 0000 0000 = 0
-	- N + 1’s Complement (N) = 1111 1111
+For a number N,
+- N + 2’s Complement of N $= (0000 0000)_{2} = (0)_{10}$
+- N + 1’s Complement of N $= (1111 1111)_{2} = (-0)_{10}$
 
-
-```ad-attention
+```ad-note
 - Both [[signed and unsigned]] have either 0 or 1 as their MS bit.
 - Signed types are represented using 2’s complement.
 

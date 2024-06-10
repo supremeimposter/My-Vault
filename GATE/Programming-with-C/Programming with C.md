@@ -27,16 +27,13 @@ tags:
 
 
 - [[Types]]
-- Binary and 2's complements
-	- [[2's complement]]
-	- [[Decimal and Binary]]
-	- [[Signed and Unsigned]]
-	- [[Extension and Truncation]]
-
+- [[2's Complement]]
+- [[Decimal and Binary]]
+- [[Signed and Unsigned]]
+- [[Extension and Truncation]]
 
 
 ---
-
 # References
 
 

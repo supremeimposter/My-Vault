@@ -1,11 +1,44 @@
+---
+pdf: 
+module: 1
+lecture: 
+date: 2024-06-10T21:58:00
+version:
+  - C-24
+last-revision: 
+notes-taken: false
+tags:
+  - ProgrammingWithC
+---
+# Types
+
 ## Data Types
 
-![[Pasted image 20230910211502.png]]
+- int (4 bytes)
+	- signed 
+	- unsigned
+- char (1 byte)
+	- signed
+	- unsigned
+- short (2 bytes)
+	- signed
+	- unsigned
+- float (4 bytes)
+- double (8 bytes)
+- long double (10 bytes)
 
 ---
 ## Format Specifiers
 
-![[Pasted image 20230910211509.png]]
+| Type         | Format Specifier |
+| ------------ | ---------------- |
+| char         | %c               |
+| int          | %d               |
+| unsigned int | %u               |
+| float        | %f               |
+| Hexadecimal  | %x               |
+| Address      | %p               |
+| String       | %s               |
 
 ---
 ## Type Conversion
