@@ -24,7 +24,7 @@ tags:
 > 
 >> The numbers on the inside of the block is matched against the control input lines.
 
-The output line is dependent on the input and the control lines i.e. $f(S_{0}, S_{1}, I_{0}, I_{1}, I_{2}, I_{3})$.
+The output line is dependent on the data input and the output control lines i.e. $f(S_{0}, S_{1}, I_{0}, I_{1}, I_{2}, I_{3})$.
 
 | ![[Multiplexer-20240303073303413.webp]] | ![[Multiplexer-20240303073355096.webp]] |
 | --------------------------------------- | --------------------------------------- |

@@ -89,6 +89,7 @@ a_{n}a_{n-1}\cdots a_{2}a_{1}a_{0} = -2^n(a_{n}) + 2^{n-1}(a_{n-1})+\cdots +2^2(
 $$
 
 In 2's complement system, the many number of leading 1's do not matter.
+
 ![[Signed Binary Numbers-20240530222623988.webp]]
 ![[Signed Binary Numbers-20240530222549478.webp]]
 
@@ -103,6 +104,7 @@ By default, 2's complement is considered in computers for signed numbers.
 
 
 - If the MSB is `1` in a given number $M$, then perform 2's complement on the number and if the resultant number is $N$, then $-N$ has been represented in this system as $M$.
+
 > [!example] 
 > If $M = 1001$ (MSB = 1), then perform 2's complement operation on $M$
 > $$
@@ -114,15 +116,23 @@ By default, 2's complement is considered in computers for signed numbers.
 > $$
 > $-7$ has been represented in the number $M$ (MSB = 1)
 
+To convert a binary number in 2's complement to decimal, expand the weights of the positions.
+
+![[Pasted image 20230910213018.png]]
+
 > [!summary] 
 
 - Sign-magnitude and 1s complement representation are non-weighted number systems.
 - **Positive and unsigned numbers** are represented in the same way in all the three representations that are used in the computer systems.
+
 ![[Signed Binary Numbers-20240530215929110.webp]]
+
 - Sign complement representation is not an operation, it is a system used to represent signed numbers in computer systems.
+
 ![[Signed Binary Numbers-20240530220128716.webp]]
 
 - Sign complement representation is only for signed **binary numbers**. 
+
 ![[Signed Binary Numbers-20240530220354043.webp]]
 
 ---
@@ -242,5 +252,9 @@ Addition of positive numbers in both 1's and 2's complement system are same.
 - there is no additional addition by 1
 - every number has unique representation
 - range of the numbers is more.
+
+For a number $(N)_{10}$ 
+- $N$ + 2’s Complement of $N$ $= (0000 0000)_{2} = (0)_{10}$
+- $N$ + 1’s Complement of $N$ $= (1111 1111)_{2} = (-0)_{10}$
 
 ---

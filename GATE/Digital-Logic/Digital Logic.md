@@ -41,6 +41,7 @@ tags:
 ## Module 3 - Combinational Circuits
 
 - [[Compact Truth Table Representation]]
+- [[Shannons Expansion Theorem]]
 - [[Multiplexer and Demultiplexer]]
 - [[Encoder]]
 - [[Decoder]]

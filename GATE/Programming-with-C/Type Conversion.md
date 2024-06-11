@@ -10,38 +10,7 @@ notes-taken: false
 tags:
   - ProgrammingWithC
 ---
-# Types
-
-## Data Types
-
-- int (4 bytes)
-	- signed 
-	- unsigned
-- char (1 byte)
-	- signed
-	- unsigned
-- short (2 bytes)
-	- signed
-	- unsigned
-- float (4 bytes)
-- double (8 bytes)
-- long double (10 bytes)
-
----
-## Format Specifiers
-
-| Type         | Format Specifier |
-| ------------ | ---------------- |
-| char         | %c               |
-| int          | %d               |
-| unsigned int | %u               |
-| float        | %f               |
-| Hexadecimal  | %x               |
-| Address      | %p               |
-| String       | %s               |
-
----
-## Type Conversion
+# Type Conversion
 
 ![[Pasted image 20230912212601.png]]
 ```ad-note
@@ -53,7 +22,7 @@ down the ladder = explicit conversion
 **%f** prints only 0.000 when used to print an integer
 ```
 
-### Cases of Type Conversion
+## Cases of Type Conversion
 - integer division truncates the precision
 ![[Pasted image 20230912213552.png]]
 ---
