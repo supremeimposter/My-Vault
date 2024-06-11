@@ -135,5 +135,14 @@
       ],
       "key": "B"
     }
+  ],
+  "workspace:new-tab": [],
+  "editor:insert-table": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
   ]
 }

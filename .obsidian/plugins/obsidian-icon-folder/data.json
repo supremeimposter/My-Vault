@@ -6,6 +6,8 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiCircuitBoard",
+      "TiBrandCoinbase",
       "SiC"
     ],
     "recentlyUsedIconsSize": 5,
@@ -16,11 +18,19 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": false,
-    "iconInTitleEnabled": false,
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
     "iconInFrontmatterEnabled": false,
     "iconsBackgroundCheckEnabled": false,
     "iconsInNotesEnabled": true,
     "iconIdentifier": ":"
+  },
+  "GATE/Programming-with-C/Programming with C.md": {
+    "iconName": "TiBrandCoinbase",
+    "iconColor": "#0d94af"
+  },
+  "GATE/Digital-Logic/Digital Logic.md": {
+    "iconName": "LiCircuitBoard",
+    "iconColor": "#e07a1a"
   }
 }

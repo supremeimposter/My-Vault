@@ -1,36 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "Signed and Unsigned in C",
+      "path": "GATE/Programming-with-C/Signed and Unsigned in C.md"
+    },
+    {
+      "basename": "Type Conversion",
+      "path": "GATE/Programming-with-C/Type Conversion.md"
+    },
+    {
       "basename": "Signed Binary Numbers",
       "path": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md"
-    },
-    {
-      "basename": "Multiplexer and Demultiplexer",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
-    },
-    {
-      "basename": "Laws of Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
-    },
-    {
-      "basename": "2's Complement",
-      "path": "GATE/Programming-with-C/Binary and 2'complements/2's Complement.md"
     },
     {
       "basename": "Programming with C",
       "path": "GATE/Programming-with-C/Programming with C.md"
     },
     {
-      "basename": "Types",
-      "path": "GATE/Programming-with-C/Types/Types.md"
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Compact Truth Table Representation",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
+    },
+    {
+      "basename": "Multiplexer and Demultiplexer",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
+    },
+    {
+      "basename": "Shannons Expansion Theorem",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Shannons Expansion Theorem.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Laws of Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
     },
     {
       "basename": "Topics-Tracker-for-GATE",
       "path": "GATE/Topics-Tracker-for-GATE.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Don't Cares in K Map",
@@ -59,10 +71,6 @@
     {
       "basename": "Boolean Functions vs Digital Circuits",
       "path": "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md"
-    },
-    {
-      "basename": "Compact Truth Table Representation",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
     },
     {
       "basename": "Binary Codes for Decimal Digits",
@@ -177,28 +185,12 @@
       "path": "GATE/Linear-Algebra/Matrices.md"
     },
     {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
-    },
-    {
       "basename": "Instruction Format",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
     },
     {
       "basename": "Instruction Execution Cycle",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
-    },
-    {
-      "basename": "Instruction Type",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
-    },
-    {
-      "basename": "Instruction Set Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
-    },
-    {
-      "basename": "Memory Interfacing and Expansion",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
     }
   ],
   "omittedPaths": [
