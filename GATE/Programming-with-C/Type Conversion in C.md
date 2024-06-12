@@ -10,7 +10,7 @@ notes-taken: false
 tags:
   - ProgrammingWithC
 ---
-# Type Conversion
+# Type Conversion in C
 
 ![[Pasted image 20230912212601.png]]
 ```ad-note

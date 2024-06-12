@@ -144,6 +144,7 @@ Each representation has a different overflow detection condition.
 In case of unsigned addition, the overflow condition can be found only completely adding the given two unsigned numbers.
 
 The overflow detection condition is the same in both 2's and 1's complement signed addition.
+
 ![[Overflow of Signed and Unsigned Numbers-20240602105522914.webp]]
 ![[Overflow-20240601225544987.webp]]
 

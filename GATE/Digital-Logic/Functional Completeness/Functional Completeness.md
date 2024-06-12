@@ -11,16 +11,20 @@ tags:
   - DigitalLogic/FunctionalCompleteness
 ---
 # Functional Completeness
+> [!think] 
+> There are many boolean operations such as NOT, AND, OR, NAND, NOR, ExOR, ExNOR. 
+> 1. Can we realize any boolean function using these boolean operations?
+> 2. Do we need all of these operations to realize any boolean expression?
 
-- A functional complete set is a set of boolean operations which are sufficient to write expression of every boolean function.
+- A functional complete set is a **set of boolean operations** which are sufficient to write expression of every boolean function.
 - A set of boolean connectives is functionally complete if all the boolean functions can be synthesized using those.
+- A set of operations is functionally complete if every boolean function is equivalent to a boolean expression that uses only operations in the set.
 
 ## Guidelines for Functional Completeness
 
 
 
 ---
-
 # Emil Post's Functional Completeness Theorem
 
 - Let $X$ be a set of boolean functions.

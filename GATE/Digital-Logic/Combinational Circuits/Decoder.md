@@ -250,7 +250,7 @@ For $f = 1$, any of these minterms has to be $1$, since the decoder activates on
 Implementation (realization) of any funciton of $n$ variables using decoders require either,
 - $n \times 2^n$ active high decoder + $1$ OR gate or,
 - $n \times 2^n$ active low decoder + $1$ NAND gate
-Decoder is not functionally complete by itself, it requires extra hardware.
+Decoder is not [[Functional Completeness|functionally complete]] by itself, it requires extra hardware.
 
 To convert from AND decoder to NAND decoder, connect a NAND gate to the same output lines as the OR gate. **Do not change the output lines**.
 

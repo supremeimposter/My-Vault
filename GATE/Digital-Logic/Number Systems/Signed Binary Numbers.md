@@ -116,9 +116,9 @@ By default, 2's complement is considered in computers for signed numbers.
 > $$
 > $-7$ has been represented in the number $M$ (MSB = 1)
 
-To convert a binary number in 2's complement to decimal, expand the weights of the positions.
+Since 2's complement representation is a weighted system, it can be expanded to convert directly to its equivalent decimal number with MS bit having a negative weight.
 
-![[Pasted image 20230910213018.png]]
+![[Signed Binary Numbers-20240612083106073.webp]]
 
 > [!summary] 
 

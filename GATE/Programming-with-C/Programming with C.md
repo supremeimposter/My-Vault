@@ -51,7 +51,7 @@ tags:
 
 - [[Signed and Unsigned in C]]
 
-- [[Type Conversion]]
+- [[Type Conversion in C]]
 
 
 ---
