@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7ffe585cecf06d2c",
+        "id": "df5047f69cf2e2e5",
         "type": "tabs",
         "children": [
           {
-            "id": "2d9205cde7694173",
+            "id": "f46426f6a122ce5f",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Programming-with-C/Programming with C.md",
+                "file": "GATE/Digital-Logic/Digital Logic.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "9e4601d14e1596d0",
+            "id": "ec36c2494164601f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Programming-with-C/Type Conversion.md",
+                "file": "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,12 +36,25 @@
             }
           },
           {
-            "id": "bf015339315285ae",
+            "id": "60928704e2d17a0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Programming-with-C/Signed and Unsigned in C.md",
+                "file": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "358a79006ae7a531",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,26 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "d5657562dbd83b9b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "526ac65854dc3b14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,8 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -152,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Programming-with-C/Signed and Unsigned in C.md",
+                "file": "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Programming-with-C/Signed and Unsigned in C.md",
+                "file": "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Programming-with-C/Signed and Unsigned in C.md"
+                "file": "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md"
               }
             }
           },
@@ -254,44 +247,45 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bf015339315285ae",
+  "active": "358a79006ae7a531",
   "lastOpenFiles": [
-    "GATE/Programming-with-C/Type Conversion.md",
-    "GATE/Programming-with-C/Signed and Unsigned in C.md",
-    "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
-    "attachments/Signed and Unsigned in C-20240612001740882.webp",
+    "attachments/Standard Functional Complete Sets-20240612225937282.webp",
+    "attachments/Standard Functional Complete Sets-20240612225456054.webp",
+    "attachments/Standard Functional Complete Sets-20240612225325192.webp",
+    "attachments/Standard Functional Complete Sets-20240612224858235.webp",
+    "attachments/Standard Functional Complete Sets-20240612223239706.webp",
+    "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md",
+    "GATE/Digital-Logic/Digital Logic.md",
+    "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md",
+    "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
+    "attachments/Standard Functional Complete Sets-20240612210715811.webp",
+    "attachments/Standard Functional Complete Sets-20240612210642006.webp",
+    "attachments/Standard Functional Complete Sets-20240612203536132.webp",
+    "attachments/Standard Functional Complete Sets-20240612202537364.webp",
+    "attachments/Standard Functional Complete Sets-20240612201431897.webp",
+    "attachments/Standard Functional Complete Sets-20240612201307221.webp",
+    "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
+    "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
     "GATE/Programming-with-C/Programming with C.md",
+    "GATE/Programming-with-C/Signed and Unsigned in C.md",
+    "GATE/Programming-with-C/Type Conversion in C.md",
+    "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
+    "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
     "GATE/Programming-with-C/Extension and Truncation.md",
-    "attachments/Extension and Truncation-20240611235358413.webp",
     "GATE/Programming-with-C/Binary and 2'complements/2's Complement.md",
     "GATE/Programming-with-C/Binary and 2'complements/Decimal and Binary.md",
-    "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
-    "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
     "GATE/Digital-Logic/Combinational Circuits/Shannons Expansion Theorem.md",
-    "attachments/Shannons Expansion Theorem-20240611212909986.webp",
-    "attachments/Shannons Expansion Theorem-20240611212310135.webp",
-    "attachments/Shannons Expansion Theorem-20240611212228563.webp",
-    "attachments/Shannons Expansion Theorem-20240611211904841.webp",
-    "attachments/Shannons Expansion Theorem-20240611211846346.webp",
-    "attachments/Shannons Expansion Theorem-20240611191245426.webp",
-    "attachments/Shannons Expansion Theorem-20240611191236021.webp",
-    "attachments/Shannons Expansion Theorem-20240611191200200.webp",
     "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
     "GATE/Topics-Tracker-for-GATE.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md",
     "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
-    "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md",
     "GATE/Pending Lectures.md",
-    "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
     "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
     "GATE/Digital-Logic/Number Systems/Gray code.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
-    "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",

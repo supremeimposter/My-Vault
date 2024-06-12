@@ -1,32 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Signed and Unsigned in C",
-      "path": "GATE/Programming-with-C/Signed and Unsigned in C.md"
+      "basename": "Standard Functional Complete Sets",
+      "path": "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md"
     },
     {
-      "basename": "Type Conversion",
-      "path": "GATE/Programming-with-C/Type Conversion.md"
-    },
-    {
-      "basename": "Signed Binary Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md"
-    },
-    {
-      "basename": "Programming with C",
-      "path": "GATE/Programming-with-C/Programming with C.md"
+      "basename": "Functional Completeness",
+      "path": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md"
     },
     {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
-      "basename": "Compact Truth Table Representation",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
+      "basename": "Boolean Functions vs Digital Circuits",
+      "path": "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md"
     },
     {
       "basename": "Multiplexer and Demultiplexer",
       "path": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
+    },
+    {
+      "basename": "Decoder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
+    },
+    {
+      "basename": "Programming with C",
+      "path": "GATE/Programming-with-C/Programming with C.md"
+    },
+    {
+      "basename": "Signed and Unsigned in C",
+      "path": "GATE/Programming-with-C/Signed and Unsigned in C.md"
+    },
+    {
+      "basename": "Type Conversion in C",
+      "path": "GATE/Programming-with-C/Type Conversion in C.md"
+    },
+    {
+      "basename": "Overflow of Signed and Unsigned Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
+    },
+    {
+      "basename": "Signed Binary Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md"
+    },
+    {
+      "basename": "Compact Truth Table Representation",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
     },
     {
       "basename": "Shannons Expansion Theorem",
@@ -53,10 +73,6 @@
       "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
     },
     {
-      "basename": "Decoder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
-    },
-    {
       "basename": "Digital-Logic-Mindmap",
       "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
     },
@@ -67,10 +83,6 @@
     {
       "basename": "Pending Lectures",
       "path": "GATE/Pending Lectures.md"
-    },
-    {
-      "basename": "Boolean Functions vs Digital Circuits",
-      "path": "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md"
     },
     {
       "basename": "Binary Codes for Decimal Digits",
@@ -95,10 +107,6 @@
     {
       "basename": "Registers and Status Flags",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md"
-    },
-    {
-      "basename": "Overflow of Signed and Unsigned Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
     },
     {
       "basename": "Subtraction of Unsigned Numbers",
