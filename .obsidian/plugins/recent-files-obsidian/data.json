@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Standard Functional Complete Sets",
-      "path": "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md"
+      "basename": "Emil Post's Functional Completeness Theorem",
+      "path": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md"
+    },
+    {
+      "basename": "Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
     },
     {
       "basename": "Functional Completeness",
       "path": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md"
     },
     {
+      "basename": "Boolean Functions vs Digital Circuits",
+      "path": "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md"
+    },
+    {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
-      "basename": "Boolean Functions vs Digital Circuits",
-      "path": "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md"
+      "basename": "Boolean Function",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
     },
     {
       "basename": "Multiplexer and Demultiplexer",
@@ -97,10 +105,6 @@
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md"
     },
     {
-      "basename": "Boolean Function",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
-    },
-    {
       "basename": "Sign Extension of Unsigned and Signed Numbers",
       "path": "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md"
     },
@@ -131,10 +135,6 @@
     {
       "basename": "Decimal and Binary System",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
-    },
-    {
-      "basename": "Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
     },
     {
       "basename": "Minimization using K Map",
@@ -195,10 +195,6 @@
     {
       "basename": "Instruction Format",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
-    },
-    {
-      "basename": "Instruction Execution Cycle",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
     }
   ],
   "omittedPaths": [

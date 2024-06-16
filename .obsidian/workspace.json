@@ -49,12 +49,12 @@
             }
           },
           {
-            "id": "358a79006ae7a531",
+            "id": "0735af0e98eb2821",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md",
+                "file": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -124,7 +124,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -145,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md",
+                "file": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md",
+                "file": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md"
+                "file": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md"
               }
             }
           },
@@ -247,23 +248,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "358a79006ae7a531",
+  "active": "0735af0e98eb2821",
   "lastOpenFiles": [
-    "attachments/Standard Functional Complete Sets-20240612225937282.webp",
-    "attachments/Standard Functional Complete Sets-20240612225456054.webp",
-    "attachments/Standard Functional Complete Sets-20240612225325192.webp",
-    "attachments/Standard Functional Complete Sets-20240612224858235.webp",
-    "attachments/Standard Functional Complete Sets-20240612223239706.webp",
+    "attachments/Emil Post's Functional Completeness Theorem-20240616230836976.webp",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
+    "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md",
+    "attachments/Emil Post's Functional Completeness Theorem-20240616204216750.webp",
     "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md",
-    "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md",
+    "attachments/Functional Completeness-20240616201808788.webp",
+    "attachments/Emil Post's Functional Completeness Theorem-20240616191430204.webp",
     "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
-    "attachments/Standard Functional Complete Sets-20240612210715811.webp",
-    "attachments/Standard Functional Complete Sets-20240612210642006.webp",
-    "attachments/Standard Functional Complete Sets-20240612203536132.webp",
-    "attachments/Standard Functional Complete Sets-20240612202537364.webp",
-    "attachments/Standard Functional Complete Sets-20240612201431897.webp",
-    "attachments/Standard Functional Complete Sets-20240612201307221.webp",
+    "GATE/Digital-Logic/Digital Logic.md",
+    "attachments/Functional Completeness-20240616122730562.webp",
+    "attachments/Functional Completeness-20240616115203812.webp",
+    "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md",
+    "attachments/Functional Completeness-20240615174941793.webp",
+    "attachments/Functional Completeness-20240615173959162.webp",
+    "attachments/Functional Completeness-20240615100706987.webp",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Special Types of Boolean Functions.md",
+    "attachments/Functional Completeness-20240615093334900.webp",
+    "attachments/Functional Completeness-20240615093221697.webp",
     "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
     "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
     "GATE/Programming-with-C/Programming with C.md",
@@ -282,10 +287,6 @@
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md",
     "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
-    "GATE/Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md",
-    "GATE/Pending Lectures.md",
-    "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
-    "GATE/Digital-Logic/Number Systems/Gray code.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",

@@ -419,5 +419,6 @@
   "vauxhall@@header-color-type": "headers-mono",
   "minimal-style@@tab-stacked-spine-orientation": "tab-stack-top",
   "minimal-style@@sidebar-tabs-style": "sidebar-tabs-default",
-  "minimal-style@@sidebar-tabs-names": "tab-names-off"
+  "minimal-style@@sidebar-tabs-names": "tab-names-off",
+  "minimal-style@@col-alt": true
 }
