@@ -145,6 +145,8 @@ $$
 
 ![[Boolean Algebra-20240518101704466.webp]]
 
+ExNOR is same as Bi-implication i.e. $a ⊙ b \equiv a \leftrightarrow b$
+
 > [!note] 
 > Every logic gate can have multiple inputs.
 

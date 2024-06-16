@@ -57,7 +57,7 @@ tags:
 > [Digital Logic : Functional Completeness | Complete Playlist - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHh7tLVtGdh2mIRXJv8_Udnl)
 
 - [[Functional Completeness]]
-- [[Standard Functional Complete Sets]]
+- [[Emil Post's Functional Completeness Theorem]]
 - [[Boolean Functions vs Digital Circuits]]
 
 ## Module 5 - Sequential Circuits

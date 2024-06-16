@@ -35,7 +35,7 @@ f_1^d &= f_2^d \\ \\
 $$
 
 
-## Different Boolean Functions for $n$ variables
+## Different number of  Boolean Functions for $n$ variables
 
 If there are no boolean variables in a boolean function $f_{1}$, then the function $f_{1}$ can be either $f_{1} = 0$ or $f_{1} = 1$ i.e. constant boolean functions.
 
@@ -57,6 +57,7 @@ If there are $2$ boolean variables in a boolean function $f_{3}$, then there are
 ![[Boolean Function-20240518120519372.webp]]
 
 If there are $k$ boolean variables in a boolean function $f$, then there are $2^{(2^k)}$ different boolean functions.
+Each of the $2^n$ different input combinations have only two choices i.e. 0 or 1.
 
 ![[Boolean Function-20240518105525322.webp]]
 ![[Boolean Function-20240518105549538.webp]]
