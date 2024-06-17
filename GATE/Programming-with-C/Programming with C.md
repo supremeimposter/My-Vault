@@ -24,7 +24,6 @@ tags:
 | do       | int    | struct   | double   |
 ```
 
-
 | Data Type      | Size in bytes |
 | -------------- | ------------- |
 | signed int     | 4             |
@@ -50,7 +49,6 @@ tags:
 ---
 
 - [[Signed and Unsigned in C]]
-
 - [[Type Conversion in C]]
 
 

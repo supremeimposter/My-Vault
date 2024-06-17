@@ -23,19 +23,6 @@
             }
           },
           {
-            "id": "ec36c2494164601f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "60928704e2d17a0f",
             "type": "leaf",
             "state": {
@@ -62,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,8 +111,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -250,25 +236,24 @@
   },
   "active": "0735af0e98eb2821",
   "lastOpenFiles": [
+    "GATE/Digital-Logic/Digital Logic.md",
+    "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
+    "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md",
+    "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md",
+    "attachments/Emil Post's Functional Completeness Theorem-20240617115111019.webp",
+    "attachments/Emil Post's Functional Completeness Theorem-20240617112124867.webp",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+    "attachments/Emil Post's Functional Completeness Theorem-20240617103846290.webp",
+    "attachments/Emil Post's Functional Completeness Theorem-20240617102109182.webp",
+    "attachments/Emil Post's Functional Completeness Theorem-20240617101922504.webp",
+    "attachments/Emil Post's Functional Completeness Theorem-20240617101812337.webp",
+    "attachments/Emil Post's Functional Completeness Theorem-20240617101441117.webp",
+    "attachments/Emil Post's Functional Completeness Theorem-20240617101159757.webp",
     "attachments/Emil Post's Functional Completeness Theorem-20240616230836976.webp",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
-    "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md",
     "attachments/Emil Post's Functional Completeness Theorem-20240616204216750.webp",
-    "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md",
-    "attachments/Functional Completeness-20240616201808788.webp",
-    "attachments/Emil Post's Functional Completeness Theorem-20240616191430204.webp",
-    "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
-    "GATE/Digital-Logic/Digital Logic.md",
-    "attachments/Functional Completeness-20240616122730562.webp",
-    "attachments/Functional Completeness-20240616115203812.webp",
     "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md",
-    "attachments/Functional Completeness-20240615174941793.webp",
-    "attachments/Functional Completeness-20240615173959162.webp",
-    "attachments/Functional Completeness-20240615100706987.webp",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Special Types of Boolean Functions.md",
-    "attachments/Functional Completeness-20240615093334900.webp",
-    "attachments/Functional Completeness-20240615093221697.webp",
     "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
     "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
     "GATE/Programming-with-C/Programming with C.md",

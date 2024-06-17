@@ -5,24 +5,20 @@
       "path": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md"
     },
     {
-      "basename": "Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Functional Completeness",
       "path": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md"
     },
     {
-      "basename": "Boolean Functions vs Digital Circuits",
-      "path": "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
-    },
-    {
       "basename": "Boolean Function",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
+    },
+    {
+      "basename": "Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
     },
     {
       "basename": "Multiplexer and Demultiplexer",

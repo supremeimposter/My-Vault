@@ -10,15 +10,6 @@
       "label": "Equivalent forms of an expression"
     },
     {
-      "id": "60f0b88283b55813",
-      "type": "text",
-      "text": "Digital Circuits",
-      "x": 2110,
-      "y": -1369,
-      "width": 260,
-      "height": 60
-    },
-    {
       "id": "695f8fcd69a7bf12",
       "type": "text",
       "text": "**Realization of a given function**\n\nDigital circuits can realize a given function.\n\nFunction realization means implementing the given function.\n\nThere can be some digital circuits that have multiple outputs, but for realizing a function, there must be only one output.",
@@ -26,15 +17,6 @@
       "y": -1369,
       "width": 442,
       "height": 350
-    },
-    {
-      "id": "86d18244a4d80e8a",
-      "type": "text",
-      "text": "Combinational Circuits",
-      "x": 3216,
-      "y": -2415,
-      "width": 260,
-      "height": 60
     },
     {
       "id": "816b5b2909982414",
@@ -57,24 +39,6 @@
       "height": 99
     },
     {
-      "id": "19c2c37018d01cda",
-      "type": "text",
-      "text": "MSB of a signed number",
-      "x": 2942,
-      "y": -4425,
-      "width": 260,
-      "height": 71
-    },
-    {
-      "id": "5ddae190658120d5",
-      "type": "text",
-      "text": "If the MSB of a number is 1",
-      "x": 3402,
-      "y": -4474,
-      "width": 260,
-      "height": 84
-    },
-    {
       "id": "93948d236faca82a",
       "type": "text",
       "text": "Overflow",
@@ -93,15 +57,6 @@
       "height": 50
     },
     {
-      "id": "15bcc940d77942d0",
-      "type": "text",
-      "text": "Radix complement",
-      "x": 3053,
-      "y": -3914,
-      "width": 260,
-      "height": 60
-    },
-    {
       "id": "1961ccb1881ed0e1",
       "type": "text",
       "text": "**Complement**\nTo perform subtraction easier and with less digital circuits, complementation operation is used",
@@ -109,15 +64,6 @@
       "y": -3884,
       "width": 260,
       "height": 214
-    },
-    {
-      "id": "28b5dd7845693546",
-      "type": "text",
-      "text": "Diminished Radix complement",
-      "x": 3053,
-      "y": -3730,
-      "width": 260,
-      "height": 60
     },
     {
       "id": "f261b401c957d875",
@@ -130,6 +76,80 @@
       "color": "3"
     },
     {
+      "id": "b66ba5c61f5a08ed",
+      "type": "text",
+      "text": "**Boolean Expression**\n",
+      "isStartNode": false,
+      "x": -408,
+      "y": -1480,
+      "width": 260,
+      "height": 100,
+      "color": "5"
+    },
+    {
+      "id": "b134e1841641cce9",
+      "type": "text",
+      "text": "Sign-Magnitude",
+      "x": 2370,
+      "y": -4668,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "9fdca09c7473f1b4",
+      "type": "text",
+      "text": "1s complement",
+      "x": 2662,
+      "y": -4800,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "60f0b88283b55813",
+      "type": "text",
+      "text": "Digital Circuits",
+      "x": 2110,
+      "y": -1369,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "86d18244a4d80e8a",
+      "type": "text",
+      "text": "Combinational Circuits",
+      "x": 3216,
+      "y": -2415,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "19c2c37018d01cda",
+      "type": "text",
+      "text": "MSB of a signed number",
+      "x": 2942,
+      "y": -4425,
+      "width": 260,
+      "height": 71
+    },
+    {
+      "id": "15bcc940d77942d0",
+      "type": "text",
+      "text": "Radix complement",
+      "x": 3053,
+      "y": -3914,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "28b5dd7845693546",
+      "type": "text",
+      "text": "Diminished Radix complement",
+      "x": 3053,
+      "y": -3730,
+      "width": 260,
+      "height": 60
+    },
+    {
       "id": "fb4e853ef9f1fd19",
       "type": "text",
       "text": "When a function $F$ is complemented, then it is a different function. $\\overline{F}$ has different standard and canonical forms.",
@@ -140,15 +160,40 @@
       "color": "6"
     },
     {
-      "id": "b66ba5c61f5a08ed",
+      "id": "224561fce4a32fd3",
       "type": "text",
-      "text": "**Boolean Expression**\n",
-      "isStartNode": false,
-      "x": -408,
-      "y": -1480,
+      "text": "You cannot be sure that the simplified expression is the minimal and also it does not have a standard systematic way to arrive at the minimal solution, so that's why we need k-maps",
+      "x": -1835,
+      "y": -2742,
+      "width": 413,
+      "height": 187
+    },
+    {
+      "id": "e947516bcc7b661a",
+      "type": "text",
+      "text": "Algebraic Simplification",
+      "x": -1778,
+      "y": -2342,
+      "width": 300,
+      "height": 50
+    },
+    {
+      "id": "3672d2f169cc2e8a",
+      "type": "text",
+      "text": "**Main idea of k-map**\n\nThe canonical SOP contains the minterms where the function is 1.\n\nVisualizing it on the k-map helps us to select the minterms to reduce to get the minimized SOP expression.",
+      "x": -1615,
+      "y": -3402,
+      "width": 417,
+      "height": 220
+    },
+    {
+      "id": "2ba78c56562c73f9",
+      "type": "text",
+      "text": "**2s complement**\nweighted system",
+      "x": 2962,
+      "y": -4683,
       "width": 260,
-      "height": 100,
-      "color": "5"
+      "height": 90
     },
     {
       "id": "ad030c7659a584d9",
@@ -169,15 +214,6 @@
       "height": 240
     },
     {
-      "id": "00b8b156e600380a",
-      "type": "text",
-      "text": "The same boolean expression can be expressed in many ways. \n$$\n\\begin{split}\nE &= a \\\\\n&= a + aa \\\\\n&= aaaa \\\\\n&= a + aa + aaaaa \\\\\n&= aa \\\\\n&= a + a\n\\end{split}\n$$\nBut we may want a standard and unique form to express a particular boolean expression",
-      "x": -740,
-      "y": -980,
-      "width": 403,
-      "height": 360
-    },
-    {
       "id": "49777b66628319e1",
       "type": "text",
       "text": "**Product of Sums**\nLogical AND of sum terms",
@@ -194,24 +230,6 @@
       "y": -180,
       "width": 260,
       "height": 118
-    },
-    {
-      "id": "9227413afe6efd0d",
-      "type": "text",
-      "text": "Standard Form",
-      "x": -980,
-      "y": -432,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "148952cc2c24a06c",
-      "type": "text",
-      "text": "There can be infinitely many standard forms for an expression",
-      "x": -1540,
-      "y": -372,
-      "width": 366,
-      "height": 91
     },
     {
       "id": "8835d8b646508aeb",
@@ -250,42 +268,6 @@
       "height": 160
     },
     {
-      "id": "f7a07e2f0abb66a5",
-      "type": "text",
-      "text": "**Minterms of a Function**\nWhen the value of a function $F$ is 1 for a particular input combination, then the minterm associated with that input combination is a minterm of the function $F$.",
-      "x": -714,
-      "y": 412,
-      "width": 458,
-      "height": 184
-    },
-    {
-      "id": "224561fce4a32fd3",
-      "type": "text",
-      "text": "You cannot be sure that the simplified expression is the minimal and also it does not have a standard systematic way to arrive at the minimal solution, so that's why we need k-maps",
-      "x": -1835,
-      "y": -2742,
-      "width": 413,
-      "height": 187
-    },
-    {
-      "id": "e947516bcc7b661a",
-      "type": "text",
-      "text": "Algebraic Simplification",
-      "x": -1778,
-      "y": -2342,
-      "width": 300,
-      "height": 50
-    },
-    {
-      "id": "3672d2f169cc2e8a",
-      "type": "text",
-      "text": "**Main idea of k-map**\n\nThe canonical SOP contains the minterms where the function is 1.\n\nVisualizing it on the k-map helps us to select the minterms to reduce to get the minimized SOP expression.",
-      "x": -1615,
-      "y": -3402,
-      "width": 417,
-      "height": 220
-    },
-    {
       "id": "660c58cb2b4c4e1a",
       "type": "text",
       "text": "**Minimum SOP**\nTo get the minimal SOP, we need to large cubes of 1's, since mSOP is the sum of minterms for which the function value is 1",
@@ -302,6 +284,42 @@
       "y": -2102,
       "width": 260,
       "height": 80
+    },
+    {
+      "id": "00b8b156e600380a",
+      "type": "text",
+      "text": "The same boolean expression can be expressed in many ways. \n$$\n\\begin{split}\nE &= a \\\\\n&= a + aa \\\\\n&= aaaa \\\\\n&= a + aa + aaaaa \\\\\n&= aa \\\\\n&= a + a\n\\end{split}\n$$\nBut we may want a standard and unique form to express a particular boolean expression",
+      "x": -740,
+      "y": -980,
+      "width": 403,
+      "height": 360
+    },
+    {
+      "id": "9227413afe6efd0d",
+      "type": "text",
+      "text": "Standard Form",
+      "x": -980,
+      "y": -432,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "148952cc2c24a06c",
+      "type": "text",
+      "text": "There can be infinitely many standard forms for an expression",
+      "x": -1540,
+      "y": -372,
+      "width": 366,
+      "height": 91
+    },
+    {
+      "id": "f7a07e2f0abb66a5",
+      "type": "text",
+      "text": "**Minterms of a Function**\nWhen the value of a function $F$ is 1 for a particular input combination, then the minterm associated with that input combination is a minterm of the function $F$.",
+      "x": -714,
+      "y": 412,
+      "width": 458,
+      "height": 184
     },
     {
       "id": "5c1d143ce9c5cf00",
@@ -349,22 +367,13 @@
       "height": 159
     },
     {
-      "id": "b134e1841641cce9",
+      "id": "5ddae190658120d5",
       "type": "text",
-      "text": "Sign-Magnitude",
-      "x": 2370,
-      "y": -4668,
+      "text": "If the MSB of a number is 1",
+      "x": 3402,
+      "y": -4474,
       "width": 260,
-      "height": 60
-    },
-    {
-      "id": "2ba78c56562c73f9",
-      "type": "text",
-      "text": "**2s complement**\nweighted system",
-      "x": 2962,
-      "y": -4683,
-      "width": 260,
-      "height": 90
+      "height": 84
     },
     {
       "id": "1b6ca49b5fd826d4",
@@ -374,15 +383,6 @@
       "y": -4800,
       "width": 364,
       "height": 100
-    },
-    {
-      "id": "9fdca09c7473f1b4",
-      "type": "text",
-      "text": "1s complement",
-      "x": 2662,
-      "y": -4800,
-      "width": 260,
-      "height": 60
     },
     {
       "id": "2e412a945ca0a4b0",

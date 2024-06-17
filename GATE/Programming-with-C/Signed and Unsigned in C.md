@@ -76,20 +76,25 @@ The arrow marks in between denotes that the *bit patterns* are similar but as th
 
 Negative numbers cannot be represented in **%u** specifier, since it interprets the most significant bit of the bit pattern as positive weight.
 
-- In the below code, the value is determined as per the type of the variable and the specifier used.
+![[Signed and Unsigned in C-20240617223701099.webp]]
 
-![[Signed and Unsigned in C-20240612182543154.webp]]
+In the below code, the value is determined as per the type of the variable and the specifier used.
+
+![[Signed and Unsigned in C-20240617225706181.webp]]
 
 ## Integer Promotion
 
-- Whenever a small integer such as `char` or `int` is used in an expression (including function arguments such as `printf()`), it is **implicitly** promoted to int.
+- Whenever a small integer such as `char` or `int` is used in an expression (including function arguments such as `printf()`), it is **implicitly** promoted to `int`.
+
 - `char`, `short` and `int` belong to the ‘int’ family.
+
+![[Signed and Unsigned in C-20240617225231588.webp]]
 
 ## Extension
 
-- Extension is copying a number in lower bit representation to a higher bit representation.
-	- If the source is signed, then **sign extension** (copy the MS bit).
-	- If the source is unsigned, then **zero extension** (fill 0’s).
+Extension is copying a number in lower bit representation to a higher bit representation.
+- If the source is signed, then **sign extension** (copy the MS bit).
+- If the source is unsigned, then **zero extension** (fill 0’s).
 
 | source type | Decimal | 4-bits | 8-bits          | 16-bits                           |
 | ----------- | ------- | ------ | --------------- | --------------------------------- |
@@ -100,22 +105,48 @@ Negative numbers cannot be represented in **%u** specifier, since it interprets 
 
 ![[Signed and Unsigned in C-20240612182515529.webp]]
 
-- Extension happens based on the type of data of the source. Extension does not care about what kind of data type it is copied into.
+Extension happens based on the data-type of the source. Extension does not care about what kind of data type it is copied to.
 
-![[Signed and Unsigned in C-20240612182504608.webp]]
+> [!example] 
+> ![[Signed and Unsigned in C-20240612182504608.webp]]
+> 
+> In LINE 8, the short int $a$ is copied to unsigned int $b$ which is larger in size (not to mention, when `short` used in an expression, it gets promoted to `int`), sign extension occurs because the source $a$ is a signed short int. The variable $b$ which is an unsigned type has no effect on the content of $a$ copied to $b$, it is interpreted as an unsigned int.
 
-In LINE 8, the short int $a$ is copied to unsigned int $b$ which is larger in size (not to mention, when `short` used in an expression, it gets promoted to `int`), sign extension occurs because the source $a$ is a signed int. The variable $b$ which is an unsigned type has no effect on the content of $a$ copied to $b$.
+> [!example] 
+> ![[Signed and Unsigned in C-20240617224424707.webp]]
+> 
+> In LINE 6, when a is copied into b, zero extension occurs.
+
+> [!example] 
+> ![[Signed and Unsigned in C-20240617230058682.webp]]
+> 
+> In all the cases, zero extension occurs because of the data-type of the source.
+
+> [!observation] 
+> Integer promotion is implicit extension, so promotion depends on the data-type of the source variable.
+>
+> ![[Signed and Unsigned in C-20240617230815929.webp]]
 
 ## Truncation
 
+- Truncation is copying a number from higher bit representation to lower bit representation.
 - Causes drastic change in sign and value.
 - Truncates bytes regardless of source or destination, signed or unsigned.
 - Truncation might cause loss of significant bits depending on the type it is truncated to.
 
 > [!attention] 
-> But anyways when `short` or `char` is used in an expression, it gets integer promoted to $32$ bits.
+> But anyways when `short` or `char` is used in an expression, it gets integer promoted to $32$ bits, and the promotion is based on the data-type of the source.
 
-When a character is used in an expression, then it is promoted. When used in printf() also it gets promoted to 32 bits.
+When a character is used in an expression, then it is promoted. When used in `printf()` also it gets promoted to 32 bits.
 
-![[Pasted image 20230912211540.png]]
+> [!example] 
+> ![[Signed and Unsigned in C-20240617233917074.webp]]
+> 
+> In LINE 6, the value is 257 cannot be accomodated in the signed char a, so bits are truncated when stored in a.
 
+> [!example] 
+> ![[Signed and Unsigned in C-20240617234401233.webp]]
+> 
+> In LINE 5, the value 129 is interpreted as -127 by `%d` because of the bit pattern. When a is used in an expression in LINE 9, sign extension occurs.
+
+---
