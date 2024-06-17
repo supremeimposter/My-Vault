@@ -111,8 +111,8 @@ Now {NOT, AND, OR} can be further reduced to either {NOT, AND} or {NOT, OR} sets
 {NOT}, {AND}, {OR} are not functionally complete sets.
 
 > [!intuition] 
-> - In {NOT, OR} functionally complete set, AND operation can be implemented using NOT and OR, so the set is further simplified as {NOT, OR}.
-> - In {NOT, AND} functionally complete set, OR operation can be implemented using NOT and AND, so the set is further simplified as {NOT, AND}.
+> - In {NOT, OR} functionally complete set, AND operation can be implemented using NOT and OR, so the functionally complete set is further simplified as {NOT, OR}.
+> - In {NOT, AND} functionally complete set, OR operation can be implemented using NOT and AND, so the functionally complete set is further simplified as {NOT, AND}.
 
 ---
 ### {NAND}
@@ -258,7 +258,7 @@ $$
 $$
 {NOT, OR} can be implemented using $\{\rightarrow, 0\}$.
 
-$\{\rightarrow, 0\}$ is a functionally complete set.
+$\{\rightarrow, 0\}$ is a functionally complete set. This is best understood in case of [[Boolean Functions vs Digital Circuits|digital circuits]].
 
 ---
 ## Guidelines for Identifying Functionally Complete Sets

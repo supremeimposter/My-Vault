@@ -142,3 +142,28 @@ $f = a \oplus b \oplus c$ is not monotonic,
 > Some examples on post-functional-completeness-theorem.pdf Pg. No. 140
 
 ---
+# Functional Completeness of Digital Circuits
+
+| Boolean Functions                                                                                            | Digital Circuits                                                                                        |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
+| Boolean expressions such as $a + b, a \oplus b, \overline{a}, a. b, a, a \uparrow b, a \downarrow b, \cdots$ | Logic gates such as OR gate, NOT gate, AND gate, decoder, MUX, etc...                                   |
+| `0` and `1` signals are not available unless explicitly given                                                | `0` and `1` signals are available by default                                                            |
+| $\{a \rightarrow b\}$ is not functionally complete i.e. implication function is not functionally complete.   | $\{a \rightarrow b, 0, 1\}$ is functionally complete i.e. implication circuit is functionally complete. |
+
+A set of logic gates $X$ is [[Functional Completeness|functionally complete]] if all switching functions can be realized using this set of gates $X$. In a set of logic gates, the digital signals `0` and `1` available as gate inputs.
+
+AND circuit, OR circuit are not functionally complete circuits.
+
+In case of set of logic gates, the signals `0` and `1` can be considered as separate constant boolean functions.
+For example, in the set $\{a \rightarrow b, 0, 1\}$ can considered as a set of funcitons,
+$$
+\begin{split}
+f_{1} (a, b) &= a \rightarrow b \\
+f_{2}(a) &= 0 \\
+f_{3}(a) &= 1
+\end{split}
+$$
+Now, Emil Post's functional completeness theorem can be applied as in boolean functions.
+
+---
+

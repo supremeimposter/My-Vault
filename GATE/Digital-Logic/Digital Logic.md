@@ -58,9 +58,20 @@ tags:
 
 - [[Functional Completeness]]
 - [[Emil Post's Functional Completeness Theorem]]
-- [[Boolean Functions vs Digital Circuits]]
 
 ## Module 5 - Sequential Circuits
+
+```mermaid
+flowchart TD
+A[Digital Circuits] --> B[Combinational Circuits]
+A --> C[Sequential Circuits]
+```
+
+| Output | State of the Digital Circuit |
+| ------ | ---------------------------- |
+| 0      | The circuit is reset (R)     |
+| 1      | The circuit is set (S)       |
+
 
 - [[Sequential Circuits]]
 - [[Cross Coupled Inverters]]
