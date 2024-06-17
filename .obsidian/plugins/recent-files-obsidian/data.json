@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Emil Post's Functional Completeness Theorem",
-      "path": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md"
+      "basename": "Signed and Unsigned in C",
+      "path": "GATE/Programming-with-C/Signed and Unsigned in C.md"
+    },
+    {
+      "basename": "Programming with C",
+      "path": "GATE/Programming-with-C/Programming with C.md"
     },
     {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
+      "basename": "Digital-Logic-Mindmap",
+      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
+    },
+    {
       "basename": "Functional Completeness",
       "path": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md"
+    },
+    {
+      "basename": "Emil Post's Functional Completeness Theorem",
+      "path": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md"
     },
     {
       "basename": "Boolean Function",
@@ -27,14 +39,6 @@
     {
       "basename": "Decoder",
       "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
-    },
-    {
-      "basename": "Programming with C",
-      "path": "GATE/Programming-with-C/Programming with C.md"
-    },
-    {
-      "basename": "Signed and Unsigned in C",
-      "path": "GATE/Programming-with-C/Signed and Unsigned in C.md"
     },
     {
       "basename": "Type Conversion in C",
@@ -75,10 +79,6 @@
     {
       "basename": "Encoder",
       "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
-    },
-    {
-      "basename": "Digital-Logic-Mindmap",
-      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
     },
     {
       "basename": "Propagation Delay and Timing Diagrams",

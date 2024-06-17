@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "df5047f69cf2e2e5",
+        "id": "e93b6a13d4d6b399",
         "type": "tabs",
         "children": [
           {
-            "id": "f46426f6a122ce5f",
+            "id": "69cdd85e3821fca7",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Digital Logic.md",
+                "file": "GATE/Programming-with-C/Programming with C.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -23,25 +23,12 @@
             }
           },
           {
-            "id": "60928704e2d17a0f",
+            "id": "3a49b7e4a6de9b75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0735af0e98eb2821",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md",
+                "file": "GATE/Programming-with-C/Signed and Unsigned in C.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md",
+                "file": "GATE/Programming-with-C/Signed and Unsigned in C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md",
+                "file": "GATE/Programming-with-C/Signed and Unsigned in C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md"
+                "file": "GATE/Programming-with-C/Signed and Unsigned in C.md"
               }
             }
           },
@@ -234,29 +221,31 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0735af0e98eb2821",
+  "active": "3a49b7e4a6de9b75",
   "lastOpenFiles": [
+    "attachments/Signed and Unsigned in C-20240617234401233.webp",
+    "attachments/Signed and Unsigned in C-20240617233917074.webp",
+    "attachments/Signed and Unsigned in C-20240617232737074.webp",
+    "attachments/Signed and Unsigned in C-20240617230815929.webp",
+    "attachments/Signed and Unsigned in C-20240617230058682.webp",
+    "attachments/Signed and Unsigned in C-20240617225706181.webp",
+    "attachments/Signed and Unsigned in C-20240617225231588.webp",
+    "attachments/Signed and Unsigned in C-20240617225128046.webp",
+    "attachments/Signed and Unsigned in C-20240617225011307.webp",
+    "attachments/Signed and Unsigned in C-20240617224424707.webp",
+    "attachments/Signed and Unsigned in C-20240617223701099.webp",
+    "GATE/Programming-with-C/Programming with C.md",
     "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
+    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md",
     "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md",
-    "attachments/Emil Post's Functional Completeness Theorem-20240617115111019.webp",
-    "attachments/Emil Post's Functional Completeness Theorem-20240617112124867.webp",
+    "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
-    "attachments/Emil Post's Functional Completeness Theorem-20240617103846290.webp",
-    "attachments/Emil Post's Functional Completeness Theorem-20240617102109182.webp",
-    "attachments/Emil Post's Functional Completeness Theorem-20240617101922504.webp",
-    "attachments/Emil Post's Functional Completeness Theorem-20240617101812337.webp",
-    "attachments/Emil Post's Functional Completeness Theorem-20240617101441117.webp",
-    "attachments/Emil Post's Functional Completeness Theorem-20240617101159757.webp",
-    "attachments/Emil Post's Functional Completeness Theorem-20240616230836976.webp",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
-    "attachments/Emil Post's Functional Completeness Theorem-20240616204216750.webp",
     "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Special Types of Boolean Functions.md",
     "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
     "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
-    "GATE/Programming-with-C/Programming with C.md",
     "GATE/Programming-with-C/Signed and Unsigned in C.md",
     "GATE/Programming-with-C/Type Conversion in C.md",
     "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
@@ -271,7 +260,6 @@
     "GATE/Topics-Tracker-for-GATE.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md",
     "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
-    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",
