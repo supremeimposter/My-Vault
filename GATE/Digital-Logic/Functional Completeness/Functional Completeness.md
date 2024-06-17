@@ -22,7 +22,7 @@ tags:
 
 ## Standard Functionally Complete sets
 
-> [!header] {NOT, AND, OR}
+### {NOT, AND, OR}
 
 Any boolean function can be represented in a truth table. 
 Any truth table can be expressed as sum of minterms (CSOP expression) or product of maxterms (CPOS expression). 
@@ -39,7 +39,7 @@ NOT, AND, OR can express any valid boolean function.
 > {EXOR} is not functionally complete since it ExOR alone cannot realize AND, OR or NOT individually. 
 
 ---
-> [!header] {AND, NOT}
+### {AND, NOT}
 
 Any boolean function can be expressed in a truth table. From that truth table, sum of minterms can be expressed.
 
@@ -78,7 +78,7 @@ $$
 {AND, NOT} is a functionally complete set of boolean operations.
 
 ---
-> [!header] {OR, NOT}
+### {OR, NOT}
 
 ![[Standard Functional Complete Sets-20240612201307221.webp]]
 
@@ -115,7 +115,7 @@ Now {NOT, AND, OR} can be further reduced to either {NOT, AND} or {NOT, OR} sets
 > - In {NOT, AND} functionally complete set, OR operation can be implemented using NOT and AND, so the set is further simplified as {NOT, AND}.
 
 ---
-> [!header] {NAND}
+### {NAND}
 
 To prove that any boolean function can be implemented using only NAND gates, it is enough to show that AND, OR, NOT operations can be performed using only NAND gate.
 $$
@@ -172,7 +172,7 @@ OR operation can be implemented using 3 NAND gates.
 {NAND} is a functionally complete set.
 
 ---
-> [!header] {NOR}
+### {NOR}
 
 To prove that any boolean function can be implemented using only NOR gates, it is enough to show that AND, OR, NOT operations can be performed using only NOR gate.
 $$
@@ -223,7 +223,7 @@ OR operation can be implemented using 2 NOR gates.
 > [!definition] Universal Gate
 > If a single gate or an operation is functionally complete, then we call it universal gate e.g. {NAND}, {NOR}
 
-> [!header] {$\rightarrow$, NOT}
+### {$\rightarrow$, NOT}
 
 The given set is $\{ A \rightarrow B, \overline{A} \}$. It already has NOT operation.
 $$
@@ -236,7 +236,7 @@ Using {$\rightarrow$, NOT} set, {NOT, OR} can be implemented.
 
 {$\rightarrow$, NOT} is a functionally complete set.
 
-> [!header] {$\rightarrow$, 0}
+### {$\rightarrow$, 0}
 
 The given set is $\{\rightarrow, 0\}$. 
 
@@ -290,5 +290,7 @@ $\{\rightarrow, 0\}$ is a functionally complete set.
 
 > [!pdf] 
 > More examples on functional-completeness.pdf pg. no. 89-135 
+
+The best method is to use [[Emil Post's Functional Completeness Theorem|Post's funcitonal completeness]] theorem to verify the funciontal completeness of a set.
 
 ---
