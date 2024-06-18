@@ -11,6 +11,7 @@
     "revision": "datetime",
     "last-revision": "datetime",
     "notes-taken": "checkbox",
-    "books": "multitext"
+    "books": "multitext",
+    "instructor": "multitext"
   }
 }

@@ -8,14 +8,78 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5b7cf28317bb554d",
+            "id": "180a42fd73da4497",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Digital-Logic/Digital Logic.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "bdb269b1668a6aa5",
             "type": "leaf",
             "state": {
-              "type": "beautitab-react-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0494c99422d87825",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4cec232cdb78782e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "108f6a4bce3cdf9d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
+                "viewState": {
+                  "x": 734.7700000000001,
+                  "y": -1914.6281249999959,
+                  "zoom": 0
+                }
+              },
+              "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -77,7 +141,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -98,6 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +203,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
+              }
             }
           },
           {
@@ -196,44 +265,44 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5b7cf28317bb554d",
+  "active": "4cec232cdb78782e",
   "lastOpenFiles": [
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
+    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+    "attachments/Laws of Boolean Algebra-20240618224317959.webp",
+    "GATE/Digital-Logic/Digital Logic.md",
+    "attachments/Boolean Algebra-20240618200620635.webp",
+    "attachments/Boolean Algebra-20240618200449052.webp",
+    "attachments/Boolean Algebra-20240618200311828.webp",
+    "attachments/Boolean Algebra-20240618200235528.webp",
+    "attachments/Boolean Algebra-20240618200141468.webp",
+    "attachments/Boolean Algebra-20240618200122996.webp",
+    "attachments/Boolean Algebra-20240618200107171.webp",
+    "attachments/Boolean Algebra-20240618195954330.webp",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
+    "GATE/Digital-Logic/Number Systems/Number Systems.md",
+    "GATE/Digital-Logic/Number Systems/Binary System.md",
+    "attachments/Boolean Algebra-20240618191955525.webp",
+    "GATE/Guidelines to GATE-CS.md",
+    "GATE/GATE-CS.md",
+    "GATE/Topics-Tracker-for-GATE.md",
     "GATE/Programming-with-C/Programming with C.md",
     "GATE/Programming-with-C/Conditional Statements in C.md",
-    "attachments/Conditional Statements in C-20240618173743382.webp",
-    "attachments/Conditional Statements in C-20240618173520267.webp",
-    "attachments/Conditional Statements in C-20240618173215680.webp",
-    "attachments/Conditional Statements in C-20240618171926177.webp",
-    "attachments/Conditional Statements in C-20240618171832929.webp",
-    "attachments/Conditional Statements in C-20240618171153775.webp",
-    "attachments/Conditional Statements in C-20240618171120304.webp",
-    "attachments/Conditional Statements in C-20240618165249180.webp",
     "GATE/Programming-with-C/Type Conversion in C.md",
     "GATE/Programming-with-C/Signed and Unsigned in C.md",
     "GATE/GATE-LOG.md",
-    "attachments/Signed and Unsigned in C-20240618160357676.webp",
-    "attachments/Signed and Unsigned in C-20240618154840776.webp",
-    "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md",
     "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md",
     "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
     "GATE/Digital-Logic/Functional Completeness/Standard Functional Complete Sets.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Special Types of Boolean Functions.md",
     "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
     "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
     "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
     "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
-    "GATE/Programming-with-C/Extension and Truncation.md",
-    "GATE/Programming-with-C/Binary and 2'complements/2's Complement.md",
-    "GATE/Programming-with-C/Binary and 2'complements/Decimal and Binary.md",
-    "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
-    "GATE/Digital-Logic/Combinational Circuits/Shannons Expansion Theorem.md",
-    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
-    "GATE/Topics-Tracker-for-GATE.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",

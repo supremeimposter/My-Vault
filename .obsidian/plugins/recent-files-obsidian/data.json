@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Laws of Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
+    },
+    {
+      "basename": "Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
+    },
+    {
+      "basename": "Digital-Logic-Mindmap",
+      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
+    },
+    {
+      "basename": "Boolean Function",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Decimal and Binary System",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
+    },
+    {
+      "basename": "Introduction to Digital Logic",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
+    },
+    {
+      "basename": "Number Systems",
+      "path": "GATE/Digital-Logic/Number Systems/Number Systems.md"
+    },
+    {
+      "basename": "Binary System",
+      "path": "GATE/Digital-Logic/Number Systems/Binary System.md"
+    },
+    {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE/GATE-CS.md"
+    },
+    {
+      "basename": "Topics-Tracker-for-GATE",
+      "path": "GATE/Topics-Tracker-for-GATE.md"
+    },
+    {
       "basename": "Programming with C",
       "path": "GATE/Programming-with-C/Programming with C.md"
     },
@@ -21,28 +69,12 @@
       "path": "GATE/GATE-LOG.md"
     },
     {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
-    },
-    {
-      "basename": "Digital-Logic-Mindmap",
-      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
-    },
-    {
       "basename": "Functional Completeness",
       "path": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md"
     },
     {
       "basename": "Emil Post's Functional Completeness Theorem",
       "path": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md"
-    },
-    {
-      "basename": "Boolean Function",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
-    },
-    {
-      "basename": "Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
     },
     {
       "basename": "Multiplexer and Demultiplexer",
@@ -71,14 +103,6 @@
     {
       "basename": "Computer Organization and Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
-    },
-    {
-      "basename": "Laws of Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
-    },
-    {
-      "basename": "Topics-Tracker-for-GATE",
-      "path": "GATE/Topics-Tracker-for-GATE.md"
     },
     {
       "basename": "Don't Cares in K Map",
@@ -125,20 +149,8 @@
       "path": "GATE/Digital-Logic/Number Systems/Complements in Number System.md"
     },
     {
-      "basename": "Binary System",
-      "path": "GATE/Digital-Logic/Number Systems/Binary System.md"
-    },
-    {
       "basename": "Octal and Hexadecimal System",
       "path": "GATE/Digital-Logic/Number Systems/Octal and Hexadecimal System.md"
-    },
-    {
-      "basename": "Number Systems",
-      "path": "GATE/Digital-Logic/Number Systems/Number Systems.md"
-    },
-    {
-      "basename": "Decimal and Binary System",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
     },
     {
       "basename": "Minimization using K Map",
@@ -169,10 +181,6 @@
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
     },
     {
-      "basename": "Introduction to Digital Logic",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
-    },
-    {
       "basename": "Linear Algebra",
       "path": "GATE/Linear-Algebra/Linear Algebra.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "LU Decomposition",
       "path": "GATE/Linear-Algebra/LU Decomposition.md"
-    },
-    {
-      "basename": "Matrices",
-      "path": "GATE/Linear-Algebra/Matrices.md"
-    },
-    {
-      "basename": "Instruction Format",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
     }
   ],
   "omittedPaths": [
