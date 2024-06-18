@@ -126,3 +126,5 @@
 **April 30, 2024** Remove that AIR 1 idea from your thoughts. It will create unnecessary panics for every silly mistakes or some major mistakes you do while practicing. You gain mastery eventually, even after many tries, definitely not during the second try. Just keep on learning and grinding. Rank is secondary, knowledge and practice is primary. 
 
 **May 3, 2024** Prepare yourself to be very active with your peak energy between 9am to 12pm and 2pm to 5pm. Because thats when you are probably going to write your exam next year.
+
+**June 18, 2024** When I have spent much time on a topic, it doesn't mean I can just skim a question from a question from that topic. I have to read each and every word of the question and think about it. Given enough time to practice questions.

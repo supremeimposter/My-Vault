@@ -5,14 +5,14 @@ lecture:
 date: 2024-06-11T23:54:00
 version:
   - C-24
-last-revision: 
-notes-taken: false
+last-revision: 2024-06-18T10:38:00
+notes-taken: true
 tags:
   - ProgrammingWithC/Types
 ---
 # Signed and Unsigned in C
 
-User can decide whether a data is signed or unsigned.
+User can decide whether a data is signed or unsigned. signed or unsigned data type is to decide how the variable is handled.
 
 ```ad-important
 - Signed - MSB has Negative weight
@@ -52,11 +52,15 @@ Since computers use 2's complement representation, the range of signed numbers a
 $T_{\text{min}} = \underbrace{1}_{\text{negative}}\underbrace{0000\cdots 00}_{n-1 \text{ bits}} = - 2^{n-1}$ 
 $T_{\text{max}} = \underbrace{0}_{\text{positive}}\underbrace{1111\cdots 11}_{n-1 \text{ bits}} = +(2^{n-1} - 1)$ 
 
+> [!interesting] 
+> ![[Signed and Unsigned in C-20240618092013429.webp]]
 
 **Analysis on range of signed and unsigned**
 Positive numbers are the same in both 2’s complement(signed) and in the unsigned range. 
 
-![[Signed and Unsigned in C-20240612001740882.webp]]
+The diagram below shows the similar bit patterns in both signed and unsigned numbers.
+
+![[Signed and Unsigned in C-20240618160357676.webp]]
 
 The arrow marks in between denotes that the *bit patterns* are similar but as the most significant bit is interpreted differently in both the representation, the value interpreted also changes.
 
@@ -67,10 +71,10 @@ The arrow marks in between denotes that the *bit patterns* are similar but as th
 **%u** – always takes the **positive weight** of the MS bit.
 ```
 
-- Both specifiers do not care about the type of data (unsigned or signed), they care only about the **bit pattern**.
-- Bit pattern is constant for a number(literals), the type of data (unsigned or signed) does not influence the bit pattern, it gives different perception of the bit pattern and specifies how the variables have to be handled.
+Both specifiers do not care about the type of data (unsigned or signed), they care only about the **bit pattern**.
+Bit pattern is constant for a number(literals), the type of data (unsigned or signed) does not influence the bit pattern, it gives different perception of the bit pattern and specifies how the variables have to be handled.
 
-- `printf()` does not use the information about the type of variable. It sees the bit pattern and the format specifier used and prints the output.
+`printf()` does not use the information about the type of variable. It sees the bit pattern and the format specifier used and prints the output.
 
 ![[Signed and Unsigned in C-20240612174701920.webp]]
 
@@ -78,17 +82,7 @@ Negative numbers cannot be represented in **%u** specifier, since it interprets 
 
 ![[Signed and Unsigned in C-20240617223701099.webp]]
 
-In the below code, the value is determined as per the type of the variable and the specifier used.
-
 ![[Signed and Unsigned in C-20240617225706181.webp]]
-
-## Integer Promotion
-
-- Whenever a small integer such as `char` or `int` is used in an expression (including function arguments such as `printf()`), it is **implicitly** promoted to `int`.
-
-- `char`, `short` and `int` belong to the ‘int’ family.
-
-![[Signed and Unsigned in C-20240617225231588.webp]]
 
 ## Extension
 
@@ -122,10 +116,20 @@ Extension happens based on the data-type of the source. Extension does not care 
 > 
 > In all the cases, zero extension occurs because of the data-type of the source.
 
+### Integer Promotion
+
+- Whenever a small integer such as `char` or `int` is used in an expression (including function arguments such as `printf()`), it is **implicitly** promoted to `int`.
+
+- `char`, `short` and `int` belong to the ‘int’ family.
+
+![[Signed and Unsigned in C-20240617225231588.webp]]
+
 > [!observation] 
 > Integer promotion is implicit extension, so promotion depends on the data-type of the source variable.
 >
 > ![[Signed and Unsigned in C-20240617230815929.webp]]
+> 
+> ![[Signed and Unsigned in C-20240618091221336.webp]]
 
 ## Truncation
 
@@ -148,5 +152,27 @@ When a character is used in an expression, then it is promoted. When used in `pr
 > ![[Signed and Unsigned in C-20240617234401233.webp]]
 > 
 > In LINE 5, the value 129 is interpreted as -127 by `%d` because of the bit pattern. When a is used in an expression in LINE 9, sign extension occurs.
+
+> [!example] 
+> ![[Signed and Unsigned in C-20240618082321489.webp]]
+> 
+> In LINE  6, the truncation occurs when x is copied to y. When y is used in `printf()` argument, it gets integer promoted to 32 bits (sign extension).
+
+![[Signed and Unsigned in C-20240618090413184.webp]]
+
+> [!example] 
+> ![[Signed and Unsigned in C-20240618154840776.webp]]
+> 
+> In `LINE 6`, 32 bits are truncated to 16 bits. Now when `u` is used in an expression, then extension happens and the extension is based on the data-type of the source which is unsigned.
+
+---
+
+> [!summary] 
+
+1. Specifiers only look at the bit patterns and interpret as they are specified to do so. `printf()` does not care about the data type of any variable.
+2. Extension and integer promotion care about the data-type of the source.
+3. Truncation just truncates the bits for the destination type to accomodate.
+4. Truncation does not depend on the data-type of the source.
+5. Computers use 2's complement system to store numbers in the hardware and they are fixed.
 
 ---
