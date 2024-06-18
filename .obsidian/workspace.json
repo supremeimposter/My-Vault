@@ -4,39 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e93b6a13d4d6b399",
+        "id": "db1ac940b1bb3b61",
         "type": "tabs",
         "children": [
           {
-            "id": "69cdd85e3821fca7",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Programming-with-C/Programming with C.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "3a49b7e4a6de9b75",
+            "id": "5b7cf28317bb554d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Programming-with-C/Signed and Unsigned in C.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "beautitab-react-view",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Programming-with-C/Signed and Unsigned in C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Programming-with-C/Signed and Unsigned in C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "GATE/Programming-with-C/Signed and Unsigned in C.md"
-              }
+              "state": {}
             }
           },
           {
@@ -221,20 +196,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3a49b7e4a6de9b75",
+  "active": "5b7cf28317bb554d",
   "lastOpenFiles": [
-    "attachments/Signed and Unsigned in C-20240617234401233.webp",
-    "attachments/Signed and Unsigned in C-20240617233917074.webp",
-    "attachments/Signed and Unsigned in C-20240617232737074.webp",
-    "attachments/Signed and Unsigned in C-20240617230815929.webp",
-    "attachments/Signed and Unsigned in C-20240617230058682.webp",
-    "attachments/Signed and Unsigned in C-20240617225706181.webp",
-    "attachments/Signed and Unsigned in C-20240617225231588.webp",
-    "attachments/Signed and Unsigned in C-20240617225128046.webp",
-    "attachments/Signed and Unsigned in C-20240617225011307.webp",
-    "attachments/Signed and Unsigned in C-20240617224424707.webp",
-    "attachments/Signed and Unsigned in C-20240617223701099.webp",
     "GATE/Programming-with-C/Programming with C.md",
+    "GATE/Programming-with-C/Conditional Statements in C.md",
+    "attachments/Conditional Statements in C-20240618173743382.webp",
+    "attachments/Conditional Statements in C-20240618173520267.webp",
+    "attachments/Conditional Statements in C-20240618173215680.webp",
+    "attachments/Conditional Statements in C-20240618171926177.webp",
+    "attachments/Conditional Statements in C-20240618171832929.webp",
+    "attachments/Conditional Statements in C-20240618171153775.webp",
+    "attachments/Conditional Statements in C-20240618171120304.webp",
+    "attachments/Conditional Statements in C-20240618165249180.webp",
+    "GATE/Programming-with-C/Type Conversion in C.md",
+    "GATE/Programming-with-C/Signed and Unsigned in C.md",
+    "GATE/GATE-LOG.md",
+    "attachments/Signed and Unsigned in C-20240618160357676.webp",
+    "attachments/Signed and Unsigned in C-20240618154840776.webp",
     "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md",
@@ -246,8 +224,6 @@
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Special Types of Boolean Functions.md",
     "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
     "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
-    "GATE/Programming-with-C/Signed and Unsigned in C.md",
-    "GATE/Programming-with-C/Type Conversion in C.md",
     "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
     "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
     "GATE/Programming-with-C/Extension and Truncation.md",
@@ -258,8 +234,6 @@
     "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
     "GATE/Topics-Tracker-for-GATE.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md",
-    "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",

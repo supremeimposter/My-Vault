@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Programming with C",
+      "path": "GATE/Programming-with-C/Programming with C.md"
+    },
+    {
+      "basename": "Conditional Statements in C",
+      "path": "GATE/Programming-with-C/Conditional Statements in C.md"
+    },
+    {
+      "basename": "Type Conversion in C",
+      "path": "GATE/Programming-with-C/Type Conversion in C.md"
+    },
+    {
       "basename": "Signed and Unsigned in C",
       "path": "GATE/Programming-with-C/Signed and Unsigned in C.md"
     },
     {
-      "basename": "Programming with C",
-      "path": "GATE/Programming-with-C/Programming with C.md"
+      "basename": "GATE-LOG",
+      "path": "GATE/GATE-LOG.md"
     },
     {
       "basename": "Digital Logic",
@@ -39,10 +51,6 @@
     {
       "basename": "Decoder",
       "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
-    },
-    {
-      "basename": "Type Conversion in C",
-      "path": "GATE/Programming-with-C/Type Conversion in C.md"
     },
     {
       "basename": "Overflow of Signed and Unsigned Numbers",
