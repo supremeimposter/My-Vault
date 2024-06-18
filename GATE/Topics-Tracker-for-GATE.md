@@ -6,6 +6,7 @@ kanban-plugin: basic
 
 ## Current
 
+- [ ] **Boolean Algebra**<br>Module 1 of Digital Logic ^sfl5hb
 
 
 ## Confident
@@ -16,7 +17,7 @@ kanban-plugin: basic
 
 
 
-## Pyqs done
+## Finished
 
 
 

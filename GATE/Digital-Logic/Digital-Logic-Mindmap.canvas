@@ -10,26 +10,6 @@
       "label": "Equivalent forms of an expression"
     },
     {
-      "id": "695f8fcd69a7bf12",
-      "type": "text",
-      "text": "**Realization of a given function**\n\nDigital circuits can realize a given function.\n\nFunction realization means implementing the given function.\n\nThere can be some digital circuits that have multiple outputs, but for realizing a function, there must be only one output.",
-      "x": 1400,
-      "y": -1369,
-      "width": 442,
-      "height": 350
-    },
-    {
-      "id": "816b5b2909982414",
-      "type": "text",
-      "text": "**Digital Logic**",
-      "shape": "predefined-process",
-      "x": 1200,
-      "y": -1840,
-      "width": 250,
-      "height": 140,
-      "color": "1"
-    },
-    {
       "id": "784a184d5348609e",
       "type": "text",
       "text": "Representation of **Signed Binary** Numbers",
@@ -57,36 +37,6 @@
       "height": 50
     },
     {
-      "id": "1961ccb1881ed0e1",
-      "type": "text",
-      "text": "**Complement**\nTo perform subtraction easier and with less digital circuits, complementation operation is used",
-      "x": 2662,
-      "y": -3884,
-      "width": 260,
-      "height": 214
-    },
-    {
-      "id": "f261b401c957d875",
-      "type": "text",
-      "text": "**Number System**\n\nBase = Radix = $r$\n$r$ = number of symbols in the number system",
-      "x": 2142,
-      "y": -3700,
-      "width": 260,
-      "height": 160,
-      "color": "3"
-    },
-    {
-      "id": "b66ba5c61f5a08ed",
-      "type": "text",
-      "text": "**Boolean Expression**\n",
-      "isStartNode": false,
-      "x": -408,
-      "y": -1480,
-      "width": 260,
-      "height": 100,
-      "color": "5"
-    },
-    {
       "id": "b134e1841641cce9",
       "type": "text",
       "text": "Sign-Magnitude",
@@ -103,61 +53,6 @@
       "y": -4800,
       "width": 260,
       "height": 60
-    },
-    {
-      "id": "60f0b88283b55813",
-      "type": "text",
-      "text": "Digital Circuits",
-      "x": 2110,
-      "y": -1369,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "86d18244a4d80e8a",
-      "type": "text",
-      "text": "Combinational Circuits",
-      "x": 3216,
-      "y": -2415,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "19c2c37018d01cda",
-      "type": "text",
-      "text": "MSB of a signed number",
-      "x": 2942,
-      "y": -4425,
-      "width": 260,
-      "height": 71
-    },
-    {
-      "id": "15bcc940d77942d0",
-      "type": "text",
-      "text": "Radix complement",
-      "x": 3053,
-      "y": -3914,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "28b5dd7845693546",
-      "type": "text",
-      "text": "Diminished Radix complement",
-      "x": 3053,
-      "y": -3730,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "fb4e853ef9f1fd19",
-      "type": "text",
-      "text": "When a function $F$ is complemented, then it is a different function. $\\overline{F}$ has different standard and canonical forms.",
-      "x": -160,
-      "y": -1180,
-      "width": 460,
-      "height": 120,
-      "color": "6"
     },
     {
       "id": "224561fce4a32fd3",
@@ -187,87 +82,6 @@
       "height": 220
     },
     {
-      "id": "2ba78c56562c73f9",
-      "type": "text",
-      "text": "**2s complement**\nweighted system",
-      "x": 2962,
-      "y": -4683,
-      "width": 260,
-      "height": 90
-    },
-    {
-      "id": "ad030c7659a584d9",
-      "type": "text",
-      "text": "**Canonical Form**\nThese two forms are from a function's perspective",
-      "x": -370,
-      "y": -340,
-      "width": 260,
-      "height": 160
-    },
-    {
-      "id": "24851078ccd429d1",
-      "type": "text",
-      "text": "**Canonical POS**\n\nLogical AND of those maxterms for which the function value is 0\n\nCanonical POS is the product of maxterms",
-      "x": -80,
-      "y": 60,
-      "width": 260,
-      "height": 240
-    },
-    {
-      "id": "49777b66628319e1",
-      "type": "text",
-      "text": "**Product of Sums**\nLogical AND of sum terms",
-      "x": -700,
-      "y": -180,
-      "width": 260,
-      "height": 118
-    },
-    {
-      "id": "c64c17882b00e854",
-      "type": "text",
-      "text": "**Sum of Products**\nLogical OR of product terms",
-      "x": -1220,
-      "y": -180,
-      "width": 260,
-      "height": 118
-    },
-    {
-      "id": "8835d8b646508aeb",
-      "type": "text",
-      "text": "k-map gives the minimal expression from the canonical form",
-      "x": 480,
-      "y": -653,
-      "width": 365,
-      "height": 67
-    },
-    {
-      "id": "c02f151cb3b91118",
-      "type": "text",
-      "text": "**Canonical SOP**\n\nLogical OR of those minterms for which the function value is 1\n\nCanonical SOP is the sum of minterms",
-      "x": -630,
-      "y": 60,
-      "width": 290,
-      "height": 240
-    },
-    {
-      "id": "68ddf72b57edf565",
-      "type": "text",
-      "text": "**Product Term**\nLogical AND of literals",
-      "x": -1460,
-      "y": 60,
-      "width": 337,
-      "height": 81
-    },
-    {
-      "id": "9f75c7d1644c7108",
-      "type": "text",
-      "text": "**Minterm**\nA product term which contains every variable in either complemented or non-complemented form exactly once.",
-      "x": -1420,
-      "y": 332,
-      "width": 480,
-      "height": 160
-    },
-    {
       "id": "660c58cb2b4c4e1a",
       "type": "text",
       "text": "**Minimum SOP**\nTo get the minimal SOP, we need to large cubes of 1's, since mSOP is the sum of minterms for which the function value is 1",
@@ -286,40 +100,77 @@
       "height": 80
     },
     {
-      "id": "00b8b156e600380a",
+      "id": "1961ccb1881ed0e1",
       "type": "text",
-      "text": "The same boolean expression can be expressed in many ways. \n$$\n\\begin{split}\nE &= a \\\\\n&= a + aa \\\\\n&= aaaa \\\\\n&= a + aa + aaaaa \\\\\n&= aa \\\\\n&= a + a\n\\end{split}\n$$\nBut we may want a standard and unique form to express a particular boolean expression",
-      "x": -740,
-      "y": -980,
-      "width": 403,
-      "height": 360
+      "text": "**Complement**\nTo perform subtraction easier and with less digital circuits, complementation operation is used",
+      "x": 2662,
+      "y": -3884,
+      "width": 260,
+      "height": 214
     },
     {
-      "id": "9227413afe6efd0d",
+      "id": "f261b401c957d875",
       "type": "text",
-      "text": "Standard Form",
-      "x": -980,
-      "y": -432,
+      "text": "**Number System**\n\nBase = Radix = $r$\n$r$ = number of symbols in the number system",
+      "x": 2142,
+      "y": -3700,
+      "width": 260,
+      "height": 160,
+      "color": "3"
+    },
+    {
+      "id": "60f0b88283b55813",
+      "type": "text",
+      "text": "Digital Circuits",
+      "x": 2110,
+      "y": -1369,
       "width": 260,
       "height": 60
     },
     {
-      "id": "148952cc2c24a06c",
+      "id": "86d18244a4d80e8a",
       "type": "text",
-      "text": "There can be infinitely many standard forms for an expression",
-      "x": -1540,
-      "y": -372,
-      "width": 366,
-      "height": 91
+      "text": "Combinational Circuits",
+      "x": 3216,
+      "y": -2415,
+      "width": 260,
+      "height": 60
     },
     {
-      "id": "f7a07e2f0abb66a5",
+      "id": "15bcc940d77942d0",
       "type": "text",
-      "text": "**Minterms of a Function**\nWhen the value of a function $F$ is 1 for a particular input combination, then the minterm associated with that input combination is a minterm of the function $F$.",
-      "x": -714,
-      "y": 412,
-      "width": 458,
-      "height": 184
+      "text": "Radix complement",
+      "x": 3053,
+      "y": -3914,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "28b5dd7845693546",
+      "type": "text",
+      "text": "Diminished Radix complement",
+      "x": 3053,
+      "y": -3730,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "19c2c37018d01cda",
+      "type": "text",
+      "text": "MSB of a signed number",
+      "x": 2942,
+      "y": -4425,
+      "width": 260,
+      "height": 71
+    },
+    {
+      "id": "2ba78c56562c73f9",
+      "type": "text",
+      "text": "**2s complement**\nweighted system",
+      "x": 2962,
+      "y": -4683,
+      "width": 260,
+      "height": 90
     },
     {
       "id": "5c1d143ce9c5cf00",
@@ -329,15 +180,6 @@
       "y": -3382,
       "width": 384,
       "height": 207
-    },
-    {
-      "id": "a39ea932756edd12",
-      "type": "text",
-      "text": "You need a minimized expression or function that has minimum number of terms in which it has minimum number of literals.\n\nYou get minimized form out of canonical form from the k-map\n\nCanonical form $\\Rightarrow$ minimised form",
-      "x": -175,
-      "y": -2742,
-      "width": 470,
-      "height": 245
     },
     {
       "id": "a20e58783c3f63d8",
@@ -437,6 +279,173 @@
       "y": -4629,
       "width": 380,
       "height": 688
+    },
+    {
+      "id": "fb4e853ef9f1fd19",
+      "type": "text",
+      "text": "When a function $F$ is complemented, then it is a different function. $\\overline{F}$ has different standard and canonical forms.",
+      "x": -160,
+      "y": -1180,
+      "width": 460,
+      "height": 120,
+      "color": "6"
+    },
+    {
+      "id": "00b8b156e600380a",
+      "type": "text",
+      "text": "The same boolean expression can be expressed in many ways. \n$$\n\\begin{split}\nE &= a \\\\\n&= a + aa \\\\\n&= aaaa \\\\\n&= a + aa + aaaaa \\\\\n&= aa \\\\\n&= a + a\n\\end{split}\n$$\nBut we may want a standard and unique form to express a particular boolean expression",
+      "x": -740,
+      "y": -980,
+      "width": 403,
+      "height": 360
+    },
+    {
+      "id": "b66ba5c61f5a08ed",
+      "type": "text",
+      "text": "**Boolean Expression**\n",
+      "isStartNode": false,
+      "x": -408,
+      "y": -1480,
+      "width": 260,
+      "height": 100,
+      "color": "5"
+    },
+    {
+      "id": "9227413afe6efd0d",
+      "type": "text",
+      "text": "Standard Form",
+      "x": -980,
+      "y": -432,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "148952cc2c24a06c",
+      "type": "text",
+      "text": "There can be infinitely many standard forms for an expression",
+      "x": -1540,
+      "y": -372,
+      "width": 366,
+      "height": 91
+    },
+    {
+      "id": "ad030c7659a584d9",
+      "type": "text",
+      "text": "**Canonical Form**\nThese two forms are from a function's perspective",
+      "x": -370,
+      "y": -340,
+      "width": 260,
+      "height": 160
+    },
+    {
+      "id": "49777b66628319e1",
+      "type": "text",
+      "text": "**Product of Sums**\nLogical AND of sum terms",
+      "x": -700,
+      "y": -180,
+      "width": 260,
+      "height": 118
+    },
+    {
+      "id": "c64c17882b00e854",
+      "type": "text",
+      "text": "**Sum of Products**\nLogical OR of product terms",
+      "x": -1220,
+      "y": -180,
+      "width": 260,
+      "height": 118
+    },
+    {
+      "id": "c02f151cb3b91118",
+      "type": "text",
+      "text": "**Canonical SOP**\n\nLogical OR of those minterms for which the function value is 1\n\nCanonical SOP is the sum of minterms",
+      "x": -630,
+      "y": 60,
+      "width": 290,
+      "height": 240
+    },
+    {
+      "id": "68ddf72b57edf565",
+      "type": "text",
+      "text": "**Product Term**\nLogical AND of literals",
+      "x": -1460,
+      "y": 60,
+      "width": 337,
+      "height": 81
+    },
+    {
+      "id": "24851078ccd429d1",
+      "type": "text",
+      "text": "**Canonical POS**\n\nLogical AND of those maxterms for which the function value is 0\n\nCanonical POS is the product of maxterms",
+      "x": -80,
+      "y": 60,
+      "width": 260,
+      "height": 240
+    },
+    {
+      "id": "9f75c7d1644c7108",
+      "type": "text",
+      "text": "**Minterm**\nA product term which contains every variable in either complemented or non-complemented form exactly once.",
+      "x": -1420,
+      "y": 332,
+      "width": 480,
+      "height": 160
+    },
+    {
+      "id": "f7a07e2f0abb66a5",
+      "type": "text",
+      "text": "**Minterms of a Function**\nWhen the value of a function $F$ is 1 for a particular input combination, then the minterm associated with that input combination is a minterm of the function $F$.",
+      "x": -714,
+      "y": 412,
+      "width": 458,
+      "height": 184
+    },
+    {
+      "id": "8835d8b646508aeb",
+      "type": "text",
+      "text": "k-map gives the minimal expression from the canonical form",
+      "x": 480,
+      "y": -653,
+      "width": 365,
+      "height": 67
+    },
+    {
+      "id": "816b5b2909982414",
+      "type": "text",
+      "text": "**Digital Logic**",
+      "shape": "predefined-process",
+      "x": 1200,
+      "y": -1840,
+      "width": 250,
+      "height": 140,
+      "color": "1"
+    },
+    {
+      "id": "695f8fcd69a7bf12",
+      "type": "text",
+      "text": "**Realization of a given function**\n\nDigital circuits can realize a given function.\n\nFunction realization means implementing the given function.\n\nThere can be some digital circuits that have multiple outputs, but for realizing a function, there must be only one output.",
+      "x": 1400,
+      "y": -1369,
+      "width": 442,
+      "height": 350
+    },
+    {
+      "id": "1d00e7fb78b9f11a",
+      "type": "text",
+      "text": "**Boolean Expression**\nset of literals connected by logical connectives\n\n**Boolean Equation**\nexpression1 = expression2\n\n**Boolean function**\nA boolean equation on several variables.\n\n",
+      "x": 320,
+      "y": -2240,
+      "width": 378,
+      "height": 320
+    },
+    {
+      "id": "a39ea932756edd12",
+      "type": "text",
+      "text": "You need a minimized expression or function that has minimum number of terms in which it has minimum number of literals.\n\nYou get minimized form out of canonical form from the k-map\n\nCanonical form $\\Rightarrow$ minimised form",
+      "x": -175,
+      "y": -2742,
+      "width": 470,
+      "height": 245
     }
   ],
   "edges": [
@@ -856,6 +865,13 @@
       "fromNode": "60f0b88283b55813",
       "fromSide": "left",
       "toNode": "695f8fcd69a7bf12",
+      "toSide": "right"
+    },
+    {
+      "id": "75891531438eb2f0",
+      "fromNode": "816b5b2909982414",
+      "fromSide": "left",
+      "toNode": "1d00e7fb78b9f11a",
       "toSide": "right"
     }
   ],

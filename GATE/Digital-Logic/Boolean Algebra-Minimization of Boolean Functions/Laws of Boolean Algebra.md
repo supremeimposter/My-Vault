@@ -14,7 +14,8 @@ tags:
 Laws of Boolean Algebra are similar or isomorphic to [[Discrete Mathematics#Propositional Logic or 0th Order Logic|Propositional Logic]], [[Discrete Mathematics#Set Theory|Set Theory]], [[Discrete Mathematics#Group Theory|Group theory]], [[Types of Lattices#Boolean Lattice or Boolean Algebra|Boolean Lattice]].
 
 > [!tip] 
-> By-case method can be used to prove or disprove certain laws.
+> By-case method can be used to prove or disprove certain laws. It is similar to [[Compact Truth Table Representation|compact truth table]].
+> 
 > ![[Laws of Boolean Algebra-20240517120322980.webp]]
 
 ## Domination or Annulment Law
@@ -39,13 +40,13 @@ $$
 $$
 \begin{split}
 A + A + \dots + A &= A \\
-A \cdot A \cdots A &= A
+A \cdot A \cdot  \cdots \cdot  A &= A
 \end{split}
 $$
 
-## Complement Law
-> [!NOTE] 
-> The inputs in complement law are $A$ and $\overline{A}$
+## Complementarity Law
+
+The inputs in complementarity law are $A$ and $\overline{A}$ and the outputs are either $0$ or $1$
 
 $$
 \begin{split}
@@ -59,13 +60,17 @@ A \downarrow \overline{A} &= 0 \\
 $$
 
 ## Double Complementation Law
+
 This law is also called as Involution Law.
 $$
 \begin{split}
-\overline {(\overline{A})} &= A \\ \\
-\overline {(\overline{\alpha})} &= \alpha
+\overline{ \overline{A} } &= \overline {(\overline{A})} \\ 
+&= A \\ \\
+\text{Let } \alpha \text{ be any} & \text{ boolean expression,} \\ \\
+\overline{ \overline{\alpha} } &= \overline {(\overline{\alpha})} \\&= \alpha
 \end{split}
 $$
+
 ## Commutative Law
 > [!NOTE] 
 > All properties are commutative
@@ -90,6 +95,7 @@ $$
 
 > [!proof] 
 > $a \oplus (b \oplus c) = (a \oplus b) \oplus c$
+> 
 > ![[Laws of Boolean Algebra-20240517121050434.webp]]
 
 > [!proof] 
@@ -128,7 +134,7 @@ $$
 > [!NOTE] 
 > Complement of a boolean expression $E$ can be found using De-Morgan's law if the $E$ contains only literals and AND, OR, NOT operations (no other operations)
 
-![[Laws of Boolean Algebra-20240517164131018.webp]]
+![[Laws of Boolean Algebra-20240618224317959.webp]]
 
 ## Removal of Redundancies
 
@@ -174,7 +180,7 @@ There may be some functions which do hold for cancellation laws. e.g. converses 
 
 > [!summary] 
 > ![[Laws of Boolean Algebra-20240517163430314.webp]]
-> ![[Laws of Boolean Algebra-20240218225050396.webp]]
-> ![[Laws of Boolean Algebra-20240603120312263.webp]]
 
-Boolean algebraic laws are given in pairs to show that algebra satisfies a [[Boolean Function#Complement and Dual of Boolean Functions|duality]].
+Boolean algebraic laws are given in pairs to show that algebra satisfies a [[Boolean Function#Complement and Dual of Boolean Functions|duality]]
+
+---

@@ -74,6 +74,7 @@ Each of the $2^n$ different input combinations have only two choices i.e. 0 or 1
 ![[Boolean Function-20240517195617657.webp]]
 
 ![[Laws of Boolean Algebra-20240218225050396.webp]]
+![[Laws of Boolean Algebra-20240603120312263.webp]]
 
 For any boolean function $f(a, b)$,
 $$

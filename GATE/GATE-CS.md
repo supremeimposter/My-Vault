@@ -1,11 +1,15 @@
 ---
 version: 
-instructor: 
+instructor:
+  - DeepakPoonia
+  - SachinMittal
 tags:
   - GATE
 ---
+# GATE-CS
 
 - [[Fundamentals of Computer Science]]
+
 - [[Linear Algebra]]
 - [[Calculus]]
 - [[Discrete Mathematics]]
@@ -21,8 +25,9 @@ tags:
 - [[Compiler Design]]
 - [[Aptitude]]
 
----
+- [[Guidelines to GATE-CS]]
 
+---
 # References
 
 > [!youtube] 

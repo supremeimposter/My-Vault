@@ -49,18 +49,8 @@ To convert decimal to r-ary number, successive division by $r$ can be used for t
 
 Consider the number $N$ such that $(N)_{10} = (abcd.mno)_{r}$
 
-````col
-```col-md
-flexGrow=1
-===
 ![[Number Systems-20240224175709893.webp]]
-```
-```col-md
-flexGrow=1
-===
 ![[Number Systems-20240224183608079.webp]]
-```
-````
 
 ![[Number Systems-20240528212552277.webp]]
 

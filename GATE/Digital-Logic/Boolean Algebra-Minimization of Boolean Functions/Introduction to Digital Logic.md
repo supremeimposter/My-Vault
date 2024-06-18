@@ -5,7 +5,7 @@ lecture: "1"
 date: 2024-02-18T13:50:00
 version:
   - DL-24
-last-revision: 
+last-revision: 2024-06-18T18:00:00
 notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
@@ -44,13 +44,9 @@ $(10)_2$ + $(01)_2$ = $(11)_2$
 ```
 ````
 
-- The basic unit of information is the binary digit i.e. bit.
-- $2^k$ number of values can be represented using $k$ bits. 
-![[Introduction to Digital Logic-20240514111208196.webp|2 choices in every bit]]
-
 ## Positive and Negative Logic System
 
-Boolean Algebra has only `0` and `1`. It does not know about voltage or any other physical entity.
+Boolean Algebra has only `0` and `1`. It does not know about voltage or any other physical entity, whereas Digital circuits has high (1) and low (0) voltage signals.
 
 ![[Introduction to Digital Logic-20240224074858492.webp]]
 
