@@ -9,12 +9,12 @@
       "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
-      "basename": "D Flip Flop",
-      "path": "GATE/Digital-Logic/Sequential Circuits/D Flip Flop.md"
-    },
-    {
       "basename": "Guidelines to GATE-CS",
       "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "D Flip Flop",
+      "path": "GATE/Digital-Logic/Sequential Circuits/D Flip Flop.md"
     },
     {
       "basename": "Digital-Logic-Mindmap",
