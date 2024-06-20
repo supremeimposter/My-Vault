@@ -70,7 +70,7 @@ A cube in a k-map is a group of $2^m$ ($m \ge 0$) cells such that every cell is 
 
 One product term covers $2^m$ minterms, where $m$ is the number of variables missing in the product term.
 
-![[Minimization using K Map-20240520103520956.webp|On expanding a product term, we get $2^m$ minterms]]
+![[Minimization using K Map-20240520103520956.webp]]
 
 ![[Minimization using K Map-20240520103749005.webp]]
 
@@ -94,8 +94,8 @@ Product term or Sum term contains $(n-m)$ literals since those variables that ch
 
 ![[Minimization using K Map-20240620185644249.webp]]
 
-If we take the smallest cubes of 1( or 0) for SOP (or POS), we will get larger product term (or sum term).
-If we take the largest cubes of 1( or 0) for SOP (or POS), we will get smaller product term (or sum term).
+If we take the smallest cubes of 1 (or 0) for SOP (or POS), we will get larger product term (or sum term).
+If we take the largest cubes of 1 (or 0) for SOP (or POS), we will get smaller product term (or sum term).
 
 > [!tip] 
 > To visualize a boolean expression in a k-map, it is enough to convert the given expression to standard forms and even better if converted to canonical forms.
@@ -133,10 +133,9 @@ $2^m$ cells are used in a cube, so a product term can be created for that cube.
 
 ![[Minimization using K Map-20240520134638525.webp]]
 
-
 > [!example] 
 >> [!attention] 
->>Remember to write 0 as $a$ and 1 as $\overline{a}$
+>>Remember to write 0 as $a$ and 1 as $\overline{a}$ in case of maxterms.
 >
 > ![[Minimization using K Map-20240520143519865.webp]]
 > ![[Minimization using K Map-20240520144021135.webp]]

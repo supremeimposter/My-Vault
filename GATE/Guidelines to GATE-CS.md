@@ -24,5 +24,7 @@ $$
 
 - Find CSOP first and it will be easier to find CPOS i.e. $f = \sum m (f = 1) = \prod M (f = 0)$.
 - To visualize a function in a k-map, firstly convert the given expression to either standard or canonical SOP for better visualization.
+- See if there are any redundant larger cubes after identifying all the cubes in k-maps.
+
 
 ---

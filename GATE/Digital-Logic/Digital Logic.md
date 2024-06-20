@@ -9,6 +9,7 @@ tags:
 # Digital Logic
 
 - [[Digital-Logic-Mindmap.canvas|Digital-Logic-Mindmap]]
+- [[Guidelines to GATE-CS#Guidelines to Digital Logic|Guidelines to Digital Logic]]
 
 ## Module 1 - Boolean Algebra, Minimization of Boolean Functions
 
