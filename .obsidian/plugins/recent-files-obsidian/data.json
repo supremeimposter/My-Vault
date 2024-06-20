@@ -1,24 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Laws of Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
+      "basename": "Minimization using K Map",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
     },
     {
-      "basename": "Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "D Flip Flop",
+      "path": "GATE/Digital-Logic/Sequential Circuits/D Flip Flop.md"
+    },
+    {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
       "basename": "Digital-Logic-Mindmap",
       "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
     },
     {
+      "basename": "Standard and Canonical Forms of Boolean Expressions",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
+    },
+    {
       "basename": "Boolean Function",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
     },
     {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
+      "basename": "Algebraic Simplification of Boolean Functions",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Introduction to COA",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
+    },
+    {
+      "basename": "Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
+    },
+    {
+      "basename": "Functional Completeness",
+      "path": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md"
+    },
+    {
+      "basename": "Laws of Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
     },
     {
       "basename": "Decimal and Binary System",
@@ -35,10 +67,6 @@
     {
       "basename": "Binary System",
       "path": "GATE/Digital-Logic/Number Systems/Binary System.md"
-    },
-    {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
       "basename": "GATE-CS",
@@ -69,10 +97,6 @@
       "path": "GATE/GATE-LOG.md"
     },
     {
-      "basename": "Functional Completeness",
-      "path": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md"
-    },
-    {
       "basename": "Emil Post's Functional Completeness Theorem",
       "path": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md"
     },
@@ -101,10 +125,6 @@
       "path": "GATE/Digital-Logic/Combinational Circuits/Shannons Expansion Theorem.md"
     },
     {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
-    },
-    {
       "basename": "Don't Cares in K Map",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares in K Map.md"
     },
@@ -129,10 +149,6 @@
       "path": "GATE/Digital-Logic/Number Systems/Gray code.md"
     },
     {
-      "basename": "Algebraic Simplification of Boolean Functions",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md"
-    },
-    {
       "basename": "Sign Extension of Unsigned and Signed Numbers",
       "path": "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md"
     },
@@ -151,10 +167,6 @@
     {
       "basename": "Octal and Hexadecimal System",
       "path": "GATE/Digital-Logic/Number Systems/Octal and Hexadecimal System.md"
-    },
-    {
-      "basename": "Minimization using K Map",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
     },
     {
       "basename": "Implicants in K Map",
@@ -177,10 +189,6 @@
       "path": "GATE/ComputerNetworks/Computer Networks.md"
     },
     {
-      "basename": "Standard and Canonical Forms of Boolean Expressions",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
-    },
-    {
       "basename": "Linear Algebra",
       "path": "GATE/Linear-Algebra/Linear Algebra.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Eigen Values and Eigen Vectors",
       "path": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
-    },
-    {
-      "basename": "Introduction to Linear Algebra",
-      "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
-    },
-    {
-      "basename": "LU Decomposition",
-      "path": "GATE/Linear-Algebra/LU Decomposition.md"
     }
   ],
   "omittedPaths": [
