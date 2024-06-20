@@ -73,7 +73,6 @@ A --> C[Sequential Circuits]
 | 0      | The circuit is reset (R)     |
 | 1      | The circuit is set (S)       |
 
-
 - [[Sequential Circuits]]
 - [[Cross Coupled Inverters]]
 - [[Cross Coupled NOR, NAND Gates]]

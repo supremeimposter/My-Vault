@@ -112,7 +112,12 @@ Now {NOT, AND, OR} can be further reduced to either {NOT, AND} or {NOT, OR} sets
 
 > [!intuition] 
 > - In {NOT, OR} functionally complete set, AND operation can be implemented using NOT and OR, so the functionally complete set is further simplified as {NOT, OR}.
+> 
+>> ![[Functional Completeness-20240619122826996.webp]]
+> 
 > - In {NOT, AND} functionally complete set, OR operation can be implemented using NOT and AND, so the functionally complete set is further simplified as {NOT, AND}.
+> 
+>> ![[Functional Completeness-20240619122805477.webp]] 
 
 ---
 ### {NAND}

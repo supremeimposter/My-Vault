@@ -5,13 +5,12 @@ lecture: "4"
 date: 2024-02-18T20:33:00
 version:
   - DL-24
-last-revision: 2024-05-14T17:31:00
-notes-taken: false
+last-revision: 2024-06-19T17:31:00
+notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
 ---
 # Laws of Boolean Algebra
-Laws of Boolean Algebra are similar or isomorphic to [[Discrete Mathematics#Propositional Logic or 0th Order Logic|Propositional Logic]], [[Discrete Mathematics#Set Theory|Set Theory]], [[Discrete Mathematics#Group Theory|Group theory]], [[Types of Lattices#Boolean Lattice or Boolean Algebra|Boolean Lattice]].
 
 > [!tip] 
 > By-case method can be used to prove or disprove certain laws. It is similar to [[Compact Truth Table Representation|compact truth table]].
@@ -137,6 +136,7 @@ $$
 ![[Laws of Boolean Algebra-20240618224317959.webp]]
 
 ## Removal of Redundancies
+Let $\alpha, \beta, \gamma$ be any boolean expressions,
 
 ### Absorption Law
 $$
@@ -168,7 +168,10 @@ Cancellation laws **do not hold** in Boolean Algebra.
 ![[Laws of Boolean Algebra-20240518100228421.webp]]
 
 There may be some functions which do hold for cancellation laws. e.g. converses of the above laws.
+
 ![[Laws of Boolean Algebra-20240528134424642.webp]]
+
+![[Laws of Boolean Algebra-20240619121332830.webp]]
 
 > [!example] 
 >> In this example, it is given that $a=1$,
@@ -179,8 +182,14 @@ There may be some functions which do hold for cancellation laws. e.g. converses 
 >![[Laws of Boolean Algebra-20240528134707700.webp]]
 
 > [!summary] 
-> ![[Laws of Boolean Algebra-20240517163430314.webp]]
 
-Boolean algebraic laws are given in pairs to show that algebra satisfies a [[Boolean Function#Complement and Dual of Boolean Functions|duality]]
+![[Laws of Boolean Algebra-20240517163430314.webp]]
+
+Boolean algebraic laws are given in pairs to show that boolean algebra satisfies a duality.
+
+![[Laws of Boolean Algebra-20240218225050396.webp]]
+![[Laws of Boolean Algebra-20240603120312263.webp]]
+
+Laws of Boolean Algebra are similar or isomorphic to [[Discrete Mathematics#Propositional Logic or 0th Order Logic|Propositional Logic]], [[Discrete Mathematics#Set Theory|Set Theory]], [[Discrete Mathematics#Group Theory|Group theory]], [[Types of Lattices#Boolean Lattice or Boolean Algebra|Boolean Lattice]].
 
 ---

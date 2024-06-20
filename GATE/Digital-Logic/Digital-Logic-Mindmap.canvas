@@ -3,110 +3,20 @@
     {
       "id": "29fb850df294c7c8",
       "type": "group",
-      "x": -1560,
+      "x": -1540,
       "y": -1000,
-      "width": 1760,
-      "height": 1616,
+      "width": 1840,
+      "height": 1760,
       "label": "Equivalent forms of an expression"
     },
     {
-      "id": "784a184d5348609e",
+      "id": "86d18244a4d80e8a",
       "type": "text",
-      "text": "Representation of **Signed Binary** Numbers",
-      "x": 2559,
-      "y": -4440,
-      "width": 260,
-      "height": 99
-    },
-    {
-      "id": "93948d236faca82a",
-      "type": "text",
-      "text": "Overflow",
-      "x": 2272,
-      "y": -4240,
+      "text": "Combinational Circuits",
+      "x": 3216,
+      "y": -2415,
       "width": 260,
       "height": 60
-    },
-    {
-      "id": "c952b0d6c31250e1",
-      "type": "text",
-      "text": "**Signed Binary Numbers**",
-      "x": 2719,
-      "y": -4210,
-      "width": 323,
-      "height": 50
-    },
-    {
-      "id": "b134e1841641cce9",
-      "type": "text",
-      "text": "Sign-Magnitude",
-      "x": 2370,
-      "y": -4668,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "9fdca09c7473f1b4",
-      "type": "text",
-      "text": "1s complement",
-      "x": 2662,
-      "y": -4800,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "224561fce4a32fd3",
-      "type": "text",
-      "text": "You cannot be sure that the simplified expression is the minimal and also it does not have a standard systematic way to arrive at the minimal solution, so that's why we need k-maps",
-      "x": -1835,
-      "y": -2742,
-      "width": 413,
-      "height": 187
-    },
-    {
-      "id": "e947516bcc7b661a",
-      "type": "text",
-      "text": "Algebraic Simplification",
-      "x": -1778,
-      "y": -2342,
-      "width": 300,
-      "height": 50
-    },
-    {
-      "id": "3672d2f169cc2e8a",
-      "type": "text",
-      "text": "**Main idea of k-map**\n\nThe canonical SOP contains the minterms where the function is 1.\n\nVisualizing it on the k-map helps us to select the minterms to reduce to get the minimized SOP expression.",
-      "x": -1615,
-      "y": -3402,
-      "width": 417,
-      "height": 220
-    },
-    {
-      "id": "660c58cb2b4c4e1a",
-      "type": "text",
-      "text": "**Minimum SOP**\nTo get the minimal SOP, we need to large cubes of 1's, since mSOP is the sum of minterms for which the function value is 1",
-      "x": -1155,
-      "y": -3042,
-      "width": 360,
-      "height": 159
-    },
-    {
-      "id": "0ff9fe51ab0050b0",
-      "type": "text",
-      "text": "Minimization of Boolean Expression",
-      "x": -1083,
-      "y": -2102,
-      "width": 260,
-      "height": 80
-    },
-    {
-      "id": "1961ccb1881ed0e1",
-      "type": "text",
-      "text": "**Complement**\nTo perform subtraction easier and with less digital circuits, complementation operation is used",
-      "x": 2662,
-      "y": -3884,
-      "width": 260,
-      "height": 214
     },
     {
       "id": "f261b401c957d875",
@@ -119,22 +29,40 @@
       "color": "3"
     },
     {
-      "id": "60f0b88283b55813",
+      "id": "1961ccb1881ed0e1",
       "type": "text",
-      "text": "Digital Circuits",
-      "x": 2110,
-      "y": -1369,
+      "text": "**Complement**\nTo perform subtraction easier and with less digital circuits, complementation operation is used",
+      "x": 2662,
+      "y": -3884,
+      "width": 260,
+      "height": 214
+    },
+    {
+      "id": "c952b0d6c31250e1",
+      "type": "text",
+      "text": "**Signed Binary Numbers**",
+      "x": 2719,
+      "y": -4210,
+      "width": 323,
+      "height": 50
+    },
+    {
+      "id": "93948d236faca82a",
+      "type": "text",
+      "text": "Overflow",
+      "x": 2272,
+      "y": -4240,
       "width": 260,
       "height": 60
     },
     {
-      "id": "86d18244a4d80e8a",
+      "id": "784a184d5348609e",
       "type": "text",
-      "text": "Combinational Circuits",
-      "x": 3216,
-      "y": -2415,
+      "text": "Representation of **Signed Binary** Numbers",
+      "x": 2559,
+      "y": -4440,
       "width": 260,
-      "height": 60
+      "height": 99
     },
     {
       "id": "15bcc940d77942d0",
@@ -173,40 +101,13 @@
       "height": 90
     },
     {
-      "id": "5c1d143ce9c5cf00",
+      "id": "b134e1841641cce9",
       "type": "text",
-      "text": "**Implicants**\n\nImplicants have e ",
-      "x": 165,
-      "y": -3382,
-      "width": 384,
-      "height": 207
-    },
-    {
-      "id": "a20e58783c3f63d8",
-      "type": "text",
-      "text": "mPOS and mSOP are not unique expressions for a function",
-      "x": -815,
-      "y": -3342,
-      "width": 358,
-      "height": 80
-    },
-    {
-      "id": "e4afd210e1cae585",
-      "type": "text",
-      "text": "K-Maps",
-      "x": -755,
-      "y": -2442,
+      "text": "Sign-Magnitude",
+      "x": 2370,
+      "y": -4668,
       "width": 260,
-      "height": 50
-    },
-    {
-      "id": "a3f6e668f4ad25d1",
-      "type": "text",
-      "text": "**Minimum POS**\nTo get the minimal POS, we need to large cubes of 0's, since mPOS is the product of maxterms for which the function value is 0",
-      "x": -485,
-      "y": -3042,
-      "width": 360,
-      "height": 159
+      "height": 60
     },
     {
       "id": "5ddae190658120d5",
@@ -225,6 +126,15 @@
       "y": -4800,
       "width": 364,
       "height": 100
+    },
+    {
+      "id": "9fdca09c7473f1b4",
+      "type": "text",
+      "text": "1s complement",
+      "x": 2662,
+      "y": -4800,
+      "width": 260,
+      "height": 60
     },
     {
       "id": "2e412a945ca0a4b0",
@@ -281,34 +191,33 @@
       "height": 688
     },
     {
-      "id": "fb4e853ef9f1fd19",
+      "id": "695f8fcd69a7bf12",
       "type": "text",
-      "text": "When a function $F$ is complemented, then it is a different function. $\\overline{F}$ has different standard and canonical forms.",
-      "x": -160,
-      "y": -1180,
-      "width": 460,
-      "height": 120,
-      "color": "6"
+      "text": "**Realization of a given function**\n\nDigital circuits can realize a given function in form of an expression. Function realization means implementing the given function.\n\nThere can be some digital circuits that have multiple outputs, but for realizing a function, there must be only one output.",
+      "x": 1400,
+      "y": -1369,
+      "width": 442,
+      "height": 269
     },
     {
-      "id": "00b8b156e600380a",
+      "id": "816b5b2909982414",
       "type": "text",
-      "text": "The same boolean expression can be expressed in many ways. \n$$\n\\begin{split}\nE &= a \\\\\n&= a + aa \\\\\n&= aaaa \\\\\n&= a + aa + aaaaa \\\\\n&= aa \\\\\n&= a + a\n\\end{split}\n$$\nBut we may want a standard and unique form to express a particular boolean expression",
-      "x": -740,
-      "y": -980,
-      "width": 403,
-      "height": 360
+      "text": "**Digital Logic**",
+      "shape": "predefined-process",
+      "x": 1200,
+      "y": -1840,
+      "width": 250,
+      "height": 140,
+      "color": "1"
     },
     {
-      "id": "b66ba5c61f5a08ed",
+      "id": "60f0b88283b55813",
       "type": "text",
-      "text": "**Boolean Expression**\n",
-      "isStartNode": false,
-      "x": -408,
-      "y": -1480,
+      "text": "Digital Circuits",
+      "x": 2110,
+      "y": -1369,
       "width": 260,
-      "height": 100,
-      "color": "5"
+      "height": 60
     },
     {
       "id": "9227413afe6efd0d",
@@ -317,16 +226,8 @@
       "x": -980,
       "y": -432,
       "width": 260,
-      "height": 60
-    },
-    {
-      "id": "148952cc2c24a06c",
-      "type": "text",
-      "text": "There can be infinitely many standard forms for an expression",
-      "x": -1540,
-      "y": -372,
-      "width": 366,
-      "height": 91
+      "height": 60,
+      "color": "2"
     },
     {
       "id": "ad030c7659a584d9",
@@ -335,22 +236,14 @@
       "x": -370,
       "y": -340,
       "width": 260,
-      "height": 160
+      "height": 120,
+      "color": "2"
     },
     {
       "id": "49777b66628319e1",
       "type": "text",
       "text": "**Product of Sums**\nLogical AND of sum terms",
       "x": -700,
-      "y": -180,
-      "width": 260,
-      "height": 118
-    },
-    {
-      "id": "c64c17882b00e854",
-      "type": "text",
-      "text": "**Sum of Products**\nLogical OR of product terms",
-      "x": -1220,
       "y": -180,
       "width": 260,
       "height": 118
@@ -365,15 +258,6 @@
       "height": 240
     },
     {
-      "id": "68ddf72b57edf565",
-      "type": "text",
-      "text": "**Product Term**\nLogical AND of literals",
-      "x": -1460,
-      "y": 60,
-      "width": 337,
-      "height": 81
-    },
-    {
       "id": "24851078ccd429d1",
       "type": "text",
       "text": "**Canonical POS**\n\nLogical AND of those maxterms for which the function value is 0\n\nCanonical POS is the product of maxterms",
@@ -383,60 +267,97 @@
       "height": 240
     },
     {
-      "id": "9f75c7d1644c7108",
+      "id": "6af977daf3214ad8",
       "type": "text",
-      "text": "**Minterm**\nA product term which contains every variable in either complemented or non-complemented form exactly once.",
-      "x": -1420,
-      "y": 332,
-      "width": 480,
-      "height": 160
+      "text": "**Maxterm**\nA sum term which contains every variable in either complemented or non-complemented form exactly once.",
+      "x": -1152,
+      "y": 300,
+      "width": 444,
+      "height": 144
     },
     {
-      "id": "f7a07e2f0abb66a5",
+      "id": "388b7e637cfc83dd",
       "type": "text",
-      "text": "**Minterms of a Function**\nWhen the value of a function $F$ is 1 for a particular input combination, then the minterm associated with that input combination is a minterm of the function $F$.",
-      "x": -714,
-      "y": 412,
-      "width": 458,
-      "height": 184
+      "text": "$f = \\sum m (f = 1) = \\prod M (f = 0)$\n",
+      "x": -40,
+      "y": -180,
+      "width": 300,
+      "height": 59
     },
     {
       "id": "8835d8b646508aeb",
       "type": "text",
-      "text": "k-map gives the minimal expression from the canonical form",
-      "x": 480,
-      "y": -653,
+      "text": "k-map gives the minimal standard from the canonical form",
+      "x": 400,
+      "y": -620,
       "width": 365,
       "height": 67
     },
     {
-      "id": "816b5b2909982414",
+      "id": "00b8b156e600380a",
       "type": "text",
-      "text": "**Digital Logic**",
-      "shape": "predefined-process",
-      "x": 1200,
-      "y": -1840,
-      "width": 250,
-      "height": 140,
-      "color": "1"
+      "text": "A boolean expression can be expressed in many ways. \n$$\n\\begin{split}\nE &= a \\\\\n&= a + aa \\\\\n&= aaaa \\\\\n&= a + aa + aaaaa \\\\\n&= aa \\\\\n&= a + 0\n\\end{split}\n$$\nBut we want a standard and unique form to express a particular boolean expression in a minimized and standard form",
+      "x": -740,
+      "y": -980,
+      "width": 403,
+      "height": 360
     },
     {
-      "id": "695f8fcd69a7bf12",
+      "id": "fb4e853ef9f1fd19",
       "type": "text",
-      "text": "**Realization of a given function**\n\nDigital circuits can realize a given function.\n\nFunction realization means implementing the given function.\n\nThere can be some digital circuits that have multiple outputs, but for realizing a function, there must be only one output.",
-      "x": 1400,
-      "y": -1369,
-      "width": 442,
-      "height": 350
+      "text": "When a function $F$ is complemented, then it is a different function. $\\overline{F}$ has different standard and canonical forms.",
+      "x": -100,
+      "y": -920,
+      "width": 460,
+      "height": 120,
+      "color": "6"
+    },
+    {
+      "id": "b66ba5c61f5a08ed",
+      "type": "text",
+      "text": "**Boolean Expression**\n",
+      "isStartNode": false,
+      "x": -408,
+      "y": -1430,
+      "width": 260,
+      "height": 50,
+      "color": "5"
     },
     {
       "id": "1d00e7fb78b9f11a",
       "type": "text",
-      "text": "**Boolean Expression**\nset of literals connected by logical connectives\n\n**Boolean Equation**\nexpression1 = expression2\n\n**Boolean function**\nA boolean equation on several variables.\n\n",
+      "text": "**Boolean Expression**\nset of literals connected by logical connectives\n\n**Boolean Equation**\nexpression1 = expression2\n\n**Boolean function**\nA boolean equation on several variables, where LHS is defined by RHS\n\n",
       "x": 320,
-      "y": -2240,
+      "y": -2120,
       "width": 378,
-      "height": 320
+      "height": 280
+    },
+    {
+      "id": "5379461ceb4f853e",
+      "type": "text",
+      "text": "Representation of Boolean Expressions/Functions",
+      "x": -1000,
+      "y": -1469,
+      "width": 297,
+      "height": 79
+    },
+    {
+      "id": "0ff9fe51ab0050b0",
+      "type": "text",
+      "text": "**Minimization of Boolean Expression**\n\nEquivalent expression with minimal literal count and minimal logic gates",
+      "x": -1083,
+      "y": -2102,
+      "width": 283,
+      "height": 182
+    },
+    {
+      "id": "e4afd210e1cae585",
+      "type": "text",
+      "text": "K-Maps",
+      "x": -755,
+      "y": -2442,
+      "width": 260,
+      "height": 50
     },
     {
       "id": "a39ea932756edd12",
@@ -446,6 +367,160 @@
       "y": -2742,
       "width": 470,
       "height": 245
+    },
+    {
+      "id": "660c58cb2b4c4e1a",
+      "type": "text",
+      "text": "**Minimum SOP**\nTo get the minimal SOP, we need to large cubes of 1's, since mSOP is the sum of minterms for which the function value is 1",
+      "x": -1155,
+      "y": -3042,
+      "width": 360,
+      "height": 159
+    },
+    {
+      "id": "a3f6e668f4ad25d1",
+      "type": "text",
+      "text": "**Minimum POS**\nTo get the minimal POS, we need to large cubes of 0's, since mPOS is the product of maxterms for which the function value is 0",
+      "x": -485,
+      "y": -3042,
+      "width": 360,
+      "height": 159
+    },
+    {
+      "id": "5c1d143ce9c5cf00",
+      "type": "text",
+      "text": "**Implicants**\n\nImplicants have e ",
+      "x": 165,
+      "y": -3382,
+      "width": 384,
+      "height": 207
+    },
+    {
+      "id": "a20e58783c3f63d8",
+      "type": "text",
+      "text": "mPOS and mSOP are not unique expressions for a function",
+      "x": -815,
+      "y": -3342,
+      "width": 358,
+      "height": 80
+    },
+    {
+      "id": "3672d2f169cc2e8a",
+      "type": "text",
+      "text": "**Main idea of k-map**\n\nThe canonical SOP contains the minterms where the function is 1.\n\nVisualizing it on the k-map helps us to select the minterms to reduce to a product term and get the minimized SOP expression.",
+      "x": -1615,
+      "y": -3420,
+      "width": 417,
+      "height": 238,
+      "color": "6"
+    },
+    {
+      "id": "224561fce4a32fd3",
+      "type": "text",
+      "text": "You cannot be sure that the simplified expression is the minimal and also it does not have a standard systematic way to arrive at the minimal solution, so that's why we need k-maps",
+      "x": -1835,
+      "y": -2742,
+      "width": 413,
+      "height": 187
+    },
+    {
+      "id": "e947516bcc7b661a",
+      "type": "text",
+      "text": "**Algebraic Simplification**\nApply boolean algebraic laws in a systematic way to obtain the minimized equivalent expression",
+      "x": -1780,
+      "y": -2460,
+      "width": 302,
+      "height": 168
+    },
+    {
+      "id": "fb197c409829bcee",
+      "type": "text",
+      "text": "**Truth Table**\n\nRepresents each input combintaion to the function and the value obtained by that input combination.\n\nStandard Truth table has an agreed order of input combinations - decimal values",
+      "x": -1760,
+      "y": -1360,
+      "width": 460,
+      "height": 260
+    },
+    {
+      "id": "148952cc2c24a06c",
+      "type": "text",
+      "text": "There can be infinitely many standard forms for an expression",
+      "x": -1460,
+      "y": -417,
+      "width": 366,
+      "height": 91
+    },
+    {
+      "id": "c64c17882b00e854",
+      "type": "text",
+      "text": "**Sum of Products**\nLogical OR of product terms",
+      "x": -1220,
+      "y": -180,
+      "width": 260,
+      "height": 118
+    },
+    {
+      "id": "68ddf72b57edf565",
+      "type": "text",
+      "text": "**Product Term**\nLogical AND of literals",
+      "x": -1460,
+      "y": 60,
+      "width": 240,
+      "height": 81
+    },
+    {
+      "id": "3f9d30c4c7754ef9",
+      "type": "text",
+      "text": "**Sum Term**\nLogical OR of literals",
+      "x": -1041,
+      "y": 55,
+      "width": 221,
+      "height": 86
+    },
+    {
+      "id": "4c6774cc58168fea",
+      "type": "text",
+      "text": "Each input combination has a minterm and maxterm associated to it.",
+      "x": -2060,
+      "y": 101,
+      "width": 378,
+      "height": 96
+    },
+    {
+      "id": "5a2ed7b815e02199",
+      "type": "text",
+      "text": "Only one input combination is given to a function at a time. Truth table just lists out the possible input combintations and the result of those input combination on that function.",
+      "x": -2500,
+      "y": -1140,
+      "width": 388,
+      "height": 180
+    },
+    {
+      "id": "f7a07e2f0abb66a5",
+      "type": "text",
+      "text": "**Minterms of a Function**\nWhen the value of a function $F$ is 1 for a particular input combination, then the minterm associated with that input combination is a minterm of the function $F$ i.e. True minterms",
+      "x": -714,
+      "y": 540,
+      "width": 458,
+      "height": 184
+    },
+    {
+      "id": "9f75c7d1644c7108",
+      "type": "text",
+      "text": "**Minterm**\nA product term which contains every variable in either complemented or non-complemented form exactly once.",
+      "x": -1521,
+      "y": 552,
+      "width": 480,
+      "height": 160
+    },
+    {
+      "id": "a2b3cdda820a1d58",
+      "type": "text",
+      "text": "**Maxterms of a Function**\nWhen the value of a function $F$ is 0 for a particular input combination, then the maxterm associated with that input combination is a maxterm of the function $F$ i.e. False maxterms",
+      "x": -165,
+      "y": 520,
+      "width": 430,
+      "height": 204
     }
   ],
   "edges": [
@@ -516,7 +591,7 @@
       "toNode": "49777b66628319e1",
       "toSide": "left",
       "toEnd": "none",
-      "label": "complements of \neach other"
+      "label": "equivalent\nexpressions"
     },
     {
       "id": "f7911121833d531b",
@@ -561,13 +636,6 @@
       "fromEnd": "arrow"
     },
     {
-      "id": "62a634eb43473d69",
-      "fromNode": "148952cc2c24a06c",
-      "fromSide": "top",
-      "toNode": "9227413afe6efd0d",
-      "toSide": "left"
-    },
-    {
       "id": "3d79e173c8b7844b",
       "fromNode": "ad030c7659a584d9",
       "fromSide": "left",
@@ -575,14 +643,6 @@
       "toSide": "right",
       "toEnd": "none",
       "label": "Canonical form\nis also a standard \nform"
-    },
-    {
-      "id": "c277d9fe478f193a",
-      "fromNode": "fb4e853ef9f1fd19",
-      "fromSide": "bottom",
-      "toNode": "00b8b156e600380a",
-      "toSide": "right",
-      "color": "6"
     },
     {
       "id": "de1f00c289981cac",
@@ -675,7 +735,7 @@
     {
       "id": "8d825638633bc166",
       "fromNode": "8835d8b646508aeb",
-      "fromSide": "right",
+      "fromSide": "top",
       "toNode": "e4afd210e1cae585",
       "toSide": "right"
     },
@@ -684,7 +744,9 @@
       "fromNode": "660c58cb2b4c4e1a",
       "fromSide": "left",
       "toNode": "3672d2f169cc2e8a",
-      "toSide": "bottom"
+      "toSide": "bottom",
+      "toEnd": "none",
+      "color": "5"
     },
     {
       "id": "771ffb8c41d5c2b3",
@@ -873,6 +935,123 @@
       "fromSide": "left",
       "toNode": "1d00e7fb78b9f11a",
       "toSide": "right"
+    },
+    {
+      "id": "f2456ea0595dbc50",
+      "fromNode": "49777b66628319e1",
+      "fromSide": "bottom",
+      "toNode": "3f9d30c4c7754ef9",
+      "toSide": "top"
+    },
+    {
+      "id": "bb12b042c3de2ac4",
+      "fromNode": "b66ba5c61f5a08ed",
+      "fromSide": "left",
+      "toNode": "5379461ceb4f853e",
+      "toSide": "right"
+    },
+    {
+      "id": "c484044d422151c3",
+      "fromNode": "5379461ceb4f853e",
+      "fromSide": "bottom",
+      "toNode": "fb197c409829bcee",
+      "toSide": "right"
+    },
+    {
+      "id": "477fd85fe5506040",
+      "fromNode": "9f75c7d1644c7108",
+      "fromSide": "left",
+      "toNode": "4c6774cc58168fea",
+      "toSide": "bottom",
+      "toEnd": "none"
+    },
+    {
+      "id": "0102915fe695ff0d",
+      "fromNode": "4c6774cc58168fea",
+      "fromSide": "top",
+      "toNode": "fb197c409829bcee",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "99d2d818d256ccd9",
+      "edgeStyle": "dotted",
+      "fromNode": "3f9d30c4c7754ef9",
+      "fromSide": "bottom",
+      "toNode": "6af977daf3214ad8",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "593e61585291371b",
+      "fromNode": "6af977daf3214ad8",
+      "fromSide": "left",
+      "toNode": "4c6774cc58168fea",
+      "toSide": "bottom",
+      "toEnd": "none"
+    },
+    {
+      "id": "fdc55d1e2b52970e",
+      "fromNode": "24851078ccd429d1",
+      "fromSide": "bottom",
+      "toNode": "a2b3cdda820a1d58",
+      "toSide": "top",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "353db76591a8a696",
+      "edgeStyle": "long-dashed",
+      "fromNode": "6af977daf3214ad8",
+      "fromSide": "right",
+      "toNode": "a2b3cdda820a1d58",
+      "toSide": "left",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "0df983a9aceb5582",
+      "edgeStyle": "dotted",
+      "fromNode": "695f8fcd69a7bf12",
+      "fromSide": "left",
+      "toNode": "b66ba5c61f5a08ed",
+      "toSide": "right",
+      "toEnd": "none"
+    },
+    {
+      "id": "898da431a6270b47",
+      "fromNode": "148952cc2c24a06c",
+      "fromSide": "right",
+      "toNode": "9227413afe6efd0d",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "5d416a39dad3cd1e",
+      "fromNode": "00b8b156e600380a",
+      "fromSide": "right",
+      "toNode": "fb4e853ef9f1fd19",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "db00920834c2b58e",
+      "fromNode": "fb197c409829bcee",
+      "fromSide": "left",
+      "toNode": "5a2ed7b815e02199",
+      "toSide": "right"
+    },
+    {
+      "id": "19590a73c38739bf",
+      "fromNode": "ad030c7659a584d9",
+      "fromSide": "right",
+      "toNode": "388b7e637cfc83dd",
+      "toSide": "top"
+    },
+    {
+      "id": "44976111dae925af",
+      "fromNode": "5379461ceb4f853e",
+      "fromSide": "top",
+      "toNode": "e4afd210e1cae585",
+      "toSide": "bottom"
     }
   ],
   "metadata": {}

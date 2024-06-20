@@ -5,18 +5,20 @@ lecture:
 date: 2024-02-18T14:38:00
 version:
   - DL-24
-last-revision: 
+last-revision: 2024-06-19T16:56:00
 notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
 ---
 # Algebraic Simplification of Boolean Functions
+
 A simplified equivalent boolean expression means smaller logical circuit with minimum number of gates i.e. reduced literal count.
+
 ````col
 ```col-md
 flexGrow=1
 ===
-![[Algebraic Simplification of Boolean Functions-20240518092735235.webp]]
+![[Algebraic Simplification of Boolean Functions-20240619120325155.webp]]
 ```
 ```col-md
 flexGrow=1
@@ -39,14 +41,15 @@ flexGrow=1
 ## Consensus
 ![[Algebraic Simplification of Boolean Functions-20240517204231643.webp]]
 
-# Examples
+# Examples on Algebraic Simplification
 > [!pdf] mod-1/lec-04D.pdf
 
-> [!example] By-case method can be used to solve boolean equation
+> [!example] By-case method can be used to solve boolean equations
 > ![[Algebraic Simplification of Boolean Functions-20240518095814815.webp]]
 
 ---
 # Disadvantages of Algebraic Simplification
+
 1. The procedures are difficult to apply in a systematic manner.
 2. It is difficult to tell whether the arrived expression is the minimum solution. It depends on the order in which the terms are combined or eliminated.
 

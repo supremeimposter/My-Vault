@@ -34,10 +34,13 @@ f_1^d &= f_2^d \\ \\
 \end{split}
 $$
 
+## Different number of  Boolean Functions over $n$ variables
 
-## Different number of  Boolean Functions for $n$ variables
+> [!header] Function over 0 variable 
 
-If there are no boolean variables in a boolean function $f_{1}$, then the function $f_{1}$ can be either $f_{1} = 0$ or $f_{1} = 1$ i.e. constant boolean functions.
+If there are no boolean variables in a boolean function $f_{1}$, then the $f_{1}$ can be either $f_{1} = 0$ or $f_{1} = 1$ i.e. constant boolean functions.
+
+> [!header] Function over 1 variable 
 
 If there is only one boolean variable in a boolean function $f_{2}$, then the function $f_{2}$ can be any of the below,
 $$
@@ -50,17 +53,23 @@ f_{2}\; (a) &= 1 \\
 $$
 There are $2^{(2^1)} = 2^2$ different boolean functions over $1$ variable.
 
-> [!NOTE]
-> Constant boolean functions `0` and `1` always occur no matter how many variables are there in a boolean function.
+> [!header] Function over 2 variables 
 
 If there are $2$ boolean variables in a boolean function $f_{3}$, then there are 16 different boolean functions.
-![[Boolean Function-20240518120519372.webp]]
 
-If there are $k$ boolean variables in a boolean function $f$, then there are $2^{(2^k)}$ different boolean functions.
-Each of the $2^n$ different input combinations have only two choices i.e. 0 or 1.
+![[Boolean Function-20240518120519372.webp]]
+![[Boolean Function-20240619184627058.webp]]
+
+> [!header] Function over $n$ variables 
+
+If there are $n$ boolean variables in a boolean function $f$, then there are $2^{(2^n)}$ different boolean functions.
+Each of the $2^n$ different input combinations has only two choices i.e. 0 or 1.
 
 ![[Boolean Function-20240518105525322.webp]]
 ![[Boolean Function-20240518105549538.webp]]
+
+> [!observation] 
+> Constant boolean functions `0` and `1` always occur no matter how many variables are there in a boolean function.
 
 ---
 ## Relationship between Complement and Dual of Boolean Functions
@@ -76,35 +85,42 @@ Each of the $2^n$ different input combinations have only two choices i.e. 0 or 1
 ![[Laws of Boolean Algebra-20240218225050396.webp]]
 ![[Laws of Boolean Algebra-20240603120312263.webp]]
 
-For any boolean function $f(a, b)$,
-$$
-{(f^d\;(a, b))}^d = f(a, b)
-$$
+![[Boolean Function-20240527115918673.webp]]
 
-For any boolean function $f(a, b)$, where $a$ and $b$ are the inputs to the function,
+![[Boolean Function-20240527115933381.webp]]
+
+> [!think] 
+> For any boolean function, its dual and complement only varies by the literals.
+
+For any boolean function $f(a, b)$, where $a$ and $b$ are the inputs to the function, then
 $$f^d(a, b) = \overline{f}\;(\overline{a}, \overline{b})$$
+or it can put it this way,
 $$\overline{f}(a, b) = f^d\;(\overline{a}, \overline{b})$$
 
-````col
-```col-md
-flexGrow=1
-===
-![[Boolean Function-20240527115918673.webp]]
-```
-```col-md
-flexGrow=1
-===
-![[Boolean Function-20240527115933381.webp]]
-```
-````
+> [!example] 
+> ![[Boolean Function-20240619101843355.webp]]
+> ![[Boolean Function-20240517195518874.webp]]
+
+For a function $f$, the complement $\overline{f}$ and the dual $f^d$ are functions themselves.
+
+To find the dual of a function $F$ from a truth table (assuming the table is in standard order), reverse the order of the complement of the function $\overline{F}$ to find out the dual of the function $F^d$.
+
 ![[Boolean Function-20240527121420948.webp]]
 
 > [!example] 
-> ![[Boolean Function-20240527115740515.webp]]
-> ![[Boolean Function-20240517195518874.webp]]
+> ![[Boolean Function-20240527175758734.webp]]
 
-To find the dual of a function $F$ from a truth table (assuming the table is in standard order), reverse the order of the complement of the function $\overline{F}$ to find out the dual of the function $F^d$.
-![[Boolean Function-20240527175758734.webp]]
+For a function $F$ over $n$ variables, 
+$$
+f^d\;(t) = \overline{f} \;(\;(2^n - 1) - t)
+$$
+where $t$ is a decimal value, $0 \leq t \leq (2^n - 1)$ 
+
+If $f(t) = 1$, then $\overline{f}\;(t) = 0$ which means $f^d\;(\;(2^n - 1) - t) = 0$.
+
+> [!example] 
+> ![[Boolean Function-20240527193041878.webp]]
+> ![[Boolean Function-20240527194819374.webp]]
 
 Functions which has the literal count of 1 such as $f(a) = a$, dual is same as the function.
 $$
@@ -115,25 +131,13 @@ f^d(a) & = a \\
 \end{split}
 $$
 It is never possible for a boolean function to be equal to its complement i.e. $f \not= \overline{f}$ 
-For a function $f$, the complement $\overline{f}$ and the dual $f^d$ are functions themselves.
 
 There are some functions $f$ for which $\overline{f} = f^d$.
+
 > [!example] 
 > 1. $f = 0$
 > 2. $f = 1$
 > 3. $f = a \oplus b$
-
-For a function $F$ over $n$ variables, 
-$$
-f^d\;(t) = \overline{f} \;(\;(2^n - 1) - t)
-$$
-where $t$ is a decimal value such that $0 \leq t \lt 2^n$.
-
-If $f(t) = 1$, then $\overline{f}\;(t) = 0$ which means $f^d\;(\;(2^n - 1) - t) = 0$.
-
-> [!example] 
-> ![[Boolean Function-20240527193041878.webp]]
-> ![[Boolean Function-20240527194819374.webp]]
 
 ---
 ## Special Types of Boolean Functions
@@ -250,10 +254,15 @@ $$
 ---
 ## Minimization of Boolean Functions
 
+Boolean functions can be minimized to its equivalent boolean expressions, leading to reduced literal count and minimal number of gates.
+
 ```mermaid
 flowchart TD
 	A[Minimization Techniques] --> B[Algebraic Simplification]
 	A --> C[K-maps]
 ```
+
+1. [[Algebraic Simplification of Boolean Functions|Algebraic Simplification]]
+2. [[Minimization using K Map|K-maps]]
 
 ---

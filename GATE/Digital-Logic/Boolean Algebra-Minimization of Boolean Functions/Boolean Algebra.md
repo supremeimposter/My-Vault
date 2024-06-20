@@ -82,7 +82,7 @@ A boolean expression is a set of literals (possibly repeats) combined with logic
 > 
 > On application of inputs to the variables $a, b$, the resultant value of the function is either $0$ or $1$.
 
-> [!note] Precedence of Operators 
+> [!note] Precedence of Operators for evaluating boolean expressions
 > () > NOT > AND > OR
 > 
 > ![[Boolean Algebra-20240514125110263.webp]]
@@ -180,6 +180,11 @@ ExNOR is same as [[Bi-Implication|Bi-implication]] i.e. $a ⊙ b \equiv a \leftr
 > Every logic gate except OR gate can have multiple inputs.
 > 
 > ![[Boolean Algebra-20240618200620635.webp]]
+
+> [!foreshadow] 
+> Standard operations can be represented using NOT, AND, OR
+> 
+> ![[Boolean Algebra-20240619122550624.webp]]
 
 ---
 
