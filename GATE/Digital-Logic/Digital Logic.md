@@ -21,8 +21,8 @@ tags:
 - [[Algebraic Simplification of Boolean Functions]]
 - [[Standard and Canonical Forms of Boolean Expressions]]
 - [[Minimization using K Map]]
-- [[Don't Cares in K Map]]
-- [[Implicants in K Map]]
+- [[Don't Cares and Covering Functions]]
+- [[Implicants of a Boolean Function]]
 
 > [!youtube] 
 > [Digital Logic: Standard Questions Session 1 - Boolean Algebra | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=IvywHr5Oc00)

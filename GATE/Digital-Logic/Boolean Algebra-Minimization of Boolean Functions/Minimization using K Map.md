@@ -5,7 +5,7 @@ lecture: "6"
 date: 2024-02-21T13:39:00
 version:
   - TOC-24
-last-revision: 
+last-revision: 2024-06-21T10:27:00
 notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
@@ -119,6 +119,8 @@ $2^m$ cells are used in a cube, so a product term can be created for that cube.
 > ![[Minimization using K Map-20240520134218400.webp]]
 
 > [!attention] 
+> The largest cube is not always possible in mSOP or mPOS. Keep looking for such redundant largest cubes after finishing the k-map.
+> 
 > ![[Minimization using K Map-20240520133916609.webp]]
 
 ## Minimized POS
@@ -140,11 +142,13 @@ $2^m$ cells are used in a cube, so a product term can be created for that cube.
 > ![[Minimization using K Map-20240520143519865.webp]]
 > ![[Minimization using K Map-20240520144021135.webp]]
 
-If a minimized SOP of an expression $F$ is not unique, then it is not necessarily true that the minimized POS of $F$ is also not unique.
-
-The largest cube is not always possible in mSOP or mPOS.
+If a minimized SOP of an expression $E$ is not unique, then it is not necessarily true that the minimized POS of $E$ is also not unique.
+If there are $p$ minimized SOP expressions for an expression $G$, then is it not necessarily true that there are $p$ minimized POS expressions for $G$. 
+If the minimized SOP expression has $r$ literals for an expression $J$, then it is not necessarily true that there minimized POS expression of the same expression $J$ has $r$ literals.
 
 ## Canonical Forms using K Map
+
+K-maps can be used to obtain any SOP (or POS) expression or canonical expressions or minimized standard expressions.
 
 For canonical SOP, take every singe cell which is 1 as a cube and add the minterms.
 
