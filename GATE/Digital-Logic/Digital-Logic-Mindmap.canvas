@@ -11,11 +11,11 @@
     },
     {
       "id": "e8f55b5644837dd5",
+      "type": "group",
       "x": -1855,
       "y": -3360,
       "width": 2015,
       "height": 1160,
-      "type": "group",
       "label": "Simplification and Minimization of Boolean Expressions"
     },
     {
@@ -100,16 +100,6 @@
       "height": 91
     },
     {
-      "id": "9227413afe6efd0d",
-      "type": "text",
-      "text": "Standard Form of an Expression",
-      "x": -712,
-      "y": -520,
-      "width": 348,
-      "height": 60,
-      "color": "2"
-    },
-    {
       "id": "79648b98413b3e27",
       "type": "text",
       "text": "Not unique forms",
@@ -117,139 +107,6 @@
       "y": -310,
       "width": 208,
       "height": 60
-    },
-    {
-      "id": "ad030c7659a584d9",
-      "type": "text",
-      "text": "**Canonical Form**\nThese two forms are from a function's perspective",
-      "x": -360,
-      "y": -182,
-      "width": 260,
-      "height": 120,
-      "color": "2"
-    },
-    {
-      "id": "2ea1e24a42383cf3",
-      "type": "text",
-      "text": "Unique forms",
-      "x": -320,
-      "y": -305,
-      "width": 180,
-      "height": 50
-    },
-    {
-      "id": "24851078ccd429d1",
-      "type": "text",
-      "text": "**Canonical POS**\n\nLogical AND of those maxterms for which the function value is 0\n\nCanonical POS is the product of maxterms",
-      "x": -80,
-      "y": 60,
-      "width": 260,
-      "height": 240
-    },
-    {
-      "id": "00b8b156e600380a",
-      "type": "text",
-      "text": "A boolean expression can be expressed in many ways. \n$$\n\\begin{split}\nE &= a \\\\\n&= a + aa \\\\\n&= aaaa \\\\\n&= a + aa + aaaaa \\\\\n&= aa \\\\\n&= a + 0\n\\end{split}\n$$\nBut we want a standard and unique form to express a particular boolean expression in a minimized and standard form",
-      "x": -740,
-      "y": -980,
-      "width": 403,
-      "height": 360
-    },
-    {
-      "id": "388b7e637cfc83dd",
-      "type": "text",
-      "text": "$f = \\sum m (f = 1) = \\prod M (f = 0)$\n",
-      "x": -140,
-      "y": -682,
-      "width": 300,
-      "height": 59
-    },
-    {
-      "id": "fb4e853ef9f1fd19",
-      "type": "text",
-      "text": "When a function $F$ is complemented, then it is a different function. $\\overline{F}$ has different standard and canonical forms.",
-      "x": -100,
-      "y": -920,
-      "width": 460,
-      "height": 120,
-      "color": "6"
-    },
-    {
-      "id": "1f609347f85dceb8",
-      "type": "text",
-      "text": "If a function is completely specified for every input combination, then it is a total function\n",
-      "x": 577,
-      "y": -1234,
-      "width": 311,
-      "height": 128
-    },
-    {
-      "id": "b66ba5c61f5a08ed",
-      "type": "text",
-      "text": "**Boolean Expression**\n",
-      "isStartNode": false,
-      "x": -408,
-      "y": -1430,
-      "width": 228,
-      "height": 50,
-      "color": "5"
-    },
-    {
-      "id": "1d00e7fb78b9f11a",
-      "type": "text",
-      "text": "**Boolean Expression**\nset of literals connected by logical connectives\n\n**Boolean Equation**\nexpression1 = expression2\n\n**Boolean function**\nA boolean equation on several variables, where LHS is defined by RHS\n\n",
-      "x": 260,
-      "y": -2240,
-      "width": 378,
-      "height": 300
-    },
-    {
-      "id": "8b36e70602bc3d11",
-      "type": "text",
-      "text": "**Boolean Functions**",
-      "x": 940,
-      "y": -1480,
-      "width": 212,
-      "height": 60,
-      "color": "5"
-    },
-    {
-      "id": "816b5b2909982414",
-      "type": "text",
-      "text": "**Digital Logic**",
-      "shape": "predefined-process",
-      "x": 1200,
-      "y": -1840,
-      "width": 250,
-      "height": 140,
-      "color": "1"
-    },
-    {
-      "id": "695f8fcd69a7bf12",
-      "type": "text",
-      "text": "**Realization of a given function**\n\nDigital circuits can realize a given function in form of an expression. Function realization means implementing the given function.\n\nThere can be some digital circuits that have multiple outputs, but for realizing a function, there must be only one output.",
-      "x": 1400,
-      "y": -1369,
-      "width": 442,
-      "height": 269
-    },
-    {
-      "id": "224561fce4a32fd3",
-      "type": "text",
-      "text": "You cannot be sure that the simplified expression is the minimal and also it does not have a standard systematic way to arrive at the minimal solution, so that's why we need k-maps",
-      "x": -1835,
-      "y": -2742,
-      "width": 413,
-      "height": 162
-    },
-    {
-      "id": "1fecfe29eff5d0be",
-      "type": "text",
-      "text": "**Don't Cares in K-map**\n\nDon't cares can be taken as either 0 or 1 to form cubes of appropriate sizes to form minimized SOP expressions.",
-      "x": -1835,
-      "y": -3020,
-      "width": 262,
-      "height": 221
     },
     {
       "id": "f261b401c957d875",
@@ -260,60 +117,6 @@
       "width": 260,
       "height": 160,
       "color": "3"
-    },
-    {
-      "id": "60f0b88283b55813",
-      "type": "text",
-      "text": "Digital Circuits",
-      "x": 2110,
-      "y": -1369,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "c9060b1c9a02dd4b",
-      "type": "text",
-      "text": "If a function has $k$ don't cares, then it correponds to $2^k$ class of functions.",
-      "x": 920,
-      "y": -289,
-      "width": 328,
-      "height": 122
-    },
-    {
-      "id": "22d2c045e230eb86",
-      "type": "text",
-      "text": "Each don't care can take either 0 or 1",
-      "x": 1346,
-      "y": -289,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "4b08e239ae642e4f",
-      "type": "text",
-      "text": "If a function is parially specified for some input combination, then it is a partial function\n",
-      "x": 940,
-      "y": -820,
-      "width": 315,
-      "height": 114
-    },
-    {
-      "id": "0a4907725ef931f0",
-      "type": "text",
-      "text": "**Don't Cares**\nWhen an input combination never occurs, we do not care about its function value.\nWhen a function's precise value is of no importance, we do not care about it",
-      "x": 1084,
-      "y": -600,
-      "width": 392,
-      "height": 187
-    },
-    {
-      "id": "052098c9a2853077",
-      "x": 1860,
-      "y": -920,
-      "width": 320,
-      "height": 240,
-      "type": "text",
-      "text": "**Covering Functions**\n\nA function $F$ covers $G$ iff \n1. whenever $G = 1$, $F = 1$ or\n2. whenever $F = 0, G = 0$\n\n$$\n\\therefore G \\rightarrow F\n$$"
     },
     {
       "id": "5379461ceb4f853e",
@@ -370,25 +173,6 @@
       "height": 204
     },
     {
-      "id": "2fb95ae869bc6c35",
-      "type": "text",
-      "text": "They are the same because they have the same domain ($2^n$ input combinations) co-domain $\\{0, 1\\}$",
-      "borderStyle": "dotted",
-      "x": 220,
-      "y": -1880,
-      "width": 330,
-      "height": 122
-    },
-    {
-      "id": "955007188e1103f6",
-      "x": 1880,
-      "y": -489,
-      "width": 443,
-      "height": 153,
-      "type": "text",
-      "text": "**Implicants**\nAn implicant $I$ of a function $F$ is a product term that that is covered by the function $F$.\n$$\nI \\rightarrow F\n$$"
-    },
-    {
       "id": "86d18244a4d80e8a",
       "type": "text",
       "text": "Combinational Circuits",
@@ -405,81 +189,6 @@
       "y": -560,
       "width": 333,
       "height": 84
-    },
-    {
-      "id": "e4afd210e1cae585",
-      "type": "text",
-      "text": "**K-Maps**",
-      "x": -700,
-      "y": -2605,
-      "width": 175,
-      "height": 50
-    },
-    {
-      "id": "69d5993ded82ab62",
-      "x": 1714,
-      "y": -94,
-      "width": 346,
-      "height": 74,
-      "color": "6",
-      "type": "text",
-      "text": "Essential Prime Implicants help in getting unique minimal expression"
-    },
-    {
-      "id": "660c58cb2b4c4e1a",
-      "type": "text",
-      "text": "**Minimum SOP**\nTo get the minimal SOP, we need to large cubes of 1's, since mSOP is the sum of minterms for which the function value is 1",
-      "x": -1160,
-      "y": -3201,
-      "width": 360,
-      "height": 159
-    },
-    {
-      "id": "a3f6e668f4ad25d1",
-      "type": "text",
-      "text": "**Minimum POS**\nTo get the minimal POS, we need to large cubes of 0's, since mPOS is the product of maxterms for which the function value is 0",
-      "x": -460,
-      "y": -3201,
-      "width": 360,
-      "height": 159
-    },
-    {
-      "id": "3672d2f169cc2e8a",
-      "type": "text",
-      "text": "**Main idea of k-map**\n\nThe canonical SOP contains the minterms where the function is 1.\n\nVisualizing it on the k-map helps us to select the minterms to reduce to a product term and get the minimized SOP expression.",
-      "x": -1835,
-      "y": -3340,
-      "width": 417,
-      "height": 238,
-      "color": "6"
-    },
-    {
-      "id": "a39ea932756edd12",
-      "type": "text",
-      "text": "You need a minimized expression or function that has minimum number of terms in which each term has minimum number of literals.\n\nYou get minimized form out of canonical form from the k-map\n\nCanonical form $\\Rightarrow$ minimised form",
-      "x": -335,
-      "y": -2845,
-      "width": 470,
-      "height": 240,
-      "color": "3"
-    },
-    {
-      "id": "0ff9fe51ab0050b0",
-      "type": "text",
-      "text": "**Minimization of Boolean Expression**\n\nEquivalent expression with minimal literal count and minimal logic gates",
-      "x": -400,
-      "y": -2420,
-      "width": 283,
-      "height": 182
-    },
-    {
-      "id": "e947516bcc7b661a",
-      "type": "text",
-      "text": "**Algebraic Simplification**\nApply boolean algebraic laws in a systematic way to obtain the minimized equivalent expression",
-      "x": -1580,
-      "y": -2420,
-      "width": 302,
-      "height": 168
     },
     {
       "id": "c952b0d6c31250e1",
@@ -642,6 +351,315 @@
       "y": -4629,
       "width": 380,
       "height": 688
+    },
+    {
+      "id": "224561fce4a32fd3",
+      "type": "text",
+      "text": "You cannot be sure that the simplified expression is the minimal and also it does not have a standard systematic way to arrive at the minimal solution, so that's why we need k-maps",
+      "x": -1835,
+      "y": -2742,
+      "width": 413,
+      "height": 162
+    },
+    {
+      "id": "1fecfe29eff5d0be",
+      "type": "text",
+      "text": "**Don't Cares in K-map**\n\nDon't cares can be taken as either 0 or 1 to form cubes of appropriate sizes to form minimized SOP expressions.",
+      "x": -1835,
+      "y": -3020,
+      "width": 262,
+      "height": 221
+    },
+    {
+      "id": "e4afd210e1cae585",
+      "type": "text",
+      "text": "**K-Maps**",
+      "x": -700,
+      "y": -2605,
+      "width": 175,
+      "height": 50
+    },
+    {
+      "id": "660c58cb2b4c4e1a",
+      "type": "text",
+      "text": "**Minimum SOP**\nTo get the minimal SOP, we need to large cubes of 1's, since mSOP is the sum of minterms for which the function value is 1",
+      "x": -1160,
+      "y": -3201,
+      "width": 360,
+      "height": 159
+    },
+    {
+      "id": "a3f6e668f4ad25d1",
+      "type": "text",
+      "text": "**Minimum POS**\nTo get the minimal POS, we need to large cubes of 0's, since mPOS is the product of maxterms for which the function value is 0",
+      "x": -460,
+      "y": -3201,
+      "width": 360,
+      "height": 159
+    },
+    {
+      "id": "3672d2f169cc2e8a",
+      "type": "text",
+      "text": "**Main idea of k-map**\n\nThe canonical SOP contains the minterms where the function is 1.\n\nVisualizing it on the k-map helps us to select the minterms to reduce to a product term and get the minimized SOP expression.",
+      "x": -1835,
+      "y": -3340,
+      "width": 417,
+      "height": 238,
+      "color": "6"
+    },
+    {
+      "id": "a39ea932756edd12",
+      "type": "text",
+      "text": "You need a minimized expression or function that has minimum number of terms in which each term has minimum number of literals.\n\nYou get minimized form out of canonical form from the k-map\n\nCanonical form $\\Rightarrow$ minimised form",
+      "x": -335,
+      "y": -2845,
+      "width": 470,
+      "height": 240,
+      "color": "3"
+    },
+    {
+      "id": "0ff9fe51ab0050b0",
+      "type": "text",
+      "text": "**Minimization of Boolean Expression**\n\nEquivalent expression with minimal literal count and minimal logic gates",
+      "x": -400,
+      "y": -2420,
+      "width": 283,
+      "height": 182
+    },
+    {
+      "id": "e947516bcc7b661a",
+      "type": "text",
+      "text": "**Algebraic Simplification**\nApply boolean algebraic laws in a systematic way to obtain the minimized equivalent expression",
+      "x": -1580,
+      "y": -2420,
+      "width": 302,
+      "height": 168
+    },
+    {
+      "id": "1d00e7fb78b9f11a",
+      "type": "text",
+      "text": "**Boolean Expression**\nset of literals connected by logical connectives\n\n**Boolean Equation**\nexpression1 = expression2\n\n**Boolean function**\nA boolean equation on several variables, where LHS is defined by RHS\n\n",
+      "x": 260,
+      "y": -2240,
+      "width": 378,
+      "height": 300
+    },
+    {
+      "id": "2fb95ae869bc6c35",
+      "type": "text",
+      "text": "They are the same because they have the same domain ($2^n$ input combinations) co-domain $\\{0, 1\\}$",
+      "borderStyle": "dotted",
+      "x": 220,
+      "y": -1880,
+      "width": 330,
+      "height": 122
+    },
+    {
+      "id": "8b36e70602bc3d11",
+      "type": "text",
+      "text": "**Boolean Functions**",
+      "x": 940,
+      "y": -1480,
+      "width": 212,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "b66ba5c61f5a08ed",
+      "type": "text",
+      "text": "**Boolean Expression**\n",
+      "isStartNode": false,
+      "x": -408,
+      "y": -1430,
+      "width": 228,
+      "height": 50,
+      "color": "5"
+    },
+    {
+      "id": "1f609347f85dceb8",
+      "type": "text",
+      "text": "If a function is completely specified for every input combination, then it is a total function\n",
+      "x": 577,
+      "y": -1234,
+      "width": 311,
+      "height": 128
+    },
+    {
+      "id": "816b5b2909982414",
+      "type": "text",
+      "text": "**Digital Logic**",
+      "shape": "predefined-process",
+      "x": 1200,
+      "y": -1840,
+      "width": 250,
+      "height": 140,
+      "color": "1"
+    },
+    {
+      "id": "fb4e853ef9f1fd19",
+      "type": "text",
+      "text": "When a function $F$ is complemented, then it is a different function. $\\overline{F}$ has different standard and canonical forms.",
+      "x": -100,
+      "y": -920,
+      "width": 460,
+      "height": 120,
+      "color": "6"
+    },
+    {
+      "id": "4b08e239ae642e4f",
+      "type": "text",
+      "text": "If a function is parially specified for some input combination, then it is a partial function\n",
+      "x": 940,
+      "y": -820,
+      "width": 315,
+      "height": 114
+    },
+    {
+      "id": "695f8fcd69a7bf12",
+      "type": "text",
+      "text": "**Realization of a given function**\n\nDigital circuits can realize a given function in form of an expression. Function realization means implementing the given function.\n\nThere can be some digital circuits that have multiple outputs, but for realizing a function, there must be only one output.",
+      "x": 1400,
+      "y": -1369,
+      "width": 442,
+      "height": 269
+    },
+    {
+      "id": "0a4907725ef931f0",
+      "type": "text",
+      "text": "**Don't Cares**\nWhen an input combination never occurs, we do not care about its function value.\nWhen a function's precise value is of no importance, we do not care about it",
+      "x": 1084,
+      "y": -600,
+      "width": 392,
+      "height": 187
+    },
+    {
+      "id": "052098c9a2853077",
+      "type": "text",
+      "text": "**Covering Functions**\n\nA function $F$ covers $G$ iff \n1. whenever $G = 1$, $F = 1$ or\n2. whenever $F = 0, G = 0$\n\n$$\n\\therefore G \\rightarrow F\n$$",
+      "x": 1860,
+      "y": -920,
+      "width": 320,
+      "height": 240
+    },
+    {
+      "id": "955007188e1103f6",
+      "type": "text",
+      "text": "**Implicants**\nAn implicant $I$ of a function $F$ is a product term that that is covered by the function $F$.\n$$\nI \\rightarrow F\n$$\nAny cube of 1's",
+      "x": 1880,
+      "y": -489,
+      "width": 443,
+      "height": 189
+    },
+    {
+      "id": "22d2c045e230eb86",
+      "type": "text",
+      "text": "Each don't care can take either 0 or 1",
+      "x": 1346,
+      "y": -289,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "6ba44d833a5d7cae",
+      "x": 2033,
+      "y": 183,
+      "width": 387,
+      "height": 217,
+      "type": "text",
+      "text": "**Essential Prime Implicants**\n\nA prime implicant that covers at least one 1-cell uniquely\n\nEssential Prime Implicants help in getting *unique minimal expression*"
+    },
+    {
+      "id": "923e46644e2b5311",
+      "x": 2116,
+      "y": -100,
+      "width": 304,
+      "height": 147,
+      "type": "text",
+      "text": "**Prime Implicant**\n\nA cube of 1's that is as large as possible."
+    },
+    {
+      "id": "c9060b1c9a02dd4b",
+      "type": "text",
+      "text": "If a function has $k$ don't cares, then it correponds to $2^k$ class of functions.",
+      "x": 920,
+      "y": -289,
+      "width": 328,
+      "height": 122
+    },
+    {
+      "id": "25e7050d63f2eeab",
+      "type": "text",
+      "text": "Implicants are visualized better in k-maps",
+      "borderStyle": "dotted",
+      "x": 1700,
+      "y": -56,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "60f0b88283b55813",
+      "type": "text",
+      "text": "Digital Circuits",
+      "x": 2110,
+      "y": -1369,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "00b8b156e600380a",
+      "type": "text",
+      "text": "A boolean expression can be expressed in many ways. \n$$\n\\begin{split}\nE &= a \\\\\n&= a + aa \\\\\n&= aaaa \\\\\n&= a + aa + aaaaa \\\\\n&= aa \\\\\n&= a + 0\n\\end{split}\n$$\nBut we want a standard and unique form to express a particular boolean expression in a minimized and standard form",
+      "x": -740,
+      "y": -980,
+      "width": 403,
+      "height": 360
+    },
+    {
+      "id": "388b7e637cfc83dd",
+      "type": "text",
+      "text": "$f = \\sum m (f = 1) = \\prod M (f = 0)$\n",
+      "x": -140,
+      "y": -682,
+      "width": 300,
+      "height": 59
+    },
+    {
+      "id": "9227413afe6efd0d",
+      "type": "text",
+      "text": "Standard Form of an Expression",
+      "x": -712,
+      "y": -520,
+      "width": 348,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "ad030c7659a584d9",
+      "type": "text",
+      "text": "**Canonical Form**\nThese two forms are from a function's perspective",
+      "x": -360,
+      "y": -182,
+      "width": 260,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "2ea1e24a42383cf3",
+      "type": "text",
+      "text": "Unique forms",
+      "x": -320,
+      "y": -305,
+      "width": 180,
+      "height": 50
+    },
+    {
+      "id": "24851078ccd429d1",
+      "type": "text",
+      "text": "**Canonical POS**\n\nLogical AND of those maxterms for which the function value is 0\n\nCanonical POS is the product of maxterms",
+      "x": -80,
+      "y": 60,
+      "width": 260,
+      "height": 240
     }
   ],
   "edges": [
@@ -1227,21 +1245,37 @@
       "toEnd": "none"
     },
     {
-      "id": "3765e2751b0e3932",
-      "edgeStyle": "long-dashed",
-      "fromNode": "955007188e1103f6",
-      "fromSide": "bottom",
-      "toNode": "69d5993ded82ab62",
-      "toSide": "top",
-      "toEnd": "none"
-    },
-    {
       "id": "c6d0440a47b4d248",
       "edgeStyle": "dotted",
       "fromNode": "3672d2f169cc2e8a",
       "fromSide": "right",
       "toNode": "660c58cb2b4c4e1a",
       "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "92437dadc5833ef1",
+      "fromNode": "955007188e1103f6",
+      "fromSide": "bottom",
+      "toNode": "923e46644e2b5311",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "0878944e72ffd088",
+      "fromNode": "923e46644e2b5311",
+      "fromSide": "bottom",
+      "toNode": "6ba44d833a5d7cae",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "13327fbf90ae6ab8",
+      "edgeStyle": "short-dashed",
+      "fromNode": "955007188e1103f6",
+      "fromSide": "bottom",
+      "toNode": "25e7050d63f2eeab",
+      "toSide": "top",
       "toEnd": "none"
     }
   ],

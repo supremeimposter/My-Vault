@@ -70,7 +70,7 @@ tags:
 ---
 # Covering Functions
 
-- A function $f$ covers a function $g$ **iff** whenever $g = 1$, then $f = 1$ **or** whenever $f = 0$, then $g = 0$.
+- A function $f$ covers a function $g$ with the same input variables **iff** whenever $g = 1$, then $f = 1$ **or** whenever $f = 0$, then $g = 0$.
 $$
 f \text{ covers } g \equiv g \text{ implies } f \equiv g \rightarrow f \equiv g \subseteq f
 $$

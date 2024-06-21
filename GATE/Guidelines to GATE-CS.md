@@ -22,9 +22,14 @@ $$
 $$
 ![[Guidelines to GATE-CS-20240619102714090.webp]]
 
-- Find CSOP first and it will be easier to find CPOS i.e. $f = \sum m (f = 1) = \prod M (f = 0)$.
+- When truth table is given, it is easier to find dual of a boolean expression using the complement.
+
+![[Boolean Function-20240527175758734.webp]]
+
+- Find Canonical SOP first and it will be easier to find Canonical POS i.e. $f = \sum m (f = 1) = \prod M (f = 0)$.
 - To visualize a function in a k-map, firstly convert the given expression to either standard or canonical SOP for better visualization.
 - See if there are any redundant larger cubes after identifying all the cubes in k-maps.
+- Look for the corner 1-cells and the folding 1-cells while creating cubes.
 
 
 ---

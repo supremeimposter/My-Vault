@@ -85,6 +85,10 @@ Each of the $2^n$ different input combinations has only two choices i.e. 0 or 1.
 ![[Laws of Boolean Algebra-20240218225050396.webp]]
 ![[Laws of Boolean Algebra-20240603120312263.webp]]
 
+> [!example] 
+> ![[Boolean Function-20240621230915170.webp]]
+
+
 ![[Boolean Function-20240527115918673.webp]]
 
 ![[Boolean Function-20240527115933381.webp]]
@@ -99,7 +103,10 @@ $$\overline{f}(a, b) = f^d\;(\overline{a}, \overline{b})$$
 
 > [!example] 
 > ![[Boolean Function-20240619101843355.webp]]
+> 
 > ![[Boolean Function-20240517195518874.webp]]
+> 
+> ![[Boolean Function-20240621231449812.webp]]
 
 For a function $f$, the complement $\overline{f}$ and the dual $f^d$ are functions themselves.
 
@@ -114,7 +121,7 @@ For a function $F$ over $n$ variables,
 $$
 f^d\;(t) = \overline{f} \;(\;(2^n - 1) - t)
 $$
-where $t$ is a decimal value, $0 \leq t \leq (2^n - 1)$ 
+where $t$ is a decimal value encoded from the input combination and $0 \leq t \leq (2^n - 1)$ 
 
 If $f(t) = 1$, then $\overline{f}\;(t) = 0$ which means $f^d\;(\;(2^n - 1) - t) = 0$.
 
