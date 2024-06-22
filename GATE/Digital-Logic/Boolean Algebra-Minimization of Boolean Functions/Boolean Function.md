@@ -5,7 +5,7 @@ lecture: "4"
 date: 2024-02-18T18:06:00
 version:
   - DL-24
-last-revision: 
+last-revision: 2024-06-22T11:33:00
 notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
@@ -125,8 +125,15 @@ where $t$ is a decimal value encoded from the input combination and $0 \leq t \l
 
 If $f(t) = 1$, then $\overline{f}\;(t) = 0$ which means $f^d\;(\;(2^n - 1) - t) = 0$.
 
+$$
+\begin{split}
+f(t) = \overline{ f^d\;( (2^n - 1) - t ) }
+\end{split}
+$$
+
 > [!example] 
 > ![[Boolean Function-20240527193041878.webp]]
+> 
 > ![[Boolean Function-20240527194819374.webp]]
 
 Functions which has the literal count of 1 such as $f(a) = a$, dual is same as the function.
@@ -151,16 +158,16 @@ There are some functions $f$ for which $\overline{f} = f^d$.
 > [!pdf] lec-07 Pg. no. 151
 
 ### Neutral Boolean Function
- - A boolean function over $n$ variables is neutral iff $f = 0$ for half of the input combinations and $f = 1$ for the remaining half of the input combinations.
+ A boolean function over $n$ variables is neutral iff $f = 0$ for half of the input combinations and $f = 1$ for the remaining half of the input combinations.
 
 For a boolean function of $n$ variables, number of neutral boolean functions = ${{2^n}_{C}}_{2^{(n-1)}}$.
-Out of $2^n$ rows of input combinations, select the half which gives $1$ as the output, the rest will give $0$ as the output.
+Out of $2^n$ rows of input combinations, select the half $(2^{n-1})$ which gives $1$ as the output, the rest will give $0$ as the output.
 
 ![[Boolean Function-20240527204754316.webp]]
 
 ### Self Dual Boolean Function
+A boolean function $f$ is a self dual function iff $f = f^d$.
 
-- $f$ is a self dual function iff $f = f^d$.
 ![[Boolean Function-20240527210411425.webp]]
 ![[Boolean Function-20240527210423613.webp]]
 ![[Boolean Function-20240527210440917.webp]]
@@ -170,10 +177,13 @@ In a self dual function $f$,
 $$
 f(x) \not= f(\;(2^n - 1)\; - x); \: \forall x \text{ where } 0 \leq x \lt 2^n
 $$
+Or you can put it this way,
+$$
+f(x) =  \overline{f\:(\;(2^n - 1)\; - x)}; \: \forall x \text{ where } 0 \leq x \lt 2^n
+$$
 
-> [!observation] 
-> - Every self dual function is neutral, but the converse is **NOT** true.
-> - One half of the outputs are not equal to the other half of the outputs for the $2^n$ input combinations which means half of the outputs are 1s and the other half are 0s.
+- One half of the outputs are not equal to the other half of the outputs for the $2^n$ input combinations i.e. half of the outputs are 1s and the other half are 0s.
+- Every self dual function is neutral, but the converse is **NOT** true.
 
 ![[Boolean Function-20240527211221849.webp]]
 
@@ -182,8 +192,6 @@ $$
 ![[Boolean Function-20240527211823499.webp]]
 
 Number of self dual functions on $n$-variables $= 2^{(2^{(n-1)})}$, because each row in the first half of the standard truth table has 2 choices, whereas the lower half of the truth table has only one choice i.e. there is no choice for lower half.
-
-![[Boolean Function-20240527211840794.webp]]
 
 ### Functions whose Complement is same as Dual
 > [!attention] These functions do not have a standard name.
@@ -212,7 +220,6 @@ $$
 
 Over $n$ variables, there are $2^{(2^{(n-1)})}$ such functions.
 
-
 ### EXOR and EXNOR functions
 > [!pdf] Lec-08
 
@@ -222,12 +229,15 @@ Over $n$ variables, there are $2^{(2^{(n-1)})}$ such functions.
 ![[Boolean Function-20240528135127175.webp]]
 
 **ExOR** operation is commutative and associative and distributive.
+
 ![[Boolean Function-20240528135705213.webp]]
 
 **ExNOR** operation is also Equivalence operation or coincidence operation.
+
 ![[Boolean Function-20240528135452108.webp]]
 
 **ExNOR** operation is the complement of **ExOR** operation.
+
 ![[Boolean Function-20240528135427396.webp]]
 
 **ExNOR** operation is commutative and associative.
@@ -261,7 +271,7 @@ $$
 ---
 ## Minimization of Boolean Functions
 
-Boolean functions can be minimized to its equivalent boolean expressions, leading to reduced literal count and minimal number of gates.
+Boolean functions can be minimized to its equivalent boolean expressions, which corresponds to reduced literal count and minimal number of logic gates.
 
 ```mermaid
 flowchart TD

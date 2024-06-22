@@ -10,15 +10,6 @@
       "label": "Equivalent forms of an expression"
     },
     {
-      "id": "e8f55b5644837dd5",
-      "type": "group",
-      "x": -1855,
-      "y": -3360,
-      "width": 2015,
-      "height": 1160,
-      "label": "Simplification and Minimization of Boolean Expressions"
-    },
-    {
       "id": "529050a86cd31bf4",
       "type": "group",
       "x": 900,
@@ -26,6 +17,15 @@
       "width": 726,
       "height": 693,
       "label": "Partially specified functions"
+    },
+    {
+      "id": "e8f55b5644837dd5",
+      "type": "group",
+      "x": -1855,
+      "y": -3360,
+      "width": 2015,
+      "height": 1160,
+      "label": "Simplification and Minimization of Boolean Expressions"
     },
     {
       "id": "c64c17882b00e854",
@@ -524,15 +524,6 @@
       "height": 269
     },
     {
-      "id": "0a4907725ef931f0",
-      "type": "text",
-      "text": "**Don't Cares**\nWhen an input combination never occurs, we do not care about its function value.\nWhen a function's precise value is of no importance, we do not care about it",
-      "x": 1084,
-      "y": -600,
-      "width": 392,
-      "height": 187
-    },
-    {
       "id": "052098c9a2853077",
       "type": "text",
       "text": "**Covering Functions**\n\nA function $F$ covers $G$ iff \n1. whenever $G = 1$, $F = 1$ or\n2. whenever $F = 0, G = 0$\n\n$$\n\\therefore G \\rightarrow F\n$$",
@@ -540,61 +531,6 @@
       "y": -920,
       "width": 320,
       "height": 240
-    },
-    {
-      "id": "955007188e1103f6",
-      "type": "text",
-      "text": "**Implicants**\nAn implicant $I$ of a function $F$ is a product term that that is covered by the function $F$.\n$$\nI \\rightarrow F\n$$\nAny cube of 1's",
-      "x": 1880,
-      "y": -489,
-      "width": 443,
-      "height": 189
-    },
-    {
-      "id": "22d2c045e230eb86",
-      "type": "text",
-      "text": "Each don't care can take either 0 or 1",
-      "x": 1346,
-      "y": -289,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "6ba44d833a5d7cae",
-      "x": 2033,
-      "y": 183,
-      "width": 387,
-      "height": 217,
-      "type": "text",
-      "text": "**Essential Prime Implicants**\n\nA prime implicant that covers at least one 1-cell uniquely\n\nEssential Prime Implicants help in getting *unique minimal expression*"
-    },
-    {
-      "id": "923e46644e2b5311",
-      "x": 2116,
-      "y": -100,
-      "width": 304,
-      "height": 147,
-      "type": "text",
-      "text": "**Prime Implicant**\n\nA cube of 1's that is as large as possible."
-    },
-    {
-      "id": "c9060b1c9a02dd4b",
-      "type": "text",
-      "text": "If a function has $k$ don't cares, then it correponds to $2^k$ class of functions.",
-      "x": 920,
-      "y": -289,
-      "width": 328,
-      "height": 122
-    },
-    {
-      "id": "25e7050d63f2eeab",
-      "type": "text",
-      "text": "Implicants are visualized better in k-maps",
-      "borderStyle": "dotted",
-      "x": 1700,
-      "y": -56,
-      "width": 260,
-      "height": 60
     },
     {
       "id": "60f0b88283b55813",
@@ -660,6 +596,70 @@
       "y": 60,
       "width": 260,
       "height": 240
+    },
+    {
+      "id": "0a4907725ef931f0",
+      "type": "text",
+      "text": "**Don't Cares**\nWhen an input combination never occurs, we do not care about its function value.\nWhen a function's precise value is of no importance, we do not care about it",
+      "x": 1084,
+      "y": -600,
+      "width": 392,
+      "height": 187
+    },
+    {
+      "id": "955007188e1103f6",
+      "type": "text",
+      "text": "**Implicants**\nAn implicant $I$ of a function $F$ is a product term that that is covered by the function $F$.\n$$\nI \\rightarrow F\n$$\nAny cube of 1's",
+      "x": 1880,
+      "y": -489,
+      "width": 443,
+      "height": 189
+    },
+    {
+      "id": "22d2c045e230eb86",
+      "type": "text",
+      "text": "Each don't care can take either 0 or 1",
+      "x": 1346,
+      "y": -289,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "6ba44d833a5d7cae",
+      "type": "text",
+      "text": "**Essential Prime Implicants**\n\nA prime implicant that covers at least one 1-cell uniquely\n\nEssential Prime Implicants help in getting *unique minimal expression*",
+      "x": 2033,
+      "y": 183,
+      "width": 387,
+      "height": 217
+    },
+    {
+      "id": "923e46644e2b5311",
+      "type": "text",
+      "text": "**Prime Implicant**\n\nA cube of 1's that is as large as possible.",
+      "x": 2116,
+      "y": -100,
+      "width": 304,
+      "height": 147
+    },
+    {
+      "id": "c9060b1c9a02dd4b",
+      "type": "text",
+      "text": "If a function has $k$ don't cares, then it correponds to $2^k$ class of functions.",
+      "x": 920,
+      "y": -289,
+      "width": 328,
+      "height": 122
+    },
+    {
+      "id": "25e7050d63f2eeab",
+      "type": "text",
+      "text": "Implicants are visualized better in k-maps",
+      "borderStyle": "dotted",
+      "x": 1700,
+      "y": -56,
+      "width": 260,
+      "height": 60
     }
   ],
   "edges": [

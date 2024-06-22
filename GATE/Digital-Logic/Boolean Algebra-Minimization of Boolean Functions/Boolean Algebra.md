@@ -176,6 +176,8 @@ ExNOR is same as [[Bi-Implication|Bi-implication]] i.e. $a ⊙ b \equiv a \leftr
 
 ![[Boolean Algebra-20240518101704466.webp]]
 
+[[Boolean Function#EXOR and EXNOR functions|ExOR and ExNOR]] are special types of functions.
+
 > [!note] 
 > Every logic gate except OR gate can have multiple inputs.
 > 
