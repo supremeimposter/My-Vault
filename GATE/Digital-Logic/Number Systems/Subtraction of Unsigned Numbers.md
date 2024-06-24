@@ -5,10 +5,11 @@ lecture:
 date: 2024-02-26T11:56:00
 version:
   - DL-24
-last-revision: 2024-05-31T16:13:00
+last-revision: 2024-06-23T16:13:00
 notes-taken: true
 tags:
   - DigitalLogic/NumberSystem
+  - DigitalLogic/Complement
 ---
 # Subtraction of Unsigned Numbers
 Given that $M$ and $N$ are unsigned numbers and both should have the same number of digits.
@@ -18,6 +19,7 @@ Given that $M$ and $N$ are unsigned numbers and both should have the same number
 > [!cases] $M \ge N$
 
 $M = 82$ and $N = 64$ i.e. $M \ge N$
+
 ![[Subtraction of Unsigned Numbers-20240530133143042.webp]]
 
 1. Add $M$ to the $r$'s complement of $N$ i.e. $M + (r^n -  N) = (M - N) + r^n$
@@ -31,6 +33,7 @@ $M = 82$ and $N = 64$ i.e. $M \ge N$
 > [!cases] $M \lt N$
 
 $M = 20$ and $N = 78$ i.e. $M \lt N$ 
+
 ![[Subtraction of Unsigned Numbers-20240530134507688.webp]]
 
 1. Add $M$ to the $r$'s complement of $N$ i.e $M + (r^n -  N) = (M - N) + r^n$ 
@@ -78,6 +81,7 @@ $M = 20$ and $N = 78$ i.e. $M \lt N$
 
 This is similar to subtraction of unsigned numbers using Radix complement. 
 You don't have to know which number is larger, it can be identified by whether there is a carry or not.
+
 ![[Subtraction of Unsigned Numbers-20240530155927913.webp]]
 
 > [!NOTE] 

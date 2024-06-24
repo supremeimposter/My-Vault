@@ -5,7 +5,7 @@ lecture: "2"
 date: 2024-02-24T16:38:00
 version:
   - DL-24
-last-revision: 2024-05-31T11:31:00
+last-revision: 2024-06-23T11:31:00
 notes-taken: true
 tags:
   - DigitalLogic/NumberSystem
@@ -13,21 +13,24 @@ tags:
 # Number System
 Number system is a simple way to count things or ways to represent numbers.
 
-The base of the number system is defined as the total number of symbols (digits) available in that number system.
-The base value of a number system is the number of different values the set has before repeating itself.
+The base of the number system is defined as the total number of symbols (digits) available in that number system i.e. the number of different values the set has before repeating itself.
 
-## Base r System
+## Base r
 
 Any positive integer $r \gt 1$ can be chosen as the radix or base of a number system.
 If the base is $r$, then there are $r$ symbols in the number system i.e. $\{0, 1, 2, \cdots, r - 1\}$.
 
 A number $N$ in the base-$r$ system is,
+
 ![[Number Systems-20240528172442599.webp]]
+
 where $a_{i}$ is the co-efficient of $R_{i}$ and $0 \leq a_{i} \leq R - 1$.
 
 There can be as many as leading or trailing zeros which do not affect the value of a number.
-![[Number Systems-20240529085534280.webp]]
 
+![[Number Systems-20240623090914503.webp]]
+
+---
 ## Number System Conversion
 
 ### r-ary to Decimal System
@@ -41,7 +44,9 @@ $$
 
 ### Decimal to r-ary System
 
-To convert decimal to r-ary number, successive division by $r$ can be used for the integer part and successive multiplication can be used for fraction part.
+To convert decimal to r-ary number, 
+- successive division by $r$ can be used for the integer part and 
+- successive multiplication by $r$ can be used for fraction part.
 
 > [!point] 
 > Perform conversion on the integer part and the fraction part separately.
@@ -49,15 +54,19 @@ To convert decimal to r-ary number, successive division by $r$ can be used for t
 
 Consider the number $N$ such that $(N)_{10} = (abcd.mno)_{r}$
 
-![[Number Systems-20240224175709893.webp]]
-![[Number Systems-20240224183608079.webp]]
+Successive division by $r$ gives the digits in $r$ in reverse order.
+
+![[Number Systems-20240623093333496.webp]]
+
+Successive multiplication by $r$ gives the digits in $r$ in straight order.
+
+![[Number Systems-20240623093356686.webp]]
 
 ![[Number Systems-20240528212552277.webp]]
 
 > [!example] 
 > ![[Number Systems-20240528181252730.webp]]
-
-> [!example] 
+> 
 > ![[Number Systems-20240528182502434.webp]]
 
 > [!example] 

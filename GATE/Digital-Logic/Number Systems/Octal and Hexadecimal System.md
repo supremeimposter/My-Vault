@@ -5,7 +5,7 @@ lecture: "1"
 date: 2024-02-24T16:05:00
 version:
   - DL-24
-last-revision: 
+last-revision: 2024-06-23T11:21:00
 notes-taken: true
 tags:
   - DigitalLogic/NumberSystem
@@ -21,10 +21,15 @@ Symbols = $\{0, 1, 2, 3, 4, 5, 6, 7\}$
 ![[Octal and Hexadecimal System-20240528162227875.webp]]
 
 ![[Octal and Hexadecimal System-20240528163304965.webp]]
+
 ![[Octal and Hexadecimal System-20240528180945120.webp]]
 
 Base $= 2^3 = 8$
+Binary can be easily converted to octal by grouping every 3 bits from the LS position and convert them to its equivalent decimal value.
+
 ![[Octal and Hexadecimal System-20240529084451445.webp]]
+
+![[Octal and Hexadecimal System-20240623111834862.webp]]
 
 ## Hexadecimal System
 Base = $16$
@@ -41,6 +46,8 @@ Hexadecimal numbers are represented by a leading 0x e.g. 0xFC39.
 ![[Octal and Hexadecimal System-20240528173658189.webp]]
 
 Base $= 2^4 = 16$
+Binary can be easily converted to hexadecimal by grouping every 4 bits from the LS position and convert them to its equivalent decimal value.
+
 ![[Octal and Hexadecimal System-20240529084526112.webp]]
 
 ![[Octal and Hexadecimal System-20240529085818310.webp]]

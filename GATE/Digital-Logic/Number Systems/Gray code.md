@@ -5,7 +5,7 @@ lecture: "7"
 date: 2024-02-29T09:47:00
 version:
   - DL-24
-last-revision: 2024-06-03T19:20:00
+last-revision: 2024-06-24T19:20:00
 notes-taken: true
 tags:
   - DigitalLogic/NumberSystem
@@ -32,7 +32,7 @@ Every decimal number next to each other in gray code change by only one bit, so 
 
 Gray codes are used in Hypercube graphs and error detection or error correction.
 
-## Recursive Construction
+## Recursive Construction of Gray codes
 $G_{n}$ represents a gray code with $n$ bits.
 
 ![[Gray code-20240603144905482.webp]]
@@ -54,16 +54,15 @@ The first half of $G_{n}$ is $G_{n-1}$ with a prefix of 0 and the last half is t
 >> Gray code of $4$ in 3 bits = $110$
 >> Gray code of $4$ in 4 bits = $0110$
 
-Recursive construction of gray codes method is time consuming, because for gray codes of any $n$ bits, you need to know the gray codes of $n-1$ bits. The efficient method to get the gray code is to convert a binary number $n$ to its equivalent gray code of $n$.
+Recursive construction of gray codes method is time consuming, because for gray codes of any $n$ bits, you need to know the gray codes of $n-1$ bits. The efficient method to get the gray code is to convert a binary number $n$ to its equivalent gray code of $n$. 
 
 ![[Gray code-20240229104826823.webp]]
-## Binary and Gray code conversion
+## Conversion between Binary numbers and Gray codes
 
 ![[Gray code-20240603152604405.webp]]
 
 > [!example] 
 > ![[Gray code-20240603151711181.webp]]
-
 
 ![[Gray code-20240603160752044.webp]]
 
@@ -77,23 +76,17 @@ $$(m)_{\text{gray code}} = (m)_{2} \oplus \left\lfloor  \frac{(m)_{2}}{2}  \righ
 > ![[Gray code-20240603170040937.webp]]
 
 ## Properties of $G_n$
-Gray codes are reflexive codes.
-The last and the first gray code in $n$ bits differ only by one bit i.e. gray codes are cyclic codes.
+
+- Gray codes are reflexive codes.
+- The last and the first gray code in $n$ bits differ only by one bit i.e. gray codes are cyclic codes.
+- Gray codes are similar to [[Minimization using K Map|k-maps]].
 
 ![[Gray code-20240603164850516.webp]]
 
-Gray codes are similar to [[Minimization using K Map|k-maps]].
-
-$G_{n}$ is the permutations of all bit strings of 0s and 1s over $n$ bits.
-$G_{n}$ is the permutation of the numbers $0$ to $2^n - 1$. Each number appears exactly once in the list.
+- $G_{n}$ is the permutations of all bit strings of 0s and 1s over $n$ bits.
+- $G_{n}$ is the permutation of the numbers $0$ to $2^n - 1$. Each number appears exactly once in the list.
+- Gray codes are stable as the numbers available in $G_{n}$ will be available in the first half of $G_{n+1}$.
 
 ![[Gray code-20240603165000412.webp]]
-
-When gray codes of $n$ bits should be represented in the truth table, k-maps can be used to fill out the truth table.
-
-![[Gray code-20240603190956068.webp]]
-
-> [!remember] 
-> Minterms are based on an agreed order of the decimal value of the standard truth table.
 
 ---

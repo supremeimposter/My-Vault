@@ -5,7 +5,7 @@ lecture: 3, 4, 5
 date: 2024-02-25T12:35:00
 version:
   - DL-24
-last-revision: 2024-05-31T11:03:00
+last-revision: 2024-06-23T11:03:00
 notes-taken: true
 tags:
   - DigitalLogic/NumberSystem
@@ -17,13 +17,13 @@ tags:
 ```mermaid
 flowchart TD
 A[Signed Binary \nRepresentation] --> B[Signed \nMagnitude  System]
-A --> C[1's complement system]
-A --> D[2's complement system]
+A --> E
+E[Signed Complement\nRepresentation] --> C[1's complement \nRepresentation]
+E --> D[2's complement \nRepresentation]
 ```
 
 - A computer can use any of the above three representations.
 - These representations are **only** for binary numbers.
-- Positive integers (including zero) can be represented as unsigned numbers. To represent negative integers, we need a notation for negative values.
 - In computers, both signed and unsigned numbers consists of strings of 0s and 1s. The user determines whether the number is signed or unsigned.
 
 ## Signed Magnitude Representation
@@ -88,7 +88,7 @@ $$
 a_{n}a_{n-1}\cdots a_{2}a_{1}a_{0} = -2^n(a_{n}) + 2^{n-1}(a_{n-1})+\cdots +2^2(a_{2}) + 2^1(a_{1}) + 2^0(a_{0})
 $$
 
-In 2's complement system, the many number of leading 1's do not matter.
+In 2's complement system, the not all of the leading 1's matter.
 
 ![[Signed Binary Numbers-20240530222623988.webp]]
 ![[Signed Binary Numbers-20240530222549478.webp]]
@@ -101,7 +101,6 @@ By default, 2's complement is considered in computers for signed numbers.
 > [!cases] $N \lt 0$
 - The MSB is `1`
 - If the number is negative, then $N$ is stored as 2's complement of $+N$
-
 
 - If the MSB is `1` in a given number $M$, then perform 2's complement on the number and if the resultant number is $N$, then $-N$ has been represented in this system as $M$.
 
@@ -118,12 +117,12 @@ By default, 2's complement is considered in computers for signed numbers.
 
 Since 2's complement representation is a weighted system, it can be expanded to convert directly to its equivalent decimal number with MS bit having a negative weight.
 
-![[Signed Binary Numbers-20240612083106073.webp]]
-
 > [!summary] 
 
 - Sign-magnitude and 1s complement representation are non-weighted number systems.
-- **Positive and unsigned numbers** are represented in the same way in all the three representations that are used in the computer systems.
+- **Positive numbers** are represented in the same way in all the three representations that are used in the computer systems.
+
+![[Signed Binary Numbers-20240531110307480.webp]]
 
 ![[Signed Binary Numbers-20240530215929110.webp]]
 
@@ -157,26 +156,34 @@ Every number in 2's complement system has unique representation.
 For a $n$ bit number, 
 
 <u>Signed-Magnitude system:</u>
-Minimum = $\underbrace{1}_{\text{negative sign bit }}\underbrace{1111\cdots 11}_{n-1 \text{ bits}} = - (2^{n-1} - 1)$ i.e. least negative value in $n-1$ bits.
+Minimum = $\underbrace{1}_{\text{negative sign bit }}\underbrace{1111\cdots 11}_{n-1 \text{ bits}} = - (2^{n-1} - 1)$ i.e. most negative value in $n-1$ bits.
 Maximum = $\underbrace{0}_{\text{positive sign bit }}\underbrace{1111\cdots 11}_{n-1 \text{ bits}} = + (2^{n-1} - 1)$ i.e. most positive value in $n-1$ bits.
 
 These $n-1$ bits are unsigned bits
 
 <u>1's complement system:</u>
-Minimum = $\underbrace{1}_{\text{negative sign bit }}\underbrace{0000\cdots 00}_{n-1 \text{ bits}} = - (2^{n-1} - 1)$ i.e. least negative value
 Maximum = $\underbrace{0}_{\text{positive sign bit }}\underbrace{1111\cdots 11}_{n-1 \text{ bits}} = + (2^{n-1} - 1)$ i.e. most positive value
+Minimum = $\underbrace{1}_{\text{negative sign bit }}\underbrace{0000\cdots 00}_{n-1 \text{ bits}} = - (2^{n-1} - 1)$ i.e. most negative value
 
-![[Signed Binary Numbers-20240531101555934.webp]]
+![[Signed Binary Numbers-20240623155229029.webp]]
 
 <u>2s complement system:</u>
-Minimum = $\underbrace{1}_{\text{negative sign bit }}\underbrace{0000\cdots 00}_{n-1 \text{ bits}} = - 2^{n-1}$ i.e. least negative value
+Minimum = $\underbrace{1}_{\text{negative sign bit }}\underbrace{0000\cdots 00}_{n-1 \text{ bits}} = - 2^{n-1}$ i.e. most negative value
 Maximum = $\underbrace{0}_{\text{positive sign bit }}\underbrace{1111\cdots 11}_{n-1 \text{ bits}} = +(2^{n-1} - 1)$ i.e. most positive value
 
-
 > [!summary] 
-> ![[Signed Binary Numbers-20240531110043707.webp]]
 
-![[Signed Binary Numbers-20240531110307480.webp]]
+![[Signed Binary Numbers-20240531110043707.webp]]
+
+1's complement representation has two different representations for 1 number
+$$
+\begin{split}
++0 &= 0000 \cdots 0000 \\
+-0 &= 1111 \cdots 1111
+\end{split}
+$$
+Take the 1's complement of the most positive signed number in $n$ bits and you will get the negative of the most positive signed number in 1's complement i.e. most negative signed number in 1's complement representation.
+
 ![[Signed Binary Numbers-20240531110322502.webp]]
 
 ---
@@ -198,13 +205,15 @@ Both the inputs and the outputs are both in signed magnitude system.
 > ![[Addition of Signed Binary Numbers-20240531184509116.webp]]
 > ![[Addition of Signed Binary Numbers-20240531184406648.webp]]
 
+> [!question] Why signed magnitude system is not used in computer system?
+
 The cost is too much in signed magnitude system as, 
 - The sign bits has to be compared 
 - The magnitude bits (n-1) has to be compared i.e. comparator circuit.
 - If the signs are same, then adder circuit has to be used
 - If the signs are different, then the subtractor circuit has to be used.
-So, it is not used in computer systems.
 
+So, it is not used in computer systems.
 
 > [!NOTE] 
 > For addition, the signed-complement system does not require any comparison or subtraction. Hence they are used in computer systems.
@@ -226,10 +235,10 @@ $$
 > [!NOTE] 
 > In 1's complement addition, we are adding `1` to the result iff the final carry out is `1`.
 
-
 ## 2's Complement System
 
 - The operands values and the resultant value are also in $2$'s complement representation.
+
 ![[Signed Binary Numbers-20240601105014048.webp]]
 $$
 A - B = A + (-B) = A + (\text { 2's complement of } B \;)
@@ -239,19 +248,21 @@ $$
 > [!example] 
 > ![[Arithmetic of Signed Binary Numbers-20240531195232273.webp]]
 > ![[Arithmetic of Signed Binary Numbers-20240531222844535.webp]]
+> 
 > ![[Arithmetic of Signed Binary Numbers-20240531223407961.webp]]
 
 ---
 > [!summary] 
 
-The binary signed numbers in the sign complement system are added and subtracted as the same way as unsigned numbers. Hence computer needs only one common hardware to deal with arithmetics of both types.
+The binary signed numbers in the sign complement system are added and subtracted as the same way as [[Subtraction of Unsigned Numbers|unsigned numbers]]. Hence computer needs only one common hardware to deal with arithmetics of both types.
 
 Addition of positive numbers in both 1's and 2's complement system are same.
+The final carry is discarded in 2's complement addition and the final carry is added to the result i.e. end around carry in 1's complement addition.
 
 2s complement system is better than 1s complement system because, 
-- there is no additional addition by 1
-- every number has unique representation
-- range of the numbers is more.
+- there is no additional addition by 1.
+- every number has unique representation.
+- range of the numbers is more in a given number of bits.
 
 For a number $(N)_{10}$ 
 - $N$ + 2’s Complement of $N$ $= (0000 0000)_{2} = (0)_{10}$

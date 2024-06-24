@@ -15,7 +15,6 @@ tags:
 
 - [[Introduction to Digital Logic]]
 - [[Boolean Algebra]]
-- [[Decimal and Binary System]]
 - [[Laws of Boolean Algebra]]
 - [[Boolean Function]]
 - [[Algebraic Simplification of Boolean Functions]]
@@ -30,8 +29,8 @@ tags:
 ## Module 2 - Number Systems
 
 - [[Number Systems]]
+- [[Decimal and Binary System]]
 - [[Octal and Hexadecimal System]]
-- [[Binary System]]
 - [[Complements in Number System]]
 - [[Subtraction of Unsigned Numbers]]
 - [[Signed Binary Numbers]]

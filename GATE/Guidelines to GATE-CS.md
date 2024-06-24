@@ -1,16 +1,14 @@
 ---
-pdf: 
-module: 
-lecture: 
-date: 
-version: 
-last-revision: 2024-06-18T19:05:00
-notes-taken: false
 tags:
   - GATE/Guidelines
 ---
 # Guidelines to GATE-CS
 
+
+## Guidelines to Programming with C
+
+
+---
 ## Guidelines to Digital Logic
 
 - Some questions on boolean algebra can be solved by evaluating the boolean expressions in the options.
@@ -32,4 +30,13 @@ $$
 - Look for the corner 1-cells and the folding 1-cells while creating cubes.
 
 
+- Do not try to remember subtraction of unsigned numbers using complements. Just apply the expansion technique and find the difference.
+- Sign-magnitude, 1's complement, 2's complement representation are only for signed binary numbers in digital systems. They are not operations here, they are number systems specific to signed binary numbers in digital systems. There is no 9s complement or 10s complement representation.
+- The minimum number of 1's complement is found from the complement of maximum number of 1's complement in $n$ bits. It is not a weighted system unlike 2's complement.
+- Most of the signed binary addition concepts are cleared by simply adding the given two numbers.
+- Binary codes are any strings of 0s and 1s derived from a systematic calculation. Each element encoded has a distinct binary code.
+- Binary codes for decimal digits means binary codes for each digit of a number and not for the entire number.
+- Gray code is a binary code for the entire number and not for each digit.
+
 ---
+

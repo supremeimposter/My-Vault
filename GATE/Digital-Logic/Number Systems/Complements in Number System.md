@@ -5,12 +5,14 @@ lecture: "3"
 date: 2024-02-24T21:19:00
 version:
   - DL-24
-last-revision: 2024-05-29T17:41:00
+last-revision: 2024-06-23T17:41:00
 notes-taken: true
 tags:
   - DigitalLogic/NumberSystem
+  - DigitalLogic/Complement
 ---
 # Complements in Number System
+
 Complementing is a operation on base-$r$ numbers.
 
 ```mermaid
@@ -29,14 +31,14 @@ $$
 \text{Diminished Radix Complement} + 1 = \text{Radix Complement}
 $$
 
-Complements are used in digital computers to simplify subtraction operation leading to simpler, less expensive circuits and logical manipulation.
+Complements are used in digital computers to **simplify subtraction operation** leading to simpler, less expensive circuits and logical manipulation.
 
 > [!example] 
 > ![[Complements in Number System-20240529100657224.webp]]
 > ![[Complements in Number System-20240529100710677.webp]]
 > ![[Complements in Number System-20240529100725195.webp]]
 
-> [!trick] To find the $N$'s complement quickly
+> [!trick] To find the $r$'s complement quickly
 > 1. Go from right to left (LSP to MSP). 
 > 2. Subtract the first non-zero number $x$ from $r$ i.e. $r - x$
 > 3. and subtract the rest of the numbers $y_i$ from $(r - 1)$ i.e. $(r - 1) - y_i$ 

@@ -5,20 +5,37 @@ lecture: 7A
 date: 2024-02-27T11:04:00
 version:
   - DL-24
-last-revision: 2024-06-02T19:32:00
+last-revision: 2024-06-24T19:32:00
 notes-taken: true
 tags:
   - DigitalLogic/BinaryCodes
 ---
 # Binary Codes for Decimal Digits
 
-A binary code is a pattern of 1s and 0s. Binary codes are patterns of 0s and 1s because of digital circuits. In most of the cases in computers, binary numbers represents some kind of coded information rather than binary numbers itself. 
+A binary code is a pattern of 1s and 0s. In most of the cases in computers, binary numbers represents some kind of coded information rather than binary numbers itself. There can be any number of any number of binary codes.
 
-> [!NOTE]
-> >A code is a representation of a data that was previously in some other representation.
+> [!definition] Code
+> A code is a representation of a data that was previously in some other representation.
 > 
 > ![[Binary Codes-20240602115718059.webp]]
-> 
+
+In a single bit, 2 different numbers can be encoded,
+$$
+\begin{split}
+\underline{0} = 0 \\
+\underline{1} = 1
+\end{split}
+$$
+In 2 bits, 4 different numbers can be encoded,
+$$
+\begin{split}
+\underline{00} = 0 \\
+\underline{01} = 1 \\
+\underline{10} = 2 \\
+\underline{11} = 3 
+\end{split}
+$$
+and so on...
 
 If we have to represent $m$ number of discrete set of finite elements in $n$ bits, then
 $$
@@ -33,20 +50,20 @@ n &= \lceil \log_{2} m  \rceil
 \end{split}
 $$
 For example, 
-- to represent a set of $4$ elements, we require minimum $2$ bits.
-- to represent a set of $8$ elements, we require minimum $3$ bits.
-- to represent a set of $16$ elements, we require minimum $4$ bits.
+- to represent a set of $3$ elements, we require minimum $2$ bits.
+- to represent a set of $6$ elements, we require minimum $3$ bits.
+- to represent a set of $13$ elements, we require minimum $4$ bits.
 - to represent a set of $2^n$ elements, we require minimum $n$ bits.
 
 Each element should have an unique representation i.e. code assignment must be unambiguous.
 
-There is no maximum number of bits required for a binary code, for example consider the below example called "Go Code" in which 10 decimal digits is coded with 10 bits.
+There is no maximum number of bits required for a binary code, for example consider the below example called "Go Code" in which 10 decimal digits is coded with 10 bits. Any kind of valid binary code can be defined over any number of bits.
 
 ![[Binary Codes-20240602124542564.webp]]
 
 Binary numbers themselves can be considered as a binary codes of decimal numbers.
 
-There are many types of binary codes.
+There are many types of binary codes for decimal digits. Each decimal digit is encoded in 0s and 1s.
 
 > [!youtube] 
 > [Lecture 7B - BCD Code, 2421 Code, Self Complementary Binary Codes | Digital Logic - YouTube](https://www.youtube.com/watch?v=33sBA5oyXek)
@@ -61,7 +78,8 @@ Since there are 4 bits, there are 16 possible combinations and we need only 10 s
 
 ![[Binary Codes-20240602163359271.webp]]
 
-Each decimal digit is mapped to a binary code. BCD is a binary coded Decimal number and not a binary number.
+Each decimal digit is mapped to a binary code of 4 bits. BCD is a binary coded Decimal number and not a binary number.
+
 ![[Binary Codes-20240602162923666.webp]]
 
 > [!example] 
@@ -69,12 +87,13 @@ Each decimal digit is mapped to a binary code. BCD is a binary coded Decimal num
 > 2. $(312)_{10} = (0011\; 0001\; 0010)_{BCD}$
 
 BCD numbers takes more space that its equivalent binary numbers, but it has its advantages. 
-BCD code is also called as $8421$ code as weight can be assigned to the code.
+BCD code is also called as $8421$ code as **weight** can be assigned to the code.
 
 ## 2421 Code
-The weight of the code is 2421. 
-![[Binary Codes-20240602183602488.webp]]
 
+The weight of the code is 2421. 
+
+![[Binary Codes-20240602183602488.webp]]
 
 2421 code is a self complementing code.
 
@@ -90,10 +109,11 @@ Excess-3 code is obtained by adding BCD code of each digit with $0011$. Because 
 ![[Binary Codes for Decimal Digits-20240602190135469.webp]]
 
 Excess-3 code is a self complementing code.
+
 ![[Binary Codes for Decimal Digits-20240602185738952.webp]]
 
 > [!observation] 
->> There won't be any final carry out while converting BCD to Excess-3 code.
+> There won't be any final carry out while converting BCD to Excess-3 code.
 >
 > ![[Binary Codes for Decimal Digits-20240602191641914.webp]]
 
@@ -110,6 +130,6 @@ $8, 4, -2, -1$ is a Self Complementing Code.
 
 ![[Binary Codes for Decimal Digits-20240602191243554.webp]]
 
-A weighted code is self complementary if the sum of all the weights is equal to 9, but the converse is not true.
+A weighted code for decimal digits is self complementary if the sum of all the weights is equal to 9, but the converse is not true.
 
 ---

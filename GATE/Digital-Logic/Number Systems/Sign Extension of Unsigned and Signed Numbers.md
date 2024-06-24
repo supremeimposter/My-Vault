@@ -5,7 +5,7 @@ lecture: "6"
 date: 2024-02-27T10:32:00
 version:
   - DL-24
-last-revision: 2024-06-02T11:54:00
+last-revision: 2024-06-24T11:54:00
 notes-taken: true
 tags:
   - DigitalLogic/NumberSystem
@@ -39,6 +39,8 @@ For negative numbers,
 
 ### 1's Complement Representation
 
+The most significant bits are copied to every additional bit to retain the original value in 1's complement representation.
+
 For positive numbers,
 ![[Sign Extension of Unsigned and Signed Numbers-20240602113010438.webp]]
 ![[Sign Extension of Unsigned and Signed Numbers-20240602113301405.webp]]
@@ -51,6 +53,8 @@ For negative numbers,
 ![[Sign Extension of Unsigned and Signed Numbers-20240602114719358.webp]]
 
 ### 2's Complement Representation
+
+Similar to the extension in 1's complement representation, the most significant bit is copied into the additional bits.
 
 For positive numbers,
 ![[Sign Extension of Unsigned and Signed Numbers-20240602114013838.webp]]
