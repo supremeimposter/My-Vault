@@ -1,20 +1,108 @@
 {
   "recentFiles": [
     {
-      "basename": "Boolean Function",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
+      "basename": "Compact Truth Table Representation",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
     },
     {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Gray code",
+      "path": "GATE/Digital-Logic/Number Systems/Gray code.md"
     },
     {
       "basename": "Digital-Logic-Mindmap",
       "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
     },
     {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Topics-Tracker-for-GATE",
+      "path": "GATE/Topics-Tracker-for-GATE.md"
+    },
+    {
+      "basename": "Binary Codes for Decimal Digits",
+      "path": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md"
+    },
+    {
+      "basename": "Multiplexer and Demultiplexer",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
+    },
+    {
+      "basename": "Sign Extension of Unsigned and Signed Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md"
+    },
+    {
+      "basename": "Overflow of Signed and Unsigned Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
+    },
+    {
+      "basename": "Signed Binary Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md"
+    },
+    {
+      "basename": "Eigen Values and Eigen Vectors",
+      "path": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
+    },
+    {
+      "basename": "Signed and Unsigned in C",
+      "path": "GATE/Programming-with-C/Signed and Unsigned in C.md"
+    },
+    {
+      "basename": "Complements in Number System",
+      "path": "GATE/Digital-Logic/Number Systems/Complements in Number System.md"
+    },
+    {
+      "basename": "Subtraction of Unsigned Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md"
+    },
+    {
+      "basename": "Decimal and Binary System",
+      "path": "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md"
+    },
+    {
+      "basename": "Octal and Hexadecimal System",
+      "path": "GATE/Digital-Logic/Number Systems/Octal and Hexadecimal System.md"
+    },
+    {
+      "basename": "Number Systems",
+      "path": "GATE/Digital-Logic/Number Systems/Number Systems.md"
+    },
+    {
+      "basename": "Programming with C",
+      "path": "GATE/Programming-with-C/Programming with C.md"
+    },
+    {
+      "basename": "Conditional Statements in C",
+      "path": "GATE/Programming-with-C/Conditional Statements in C.md"
+    },
+    {
+      "basename": "Operators in C",
+      "path": "GATE/Programming-with-C/Operators in C.md"
+    },
+    {
+      "basename": "Type Conversion in C",
+      "path": "GATE/Programming-with-C/Type Conversion in C.md"
+    },
+    {
+      "basename": "Loops in C",
+      "path": "GATE/Programming-with-C/Loops in C.md"
+    },
+    {
+      "basename": "Introduction to Compiler Design",
+      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md"
+    },
+    {
+      "basename": "Boolean Function",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
+    },
+    {
+      "basename": "Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
     },
     {
       "basename": "Implicants of a Boolean Function",
@@ -57,10 +145,6 @@
       "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
     },
     {
-      "basename": "Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
-    },
-    {
       "basename": "Functional Completeness",
       "path": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md"
     },
@@ -69,44 +153,12 @@
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
     },
     {
-      "basename": "Decimal and Binary System",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md"
-    },
-    {
       "basename": "Introduction to Digital Logic",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
     },
     {
-      "basename": "Number Systems",
-      "path": "GATE/Digital-Logic/Number Systems/Number Systems.md"
-    },
-    {
-      "basename": "Binary System",
-      "path": "GATE/Digital-Logic/Number Systems/Binary System.md"
-    },
-    {
       "basename": "GATE-CS",
       "path": "GATE/GATE-CS.md"
-    },
-    {
-      "basename": "Topics-Tracker-for-GATE",
-      "path": "GATE/Topics-Tracker-for-GATE.md"
-    },
-    {
-      "basename": "Programming with C",
-      "path": "GATE/Programming-with-C/Programming with C.md"
-    },
-    {
-      "basename": "Conditional Statements in C",
-      "path": "GATE/Programming-with-C/Conditional Statements in C.md"
-    },
-    {
-      "basename": "Type Conversion in C",
-      "path": "GATE/Programming-with-C/Type Conversion in C.md"
-    },
-    {
-      "basename": "Signed and Unsigned in C",
-      "path": "GATE/Programming-with-C/Signed and Unsigned in C.md"
     },
     {
       "basename": "GATE-LOG",
@@ -117,24 +169,8 @@
       "path": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md"
     },
     {
-      "basename": "Multiplexer and Demultiplexer",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
-    },
-    {
       "basename": "Decoder",
       "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
-    },
-    {
-      "basename": "Overflow of Signed and Unsigned Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
-    },
-    {
-      "basename": "Signed Binary Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md"
-    },
-    {
-      "basename": "Compact Truth Table Representation",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
     },
     {
       "basename": "Shannons Expansion Theorem",
@@ -153,32 +189,8 @@
       "path": "GATE/Pending Lectures.md"
     },
     {
-      "basename": "Binary Codes for Decimal Digits",
-      "path": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md"
-    },
-    {
-      "basename": "Gray code",
-      "path": "GATE/Digital-Logic/Number Systems/Gray code.md"
-    },
-    {
-      "basename": "Sign Extension of Unsigned and Signed Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md"
-    },
-    {
       "basename": "Registers and Status Flags",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md"
-    },
-    {
-      "basename": "Subtraction of Unsigned Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md"
-    },
-    {
-      "basename": "Complements in Number System",
-      "path": "GATE/Digital-Logic/Number Systems/Complements in Number System.md"
-    },
-    {
-      "basename": "Octal and Hexadecimal System",
-      "path": "GATE/Digital-Logic/Number Systems/Octal and Hexadecimal System.md"
     },
     {
       "basename": "Compiler Design",
@@ -187,18 +199,6 @@
     {
       "basename": "Algorithms",
       "path": "GATE/Algorithms/Algorithms.md"
-    },
-    {
-      "basename": "Operating Systems",
-      "path": "GATE/OperatingSystems/Operating Systems.md"
-    },
-    {
-      "basename": "Computer Networks",
-      "path": "GATE/ComputerNetworks/Computer Networks.md"
-    },
-    {
-      "basename": "Linear Algebra",
-      "path": "GATE/Linear-Algebra/Linear Algebra.md"
     }
   ],
   "omittedPaths": [

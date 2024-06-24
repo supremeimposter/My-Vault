@@ -1,6 +1,5 @@
 [
   "darlal-switcher-plus",
-  "highlightr-plugin",
   "obsidian-admonition",
   "file-tree-alternative",
   "tag-wrangler",
@@ -40,5 +39,10 @@
   "canvas-mindmap",
   "obsidian-minimal-settings",
   "obsidian-hider",
-  "sheets"
+  "sheets",
+  "node-auto-resize",
+  "painter",
+  "outline-plus",
+  "typing-speed",
+  "obsidian-wakatime"
 ]

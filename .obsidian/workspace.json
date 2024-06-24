@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "db1ac940b1bb3b61",
+        "id": "e4f3559324ee7efe",
         "type": "tabs",
         "children": [
           {
-            "id": "180a42fd73da4497",
+            "id": "ab85773fb3542664",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "7404ddd50b8795f5",
+            "id": "9f66c7e946f39ee2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,32 +36,17 @@
             }
           },
           {
-            "id": "108f6a4bce3cdf9d",
+            "id": "9e9e6b916bc7da51",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "canvas",
               "state": {
                 "file": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
                 "viewState": {
-                  "x": 1876.670000000007,
-                  "y": 36.779999999999816,
+                  "x": 1651.559999999998,
+                  "y": -3973.399999999992,
                   "zoom": 0
                 }
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "7605d461a74bd9e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
               }
             }
           }
@@ -128,12 +113,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "fb0455d62c4f6c20",
@@ -150,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
+                "file": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
               }
             }
           },
@@ -252,44 +237,45 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7404ddd50b8795f5",
+  "active": "9f66c7e946f39ee2",
   "lastOpenFiles": [
-    "GATE/Guidelines to GATE-CS.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
-    "attachments/Boolean Function-20240621231449812.webp",
-    "attachments/Boolean Function-20240621230915170.webp",
-    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants of a Boolean Function.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares and Covering Functions.md",
-    "attachments/Implicants of a Boolean Function-20240621210438617.webp",
-    "attachments/Implicants of a Boolean Function-20240621184908491.webp",
-    "attachments/Implicants of a Boolean Function-20240621182709223.webp",
-    "attachments/Implicants of a Boolean Function-20240621171656301.webp",
-    "attachments/Implicants of a Boolean Function-20240621170534351.webp",
-    "attachments/Don't Cares and Covering Functions-20240621144627037.webp",
-    "attachments/Don't Cares and Covering Functions-20240621143757229.webp",
-    "attachments/Don't Cares and Covering Functions-20240621142922921.webp",
-    "GATE/Digital-Logic/Sequential Circuits/D Flip Flop.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
-    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
-    "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Decimal and Binary System.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
-    "GATE/Digital-Logic/Number Systems/Number Systems.md",
-    "GATE/Digital-Logic/Number Systems/Binary System.md",
-    "GATE/GATE-CS.md",
+    "GATE/Digital-Logic/Number Systems/Gray code.md",
+    "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
+    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
+    "GATE/Guidelines to GATE-CS.md",
     "GATE/Topics-Tracker-for-GATE.md",
+    "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
+    "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
+    "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md",
+    "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
+    "attachments/Overflow of Signed and Unsigned Numbers-20240624134149922.webp",
+    "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
+    "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
+    "attachments/Overflow of Signed and Unsigned Numbers-20240623164054356.webp",
+    "attachments/Overflow of Signed and Unsigned Numbers-20240623164005333.webp",
+    "attachments/Signed Binary Numbers-20240623155229029.webp",
+    "attachments/Signed Binary Numbers-20240623155110916.webp",
+    "GATE/Programming-with-C/Signed and Unsigned in C.md",
+    "GATE/Digital-Logic/Number Systems/Complements in Number System.md",
+    "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md",
+    "GATE/Digital-Logic/Number Systems/Binary System.md",
+    "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md",
+    "GATE/Digital-Logic/Number Systems/Octal and Hexadecimal System.md",
+    "attachments/Octal and Hexadecimal System-20240623111834862.webp",
+    "GATE/Digital-Logic/Number Systems/Number Systems.md",
+    "attachments/Number Systems-20240623093356686.webp",
+    "attachments/Number Systems-20240623093333496.webp",
+    "attachments/Number Systems-20240623090914503.webp",
     "GATE/Programming-with-C/Programming with C.md",
     "GATE/Programming-with-C/Conditional Statements in C.md",
+    "GATE/Programming-with-C/Operators in C.md",
+    "attachments/Operators in C-20240622204716500.webp",
     "GATE/Programming-with-C/Type Conversion in C.md",
-    "GATE/Programming-with-C/Signed and Unsigned in C.md",
-    "GATE/GATE-LOG.md",
+    "GATE/Programming-with-C/Loops in C.md",
+    "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",
