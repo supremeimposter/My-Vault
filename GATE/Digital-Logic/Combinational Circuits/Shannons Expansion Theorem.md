@@ -5,7 +5,7 @@ lecture:
 date: 2024-06-11T18:52:00
 version:
   - DL-25
-last-revision: 
+last-revision: 2024-06-24T17:41:00
 notes-taken: false
 tags:
   - DigitalLogic/BooleanAlgebra
@@ -14,7 +14,7 @@ tags:
 > [!youtube] [Shannon's Expansion Theorem | Decomposition of Switching Functions | GATE IT 2006 | Digital Circuit - YouTube](https://www.youtube.com/watch?v=Hn9MhOJs6F0&t=885s)
 
 > [!NOTE] 
-> This is similar to Compact Truth table.
+> This is similar to [[Compact Truth Table Representation|Compact Truth table]].
 
 ## Decompose Function into Minterms
 
@@ -36,7 +36,6 @@ tags:
 | -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- |
 | ![[Compact Truth Table Representation-20240611112545469.webp]] | ![[Compact Truth Table Representation-20240611112554909.webp]] | ![[Compact Truth Table Representation-20240611112603647.webp]] |
 All of the above functions are the different expressions of the same function.
-
 
 Any boolean function $f(w_{1}, w_{2}, w_{3}, \cdots, w_{n})$ can be written in the forms,
 $$
@@ -172,7 +171,6 @@ $$
 Shannon's expansion can be done with respect to either **minterms** or **maxterms**.
 
 ![[Shannons Expansion Theorem-20240611191236021.webp]]
-
 
 > [!example] 
 > ![[Shannons Expansion Theorem-20240611212310135.webp]]

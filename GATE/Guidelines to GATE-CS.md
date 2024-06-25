@@ -38,5 +38,12 @@ $$
 - Binary codes for decimal digits means binary codes for each digit of a number and not for the entire number.
 - Gray code is a binary code for the entire number and not for each digit.
 
+
+- Shannon's expansion theorem and compact truth table go hand in hand.
+- If you are stuck with MUX, just write the canonical SOP expression of the given function and try to write the compact truth table. It will give you more ideas.
+- If a MUX is given and the options are to find the function realized by the MUX, just plug in the control input values and see what happens to each of the options.
+- If the working of a given boolean function can be mimiced using a digital circuit, then the function has been realized or implemented by the digital circuit.
+- A decoder can act as a DEMUX whereas a decoder can be used to implement MUX. 
+
 ---
 

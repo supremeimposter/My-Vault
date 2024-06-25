@@ -5,17 +5,18 @@ lecture: "4"
 date: 2024-03-03T20:44:00
 version:
   - DL-24
-last-revision: 2024-06-10T20:33:00
+last-revision: 2024-06-25T20:33:00
 notes-taken: true
 tags:
   - DigitalLogic/CombinationalCircuits
 ---
 # Encoder
-> [!analogy] 
-> Encoding is like giving a code to each people waiting at the door.
 
-An encoder assigns a code for the data on each of the input line.
-$2^n$ objects is mapped against $n$ codes uniquely.
+> [!analogy] 
+> Encoding is like giving a unique code to each people in the game to represent them besides the username.
+
+An encoder assigns a unique binary code for the data on each of the input line.
+$2^n$ objects are mapped against $n$ codes uniquely.
 Each input of the encoder gets a unique encoding because of Encoder.
 
 There are several types of Encoder:
@@ -31,7 +32,7 @@ The inputs to the binary encoder are always one-hot encoded i.e. allows only one
 > [!definition] "One-hot" encoding
 > one-hot encoding refers to a binary code in which only one bit is high(1).
 > 
-> | Decimal | Binary | Unary    | One-hot  |
+> | Decimal | Binary | Unary    | <mark class="hltr-yellow">One-hot</mark>  |
 | ------- | ------ | -------- | -------- |
 | 0       | 000    | 00000000 | 00000001 |
 | 1       | 001    | 00000001 | 00000010 |
@@ -68,7 +69,6 @@ Do not care about the remaining input combinations as they **never occur** and t
 From the above table and by the behaviour of binary encoder, it is clear that,
 $Y_{1} = 1$ only when $I_{2} = 1$ or $I_{3} = 1$ and 
 $Y_{0} = 1$ only when $I_{1} = 1$ or $I_{3} = 1$
-
 
 ![[Encoder-20240609230450473.webp]]
 

@@ -28,90 +28,6 @@
       "label": "Partially specified functions"
     },
     {
-      "id": "5379461ceb4f853e",
-      "type": "text",
-      "text": "Representation of Boolean Expressions/Functions",
-      "x": -1000,
-      "y": -1444,
-      "width": 297,
-      "height": 79
-    },
-    {
-      "id": "fb197c409829bcee",
-      "type": "text",
-      "text": "**Truth Table**\n\nRepresents each input combination to the function and the value obtained by that input combination.\n\nStandard Truth table has an agreed order of input combinations - decimal values",
-      "x": -1760,
-      "y": -1320,
-      "width": 460,
-      "height": 220
-    },
-    {
-      "id": "224561fce4a32fd3",
-      "type": "text",
-      "text": "You cannot be sure that the simplified expression is the minimal and also it does not have a standard systematic way to arrive at the minimal solution, so that's why we need k-maps",
-      "x": -1835,
-      "y": -2742,
-      "width": 413,
-      "height": 162
-    },
-    {
-      "id": "e4afd210e1cae585",
-      "type": "text",
-      "text": "**K-Maps**",
-      "x": -700,
-      "y": -2605,
-      "width": 175,
-      "height": 50
-    },
-    {
-      "id": "a39ea932756edd12",
-      "type": "text",
-      "text": "You need a minimized expression or function that has minimum number of terms in which each term has minimum number of literals.\n\nYou get minimized form out of canonical form from the k-map\n\nCanonical form $\\Rightarrow$ minimised form",
-      "x": -335,
-      "y": -2845,
-      "width": 470,
-      "height": 240,
-      "color": "3"
-    },
-    {
-      "id": "0ff9fe51ab0050b0",
-      "type": "text",
-      "text": "**Minimization of Boolean Expression**\n\nEquivalent expression with minimal literal count and minimal logic gates",
-      "x": -400,
-      "y": -2420,
-      "width": 283,
-      "height": 182
-    },
-    {
-      "id": "1d00e7fb78b9f11a",
-      "type": "text",
-      "text": "**Boolean Expression**\nset of literals connected by logical connectives\n\n**Boolean Equation**\nexpression1 = expression2\n\n**Boolean function**\nA boolean equation on several variables, where LHS is defined by RHS\n\n",
-      "x": 260,
-      "y": -2240,
-      "width": 378,
-      "height": 300
-    },
-    {
-      "id": "2fb95ae869bc6c35",
-      "type": "text",
-      "text": "They are the same because they have the same domain ($2^n$ input combinations) co-domain $\\{0, 1\\}$",
-      "borderStyle": "dotted",
-      "x": 220,
-      "y": -1880,
-      "width": 330,
-      "height": 122
-    },
-    {
-      "id": "8b36e70602bc3d11",
-      "type": "text",
-      "text": "**Boolean Functions**",
-      "x": 940,
-      "y": -1480,
-      "width": 212,
-      "height": 60,
-      "color": "5"
-    },
-    {
       "id": "1fecfe29eff5d0be",
       "type": "text",
       "text": "**Don't Cares in K-map**\n\nDon't cares can be taken as either 0 or 1 to form cubes of appropriate sizes to form minimized SOP expressions.",
@@ -149,46 +65,6 @@
       "color": "6"
     },
     {
-      "id": "e947516bcc7b661a",
-      "type": "text",
-      "text": "**Algebraic Simplification**\nApply boolean algebraic laws in a systematic way to obtain the minimized equivalent expression",
-      "x": -1580,
-      "y": -2420,
-      "width": 302,
-      "height": 168
-    },
-    {
-      "id": "b66ba5c61f5a08ed",
-      "type": "text",
-      "text": "**Boolean Expression**\n",
-      "isStartNode": false,
-      "x": -408,
-      "y": -1430,
-      "width": 228,
-      "height": 50,
-      "color": "5"
-    },
-    {
-      "id": "816b5b2909982414",
-      "type": "text",
-      "text": "**Digital Logic**",
-      "shape": "predefined-process",
-      "x": 1200,
-      "y": -1840,
-      "width": 250,
-      "height": 140,
-      "color": "1"
-    },
-    {
-      "id": "60f0b88283b55813",
-      "type": "text",
-      "text": "Digital Circuits",
-      "x": 2110,
-      "y": -1369,
-      "width": 260,
-      "height": 60
-    },
-    {
       "id": "6ecdc75da8627736",
       "type": "text",
       "text": "![[Pasted image 20240530185815.png]]",
@@ -196,24 +72,6 @@
       "y": -4629,
       "width": 380,
       "height": 688
-    },
-    {
-      "id": "695f8fcd69a7bf12",
-      "type": "text",
-      "text": "**Realization of a given function**\n\nDigital circuits can realize a given function in form of an expression. Function realization means implementing the given function.\n\nThere can be some digital circuits that have multiple outputs, but for realizing a function, there must be only one output.",
-      "x": 1400,
-      "y": -1369,
-      "width": 442,
-      "height": 269
-    },
-    {
-      "id": "052098c9a2853077",
-      "type": "text",
-      "text": "**Covering Functions**\n\nA function $F$ covers $G$ iff \n1. whenever $G = 1$, $F = 1$ or\n2. whenever $F = 0, G = 0$\n\n$$\n\\therefore G \\rightarrow F\n$$",
-      "x": 1860,
-      "y": -920,
-      "width": 320,
-      "height": 240
     },
     {
       "id": "68ddf72b57edf565",
@@ -234,44 +92,6 @@
       "height": 204
     },
     {
-      "id": "fb4e853ef9f1fd19",
-      "type": "text",
-      "text": "When a function $F$ is complemented, then it is a different function. $\\overline{F}$ has different standard and canonical forms.",
-      "x": -100,
-      "y": -920,
-      "width": 460,
-      "height": 120,
-      "color": "6"
-    },
-    {
-      "id": "388b7e637cfc83dd",
-      "type": "text",
-      "text": "$f = \\sum m (f = 1) = \\prod M (f = 0)$\n",
-      "x": -140,
-      "y": -682,
-      "width": 300,
-      "height": 59
-    },
-    {
-      "id": "ad030c7659a584d9",
-      "type": "text",
-      "text": "**Canonical Form**\nThese two forms are from a function's perspective",
-      "x": -360,
-      "y": -182,
-      "width": 260,
-      "height": 120,
-      "color": "2"
-    },
-    {
-      "id": "2ea1e24a42383cf3",
-      "type": "text",
-      "text": "Unique forms",
-      "x": -320,
-      "y": -305,
-      "width": 180,
-      "height": 50
-    },
-    {
       "id": "24851078ccd429d1",
       "type": "text",
       "text": "**Canonical POS**\n\nLogical AND of those maxterms for which the function value is 0\n\nCanonical POS is the product of maxterms",
@@ -279,34 +99,6 @@
       "y": 60,
       "width": 260,
       "height": 240
-    },
-    {
-      "id": "955007188e1103f6",
-      "type": "text",
-      "text": "**Implicants**\nAn implicant $I$ of a function $F$ is a product term that that is covered by the function $F$.\n$$\nI \\rightarrow F\n$$\nAny cube of 1's",
-      "x": 1880,
-      "y": -489,
-      "width": 443,
-      "height": 189
-    },
-    {
-      "id": "923e46644e2b5311",
-      "type": "text",
-      "text": "**Prime Implicant**\n\nA cube of 1's that is as large as possible.",
-      "x": 2116,
-      "y": -100,
-      "width": 304,
-      "height": 147
-    },
-    {
-      "id": "25e7050d63f2eeab",
-      "type": "text",
-      "text": "Implicants are visualized better in k-maps",
-      "borderStyle": "dotted",
-      "x": 1700,
-      "y": -56,
-      "width": 260,
-      "height": 60
     },
     {
       "id": "c02f151cb3b91118",
@@ -336,15 +128,6 @@
       "height": 144
     },
     {
-      "id": "148952cc2c24a06c",
-      "type": "text",
-      "text": "There can be infinitely many standard forms for an expression",
-      "x": -1476,
-      "y": -371,
-      "width": 366,
-      "height": 91
-    },
-    {
       "id": "9f75c7d1644c7108",
       "type": "text",
       "text": "**Minterm**\nA product term which contains every variable in either complemented or non-complemented form exactly once.",
@@ -363,43 +146,6 @@
       "height": 184
     },
     {
-      "id": "00b8b156e600380a",
-      "type": "text",
-      "text": "A boolean expression can be expressed in many ways. \n$$\n\\begin{split}\nE &= a \\\\\n&= a + aa \\\\\n&= aaaa \\\\\n&= a + aa + aaaaa \\\\\n&= aa \\\\\n&= a + 0\n\\end{split}\n$$\nBut we want a standard and unique form to express a particular boolean expression in a minimized and standard form",
-      "x": -740,
-      "y": -980,
-      "width": 403,
-      "height": 360
-    },
-    {
-      "id": "9227413afe6efd0d",
-      "type": "text",
-      "text": "Standard Form of an Expression",
-      "x": -712,
-      "y": -520,
-      "width": 348,
-      "height": 60,
-      "color": "2"
-    },
-    {
-      "id": "6ba44d833a5d7cae",
-      "type": "text",
-      "text": "**Essential Prime Implicants**\n\nA prime implicant that covers at least one 1-cell uniquely\n\nEssential Prime Implicants help in getting *unique minimal expression*",
-      "x": 2033,
-      "y": 183,
-      "width": 387,
-      "height": 217
-    },
-    {
-      "id": "c64c17882b00e854",
-      "type": "text",
-      "text": "**Sum of Products**\nLogical OR of product terms",
-      "x": -1220,
-      "y": -180,
-      "width": 260,
-      "height": 118
-    },
-    {
       "id": "49777b66628319e1",
       "type": "text",
       "text": "**Product of Sums**\nLogical AND of sum terms",
@@ -416,87 +162,6 @@
       "y": 55,
       "width": 221,
       "height": 86
-    },
-    {
-      "id": "79648b98413b3e27",
-      "type": "text",
-      "text": "Not unique forms",
-      "x": -908,
-      "y": -310,
-      "width": 208,
-      "height": 60
-    },
-    {
-      "id": "5a2ed7b815e02199",
-      "type": "text",
-      "text": "Only one input combination is given as input to a function at a time. Truth table just lists out the possible input combintations and the result of those input combination on that function.",
-      "x": -2500,
-      "y": -1140,
-      "width": 388,
-      "height": 180
-    },
-    {
-      "id": "02e90eac7ee07c6a",
-      "type": "text",
-      "text": "Standard forms corresponds to a circuit in 2-level implementation",
-      "x": -1476,
-      "y": -560,
-      "width": 333,
-      "height": 84
-    },
-    {
-      "id": "1f609347f85dceb8",
-      "type": "text",
-      "text": "If a function is completely specified for every input combination, then it is a total function\n",
-      "x": 577,
-      "y": -1234,
-      "width": 311,
-      "height": 128
-    },
-    {
-      "id": "4b08e239ae642e4f",
-      "type": "text",
-      "text": "If a function is parially specified for some input combination, then it is a partial function\n",
-      "x": 940,
-      "y": -820,
-      "width": 315,
-      "height": 114
-    },
-    {
-      "id": "c9060b1c9a02dd4b",
-      "type": "text",
-      "text": "If a function has $k$ don't cares, then it correponds to $2^k$ class of functions.",
-      "x": 920,
-      "y": -289,
-      "width": 328,
-      "height": 122
-    },
-    {
-      "id": "0a4907725ef931f0",
-      "type": "text",
-      "text": "**Don't Cares**\nWhen an input combination never occurs, we do not care about its function value.\nWhen a function's precise value is of no importance, we do not care about it",
-      "x": 1084,
-      "y": -600,
-      "width": 392,
-      "height": 187
-    },
-    {
-      "id": "22d2c045e230eb86",
-      "type": "text",
-      "text": "Each don't care can take either 0 or 1",
-      "x": 1346,
-      "y": -289,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "86d18244a4d80e8a",
-      "type": "text",
-      "text": "Combinational Circuits",
-      "x": 2900,
-      "y": -2320,
-      "width": 260,
-      "height": 60
     },
     {
       "id": "b134e1841641cce9",
@@ -591,31 +256,21 @@
     },
     {
       "id": "80f03c5c5434c5e9",
+      "type": "text",
+      "text": "If the given numbers are of opposite signs, then OF never occurs.",
       "x": 1500,
       "y": -4442,
       "width": 296,
-      "height": 101,
-      "type": "text",
-      "text": "If the given numbers are of opposite signs, then OF never occurs."
-    },
-    {
-      "id": "f261b401c957d875",
-      "type": "text",
-      "text": "**Number System**\n\nBase = Radix = $r$\n$r$ = number of symbols in the number system",
-      "x": 1980,
-      "y": -3700,
-      "width": 422,
-      "height": 120,
-      "color": "3"
+      "height": 101
     },
     {
       "id": "2d9416a833ca5bfa",
+      "type": "text",
+      "text": "If the given numbers are of the same sign, OF may or may not occur",
       "x": 1706,
       "y": -4608,
       "width": 398,
-      "height": 74,
-      "type": "text",
-      "text": "If the given numbers are of the same sign, OF may or may not occur"
+      "height": 74
     },
     {
       "id": "5ddae190658120d5",
@@ -636,60 +291,6 @@
       "height": 100
     },
     {
-      "id": "a4ea337659c4774c",
-      "type": "text",
-      "text": "Using radix complement",
-      "x": 3217,
-      "y": -3819,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "ada146cdeb66c223",
-      "type": "text",
-      "text": "**Subtraction of Unsigned Numbers**",
-      "x": 2860,
-      "y": -3740,
-      "width": 231,
-      "height": 60
-    },
-    {
-      "id": "15bcc940d77942d0",
-      "type": "text",
-      "text": "Radix complement",
-      "x": 2831,
-      "y": -3460,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "1961ccb1881ed0e1",
-      "type": "text",
-      "text": "**Complement**\nTo perform subtraction easier and with less digital circuits, complementation operation is used",
-      "x": 2440,
-      "y": -3430,
-      "width": 260,
-      "height": 214
-    },
-    {
-      "id": "28b5dd7845693546",
-      "type": "text",
-      "text": "Diminished Radix complement",
-      "x": 2831,
-      "y": -3276,
-      "width": 307,
-      "height": 60
-    },
-    {
-      "id": "6203b77e8b8b8cea",
-      "type": "text",
-      "text": "Using diminished radix complement",
-      "x": 3217,
-      "y": -3680,
-      "width": 260,
-      "height": 60
-    },
-    {
       "id": "ba3aecfd2d19a313",
       "type": "text",
       "text": "**Conversion between different number systems**\n\n*r-ary to Decimal* : Expansion of weights\n\n*Decimal to r-ary* : Successive division and multiplicaton by r.\n\n*r1-ary to r2-ary* : (r1-ary to decimal) then (decimal to r2-ary)",
@@ -700,21 +301,12 @@
     },
     {
       "id": "82e0e601ad72e7c1",
+      "type": "text",
+      "text": "**Binary Code**\nAny pattern of 0s and 1s that represents a distinct object.",
       "x": 1460,
       "y": -3800,
       "width": 254,
-      "height": 128,
-      "type": "text",
-      "text": "**Binary Code**\nAny pattern of 0s and 1s that represents a distinct object."
-    },
-    {
-      "id": "e79734fab71e1483",
-      "type": "text",
-      "text": "**2s complement**\nTake the 2s complement of the given number.\nThe negative of the resultant number is represented in the given number.",
-      "x": 4120,
-      "y": -4100,
-      "width": 342,
-      "height": 203
+      "height": 128
     },
     {
       "id": "1a84184098b6bfe5",
@@ -742,6 +334,459 @@
       "y": -4387,
       "width": 342,
       "height": 203
+    },
+    {
+      "id": "1d00e7fb78b9f11a",
+      "type": "text",
+      "text": "**Boolean Expression**\nset of literals connected by logical connectives\n\n**Boolean Equation**\nexpression1 = expression2\n\n**Boolean function**\nA boolean equation on several variables, where LHS is defined by RHS\n\n",
+      "x": 260,
+      "y": -2240,
+      "width": 378,
+      "height": 300
+    },
+    {
+      "id": "2fb95ae869bc6c35",
+      "type": "text",
+      "text": "They are the same because they have the same domain ($2^n$ input combinations) co-domain $\\{0, 1\\}$",
+      "borderStyle": "dotted",
+      "x": 220,
+      "y": -1880,
+      "width": 330,
+      "height": 122
+    },
+    {
+      "id": "8b36e70602bc3d11",
+      "type": "text",
+      "text": "**Boolean Functions**",
+      "x": 940,
+      "y": -1480,
+      "width": 212,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "0ff9fe51ab0050b0",
+      "type": "text",
+      "text": "**Minimization of Boolean Expression**\n\nEquivalent expression with minimal literal count and minimal logic gates",
+      "x": -400,
+      "y": -2420,
+      "width": 283,
+      "height": 182
+    },
+    {
+      "id": "b66ba5c61f5a08ed",
+      "type": "text",
+      "text": "**Boolean Expression**\n",
+      "isStartNode": false,
+      "x": -408,
+      "y": -1430,
+      "width": 228,
+      "height": 50,
+      "color": "5"
+    },
+    {
+      "id": "fb197c409829bcee",
+      "type": "text",
+      "text": "**Truth Table**\n\nRepresents each input combination to the function and the value obtained by that input combination.\n\nStandard Truth table has an agreed order of input combinations - decimal values",
+      "x": -1760,
+      "y": -1320,
+      "width": 460,
+      "height": 220
+    },
+    {
+      "id": "5379461ceb4f853e",
+      "type": "text",
+      "text": "Representation of Boolean Expressions/Functions",
+      "x": -1040,
+      "y": -1509,
+      "width": 297,
+      "height": 79
+    },
+    {
+      "id": "5a2ed7b815e02199",
+      "type": "text",
+      "text": "Only one input combination is given as input to a function at a time. Truth table just lists out the possible input combintations and the result of those input combination on that function.",
+      "x": -2500,
+      "y": -1140,
+      "width": 388,
+      "height": 180
+    },
+    {
+      "id": "e225fa3935445f7f",
+      "type": "text",
+      "text": "**Compact Truth table**\nSimilar to by-case method.\nA function is expressed in a truth table but interms of lesser variables than the variables in the function.",
+      "x": -1681,
+      "y": -1800,
+      "width": 302,
+      "height": 200
+    },
+    {
+      "id": "00b8b156e600380a",
+      "type": "text",
+      "text": "A boolean expression can be expressed in many ways. \n$$\n\\begin{split}\nE &= a \\\\\n&= a + aa \\\\\n&= aaaa \\\\\n&= a + aa + aaaaa \\\\\n&= aa \\\\\n&= a + 0\n\\end{split}\n$$\nBut we want a standard and unique form to express a particular boolean expression in a minimized and standard form",
+      "x": -740,
+      "y": -980,
+      "width": 403,
+      "height": 360
+    },
+    {
+      "id": "e947516bcc7b661a",
+      "type": "text",
+      "text": "**Algebraic Simplification**\nApply boolean algebraic laws in a systematic way to obtain the minimized equivalent expression",
+      "x": -1580,
+      "y": -2420,
+      "width": 302,
+      "height": 168
+    },
+    {
+      "id": "e4afd210e1cae585",
+      "type": "text",
+      "text": "**K-Maps**",
+      "x": -700,
+      "y": -2605,
+      "width": 175,
+      "height": 50
+    },
+    {
+      "id": "224561fce4a32fd3",
+      "type": "text",
+      "text": "You cannot be sure that the simplified expression is the minimal and also it does not have a standard systematic way to arrive at the minimal solution, so that's why we need k-maps",
+      "x": -1835,
+      "y": -2742,
+      "width": 413,
+      "height": 162
+    },
+    {
+      "id": "fb4e853ef9f1fd19",
+      "type": "text",
+      "text": "When a function $F$ is complemented, then it is a different function. $\\overline{F}$ has different standard and canonical forms.",
+      "x": -100,
+      "y": -920,
+      "width": 460,
+      "height": 120,
+      "color": "6"
+    },
+    {
+      "id": "a39ea932756edd12",
+      "type": "text",
+      "text": "You need a minimized expression or function that has minimum number of terms in which each term has minimum number of literals.\n\nYou get minimized form out of canonical form from the k-map\n\nCanonical form $\\Rightarrow$ minimised form",
+      "x": -335,
+      "y": -2845,
+      "width": 470,
+      "height": 240,
+      "color": "3"
+    },
+    {
+      "id": "1f609347f85dceb8",
+      "type": "text",
+      "text": "If a function is completely specified for every input combination, then it is a total function\n",
+      "x": 577,
+      "y": -1234,
+      "width": 311,
+      "height": 128
+    },
+    {
+      "id": "388b7e637cfc83dd",
+      "type": "text",
+      "text": "$f = \\sum m (f = 1) = \\prod M (f = 0)$\n",
+      "x": -140,
+      "y": -682,
+      "width": 300,
+      "height": 59
+    },
+    {
+      "id": "4b08e239ae642e4f",
+      "type": "text",
+      "text": "If a function is parially specified for some input combination, then it is a partial function\n",
+      "x": 940,
+      "y": -820,
+      "width": 315,
+      "height": 114
+    },
+    {
+      "id": "0a4907725ef931f0",
+      "type": "text",
+      "text": "**Don't Cares**\nWhen an input combination never occurs, we do not care about its function value.\nWhen a function's precise value is of no importance, we do not care about it",
+      "x": 1084,
+      "y": -600,
+      "width": 392,
+      "height": 187
+    },
+    {
+      "id": "02e90eac7ee07c6a",
+      "type": "text",
+      "text": "Standard forms corresponds to a circuit in 2-level implementation",
+      "x": -1476,
+      "y": -560,
+      "width": 333,
+      "height": 84
+    },
+    {
+      "id": "148952cc2c24a06c",
+      "type": "text",
+      "text": "There can be infinitely many standard forms for an expression",
+      "x": -1476,
+      "y": -371,
+      "width": 366,
+      "height": 91
+    },
+    {
+      "id": "79648b98413b3e27",
+      "type": "text",
+      "text": "Not unique forms",
+      "x": -908,
+      "y": -310,
+      "width": 208,
+      "height": 60
+    },
+    {
+      "id": "c64c17882b00e854",
+      "type": "text",
+      "text": "**Sum of Products**\nLogical OR of product terms",
+      "x": -1220,
+      "y": -180,
+      "width": 260,
+      "height": 118
+    },
+    {
+      "id": "052098c9a2853077",
+      "type": "text",
+      "text": "**Covering Functions**\n\nA function $F$ covers $G$ iff \n1. whenever $G = 1$, $F = 1$ or\n2. whenever $F = 0, G = 0$\n\n$$\n\\therefore G \\rightarrow F\n$$",
+      "x": 1860,
+      "y": -920,
+      "width": 320,
+      "height": 240
+    },
+    {
+      "id": "955007188e1103f6",
+      "type": "text",
+      "text": "**Implicants**\nAn implicant $I$ of a function $F$ is a product term that that is covered by the function $F$.\n$$\nI \\rightarrow F\n$$\nAny cube of 1's",
+      "x": 1880,
+      "y": -489,
+      "width": 443,
+      "height": 189
+    },
+    {
+      "id": "c9060b1c9a02dd4b",
+      "type": "text",
+      "text": "If a function has $k$ don't cares, then it correponds to $2^k$ class of functions.",
+      "x": 920,
+      "y": -289,
+      "width": 328,
+      "height": 122
+    },
+    {
+      "id": "22d2c045e230eb86",
+      "type": "text",
+      "text": "Each don't care can take either 0 or 1",
+      "x": 1346,
+      "y": -289,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "ad030c7659a584d9",
+      "type": "text",
+      "text": "**Canonical Form**\nThese two forms are from a function's perspective",
+      "x": -360,
+      "y": -182,
+      "width": 260,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "2ea1e24a42383cf3",
+      "type": "text",
+      "text": "Unique forms",
+      "x": -320,
+      "y": -305,
+      "width": 180,
+      "height": 50
+    },
+    {
+      "id": "9227413afe6efd0d",
+      "type": "text",
+      "text": "Standard Form of an Expression",
+      "x": -712,
+      "y": -520,
+      "width": 348,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "923e46644e2b5311",
+      "type": "text",
+      "text": "**Prime Implicant**\n\nA cube of 1's that is as large as possible.",
+      "x": 2116,
+      "y": -100,
+      "width": 304,
+      "height": 147
+    },
+    {
+      "id": "6ba44d833a5d7cae",
+      "type": "text",
+      "text": "**Essential Prime Implicants**\n\nA prime implicant that covers at least one 1-cell uniquely\n\nEssential Prime Implicants help in getting *unique minimal expression*",
+      "x": 2033,
+      "y": 183,
+      "width": 387,
+      "height": 217
+    },
+    {
+      "id": "25e7050d63f2eeab",
+      "type": "text",
+      "text": "Implicants are visualized better in k-maps",
+      "borderStyle": "dotted",
+      "x": 1700,
+      "y": -56,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "86d18244a4d80e8a",
+      "type": "text",
+      "text": "Combinational Circuits",
+      "x": 2900,
+      "y": -2320,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "ab044a96c91bfedc",
+      "type": "text",
+      "text": "Multiplexer",
+      "x": 3470,
+      "y": -2983,
+      "width": 207,
+      "height": 47
+    },
+    {
+      "id": "446d283362a35900",
+      "type": "text",
+      "text": "Demultiplexer",
+      "x": 3448,
+      "y": -2810,
+      "width": 223,
+      "height": 47
+    },
+    {
+      "id": "cc06e3bf2b6cd26c",
+      "type": "text",
+      "text": "Decoder",
+      "x": 3490,
+      "y": -2500,
+      "width": 176,
+      "height": 47
+    },
+    {
+      "id": "28b5dd7845693546",
+      "type": "text",
+      "text": "Diminished Radix complement",
+      "x": 2831,
+      "y": -3276,
+      "width": 307,
+      "height": 60
+    },
+    {
+      "id": "1961ccb1881ed0e1",
+      "type": "text",
+      "text": "**Complement**\nTo perform subtraction easier and with less digital circuits, complementation operation is used",
+      "x": 2440,
+      "y": -3430,
+      "width": 260,
+      "height": 214
+    },
+    {
+      "id": "15bcc940d77942d0",
+      "type": "text",
+      "text": "Radix complement",
+      "x": 2831,
+      "y": -3460,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "f261b401c957d875",
+      "type": "text",
+      "text": "**Number System**\n\nBase = Radix = $r$\n$r$ = number of symbols in the number system",
+      "x": 1980,
+      "y": -3700,
+      "width": 422,
+      "height": 120,
+      "color": "3"
+    },
+    {
+      "id": "6203b77e8b8b8cea",
+      "type": "text",
+      "text": "Using diminished radix complement",
+      "x": 3217,
+      "y": -3680,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "ada146cdeb66c223",
+      "type": "text",
+      "text": "**Subtraction of Unsigned Numbers**",
+      "x": 2860,
+      "y": -3740,
+      "width": 231,
+      "height": 60
+    },
+    {
+      "id": "a4ea337659c4774c",
+      "type": "text",
+      "text": "Using radix complement",
+      "x": 3217,
+      "y": -3819,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "e79734fab71e1483",
+      "type": "text",
+      "text": "**2s complement**\nTake the 2s complement of the given number.\nThe negative of the resultant number is represented in the given number.",
+      "x": 4120,
+      "y": -4100,
+      "width": 342,
+      "height": 203
+    },
+    {
+      "id": "816b5b2909982414",
+      "type": "text",
+      "text": "**Digital Logic**",
+      "shape": "predefined-process",
+      "x": 1200,
+      "y": -1840,
+      "width": 250,
+      "height": 140,
+      "color": "1"
+    },
+    {
+      "id": "695f8fcd69a7bf12",
+      "type": "text",
+      "text": "**Realization of a given function**\n\nDigital circuits can realize a given function in form of an expression. Function realization means implementing the given function.\n\nThere can be some digital circuits that have multiple outputs, but for realizing a function, there must be only one output.",
+      "x": 1400,
+      "y": -1369,
+      "width": 442,
+      "height": 269
+    },
+    {
+      "id": "60f0b88283b55813",
+      "type": "text",
+      "text": "Digital Circuits",
+      "x": 2110,
+      "y": -1369,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "ad7dbedf6921ca06",
+      "type": "text",
+      "text": "Encoder",
+      "x": 3472,
+      "y": -2660,
+      "width": 176,
+      "height": 50
     }
   ],
   "edges": [
@@ -1424,6 +1469,41 @@
       "fromSide": "top",
       "toNode": "82e0e601ad72e7c1",
       "toSide": "right"
+    },
+    {
+      "id": "f11e63ce1c304731",
+      "fromNode": "5379461ceb4f853e",
+      "fromSide": "top",
+      "toNode": "e225fa3935445f7f",
+      "toSide": "right"
+    },
+    {
+      "id": "afca6f8206acc4e6",
+      "fromNode": "86d18244a4d80e8a",
+      "fromSide": "top",
+      "toNode": "ab044a96c91bfedc",
+      "toSide": "left"
+    },
+    {
+      "id": "185ac1c68e11af9c",
+      "fromNode": "86d18244a4d80e8a",
+      "fromSide": "top",
+      "toNode": "446d283362a35900",
+      "toSide": "left"
+    },
+    {
+      "id": "35c3a536709c2335",
+      "fromNode": "86d18244a4d80e8a",
+      "fromSide": "top",
+      "toNode": "ad7dbedf6921ca06",
+      "toSide": "left"
+    },
+    {
+      "id": "b0d945d9a2286fc7",
+      "fromNode": "86d18244a4d80e8a",
+      "fromSide": "top",
+      "toNode": "cc06e3bf2b6cd26c",
+      "toSide": "left"
     }
   ],
   "metadata": {}

@@ -46,7 +46,7 @@ tags:
 - [[Multiplexer and Demultiplexer]]
 - [[Encoder]]
 - [[Decoder]]
-- [[Propagation Delay and Timing Diagrams]]
+- [[Propagational Delay and Timing Diagrams]]
 - [[Half Adder and Full Adder]]
 - [[Ripple Carry Adder]]
 - [[Carry Look Ahead Adder]]

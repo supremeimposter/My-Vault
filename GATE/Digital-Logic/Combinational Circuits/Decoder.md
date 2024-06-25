@@ -5,7 +5,7 @@ lecture: "5"
 date: 2024-03-04T08:39:00
 version:
   - DL-24
-last-revision: 2024-06-09T14:19:00
+last-revision: 2024-06-25T14:19:00
 notes-taken: true
 tags:
   - DigitalLogic/CombinationalCircuits
@@ -131,7 +131,8 @@ When $E = 1$, then all of the outputs are $1$. (Nand decoder is idle)
 ![[Decoder-20240607175944996.webp]]
 
 ---
-## Function Realization using Decoder
+## Implementation of Boolean Functions using Decoder
+
 > [!NOTE]
 > Implementation or Realization of a function using a Digital Circuit means there should only be **one** output which is the given function.
 
@@ -141,7 +142,7 @@ When $E = 1$, then all of the outputs are $1$. (Nand decoder is idle)
 
 The last output line $ab = 1$ iff $a = 1, b = 1$. It is connected to an OR gate to realize the given function $f = a.b$
 
-For every other input combination, the output $f = 0$, since for every other input combination, the last output line $ab$ is not selected.
+For every other input combinations, the output $f = 0$, since for those input combinations, the last output line $ab$ is not selected.
 
 ![[Decoder-20240608091222537.webp]]
 
@@ -250,7 +251,7 @@ For $f = 1$, any of these minterms has to be $1$, since the decoder activates on
 Implementation (realization) of any funciton of $n$ variables using decoders require either,
 - $n \times 2^n$ active high decoder + $1$ OR gate or,
 - $n \times 2^n$ active low decoder + $1$ NAND gate
-Decoder is not [[Functional Completeness|functionally complete]] by itself, it requires extra hardware.
+Decoder is **not** [[Functional Completeness|functionally complete]] by itself, it requires extra hardware.
 
 To convert from AND decoder to NAND decoder, connect a NAND gate to the same output lines as the OR gate. **Do not change the output lines**.
 
@@ -326,7 +327,6 @@ The idea of DEMUX is that a particular output line is selected for the incoming 
 If the input data $I = 1$ which makes the enable input $E = 1$, then it behaves like a AND decoder and a enable-active-high DEMUX.
 
 ![[Multiplexer and Demultiplexer-20240606135708273.webp]]
-
 
 ![[Decoder-20240609182657003.webp]]
 
@@ -410,7 +410,6 @@ Now the function $f$ is the function of a $4 \times 1$ MUX.
 | 1       | 0       | $w_{2}$ | ^                                   |
 | 1       | 1       | $w_{3}$ | ^                                   |
 ```
-
 
 > [!observation] 
 > A decoder can pose as DEMUX, whereas a decoder is used to implement a MUX.

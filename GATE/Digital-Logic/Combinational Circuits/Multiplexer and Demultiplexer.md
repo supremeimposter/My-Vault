@@ -5,17 +5,16 @@ lecture: "2"
 date: 2024-03-02T17:49:00
 version:
   - DL-24
-last-revision: 2024-06-06T17:26:00
+last-revision: 2024-06-25T17:26:00
 notes-taken: true
 tags:
   - DigitalLogic/CombinationalCircuits
 ---
 # Multiplexer
 
-- Multiplexer (MUX) is a <mark style="background-color: #fff88f; color: black">data selector</mark> which works like a **bridge**.
-- Every MUX is a $2^n \times 1$ MUX, where $n$ is the number of select lines or control inputs and there are $2^n$ number of inputs.
-- It is a combinational circuit which selects one of the $2^n$ data inputs are transmits the information from that line to the output line.
-- Every MUX has only one output line (because it is the design of this digital circuit).
+- Multiplexer (MUX) is a <mark style="background-color: #fff88f; color: black">data selector</mark>.
+- Every MUX is a $2^n \times 1$ MUX, where $n$ is the number of select lines or control inputs and there are $2^n$ number of data input lines and $1$ output line.
+- It is a combinational circuit which selects one of the $2^n$ data inputs are transmits the information to the output line.
 
 > [!analogy] 
 >> Think of MUX as a bridge where inputs are waiting at each gates and the control inputs check the ID number for each gateway. At a time, only one input can cross the bridge.
@@ -30,7 +29,7 @@ The output line is dependent on the data input and the output control lines i.e.
 | --------------------------------------- | --------------------------------------- |
 | ![[Multiplexer-20240303073425779.webp]] | ![[Multiplexer-20240303073450940.webp]] |
 
-## 2 X 1 MUX
+## $2 \times 1$ MUX
 
 | Graphical symbol for a $2 \times 1$ MUX                   | Circuit Diagram for $2 \times 1$ MUX                      |
 | --------------------------------------------------------- | --------------------------------------------------------- |
@@ -39,12 +38,13 @@ The output line is dependent on the data input and the output control lines i.e.
 ![[Multiplexer and Demultiplexer-20240604101632997.webp]]
 ![[Multiplexer and Demultiplexer-20240604102515658.webp]]
 
-| ![[Multiplexer and Demultiplexer-20240604104125649.webp]] | ![[Multiplexer and Demultiplexer-20240604104143112.webp]] |
-| --------------------------------------------------------- | ------------------------------------ |
+| $s = 0$                                                   | $s = 1$                                                   |
+| --------------------------------------------------------- | --------------------------------------------------------- |
+| ![[Multiplexer and Demultiplexer-20240624181202757.webp]] | ![[Multiplexer and Demultiplexer-20240624181211860.webp]] |
 
 $2 \times 1$ MUX is a [[Functional Completeness|functionaly complete]] digital circuit i.e. any boolean function can be implemeneted using only $2 \times 1$ MUX.
 
-## 4 X 1 MUX
+## $4 \times 1$ MUX
 
 ![[Multiplexer and Demultiplexer-20240604103239707.webp]]
 ![[Multiplexer and Demultiplexer-20240604103255786.webp]]
@@ -78,6 +78,8 @@ Control inputs can also be fixed with either high or low inputs.
 
 > [!example] 
 > ![[Multiplexer and Demultiplexer-20240604114405635.webp]]
+> 
+> ![[Multiplexer and Demultiplexer-20240624182429910.webp]]
 
 Control inputs can also pose as data inputs.
 
@@ -85,7 +87,7 @@ Control inputs can also pose as data inputs.
 > ![[Multiplexer and Demultiplexer-20240604114236980.webp]]
 > ![[Multiplexer and Demultiplexer-20240604114137410.webp]]
 
-## Implemented Functions to MUX
+## Implementing Boolean Functions using MUX
 > [!tip] 
 > 1. Look at the given function carefully and do not use new variables for the select lines which are not in the given function.
 > 2. If you are not getting any idea, then create the canonical SOP of the given function from the standard truth table to get the compact truth table and simplify the expression to get the MUX circuit.
@@ -104,15 +106,13 @@ Control inputs can also pose as data inputs.
 
 ![[Multiplexer and Demultiplexer-20240604142402362.webp]]
 
-> [!pdf] mod-3/lec-02C.pdf Pg. No. 05-39
-
-A good MUX circuit should make use of input data and should have minimum invertors or never use one at all.
-
-![[Multiplexer and Demultiplexer-20240604175654257.webp]]
+> [!pdf] mod-3/lec-02C.pdf Pg. No. 03-39
 
 An ideal MUX should use all the data input pins and should not add extra hardware e.g. $4 \times 1$ MUX for $a \oplus b$.
 
-To the given function, you can apply the different inputs of the control inputs to see what is the value of $f$ and get to a conclusion about the MUX diagram.
+![[Multiplexer and Demultiplexer-20240604175654257.webp]]
+
+[[Shannons Expansion Theorem#Decompose Function into Minterms|Decompose]] the given function with respect to chosen set of variables as control lines and apply the input combinations to get a compact truth table and implement the function using MUX.
 
 ![[Multiplexer and Demultiplexer-20240604201927855.webp]]
 
@@ -123,8 +123,8 @@ To implement a function of $n$ variables without using additional hardwares, a s
 The truth table can be built using the inputs combinations of the $n$ variables.
 
 For the data input lines, 
-1. Connect `1` to MUX input line $I_{i}$ because it is a minterm of the function.
-2. Otherwise connect `0` to MUX input line $I_{i}$.
+1. Connect `1` to MUX input line which are minterms of the function.
+2. Connect `0` to the remaining MUX input lines.
 
 ![[Multiplexer and Demultiplexer-20240605114519342.webp]]
 
@@ -141,11 +141,12 @@ We need an Invertor in this case as additional hardware.
 
 There are some $n$ variable functions which can be implemented using $2^{n-1} \times 1$ MUX.
 
-
 > [!example] 
->> $f(a, b) = a + \overline{b}$ is a function with $2$ variables and a single $2^{2-1} \times 1$ MUX is enough to implement $f$ 
+>> $f(a, b) = a + b$ is a function with $2$ variables and a single $2^{2-1} \times 1$ MUX is enough to implement $f$ 
 >
-> ![[Multiplexer and Demultiplexer-20240605114612396.webp]]
+> ![[Multiplexer and Demultiplexer-20240624205018737.webp]]
+
+Use most significant variables are the control lines in this case.
 
 ![[Multiplexer and Demultiplexer-20240605212132974.webp]]
 
@@ -160,11 +161,12 @@ There are some $n$ variable functions which can be implemented using $2^{n-1} \t
 
 A function $f$ over $n$ variables can be implemented by,
 1. a single $2^n \times 1$ MUX.
-2. a single $2^{n-1} \times 1$ MUX + a single Invertor.
+2. a single $2^{n-1} \times 1$ MUX + a single NOT gate.
 3. a single $2^{n-2} \times 1$ MUX + additional hardware e.g. OR, AND, NOT gates.
 
 ---
 ## Building Bigger MUX from Smaller MUX
+
 > [!think] 
 > A circuit manufacturing company may not manufacture your required MUX, for example, a $64 \times 1$ MUX cannot be manufactured by a company that manufactures $4 \times 1$ MUX in a large scale.
 
@@ -201,6 +203,7 @@ A $2 \times 2$ cross bar switch can be built using a single $2 \times 2$ MUX.
 | ![[Multiplexer and Demultiplexer-20240606104925205.webp]]     | ![[Multiplexer and Demultiplexer-20240606105049266.webp]] |
 
 ## MUX with Enable Input
+
 - Enable is like a switch to ON or OFF the MUX.
 
 > [!analogy] 
@@ -234,8 +237,8 @@ C -.-> E([E = 1 Circuit works\nE = 0 Circuit does not work])
 | ![[Multiplexer and Demultiplexer-20240606130855618.webp]] | ![[Multiplexer and Demultiplexer-20240606131019763.webp]] |
 | ![[Multiplexer and Demultiplexer-20240606130925707.webp]] | ![[Multiplexer and Demultiplexer-20240606131042979.webp]] |
 | ![[Multiplexer and Demultiplexer-20240606131000442.webp]] | ![[Multiplexer and Demultiplexer-20240606131112396.webp]] |
-> [!attention] 
-> When the circuit is idle, then the output of the circuit is `0`.
+
+When the circuit is idle, then the output of the circuit is `0`.
 
 ---
 # Demultiplexer
@@ -244,18 +247,20 @@ C -.-> E([E = 1 Circuit works\nE = 0 Circuit does not work])
 
 ![[Multiplexer and Demultiplexer-20240606133338806.webp]]
 
-A single $1 \times 2^n$ DEMUX has $n$ select lines, one input line and $2^n$ output data lines.
+A single $1 \times 2^n$ DEMUX has $n$ select lines, one data input line and $2^n$ output lines.
 
-Data is received byte by byte  by a demux in a serial manner.
-![[Multiplexer and Demultiplexer-20240606133535354.webp]]
+> [!NOTE]
+> Data is received byte by byte  by a demux in a serial manner.
+> 
+> ![[Multiplexer and Demultiplexer-20240606133535354.webp]]
 
-In a DEMUX, each output line can be considered as a separate funciton depending on inputs and the control lines.
+In a DEMUX, each output line can be considered as a separate function depending on input and the control lines.
 The input data (incoming data) can be either 0 or 1.
 
 > [!discussion] 
 > ![[Multiplexer and Demultiplexer-20240303202450744.webp]]
 
-## 1 X 2 DEMUX
+## $1 \times 2$ DEMUX
 
 ![[Multiplexer and Demultiplexer-20240606134910961.webp]]
 ![[Multiplexer and Demultiplexer-20240606134953328.webp]]
@@ -263,7 +268,7 @@ The input data (incoming data) can be either 0 or 1.
 > [!caution] 
 > The input data $D$ can be either $0$ or $1$. Don't just put $1$ everywhere in place of $D$.
 
-## 1 X 4 DEMUX
+## $1 \times 4$ DEMUX
 
 ![[Multiplexer and Demultiplexer-20240606135645806.webp]]
 ![[Multiplexer and Demultiplexer-20240606135708273.webp]]

@@ -5,14 +5,13 @@ lecture: "6"
 date: 2024-03-04T12:28:00
 version:
   - DL-24
-last-revision: 2024-06-08T22:45:00
+last-revision: 2024-06-25T22:45:00
 notes-taken: true
 tags:
   - DigitalLogic/CombinationalCircuits
   - DigitalLogic/SequentialCircuits
-cssclasses:
 ---
-# Propagation Delay and Timing Diagrams
+# Propagational Delay and Timing Diagrams
 > [!youtube] 
 > [Lecture 6 - Propagation Delay & Timing Diagrams | Digital Logic - YouTube](https://www.youtube.com/watch?v=L1XM3RXrtaE)
 
@@ -24,15 +23,17 @@ When the input to a logic gate is changed, the output will not change instantane
 ﻿
 If the change in output is delayed by time ɛ, with respect to the input, we say that this gate has a propagation delay of ɛ. The propgational delay is also denoted by $\delta$ or $\Delta$.
 
+Consider a NOT gate (which is a digital circuit) which has a propagational delay of $2 \mathrm{ns}$.
+
 ![[Propagation Delay and Timing Diagrams-20240608173425453.webp]]
 
-If a digital circuit has a propagational delay of $2 \mathrm{ns}$, then the ideal output waveform is shifted by $2 \mathrm{ns}$.
+If a digital circuit has a propagational delay of $2 \mathrm{ns}$, then the ideal output waveform (waveform in which there is no propagational delay) is shifted by $2 \mathrm{ns}$.
 
 There is always a negligible delay to change the inputs in the digital circuits.
 
 ![[Propagation Delay and Timing Diagrams-20240608150200959.webp]]
 
-|                  | Description                                          |
+| Notation         | Description                                          |
 | ---------------- | ---------------------------------------------------- |
 | $T_{\text{P}}$   | Propagational Delay                                  |
 | $T_{\text{PLH}}$ | Propagational Delay when input goes from low to high |
@@ -41,7 +42,6 @@ There is always a negligible delay to change the inputs in the digital circuits.
 Practically $T_{\text{PLH}} \not= T_{\text{PHL}}$ in digital circuits.
 
 ![[Pasted image 20240608171735.png]]
-
 
 > [!example] 
 > ![[Propagation Delay and Timing Diagrams-20240608173610848.webp]]
@@ -69,12 +69,11 @@ Practically $T_{\text{PLH}} \not= T_{\text{PHL}}$ in digital circuits.
 > ![[Propagation Delay and Timing Diagrams-20240608182717375.webp]]
 
 > [!example] 
->> Every digital circuit has a propgational delay $t_{p}$, so the longest path has the maximum delay i.e. critical path.
-> 
 > ![[Propagation Delay and Timing Diagrams-20240608182507915.webp]]
->> The propagational delay of the circuit is $3 t_{p}$ 
+> 
+> The propagational delay of the circuit is $3 t_{p}$ 
 
-- The delay of the critical path is same as delay of the circuit. 
+- The delay of the critical path is same as delay of the circuit since the critical path has the maximum delay.
 - Critical path imposes limits on the speed of the circuit.
 
 > [!intuition] 

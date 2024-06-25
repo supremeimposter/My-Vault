@@ -5,7 +5,7 @@ lecture: "1"
 date: 2024-02-29T15:34:00
 version:
   - DL-24
-last-revision: 2024-06-03T22:58:00
+last-revision: 2024-06-24T22:58:00
 notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
@@ -56,7 +56,7 @@ When $a = 1, b = 0$, then $f(1, 0) = z$
 ---
 Consider the truth table,
 
-| a   | b   | f(a, b)        |
+| a   | b   | f(a, b, c)     |
 | --- | --- | -------------- |
 | 0   | 0   | 0              |
 | 0   | 1   | 1              |
@@ -64,7 +64,7 @@ Consider the truth table,
 | 1   | 1   | $\overline{c}$ |
 $$
 \begin{split}
-f(a, b) &= (0) . \overline{a}. \overline{b} + (1).\overline{a}.b + (c).a.\overline{b} + (\overline{c}).a.b \\
+f(a, b, c) &= (0) . \overline{a}. \overline{b} + (1).\overline{a}.b + (c).a.\overline{b} + (\overline{c}).a.b \\
 &= \overline{a}.b + c.a.\overline{b} + \overline{c}.a.b
 \end{split}
 $$
@@ -83,6 +83,8 @@ Compact truth table is one of the representations of [[Boolean Function]]. Compa
 ---
 > [!example] 
 > ![[Compact Truth Table Representation-20240603210313609.webp]]
+> 
+> ![[Compact Truth Table Representation-20240624155701804.webp]]
 
 > [!tip] 
 > While writing compact truth table, prefer to write in terms of constant boolean functions as possible and write the function in terms of variables only if it is the only way possible.

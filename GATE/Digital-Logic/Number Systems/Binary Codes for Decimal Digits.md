@@ -14,6 +14,8 @@ tags:
 
 A binary code is a pattern of 1s and 0s. In most of the cases in computers, binary numbers represents some kind of coded information rather than binary numbers itself. There can be any number of any number of binary codes.
 
+We are studying about binary codes because of digital circuits.
+
 > [!definition] Code
 > A code is a representation of a data that was previously in some other representation.
 > 
