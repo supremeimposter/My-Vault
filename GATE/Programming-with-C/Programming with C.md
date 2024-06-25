@@ -51,11 +51,12 @@ tags:
 - [[Signed and Unsigned in C]]
 - [[Type Conversion in C]]
 - [[Conditional Statements in C]]
-
-
+- [[Loops in C]]
+- [[Operators in C]]
 
 ---
 # References
 
+- [C Operator Precedence - cppreference.com](https://en.cppreference.com/w/c/language/operator_precedence)
 
 ---
