@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
-    },
-    {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Half Adder and Full Adder",
       "path": "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md"
+    },
+    {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
       "basename": "Propagational Delay and Timing Diagrams",

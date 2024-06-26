@@ -23,6 +23,19 @@
             }
           },
           {
+            "id": "dd7255e503fceac6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9e9e6b916bc7da51",
             "type": "leaf",
             "state": {
@@ -50,8 +63,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/Digital-Logic/Digital Logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/Digital-Logic/Digital Logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md"
+                "file": "GATE/Digital-Logic/Digital Logic.md"
               }
             }
           },
@@ -237,10 +249,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6c38274d67b7fc3b",
+  "active": "ab85773fb3542664",
   "lastOpenFiles": [
-    "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md",
+    "attachments/Half Adder and Full Adder-20240626225032577.webp",
+    "attachments/Half Adder and Full Adder-20240626224351313.webp",
+    "attachments/Half Adder and Full Adder-20240626224323423.webp",
+    "attachments/Half Adder and Full Adder-20240626220714466.webp",
+    "attachments/Half Adder and Full Adder-20240626215846958.webp",
+    "attachments/Half Adder and Full Adder-20240626215802659.webp",
+    "attachments/Half Adder and Full Adder-20240626214936261.webp",
+    "attachments/Half Adder and Full Adder-20240626214624737.webp",
+    "attachments/Half Adder and Full Adder-20240626211442320.webp",
+    "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Guidelines to GATE-CS.md",
     "GATE/Digital-Logic/Combinational Circuits/Propagational Delay and Timing Diagrams.md",
     "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
@@ -249,23 +270,14 @@
     "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
     "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
     "attachments/Multiplexer and Demultiplexer-20240624205018737.webp",
-    "attachments/Multiplexer and Demultiplexer-20240624182429910.webp",
-    "attachments/Multiplexer and Demultiplexer-20240624181211860.webp",
-    "attachments/Multiplexer and Demultiplexer-20240624181202757.webp",
     "GATE/Digital-Logic/Combinational Circuits/Shannons Expansion Theorem.md",
     "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
-    "attachments/Compact Truth Table Representation-20240624155701804.webp",
     "GATE/Digital-Logic/Number Systems/Gray code.md",
     "GATE/Topics-Tracker-for-GATE.md",
     "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md",
     "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
-    "attachments/Overflow of Signed and Unsigned Numbers-20240624134149922.webp",
     "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
     "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
-    "attachments/Overflow of Signed and Unsigned Numbers-20240623164054356.webp",
-    "attachments/Overflow of Signed and Unsigned Numbers-20240623164005333.webp",
-    "attachments/Signed Binary Numbers-20240623155229029.webp",
-    "attachments/Signed Binary Numbers-20240623155110916.webp",
     "GATE/Programming-with-C/Signed and Unsigned in C.md",
     "GATE/Digital-Logic/Number Systems/Complements in Number System.md",
     "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md",
@@ -275,7 +287,6 @@
     "GATE/Digital-Logic/Number Systems/Number Systems.md",
     "GATE/Programming-with-C/Programming with C.md",
     "GATE/Programming-with-C/Conditional Statements in C.md",
-    "GATE/Programming-with-C/Operators in C.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",
