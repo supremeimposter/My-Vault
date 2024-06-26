@@ -1,28 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Compact Truth Table Representation",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
-      "basename": "Gray code",
-      "path": "GATE/Digital-Logic/Number Systems/Gray code.md"
+      "basename": "Half Adder and Full Adder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md"
+    },
+    {
+      "basename": "Propagational Delay and Timing Diagrams",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Propagational Delay and Timing Diagrams.md"
+    },
+    {
+      "basename": "Decoder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
     },
     {
       "basename": "Digital-Logic-Mindmap",
       "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
     },
     {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
-    },
-    {
-      "basename": "Topics-Tracker-for-GATE",
-      "path": "GATE/Topics-Tracker-for-GATE.md"
+      "basename": "Encoder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
     },
     {
       "basename": "Binary Codes for Decimal Digits",
@@ -31,6 +35,22 @@
     {
       "basename": "Multiplexer and Demultiplexer",
       "path": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
+    },
+    {
+      "basename": "Shannons Expansion Theorem",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Shannons Expansion Theorem.md"
+    },
+    {
+      "basename": "Compact Truth Table Representation",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
+    },
+    {
+      "basename": "Gray code",
+      "path": "GATE/Digital-Logic/Number Systems/Gray code.md"
+    },
+    {
+      "basename": "Topics-Tracker-for-GATE",
+      "path": "GATE/Topics-Tracker-for-GATE.md"
     },
     {
       "basename": "Sign Extension of Unsigned and Signed Numbers",
@@ -169,22 +189,6 @@
       "path": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md"
     },
     {
-      "basename": "Decoder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
-    },
-    {
-      "basename": "Shannons Expansion Theorem",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Shannons Expansion Theorem.md"
-    },
-    {
-      "basename": "Encoder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
-    },
-    {
-      "basename": "Propagation Delay and Timing Diagrams",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Propagation Delay and Timing Diagrams.md"
-    },
-    {
       "basename": "Pending Lectures",
       "path": "GATE/Pending Lectures.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Compiler Design",
       "path": "GATE/CompilerDesign/Compiler Design.md"
-    },
-    {
-      "basename": "Algorithms",
-      "path": "GATE/Algorithms/Algorithms.md"
     }
   ],
   "omittedPaths": [
