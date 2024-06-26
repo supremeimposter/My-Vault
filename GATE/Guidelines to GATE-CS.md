@@ -41,7 +41,8 @@ $$
 
 - Shannon's expansion theorem and compact truth table go hand in hand.
 - If you are stuck with MUX, just write the canonical SOP expression of the given function and try to write the compact truth table. It will give you more ideas.
-- If a MUX is given and the options are to find the function realized by the MUX, just plug in the control input values and see what happens to each of the options.
+- In MUX, the functions at the input data lines have no influence on the MUX itself. The control inputs influence the MUX.
+- If a MUX is given and the options are to find the function realized by the MUX, just plug in the control input values and see what happens to each of the options. Use compact or standard truth table. Use k-map when a minimized expression is required.
 - If the working of a given boolean function can be mimiced using a digital circuit, then the function has been realized or implemented by the digital circuit.
 - A decoder can act as a DEMUX whereas a decoder can be used to implement MUX. 
 
