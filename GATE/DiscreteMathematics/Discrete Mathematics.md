@@ -12,7 +12,9 @@ tags:
 - Example : integers, humans, eggs, etc...
 
 ## Discrete Math vs Continuous Math
-![[Discrete Mathematics-20240226181625655.webp]]
+
+- Objects studied in Continuous Math : real numbers (vary smoothly) e.g. calculus, etc...  
+- Objects studied in Discrete Math : integers, graphs, and statements in logic (do not vary smoothly) e.g. probability, set theory, etc.
 
 ---
 ## Mathematical Logic
