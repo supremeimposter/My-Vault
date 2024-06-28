@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Carry Look Ahead Adder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md"
+      "basename": "Combinational Circuits vs Sequential Circuits",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md"
     },
     {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
+      "basename": "Finite State Machine",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md"
+    },
+    {
+      "basename": "Counters",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Counters.md"
+    },
+    {
+      "basename": "Carry Look Ahead Adder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md"
+    },
+    {
       "basename": "Adder for Signed Addition",
       "path": "GATE/Digital-Logic/Combinational Circuits/Adder for Signed Addition.md"
+    },
+    {
+      "basename": "Subtraction using Adders",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Subtraction using Adders.md"
+    },
+    {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Pending Lectures",
+      "path": "GATE/Pending Lectures.md"
     },
     {
       "basename": "Ripple Carry Adder",
@@ -27,10 +51,6 @@
     {
       "basename": "Discrete Mathematics",
       "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
       "basename": "Topics-Tracker-for-GATE",
@@ -175,30 +195,6 @@
     {
       "basename": "Computer Organization and Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
-    },
-    {
-      "basename": "Introduction to COA",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
-    },
-    {
-      "basename": "Functional Completeness",
-      "path": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md"
-    },
-    {
-      "basename": "Laws of Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
-    },
-    {
-      "basename": "Introduction to Digital Logic",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE/GATE-CS.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE/GATE-LOG.md"
     }
   ],
   "omittedPaths": [

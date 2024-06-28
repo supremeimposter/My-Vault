@@ -15,8 +15,8 @@
   "baseFontSize": 18,
   "nativeMenus": false,
   "translucency": false,
-  "textFontFamily": "SF Pro Text",
-  "interfaceFontFamily": "SF Pro Display,SF Pro",
-  "monospaceFontFamily": "SF Mono",
+  "textFontFamily": "iA Writer Duo S,iA Writer Quattro V,SF Pro Text",
+  "interfaceFontFamily": "SF Pro Display,SF Pro,iA Writer Quattro V",
+  "monospaceFontFamily": "SF Mono,JetBrains Mono,iA Writer Mono S,Cascadia Code PL",
   "baseFontSizeAction": false
 }
