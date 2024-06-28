@@ -74,6 +74,7 @@
 - [x] [Shannon's Expansion Theorem](file:///media/menosuno/OS/GATE'24/Go-classes/DL-24/IOWA-notes-2018/22_Decoders_and_Encoders.pdf)
 - [x] Decoder Expansion
 - [ ] Hazards and Glitches
+- [ ] Subtractors for unsigned and signed numbers
 
 # [[Computer Organization and Architecture]]
 - [ ] [Pipeline - Complete Playlist | Hazards in Pipeline | Computer Organization & Architecture | GO Classes Pipeline Playlist - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhs9DfAY9ry6XbjGn7ZumZ8)

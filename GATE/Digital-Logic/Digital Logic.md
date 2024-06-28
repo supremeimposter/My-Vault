@@ -51,6 +51,7 @@ tags:
 - [[Ripple Carry Adder]]
 - [[Carry Look Ahead Adder]]
 - [[Adder for Signed Addition]]
+- [[Subtraction using Adders]]
 
 ## Module 4 - Functional Completeness
 

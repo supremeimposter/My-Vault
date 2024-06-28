@@ -6,9 +6,10 @@ date: 2024-03-04T16:07:00
 version:
   - DL-24
 last-revision: 2024-06-27T12:12:00
-notes-taken: false
+notes-taken: true
 tags:
   - DigitalLogic/CombinationalCircuits
+  - DigitalLogic/Adder
 ---
 # Adder
 
