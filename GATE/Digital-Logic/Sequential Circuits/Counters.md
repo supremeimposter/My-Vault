@@ -21,7 +21,7 @@ A --> C[Asynchronous\nCounters]
 
 
 > [!attention] 
-> The idea of asynchronous [[Sequential Circuits|sequential circuits]] is different from the idea of asynchronous counters.
+> The idea of asynchronous [[Combinational Circuits vs Sequential Circuits#Sequential Circuits|sequential circuits]] is different from the idea of asynchronous counters.
 
 
 - All the flip flops in the synchronous counter are connected to the same clock and the circuit responds to the clock.

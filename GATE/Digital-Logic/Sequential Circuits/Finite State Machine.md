@@ -19,7 +19,7 @@ tags:
 
 - Finite State Transducers compute functions.
 - Automata (DFA, NFA) are language acceptors.
-- Mealy machine, Moore machine, [[Sequential Circuits|Sequential circuits]] are Transducers.
+- Mealy machine, Moore machine, [[Combinational Circuits vs Sequential Circuits#Sequential Circuits|Sequential circuits]] are Transducers.
 
 
 > [!note] 

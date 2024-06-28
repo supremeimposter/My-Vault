@@ -63,18 +63,7 @@ tags:
 
 ## Module 5 - Sequential Circuits
 
-```mermaid
-flowchart TD
-A[Digital Circuits] --> B[Combinational Circuits]
-A --> C[Sequential Circuits]
-```
-
-| Output | State of the Digital Circuit |
-| ------ | ---------------------------- |
-| 0      | The circuit is reset (R)     |
-| 1      | The circuit is set (S)       |
-
-- [[Sequential Circuits]]
+- [[Combinational Circuits vs Sequential Circuits]]
 - [[Cross Coupled Inverters]]
 - [[Cross Coupled NOR, NAND Gates]]
 - [[Clock in Digital Circuits]]
