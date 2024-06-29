@@ -47,6 +47,9 @@ Y_{t} &= f (\,I_{t}, (\,f(I_{t-1}, Y_{t-2})\,)\,) \\
 $$
 where $Y_{t}$ is the output at time $t=0$ and $I_{0}$ is the input at time $t=0$.
 
+> [!observation] 
+> $Y$ is a **single output** line and outputs at different times are denoted by a subscipts e.g. $Y_{0}, Y_{1}, Y_{2}, \cdots$
+
 ![[Combinational Circuits vs Sequential Circuits-20240628225516969.webp]]
 
 - The outputs are determined by present value of the inputs and the state of the storage elements.
@@ -58,14 +61,7 @@ where $Y_{t}$ is the output at time $t=0$ and $I_{0}$ is the input at time $t=0$
 > 
 > $Q^+ = Q_n = Q_{t + 1} =$ Next state equation
 
-### Memory Device
-
-- Sequential circuits remember the history of outputs because of memory device or **memory element** which can store a single bit (0 or 1), which is the basic unit of memory storage.
-
-> [!NOTE] 
-> "*Remembering some information*" means storing and retaining data until it is further updated.
-
-
+- Sequential circuits remember the history of outputs because of [[Memory Device|memory device]] or **memory element** which can store a single bit (0 or 1), which is the basic unit of memory storage.
 
 - In sequential circuits, synchronous means **in sync with clock** and asynchronous means **not in sync with clock**.
 
