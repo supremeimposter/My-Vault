@@ -30,16 +30,27 @@ Main output is $Q = Q_{a} = Q_{R}$.
 SR Latch is **not** a 2-bit storage device.
 
 > [!question] Why do we even apply $0, 0$ combination after $1, 1$ combination in SR latch?
-> Then how can we store the resultant bit caused of the $1, 1$ input combination? What is the use of this cross coupled circuit if we cannot store a single bit?
+> To retain the data.
 
 ![[SR and S'R' Latch-20240629151203176.webp|A basic Latch]]
 
-
 > [!header] Analysing a basic latch
+
+The next state equation of an $SR$ latch is,
+$$
+\begin{split}
+Q_{t+1} &= f\, (R, S, Q_{t})
+\end{split}
+$$
+The truth table is,
+
+![[SR and S'R' Latch-20240629233050668.webp]]
 
 ![[SR and S'R' Latch-20240629151429911.webp]]
 
 ![[SR and S'R' Latch-20240629152507375.webp]]
+
+Characteristic table of a $SR$ latch,
 
 ![[SR and S'R' Latch-20240629152521100.webp]]
 
@@ -79,6 +90,10 @@ Main output is $Q_S$.
 $\overline{S}, \overline{R}$ latch also suffers from the same oscillation problems and undesirable states as $SR$ latch.
 
 ![[Cross Coupled NOR, NAND Gates-20240308120411595.webp]]
+
+The truth table of $\overline{S} \, \overline{R}$ latch is,
+
+![[SR and S'R' Latch-20240629233401968.webp]]
 
 ---
 # Summary of Latches

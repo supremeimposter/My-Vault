@@ -5,8 +5,8 @@ lecture:
 date: 2024-03-08T07:34:00
 version:
   - DL-24
-last-revision: 
-notes-taken: false
+last-revision: 2024-06-29T22:13:00
+notes-taken: true
 tags:
   - DigitalLogic/SequentialCircuits
 ---
