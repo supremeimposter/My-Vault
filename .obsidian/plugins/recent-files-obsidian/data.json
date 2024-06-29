@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Combinational Circuits vs Sequential Circuits",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md"
-    },
-    {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "SR and S'R' Latch",
+      "path": "GATE/Digital-Logic/Sequential Circuits/SR and S'R' Latch.md"
+    },
+    {
+      "basename": "Memory Device",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Memory Device.md"
+    },
+    {
+      "basename": "Combinational Circuits vs Sequential Circuits",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md"
     },
     {
       "basename": "Finite State Machine",
@@ -191,10 +199,6 @@
     {
       "basename": "Algebraic Simplification of Boolean Functions",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     }
   ],
   "omittedPaths": [

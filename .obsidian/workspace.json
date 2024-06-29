@@ -23,6 +23,32 @@
             }
           },
           {
+            "id": "4d088c1caf4bc3e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Digital-Logic/Sequential Circuits/SR and S'R' Latch.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60a387129f71b359",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Digital-Logic/Sequential Circuits/Memory Device.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e948668881910052",
             "type": "leaf",
             "state": {
@@ -35,8 +61,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +123,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -119,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md",
+                "file": "GATE/Digital-Logic/Digital Logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md",
+                "file": "GATE/Digital-Logic/Digital Logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md"
+                "file": "GATE/Digital-Logic/Digital Logic.md"
               }
             }
           },
@@ -221,12 +247,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e948668881910052",
+  "active": "ab85773fb3542664",
   "lastOpenFiles": [
+    "GATE/Digital-Logic/Sequential Circuits/SR and S'R' Latch.md",
+    "attachments/SR and S'R' Latch-20240629210658063.webp",
+    "attachments/SR and S'R' Latch-20240629210435589.webp",
+    "attachments/SR and S'R' Latch-20240629210255019.webp",
+    "GATE/Digital-Logic/Sequential Circuits/Memory Device.md",
+    "attachments/SR and S'R' Latch-20240629205838208.webp",
+    "attachments/Memory Device-20240629205816136.webp",
+    "attachments/SR and S'R' Latch-20240629205435012.webp",
+    "attachments/SR and S'R' Latch-20240629205406645.webp",
+    "attachments/Memory Device-20240629204359282.webp",
+    "attachments/SR and S'R' Latch-20240629203359293.webp",
     "GATE/Digital-Logic/Digital Logic.md",
+    "attachments/Memory Device-20240629154535744.webp",
     "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md",
-    "attachments/Combinational Circuits vs Sequential Circuits-20240628225516969.webp",
-    "attachments/Combinational Circuits vs Sequential Circuits-20240628225457529.webp",
     "GATE/Digital-Logic/Sequential Circuits/Sequential Circuits.md",
     "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md",
     "GATE/Digital-Logic/Sequential Circuits/Counters.md",
@@ -236,15 +272,7 @@
     "GATE/Guidelines to GATE-CS.md",
     "GATE/Pending Lectures.md",
     "GATE/Digital-Logic/Combinational Circuits/Ripple Carry Adder.md",
-    "attachments/Adder for Signed Addition-20240628192659923.webp",
     "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md",
-    "attachments/Carry Look Ahead Adder-20240628165711580.webp",
-    "attachments/Carry Look Ahead Adder-20240628165227435.webp",
-    "attachments/Carry Look Ahead Adder-20240628165217163.webp",
-    "attachments/Carry Look Ahead Adder-20240628165204737.webp",
-    "attachments/Carry Look Ahead Adder-20240628165155907.webp",
-    "attachments/Carry Look Ahead Adder-20240628082827930.webp",
-    "attachments/Carry Look Ahead Adder-20240627232049409.webp",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
     "GATE/DiscreteMathematics/Discrete Mathematics.md",
     "GATE/Topics-Tracker-for-GATE.md",
@@ -257,8 +285,6 @@
     "GATE/Digital-Logic/Combinational Circuits/Shannons Expansion Theorem.md",
     "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
     "GATE/Digital-Logic/Number Systems/Gray code.md",
-    "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md",
-    "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",
