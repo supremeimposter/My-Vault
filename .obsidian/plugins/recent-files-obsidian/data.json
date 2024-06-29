@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
-    },
-    {
       "basename": "SR and S'R' Latch",
       "path": "GATE/Digital-Logic/Sequential Circuits/SR and S'R' Latch.md"
     },
     {
-      "basename": "Memory Device",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Memory Device.md"
+      "basename": "Clock in Digital Circuits",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
     },
     {
       "basename": "Combinational Circuits vs Sequential Circuits",
       "path": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Memory Device",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Memory Device.md"
     },
     {
       "basename": "Finite State Machine",
@@ -195,10 +199,6 @@
     {
       "basename": "D Flip Flop",
       "path": "GATE/Digital-Logic/Sequential Circuits/D Flip Flop.md"
-    },
-    {
-      "basename": "Algebraic Simplification of Boolean Functions",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md"
     }
   ],
   "omittedPaths": [
