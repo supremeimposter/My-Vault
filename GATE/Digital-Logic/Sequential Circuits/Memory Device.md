@@ -91,13 +91,12 @@ But trying to retain the data keeps producing uncertain outputs. So the input $A
 When $A = 0, B = 1$, then the circuit is reset, hence $B =$ Reset.
 When $A = 1, B = 0$, then the circuit is reset, hence $A =$ Set.
 
-This is how a [[SR and S'R' Latch#SR Latch|SR latch]] (Set-Reset latch) has been implemented.
+This is how a [[SR and S'R' Latch#$SR$ Latch|SR latch]] (Set-Reset latch) has been implemented.
 
 ![[Memory Device-20240629123211415.webp]]
 
 ---
 # Cross Coupled NAND gates
-
 
 ![[Memory Device-20240629112523034.webp]]
 
@@ -112,7 +111,21 @@ Now this cross coupled NAND gates can take user controls.
 
 ![[Memory Device-20240629154535744.webp]]
 
+> [!important] 
+> The circuit is in active low because of active low
 
+| $A$ | $B$ | $Q_{B}$   | Description                 |
+| --- | --- | --------- | --------------------------- |
+| $0$ | $1$ | $0$       | Reset                       |
+| $1$ | $0$ | $1$       | Set                         |
+| $1$ | $1$ | $Q_{t-1}$ | Retain                      |
+| $0$ | $0$ | $1$       | Forbidden input combination |
 
+When $A = 0, B = 1$, the circuit is reset, then $A =$ Reset (active low).
+When $A = 1, B = 0$, the circuit is set, then $B =$ Set (active low).
+
+This is how a [[SR and S'R' Latch#$ overline{S} , overline{R}$ Latch|S'R' latch]] is implemented.
+
+![[Memory Device-20240629205816136.webp]]
 
 ---

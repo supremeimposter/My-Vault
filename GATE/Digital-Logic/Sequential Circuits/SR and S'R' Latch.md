@@ -5,12 +5,14 @@ lecture:
 date: 2024-03-07T22:44:00
 version:
   - DL-24
-last-revision: 
-notes-taken: false
+last-revision: 2024-06-29T21:21:00
+notes-taken: true
 tags:
   - DigitalLogic/SequentialCircuits
 ---
-# SR Latch
+# $SR$ Latch
+
+$SR$ Latch is an active high latch.
 
 ![[Memory Device-20240629123211415.webp]]
 
@@ -58,25 +60,35 @@ In practice, the oscillation dies down and the output settles into either $Q_{a}
 The problem is that we can't predict which one of these two it will settle into.
 
 ---
-# S'R' Latch
+# $\overline{S}\, \overline{R}$ Latch
 
-It is also called as SR Latch with NAND gates.
+$\overline{S}\, \overline{R}$ latch is an active low latch.
+It is also called as $SR$ Latch with NAND gates or $RS$ flip flop.
 
-Main output is $Q_S$
+![[SR and S'R' Latch-20240629205838208.webp]]
 
-| Input Combination | Operation | Meaning                                                                          |
-| ----------------- | --------- | -------------------------------------------------------------------------------- |
-| $S = 0, R = 1$    | Set       | Main output is 1                                                                 |
-| $S = 1, R = 0$    | Reset     | Main output is 0                                                                 |
-| $S = 1, R = 1$    | Retain    | It retains the previous output                                                   |
-| $S = 0, R = 0$    | Forbidden | **After this operation**, the behaviour of the circuit is undefined or uncertain |
+Main output is $Q_S$.
+
+| Input Combination | Operation | $Q_{n}$ | Meaning                                                                          |
+| ----------------- | --------- | ------- | -------------------------------------------------------------------------------- |
+| $R = 0, S = 1$    | Reset     | $0$     | Main output is $0$                                                               |
+| $R = 1, S = 0$    | Set       | $1$     | Main output is $1$                                                               |
+| $R = 1, S = 1$    | Retain    | $Q$     | It retains the previous output                                                   |
+| $R = 0, S = 0$    | Forbidden | $1$     | **After this operation**, the behaviour of the circuit is undefined or uncertain |
+
+$\overline{S}, \overline{R}$ latch also suffers from the same oscillation problems and undesirable states as $SR$ latch.
 
 ![[Cross Coupled NOR, NAND Gates-20240308120411595.webp]]
 
 ---
-# Summary of Latch
+# Summary of Latches
 
+$SR$ latch is active high whereas $\overline{S}\, \overline{R}$ latch is active low.
 
+![[SR and S'R' Latch-20240629210255019.webp]]
 
+![[SR and S'R' Latch-20240629210435589.webp]]
+
+In both the latches transition from forbidden input combinations to the retaining input combinations leads to uncertain behaviour.
 
 ---
