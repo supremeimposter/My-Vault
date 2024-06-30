@@ -34,6 +34,8 @@ SR Latch is **not** a 2-bit storage device.
 
 ![[SR and S'R' Latch-20240629151203176.webp|A basic Latch]]
 
+Control and output lines are the same in a latch.
+
 > [!header] Analysing a basic latch
 
 The next state equation of an $SR$ latch is,
@@ -105,5 +107,12 @@ $SR$ latch is active high whereas $\overline{S}\, \overline{R}$ latch is active 
 ![[SR and S'R' Latch-20240629210435589.webp]]
 
 In both the latches transition from forbidden input combinations to the retaining input combinations leads to uncertain behaviour.
+
+![[SR and S'R' Latch-20240630090951906.webp|Block diagrams of $SR$ latch and $\overline{S}\,\overline{R}$ latch]]
+
+![[SR and S'R' Latch-20240630091405833.webp|Timing diagrams of $SR$ latch]]
+
+The output of the latch changes as the input changes.
+There are **no control inputs** to control when the latch should work and when it should not. This is where [[Clock in Digital Circuits|clock]] signals come in because the state changes has to be synchronized.
 
 ---
