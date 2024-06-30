@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "b1a11c8259187dd1",
+            "id": "e40ff60183b962f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
+                "file": "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "4d088c1caf4bc3e5",
+            "id": "b1a11c8259187dd1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/SR and S'R' Latch.md",
+                "file": "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,8 +124,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -146,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/SR and S'R' Latch.md",
+                "file": "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/SR and S'R' Latch.md",
+                "file": "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/SR and S'R' Latch.md"
+                "file": "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md"
               }
             }
           },
@@ -242,30 +241,33 @@
       "command-palette:Open command palette": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "map-of-content:Update Map of Content": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "4d088c1caf4bc3e5",
+  "active": "e40ff60183b962f1",
   "lastOpenFiles": [
-    "attachments/SR and S'R' Latch-20240629233401968.webp",
-    "attachments/SR and S'R' Latch-20240629233050668.webp",
-    "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
-    "GATE/Digital-Logic/Sequential Circuits/SR and S'R' Latch.md",
-    "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md",
     "GATE/Digital-Logic/Digital Logic.md",
+    "GATE/Digital-Logic/Sequential Circuits/T Flip Flop.md",
+    "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md",
+    "attachments/Flip Flop-20240630234751529.webp",
+    "attachments/Flip Flop-20240630234734733.webp",
+    "attachments/Flip Flop-20240630234718641.webp",
+    "attachments/Flip Flop-20240630234702870.webp",
+    "attachments/Flip Flop-20240630234641703.webp",
+    "attachments/T Flip Flop-20240630234210065.webp",
+    "attachments/T Flip Flop-20240630234103002.webp",
+    "attachments/T Flip Flop-20240630233737107.webp",
+    "attachments/T Flip Flop-20240630233511902.webp",
+    "attachments/T Flip Flop-20240630233350694.webp",
+    "GATE/Digital-Logic/Sequential Circuits/JK Flip Flop.md",
+    "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md",
+    "GATE/Digital-Logic/Sequential Circuits/D Flip Flop.md",
+    "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
+    "GATE/Digital-Logic/Sequential Circuits/SR Flip Flop.md",
+    "GATE/Digital-Logic/Sequential Circuits/SR and S'R' Latch.md",
     "GATE/Digital-Logic/Sequential Circuits/Memory Device.md",
-    "attachments/SR and S'R' Latch-20240629210658063.webp",
-    "attachments/SR and S'R' Latch-20240629210435589.webp",
-    "attachments/SR and S'R' Latch-20240629210255019.webp",
-    "attachments/SR and S'R' Latch-20240629205838208.webp",
-    "attachments/Memory Device-20240629205816136.webp",
-    "attachments/SR and S'R' Latch-20240629205435012.webp",
-    "attachments/SR and S'R' Latch-20240629205406645.webp",
-    "attachments/Memory Device-20240629204359282.webp",
-    "attachments/SR and S'R' Latch-20240629203359293.webp",
     "GATE/Digital-Logic/Sequential Circuits/Sequential Circuits.md",
     "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md",
     "GATE/Digital-Logic/Sequential Circuits/Counters.md",
@@ -282,11 +284,6 @@
     "GATE/Digital-Logic/Combinational Circuits/Propagational Delay and Timing Diagrams.md",
     "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
-    "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
-    "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
-    "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
-    "GATE/Digital-Logic/Combinational Circuits/Shannons Expansion Theorem.md",
-    "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",

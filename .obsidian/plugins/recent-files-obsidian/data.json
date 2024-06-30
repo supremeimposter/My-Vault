@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "SR and S'R' Latch",
-      "path": "GATE/Digital-Logic/Sequential Circuits/SR and S'R' Latch.md"
+      "basename": "Flip Flop",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md"
     },
     {
-      "basename": "Clock in Digital Circuits",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "T Flip Flop",
+      "path": "GATE/Digital-Logic/Sequential Circuits/T Flip Flop.md"
+    },
+    {
+      "basename": "JK Flip Flop",
+      "path": "GATE/Digital-Logic/Sequential Circuits/JK Flip Flop.md"
     },
     {
       "basename": "Combinational Circuits vs Sequential Circuits",
       "path": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md"
     },
     {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
+      "basename": "D Flip Flop",
+      "path": "GATE/Digital-Logic/Sequential Circuits/D Flip Flop.md"
+    },
+    {
+      "basename": "Clock in Digital Circuits",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
+    },
+    {
+      "basename": "SR Flip Flop",
+      "path": "GATE/Digital-Logic/Sequential Circuits/SR Flip Flop.md"
+    },
+    {
+      "basename": "SR and S'R' Latch",
+      "path": "GATE/Digital-Logic/Sequential Circuits/SR and S'R' Latch.md"
     },
     {
       "basename": "Memory Device",
@@ -179,26 +199,6 @@
     {
       "basename": "Implicants of a Boolean Function",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants of a Boolean Function.md"
-    },
-    {
-      "basename": "Minimization using K Map",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
-    },
-    {
-      "basename": "Don't Cares and Covering Functions",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares and Covering Functions.md"
-    },
-    {
-      "basename": "Don't Cares in K Map-20240621104827093",
-      "path": "attachments/Don't Cares in K Map-20240621104827093.webp"
-    },
-    {
-      "basename": "Don't Cares and Covering Functions-20240621105154655",
-      "path": "attachments/Don't Cares and Covering Functions-20240621105154655.webp"
-    },
-    {
-      "basename": "D Flip Flop",
-      "path": "GATE/Digital-Logic/Sequential Circuits/D Flip Flop.md"
     }
   ],
   "omittedPaths": [
