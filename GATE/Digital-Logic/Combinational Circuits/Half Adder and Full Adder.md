@@ -20,7 +20,7 @@ tags:
 | Addition of two multi-bit binary numbers | Ripple Carry Adder or Carry Look Ahead Adder |
 
 > [!remember] 
-> Each output of a circuit can be considered a function. Check for when it will 1 and add the minterms.
+> Each output of a circuit can be considered a function. Check for when the function will be 1 and add the minterms.
 
 Let us assume that $t$ is the propagational delay of the logic gates NOT, AND, OR, EXOR, NAND, NOR.
 
@@ -68,7 +68,7 @@ The propagational delay of the circuit is $3t$, since the critical path consists
 
 From, $X, Y$ to $S$, the propagational delay is $3t$.
 
-From, $X, Y$ to $C$, the propagational delay is $2t$.
+From, $X, Y$ to $C$, the propagational delay is $t$.
 ```
 ````
 
@@ -95,8 +95,7 @@ Half adders have only two inputs and two outputs. Half adders cannot accept a ca
 ---
 ## Full Adder
 
-Full adder is a combinational circuit that performs the addition of three bits (two significant bits and previous carry).
-Full adders consists of three inputs (two significant bits and one previous carry) and two outputs (one sum bit and one carry out).
+Full adder is a combinational circuit that performs the addition of three bits (two significant bits and previous carry) and gives two outputs (one sum bit and one carry out).
 Full adders can be cascaded to add multi-bit binary numbers.
 
 - Inputs : $x, y, c_{in}$
@@ -143,7 +142,7 @@ $$
 > - If it is **NOT** possible for two boolean expressions to be $1$ simultaneously, then $\alpha + \beta = \alpha \oplus \beta$ 
 > - If it is **NOT** possible that at least any two boolean expressions to be $1$ simultaneously, then $\alpha + \beta + \gamma = \alpha \oplus \beta \oplus \gamma$ 
 
-The two expressions $X. Y$ and $C_{in} (X \oplus Y)$ can never be simultaneously $1$. 
+The two expressions $X. Y$ and $C_{in} \, (X \oplus Y)$ can never be simultaneously $1$. 
 $$
 \begin{split}
 C_{out} 
