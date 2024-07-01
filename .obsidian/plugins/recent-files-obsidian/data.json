@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Half Adder and Full Adder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md"
+    },
+    {
       "basename": "Flip Flop",
       "path": "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md"
     },
     {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
+      "basename": "Preset and Clear Inputs in Flip Flop",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Preset and Clear Inputs in Flip Flop.md"
+    },
+    {
+      "basename": "Timing Issues in Flip Flop",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md"
+    },
+    {
+      "basename": "Flip Flop Conversion",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Flip Flop Conversion.md"
+    },
+    {
+      "basename": "Combinational Circuits vs Sequential Circuits",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md"
+    },
+    {
+      "basename": "Clock in Digital Circuits",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
+    },
+    {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
       "basename": "T Flip Flop",
@@ -17,16 +45,8 @@
       "path": "GATE/Digital-Logic/Sequential Circuits/JK Flip Flop.md"
     },
     {
-      "basename": "Combinational Circuits vs Sequential Circuits",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md"
-    },
-    {
       "basename": "D Flip Flop",
       "path": "GATE/Digital-Logic/Sequential Circuits/D Flip Flop.md"
-    },
-    {
-      "basename": "Clock in Digital Circuits",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
     },
     {
       "basename": "SR Flip Flop",
@@ -61,20 +81,12 @@
       "path": "GATE/Digital-Logic/Combinational Circuits/Subtraction using Adders.md"
     },
     {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
-    },
-    {
       "basename": "Pending Lectures",
       "path": "GATE/Pending Lectures.md"
     },
     {
       "basename": "Ripple Carry Adder",
       "path": "GATE/Digital-Logic/Combinational Circuits/Ripple Carry Adder.md"
-    },
-    {
-      "basename": "Half Adder and Full Adder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md"
     },
     {
       "basename": "Standard and Canonical Forms of Boolean Expressions",
@@ -187,18 +199,6 @@
     {
       "basename": "Introduction to Compiler Design",
       "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md"
-    },
-    {
-      "basename": "Boolean Function",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
-    },
-    {
-      "basename": "Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
-    },
-    {
-      "basename": "Implicants of a Boolean Function",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants of a Boolean Function.md"
     }
   ],
   "omittedPaths": [

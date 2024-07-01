@@ -464,6 +464,18 @@
       "command": false,
       "injectColor": true,
       "noTitle": false
+    },
+    "problem": {
+      "type": "problem",
+      "color": "22, 187, 116",
+      "icon": {
+        "name": "calculator",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
     }
   },
   "syntaxHighlight": false,
