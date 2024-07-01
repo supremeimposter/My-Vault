@@ -9,6 +9,7 @@ last-revision: 2024-06-30T15:28:00
 notes-taken: true
 tags:
   - DigitalLogic/SequentialCircuits
+  - DigitalLogic/FlipFlop
 ---
 # SR Flip Flop
 

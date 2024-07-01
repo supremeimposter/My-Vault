@@ -9,6 +9,7 @@ last-revision: 2024-06-30T23:49:00
 notes-taken: true
 tags:
   - DigitalLogic/SequentialCircuits
+  - DigitalLogic/FlipFlop
 ---
 # T Flip Flop
 
@@ -51,7 +52,7 @@ $$
 
 ## State Diagram
 
-![[T Flip Flop-20240630233350694.webp]]
+![[T Flip Flop-20240701190735804.webp]]
 
 ## Implementation
 
@@ -66,5 +67,7 @@ $$
 ## Timing Diagram
 
 ![[T Flip Flop-20240630234210065.webp|Positive edge-triggered T-flip flop]]
+
+![[T Flip Flop-20240701101728205.webp|Positive edge-triggered flip flop]]
 
 ---

@@ -9,6 +9,7 @@ last-revision: 2024-06-30T23:05:00
 notes-taken: true
 tags:
   - DigitalLogic/SequentialCircuits
+  - DigitalLogic/FlipFlop
 ---
 # JK Flip Flop
 
@@ -89,5 +90,7 @@ Assume $Q = 0$ previously,
 ## Timing Diagram
 
 ![[JK Flip Flop-20240630231436594.webp|Positive edge-triggered flip flop]]
+
+![[JK Flip Flop-20240701101443865.webp|Positive edge-triggered flip flop]]
 
 ---

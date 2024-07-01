@@ -9,10 +9,11 @@ last-revision:
 notes-taken: false
 tags:
   - DigitalLogic/SequentialCircuits
+  - DigitalLogic/FlipFlop
 ---
 # Flip Flop
 
-A flip flop is a latch controlled by clock.
+- A flip flop is a latch controlled by clock.
 
 ```mermaid
 flowchart LR
@@ -27,7 +28,10 @@ C --> G[Negative Edge\nTriggered \nFlip Flop]
 - Clock Triggering is a property of flip flop and not a property of clock itself.
 - For any flip flop, by default edge triggering is used. Because for one clock cycle (time period), the state changes only once.
 - [[Clock in Digital Circuits|Clock]] is fixed for all flip flops.
-- Don't consider clock as an input in the implementation equations of flip flops, because any flip flop can have any triggering.
+
+> [!attention] 
+> Don't consider clock as an input in the implementation equations of flip flops, because any flip flop can have any triggering.
+
 - There are many ways to implement edge triggered flip flop and [[Master Slave Flip Flops]] is one of them.
 - Characteristic equations of flip flops are derived from their characteristic tables or k-map of their truth tables.
 
@@ -45,9 +49,9 @@ All flip flops are 1-bit storage devices.
 
 
 > [!remember] 
-> A clock is not level or edge triggered, but a flip flop is level or edge triggered.
+> Clock is not level or edge triggered, but a flip flop is level or edge triggered.
 
-- Flip flops are mostly used as storage devices, hence [[Registers]]. Flip flops can also be used to implement frequency dividers, etc.., hence Counters.
+- Flip flops are mostly used as storage devices, hence [[Registers]]. Flip flops can also be used to implement frequency dividers, etc.., hence [[Counters|Counters]].
 
 # Summary of Flip Flop
 

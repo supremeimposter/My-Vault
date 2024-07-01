@@ -73,7 +73,7 @@ tags:
 - [[JK Flip Flop]]
 - [[T Flip Flop]]
 - [[Flip Flop Conversion]]
-- [[Preset and Clear Inputs]]
+- [[Preset and Clear Inputs in Flip Flop]]
 - [[Master Slave Flip Flops]]
 - [[Race Condition on Flip Flop]]
 

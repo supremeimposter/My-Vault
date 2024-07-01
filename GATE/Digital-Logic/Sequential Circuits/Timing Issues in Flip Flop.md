@@ -54,3 +54,6 @@ $$
 
 $$\text{Setup Slack Time} = t_{clk} - [t_{\text{pFF}} + t_{\text{pC}} + t_{\text{setup}}]$$
 - Minimum cycle time $= t_{\text{pFF}} + t_{\text{pC}} + t_{\text{setup}}$
+
+
+> [!pdf] refer lec-10 pg. no. 63

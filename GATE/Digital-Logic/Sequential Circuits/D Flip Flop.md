@@ -9,6 +9,7 @@ last-revision: 2024-06-30T18:09:00
 notes-taken: true
 tags:
   - DigitalLogic/SequentialCircuits
+  - DigitalLogic/FlipFlop
 ---
 # D Flip Flop
 
@@ -63,9 +64,9 @@ When the clock = 0, then there is no change in the circuit.
 
 ## Timing Diagram
 
-![[D Flip Flop-20240630174220284.webp]]
+![[D Flip Flop-20240630174220284.webp|Positive level-triggered flip flop]]
 
-The D-flip flip in this timing diagram is positive-level triggered.
+![[D Flip Flop-20240701101634607.webp|Positive edge-triggered flip flop]]
 
 ## Clock Triggering in D Flip Flop
 

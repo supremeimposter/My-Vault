@@ -65,7 +65,7 @@ where $Y_{t}$ is the output at time $t=0$ and $I_{0}$ is the input at time $t=0$
 - Sequential circuits remember the history of outputs because of [[Memory Device|memory device]] or **memory element** which can store a single bit (0 or 1), which is the basic unit of memory storage.
 
 - Clock signals in sequential circuits are similar to the enable input in combinational circuits.
-- In sequential circuits, synchronous means **in sync with clock** and asynchronous means **not in sync with clock**.
+- In sequential circuits, **synchronous** means in sync with clock and **asynchronous** means not in sync with clock.
 
 ```merm
 flowchart TD
