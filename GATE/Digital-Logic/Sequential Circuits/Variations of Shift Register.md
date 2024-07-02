@@ -9,6 +9,8 @@ last-revision:
 notes-taken: false
 tags:
   - DigitalLogic/SequentialCircuits
+  - DigitalLogic/Registers
+  - DigitalLogic/FlipFlop
 ---
 # UniDirectional Shift Register
 

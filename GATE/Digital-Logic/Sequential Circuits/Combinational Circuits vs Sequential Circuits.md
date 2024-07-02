@@ -63,6 +63,7 @@ where $Y_{t}$ is the output at time $t=0$ and $I_{0}$ is the input at time $t=0$
 > $Q^+ = Q_n = Q_{t + 1} =$ Next state equation
 
 - Sequential circuits remember the history of outputs because of [[Memory Device|memory device]] or **memory element** which can store a single bit (0 or 1), which is the basic unit of memory storage.
+- A 1-bit memory is called a bi-stable, which has two internal states i.e. $0, 1$.
 
 - Clock signals in sequential circuits are similar to the enable input in combinational circuits.
 - In sequential circuits, **synchronous** means in sync with clock and **asynchronous** means not in sync with clock.
@@ -73,10 +74,14 @@ A[Sequential Circuits] --> B[Synchronous]
 A --> C[Asynchronous]
 ```
 
-- Circuits with [[Flip Flop]] is a sequential circuit. Flip flops are 1-bit storage device.
+- Circuits with [[Flip Flop]] is a sequential circuit. If the flip flop is removed from a sequential circuit, then it is no longer a sequential circuit.
+- Flip flops are 1-bit storage device.
 - The function of the sequential circuit is the next state equation $Q_n$
 $$
 Q_n = f\;(Q, I_0, I_1, \cdots, I_k)
 $$
+
+> [!example] 
+> ![[Combinational Circuits vs Sequential Circuits-20240702150235962.webp]]
 
 ---

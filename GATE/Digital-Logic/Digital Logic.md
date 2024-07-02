@@ -74,16 +74,9 @@ tags:
 - [[T Flip Flop]]
 - [[Flip Flop Conversion]]
 - [[Preset and Clear Inputs in Flip Flop]]
-- [[Master Slave Flip Flops]]
-- [[Race Condition on Flip Flop]]
-
-> [!youtube] Timing Issues in Flip Flop
-> [Digital Logic - Timing Issues, Constraints in Flip Flops | Clocking and Timing Analysis of Flip Flops | Hold Time, Setup Time | Sequential Circuits - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHi3p3cDBRInTHCJeITrkTFn)
-
+- [[Design of Flip Flops]]
+- [[Race Around Condition in Flip Flop]]
 - [[Timing Issues in Flip Flop]]
-
-> [!youtube] Registers
-> [Digital Logic - Registers in Sequential Circuits | Shift Register | Linear Feedback Shift Register | Universal Shift Register | PIOP, SISO, SIPO, PISO - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHj7EiWLYGUe0ULdZ6MRSLix)
 
 - [[Registers]]
 - [[Variations of Shift Register]]

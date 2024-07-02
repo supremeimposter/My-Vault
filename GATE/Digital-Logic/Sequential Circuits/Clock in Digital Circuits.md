@@ -5,8 +5,8 @@ lecture:
 date: 2024-03-08T19:10:00
 version:
   - DL-24
-last-revision: 
-notes-taken: false
+last-revision: 2024-07-02T16:06:00
+notes-taken: true
 tags:
   - DigitalLogic/SequentialCircuits
 ---
@@ -39,19 +39,20 @@ When the frequency is low, time period is high.
 ![[Clock in Digital Circuits-20240630100748056.webp]]
 
 > [!info] 
-> ![[Clock in Digital Circuits-20240630104626513.webp]]
+> ![[Clock in Digital Circuits-20240702103237487.webp]]
 
 **Pulse Width :**
-- Pulse Width or Clock Width is the time duration for which the clock signal is high in a time period.
+- Pulse Width $P_{w}$ or Clock Width is the time duration for which the clock signal is high in a time period.
 - It is also called as ON period.
+
+![[Clock in Digital Circuits-20240702095815170.webp]]
+
+- The time duration for which the clock signal is low in a time period is called off-period.
 
 **Duty Cycle :**
 - Duty cycle or Power Cycle is the percentage of ON time in a clock period.
-
 $$
 \text{Duty Cycle} = \frac{\text{Pulse Width}}{\text{Clock Period}}
 $$
-
-
 
 ---

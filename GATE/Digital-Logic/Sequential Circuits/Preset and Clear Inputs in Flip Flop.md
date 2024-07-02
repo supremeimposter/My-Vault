@@ -5,8 +5,8 @@ lecture:
 date: 2024-03-11T11:10:00
 version:
   - DL-24
-last-revision: 
-notes-taken: false
+last-revision: 2024-07-02T15:26:00
+notes-taken: true
 tags:
   - DigitalLogic/SequentialCircuits
   - DigitalLogic/FlipFlop
