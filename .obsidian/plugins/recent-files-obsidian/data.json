@@ -1,36 +1,60 @@
 {
   "recentFiles": [
     {
+      "basename": "Variations of Shift Register",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Variations of Shift Register.md"
+    },
+    {
+      "basename": "Registers",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Registers.md"
+    },
+    {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
-      "basename": "Half Adder and Full Adder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md"
+      "basename": "Counters",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Counters.md"
     },
     {
       "basename": "Flip Flop",
       "path": "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md"
     },
     {
-      "basename": "Preset and Clear Inputs in Flip Flop",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Preset and Clear Inputs in Flip Flop.md"
+      "basename": "Combinational Circuits vs Sequential Circuits",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md"
     },
     {
       "basename": "Timing Issues in Flip Flop",
       "path": "GATE/Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md"
     },
     {
+      "basename": "Clock in Digital Circuits",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
+    },
+    {
+      "basename": "Race Around Condition in Flip Flop",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Race Around Condition in Flip Flop.md"
+    },
+    {
+      "basename": "Pending Lectures",
+      "path": "GATE/Pending Lectures.md"
+    },
+    {
+      "basename": "Design of Flip Flops",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Design of Flip Flops.md"
+    },
+    {
+      "basename": "Preset and Clear Inputs in Flip Flop",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Preset and Clear Inputs in Flip Flop.md"
+    },
+    {
       "basename": "Flip Flop Conversion",
       "path": "GATE/Digital-Logic/Sequential Circuits/Flip Flop Conversion.md"
     },
     {
-      "basename": "Combinational Circuits vs Sequential Circuits",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md"
-    },
-    {
-      "basename": "Clock in Digital Circuits",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
+      "basename": "Half Adder and Full Adder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md"
     },
     {
       "basename": "Guidelines to GATE-CS",
@@ -65,10 +89,6 @@
       "path": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md"
     },
     {
-      "basename": "Counters",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Counters.md"
-    },
-    {
       "basename": "Carry Look Ahead Adder",
       "path": "GATE/Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md"
     },
@@ -79,10 +99,6 @@
     {
       "basename": "Subtraction using Adders",
       "path": "GATE/Digital-Logic/Combinational Circuits/Subtraction using Adders.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "GATE/Pending Lectures.md"
     },
     {
       "basename": "Ripple Carry Adder",
@@ -183,22 +199,6 @@
     {
       "basename": "Conditional Statements in C",
       "path": "GATE/Programming-with-C/Conditional Statements in C.md"
-    },
-    {
-      "basename": "Operators in C",
-      "path": "GATE/Programming-with-C/Operators in C.md"
-    },
-    {
-      "basename": "Type Conversion in C",
-      "path": "GATE/Programming-with-C/Type Conversion in C.md"
-    },
-    {
-      "basename": "Loops in C",
-      "path": "GATE/Programming-with-C/Loops in C.md"
-    },
-    {
-      "basename": "Introduction to Compiler Design",
-      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md"
     }
   ],
   "omittedPaths": [

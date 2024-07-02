@@ -21,8 +21,61 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "c37c380142ef0ee9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Digital-Logic/Sequential Circuits/Variations of Shift Register.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05ffa2c23571be49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "46611d790c989b67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7a840f3cfce2e06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Digital-Logic/Sequential Circuits/Registers.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Digital Logic.md",
+                "file": "GATE/Digital-Logic/Sequential Circuits/Variations of Shift Register.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Digital Logic.md",
+                "file": "GATE/Digital-Logic/Sequential Circuits/Variations of Shift Register.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Digital Logic.md"
+                "file": "GATE/Digital-Logic/Sequential Circuits/Variations of Shift Register.md"
               }
             }
           },
@@ -207,26 +260,32 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ab85773fb3542664",
+  "active": "c37c380142ef0ee9",
   "lastOpenFiles": [
-    "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md",
+    "GATE/Digital-Logic/Sequential Circuits/Registers.md",
+    "attachments/Registers-20240702235532518.webp",
+    "attachments/Registers-20240702235527065.webp",
+    "attachments/Registers-20240702235459579.webp",
+    "attachments/Registers-20240702235349696.webp",
+    "attachments/Registers-20240702233258680.webp",
+    "attachments/Registers-20240702231241615.webp",
+    "attachments/Registers-20240702231119920.webp",
+    "attachments/Registers-20240702224821013.webp",
+    "attachments/Registers-20240702224755050.webp",
+    "attachments/Registers-20240702224301853.webp",
+    "GATE/Digital-Logic/Sequential Circuits/Variations of Shift Register.md",
     "GATE/Digital-Logic/Digital Logic.md",
+    "GATE/Digital-Logic/Sequential Circuits/Counters.md",
     "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md",
-    "GATE/Digital-Logic/Sequential Circuits/Preset and Clear Inputs in Flip Flop.md",
-    "GATE/Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md",
-    "attachments/Preset and Clear Inputs in Flip Flop-20240701232602096.webp",
-    "GATE/Digital-Logic/Sequential Circuits/Flip Flop Conversion.md",
-    "attachments/Preset and Clear Inputs in Flip Flop-20240701225033672.webp",
-    "attachments/Preset and Clear Inputs in Flip Flop-20240701224900036.webp",
-    "attachments/Preset and Clear Inputs in Flip Flop-20240701224819256.webp",
-    "attachments/Preset and Clear Inputs in Flip Flop-20240701224739200.webp",
-    "attachments/Preset and Clear Inputs in Flip Flop-20240701224640694.webp",
-    "attachments/Preset and Clear Inputs in Flip Flop-20240701224604693.webp",
-    "attachments/Preset and Clear Inputs in Flip Flop-20240701224355776.webp",
-    "attachments/Flip Flop Conversion-20240701222918058.webp",
-    "attachments/Flip Flop Conversion-20240701222834609.webp",
     "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md",
+    "GATE/Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md",
     "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
+    "GATE/Digital-Logic/Sequential Circuits/Race Around Condition in Flip Flop.md",
+    "GATE/Pending Lectures.md",
+    "GATE/Digital-Logic/Sequential Circuits/Design of Flip Flops.md",
+    "GATE/Digital-Logic/Sequential Circuits/Preset and Clear Inputs in Flip Flop.md",
+    "GATE/Digital-Logic/Sequential Circuits/Flip Flop Conversion.md",
+    "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md",
     "GATE/Guidelines to GATE-CS.md",
     "GATE/Digital-Logic/Sequential Circuits/T Flip Flop.md",
     "GATE/Digital-Logic/Sequential Circuits/JK Flip Flop.md",
@@ -236,15 +295,8 @@
     "GATE/Digital-Logic/Sequential Circuits/Memory Device.md",
     "GATE/Digital-Logic/Sequential Circuits/Sequential Circuits.md",
     "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md",
-    "GATE/Digital-Logic/Sequential Circuits/Counters.md",
     "GATE/Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md",
     "GATE/Digital-Logic/Combinational Circuits/Adder for Signed Addition.md",
-    "GATE/Digital-Logic/Combinational Circuits/Subtraction using Adders.md",
-    "GATE/Pending Lectures.md",
-    "GATE/Digital-Logic/Combinational Circuits/Ripple Carry Adder.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
-    "GATE/DiscreteMathematics/Discrete Mathematics.md",
-    "GATE/Topics-Tracker-for-GATE.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
