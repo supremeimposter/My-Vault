@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "c37c380142ef0ee9",
+            "id": "8df101f9592a3385",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/Variations of Shift Register.md",
+                "file": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -55,19 +55,6 @@
               "type": "markdown",
               "state": {
                 "file": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7a840f3cfce2e06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/Registers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -159,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/Variations of Shift Register.md",
+                "file": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/Variations of Shift Register.md",
+                "file": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/Variations of Shift Register.md"
+                "file": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md"
               }
             }
           },
@@ -260,24 +247,28 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c37c380142ef0ee9",
+  "active": "8df101f9592a3385",
   "lastOpenFiles": [
-    "GATE/Digital-Logic/Sequential Circuits/Registers.md",
-    "attachments/Registers-20240702235532518.webp",
-    "attachments/Registers-20240702235527065.webp",
-    "attachments/Registers-20240702235459579.webp",
-    "attachments/Registers-20240702235349696.webp",
-    "attachments/Registers-20240702233258680.webp",
-    "attachments/Registers-20240702231241615.webp",
-    "attachments/Registers-20240702231119920.webp",
-    "attachments/Registers-20240702224821013.webp",
-    "attachments/Registers-20240702224755050.webp",
-    "attachments/Registers-20240702224301853.webp",
-    "GATE/Digital-Logic/Sequential Circuits/Variations of Shift Register.md",
-    "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Sequential Circuits/Counters.md",
+    "attachments/Finite State Machine-20240703230410985.webp",
+    "attachments/Finite State Machine-20240703230000715.webp",
+    "attachments/Finite State Machine-20240703225424216.webp",
+    "attachments/Finite State Machine-20240703225411623.webp",
+    "attachments/Finite State Machine-20240703225310669.webp",
+    "attachments/Finite State Machine-20240703225117981.webp",
+    "attachments/Finite State Machine-20240703224920123.webp",
+    "attachments/Finite State Machine-20240703214516045.webp",
+    "attachments/Finite State Machine-20240703213157655.webp",
+    "attachments/Finite State Machine-20240703211809370.webp",
+    "attachments/Finite State Machine-20240703195303040.webp",
     "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md",
     "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md",
+    "GATE/Digital-Logic/Digital Logic.md",
+    "GATE/Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md",
+    "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md",
+    "GATE/Digital-Logic/Sequential Circuits/Registers.md",
+    "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "GATE/Digital-Logic/Sequential Circuits/Variations of Shift Register.md",
+    "GATE/Digital-Logic/Sequential Circuits/Counters.md",
     "GATE/Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md",
     "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
     "GATE/Digital-Logic/Sequential Circuits/Race Around Condition in Flip Flop.md",
@@ -294,9 +285,6 @@
     "GATE/Digital-Logic/Sequential Circuits/SR and S'R' Latch.md",
     "GATE/Digital-Logic/Sequential Circuits/Memory Device.md",
     "GATE/Digital-Logic/Sequential Circuits/Sequential Circuits.md",
-    "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md",
-    "GATE/Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md",
-    "GATE/Digital-Logic/Combinational Circuits/Adder for Signed Addition.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",

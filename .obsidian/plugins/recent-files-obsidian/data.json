@@ -1,20 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Variations of Shift Register",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Variations of Shift Register.md"
-    },
-    {
-      "basename": "Registers",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Registers.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
-    },
-    {
-      "basename": "Counters",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Counters.md"
+      "basename": "Finite State Machine",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md"
     },
     {
       "basename": "Flip Flop",
@@ -23,6 +11,26 @@
     {
       "basename": "Combinational Circuits vs Sequential Circuits",
       "path": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Terminologies of Sequential Circuits",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md"
+    },
+    {
+      "basename": "Registers",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Registers.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Counters",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Counters.md"
     },
     {
       "basename": "Timing Issues in Flip Flop",
@@ -85,10 +93,6 @@
       "path": "GATE/Digital-Logic/Sequential Circuits/Memory Device.md"
     },
     {
-      "basename": "Finite State Machine",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md"
-    },
-    {
       "basename": "Carry Look Ahead Adder",
       "path": "GATE/Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md"
     },
@@ -107,10 +111,6 @@
     {
       "basename": "Standard and Canonical Forms of Boolean Expressions",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
     },
     {
       "basename": "Topics-Tracker-for-GATE",
