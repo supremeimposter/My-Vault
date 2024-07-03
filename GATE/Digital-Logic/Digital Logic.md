@@ -79,12 +79,10 @@ tags:
 - [[Timing Issues in Flip Flop]]
 
 - [[Registers]]
-- [[Variations of Shift Register]]
 
 > [!youtube] Finite State Machines
 > [Digital Logic - Finite State Machines(FSM), Mealy, Moore Machines | Synchronous Sequential Circuits | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjd6P9g6XoUm8E33CsUBqDv)
 
-- [[Terminologies of Sequential Circuits]]
 - [[Finite State Machine]]
 
 - [[Counters]]
