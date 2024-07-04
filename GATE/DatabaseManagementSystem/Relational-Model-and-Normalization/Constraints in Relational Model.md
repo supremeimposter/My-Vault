@@ -10,6 +10,7 @@ notes-taken: false
 tags:
   - DBMS/RelationalModel
 ---
+# Constraints in Relational Model
 
 # Integrity Constraint (IC)
 > [!lecture] Lecture-4A
@@ -94,7 +95,5 @@ tags:
 > - Insert into referenced table and Delete from referencing table do NOT cause any violation to Referential IC.
 > - Insert into referencing table and Delete from referenced table MAY OR MAY NOT cause violation to Referential IC.
 
-
-### [[Functional Dependency]]
 
 ---

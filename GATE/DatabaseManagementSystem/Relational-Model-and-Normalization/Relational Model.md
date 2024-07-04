@@ -11,58 +11,141 @@ tags:
   - DBMS/RelationalModel
 ---
 # Relational Model
-> [!lecture] Lecture-2A
 
 - Relational model is implementation friendly but it is a theoretical model.
-- Every data in the table must be a single atomic entity i.e. should NOT be divisible.
-- In relational model, a database is a collection of relations and a table is a collection of tuples.
-- [[Relations|Relation]] is the data structure of the relational model visualized as a table.
-- Two records can NEVER be same in a relational model.
-- Order of attributes matter.
-- Order of tuples does NOT matter.
+- In relational model, a database is a collection of one or more relations where each relation is a table with rows and columns. 
+
+> [!terminology] 
+> Table $\equiv$ Relation
+> Row $\equiv$ Record $\equiv$ Tuple
+> Column $\equiv$ Attribute $\equiv$ Field
+
+- Each relation must have a unique name.
+- A relation is a set of records.
+- A tuple is a row or record in a relation. A tuple variable can be used to refer any valid tuple.
+- Every data in a field must be a single atomic entity i.e. should NOT be divisible.
+
 - There are two theoretical query languages based on the relational model,
 	1. [[Relational Algebra]]
 	2. Relational Calculus
 - [[Structured Query Language]] is a practical query language based on the relational model.
 
-## Schema vs Instance
-- Schema contains,
+- Schema is a description of data in terms of data model.
+- Schema includes,
 	- Table name
 	- Attributes name
 	- Attributes domain
-- Schema is represented as ${} R(A, B, C)$, where $R$ is the relation and $A, B, C$ are attributes.
-- Instance is the contents of the table at a given time, a snapshot of the records
-- Schema rarely changes but Instance changes frequently
 
-### Degree and Cardinality
-- Degree (arity) of a relation is the number of attributes in its schema.
-	- Degree of a relation can NEVER be $0$.
-- Cardinality is the number of rows in any given instance of a relation.
+- Each attribute has a domain.
+- Schema is represented as 
+$$R(A : D_{1}, B: D_{2}, C : D_{3})$$
+where $R$ is the name of the relation, $A, B, C$ are attributes and $D_{i}$ are the domain of each attribute.
 
-> [!summary] 
-> - Degree is the number of columns 
-> - Cardinality is the number of rows
+- Multiple relations can have the same schema.
 
-## Why table is called a relation?
-> [!lecture] Lecture-2B
+> [!example] 
+> account (acct_id, branch_name, balance)
+> 
+> ![[Relational Model-20240704201031689.webp]]
 
-- Instance in a table is a subset of cross-product of attributes (columns)
-- Every record belongs to cross-product of attributes (columns)
+- The domain of an attribute specifies the set of valid atomic values for the attribute. The values in the domain must be indivisible i.e. a single atomic entity.
+- There cannot be 2 elements of the same domain in a single relation cell.
 
-> [!important] 
-> Relation = collection of records
+> [!example] 
+> The surname "Kumar" cannot be retrieved since the value "Ravi Kumar" is considered *atomic*.
+> 
+> ![[Relational Model-20240704201627791.webp]]
+> 
+> The solution to the above problem is to have a separate attribute for the firstname and lastname.
+> 
+> ![[Relational Model-20240704201802101.webp]]
 
-- Order of rows does NOT matter as a relation does not have an order (except ordered relation). and CANNOT have duplicates.
-- Order of attributes matter, since every record is an ordered tuple.
-- A relation is a set of records. No duplicates are allowed.
+- Attribute values are atomic, have a known domain and sometimes can be `NULL`.
+- `NULL` means not available, not applicable, not known or not recorded or absent based on the scenario.
+- For example, 
+	- If a student does not have a passport, then the *passport ID* attribute can be `NULL` because it is not available.
+	- If an attribute *spouse* exists in a relation, then a young boy or young girl cannot have a spouse and it can be `NULL`.
+	- If a student is absent on sports day, then there is no sport played by him, it can be `NULL`.
 
-## Null values
-> [!lecture] Lecture-2C
+> [!example] 
+> ![[Relational Model-20240704231313053.webp]]
 
-- `NULL` means not available, not known or not recorded.
+- Instance is the content of the table at a given time i.e. a snapshot of the records.
+- Schema rarely changes but Instance changes frequently.
 
-## Keys
-> [!lecture] Lecture-2D
+> [!example] 
+> ![[Relational Model-20240704201134236.webp]]
+> 
+> ![[Relational Model-20240704230616877.webp]]
+
+- Degree (arity) of a relation is the number of attributes in its schema. Degree of a relation can never be $0$.
+- Cardinality is the number of rows in any given instance of a relation. Cardinality can be $0$ i.e. no records in the table.
+
+## Relation in Relational Model
+
+- [[Relations|Relation]] is the data structure of the relational model visualized as a table.
+
+![[Relational Model-20240704203803346.webp]]
+
+Consider a relation $R\,(A_{1}, A_{2}, \cdots A_{n})$, and each attribute $A_{i}$ has a domain $D_{i}$
+
+|          | $A_{1}$  | $A_{2}$  | $A_{3}$  | $\cdots$ | $A_{n}$  |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| $r_{1}$  |          |          |          |          |          |
+| $r_{2}$  |          |          |          |          |          |
+| $\vdots$ | $\vdots$ | $\vdots$ | $\vdots$ | $\vdots$ | $\vdots$ |
+| $r_{n}$  |          |          |          |          |          |
+
+Let $r_{i}$ be the records of the relation $R$,
+
+Record $r_{1} \in D_{1} \times D_{2} \times \cdots \times D_{n}$
+Record $r_{2} \in D_{1} \times D_{2} \times \cdots \times D_{n}$
+$\vdots$
+Record $r_{n} \in D_{1} \times D_{2} \times \cdots \times D_{n}$
+
+> [!hint] 
+> A $k$-tuple is an ordered sequence of $k$ objects(need not be distinct).
+
+Every record belongs to cross-product of attributes, hence a record is an ordered tuple. The order of the attributes matter in a relation.
+
+Let $I$ be an instance of the relation $n$-ary $R$
+$$I \subseteq D_{1} \times D_{2} \times \cdots \times D_{n}$$
+An Instance of the table (relation) is a subset of cross-product of attributes. Hence the order of tuples does not matter in a relation (except for ordered relation).
+
+Assume $\mid D_{1} \mid = k_{1},\, \mid D_{2} \mid = k_{2}, \,\cdots\,, \mid D_{n} \mid = k_{n}$
+
+The maximum number of records possible i.e. the instance with maximum cardinality is,
+$$
+\begin{split}
+\mid D_{1} \times D_{2} \times \cdots \times D_{n} \mid 
+&= \mid D_{1} \mid \times \mid D_{2} \mid \times \cdots \times \mid D_{n} \mid \\
+&= k_{1} \times k_{2} \times \cdots \times k_{n} 
+\end{split}
+$$
+The instance with maximum cardinality $I_{\text{max}}$ is same as the cross product of all the attributes,
+$$
+I_{\text{max}} = \mid D_{1} \times D_{2} \times \cdots \times D_{n} \mid 
+$$
+
+The number of different instances possible is,
+$$
+2^{k_{1} \times k_{2} \times \cdots \times k_{n}}
+$$
+because to create an instance $I_{p}$, you need records and each record $r_{i}$ has *two choices*, $r_{i}$ can either be in the instance $I_{p}$ or it cannot be in the instance $I_{p}$.
+
+Within a record, every value in a component is related to every other value in the component, hence the name **Relation** for Relational model.
+
+> [!conclusion] 
+
+- Relation is a set of ordered tuples, hence there are no duplicate records and there are no order in the tuples.
+- A relation is a subset of cartesian products of attributes.
+- The cardinality of an instance can vary frequently as tuples are inserted and deleted frequently.
+- In relational model, data is modelled at logical level, not physical level.
+
+![[Relational Model-20240704222537655.webp]]
+
+---
+## Keys in Relational Model
 
 ### Super Key
 - A set of attributes which can identify any record uniquely.
@@ -100,5 +183,4 @@ tags:
 - A non-prime attribute can determine another non-prime attribute.
 - A prime attribute can determine another prime attribute.
 
-## [[Constraints in Relational Model]]
-
+---
