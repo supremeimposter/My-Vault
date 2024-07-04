@@ -56,7 +56,7 @@ q_{0} - \text{initial state} \\
 \omega - \text{output function}
 \end{split}
 $$
-- There are no final states associated with a transducer.
+- There are no final states associated with a transducer, hence they are not acceptors.
 
 ---
 ## Mealy State Machine
@@ -82,6 +82,7 @@ $$
 $$
 
 ![[Finite State Machine-20240703224920123.webp]]
+![[Finite State Machine-20240704122046795.webp]]
 
 ![[Finite State Machine-20240703225411623.webp]]
 ![[Finite State Machine-20240703225424216.webp]]
@@ -94,7 +95,19 @@ $$
 > ![[Finite State Machine-20240703225310669.webp]]
 > ![[Finite State Machine-20240703230000715.webp]]
 
----
+The transition edges are labelled with $\frac{a}{b}$ where $a$ is the current input and $b$ is the output produced by the transition.
+
+> [!example] 
+> ![[Finite State Machine-20240704113115304.webp]]
+> ![[Finite State Machine-20240704113128501.webp]]
+
+> [!example] 
+> ![[Finite State Machine-20240704115329013.webp]]
+
+
+> [!example] 
+> ![[Finite State Machine-20240704121712672.webp]]
+
 > [!problem]  
 > A circuit to detect 3 or more 1's in a serial bit stream. The bits are applied serially in sync with clock. The output becomes 1 whenever it detects 3 or more consecutive 1's in the stream or else the output is 0. 
 
@@ -115,7 +128,6 @@ Since there are 4 states in the state diagram, 2 flip flops are required to buil
 - Moore state machine is a finite machine, where the output solely depends on the present state.
 
 ![[Finite State Machine-20240703214516045.webp]]
-
 $$
 \begin{split}
 Q &= f\, (\text{present state})
@@ -130,15 +142,27 @@ $$
 \delta : Q \times \Sigma \to Q
 $$
 
+> [!NOTE] 
+> The *only difference* between Mealy and Moore machine is that the output function $\omega$ differs.
+
+![[Finite State Machine-20240704122119803.webp]]
+![[Finite State Machine-20240704122131230.webp]]
+
 > [!example] 
+> ![[Finite State Machine-20240704112726796.webp]]
 > ![[Finite State Machine-20240703230410985.webp]]
 
 > [!NOTE] 
 > Whether the pre-output is printed or not, it is author dependent.
 
+> [!example] 
+
+![[Finite State Machine-20240704121835416.webp]]
+
+![[Finite State Machine-20240704121849347.webp]]
 
 ---
 
-> [!NOTE] 
-> The *only difference* between Mealy and Moore machine is that the output function $\omega$ differs.
+> [!pdf] More examples from lec-14.pdf pg. no. 160
 
+---
