@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Finite State Machine",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md"
+      "basename": "Relational Model",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
     },
     {
-      "basename": "Flip Flop",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md"
+      "basename": "Constraints in Relational Model",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Structured Query Language",
+      "path": "GATE/DatabaseManagementSystem/SQL/Structured Query Language.md"
+    },
+    {
+      "basename": "Functional Dependency",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+    },
+    {
+      "basename": "Introduction to DBMS",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
+    },
+    {
+      "basename": "Life Lessons by Deepak Poonia",
+      "path": "GATE/Life Lessons by Deepak Poonia.md"
+    },
+    {
+      "basename": "Vault Index",
+      "path": "Vault Index.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Combinational Circuits vs Sequential Circuits",
       "path": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md"
     },
     {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
+      "basename": "Flip Flop",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md"
+    },
+    {
+      "basename": "Finite State Machine",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md"
     },
     {
       "basename": "Terminologies of Sequential Circuits",
@@ -167,38 +199,6 @@
     {
       "basename": "Eigen Values and Eigen Vectors",
       "path": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
-    },
-    {
-      "basename": "Signed and Unsigned in C",
-      "path": "GATE/Programming-with-C/Signed and Unsigned in C.md"
-    },
-    {
-      "basename": "Complements in Number System",
-      "path": "GATE/Digital-Logic/Number Systems/Complements in Number System.md"
-    },
-    {
-      "basename": "Subtraction of Unsigned Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md"
-    },
-    {
-      "basename": "Decimal and Binary System",
-      "path": "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md"
-    },
-    {
-      "basename": "Octal and Hexadecimal System",
-      "path": "GATE/Digital-Logic/Number Systems/Octal and Hexadecimal System.md"
-    },
-    {
-      "basename": "Number Systems",
-      "path": "GATE/Digital-Logic/Number Systems/Number Systems.md"
-    },
-    {
-      "basename": "Programming with C",
-      "path": "GATE/Programming-with-C/Programming with C.md"
-    },
-    {
-      "basename": "Conditional Statements in C",
-      "path": "GATE/Programming-with-C/Conditional Statements in C.md"
     }
   ],
   "omittedPaths": [

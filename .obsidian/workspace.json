@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e4f3559324ee7efe",
+        "id": "0f73b05498910a66",
         "type": "tabs",
         "children": [
           {
-            "id": "ab85773fb3542664",
+            "id": "9568c3d2686fcb15",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Digital Logic.md",
+                "file": "GATE/DatabaseManagementSystem/Database Management System.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "8df101f9592a3385",
+            "id": "c3ffd38960578c47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,25 +36,12 @@
             }
           },
           {
-            "id": "05ffa2c23571be49",
+            "id": "28b71ff7e278b997",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46611d790c989b67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md"
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
               }
             }
           },
@@ -247,24 +234,32 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8df101f9592a3385",
+  "active": "28b71ff7e278b997",
   "lastOpenFiles": [
-    "attachments/Finite State Machine-20240703230410985.webp",
-    "attachments/Finite State Machine-20240703230000715.webp",
-    "attachments/Finite State Machine-20240703225424216.webp",
-    "attachments/Finite State Machine-20240703225411623.webp",
-    "attachments/Finite State Machine-20240703225310669.webp",
-    "attachments/Finite State Machine-20240703225117981.webp",
-    "attachments/Finite State Machine-20240703224920123.webp",
-    "attachments/Finite State Machine-20240703214516045.webp",
-    "attachments/Finite State Machine-20240703213157655.webp",
-    "attachments/Finite State Machine-20240703211809370.webp",
-    "attachments/Finite State Machine-20240703195303040.webp",
-    "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md",
-    "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md",
+    "attachments/Relational Model-20240704231313053.webp",
+    "attachments/Relational Model-20240704230616877.webp",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+    "GATE/DatabaseManagementSystem/SQL/Structured Query Language.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+    "attachments/Relational Model-20240704222537655.webp",
+    "attachments/Relational Model-20240704203803346.webp",
+    "attachments/Relational Model-20240704201802101.webp",
+    "attachments/Relational Model-20240704201627791.webp",
+    "attachments/Relational Model-20240704201134236.webp",
+    "attachments/Relational Model-20240704201031689.webp",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
+    "attachments/Introduction to DBMS-20240704183744699.webp",
+    "attachments/Introduction to DBMS-20240704183705786.webp",
+    "GATE/Life Lessons by Deepak Poonia.md",
+    "Vault Index.md",
+    "attachments/Introduction to DBMS-20240704175408397.webp",
     "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md",
+    "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md",
+    "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md",
     "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md",
+    "GATE/Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md",
     "GATE/Digital-Logic/Sequential Circuits/Registers.md",
     "GATE/DiscreteMathematics/Discrete Mathematics.md",
     "GATE/Digital-Logic/Sequential Circuits/Variations of Shift Register.md",
@@ -277,14 +272,6 @@
     "GATE/Digital-Logic/Sequential Circuits/Preset and Clear Inputs in Flip Flop.md",
     "GATE/Digital-Logic/Sequential Circuits/Flip Flop Conversion.md",
     "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md",
-    "GATE/Guidelines to GATE-CS.md",
-    "GATE/Digital-Logic/Sequential Circuits/T Flip Flop.md",
-    "GATE/Digital-Logic/Sequential Circuits/JK Flip Flop.md",
-    "GATE/Digital-Logic/Sequential Circuits/D Flip Flop.md",
-    "GATE/Digital-Logic/Sequential Circuits/SR Flip Flop.md",
-    "GATE/Digital-Logic/Sequential Circuits/SR and S'R' Latch.md",
-    "GATE/Digital-Logic/Sequential Circuits/Memory Device.md",
-    "GATE/Digital-Logic/Sequential Circuits/Sequential Circuits.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",

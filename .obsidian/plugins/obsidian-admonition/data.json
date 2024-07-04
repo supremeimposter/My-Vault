@@ -476,6 +476,18 @@
       "injectColor": true,
       "noTitle": false,
       "copy": false
+    },
+    "fact": {
+      "type": "fact",
+      "color": "236, 244, 123",
+      "icon": {
+        "name": "pen-alt",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
     }
   },
   "syntaxHighlight": false,
