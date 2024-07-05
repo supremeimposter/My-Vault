@@ -263,13 +263,14 @@
       "type": "convention",
       "color": "221, 39, 197",
       "icon": {
-        "type": "octicons",
-        "name": "container"
+        "type": "obsidian",
+        "name": "lucide-container"
       },
       "command": false,
       "title": "Convention",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "terminology": {
       "type": "terminology",

@@ -34,22 +34,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "28b71ff7e278b997",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
               }
             }
           },
@@ -198,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "5df95600f2476df0",
@@ -234,13 +221,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "28b71ff7e278b997",
+  "active": "c3ffd38960578c47",
   "lastOpenFiles": [
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
+    "attachments/Relational Model-20240705083407426.webp",
     "attachments/Relational Model-20240704231313053.webp",
     "attachments/Relational Model-20240704230616877.webp",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
-    "GATE/DatabaseManagementSystem/Database Management System.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "GATE/DatabaseManagementSystem/SQL/Structured Query Language.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
     "attachments/Relational Model-20240704222537655.webp",
@@ -251,10 +239,8 @@
     "attachments/Relational Model-20240704201031689.webp",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
     "attachments/Introduction to DBMS-20240704183744699.webp",
-    "attachments/Introduction to DBMS-20240704183705786.webp",
     "GATE/Life Lessons by Deepak Poonia.md",
     "Vault Index.md",
-    "attachments/Introduction to DBMS-20240704175408397.webp",
     "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md",
     "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md",
