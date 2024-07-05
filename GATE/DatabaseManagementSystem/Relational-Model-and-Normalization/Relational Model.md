@@ -5,10 +5,12 @@ lecture: 2A, 2B, 2C, 2D, 6A
 date: 2023-10-30T11:31:00
 version:
   - DBMS-24
-last-revision: 
-notes-taken: false
+last-revision: 2024-07-05T08:40:00
+notes-taken: true
 tags:
   - DBMS/RelationalModel
+  - DiscreteMath/Sets/Relations
+  - DBMS/RelationalModel/Keys
 ---
 # Relational Model
 
@@ -147,31 +149,53 @@ Within a record, every value in a component is related to every other value in t
 ---
 ## Keys in Relational Model
 
+Since relation is a set of tuples, no two tuples can have the same value for all the attributes. But some tuples might have the same value for some attributes.
+
+In relational model, keys are used to distinguish individual tuples.
+Keys are a property of the relation schema and not individual tuples.
+
 ### Super Key
-- A set of attributes which can identify any record uniquely.
-- A set of attributes which have different values in different records.
-- Set of all attributes is also a super key.
+
+- A set of attributes which can *identify any record uniquely*.
+- A set (can also be a singleton set) of attributes which have different values in different records.
+- In relational model, there is definitely at least one super key.
+- Set of all attributes is always a super key since no two records are same in relational model.
+- If two tuples have the same values for the superkey attributes, then they are the same tuple.
 - Super key must identify all the non-null values uniquely i.e. `NULL` values are allowed.
 
+- The superset of super keys is again a superkey. Not all superkeys are equally useful.
+
 ### Candidate Key
-- It is a minimal super key. If any one attribute is removed from the candidate key, it is no longer a super key.
+
+- Candidate key is a *minimal super key*. The redundant attributes in a super key can be removed to form a minimal super key i.e. candidate key.
+- There can be many candidate keys for a relation.
+- If any one attribute is removed from the candidate key, it is no longer a super key.
 - `NULL` values are allowed. It must identify all non-null values uniquely.
 
+- If a candidate key has a single attribute, then it is a simple candidate key.
+- If a candidate key has multiple attributes($\ge 2$), then it is a composite candidate key.
 
 ### Primary Key
+
 - It is one of the candidate key.
 - `NULL` values are NOT allowed in primary key.
 - Primary Keys can be of multi-attribute (more than one column) but NO `NULL` value.
-- There must be definitely one Primary key in Relational Model.
+- There must definitely be one Primary key in Relational Model.
+- Primary key is indicated in the relation schema by an underline.
+
+> [!example] 
+> ![[Relational Model-20240705083407426.webp]]
+
+- No other keys are specified in the schema.
 
 > [!summary] Summary of Keys
 > - A primary key is a candidate key.
 > - In relational model, no tuple can be completely `NULL` since, there must be exactly one primary key in the relational model.
 > - Superset of candidate keys are super keys.
-
+> - Keys constrain the set of tuples that can appear in a relation.
 
 > [!convention] 
->> The term **key** `fas:Key` refers to super key or candidate key or primary key depending on the author. But typically the term **key** is used to refer to **candidate key**.
+>> The term **key** :BoBxsKey: refers to super key or candidate key or primary key depending on the author. But typically the term **key** is used to refer to **candidate key**.
 
 ## Prime and Non-prime attributes
 > [!lecture] Lecture-6A

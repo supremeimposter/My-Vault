@@ -9,9 +9,8 @@ last-revision:
 notes-taken: false
 tags:
   - DBMS/RelationalModel
+  - DBMS/RelationalModel/Keys
 ---
-# Constraints in Relational Model
-
 # Integrity Constraint (IC)
 > [!lecture] Lecture-4A
 - constraints on data integrity.
