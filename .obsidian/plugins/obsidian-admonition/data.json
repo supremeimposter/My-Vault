@@ -263,8 +263,8 @@
       "type": "convention",
       "color": "221, 39, 197",
       "icon": {
-        "type": "obsidian",
-        "name": "lucide-container"
+        "name": "box-open",
+        "type": "font-awesome"
       },
       "command": false,
       "title": "Convention",
@@ -457,14 +457,15 @@
     },
     "perspective": {
       "type": "perspective",
-      "color": "202, 33, 33",
+      "color": "24, 175, 157",
       "icon": {
-        "name": "shapes",
-        "type": "font-awesome"
+        "type": "obsidian",
+        "name": "lucide-triangle"
       },
       "command": false,
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "problem": {
       "type": "problem",

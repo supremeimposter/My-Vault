@@ -1,24 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Constraints in Relational Model",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
+      "basename": "Functional Dependency",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
     },
     {
       "basename": "Relational Model",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
     },
     {
+      "basename": "Standard Integrity Constraints in Relational Model",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md"
+    },
+    {
       "basename": "Database Management System",
       "path": "GATE/DatabaseManagementSystem/Database Management System.md"
     },
     {
-      "basename": "Structured Query Language",
-      "path": "GATE/DatabaseManagementSystem/SQL/Structured Query Language.md"
+      "basename": "Normal Forms",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
     },
     {
-      "basename": "Functional Dependency",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+      "basename": "Database-Management-System-Mindmap",
+      "path": "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas"
+    },
+    {
+      "basename": "Structured Query Language",
+      "path": "GATE/DatabaseManagementSystem/SQL/Structured Query Language.md"
     },
     {
       "basename": "Introduction to DBMS",
@@ -191,14 +199,6 @@
     {
       "basename": "Overflow of Signed and Unsigned Numbers",
       "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
-    },
-    {
-      "basename": "Signed Binary Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md"
-    },
-    {
-      "basename": "Eigen Values and Eigen Vectors",
-      "path": "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md"
     }
   ],
   "omittedPaths": [

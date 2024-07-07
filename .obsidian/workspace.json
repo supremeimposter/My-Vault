@@ -23,15 +23,56 @@
             }
           },
           {
+            "id": "798572862aa44e78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "474f4a11998dbf5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c3ffd38960578c47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "b9833e309532d462",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
+                "viewState": {
+                  "x": 598.9200000000001,
+                  "y": -730.9799999999998,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -89,17 +130,8 @@
               "type": "recent-files",
               "state": {}
             }
-          },
-          {
-            "id": "38f421e89b39431e",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -120,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md"
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
               }
             }
           },
@@ -185,7 +217,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "5df95600f2476df0",
@@ -221,24 +253,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c3ffd38960578c47",
+  "active": "798572862aa44e78",
   "lastOpenFiles": [
+    "attachments/Functional Dependency-20240707213209381.webp",
+    "attachments/Functional Dependency-20240707212551198.webp",
+    "attachments/Functional Dependency-20240707170505588.webp",
+    "attachments/Functional Dependency-20240707164237630.webp",
+    "attachments/Functional Dependency-20240707140717662.webp",
+    "attachments/Functional Dependency-20240707140702138.webp",
+    "attachments/Functional Dependency-20240707130531003.webp",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
-    "GATE/DatabaseManagementSystem/Database Management System.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Constraints in Relational Model.md",
-    "attachments/Relational Model-20240705083407426.webp",
-    "attachments/Relational Model-20240704231313053.webp",
-    "attachments/Relational Model-20240704230616877.webp",
-    "GATE/DatabaseManagementSystem/SQL/Structured Query Language.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
-    "attachments/Relational Model-20240704222537655.webp",
-    "attachments/Relational Model-20240704203803346.webp",
-    "attachments/Relational Model-20240704201802101.webp",
-    "attachments/Relational Model-20240704201627791.webp",
-    "attachments/Relational Model-20240704201134236.webp",
-    "attachments/Relational Model-20240704201031689.webp",
+    "attachments/Functional Dependency-20240706202203502.webp",
+    "attachments/Functional Dependency-20240706201640687.webp",
+    "attachments/Functional Dependency-20240706201629024.webp",
+    "attachments/Functional Dependency-20240706201615202.webp",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
+    "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
+    "GATE/DatabaseManagementSystem/SQL/Structured Query Language.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
-    "attachments/Introduction to DBMS-20240704183744699.webp",
     "GATE/Life Lessons by Deepak Poonia.md",
     "Vault Index.md",
     "GATE/Digital-Logic/Digital Logic.md",
@@ -257,7 +292,6 @@
     "GATE/Digital-Logic/Sequential Circuits/Design of Flip Flops.md",
     "GATE/Digital-Logic/Sequential Circuits/Preset and Clear Inputs in Flip Flop.md",
     "GATE/Digital-Logic/Sequential Circuits/Flip Flop Conversion.md",
-    "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
