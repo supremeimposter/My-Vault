@@ -58,7 +58,7 @@ flowchart TD
 	**Implicit**`"]
 ```
 
-Explicit constraints are [[Constraints in Relational Model|integrity constraints]] which are the responsibility of DBMS software.
+Explicit constraints are [[Standard Integrity Constraints in Relational Model|integrity constraints]] which are the responsibility of DBMS software.
 
 ## Database Operation
 

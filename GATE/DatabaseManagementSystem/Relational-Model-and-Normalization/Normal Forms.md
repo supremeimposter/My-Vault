@@ -16,8 +16,8 @@ tags:
 
 ![[Functional Dependency#Non Trivial FD]]
 
-![[Functional Dependency#Partial and Full Functional Dependency]]
-![[Functional Dependency#Transitive Functional Dependency]]
+![[Functional Dependency#Partial and Full FD]]
+![[Functional Dependency#Transitive FD]]
 
 
 > [!lecture] Lecture-7C

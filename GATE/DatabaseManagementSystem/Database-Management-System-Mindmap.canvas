@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "id": "ae0b038765391156",
+      "type": "text",
+      "text": "DBMS",
+      "isStartNode": false,
+      "shape": "predefined-process",
+      "x": -169,
+      "y": 2,
+      "width": 164,
+      "height": 47,
+      "color": "2"
+    },
+    {
+      "id": "06e2d9a32549572f",
+      "type": "text",
+      "text": "Relational Model",
+      "x": 395,
+      "y": -556,
+      "width": 296,
+      "height": 47,
+      "color": "2"
+    },
+    {
+      "id": "60d7d11dabc4f93a",
+      "type": "text",
+      "text": "Integrity Constraints",
+      "x": 724,
+      "y": -816,
+      "width": 351,
+      "height": 56
+    }
+  ],
+  "edges": [
+    {
+      "id": "1577ed5ada9f3c7c",
+      "fromNode": "ae0b038765391156",
+      "fromSide": "top",
+      "toNode": "06e2d9a32549572f",
+      "toSide": "bottom"
+    },
+    {
+      "id": "1753907de72bd990",
+      "fromNode": "06e2d9a32549572f",
+      "fromSide": "top",
+      "toNode": "60d7d11dabc4f93a",
+      "toSide": "bottom"
+    }
+  ],
+  "metadata": {}
+}

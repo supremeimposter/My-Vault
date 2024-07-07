@@ -8,11 +8,13 @@ tags:
 ---
 # Database Management System
 
+- [[Database-Management-System-Mindmap.canvas|Database-Management-System-Mindmap]]
+
 ## Module 1 - Relational Model and Normalization
 
 - [[Introduction to DBMS]]
 - [[Relational Model]]
-- [[Constraints in Relational Model]]
+- [[Standard Integrity Constraints in Relational Model]]
 - [[Functional Dependency]]
 - [[Normal Forms]]
 - [[Natural Join]]

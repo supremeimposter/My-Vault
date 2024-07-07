@@ -11,6 +11,7 @@ tags:
   - DBMS/RelationalModel
   - DiscreteMath/Sets/Relations
   - DBMS/RelationalModel/Keys
+  - DBMS/RelationalModel/IntegrityConstraints
 ---
 # Relational Model
 
@@ -43,6 +44,7 @@ tags:
 $$R(A : D_{1}, B: D_{2}, C : D_{3})$$
 where $R$ is the name of the relation, $A, B, C$ are attributes and $D_{i}$ are the domain of each attribute.
 
+- The domain of an attribute is its type. For example, integer types, character types, real types, data/time types, etc...
 - Multiple relations can have the same schema.
 
 > [!example] 
@@ -194,10 +196,8 @@ Keys are a property of the relation schema and not individual tuples.
 > - Superset of candidate keys are super keys.
 > - Keys constrain the set of tuples that can appear in a relation.
 
-> [!convention] 
->> The term **key** :BoBxsKey: refers to super key or candidate key or primary key depending on the author. But typically the term **key** is used to refer to **candidate key**.
-
 ## Prime and Non-prime attributes
+
 > [!lecture] Lecture-6A
 - Prime attributes are those attributes which are a part of some candidate key
 - Non-prime attributes are those attributes which are NOT a part of any candidate key.
@@ -206,5 +206,15 @@ Keys are a property of the relation schema and not individual tuples.
 - A non-prime attribute can never determine a prime attribute.
 - A non-prime attribute can determine another non-prime attribute.
 - A prime attribute can determine another prime attribute.
+
+## Integrity Constraint (IC)
+
+- Integrity Constraints are constraints on data integrity.
+- Integrity Contstraint (IC) is a condition specified on the database **schema** that prevents the entry of incorrect information.
+- If a database instance satisfies all the constraints specified on the database schema then it is called a **legal instance** or valid instance.
+- Many kinds of Integrity Constraints IC can be specified in the relational model.
+- IC checks are enforced by DBMS software at run-time. ﻿When a database application is run, the DBMS checks for violations and disallows changes to the data that violate the specified ICs.
+- In some cases, instead of disallowing instances, DBMS performs some compensating changes to make the instance valid.
+- IC's are defined on Schema and a part of DDL.
 
 ---
