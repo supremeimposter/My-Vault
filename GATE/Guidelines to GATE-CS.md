@@ -51,4 +51,12 @@ $$
 
 
 ---
+## Guidelines to Database Management System
 
+- When finding candidate keys, eliminate the options based on the RHS of the FDs and test out the remaining options using clousre instead of finding out all the candidate keys.
+
+
+
+
+
+---

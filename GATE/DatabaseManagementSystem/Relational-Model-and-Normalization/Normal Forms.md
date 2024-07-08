@@ -12,14 +12,6 @@ tags:
 ---
 # Normal Forms
 
-![[Relational Model#Prime and Non-prime attributes]]
-
-![[Functional Dependency#Non Trivial FD]]
-
-![[Functional Dependency#Partial and Full FD]]
-![[Functional Dependency#Transitive FD]]
-
-
 > [!lecture] Lecture-7C
 
 - As relations move to higher levels of Normal forms, **redundancies due to FD's** decrease.

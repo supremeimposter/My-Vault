@@ -18,7 +18,7 @@ tags:
 - Functional dependencies are defined for schema as this is one of the [[Relational Model#Integrity Constraint (IC)|Integrity constraints]], so all possible legal instances must satisfy them.
 - An attribute can be functionally dependent on another attribute.
 
-- Let $A, B$ be two attributes of a relation $R$, we say that $A \to B$ iff whenever two tuples have same $A$ value then those tuples also have same $B$ value.
+- Let $A, B$ be two non-empty attributes of a relation $R$, we say that $A \to B$ iff whenever two tuples have same $A$ value then those tuples also have same $B$ value.
 - If a column $A$ of a table uniquely identifies a column $B$ of the same table, then it can be represented as $A \to B$.
 - $A \to B$ iff $\forall_{ t_{1}, t_{2} }  \,\, (\,(t_{1}.A = t_{2}.A) \Rightarrow (t_{1}.B = t_{2}.B)\,)$
 - No $A$ values are mapped to two or more $B$ values.
@@ -26,9 +26,9 @@ tags:
 ![[Functional Dependency-20240705194126728.webp]]
 
 > [!template] 
-> If $A$ and $B$ are two attributes in a relation $R$ and if
+> If $A$ and $B$ are two non-empty attributes of a relation $R$ and if
 > $$
-> A \rightarrow B
+> A \to B
 > $$
 > - $A$ functionally determines $B$
 > - $A$ determines $B$
@@ -71,7 +71,9 @@ tags:
 > Notations can be abused while writing two or more sets i.e. $AB \rightarrow C$ 
 > 
 > $A, B, C$ represent single attributes
-> $\alpha, \beta, \gamma, X, Y, Z$ represent set of attributes
+> $\alpha, \beta, \gamma, X, Y, Z$ represent set of attributes (can also be a single-ton set)
+> 
+> $A \leftrightarrow B$ means $A \to B$ and $B \to A$
 
 Consider a relation $R$, if the LHS of a FD is a key, then the FD holds for any legal instance of $R$ whatever the RHS of an FD is.
 In a relation $R\,(A, B, C, D)$, the set of all the attributes determines any or all of the attributes of $R$, since there are no duplicate records in a relational model. If $X = \{A, B, C, D\}$ then for any legal instance of $R$,
@@ -131,8 +133,7 @@ In a relation $R\,(A, B, C, D)$, the set of all the attributes determines any or
 	- $AB \rightarrow A$
 	- $ABC \rightarrow BC$
 
-> [!terminology] 
-> **Trivial fact** - fact which is always either true or false
+![[Functional Dependency-20240708191227194.webp]]
 
 ### Non Trivial FD
 
@@ -142,8 +143,8 @@ In a relation $R\,(A, B, C, D)$, the set of all the attributes determines any or
 	- $AB \rightarrow AC$
 	- $A \rightarrow BC$
 
-> [!perspective] 
-> Trivial FD's always hold true and they are NOT interesting to study, whereas Non-trivial FD's are interesting to study and useful.
+- If $A \to B$ then we can say $A \alpha  \to B$, but the converse is not true.
+- In any FD, the trivial part can be removed from the RHS i.e. common attributes of LHS and RHS can be removed from RHS.
 
 ### Completely Non Trivial FD
 
@@ -155,7 +156,6 @@ In a relation $R\,(A, B, C, D)$, the set of all the attributes determines any or
 > [!note] 
 > There is no concept as "Semi Trivial FD" in standard resources.
 
-
 > [!pdf] Look at an example on lec-05A.pdf pg.no 116-121 
 
 ---
@@ -163,22 +163,39 @@ In a relation $R\,(A, B, C, D)$, the set of all the attributes determines any or
 >> [!youtube] [Normalization Lecture 6A - Full, Partial Functional Dependency | Transitive FD |DBMS | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=SN1Fa1c5Kg8)
 
 ### Partial and Full FD
-- Non-trivial FD's with single attributes in the RHS is considered for Normal forms.
+
+Non-trivial FD's with single attributes on RHS are considered for [[Normal Forms|Normal forms]].
+
+Consider a relation $R$ and $\alpha, \beta$ are sets of attributes of $R$,
+
+$\alpha \to \beta$ is a full FD if there is no proper subset of $\alpha$ that determines $\beta$ i.e. $\beta$ is completely dependent on $\alpha$.
+
+![[Functional Dependency-20240708222757129.webp]]
+
+$\alpha \to \beta$ is a partial FD if there exists a proper subset of $\alpha$ that determines $\beta$ i.e. $\beta$ is partially dependent on $\alpha$.
+
+![[Functional Dependency-20240708221545318.webp]]
 
 ### Transitive FD
 
-![[Functional Dependency-20231111140610566.webp]]
+Let $\alpha, \beta$ be sets of attributes such that $\alpha \to \beta$ holds but $\beta \to \alpha$ does not hold. Let $A$ be an attribute that does not belong to either $\alpha$ or $\beta$ and for which $\beta \to A$ holds. Now $A$ is transitively dependent on $\alpha$.
+
+![[Functional Dependency-20240708230213625.webp]]
+
+> [!question] Why $Y \to X$ should not hold in Transitive FD?
+> ![[Functional Dependency-20240708230546126.webp]]
 
 ---
 ## Functional Dependency Laws
 
 > [!lecture] Lecture-5B
-### Reflexivity Law
+
+<u>Reflexivity Law</u>
 
 - If $X \supseteq Y$, then $X \rightarrow Y$
 - These FD's are called trivial FD's.
 
-### Augmentation Law
+<u>Augmentation Law</u>
 
 - If $X \rightarrow Y$, then $XZ \rightarrow YZ$
 
@@ -200,7 +217,7 @@ flexGrow=1
 ```
 ````
 
-### Transitivity Law
+<u>Transitivity Law</u>
 
 - If $X \rightarrow Y$ and $Y \rightarrow Z$, then $X \rightarrow Z$
 
@@ -209,8 +226,7 @@ flexGrow=1
 - The above three inference rules for FD's are called **Armstrong's Axioms**
 - They can be used to prove further FD laws.
 
----
-### Decomposition Law (Split on RHS)
+<u>Decomposition Law (Split on RHS)</u>
 
 - If $X \rightarrow YZ$, then $X \rightarrow Y$ and $X \rightarrow Z$. 
 
@@ -226,13 +242,13 @@ $A_{1}A_{2} \cdots A_{n} \to B_{1} B_{2} \cdots B_{n}$ is equivalent to,
 > [!suggestion] 
 > When given new laws to prove in the exam, it is better to use direct proof rather than Armstrong axioms as it will complicate the proof.
 
-### Union Law (Combine on RHS)
+<u>Union Law (Combine on RHS)</u>
 
 - If $X \rightarrow Y$ and $X \rightarrow Z$, then $X \rightarrow YZ$.
 
 ![[Functional Dependency-20231106092216856.webp|Direct Proof]]
 
-### Composition Law (Combine on LHS)
+<u>Composition Law (Combine on LHS)</u>
 
 - If $X \rightarrow Z$ and $Y \rightarrow Z$, then $XY \rightarrow Z$.
 
@@ -242,11 +258,12 @@ $A_{1}A_{2} \cdots A_{n} \to B_{1} B_{2} \cdots B_{n}$ is equivalent to,
 > - Splitting and combining can be done on RHS
 > - Splitting CANNOT be done on LHS, but combining can be done on LHS
 
-### Pseudo-Transitivity Law
+<u>Pseudo-Transitivity Law</u>
 
 - If $X \rightarrow Y$ and $WY \rightarrow Z$, then $WX \rightarrow Z$.
 
-### More functional dependency laws
+
+> [!summary] 
 
 ![[Functional Dependency-20240706163947111.webp]]
 
@@ -278,6 +295,8 @@ $$
 Closure of $X$ is denoted by $X^\star$
 
 ![[Functional Dependency-20240706201514270.webp|Computing the closure of a set of attributes]]
+
+Closure can be used to determine whether an FD is valid or not.
 
 > [!conflict] 
 > Do NOT get confused between a FD notation and closure notation.
@@ -346,14 +365,11 @@ Each of the attributes that are added to the candidate keys has two choices, eit
 
 > [!header] Finding Candidate Keys from a given set of FDs
 
-> [!lecture] Lecture-5C
-
-> [!NOTE] The objective is to find Candidate Keys and NOT super keys.
+The objective here is to find Candidate Keys and NOT super keys. Since super keys are super sets of candidate keys.
 
 <u>Step 1</u>: Find the attributes which do not appear on the RHS of any FD in the given set and start checking for candidate keys from them. Because they must be a part of every candidate key (and also part of every super key).
 
-> [!trick] 
-> Options can be eliminated on the basis of the above step.
+> [!tip] Some options can be eliminated after step 1.
 
 If a set of attributes $X$ is not a super key i.e. $X^+ = \{A, B, C, D\}$ then any of those attributes in $X$ i.e. $ABCD$ is not a super key. 
 For example, if $A$ is a super key, then $X$ would have been a super key. Similarly, if any of those attributes in $X$ is a super key, then $X$ would have been a super key. 
@@ -373,59 +389,96 @@ Once a single attribute is found out to be a candidate key, then their super set
 
 ----
 > [!lecture] Lecture-5D
+## Inferring Functional Dependencies
 
-## Inference
+Functional dependencies can be inferred from an existing set of functional dependencies.
 
-- FD's which can be inferred from the set of functional dependencies.
-- If $S$ is a set of functional dependencies and if $f {}$ is a FD that is inferred by the set ${} S {}$, then it is represented as ${} S \models f$
-	- S infers f
-	- S implies f
-	- f follows from S
-	- f is derived from S
-- If $S$ does not infer $f {}$, then it is represented as ${} S \not\models f$
+If $S$ is a set of functional dependencies and if $f {}$ is a FD that is inferred by the set ${} S {}$, then it is represented as $S \models f$ which means,
+- S infers f
+- S implies f
+- f follows from S
+- f is derived from S
 
-> [!terminology] 
-> Inferred = derived = implied = followed from
+If $S$ does not infer $f {}$, then it is represented as $S \not\models f$.
 
+If two FDs infer each other, it is not necessary that they are the same. For example, $A \rightarrow AB \models A \rightarrow B$ and $A \to B \models A \to AB$ but both $A \to AB$ and $A \to B$ are not equal.
 
-> [!question] 
-> **If two FD infer each other, does that mean that they are equal?**
->> $A \rightarrow AB \models A \rightarrow B$, but both are not equal 
+> [!header] Methods to prove Inference of Functional Dependencies 
 
+<u>Method 1</u> : Functional Dependency Laws
 
-### Methods to prove Inference
-#### Method 1 : Functional Dependency Laws
 - Use the FD laws to prove if $f$ can be inferred from the set of functional dependencies $S$.
 
-#### Method 2 : Closure of Attribute Set
+> [!example] 
+> ![[Functional Dependency-20240708124740000.webp]]
 
-> [!NOTE] This is the most preferred method.
+<u>Method 2</u> : Closure of Attribute Set
+
 - If the closure of the LHS of the $f$ contains the RHS, then $f$ can be inferred from the set of functional dependencies $S$.
 
-### Closure of a FD Set
-- If $S$ is a set of functional dependencies, then closure of $S$ is, 
+> [!example] 
+> ![[Functional Dependency-20240708124858500.webp]]
+
+---
+## Closure of a FD Set
+
+If $S$ is a set of functional dependencies on $R$, then closure of $S$ is the set of all FDs that can be derived from $S$,
 $$S^+ = \{f \mid S \models f\}$$
-- For any set $S {}$, its ${} S^+ {}$ is unique.
-#### Size of Closure of a FD Set
 
-> [!NOTE] Questions on this topic are not asked on this topic since computing this takes more time.
-- Size of closure of a FD ${} F$ is the number of all FD's that can be inferred by $F$. 
+For any set $S {}$, its closure ${} S^+ {}$ is unique. 
 
-### Covering
-- If $F$ and $G$ are two sets of functional dependencies, then "$F$ covers $G$" iff $F$ infers every functional dependencies of $G$.
+Size of closure of a FD ${} F$ is the number of all FD's that can be inferred by $F$. 
+
+> [!NOTE] Questions on size of closure of FD set are not asked since computing such calculations consumes more time.
+
+The size of closure of a FD set $S$ can be computed in steps with respect to the number of attributes on LHS of FDs that can be inferred by $S$.
+
+> [!example] 
+
+Consider a relation $R\, (A, B, C, D)$ and the set of functional dependencies $F = \{ A \to B, B \to C \}$
+
+Number of FDs with 1 attribute on LHS = 11
+
+![[Functional Dependency-20240708161805736.webp]]
+
+Number of FDs with 2 attributes on LHS = 42
+
+![[Functional Dependency-20240708162142712.webp]]
+
+Number of FDs with 3 attributes on LHS = 44
+
+![[Functional Dependency-20240708162408951.webp]]
+
+Number of FDs with 4 attributes on LHS = 15
+
+![[Functional Dependency-20240708162455114.webp]]
+
+Total number of FDs inferred by the set $F$ i.e. $\mid F^+ \mid = 113$.
+
+> [!think] 
+> In real life, it is impossible to specify all possible FDs on a relation.
+
+---
+## Covering of FD set
+
+If $F$ and $G$ are two sets of functional dependencies, then $F$ covers $G$ iff $F$ infers every functional dependencies of $G$.
 $$
 F \Rightarrow G
 $$
-- If $F$ covers $G$, it does NOT mean that $G$ also covers $F$.
+$F$ covers $G$ means all the FDs in $G$ can be derived using FDs in $F$ i.e. all the FDs in $G$ are in $F^+$ i.e. $G \subseteq F^+$.
 
-### Equivalence
-- If $F$ and $G$ are two sets of functional dependencies, then $F$ is equivalent to $G$, iff $F$ covers $G$ and $G$ covers $F$.
+To find out if $F$ covers those FDs in $G$, use closure of attributes.
+
+![[Functional Dependency-20240708163530290.webp]]
+
+If $F$ covers $G$, it is not necessary that $G$ covers $F$.
+
+But $F$ is equivalent to $G$ iff $F$ covers $G$ and $G$ covers $F$.
 $$
 F \equiv G \text{ iff } F^+ = G^+
 $$
-- $F^+$ is all the FD's derived from $F$ 
-- $G^+$ is all the FD's derived from $G$ 
-- If $S$ is a set of functional dependencies, then ${} S \equiv S^+ {}$
+
+If $S$ is a set of functional dependencies, then ${} S \equiv S^+ {}$
 
 ### Extraneous attribute on LHS of a FD
 > [!lecture] Lecture-8
