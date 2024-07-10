@@ -8,7 +8,6 @@ version:
 last-revision: 2024-07-05T18:40:00
 notes-taken: true
 tags:
-  - DBMS/RelationalModel
   - DBMS/RelationalModel/Keys
   - DBMS/RelationalModel/IntegrityConstraints
 ---

@@ -8,7 +8,6 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DBMS/RelationalModel
   - DBMS/RelationalModel/IntegrityConstraints
   - DBMS/RelationalModel/FunctionalDependency
   - DBMS/RelationalModel/Keys
@@ -159,9 +158,6 @@ In a relation $R\,(A, B, C, D)$, the set of all the attributes determines any or
 > [!pdf] Look at an example on lec-05A.pdf pg.no 116-121 
 
 ---
-> [!lecture] Lecture-6A
->> [!youtube] [Normalization Lecture 6A - Full, Partial Functional Dependency | Transitive FD |DBMS | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=SN1Fa1c5Kg8)
-
 ### Partial and Full FD
 
 Non-trivial FD's with single attributes on RHS are considered for [[Normal Forms|Normal forms]].
@@ -178,12 +174,20 @@ $\alpha \to \beta$ is a partial FD if there exists a proper subset of $\alpha$ t
 
 ### Transitive FD
 
-Let $\alpha, \beta$ be sets of attributes such that $\alpha \to \beta$ holds but $\beta \to \alpha$ does not hold. Let $A$ be an attribute that does not belong to either $\alpha$ or $\beta$ and for which $\beta \to A$ holds. Now $A$ is transitively dependent on $\alpha$.
+Let $\alpha, \beta$ be sets of attributes such that $\alpha \to \beta$ holds but $\beta \to \alpha$ does not hold. Let $A$ be an attribute such that $A \not\in\alpha$ and $A \not\in\beta$ and for which $\beta \to A$ holds. Now $A$ is transitively dependent on $\alpha$ i.e. $\alpha \to A$ is a transitive FD.
 
 ![[Functional Dependency-20240708230213625.webp]]
 
-> [!question] Why $Y \to X$ should not hold in Transitive FD?
-> ![[Functional Dependency-20240708230546126.webp]]
+In transitive FDs, $A$ does not determine $X$.
+
+![[Functional Dependency-20240708230546126.webp]]
+
+$A \to \beta$ is neither prohibited nor required.
+
+> [!example] 
+> ![[Functional Dependency-20240709100706753.webp]]
+> 
+> ![[Functional Dependency-20240709100842296.webp]]
 
 ---
 ## Functional Dependency Laws
@@ -262,6 +266,7 @@ $A_{1}A_{2} \cdots A_{n} \to B_{1} B_{2} \cdots B_{n}$ is equivalent to,
 
 - If $X \rightarrow Y$ and $WY \rightarrow Z$, then $WX \rightarrow Z$.
 
+![[Functional Dependency-20240710192437793.webp]]
 
 > [!summary] 
 

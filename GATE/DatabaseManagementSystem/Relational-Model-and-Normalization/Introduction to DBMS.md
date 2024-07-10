@@ -14,7 +14,7 @@ tags:
 
 - Data is a known fact that can be stored or recorded.
 - Database is a large collection of inter-related data. It can be very large and of varying complexity.
-- DMBS is a software package (collection of programs) to help build, manage the database. Witout DBMS, database becomes a liability rather than an asset.
+- DMBS is a software package (collection of programs) to help build, manage the database. Without DBMS, database becomes a liability rather than an asset.
 - Database models a real-world organization (e.g. enterprise, university).
 
 > [!definition] Database System (DBS)

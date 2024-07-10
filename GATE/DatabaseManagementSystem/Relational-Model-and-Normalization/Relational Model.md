@@ -202,9 +202,10 @@ Keys are a property of the relation schema and not individual tuples.
 > [!lecture] Lecture-6A
 
 - Prime attribute is an attribute of a relation $R$ if it is a member of some candidate key of $R$.
-- Non-prime attribute is an attribute of a relation $R$ if it is not a member any candidate key of $R$.
+- Non-prime attribute is an attribute of a relation $R$ if it is not a member of any candidate key of $R$.
 
 > [!think]
+
 - A non-prime attribute can never determine a prime attribute.
 - A non-prime attribute can determine another non-prime attribute.
 - A prime attribute can determine another prime attribute.
