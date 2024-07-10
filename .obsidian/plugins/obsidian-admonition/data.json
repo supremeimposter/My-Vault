@@ -320,10 +320,10 @@
     },
     "steps": {
       "type": "steps",
-      "color": "217, 185, 23",
+      "color": "232, 197, 17",
       "icon": {
-        "type": "obsidian",
-        "name": "lucide-cassette-tape"
+        "name": "monument",
+        "type": "font-awesome"
       },
       "command": false,
       "injectColor": true,

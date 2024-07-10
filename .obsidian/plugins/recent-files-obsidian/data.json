@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Functional Dependency",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+      "basename": "Introduction to DBMS",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "Relational Model",
@@ -13,12 +17,48 @@
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md"
     },
     {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
-    },
-    {
       "basename": "Normal Forms",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
+    },
+    {
+      "basename": "Functional Dependency",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+    },
+    {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Life Lessons by Deepak Poonia",
+      "path": "GATE/Life Lessons by Deepak Poonia.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE/GATE-LOG.md"
+    },
+    {
+      "basename": "Linear Algebra",
+      "path": "GATE/Linear-Algebra/Linear Algebra.md"
+    },
+    {
+      "basename": "LU Decomposition",
+      "path": "GATE/Linear-Algebra/LU Decomposition.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "GATE/Temporary Plan.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Floating Point Representation",
+      "path": "GATE/Computer-Organization-and-Architecture/Floating-Point-Representation/Floating Point Representation.md"
+    },
+    {
+      "basename": "Introduction to COA",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
     },
     {
       "basename": "Database-Management-System-Mindmap",
@@ -27,14 +67,6 @@
     {
       "basename": "Structured Query Language",
       "path": "GATE/DatabaseManagementSystem/SQL/Structured Query Language.md"
-    },
-    {
-      "basename": "Introduction to DBMS",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
-    },
-    {
-      "basename": "Life Lessons by Deepak Poonia",
-      "path": "GATE/Life Lessons by Deepak Poonia.md"
     },
     {
       "basename": "Vault Index",
@@ -105,10 +137,6 @@
       "path": "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md"
     },
     {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
-    },
-    {
       "basename": "T Flip Flop",
       "path": "GATE/Digital-Logic/Sequential Circuits/T Flip Flop.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "Encoder",
       "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
-    },
-    {
-      "basename": "Binary Codes for Decimal Digits",
-      "path": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md"
-    },
-    {
-      "basename": "Multiplexer and Demultiplexer",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
-    },
-    {
-      "basename": "Shannons Expansion Theorem",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Shannons Expansion Theorem.md"
-    },
-    {
-      "basename": "Compact Truth Table Representation",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
-    },
-    {
-      "basename": "Gray code",
-      "path": "GATE/Digital-Logic/Number Systems/Gray code.md"
-    },
-    {
-      "basename": "Sign Extension of Unsigned and Signed Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md"
-    },
-    {
-      "basename": "Overflow of Signed and Unsigned Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
     }
   ],
   "omittedPaths": [
