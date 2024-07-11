@@ -29,7 +29,7 @@ To understand the need for a DBMS, let us consider a motivating scenario:
 
 > A company has a large collection (say, 500 GB) of data on employees, departments, products, sales, and so on. This data is accessed concurrently by several employees. Questions about the data must be answered quickly, changes made to the data by different users must be applied consistently, and access to certain parts of the data (e.g., salaries) must be restricted.
 
-We can try to deal with this data management problem by storing the data in a collection of operating system files. This approach has many drawbacks, including the following,
+We can try to deal with this data management problem by storing the data in a collection of [[Operating Systems|operating system]] files. This approach has many drawbacks, including the following,
 
 1. We probably do not have 500 GB of **main memory** to hold all the data. We must therefore store data in a storage device such as a disk or tape and bring relevant parts into main memory for processing as needed.
 2. We have to write special programs to **answer each question** that users may want to ask about the data. These programs are likely to be complex because of the large volume of data to be searched.
@@ -57,14 +57,14 @@ flowchart TD
 - Gather information about the data.
 
 **2. Conceptual Design phase**
-- Represent the gathered information in an user-friendly model. Example: ER model
+- Represent the gathered information in an user-friendly model. Example: [[ER Model|ER model]]
 - If the database designer is an expert, then conceptual design phase can be skipped. But for a larger and complex data, this phase is necessary.
 
 > [!fact] 
 > No DBMS software is based on ER model
 
 **3. Logical Design phase**
-- Conceptual design is converted to logical design using implementation friendly model. Example: Relational model (table)
+- Conceptual design is converted to logical design using implementation friendly model. Example: [[Relational Model|Relational model]] (table)
 
 ![[Introduction to DBMS-20240704183705786.webp]]
 
@@ -74,12 +74,14 @@ flowchart TD
 - Physical design phase
 
 ![[Introduction to DBMS-20240704174817359.webp]]
-![[Introduction to DBMS-20240704183744699.webp]]
+
+> [!summary] 
+> ![[Introduction to DBMS-20240704183744699.webp]]
 
 ---
 ## Data Models
 
-Data models are a set of rules or conventions to represent or store or manage the data.
+Data models are a set of **rules or conventions** to represent or store or manage the data.
 
 ![[Introduction to DBMS-20240704175408397.webp]]
 
@@ -90,7 +92,7 @@ A data model can be converted to another data model.
 > [!question] Why model a data?
 > To analyze the data
 
-Relational Data Model is a theoretical data model
-RDBMS is a software based on relational model and it is the most widely used in the dbms market.
+Relational Data Model is a theoretical data model.
+RDBMS is a software based on relational model and it is most widely used in the dbms market.
 
 ----

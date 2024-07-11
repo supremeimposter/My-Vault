@@ -128,3 +128,5 @@
 **May 3, 2024** Prepare yourself to be very active with your peak energy between 9am to 12pm and 2pm to 5pm. Because thats when you are probably going to write your exam next year.
 
 **June 18, 2024** When I have spent much time on a topic, it doesn't mean I can just skim a question from a question from that topic. I have to read each and every word of the question and think about it. Given enough time to practice questions.
+
+**July 9, 2024** Proper revision of every previous topic enhances the understanding of the upcoming topics and saves a lot of time from confusion.

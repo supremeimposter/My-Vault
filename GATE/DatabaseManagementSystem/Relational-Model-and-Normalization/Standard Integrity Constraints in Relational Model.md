@@ -5,7 +5,7 @@ lecture: 4A, 4B, 4C
 date: 2023-11-04T18:30:00
 version:
   - DBMS-24
-last-revision: 2024-07-05T18:40:00
+last-revision: 2024-07-11T18:40:00
 notes-taken: true
 tags:
   - DBMS/RelationalModel/Keys
@@ -35,7 +35,7 @@ Every key attributes must be unique in every record i.e. the set of attributes m
 Key Integrity constraints allow `NULL` values but checks the uniqueness of not-null values.
 
 > [!convention] 
-> The term **key** :BoBxsKey: refers to super key or candidate key or primary key depending on the author. But typically the term **key** is used to refer to **candidate key**.
+> The term **key** :BoBxsKey: refers to super key or candidate key or primary key depending on the author. But typically the term **key** :BoBxsKey: is used to refer to **candidate key**.
 
 ## Entity Integrity Constraint
 
@@ -48,8 +48,7 @@ If there are `NULL` values in primary key for two records, we may not be able to
 
 ## Primary Key Integrity Constraint
 
-Primary key attributes must be NOT NULL and unique.
-
+The values in the primary key attributes must be unique and must not contain NULL.
 
 > [!info] 
 > If there is any violation in the above Standard Integrity Constraints, then DBMS disallows the changes. 
@@ -57,16 +56,16 @@ Primary key attributes must be NOT NULL and unique.
 ---
 ## Referential Integrity Constraint
 
-- Sometimes the information stored in a relation is *linked* to information stored in another relation. If data one of the relations is modified, then the linked data in the other relations also has to be modified, to keep the data consistent.
+- Sometimes the information stored in a relation is *linked* to information stored in another relation. If data in one of the relations is modified, then the linked data in the other relations also has to be modified, to keep the data consistent.
 - Referential integrity constraint is also called as Foreign Key Constraint.
 
 - A foreign key $FK$ of a table $R$ is a set of attributes of $R$ that references a candidate key of a foreign table. So $FK$ of $R$ is a key in foreign table, hence it is called foreign key.
 
 > [!tip] 
 > - The table which contains the foreign key is called **referencing table** (child table)
-> - The table which contains the primary key that the foreign key refers called **referenced table** (parent table)
-
-- Foreign key in the child table refers a candidate key in the parent table.
+> - The table which contains the candidate key that the foreign key refers called **referenced table** (parent table)
+>
+> - Foreign key in the child table refers a candidate key in the parent table.
 
 ![[Standard Integrity Constraints in Relational Model-20240705134725667.webp]]
 
@@ -78,7 +77,7 @@ Primary key attributes must be NOT NULL and unique.
 > Employee.Dno is a foreign key
 > 
 >> Dno is not a key in Employee table
->> Dno is a key in Department table (foreign table) 
+>> Dno refers a key in Department table (foreign table) 
 >> Dno is a key in foreign table, hence it is called foreign key.
 
 - It is not necessary that the foreign key and the key it is referring to has to have the same name. But the domain must be same.
@@ -105,11 +104,13 @@ Primary key attributes must be NOT NULL and unique.
 - Referencing attribute is the foreign key.
 
 - Foreign key can be of multiple attributes.
-- When foreign can refers to multiple attributes, then the same tuple of data must be present in the referenced table (parent table).
-- The order of specification of the attributes in multi-attributes foreign key is important.
+- When foreign can refers to multiple attributes, then the set of attributes of the same type must be present in the referenced table (parent table).
+- The order of specification of the attributes in multi-attribute foreign key is important.
 
 > [!example] 
 > ![[Standard Integrity Constraints in Relational Model-20240705171506705.webp]]
+
+When the foreign key is of multi-attribute, then the same tuple of data in the referencing table must be present in the referenced table.
 
 > [!example] 
 > ![[Standard Integrity Constraints in Relational Model-20240705153754819.webp|Violation of Referential Integrity Constraint]]
@@ -121,7 +122,7 @@ Primary key attributes must be NOT NULL and unique.
 > [!NOTE] 
 > Key constraints and Entity integrity constraints are specified on individual relations, whereas Referential integerity constraint is specified between two different relations.
 
-![[Standard Integrity Constraints in Relational Model-20240705181020118.webp]]
+![[Standard Integrity Constraints in Relational Model-20240711100110325.webp]]
 
 ### Enforcing Referential Integrity Constraint
 
@@ -149,7 +150,7 @@ Primary key attributes must be NOT NULL and unique.
 ![[Standard Integrity Constraints in Relational Model-20240705175645504.webp]]
 ![[Standard Integrity Constraints in Relational Model-20240705175701464.webp]]
 
-- The actions for violating changes are always defined on the **referencing table** since the referencing table has the foreign key which is referring to a candidate key in refernced table.
+- The actions for violating changes are always defined on the **referencing table** since the referencing table has the foreign key which is referring to a candidate key in referenced table.
 
 > [!header] When referencing relation is updated
 
@@ -159,5 +160,6 @@ Primary key attributes must be NOT NULL and unique.
 > [!summary] 
 > - Insert into referenced table and Delete from referencing table do NOT cause any violation to Referential IC.
 > - Insert into referencing table and Delete from referenced table MAY OR MAY NOT cause violation to Referential IC.
+> - DBMS performs compensating changes to the violating modifications only when the *referenced relation is updates*.
 
 ---

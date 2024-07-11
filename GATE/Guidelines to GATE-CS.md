@@ -4,6 +4,10 @@ tags:
 ---
 # Guidelines to GATE-CS
 
+- [ ] Take mocks to experiment the exam. Practice . Do not worry about topping it.
+- [ ] Do not completely avoid a subject. At least get an overall idea of the important concepts and practice the pyqs from important topics of a subject.
+- [ ] Use mock tests to get used to the exam. Sit in a place for 3 hours and be at your heightened energy levels.
+- [ ] Do not sleep in day-time.
 
 ## Guidelines to Programming with C
 
@@ -55,7 +59,9 @@ $$
 
 - When finding candidate keys, eliminate the options based on the RHS of the FDs and test out the remaining options using clousre instead of finding out all the candidate keys.
 
+- To prove or verify a FD, always use closure method as it is easy and fast rather than fiddling with Armstrong's axioms.
 
+- Given a relation, always start checking from the highest normal form and descend. BCNF $\to$ 3NF $\to$ 2NF. Because if $R$ is in 3NF, then it is definitely in 2NF, you can stop there.
 
 
 

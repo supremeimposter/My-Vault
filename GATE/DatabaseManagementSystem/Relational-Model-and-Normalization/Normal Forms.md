@@ -17,15 +17,28 @@ tags:
 
 - As relations move to higher levels of Normal forms, **redundancies due to FD's** decrease.
 
+## Prime and Non-prime attributes
+
+> [!lecture] Lecture-6A
+
+- Prime attribute is an attribute of a relation $R$ if it is a member of some candidate key of $R$.
+- Non-prime attribute is an attribute of a relation $R$ if it is not a member of any candidate key of $R$.
+
+> [!think]
+
+- A non-prime attribute can never determine a prime attribute.
+- A non-prime attribute can determine another non-prime attribute.
+- A prime attribute can determine another prime attribute.
+
 ## Levels of Normal Forms
+
 > [!lecture] Lecture-6B
 
 ![[Normal Forms-20231111145958891.webp]]
 ### First Normal Form (1NF)
 
-A relation schema $R$ is in First Normal form if the domain of all attributes of $R$ is atomic.
-
-Any relation in relational model is by default in 1NF, since by definition, attribute values of a domain must be atomic.
+- A relation schema $R$ is in First Normal form if the domain of all attributes of $R$ is atomic.
+- Any relation in relational model is by default in 1NF, since by definition of relational model, attribute values of a domain must be atomic.
 
 ----
 ### Second Normal Form (2NF)
@@ -38,7 +51,7 @@ Any relation in relational model is by default in 1NF, since by definition, attr
 
 #### Violation of 2NF
 
-1. Try to find a non-key attribute that is functionally determined by a subset of some key.
+1. Try to find a non-prime attribute that is functionally determined by a subset of some key.
 $$
 \text{proper subset of some key} \rightarrow \text{some non-prime attribute}
 $$
@@ -68,14 +81,13 @@ $$
 - A relation is in 3NF if **no non-prime attribute is transitively dependent on any candidate key**.
 - A relation is in 3NF if **every non-prime attribute is non-transitively dependent on every candidate key**.
 
-- A relation is in 3NF if there is no non-prime attributes.
+- If there are no non-prime attributes, then $R$ is in 3NF.
 - If a relation is in 3NF, then it is definitely in 2NF, but if a relation is not in 3NF, then we cannot say about 2NF.
 
 #### Violation of 3NF
 $$
 \text{some candidate key } \xrightarrow{\text{transitively}}\; \text{ some non-prime attribute} 
 $$
-
 Some super key of $R$ will definitely determine a non-super key (non-candidate key) of $R$ and also a non-super key cannot determine a super key and if a non-super key determines some non-prime attribute, then it means that a super key (possibly candidate key) transitively determines some non-prime attribute.
 $$
 \text{not a super-key } \rightarrow \text{ some non-prime attribute}
@@ -84,11 +96,13 @@ To put it simply if a non-prime attribute (not a super key) determines some non-
 $$
 \text{non-prime attribute } \rightarrow \text{ some non-prime attribute}
 $$
-The above condition can also be put as,
+The above condition is also similar to,
 $$
-\text{proper subset of candidate key} \to \text{some non-prime attribute}
+\begin{split}
+\text{proper subset of candidate key} \to \text{some non-prime attribute} 
+\end{split}
 $$
-which is a violation of 2NF.
+which is also the violation of 2NF, which definitely violates 3NF.
 
 > [!example] 
 > ![[Normal Forms-20240709203305121.webp]]
@@ -124,7 +138,7 @@ $$
 R\text{ is in BCNF} \rightarrow R \text{ is in 3NF}
 $$
 
-In 3NF, a non-super key can determine a prime attribute which creates data redundancies, but in BCNF,  there is no non-super key in LHS in a non-trivial FD which makes BCNF a more stronger form than 3NF.
+In 3NF, a non-super key can determine a prime attribute which creates data redundancies, but in BCNF, there is no non-super key in LHS in a non-trivial FD which makes BCNF a more stronger form than 3NF.
 
 If LHS is the super key, then redundancies do not occur.
 
@@ -167,5 +181,7 @@ $$
 - [Databases: GATE CSE 1990 | Question: 3-ii](https://gateoverflow.in/84054/gate-cse-1990-question-3-ii)
 - [Databases: GATE CSE 2007 | Question: 62, UGCNET-June2014-II: 47](https://gateoverflow.in/1260/gate-cse-2007-question-62-ugcnet-june2014-ii-47)
 - [Databases: GATE CSE 2012 | Question: 2](https://gateoverflow.in/34/gate-cse-2012-question-2)
+
+- [Demystifying Database Normalization - GATE CSE](https://gatecse.in/demystifying-database-normalization/)
 
 ---

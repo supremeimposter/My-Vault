@@ -1,3 +1,9 @@
-April - CN, Algo, 
-May - OS, Compiler
-June - DM
+May = LA
+Jun = DL
+Jul = DBMS, Set theory, C
+Aug = COA, OS, Calculus, Propositional Logic
+Sep = CN, TOC, First Order Logic
+Oct = DS, Algo, DM, CD
+Nov = Probability, DM
+Dec = revision, practice
+Jan = revision, practice

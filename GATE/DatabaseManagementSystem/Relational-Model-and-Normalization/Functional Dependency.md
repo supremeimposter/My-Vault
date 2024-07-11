@@ -5,7 +5,7 @@ lecture: 5A, 5B, 5C, 5D, 6A, 8, 9B
 date: 2023-11-05T13:40:00
 version:
   - DBMS-24
-last-revision: 
+last-revision: 2024-07-11T19:11:00
 notes-taken: false
 tags:
   - DBMS/RelationalModel/IntegrityConstraints
@@ -17,15 +17,15 @@ tags:
 - Functional dependencies are defined for schema as this is one of the [[Relational Model#Integrity Constraint (IC)|Integrity constraints]], so all possible legal instances must satisfy them.
 - An attribute can be functionally dependent on another attribute.
 
-- Let $A, B$ be two non-empty attributes of a relation $R$, we say that $A \to B$ iff whenever two tuples have same $A$ value then those tuples also have same $B$ value.
-- If a column $A$ of a table uniquely identifies a column $B$ of the same table, then it can be represented as $A \to B$.
+- Let $A, B$ be two attributes of a relation $R$, we say that $A \to B$ iff whenever two tuples have same $A$ value then those tuples also have same $B$ value.
+- If a column $A$ of a table uniquely identifies or determines a column $B$ of the same table, then it can be represented as $A \to B$.
 - $A \to B$ iff $\forall_{ t_{1}, t_{2} }  \,\, (\,(t_{1}.A = t_{2}.A) \Rightarrow (t_{1}.B = t_{2}.B)\,)$
 - No $A$ values are mapped to two or more $B$ values.
 
 ![[Functional Dependency-20240705194126728.webp]]
 
 > [!template] 
-> If $A$ and $B$ are two non-empty attributes of a relation $R$ and if
+> If $A$ and $B$ are two attributes of a relation $R$ and if
 > $$
 > A \to B
 > $$
@@ -37,6 +37,7 @@ tags:
 > - $B$ is determined by $A$
 
 - Functional dependencies are [[Implication|implications]]. Its converses are not necessarily true.
+- It is possible that $A \to B$ and $B \to A$, but not necessary.
 
 > [!example] 
 > 
@@ -59,7 +60,7 @@ tags:
 > 
 > ![[Functional Dependency-20240706093607544.webp|$\alpha \to \beta$ does not hold]]
 
-- Functional dependencies can also be defined between set of attributes.
+- Functional dependencies can also be defined between set of non-empty attributes.
 
 | FD                              | Description                                                                                  |
 | ------------------------------- | -------------------------------------------------------------------------------------------- |
@@ -67,44 +68,17 @@ tags:
 | $\{A, B\} \rightarrow \{B, C\}$ | whenever $AB$ combination is same in two tuples, then $BC$ must be same in those two tuples. |
 
 > [!convention] 
-> Notations can be abused while writing two or more sets i.e. $AB \rightarrow C$ 
+> Notations can be abused while writing sets of attributes i.e. $\{A, B\} \rightarrow \{C\}$ can be written as $AB \rightarrow C$ 
+> 
+> The order of attributes in FDs are not necessary.
+> An FD $AB \to C$ is same as $BA \to C$
 > 
 > $A, B, C$ represent single attributes
 > $\alpha, \beta, \gamma, X, Y, Z$ represent set of attributes (can also be a single-ton set)
 > 
 > $A \leftrightarrow B$ means $A \to B$ and $B \to A$
 
-Consider a relation $R$, if the LHS of a FD is a key, then the FD holds for any legal instance of $R$ whatever the RHS of an FD is.
-In a relation $R\,(A, B, C, D)$, the set of all the attributes determines any or all of the attributes of $R$, since there are no duplicate records in a relational model. If $X = \{A, B, C, D\}$ then for any legal instance of $R$,
-
-> [!example] 
-> 1. $X \to AB$ 
-> 2. $X \to AC$
-> 3. $X \to ABC$
-> 4. $X \to D$
-> 5. $X \to ABD$
-> 6. $X \to X$
-
-- If we say that a relation $R$ satisfies a FD, then we are asserting a constraint on the schema of $R$.
-
----
-> [!header] Functional Dependency on Schema vs Instance
-
-> [!remember] 
-> Functional dependencies are NOT defined for an instance. They are defined for the relation schema.
-
-- If some legal instance of a relation $R$ does not satisfy functional dependency ${} X \rightarrow Y$, then schema can never satisfy functional dependency $X \rightarrow Y$.
-- A schema holds for a functional dependency $X \to Y$, iff all the possible legal instances satisfies $X \to Y$.
-- Even if the schema does not specify a functional dependency $X \rightarrow Y$, then it is possible that some instance can maintain the functional dependency $X \rightarrow Y$.
-
-> [!example] 
-> Consider the relation instance and the functional dependencies below. Which of these FDs hold for the schema.
-> 
-> ![[Functional Dependency-20240705192422289.webp]]
-
-- By looking at an instance, we are sure about which FD's do not hold, but we cannot be sure about which FD's hold.
-
-- Functional dependencies can be represented using diagrammatic notation, where the attributes in LHS are joined by a straight line and the attributes in RHS are denoted by a arrow pointing towards them.
+Functional dependencies can be represented using *diagrammatic notation*, where the attributes in LHS are joined by a straight line and the attributes in RHS are denoted by a arrow pointing towards them.
 
 > [!example] 
 > ![[Functional Dependency-20240706101603705.webp]]
@@ -118,8 +92,36 @@ In a relation $R\,(A, B, C, D)$, the set of all the attributes determines any or
 > FD2 : $\text{Ssn} \to \text{Ename}$
 > FD3 : $\text{Pnumber} \to \text{Pname}, \text{Plocation}$
 
-- An FD $AB \to C$ is same as $BA \to C$, since both the LHS and RHS are sets of attributes.
-- It is possible that $A \to B$ and $B \to A$, but not necessary.
+If we say that a relation $R$ satisfies a FD, then we are asserting a constraint on the schema of $R$.
+
+---
+> [!header] Functional Dependency on Schema vs Instance
+
+> [!remember] 
+> Functional dependencies are not defined for an instance. They are defined for the relation schema.
+
+- If some legal instance of a relation $R$ does not satisfy functional dependency ${} X \rightarrow Y$, then schema can never satisfy functional dependency $X \rightarrow Y$.
+- A schema holds a functional dependency $X \to Y$, iff all the possible legal instances satisfies $X \to Y$.
+- Even if the schema does not specify a functional dependency $X \rightarrow Y$ it is possible that some instance can hold the functional dependency $X \rightarrow Y$.
+
+> [!example] 
+> Consider the relation instance and the functional dependencies below. Which of these FDs hold for the schema.
+> 
+> ![[Functional Dependency-20240705192422289.webp]]
+
+By looking at an instance, we are sure about which FD's do not hold, but we cannot be sure about which FD's hold.
+
+Consider a relation $R$, if the LHS of a FD is a key, then the FD holds for any legal instance of $R$ whatever the RHS of an FD is.
+
+In a relation $R\,(A, B, C, D)$, the set of all the attributes determines any or all of the attributes of $R$, since there are no duplicate records in a relational model. If $X = ABCD$ then for any legal instance of $R$,
+
+> [!example] 
+> 1. $X \to AB$ 
+> 2. $X \to AC$
+> 3. $X \to ABC$
+> 4. $X \to D$
+> 5. $X \to ABD$
+> 6. $X \to X$
 
 ---
 ## Types of Functional Dependency
@@ -136,21 +138,18 @@ In a relation $R\,(A, B, C, D)$, the set of all the attributes determines any or
 
 ### Non Trivial FD
 
-- A FD which is not trivial
-- $X \rightarrow Y$ is non-trivial iff $X \not\supseteq Y$
+- $X \rightarrow Y$ is non-trivial iff $X \not\supseteq Y$ i.e. an FD which is not trivial.
 	- $A \rightarrow AB$
 	- $AB \rightarrow AC$
 	- $A \rightarrow BC$
 
-- If $A \to B$ then we can say $A \alpha  \to B$, but the converse is not true.
-- In any FD, the trivial part can be removed from the RHS i.e. common attributes of LHS and RHS can be removed from RHS.
-
-### Completely Non Trivial FD
-
+- In any non-trivial FD, the trivial part can be *removed from the RHS* i.e. common attributes of LHS and RHS can be removed from RHS.
 - $X \rightarrow Y$ is completely non-trivial iff $X \cap Y = \phi$
 	- $AB \rightarrow CD$
 	- $PQR \rightarrow MNO$
 - Every completely non-trivial FD is also a non-trivial FD.
+
+- Non-trivial FD's with single attributes on RHS are preferred for [[Normal Forms|Normal forms]].
 
 > [!note] 
 > There is no concept as "Semi Trivial FD" in standard resources.
@@ -159,8 +158,6 @@ In a relation $R\,(A, B, C, D)$, the set of all the attributes determines any or
 
 ---
 ### Partial and Full FD
-
-Non-trivial FD's with single attributes on RHS are considered for [[Normal Forms|Normal forms]].
 
 Consider a relation $R$ and $\alpha, \beta$ are sets of attributes of $R$,
 
@@ -178,7 +175,7 @@ Let $\alpha, \beta$ be sets of attributes such that $\alpha \to \beta$ holds but
 
 ![[Functional Dependency-20240708230213625.webp]]
 
-In transitive FDs, $A$ does not determine $X$.
+In transitive FDs, $A$ does not determine $\alpha$.
 
 ![[Functional Dependency-20240708230546126.webp]]
 
@@ -244,7 +241,7 @@ $A_{1}A_{2} \cdots A_{n} \to B_{1} B_{2} \cdots B_{n}$ is equivalent to,
 - $A_{1}A_{2} \cdots A_{n} \to B_{n}$
 
 > [!suggestion] 
-> When given new laws to prove in the exam, it is better to use direct proof rather than Armstrong axioms as it will complicate the proof.
+> When given new laws to prove in the exam, it is better to use direct proof rather than Armstrong axioms.
 
 <u>Union Law (Combine on RHS)</u>
 
@@ -260,13 +257,28 @@ $A_{1}A_{2} \cdots A_{n} \to B_{1} B_{2} \cdots B_{n}$ is equivalent to,
 
 > [!summary] 
 > - Splitting and combining can be done on RHS
-> - Splitting CANNOT be done on LHS, but combining can be done on LHS
+> - Splitting cannot be done on LHS, but combining can be done on LHS
 
 <u>Pseudo-Transitivity Law</u>
 
 - If $X \rightarrow Y$ and $WY \rightarrow Z$, then $WX \rightarrow Z$.
 
 ![[Functional Dependency-20240710192437793.webp]]
+
+<u>Left-Augmentation Law</u>
+
+- If $A \to B$ then $A \alpha  \to B$, but the converse is not true.
+
+- Consider a relation $R(A, B, C)$,
+$$
+\begin{split}
+A &\to B \\
+AC &\to BC \;\;\;\;\text{(Augmentation law)} \\ \\
+AC &\to B \;\;\;\;\text{(Splitting on RHS)} \\
+AC &\to C \;\;\;\;\text{(Trivial FD)} \\ \\
+A \to B &\models AC \to B
+\end{split}
+$$
 
 > [!summary] 
 
@@ -303,16 +315,11 @@ Closure of $X$ is denoted by $X^\star$
 
 Closure can be used to determine whether an FD is valid or not.
 
-> [!conflict] 
-> Do NOT get confused between a FD notation and closure notation.
-
 > [!example] 
 > ![[Functional Dependency-20240706201606323.webp]]
 > ![[Functional Dependency-20240706201615202.webp]]
 > ![[Functional Dependency-20240706201629024.webp]]
 > ![[Functional Dependency-20240706201640687.webp]]
-
-> [!example] 
 > ![[Functional Dependency-20240706202203502.webp]]
 
 ---
@@ -323,34 +330,27 @@ $$
 A^+ = R
 $$
 
-Likewise a super key $X$ of $R$, then $X \to R$ is never violated, since super key identifies every record uniquely in any legal instance of $R$ i.e. the values in the super key never repeats in any legal instance.
+Likewise a super key $X$ of $R$, then $X \to R$ is never violated, since super key identifies every record uniquely in any legal instance of $R$ i.e. the values in the super key never repeat in any legal instance.
 $$
 X^+ = R
 $$
 
-### Super Key
+In a relation schema $R$ , $X$ is a **super-key** iff $X^{+} = R$.
 
-- In a relation scheme $R$ , $X$ is a super-key iff $X^{+} = R$.
+$X$ is a **candidate key** iff,
+- $X^{+} = R$ and
+- No proper subsets of $X$ can determine all the attributes i.e. $X$ is minimal.
 
-> [!NOTE]
-> Primary key cannot be determined. It is chosen as one of the candidate keys. But there must be one Primary key in Relational Model.
-
-- The attributes which do not appear on the RHS of any FD can be determined only by themselves. Such attributes MUST be a part of every candidate key since they have to be determined to determine all the remaining attributes.
-
-### Candidate Key
-
-- $X$ is a candidate key iff,
-	- $X^{+} = R$ and
-	- No proper subsets of $X$ can determine all the attributes i.e. $X$ is minimal.
-	- $X$ can be a set of attributes as well.
-- A candidate key is also a super key.
-- If $X$ is a candidate key, then $XY$ cannot be a candidate key, when $Y \not = \phi$.
-	- Proper super-sets of candidate keys are definitely NOT candidate keys.
+The attributes which do not appear on the RHS of any FD can be determined only by themselves. Such attributes must be a part of every candidate key since they have to be determined to determine all the remaining attributes. 
 
 ![[Functional Dependency-20240707130531003.webp]]
 
-- Candidate key cannot be concluded from an instance.
-- Candidate keys can be found from functional dependencies.
+Any proper superset of a candidate key is a super key. Hence a super key can determine a candidate key and also this will be a trivial FD. For example, if $AB$ is a key of $R\, (A, B, C, D, E)$, then $ABDE$ which is a super key determines $AB$ i.e. $ABDE \to AB$, a trivial FD.
+
+Candidate key cannot be concluded from an instance.
+
+> [!NOTE]
+> Primary key cannot be determined. It is chosen as one of the candidate keys and it must not contain `NULL` values and also must be unique.
 
 If $X$ is a super key or candidate key and if $Y \to X$, then $Y$ is definitely a super key and if $Y$ is minimal, then $Y$ is also a candidate key.
 
@@ -370,17 +370,14 @@ Each of the attributes that are added to the candidate keys has two choices, eit
 
 > [!header] Finding Candidate Keys from a given set of FDs
 
-The objective here is to find Candidate Keys and NOT super keys. Since super keys are super sets of candidate keys.
-
 <u>Step 1</u>: Find the attributes which do not appear on the RHS of any FD in the given set and start checking for candidate keys from them. Because they must be a part of every candidate key (and also part of every super key).
 
 > [!tip] Some options can be eliminated after step 1.
 
 If a set of attributes $X$ is not a super key i.e. $X^+ = \{A, B, C, D\}$ then any of those attributes in $X$ i.e. $ABCD$ is not a super key. 
-For example, if $A$ is a super key, then $X$ would have been a super key. Similarly, if any of those attributes in $X$ is a super key, then $X$ would have been a super key. 
-So, there is no need to check the combinations of such attributes for super key.
+For example, if $A$ is a super key, then $X$ would have been a super key. Similarly, if any of those attributes in $X$ is a super key, then $X$ would have been a super key. So, there is no need to check the combinations of such attributes for super key.
 
-Once a single attribute is found out to be a candidate key, then their super sets can be ignored as its super sets cannot be a candidate key.
+Once a single attribute is found out to be a candidate key, then their super sets can be ignored.
 
 <u>Step 2</u>: Find the combination of attributes which determine the candidate key. The combination can also be a candidate key if they are minimal.
 
@@ -396,7 +393,7 @@ Once a single attribute is found out to be a candidate key, then their super set
 > [!lecture] Lecture-5D
 ## Inferring Functional Dependencies
 
-Functional dependencies can be inferred from an existing set of functional dependencies.
+Functional dependencies can be inferred from an existing set of functional dependencies or an existing functional dependency.
 
 If $S$ is a set of functional dependencies and if $f {}$ is a FD that is inferred by the set ${} S {}$, then it is represented as $S \models f$ which means,
 - S infers f
@@ -412,14 +409,14 @@ If two FDs infer each other, it is not necessary that they are the same. For exa
 
 <u>Method 1</u> : Functional Dependency Laws
 
-- Use the FD laws to prove if $f$ can be inferred from the set of functional dependencies $S$.
+Use the FD laws to prove if $f$ can be inferred from the set of functional dependencies $S$.
 
 > [!example] 
 > ![[Functional Dependency-20240708124740000.webp]]
 
 <u>Method 2</u> : Closure of Attribute Set
 
-- If the closure of the LHS of the $f$ contains the RHS, then $f$ can be inferred from the set of functional dependencies $S$.
+If the closure of the LHS of the $f$ contains the RHS, then $f$ can be inferred from the set of functional dependencies $S$.
 
 > [!example] 
 > ![[Functional Dependency-20240708124858500.webp]]
@@ -432,7 +429,7 @@ $$S^+ = \{f \mid S \models f\}$$
 
 For any set $S {}$, its closure ${} S^+ {}$ is unique. 
 
-Size of closure of a FD ${} F$ is the number of all FD's that can be inferred by $F$. 
+Size of closure of a FD ${} F$ is the number of all FD's that can be inferred by $F$. It includes a lot of trivial FDs.
 
 > [!NOTE] Questions on size of closure of FD set are not asked since computing such calculations consumes more time.
 
@@ -442,9 +439,12 @@ The size of closure of a FD set $S$ can be computed in steps with respect to the
 
 Consider a relation $R\, (A, B, C, D)$ and the set of functional dependencies $F = \{ A \to B, B \to C \}$
 
-Number of FDs with 1 attribute on LHS = 11
+Number of FDs with 1 attribute on LHS = 12
 
-![[Functional Dependency-20240708161805736.webp]]
+> [!hint] 
+> Non-empty subsets of the attributes in the closure are counted.
+
+![[Functional Dependency-20240711183337661.webp]]
 
 Number of FDs with 2 attributes on LHS = 42
 
@@ -470,20 +470,21 @@ If $F$ and $G$ are two sets of functional dependencies, then $F$ covers $G$ iff 
 $$
 F \Rightarrow G
 $$
-$F$ covers $G$ means all the FDs in $G$ can be derived using FDs in $F$ i.e. all the FDs in $G$ are in $F^+$ i.e. $G \subseteq F^+$.
+$F$ covers $G$ means all the FDs in $G$ can be derived using FDs in $F$ i.e. $G \subseteq F^+$
 
 To find out if $F$ covers those FDs in $G$, use closure of attributes.
 
-![[Functional Dependency-20240708163530290.webp]]
+> [!steps] Find out if $F$ covers $G$?
+> Take the closure of LHS of every FD in G with respect to $F$ and see if it brings the RHS of that FD in $G$.
+> 
+> ![[Functional Dependency-20240708163530290.webp]]
 
 If $F$ covers $G$, it is not necessary that $G$ covers $F$.
 
-But $F$ is equivalent to $G$ iff $F$ covers $G$ and $G$ covers $F$.
+But $F$ is equivalent to $G$ iff $F$ covers $G$ and $G$ covers $F$ since the closure of an FD set is unique.
 $$
-F \equiv G \text{ iff } F^+ = G^+
+F \equiv G \,\,\text{ iff }\,\, F^+ = G^+
 $$
-
-If $S$ is a set of functional dependencies, then ${} S \equiv S^+ {}$
 
 ### Extraneous attribute on LHS of a FD
 > [!lecture] Lecture-8
