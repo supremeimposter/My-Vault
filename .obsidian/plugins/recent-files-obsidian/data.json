@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Introduction to DBMS",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
+      "basename": "Functional Dependency",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
     },
     {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+      "basename": "Temporary Plan",
+      "path": "GATE/Temporary Plan.md"
     },
     {
       "basename": "Relational Model",
@@ -21,16 +21,32 @@
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
     },
     {
-      "basename": "Functional Dependency",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+      "basename": "Life Lessons by Deepak Poonia",
+      "path": "Philosophy and General Thoughts/Life Lessons by Deepak Poonia.md"
     },
     {
       "basename": "Guidelines to GATE-CS",
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
-      "basename": "Life Lessons by Deepak Poonia",
-      "path": "GATE/Life Lessons by Deepak Poonia.md"
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Links for Resources",
+      "path": "GATE/GATE-materials/Links for Resources.md"
+    },
+    {
+      "basename": "Introduction to DBMS",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Mathematical Structures",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Mathematical Structures.md"
     },
     {
       "basename": "GATE-LOG",
@@ -43,10 +59,6 @@
     {
       "basename": "LU Decomposition",
       "path": "GATE/Linear-Algebra/LU Decomposition.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "GATE/Temporary Plan.md"
     },
     {
       "basename": "Computer Organization and Architecture",
@@ -95,10 +107,6 @@
     {
       "basename": "Registers",
       "path": "GATE/Digital-Logic/Sequential Circuits/Registers.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
     },
     {
       "basename": "Counters",
@@ -191,14 +199,6 @@
     {
       "basename": "Decoder",
       "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
-    },
-    {
-      "basename": "Digital-Logic-Mindmap",
-      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
-    },
-    {
-      "basename": "Encoder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
     }
   ],
   "omittedPaths": [

@@ -23,6 +23,45 @@
             }
           },
           {
+            "id": "2d2656169e5954b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc307b330cbb95fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f583e53dba36b543",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "dd38810bc5106ea4",
             "type": "leaf",
             "state": {
@@ -49,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -124,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
               }
             }
           },
@@ -225,18 +264,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dd38810bc5106ea4",
+  "active": "f583e53dba36b543",
   "lastOpenFiles": [
-    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "GATE/Temporary Plan.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+    "Philosophy and General Thoughts/Life Lessons by Deepak Poonia.md",
+    "Philosophy and General Thoughts",
+    "GATE/Guidelines to GATE-CS.md",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "attachments/Functional Dependency-20240711183337661.webp",
+    "GATE/GATE-materials/Links for Resources.md",
+    "attachments/Standard Integrity Constraints in Relational Model-20240711100110325.webp",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
+    "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "GATE/DiscreteMathematics/Set-Theory/Mathematical Structures.md",
     "attachments/Functional Dependency-20240710192437793.webp",
     "attachments/Normal Forms-20240710154030945.webp",
     "attachments/Normal Forms-20240710153817763.webp",
-    "GATE/Guidelines to GATE-CS.md",
-    "GATE/Life Lessons by Deepak Poonia.md",
     "GATE/GATE-LOG.md",
     "GATE/Linear-Algebra/Linear Algebra.md",
     "GATE/Linear-Algebra/LU Decomposition.md",
@@ -246,23 +293,16 @@
     "attachments/Normal Forms-20240709203305121.webp",
     "attachments/Normal Forms-20240709203121903.webp",
     "attachments/Normal Forms-20240709203027378.webp",
-    "GATE/Temporary Plan.md",
-    "attachments/Normal Forms-20240709160346177.webp",
-    "attachments/Normal Forms-20240709155459975.webp",
     "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
     "GATE/Computer-Organization-and-Architecture/Floating-Point-Representation/Floating Point Representation.md",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
     "GATE/DatabaseManagementSystem/SQL/Structured Query Language.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
     "Vault Index.md",
     "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md",
     "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md",
     "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md",
-    "GATE/Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md",
-    "GATE/Digital-Logic/Sequential Circuits/Registers.md",
-    "GATE/DiscreteMathematics/Discrete Mathematics.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
@@ -273,7 +313,6 @@
     "GATE",
     "GATE/ComputerNetworks/Data-Link-Layer",
     "Project Euler",
-    "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting",
     "SR Latch.canvas",
     "Untitled.canvas"
   ]
