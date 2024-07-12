@@ -1,24 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "Functional Dependency",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+      "basename": "Problems caused by Redundant Information",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
     },
     {
-      "basename": "Temporary Plan",
-      "path": "GATE/Temporary Plan.md"
+      "basename": "Decomposition",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
     },
     {
-      "basename": "Relational Model",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+      "basename": "Decomposition into Normal Forms",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Introduction to DBMS",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Laws of Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
+    },
+    {
+      "basename": "Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
+    },
+    {
+      "basename": "Introduction to Digital Logic",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
     },
     {
       "basename": "Standard Integrity Constraints in Relational Model",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md"
     },
     {
+      "basename": "Functional Dependency",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+    },
+    {
+      "basename": "Natural Join",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
+    },
+    {
       "basename": "Normal Forms",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
+    },
+    {
+      "basename": "Relational Model",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "GATE/Temporary Plan.md"
     },
     {
       "basename": "Life Lessons by Deepak Poonia",
@@ -29,16 +69,8 @@
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
-    },
-    {
       "basename": "Links for Resources",
       "path": "GATE/GATE-materials/Links for Resources.md"
-    },
-    {
-      "basename": "Introduction to DBMS",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
     },
     {
       "basename": "Discrete Mathematics",
@@ -83,10 +115,6 @@
     {
       "basename": "Vault Index",
       "path": "Vault Index.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Combinational Circuits vs Sequential Circuits",
@@ -171,34 +199,6 @@
     {
       "basename": "Carry Look Ahead Adder",
       "path": "GATE/Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md"
-    },
-    {
-      "basename": "Adder for Signed Addition",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Adder for Signed Addition.md"
-    },
-    {
-      "basename": "Subtraction using Adders",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Subtraction using Adders.md"
-    },
-    {
-      "basename": "Ripple Carry Adder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Ripple Carry Adder.md"
-    },
-    {
-      "basename": "Standard and Canonical Forms of Boolean Expressions",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
-    },
-    {
-      "basename": "Topics-Tracker-for-GATE",
-      "path": "GATE/Topics-Tracker-for-GATE.md"
-    },
-    {
-      "basename": "Propagational Delay and Timing Diagrams",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Propagational Delay and Timing Diagrams.md"
-    },
-    {
-      "basename": "Decoder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
     }
   ],
   "omittedPaths": [

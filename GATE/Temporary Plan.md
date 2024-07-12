@@ -1,7 +1,7 @@
 May = LA
 Jun = DL
-Jul = DBMS, Set theory, C
-Aug = COA, OS, Calculus, Propositional Logic
+Jul = DBMS, Set theory, Calculus
+Aug = COA, OS, C, Propositional Logic
 Sep = CN, TOC, First Order Logic
 Oct = DS, Algo, DM, CD
 Nov = Probability, DM
