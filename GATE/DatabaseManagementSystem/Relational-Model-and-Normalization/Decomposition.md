@@ -10,22 +10,6 @@ notes-taken: false
 tags:
   - DBMS/RelationalModel
 ---
-
-> [!lecture] Lecture-7A, 7B, 7D
->> [!youtube] [DBMS : Decomposition of a Relation | Non-Binary Decomposition | The Chase Test for Lossless Join Decomposition | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjweUdD-fgcdD-oMiylqE9t)
-
-- [[Functional Dependency|FDs]] may create many data redundancies.
-- FDs are applicable to all the tables in the database.
-
-# Problems caused by redundant information
-
-- Redundant storage
-- Updation Anomalies
-- Insertion Anomalies
-- Deletion Anomalies
-
-- The solution of all of the above anomalies is decomposition.
-
 # Decomposition
 
 > [!terminology] 

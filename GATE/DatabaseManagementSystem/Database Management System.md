@@ -18,6 +18,7 @@ tags:
 - [[Functional Dependency]]
 - [[Normal Forms]]
 - [[Natural Join]]
+- [[Problems caused by Redundant Information]]
 - [[Decomposition]]
 - [[Decomposition into Normal Forms]]
 - [[Three Levels of Schema]]

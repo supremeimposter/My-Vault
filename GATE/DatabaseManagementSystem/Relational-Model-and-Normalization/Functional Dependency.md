@@ -429,7 +429,7 @@ $$S^+ = \{f \mid S \models f\}$$
 
 For any set $S {}$, its closure ${} S^+ {}$ is unique. 
 
-Size of closure of a FD ${} F$ is the number of all FD's that can be inferred by $F$. It includes a lot of trivial FDs.
+Size of closure of a FD ${} F$ is the number of all FD's that can be inferred by $F$. It includes a lot of trivial FDs which are not really useful.
 
 > [!NOTE] Questions on size of closure of FD set are not asked since computing such calculations consumes more time.
 
@@ -443,6 +443,7 @@ Number of FDs with 1 attribute on LHS = 12
 
 > [!hint] 
 > Non-empty subsets of the attributes in the closure are counted.
+> Number of non-empty subsets of $n$ attributes $= 2^n - 1$, since that one empty set is avoided here.
 
 ![[Functional Dependency-20240711183337661.webp]]
 
@@ -462,6 +463,8 @@ Total number of FDs inferred by the set $F$ i.e. $\mid F^+ \mid = 113$.
 
 > [!think] 
 > In real life, it is impossible to specify all possible FDs on a relation.
+
+To count only the completely non-trivial FDs, count only the non-empty subsets of those attributes which are in RHS and removing the ones in the LHS.
 
 ---
 ## Covering of FD set
