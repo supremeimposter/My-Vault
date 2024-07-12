@@ -5,7 +5,7 @@ lecture: "1"
 date: 2024-02-18T13:50:00
 version:
   - DL-24
-last-revision: 2024-06-18T18:00:00
+last-revision: 2024-07-12T18:00:00
 notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
@@ -54,7 +54,7 @@ $P_1$ and $P_2$ are two persons studying the boolean algebra mapped to voltage d
 
 ![[Introduction to Digital Logic-20240224075130510.webp]]
 
-Positive logic and Negative logic systems are dual of each other.
+Positive logic and Negative logic systems are **dual** of each other.
 
 ![[Introduction to Digital Logic-20240224082335788.webp]]
 

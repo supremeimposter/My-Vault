@@ -5,21 +5,24 @@ lecture: "4"
 date: 2024-02-18T20:32:00
 version:
   - DL-24
-last-revision: 2024-06-18T17:31:00
+last-revision: 2024-07-12T17:31:00
 notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
 ---
 # Boolean Algebra
+
 Boolean Algebra is a two-valued system inspired from [[Propositional Logic]].
 Boolean Algebra is used to model/represent/describe Digital systems.
 In Boolean Algebra, every variable is a boolean variable. Every boolean variable can take either one of the two values i.e. $X = 0$ or $X = 1$.
 Boolean Algebra is also called as Switching Algebra.
 
 ## Basic Operations
+
 All logical functions can be implemented using 3 basic logical operations NOT, AND, OR i.e. all of these 3 basic logic operations are [[Functional Completeness|functionally complete]].
 
 ### NOT
+
 It is also called as Inverse (negation) or complement. 
 Symbols:  $\neg x$, $\overline{x}$, $x'$, ~$x$ 
 
@@ -59,6 +62,7 @@ Switches can be connected in parallel to perform logical OR operation.
 
 ---
 ## Boolean Expression
+
 A boolean expression is a set of literals (possibly repeats) combined with logic operations (and possibly ordered by paranthesis).
 
 - `0` and `1` are boolean expressions.
@@ -179,7 +183,7 @@ ExNOR is same as [[Bi-Implication|Bi-implication]] i.e. $a ⊙ b \equiv a \leftr
 [[Boolean Function#EXOR and EXNOR functions|ExOR and ExNOR]] are special types of functions.
 
 > [!note] 
-> Every logic gate except OR gate can have multiple inputs.
+> Every logic gate can have multiple inputs i.e. fan-in
 > 
 > ![[Boolean Algebra-20240618200620635.webp]]
 

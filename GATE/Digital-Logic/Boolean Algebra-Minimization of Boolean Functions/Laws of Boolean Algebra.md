@@ -64,15 +64,20 @@ This law is also called as Involution Law.
 $$
 \begin{split}
 \overline{ \overline{A} } &= \overline {(\overline{A})} \\ 
-&= A \\ \\
-\text{Let } \alpha \text{ be any} & \text{ boolean expression,} \\ \\
+&= A
+\end{split}
+$$
+
+Let $\alpha$ be any boolean expressions,
+$$
+\begin{split}
 \overline{ \overline{\alpha} } &= \overline {(\overline{\alpha})} \\&= \alpha
 \end{split}
 $$
 
 ## Commutative Law
 > [!NOTE] 
-> All properties are commutative
+> All operations are commutative
 
 $$
 \begin{split}
@@ -130,12 +135,12 @@ $$
 
 ### Complementing Boolean Expressions
 
-> [!NOTE] 
-> Complement of a boolean expression $E$ can be found using De-Morgan's law if the $E$ contains only literals and AND, OR, NOT operations (no other operations)
+Simplify the given boolean expression to [[Standard and Canonical Forms of Boolean Expressions|standard forms]] and it is easier to perform complentation on a function.
 
 ![[Laws of Boolean Algebra-20240618224317959.webp]]
 
 ## Removal of Redundancies
+
 Let $\alpha, \beta, \gamma$ be any boolean expressions,
 
 ### Absorption Law
@@ -171,7 +176,7 @@ There may be some functions which do hold for cancellation laws. e.g. converses 
 
 ![[Laws of Boolean Algebra-20240528134424642.webp]]
 
-![[Laws of Boolean Algebra-20240619121332830.webp]]
+![[Laws of Boolean Algebra-20240619121332830.webp|Cancellation laws do hold here]]
 
 > [!example] 
 >> In this example, it is given that $a=1$,
@@ -190,6 +195,6 @@ Boolean algebraic laws are given in pairs to show that boolean algebra satisfies
 ![[Laws of Boolean Algebra-20240218225050396.webp]]
 ![[Laws of Boolean Algebra-20240603120312263.webp]]
 
-Laws of Boolean Algebra are similar or isomorphic to [[Discrete Mathematics#Propositional Logic or 0th Order Logic|Propositional Logic]], [[Discrete Mathematics#Set Theory|Set Theory]], [[Discrete Mathematics#Group Theory|Group theory]], [[Types of Lattices#Boolean Lattice or Boolean Algebra|Boolean Lattice]].
+Laws of Boolean Algebra are similar or isomorphic to [[Discrete Mathematics#Propositional Logic or 0th Order Logic|Propositional Logic]], [[Discrete Mathematics#Set Theory|Set Theory]], [[Discrete Mathematics#Group Theory|Group theory]], [[Types of Lattices#Boolean Lattice or Boolean Algebra|Boolean Lattice]]
 
 ---
