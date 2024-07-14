@@ -422,5 +422,7 @@
   "minimal-style@@sidebar-tabs-names": "tab-names-off",
   "minimal-style@@col-alt": true,
   "retronotes-settings@@retro-lm": "retro-lm-mint-leafs",
-  "retronotes-settings@@retro-dm": "retro-dm-carbon-ink"
+  "retronotes-settings@@retro-dm": "retro-dm-carbon-ink",
+  "obsidian-chameleon-theme@@color-schemes-light": "color-scheme-tokyo-night-day",
+  "obsidian-chameleon-theme@@color-schemes-dark": "color-scheme-kanagawa-dragon"
 }

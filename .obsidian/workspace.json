@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "cdd5e9eb4638756f",
+            "id": "463567c219731608",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normalization in Relational Model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +34,46 @@
             }
           },
           {
-            "id": "08d776151151568d",
+            "id": "ed7a9a4af417a02d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89c0bab5c3a1525d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69348e4aedfdae7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cdd5e9eb4638756f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -135,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
               }
             }
           },
@@ -237,36 +276,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b736f00d83f4e48a",
+  "active": "cdd5e9eb4638756f",
   "lastOpenFiles": [
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md",
+    "attachments/Decomposition-20240714223955769.webp",
+    "attachments/Decomposition-20240714222359008.webp",
+    "attachments/Decomposition-20240714222344290.webp",
+    "attachments/Decomposition-20240714222338268.webp",
+    "attachments/Decomposition-20240714222331678.webp",
+    "attachments/Decomposition-20240714222324351.webp",
+    "attachments/Decomposition-20240714222259807.webp",
+    "attachments/Decomposition-20240714222252615.webp",
+    "attachments/Decomposition-20240714222236655.webp",
+    "attachments/Decomposition-20240714222221550.webp",
+    "attachments/Decomposition-20240714222044081.webp",
     "GATE/DatabaseManagementSystem/Database Management System.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normalization in Relational Model.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+    "GATE/Temporary Plan.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
     "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md",
-    "attachments/Problems caused by Redundant Information-20240712192637446.webp",
-    "attachments/Problems caused by Redundant Information-20240712192428499.webp",
-    "attachments/Problems caused by Redundant Information-20240712192341151.webp",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
-    "attachments/Natural Join-20240712075947376.webp",
-    "attachments/Natural Join-20240712075749365.webp",
-    "attachments/Natural Join-20240712075113420.webp",
-    "attachments/Natural Join-20240712074440014.webp",
-    "attachments/Natural Join-20240712073926970.webp",
-    "attachments/Natural Join-20240712073612779.webp",
-    "GATE/Temporary Plan.md",
     "Philosophy and General Thoughts/Life Lessons by Deepak Poonia.md",
     "Philosophy and General Thoughts",
     "GATE/Guidelines to GATE-CS.md",
-    "attachments/Functional Dependency-20240711183337661.webp",
     "GATE/GATE-materials/Links for Resources.md",
     "GATE/DiscreteMathematics/Discrete Mathematics.md",
     "GATE/DiscreteMathematics/Set-Theory/Mathematical Structures.md",
@@ -275,7 +315,6 @@
     "GATE/Linear-Algebra/LU Decomposition.md",
     "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
     "GATE/Computer-Organization-and-Architecture/Floating-Point-Representation/Floating Point Representation.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Algorithms/Dynamic-Programming",

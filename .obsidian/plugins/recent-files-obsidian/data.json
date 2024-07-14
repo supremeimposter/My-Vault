@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Problems caused by Redundant Information",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
-    },
-    {
       "basename": "Decomposition",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
     },
     {
-      "basename": "Decomposition into Normal Forms",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md"
-    },
-    {
       "basename": "Database Management System",
       "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Normal Forms",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
+    },
+    {
+      "basename": "Natural Join",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
+    },
+    {
+      "basename": "Normalization in Relational Model",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normalization in Relational Model.md"
+    },
+    {
+      "basename": "Functional Dependency",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "GATE/Temporary Plan.md"
+    },
+    {
+      "basename": "Problems caused by Redundant Information",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
+    },
+    {
+      "basename": "Relational Model",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
     },
     {
       "basename": "Introduction to DBMS",
@@ -39,26 +59,6 @@
     {
       "basename": "Standard Integrity Constraints in Relational Model",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md"
-    },
-    {
-      "basename": "Functional Dependency",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
-    },
-    {
-      "basename": "Natural Join",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
-    },
-    {
-      "basename": "Normal Forms",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
-    },
-    {
-      "basename": "Relational Model",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "GATE/Temporary Plan.md"
     },
     {
       "basename": "Life Lessons by Deepak Poonia",
