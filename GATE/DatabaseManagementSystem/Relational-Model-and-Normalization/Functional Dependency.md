@@ -15,12 +15,13 @@ tags:
 # Functional Dependency (FD)
 
 - Functional dependencies are defined for schema as this is one of the [[Relational Model#Integrity Constraint (IC)|Integrity constraints]], so all possible legal instances must satisfy them.
-- An attribute can be functionally dependent on another attribute.
+- An attribute can be functionally dependent on another attribute. So FDs hold throughout the database. FDs are properties of the database and does not restrict to any single relation.
 
 - Let $A, B$ be two attributes of a relation $R$, we say that $A \to B$ iff whenever two tuples have same $A$ value then those tuples also have same $B$ value.
 - If a column $A$ of a table uniquely identifies or determines a column $B$ of the same table, then it can be represented as $A \to B$.
 - $A \to B$ iff $\forall_{ t_{1}, t_{2} }  \,\, (\,(t_{1}.A = t_{2}.A) \Rightarrow (t_{1}.B = t_{2}.B)\,)$
 - No $A$ values are mapped to two or more $B$ values.
+- Functional dependencies generalize the concept of a key.
 
 ![[Functional Dependency-20240705194126728.webp]]
 
@@ -476,58 +477,61 @@ $$
 $F$ covers $G$ means all the FDs in $G$ can be derived using FDs in $F$ i.e. $G \subseteq F^+$
 
 To find out if $F$ covers those FDs in $G$, use closure of attributes.
+If $F$ covers $G$, it is not necessary that $G$ also covers $F$.
 
 > [!steps] Find out if $F$ covers $G$?
 > Take the closure of LHS of every FD in G with respect to $F$ and see if it brings the RHS of that FD in $G$.
 > 
 > ![[Functional Dependency-20240708163530290.webp]]
 
-If $F$ covers $G$, it is not necessary that $G$ covers $F$.
-
-But $F$ is equivalent to $G$ iff $F$ covers $G$ and $G$ covers $F$ since the closure of an FD set is unique.
+$F$ is **equivalent** to $G$ iff $F$ covers $G$ and $G$ covers $F$ since the closure of an FD set is unique.
 $$
 F \equiv G \,\,\text{ iff }\,\, F^+ = G^+
 $$
 
-### Extraneous attribute on LHS of a FD
+## Extraneous attribute on LHS of a FD
+
 > [!lecture] Lecture-8
 - Consider an FD set $F {}$ containing the following FD,
 $$
 XA \rightarrow Y
 $$
-- $A$ is extraneous on LHS if ${} Y \in X^+ {}$.
-
+- $A$ is an extraneous attribute on LHS if ${} Y \in X^+ {}$ i.e. there is an FD in the set $F$ such that $X \to Y$.
 
 > [!steps] 
-1. Find ${} X^+ {}$ in the set $F$.
+
+1. Find $X^+$ in the set $F$.
 2. Check if $Y \in X^+$, then $A {}$ is extraneous.
 
-
-### Removing a Redundant FD
-
+## Removing a Redundant FD
 
 > [!steps] 
+
 1. First make sure all the FDs have a single attribute on the RHS.
 2. First remove the FD from the FD set.
 3. Find ${} (LHS)^+ {}$ from the current FD set after removing the FD and see if ${} (RHS) \in (LHS)^+ {}$. If it is true then the FD is redundant in the set $F$.
 
+## Minimal Cover of FD set
 
-### Minimal Cover of FD set
 - Minimal cover ${} F_m {}$ of a FD set $F$ is the **irreducible set of FDs** which is equivalent to $F {}$.
+$$
+F_{m} \equiv F
+$$
 - It is also known as minimal form ${} F_m {}$ or canonical form ${} F_c {}$ or Ir-reducible set of FDs.
-- If we remove any attribute or FD from ${} F_m {}$, then ${} F_m \not\equiv F {}$.
-- For any set $F {}$, the minimal cover ${} F_m$ does not need to be unique. 
-- There can be multiple minimal covers for a set $F$. There can be different minimal covers with different FDs.
 
-> [!steps] 
+- If we remove any FD or any attribute of any FD from ${} F_m {}$, then ${} F_m \not\equiv F {}$.
+- For any set $F {}$, the minimal cover ${} F_m$ does not need to be unique.
+
+> [!steps] Steps to find the minimal cover of an FD set
 
 1. Simplify all the RHS of the FDs (decompose)
 2. For all the FDs, find a extraneous attribute on the LHS
 3. Eliminate all the redundant FDs.
 4. Stop when no more extraneous attribute is on the LHS or no more redundant FD is present.
-> [!note] Steps 2 and 3 can be done in any order.
 
+> [!tip] Steps 2 and 3 can be done in any order.
 
+---
 ## Redundancies due to FDs
 > [!lecture] Lecture-9B
 
@@ -535,6 +539,8 @@ $$
 - Non-trivial FDs in which LHS is NOT a super key may create redundancies in the database.
 - Non-trivial FDs with super key as LHS never create redundancies in the database.
 
-
 ## Redundancies due to MVDs
+
 - When there are more than one "many-many" relationships in a single relation, then it creates Multi-valued Dependency.
+
+---

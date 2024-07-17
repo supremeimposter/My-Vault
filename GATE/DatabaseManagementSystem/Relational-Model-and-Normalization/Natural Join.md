@@ -6,7 +6,7 @@ date: 2023-11-12T16:50:00
 version:
   - DBMS-24
 last-revision: 2024-07-12T18:52:00
-notes-taken: false
+notes-taken: true
 tags:
   - DBMS/RelationalAlgebra
   - DBMS/Queries
@@ -38,5 +38,7 @@ R \bowtie S &= R \times S
 $$
 
 ![[Natural Join-20240712075947376.webp]]
+
+Joining tables is a costly operation as it consumes more time.
 
 ---

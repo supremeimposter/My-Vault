@@ -20,7 +20,7 @@ tags:
 - [[Natural Join]]
 - [[Problems caused by Redundant Information]]
 - [[Decomposition]]
-- [[Decomposition into Normal Forms]]
+- [[Normalization in Relational Model]]
 - [[Three Levels of Schema]]
 
 ## Module 2 - Relational Algebra

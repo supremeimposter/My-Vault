@@ -86,6 +86,7 @@ where $R$ is the name of the relation, $A, B, C$ are attributes and $D_{i}$ are 
 
 - Degree (arity) of a relation is the number of attributes in its schema. Degree of a relation can never be $0$.
 - Cardinality of a relation is the number of rows in any given instance. Cardinality can be $0$ i.e. no records in the table.
+- Integrity Constraints, Normal Forms, Keys, Decomposition, Dependency preservation are properties of Relation Schema and not the properties of a legal instance.
 
 ## Relation in Relational Model
 

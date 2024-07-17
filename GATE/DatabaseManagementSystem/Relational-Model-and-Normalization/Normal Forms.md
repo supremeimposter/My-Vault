@@ -140,7 +140,9 @@ $$
 
 In 3NF, a non-super key can determine a prime attribute which creates data redundancies, but in BCNF, there is no non-super key in LHS in a non-trivial FD which makes BCNF a more stronger form than 3NF.
 
-If LHS is the super key, then redundancies do not occur.
+If LHS is the super key, then redundancies due to FDs do not occur.
+
+A relation in BCNF does not have any redundancies due to FDs, but there may be other redudancies.
 
 #### Violation of BCNF
 

@@ -8,11 +8,20 @@ version:
 last-revision: 
 notes-taken: false
 tags:
-  - DBMS/RelationalModel
+  - DBMS/RelationalModel/Decomposition
+  - DBMS/RelationalModel/NormalForms
+  - DBMS/RelationalModel/FunctionalDependency
 ---
+# Normalization in Relational Model
 
-# Decomposition into Normal Forms
+**Normalization of data** is to minimize redundancy and minimize insertion, updation and deletion anomalies. 
+If a relation is not in a good [[Normal Forms|normal form]], then it [[Decomposition|decomposed]] to a set of relation schema such that,
+- each relation schema is in good form
+- decomposition is a lossless-join decomposition and preferably dependency preserving.
 
+Decomposition or a relation is decided by the normal forms.
+
+To put it simply, Normalization is decomposition of relation into normal forms. 
 
 ## 2NF Decomposition
 > [!lecture] Lecture-9A
