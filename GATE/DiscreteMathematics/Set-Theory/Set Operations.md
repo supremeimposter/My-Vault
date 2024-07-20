@@ -9,6 +9,7 @@ last-revision: ""
 notes-taken: false
 tags:
   - DiscreteMath/Sets
+  - "#MathematicalStructure"
 ---
 # Set Operations
 
@@ -26,6 +27,8 @@ $$
 ### Set Difference (${} \textbackslash$ or $-$)
 
 
+![[Set Operations-20240719105614506.webp]]
+
 ### Set Symmetric Difference ($\Delta$ or $\oplus$)
 $$
 A \; \Delta \; B = (A \; \textbackslash \; B) \cup (B \; \textbackslash \; A)
@@ -34,6 +37,9 @@ $$
 A \; \Delta \; B = (A \; \cup \; B) \; \textbackslash \; (A \; \cap \; B)
 $$
 ![[Pasted image 20231009133641.png]]
+
+### Set Complementation
+
 
 ### Set Cross Product ($\times$) or Cartesian Product
 
@@ -107,10 +113,4 @@ $$
 |A \cup B| = |A| + |B| - |A \cap B| 
 $$
 
-----
-# Equality of Sets
-
-- $A = B$, iff $A \subseteq B$ and $B \subseteq A$
-
-----
-
+---

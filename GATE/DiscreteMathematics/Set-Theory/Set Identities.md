@@ -7,19 +7,32 @@ version:
   - DM-24
 last-revision: 
 notes-taken: false
+tags:
+  - DiscreteMath/Sets
+  - MathematicalStructure
 ---
+# Set Identities
 
 > [!youtube] [Set Identities](https://www.youtube.com/watch?v=fN-5u7znwr0) - Lec-11
 
+## Equality of Sets
+
+If there are two sets $A, B$, then
+
+$A = B$ iff $A \subseteq B$ and $B \subseteq A$ or we can put is like this
+$A = B$ iff $\forall x\: \bigg(\,(x \in A) \to (x \in B) \land (x \in B) \to (x \in A)\,\bigg)$
+
+To show that two sets are equal, it is necessary and sufficient to show that $A \subseteq B$ and $B \subseteq A$.
+
 ## Identity Elements for Set Operations
 
-| Operation            | Identity Element    |
-|:---------------------|:--------------------|
-| Union                | $\phi$              |
-| Intersection         | Universal Set M     |
-| Set Difference       | No identity element |
-| Symmetric Difference | $\phi$              |
-| Cross Product        | No identity element |  
+| Operation            | Identity Element    |     |
+| :------------------- | :------------------ | --- |
+| Union                | $\phi$              |     |
+| Intersection         | Universal Set M     |     |
+| Set Difference       | No identity element |     |
+| Symmetric Difference | $\phi$              |     |
+| Cross Product        | No identity element |     |
 
 - Only $\cup$ and $\cap$ are idempotent.
 

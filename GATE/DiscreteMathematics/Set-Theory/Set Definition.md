@@ -7,18 +7,20 @@ version:
   - DM-2024
 notes-taken: false
 tags:
-  - DiscreteMath
   - DiscreteMath/Sets
+  - MathematicalStructure
 ---
+# Set
 
 - Set is a collection of any elements or sets.
 - The elements don't have to have any correlation between them.
 
 ## Properties of Set
-- Set Properties - unordered and distinct elements
-	- Duplicates are not counted in a set, only distinct elements are counted.
-	- Order of the elements does not matter in a set. They can be written in any order.
 
+- Set Properties - unordered and distinct elements.
+
+- Order of the elements does not matter in a set. They can be written in any order.
+- Duplicates are not counted in a set, only distinct elements are counted.
 
 > [!question] How many elements does the following set contain?
 > S = {a, b, a, a, 1, 1, 2, 3, 3, 2, 3}
@@ -37,7 +39,7 @@ tags:
 > If $x$ does not belong to $Q$, then it can be denoted as  $x \not\in Q$ or $x \in \bar{Q}$ .
 
 
-![[Pasted image 20230930222915.png]]
+![[Set Definition-20240718141417913.webp]]
 
 ## Cardinality of a set
 - Cardinality of a set $S$ is the number of element it contains. It is denoted by $|S|$
@@ -77,10 +79,12 @@ tags:
 4. Set Builder representation
 
 ### Set Builder Notation
-![[Pasted image 20230930230929.png]]
-![[Pasted image 20230930231018.png]]
 
-![[Pasted image 20230930231135.png]]
+![[Set Definition-20240718141435399.webp]]
+
+![[Set Definition-20240718141448662.webp]]
+
+![[Set Definition-20240718141459835.webp]]
 
 ---
 ## Subsets
@@ -99,14 +103,14 @@ tags:
 	- $\phi \subseteq \phi$ 
 
 - Venn diagram showing that $A \subseteq B$
-![[Pasted image 20231004134616.png]]
+![[Set Definition-20240718141519523.webp]]
 - Subset relationship is [[Transitive Relation|transitive]].
 
 ### Proper Subset
 - A set $P$ is a proper subset of $Q$, iff $P \subseteq Q$ but $P \not= Q$.
 - Proper subset can also be denoted by $P \subset Q$
 
-![[Pasted image 20231004135955.png]]
+![[Set Definition-20240718141531140.webp]]
 
 ### Subsets vs Members of a set
 > [!brain] Do not confuse between $\in$ and $\subseteq$
@@ -131,7 +135,7 @@ $$
 > $\{ \{1, 2\} \} \subseteq S$ but $\{ \{1, 2\} \} \not\in S$
 > $\{a, b, \{1, 2\} \} \subseteq S$ but $\{a, b, \{1\} \} \not\subseteq S$
 
-![[Pasted image 20231004140030.png]]
+![[Set Definition-20240718141539321.webp]]
 
 ### Important results
 - If $S \subseteq A$ and $S \subseteq B$, then $S \subseteq A \; \cap \; B$ .
@@ -145,14 +149,13 @@ $$
 
 ### PowerSet
 
-- The Powerset $\mathcal{P}(S)$ is the set of all subsets of the set $S$ .
+The Powerset $\mathcal{P}(S)$ is the set of all subsets of the set $S$ 
 $$
 \mathcal{P}(S) = \{ T \; | \; T \subseteq S \}
 $$
 - $x \in \mathcal{P}(A)$ iff $x \subseteq A$
 - A set $A$ can be a subset of its powerset i.e. $A \subseteq \mathcal{P}(A)$ .
-
-![[Pasted image 20231004135955.png]]
+![[Set Definition-20240718141531140.webp]]
 
 ````col
 ```col-md
@@ -178,6 +181,7 @@ flexGrow=1
 	- To define subset relation on a set, there should be at least one set as an element in the set.
 
 ### Number of subsets for a set
+
 - For creating a subset for a set $S$, there are two choices for each element in the set $S$.
 	1. The element appears
 	2. The element does not appear
@@ -189,6 +193,7 @@ flexGrow=1
 - Number of proper subsets for a set $S$ = $2^{|S|} - 1$
 ---
 ## Universal Set $(U)$
+
 - The Universal set $U$ is the set containing everything currently under consideration.
 - Content of $U$ depends on the context, sometimes explicitly stated, sometimes implicit.
 
@@ -197,6 +202,7 @@ flexGrow=1
 
 ---
 ## Disjoint Sets
+
 - Two sets $P$ and $Q$ are said to be disjoint, if they do not have any common elements. $P \; \cap\; Q = \phi$
 - $A = \phi$ and $B = \phi$ are also disjoint, since there is no element to be common.
 - $P = \{a\}$ and $Q = \phi$ are also disjoint, since there are no elements in $Q$ that are in $P$ .
@@ -205,6 +211,7 @@ flexGrow=1
 
 ---
 ## Multi Sets
+
 - It is also called as Bag.
 - Unordered collection of elements
 - Duplicate elements matter.

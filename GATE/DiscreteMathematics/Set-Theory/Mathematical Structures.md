@@ -10,10 +10,9 @@ notes-taken: true
 tags:
   - "#DiscreteMath/Sets"
 ---
+# Sets $\{a, b, \dots\}$
 
-
-# [[Set Definition|Sets]] $\{a, b, \dots\}$
-
+- A set is a collection of elements or objects enclosed by curly brackets separated by commas.
 - Order does not matter.
 - Repetition does not matter.
 - Sets can be finite or infinite.
@@ -58,3 +57,5 @@ tags:
 
 - $1, 2, 3, 4, \ldots$
 - $a, b, c, d, e, f, \ldots$
+
+---
