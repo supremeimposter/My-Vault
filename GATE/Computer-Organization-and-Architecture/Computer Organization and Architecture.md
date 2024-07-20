@@ -11,7 +11,6 @@ tags:
 
 - [[Introduction to COA]]
 - [[Main Memory]]
-- [[System Bus]]
 - [[Memory Interfacing and Expansion]]
 
 ## Module 2 - The CPU
@@ -68,6 +67,8 @@ tags:
 > [schedule \[18-447 Introduction to Computer Architecture – Spring 2015\]](https://course.ece.cmu.edu/~ece447/s15/doku.php?id=schedule) 
 > Stanford University CS107
 > [Index of /class/archive/cs/cs107/cs107.1194/lectures](https://web.stanford.edu/class/archive/cs/cs107/cs107.1194/lectures/)
+> Oxford
+> [D W Murray](https://www.robots.ox.ac.uk/~dwm/Courses/2CO_2014/)
 
 
 ---
