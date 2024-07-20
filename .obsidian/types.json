@@ -3,7 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "date": "datetime",
+    "date": "date",
     "pdf": "text",
     "version": "multitext",
     "module": "number",

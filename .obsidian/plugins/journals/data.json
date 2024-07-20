@@ -1,0 +1,90 @@
+{
+  "journals": {
+    "#studylog": {
+      "id": "#studylog",
+      "type": "calendar",
+      "name": "Study-Sessions",
+      "rootFolder": "Journal",
+      "openOnStartup": false,
+      "startupSection": "day",
+      "day": {
+        "enabled": true,
+        "openMode": "tab",
+        "nameTemplate": "{{date}}",
+        "dateFormat": "DD-MM-YYYY",
+        "folder": "",
+        "template": "templates/daily-notes-template.md",
+        "ribbon": {
+          "show": false,
+          "icon": "",
+          "tooltip": ""
+        },
+        "createOnStartup": false
+      },
+      "week": {
+        "enabled": true,
+        "openMode": "tab",
+        "nameTemplate": "{{date}}",
+        "dateFormat": "",
+        "folder": "",
+        "template": "templates/weekly-notes-template.md",
+        "ribbon": {
+          "show": false,
+          "icon": "",
+          "tooltip": ""
+        },
+        "createOnStartup": false
+      },
+      "month": {
+        "enabled": false,
+        "openMode": "active",
+        "nameTemplate": "",
+        "dateFormat": "",
+        "folder": "",
+        "template": "",
+        "ribbon": {
+          "show": false,
+          "icon": "",
+          "tooltip": ""
+        },
+        "createOnStartup": false
+      },
+      "quarter": {
+        "enabled": false,
+        "openMode": "active",
+        "nameTemplate": "",
+        "dateFormat": "",
+        "folder": "",
+        "template": "",
+        "ribbon": {
+          "show": false,
+          "icon": "",
+          "tooltip": ""
+        },
+        "createOnStartup": false
+      },
+      "year": {
+        "enabled": false,
+        "openMode": "active",
+        "nameTemplate": "",
+        "dateFormat": "",
+        "folder": "",
+        "template": "",
+        "ribbon": {
+          "show": false,
+          "icon": "",
+          "tooltip": ""
+        },
+        "createOnStartup": false
+      }
+    }
+  },
+  "calendar": {
+    "firstDayOfWeek": -1,
+    "firstWeekOfYear": 1
+  },
+  "calendar_view": {
+    "leaf": "right",
+    "weeks": "left"
+  }
+}

@@ -90,6 +90,13 @@
         "a": 1,
         "rgb": 11392604
       }
+    },
+    {
+      "query": "#Journal",
+      "color": {
+        "a": 1,
+        "rgb": 6084188
+      }
     }
   ],
   "collapse-display": false,

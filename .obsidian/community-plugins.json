@@ -9,7 +9,6 @@
   "obsidian-heading-shifter",
   "image-captions",
   "obsidian-latex-suite",
-  "periodic-notes",
   "obsidian-columns",
   "obsidian-text-format",
   "obsidian-style-settings",
@@ -45,5 +44,6 @@
   "obsidian-wakatime",
   "fontsource",
   "arrows-in-md",
-  "click-clack"
+  "click-clack",
+  "journals"
 ]

@@ -1,0 +1,111 @@
+.litegal {
+    width: 100%;
+    cursor: default;
+}
+.litegal-preview-outer {
+    position: relative;
+}
+.litegal-preview {
+    display: flex;
+    align-items: space-around;
+    flex-wrap: nowrap;
+    margin: 0 30px 0 40px;
+    overflow: scroll;
+}
+
+.litegal-preview-img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.litegal-active {
+    position: relative;
+}
+
+.litegal-active-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.litegal-arrow {
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0 10px;
+    color: #999;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    user-select: none;
+}
+.litegal-arrow:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.litegal-preview-outer .litegal-arrow {
+    font-size: 20px;
+}
+.litegal-arrow-right {
+    right: 0;
+}
+
+.litegal-lightbox-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    cursor: pointer;
+}
+.litegal-lightbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.litegal-lightbox-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.litegal-lightbox-exit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.litegal-no-images {
+    text-align: center;
+    margin: 20px;
+    color: #999;
+    font-style: italic;
+    
+}

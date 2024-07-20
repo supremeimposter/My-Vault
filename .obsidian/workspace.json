@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "99f02db6baa0eaa8",
+        "id": "0db92b6a93445326",
         "type": "tabs",
         "children": [
           {
-            "id": "1cefa3b16824c5b2",
+            "id": "a979cb9d9bf15c0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Database Management System.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "463567c219731608",
+            "id": "ba3963e4b896cf3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normalization in Relational Model.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "ed7a9a4af417a02d",
+            "id": "9a6ec85c1e4e6369",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,51 +47,12 @@
             }
           },
           {
-            "id": "89c0bab5c3a1525d",
+            "id": "7add49cf60ba2d2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69348e4aedfdae7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdd5e9eb4638756f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b736f00d83f4e48a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -174,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
+                "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md"
               }
             }
           },
@@ -235,6 +196,14 @@
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "64e722562ef2ff69",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
               "state": {}
             }
           }
@@ -272,49 +241,48 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "workspaces:Manage workspace layouts": false,
-      "map-of-content:Update Map of Content": false,
-      "periodic-notes:Open today": false
+      "map-of-content:Update Map of Content": false
     }
   },
-  "active": "cdd5e9eb4638756f",
+  "active": "9a6ec85c1e4e6369",
   "lastOpenFiles": [
-    "attachments/Decomposition-20240714223955769.webp",
-    "attachments/Decomposition-20240714222359008.webp",
-    "attachments/Decomposition-20240714222344290.webp",
-    "attachments/Decomposition-20240714222338268.webp",
-    "attachments/Decomposition-20240714222331678.webp",
-    "attachments/Decomposition-20240714222324351.webp",
-    "attachments/Decomposition-20240714222259807.webp",
-    "attachments/Decomposition-20240714222252615.webp",
-    "attachments/Decomposition-20240714222236655.webp",
-    "attachments/Decomposition-20240714222221550.webp",
-    "attachments/Decomposition-20240714222044081.webp",
-    "GATE/DatabaseManagementSystem/Database Management System.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normalization in Relational Model.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
-    "GATE/Temporary Plan.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
-    "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md",
-    "Philosophy and General Thoughts/Life Lessons by Deepak Poonia.md",
-    "Philosophy and General Thoughts",
-    "GATE/Guidelines to GATE-CS.md",
-    "GATE/GATE-materials/Links for Resources.md",
-    "GATE/DiscreteMathematics/Discrete Mathematics.md",
-    "GATE/DiscreteMathematics/Set-Theory/Mathematical Structures.md",
-    "GATE/GATE-LOG.md",
-    "GATE/Linear-Algebra/Linear Algebra.md",
-    "GATE/Linear-Algebra/LU Decomposition.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
     "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "GATE/Computer-Organization-and-Architecture/Floating-Point-Representation/Floating Point Representation.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md",
+    "attachments/Main Memory-20240720183320090.webp",
+    "GATE/GATE-LOG.md",
+    "attachments/Main Memory-20240720171546129.webp",
+    "attachments/Main Memory and System Bus-20240720143403509.webp",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md",
+    "attachments/System Bus-20240720122551531.webp",
+    "attachments/Introduction to COA-20240720112125466.webp",
+    "GATE/Temporary Plan.md",
+    "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "GATE/DiscreteMathematics/Set-Theory/Set Identities.md",
+    "GATE/DiscreteMathematics/Set-Theory/Proofs involving Sets.md",
+    "attachments/Proofs involving Sets-20240719105742471.webp",
+    "GATE/DiscreteMathematics/Set-Theory/Set Operations.md",
+    "attachments/Set Operations-20240719105614506.webp",
+    "attachments/Proofs involving Sets-20240719103342028.webp",
+    "attachments/Proofs involving Sets-20240719103321139.webp",
+    "attachments/Proofs involving Sets-20240719102921641.webp",
+    "GATE/DiscreteMathematics/Set-Theory/Set Definition.md",
+    "GATE/DiscreteMathematics/Set-Theory/Mathematical Structures.md",
+    "Vault Index.md",
+    "Journal/17-07-2024.md",
+    "templates/weekly-notes-template.md",
+    "templates/daily-notes-template.md",
+    "Journal",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normalization in Relational Model.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
+    "Philosophy and General Thoughts",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Algorithms/Dynamic-Programming",
@@ -325,7 +293,6 @@
     "Machine-Learning",
     "GATE",
     "GATE/ComputerNetworks/Data-Link-Layer",
-    "Project Euler",
     "SR Latch.canvas",
     "Untitled.canvas"
   ]

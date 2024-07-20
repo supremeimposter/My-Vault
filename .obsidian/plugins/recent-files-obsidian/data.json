@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "Main Memory",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md"
+    },
+    {
+      "basename": "Introduction to COA",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
+    },
+    {
+      "basename": "Memory Interfacing and Expansion",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE/GATE-LOG.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "GATE/Temporary Plan.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Set Identities",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Set Identities.md"
+    },
+    {
+      "basename": "Proofs involving Sets",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Proofs involving Sets.md"
+    },
+    {
+      "basename": "Set Operations",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Set Operations.md"
+    },
+    {
+      "basename": "Set Definition",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Set Definition.md"
+    },
+    {
+      "basename": "Mathematical Structures",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Mathematical Structures.md"
+    },
+    {
+      "basename": "Vault Index",
+      "path": "Vault Index.md"
+    },
+    {
+      "basename": "17-07-2024",
+      "path": "Journal/17-07-2024.md"
+    },
+    {
+      "basename": "weekly-notes-template",
+      "path": "templates/weekly-notes-template.md"
+    },
+    {
+      "basename": "daily-notes-template",
+      "path": "templates/daily-notes-template.md"
+    },
+    {
+      "basename": "Problems caused by Redundant Information",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
+    },
+    {
       "basename": "Decomposition",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
     },
@@ -9,32 +77,24 @@
       "path": "GATE/DatabaseManagementSystem/Database Management System.md"
     },
     {
-      "basename": "Normal Forms",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
-    },
-    {
-      "basename": "Natural Join",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
-    },
-    {
-      "basename": "Normalization in Relational Model",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normalization in Relational Model.md"
+      "basename": "Relational Model",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
     },
     {
       "basename": "Functional Dependency",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
     },
     {
-      "basename": "Temporary Plan",
-      "path": "GATE/Temporary Plan.md"
+      "basename": "Normal Forms",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
     },
     {
-      "basename": "Problems caused by Redundant Information",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
+      "basename": "Normalization in Relational Model",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normalization in Relational Model.md"
     },
     {
-      "basename": "Relational Model",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+      "basename": "Natural Join",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
     },
     {
       "basename": "Introduction to DBMS",
@@ -73,18 +133,6 @@
       "path": "GATE/GATE-materials/Links for Resources.md"
     },
     {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
-      "basename": "Mathematical Structures",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Mathematical Structures.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE/GATE-LOG.md"
-    },
-    {
       "basename": "Linear Algebra",
       "path": "GATE/Linear-Algebra/Linear Algebra.md"
     },
@@ -93,16 +141,8 @@
       "path": "GATE/Linear-Algebra/LU Decomposition.md"
     },
     {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
-    },
-    {
       "basename": "Floating Point Representation",
       "path": "GATE/Computer-Organization-and-Architecture/Floating-Point-Representation/Floating Point Representation.md"
-    },
-    {
-      "basename": "Introduction to COA",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
     },
     {
       "basename": "Database-Management-System-Mindmap",
@@ -111,10 +151,6 @@
     {
       "basename": "Structured Query Language",
       "path": "GATE/DatabaseManagementSystem/SQL/Structured Query Language.md"
-    },
-    {
-      "basename": "Vault Index",
-      "path": "Vault Index.md"
     },
     {
       "basename": "Combinational Circuits vs Sequential Circuits",
@@ -163,42 +199,6 @@
     {
       "basename": "Preset and Clear Inputs in Flip Flop",
       "path": "GATE/Digital-Logic/Sequential Circuits/Preset and Clear Inputs in Flip Flop.md"
-    },
-    {
-      "basename": "Flip Flop Conversion",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Flip Flop Conversion.md"
-    },
-    {
-      "basename": "Half Adder and Full Adder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md"
-    },
-    {
-      "basename": "T Flip Flop",
-      "path": "GATE/Digital-Logic/Sequential Circuits/T Flip Flop.md"
-    },
-    {
-      "basename": "JK Flip Flop",
-      "path": "GATE/Digital-Logic/Sequential Circuits/JK Flip Flop.md"
-    },
-    {
-      "basename": "D Flip Flop",
-      "path": "GATE/Digital-Logic/Sequential Circuits/D Flip Flop.md"
-    },
-    {
-      "basename": "SR Flip Flop",
-      "path": "GATE/Digital-Logic/Sequential Circuits/SR Flip Flop.md"
-    },
-    {
-      "basename": "SR and S'R' Latch",
-      "path": "GATE/Digital-Logic/Sequential Circuits/SR and S'R' Latch.md"
-    },
-    {
-      "basename": "Memory Device",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Memory Device.md"
-    },
-    {
-      "basename": "Carry Look Ahead Adder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md"
     }
   ],
   "omittedPaths": [
