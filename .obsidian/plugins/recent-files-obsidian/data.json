@@ -5,16 +5,20 @@
       "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md"
     },
     {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
       "basename": "Introduction to COA",
       "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
     },
     {
       "basename": "Memory Interfacing and Expansion",
       "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
       "basename": "GATE-LOG",
@@ -71,10 +75,6 @@
     {
       "basename": "Decomposition",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "Relational Model",

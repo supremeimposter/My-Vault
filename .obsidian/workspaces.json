@@ -529,12 +529,25 @@
                 }
               },
               {
+                "id": "ba3963e4b896cf3a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "9a6ec85c1e4e6369",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and System Bus.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -554,7 +567,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -629,7 +643,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -646,7 +660,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -670,7 +684,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md"
                   }
                 }
               },
@@ -738,8 +752,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "80784521bca5ca54",
-      "mtime": "2024-07-20T14:22:18+05:30"
+      "active": "9a6ec85c1e4e6369",
+      "mtime": "2024-07-20T22:20:44+05:30"
     }
   },
   "active": "COA"
