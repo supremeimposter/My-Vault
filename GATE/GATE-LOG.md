@@ -130,3 +130,7 @@
 **June 18, 2024** When I have spent much time on a topic, it doesn't mean I can just skim a question from a question from that topic. I have to read each and every word of the question and think about it. Given enough time to practice questions.
 
 **July 9, 2024** Proper revision of every previous topic enhances the understanding of the upcoming topics and saves a lot of time from confusion.
+
+**July 17, 2024** I am going to experiment a different study technique now. First I will go through the annotated notes and study the topic, followed by taking notes of the same topic by going through the same annotated notes, which is also the second revision. During the second revision, I will come to know which topic to avoid and which topic to follow.
+
+**July 20, 2024** I will also start going interleaving of subjects to further challenge my brain. It forgets and tries to remember the information.
