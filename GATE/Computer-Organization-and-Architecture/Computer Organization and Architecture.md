@@ -10,7 +10,7 @@ tags:
 ## Module 1 - Basic Components of Computer and Main Memory
 
 - [[Introduction to COA]]
-- [[Main Memory]]
+- [[Main Memory and System Bus]]
 - [[Memory Interfacing and Expansion]]
 
 ## Module 2 - The CPU
@@ -42,12 +42,12 @@ tags:
 
 ---
 # Pending Lectures
+
 ![[Pending Lectures#Computer Organization and Architecture]]
 
 ---
 
 # References
-
 
 > [!youtube] High Performance Computer Architecture - Udacity
 > [High Performance Computer Architecture: Part 1 - YouTube](https://www.youtube.com/playlist?list=PLAwxTw4SYaPmqpjgrmf4-DGlaeV0om4iP)
@@ -57,10 +57,8 @@ tags:
 > [High Performance Computer Architecture: Part 5 - YouTube](https://www.youtube.com/playlist?list=PLAwxTw4SYaPkr-vo9gKBTid_BWpWEfuXe)
 > [High Performance Computer Architecture: Part 6 - YouTube](https://www.youtube.com/playlist?list=PLAwxTw4SYaPndXEsI4kAa6BDSTRbkCKJN)
 
-
-> [!youtube] 
-> [Little Endian, Big Endian - ALL Practice Questions | GATE 2021 | COA | With NOTES - YouTube](https://www.youtube.com/watch?v=9RBQS5lAg00&list=PLIPZ2_p3RNHjMdZR3GYQ2KZio0NKczrik)
-
+> [!youtube] Go classes COA playlist
+> [Computer Organization and Architecture | GO Classes - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjMdZR3GYQ2KZio0NKczrik)
 
 > [!link] Standard University Lectures
 > Carnegie Mellon University 18-447
@@ -69,6 +67,5 @@ tags:
 > [Index of /class/archive/cs/cs107/cs107.1194/lectures](https://web.stanford.edu/class/archive/cs/cs107/cs107.1194/lectures/)
 > Oxford
 > [D W Murray](https://www.robots.ox.ac.uk/~dwm/Courses/2CO_2014/)
-
 
 ---
