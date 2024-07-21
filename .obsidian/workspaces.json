@@ -547,7 +547,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and System Bus.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -568,7 +568,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -643,7 +643,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -660,7 +660,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -684,7 +684,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory.md"
+                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
                   }
                 }
               },
@@ -752,8 +752,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "9a6ec85c1e4e6369",
-      "mtime": "2024-07-20T22:20:44+05:30"
+      "active": "ba3963e4b896cf3a",
+      "mtime": "2024-07-21T23:35:26+05:30"
     }
   },
   "active": "COA"
