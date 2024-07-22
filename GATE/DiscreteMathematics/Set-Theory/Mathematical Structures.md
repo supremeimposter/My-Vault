@@ -21,12 +21,11 @@ tags:
 # Ordered N-tuple $(a, b, \ldots, n)$
 
 - Sequence of more than two elements surrounded by parenthesis.
+- Order and repetition matters.
 - n-tuples are finite.
 
-## Equality of n-tuple
-
 > [!question] When $(a_1, a_2, a_3, \ldots a_n) = (b_1, b_2, b_3, \ldots b_n)$ ?
-> iff $\forall_{i} \; a = b_i$
+> iff $\forall_{i} \; a_{i} = b_i$
 
 
 ## Ordered Pairs $(a, b)$
@@ -35,11 +34,9 @@ tags:
 - Order and repetition of the elements matters.
 - Ordered Pair can also be called as 2-tuple.
 
-![[Pasted image 20231009155825.png]]
+![[Mathematical Structures-20240722145430353.webp]]
 
 - Examples : $(x, y)$ co-ordinate system
-
-### Equality of Ordered Pairs
 
 > [!question] When $(a, b)$ is equal to $(c, d)$ ?
 > iff $a = c$ and $b = d$
@@ -48,10 +45,9 @@ tags:
 > iff $a = b$
 
 ----
-
 # Sequences $<a_1, a_2, a_3, \ldots>$
 
-- Order matters and Repetition of element matter.
+- Order and Repetition of elements matter.
 - Sequences can be of finite or infinite elements.
 - Sequence is enclosed between $<>$ .
 

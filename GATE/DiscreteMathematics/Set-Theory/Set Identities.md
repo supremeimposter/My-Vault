@@ -15,24 +15,23 @@ tags:
 
 > [!youtube] [Set Identities](https://www.youtube.com/watch?v=fN-5u7znwr0) - Lec-11
 
-## Equality of Sets
+![[Set Identities-20240722104829443.webp]]
+![[Set Identities-20240722113915595.webp]]
 
-If there are two sets $A, B$, then
+> [!NOTE] Precedence of Set operations
+> () > NOT > AND > OR.
 
-$A = B$ iff $A \subseteq B$ and $B \subseteq A$ or we can put is like this
-$A = B$ iff $\forall x\: \bigg(\,(x \in A) \to (x \in B) \land (x \in B) \to (x \in A)\,\bigg)$
+- Domination Law
+	- $A \cup M = M$, $M$ is the dominator for the operation $\cup$.
+	- $A \cap \phi = \phi$, $\phi$ is the dominator for the operation $\cap$.
 
-To show that two sets are equal, it is necessary and sufficient to show that $A \subseteq B$ and $B \subseteq A$.
-
-## Identity Elements for Set Operations
-
-| Operation            | Identity Element    |     |
-| :------------------- | :------------------ | --- |
-| Union                | $\phi$              |     |
-| Intersection         | Universal Set M     |     |
-| Set Difference       | No identity element |     |
-| Symmetric Difference | $\phi$              |     |
-| Cross Product        | No identity element |     |
+| Operation            | Identity Element    |
+| :------------------- | :------------------ |
+| Union                | $\phi$              |
+| Intersection         | Universal Set M     |
+| Set Difference       | No identity element |
+| Symmetric Difference | $\phi$              |
+| Cross Product        | No identity element |
 
 - Only $\cup$ and $\cap$ are idempotent.
 
@@ -49,10 +48,18 @@ To show that two sets are equal, it is necessary and sufficient to show that $A 
 	3. Symmetric Difference
 
 - Absorption law can be interpreted quickly using venn diagram. It is only for $\cup$ and $\cap$ .
-- De-Morgan's law of complement is for $\cup$,  $\cap$ and complements of sets only.
+- De-Morgan's law of complement is for $\cup$,  $\cap$ and complements of sets only. It is used to find the complement of a given set expression.
 
-- Domination Law
-	- $A \cup M = M$, $M$ is the dominator for the operation $\cup$.
-	- $A \cap \phi = \phi$, $\phi$ is the dominator for the operation $\cap$.
+> [!example] 
+> ![[Set Identities-20240722124845931.webp]]
 
-## Comparison between Propositional Logic and Set Theory
+| [[Propositional Logic\|Propositional logic]] | Set Theory     |
+| -------------------------------------------- | -------------- |
+| T                                            | $\mathbb{U}$   |
+| F                                            | $\phi$         |
+| $\tilde{A}$                                  | $\overline{A}$ |
+| $A \lor B$                                   | $A \cup B$     |
+| $A \land B$                                  | $A \cap B$     |
+| $A \oplus B$                                 | $A \Delta B$   |
+
+---
