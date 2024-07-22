@@ -2,4 +2,3 @@
 tags:
   - Journal/dailynotes
 ---
-

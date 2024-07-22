@@ -16,7 +16,6 @@
   "dataview",
   "code-styler",
   "recent-files-obsidian",
-  "image-converter",
   "obsidian-outliner",
   "settings-search",
   "obsidian-nomnoml-diagram",
@@ -45,5 +44,7 @@
   "fontsource",
   "arrows-in-md",
   "click-clack",
-  "journals"
+  "journals",
+  "image-converter",
+  "journal-folder"
 ]

@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "Boolean Function",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
+    },
+    {
+      "basename": "Laws of Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Set Definition",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Set Definition.md"
+    },
+    {
+      "basename": "Set Operations",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Set Operations.md"
+    },
+    {
+      "basename": "Set Identities",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Set Identities.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Mathematical Structures",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Mathematical Structures.md"
+    },
+    {
+      "basename": "Proofs involving Sets",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Proofs involving Sets.md"
+    },
+    {
+      "basename": "18-07-2024",
+      "path": "Journal/18-07-2024.md"
+    },
+    {
+      "basename": "22-07-2024",
+      "path": "Journal/22-07-2024.md"
+    },
+    {
+      "basename": "daily-notes-template",
+      "path": "templates/daily-notes-template.md"
+    },
+    {
+      "basename": "09-07-2024",
+      "path": "Journal/09-07-2024.md"
+    },
+    {
       "basename": "Memory Interfacing and Expansion",
       "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
     },
@@ -33,30 +85,6 @@
       "path": "GATE/Temporary Plan.md"
     },
     {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
-      "basename": "Set Identities",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Set Identities.md"
-    },
-    {
-      "basename": "Proofs involving Sets",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Proofs involving Sets.md"
-    },
-    {
-      "basename": "Set Operations",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Set Operations.md"
-    },
-    {
-      "basename": "Set Definition",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Set Definition.md"
-    },
-    {
-      "basename": "Mathematical Structures",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Mathematical Structures.md"
-    },
-    {
       "basename": "Vault Index",
       "path": "Vault Index.md"
     },
@@ -67,10 +95,6 @@
     {
       "basename": "weekly-notes-template",
       "path": "templates/weekly-notes-template.md"
-    },
-    {
-      "basename": "daily-notes-template",
-      "path": "templates/daily-notes-template.md"
     },
     {
       "basename": "Problems caused by Redundant Information",
@@ -103,14 +127,6 @@
     {
       "basename": "Introduction to DBMS",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
-    },
-    {
-      "basename": "Laws of Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
     },
     {
       "basename": "Boolean Algebra",
@@ -183,22 +199,6 @@
     {
       "basename": "Timing Issues in Flip Flop",
       "path": "GATE/Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md"
-    },
-    {
-      "basename": "Clock in Digital Circuits",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
-    },
-    {
-      "basename": "Race Around Condition in Flip Flop",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Race Around Condition in Flip Flop.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "GATE/Pending Lectures.md"
-    },
-    {
-      "basename": "Design of Flip Flops",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Design of Flip Flops.md"
     }
   ],
   "omittedPaths": [
