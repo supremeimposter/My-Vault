@@ -87,14 +87,23 @@ digraph G {
 
 - MS bits of the address bits are chosen to select the chip.
 
-![[Memory Interfacing and Expansion-20240721182202392.webp|Building a $32 \times 32$ chip using $4 \times 32$ chips]]
+
+> [!header] Building a $32 \times 32$ chip using $4 \times 32$ chips
+
+![[Pasted image 20240722085711.png]]
+
+![[Memory Interfacing and Expansion-20240721182202392.webp]]
 
 ### Low Order Memory Interleaving
 - In low order memory interleaving, across the memory modules (memory chip), the addresses are consecutive.
 
 - LS bits of the address bits are chosen to select the chip.
 
-![[Memory Interfacing and Expansion-20240721182218050.webp|Building a $32 \times 32$ chip using $4 \times 32$ chips]]
+> [!header] Building a $32 \times 32$ chip using $4 \times 32$ chips
+
+![[Pasted image 20240722085730.png]]
+
+![[Memory Interfacing and Expansion-20240721182218050.webp]]
 
 > [!NOTE] 
 > There is no name for the interleaving if we choose to pick bits from the middle to select the chips.
