@@ -11,6 +11,7 @@ tags:
   - DigitalLogic/BooleanAlgebra
 ---
 # Boolean Function
+
 A boolean algebraic function can be expressed algebraically with binary variables, the logic operation symbols, paranthesis and equal sign.
 
 > [!question] Why boolean expression is same as a boolean function?
@@ -63,7 +64,7 @@ If there are $2$ boolean variables in a boolean function $f_{3}$, then there are
 > [!header] Function over $n$ variables 
 
 If there are $n$ boolean variables in a boolean function $f$, then there are $2^{(2^n)}$ different boolean functions.
-Each of the $2^n$ different input combinations has only two choices i.e. 0 or 1.
+Each of the $2^n$ different input combinations has only two choices for output i.e. 0 or 1.
 
 ![[Boolean Function-20240518105525322.webp]]
 ![[Boolean Function-20240518105549538.webp]]
@@ -73,11 +74,12 @@ Each of the $2^n$ different input combinations has only two choices i.e. 0 or 1.
 
 ---
 ## Relationship between Complement and Dual of Boolean Functions
+
 > [!youtube] 
 > [Complement, Dual of a Boolean Function | Self Dual | Positive, Negative Logic System | Digital Logic - YouTube](https://www.youtube.com/watch?v=qed3vHqJicM)
 
 > [!NOTE] 
-> Dual of a boolean function can easily found if the function contains only literals and NOT, AND and OR operations (no other operations).
+> Dual of a boolean function can easily found if the function contains only literals, NOT, AND and OR operations (no other operations). If the given function does not contain those operations, then it can be simplified to any of the standard forms.
 
 ![[Boolean Function-20240517191636112.webp]]
 ![[Boolean Function-20240517195617657.webp]]
@@ -85,7 +87,7 @@ Each of the $2^n$ different input combinations has only two choices i.e. 0 or 1.
 ![[Laws of Boolean Algebra-20240218225050396.webp]]
 ![[Laws of Boolean Algebra-20240603120312263.webp]]
 
-> [!example] 
+> [!example] Find the dual of the given boolean expression
 > ![[Boolean Function-20240621230915170.webp]]
 
 
@@ -93,7 +95,7 @@ Each of the $2^n$ different input combinations has only two choices i.e. 0 or 1.
 
 ![[Boolean Function-20240527115933381.webp]]
 
-> [!think] 
+> [!observation] 
 > For any boolean function, its dual and complement only varies by the literals.
 
 For any boolean function $f(a, b)$, where $a$ and $b$ are the inputs to the function, then
@@ -124,7 +126,6 @@ $$
 where $t$ is a decimal value encoded from the input combination and $0 \leq t \leq (2^n - 1)$ 
 
 If $f(t) = 1$, then $\overline{f}\;(t) = 0$ which means $f^d\;(\;(2^n - 1) - t) = 0$.
-
 $$
 \begin{split}
 f(t) = \overline{ f^d\;( (2^n - 1) - t ) }
@@ -144,6 +145,7 @@ f^d(a) & = a \\
 \therefore f(a) &= f^d(a)
 \end{split}
 $$
+
 It is never possible for a boolean function to be equal to its complement i.e. $f \not= \overline{f}$ 
 
 There are some functions $f$ for which $\overline{f} = f^d$.
@@ -158,7 +160,8 @@ There are some functions $f$ for which $\overline{f} = f^d$.
 > [!pdf] lec-07 Pg. no. 151
 
 ### Neutral Boolean Function
- A boolean function over $n$ variables is neutral iff $f = 0$ for half of the input combinations and $f = 1$ for the remaining half of the input combinations.
+
+A boolean function over $n$ variables is neutral iff $f = 0$ for half of the input combinations and $f = 1$ for the remaining half of the input combinations.
 
 For a boolean function of $n$ variables, number of neutral boolean functions = ${{2^n}_{C}}_{2^{(n-1)}}$.
 Out of $2^n$ rows of input combinations, select the half $(2^{n-1})$ which gives $1$ as the output, the rest will give $0$ as the output.
@@ -166,6 +169,7 @@ Out of $2^n$ rows of input combinations, select the half $(2^{n-1})$ which gives
 ![[Boolean Function-20240527204754316.webp]]
 
 ### Self Dual Boolean Function
+
 A boolean function $f$ is a self dual function iff $f = f^d$.
 
 ![[Boolean Function-20240527210411425.webp]]
