@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Memory Interfacing and Expansion",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Main Memory and Addressability",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
+    },
+    {
+      "basename": "System Bus",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md"
+    },
+    {
+      "basename": "Introduction to COA",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
+    },
+    {
+      "basename": "Registers and Status Flags",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md"
+    },
+    {
+      "basename": "Standard and Canonical Forms of Boolean Expressions",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
+    },
+    {
+      "basename": "Minimization using K Map",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Algebraic Simplification of Boolean Functions",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md"
+    },
+    {
       "basename": "Boolean Function",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
     },
     {
       "basename": "Laws of Boolean Algebra",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Set Definition",
@@ -53,28 +89,12 @@
       "path": "Journal/09-07-2024.md"
     },
     {
-      "basename": "Memory Interfacing and Expansion",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
-    },
-    {
       "basename": "21-07-2024",
       "path": "Journal/21-07-2024.md"
     },
     {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
-    },
-    {
-      "basename": "Main Memory and System Bus",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and System Bus.md"
-    },
-    {
       "basename": "Database Management System",
       "path": "GATE/DatabaseManagementSystem/Database Management System.md"
-    },
-    {
-      "basename": "Introduction to COA",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
     },
     {
       "basename": "GATE-LOG",
@@ -179,26 +199,6 @@
     {
       "basename": "Flip Flop",
       "path": "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md"
-    },
-    {
-      "basename": "Finite State Machine",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md"
-    },
-    {
-      "basename": "Terminologies of Sequential Circuits",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md"
-    },
-    {
-      "basename": "Registers",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Registers.md"
-    },
-    {
-      "basename": "Counters",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Counters.md"
-    },
-    {
-      "basename": "Timing Issues in Flip Flop",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Timing Issues in Flip Flop.md"
     }
   ],
   "omittedPaths": [
