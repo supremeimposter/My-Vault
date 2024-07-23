@@ -10,7 +10,8 @@ tags:
 ## Module 1 - Basic Components of Computer and Main Memory
 
 - [[Introduction to COA]]
-- [[Main Memory and System Bus]]
+- [[Main Memory and Addressability]]
+- [[System Bus]]
 - [[Memory Interfacing and Expansion]]
 
 ## Module 2 - The CPU

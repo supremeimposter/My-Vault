@@ -12,6 +12,8 @@ tags:
 ---
 # Registers in CPU
 
+![[Registers and Status Flags-20240723143716653.webp]]
+
 - A [[Registers|register]] is a storage device inside the CPU.
 
 ```dot
