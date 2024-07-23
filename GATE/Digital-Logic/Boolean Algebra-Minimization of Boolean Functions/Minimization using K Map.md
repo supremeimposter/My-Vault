@@ -5,7 +5,7 @@ lecture: "6"
 date: 2024-02-21T13:39:00
 version:
   - TOC-24
-last-revision: 2024-06-21T10:27:00
+last-revision: 2024-07-23T10:27:00
 notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
@@ -16,13 +16,13 @@ tags:
 > [!abstract] 
 > K-map is special visual representation of the truth table that makes minimization of boolean functions easier without any boolean algebra theorems and equation manipulations, and just by looking at the minterms that can be combined to form a minimized sum of product terms.
 
-K map (Karnaugh Map) is used to get the minimum SOP and minimum POS for any boolean function $f$.
+K map (Karnaugh Map) is used to get the **minimum SOP and minimum POS** for any boolean function $f$.
 
-MInimum SOP has the minimum number of product terms and out of those minimum number of terms, there are minimum number of literals.
-MInimum POS has the minimum number of sum terms and out of those minimum number of terms, there are minimum number of literals.
+Minimum SOP has the minimum number of product terms and out of those minimum number of terms, there are minimum number of literals.
+Minimum POS has the minimum number of sum terms and out of those minimum number of terms, there are minimum number of literals.
 Minimum SOP and minimum POS are not unique forms.
 
-Minimization using k-map reduces the given expression that corresponds to a circuit in 2-level implementation.
+Minimization using k-map reduces the given expression that corresponds to a circuit in **2-level implementation**.
 
 ![[Minimization using K Map-20240620180855901.webp]]
 
@@ -60,6 +60,7 @@ When started with canonical SOP, K-map gives a visual representation of which tw
 If the order of variables of a function $f$ is given, then then the order of the variables in the k-map are changed, then it gives the equivalent minimal expression. It does not matter which order of the variables is followed in the k-map.
 
 ![[Minimization using K Map-20240620181818424.webp]]
+![[Minimization using K Map-20240723100056736.webp]]
 
 A cube in a k-map is a group of $2^m$ ($m \ge 0$) cells such that every cell is adjacent to exactly $m$ cells in the group.
 
@@ -79,7 +80,7 @@ One product term covers $2^m$ minterms, where $m$ is the number of variables mis
 | $2 = 2^1$ minterms                                   | $4 = 2^2$ minterms                                   |
 | 1 variable is missing                                | 2 variables are missing                              |
 
-One sum term covers $2^k$ maxterms, where $k$ is the number of missing variables in the sum term.
+One sum term covers $2^m$ maxterms, where $m$ is the number of missing variables in the sum term.
 
 ![[Minimization using K Map-20240520103854665.webp]]
 
@@ -101,6 +102,7 @@ If we take the largest cubes of 1 (or 0) for SOP (or POS), we will get smaller p
 > To visualize a boolean expression in a k-map, it is enough to convert the given expression to standard forms and even better if converted to canonical forms.
 
 ## Minimized SOP
+
 $2^m$ cells are used in a cube, so a product term can be created for that cube.
 
 > [!hint] 
@@ -122,6 +124,8 @@ $2^m$ cells are used in a cube, so a product term can be created for that cube.
 > The largest cube is not always possible in mSOP or mPOS. Keep looking for such redundant largest cubes after finishing the k-map.
 > 
 > ![[Minimization using K Map-20240520133916609.webp]]
+> 
+> The largest cube in the above example is not an essential prime implicant and also all the essential prime implicants cover all the 1's, so the largest cube is not required for minimal SOP.
 
 ## Minimized POS
 
@@ -144,7 +148,7 @@ $2^m$ cells are used in a cube, so a product term can be created for that cube.
 
 If a minimized SOP of an expression $E$ is not unique, then it is not necessarily true that the minimized POS of $E$ is also not unique.
 If there are $p$ minimized SOP expressions for an expression $G$, then is it not necessarily true that there are $p$ minimized POS expressions for $G$. 
-If the minimized SOP expression has $r$ literals for an expression $J$, then it is not necessarily true that there minimized POS expression of the same expression $J$ has $r$ literals.
+If the minimized SOP form for an expression $J$ has $r$ literals, then it is not necessarily true that the minimized POS expression of the same expression $J$ has $r$ literals.
 
 ## Canonical Forms using K Map
 

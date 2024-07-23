@@ -5,7 +5,7 @@ lecture:
 date: 2024-02-18T14:38:00
 version:
   - DL-24
-last-revision: 2024-06-19T16:56:00
+last-revision: 2024-07-23T16:56:00
 notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
@@ -41,8 +41,8 @@ flexGrow=1
 ## Consensus
 ![[Algebraic Simplification of Boolean Functions-20240517204231643.webp]]
 
-# Examples on Algebraic Simplification
-> [!pdf] mod-1/lec-04D.pdf
+
+> [!pdf] Examples on mod-1/lec-04D.pdf
 
 > [!example] By-case method can be used to solve boolean equations
 > ![[Algebraic Simplification of Boolean Functions-20240518095814815.webp]]

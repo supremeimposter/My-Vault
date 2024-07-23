@@ -5,7 +5,7 @@ lecture: "4"
 date: 2024-02-18T18:06:00
 version:
   - DL-24
-last-revision: 2024-06-22T11:33:00
+last-revision: 2024-07-23T11:33:00
 notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
@@ -198,6 +198,7 @@ $$
 Number of self dual functions on $n$-variables $= 2^{(2^{(n-1)})}$, because each row in the first half of the standard truth table has 2 choices, whereas the lower half of the truth table has only one choice i.e. there is no choice for lower half.
 
 ### Functions whose Complement is same as Dual
+
 > [!attention] These functions do not have a standard name.
 
 - These functions are palindrome functions.
@@ -224,6 +225,9 @@ $$
 
 Over $n$ variables, there are $2^{(2^{(n-1)})}$ such functions.
 
+> [!NOTE] 
+> Number of $n$ length palindrome bit strings are $2^{(2^{n-1})}$
+
 ### EXOR and EXNOR functions
 > [!pdf] Lec-08
 
@@ -239,8 +243,6 @@ Over $n$ variables, there are $2^{(2^{(n-1)})}$ such functions.
 **ExNOR** operation is also Equivalence operation or coincidence operation.
 
 ![[Boolean Function-20240528135452108.webp]]
-
-**ExNOR** operation is the complement of **ExOR** operation.
 
 ![[Boolean Function-20240528135427396.webp]]
 

@@ -38,22 +38,26 @@ There are two canonical forms,
 ## Standard Forms of Boolean Expressions
 
 ### Product Term
-- A single literal or a logical product (AND) of two or more literals.
+
+A single literal or a logical product (AND) of two or more literals.
 
 > [!example] 
 ![[Standard and Canonical Forms of Boolean Expressions-20240518121019632.webp]]
 
-- Logical AND of a boolean expression is not considered as a product term.
+Logical AND of a boolean expression is not considered as a product term.
+
 > [!example] 
 > 1. $\overline{a} \cdot \overline{bc}$ is not a product term, since $\overline{bc}$ is not a literal, it is an expression.
 > 2. $a \cdot (b+b) \cdot c$ is not a product term, but $a.b.c$ is a product term.
 
 ### Sum Term
-- A single literal or a logical sum (OR) or two or more literals.
+
+A single literal or a logical sum (OR) or two or more literals.
 
 ![[Standard and Canonical Forms of Boolean Expressions-20240518121429388.webp]]
 
-- Logical OR of a boolean expression is not considered as a sum term.
+Logical OR of a boolean expression is not considered as a sum term.
+
 > [!example] 
 > 1. $\overline{a} + \overline{bc}$ is not a sum term, since $\overline{bc}$ is not a literal, it is an expression.
 > 2. $a + \overline{b + c}$ is not a sum term
@@ -62,10 +66,12 @@ There are two canonical forms,
 > If the literal count of an expression is 1, then it can be considered both as sum term and product term. For example, $\overline{b}$ is both product term and sum term.
 
 ### Sum of Products (SOP)
+
 SOP is the logical OR of product terms.
 ![[Standard and Canonical Forms of Boolean Expressions-20240518122725446.webp]]
 
 ### Product of Sums (POS)
+
 POS is the logical AND of sum terms.
 ![[Standard and Canonical Forms of Boolean Expressions-20240518122734208.webp]]
 
@@ -142,7 +148,7 @@ For maxterm, `0` means true form and `1` means complemented form. (standard sum 
 Short notation indices helps us to know which variables are in normal and which variables are in complemented form.
 
 > [!caution] 
-> The short notations of minterms and maxterms are used only when the order of the variables in the function are known or else the short notations are dont make any sense.
+> The short notations of minterms and maxterms are used only when the order of the variables in the function are known or else the short notations don't make any sense.
 
 ### Expressing Boolean Functions using Min-terms and Max-terms
 
