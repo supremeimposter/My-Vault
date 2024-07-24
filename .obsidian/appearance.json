@@ -9,14 +9,14 @@
     "anuppiccin-extended-color-schemes",
     "anuppiccin-floating-search-bar"
   ],
-  "cssTheme": "Dynamic Color",
+  "cssTheme": "custom-chiaroscuroflow",
   "theme": "moonstone",
   "showViewHeader": true,
   "baseFontSize": 18,
   "nativeMenus": false,
   "translucency": false,
   "textFontFamily": "iA Writer Duo S,Times New Roman,iA Writer Quattro V,SF Pro Text",
-  "interfaceFontFamily": "SF Pro Display,SF Pro,iA Writer Quattro V",
+  "interfaceFontFamily": "SF Pro Display,SF Pro",
   "monospaceFontFamily": "SF Mono,JetBrains Mono,iA Writer Mono S,Cascadia Code PL",
   "baseFontSizeAction": false
 }

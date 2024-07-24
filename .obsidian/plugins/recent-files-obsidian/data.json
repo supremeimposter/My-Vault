@@ -1,28 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Memory Interfacing and Expansion",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
+      "basename": "Registers and Status Flags in CPU",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
     },
     {
       "basename": "Computer Organization and Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
-      "basename": "Main Memory and Addressability",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
+      "basename": "Overflow of Signed and Unsigned Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
     },
     {
-      "basename": "System Bus",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md"
+      "basename": "24-07-2024",
+      "path": "Journal/24-07-2024.md"
     },
     {
       "basename": "Introduction to COA",
       "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
     },
     {
-      "basename": "Registers and Status Flags",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md"
+      "basename": "System Bus",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md"
+    },
+    {
+      "basename": "Main Memory and Addressability",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
+    },
+    {
+      "basename": "Memory Interfacing and Expansion",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
     },
     {
       "basename": "Standard and Canonical Forms of Boolean Expressions",
@@ -191,14 +199,6 @@
     {
       "basename": "Structured Query Language",
       "path": "GATE/DatabaseManagementSystem/SQL/Structured Query Language.md"
-    },
-    {
-      "basename": "Combinational Circuits vs Sequential Circuits",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md"
-    },
-    {
-      "basename": "Flip Flop",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Flip Flop.md"
     }
   ],
   "omittedPaths": [

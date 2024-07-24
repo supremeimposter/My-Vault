@@ -21,51 +21,12 @@
             }
           },
           {
-            "id": "ba3963e4b896cf3a",
+            "id": "fe71f2853498a406",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a6ec85c1e4e6369",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55796128e00f1b6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7add49cf60ba2d2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
+                "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -148,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
+                "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
+                "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
+                "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
               }
             }
           },
@@ -257,8 +218,17 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "ba3963e4b896cf3a",
+  "active": "8488c56ed1a27af9",
   "lastOpenFiles": [
+    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
+    "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
+    "Journal/24-07-2024.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
+    "attachments/Memory Interfacing and Expansion-20240724083852347.webp",
     "attachments/Memory Interfacing and Expansion-20240723221033382.webp",
     "attachments/Memory Interfacing and Expansion-20240723210919180.webp",
     "attachments/Memory Interfacing and Expansion-20240723210856619.webp",
@@ -266,16 +236,8 @@
     "attachments/Memory Interfacing and Expansion-20240723204404221.webp",
     "attachments/Memory Interfacing and Expansion-20240723191748528.webp",
     "attachments/Memory Interfacing and Expansion-20240723190958718.webp",
-    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
     "attachments/Memory Interfacing and Expansion-20240723190542041.webp",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md",
     "attachments/Pasted image 20240723175848.png",
-    "attachments/Pasted image 20240723175841.png",
-    "attachments/Pasted image 20240723175834.png",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
     "GATE/Digital-Logic/Digital Logic.md",
@@ -294,7 +256,6 @@
     "Journal/09-07-2024.md",
     "Journal/21-07-2024.md",
     "GATE/DatabaseManagementSystem/Database Management System.md",
-    "GATE/GATE-LOG.md",
     "Journal",
     "Philosophy and General Thoughts",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",

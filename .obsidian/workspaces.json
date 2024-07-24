@@ -529,45 +529,20 @@
                 }
               },
               {
-                "id": "ba3963e4b896cf3a",
+                "id": "fe71f2853498a406",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "9a6ec85c1e4e6369",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "7add49cf60ba2d2a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -642,7 +617,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -659,7 +634,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -683,7 +658,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md"
                   }
                 }
               },
@@ -751,8 +726,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "a979cb9d9bf15c0b",
-      "mtime": "2024-07-23T14:37:27+05:30"
+      "active": "fe71f2853498a406",
+      "mtime": "2024-07-24T08:52:19+05:30"
     },
     "DL": {
       "main": {

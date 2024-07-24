@@ -424,5 +424,7 @@
   "retronotes-settings@@retro-lm": "retro-lm-mint-leafs",
   "retronotes-settings@@retro-dm": "retro-dm-carbon-ink",
   "obsidian-chameleon-theme@@color-schemes-light": "color-scheme-tokyo-night-day",
-  "obsidian-chameleon-theme@@color-schemes-dark": "color-scheme-kanagawa-dragon"
+  "obsidian-chameleon-theme@@color-schemes-dark": "color-scheme-kanagawa-dragon",
+  "chiaroscuro-flow@@header-font": "iA Writer Duo S",
+  "chiaroscuro-flow@@body-font": "iA Writer Duo S"
 }
