@@ -5,7 +5,7 @@ lecture:
 date: 2024-03-19T12:17:00
 version:
   - COA-24
-last-revision: 2024-07-23T21:44:00
+last-revision: 2024-07-24T21:44:00
 notes-taken: true
 tags:
   - ComputerOrganizationAndArchitecture/Memory
@@ -98,6 +98,11 @@ There is no memory interleaving in horizontal memory expansion.
 Additional data lines are required since the capacity of a word has been increased.
 All the corresponding horizontal chips are activated at the same time. 
 
+Memory bank is the number of chips in the vertical level.
+$$
+\text{Number of chip in 1 memory bank} = \frac{\text{required word size}}{\text{available word size}}
+$$
+
 ## Vertical Memory Expansion
 
 In vertical memory expansion, the number of locations (addresses) are increased but not the capacity of a word.
@@ -161,7 +166,11 @@ The consecutive addresses are across memory chips.
 
 ## Horizontal and Vertical Memory Expansion
 
+![[Memory Interfacing and Expansion-20240724083852347.webp]]
+
 ![[Memory Interfacing and Expansion-20240721232515158.webp]]
+
+1 memory bank will have more than 1 chips in horizontal and vertical expansion.
 
 ---
 
