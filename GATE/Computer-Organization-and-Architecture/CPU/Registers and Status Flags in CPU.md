@@ -5,16 +5,19 @@ lecture: "1"
 date: 2024-03-20T10:55:00
 version:
   - COA-24
-last-revision: 
+last-revision: 2024-07-24T19:30:00
 notes-taken: false
 tags:
   - ComputerOrganizationAndArchitecture/CPU
+  - DigitalLogic/Registers
 ---
-# Registers in CPU
+# CPU
 
 ![[Registers and Status Flags-20240723143716653.webp]]
 
-- A [[Registers|register]] is a storage device inside the CPU.
+# Registers in CPU
+
+- A [[Registers|register]] is a storage device inside the CPU. Registers are the storage elements inside CPU.
 
 ```dot
 digraph G {
@@ -61,8 +64,15 @@ digraph G {
 **Flag Register**
 
 
+- Flag register is also called as,
+	1. Status Register
+	2. Program Status Register PSR
+	3. Program Status Word PSW
+	4. Status Word
+
 ---
-# Status Flags
+# Status Flags 
+
 - Status flags reflect the result of an instruction executed by the processor.
 - ALU simply performs the operation and updates the flag based on the result of the operation.
 
@@ -76,7 +86,7 @@ digraph G {
 - Carry flag is set to 1 when there is a carry from the adder.
 
 ## Auxiliary Carry Flag
-- Auxiliary carry flag is set to 1 if there is a carry from the first nibble.
+- Auxiliary carry flag is set to 1 if there is a carry from the first nibble (from the first 4 bits) regardless of the operand size.
 
 ## Parity Flag
 - Parity flag is set to 1 if the lowest byte has even number of 1s.

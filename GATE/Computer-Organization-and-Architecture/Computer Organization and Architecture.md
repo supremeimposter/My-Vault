@@ -16,7 +16,7 @@ tags:
 
 ## Module 2 - The CPU
 
-- [[Registers and Status Flags]]
+- [[Registers and Status Flags in CPU]]
 - [[Instruction Set Architecture]]
 - [[Instruction Format]]
 - [[Instruction Type]]
