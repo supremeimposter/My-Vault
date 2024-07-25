@@ -421,10 +421,10 @@
   "minimal-style@@sidebar-tabs-style": "sidebar-tabs-default",
   "minimal-style@@sidebar-tabs-names": "tab-names-off",
   "minimal-style@@col-alt": true,
-  "retronotes-settings@@retro-lm": "retro-lm-mint-leafs",
+  "retronotes-settings@@retro-lm": "retro-lm-vintage-papers",
   "retronotes-settings@@retro-dm": "retro-dm-carbon-ink",
-  "obsidian-chameleon-theme@@color-schemes-light": "color-scheme-tokyo-night-day",
-  "obsidian-chameleon-theme@@color-schemes-dark": "color-scheme-kanagawa-dragon",
+  "obsidian-chameleon-theme@@color-schemes-light": "color-scheme-gruvbox-medium",
+  "obsidian-chameleon-theme@@color-schemes-dark": "color-scheme-rose-pine-moon",
   "chiaroscuro-flow@@header-font": "iA Writer Duo S",
   "chiaroscuro-flow@@body-font": "iA Writer Duo S"
 }

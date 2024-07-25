@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Registers and Status Flags in CPU",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
+      "basename": "Instruction Format",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
+    },
+    {
+      "basename": "Main Memory and Addressability",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
     },
     {
       "basename": "Computer Organization and Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Registers and Status Flags in CPU",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
+    },
+    {
+      "basename": "Instruction Set Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
+    },
+    {
+      "basename": "Introduction to COA",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
     },
     {
       "basename": "Overflow of Signed and Unsigned Numbers",
@@ -17,16 +33,8 @@
       "path": "Journal/24-07-2024.md"
     },
     {
-      "basename": "Introduction to COA",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
-    },
-    {
       "basename": "System Bus",
       "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md"
-    },
-    {
-      "basename": "Main Memory and Addressability",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
     },
     {
       "basename": "Memory Interfacing and Expansion",
@@ -191,14 +199,6 @@
     {
       "basename": "Floating Point Representation",
       "path": "GATE/Computer-Organization-and-Architecture/Floating-Point-Representation/Floating Point Representation.md"
-    },
-    {
-      "basename": "Database-Management-System-Mindmap",
-      "path": "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas"
-    },
-    {
-      "basename": "Structured Query Language",
-      "path": "GATE/DatabaseManagementSystem/SQL/Structured Query Language.md"
     }
   ],
   "omittedPaths": [

@@ -529,12 +529,25 @@
                 }
               },
               {
+                "id": "f7d9f5f9e793c6d3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "fe71f2853498a406",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -617,7 +630,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -634,7 +647,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -658,7 +671,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags.md"
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
                   }
                 }
               },
@@ -726,8 +739,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "fe71f2853498a406",
-      "mtime": "2024-07-24T08:52:19+05:30"
+      "active": "f7d9f5f9e793c6d3",
+      "mtime": "2024-07-25T08:48:44+05:30"
     },
     "DL": {
       "main": {
