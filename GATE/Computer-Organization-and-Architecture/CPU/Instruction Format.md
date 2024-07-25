@@ -12,8 +12,8 @@ tags:
 ---
 # Notations on Instructions
 
-> [!info] 
-> The semantics of the instructions will be given in the GATE exam. There is no need to remember them.
+> [!tip] 
+> The semantics of the instructions will be given in the GATE exam. There is no need to remember the destination or source.
 
 ## Register Transfer Notation
 
@@ -21,7 +21,10 @@ tags:
 ## Assembly Language Notation
 
 
+
+---
 # Instruction Format
+
 - Every instruction is of binary format (0s and 1s), so there must be a format for the instructions.
 - Instruction Set is the complete collection of instructions that are completely understood by a CPU.
 - If there is not a circuit (hardware in the CPU) for performing the desired operation (say calculate factorial), then write a program (sequence of instructions) to perform the desired operation.
@@ -65,3 +68,5 @@ tags:
 > - Start with instructions which give smallest opcode and go with the increasing order of opcodes size.
 
 
+
+---

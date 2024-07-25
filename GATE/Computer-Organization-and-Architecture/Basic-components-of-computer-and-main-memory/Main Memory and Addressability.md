@@ -47,6 +47,7 @@ $$
 
 > [!NOTE] 
 > Memory is byte-addressable by default and it is the best design, since successive addresses represent successive bytes in the main memory.
+> When there is no information on whether the memory is word or byte-addressable, byte-addressable is considered, eventhough if there is an information on word length.
 
 ````col
 ```col-md

@@ -5,11 +5,12 @@ lecture: "1"
 date: 2024-03-20T10:55:00
 version:
   - COA-24
-last-revision: 2024-07-24T19:30:00
+last-revision: 2024-07-25T19:30:00
 notes-taken: false
 tags:
   - ComputerOrganizationAndArchitecture/CPU
   - DigitalLogic/Registers
+  - DigitalLogic/FlipFlop
 ---
 # CPU
 
@@ -76,6 +77,8 @@ digraph G {
 - Status flags reflect the result of an instruction executed by the processor.
 - ALU simply performs the operation and updates the flag based on the result of the operation.
 
+- Status register stores status bits which are also called as condition-code or flag bits.
+
 ## Zero Flag
 - Zero flag is set to 1 whenever the output of the ALU is 0.
 
@@ -92,4 +95,11 @@ digraph G {
 - Parity flag is set to 1 if the lowest byte has even number of 1s.
 
 ## Overflow Flag
-- Overflow flag is set to 1 if there is an [[Overflow of Signed and Unsigned Numbers|overflow]].
+- Overflow flag is set to 1 if there is an [[Overflow of Signed and Unsigned Numbers|overflow]] i.e. set to 1 if the exclusive-OR of the last two carries is equal to 1.
+
+
+# Instructions affecting Flags
+
+Once a flag is set, it remains the same until another instruction that affects the flags is executed.
+
+---
