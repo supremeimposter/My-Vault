@@ -1,24 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Instruction Format",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
+      "basename": "Instruction Type",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
     },
     {
-      "basename": "Main Memory and Addressability",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
+      "basename": "Instruction Execution Cycle",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
     },
     {
       "basename": "Computer Organization and Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
+      "basename": "Addressing Modes",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
+    },
+    {
       "basename": "Registers and Status Flags in CPU",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
     },
     {
+      "basename": "Instruction Format",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
+    },
+    {
       "basename": "Instruction Set Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
+    },
+    {
+      "basename": "26-07-2024",
+      "path": "Journal/26-07-2024.md"
+    },
+    {
+      "basename": "Main Memory and Addressability",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
     },
     {
       "basename": "Introduction to COA",
@@ -183,22 +199,6 @@
     {
       "basename": "Guidelines to GATE-CS",
       "path": "GATE/Guidelines to GATE-CS.md"
-    },
-    {
-      "basename": "Links for Resources",
-      "path": "GATE/GATE-materials/Links for Resources.md"
-    },
-    {
-      "basename": "Linear Algebra",
-      "path": "GATE/Linear-Algebra/Linear Algebra.md"
-    },
-    {
-      "basename": "LU Decomposition",
-      "path": "GATE/Linear-Algebra/LU Decomposition.md"
-    },
-    {
-      "basename": "Floating Point Representation",
-      "path": "GATE/Computer-Organization-and-Architecture/Floating-Point-Representation/Floating Point Representation.md"
     }
   ],
   "omittedPaths": [
