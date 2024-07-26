@@ -12,6 +12,7 @@ tags:
   - ComputerOrganizationAndArchitecture/Instruction
 ---
 # Addressing Modes
+
 - Addressing Modes are all the different ways by which the location of the operands is specified in the instruction.
 - Effective address is the address of the operand.
 

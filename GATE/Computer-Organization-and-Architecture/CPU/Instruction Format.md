@@ -9,6 +9,7 @@ last-revision:
 notes-taken: false
 tags:
   - ComputerOrganizationAndArchitecture/Instruction
+  - ComputerOrganizationAndArchitecture/ISA
 ---
 # Notations on Instructions
 
@@ -39,8 +40,10 @@ tags:
 > In a CPU, there cannot be two different instruction formats for the same operation.
 >> [!example] 
 >> There cannot be different address instructions for the `ADD` instruction.
+>> 
 >> `ADD;`
 >> `ADD R1, R2, R3;`
+>> 
 >> These kind of address instructions are not possible in a single CPU for the same operation.
 >
 > In a CPU, different instruction or different operation can have different number of operands.
@@ -55,18 +58,76 @@ tags:
 
 ## Instruction Length
 
+- The traditional method for describing a computer architecture is to specify the maximum number of operands, or addresses, contained in each instruction, which impacts the length of the instruction.
 - A CPU can have either fixed length instructions or variable length instructions.
+- All the instructions do not have the same length in the ISA in variables length instructions.
 
-- Decoding is easy in fixed length instructions though there is a wastage of space.
-- There is some wastage of space in variables length instructions because of alignment though it is lesser than that of fixed length instructions.
+| Variable Length Instructions                                                                                    | Fixed Length Instructions                                                                                         |
+| --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Decoding is not easy                                                                                            | Decoding is easy                                                                                                  |
+| Pipelining is complicated                                                                                       | Pipelining is easy                                                                                                |
+| Used in CISC                                                                                                    | Used in RISC                                                                                                      |
+| Different instructions can be represented using different number of bytes                                       | Different instructions can be represented using same number of bytes                                              |
+| Wastage of space is main memory because of alignment though it is lesser than that of fixed length instructions | More wastage of space since there are operations with 0 operands and take up the same space as other instructions |
+| ![[Instruction Format-20240726073236010.webp]]                                                                  | ![[Instruction Format-20240726073250040.webp]]                                                                              |
+
+- There is no constraint on how many bytes are used in encoding the instructions in variable-length instructions.
+- There will be some unused bits in fixed length instructions.
+- Fixed length instructions is fast and has better performance than variable length instructions.
+- If a instruction set has $n$ instructions, then it means there are $n$ operations i.e. $n$ opcodes.
+
+- Not every instruction require the same number of operands. Instructions such as `HALT` waste a lot of space in fixed-length instructions.
 - If fixed length instructions do not waste space within the instructions, then we can make the instruction set bigger.
-- If a instruction set has $n$ instructions, then it means there are $n$ operations which means there are $n$ different opcodes.
 
-## Expanding OpCode Technique
+### Expanding OpCode Technique
 
-> [!steps] 
-> - Start with instructions which give smallest opcode and go with the increasing order of opcodes size.
+- For fixed length instructions to maximize various types of instruction formats without wasting much space and not make the decoding complex, **expanding OpCode technique** is used.
+- When the opcodes are short, a lot of bits are left to hold operands, so we could have 2 or 3 operands per instruction.
+- If an instruction has no operand, then all of the bits can be used for opcodes, so many unique instructions are available.
+- There are also instructions with longer opcodes and fewer operands and instructions with shorter opcodes and more operands.
+
+> [!tip] 
+> Start with instructions which give smallest opcode and go with the increasing order of OpCode size. Instructions with the most operands has smallest opcodes and 0 address instructions has the largest opcodes.
+
+> [!example] 
+
+The given instruction set has to checked if it can be accommodated in the given number of bits for instruction.
+
+![[Instruction Format-20240726120713306.webp]]
+
+The encoding of each instructions are,
+
+![[Instruction Format-20240726120732896.webp]]
+
+> [!example] 
+
+![[Instruction Format-20240726115546726.webp]]
+
+The encodings of the instructions are,
+
+![[Instruction Format-20240726121359785.webp]]
 
 
+> [!example] 
+
+![[Instruction Format-20240726210116387.webp]]
+
+Checking whether the given bits can accommodate the instruction set.
+
+![[Instruction Format-20240726210012645.webp]]
+
+The encodings of the instructions are,
+
+![[Instruction Format-20240726210938427.webp]]
+
+4 more 0-address instructions can be added to the instruction set in the future.
+
+
+> [!example] 
+> ![[Instruction Format-20240726231438263.webp]]
+
+![[Instruction Format-20240726231518276.webp]]
+
+![[Instruction Format-20240726231624386.webp]]
 
 ---

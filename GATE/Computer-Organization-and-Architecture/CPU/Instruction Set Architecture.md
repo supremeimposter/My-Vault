@@ -88,6 +88,9 @@ Main memory access takes many clock cycles, which is the most expensive operatio
 ---
 ## RISC and CISC Architecture
 
+> [!youtube] 
+> [RISC Vs CISC - Instruction Set Architecture ISA | With NOTES | Computer Organization & Architecture - YouTube](https://www.youtube.com/watch?v=DZ-tGKk3TNE&list=PLIPZ2_p3RNHjMdZR3GYQ2KZio0NKczrik&index=8)
+
 | CISC Architecture                                    | RISC Architecture                                                           |
 | ---------------------------------------------------- | --------------------------------------------------------------------------- |
 | In olden times, memory is expensive                  | Now in modern era, memory is cheap                                          |

@@ -10,6 +10,7 @@ notes-taken: false
 tags:
   - ComputerOrganizationAndArchitecture/CPU
   - ComputerOrganizationAndArchitecture/Instruction
+  - ComputerOrganizationAndArchitecture/ISA
 ---
 # Instruction Execution Cycle
 - A program is a sequence of instructions.

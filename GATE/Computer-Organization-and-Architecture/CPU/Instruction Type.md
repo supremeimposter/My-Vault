@@ -9,6 +9,7 @@ last-revision:
 notes-taken: false
 tags:
   - ComputerOrganizationAndArchitecture/Instruction
+  - ComputerOrganizationAndArchitecture/ISA
 ---
 # Instruction Type
 
