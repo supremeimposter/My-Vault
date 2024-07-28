@@ -15,7 +15,7 @@ tags:
 > [Lecture 5A - Overflow Definition, Detection in Signed Magnitude Representation | Digital Logic - YouTube](https://www.youtube.com/watch?v=GJvjGaiKbcA)
 
 - Occurrence of Overflow depends on the representation of the numbers (unsigned and signed) and the operation (addition, subtraction, ...) that is performed on those numbers.
-- Overflow indicates that the result was too large or too small to fit into the original data type.
+- Overflow indicates that the result was too large or too small to fit into the original data type or the correct result cannot be stored in the number of bits available.
 - If $a$ and $b$ are some numbers in $n$ bits, then overflow is when the correct representation of the output of the operation $a \# b$ cannot be represented in $n$ bits.
 - Inputs must be within the range. 
 

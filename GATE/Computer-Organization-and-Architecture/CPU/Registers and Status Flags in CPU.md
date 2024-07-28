@@ -102,4 +102,8 @@ digraph G {
 
 Once a flag is set, it remains the same until another instruction that affects the flags is executed.
 
+Data transfer instructions do not affect any flags.
+
+![[Registers and Status Flags in CPU-20240727110032070.webp]]
+
 ---

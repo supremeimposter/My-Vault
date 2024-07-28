@@ -16,6 +16,8 @@ tags:
 > [!tip] 
 > The semantics of the instructions will be given in the GATE exam. There is no need to remember the destination or source.
 
+Addresses are represented using Hexadecimal numbers. Hexadecimal numbers are represented by adding a `x` to the end of the number. For example, EAx, ACx, 73x, 04x, etc...
+
 ## Register Transfer Notation
 
 
