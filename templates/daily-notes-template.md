@@ -2,11 +2,13 @@
 tags:
   - Journal/dailynotes
 ---
+Today's target is 4 session of 4 pomos
 
+1 session = 4 pomo = 1hr 40 minutes
+4 sessions = 16 pomos = 6 hours 40 minutes
 
+*today's journal goes here*
 
-
-Target = 16 pomos = 4 sessions
 - [ ] pomo 1
 - [ ] pomo 2
 - [ ] pomo 3
