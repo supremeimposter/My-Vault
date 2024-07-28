@@ -1,8 +1,8 @@
 May = LA
 Jun = DL
-Jul = DBMS-until-relational-calculus, Set theory, COA
-Aug = DBMS, Calculus, OS, C, Propositional, first Order logic
-Sep = CN, TOC, Pending DM
+Jul = DBMS, COA
+Aug = DBMS, Calculus, OS, C, Set theory, Propositional logic
+Sep = CN, TOC, First Order Logic
 Oct = DS, Algo, Combinatronics, Graph theory, CD
 Nov = Probability, Graph Theory
 Nov-mid = revision, practice
