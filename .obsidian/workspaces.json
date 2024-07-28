@@ -592,22 +592,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "5b51ec1666b50d6f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Journal/28-07-2024.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
               }
             ],
-            "currentTab": 6
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -682,7 +669,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Journal/28-07-2024.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -699,7 +686,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Journal/28-07-2024.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -723,7 +710,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Journal/28-07-2024.md"
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
                   }
                 }
               },
@@ -791,8 +778,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "5b51ec1666b50d6f",
-      "mtime": "2024-07-28T12:24:46+05:30"
+      "active": "fe71f2853498a406",
+      "mtime": "2024-07-28T23:22:23+05:30"
     },
     "DL": {
       "main": {
