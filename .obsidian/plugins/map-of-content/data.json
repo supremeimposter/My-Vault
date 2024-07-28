@@ -3,9 +3,11 @@
   "exluded_folders": [
     "attachments/",
     "templates/",
-    "daily-agenda/"
+    "Journal/"
   ],
-  "exluded_filename_components": [],
+  "exluded_filename_components": [
+    "README.md"
+  ],
   "settings_version": "1.4.0",
   "do_show_update_notice": false,
   "auto_update_on_file_change": true,

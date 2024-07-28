@@ -592,9 +592,22 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "5b51ec1666b50d6f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Journal/28-07-2024.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -669,7 +682,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
+                    "file": "Journal/28-07-2024.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -686,7 +699,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
+                    "file": "Journal/28-07-2024.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -710,7 +723,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
+                    "file": "Journal/28-07-2024.md"
                   }
                 }
               },
@@ -778,8 +791,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "f40e337b00878277",
-      "mtime": "2024-07-26T23:24:05+05:30"
+      "active": "5b51ec1666b50d6f",
+      "mtime": "2024-07-28T12:24:46+05:30"
     },
     "DL": {
       "main": {

@@ -84,9 +84,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5b51ec1666b50d6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/28-07-2024.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -161,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
+                "file": "Journal/28-07-2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
+                "file": "Journal/28-07-2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
+                "file": "Journal/28-07-2024.md"
               }
             }
           },
@@ -270,29 +283,34 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "999705db2c0bc694",
+  "active": "5b51ec1666b50d6f",
   "lastOpenFiles": [
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
+    "templates/daily-notes-template.md",
+    "Journal/28-07-2024.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
-    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
+    "attachments/Instruction Type-20240728121832064.webp",
+    "attachments/Instruction Type-20240728121329970.webp",
+    "attachments/Instruction Type-20240728120334404.webp",
+    "attachments/Instruction Type-20240728114210999.webp",
+    "attachments/Instruction Type-20240728112808143.webp",
+    "attachments/Instruction Type-20240728112642462.webp",
+    "attachments/Pasted image 20240728112233.png",
+    "attachments/Instruction Type-20240728112224128.webp",
     "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
+    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
+    "attachments/Instruction Type-20240728104918316.webp",
+    "attachments/Instruction Type-20240728104144451.webp",
+    "GATE/Temporary Plan.md",
+    "GATE/GATE-CS.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Untitled.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
-    "attachments/Instruction Format-20240726231624386.webp",
-    "attachments/Instruction Format-20240726231518276.webp",
-    "attachments/Instruction Format-20240726231438263.webp",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
     "Journal/26-07-2024.md",
-    "attachments/Instruction Format-20240726210938427.webp",
-    "attachments/Instruction Format-20240726210116387.webp",
-    "attachments/Instruction Format-20240726210012645.webp",
-    "attachments/Instruction Format-20240726205943028.webp",
-    "attachments/Instruction Format-20240726205928624.webp",
-    "attachments/Instruction Format-20240726121359785.webp",
-    "attachments/Instruction Format-20240726120732896.webp",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
-    "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
     "Journal/24-07-2024.md",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
@@ -303,11 +321,6 @@
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
     "GATE/DiscreteMathematics/Set-Theory/Set Definition.md",
-    "GATE/DiscreteMathematics/Set-Theory/Set Operations.md",
-    "GATE/DiscreteMathematics/Set-Theory/Set Identities.md",
-    "GATE/DiscreteMathematics/Discrete Mathematics.md",
-    "GATE/DiscreteMathematics/Set-Theory/Mathematical Structures.md",
-    "GATE/DiscreteMathematics/Set-Theory/Proofs involving Sets.md",
     "Journal",
     "Philosophy and General Thoughts",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",

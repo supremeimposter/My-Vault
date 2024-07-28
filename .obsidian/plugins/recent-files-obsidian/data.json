@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "28-07-2024",
+      "path": "Journal/28-07-2024.md"
+    },
+    {
+      "basename": "daily-notes-template",
+      "path": "templates/daily-notes-template.md"
+    },
+    {
       "basename": "Instruction Type",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
     },
     {
-      "basename": "Instruction Execution Cycle",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
+      "basename": "Registers and Status Flags in CPU",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
     },
     {
       "basename": "Computer Organization and Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
-      "basename": "Addressing Modes",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
+      "basename": "Overflow of Signed and Unsigned Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
     },
     {
-      "basename": "Registers and Status Flags in CPU",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
+      "basename": "Temporary Plan",
+      "path": "GATE/Temporary Plan.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE/GATE-CS.md"
     },
     {
       "basename": "Instruction Format",
@@ -27,6 +39,14 @@
     {
       "basename": "Instruction Set Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
+    },
+    {
+      "basename": "Instruction Execution Cycle",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
+    },
+    {
+      "basename": "Addressing Modes",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
     },
     {
       "basename": "26-07-2024",
@@ -39,10 +59,6 @@
     {
       "basename": "Introduction to COA",
       "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
-    },
-    {
-      "basename": "Overflow of Signed and Unsigned Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
     },
     {
       "basename": "24-07-2024",
@@ -113,10 +129,6 @@
       "path": "Journal/22-07-2024.md"
     },
     {
-      "basename": "daily-notes-template",
-      "path": "templates/daily-notes-template.md"
-    },
-    {
       "basename": "09-07-2024",
       "path": "Journal/09-07-2024.md"
     },
@@ -131,10 +143,6 @@
     {
       "basename": "GATE-LOG",
       "path": "GATE/GATE-LOG.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "GATE/Temporary Plan.md"
     },
     {
       "basename": "Vault Index",
@@ -191,14 +199,6 @@
     {
       "basename": "Standard Integrity Constraints in Relational Model",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md"
-    },
-    {
-      "basename": "Life Lessons by Deepak Poonia",
-      "path": "Philosophy and General Thoughts/Life Lessons by Deepak Poonia.md"
-    },
-    {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
     }
   ],
   "omittedPaths": [
