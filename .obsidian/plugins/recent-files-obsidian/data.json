@@ -1,12 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Registers and Status Flags in CPU",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
+    },
+    {
+      "basename": "30-07-2024",
+      "path": "Journal/30-07-2024.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Memory Interfacing and Expansion",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
+    },
+    {
+      "basename": "Main Memory and Addressability",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
+    },
+    {
+      "basename": "System Bus",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md"
+    },
+    {
+      "basename": "Instruction Format",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
+    },
+    {
       "basename": "Instruction Type",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
     },
     {
-      "basename": "Registers and Status Flags in CPU",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
+      "basename": "Instruction Execution Cycle",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
+    },
+    {
+      "basename": "Introduction to COA",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
+    },
+    {
+      "basename": "Addressing Modes",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
+    },
+    {
+      "basename": "29-07-2024",
+      "path": "Journal/29-07-2024.md"
     },
     {
       "basename": "28-07-2024",
@@ -15,18 +55,6 @@
     {
       "basename": "daily-notes-template",
       "path": "templates/daily-notes-template.md"
-    },
-    {
-      "basename": "Instruction Execution Cycle",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
-    },
-    {
-      "basename": "Instruction Format",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
       "basename": "Overflow of Signed and Unsigned Numbers",
@@ -45,32 +73,12 @@
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
     },
     {
-      "basename": "Addressing Modes",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
-    },
-    {
       "basename": "26-07-2024",
       "path": "Journal/26-07-2024.md"
     },
     {
-      "basename": "Main Memory and Addressability",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
-    },
-    {
-      "basename": "Introduction to COA",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
-    },
-    {
       "basename": "24-07-2024",
       "path": "Journal/24-07-2024.md"
-    },
-    {
-      "basename": "System Bus",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md"
-    },
-    {
-      "basename": "Memory Interfacing and Expansion",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
     },
     {
       "basename": "Standard and Canonical Forms of Boolean Expressions",
@@ -191,14 +199,6 @@
     {
       "basename": "Boolean Algebra",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
-    },
-    {
-      "basename": "Introduction to Digital Logic",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
-    },
-    {
-      "basename": "Standard Integrity Constraints in Relational Model",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md"
     }
   ],
   "omittedPaths": [

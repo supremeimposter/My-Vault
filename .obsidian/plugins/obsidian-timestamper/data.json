@@ -1,5 +1,5 @@
 {
-  "timeStampFormat": "hh:mm:ss",
+  "timeStampFormat": "hh:mm A",
   "dateStampFormat": "MMMM D, YYYY",
   "lastFormat": "MMMM Q, YYYY",
   "newLine": false

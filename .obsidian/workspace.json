@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
+                "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
+                "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
+                "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
               }
             }
           },
@@ -270,43 +270,43 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "999705db2c0bc694",
+  "active": "fe71f2853498a406",
   "lastOpenFiles": [
+    "Journal/30-07-2024.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
-    "Journal/28-07-2024.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
-    "templates/daily-notes-template.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
+    "attachments/Registers and Status Flags in CPU-20240730234721052.webp",
+    "attachments/Registers and Status Flags in CPU-20240730233928072.webp",
+    "attachments/Registers and Status Flags in CPU-20240730233917668.webp",
     "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
+    "attachments/Registers and Status Flags in CPU-20240730231343112.webp",
+    "attachments/Registers and Status Flags in CPU-20240730231325692.webp",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
+    "attachments/Instruction Execution Cycle-20240730163344930.webp",
+    "attachments/Instruction Execution Cycle-20240730163339011.webp",
+    "attachments/Instruction Execution Cycle-20240730163137946.webp",
+    "attachments/Registers and Status Flags in CPU-20240730125731040.webp",
+    "Journal/29-07-2024.md",
+    "Journal/28-07-2024.md",
+    "templates/daily-notes-template.md",
     "attachments/Instruction Type-20240728155433152.webp",
-    "attachments/Instruction Type-20240728155251089.webp",
-    "attachments/Instruction Type-20240728155236968.webp",
-    "attachments/Instruction Type-20240728155133038.webp",
-    "attachments/Instruction Type-20240728154603189.webp",
-    "attachments/Instruction Type-20240728121832064.webp",
-    "attachments/Instruction Type-20240728121329970.webp",
-    "attachments/Instruction Type-20240728120334404.webp",
-    "attachments/Instruction Type-20240728114210999.webp",
-    "attachments/Instruction Type-20240728112808143.webp",
     "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
     "GATE/Temporary Plan.md",
     "GATE/GATE-CS.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Untitled.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
     "Journal/26-07-2024.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
     "Journal/24-07-2024.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
     "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
     "Journal",
     "Philosophy and General Thoughts",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
