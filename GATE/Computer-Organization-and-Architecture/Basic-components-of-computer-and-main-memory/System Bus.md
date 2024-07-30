@@ -51,8 +51,9 @@ Partly Bi-directional
 
 - Control lines carry the control signals that manage the transfer of data to/from CPU. They also specify the timing and direction of the data transfer. 
 - Control signals travel from CPU to other components and memory or I/O devices can send interrupt signals to CPU.
-- Processor also control this group of control lines.
+- Processor also controls this group of control lines.
 
 ![[Main Memory and System Bus-20240721131357133.webp]]
+
 
 ---

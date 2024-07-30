@@ -5,7 +5,7 @@ lecture: "4"
 date: 2024-03-23T13:35:00
 version:
   - COA-24
-last-revision: 
+last-revision: 2024-07-30T12:40:00
 notes-taken: false
 tags:
   - ComputerOrganizationAndArchitecture/Instruction
@@ -24,6 +24,8 @@ C --> G[Shift Instructions]
 G --> H[Logical Shift\nInstructions]
 G --> I[Arithmetic Shift\nInstructions]
 ```
+
+> An assembler language is designed around a particular CPU, and there is no standard set of mnemonics. However, once you understand the purpose of the instructions, it is trivial to convert between languages.
 
 ## Data Transfer Instructions
 
@@ -129,7 +131,7 @@ There are two types of rotate operations,
 
 > [!header] Carry flag affected by shift and rotate instruction
 
-Carry flag contains the last bit shifted out from logical and arithmetic shift.
+Carry flag contains the bit that is shifted out from logical and arithmetic shift.
 
 ![[Instruction Type-20240728155133038.webp]]
 

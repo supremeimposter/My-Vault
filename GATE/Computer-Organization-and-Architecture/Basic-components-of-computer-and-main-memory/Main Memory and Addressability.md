@@ -39,8 +39,8 @@ $$
 | data is stored byte by byte             | data is stored word by word             |
 
 > [!important] 
-> - Size of Address (in bits) = Number of Address Lines = Size of MAR register
-> - Word length = Number of data lines = Size of MBR register
+> - Size of Address (in bits) = Number of Address Lines = Size of MAR register = width of address bus
+> - Word length = Number of data lines = Size of MBR register = width of Data bus
 
 - Address of a multi-byte object in main memory is the lowest address of all bytes it contains.
 - CPU does not care whether the memory is byte or word-addressable. If a CPU is a 32-bit processor (word length is 32 bits), then it processes 32 bits in one go.

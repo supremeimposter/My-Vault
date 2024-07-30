@@ -84,6 +84,7 @@ Addresses are represented using Hexadecimal numbers. Hexadecimal numbers are rep
 ### Expanding OpCode Technique
 
 - For fixed length instructions to maximize various types of instruction formats without wasting much space and not make the decoding complex, **expanding OpCode technique** is used.
+- opcode decoder is present inside the control unit of the processor.
 - When the opcodes are short, a lot of bits are left to hold operands, so we could have 2 or 3 operands per instruction.
 - If an instruction has no operand, then all of the bits can be used for opcodes, so many unique instructions are available.
 - There are also instructions with longer opcodes and fewer operands and instructions with shorter opcodes and more operands.

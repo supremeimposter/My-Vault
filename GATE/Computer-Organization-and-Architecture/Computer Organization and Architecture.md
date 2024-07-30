@@ -69,4 +69,6 @@ tags:
 > Oxford
 > [D W Murray](https://www.robots.ox.ac.uk/~dwm/Courses/2CO_2014/)
 
+MARIE Online CPU simulator - [MARIE.js | Home](https://marie.js.org/)
+
 ---
