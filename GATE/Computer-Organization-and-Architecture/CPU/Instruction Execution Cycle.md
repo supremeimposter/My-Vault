@@ -49,6 +49,8 @@ The [Instruction cycle](http://cs.iit.edu/~cs561/cs350/fetch/fetch.html) consist
 - Control Unit contains the control memory which contains the microprograms.
 - **Microprograms** are those programs which contain only those operations related to the CPU.
 
+![[Instruction Execution Cycle-20240731142859974.webp]]
+
 ### Fetch Instruction
 
 - Initially, the program counter is loaded with the address of the first instruction in the program.

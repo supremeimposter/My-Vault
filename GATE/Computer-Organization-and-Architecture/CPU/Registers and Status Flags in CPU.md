@@ -5,8 +5,8 @@ lecture: "1"
 date: 2024-03-20T10:55:00
 version:
   - COA-24
-last-revision: 2024-07-25T19:30:00
-notes-taken: false
+last-revision: 2024-07-31T19:30:00
+notes-taken: true
 tags:
   - ComputerOrganizationAndArchitecture/CPU
   - DigitalLogic/Registers
@@ -119,13 +119,13 @@ Stack Pointer SP is connected to the internal address bus and holds the *address
 ### Accumulator AC
 
 Accumulator AC register is associated to ALU. AC is connected to memory via MBR. 
-AC stores the data that is being worked on by ALU i.e. the result of computation of ALU, or one of the operands of the ALU.
+AC stores the data that is being worked on by ALU i.e. the result of computation of ALU, and sometimes one of the operands of the ALU.
 
 ### Flag Register
 
 Flag register is also associated to ALU. Status register sets flags to the result computed by ALU for the control unit. 
 
-ALU does not anything about the data (signed, unsigned, positive, negative, binary or BCD) it is operating, it simply performs the operations as per the instruction and updates the [[#Status Flags|flags]]. It is upto the control unit CU to interpret the results of ALU with the help of flag register.
+ALU does not anything about the data *(signed, unsigned, positive, negative, binary or BCD)* it is operating, it simply performs the operations as per the instruction and updates the [[#Status Flags|flags]]. It is upto the control unit CU to interpret the results of ALU with the help of flag register.
 
 Flag register is also called as,
 1. Status Register SR
@@ -141,32 +141,67 @@ Six Status flags monitor the result of ALU.
 Status flags reflect the result of an instruction executed by the processor. Status register stores *status bits* which are also called as condition-code or flag bits.
 
 ## Zero Flag
-Zero flag is set to 1 whenever the output of the ALU is 0 or else reset to 0.
-It is represented as ZF or Z.
 
-## Negative Flag (Sign Flag)
-Sign flag is set to 1 if the MS bit of the result is 1.
-It is represented as NF or SF.
+Zero flag is set to 1 whenever the output of the ALU is 0 or else reset to 0. It is represented as ZF or Z.
+
+## Sign Flag
+
+Sign flag is set to 1 if the MS bit of the result is 1 or else cleared to 0. It is used to identify if a number is negative in signed interpretation. It is represented as SF or N. It is also called as Negative Flag.
 
 ## Carry Flag
-- Carry flag is set to 1 when there is a carry from the adder.
+
+Carry flag is set to 1 when the end carry is 1 or reset to 0 if there is no end carry from the most significant bits. It is represented as C or CF.
 
 ## Auxiliary Carry Flag
-- Auxiliary carry flag is set to 1 if there is a carry from the first nibble (from the first 4 bits) regardless of the operand size.
+
+Auxiliary carry flag is set to 1 if there is a carry from the first nibble (least significant 4 bits) in the least significant byte regardless of the operand size or else cleared to 0. It is represented as AF.
+
+> [!example] 
+> ![[Registers and Status Flags in CPU-20240731083952259.webp]]
+> 
+> Auxiliary Carry Flag AF is set.
 
 ## Parity Flag
-- Parity flag is set to 1 if the lowest byte has even number of 1s.
+
+Parity flag is set to 1 if the lowest byte (least significant 8 bits) of the result has even number of 1s or else cleared to 0. It is represented as PF.
+
+> [!example] 
+> ![[Registers and Status Flags in CPU-20240731084533846.webp]]
+> 
+> Parity flag PF is set
 
 ## Overflow Flag
-- Overflow flag is set to 1 if there is an [[Overflow of Signed and Unsigned Numbers|overflow]] i.e. set to 1 if the exclusive-OR of the last two carries is equal to 1.
 
+Overflow flag is set to 1 if there is an [[Overflow of Signed and Unsigned Numbers|overflow]] i.e. set to 1 if the exclusive-OR of the last two carries is equal to 1 or else cleared to 0. It allows the control unit to detect overflow during [[Overflow of Signed and Unsigned Numbers#2's Complement Representation|2's complement addition]]. It is represented as V or OF.
+
+V is set to 1 if $A_{\text{msb}} = 1, B_{\text{msb}} = 1, O_{\text{msb}} = 0$ or $A_{\text{msb}} = 0, B_{\text{msb}} = 0, O_{\text{msb}} = 1$.
+
+> [!example] 
+
+![[Registers and Status Flags in CPU-20240731085233089.webp]]
+
+![[Registers and Status Flags in CPU-20240731085501490.webp]]
 
 # Instructions affecting Flags
 
-Once a flag is set, it remains the same until another instruction that affects the flags is executed.
+Once a flag is set or reset, it remains the same until another instruction that affects the flags is executed.
 
-Data transfer instructions do not affect any flags.
+Data transfer instructions do not affect any flags. Since they are not aritmetic operations, they are just logistical operations that transfer data.
 
 ![[Registers and Status Flags in CPU-20240727110032070.webp]]
+
+> [!example] 
+> ![[Registers and Status Flags in CPU-20240731085950573.webp]]
+
+Zero flag is set in the following examples,
+
+![[Registers and Status Flags in CPU-20240731090329671.webp]]
+
+Carry flag is not set in the following examples,
+
+![[Registers and Status Flags in CPU-20240731090304526.webp]]
+
+
+
 
 ---

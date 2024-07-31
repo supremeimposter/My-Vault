@@ -13,6 +13,8 @@ tags:
 ---
 # Instruction Type
 
+Most computer instructions can be classified into 3 categories.
+
 ```merm
 graph TD
 A[Instruction Type] --> B[Data Transfer Instructions]
@@ -25,25 +27,54 @@ G --> H[Logical Shift\nInstructions]
 G --> I[Arithmetic Shift\nInstructions]
 ```
 
-> An assembler language is designed around a particular CPU, and there is no standard set of mnemonics. However, once you understand the purpose of the instructions, it is trivial to convert between languages.
+> An assembler language is designed around a particular CPU, and there is no standard set of mneumonics. However, once you understand the purpose of the instructions, it is trivial to convert between languages.
 
 ## Data Transfer Instructions
 
-LOAD         : from memory to register
-STORE        : from register to memory
-PUSH         : from memory to top of stack
-POP          : from top of stack to memory
-MOVE or MOV : from source to destination
+Data transfer instructions transfer data from one location to another location. They do not affect any of the [[Registers and Status Flags in CPU#Status Flags|flags]], since no computation by ALU is performed by Data transfer instructions.
 
+Depending on the type of [[Instruction Set Architecture|ISA]], the functioning of the data transfer instructions may vary.
+
+
+![[Instruction Type-20240731225421486.webp]]
+
+![[Instruction Type-20240731224953730.webp]]
+![[Instruction Type-20240731224757663.webp]]
+
+> [!NOTE] 
+> Most of the authors write destination first, but the semantics will be given in the exam.
 
 ## Data Manipulation Instructions
 
 Data manipulation instructions perform operations on data and provide the computational capabilities of the computer.
 
+There are 3 types of data manipulation instructions,
+
+```merm
+flowchart TD
+A[Data Manipulation \nInstructions] --> B[Arithmetic Instructions]
+A --> C[Logical and Bit \nManipulation Instructions]
+A --> D[Shift Instructions]
+```
+
+![[Instruction Type-20240731225441578.webp]]
+
 ### Arithmetic Instructions
 
+![[Instruction Type-20240731225633914.webp]]
 
-For subtraction instruction, carry flag acts as a borrow flag i.e. carry flag is set if we need to borrow e.g. $x - y$ if $x \lt y$.
+Since arithmetic instructions are performed by ALU, it affects status flags.
+
+For subtraction operation, [[Registers and Status Flags in CPU#Carry Flag|carry flag]] acts as a borrow flag i.e. carry flag is set if we need to borrow e.g. $x - y$ if $x \lt y$.
+
+Divide operation computes the quotient.
+
+INC, DEC operations do not affect the carry flag since in INC operation when reaching the maximum value, it automatically circles back to the lowest value.
+
+![[Instruction Type-20240731230107312.webp]]
+![[Instruction Type-20240731230120147.webp]]
+
+Depending on the ISA, arithmetic instructions may internally involve data transfer operations.
 
 ### Logical Instructions
 
@@ -161,7 +192,5 @@ A branch can be either *forward* (jumps to an instruction at an higher memory ad
 
 > [!NOTE] 
 > The semantics of the mnemonics in branch instructions will always be given in the question.
-
-
 
 ---
