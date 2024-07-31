@@ -3,12 +3,18 @@
   "titleSeparator": " • ",
   "showPerformanceNotification": false,
   "removeLinksFromHeadingsInternalWikilinkWithoutTextReplacement": "Destination",
+  "deleteUnreferencedLinkTarget": true,
   "removeLinksFromHeadingsInternalWikilinkWithoutTextAction": "ReplaceWithDestination",
+  "onConvertToMdlinkAppendMdExtension": false,
+  "autoselectWordOnCreateLink": false,
   "ffReplaceLink": false,
   "ffExtractSection": false,
-  "ffSetLinkTextFromClipboard": false,
   "ffWrapNoteInFolder": false,
-  "ffCopyLinkToClipboard": false,
+  "ffConvertLinksInFolder": false,
+  "ffConvertLinkToHtmllink": false,
+  "ffObsidianUrlSupport": false,
+  "ffAutoselectWordOnCreateLink": false,
+  "ffHighlightBrokenLinks": false,
   "contexMenu": {
     "editLinkText": true,
     "setLinkText": true,
@@ -31,6 +37,8 @@
     "convertHtmllinksToMdlinks": false,
     "extractSection": false,
     "wrapNoteInFolder": false,
-    "copyLinkToClipboard": false
-  }
+    "copyLinkToClipboard": true
+  },
+  "ffSetLinkTextFromClipboard": false,
+  "ffCopyLinkToClipboard": false
 }
