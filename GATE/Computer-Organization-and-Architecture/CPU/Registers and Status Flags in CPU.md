@@ -22,9 +22,11 @@ The CPU contains,
 - connections to [[Main Memory and Addressability|memory]] through uni-directional address lines and bi-directional data lines,
 - an internal bus within the processor which connects different components such as ALU, CU, GPRs, IR, MAR, MBR and other registers.
 
-![[Registers and Status Flags in CPU-20240730125731040.webp]]
+![[Registers and Status Flags in CPU-20240801224222620.webp]]
 
 The registers, ALU and the interconnecting bus are collectively referred to as the **datapath**.
+
+Control Unit decodes the opcode of the instruction and generates the control signals.
 
 Arithmetic unit performs operations such as addition, subtraction, increment, decrement, negation.
 Logic unit performs operations such as AND, OR, NOT, XOR, numberical checks.
@@ -99,10 +101,7 @@ Memory Buffer Register MBR or Memory Data Register MDR stores the information th
 - Program Counter PC is a register and also a [[Counters|counter]] in the CPU connected to the internal address bus of the CPU, that stores the address of the next instruction to be fetched for [[Instruction Execution Cycle|execution]].
 - PC is also called as Instruction Address Register or Instruction Pointer Register.
 - PC is connected to the main memory via MAR.
-- PC does not depend on ALU's to increment to the next address. Program Counter increments by the size of an instruction $I$ regardless of the addressing of the memory.
-$$
-\text{PC} \leftarrow PC + I 
-$$
+- PC does not depend on ALU's to increment to the next address. 
 
 ### Instruction Register IR
 

@@ -109,7 +109,9 @@ In accumulator-based ISA, main memory is accessed only when LOAD and STORE instr
 
 ## Register Set ISA
 
-Register Set ISA is also called as General Purpose Register (GPR) ISA. It is the dominant architecture used by modern computers. Modern computers have GPR's as many as 32.
+Register Set ISA is also called as General Purpose Register (GPR) ISA. It is the dominant architecture used by modern computers. Modern computers have GPR's as many as 32. 
+
+> The operands that are operated on by the ALU must be brought to the GPRs from the main memory.
 
 Depending on whether the operands are present in register or memory, Register set ISA is classified into,
 
@@ -153,7 +155,7 @@ STORE 0x56 R ; <0x56>  <--- <R>
 
 ### Memory-Memory ISA
 
-- All operands are from main memory i.e. main memory is accessed for every operation.
+- In the instructions, all operands are from main memory i.e. main memory is accessed for every operation.
 - The arithmetic instructions can have either 2 or 3 addresses.
 
 ```armasm
@@ -164,7 +166,7 @@ ADD 0x45, 0x46        ; <0x45> = <0x45> + <0x46>
 SUB 0xA1, 0xA2        ; <0xA1> = <0xA1> - <0xA2>
 ```
 
-- There are no data transfer instruction from memory to any of the registers, as all of the operands are from the main memory.
+- The processor in memory-memory ISA understands complex instructions to perform data transfer operations such as loading data from main memory to GPRs in the processor for computation by ALU.
 - LOAD and STORE operations are incorporated inside the aritmetic instructions and hardware takes care of it.
 - It takes many clock cycles to access main memory.
 
@@ -249,7 +251,7 @@ Register-Register architecture loads the data to registers and used when necessa
 
 CISC instructions are shorter and complex (close to high-level languages), in which the hardware does more work. For each instruction, the hardware has been built to understand its complexity and execute a series of operations behind.
 
-RISC instructions are long and broken into simpler instructions that makes the task of hardware simpler. It also requires less hardware space and is generally lower power. It is used in *modern computers*.
+RISC instructions are long and broken into simpler instructions that makes the task of hardware simpler. RISC instructions also requires less transistors of hardware space, leaving room to more general purpose registers and is generally lower power. It is used in *modern computers*.
 
 A complex instruction may take the same amount of time as the equivalent simpler instructions, but since all the instructions execute in a uniform time, pipelining can be used as a leverage to reduce execution time in RISC architecture. 
 

@@ -37,6 +37,8 @@ $$
 
 In RTN notation, the RHS of the expression always denotes a value, and the LHS of the expression always denotes the name of a location where the value is to be placed, overwriting the old contents of the location.
 
+> RTL - Register Transfer Level
+
 ## Assembly Language Notation
 
 ![[Instruction Format-20240731141558233.webp]]
