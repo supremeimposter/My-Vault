@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Instruction Execution Cycle",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
+    },
+    {
       "basename": "Registers and Status Flags in CPU",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
+    },
+    {
+      "basename": "01-08-2024",
+      "path": "Journal/01-08-2024.md"
+    },
+    {
+      "basename": "Instruction Format",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
+    },
+    {
+      "basename": "Instruction Set Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
+    },
+    {
+      "basename": "Instruction Type",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
+    },
+    {
+      "basename": "Clock in Digital Circuits",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
     },
     {
       "basename": "31-07-2024",
@@ -11,22 +35,6 @@
     {
       "basename": "Computer Organization and Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
-    },
-    {
-      "basename": "Instruction Type",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
-    },
-    {
-      "basename": "Instruction Set Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
-    },
-    {
-      "basename": "Instruction Format",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
-    },
-    {
-      "basename": "Instruction Execution Cycle",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
     },
     {
       "basename": "Temporary Plan",
@@ -191,14 +199,6 @@
     {
       "basename": "Normalization in Relational Model",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normalization in Relational Model.md"
-    },
-    {
-      "basename": "Natural Join",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
-    },
-    {
-      "basename": "Introduction to DBMS",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
     }
   ],
   "omittedPaths": [

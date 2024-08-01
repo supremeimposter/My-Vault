@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
+                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
+                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
+                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
               }
             }
           },
@@ -270,25 +270,27 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "fe71f2853498a406",
+  "active": "f40e337b00878277",
   "lastOpenFiles": [
+    "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
+    "Journal/01-08-2024.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
+    "attachments/Instruction Execution Cycle-20240801235720365.webp",
+    "attachments/Instruction Execution Cycle-20240801235355736.webp",
+    "attachments/Instruction Execution Cycle-20240801235338775.webp",
+    "attachments/Instruction Execution Cycle-20240801233548902.webp",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
+    "attachments/Instruction Execution Cycle-20240801233126184.webp",
+    "attachments/Instruction Execution Cycle-20240801233011682.webp",
+    "attachments/Instruction Execution Cycle-20240801232742991.webp",
+    "attachments/Instruction Execution Cycle-20240801232607108.webp",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
+    "attachments/Instruction Execution Cycle-20240801231350689.webp",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
+    "attachments/Registers and Status Flags in CPU-20240801224222620.webp",
+    "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
     "Journal/31-07-2024.md",
     "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
-    "attachments/Instruction Type-20240731230120147.webp",
-    "attachments/Instruction Type-20240731230107312.webp",
-    "attachments/Instruction Type-20240731225633914.webp",
-    "attachments/Instruction Type-20240731225441578.webp",
-    "attachments/Instruction Type-20240731225421486.webp",
-    "attachments/Instruction Type-20240731224953730.webp",
-    "attachments/Instruction Type-20240731224757663.webp",
-    "attachments/Instruction Type-20240731224415410.webp",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
-    "attachments/Instruction Format-20240731202918208.webp",
-    "attachments/Instruction Format-20240731202909629.webp",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
     "GATE/Temporary Plan.md",
     "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
     "Journal/30-07-2024.md",
@@ -305,8 +307,6 @@
     "Journal/26-07-2024.md",
     "Journal/24-07-2024.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
-    "GATE/Digital-Logic/Digital Logic.md",
     "Journal",
     "Philosophy and General Thoughts",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",

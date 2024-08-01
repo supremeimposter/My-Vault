@@ -594,7 +594,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -669,7 +669,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -686,7 +686,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -710,7 +710,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
                   }
                 }
               },
@@ -778,8 +778,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "fe71f2853498a406",
-      "mtime": "2024-07-31T23:36:41+05:30"
+      "active": "f40e337b00878277",
+      "mtime": "2024-08-01T23:58:45+05:30"
     },
     "DL": {
       "main": {
