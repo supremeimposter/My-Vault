@@ -164,7 +164,8 @@ The encodings of the instructions are,
 
 ![[Instruction Format-20240731202918208.webp]]
 
-The left out encodings can be used in the future for adding more unique instructions to the instruction set.
+> [!note] 
+> The left out encodings can be used in the future for adding more unique instructions to the instruction set.
 
 ---
 
@@ -173,12 +174,12 @@ From the expanding opcode technique, it is evident that,
 In a single CPU, there cannot be two different instruction formats for the same operation, since a particular operation has a unique opcode.
 
 > [!example] 
-> There cannot be different formats for the `ADD` instruction.
+> There cannot be different formats for the `ADD` instruction in the same CPU.
 > 
 >> `ADD;`
 >> `ADD R1, R2, R3;`
->> 
->> These kind of address instructions are not possible in a single CPU for the same operation.
+> 
+> These kind of address instructions are not possible in a single CPU for the same operation.
 
 In a single CPU, different instruction or operation can have different number of operands.
 

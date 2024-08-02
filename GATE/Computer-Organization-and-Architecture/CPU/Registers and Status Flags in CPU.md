@@ -126,6 +126,8 @@ Flag register is also associated to ALU. Status register sets flags to the resul
 
 ALU does not anything about the data *(signed, unsigned, positive, negative, binary or BCD)* it is operating, it simply performs the operations as per the instruction and updates the [[#Status Flags|flags]]. It is upto the control unit CU to interpret the results of ALU with the help of flag register.
 
+![[Registers and Status Flags in CPU-20240802083743391.webp]]
+
 Flag register is also called as,
 1. Status Register SR
 2. Program Status Register PSR

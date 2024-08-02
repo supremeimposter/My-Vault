@@ -5,8 +5,8 @@ lecture: "5"
 date: 2024-03-24T12:10:00
 version:
   - COA-24
-last-revision: 
-notes-taken: false
+last-revision: 2024-08-02T09:32:00
+notes-taken: true
 tags:
   - ComputerOrganizationAndArchitecture/CPU
   - ComputerOrganizationAndArchitecture/Instruction
@@ -52,6 +52,8 @@ The [Instruction cycle](http://cs.iit.edu/~cs561/cs350/fetch/fetch.html) consist
 > ![[Instruction Execution Cycle-20240801235338775.webp]]
 > 
 > ![[Instruction Execution Cycle-20240801235720365.webp]]
+> 
+> ![[Instruction Execution Cycle-20240802083840153.webp]]
 
 > [!summary] 
 > Control Unit contains the control memory which contains the microprograms. Microprograms are those programs which contain only those operations related to the CPU.
@@ -83,7 +85,7 @@ Then the opcode is decoded by the control unit.
 
 ![[Instruction Execution Cycle-20240801232607108.webp]]
 
-If the word size is smaller than instruciton size and the memory is word-addressable, then the fetched instruction is decoded and then the remaining part of the instruction is obtained and decoded.
+If the word size is smaller than instruction size and the memory is word-addressable, then the fetched instruction is decoded and then the remaining part of the instruction is obtained and decoded.
 
 ![[Instruction Execution Cycle-20240801232742991.webp]]
 
@@ -106,9 +108,9 @@ When the instruction is decoded, the CU knows which instruction to execute and g
 
 Program execution halts only if the machine is turned off some sort of unrecoverable error occurs, or a program instruction that halts the computer is encountered.
 
-CPU breaks the fetch-decode-execute cycle on executing HALT instruction. Halt instruction is one of the [[Instruction Type#Transfer of Control Instructions|jump instructions]]. **Halting simply stops the clock**. 
+CPU breaks the fetch-decode-execute cycle on executing HALT instruction. Halt instruction is one of the [[Instruction Type#Transfer of Control Instructions|jump instructions]]. **Halting simply stops the clock** i.e. stops the program execution.
 
-When program execution is halted (HALT instruction is executed), the PC contains the address of the next instruction of HALT instruction. So when an interrupt is used to resume execution after a HALT instruction, PC points to the next instruction to be executed.
+When program execution is halted (HALT instruction is executed), the PC contains the address of the next instruction following the HALT instruction. So when an interrupt is used to resume execution after a HALT instruction, PC points to the next instruction to be executed.
 
 Some CPU's have a special flag called as **Run flag**. When run flag is set, the computer is running, and when the flag is reset, the computers is halted.
 
