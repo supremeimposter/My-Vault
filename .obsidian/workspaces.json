@@ -529,6 +529,19 @@
                 }
               },
               {
+                "id": "12e3fd59d06689db",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "f40e337b00878277",
                 "type": "leaf",
                 "state": {
@@ -587,6 +600,19 @@
                   "type": "markdown",
                   "state": {
                     "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "d5b99547e19cd2ab",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Journal/02-08-2024.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -669,7 +695,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -686,7 +712,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -710,7 +736,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
                   }
                 }
               },
@@ -778,8 +804,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "f40e337b00878277",
-      "mtime": "2024-08-01T23:58:45+05:30"
+      "active": "12e3fd59d06689db",
+      "mtime": "2024-08-02T09:32:41+05:30"
     },
     "DL": {
       "main": {

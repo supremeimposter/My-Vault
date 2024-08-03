@@ -468,5 +468,12 @@
   "everforest-enchanted-theme@@background-image-pane-view": false,
   "everforest-enchanted-theme@@custom-stacked-panes-enabled": false,
   "everforest-enchanted-theme@@visual-parity-enabled": false,
-  "custom-diegoeis-simple@@eis-font-type": "eis-font-iawriter-quattro"
+  "custom-diegoeis-simple@@eis-font-type": "eis-font-iawriter-quattro",
+  "everforest-enchanted-theme@@disable-menu-animations": true,
+  "primary-theme@@zero-tab-anim": true,
+  "primary-theme@@zero-popup-popdown": true,
+  "primary-theme@@interface_editor-bg": "editor-bgpattern-linegrid",
+  "primary-theme@@interface_status-bar-style": "sb-default",
+  "title@@more-drag-desktop": true,
+  "title@@enable-mica": false
 }

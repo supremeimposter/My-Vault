@@ -1,28 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Instruction Execution Cycle",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
+      "basename": "Addressing Modes",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
+    },
+    {
+      "basename": "03-08-2024",
+      "path": "Journal/03-08-2024.md"
     },
     {
       "basename": "Registers and Status Flags in CPU",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
     },
     {
-      "basename": "01-08-2024",
-      "path": "Journal/01-08-2024.md"
+      "basename": "02-08-2024",
+      "path": "Journal/02-08-2024.md"
     },
     {
-      "basename": "Instruction Format",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
+      "basename": "Temporary Plan",
+      "path": "GATE/Temporary Plan.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Instruction Execution Cycle",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
     },
     {
       "basename": "Instruction Set Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
     },
     {
+      "basename": "Instruction Format",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
+    },
+    {
       "basename": "Instruction Type",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
+    },
+    {
+      "basename": "01-08-2024",
+      "path": "Journal/01-08-2024.md"
     },
     {
       "basename": "Clock in Digital Circuits",
@@ -31,14 +51,6 @@
     {
       "basename": "31-07-2024",
       "path": "Journal/31-07-2024.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "GATE/Temporary Plan.md"
     },
     {
       "basename": "Overflow of Signed and Unsigned Numbers",
@@ -63,10 +75,6 @@
     {
       "basename": "Introduction to COA",
       "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
-    },
-    {
-      "basename": "Addressing Modes",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
     },
     {
       "basename": "29-07-2024",
@@ -191,14 +199,6 @@
     {
       "basename": "Functional Dependency",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
-    },
-    {
-      "basename": "Normal Forms",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
-    },
-    {
-      "basename": "Normalization in Relational Model",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normalization in Relational Model.md"
     }
   ],
   "omittedPaths": [

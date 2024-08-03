@@ -1,9 +1,0 @@
-{
-  "groups": [],
-  "generateCommands": true,
-  "showNoticeOnGroupLoad": "none",
-  "devLogs": false,
-  "devices": [],
-  "doLoadSynchronously": true,
-  "showStatusbarIcon": "None"
-}
