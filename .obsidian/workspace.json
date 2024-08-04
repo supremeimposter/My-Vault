@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "12e3fd59d06689db",
+            "id": "04b7c260b9127793",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "f40e337b00878277",
+            "id": "a98bbd281226d626",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,12 +49,12 @@
             }
           },
           {
-            "id": "999705db2c0bc694",
+            "id": "b44cb589ff19af4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,51 +62,12 @@
             }
           },
           {
-            "id": "78214e59656a6fd9",
+            "id": "588a14d164b2a389",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7d9f5f9e793c6d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe71f2853498a406",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ccf71ddacf84c40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/03-08-2024.md",
+                "file": "Journal/04-08-2024.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -114,7 +75,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
+                "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
               }
             }
           },
@@ -298,26 +259,32 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "12e3fd59d06689db",
+  "active": "a98bbd281226d626",
   "lastOpenFiles": [
-    "Journal/03-08-2024.md",
+    "attachments/Direct Mapped Cache-20240804225835567.webp",
+    "attachments/Direct Mapped Cache-20240804225247157.webp",
+    "attachments/Direct Mapped Cache-20240804201619398.webp",
+    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
+    "attachments/Cache Memory-20240804195455088.webp",
+    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
+    "attachments/Cache Memory-20240804194246520.webp",
+    "attachments/Cache Memory-20240804194029338.webp",
+    "attachments/Cache Memory-20240804194017940.webp",
+    "attachments/Cache Memory-20240804193924125.webp",
+    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md",
+    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "Journal/04-08-2024.md",
+    "attachments/Cache Memory-20240804193448845.webp",
+    "attachments/Cache Memory-20240804181347048.webp",
+    "attachments/Cache Memory-20240804175914754.webp",
+    "GATE/Temporary Plan.md",
+    "Journal/2024-W32.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
-    "attachments/Addressing Modes-20240803133701863.webp",
-    "attachments/Addressing Modes-20240803133522135.webp",
-    "attachments/Addressing Modes-20240803133444021.webp",
-    "attachments/Addressing Modes-20240803132653575.webp",
-    "attachments/Addressing Modes-20240803132634660.webp",
-    "attachments/Addressing Modes-20240803130215929.webp",
+    "Journal/03-08-2024.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
     "Journal/02-08-2024.md",
-    "GATE/Temporary Plan.md",
-    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "attachments/Addressing Modes-20240802224323898.webp",
-    "attachments/Addressing Modes-20240802203129777.webp",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
-    "attachments/Addressing Modes-20240802171235640.webp",
-    "attachments/Addressing Modes-20240802163802508.webp",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
     "Journal/01-08-2024.md",
@@ -330,11 +297,6 @@
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
     "Journal/29-07-2024.md",
-    "Journal/28-07-2024.md",
-    "templates/daily-notes-template.md",
-    "GATE/GATE-CS.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Untitled.md",
-    "Journal/26-07-2024.md",
     "Journal",
     "Philosophy and General Thoughts",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",

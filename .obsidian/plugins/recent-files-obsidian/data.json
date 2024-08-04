@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Direct Mapped Cache",
+      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
+    },
+    {
+      "basename": "Cache Memory",
+      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
+    },
+    {
+      "basename": "Associate Cache",
+      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "04-08-2024",
+      "path": "Journal/04-08-2024.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "GATE/Temporary Plan.md"
+    },
+    {
+      "basename": "2024-W32",
+      "path": "Journal/2024-W32.md"
+    },
+    {
+      "basename": "Instruction Set Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
+    },
+    {
       "basename": "Addressing Modes",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
     },
@@ -17,20 +49,8 @@
       "path": "Journal/02-08-2024.md"
     },
     {
-      "basename": "Temporary Plan",
-      "path": "GATE/Temporary Plan.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
-    },
-    {
       "basename": "Instruction Execution Cycle",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
-    },
-    {
-      "basename": "Instruction Set Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
     },
     {
       "basename": "Instruction Format",
@@ -179,26 +199,6 @@
     {
       "basename": "17-07-2024",
       "path": "Journal/17-07-2024.md"
-    },
-    {
-      "basename": "weekly-notes-template",
-      "path": "templates/weekly-notes-template.md"
-    },
-    {
-      "basename": "Problems caused by Redundant Information",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
-    },
-    {
-      "basename": "Decomposition",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
-    },
-    {
-      "basename": "Relational Model",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
-    },
-    {
-      "basename": "Functional Dependency",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
     }
   ],
   "omittedPaths": [
