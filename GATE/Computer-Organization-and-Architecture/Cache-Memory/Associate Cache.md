@@ -15,7 +15,7 @@ tags:
 - In set associative, a block can be placed anywhere within a set of locations in the cache.
 
 - In set associative, if a set has $n$ lines, then the cache is $n$-way associative.
-- [[Direct Mapped Cache|Direct mapped cache]] is 1-way set associative.
+- [[Direct Mapped Cache|Direct mapped cache]] is 1-way set associative. Number of sets is same as number of blocks in direct mapped cache.
 
 $$
 \text{Number of sets in cache} = \frac{\text{Number of lines in cache}}{\text{Number of lines in a set}}

@@ -12,6 +12,17 @@ tags:
 ---
 # Cache Memory
 
+- [[Registers and Status Flags in CPU#CPU|CPU]] is the fastest device in the computer and [[Main Memory and Addressability|main memory]] has large storage, but is slow and far away from the CPU.
+- The operations involving memory takes more cycles.
+
+- All the necessary data cannot be stored in the registers in CPU.
+- Though cache memory is not as fast as registers, it is not as slower as main memory. Cache memory is expensive and larger than processor registers.
+- Main memory is indexed by address.
+- A block of memory contains a number of bytes.
+- Cache memory is indexed by cache block number or cache line number.
+
+## Why Cache Works?
+
 - If a memory address is requested from the main memory, then that whole block is to be sent to the cache.
 - Each block of memory contains multiple bytes.
 
@@ -52,3 +63,4 @@ tags:
 
 
 
+---
