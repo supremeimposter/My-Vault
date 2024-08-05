@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "04b7c260b9127793",
+            "id": "4f9fe170827034ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md",
+                "file": "Journal/05-08-2024.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,46 +36,19 @@
             }
           },
           {
-            "id": "a98bbd281226d626",
+            "id": "5004d7a49000df16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b44cb589ff19af4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "588a14d164b2a389",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/04-08-2024.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
+                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
               }
             }
           },
@@ -259,25 +232,28 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "a98bbd281226d626",
+  "active": "a979cb9d9bf15c0b",
   "lastOpenFiles": [
+    "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md",
+    "GATE/Temporary Plan.md",
+    "Journal/05-08-2024.md",
+    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "GATE/Computer-Organization-and-Architecture/Pipeline",
+    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md",
+    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
+    "attachments/Direct Mapped Cache-20240805161509386.webp",
+    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
+    "Journal/04-08-2024.md",
+    "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md",
+    "attachments/Decimal and Binary System-20240805084820700.webp",
+    "attachments/Decimal and Binary System-20240805084803845.webp",
+    "attachments/Direct Mapped Cache-20240805083213806.webp",
+    "attachments/Direct Mapped Cache-20240805082505133.webp",
+    "attachments/Direct Mapped Cache-20240805082425885.webp",
+    "attachments/Direct Mapped Cache-20240805081559624.webp",
+    "attachments/Direct Mapped Cache-20240805081038861.webp",
     "attachments/Direct Mapped Cache-20240804225835567.webp",
     "attachments/Direct Mapped Cache-20240804225247157.webp",
-    "attachments/Direct Mapped Cache-20240804201619398.webp",
-    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
-    "attachments/Cache Memory-20240804195455088.webp",
-    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
-    "attachments/Cache Memory-20240804194246520.webp",
-    "attachments/Cache Memory-20240804194029338.webp",
-    "attachments/Cache Memory-20240804194017940.webp",
-    "attachments/Cache Memory-20240804193924125.webp",
-    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md",
-    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "Journal/04-08-2024.md",
-    "attachments/Cache Memory-20240804193448845.webp",
-    "attachments/Cache Memory-20240804181347048.webp",
-    "attachments/Cache Memory-20240804175914754.webp",
-    "GATE/Temporary Plan.md",
     "Journal/2024-W32.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
@@ -295,8 +271,6 @@
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
-    "Journal/29-07-2024.md",
     "Journal",
     "Philosophy and General Thoughts",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
@@ -308,7 +282,6 @@
     "GATE/Algorithms/Maximum-and-Minimum",
     "Machine-Learning",
     "GATE",
-    "GATE/ComputerNetworks/Data-Link-Layer",
     "SR Latch.canvas",
     "Untitled.canvas"
   ]

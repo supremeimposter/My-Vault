@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Pipeline",
+      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "GATE/Temporary Plan.md"
+    },
+    {
+      "basename": "05-08-2024",
+      "path": "Journal/05-08-2024.md"
+    },
+    {
+      "basename": "Associate Cache",
+      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md"
+    },
+    {
       "basename": "Direct Mapped Cache",
       "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
     },
@@ -9,20 +29,12 @@
       "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
     },
     {
-      "basename": "Associate Cache",
-      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
-    },
-    {
       "basename": "04-08-2024",
       "path": "Journal/04-08-2024.md"
     },
     {
-      "basename": "Temporary Plan",
-      "path": "GATE/Temporary Plan.md"
+      "basename": "Decimal and Binary System",
+      "path": "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md"
     },
     {
       "basename": "2024-W32",
@@ -187,18 +199,6 @@
     {
       "basename": "Database Management System",
       "path": "GATE/DatabaseManagementSystem/Database Management System.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE/GATE-LOG.md"
-    },
-    {
-      "basename": "Vault Index",
-      "path": "Vault Index.md"
-    },
-    {
-      "basename": "17-07-2024",
-      "path": "Journal/17-07-2024.md"
     }
   ],
   "omittedPaths": [
