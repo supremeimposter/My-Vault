@@ -26,6 +26,8 @@ Lets consider a decimal number $1254$,
 - 2 tells how many 100's we have counted
 - 1 tells how many 1000's we have counte
 
+![[Decimal and Binary System-20240805084820700.webp]]
+
 ## Binary System
 Binary system is the computer number system.
 Symbols (digits) : $0, 1$
@@ -59,5 +61,7 @@ $$
 ![[Decimal and Binary System-20240218200317458.webp|General form of Successive division by 2]]
 
 ![[Decimal and Binary System-20240514131949072.webp]]
+
+![[Decimal and Binary System-20240805084803845.webp]]
 
 ---

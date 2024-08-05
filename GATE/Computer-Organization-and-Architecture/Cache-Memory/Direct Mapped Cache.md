@@ -74,7 +74,7 @@ $$
 \text{Block Number} = \left\lfloor \,  \frac{\text{Byte Number}}{\text{Block size}}  \, \right\rfloor
 $$
 
-The address of the first byte in a block is the block address,
+The address a block (also the address of the first byte in a block) is,
 $$
 \text{Block address} = \text{Block number} \ast \text{Block size}
 $$
@@ -96,16 +96,28 @@ If $t$ is the number of bits to represent tag in memory address,
 $$
 \text{Size of main memory} = 2^{\text{t}} \ast \text{Size of cache memory}
 $$
-Tag uniquely identifies each block.
 
 The physical address of a byte in main memory is divided into 3 components,
-1. Tag (block number in main memory)
+1. Tag 
 2. Index (line number in cache)
-3. Block offset (position of byte in block)
+3. Block offset (position of a byte in block)
 
 ![[Direct Mapped Cache-20240329213143159.webp]]
 
-![[Direct Mapped Cache-20240804132250237.webp]]
+> [!example] 
+> Assume block size = 4 bytes
+> No of blocks in memory = 16
+> No of blocks in cache = 4
+> 
+> ![[Direct Mapped Cache-20240805081559624.webp]]
+> 
+> 6 bits are required to represent each byte.
+> 
+> ![[Direct Mapped Cache-20240805083213806.webp]]
 
+The below diagram consideres only the block number part of the address for more detailed representation.
+
+![[Direct Mapped Cache-20240804132250237.webp]]
+![[Direct Mapped Cache-20240805161509386.webp]]
 
 ---
