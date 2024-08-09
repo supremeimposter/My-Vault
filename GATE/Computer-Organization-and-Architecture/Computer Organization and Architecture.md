@@ -25,6 +25,9 @@ tags:
 
 ## Module 3 - Cache Memory
 
+> [!youtube] 
+> [Cache Review Intro - Georgia Tech - HPCA: Part 3 - YouTube](https://www.youtube.com/watch?v=cA5QyqRSQTE&list=PLAwxTw4SYaPnhRXZ6wuHnnclMLfg_yjHs&index=108)
+
 - [[Cache Memory]]
 - [[Direct Mapped Cache]]
 - [[Associate Cache]]
@@ -32,6 +35,8 @@ tags:
 ## Module 4 - Pipeline
 
 - [[Pipeline]]
+- [[Data Hazards in Pipeline]]
+- [[Structural Hazards in Pipeline]]
 
 > [!youtube] 
 > [Pipeline - Complete Playlist | Hazards in Pipeline | Computer Organization & Architecture | GO Classes Pipeline Playlist - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhs9DfAY9ry6XbjGn7ZumZ8)
@@ -66,10 +71,15 @@ tags:
 > [!link] Standard University Lectures
 > Carnegie Mellon University 18-447
 > [schedule \[18-447 Introduction to Computer Architecture – Spring 2015\]](https://course.ece.cmu.edu/~ece447/s15/doku.php?id=schedule) 
+> 
 > Stanford University CS107
 > [Index of /class/archive/cs/cs107/cs107.1194/lectures](https://web.stanford.edu/class/archive/cs/cs107/cs107.1194/lectures/)
-> Oxford
+> 
+> Oxford University
 > [D W Murray](https://www.robots.ox.ac.uk/~dwm/Courses/2CO_2014/)
+> 
+> San Diego University
+> [CSE 240 -- Computer Architecture](https://cseweb.ucsd.edu/classes/wi05/cse240a/lecture.html)
 
 MARIE Online CPU simulator - [MARIE.js | Home](https://marie.js.org/)
 

@@ -65,9 +65,9 @@ flexGrow=0.7
 ````
 
 > [!convention] 
-> Kilo = $2^{10}$
-> Mega = $2^{20}$
-> Giga = $2^{30}$
+> Kilo = $2^{10} \approx 10^3$
+> Mega = $2^{20} \approx 10^6$
+> Giga = $2^{30} \approx 10^9$
 
 ## Byte Ordering
 

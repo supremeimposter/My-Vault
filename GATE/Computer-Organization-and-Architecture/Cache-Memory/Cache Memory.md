@@ -96,8 +96,12 @@ A block can be place anywhere within a set of locations in a cache
 
 ## Cache Memory Effective Access Time
 
-- If data is not found in the cache, then it is called a cache miss.
+- If data is found in the cache, then it is called a cache hit.
+- If data is not found in the cache, then it is called a cache miss. Then the data is brought to the cache.
+
 - By default, miss rate of a cache means the local miss rate of the cache memory.
+
+
 
 ## Cache Write Policies
 

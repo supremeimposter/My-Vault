@@ -66,3 +66,10 @@ $$
 
 
 ---
+## Guidelines to COA
+
+- If the question asks for if there is any hazard, just draw the cycle diagram of normal pipeline execution and see if any problem exists. Don't overdo the problem.
+
+
+
+
