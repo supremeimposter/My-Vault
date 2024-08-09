@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "4f9fe170827034ac",
+            "id": "affbc536c9bb6c7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/05-08-2024.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,8 +47,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d860598727f462a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "906c115f961fc03c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d517925a2a3ffdd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/09-08-2024.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -123,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md"
               }
             }
           },
@@ -232,17 +272,30 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "a979cb9d9bf15c0b",
+  "active": "906c115f961fc03c",
   "lastOpenFiles": [
-    "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md",
-    "GATE/Temporary Plan.md",
-    "Journal/05-08-2024.md",
+    "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md",
+    "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
     "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "Journal/09-08-2024.md",
+    "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md",
+    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
+    "GATE/Temporary Plan.md",
+    "GATE/Guidelines to GATE-CS.md",
+    "attachments/Data Hazards in Pipeline-20240809084118382.webp",
+    "attachments/Data Hazards in Pipeline-20240809083758502.webp",
+    "attachments/Data Hazards in Pipeline-20240809083744485.webp",
+    "Journal/08-08-2024.md",
+    "Journal/2024-W32.md",
+    "Journal/07-08-2024.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
+    "Journal/Study-sessions",
+    "Journal/06-08-2024.md",
+    "Journal/05-08-2024.md",
     "GATE/Computer-Organization-and-Architecture/Pipeline",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
     "attachments/Direct Mapped Cache-20240805161509386.webp",
-    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
     "Journal/04-08-2024.md",
     "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md",
     "attachments/Decimal and Binary System-20240805084820700.webp",
@@ -251,10 +304,6 @@
     "attachments/Direct Mapped Cache-20240805082505133.webp",
     "attachments/Direct Mapped Cache-20240805082425885.webp",
     "attachments/Direct Mapped Cache-20240805081559624.webp",
-    "attachments/Direct Mapped Cache-20240805081038861.webp",
-    "attachments/Direct Mapped Cache-20240804225835567.webp",
-    "attachments/Direct Mapped Cache-20240804225247157.webp",
-    "Journal/2024-W32.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
     "Journal/03-08-2024.md",
@@ -263,14 +312,6 @@
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
-    "Journal/01-08-2024.md",
-    "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md",
-    "Journal/31-07-2024.md",
-    "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
-    "Journal/30-07-2024.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md",
     "Journal",
     "Philosophy and General Thoughts",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
@@ -281,7 +322,6 @@
     "GATE/Calculus",
     "GATE/Algorithms/Maximum-and-Minimum",
     "Machine-Learning",
-    "GATE",
     "SR Latch.canvas",
     "Untitled.canvas"
   ]

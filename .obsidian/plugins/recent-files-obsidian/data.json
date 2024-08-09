@@ -1,16 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "Structural Hazards in Pipeline",
+      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md"
+    },
+    {
+      "basename": "Data Hazards in Pipeline",
+      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md"
+    },
+    {
       "basename": "Computer Organization and Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "09-08-2024",
+      "path": "Journal/09-08-2024.md"
     },
     {
       "basename": "Pipeline",
       "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md"
     },
     {
+      "basename": "Cache Memory",
+      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
+    },
+    {
       "basename": "Temporary Plan",
       "path": "GATE/Temporary Plan.md"
+    },
+    {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "08-08-2024",
+      "path": "Journal/08-08-2024.md"
+    },
+    {
+      "basename": "2024-W32",
+      "path": "Journal/2024-W32.md"
+    },
+    {
+      "basename": "07-08-2024",
+      "path": "Journal/07-08-2024.md"
+    },
+    {
+      "basename": "Main Memory and Addressability",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
+    },
+    {
+      "basename": "06-08-2024",
+      "path": "Journal/06-08-2024.md"
     },
     {
       "basename": "05-08-2024",
@@ -25,20 +65,12 @@
       "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
     },
     {
-      "basename": "Cache Memory",
-      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
-    },
-    {
       "basename": "04-08-2024",
       "path": "Journal/04-08-2024.md"
     },
     {
       "basename": "Decimal and Binary System",
       "path": "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md"
-    },
-    {
-      "basename": "2024-W32",
-      "path": "Journal/2024-W32.md"
     },
     {
       "basename": "Instruction Set Architecture",
@@ -95,10 +127,6 @@
     {
       "basename": "Memory Interfacing and Expansion",
       "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
-    },
-    {
-      "basename": "Main Memory and Addressability",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
     },
     {
       "basename": "System Bus",
@@ -171,34 +199,6 @@
     {
       "basename": "Discrete Mathematics",
       "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
-      "basename": "Mathematical Structures",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Mathematical Structures.md"
-    },
-    {
-      "basename": "Proofs involving Sets",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Proofs involving Sets.md"
-    },
-    {
-      "basename": "18-07-2024",
-      "path": "Journal/18-07-2024.md"
-    },
-    {
-      "basename": "22-07-2024",
-      "path": "Journal/22-07-2024.md"
-    },
-    {
-      "basename": "09-07-2024",
-      "path": "Journal/09-07-2024.md"
-    },
-    {
-      "basename": "21-07-2024",
-      "path": "Journal/21-07-2024.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
     }
   ],
   "omittedPaths": [

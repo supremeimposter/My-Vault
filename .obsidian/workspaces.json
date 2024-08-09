@@ -531,33 +531,7 @@
                 }
               },
               {
-                "id": "04b7c260b9127793",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "a98bbd281226d626",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "b44cb589ff19af4e",
+                "id": "affbc536c9bb6c7c",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -570,12 +544,25 @@
                 }
               },
               {
-                "id": "588a14d164b2a389",
+                "id": "5004d7a49000df16",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Journal/04-08-2024.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "d860598727f462a8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -583,7 +570,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -658,7 +645,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -675,7 +662,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -699,7 +686,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
+                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md"
                   }
                 }
               },
@@ -767,8 +754,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "a98bbd281226d626",
-      "mtime": "2024-08-04T15:21:31+05:30"
+      "active": "d860598727f462a8",
+      "mtime": "2024-08-09T10:12:02+05:30"
     },
     "DL": {
       "main": {

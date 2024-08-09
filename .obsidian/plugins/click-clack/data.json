@@ -2,14 +2,14 @@
   "version": "version1",
   "enabled": true,
   "activeScheme": {
-    "id": "cherry-mx-black",
-    "caption": "Cherry MX Black",
+    "id": "cherry-mx-brown",
+    "caption": "Cherry MX Brown",
     "sounds": {
-      "key": ".obsidian/plugins/click-clack/resources/cherry-mx-black/key.wav",
-      "key2": ".obsidian/plugins/click-clack/resources/cherry-mx-black/key2.wav",
-      "space": ".obsidian/plugins/click-clack/resources/cherry-mx-black/space.wav",
-      "enter": ".obsidian/plugins/click-clack/resources/cherry-mx-black/enter.wav",
-      "delete": ".obsidian/plugins/click-clack/resources/cherry-mx-black/delete.wav"
+      "key": ".obsidian/plugins/click-clack/resources/cherry-mx-brown/key.wav",
+      "key2": ".obsidian/plugins/click-clack/resources/cherry-mx-brown/key2.wav",
+      "space": ".obsidian/plugins/click-clack/resources/cherry-mx-brown/space.wav",
+      "enter": ".obsidian/plugins/click-clack/resources/cherry-mx-brown/enter.wav",
+      "delete": ".obsidian/plugins/click-clack/resources/cherry-mx-brown/delete.wav"
     }
   },
   "volumn": 100

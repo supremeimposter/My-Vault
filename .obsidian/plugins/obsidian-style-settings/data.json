@@ -432,7 +432,7 @@
   "magicuser-theme-for-obsidian@@mu-cards-interface": false,
   "magicuser-theme-for-obsidian@@mu-o-ui-sidebars": false,
   "magicuser-theme-for-obsidian@@mu-o-ui-icons": false,
-  "magicuser-theme-for-obsidian@@mu-presets-themes": "none",
+  "magicuser-theme-for-obsidian@@mu-presets-themes": "magicuser-bg-old-school-theme",
   "magicuser-theme-for-obsidian@@mu-rainbow-folders": false,
   "magicuser-theme-for-obsidian@@mu-hide-folder-open-area": false,
   "magicuser-theme-for-obsidian@@mu-slanted-breadcrumb": false,
@@ -475,5 +475,16 @@
   "primary-theme@@interface_editor-bg": "editor-bgpattern-linegrid",
   "primary-theme@@interface_status-bar-style": "sb-default",
   "title@@more-drag-desktop": true,
-  "title@@enable-mica": false
+  "title@@enable-mica": false,
+  "primary-theme@@alt-folder-icons": true,
+  "things-style@@active-line": false,
+  "things-style@@h2-underline": false,
+  "things-style@@h4-transform": "none",
+  "underwater-theme@@underwater-colors-light": "uw-octopus",
+  "underwater-theme@@vault-icon": "vault-book",
+  "underwater-theme@@no-h5": true,
+  "underwater-theme@@callout": "callout-solid",
+  "underwater-theme@@focus-mode": false,
+  "underwater-theme@@no-links": true,
+  "underwater-theme@@no-animation": true
 }

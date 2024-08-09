@@ -1,16 +1,16 @@
 {
   "journals": {
-    "#studylog": {
-      "id": "#studylog",
+    "selfstudy": {
+      "id": "selfstudy",
       "type": "calendar",
-      "name": "Study-Sessions",
+      "name": "Self-study",
       "rootFolder": "Journal",
       "openOnStartup": false,
       "startupSection": "day",
       "day": {
         "enabled": true,
         "openMode": "tab",
-        "nameTemplate": "{{date}}",
+        "nameTemplate": "",
         "dateFormat": "DD-MM-YYYY",
         "folder": "",
         "template": "templates/daily-notes-template.md",
@@ -24,7 +24,7 @@
       "week": {
         "enabled": true,
         "openMode": "tab",
-        "nameTemplate": "{{date}}",
+        "nameTemplate": "",
         "dateFormat": "",
         "folder": "",
         "template": "templates/weekly-notes-template.md",
