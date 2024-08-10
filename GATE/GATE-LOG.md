@@ -134,3 +134,5 @@
 **July 17, 2024** I am going to experiment a different study technique now. First I will go through the annotated notes and study the topic, followed by taking notes of the same topic by going through the same annotated notes, which is also the second revision. During the second revision, I will come to know which topic to avoid and which topic to follow.
 
 **July 20, 2024** I will also start going interleaving of subjects to further challenge my brain. It forgets and tries to remember the information.
+
+**August 9, 2024** When Deepak sir says, "watch movies after GATE exam", you take that seriously.
