@@ -480,11 +480,13 @@
   "things-style@@active-line": false,
   "things-style@@h2-underline": false,
   "things-style@@h4-transform": "none",
-  "underwater-theme@@underwater-colors-light": "uw-octopus",
+  "underwater-theme@@underwater-colors-light": "rose-pine-dawn",
   "underwater-theme@@vault-icon": "vault-book",
   "underwater-theme@@no-h5": true,
   "underwater-theme@@callout": "callout-solid",
   "underwater-theme@@focus-mode": false,
   "underwater-theme@@no-links": true,
-  "underwater-theme@@no-animation": true
+  "underwater-theme@@no-animation": true,
+  "underwater-theme@@underwater-colors-dark": "rose-pine",
+  "everforest-enchanted-theme@@image-embed-stretch": false
 }

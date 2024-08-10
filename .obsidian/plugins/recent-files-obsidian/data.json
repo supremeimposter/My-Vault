@@ -1,32 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Structural Hazards in Pipeline",
-      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md"
-    },
-    {
       "basename": "Data Hazards in Pipeline",
       "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md"
     },
     {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+      "basename": "Structural Hazards in Pipeline",
+      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md"
     },
     {
-      "basename": "09-08-2024",
-      "path": "Journal/09-08-2024.md"
+      "basename": "10-08-2024",
+      "path": "Journal/10-08-2024.md"
     },
     {
       "basename": "Pipeline",
       "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md"
     },
     {
-      "basename": "Cache Memory",
-      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Instruction Execution Cycle",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
+    },
+    {
+      "basename": "09-08-2024",
+      "path": "Journal/09-08-2024.md"
+    },
+    {
+      "basename": "Instruction Set Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE/GATE-LOG.md"
     },
     {
       "basename": "Temporary Plan",
       "path": "GATE/Temporary Plan.md"
+    },
+    {
+      "basename": "Cache Memory",
+      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
     },
     {
       "basename": "Guidelines to GATE-CS",
@@ -73,10 +89,6 @@
       "path": "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md"
     },
     {
-      "basename": "Instruction Set Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
-    },
-    {
       "basename": "Addressing Modes",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
     },
@@ -91,10 +103,6 @@
     {
       "basename": "02-08-2024",
       "path": "Journal/02-08-2024.md"
-    },
-    {
-      "basename": "Instruction Execution Cycle",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
     },
     {
       "basename": "Instruction Format",
@@ -191,14 +199,6 @@
     {
       "basename": "Set Operations",
       "path": "GATE/DiscreteMathematics/Set-Theory/Set Operations.md"
-    },
-    {
-      "basename": "Set Identities",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Set Identities.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
     }
   ],
   "omittedPaths": [

@@ -73,22 +73,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d517925a2a3ffdd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/09-08-2024.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -163,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md"
+                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md"
               }
             }
           },
@@ -272,19 +259,30 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "906c115f961fc03c",
+  "active": "d860598727f462a8",
   "lastOpenFiles": [
-    "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md",
     "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
-    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "Journal/09-08-2024.md",
+    "Journal/10-08-2024.md",
     "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md",
-    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
+    "attachments/Pipeline-20240810232419000.webp",
+    "attachments/Pipeline-20240810232356390.webp",
+    "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md",
+    "attachments/Data Hazards in Pipeline-20240810230524444.webp",
+    "attachments/Data Hazards in Pipeline-20240810224049635.webp",
+    "attachments/Data Hazards in Pipeline-20240810222356986.webp",
+    "attachments/Data Hazards in Pipeline-20240810214210961.webp",
+    "attachments/Data Hazards in Pipeline-20240810201644842.webp",
+    "attachments/Data Hazards in Pipeline-20240810201633248.webp",
+    "attachments/Data Hazards in Pipeline-20240810201453684.webp",
+    "attachments/Data Hazards in Pipeline-20240810201434791.webp",
+    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
+    "Journal/09-08-2024.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
+    "GATE/GATE-LOG.md",
     "GATE/Temporary Plan.md",
+    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
     "GATE/Guidelines to GATE-CS.md",
-    "attachments/Data Hazards in Pipeline-20240809084118382.webp",
-    "attachments/Data Hazards in Pipeline-20240809083758502.webp",
-    "attachments/Data Hazards in Pipeline-20240809083744485.webp",
     "Journal/08-08-2024.md",
     "Journal/2024-W32.md",
     "Journal/07-08-2024.md",
@@ -295,23 +293,11 @@
     "GATE/Computer-Organization-and-Architecture/Pipeline",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
-    "attachments/Direct Mapped Cache-20240805161509386.webp",
     "Journal/04-08-2024.md",
     "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md",
-    "attachments/Decimal and Binary System-20240805084820700.webp",
-    "attachments/Decimal and Binary System-20240805084803845.webp",
-    "attachments/Direct Mapped Cache-20240805083213806.webp",
-    "attachments/Direct Mapped Cache-20240805082505133.webp",
-    "attachments/Direct Mapped Cache-20240805082425885.webp",
-    "attachments/Direct Mapped Cache-20240805081559624.webp",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
     "Journal/03-08-2024.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
-    "Journal/02-08-2024.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
     "Journal",
     "Philosophy and General Thoughts",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
