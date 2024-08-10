@@ -80,6 +80,9 @@ tags:
 > 
 > San Diego University
 > [CSE 240 -- Computer Architecture](https://cseweb.ucsd.edu/classes/wi05/cse240a/lecture.html)
+> 
+> Univserity of Illinois
+> [CS433: Computer Systems Organization](https://courses.grainger.illinois.edu/cs433/fa2020/lectures.html)
 
 MARIE Online CPU simulator - [MARIE.js | Home](https://marie.js.org/)
 

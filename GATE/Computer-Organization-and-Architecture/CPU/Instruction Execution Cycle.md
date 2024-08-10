@@ -100,6 +100,7 @@ When the instruction is decoded, the CU knows which instruction to execute and g
 ![[Instruction Execution Cycle-20240801233548902.webp]]
 
 > $\mathcal{l}_{\text{fetch}}$ means fetch next instruction.
+> CPI means Cycles Per Instruction.
 
 > [!pdf] mod-2/lec-05.pdf Pg. No. 63 - 97
 > Execution of different instructions
