@@ -12,17 +12,19 @@ tags:
 ---
 # Pipeline
 
+Pipelining is an implementation technique in which multiple instructions are overlapped in execution. Today, pipelining is nearly universal.
 
-If there is no pipelining, then the entire hardware is one atomic entity. There is no splitting of hardware. 
+| Construction site Pipeline           | Oil Pipelines                        |
+| ------------------------------------ | ------------------------------------ |
+| ![[Pipeline-20240809211039745.webp]] | ![[Pipeline-20240809211332714.webp]] |
 
-The hardware is split into separate stages and operations are performed parallely.
+If there is no pipelining, then the entire hardware is one atomic entity i.e. there is no splitting of hardware. The work for a single input will take the complete time. There is no parallelism in non-pipelined architecture.
 
-
-**Interstage buffers** are not needed when there is no pipelining, since there are no stages where there is no pipelining.
+In pipelined architecture, the hardware is split into separate stages according to its operations and the operations are performed parallely. Pipelining is easy to implement in RISC architecture.
 
 Each stage is responsible for filling out interstage buffers for the next stage. Each cycle also includes that operation.
 
-If a machine has a single cycle datapath, then it is non-pipelined machine.
+**Interstage buffers** are available for each stage in pipelined architecture to temporarily store the computations of the respective stage. Interstage buffers are not needed when there is no pipelining, since there are no stages.
 
 
 There are two types of pipeline,
@@ -36,17 +38,19 @@ In-order pipeline fetch/execute instructions in the program order.
 
 ## Performance Analysis of Pipelines
 
-In non-pipelined implementation, 1 clock cycle is the time taken for one instruction execution.
-In pipelined implementation, 1 clock cycle is the time taken for one stage execution in an instruction.
+If a machine has a single cycle datapath, then it is non-pipelined machine.
 
+In non-pipelined implementation, 1 clock cycle is the time taken for one instruction execution.
+
+In pipelined implementation, 1 clock cycle is the time taken for one stage execution in an instruction.
 
 The speed up of PL over non-PL on n-instructions,
 $$
 \text{Speed up of PL over non-PL} = \frac{\text{Non-PL execution time}}{\text{PL execution time}}
 $$
 
+> [!tip] 
 > If there is no information regarding the number of instructions $n$, then $n$ can be considered as larger number of instructions.
-
 
 ## MIPS Pipeline
 
@@ -65,7 +69,7 @@ If a stage is idle in a pipelined architecture, then it called a **pipeline bubb
 Any condition which creates a stall is called an Hazard.
 
 There are 3 types of Hazards
-1. Structural Hazard
+1. [[Structural Hazards in Pipeline|Structural Hazard]]
 2. [[Data Hazards in Pipeline|Data Hazard]]
 3. Control Hazard
 

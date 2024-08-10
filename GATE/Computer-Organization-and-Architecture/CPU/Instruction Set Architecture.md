@@ -253,7 +253,7 @@ CISC instructions are shorter and complex (close to high-level languages), in wh
 
 RISC instructions are long and broken into simpler instructions that makes the task of hardware simpler. RISC instructions also requires less transistors of hardware space, leaving room to more general purpose registers and is generally lower power. It is used in *modern computers*.
 
-A complex instruction may take the same amount of time as the equivalent simpler instructions, but since all the instructions execute in a uniform time, pipelining can be used as a leverage to reduce execution time in RISC architecture. 
+A complex instruction may take the same amount of time as the equivalent simpler instructions, but since all the instructions execute in a uniform time, [[Pipeline|pipelining]] can be used as a leverage to reduce execution time in RISC architecture. 
 
 **Performance Equation :**
 
