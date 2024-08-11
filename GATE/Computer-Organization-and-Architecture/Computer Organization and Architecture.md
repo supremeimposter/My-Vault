@@ -37,6 +37,7 @@ tags:
 - [[Pipeline]]
 - [[Data Hazards in Pipeline]]
 - [[Structural Hazards in Pipeline]]
+- [[Control Hazards in Pipeline]]
 
 > [!youtube] 
 > [Pipeline - Complete Playlist | Hazards in Pipeline | Computer Organization & Architecture | GO Classes Pipeline Playlist - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhs9DfAY9ry6XbjGn7ZumZ8)

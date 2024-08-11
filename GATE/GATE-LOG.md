@@ -136,3 +136,5 @@
 **July 20, 2024** I will also start going interleaving of subjects to further challenge my brain. It forgets and tries to remember the information.
 
 **August 9, 2024** When Deepak sir says, "watch movies after GATE exam", you take that seriously.
+
+**August 11, 2024** From now on , there is no note-taking. Seriously. Its tiresome. I am going to solve a lot of problems and take the screenshots. Thats it. For every thing, I will go back to the annotated slides and note down the page number. I cannot do this anymore. Note-taking is tiring. I will waste a lot of time and I may not find time for enough practice. Its better to just look at annotated notes.

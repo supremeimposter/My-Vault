@@ -24,7 +24,22 @@ In pipelined architecture, the hardware is split into separate stages according 
 
 If the instruction fetch of an instruction is denoted as $F_{i}$ and the instruction execution is denoted as $E_{i}$, then the basic idea of the instruction pipelining is given below.
 
-![[Pipeline-20240810073407814.webp|Basic idea of instruction pipelining]]
+````col
+```col-md
+flexGrow=1
+===
+#### Sequential Execution
+
+![[Pipeline-20240811173231633.webp]]
+```
+```col-md
+flexGrow=1
+===
+#### Pipelined Execution
+
+![[Pipeline-20240811173217355.webp]]
+```
+````
 
 Each stage is responsible for filling out data in the interstage buffers for the next stage. Each cycle includes this operation too.
 
@@ -36,7 +51,8 @@ Based on the requirement of the pipeline, the last stage may have an interstage 
 
 ![[Pipeline-20240810073640919.webp]]
 
-If a machine is said to have a single cycle datapath for an instruction, then it is non-pipelined machine i.e. single cycle execution of instruction. The machie has a single stage non-pipelined processor.
+> [!tip]
+> If a machine is said to have a single cycle datapath for an instruction, then it is non-pipelined machine i.e. **single cycle execution of instruction**. The machie has a single stage non-pipelined processor.
 
 ## Performance Analysis of Pipelines
 
@@ -46,7 +62,11 @@ In an ideal pipelined CPU, the interstage buffers have no latency, but in realit
 
 The **speed up** of PL over non-PL on n-instructions,
 $$
-\text{Speed up of PL over non-PL} = \frac{\text{Non-PL execution time}}{\text{PL execution time}}
+\begin{split}
+\text{Speed up of PL over non-PL} 
+&= \frac{\text{Non-PL execution time}}{\text{PL execution time}} \\
+&= \frac{\text{CPI}_{\text{non-PL}} \times \text{Cycle Time}_{\text{non-PL}}} {\text{CPI}_{\text{PL}} \times \text{Cycle Time}_{\text{PL}}}
+\end{split}
 $$
 
 > [!tip] 
@@ -76,7 +96,7 @@ For very large number $y$ of instructions,
 
 ![[Pipeline-20240810132518095.webp]]
 
-In ideal conditions, the speed up of a PL processor over a non-PL is equal to the number of stages in a pipeline.
+In ideal conditions, the speed up of a PL processor over a non-PL is equal to the number of stages in a PL processor.
 
 ![[Pipeline-20240810133054205.webp]]
 
@@ -86,7 +106,7 @@ In a real pipeline, each stage may have different cycle time and there are laten
 
 ![[Pipeline-20240810133142001.webp]]
 
-Time taken for 1 clock cycle in a real PL processor is,
+Cycle time in a real PL processor is,
 $$
 \text{Cycle time} = \text{max} (\text{Stage latency} + \text{Register latency})
 $$
@@ -134,7 +154,8 @@ If $T_{1}$ is the time taken for a single instruction in a pipelined processor a
 
 > [!example] 
 > ![[Pipeline-20240810232419000.webp]]
-
+> 
+> ![[Pipeline-20240811113342660.webp]]
 
 ## Types of Pipeline
 
@@ -145,13 +166,15 @@ There are two types of pipeline,
 Every insruction goes through all the stages in a simple **In-order pipeline**. For example, Memory access stage will not be skipped even if all the data are available in the registers. The instruction spends a cycle in memory access stage.
 In-order pipeline fetch/execute instructions in the program order.
 
-**Out-of-order pipeline** *(not in our syllabus)* fetch execute instructions in the program order, but may execute them out of order of the program.
+**Out-of-order pipeline** *(not in our syllabus)* fetch execute instructions in the program order, but may execute them out of order of the program. [mod-4/lec-04.pdf Pg. No. 78-92]
 
 > The pipeline in our syllabus is a simple single-issue and in-order pipeline.
 
 ## MIPS Pipeline
 
 MIPS pipeline is used in RISC architectures.
+
+![[Pipeline-20240811150904929.webp]]
 
 ![[Pipeline-20240810114421580.webp]]
 
@@ -172,18 +195,22 @@ There are two types of implementation with respect register read/write.
 
 ## Hazards
 
-If a stage is idle for (one or more) cycles in a pipelined architecture, then it called a **pipeline bubble** or **stall**.
+If a stage is idle for (one or more) cycles in a pipelined processor, then it called a **pipeline bubble** or **stall**.
 
 Each instruction goes through all the stages and each stage takes certain number of clock cycles to complete, lets say $k$ cycles for a stage,
 
 1. For an ideal pipeline, for every $k$ cycles we get one instruction executed (except for the first instruction) i.e. $\text{CPI} = k$.
-2. If there are stalls in the pipeline, then $\text{CPI} \gt k$.
+2. But for real pipelines, there will be stalls in the pipeline, then $\text{CPI} \gt k$.
 
-Any condition which creates a stall or bubble is called an **Hazard**.
+Any condition which creates a stall or bubble in the pipeline is called an **Hazard**. Hazards complicate pipeline control and limit performance.
 
-There are 3 types of Hazards:
+Hazards do not occur in non-pipelined processor.
+
+There are 3 types of Hazards in a pipeline:
 	1. [[Structural Hazards in Pipeline|Structural Hazard]]
 	2. [[Data Hazards in Pipeline|Data Hazard]]
-	3. Control Hazard
+	3. [[Control Hazards in Pipeline|Control Hazard]]
+
+![[Pipeline-20240811170757764.webp]]
 
 ---

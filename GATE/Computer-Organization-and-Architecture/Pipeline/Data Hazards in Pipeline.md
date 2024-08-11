@@ -5,7 +5,7 @@ lecture:
 date: 2024-08-08
 version:
   - COA-24
-last-revision: 2024-08-10T08:56:00
+last-revision: 2024-08-11T08:56:00
 notes-taken: true
 tags:
   - ComputerOrganizationAndArchitecture/Pipeline
@@ -96,7 +96,7 @@ WAW and WAR data dependency never create any problem (stalls) in single issue in
 
 Only RAW hazards are possible in single issue in-order pipelines. Also not all RAW data dependencies are hazards in any pipeline.
 
-WAW and WAR data hazards are possible in out-of-order pipelines, but they can be completely eliminated algorithmically.
+WAW and WAR data hazards are possible in out-of-order pipelines (super-scalar pipelines), but they can be completely eliminated algorithmically using register renaming.
 
 > [!question] How to find if a data dependency is an hazard?
 > Just do the normal pipeline execution without any stalls and check if there is any problem.
@@ -154,6 +154,9 @@ There are two ways to handle data hazards,
 
 Sometimes a combination of both stall and forwarding can be used to handle data hazards.
 
+> [!tip] 
+> RAW data dependency is not 100% resolvable.
+
 ### Stall
 
 Stall can be achieved by either hardware or software (compiler). 
@@ -167,6 +170,15 @@ Compiler can attempt to re-order instructions to perform useful tasks in NOP slo
 > [!example] 
 > ![[Data Hazards in Pipeline-20240810140842698.webp]]
 > ![[Data Hazards in Pipeline-20240810140913042.webp]]
+
+> [!example] 
+> There is a cache miss for the second instruction. It takes 3 more cycles to fetch the instruction.
+> 
+> ![[Structural Hazards in Pipeline-20240811180202623.webp]]
+> 
+> Once a bubble is created as a result of a delay in one of the pipeline stages, a bubble moves downstream until it reaches it reaches the last stage.
+> 
+> ![[Structural Hazards in Pipeline-20240811180217752.webp]]
 
 ### Forwarding
 
