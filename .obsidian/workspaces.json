@@ -531,12 +531,12 @@
                 }
               },
               {
-                "id": "affbc536c9bb6c7c",
+                "id": "5004d7a49000df16",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -544,12 +544,12 @@
                 }
               },
               {
-                "id": "5004d7a49000df16",
+                "id": "29db2e755ea78698",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Control Hazards in Pipeline.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -568,9 +568,22 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "906c115f961fc03c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -645,7 +658,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -662,7 +675,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -686,7 +699,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md"
+                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md"
                   }
                 }
               },
@@ -754,8 +767,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "d860598727f462a8",
-      "mtime": "2024-08-09T10:12:02+05:30"
+      "active": "906c115f961fc03c",
+      "mtime": "2024-08-11T22:53:55+05:30"
     },
     "DL": {
       "main": {

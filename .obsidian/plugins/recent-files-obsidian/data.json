@@ -1,24 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Data Hazards in Pipeline",
-      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md"
-    },
-    {
       "basename": "Structural Hazards in Pipeline",
       "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md"
     },
     {
-      "basename": "10-08-2024",
-      "path": "Journal/10-08-2024.md"
+      "basename": "11-08-2024",
+      "path": "Journal/11-08-2024.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Control Hazards in Pipeline",
+      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Control Hazards in Pipeline.md"
+    },
+    {
+      "basename": "Data Hazards in Pipeline",
+      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE/GATE-LOG.md"
     },
     {
       "basename": "Pipeline",
       "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md"
     },
     {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+      "basename": "Temporary Plan",
+      "path": "GATE/Temporary Plan.md"
+    },
+    {
+      "basename": "10-08-2024",
+      "path": "Journal/10-08-2024.md"
     },
     {
       "basename": "Instruction Execution Cycle",
@@ -31,14 +47,6 @@
     {
       "basename": "Instruction Set Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE/GATE-LOG.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "GATE/Temporary Plan.md"
     },
     {
       "basename": "Cache Memory",
@@ -191,14 +199,6 @@
     {
       "basename": "Laws of Boolean Algebra",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
-    },
-    {
-      "basename": "Set Definition",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Set Definition.md"
-    },
-    {
-      "basename": "Set Operations",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Set Operations.md"
     }
   ],
   "omittedPaths": [
