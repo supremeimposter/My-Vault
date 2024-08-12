@@ -179,6 +179,9 @@ Compiler can attempt to re-order instructions to perform useful tasks in NOP slo
 > Once a bubble is created as a result of a delay in one of the pipeline stages, a bubble moves downstream until it reaches it reaches the last stage.
 > 
 > ![[Structural Hazards in Pipeline-20240811180217752.webp]]
+> 
+>> [!observation] 
+>> We are not counting those bubbles that moves to the subsequent stages. Only that one stage that stays to pick the correct value.
 
 ### Forwarding
 

@@ -138,3 +138,5 @@
 **August 9, 2024** When Deepak sir says, "watch movies after GATE exam", you take that seriously.
 
 **August 11, 2024** From now on , there is no note-taking. Seriously. Its tiresome. I am going to solve a lot of problems and take the screenshots. Thats it. For every thing, I will go back to the annotated slides and note down the page number. I cannot do this anymore. Note-taking is tiring. I will waste a lot of time and I may not find time for enough practice. Its better to just look at annotated notes.
+
+**August 12, 2024** Taking notes during the 2nd revision kind of works, but still it takes a lot of time and I am not 100% sure which to leave and which to take. Better I revise straight from the pdfs from now on. It seems like it will be better than taking notes. I cannot waste this 2nd attempt taking redundant notes. Whatever notes I am taking, it is redundant. Maybe I will use topper notes for short notes and keep revising. By avoiding taking notes, I save a ton of time which I can use in practicing pyqs and doing test series.
