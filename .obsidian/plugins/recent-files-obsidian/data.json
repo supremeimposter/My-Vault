@@ -5,32 +5,40 @@
       "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md"
     },
     {
-      "basename": "11-08-2024",
-      "path": "Journal/11-08-2024.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+      "basename": "12-08-2024",
+      "path": "Journal/12-08-2024.md"
     },
     {
       "basename": "Control Hazards in Pipeline",
       "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Control Hazards in Pipeline.md"
     },
     {
-      "basename": "Data Hazards in Pipeline",
-      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md"
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "GATE/Temporary Plan.md"
     },
     {
       "basename": "GATE-LOG",
       "path": "GATE/GATE-LOG.md"
     },
     {
+      "basename": "Data Hazards in Pipeline",
+      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md"
+    },
+    {
       "basename": "Pipeline",
       "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md"
     },
     {
-      "basename": "Temporary Plan",
-      "path": "GATE/Temporary Plan.md"
+      "basename": "11-08-2024",
+      "path": "Journal/11-08-2024.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
       "basename": "10-08-2024",
@@ -191,14 +199,6 @@
     {
       "basename": "Algebraic Simplification of Boolean Functions",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md"
-    },
-    {
-      "basename": "Boolean Function",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
-    },
-    {
-      "basename": "Laws of Boolean Algebra",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
     }
   ],
   "omittedPaths": [
