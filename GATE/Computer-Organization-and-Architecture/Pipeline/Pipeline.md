@@ -56,7 +56,17 @@ Based on the requirement of the pipeline, the last stage may have an interstage 
 
 ## Performance Analysis of Pipelines
 
-In non-pipelined CPU, each instruction execution may take one (or several) clock cycles. But in pipelined CPU, a single stage execution of an insttruction may take one (or several) clock cycles.
+In non-pipelined CPU, each instruction execution may take one (or several) clock cycles. But in pipelined CPU, a single stage execution of an instruction may take one (or several) clock cycles.
+
+$$
+\text{Instruction Execution Time} = \text{Cycles Per Instruction} \times \text{Cycle Time}
+$$
+
+We don't consider the execution time of the first instruction separately in a very large number of instructions, it does not matter. For every $k$ clock cycles, an instruction gets executed completely. So average instruction execution time is the number of cycles per instruction multiplied by the cycle time.
+
+$$
+\text{Average Instruction Execution Time} = \text{Cycles Per Instruction} \times \text{Cycle Time}
+$$
 
 In an ideal pipelined CPU, the interstage buffers have no latency, but in reality, interstage buffers do have latency.
 
