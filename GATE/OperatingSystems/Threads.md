@@ -11,6 +11,7 @@ tags:
   - OperatingSystems
 ---
 # Threads
+
 - In certain situations, a single application may be required to perform several similar tasks.
 - Threads are about concurrency and parallelism.
 - Head, data, code, files are shared among the threads, whereas stack and registers are NOT shared. [link](https://stackoverflow.com/questions/1762418/what-resources-are-shared-between-threads)

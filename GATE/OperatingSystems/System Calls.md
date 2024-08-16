@@ -1,5 +1,5 @@
 ---
-pdf: lec-2
+pdf: lec-2, cs-110-lec-5
 module: 
 lecture: "2"
 date: 2023-12-21T10:01:00
@@ -21,9 +21,10 @@ CPU has to run all the instructions at the end. When running an instruction, CPU
 In user mode, user is restricted to a subset of operations, whereas in the kernel mode, all the possible operations can be done. User cannot do any critical operations, it has to be done by the kernel through system calls.
 
 > System call is used as an entry point to the kernel.
+
 # System Calls
 
-User can request the OS to run some previliged instruction. It is done through System calls.
+User can request the OS to run some previliged instruction. It is done through a mechanism called System calls.
 
 > [!discussion] 
 > ![[System Calls-20231221115109525.webp]]
@@ -31,3 +32,6 @@ User can request the OS to run some previliged instruction. It is done through S
 
 > [!question] Cases when Program Counter change?
 
+
+
+---
