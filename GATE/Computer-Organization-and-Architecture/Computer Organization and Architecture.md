@@ -84,6 +84,9 @@ tags:
 > 
 > Univserity of Illinois
 > [CS433: Computer Systems Organization](https://courses.grainger.illinois.edu/cs433/fa2020/lectures.html)
+> 
+> Cornell
+> [CS 3410 - Fall 2018 | Schedule](https://www.cs.cornell.edu/courses/cs3410/2018fa/schedule/)
 
 MARIE Online CPU simulator - [MARIE.js | Home](https://marie.js.org/)
 

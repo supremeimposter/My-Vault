@@ -99,7 +99,7 @@ Only RAW hazards are possible in single issue in-order pipelines. Also not all R
 WAW and WAR data hazards are possible in out-of-order pipelines (super-scalar pipelines), but they can be completely eliminated algorithmically using register renaming.
 
 > [!question] How to find if a data dependency is an hazard?
-> Just do the normal pipeline execution without any stalls and check if there is any problem.
+> Just do the normal pipeline execution without any stalls or forwarding and check if there is any problem.
 
 > [!example] 
 >> [!problem] 
@@ -183,7 +183,7 @@ Compiler can attempt to re-order instructions to perform useful tasks in NOP slo
 >> [!observation] 
 >> We are not counting those bubbles that moves to the subsequent stages. Only that one stage that stays to pick the correct value.
 
-### Forwarding
+### Operand Forwarding
 
 If the required *operand* is available at some place, then bypass/forward it to the required stage in the pipeline. Required operand can be forwarded from any stage to any other stage i.e. full forwarding.
 
@@ -194,23 +194,5 @@ If the required *operand* is available at some place, then bypass/forward it to 
 >> ![[Data Hazards in Pipeline-20240810195601375.webp]]
 >
 > ![[Data Hazards in Pipeline-20240810201239289.webp]]
-
-> [!example] 
->> [!problem] 
->> ![[Data Hazards in Pipeline-20240810201434791.webp]]
-> 
->> Handling hazard using forwarding
->
-> ![[Data Hazards in Pipeline-20240810201633248.webp]]
-> 
->> Handling hazard using stall with split phase implementation
->
-> ![[Data Hazards in Pipeline-20240810201644842.webp]]
->
->> Using software (compiler), two cycle delay can be introduced between instructions $I_{1}$ and $I_{2}$ using NOP (No operation) instruction.
->
-> ![[Data Hazards in Pipeline-20240810214210961.webp]]
-> 
-> ![[Data Hazards in Pipeline-20240810222356986.webp]]
 
 ---

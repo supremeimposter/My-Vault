@@ -20,7 +20,7 @@ Pipelining is an implementation technique in which multiple instructions are ove
 
 If there is no pipelining, then the entire hardware is one atomic entity i.e. there is no splitting of hardware. The work for a single input will take the complete time. There is no parallelism in non-pipelined architecture.
 
-In pipelined architecture, the hardware is split into separate stages according to its operations and the operations are performed parallely. Pipelining is easy to implement in RISC architecture.
+In pipelined architecture, the hardware is split into separate stages according to its operations and the operations are performed parallely. Pipelining is easy to implement in **RISC architecture**.
 
 If the instruction fetch of an instruction is denoted as $F_{i}$ and the instruction execution is denoted as $E_{i}$, then the basic idea of the instruction pipelining is given below.
 
@@ -112,7 +112,7 @@ In ideal conditions, the speed up of a PL processor over a non-PL is equal to th
 
 **Real Pipeline**
 
-In a real pipeline, each stage may have different cycle time and there are latencies for registers.
+In a real pipeline, each stage may have different cycle time and there are latencies for registers and there will be stalls because of hazards.
 
 ![[Pipeline-20240810133142001.webp]]
 
@@ -128,14 +128,21 @@ $$
 
 > [!summary] 
 
+In an ideal pipeline, there are no stalls and sometimes there are no buffer latencies.
+
 For a <mark class="hltr-red">single instruction</mark>, a non-pipelined CPU has lower latency than a pipelined CPU, since there are additional register delays in pipelined CPU whereas there are no such registers in non-pipelined CPUs.
 
 A pipelined CPU has its advantages when there are <mark class="hltr-cyan">large number of instructions</mark>, where for every $k$ cycles an instruction has been executed i.e. $\text{CPI} = k$.
 
-If $T_{1}$ is the time taken for a single instruction in a pipelined processor and $T_{2}$ is the time taken for a single instruction in the same processor but non-pipelined, then $T_{1} \ge T_{2}$, since there are interstage buffers and they may have additional latencies.
+If $T_{1}$ is the time taken for a <mark class="hltr-pink">single instruction</mark> in a pipelined processor and $T_{2}$ is the time taken for a single instruction in the same processor but non-pipelined, then $T_{1} \ge T_{2}$, since there are interstage buffers and they may have additional latencies.
 
 1. $T_{1} = T_{2}$ if the pipeline is ideal
 2. $T_{1} \gt T_{2}$ if the pipeline is not ideal
+
+Since most of the programs contains many instructions, a pipelined processor has its advantages. There can be programs with just a single insruction in very rare cases, thats where a non-pipelined instruction has its advantage.
+
+> [!link] 
+> [Instruction Pipelining](https://web.archive.org/web/20160324083651/http://www.cs.wvu.edu/~jdm/classes/cs455/notes/tech/instrpipe.html)
 
 ---
 
@@ -149,7 +156,7 @@ If $T_{1}$ is the time taken for a single instruction in a pipelined processor a
 > 
 > ![[Pipeline-20240810094500593.webp]]
 > 
-> Since n is very large, $\frac{n}{4+n-1} \approx 1$
+> Since n is very large, $\frac{n}{4+n-1} = 0.99975424\cdots \approx 1$
 
 > [!example] 
 > ![[Pipeline-20240810130352074.webp]]
@@ -159,8 +166,11 @@ If $T_{1}$ is the time taken for a single instruction in a pipelined processor a
 > 
 > ![[Pipeline-20240810131150027.webp]]
 > ![[Pipeline-20240810131658949.webp]]
+> 
 > Stage-4 pipeline takes less time than stage-5 pipeline for a single instruction.
 > For large number of instructions, stage-5 pipeline executes an instruction for every $3\,\text{ns}$, whereas stage-4 pipeline executes an instruction for every $3.1\,\text{ns}$.
+> 
+> $\therefore$ Stage-5 PL is better than stage-4 PL for a large number of instructions.
 
 > [!example] 
 > ![[Pipeline-20240810232419000.webp]]
@@ -201,7 +211,7 @@ There are two types of implementation with respect register read/write.
 | In the second half of the cycle, the register has been read<br> | In the second half of the cycle, the register has been written<br> |
 
 > [!attention] 
-> Don't assume split phase implementation by default. The type of implementation will be mentioned in the exam.
+> By default do not take the split phase. Take the other one if there is no information on implementation.
 
 ## Hazards
 
