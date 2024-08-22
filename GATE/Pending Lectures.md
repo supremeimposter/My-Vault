@@ -78,7 +78,11 @@
 - [ ] Setup and Hold Time in Flip flops
 
 # [[Computer Organization and Architecture]]
-- [ ] [Pipeline - Complete Playlist | Hazards in Pipeline | Computer Organization & Architecture | GO Classes Pipeline Playlist - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhs9DfAY9ry6XbjGn7ZumZ8)
+- [x] [Pipeline - Complete Playlist | Hazards in Pipeline | Computer Organization & Architecture | GO Classes Pipeline Playlist - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhs9DfAY9ry6XbjGn7ZumZ8)
+- [ ] Stale Data in Cache
+- [ ] Cache coherence
+- [ ] DMA
+- [ ] I/O (Interrupts)
 
 # [[Algorithms]]
 - [ ] [GATE 2007 question on DAG finish time - YouTube](https://www.youtube.com/watch?v=rpI-7pWguKo)
@@ -101,6 +105,6 @@ Revision sessions
 - [ ] [Available Expression Analysis, Common Subexpression Elimination, Copy Propagation - YouTube](https://www.youtube.com/watch?v=oBAqib3LDi4)
 
 # Operating Systems
-- [ ] [Marathon: Operating Systems | Thread, System Call, Context Switch in Detail with ALL PYQs | In-Depth - YouTube](https://www.youtube.com/watch?v=Ywqjv0_uh0U)
+- [x] [Marathon: Operating Systems | Thread, System Call, Context Switch in Detail with ALL PYQs | In-Depth - YouTube](https://www.youtube.com/watch?v=Ywqjv0_uh0U)
 - [ ] [Marathon: Operating Systems | Synchronisation and Critical Section | Peterson's Solution | MANY PYQs - YouTube](https://www.youtube.com/watch?v=89t-X0SdWw0)
 - [ ] [Operating Systems GATE PYQs, Revision Playlist - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHixlIaarIXGPy-eggJQMxd_)

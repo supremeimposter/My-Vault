@@ -10,7 +10,7 @@ notes-taken: false
 tags:
   - ComputerOrganizationAndArchitecture/CacheMemory
 ---
-# Set Associate Cache
+# Set Associative Cache
 
 - In set associative, a block can be placed anywhere within a set of locations in the cache.
 

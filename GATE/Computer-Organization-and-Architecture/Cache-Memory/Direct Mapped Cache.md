@@ -14,12 +14,12 @@ tags:
 
 - Each main memory address maps to exactly one cache block.
 - In direct-mapped cache, each memory block maps to exactly one cache line.
-- Block $j$ of main memory is mapped to $j \:\%\: n$ of the cache, if the cache has $n$ blocks.
+- Block $j$ of main memory is mapped to $j \:\%\: n$ line of the cache, if the cache has $n$ blocks or lines.
 
 - Blocks are fixed for each cache in direct mapped cache.
 
 $$
-\text{Cache block} = \text{(Main memory Block)} \,\%\, \text{(Number of cache block)}
+\text{Cache Line} = \text{(Main memory Block)} \,\%\, \text{(Number of cache blocks)}
 $$
 
 $$
@@ -89,6 +89,7 @@ $$
 > Address of $10^{\text{th}}$ byte = $(4 * 4) + 2 = 10$
 
 **Tag** is the ratio of size between main memory and cache memory.
+Tag tells which of the main memory blocks maps to each of the cache line.
 $$
 \text{Tag} = \frac{\text{Size of main memory}}{\text{Size of cache memory}}
 $$
@@ -96,6 +97,8 @@ If $t$ is the number of bits to represent tag in memory address,
 $$
 \text{Size of main memory} = 2^{\text{t}} \ast \text{Size of cache memory}
 $$
+
+Every cache line is mapped one of the $2^t$ main memory blocks.
 
 The physical address of a byte in main memory is divided into 3 components,
 1. Tag 
@@ -121,3 +124,11 @@ The below diagram consideres only the block number part of the address for more 
 ![[Direct Mapped Cache-20240805161509386.webp]]
 
 ---
+
+Block conflict is when the blocks that are mapped to the same cache line is selected.
+
+A main memory is either byte or word addressable and each block consists of a unit of data either in a byte or a word.
+
+For two different blocks having the same line number, they cannot have the same tag number. For each of the cache line, one of the different main memory blocks are mapped.
+
+![[Direct Mapped Cache-20240822105329982.webp]]

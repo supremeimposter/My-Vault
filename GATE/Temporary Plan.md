@@ -1,10 +1,10 @@
 May = LA
 Jun = DL
 Jul = DBMS, COA
-Aug = COA, OS, Set theory, C
-Sep = DS, Algo, DBMS, TOC
-Oct = TOC, CD, CN, Combinatronics
+Aug = COA, OS, Set theory
+Sep = C, DS, Algo, DBMS, TOC
+Oct = TOC, CD, CN, Combinatronics, DBMS
 Nov = Combinatronics, Graph Theory, Logic
-Nov-16th = revision, practice, Probability, Calculus
-Dec = revision, practice, pending COA
+Nov-16th = Probability, Calculus
+Dec = revision, practice
 Jan = revision, practice

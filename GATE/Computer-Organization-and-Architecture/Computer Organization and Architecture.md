@@ -30,7 +30,7 @@ tags:
 
 - [[Cache Memory]]
 - [[Direct Mapped Cache]]
-- [[Associate Cache]]
+- [[Associative Cache]]
 
 ## Module 4 - Pipeline
 
