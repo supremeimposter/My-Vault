@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a979cb9d9bf15c0b",
+            "id": "a9d2b2a0c148a941",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+                "file": "GATE/OperatingSystems/Operating Systems.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "5004d7a49000df16",
+            "id": "4e4a478d3ef43b69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md",
+                "file": "GATE/OperatingSystems/Threads.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "29db2e755ea78698",
+            "id": "a12dbd07e18de33e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Control Hazards in Pipeline.md",
+                "file": "GATE/OperatingSystems/Process in Operating Systems.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,12 +49,12 @@
             }
           },
           {
-            "id": "d860598727f462a8",
+            "id": "d11571f12e34c437",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md",
+                "file": "GATE/OperatingSystems/System Calls.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,12 +62,12 @@
             }
           },
           {
-            "id": "906c115f961fc03c",
+            "id": "c2ebd6e8700a89e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
+                "file": "GATE/OperatingSystems/Introduction to Operating Systems.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -75,7 +75,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
+                "file": "GATE/OperatingSystems/Threads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
+                "file": "GATE/OperatingSystems/Threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md"
+                "file": "GATE/OperatingSystems/Threads.md"
               }
             }
           },
@@ -255,49 +255,49 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "workspaces:Manage workspace layouts": false,
-      "map-of-content:Update Map of Content": false
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "906c115f961fc03c",
+  "active": "4e4a478d3ef43b69",
   "lastOpenFiles": [
-    "Journal/12-08-2024.md",
-    "GATE/Computer-Organization-and-Architecture/Pipeline/Control Hazards in Pipeline.md",
-    "attachments/Control Hazards in Pipeline-20240812235318896.webp",
-    "attachments/Control Hazards in Pipeline-20240812234950102.webp",
-    "attachments/Control Hazards in Pipeline-20240812234554164.webp",
-    "attachments/Control Hazards in Pipeline-20240812232818708.webp",
-    "GATE/DatabaseManagementSystem/Database Management System.md",
-    "GATE/Temporary Plan.md",
-    "GATE/GATE-LOG.md",
+    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associative Cache.md",
+    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
+    "GATE/Pending Lectures.md",
+    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
+    "attachments/Direct Mapped Cache-20240822105329982.webp",
+    "attachments/Cache Memory-20240821222209939.webp",
     "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md",
+    "GATE/Computer-Organization-and-Architecture/Pipeline/Control Hazards in Pipeline.md",
+    "GATE/OperatingSystems/Threads.md",
+    "GATE/OperatingSystems/Operating Systems.md",
+    "GATE/OperatingSystems/System Calls.md",
+    "GATE/Temporary Plan.md",
+    "GATE/OperatingSystems/Process in Operating Systems.md",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
     "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md",
     "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
+    "attachments/Process in Operating Systems-20240818225012515.webp",
+    "attachments/Process in Operating Systems-20240818102135960.webp",
+    "attachments/Process in Operating Systems-20240818102118454.webp",
+    "attachments/Process in Operating Systems-20240818102110272.webp",
+    "GATE/OperatingSystems/Introduction to Operating Systems.md",
+    "Journal/17-08-2024.md",
+    "Journal/16-08-2024.md",
+    "Journal/13-08-2024.md",
+    "attachments/Process in Operating Systems-20240815111927484.webp",
+    "Journal/14-08-2024.md",
+    "Project Euler/Problem 1.md",
+    "attachments/Process in Operating Systems-20240814201255709.webp",
+    "attachments/Process in Operating Systems-20240814075918320.webp",
+    "attachments/Process in Operating Systems-20240814075855705.webp",
+    "GATE/Digital-Logic/Sequential Circuits/D Flip Flop.md",
+    "GATE/Digital-Logic/Sequential Circuits/SR Flip Flop.md",
+    "Journal/12-08-2024.md",
+    "GATE/GATE-LOG.md",
     "Journal/11-08-2024.md",
-    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "attachments/Structural Hazards in Pipeline-20240811180217752.webp",
-    "attachments/Structural Hazards in Pipeline-20240811180202623.webp",
-    "attachments/Pipeline-20240811173231633.webp",
-    "attachments/Pipeline-20240811173217355.webp",
-    "attachments/Pipeline-20240811170757764.webp",
-    "attachments/Structural Hazards in Pipeline-20240811151347795.webp",
-    "Journal/10-08-2024.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
-    "Journal/09-08-2024.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
-    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
-    "GATE/Guidelines to GATE-CS.md",
-    "Journal/08-08-2024.md",
-    "Journal/2024-W32.md",
-    "Journal/07-08-2024.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
     "Journal/Study-sessions",
-    "Journal/06-08-2024.md",
-    "Journal/05-08-2024.md",
     "GATE/Computer-Organization-and-Architecture/Pipeline",
-    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md",
-    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
-    "Journal/04-08-2024.md",
     "Journal",
     "Philosophy and General Thoughts",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",

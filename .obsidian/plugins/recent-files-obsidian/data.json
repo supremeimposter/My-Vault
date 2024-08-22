@@ -1,44 +1,108 @@
 {
   "recentFiles": [
     {
-      "basename": "Structural Hazards in Pipeline",
-      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md"
+      "basename": "Threads",
+      "path": "GATE/OperatingSystems/Threads.md"
     },
     {
-      "basename": "12-08-2024",
-      "path": "Journal/12-08-2024.md"
+      "basename": "Associative Cache",
+      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associative Cache.md"
     },
     {
-      "basename": "Control Hazards in Pipeline",
-      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Control Hazards in Pipeline.md"
+      "basename": "Cache Memory",
+      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
     },
     {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+      "basename": "Pending Lectures",
+      "path": "GATE/Pending Lectures.md"
     },
     {
-      "basename": "Temporary Plan",
-      "path": "GATE/Temporary Plan.md"
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
-      "basename": "GATE-LOG",
-      "path": "GATE/GATE-LOG.md"
+      "basename": "Direct Mapped Cache",
+      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
     },
     {
       "basename": "Data Hazards in Pipeline",
       "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md"
     },
     {
+      "basename": "Control Hazards in Pipeline",
+      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Control Hazards in Pipeline.md"
+    },
+    {
+      "basename": "Operating Systems",
+      "path": "GATE/OperatingSystems/Operating Systems.md"
+    },
+    {
+      "basename": "System Calls",
+      "path": "GATE/OperatingSystems/System Calls.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "GATE/Temporary Plan.md"
+    },
+    {
+      "basename": "Process in Operating Systems",
+      "path": "GATE/OperatingSystems/Process in Operating Systems.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
       "basename": "Pipeline",
       "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md"
     },
     {
-      "basename": "11-08-2024",
-      "path": "Journal/11-08-2024.md"
+      "basename": "Structural Hazards in Pipeline",
+      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md"
     },
     {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+      "basename": "Introduction to Operating Systems",
+      "path": "GATE/OperatingSystems/Introduction to Operating Systems.md"
+    },
+    {
+      "basename": "17-08-2024",
+      "path": "Journal/17-08-2024.md"
+    },
+    {
+      "basename": "16-08-2024",
+      "path": "Journal/16-08-2024.md"
+    },
+    {
+      "basename": "13-08-2024",
+      "path": "Journal/13-08-2024.md"
+    },
+    {
+      "basename": "14-08-2024",
+      "path": "Journal/14-08-2024.md"
+    },
+    {
+      "basename": "Problem 1",
+      "path": "Project Euler/Problem 1.md"
+    },
+    {
+      "basename": "D Flip Flop",
+      "path": "GATE/Digital-Logic/Sequential Circuits/D Flip Flop.md"
+    },
+    {
+      "basename": "SR Flip Flop",
+      "path": "GATE/Digital-Logic/Sequential Circuits/SR Flip Flop.md"
+    },
+    {
+      "basename": "12-08-2024",
+      "path": "Journal/12-08-2024.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE/GATE-LOG.md"
+    },
+    {
+      "basename": "11-08-2024",
+      "path": "Journal/11-08-2024.md"
     },
     {
       "basename": "10-08-2024",
@@ -55,10 +119,6 @@
     {
       "basename": "Instruction Set Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
-    },
-    {
-      "basename": "Cache Memory",
-      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
     },
     {
       "basename": "Guidelines to GATE-CS",
@@ -87,14 +147,6 @@
     {
       "basename": "05-08-2024",
       "path": "Journal/05-08-2024.md"
-    },
-    {
-      "basename": "Associate Cache",
-      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associate Cache.md"
-    },
-    {
-      "basename": "Direct Mapped Cache",
-      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
     },
     {
       "basename": "04-08-2024",
@@ -147,58 +199,6 @@
     {
       "basename": "30-07-2024",
       "path": "Journal/30-07-2024.md"
-    },
-    {
-      "basename": "Memory Interfacing and Expansion",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
-    },
-    {
-      "basename": "System Bus",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md"
-    },
-    {
-      "basename": "Introduction to COA",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
-    },
-    {
-      "basename": "29-07-2024",
-      "path": "Journal/29-07-2024.md"
-    },
-    {
-      "basename": "28-07-2024",
-      "path": "Journal/28-07-2024.md"
-    },
-    {
-      "basename": "daily-notes-template",
-      "path": "templates/daily-notes-template.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE/GATE-CS.md"
-    },
-    {
-      "basename": "26-07-2024",
-      "path": "Journal/26-07-2024.md"
-    },
-    {
-      "basename": "24-07-2024",
-      "path": "Journal/24-07-2024.md"
-    },
-    {
-      "basename": "Standard and Canonical Forms of Boolean Expressions",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
-    },
-    {
-      "basename": "Minimization using K Map",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
-    },
-    {
-      "basename": "Algebraic Simplification of Boolean Functions",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md"
     }
   ],
   "omittedPaths": [

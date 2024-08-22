@@ -531,12 +531,12 @@
                 }
               },
               {
-                "id": "5004d7a49000df16",
+                "id": "e24d06d695824fa4",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associative Cache.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -544,12 +544,12 @@
                 }
               },
               {
-                "id": "29db2e755ea78698",
+                "id": "76402774cbced07d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Control Hazards in Pipeline.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -557,25 +557,12 @@
                 }
               },
               {
-                "id": "d860598727f462a8",
+                "id": "781412b454c586b8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "906c115f961fc03c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -583,7 +570,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -658,7 +645,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associative Cache.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -675,7 +662,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associative Cache.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -699,7 +686,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md"
+                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associative Cache.md"
                   }
                 }
               },
@@ -767,8 +754,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "906c115f961fc03c",
-      "mtime": "2024-08-11T22:53:55+05:30"
+      "active": "e24d06d695824fa4",
+      "mtime": "2024-08-22T18:35:54+05:30"
     },
     "DL": {
       "main": {
@@ -1020,7 +1007,271 @@
       },
       "active": "95a4716baad89024",
       "mtime": "2024-07-23T11:09:08+05:30"
+    },
+    "OS": {
+      "main": {
+        "id": "21c87e6fab086ae1",
+        "type": "split",
+        "children": [
+          {
+            "id": "0db92b6a93445326",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a9d2b2a0c148a941",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/OperatingSystems/Operating Systems.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "4e4a478d3ef43b69",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/OperatingSystems/Threads.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a12dbd07e18de33e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/OperatingSystems/Process in Operating Systems.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "d11571f12e34c437",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/OperatingSystems/System Calls.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c2ebd6e8700a89e9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/OperatingSystems/Introduction to Operating Systems.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "447c3cf29e385729",
+        "type": "split",
+        "children": [
+          {
+            "id": "a1c6d5c6e7c6aea0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "80784521bca5ca54",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "885564d7ad2cc180",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "2bf0657860158803",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "25fb3027bb42d785",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 267.5
+      },
+      "right": {
+        "id": "fb0455d62c4f6c20",
+        "type": "split",
+        "children": [
+          {
+            "id": "e047f71d444b979e",
+            "type": "tabs",
+            "dimension": 66.4,
+            "children": [
+              {
+                "id": "4de834b516a58502",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "GATE/OperatingSystems/Threads.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "8ba157ab7f239193",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "GATE/OperatingSystems/Threads.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "40d15956871d0fde",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  }
+                }
+              },
+              {
+                "id": "8488c56ed1a27af9",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "GATE/OperatingSystems/Threads.md"
+                  }
+                }
+              },
+              {
+                "id": "13c145e73a31e17b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "2ec29c1e38047089",
+                "type": "leaf",
+                "state": {
+                  "type": "mermaid-toolbar-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "64e722562ef2ff69",
+                "type": "leaf",
+                "state": {
+                  "type": "journal-calendar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "5df95600f2476df0",
+            "type": "tabs",
+            "dimension": 33.6,
+            "children": [
+              {
+                "id": "537addfb8bc17cc8",
+                "type": "leaf",
+                "state": {
+                  "type": "map-of-content",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 336.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "darlal-switcher-plus:Open in Headings Mode": false,
+          "darlal-switcher-plus:Open Symbols for the active editor": false,
+          "mermaid-tools:Open Mermaid Toolbar": false,
+          "workspaces:Manage workspace layouts": false,
+          "map-of-content:Update Map of Content": false
+        }
+      },
+      "active": "4e4a478d3ef43b69",
+      "mtime": "2024-08-21T15:51:06+05:30"
     }
   },
-  "active": "COA"
+  "active": "OS"
 }
