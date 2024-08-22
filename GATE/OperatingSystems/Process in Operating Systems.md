@@ -12,7 +12,6 @@ tags:
 ---
 # Process
 
-
 - Process, informally is a program in execution.
 - When the OS schedules a program for execution, then the program becomes a process.
 - A process contests for resources.
@@ -74,6 +73,17 @@ printf() prints only the logical address, not the physical address.
 
 ![[System Calls-20240813225223858.webp]]
 
+
+> [!example] 
+
+![[Process in Operating Systems-20240818102110272.webp]]
+
+![[Process in Operating Systems-20240818102135960.webp]]
+
+![[Process in Operating Systems-20240818102118454.webp]]
+
+> [!example] 
+
 wait() waits for the child process to finish before proceeding with subsequent statements below wait() in the parent process.
 
 ![[Process in Operating Systems-20231220164740489.webp]]
@@ -114,4 +124,8 @@ Topological sort can be applied to write the possible execution order based on t
 - `exec()` completely replaces the current process with another process.
 - The new process has the same `PID` as the old process.
 
+
+![[Process in Operating Systems-20240818225012515.webp]]
+
+> fork-exec pair is used to create a new process
 
