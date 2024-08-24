@@ -13,24 +13,24 @@
       "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md"
     },
     {
-      "basename": "Pending Lectures",
-      "path": "GATE/Pending Lectures.md"
+      "basename": "Direct Mapped Cache",
+      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
     },
     {
       "basename": "Computer Organization and Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
-      "basename": "Direct Mapped Cache",
-      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
+      "basename": "Control Hazards in Pipeline",
+      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Control Hazards in Pipeline.md"
+    },
+    {
+      "basename": "Pending Lectures",
+      "path": "GATE/Pending Lectures.md"
     },
     {
       "basename": "Data Hazards in Pipeline",
       "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md"
-    },
-    {
-      "basename": "Control Hazards in Pipeline",
-      "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Control Hazards in Pipeline.md"
     },
     {
       "basename": "Operating Systems",
