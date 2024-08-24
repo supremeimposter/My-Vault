@@ -32,6 +32,21 @@ $$
 $$\text{Number of lines} = \frac{\text{Cache size}}{\text{Block size}}$$
 
 ---
-# Fully Associative Cache
+# Associative Cache
 
 - There are no index bits in fully associative cache memory.
+- Block number is same as tag bits.
+
+![[Associative Cache-20240824125344029.webp]]
+
+Direct-mapped = 1 way associative
+As the associativity increases, the tag bits also increases. 
+
+![[Associative Cache-20240824125509899.webp]]
+
+In any cache mapping, only a block in main memory is mapped to a block in cache memory. Associativity plays no role in mapping a block.
+
+
+> Finding out tag for associative cache is different from direct mapped cache.
+
+

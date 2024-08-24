@@ -125,13 +125,6 @@ A block can be place anywhere within a set of locations in a cache
 	- write directly to the main memory - <u>no write allocate</u>
 
 - There is not a problem of data inconsistency in <u>no write allocate</u>, since data is directly written to the main memory i.e. no cache is involved.
- time somewhat, at the expense of more complex
-circuitry.
-When a Write miss occurs in a computer that uses the write-through protocol, the
-information is written directly into the main memory. For the write-back protocol, the
-block containing the addressed word is first brought into the cache, and then the desired
-word in the cache is overwritten with the new information.
-Recall from Section 6.7 that resource limitations in a pipelined process- <u>write back</u> needs a dirty bit.
 
 > [!NOTE] 
 > Any combination of write hit and write miss is possible 
