@@ -32,6 +32,8 @@ tags:
 - [[Direct Mapped Cache]]
 - [[Associative Cache]]
 
+- [[Cache-Memory.canvas|Cache-Memory]]
+
 ## Module 4 - Pipeline
 
 - [[Pipeline]]

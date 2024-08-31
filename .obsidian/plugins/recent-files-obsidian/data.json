@@ -1,12 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "Threads",
-      "path": "GATE/OperatingSystems/Threads.md"
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Relations",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Relations.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Analysis on Some Relations",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Analysis on Some Relations.md"
+    },
+    {
+      "basename": "Set Theory PYQs",
+      "path": "GATE/Pyqs/Set Theory PYQs.md"
+    },
+    {
+      "basename": "GATE PYQs Index",
+      "path": "GATE/Pyqs/GATE PYQs Index.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE/GATE-CS.md"
+    },
+    {
+      "basename": "Temporary Plan",
+      "path": "GATE/Temporary Plan.md"
+    },
+    {
+      "basename": "Set Definition",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Set Definition.md"
+    },
+    {
+      "basename": "Set Operations",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Set Operations.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
       "basename": "Associative Cache",
       "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associative Cache.md"
+    },
+    {
+      "basename": "Cache-Memory",
+      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas"
+    },
+    {
+      "basename": "Synchronization in OS",
+      "path": "GATE/OperatingSystems/Synchronization in OS.md"
+    },
+    {
+      "basename": "Threads",
+      "path": "GATE/OperatingSystems/Threads.md"
+    },
+    {
+      "basename": "Operating Systems",
+      "path": "GATE/OperatingSystems/Operating Systems.md"
+    },
+    {
+      "basename": "Process in Operating Systems",
+      "path": "GATE/OperatingSystems/Process in Operating Systems.md"
     },
     {
       "basename": "Cache Memory",
@@ -15,10 +75,6 @@
     {
       "basename": "Direct Mapped Cache",
       "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
       "basename": "Control Hazards in Pipeline",
@@ -33,20 +89,8 @@
       "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md"
     },
     {
-      "basename": "Operating Systems",
-      "path": "GATE/OperatingSystems/Operating Systems.md"
-    },
-    {
       "basename": "System Calls",
       "path": "GATE/OperatingSystems/System Calls.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "GATE/Temporary Plan.md"
-    },
-    {
-      "basename": "Process in Operating Systems",
-      "path": "GATE/OperatingSystems/Process in Operating Systems.md"
     },
     {
       "basename": "Database Management System",
@@ -121,10 +165,6 @@
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
     },
     {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
-    },
-    {
       "basename": "08-08-2024",
       "path": "Journal/08-08-2024.md"
     },
@@ -159,46 +199,6 @@
     {
       "basename": "Addressing Modes",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
-    },
-    {
-      "basename": "03-08-2024",
-      "path": "Journal/03-08-2024.md"
-    },
-    {
-      "basename": "Registers and Status Flags in CPU",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
-    },
-    {
-      "basename": "02-08-2024",
-      "path": "Journal/02-08-2024.md"
-    },
-    {
-      "basename": "Instruction Format",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
-    },
-    {
-      "basename": "Instruction Type",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
-    },
-    {
-      "basename": "01-08-2024",
-      "path": "Journal/01-08-2024.md"
-    },
-    {
-      "basename": "Clock in Digital Circuits",
-      "path": "GATE/Digital-Logic/Sequential Circuits/Clock in Digital Circuits.md"
-    },
-    {
-      "basename": "31-07-2024",
-      "path": "Journal/31-07-2024.md"
-    },
-    {
-      "basename": "Overflow of Signed and Unsigned Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
-    },
-    {
-      "basename": "30-07-2024",
-      "path": "Journal/30-07-2024.md"
     }
   ],
   "omittedPaths": [

@@ -14,6 +14,7 @@ tags:
 - [[What happens when a system is started?]]
 - [[Process in Operating Systems]]
 - [[Threads]]
+- [[Synchronization in OS]]
 
 
 > [!youtube] 

@@ -26,6 +26,8 @@ tags:
 - [[Aptitude]]
 
 - [[Guidelines to GATE-CS]]
+- [[GATE PYQs Index]]
+
 
 ---
 # References

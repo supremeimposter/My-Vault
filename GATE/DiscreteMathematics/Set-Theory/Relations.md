@@ -13,7 +13,9 @@ tags:
   - DiscreteMath/Sets/Relations
 ---
 # Relations
+
 - Relation is also called as Binary relation as a relation is mostly from one set to another set.
+
 ![[Pasted image 20231011100505.png]]
 
 - Relations is a **set** containing ordered pairs of elements from sets $A$ and $B$.

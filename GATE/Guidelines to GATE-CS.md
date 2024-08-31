@@ -69,7 +69,52 @@ $$
 ## Guidelines to COA
 
 - If the question asks for if there is any hazard, just draw the cycle diagram of normal pipeline execution and see if any problem exists. Don't overdo the problem.
+- Don't assume split phase by default. By default implementation is not split phase.
+
+
+- If the starting address of an array is given, then use it to identify the block number of the starting block of the array in the main memory. The block offset can be used to identify the position of the first element of the array.
+- The starting address of an array may be not be 0 in the main memory. So be careful.
+
+
+---
+
+## Guidelines to Operating Systems
+
+- Look for semicolon at the end of while loops in critical section problems. 
 
 
 
 
+---
+
+## Guidelines to Discrete Mathematics
+
+
+### Guidelines to Set Theory
+
+- Membership operator is only used for a member of a set, and not for the subset of the set.
+- Infinity $\infty$ is never a member of any set. Its not even a number
+- While building a set, do not forget the negative portion.
+- The resultant of the operations on a set is again a set.
+- Dont shade the sets, instead use numbers to represent each area in the venn diagram.
+
+![[Guidelines to GATE-CS-20240830180026648.webp]]
+
+- Mostly use venn diagrams to avoid confusion and time for proofs.
+- Since identities are equalities, in case of doubt a venn-diagram can be helpful.
+- Venn diagrams are not helpful in powerset related identities. Only formal proof techniques are helpful. 
+- Also make use of cardinality of powersets in case equality proofs involving powersets to check the answers solved using formal proof techniques.
+
+- The complement of a set depends on its universal set. Keep that in mind.
+- universal set is similar to True and empty set is similar to false in propositional logic.
+
+- Take a simple set to work on subsets and powersets to avoid confusion and also confirm the results using a non-simple set such as $S = \{ \phi \}$
+
+![[Guidelines to GATE-CS-20240831160352865.webp]]
+
+- Relation is one way and it is just a set of tuples between set(s).
+- Be keen about the base set on which the relation is defined. The term base set is only when the relation is defined on the same set.
+- Relation on a set $A$ is one of the subsets of the set $A$.
+- Every relation on $A$ is a subset of $A$. Every subset of $A$ is a relation on $A$.
+
+---

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0db92b6a93445326",
+        "id": "df7f94ce3ab6c62b",
         "type": "tabs",
         "children": [
           {
-            "id": "a9d2b2a0c148a941",
+            "id": "76a07e4786a7142a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/OperatingSystems/Operating Systems.md",
+                "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "4e4a478d3ef43b69",
+            "id": "2001c47b0fe26bec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/OperatingSystems/Threads.md",
+                "file": "GATE/DiscreteMathematics/Set-Theory/Relations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "a12dbd07e18de33e",
+            "id": "087404d24fd53302",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/OperatingSystems/Process in Operating Systems.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,25 +49,12 @@
             }
           },
           {
-            "id": "d11571f12e34c437",
+            "id": "e8f488745b5fb66b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/OperatingSystems/System Calls.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c2ebd6e8700a89e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/OperatingSystems/Introduction to Operating Systems.md",
+                "file": "GATE/Pyqs/Set Theory PYQs.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -75,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -150,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/OperatingSystems/Threads.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/OperatingSystems/Threads.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/OperatingSystems/Threads.md"
+                "file": "GATE/Guidelines to GATE-CS.md"
               }
             }
           },
@@ -255,47 +242,49 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "workspaces:Manage workspace layouts": false,
-      "map-of-content:Update Map of Content": false
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "4e4a478d3ef43b69",
+  "active": "087404d24fd53302",
   "lastOpenFiles": [
+    "GATE/DiscreteMathematics/Set-Theory/Relations.md",
+    "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "GATE/DiscreteMathematics/Set-Theory/Analysis on Some Relations.md",
+    "GATE/Guidelines to GATE-CS.md",
+    "GATE/Pyqs/Set Theory PYQs.md",
+    "attachments/Set Theory PYQs-20240831185237052.webp",
+    "attachments/Set Theory PYQs-20240831185138609.webp",
+    "attachments/Set Theory PYQs-20240831185055615.webp",
+    "attachments/Set Theory PYQs-20240831185036980.webp",
+    "attachments/Set Theory PYQs-20240831180100849.webp",
+    "attachments/Guidelines to GATE-CS-20240831160352865.webp",
+    "attachments/Set Theory PYQs-20240831155826356.webp",
+    "attachments/Set Theory PYQs-20240831155809171.webp",
+    "attachments/Set Theory PYQs-20240831155609572.webp",
+    "GATE/Pyqs/GATE PYQs Index.md",
+    "GATE/GATE-CS.md",
+    "GATE/Pyqs",
+    "GATE/Temporary Plan.md",
+    "GATE/DiscreteMathematics/Set-Theory/Set Definition.md",
+    "attachments/Guidelines to GATE-CS-20240830180026648.webp",
+    "GATE/DiscreteMathematics/Set-Theory/Set Operations.md",
+    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associative Cache.md",
+    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas",
+    "GATE/OperatingSystems/Synchronization in OS.md",
+    "GATE/OperatingSystems/Threads.md",
+    "GATE/OperatingSystems/Operating Systems.md",
+    "GATE/OperatingSystems/Process in Operating Systems.md",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
-    "attachments/Associative Cache-20240824125509899.webp",
-    "attachments/Associative Cache-20240824125344029.webp",
-    "attachments/Associative Cache-20240824125327538.webp",
-    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
     "GATE/Computer-Organization-and-Architecture/Pipeline/Control Hazards in Pipeline.md",
-    "GATE/OperatingSystems/Threads.md",
     "GATE/Pending Lectures.md",
-    "attachments/Direct Mapped Cache-20240822105329982.webp",
-    "attachments/Cache Memory-20240821222209939.webp",
     "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md",
-    "GATE/OperatingSystems/Operating Systems.md",
     "GATE/OperatingSystems/System Calls.md",
-    "GATE/Temporary Plan.md",
-    "GATE/OperatingSystems/Process in Operating Systems.md",
     "GATE/DatabaseManagementSystem/Database Management System.md",
     "GATE/Computer-Organization-and-Architecture/Pipeline/Pipeline.md",
     "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md",
-    "attachments/Process in Operating Systems-20240818225012515.webp",
-    "attachments/Process in Operating Systems-20240818102135960.webp",
-    "attachments/Process in Operating Systems-20240818102118454.webp",
-    "attachments/Process in Operating Systems-20240818102110272.webp",
     "GATE/OperatingSystems/Introduction to Operating Systems.md",
-    "Journal/17-08-2024.md",
-    "Journal/16-08-2024.md",
-    "Journal/13-08-2024.md",
-    "attachments/Process in Operating Systems-20240815111927484.webp",
-    "Journal/14-08-2024.md",
-    "Project Euler/Problem 1.md",
-    "GATE/Digital-Logic/Sequential Circuits/D Flip Flop.md",
-    "GATE/Digital-Logic/Sequential Circuits/SR Flip Flop.md",
-    "Journal/12-08-2024.md",
-    "GATE/GATE-LOG.md",
     "Journal/Study-sessions",
     "GATE/Computer-Organization-and-Architecture/Pipeline",
     "Journal",
@@ -307,7 +296,6 @@
     "GATE/Algorithms/Sorts",
     "GATE/Calculus",
     "GATE/Algorithms/Maximum-and-Minimum",
-    "Machine-Learning",
     "SR Latch.canvas",
     "Untitled.canvas"
   ]

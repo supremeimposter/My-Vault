@@ -1,0 +1,64 @@
+{
+  "nodes": [
+    {
+      "id": "7c422b3902dcbe71",
+      "type": "text",
+      "text": "Caches",
+      "x": -111,
+      "y": -101,
+      "width": 186,
+      "height": 47
+    },
+    {
+      "id": "4951b520431c61a6",
+      "type": "text",
+      "text": "Cache Hit/Miss",
+      "x": -680,
+      "y": -560,
+      "width": 274,
+      "height": 47
+    },
+    {
+      "id": "a9149890d9624614",
+      "type": "text",
+      "text": "Cache Hit",
+      "x": -1340,
+      "y": -720,
+      "width": 219,
+      "height": 47
+    },
+    {
+      "id": "83baeef9fe080e8e",
+      "type": "text",
+      "text": "Cache Miss",
+      "x": -1340,
+      "y": -420,
+      "width": 230,
+      "height": 47
+    }
+  ],
+  "edges": [
+    {
+      "id": "21b637c5cd550903",
+      "fromNode": "7c422b3902dcbe71",
+      "fromSide": "left",
+      "toNode": "4951b520431c61a6",
+      "toSide": "right"
+    },
+    {
+      "id": "076747f6be0e8c1e",
+      "fromNode": "4951b520431c61a6",
+      "fromSide": "left",
+      "toNode": "a9149890d9624614",
+      "toSide": "right"
+    },
+    {
+      "id": "de2d900d22714ef9",
+      "fromNode": "4951b520431c61a6",
+      "fromSide": "left",
+      "toNode": "83baeef9fe080e8e",
+      "toSide": "right"
+    }
+  ],
+  "metadata": {}
+}
