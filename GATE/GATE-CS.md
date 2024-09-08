@@ -26,8 +26,11 @@ tags:
 - [[Aptitude]]
 
 - [[Guidelines to GATE-CS]]
-- [[GATE PYQs Index]]
 
+## GATE PYQs
+
+- [[Set Theory PYQs]]
+- [[DBMS PYQs]]
 
 ---
 # References

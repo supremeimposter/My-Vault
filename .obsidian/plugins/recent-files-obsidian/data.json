@@ -5,6 +5,46 @@
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "DBMS PYQs",
+      "path": "GATE/Pyqs/DBMS PYQs.md"
+    },
+    {
+      "basename": "Natural Join",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE/GATE-CS.md"
+    },
+    {
+      "basename": "Functional Dependency",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+    },
+    {
+      "basename": "Standard Integrity Constraints in Relational Model",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md"
+    },
+    {
+      "basename": "Relational Model",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+    },
+    {
+      "basename": "Introduction to DBMS",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
+    },
+    {
+      "basename": "Decomposition",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
+    },
+    {
+      "basename": "Problems caused by Redundant Information",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
+    },
+    {
       "basename": "Relations",
       "path": "GATE/DiscreteMathematics/Set-Theory/Relations.md"
     },
@@ -13,24 +53,20 @@
       "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
     },
     {
-      "basename": "Analysis on Some Relations",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Analysis on Some Relations.md"
-    },
-    {
       "basename": "Set Theory PYQs",
       "path": "GATE/Pyqs/Set Theory PYQs.md"
     },
     {
-      "basename": "GATE PYQs Index",
-      "path": "GATE/Pyqs/GATE PYQs Index.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE/GATE-CS.md"
+      "basename": "Symmetric Relation",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Symmetric Relation.md"
     },
     {
       "basename": "Temporary Plan",
       "path": "GATE/Temporary Plan.md"
+    },
+    {
+      "basename": "Analysis on Some Relations",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Analysis on Some Relations.md"
     },
     {
       "basename": "Set Definition",
@@ -91,10 +127,6 @@
     {
       "basename": "System Calls",
       "path": "GATE/OperatingSystems/System Calls.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "Pipeline",
@@ -167,38 +199,6 @@
     {
       "basename": "08-08-2024",
       "path": "Journal/08-08-2024.md"
-    },
-    {
-      "basename": "2024-W32",
-      "path": "Journal/2024-W32.md"
-    },
-    {
-      "basename": "07-08-2024",
-      "path": "Journal/07-08-2024.md"
-    },
-    {
-      "basename": "Main Memory and Addressability",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
-    },
-    {
-      "basename": "06-08-2024",
-      "path": "Journal/06-08-2024.md"
-    },
-    {
-      "basename": "05-08-2024",
-      "path": "Journal/05-08-2024.md"
-    },
-    {
-      "basename": "04-08-2024",
-      "path": "Journal/04-08-2024.md"
-    },
-    {
-      "basename": "Decimal and Binary System",
-      "path": "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md"
-    },
-    {
-      "basename": "Addressing Modes",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md"
     }
   ],
   "omittedPaths": [

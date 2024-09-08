@@ -135,8 +135,6 @@ In a relation $R\,(A, B, C, D)$, the set of all the attributes determines any or
 	- $AB \rightarrow A$
 	- $ABC \rightarrow BC$
 
-![[Functional Dependency-20240708191227194.webp]]
-
 ### Non Trivial FD
 
 - $X \rightarrow Y$ is non-trivial iff $X \not\supseteq Y$ i.e. an FD which is not trivial.
@@ -442,6 +440,8 @@ Consider a relation $R\, (A, B, C, D)$ and the set of functional dependencies $F
 
 Number of FDs with 1 attribute on LHS = 12
 
+$4_{C_{1}} = 4$
+
 > [!hint] 
 > Non-empty subsets of the attributes in the closure are counted.
 > Number of non-empty subsets of $n$ attributes $= 2^n - 1$, since that one empty set is avoided here.
@@ -449,14 +449,17 @@ Number of FDs with 1 attribute on LHS = 12
 ![[Functional Dependency-20240711183337661.webp]]
 
 Number of FDs with 2 attributes on LHS = 42
+$4_{C_{2}} = 6$
 
 ![[Functional Dependency-20240708162142712.webp]]
 
 Number of FDs with 3 attributes on LHS = 44
+$4_{C_{3}} = 4$
 
 ![[Functional Dependency-20240708162408951.webp]]
 
 Number of FDs with 4 attributes on LHS = 15
+$4_{C_{4}} = 1$
 
 ![[Functional Dependency-20240708162455114.webp]]
 

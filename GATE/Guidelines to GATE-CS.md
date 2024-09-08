@@ -57,12 +57,17 @@ $$
 ---
 ## Guidelines to Database Management System
 
-- When finding candidate keys, eliminate the options based on the RHS of the FDs and test out the remaining options using clousre instead of finding out all the candidate keys.
+- When finding candidate keys, eliminate the options based on the RHS of the FDs and test out the remaining options using closure instead of finding out all the candidate keys.
+- Since sets of attributes are used, for counting the different combinations, subsets counting can be used to find out the different possible combinations.
 
 - To prove or verify a FD, always use closure method as it is easy and fast rather than fiddling with Armstrong's axioms.
 
 - Given a relation, always start checking from the highest normal form and descend. BCNF $\to$ 3NF $\to$ 2NF. Because if $R$ is in 3NF, then it is definitely in 2NF, you can stop there.
+- Only BCNF completely removes redundancies due to FDs, the lower normal forms may still cause redundancies due to FDs.
+- Create a simple relation schema and some FDs to test out options in case of confusions.
 
+| ![[Guidelines to GATE-CS-20240908152842090.webp]] | ![[Guidelines to GATE-CS-20240908152854230.webp]] | ![[Guidelines to GATE-CS-20240908152913537.webp]] |
+| ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
 
 
 ---
@@ -112,9 +117,31 @@ $$
 
 ![[Guidelines to GATE-CS-20240831160352865.webp]]
 
+- To define relations on a set, it has to be non-empty.
 - Relation is one way and it is just a set of tuples between set(s).
 - Be keen about the base set on which the relation is defined. The term base set is only when the relation is defined on the same set.
 - Relation on a set $A$ is one of the subsets of the set $A$.
 - Every relation on $A$ is a subset of $A$. Every subset of $A$ is a relation on $A$.
+- To define a subset or superset relation, the set must contain only sets instead of simple elements. For example, a powerset of a set, all of its members are sets themselves.
+- When it comes to the types of relation on a set, then violation occurs only when the first order statement of the type of relation turns out to be false.
+
+![[Guidelines to GATE-CS-20240901210847397.webp]]
+
+- It is better to use graph representation for checking out transitive relation to avoid any imaginary errors.
+
+- A partition of a set is also a set and every member of a partition set is also a set.
+- Each equivalence relation on a set corresponds to a unique partition and vice versa.
+
+![[Guidelines to GATE-CS-20240902133833342.webp]]
+
+> set-theory/lec30-32.pdf Pg. No. 46
+
+- A partition on set $A$ is a sub collection (subset) of $\mathcal{P}(A)$
+- Set of equivalence classes (partition) is a different set and the equivalent relation set is a different set.
+
+- To check for a POR, also check a set with cardinality 1.
+
+- In every lattice, 
+![[Guidelines to GATE-CS-20240908224115126.webp]]
 
 ---

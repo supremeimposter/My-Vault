@@ -104,7 +104,7 @@ The values in the primary key attributes must be unique and must not contain NUL
 - Referencing attribute is the foreign key.
 
 - Foreign key can be of multiple attributes.
-- When foreign can refers to multiple attributes, then the set of attributes of the same type must be present in the referenced table (parent table).
+- When foreign key refers to multiple attributes, then the set of attributes of the same type must be present in the referenced table (parent table).
 - The order of specification of the attributes in multi-attribute foreign key is important.
 
 > [!example] 
@@ -160,6 +160,6 @@ When the foreign key is of multi-attribute, then the same tuple of data in the r
 > [!summary] 
 > - Insert into referenced table and Delete from referencing table do NOT cause any violation to Referential IC.
 > - Insert into referencing table and Delete from referenced table MAY OR MAY NOT cause violation to Referential IC.
-> - DBMS performs compensating changes to the violating modifications only when the *referenced relation is updates*.
+> - DBMS performs compensating changes to the violating modifications only when the *referenced relation is updated*.
 
 ---

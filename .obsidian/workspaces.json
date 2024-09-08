@@ -23,12 +23,12 @@
                 }
               },
               {
-                "id": "cdd5e9eb4638756f",
+                "id": "6acbf3667b3c1c01",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition into Normal Forms.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -62,7 +62,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -137,7 +137,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -178,7 +178,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
+                    "file": "GATE/Guidelines to GATE-CS.md"
                   }
                 }
               },
@@ -198,6 +198,14 @@
                 "type": "leaf",
                 "state": {
                   "type": "mermaid-toolbar-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "92acdc507560220c",
+                "type": "leaf",
+                "state": {
+                  "type": "journal-calendar",
                   "state": {}
                 }
               }
@@ -235,12 +243,11 @@
           "darlal-switcher-plus:Open Symbols for the active editor": false,
           "mermaid-tools:Open Mermaid Toolbar": false,
           "workspaces:Manage workspace layouts": false,
-          "map-of-content:Update Map of Content": false,
-          "periodic-notes:Open today": false
+          "map-of-content:Update Map of Content": false
         }
       },
-      "active": "b736f00d83f4e48a",
-      "mtime": "2024-07-12T23:36:06+05:30"
+      "active": "6acbf3667b3c1c01",
+      "mtime": "2024-09-05T17:52:55+05:30"
     },
     "set-theory": {
       "main": {
@@ -267,6 +274,19 @@
                 }
               },
               {
+                "id": "2001c47b0fe26bec",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DiscreteMathematics/Set-Theory/Relations.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "087404d24fd53302",
                 "type": "leaf",
                 "state": {
@@ -286,19 +306,6 @@
                   "type": "markdown",
                   "state": {
                     "file": "GATE/Pyqs/Set Theory PYQs.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "f37c1493bfbe2146",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Temporary Plan.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -381,7 +388,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Pyqs/Set Theory PYQs.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -398,7 +405,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Pyqs/Set Theory PYQs.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -422,7 +429,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Pyqs/Set Theory PYQs.md"
+                    "file": "GATE/Guidelines to GATE-CS.md"
                   }
                 }
               },
@@ -490,8 +497,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "e8f488745b5fb66b",
-      "mtime": "2024-08-31T15:42:32+05:30"
+      "active": "087404d24fd53302",
+      "mtime": "2024-09-05T16:38:48+05:30"
     },
     "COA": {
       "main": {
@@ -1287,5 +1294,5 @@
       "mtime": "2024-08-29T22:33:21+05:30"
     }
   },
-  "active": "set-theory"
+  "active": "DBMS-mod-1"
 }
