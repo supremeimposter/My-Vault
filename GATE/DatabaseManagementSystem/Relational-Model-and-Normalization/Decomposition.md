@@ -206,8 +206,8 @@ Non-binary decomposition is decomposing the relation into at least 3 sub-relatio
 
 > [!lecture] [Chase Algorithm | Chase Test for Lossless Join | DBMS | Decomposition of Relation | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=YNsvuPA_vf0&list=PLIPZ2_p3RNHjweUdD-fgcdD-oMiylqE9t&index=5)
 
-- Create a table with sub-relations as rows and individual attributes as columns and intially fill the table with 'a' entries whenever an attribute occurs in a sub-relation.
-- Now according to the definition of FD's,  fill the table *repeatedly* whenever there are at least two matching tuples.
+- Create a table with sub-relations as rows and individual attributes of the original relation as columns and intially fill the table with 'a' entries whenever an attribute occurs in a sub-relation.
+- Now according to the definition of FD's, fill the table *repeatedly* whenever there are at least two matching tuples.
 - Repeatedly apply the above step until no more changes can be made.
 - If a row has all the entries as 'a', then no more further checking is necessary and can conclude the decomposition as lossless. Or else, the decomposition is lossy.
 - When the table cannot be changed anymore and there is no row full of 'a' entries, then the decomposition is lossy.

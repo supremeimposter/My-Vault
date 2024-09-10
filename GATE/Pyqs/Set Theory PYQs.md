@@ -3,7 +3,7 @@ tags:
   - DiscreteMath/Sets
   - GATE/PYQs
 ---
-# Set Theory PYQs
+# Set PYQs
 
 > [!question] 
 > [Set Theory & Algebra: GATE CSE 1993 | Question: 8.3](https://gateoverflow.in/2301/gate-cse-1993-question-8-3)
@@ -43,3 +43,34 @@ Since it is an existential problem, there can be any combination of sets that ca
 ![[Set Theory PYQs-20240831185138609.webp]]
 
 ![[Set Theory PYQs-20240831185237052.webp]]
+
+
+# Relation PYQs
+
+
+> [!question] 
+> [Set Theory & Algebra: GATE CSE 1987 | Question: 2d](https://gateoverflow.in/80583/gate-cse-1987-question-2d?show=363955)
+
+![[Set Theory PYQs-20240910143543359.webp]]
+
+![[Set Theory PYQs-20240910143605584.webp]]
+
+
+> [!question] 
+> [Set Theory & Algebra: GATE CSE 1999 | Question: 3](https://gateoverflow.in/1522/gate-cse-1999-question-3?show=142086)
+
+![[Set Theory PYQs-20240910165637199.webp]]
+
+If there is one element which is not related to anyone including itself, then this claim is false.
+
+![[Set Theory PYQs-20240910175626623.webp]]
+
+If c is related to someone, then by transitivity and symmetric, it will be reflexive. Or else not reflexive.
+
+> [!question] 
+> [Set Theory & Algebra: GATE CSE 1995 | Question: 1.19](https://gateoverflow.in/2606/gate-cse-1995-question-1-19)
+
+![[Set Theory PYQs-20240910174114057.webp]]
+
+
+If a relation is known to be symmetric and transitive, it may or may not be reflexive.

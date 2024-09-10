@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "4a48017b99d0d3b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e0ff3456c5a92d6c",
             "type": "leaf",
             "state": {
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md"
+                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
               }
             }
           },
@@ -231,34 +244,34 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "6acbf3667b3c1c01",
+  "active": "4a48017b99d0d3b8",
   "lastOpenFiles": [
-    "attachments/Guidelines to GATE-CS-20240908224115126.webp",
     "GATE/DatabaseManagementSystem/Database Management System.md",
-    "GATE/Guidelines to GATE-CS.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
     "GATE/Pyqs/DBMS PYQs.md",
+    "GATE/Guidelines to GATE-CS.md",
+    "GATE/Pyqs/Set Theory PYQs.md",
+    "attachments/Set Theory PYQs-20240910175626623.webp",
+    "attachments/Set Theory PYQs-20240910174114057.webp",
+    "attachments/Set Theory PYQs-20240910165637199.webp",
+    "attachments/Set Theory PYQs-20240910143605584.webp",
+    "attachments/Set Theory PYQs-20240910143543359.webp",
+    "GATE/GATE-LOG.md",
+    "attachments/Guidelines to GATE-CS-20240908224115126.webp",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
     "attachments/Guidelines to GATE-CS-20240908152913537.webp",
     "attachments/Guidelines to GATE-CS-20240908152854230.webp",
     "attachments/Guidelines to GATE-CS-20240908152842090.webp",
     "attachments/DBMS PYQs-20240908151316470.webp",
-    "attachments/DBMS PYQs-20240908151148543.webp",
-    "attachments/DBMS PYQs-20240908141732843.webp",
-    "attachments/DBMS PYQs-20240908141655639.webp",
-    "attachments/DBMS PYQs-20240908130343899.webp",
-    "attachments/DBMS PYQs-20240908130332843.webp",
     "GATE/GATE-CS.md",
     "GATE/Pyqs/GATE PYQs Index.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md",
     "GATE/DiscreteMathematics/Set-Theory/Relations.md",
     "GATE/DiscreteMathematics/Discrete Mathematics.md",
-    "GATE/Pyqs/Set Theory PYQs.md",
-    "attachments/Guidelines to GATE-CS-20240902133833342.webp",
     "GATE/DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Symmetric Relation.md",
     "GATE/Temporary Plan.md",
     "GATE/DiscreteMathematics/Set-Theory/Analysis on Some Relations.md",
@@ -270,7 +283,6 @@
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas",
     "GATE/OperatingSystems/Synchronization in OS.md",
     "GATE/OperatingSystems/Threads.md",
-    "GATE/OperatingSystems/Operating Systems.md",
     "Journal/Study-sessions",
     "GATE/Computer-Organization-and-Architecture/Pipeline",
     "Journal",

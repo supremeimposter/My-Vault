@@ -117,17 +117,18 @@ $$
 
 ![[Guidelines to GATE-CS-20240831160352865.webp]]
 
-- To define relations on a set, it has to be non-empty.
+- To define relations on a set, it has to be non-empty. Base set has to be non-empty.
 - Relation is one way and it is just a set of tuples between set(s).
 - Be keen about the base set on which the relation is defined. The term base set is only when the relation is defined on the same set.
 - Relation on a set $A$ is one of the subsets of the set $A$.
 - Every relation on $A$ is a subset of $A$. Every subset of $A$ is a relation on $A$.
 - To define a subset or superset relation, the set must contain only sets instead of simple elements. For example, a powerset of a set, all of its members are sets themselves.
-- When it comes to the types of relation on a set, then violation occurs only when the first order statement of the type of relation turns out to be false.
+- When it comes to the types of relation on a set, then violation occurs only when the FOL statement of the type of relation turns out to be false.
 
 ![[Guidelines to GATE-CS-20240901210847397.webp]]
 
 - It is better to use graph representation for checking out transitive relation to avoid any imaginary errors.
+- For general questions on relations, also consider evaluating empty relations and universal relations.
 
 - A partition of a set is also a set and every member of a partition set is also a set.
 - Each equivalence relation on a set corresponds to a unique partition and vice versa.

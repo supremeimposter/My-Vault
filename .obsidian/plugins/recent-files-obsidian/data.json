@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
+      "basename": "Decomposition",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
     },
     {
       "basename": "Database Management System",
@@ -11,6 +11,18 @@
     {
       "basename": "DBMS PYQs",
       "path": "GATE/Pyqs/DBMS PYQs.md"
+    },
+    {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Set Theory PYQs",
+      "path": "GATE/Pyqs/Set Theory PYQs.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE/GATE-LOG.md"
     },
     {
       "basename": "Natural Join",
@@ -37,10 +49,6 @@
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
     },
     {
-      "basename": "Decomposition",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
-    },
-    {
       "basename": "Problems caused by Redundant Information",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "Discrete Mathematics",
       "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
-      "basename": "Set Theory PYQs",
-      "path": "GATE/Pyqs/Set Theory PYQs.md"
     },
     {
       "basename": "Symmetric Relation",
@@ -171,10 +175,6 @@
     {
       "basename": "12-08-2024",
       "path": "Journal/12-08-2024.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE/GATE-LOG.md"
     },
     {
       "basename": "11-08-2024",
