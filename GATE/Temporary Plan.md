@@ -25,7 +25,7 @@ LA, Calculus
 **November**
 Graph theory
 Probability
-compiler design, TOC (revision)
+CD, TOC (revision)
 COA (revision, pending topics completion)
 DL (revision, counters pending)
 

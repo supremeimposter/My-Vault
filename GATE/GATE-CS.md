@@ -31,6 +31,7 @@ tags:
 
 - [[Set Theory PYQs]]
 - [[DBMS PYQs]]
+- [[TOC PYQs]]
 
 ---
 # References

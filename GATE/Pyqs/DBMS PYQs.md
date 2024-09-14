@@ -35,3 +35,16 @@ Only BCNF removes the redundancies due to FDs. 3NF still may cause redundancies 
 ![[DBMS PYQs-20240908151316470.webp]]
 
 
+> [!question] 
+> [Databases: GATE CSE 2024 | Set 2 | Question: 46](https://gateoverflow.in/422851/gate-cse-2024-set-2-question-46)
+
+![[DBMS PYQs-20240911123540007.webp]]
+
+
+
+> [!question] 
+> [Databases: GATE CSE 1994 | Question: 3.11](https://gateoverflow.in/2497/gate-cse-1994-question-3-11?show=243071)
+
+![[DBMS PYQs-20240913211154682.webp]]
+
+

@@ -4,16 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "99f02db6baa0eaa8",
+        "id": "df7f94ce3ab6c62b",
         "type": "tabs",
         "children": [
           {
-            "id": "1cefa3b16824c5b2",
+            "id": "76a07e4786a7142a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "2001c47b0fe26bec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Database Management System.md",
+                "file": "GATE/DiscreteMathematics/Set-Theory/Relations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,33 +36,7 @@
             }
           },
           {
-            "id": "4a48017b99d0d3b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0ff3456c5a92d6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Pyqs/DBMS PYQs.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6acbf3667b3c1c01",
+            "id": "087404d24fd53302",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,9 +47,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e8f488745b5fb66b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Pyqs/Set Theory PYQs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -135,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+                "file": "GATE/Pyqs/Set Theory PYQs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
+                "file": "GATE/Pyqs/Set Theory PYQs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
+                "file": "GATE/Pyqs/Set Theory PYQs.md"
               }
             }
           },
@@ -200,7 +202,7 @@
             }
           },
           {
-            "id": "92acdc507560220c",
+            "id": "64e722562ef2ff69",
             "type": "leaf",
             "state": {
               "type": "journal-calendar",
@@ -244,26 +246,30 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "4a48017b99d0d3b8",
+  "active": "e8f488745b5fb66b",
   "lastOpenFiles": [
-    "GATE/DatabaseManagementSystem/Database Management System.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
-    "GATE/Pyqs/DBMS PYQs.md",
+    "attachments/Set Theory PYQs-20240914234857400.webp",
     "GATE/Guidelines to GATE-CS.md",
+    "GATE/Pyqs/TOC PYQs.md",
+    "attachments/TOC PYQs-20240914202019791.webp",
+    "GATE/GATE-CS.md",
+    "GATE/TheoryOfComputation/Theory of Computation.md",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "GATE/Pyqs/DBMS PYQs.md",
+    "attachments/DBMS PYQs-20240913211154682.webp",
     "GATE/Pyqs/Set Theory PYQs.md",
+    "attachments/Set Theory PYQs-20240912000600695.webp",
+    "attachments/Set Theory PYQs-20240911220550153.webp",
+    "attachments/Guidelines to GATE-CS-20240911211145784.webp",
+    "GATE/Temporary Plan.md",
+    "attachments/Set Theory PYQs-20240911184026784.webp",
+    "attachments/DBMS PYQs-20240911123540007.webp",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
     "attachments/Set Theory PYQs-20240910175626623.webp",
     "attachments/Set Theory PYQs-20240910174114057.webp",
     "attachments/Set Theory PYQs-20240910165637199.webp",
-    "attachments/Set Theory PYQs-20240910143605584.webp",
-    "attachments/Set Theory PYQs-20240910143543359.webp",
     "GATE/GATE-LOG.md",
-    "attachments/Guidelines to GATE-CS-20240908224115126.webp",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
-    "attachments/Guidelines to GATE-CS-20240908152913537.webp",
-    "attachments/Guidelines to GATE-CS-20240908152854230.webp",
-    "attachments/Guidelines to GATE-CS-20240908152842090.webp",
-    "attachments/DBMS PYQs-20240908151316470.webp",
-    "GATE/GATE-CS.md",
     "GATE/Pyqs/GATE PYQs Index.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md",
@@ -273,7 +279,6 @@
     "GATE/DiscreteMathematics/Set-Theory/Relations.md",
     "GATE/DiscreteMathematics/Discrete Mathematics.md",
     "GATE/DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Symmetric Relation.md",
-    "GATE/Temporary Plan.md",
     "GATE/DiscreteMathematics/Set-Theory/Analysis on Some Relations.md",
     "GATE/Pyqs",
     "GATE/DiscreteMathematics/Set-Theory/Set Definition.md",
@@ -281,8 +286,6 @@
     "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associative Cache.md",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas",
-    "GATE/OperatingSystems/Synchronization in OS.md",
-    "GATE/OperatingSystems/Threads.md",
     "Journal/Study-sessions",
     "GATE/Computer-Organization-and-Architecture/Pipeline",
     "Journal",

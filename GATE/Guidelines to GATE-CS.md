@@ -69,6 +69,7 @@ $$
 | ![[Guidelines to GATE-CS-20240908152842090.webp]] | ![[Guidelines to GATE-CS-20240908152854230.webp]] | ![[Guidelines to GATE-CS-20240908152913537.webp]] |
 | ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
 
+- For an FD set, 
 
 ---
 ## Guidelines to COA
@@ -130,8 +131,12 @@ $$
 - It is better to use graph representation for checking out transitive relation to avoid any imaginary errors.
 - For general questions on relations, also consider evaluating empty relations and universal relations.
 
+- Matrix representation of a relation is a good way to count the number of relations
+
+![[Guidelines to GATE-CS-20240911211145784.webp|Every cell has 2 choices and there are $n^2$ cells i.e. $2^{n^2}$ relations]]
+
 - A partition of a set is also a set and every member of a partition set is also a set.
-- Each equivalence relation on a set corresponds to a unique partition and vice versa.
+- Each equivalence relation on a base set corresponds to a unique partition of the base set and vice versa.
 
 ![[Guidelines to GATE-CS-20240902133833342.webp]]
 
@@ -143,6 +148,23 @@ $$
 - To check for a POR, also check a set with cardinality 1.
 
 - In every lattice, 
+
 ![[Guidelines to GATE-CS-20240908224115126.webp]]
 
 ---
+## Guidelines to TOC
+
+For any alphabet $\Sigma$, $\lambda \not\in \Sigma$ 
+$\lambda \in \Sigma^\ast$ and $\lambda \not \in \Sigma^+$
+
+For analysis questions on Kleene star and Kleene Plus on languages always check these two languages,
+1. $L = \{\lambda\}$
+2. $L = \{\}$
+
+For any language $L$,
+
+$L^0 = \{\lambda\}$
+If $\lambda \in L$, then $\lambda \in L^+$
+If $\lambda \not\in L$, then $\lambda \not\in L^+$
+$L^+ = L^\ast - \{ \lambda \}$ iff $\lambda \not\in L$
+
