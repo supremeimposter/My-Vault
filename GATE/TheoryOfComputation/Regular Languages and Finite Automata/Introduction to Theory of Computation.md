@@ -8,6 +8,7 @@ tags:
   - TheoryOfComputation
 ---
 # Introduction to Theory of Computation
+
 > [!youtube] [Why Theory of Computation? What is the motivation of Theory of Computation](https://www.youtube.com/watch?v=3MAwb_kF2FI)
 
 - Theory of Computation deals with what are the problems that are solvable by computers.
@@ -18,6 +19,7 @@ tags:
 - Algorithm is an automated and same procedure for all the inputs. It does not change for an input.
 
 ### Function vs Algorithm
+
 - A function is a definition of the problem.
 - An algorithm is a guide or manual or "how to" solve the problem.
 
@@ -35,11 +37,15 @@ tags:
 2. Find the resources (time, space) consumed by the problems that can be solved by computers or machines.
 
 - There are two types of problems
+
 ![[Pasted image 20230927002342.png]]
+
 - Computers can solve only a limited number of problems. There are many problems which they can NEVER solve.
+
 ![[Pasted image 20230927002436.png]]
 
 ## Models of Computation
+
 - There are different models of computations which are theoretical machines which solves problems.
 
 1. FA - Finite Automata

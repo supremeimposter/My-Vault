@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "df7f94ce3ab6c62b",
+        "id": "f5b89db6f1e09b3f",
         "type": "tabs",
         "children": [
           {
-            "id": "76a07e4786a7142a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "2001c47b0fe26bec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/DiscreteMathematics/Set-Theory/Relations.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "087404d24fd53302",
+            "id": "7b788ce81cda6ddc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,20 +21,32 @@
             }
           },
           {
-            "id": "e8f488745b5fb66b",
+            "id": "1200fff9e49ffa71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Pyqs/Set Theory PYQs.md",
+                "file": "GATE/TheoryOfComputation/Theory of Computation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "355c13d7108f7f33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Pyqs/TOC PYQs.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Pyqs/Set Theory PYQs.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Pyqs/Set Theory PYQs.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Pyqs/Set Theory PYQs.md"
+                "file": "GATE/Guidelines to GATE-CS.md"
               }
             }
           },
@@ -202,7 +186,7 @@
             }
           },
           {
-            "id": "64e722562ef2ff69",
+            "id": "92acdc507560220c",
             "type": "leaf",
             "state": {
               "type": "journal-calendar",
@@ -246,18 +230,23 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "e8f488745b5fb66b",
+  "active": "7b788ce81cda6ddc",
   "lastOpenFiles": [
-    "attachments/Set Theory PYQs-20240914234857400.webp",
-    "GATE/Guidelines to GATE-CS.md",
+    "attachments/Guidelines to GATE-CS-20240915224039804.webp",
     "GATE/Pyqs/TOC PYQs.md",
+    "GATE/TheoryOfComputation/Theory of Computation.md",
+    "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md",
+    "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
+    "GATE/Guidelines to GATE-CS.md",
+    "GATE/Pyqs/DBMS PYQs.md",
+    "attachments/DBMS PYQs-20240915101453140.webp",
+    "GATE/GATE-LOG.md",
+    "GATE/Pyqs/Set Theory PYQs.md",
+    "attachments/Set Theory PYQs-20240914234857400.webp",
     "attachments/TOC PYQs-20240914202019791.webp",
     "GATE/GATE-CS.md",
-    "GATE/TheoryOfComputation/Theory of Computation.md",
     "GATE/DatabaseManagementSystem/Database Management System.md",
-    "GATE/Pyqs/DBMS PYQs.md",
     "attachments/DBMS PYQs-20240913211154682.webp",
-    "GATE/Pyqs/Set Theory PYQs.md",
     "attachments/Set Theory PYQs-20240912000600695.webp",
     "attachments/Set Theory PYQs-20240911220550153.webp",
     "attachments/Guidelines to GATE-CS-20240911211145784.webp",
@@ -266,9 +255,6 @@
     "attachments/DBMS PYQs-20240911123540007.webp",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
     "attachments/Set Theory PYQs-20240910175626623.webp",
-    "attachments/Set Theory PYQs-20240910174114057.webp",
-    "attachments/Set Theory PYQs-20240910165637199.webp",
-    "GATE/GATE-LOG.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
     "GATE/Pyqs/GATE PYQs Index.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
@@ -283,8 +269,6 @@
     "GATE/Pyqs",
     "GATE/DiscreteMathematics/Set-Theory/Set Definition.md",
     "GATE/DiscreteMathematics/Set-Theory/Set Operations.md",
-    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associative Cache.md",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas",
     "Journal/Study-sessions",
     "GATE/Computer-Organization-and-Architecture/Pipeline",

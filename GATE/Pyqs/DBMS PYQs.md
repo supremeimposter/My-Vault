@@ -2,11 +2,21 @@
 
 ## Relational Model
 
+
+> [!question] 
+> [Databases: GATE CSE 2014 Set 2 | Question: 21](https://gateoverflow.in/1978/gate-cse-2014-set-2-question-21)
+
+![[DBMS PYQs-20240915101453140.webp]]
+
+
 > [!question] 
 > [Databases: GATE CSE 2002 | Question: 2.25](https://gateoverflow.in/855/gate-cse-2002-question-2-25)
 
 ![[DBMS PYQs-20240908141655639.webp]]
 
+From a given legal instance of a relational schema, only conclude the FDs that do not hold and never confirm any FDs that hold.
+
+An FD holds on a schema only when every legal instance satisfies the FD.
 
 > [!question] 
 > [Databases: GATE CSE 2005 | Question: 76](https://gateoverflow.in/1399/gate-cse-2005-question-76)

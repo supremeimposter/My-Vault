@@ -60,7 +60,7 @@ $$
 - When finding candidate keys, eliminate the options based on the RHS of the FDs and test out the remaining options using closure instead of finding out all the candidate keys.
 - Since sets of attributes are used, for counting the different combinations, subsets counting can be used to find out the different possible combinations.
 
-- To prove or verify a FD, always use closure method as it is easy and fast rather than fiddling with Armstrong's axioms.
+- To prove or verify a FD is inferred by an FD set, always use closure method as it is easy and fast rather than fiddling with Armstrong's axioms. Take the closure of the given FD and check in the given FD set, whethere the RHS can be obtained or not.
 
 - Given a relation, always start checking from the highest normal form and descend. BCNF $\to$ 3NF $\to$ 2NF. Because if $R$ is in 3NF, then it is definitely in 2NF, you can stop there.
 - Only BCNF completely removes redundancies due to FDs, the lower normal forms may still cause redundancies due to FDs.
@@ -167,4 +167,8 @@ $L^0 = \{\lambda\}$
 If $\lambda \in L$, then $\lambda \in L^+$
 If $\lambda \not\in L$, then $\lambda \not\in L^+$
 $L^+ = L^\ast - \{ \lambda \}$ iff $\lambda \not\in L$
+
+To check if a string belongs to closure of a language or not, see for which exponentiation of the language does the string belongs to.
+
+![[Guidelines to GATE-CS-20240915224039804.webp]]
 

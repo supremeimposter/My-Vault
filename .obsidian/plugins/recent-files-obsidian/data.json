@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "Set Theory PYQs",
-      "path": "GATE/Pyqs/Set Theory PYQs.md"
-    },
-    {
       "basename": "Guidelines to GATE-CS",
       "path": "GATE/Guidelines to GATE-CS.md"
     },
@@ -13,20 +9,36 @@
       "path": "GATE/Pyqs/TOC PYQs.md"
     },
     {
-      "basename": "GATE-CS",
-      "path": "GATE/GATE-CS.md"
-    },
-    {
       "basename": "Theory of Computation",
       "path": "GATE/TheoryOfComputation/Theory of Computation.md"
     },
     {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+      "basename": "Introduction to Theory of Computation",
+      "path": "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md"
+    },
+    {
+      "basename": "Basic Concepts of TOC",
+      "path": "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
     },
     {
       "basename": "DBMS PYQs",
       "path": "GATE/Pyqs/DBMS PYQs.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE/GATE-LOG.md"
+    },
+    {
+      "basename": "Set Theory PYQs",
+      "path": "GATE/Pyqs/Set Theory PYQs.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE/GATE-CS.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "Temporary Plan",
@@ -35,10 +47,6 @@
     {
       "basename": "Decomposition",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE/GATE-LOG.md"
     },
     {
       "basename": "Natural Join",
@@ -191,14 +199,6 @@
     {
       "basename": "10-08-2024",
       "path": "Journal/10-08-2024.md"
-    },
-    {
-      "basename": "Instruction Execution Cycle",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
-    },
-    {
-      "basename": "09-08-2024",
-      "path": "Journal/09-08-2024.md"
     }
   ],
   "omittedPaths": [
