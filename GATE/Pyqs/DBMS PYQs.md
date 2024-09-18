@@ -58,3 +58,23 @@ Only BCNF removes the redundancies due to FDs. 3NF still may cause redundancies 
 ![[DBMS PYQs-20240913211154682.webp]]
 
 
+## Relational Algebra
+
+
+> [!question] 
+> [Databases: GATE CSE 1998 | Question: 2.19](https://gateoverflow.in/1692/gate-cse-1998-question-2-19)
+
+![[DBMS PYQs-20240917134443414.webp]]
+
+
+The queries in the LHS are valid queries and they are not asking if the queries in LHS and RHS are equivalent or not.
+Given that the queries in LHS are valid, are the queries in the RHS valid or not?
+
+
+> [!question] 
+> [Databases: GATE CSE 2024 | Set 2 | Question: 35](https://gateoverflow.in/422862/gate-cse-2024-set-2-question-35)
+
+![[DBMS PYQs-20240918170602787.webp]]
+
+
+

@@ -69,7 +69,8 @@ $$
 | ![[Guidelines to GATE-CS-20240908152842090.webp]] | ![[Guidelines to GATE-CS-20240908152854230.webp]] | ![[Guidelines to GATE-CS-20240908152913537.webp]] |
 | ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
 
-- For an FD set, 
+- For relational algebra, first figure out how many tuples gives our desired answer, in case of comparisons are needed across tuples. And then take the cross product as the tuples required.
+- In relational algebra, Natural way of joining relations is different from cross product of two relations.
 
 ---
 ## Guidelines to COA
@@ -154,21 +155,24 @@ $$
 ---
 ## Guidelines to TOC
 
-For any alphabet $\Sigma$, $\lambda \not\in \Sigma$ 
-$\lambda \in \Sigma^\ast$ and $\lambda \not \in \Sigma^+$
+- For any alphabet $\Sigma$, $\lambda \not\in \Sigma$ and $\lambda \in \Sigma^\ast$ and $\lambda \not \in \Sigma^+$
 
-For analysis questions on Kleene star and Kleene Plus on languages always check these two languages,
-1. $L = \{\lambda\}$
-2. $L = \{\}$
+- For analysis questions on Kleene star and Kleene Plus on languages always check these two languages,
+	1. $L = \{\lambda\}$
+	2. $L = \{\}$
 
-For any language $L$,
+- For any language $L$,
+	1. $L^0 = \{\lambda\}$
+	2. If $\lambda \in L$, then $\lambda \in L^+$
+	3. If $\lambda \not\in L$, then $\lambda \not\in L^+$
+	4. $L^+ = L^\ast - \{ \lambda \}$ iff $\lambda \not\in L$
 
-$L^0 = \{\lambda\}$
-If $\lambda \in L$, then $\lambda \in L^+$
-If $\lambda \not\in L$, then $\lambda \not\in L^+$
-$L^+ = L^\ast - \{ \lambda \}$ iff $\lambda \not\in L$
-
-To check if a string belongs to closure of a language or not, see for which exponentiation of the language does the string belongs to.
+- To check if a string belongs to closure of a language or not, see for which exponentiation of the language does the string belongs to.
 
 ![[Guidelines to GATE-CS-20240915224039804.webp]]
+
+- Whenever you see a language and want to construct a mathematical model, first figure out the states, inputs and transitions, it will be easier to arrive at the correct DFA, NFA or whatever. Just don't blindly draw circles and keep thinking.
+
+- Do not forget the transitions of the dead state and the final state when drawing the diagrams.
+- For a machine, it only accepts certain strings that are part of its language. So don't confuse it with going to $L^\ast$ or $L^+$.
 
