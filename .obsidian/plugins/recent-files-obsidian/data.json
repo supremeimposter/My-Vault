@@ -5,6 +5,14 @@
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
+      "basename": "DBMS PYQs",
+      "path": "GATE/Pyqs/DBMS PYQs.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
       "basename": "TOC PYQs",
       "path": "GATE/Pyqs/TOC PYQs.md"
     },
@@ -21,10 +29,6 @@
       "path": "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
     },
     {
-      "basename": "DBMS PYQs",
-      "path": "GATE/Pyqs/DBMS PYQs.md"
-    },
-    {
       "basename": "GATE-LOG",
       "path": "GATE/GATE-LOG.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "GATE-CS",
       "path": "GATE/GATE-CS.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "Temporary Plan",

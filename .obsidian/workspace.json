@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7b788ce81cda6ddc",
+            "id": "2066b3fa9c6e9c03",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "1200fff9e49ffa71",
+            "id": "8c06d979475f07ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/TheoryOfComputation/Theory of Computation.md",
+                "file": "GATE/DatabaseManagementSystem/Database Management System.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "355c13d7108f7f33",
+            "id": "110128e1b63e3921",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Pyqs/TOC PYQs.md",
+                "file": "GATE/Pyqs/DBMS PYQs.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -230,31 +230,30 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "7b788ce81cda6ddc",
+  "active": "2066b3fa9c6e9c03",
   "lastOpenFiles": [
-    "attachments/Guidelines to GATE-CS-20240915224039804.webp",
+    "GATE/Pyqs/DBMS PYQs.md",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "GATE/Guidelines to GATE-CS.md",
+    "attachments/DBMS PYQs-20240918170602787.webp",
     "GATE/Pyqs/TOC PYQs.md",
     "GATE/TheoryOfComputation/Theory of Computation.md",
+    "attachments/DBMS PYQs-20240917134443414.webp",
+    "attachments/Guidelines to GATE-CS-20240915224039804.webp",
     "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md",
     "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
-    "GATE/Guidelines to GATE-CS.md",
-    "GATE/Pyqs/DBMS PYQs.md",
     "attachments/DBMS PYQs-20240915101453140.webp",
     "GATE/GATE-LOG.md",
     "GATE/Pyqs/Set Theory PYQs.md",
     "attachments/Set Theory PYQs-20240914234857400.webp",
     "attachments/TOC PYQs-20240914202019791.webp",
     "GATE/GATE-CS.md",
-    "GATE/DatabaseManagementSystem/Database Management System.md",
     "attachments/DBMS PYQs-20240913211154682.webp",
     "attachments/Set Theory PYQs-20240912000600695.webp",
     "attachments/Set Theory PYQs-20240911220550153.webp",
     "attachments/Guidelines to GATE-CS-20240911211145784.webp",
     "GATE/Temporary Plan.md",
-    "attachments/Set Theory PYQs-20240911184026784.webp",
-    "attachments/DBMS PYQs-20240911123540007.webp",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
-    "attachments/Set Theory PYQs-20240910175626623.webp",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
     "GATE/Pyqs/GATE PYQs Index.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
