@@ -9,23 +9,24 @@ Dec = revision, practice, CD, Pending COA
 Jan = revision, practice
 
 **September**
-Set theory, functions, group theory
+~~Set theory~~, functions, group theory
 TOC 
 OS (not compelete subject, just revise until process management, semaphores)
-DBMS (relational model, disks)
-Propositional Logic
+DBMS (~~relational model~~, ~~relational algebra~~, relational calculus, SQL, disks)
+~~Propositional Logic~~
+First Order Logic
 
 **October**
-First Order Logic
-C, DS, algorithms (complete subject)
-DBMS (transaction management, indexing)
+TOC
 Combinatronics
+C, DS, algorithms (complete subject)
+DBMS (indexing, transaction management)
 LA, Calculus
 
 **November**
 Graph theory
 Probability
-CD, TOC (revision)
+CD (complete subject) , TOC (revision)
 COA (revision, pending topics completion)
 DL (revision, counters pending)
 

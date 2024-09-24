@@ -29,7 +29,9 @@ tags:
 
 ## GATE PYQs
 
-- [[Set Theory PYQs]]
+- Discrete Mathematics PYQs
+	- [[Logic PYQs]]
+	- [[Set Theory PYQs]]
 - [[DBMS PYQs]]
 - [[TOC PYQs]]
 

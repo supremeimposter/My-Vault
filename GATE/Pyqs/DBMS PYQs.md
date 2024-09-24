@@ -58,6 +58,43 @@ Only BCNF removes the redundancies due to FDs. 3NF still may cause redundancies 
 ![[DBMS PYQs-20240913211154682.webp]]
 
 
+> [!question] 
+
+![[DBMS PYQs-20240922160842370.webp]]
+
+![[DBMS PYQs-20240922160900190.webp]]
+
+
+> [!question] 
+
+![[DBMS PYQs-20240922161530856.webp]]
+
+
+Primary key cannot be found from the set of FDs, it can be chosen by the designer or owner. And the given question is not the definition of primary key.
+
+
+> [!question] 
+> [Databases: UGC NET CSE | July 2018 | Part 2 | Question: 67](https://gateoverflow.in/225819/ugc-net-cse-july-2018-part-2-question-67)
+
+![[DBMS PYQs-20240922174954991.webp]]
+
+
+> [!question] 
+> [Databases: GATE CSE 1998 | Question: 1.34](https://gateoverflow.in/1671/gate-cse-1998-question-1-34)
+
+![[DBMS PYQs-20240922183750017.webp]]
+
+
+3NF is adequate as it always gives lossless and dependency preserving decomposition by 3NF synthesis algorithm.
+BCNF does not guarantee a dependency preserving decomposition.
+
+
+> [!question] 
+> [Databases: GATE CSE 1999 | Question: 2.7, UGCNET-June2014-III: 25](https://gateoverflow.in/1485/gate-cse-1999-question-2-7-ugcnet-june2014-iii-25)
+
+![[DBMS PYQs-20240922204358246.webp]]
+
+
 ## Relational Algebra
 
 
@@ -77,4 +114,11 @@ Given that the queries in LHS are valid, are the queries in the RHS valid or not
 ![[DBMS PYQs-20240918170602787.webp]]
 
 
+> [!question] 
+> [Databases: GATE DS&AI 2024 | Question: 16](https://gateoverflow.in/422946/gate-ds%26ai-2024-question-16)
+
+![[DBMS PYQs-20240919184444901.webp]]
+
+
+![[DBMS PYQs-20240919193257904.webp]]
 

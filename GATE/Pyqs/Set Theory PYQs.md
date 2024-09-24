@@ -60,7 +60,7 @@ Since it is an existential problem, there can be any combination of sets that ca
 > [!question] 
 > [Set Theory & Algebra: GATE CSE 1999 | Question: 3](https://gateoverflow.in/1522/gate-cse-1999-question-3?show=142086)
 
-![[Set Theory PYQs-20240910165637199.webp]]
+![[Set Theory PYQs-20240924122114071.webp]]
 
 If there is one element which is not related to anyone including itself, then this claim is false.
 
@@ -107,3 +107,11 @@ Each equivalence relation on a set $A$ corresponds to a partition of $A$.
 
 ![[Set Theory PYQs-20240914234857400.webp]]
 
+
+> [!question] 
+> [Set Theory & Algebra: GATE CSE 2015 Set 1 | Question: 34](https://gateoverflow.in/8281/gate-cse-2015-set-1-question-34)
+
+![[Set Theory PYQs-20240924122145088.webp]]
+
+
+![[Set Theory PYQs-20240919095847872.webp]]

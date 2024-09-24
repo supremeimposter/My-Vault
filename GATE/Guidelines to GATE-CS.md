@@ -57,20 +57,27 @@ $$
 ---
 ## Guidelines to Database Management System
 
-- When finding candidate keys, eliminate the options based on the RHS of the FDs and test out the remaining options using closure instead of finding out all the candidate keys.
+- When asked for candidate keys, check if the options are minimal or not. Just don't blindly find the closure of attributes of options.
 - Since sets of attributes are used, for counting the different combinations, subsets counting can be used to find out the different possible combinations.
 
 - To prove or verify a FD is inferred by an FD set, always use closure method as it is easy and fast rather than fiddling with Armstrong's axioms. Take the closure of the given FD and check in the given FD set, whethere the RHS can be obtained or not.
 
 - Given a relation, always start checking from the highest normal form and descend. BCNF $\to$ 3NF $\to$ 2NF. Because if $R$ is in 3NF, then it is definitely in 2NF, you can stop there.
 - Only BCNF completely removes redundancies due to FDs, the lower normal forms may still cause redundancies due to FDs.
+- Please make sure you are checking against non-prime attributes for violations in 2NF and 3NF.
 - Create a simple relation schema and some FDs to test out options in case of confusions.
 
 | ![[Guidelines to GATE-CS-20240908152842090.webp]] | ![[Guidelines to GATE-CS-20240908152854230.webp]] | ![[Guidelines to GATE-CS-20240908152913537.webp]] |
 | ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
 
+- Not every decomposition (2NF, 3NF) are lossless and dependency preserving. But there always exists (at least one) 2NF or 3NF decomposition for a relation that is lossless and dependency preserving.
+- There can be multiple ways to decompose a relation to either 2NF, 3NF or BCNF.
+
 - For relational algebra, first figure out how many tuples gives our desired answer, in case of comparisons are needed across tuples. And then take the cross product as the tuples required.
 - In relational algebra, Natural way of joining relations is different from cross product of two relations.
+- $a\backslash b$ is set difference and $a / b$ is division operator
+
+- Just have an overview that relations are nothing but sets of tuples. It will help you simplify relations mentally.
 
 ---
 ## Guidelines to COA
@@ -95,6 +102,73 @@ $$
 ---
 
 ## Guidelines to Discrete Mathematics
+
+### Guidelines to Propositional Logic
+
+- T and F are constant propositional expressions or propositional formulae.
+- Every atomic proposition is a compound proposition, but not every compound proposition is an atomic proposition.
+
+
+- $\leftrightarrow$ is bi-implication and $\Leftrightarrow$ is logical equivalence.
+- Do not confuse with solving by-case method. Just take one of the propositional variables and see what happens to the both the expressions for the variables' truth values.
+
+![[Guidelines to GATE-CS-20240920225711275.webp]]
+
+- Implication is not commutative and not associative.
+- $a \rightarrow b \rightarrow (b \rightarrow c)$ can be treated as either,
+	- $(a \rightarrow b) \rightarrow (b \rightarrow c)$ or
+	- $a \rightarrow (\, b \rightarrow (b \rightarrow c) \,)$
+	- $(a \rightarrow b) \rightarrow (b \rightarrow c) \not\equiv a \rightarrow (\, b \rightarrow (b \rightarrow c) \,)$
+- If nothing is mentioned, then assume right associativity i.e. $a \rightarrow (\, b \rightarrow (b \rightarrow c) \,)$
+
+- unless = if not 
+- unless splits a compound proposition.
+
+- For checking the validity of an argument and consistency of a set of proportions is the same, except for validity of argument has the additional step  that the conclusion has been made to be false.
+- To put it simply, $A_{1}, A_{2}, \cdots, A_{n} \to C$, in this $T \to F$ should not occur.
+
+
+- If some propositional expression has been given, it has either of the two truth values. Look at an expression in an proposition point of view.
+- In case of implications in a verification of tautology for a propositional expression, validity of argument method can be used.
+
+![[Guidelines to GATE-CS-20240922123521612.webp]]
+
+- If $p$ is a propositional variable, it can have either true or false as its truth value. So a propositional variable is necessarily a contingency.
+- If you cannot comprehend something into a logical argument in case of propositional forumlae, just use the truth table and find counter examples and arrive at solutions.
+
+![[Guidelines to GATE-CS-20240924100725280.webp]]
+
+### Guidelines to First Order Logic
+
+- Domain in FOL is always non-empty, unless explicitly stated otherwise. Domain can be finite or infinite.
+- The elements of domain are also called as constant or object.
+- If the domain of different variables in a predicate is not mentioned, then by default it is considered that those variables have the same domain.
+- Predicates are also called as propositional functions, because they take values as inputs and produce propositions.
+- Quantifiers cannot affect any propositions i.e. predicates with no predicate variables.
+- When a predicate is quantified, it becomes a proposition.
+
+- For universal quantified statement to be false, you need a counter example. It is usually paired with $\rightarrow$
+- For existential quantified statement to be true, you need a witness. It is usually paired with $\land$
+- some $p$ is $q$ $\equiv$ $\exists x\: (\,p(x) \land q(x)\,)$
+- all $p$ are $q$ $\equiv$ $\forall x\: (\,p(x) \rightarrow q(x)\,)$
+
+- Existential quantifier just needs one witness (one true case) to make it true. Thats it.
+
+![[Guidelines to GATE-CS-20240924232034926.webp]]
+
+````col
+```col-md
+flexGrow=1
+===
+![[Guidelines to GATE-CS-20240924233015254.webp]]
+```
+```col-md
+flexGrow=1
+===
+![[Guidelines to GATE-CS-20240924233031511.webp]]
+```
+````
+
 
 
 ### Guidelines to Set Theory

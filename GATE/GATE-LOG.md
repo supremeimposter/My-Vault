@@ -144,3 +144,5 @@
 **September 10, 2024** Don't have the notion that you can remember all the results and observations. Keep in mind that you may have to work things out on the spot, because there are a lot of facts you have to keep in mind, and if you try to keep those observations and results of a every topic in mind, you will confuse and will lose time. Better solve anything and prepare in such a way that you will derive certain things at the exam hall.
 
 **September 15, 2024** Anjali Chauhan gave a great idea. Make note of some PYQs that you may need to revise later. Because not every PYQ is tough, but some are very analytical and nice to revisit.
+
+**September 20, 2024** I have learned the hard way that feeling insecure is not going to help in any way. It is simply an excuse to not work hard and play out the luck. How come anyone who puts the hard word, not reap the benefits? 
