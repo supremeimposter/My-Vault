@@ -5,12 +5,64 @@
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
-      "basename": "DBMS PYQs",
-      "path": "GATE/Pyqs/DBMS PYQs.md"
+      "basename": "Temporary Plan",
+      "path": "GATE/Temporary Plan.md"
+    },
+    {
+      "basename": "Logic PYQs",
+      "path": "GATE/Pyqs/Logic PYQs.md"
+    },
+    {
+      "basename": "Set Theory PYQs",
+      "path": "GATE/Pyqs/Set Theory PYQs.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Write expressions from Tables",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/Write expressions from Tables.md"
+    },
+    {
+      "basename": "Quantifiers",
+      "path": "GATE/DiscreteMathematics/First-Order-Logic/Quantifiers.md"
+    },
+    {
+      "basename": "Features of First Order Logic",
+      "path": "GATE/DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md"
+    },
+    {
+      "basename": "Limitations of Propositional Logic",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/Limitations of Propositional Logic.md"
+    },
+    {
+      "basename": "First Order Logic",
+      "path": "GATE/DiscreteMathematics/First-Order-Logic/First Order Logic.md"
+    },
+    {
+      "basename": "Relations",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Relations.md"
     },
     {
       "basename": "Database Management System",
       "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "DBMS PYQs",
+      "path": "GATE/Pyqs/DBMS PYQs.md"
+    },
+    {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE/GATE-CS.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE/GATE-LOG.md"
     },
     {
       "basename": "TOC PYQs",
@@ -27,22 +79,6 @@
     {
       "basename": "Basic Concepts of TOC",
       "path": "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE/GATE-LOG.md"
-    },
-    {
-      "basename": "Set Theory PYQs",
-      "path": "GATE/Pyqs/Set Theory PYQs.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE/GATE-CS.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "GATE/Temporary Plan.md"
     },
     {
       "basename": "Decomposition",
@@ -73,14 +109,6 @@
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
     },
     {
-      "basename": "Relations",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Relations.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
       "basename": "Symmetric Relation",
       "path": "GATE/DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Symmetric Relation.md"
     },
@@ -95,10 +123,6 @@
     {
       "basename": "Set Operations",
       "path": "GATE/DiscreteMathematics/Set-Theory/Set Operations.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
       "basename": "Associative Cache",
@@ -175,30 +199,6 @@
     {
       "basename": "14-08-2024",
       "path": "Journal/14-08-2024.md"
-    },
-    {
-      "basename": "Problem 1",
-      "path": "Project Euler/Problem 1.md"
-    },
-    {
-      "basename": "D Flip Flop",
-      "path": "GATE/Digital-Logic/Sequential Circuits/D Flip Flop.md"
-    },
-    {
-      "basename": "SR Flip Flop",
-      "path": "GATE/Digital-Logic/Sequential Circuits/SR Flip Flop.md"
-    },
-    {
-      "basename": "12-08-2024",
-      "path": "Journal/12-08-2024.md"
-    },
-    {
-      "basename": "11-08-2024",
-      "path": "Journal/11-08-2024.md"
-    },
-    {
-      "basename": "10-08-2024",
-      "path": "Journal/10-08-2024.md"
     }
   ],
   "omittedPaths": [

@@ -48,8 +48,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -124,7 +123,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Pyqs/DBMS PYQs.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -141,7 +140,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Pyqs/DBMS PYQs.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -165,7 +164,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Pyqs/DBMS PYQs.md"
+                    "file": "GATE/Guidelines to GATE-CS.md"
                   }
                 }
               },
@@ -233,8 +232,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "110128e1b63e3921",
-      "mtime": "2024-09-17T15:04:30+05:30"
+      "active": "2066b3fa9c6e9c03",
+      "mtime": "2024-09-23T17:15:57+05:30"
     },
     "set-theory": {
       "main": {
@@ -261,19 +260,6 @@
                 }
               },
               {
-                "id": "2001c47b0fe26bec",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/DiscreteMathematics/Set-Theory/Relations.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "087404d24fd53302",
                 "type": "leaf",
                 "state": {
@@ -293,6 +279,19 @@
                   "type": "markdown",
                   "state": {
                     "file": "GATE/Pyqs/Set Theory PYQs.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "9e3be16fa73bd995",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Pyqs/Logic PYQs.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -375,7 +374,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Pyqs/Set Theory PYQs.md",
+                    "file": "GATE/Pyqs/Logic PYQs.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -392,7 +391,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Pyqs/Set Theory PYQs.md",
+                    "file": "GATE/Pyqs/Logic PYQs.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -416,7 +415,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Pyqs/Set Theory PYQs.md"
+                    "file": "GATE/Pyqs/Logic PYQs.md"
                   }
                 }
               },
@@ -484,8 +483,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "e8f488745b5fb66b",
-      "mtime": "2024-09-15T09:55:09+05:30"
+      "active": "9e3be16fa73bd995",
+      "mtime": "2024-09-24T12:22:13+05:30"
     },
     "COA": {
       "main": {
@@ -1514,7 +1513,229 @@
       },
       "active": "7b788ce81cda6ddc",
       "mtime": "2024-09-18T17:05:43+05:30"
+    },
+    "Propositional-and-First-Order Logic": {
+      "main": {
+        "id": "21c87e6fab086ae1",
+        "type": "split",
+        "children": [
+          {
+            "id": "f5b89db6f1e09b3f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2066b3fa9c6e9c03",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "1687853b04c682ee",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Pyqs/Logic PYQs.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "447c3cf29e385729",
+        "type": "split",
+        "children": [
+          {
+            "id": "a1c6d5c6e7c6aea0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "80784521bca5ca54",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "885564d7ad2cc180",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "2bf0657860158803",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "25fb3027bb42d785",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 267.5
+      },
+      "right": {
+        "id": "fb0455d62c4f6c20",
+        "type": "split",
+        "children": [
+          {
+            "id": "e047f71d444b979e",
+            "type": "tabs",
+            "dimension": 66.4,
+            "children": [
+              {
+                "id": "4de834b516a58502",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "8ba157ab7f239193",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "40d15956871d0fde",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  }
+                }
+              },
+              {
+                "id": "8488c56ed1a27af9",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md"
+                  }
+                }
+              },
+              {
+                "id": "13c145e73a31e17b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "2ec29c1e38047089",
+                "type": "leaf",
+                "state": {
+                  "type": "mermaid-toolbar-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "92acdc507560220c",
+                "type": "leaf",
+                "state": {
+                  "type": "journal-calendar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "5df95600f2476df0",
+            "type": "tabs",
+            "dimension": 33.6,
+            "children": [
+              {
+                "id": "537addfb8bc17cc8",
+                "type": "leaf",
+                "state": {
+                  "type": "map-of-content",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 336.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "darlal-switcher-plus:Open in Headings Mode": false,
+          "darlal-switcher-plus:Open Symbols for the active editor": false,
+          "mermaid-tools:Open Mermaid Toolbar": false,
+          "workspaces:Manage workspace layouts": false,
+          "map-of-content:Update Map of Content": false
+        }
+      },
+      "active": "2066b3fa9c6e9c03",
+      "mtime": "2024-09-22T16:01:27+05:30"
     }
   },
-  "active": "DBMS-mod-1"
+  "active": "set-theory"
 }
