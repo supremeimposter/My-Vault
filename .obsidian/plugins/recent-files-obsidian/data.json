@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Main Memory and Addressability",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
+    },
+    {
+      "basename": "Introduction to COA",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
+    },
+    {
+      "basename": "Cache-Memory",
+      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas"
+    },
+    {
+      "basename": "DBMS PYQs",
+      "path": "GATE/Pyqs/DBMS PYQs.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Introduction to DBMS",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
+    },
+    {
       "basename": "Guidelines to GATE-CS",
       "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Pending Lectures",
+      "path": "GATE/Pending Lectures.md"
     },
     {
       "basename": "Temporary Plan",
@@ -15,10 +51,6 @@
     {
       "basename": "Set Theory PYQs",
       "path": "GATE/Pyqs/Set Theory PYQs.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
     },
     {
       "basename": "Write expressions from Tables",
@@ -43,18 +75,6 @@
     {
       "basename": "Relations",
       "path": "GATE/DiscreteMathematics/Set-Theory/Relations.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
-    },
-    {
-      "basename": "DBMS PYQs",
-      "path": "GATE/Pyqs/DBMS PYQs.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
       "basename": "GATE-CS",
@@ -101,10 +121,6 @@
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
     },
     {
-      "basename": "Introduction to DBMS",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
-    },
-    {
       "basename": "Problems caused by Redundant Information",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
     },
@@ -127,10 +143,6 @@
     {
       "basename": "Associative Cache",
       "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associative Cache.md"
-    },
-    {
-      "basename": "Cache-Memory",
-      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas"
     },
     {
       "basename": "Synchronization in OS",
@@ -161,10 +173,6 @@
       "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Control Hazards in Pipeline.md"
     },
     {
-      "basename": "Pending Lectures",
-      "path": "GATE/Pending Lectures.md"
-    },
-    {
       "basename": "Data Hazards in Pipeline",
       "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Data Hazards in Pipeline.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "16-08-2024",
       "path": "Journal/16-08-2024.md"
-    },
-    {
-      "basename": "13-08-2024",
-      "path": "Journal/13-08-2024.md"
-    },
-    {
-      "basename": "14-08-2024",
-      "path": "Journal/14-08-2024.md"
     }
   ],
   "omittedPaths": [

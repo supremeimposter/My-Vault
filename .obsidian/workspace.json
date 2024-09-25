@@ -4,65 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "df7f94ce3ab6c62b",
+        "id": "0db92b6a93445326",
         "type": "tabs",
         "children": [
           {
-            "id": "76a07e4786a7142a",
+            "id": "a979cb9d9bf15c0b",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "087404d24fd53302",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8f488745b5fb66b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Pyqs/Set Theory PYQs.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e3be16fa73bd995",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Pyqs/Logic PYQs.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md"
+                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
               }
             }
           },
@@ -246,33 +206,37 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "087404d24fd53302",
+  "active": "a979cb9d9bf15c0b",
   "lastOpenFiles": [
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
+    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
+    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas",
+    "GATE/Pyqs/DBMS PYQs.md",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
+    "GATE/Guidelines to GATE-CS.md",
+    "attachments/DBMS PYQs-20240925152010551.webp",
+    "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "GATE/Pending Lectures.md",
+    "attachments/Guidelines to GATE-CS-20240925113138801.webp",
+    "attachments/Guidelines to GATE-CS-20240925112931085.webp",
+    "attachments/Guidelines to GATE-CS-20240925102200404.webp",
+    "attachments/Guidelines to GATE-CS-20240925101959834.webp",
     "attachments/Guidelines to GATE-CS-20240924233031511.webp",
     "attachments/Guidelines to GATE-CS-20240924233015254.webp",
     "attachments/Guidelines to GATE-CS-20240924232034926.webp",
     "GATE/Temporary Plan.md",
-    "GATE/Guidelines to GATE-CS.md",
     "GATE/Pyqs/Logic PYQs.md",
     "GATE/Pyqs/Set Theory PYQs.md",
     "attachments/Set Theory PYQs-20240924122145088.webp",
     "attachments/Set Theory PYQs-20240924122114071.webp",
-    "attachments/Logic PYQs-20240924105425402.webp",
-    "attachments/Logic PYQs-20240924105400182.webp",
-    "attachments/Guidelines to GATE-CS-20240924100725280.webp",
-    "attachments/Logic PYQs-20240924084837924.webp",
-    "GATE/DiscreteMathematics/Discrete Mathematics.md",
     "GATE/DiscreteMathematics/Propositional-Logic/Write expressions from Tables.md",
     "GATE/DiscreteMathematics/First-Order-Logic/Quantifiers.md",
     "GATE/DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md",
     "GATE/DiscreteMathematics/Propositional-Logic/Limitations of Propositional Logic.md",
     "GATE/DiscreteMathematics/First-Order-Logic/First Order Logic.md",
     "GATE/DiscreteMathematics/Set-Theory/Relations.md",
-    "GATE/DatabaseManagementSystem/Database Management System.md",
-    "GATE/Pyqs/DBMS PYQs.md",
-    "attachments/DBMS PYQs-20240922204358246.webp",
-    "attachments/DBMS PYQs-20240922183750017.webp",
-    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
     "GATE/GATE-CS.md",
     "GATE/GATE-LOG.md",
     "GATE/Pyqs/TOC PYQs.md",
@@ -281,11 +245,7 @@
     "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
-    "GATE/Pyqs/GATE PYQs Index.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md",
     "GATE/Pyqs",
-    "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas",
     "Journal/Study-sessions",
     "GATE/Computer-Organization-and-Architecture/Pipeline",
     "Journal",
