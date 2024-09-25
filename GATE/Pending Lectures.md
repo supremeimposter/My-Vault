@@ -1,10 +1,12 @@
 # [[Data Structures]]
+
 - [ ] Data Structures - Heaps practice set live 2📅 2023-09-27 
 - [ ] Data Structures - Heaps practice set live 3📅 2023-09-29
 - [x] Data Structures - Hashing
 - [x] Row-major, Column-major
 
 # Engineering Mathematics
+
 - [ ] Probability - Weekly Quiz - 8, 11
 - [ ] Calculus - [Weekly Quiz - 14](https://www.youtube.com/watch?v=6aIuj2b2J38)
 - [ ] Linear Algebra - Types of Matrices
@@ -13,14 +15,17 @@
 - [ ] Scholarship test LA solution
 
 # [[Programming with C]]
+
 - [ ] C Programming - [Pointer Summary](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHgJFMCeS5c13pREPXcoRkaZ)
 - [ ] C Programming - Weekly Quiz 15, 17, 18
 
 # [[Aptitude]]
+
 - [x] Aptitude - ceiling and floor
 - [ ] Number system - `27:45`
 
 # [[Discrete Mathematics]]
+
 - [ ] Discrete Mathematics - First Order Logic Optional Lectures
 	- [ ] [Model in Propositional Logic | Interpretation, Model in Logic | Discrete Mathematics - YouTube](https://www.youtube.com/watch?v=12lUdO2mOp4)
 	- [ ] [Interpretation, Model in First Order Logic - Discrete Mathematics - YouTube](https://www.youtube.com/watch?v=7cO0TMAQt5I)
@@ -54,6 +59,7 @@
 	- [ ] [GATE CSE 1992 - Group of Even Order | Group Theory | Discrete Mathematics |GoClasses | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=Ewdz0FQJ14w)
 
 # [[Database Management System]]
+
 - [ ] SQL Retrieval Queries Complete analysis [GATE pyqs](https://www.youtube.com/watch?v=zb6vXpZVo1E)
 - [ ] [Practice Set 1 - Normalization | Ullman DBMS Questions | Live Discussion | GoClasses | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=2dAWjK4JVco)
 - [ ] [Practice Set 1 Part 2 - Normalization | Ullman DBMS Questions | Live | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=EU5O_8wH3Xw)
@@ -62,6 +68,7 @@
 - [ ] Recovery Manager - Topic not covered in Go classes
 
 # [[Theory of Computation]]
+
 - [ ] [Theory of Computation: Homework 2 Solutions | TOC Standard Questions | GO Classes | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=BYnZ6T2bHJI&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=6)
 - [ ] [Theory of Computation: Homework 3 Solutions Part 1 - Top Universities Questions | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=hTUGFT5WzTM&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=8)
 - [ ] [Theory of Computation: Homework 3 Solutions Part 2 - Top Universities Questions | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=A2KRjA7FvXw&list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9&index=34)
@@ -69,6 +76,7 @@
 - [ ] [Countability - GATE PYQs, TIFR, UGC NET Questions - ALL Previous Exams Questions | GO Classes - YouTube](https://www.youtube.com/watch?v=fl8Z3oM2EJk&list=PLIPZ2_p3RNHgXosiQv-gL1PvJkcHokW1p&index=8)
 
 # [[Digital Logic]]
+
 - [ ] [GRE Computer Science - Ripple Carry Adder Delay Question - Complete Analysis | Deepak Poonia Sir - YouTube](https://www.youtube.com/watch?v=O-ymWW0ZH9o)
 - [ ] [Mealy, Moore Machines PYQs](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHjd6P9g6XoUm8E33CsUBqDv) 
 - [x] [Shannon's Expansion Theorem](file:///media/menosuno/OS/GATE'24/Go-classes/DL-24/IOWA-notes-2018/22_Decoders_and_Encoders.pdf)
@@ -78,6 +86,7 @@
 - [ ] Setup and Hold Time in Flip flops
 
 # [[Computer Organization and Architecture]]
+
 - [x] [Pipeline - Complete Playlist | Hazards in Pipeline | Computer Organization & Architecture | GO Classes Pipeline Playlist - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhs9DfAY9ry6XbjGn7ZumZ8)
 - [ ] Stale Data in Cache
 - [ ] Cache coherence
@@ -85,6 +94,7 @@
 - [ ] I/O (Interrupts)
 
 # [[Algorithms]]
+
 - [ ] [GATE 2007 question on DAG finish time - YouTube](https://www.youtube.com/watch?v=rpI-7pWguKo)
 - [ ] [Dijkstra Working Example 3 - YouTube](https://www.youtube.com/watch?v=MiN5p_Z0-rA)
 
@@ -95,7 +105,8 @@ Revision sessions
 - [ ] [Minimum Spanning Trees | Prims and Kruskal's algorithm | ALL Tricky PYQs | GATE CSE and DA | InDepth - YouTube](https://www.youtube.com/watch?v=W2eDnCoCTuc&lc=UgwJdOhWDhs16teZNLt4AaABAg)
 - [ ] [Bellman-Ford Proof | Most Intuitive Proof WITHOUT Induction | GATE CSE and DA | Sachin Mittal - YouTube](https://www.youtube.com/watch?v=lNIqzVbuXtk)
 
-# Compiler Design
+# [[Compiler Design]]
+
 - [ ] [Handles and Viable Prefixes | Easiest Explanation | Compiler Design | GATE 2005 | Parser | Part-1 - YouTube](https://www.youtube.com/watch?v=0q1BEXFUaBE&feature=youtu.be)
 - [ ] [Many Questions on Handle &Working of Bottom-up parsers| Use of Stack in Bottom-up| With NOTES| Part2 - YouTube](https://www.youtube.com/watch?v=G5FhkCA3BNU)
 - [ ] [Viable Prefixes| Really Understand LR(0) Automata| Re-Run of DFA| Bottom-up Parsing Part3 With Notes - YouTube](https://www.youtube.com/watch?v=-riQPRUySTo&t=0s)
@@ -104,7 +115,8 @@ Revision sessions
 - [ ] [Liveness Analysis Questions | Code Optimization | Compiler Design | GATE, TIFR Questions - YouTube](https://www.youtube.com/watch?v=AI1Fsi-nvik)
 - [ ] [Available Expression Analysis, Common Subexpression Elimination, Copy Propagation - YouTube](https://www.youtube.com/watch?v=oBAqib3LDi4)
 
-# Operating Systems
+# [[Operating Systems]]
+
 - [x] [Marathon: Operating Systems | Thread, System Call, Context Switch in Detail with ALL PYQs | In-Depth - YouTube](https://www.youtube.com/watch?v=Ywqjv0_uh0U)
-- [ ] [Marathon: Operating Systems | Synchronisation and Critical Section | Peterson's Solution | MANY PYQs - YouTube](https://www.youtube.com/watch?v=89t-X0SdWw0)
+- [x] [Marathon: Operating Systems | Synchronisation and Critical Section | Peterson's Solution | MANY PYQs - YouTube](https://www.youtube.com/watch?v=89t-X0SdWw0)
 - [ ] [Operating Systems GATE PYQs, Revision Playlist - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHixlIaarIXGPy-eggJQMxd_)

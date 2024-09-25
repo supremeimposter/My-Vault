@@ -95,6 +95,14 @@ BCNF does not guarantee a dependency preserving decomposition.
 ![[DBMS PYQs-20240922204358246.webp]]
 
 
+> [!question] 
+> [Databases: GATE CSE 2008 | Question: 69](https://gateoverflow.in/492/gate-cse-2008-question-69)
+
+![[DBMS PYQs-20240925152010551.webp]]
+
+
+By the context here, key is the primary key, chosen as one of many candidate keys.
+
 ## Relational Algebra
 
 

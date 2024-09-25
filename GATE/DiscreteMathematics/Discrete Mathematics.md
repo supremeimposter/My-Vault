@@ -104,6 +104,7 @@ flowchart LR
 
 ---
 ## Functions
+
 - [[Function Definition]]
 - [[Types of Functions]]
 - [[Set Operations on Functions]]
@@ -111,6 +112,7 @@ flowchart LR
 
 ---
 ## Group Theory
+
 - [[Abstract Algebra]]
 - [[Properties in Group Theory]]
 - [[Monoid]]
@@ -123,14 +125,22 @@ flowchart LR
 
 ---
 ## Combinatronics
+
 - [[Combinatronics]]
 
 
 > [!youtube] [Recurrence Relations in Discrete Mathematics | Complete Playlist | Applications of Recurrence Relations | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhhTH0o1JBMgscMUvxs4E_4)
 
 ---
+## Pending Lectures
 
+![[Pending Lectures#Discrete Mathematics]]
+
+
+
+---
 # References
+
 - [Discrete Mathematics - Oscar Levin](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
 
 > [!youtube] 

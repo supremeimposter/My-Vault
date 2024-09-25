@@ -57,7 +57,7 @@ $$
 ---
 ## Guidelines to Database Management System
 
-- When asked for candidate keys, check if the options are minimal or not. Just don't blindly find the closure of attributes of options.
+- When asked for candidate keys, check if the options are minimal or not. Just don't blindly find the closure of attributes of options given.
 - Since sets of attributes are used, for counting the different combinations, subsets counting can be used to find out the different possible combinations.
 
 - To prove or verify a FD is inferred by an FD set, always use closure method as it is easy and fast rather than fiddling with Armstrong's axioms. Take the closure of the given FD and check in the given FD set, whethere the RHS can be obtained or not.
@@ -71,7 +71,10 @@ $$
 | ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
 
 - Not every decomposition (2NF, 3NF) are lossless and dependency preserving. But there always exists (at least one) 2NF or 3NF decomposition for a relation that is lossless and dependency preserving.
-- There can be multiple ways to decompose a relation to either 2NF, 3NF or BCNF.
+- There can be multiple ways (multiple algorithms) to decompose a relation to either 2NF, 3NF or BCNF.
+- There is always a lossless BCNF decomposition possible for a relation. It may not be possible to get any BCNF decomposition of some relation $R$ that is dependency preserving.
+- Check the closure of preserved FD by each individual relations to check for dependency preserving decomposition.
+- Deletion operation never violates any FD, so no FD checking is needed.
 
 - For relational algebra, first figure out how many tuples gives our desired answer, in case of comparisons are needed across tuples. And then take the cross product as the tuples required.
 - In relational algebra, Natural way of joining relations is different from cross product of two relations.
@@ -145,7 +148,7 @@ $$
 - If the domain of different variables in a predicate is not mentioned, then by default it is considered that those variables have the same domain.
 - Predicates are also called as propositional functions, because they take values as inputs and produce propositions.
 - Quantifiers cannot affect any propositions i.e. predicates with no predicate variables.
-- When a predicate is quantified, it becomes a proposition.
+- When a predicate is quantified and all the variables are bounded, it becomes a proposition.
 
 - For universal quantified statement to be false, you need a counter example. It is usually paired with $\rightarrow$
 - For existential quantified statement to be true, you need a witness. It is usually paired with $\land$
@@ -169,6 +172,16 @@ flexGrow=1
 ```
 ````
 
+- A bounded variable cannot be replaced by any value from the domain. A bounded variable is just a placeholder.
+
+![[Guidelines to GATE-CS-20240925101959834.webp]]
+![[Guidelines to GATE-CS-20240925102200404.webp]]
+
+![[Guidelines to GATE-CS-20240925112931085.webp]]
+![[Guidelines to GATE-CS-20240925113138801.webp]]
+
+- Bounded variable = quantified variable
+- free variable = non-quantified variable
 
 
 ### Guidelines to Set Theory
