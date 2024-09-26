@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Logic PYQs",
+      "path": "GATE/Pyqs/Logic PYQs.md"
+    },
+    {
       "basename": "Computer Organization and Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
@@ -29,10 +37,6 @@
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
     },
     {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
-    },
-    {
       "basename": "Discrete Mathematics",
       "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "Temporary Plan",
       "path": "GATE/Temporary Plan.md"
-    },
-    {
-      "basename": "Logic PYQs",
-      "path": "GATE/Pyqs/Logic PYQs.md"
     },
     {
       "basename": "Set Theory PYQs",

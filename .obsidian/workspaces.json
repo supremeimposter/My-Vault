@@ -510,60 +510,6 @@
                   },
                   "pinned": true
                 }
-              },
-              {
-                "id": "e24d06d695824fa4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associative Cache.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "76402774cbced07d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Direct Mapped Cache.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "781412b454c586b8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache Memory.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "53c0b99fe6fd9911",
-                "type": "leaf",
-                "state": {
-                  "type": "canvas",
-                  "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas",
-                    "viewState": {
-                      "x": -893.1163687696295,
-                      "y": -453.3499438431387,
-                      "zoom": 0
-                    }
-                  }
-                }
               }
             ]
           }
@@ -750,7 +696,7 @@
         }
       },
       "active": "a979cb9d9bf15c0b",
-      "mtime": "2024-08-30T13:37:24+05:30"
+      "mtime": "2024-09-26T09:04:02+05:30"
     },
     "DL": {
       "main": {
@@ -1738,5 +1684,5 @@
       "mtime": "2024-09-22T16:01:27+05:30"
     }
   },
-  "active": "COA"
+  "active": "set-theory"
 }

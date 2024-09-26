@@ -4,25 +4,65 @@
     "type": "split",
     "children": [
       {
-        "id": "0db92b6a93445326",
+        "id": "df7f94ce3ab6c62b",
         "type": "tabs",
         "children": [
           {
-            "id": "a979cb9d9bf15c0b",
+            "id": "76a07e4786a7142a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+                "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "pinned": true
             }
+          },
+          {
+            "id": "087404d24fd53302",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Guidelines to GATE-CS.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8f488745b5fb66b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Pyqs/Set Theory PYQs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e3be16fa73bd995",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Pyqs/Logic PYQs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+                "file": "GATE/Guidelines to GATE-CS.md"
               }
             }
           },
@@ -202,20 +242,20 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "workspaces:Manage workspace layouts": false,
-      "map-of-content:Update Map of Content": false
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a979cb9d9bf15c0b",
+  "active": "087404d24fd53302",
   "lastOpenFiles": [
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
+    "GATE/Pyqs/Logic PYQs.md",
+    "GATE/Guidelines to GATE-CS.md",
     "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas",
     "GATE/Pyqs/DBMS PYQs.md",
     "GATE/DatabaseManagementSystem/Database Management System.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
-    "GATE/Guidelines to GATE-CS.md",
     "attachments/DBMS PYQs-20240925152010551.webp",
     "GATE/DiscreteMathematics/Discrete Mathematics.md",
     "GATE/Pending Lectures.md",
@@ -227,7 +267,6 @@
     "attachments/Guidelines to GATE-CS-20240924233015254.webp",
     "attachments/Guidelines to GATE-CS-20240924232034926.webp",
     "GATE/Temporary Plan.md",
-    "GATE/Pyqs/Logic PYQs.md",
     "GATE/Pyqs/Set Theory PYQs.md",
     "attachments/Set Theory PYQs-20240924122145088.webp",
     "attachments/Set Theory PYQs-20240924122114071.webp",
