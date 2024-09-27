@@ -300,7 +300,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -375,7 +375,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "file": "GATE/Pyqs/Logic PYQs.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -392,7 +392,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "file": "GATE/Pyqs/Logic PYQs.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -416,7 +416,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Guidelines to GATE-CS.md"
+                    "file": "GATE/Pyqs/Logic PYQs.md"
                   }
                 }
               },
@@ -484,8 +484,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "087404d24fd53302",
-      "mtime": "2024-09-25T14:45:50+05:30"
+      "active": "9e3be16fa73bd995",
+      "mtime": "2024-09-27T20:42:43+05:30"
     },
     "COA": {
       "main": {
@@ -1684,5 +1684,5 @@
       "mtime": "2024-09-22T16:01:27+05:30"
     }
   },
-  "active": "set-theory"
+  "active": "DBMS-mod-1"
 }

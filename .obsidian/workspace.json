@@ -4,26 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "df7f94ce3ab6c62b",
+        "id": "f5b89db6f1e09b3f",
         "type": "tabs",
         "children": [
           {
-            "id": "76a07e4786a7142a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "087404d24fd53302",
+            "id": "2066b3fa9c6e9c03",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,12 +21,12 @@
             }
           },
           {
-            "id": "e8f488745b5fb66b",
+            "id": "8c06d979475f07ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Pyqs/Set Theory PYQs.md",
+                "file": "GATE/DatabaseManagementSystem/Database Management System.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,12 +34,12 @@
             }
           },
           {
-            "id": "9e3be16fa73bd995",
+            "id": "110128e1b63e3921",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Pyqs/Logic PYQs.md",
+                "file": "GATE/Pyqs/DBMS PYQs.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/Pyqs/DBMS PYQs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/Pyqs/DBMS PYQs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md"
+                "file": "GATE/Pyqs/DBMS PYQs.md"
               }
             }
           },
@@ -202,7 +187,7 @@
             }
           },
           {
-            "id": "64e722562ef2ff69",
+            "id": "92acdc507560220c",
             "type": "leaf",
             "state": {
               "type": "journal-calendar",
@@ -242,34 +227,39 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "map-of-content:Update Map of Content": false
     }
   },
-  "active": "087404d24fd53302",
+  "active": "110128e1b63e3921",
   "lastOpenFiles": [
-    "GATE/Pyqs/Logic PYQs.md",
+    "attachments/DBMS PYQs-20240928011228563.webp",
     "GATE/Guidelines to GATE-CS.md",
+    "GATE/Pyqs/DBMS PYQs.md",
+    "attachments/DBMS PYQs-20240928010705776.webp",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "attachments/DBMS PYQs-20240927204955449.webp",
+    "attachments/DBMS PYQs-20240927204913180.webp",
+    "attachments/DBMS PYQs-20240927204849460.webp",
+    "attachments/DBMS PYQs-20240927204832211.webp",
+    "attachments/DBMS PYQs-20240927204814981.webp",
+    "attachments/DBMS PYQs-20240927204652610.webp",
+    "attachments/DBMS PYQs-20240927204635624.webp",
+    "attachments/DBMS PYQs-20240927204604803.webp",
+    "attachments/DBMS PYQs-20240927204533085.webp",
+    "GATE/Pyqs/Logic PYQs.md",
+    "GATE/Pyqs/Set Theory PYQs.md",
+    "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "GATE/DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
+    "GATE/Linear-Algebra/Crammer's Rule.md",
+    "GATE/DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
     "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas",
-    "GATE/Pyqs/DBMS PYQs.md",
-    "GATE/DatabaseManagementSystem/Database Management System.md",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
-    "attachments/DBMS PYQs-20240925152010551.webp",
-    "GATE/DiscreteMathematics/Discrete Mathematics.md",
     "GATE/Pending Lectures.md",
-    "attachments/Guidelines to GATE-CS-20240925113138801.webp",
-    "attachments/Guidelines to GATE-CS-20240925112931085.webp",
-    "attachments/Guidelines to GATE-CS-20240925102200404.webp",
-    "attachments/Guidelines to GATE-CS-20240925101959834.webp",
-    "attachments/Guidelines to GATE-CS-20240924233031511.webp",
-    "attachments/Guidelines to GATE-CS-20240924233015254.webp",
-    "attachments/Guidelines to GATE-CS-20240924232034926.webp",
     "GATE/Temporary Plan.md",
-    "GATE/Pyqs/Set Theory PYQs.md",
-    "attachments/Set Theory PYQs-20240924122145088.webp",
-    "attachments/Set Theory PYQs-20240924122114071.webp",
     "GATE/DiscreteMathematics/Propositional-Logic/Write expressions from Tables.md",
     "GATE/DiscreteMathematics/First-Order-Logic/Quantifiers.md",
     "GATE/DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md",
@@ -280,10 +270,6 @@
     "GATE/GATE-LOG.md",
     "GATE/Pyqs/TOC PYQs.md",
     "GATE/TheoryOfComputation/Theory of Computation.md",
-    "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md",
-    "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md",
     "GATE/Pyqs",
     "Journal/Study-sessions",
     "GATE/Computer-Organization-and-Architecture/Pipeline",

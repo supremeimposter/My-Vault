@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "DBMS PYQs",
+      "path": "GATE/Pyqs/DBMS PYQs.md"
+    },
+    {
       "basename": "Guidelines to GATE-CS",
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
       "basename": "Logic PYQs",
       "path": "GATE/Pyqs/Logic PYQs.md"
+    },
+    {
+      "basename": "Set Theory PYQs",
+      "path": "GATE/Pyqs/Set Theory PYQs.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Logical Equivalence",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/Logical Equivalence.md"
+    },
+    {
+      "basename": "Crammer's Rule",
+      "path": "GATE/Linear-Algebra/Crammer's Rule.md"
+    },
+    {
+      "basename": "Arguments and Inference",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/Arguments and Inference.md"
     },
     {
       "basename": "Computer Organization and Architecture",
@@ -25,20 +53,8 @@
       "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas"
     },
     {
-      "basename": "DBMS PYQs",
-      "path": "GATE/Pyqs/DBMS PYQs.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
-    },
-    {
       "basename": "Introduction to DBMS",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
     },
     {
       "basename": "Pending Lectures",
@@ -47,10 +63,6 @@
     {
       "basename": "Temporary Plan",
       "path": "GATE/Temporary Plan.md"
-    },
-    {
-      "basename": "Set Theory PYQs",
-      "path": "GATE/Pyqs/Set Theory PYQs.md"
     },
     {
       "basename": "Write expressions from Tables",
@@ -187,18 +199,6 @@
     {
       "basename": "Structural Hazards in Pipeline",
       "path": "GATE/Computer-Organization-and-Architecture/Pipeline/Structural Hazards in Pipeline.md"
-    },
-    {
-      "basename": "Introduction to Operating Systems",
-      "path": "GATE/OperatingSystems/Introduction to Operating Systems.md"
-    },
-    {
-      "basename": "17-08-2024",
-      "path": "Journal/17-08-2024.md"
-    },
-    {
-      "basename": "16-08-2024",
-      "path": "Journal/16-08-2024.md"
     }
   ],
   "omittedPaths": [
