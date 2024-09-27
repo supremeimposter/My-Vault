@@ -57,6 +57,7 @@ $$
 ---
 ## Guidelines to Database Management System
 
+- If an attribute has a set-valued attribute, then it is not in 1NF as the values are not atomic. For 1NF, an attribute cannot be composite.
 - When asked for candidate keys, check if the options are minimal or not. Just don't blindly find the closure of attributes of options given.
 - Since sets of attributes are used, for counting the different combinations, subsets counting can be used to find out the different possible combinations.
 
@@ -111,8 +112,10 @@ $$
 - T and F are constant propositional expressions or propositional formulae.
 - Every atomic proposition is a compound proposition, but not every compound proposition is an atomic proposition.
 
-
 - $\leftrightarrow$ is bi-implication and $\Leftrightarrow$ is logical equivalence.
+
+![[Guidelines to GATE-CS-20240927182739123.webp]]
+
 - Do not confuse with solving by-case method. Just take one of the propositional variables and see what happens to the both the expressions for the variables' truth values.
 
 ![[Guidelines to GATE-CS-20240920225711275.webp]]
@@ -122,14 +125,13 @@ $$
 	- $(a \rightarrow b) \rightarrow (b \rightarrow c)$ or
 	- $a \rightarrow (\, b \rightarrow (b \rightarrow c) \,)$
 	- $(a \rightarrow b) \rightarrow (b \rightarrow c) \not\equiv a \rightarrow (\, b \rightarrow (b \rightarrow c) \,)$
-- If nothing is mentioned, then assume right associativity i.e. $a \rightarrow (\, b \rightarrow (b \rightarrow c) \,)$
+- If nothing is mentioned, then assume right associativity by default i.e. $a \rightarrow (\, b \rightarrow (b \rightarrow c) \,)$
 
 - unless = if not 
 - unless splits a compound proposition.
 
 - For checking the validity of an argument and consistency of a set of proportions is the same, except for validity of argument has the additional step  that the conclusion has been made to be false.
 - To put it simply, $A_{1}, A_{2}, \cdots, A_{n} \to C$, in this $T \to F$ should not occur.
-
 
 - If some propositional expression has been given, it has either of the two truth values. Look at an expression in an proposition point of view.
 - In case of implications in a verification of tautology for a propositional expression, validity of argument method can be used.
@@ -140,6 +142,12 @@ $$
 - If you cannot comprehend something into a logical argument in case of propositional forumlae, just use the truth table and find counter examples and arrive at solutions.
 
 ![[Guidelines to GATE-CS-20240924100725280.webp]]
+
+- Conjunctive normal form CNF = product of sums POS
+- Disjunctive normal form DNF = sum of products SOP
+
+- When asked to prove a logical equivalence, just go for by-case method. Its simple.
+
 
 ### Guidelines to First Order Logic
 
@@ -177,7 +185,7 @@ flexGrow=1
 ![[Guidelines to GATE-CS-20240925101959834.webp]]
 ![[Guidelines to GATE-CS-20240925102200404.webp]]
 
-![[Guidelines to GATE-CS-20240925112931085.webp]]
+![[Guidelines to GATE-CS-20240927073742192.webp]]
 ![[Guidelines to GATE-CS-20240925113138801.webp]]
 
 - Bounded variable = quantified variable
