@@ -10,8 +10,8 @@ notes-taken: false
 tags:
   - DBMS/Disks
 ---
-
 # Disk Addressing
+
 > [!lecture] Lecture-2
 >> [!youtube] [Magnetic Disk Addressing | CHS Addressing Vs LBA Sector Addressing | COA, DBMS - Deepak Poonia - YouTube](https://www.youtube.com/watch?v=5XzFAOJGHFI)
 
@@ -31,6 +31,7 @@ tags:
 2. Cylinder Head Sector (CHS)
 
 ### CHS to LBA
+
 LBA is an integer starting from the 0, denoting the sector number.
 It can be calculated from CHS addressing.
 If Sectors per cylinder is ${} n_c {}$ and sectors per track is ${} n_t {}$

@@ -77,17 +77,84 @@ $$
 - Check the closure of preserved FD by each individual relations to check for dependency preserving decomposition.
 - Deletion operation never violates any FD, so no FD checking is needed.
 
+
+- In the relational model queries (rel. algebra, rel.calculus), NULL does not occur in the table except for outer join.
+
+### Guidelines to Relational Algebra
+
 - For relational algebra, first figure out how many tuples gives our desired answer, in case of comparisons are needed across tuples. And then take the cross product as the tuples required.
 - In relational algebra, Natural way of joining relations is different from cross product of two relations.
 - $a\backslash b$ is set difference and $a / b$ is division operator
 
 - Just have an overview that relations are nothing but sets of tuples. It will help you simplify relations mentally.
 
+
+### Guidelines to SQL
+
+- In SQL, FROM keyword is cross product and not natural join.
+- Conceptual evaluation = FROM > WHERE > SELECT > DISTINCT
+- Though SQL queries are declarative, DBMS will optimize the query for faster retrieval and those details are not necessary. It is different from the conceptual evaluation.
+
+
+- Be careful when UNION, INTERSECT, EXCEPT is used on a non-key attribute, which may contain duplicates.
+- Be careful when AND is used on the same attribute. When used on different attributes, it selects the desired tuple. When used on the same attribute, it cannot select any desired tuple. In such case, use intersect or intersect all.
+
+
+### Guidelines to Disk
+
+- Consider using Average seek time and Average rotational latency unless explicitly mentioned otherwise.
+- For every rotation, always consider the rotational latency.
+- Data is expressed in terms of powers of 2
+- Time is expressed in terms of powers of 10
+
+![[Guidelines to GATE-CS-20241007182239966.webp]]
+
+- Both lba and chs are 0-indexed. 
+- Evaluating chs gives the position of a sector i.e. logical block addressing. The answer that is obtained is the correct one. No need to add or subtract anything.
+- Disk addressing = address of a sector.
+- Cylinder numbers also start from 0. It is important for disk scheduling algorithms.
+
+- In C-scan algorithm, the empty trip is also counted for average calculation.
+- A block is a consecutive sectors within a track.
+- transfer rate does not care about whether useful data is transferred or not. It just shows how much data is transferred in a given amount of time. But remove the formatted data, it is not required.
+
+- scanning a full disk is different from searching for a record in the disk.
+
+### Guidelines to Indexing
+
+- By default organization is unspanned and records are of fixed-length.
+- Indexes are always created on a single attribute.
+- Data access always happens block by block. Even if a record address, that block that which contains that record has to be accessed. 
+- Index blocking factor is also called index fan-out.
+- index fan-out = referencing capability per block.
+- Doing a search on index blocks and finding the correct entry also requires disk block access of the original file. If the index is already on the memory, then disk block accesses are those that are done from the disk.
+- Ordered index files contain index entries in sorted manner physically.
+- Access cost = number of disk block accesses
+- Block access is nothing but reading of blocks by main memory.
+- Take the size of record pointer for the secondary index if both block and record pointer size are given.
+
+- Unclustered index is the secondary index.
+- Some authors consider both primary and secondary index are same.
+- Secondary index is not useful on range queries or we have to access to many records. A single sequential scan of the original file is better than searching through secondary index.
+
+- Do not confuse search keys from "keys" in relational model.
+
+- In B-trees, by default take record pointer for <key, record> pairs. If record pointer is not given, then consider block pointer.
+- Searching for the key and searching for the data record having the search key have different number of disk block accesses.
+- In case of doubt in analysis questions, just have some different key values and insert them into a B-tree and arrive at conclusions.
+- For B-tree, order questions, find the maximum p value. Whatever the definition given, the order is p.
+
 ---
 ## Guidelines to COA
 
+- When there is no information on whether the memory is word or byte-addressable, byte-addressable is considered, eventhough if there is an information on word length.
+- CPU does not care whether the memory is byte or word-addressable. If a CPU is a 32-bit processor (word length is 32 bits), then it processes 32 bits in one go.
+
+- k-bit addressing = k-bits are required to uniquely identity each address.
+- p-bit addressable = every p-bits has an address.
+
 - If the question asks for if there is any hazard, just draw the cycle diagram of normal pipeline execution and see if any problem exists. Don't overdo the problem.
-- Don't assume split phase by default. By default implementation is not split phase.
+- Don't assume split phase by default. By default implementation is not split phase (the other one).
 
 
 - If the starting address of an array is given, then use it to identify the block number of the starting block of the array in the main memory. The block offset can be used to identify the position of the first element of the array.
@@ -157,6 +224,9 @@ $$
 - Predicates are also called as propositional functions, because they take values as inputs and produce propositions.
 - Quantifiers cannot affect any propositions i.e. predicates with no predicate variables.
 - When a predicate is quantified and all the variables are bounded, it becomes a proposition.
+- The name of the free variable should not be changed, but the name of the bounded variable can be changed to avoid confusion.
+
+![[Guidelines to GATE-CS-20240928122013459.webp|Precedence of operators]]
 
 - For universal quantified statement to be false, you need a counter example. It is usually paired with $\rightarrow$
 - For existential quantified statement to be true, you need a witness. It is usually paired with $\land$

@@ -1,6 +1,6 @@
 # DBMS PYQs
 
-## Relational Model
+## Relational Model PYQs
 
 
 > [!question] 
@@ -12,7 +12,7 @@
 > [!question] 
 > [Databases: GATE CSE 2002 | Question: 2.25](https://gateoverflow.in/855/gate-cse-2002-question-2-25)
 
-![[DBMS PYQs-20240908141655639.webp]]
+![[DBMS PYQs-20240928193521828.webp]]
 
 From a given legal instance of a relational schema, only conclude the FDs that do not hold and never confirm any FDs that hold.
 
@@ -116,8 +116,35 @@ By the context here, key is the primary key, chosen as one of many candidate key
 ![[DBMS PYQs-20240928011228563.webp]]
 
 
+> [!question] 
+> [Databases: GATE CSE 2024 | Set 2 | Question: 46](https://gateoverflow.in/422851/gate-cse-2024-set-2-question-46)
 
-## Relational Algebra
+![[DBMS PYQs-20240928183524545.webp]]
+
+
+> [!question] 
+> [Databases: GATE IT 2004 | Question: 75](https://gateoverflow.in/3719/gate-it-2004-question-75)
+
+![[DBMS PYQs-20240928185903202.webp]]
+
+
+> [!question] 
+> [Databases: GATE CSE 2011 | Question: 12](https://gateoverflow.in/2114/gate-cse-2011-question-12)
+
+![[DBMS PYQs-20240928193500639.webp]]
+
+
+
+![[DBMS PYQs-20240928193632794.webp]]
+
+
+> [!question] 
+> [Databases: GATE CSE 2021 Set 2 | Question: 6](https://gateoverflow.in/357534/gate-cse-2021-set-2-question-6)
+
+![[DBMS PYQs-20240930155346385.webp]]
+
+
+## Relational Algebra PYQs
 
 
 > [!question] 
@@ -144,4 +171,96 @@ Given that the queries in LHS are valid, are the queries in the RHS valid or not
 
 
 ![[DBMS PYQs-20240927204955449.webp]]
+
+
+## SQL PYQs
+
+
+> [!question] 
+> [Databases: GATE CSE 1999 | Question: 2.25](https://gateoverflow.in/1502/gate-cse-1999-question-2-25)
+
+![[DBMS PYQs-20240928204827382.webp]]
+
+
+
+## Disk PYQs
+
+> [!question] 
+> [Operating System: GATE CSE 1993 | Question: 7.8](https://gateoverflow.in/2296/gate-cse-1993-question-7-8)
+
+![[DBMS PYQs-20241007183429599.webp]]
+
+
+> [!question] 
+> [Operating System: GATE CSE 1995 | Question: 14](https://gateoverflow.in/2650/gate-cse-1995-question-14)
+
+![[DBMS PYQs-20241007214042459.webp]]
+
+
+> [!question] 
+> [Operating System: GATE CSE 1998 | Question: 2-9](https://gateoverflow.in/1681/gate-cse-1998-question-2-9)
+
+![[DBMS PYQs-20241007215530255.webp]]
+
+
+> [!question] 
+> [Operating System: GATE CSE 2001 | Question: 20](https://gateoverflow.in/761/gate-cse-2001-question-20)
+
+![[DBMS PYQs-20241007223030896.webp]]
+
+
+> [!question] 
+> [Operating System: GATE CSE 2003 | Question: 25, ISRO2009-12](https://gateoverflow.in/915/gate-cse-2003-question-25-isro2009-12)
+
+![[DBMS PYQs-20241007223143363.webp]]
+
+
+> [!question] 
+> [Operating System: GATE CSE 2008 | Question: 32](https://gateoverflow.in/443/gate-cse-2008-question-32)
+
+![[DBMS PYQs-20241007224447903.webp]]
+
+
+## Indexing PYQs
+
+
+> [!question] 
+> [Databases: GATE CSE 1989 | Question: 4-xiv](https://gateoverflow.in/88228/gate-cse-1989-question-4-xiv)
+
+![[DBMS PYQs-20241011183025031.webp]]
+
+
+
+> [!question] 
+> [Databases: GATE CSE 1998 | Question: 1.35](https://gateoverflow.in/1672/gate-cse-1998-question-1-35)
+
+![[DBMS PYQs-20241011182948510.webp]]
+
+
+
+> [!question] 
+> [Databases: GATE CSE 2023 | Question: 52](https://gateoverflow.in/399259/gate-cse-2023-question-52)
+
+![[DBMS PYQs-20241011181725581.webp]]
+
+
+
+Be careful for the number of block accesses, just answer what are they answering for.
+
+
+
+> [!question] 
+> [Databases: GATE CSE 2024 | Set 2 | Question: 16](https://gateoverflow.in/422881/gate-cse-2024-set-2-question-16)
+
+![[DBMS PYQs-20241011213606742.webp]]
+
+scanning is not same as binary search.
+
+[iitg.ac.in/awekar/teaching/cs344fall11/lecturenotes/october 10.pdf](https://www.iitg.ac.in/awekar/teaching/cs344fall11/lecturenotes/october%2010.pdf)
+
+
+
+
+
+
 

@@ -11,6 +11,7 @@ tags:
   - DBMS/Disks
 ---
 # Magnetic Disk Structure
+
 > [!lecture] Lecture-1
 
 - Each Sector is a logical division rather than a physical division.
@@ -67,10 +68,10 @@ tags:
 - **Data Transfer Rate** has nothing to do with the track size or sector size. It is a measure of how much data that is read or write for a considered time frame.
 
 > [!doubt] 
-> Transfer Time is different from Data Transfer Rate
+> Transfer Time is different from Data Transfer Rate? Yes 
 
 Average Rotational delay  = ${} \frac{1}{2} \ast {}$ Time taken for one rotation
-It is also called as Average Latency
+It is also called as Average Latency.
 
 If a disk rotates with $x$ rotations per minute (RPM), then the time taken for 1 rotation is ${} \frac{60}{x} {}$ seconds.
 
