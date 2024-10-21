@@ -221,6 +221,26 @@ Given that the queries in LHS are valid, are the queries in the RHS valid or not
 ![[DBMS PYQs-20241007224447903.webp]]
 
 
+
+> [!question] 
+> [Operating System: GATE CSE 1999 | Question: 2-18, ISRO2008-46](https://gateoverflow.in/1496/gate-cse-1999-question-2-18-isro2008-46)
+
+![[DBMS PYQs-20241021120428438.webp]]
+
+
+
+> [!question] 
+> [Operating System: GATE CSE 2005 | Question: 21](https://gateoverflow.in/1357/gate-cse-2005-question-21)
+
+![[DBMS PYQs-20241021121151760.webp]]
+
+
+> [!question] 
+> [Operating System: GATE CSE 2013 | Question: 29](https://gateoverflow.in/1540/gate-cse-2013-question-29)
+
+![[DBMS PYQs-20241021132104230.webp]]
+
+
 ## Indexing PYQs
 
 
@@ -259,8 +279,108 @@ scanning is not same as binary search.
 [iitg.ac.in/awekar/teaching/cs344fall11/lecturenotes/october 10.pdf](https://www.iitg.ac.in/awekar/teaching/cs344fall11/lecturenotes/october%2010.pdf)
 
 
+> [!question] 
+> [Databases: GATE CSE 2007 | Question: 63, ISRO2016-59](https://gateoverflow.in/1261/gate-cse-2007-question-63-isro2016-59)
+
+![[DBMS PYQs-20241014154159153.webp]]
+
+
+> [!question] 
+> [Databases: GATE CSE 1994 | Question: 14a](https://gateoverflow.in/2510/gate-cse-1994-question-14a)
+
+![[DBMS PYQs-20241015093107098.webp]]
+
+
+
+> [!question] 
+> [Databases: GATE CSE 1994 | Question: 14b](https://gateoverflow.in/360163/gate-cse-1994-question-14b)
+
+![[DBMS PYQs-20241015095053227.webp]]
+
+
+
+> [!question] 
+> [Databases: GATE CSE 1997 | Question: 19](https://gateoverflow.in/2279/gate-cse-1997-question-19)
+
+![[DBMS PYQs-20241015103835872.webp]]
+
+
+
+> [!question] 
+> [Databases: GATE CSE 2000 | Question: 1.22, UGCNET-June2012-II: 11](https://gateoverflow.in/646/gate-cse-2000-question-1-22-ugcnet-june2012-ii-11)
+
+![[DBMS PYQs-20241015132245255.webp]]
+
+
+
+> [!question] 
+> [Databases: GATE CSE 2000 | Question: 21](https://gateoverflow.in/692/gate-cse-2000-question-21)
+
+
+![[DBMS PYQs-20241018123240892.webp]]
+
+
+> [!question] 
+> [Databases: GATE CSE 2002 | Question: 17](https://gateoverflow.in/870/gate-cse-2002-question-17)
+
+![[DBMS PYQs-20241018131206024.webp]]
+
+
+> [!question] 
+> [Databases: GATE CSE 2003 | Question: 65](https://gateoverflow.in/952/gate-cse-2003-question-65)
+
+![[DBMS PYQs-20241018135739037.webp]]
+
+
+> [!question] 
+> [Databases: GATE CSE 2005 | Question: 28](https://gateoverflow.in/1364/gate-cse-2005-question-28)
+
+![[DBMS PYQs-20241018135928718.webp]]
+
+
+## Transaction Management PYQs
+
+
+> [!question] 
+> [Databases: GATE CSE 2003 | Question: 87](https://gateoverflow.in/970/gate-cse-2003-question-87)
+
+![[DBMS PYQs-20241019225757181.webp]]
+
+
+
+checking both conflict and view serializability as there is no information on operations and computations. Only read and write are there. Both has to be checked, because a schedule can be VS but not CS. But if a schedule is CS, then it is VS. So start checking from CS.
+
+
+> [!question] 
+> [Databases: GATE CSE 2009 | Question: 43](https://gateoverflow.in/1329/gate-cse-2009-question-43)
+
+![[DBMS PYQs-20241019230755183.webp]]
+
+
+
+> [!question] 
+> [Databases: GATE CSE 2012 | Question: 27](https://gateoverflow.in/1612/gate-cse-2012-question-27)
+
+![[DBMS PYQs-20241019234950757.webp]]
+
+
+
+> [!question] 
+> [Databases: GATE CSE 2016 Set 1 | Question: 51](https://gateoverflow.in/39703/gate-cse-2016-set-1-question-51?show=317941#c317941)
+
+![[DBMS PYQs-20241021180555705.webp]]
+
+
+
+![[DBMS PYQs-20241021185655661.webp]]
+
+
+> [!question] 
+> [Operating System: GATE IT 2004 | Question: 63](https://gateoverflow.in/3706/gate-it-2004-question-63)
+
+![[DBMS PYQs-20241021222817646.webp]]
 
 
 
 
-
+Do not assume wait-die or wound-wait protocol, without reading the question.

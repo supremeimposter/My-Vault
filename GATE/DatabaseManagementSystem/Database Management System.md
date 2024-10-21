@@ -77,6 +77,7 @@ tags:
 - [[ER Model to Relational Model Conversion]]
 
 ---
+
 # Pending Lectures
 
 ![[Pending Lectures#Database Management System]]

@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"6bae80bc6802c1bb","type":"text","text":"Concurrency Control Protocols","x":-43,"y":-139,"width":395,"height":47,"color":"1"},
+		{"id":"5e61378cffff762d","type":"text","text":"Lock based protocols","x":-480,"y":-139,"width":340,"height":47},
+		{"id":"7fb02775c9c20af9","x":-820,"y":-400,"width":250,"height":101,"type":"text","text":"General lock-based protocols"},
+		{"id":"2c8e73a57e040758","x":-1280,"y":-740,"width":285,"height":47,"type":"text","text":"Early Unlocking"},
+		{"id":"3f8a8c8711437353","x":-1400,"y":-980,"width":427,"height":136,"color":"3","type":"text","text":"This is equivalent to schedules without any locking protocol. Data items and locked and unlocked immediately."}
+	],
+	"edges":[
+		{"id":"41bbe77df655a502","fromNode":"6bae80bc6802c1bb","fromSide":"left","toNode":"5e61378cffff762d","toSide":"right"},
+		{"id":"0877ba6ef8f475c2","fromNode":"5e61378cffff762d","fromSide":"left","toNode":"7fb02775c9c20af9","toSide":"right"},
+		{"id":"4e076fe07a80adfd","fromNode":"7fb02775c9c20af9","fromSide":"left","toNode":"2c8e73a57e040758","toSide":"right"},
+		{"id":"391bdc2a058a9625","fromNode":"2c8e73a57e040758","fromSide":"top","toNode":"3f8a8c8711437353","toSide":"bottom"}
+	]
+}

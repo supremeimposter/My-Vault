@@ -28,13 +28,13 @@ tags:
 
 ## Similarities between ER Model and Relational Model
 
-| ER Model                      | [[Relational Model]]              |
-|:------------------------------|:------------------------------|
+| ER Model                      | [[Relational Model]]          |
+| :---------------------------- | :---------------------------- |
 | Entity                        | Tuple/Row/Record              |
 | Entity Type/Entity Set        | Relation/Table                |
 | Primary, Candidate, Super key | Primary, Candidate, Super key |
 | Attribute domain              | Attribute domain              |
-| Cardinality of entity type    | Cardinality of instance       |  
+| Cardinality of entity type    | Cardinality of instance       |
 
 ## Schema of ER Model
 

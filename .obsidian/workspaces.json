@@ -36,6 +36,32 @@
                 }
               },
               {
+                "id": "b61abb5950d903b6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "4b1358c303bb5007",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "110128e1b63e3921",
                 "type": "leaf",
                 "state": {
@@ -124,7 +150,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Pyqs/DBMS PYQs.md",
+                    "file": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -141,7 +167,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Pyqs/DBMS PYQs.md",
+                    "file": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -165,7 +191,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Pyqs/DBMS PYQs.md"
+                    "file": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md"
                   }
                 }
               },
@@ -233,8 +259,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "110128e1b63e3921",
-      "mtime": "2024-09-25T23:03:29+05:30"
+      "active": "b61abb5950d903b6",
+      "mtime": "2024-10-02T11:45:32+05:30"
     },
     "set-theory": {
       "main": {
@@ -300,7 +326,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -375,7 +401,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Pyqs/Logic PYQs.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -392,7 +418,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Pyqs/Logic PYQs.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -416,7 +442,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Pyqs/Logic PYQs.md"
+                    "file": "GATE/Guidelines to GATE-CS.md"
                   }
                 }
               },
@@ -484,8 +510,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "9e3be16fa73bd995",
-      "mtime": "2024-09-27T20:42:43+05:30"
+      "active": "087404d24fd53302",
+      "mtime": "2024-09-28T13:24:37+05:30"
     },
     "COA": {
       "main": {
@@ -510,8 +536,35 @@
                   },
                   "pinned": true
                 }
+              },
+              {
+                "id": "d020c5cf31f45bd9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8e227422de9f51c7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -586,7 +639,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -603,7 +656,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -627,7 +680,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
                   }
                 }
               },
@@ -695,8 +748,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "a979cb9d9bf15c0b",
-      "mtime": "2024-09-26T09:04:02+05:30"
+      "active": "d020c5cf31f45bd9",
+      "mtime": "2024-09-28T11:49:39+05:30"
     },
     "DL": {
       "main": {

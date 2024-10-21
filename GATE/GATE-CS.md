@@ -35,6 +35,11 @@ tags:
 - [[DBMS PYQs]]
 - [[TOC PYQs]]
 
+## Mind Maps
+
+- [[Concurrency-Control-Protocols.canvas|Concurrency-Control-Protocols]]
+
+
 ---
 # References
 

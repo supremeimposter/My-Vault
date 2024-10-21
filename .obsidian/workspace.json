@@ -17,7 +17,9 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Guidelines to GATE-CS"
             }
           },
           {
@@ -30,7 +32,24 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Database Management System"
+            }
+          },
+          {
+            "id": "731edf3d036488bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Time Stamp-based Protocols"
             }
           },
           {
@@ -43,7 +62,9 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "DBMS PYQs"
             }
           }
         ],
@@ -67,7 +88,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -82,7 +105,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -90,7 +115,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -98,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "recent-files",
-              "state": {}
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -122,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Pyqs/DBMS PYQs.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +159,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Guidelines to GATE-CS"
             }
           },
           {
@@ -139,10 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Pyqs/DBMS PYQs.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Guidelines to GATE-CS"
             }
           },
           {
@@ -154,7 +187,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -163,8 +198,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Pyqs/DBMS PYQs.md"
-              }
+                "file": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Time Stamp-based Protocols"
             }
           },
           {
@@ -175,7 +212,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -183,7 +222,9 @@
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
-              "state": {}
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           },
           {
@@ -191,7 +232,9 @@
             "type": "leaf",
             "state": {
               "type": "journal-calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Calendar"
             }
           }
         ],
@@ -207,7 +250,9 @@
             "type": "leaf",
             "state": {
               "type": "map-of-content",
-              "state": {}
+              "state": {},
+              "icon": "stacked-levels",
+              "title": "Map of Content"
             }
           }
         ]
@@ -231,57 +276,57 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "110128e1b63e3921",
+  "active": "731edf3d036488bc",
   "lastOpenFiles": [
-    "attachments/DBMS PYQs-20240928011228563.webp",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
     "GATE/Guidelines to GATE-CS.md",
     "GATE/Pyqs/DBMS PYQs.md",
-    "attachments/DBMS PYQs-20240928010705776.webp",
-    "GATE/DatabaseManagementSystem/Database Management System.md",
-    "attachments/DBMS PYQs-20240927204955449.webp",
-    "attachments/DBMS PYQs-20240927204913180.webp",
-    "attachments/DBMS PYQs-20240927204849460.webp",
-    "attachments/DBMS PYQs-20240927204832211.webp",
-    "attachments/DBMS PYQs-20240927204814981.webp",
-    "attachments/DBMS PYQs-20240927204652610.webp",
-    "attachments/DBMS PYQs-20240927204635624.webp",
-    "attachments/DBMS PYQs-20240927204604803.webp",
-    "attachments/DBMS PYQs-20240927204533085.webp",
+    "attachments/DBMS PYQs-20241021222817646.webp",
+    "attachments/DBMS PYQs-20241021185655661.webp",
+    "attachments/DBMS PYQs-20241021180555705.webp",
+    "GATE/Mind-maps/Concurrency-Control-Protocols.canvas",
+    "GATE/GATE-CS.md",
+    "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
+    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md",
+    "GATE/Mind-maps",
+    "attachments/DBMS PYQs-20241021132104230.webp",
+    "attachments/DBMS PYQs-20241021121151760.webp",
+    "attachments/DBMS PYQs-20241021120428438.webp",
+    "GATE/DatabaseManagementSystem/ER-Model/ER Model.md",
+    "attachments/DBMS PYQs-20241019234950757.webp",
+    "attachments/DBMS PYQs-20241019230755183.webp",
+    "attachments/DBMS PYQs-20241019225757181.webp",
+    "attachments/DBMS PYQs-20241019224624966.webp",
+    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md",
+    "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
+    "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
+    "GATE/Temporary Plan.md",
+    "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
     "GATE/Pyqs/Logic PYQs.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
+    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
     "GATE/Pyqs/Set Theory PYQs.md",
     "GATE/DiscreteMathematics/Discrete Mathematics.md",
     "GATE/DiscreteMathematics/Propositional-Logic/Logical Equivalence.md",
     "GATE/Linear-Algebra/Crammer's Rule.md",
     "GATE/DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
-    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas",
     "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md",
     "GATE/Pending Lectures.md",
-    "GATE/Temporary Plan.md",
     "GATE/DiscreteMathematics/Propositional-Logic/Write expressions from Tables.md",
     "GATE/DiscreteMathematics/First-Order-Logic/Quantifiers.md",
-    "GATE/DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md",
-    "GATE/DiscreteMathematics/Propositional-Logic/Limitations of Propositional Logic.md",
-    "GATE/DiscreteMathematics/First-Order-Logic/First Order Logic.md",
-    "GATE/DiscreteMathematics/Set-Theory/Relations.md",
-    "GATE/GATE-CS.md",
-    "GATE/GATE-LOG.md",
-    "GATE/Pyqs/TOC PYQs.md",
-    "GATE/TheoryOfComputation/Theory of Computation.md",
     "GATE/Pyqs",
     "Journal/Study-sessions",
     "GATE/Computer-Organization-and-Architecture/Pipeline",
     "Journal",
     "Philosophy and General Thoughts",
-    "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
     "GATE/Algorithms/Sorts",
     "GATE/Calculus",
-    "GATE/Algorithms/Maximum-and-Minimum",
     "SR Latch.canvas",
     "Untitled.canvas"
   ]

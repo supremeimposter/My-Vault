@@ -13,6 +13,7 @@ tags:
 # Time Stamp-based Protocols
 
 ## Time Stamp Ordering Algorithm
+
 - When a transaction is created, it is assigned a Time Stamp.
 - The serializability order is already decided when the transaction is created or submitted.
 
@@ -32,6 +33,7 @@ tags:
 - The RTS WTS table is only updated with the latest transaction.
 
 ## Thomas Write Rule
+
 - If the problem happens with read time stamp (RTS), then rollback.
 - But if the problem **happens only with the write time stamp** (WTS), then ignore and continue.
 - Conflict serializable schedules are not ensured. But the schedules will be correct.
