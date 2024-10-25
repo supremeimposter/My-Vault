@@ -365,6 +365,18 @@ checking both conflict and view serializability as there is no information on op
 
 
 
+
+Any non-serial interleaving is not conflict serializable
+
+![[DBMS PYQs-20241022124126410.webp]]
+
+There is always a cycle in the precedence graph. There are no blind writes, so it is not view serializable. This schedule is serializable only for serial execution.
+
+![[DBMS PYQs-20241022124430184.webp]]
+
+![[DBMS PYQs-20241022124651999.webp]]
+
+
 > [!question] 
 > [Databases: GATE CSE 2016 Set 1 | Question: 51](https://gateoverflow.in/39703/gate-cse-2016-set-1-question-51?show=317941#c317941)
 
@@ -384,3 +396,16 @@ checking both conflict and view serializability as there is no information on op
 
 
 Do not assume wait-die or wound-wait protocol, without reading the question.
+
+
+
+
+
+> [!question] 
+> [Databases: GATE CSE 2024 | Set 2 | Question: 17](https://gateoverflow.in/422880/gate-cse-2024-set-2-question-17)
+
+![[DBMS PYQs-20241022125940789.webp]]
+
+
+
+

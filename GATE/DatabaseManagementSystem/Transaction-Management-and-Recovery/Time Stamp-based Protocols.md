@@ -29,7 +29,7 @@ tags:
 > If you are late, it is your fault
 > If your turn is gone, it is your fault
 
-- If an older transaction is late, then it aborts and restarts with a **new timestamp** as if it restarts with the old original timestamp again it is late and gets aborted.
+- If an older transaction is late, then it aborts and restarts with a **new timestamp** and if it restarts with the old original timestamp again it is late and gets aborted.
 - The RTS WTS table is only updated with the latest transaction.
 
 ## Thomas Write Rule

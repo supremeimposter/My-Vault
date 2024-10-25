@@ -57,5 +57,6 @@ flexGrow=1
 - [Stanford CS110](https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/static/lectures/)
 - [Systems Programming | Ethan Blanton - Buffalo Univ](https://cse.buffalo.edu/~eblanton/course/cse220-2022-2f/materials/)
 - [Lecture topic list – CS 61](https://cs61.seas.harvard.edu/site/2024/LectureMaterial/#gsc.tab=0)
+- [Operating Systems (CS3500) - IIT Madras](https://www.cse.iitm.ac.in/~chester/courses/15o_os/syllabus.html)
 
 ---

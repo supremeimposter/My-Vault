@@ -1023,7 +1023,9 @@
                     "backlinks": true,
                     "source": false
                   },
-                  "pinned": true
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Operating Systems"
                 }
               },
               {
@@ -1036,7 +1038,9 @@
                     "mode": "source",
                     "backlinks": true,
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Synchronization in OS"
                 }
               },
               {
@@ -1049,7 +1053,9 @@
                     "mode": "source",
                     "backlinks": true,
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Guidelines to GATE-CS"
                 }
               },
               {
@@ -1062,7 +1068,9 @@
                     "mode": "source",
                     "backlinks": true,
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Process in Operating Systems"
                 }
               },
               {
@@ -1075,24 +1083,28 @@
                     "mode": "source",
                     "backlinks": true,
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "System Calls"
                 }
               },
               {
-                "id": "c2ebd6e8700a89e9",
+                "id": "79ea96358859ee4a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/OperatingSystems/Introduction to Operating Systems.md",
+                    "file": "GATE/Pyqs/OS PYQs.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "OS PYQs"
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -1112,7 +1124,9 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
                 }
               },
               {
@@ -1127,7 +1141,9 @@
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
                 }
               },
               {
@@ -1135,7 +1151,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
                 }
               },
               {
@@ -1143,7 +1161,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "recent-files",
-                  "state": {}
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
                 }
               }
             ]
@@ -1167,7 +1187,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/OperatingSystems/Synchronization in OS.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1175,7 +1195,9 @@
                     "searchQuery": "",
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Guidelines to GATE-CS"
                 }
               },
               {
@@ -1184,10 +1206,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/OperatingSystems/Synchronization in OS.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Guidelines to GATE-CS"
                 }
               },
               {
@@ -1199,7 +1223,9 @@
                     "sortOrder": "frequency",
                     "showSearch": false,
                     "searchQuery": ""
-                  }
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
                 }
               },
               {
@@ -1208,8 +1234,10 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/OperatingSystems/Synchronization in OS.md"
-                  }
+                    "file": "GATE/Pyqs/OS PYQs.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of OS PYQs"
                 }
               },
               {
@@ -1220,7 +1248,9 @@
                   "state": {
                     "sortOrder": "frequency",
                     "useHierarchy": true
-                  }
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
                 }
               },
               {
@@ -1228,7 +1258,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "mermaid-toolbar-view",
-                  "state": {}
+                  "state": {},
+                  "icon": "trident-custom",
+                  "title": "Mermaid Toolbar"
                 }
               },
               {
@@ -1236,7 +1268,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "journal-calendar",
-                  "state": {}
+                  "state": {},
+                  "icon": "calendar-days",
+                  "title": "Calendar"
                 }
               }
             ],
@@ -1252,7 +1286,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "map-of-content",
-                  "state": {}
+                  "state": {},
+                  "icon": "stacked-levels",
+                  "title": "Map of Content"
                 }
               }
             ]
@@ -1276,8 +1312,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "e404560e7fce0ddb",
-      "mtime": "2024-08-29T22:33:21+05:30"
+      "active": "79ea96358859ee4a",
+      "mtime": "2024-10-22T18:15:20+05:30"
     },
     "TOC": {
       "main": {
@@ -1737,5 +1773,5 @@
       "mtime": "2024-09-22T16:01:27+05:30"
     }
   },
-  "active": "DBMS-mod-1"
+  "active": "OS"
 }

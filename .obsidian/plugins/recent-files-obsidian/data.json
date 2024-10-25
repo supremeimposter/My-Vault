@@ -1,28 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Time Stamp-based Protocols",
-      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+      "basename": "OS PYQs",
+      "path": "GATE/Pyqs/OS PYQs.md"
     },
     {
       "basename": "Guidelines to GATE-CS",
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
-      "basename": "DBMS PYQs",
-      "path": "GATE/Pyqs/DBMS PYQs.md"
+      "basename": "Operating Systems",
+      "path": "GATE/OperatingSystems/Operating Systems.md"
     },
     {
-      "basename": "Concurrency-Control-Protocols",
-      "path": "GATE/Mind-maps/Concurrency-Control-Protocols.canvas"
+      "basename": "Registers and Status Flags in CPU",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
+    },
+    {
+      "basename": "Process in Operating Systems",
+      "path": "GATE/OperatingSystems/Process in Operating Systems.md"
+    },
+    {
+      "basename": "Synchronization in OS",
+      "path": "GATE/OperatingSystems/Synchronization in OS.md"
+    },
+    {
+      "basename": "System Calls",
+      "path": "GATE/OperatingSystems/System Calls.md"
     },
     {
       "basename": "GATE-CS",
       "path": "GATE/GATE-CS.md"
+    },
+    {
+      "basename": "Introduction to Operating Systems",
+      "path": "GATE/OperatingSystems/Introduction to Operating Systems.md"
+    },
+    {
+      "basename": "DBMS PYQs",
+      "path": "GATE/Pyqs/DBMS PYQs.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Time Stamp-based Protocols",
+      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md"
+    },
+    {
+      "basename": "Concurrency-Control-Protocols",
+      "path": "GATE/Mind-maps/Concurrency-Control-Protocols.canvas"
     },
     {
       "basename": "Database-Management-System-Mindmap",
@@ -171,34 +199,6 @@
     {
       "basename": "Problems caused by Redundant Information",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
-    },
-    {
-      "basename": "Symmetric Relation",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Types-of-relations-on-a-set/Symmetric Relation.md"
-    },
-    {
-      "basename": "Analysis on Some Relations",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Analysis on Some Relations.md"
-    },
-    {
-      "basename": "Set Definition",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Set Definition.md"
-    },
-    {
-      "basename": "Set Operations",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Set Operations.md"
-    },
-    {
-      "basename": "Associative Cache",
-      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Associative Cache.md"
-    },
-    {
-      "basename": "Synchronization in OS",
-      "path": "GATE/OperatingSystems/Synchronization in OS.md"
-    },
-    {
-      "basename": "Threads",
-      "path": "GATE/OperatingSystems/Threads.md"
     }
   ],
   "omittedPaths": [

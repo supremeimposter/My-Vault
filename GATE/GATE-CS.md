@@ -34,6 +34,7 @@ tags:
 	- [[Set Theory PYQs]]
 - [[DBMS PYQs]]
 - [[TOC PYQs]]
+- [[OS PYQs]]
 
 ## Mind Maps
 
