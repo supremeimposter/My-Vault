@@ -85,3 +85,33 @@ transparent means functioning without being aware
 ![[OS PYQs-20241025224755292.webp]]
 
 
+
+
+> [!question] 
+> [Operating System: GATE CSE 2015 Set 1 | Question: 46](https://gateoverflow.in/8330/gate-cse-2015-set-1-question-46)
+
+![[OS PYQs-20241026092027723.webp]]
+
+
+Lot of confusions in the answer. 
+
+
+> [!question] 
+> [Operating System: GATE IT 2007 | Question: 26](https://gateoverflow.in/3459/gate-it-2007-question-26)
+
+This requires algorithms
+
+![[OS PYQs-20241026115335006.webp]]
+
+## Process Synchronization PYQs
+
+
+> [!question] 
+> [Operating System: GATE CSE 2007 | Question: 58](https://gateoverflow.in/1256/gate-cse-2007-question-58)
+
+![[OS PYQs-20241026205832205.webp]]
+
+
+
+
+

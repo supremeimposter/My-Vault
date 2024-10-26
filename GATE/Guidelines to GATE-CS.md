@@ -273,7 +273,7 @@ $$
 - When a process is waiting for I/O, it is in waiting state, after I/O is over, it goes to the ready queue.
 
 - Look for semicolon at the end of while loops in critical section problems. 
-
+- Initial setup of Bounded waiting is one process is in CS and one more process is in waiting area. Because this is essential to prove that the same process does not re-enter immediately while there are process waiting in the entry section. If there are no processes in the waiting area, then it can enter the CS.
 
 
 
