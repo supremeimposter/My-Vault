@@ -1,3 +1,9 @@
+---
+tags:
+  - OperatingSystems/PYQ
+  - GATE/PYQs
+---
+
 # OS PYQs
 
 ## Process Management PYQs
@@ -110,6 +116,9 @@ This requires algorithms
 > [Operating System: GATE CSE 2007 | Question: 58](https://gateoverflow.in/1256/gate-cse-2007-question-58)
 
 ![[OS PYQs-20241026205832205.webp]]
+
+
+
 
 
 

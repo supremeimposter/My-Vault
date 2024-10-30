@@ -488,5 +488,11 @@
   "underwater-theme@@no-links": true,
   "underwater-theme@@no-animation": true,
   "underwater-theme@@underwater-colors-dark": "rose-pine",
-  "everforest-enchanted-theme@@image-embed-stretch": false
+  "everforest-enchanted-theme@@image-embed-stretch": false,
+  "fancy-a-story@@theme-variant-light": "fas-ice",
+  "fancy-a-story@@fas-opposite-bg": false,
+  "fancy-a-story@@fas-accessibility": true,
+  "fancy-a-story@@fas-bg-textures": true,
+  "fancy-a-story@@fas-bookmark-tabs": "disable",
+  "fancy-a-story@@fas-alternative-checkboxes": "doodle"
 }

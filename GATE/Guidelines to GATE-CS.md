@@ -229,6 +229,15 @@ $$
 - k-bit addressing = k-bits are required to uniquely identity each address.
 - p-bit addressable = every p-bits has an address.
 
+![[Guidelines to GATE-CS-20241030134650714.webp]]
+
+![[Main Memory-20240318115331778.webp]]
+
+- Be careful with the notation of the pins.
+
+![[Guidelines to GATE-CS-20241030193532252.webp]]
+
+
 - If the question asks for if there is any hazard, just draw the cycle diagram of normal pipeline execution and see if any problem exists. Don't overdo the problem.
 - Don't assume split phase by default. By default implementation is not split phase (the other one).
 
@@ -274,6 +283,12 @@ $$
 
 - Look for semicolon at the end of while loops in critical section problems. 
 - Initial setup of Bounded waiting is one process is in CS and one more process is in waiting area. Because this is essential to prove that the same process does not re-enter immediately while there are process waiting in the entry section. If there are no processes in the waiting area, then it can enter the CS.
+
+- In a single processor system, processes cannot be parallely (overlapped) executed in concurrent execution, they can only be interleaved.
+- In a multi-processor system, processes can be overlapped in concurrent execution as there are many processors. 
+
+
+- waiting area is just one line of code in atomic instructions. So more than one process cannot be in waiting area.
 
 
 

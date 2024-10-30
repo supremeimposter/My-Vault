@@ -1,28 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "OS PYQs",
-      "path": "GATE/Pyqs/OS PYQs.md"
+      "basename": "Computer Organization and Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Memory Interfacing and Expansion",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
+    },
+    {
+      "basename": "Main Memory and Addressability",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
     },
     {
       "basename": "Guidelines to GATE-CS",
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
+      "basename": "System Bus",
+      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md"
+    },
+    {
+      "basename": "OS PYQs",
+      "path": "GATE/Pyqs/OS PYQs.md"
+    },
+    {
       "basename": "Operating Systems",
       "path": "GATE/OperatingSystems/Operating Systems.md"
     },
     {
-      "basename": "Registers and Status Flags in CPU",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
+      "basename": "Synchronization in OS",
+      "path": "GATE/OperatingSystems/Synchronization in OS.md"
     },
     {
       "basename": "Process in Operating Systems",
       "path": "GATE/OperatingSystems/Process in Operating Systems.md"
     },
     {
-      "basename": "Synchronization in OS",
-      "path": "GATE/OperatingSystems/Synchronization in OS.md"
+      "basename": "Registers and Status Flags in CPU",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
     },
     {
       "basename": "System Calls",
@@ -91,14 +107,6 @@
     {
       "basename": "Logic PYQs",
       "path": "GATE/Pyqs/Logic PYQs.md"
-    },
-    {
-      "basename": "Main Memory and Addressability",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
     },
     {
       "basename": "Set Theory PYQs",
@@ -191,14 +199,6 @@
     {
       "basename": "Functional Dependency",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
-    },
-    {
-      "basename": "Standard Integrity Constraints in Relational Model",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md"
-    },
-    {
-      "basename": "Problems caused by Redundant Information",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
     }
   ],
   "omittedPaths": [

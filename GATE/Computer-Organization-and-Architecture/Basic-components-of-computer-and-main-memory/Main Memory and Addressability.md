@@ -5,7 +5,7 @@ lecture: "2"
 date: 2024-03-17T18:18:00
 version:
   - COA-24
-last-revision: 2024-07-23T16:33:00
+last-revision: 2024-10-30T16:33:00
 notes-taken: true
 tags:
   - ComputerOrganizationAndArchitecture/Memory
@@ -71,7 +71,7 @@ flexGrow=0.7
 
 ## Byte Ordering
 
-- When the memory is byte-addressable and multi-byte primitive data is stored, then byte ordering (Endian-ness) comes into play.
+- When the memory is <mark class="hltr-red">byte-addressable and multi-byte primitive data</mark> is stored, then byte ordering (Endian-ness) comes into play.
 - Endian-ness is a property of CPU (system). The data is stored according to endian-ness only in the main memory.
 
 > [!convention] 
@@ -100,7 +100,7 @@ flexGrow=0.7
 - Endian-ness does not apply to derived data types such as strings, arrays or structs. So Endian-ness does not change the order of dervied data type. It only the changes the order of the multi-byte primitive data which are the elements inside the derived data type.
 
 > [!example] 
-> Consider an integer array $a$ consisting of 4 integers
+> Consider an integer array (derived) $a$ consisting of 4 integers
 > 
 > ![[Main Memory-20240720221521455.webp]]
 > 
@@ -113,7 +113,7 @@ flexGrow=0.7
 > ![[Pasted image 20240723152253.png]]
 
 
-> [!question] Which endian-ness is better[[[Endianness](https://faculty.cs.niu.edu/~hutchins/csci480/endianness.htm)|?]]
+> [!question] Which [endian-ness](https://faculty.cs.niu.edu/~hutchins/csci480/endianness.htm) is better?
 
 Why would we prefer one of these to the other? If we have a 4-byte number already in the CPU (in a register) and we want to add it to a 4-byte number we are fetching from memory, then it is convenient to use the *little-endian* architecture, as we can start the Add operation as soon as the least signficant byte arrives. This speeds up the Add operation by some tiny amount. (Engineers care very much about such tiny improvements.)
 

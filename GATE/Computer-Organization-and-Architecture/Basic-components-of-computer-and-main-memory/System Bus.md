@@ -10,7 +10,7 @@ notes-taken: true
 tags:
   - ComputerOrganizationAndArchitecture/SystemBus
 ---
-## System Bus
+# System Bus
 
 - The system bus is a transmission media between different components of a computer. It consists of electrical wires and lines.
 
