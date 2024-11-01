@@ -224,6 +224,9 @@ $$
 ## Guidelines to COA
 
 - When there is no information on whether the memory is word or byte-addressable, byte-addressable is considered, eventhough if there is an information on word length.
+
+![[Guidelines to GATE-CS-20241101163421493.webp]]
+
 - CPU does not care whether the memory is byte or word-addressable. If a CPU is a 32-bit processor (word length is 32 bits), then it processes 32 bits in one go.
 
 - k-bit addressing = k-bits are required to uniquely identity each address.
@@ -237,6 +240,14 @@ $$
 
 ![[Guidelines to GATE-CS-20241030193532252.webp]]
 
+- INC/DEC operations do not affect the carry flags.
+- For SUB, carry flag acts as borrow flag.
+- CMP internally does non-destructive SUB.
+- Be careful with arithmetic shifts.
+
+- In CISC (mem-mem arch), the operands are brought to registers and the computations are performed. But the instructions include only memory addresses.
+
+- memory to memory data transfer instructions are not possible.
 
 - If the question asks for if there is any hazard, just draw the cycle diagram of normal pipeline execution and see if any problem exists. Don't overdo the problem.
 - Don't assume split phase by default. By default implementation is not split phase (the other one).

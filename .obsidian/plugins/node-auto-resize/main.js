@@ -106,7 +106,9 @@ function adjustPositionsRecursively({
 // src/main.ts
 var DEFAULT_SETTINGS = {
   maxWidth: 400,
-  widthAutoResize: true
+  widthAutoResize: true,
+  trueWidth: true,
+  emfactor: "2.0,1.8,1.6,1.4,1.2,1.1"
 };
 var updateNodeSize = (plugin) => {
   return import_view.EditorView.updateListener.of((v) => {
@@ -118,7 +120,23 @@ var updateNodeSize = (plugin) => {
           return;
         let width = editor.node.width;
         if (plugin.settings.widthAutoResize) {
-          width = v.view.defaultCharacterWidth * v.view.state.doc.line(1).length + 120;
+          const editorView = v.view;
+          const currentDoc = editorView.state.doc;
+          if (plugin.settings.trueWidth) {
+            let longestLineLength = 0;
+            for (const line of currentDoc.iterLines()) {
+              const firstLineLength = line.length;
+              const headerNumber = countLeadingHashtags(line);
+              const emfactor = getEmFactor(plugin.settings.emfactor, headerNumber);
+              longestLineLength = Math.max(longestLineLength, editorView.defaultCharacterWidth * firstLineLength * emfactor + 120);
+            }
+            width = longestLineLength;
+          } else {
+            const firstLineLength = currentDoc.line(1).length;
+            const headerNumber = countLeadingHashtags(currentDoc.line(1).text);
+            const emfactor = getEmFactor(plugin.settings.emfactor, headerNumber);
+            width = editorView.defaultCharacterWidth * firstLineLength * emfactor + 120;
+          }
         }
         const originalHeight = editor.node.height;
         const originalWidth = editor.node.width;
@@ -160,6 +178,17 @@ var NodeAutoResizePlugin = class extends import_obsidian.Plugin {
     await this.saveData(this.settings);
   }
 };
+function getEmFactor(emfactor, headerNumber) {
+  if (headerNumber == 0 || headerNumber > 6)
+    return 1;
+  const emfactorArray = emfactor.split(",");
+  const parsedValue = parseFloat(emfactorArray[headerNumber - 1]);
+  return isNaN(parsedValue) ? 1 : parsedValue;
+}
+function countLeadingHashtags(input) {
+  const match = input.trimStart().match(/#+ /);
+  return match ? match[0].length - 1 : 0;
+}
 var NodeAutoResizeSettingTab = class extends import_obsidian.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
@@ -180,6 +209,19 @@ var NodeAutoResizeSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.settings.maxWidth = parseInt(value);
         await this.plugin.saveSettings();
       }));
+      new import_obsidian.Setting(containerEl).setName("True width as width").setDesc("Calculate width according to widest line instead of the first.").addToggle((toggle) => toggle.setValue(this.plugin.settings.trueWidth).onChange(async (value) => {
+        this.plugin.settings.trueWidth = value;
+        await this.plugin.saveSettings();
+        setTimeout(() => {
+          this.display();
+        }, 100);
+      }));
+      new import_obsidian.Setting(containerEl).setName("em for h1-h6").setDesc("Comma seperated values of em (1.8 means 180% of the default) for h1-h6. Adjust to your own css configs if needed").addText((text) => text.setValue(this.plugin.settings.emfactor).onChange(async (value) => {
+        this.plugin.settings.emfactor = value;
+        await this.plugin.saveSettings();
+      }));
     }
   }
 };
+
+/* nosourcemap */

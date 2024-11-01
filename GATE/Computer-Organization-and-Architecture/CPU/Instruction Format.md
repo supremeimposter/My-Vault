@@ -5,7 +5,7 @@ lecture: "3"
 date: 2024-03-22T10:04:00
 version:
   - COA-24
-last-revision: 2024-07-31T21:04:00
+last-revision: 2024-11-01T21:04:00
 notes-taken: true
 tags:
   - ComputerOrganizationAndArchitecture/Instruction

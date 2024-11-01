@@ -5,7 +5,7 @@ lecture: "2"
 date: 2024-03-20T19:48:00
 version:
   - COA-24
-last-revision: 2024-07-31T17:59:00
+last-revision: 2024-11-01T17:59:00
 notes-taken: true
 tags:
   - ComputerOrganizationAndArchitecture/ISA
@@ -53,7 +53,7 @@ MUL ;<TOS> <-- <TOS - 1> * <TOS>
 
 The two operands are obtained from the stack section of the process. [[Registers and Status Flags in CPU#Stack Pointer SP|Stack pointer register]] points to the top of the stack of a process in main memory.
 
-In stack-based ISA, ALU considers the top of the stack data as second operand and the one below top of the stack data as first operand.
+In stack-based ISA, <mark class="hltr-blue">ALU considers the top of the stack data as second operand and the one below top of the stack data as first operand</mark>.
 
 ![[Instruction Set Architecture-20240731093613820.webp]]
 
@@ -72,8 +72,8 @@ POP 0xFF  ; <0xFF> <-- <TOS>
 
 > [!example] 
 > $C = A + B$, where $A, B, C$ are memory addresses. The result of operation $A + B$ is stored at $C$.
-
-![[Instruction Set Architecture-20240731094332700.webp]]
+> 
+> ![[Instruction Set Architecture-20240731094332700.webp]]
 
 ## Accumulator ISA
 
@@ -167,7 +167,7 @@ SUB 0xA1, 0xA2        ; <0xA1> = <0xA1> - <0xA2>
 ```
 
 - The processor in memory-memory ISA understands complex instructions to perform data transfer operations such as loading data from main memory to GPRs in the processor for computation by ALU.
-- LOAD and STORE operations are incorporated inside the aritmetic instructions and hardware takes care of it.
+- LOAD and STORE operations are incorporated inside the arithmetic instructions and hardware takes care of it.
 - It takes many clock cycles to access main memory.
 
 - Most **CISC**'s (Complex Instruction Set Computers) use this architecture.

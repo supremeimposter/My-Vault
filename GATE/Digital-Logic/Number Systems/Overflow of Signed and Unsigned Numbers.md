@@ -11,6 +11,7 @@ tags:
   - DigitalLogic/NumberSystem
 ---
 # Overflow
+
 > [!youtube] 
 > [Lecture 5A - Overflow Definition, Detection in Signed Magnitude Representation | Digital Logic - YouTube](https://www.youtube.com/watch?v=GJvjGaiKbcA)
 

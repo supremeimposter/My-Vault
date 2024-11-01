@@ -98,9 +98,9 @@ There is no memory interleaving in horizontal memory expansion.
 Additional data lines are required since the capacity of a word has been increased.
 All the corresponding horizontal chips are activated at the same time. 
 
-Memory bank is the number of chips in the horizontal level.
+Memory bank is the number of chips horizontally.
 $$
-\text{Number of chip in 1 memory bank} = \frac{\text{required word size}}{\text{available word size}}
+\text{Number of chips in 1 memory bank} = \frac{\text{required word size}}{\text{available word size}}
 $$
 
 ## Vertical Memory Expansion

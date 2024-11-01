@@ -123,13 +123,16 @@ var ObsidianService = class {
   constructor() {
   }
   getEditorFromState(state) {
-    return state.field(import_obsidian2.editorViewField).editor;
+    return state.field(import_obsidian2.editorInfoField).editor;
   }
   createKeymapRunCallback(config) {
     const check = config.check || (() => true);
     const { run } = config;
     return (view) => {
       const editor = this.getEditorFromState(view.state);
+      if (!editor) {
+        return false;
+      }
       if (!check(editor)) {
         return false;
       }
@@ -279,8 +282,8 @@ var getFenceStatus = (prev, current) => {
   }
   return prev;
 };
-var getHeadingLines = (editor, from, to) => {
-  let headingLines = [];
+var getHeadingLines = (editor, from, to, options) => {
+  const headingLines = [];
   let minHeading = void 0;
   let maxHeading = void 0;
   let fence = null;
@@ -289,7 +292,7 @@ var getHeadingLines = (editor, from, to) => {
     if (fence)
       continue;
     const heading = checkHeading(editor.getLine(line));
-    if (heading > 0) {
+    if ((options == null ? void 0 : options.includesNoHeadingsLine) || heading > 0) {
       headingLines.push(line);
       minHeading = setMin(minHeading, heading);
       maxHeading = setMax(maxHeading, heading);
@@ -299,7 +302,7 @@ var getHeadingLines = (editor, from, to) => {
 };
 var getPreviousHeading = (editor, from) => {
   let fence = null;
-  let start = from > 0 ? from - 1 : 0;
+  const start = from > 0 ? from - 1 : 0;
   for (let line = start; line >= 0; line--) {
     fence = getFenceStatus(fence, checkFence(editor.getLine(line)));
     if (fence)
@@ -373,24 +376,31 @@ var decreaseHeading = (chunk, settings) => {
 
 // src/features/shiftHeading/operation.ts
 var IncreaseHeading = class {
-  constructor(settings) {
+  constructor(settings, includesNoHeadingsLine) {
     __publicField(this, "settings");
+    __publicField(this, "includesNoHeadingsLine");
     __publicField(this, "editorCallback", (editor) => {
-      const { headingLines, maxHeading } = getHeadingLines(editor, editor.getCursor("from").line, editor.getCursor("to").line);
+      const { headingLines, maxHeading } = getHeadingLines(editor, editor.getCursor("from").line, editor.getCursor("to").line, {
+        includesNoHeadingsLine: this.includesNoHeadingsLine
+      });
       if (maxHeading !== void 0 && maxHeading >= 6) {
         new import_obsidian4.Notice("Cannot Increase (contains more than Heading 6)");
         return true;
       }
+      const isOneline = editor.getCursor("from").line === editor.getCursor("to").line;
       const editorChange = composeLineChanges(editor, headingLines, increaseHeading, this.settings);
       editor.transaction({
         changes: editorChange
       });
+      if (isOneline) {
+        editor.setCursor(editor.getCursor("anchor").line);
+      }
       return editorChange.length ? true : false;
     });
     __publicField(this, "createCommand", () => {
       return {
-        id: "increase-heading",
-        name: "Increase Headings",
+        id: `increase-heading${this.includesNoHeadingsLine ? "-forced" : ""}`,
+        name: `Increase Headings${this.includesNoHeadingsLine ? "(forced)" : ""}`,
         icon: "headingShifter_increaseIcon",
         editorCallback: this.editorCallback
       };
@@ -399,6 +409,7 @@ var IncreaseHeading = class {
       return this.settings.overrideTab;
     });
     this.settings = settings;
+    this.includesNoHeadingsLine = includesNoHeadingsLine;
   }
 };
 var DecreaseHeading = class {
@@ -410,10 +421,14 @@ var DecreaseHeading = class {
         new import_obsidian4.Notice(`Cannot Decrease (contains less than Heading${Number(this.settings.limitHeadingFrom)})`);
         return true;
       }
+      const isOneline = editor.getCursor("from").line === editor.getCursor("to").line;
       const editorChange = composeLineChanges(editor, headingLines, decreaseHeading, this.settings);
       editor.transaction({
         changes: editorChange
       });
+      if (isOneline) {
+        editor.setCursor(editor.getCursor("anchor").line);
+      }
       return editorChange.length ? true : false;
     });
     __publicField(this, "createCommand", () => {
@@ -522,7 +537,8 @@ var RegisterService = class {
     this.addCommands();
   }
   addCommands() {
-    const increaseHeading2 = new IncreaseHeading(this.plugin.settings);
+    const increaseHeading2 = new IncreaseHeading(this.plugin.settings, false);
+    const increaseHeadingForced = new IncreaseHeading(this.plugin.settings, true);
     const decreaseHeading2 = new DecreaseHeading(this.plugin.settings);
     const insertHeadingAtCurrentLebel = new InsertHeadingAtCurrentLevel(this.plugin.settings);
     const insertHeadingAtDeeperLevel = new InsertHeadingAtDeeperLevel(this.plugin.settings);
@@ -532,6 +548,7 @@ var RegisterService = class {
       this.plugin.addCommand(applyHeading2.createCommand());
     });
     this.plugin.addCommand(increaseHeading2.createCommand());
+    this.plugin.addCommand(increaseHeadingForced.createCommand());
     this.plugin.addCommand(decreaseHeading2.createCommand());
     this.plugin.addCommand(insertHeadingAtCurrentLebel.createCommand());
     this.plugin.addCommand(insertHeadingAtDeeperLevel.createCommand());
@@ -590,3 +607,5 @@ var HeadingShifter = class extends import_obsidian6.Plugin {
     });
   }
 };
+
+/* nosourcemap */

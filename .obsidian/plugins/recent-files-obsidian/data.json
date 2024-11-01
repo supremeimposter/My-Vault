@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Instruction Type",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
+    },
+    {
+      "basename": "Instruction Set Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
+    },
+    {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Instruction Format",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
+    },
+    {
       "basename": "Computer Organization and Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Registers and Status Flags in CPU",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
+    },
+    {
+      "basename": "Overflow of Signed and Unsigned Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
     },
     {
       "basename": "Memory Interfacing and Expansion",
@@ -11,10 +35,6 @@
     {
       "basename": "Main Memory and Addressability",
       "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
-    },
-    {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
       "basename": "System Bus",
@@ -35,10 +55,6 @@
     {
       "basename": "Process in Operating Systems",
       "path": "GATE/OperatingSystems/Process in Operating Systems.md"
-    },
-    {
-      "basename": "Registers and Status Flags in CPU",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
     },
     {
       "basename": "System Calls",
@@ -183,27 +199,12 @@
     {
       "basename": "Introduction to Theory of Computation",
       "path": "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md"
-    },
-    {
-      "basename": "Basic Concepts of TOC",
-      "path": "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Basic Concepts of TOC.md"
-    },
-    {
-      "basename": "Decomposition",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
-    },
-    {
-      "basename": "Natural Join",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
-    },
-    {
-      "basename": "Functional Dependency",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
     }
   ],
   "omittedPaths": [
     ""
   ],
+  "omittedTags": [],
   "maxLength": null,
   "openType": "tab"
 }

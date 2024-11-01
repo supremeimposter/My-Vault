@@ -29,7 +29,7 @@ The registers, ALU and the interconnecting bus are collectively referred to as t
 Control Unit decodes the opcode of the instruction and generates the control signals.
 
 Arithmetic unit performs operations such as addition, subtraction, increment, decrement, negation.
-Logic unit performs operations such as AND, OR, NOT, XOR, numberical checks.
+Logic unit performs operations such as AND, OR, NOT, XOR, numerical checks.
 
 # Registers in CPU
 

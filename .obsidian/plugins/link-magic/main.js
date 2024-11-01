@@ -59,7 +59,6 @@ var LinkMagicPlugin = class extends import_obsidian.Plugin {
     let curPos = pos ? pos : editor.getCursor();
     const editorView = editor.cm;
     let line = editor.getLine(curPos.line);
-    console.log(`Line: ${line}`);
     let word = "";
     let i = curPos.ch - 1;
     while (i >= 0 && line[i] !== " ") {
@@ -67,13 +66,20 @@ var LinkMagicPlugin = class extends import_obsidian.Plugin {
       i--;
     }
     if (RegExp("([.*](.*))", "g").test(word)) {
-      console.log(`We've already converted this! ${word}`);
       return;
     }
     Object.values(this.settings).filter(({ pattern, link }) => pattern && link).some(({ pattern, link }) => {
-      if (RegExp(pattern, "g").test(word)) {
-        let markdownLink = `[${word}](${link.replace("{pattern}", word)})`;
-        editor.replaceRange(markdownLink, { line: curPos.line, ch: curPos.ch - word.length }, curPos);
+      const regex = RegExp(pattern, "g");
+      if (regex.test(word)) {
+        const enclosingRegex = /^(\()?(.*?)(\))?$/;
+        let match = enclosingRegex.exec(word);
+        if (match) {
+          const startChar = match[1] || "";
+          const innerWord = match[2];
+          const endChar = match[3] || "";
+          let markdownLink = `${startChar}[${innerWord}](${link.replace("{pattern}", innerWord)})${endChar}`;
+          editor.replaceRange(markdownLink, { line: curPos.line, ch: curPos.ch - word.length }, curPos);
+        }
       }
     });
   }
@@ -82,6 +88,10 @@ var LinkMagicPlugin = class extends import_obsidian.Plugin {
     let lineAbove = editor.getLine(curPos.line - 1);
     this.checkForMatch(editor, { line: curPos.line - 1, ch: lineAbove.length });
   }
+  handleTab(editor, pos) {
+    let curPos = pos ? pos : editor.getCursor();
+    editor.getLine(curPos.line).trimStart();
+  }
   triggerSnippet(editor, evt) {
     switch (evt.key) {
       case " ": {
@@ -89,6 +99,7 @@ var LinkMagicPlugin = class extends import_obsidian.Plugin {
         break;
       }
       case "Tab": {
+        this.handleTab(editor);
         break;
       }
       case "Enter": {
@@ -157,3 +168,5 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
     });
   }
 };
+
+/* nosourcemap */

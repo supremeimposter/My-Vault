@@ -73,7 +73,6 @@ async function renderMarkdown(str, el, ctx, app) {
   const markdownEl = el.createDiv();
   markdownEl.addClass("mehrmaid-markdown-container");
   if (ctx && !(typeof ctx == "string")) {
-    console.log("Adding child to context");
     ctx.addChild(markdownRenderChild);
   }
   await import_obsidian.MarkdownRenderer.render(app, str, markdownEl, ctx.sourcePath, markdownRenderChild);
@@ -120,7 +119,7 @@ async function renderMehrmaid(source, el, ctx) {
         `<div class="${id} cm-sizer" style="width: ${width}px; height: ${height - 7}px; display: inline-block;"></div>`
       );
     }
-    const graphId = "mehrmaid-" + ((_a = ctx.getSectionInfo(el)) == null ? void 0 : _a.lineStart);
+    const graphId = "mehrmaid-" + ((_a = ctx.getSectionInfo(el)) == null ? void 0 : _a.lineStart) + "-" + Date.now();
     const { svg } = await mermaid.render(graphId, source);
     el.insertAdjacentHTML("beforeend", svg);
     for (let i = 0; i < markdownEls.length; i++) {
@@ -147,3 +146,5 @@ var Mehrmaid = class extends import_obsidian2.Plugin {
     });
   }
 };
+
+/* nosourcemap */

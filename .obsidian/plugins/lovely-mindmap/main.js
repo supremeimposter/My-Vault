@@ -106,6 +106,39 @@ function string10To64(str) {
   } while (num > 0);
   return res.join("");
 }
+var supportedModifiers = ["mod", "ctrl", "meta", "shift", "alt"];
+var navigationKeys = [
+  "tab",
+  "enter",
+  "arrowup",
+  "arrowdown",
+  "arrowleft",
+  "arrowright"
+  /** 'backspace', 'delete', 'escape', 'space' */
+];
+function convertHotkey2Array(hotkey) {
+  const parts = hotkey.split("+");
+  let modifier = null;
+  let key = null;
+  if (parts.length === 1) {
+    key = parts[0].trim();
+    if (!navigationKeys.includes(key.toLocaleLowerCase()) && !/^[a-zA-Z0-9]$/.test(key)) {
+      throw new Error("Invalid key. Expected a single alphanumeric character or a navigation key but got " + key);
+    }
+    return [[], key];
+  } else if (parts.length === 2) {
+    modifier = parts[0].trim();
+    if (!supportedModifiers.includes(modifier.toLocaleLowerCase())) {
+      throw new Error(`Invalid modifier. Expected [${supportedModifiers.join(", ")}].`);
+    }
+    key = parts[1].trim();
+    if (!navigationKeys.includes(key.toLocaleLowerCase()) && !/^[a-zA-Z0-9]$/.test(key)) {
+      throw new Error("Invalid key. Expected a single alphanumeric character or a navigation key but got " + key);
+    }
+    return [[modifier.charAt(0).toUpperCase() + modifier.slice(1)], key];
+  }
+  throw new Error("Invalid hotkey format. Expected a single alphanumeric character or a modifier followed by a single alphanumeric character but got " + hotkey);
+}
 
 // node_modules/autobind-decorator/lib/esm/index.js
 function _typeof(obj) {
@@ -235,7 +268,7 @@ var Node = class {
       return ((_a = node == null ? void 0 : node.to) == null ? void 0 : _a.side) === "left" && selection.id !== ((_c = (_b = node == null ? void 0 : node.to) == null ? void 0 : _b.node) == null ? void 0 : _c.id);
     };
     const sibNodes = this.main.canvas.getEdgesForNode(selection).filter(rightSideNodeFilter).map((node) => node.to.node);
-    const nextNodeY = Math.max(...sibNodes.map((node) => node.y)) + this.main.setting.EPSILON;
+    const nextNodeY = sibNodes.length > 0 ? Math.max(...sibNodes.map((node) => node.y)) + this.main.setting.EPSILON : y;
     const childNode = this.main.canvas.createTextNode({
       pos: {
         x: x + width + 200,
@@ -266,7 +299,13 @@ var Node = class {
     this.main.layout.useSide(selection, sibNodes.concat(childNode));
     this.main.view.zoomToNode(childNode);
   }
-  createSibNode(_, context) {
+  createBeforeSibNode() {
+    this.createSibNodeHelper(true);
+  }
+  createAfterSibNode() {
+    this.createSibNodeHelper(false);
+  }
+  createSibNodeHelper(isBefore) {
     const selection = this.getNavigationNode();
     if (!selection)
       return;
@@ -277,13 +316,12 @@ var Node = class {
       height
     } = selection;
     const { EPSILON } = this.main.setting;
-    const isPressedShift = context.modifiers === "Shift";
-    const fromNode = this.main.node.getFromNodes(selection)[0];
-    const toNodes = this.main.node.getToNodes(fromNode);
+    const fromNode = this.getFromNodes(selection)[0];
+    const toNodes = this.getToNodes(fromNode);
     const willInsertedNode = this.main.canvas.createTextNode({
       pos: {
         x,
-        y: isPressedShift ? y - EPSILON : y + EPSILON
+        y: isBefore ? y - EPSILON : y + EPSILON
       },
       size: {
         height,
@@ -316,7 +354,10 @@ __decorateClass([
 ], Node.prototype, "createChildren", 1);
 __decorateClass([
   debounce()
-], Node.prototype, "createSibNode", 1);
+], Node.prototype, "createBeforeSibNode", 1);
+__decorateClass([
+  debounce()
+], Node.prototype, "createAfterSibNode", 1);
 Node = __decorateClass([
   autobind
 ], Node);
@@ -331,10 +372,10 @@ var Keymap = class {
   async help() {
     if (this.main.view.isCreating())
       return;
-    console.log("this:\n", this);
-    console.log("app:\n", this.main.app);
-    console.log("canvas:\n", this.main.canvas);
-    console.log("selections:\n", this.main.canvas.selection.values().next());
+    console.debug("this:\n", this);
+    console.debug("app:\n", this.main.app);
+    console.debug("canvas:\n", this.main.canvas);
+    console.debug("selections:\n", this.main.canvas.selection.values().next());
   }
   nodeNavigation(_, context) {
     const { key } = context;
@@ -398,18 +439,31 @@ var Keymap = class {
   register(modifiers, key, func) {
     return this.main.app.scope.register(modifiers, key, func);
   }
-  registerAll() {
-    this.hotkeys.push(
-      this.register([], "f", this.focusNode),
-      this.register([], "Tab", this.main.node.createChildren),
-      this.register([], "enter", this.main.node.createSibNode),
-      this.register(["Shift"], "enter", this.main.node.createSibNode),
-      this.register(["Alt"], "arrowLeft", this.nodeNavigation),
-      this.register(["Alt"], "arrowRight", this.nodeNavigation),
-      this.register(["Alt"], "arrowUp", this.nodeNavigation),
-      this.register(["Alt"], "arrowDown", this.nodeNavigation)
-      // this.register([], 'h', this.help)
-    );
+  /**
+   * priority: options > config > default
+   * 1. options: function argument
+   * 2. config: `options.hotkeys`
+   * 3. default: this.register
+   * @param options 
+   */
+  registerAll(options) {
+    const { hotkeys } = this.main.setting;
+    const registerHotkey = (action, callback) => {
+      if (options == null ? void 0 : options[action]) {
+        this.hotkeys.push(options[action]());
+      } else {
+        const [modifier, key] = convertHotkey2Array(hotkeys[action]);
+        this.hotkeys.push(this.register(modifier, key, callback));
+      }
+    };
+    registerHotkey("Focus", this.focusNode);
+    registerHotkey("CreateChild", this.main.node.createChildren);
+    registerHotkey("CreateBeforeSib", this.main.node.createBeforeSibNode);
+    registerHotkey("CreateAfterSib", this.main.node.createAfterSibNode);
+    registerHotkey("ArrowLeft", this.nodeNavigation);
+    registerHotkey("ArrowRight", this.nodeNavigation);
+    registerHotkey("ArrowUp", this.nodeNavigation);
+    registerHotkey("ArrowDown", this.nodeNavigation);
   }
   unregisterAll() {
     this.hotkeys.forEach((key) => this.main.app.scope.unregister(key));
@@ -471,7 +525,7 @@ var View = class {
   zoomToNode(node) {
     this.main.canvas.selectOnly(node);
     this.main.canvas.zoomToSelection();
-    if (this.main.config.autoFocus) {
+    if (this.main.setting.autoFocus) {
       this.useCreation(node);
     }
   }
@@ -480,38 +534,131 @@ var View = class {
 // src/module/setting.ts
 var import_obsidian = require("obsidian");
 var DEFAULT_SETTINGS = {
-  autoFocus: false
+  autoFocus: false,
+  hotkeys: {
+    CreateChild: "Tab",
+    CreateBeforeSib: "Shift + Enter",
+    CreateAfterSib: "Enter",
+    Focus: "F",
+    ArrowUp: "Alt + ArrowUp",
+    ArrowDown: "Alt + ArrowDown",
+    ArrowLeft: "Alt + ArrowLeft",
+    ArrowRight: "Alt + ArrowRight"
+  },
+  ROW_GAP: 20,
+  COLUMN_GAP: 200,
+  EPSILON: 1,
+  OFFSET_WEIGHT: 1.1,
+  MACRO_TASK_DELAY: 50
 };
 var Setting = class extends import_obsidian.PluginSettingTab {
   constructor(main) {
     super(main.app, main);
-    this.ROW_GAP = 20;
-    this.COLUMN_GAP = 200;
-    this.autoFocus = false;
-    this.MACRO_TASK_DELAY = 50;
-    this.EPSILON = 1;
-    this.OFFSET_WEIGHT = 1.1;
     this.main = main;
-    console.log("setting");
   }
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    containerEl.createEl("h3", { text: "\u{1F6A7}\u{1F6A7}\u{1F6A7}" });
-    containerEl.createEl("h3", { text: "The page is under development" });
-    containerEl.createEl("h3", { text: "Most settings are out-of-the-box" });
+    containerEl.createEl("h3", { text: "\u{1F917} Lovely Mindmap Settings" });
     this.addAutoFocus();
+    this.addCreateChildHotkey();
+    this.addCreateBeforeSibHotKey();
+    this.addCreateAfterSibHotKey();
   }
   addAutoFocus() {
-    new import_obsidian.Setting(this.containerEl).setName("autoFocus").setDesc("auto focus node when create new node").addToggle(
-      (component) => component.setValue(this.main.config.autoFocus).onChange(async (open) => {
-        this.main.config.autoFocus = open;
-        await this.main.saveData(this.main.config);
+    new import_obsidian.Setting(this.containerEl).setName("Auto Focus").setDesc("auto focus node when create new node").addToggle(
+      (component) => component.setValue(this.main.setting.autoFocus).onChange(async (open) => {
+        this.main.setting.autoFocus = open;
+        await this.main.saveData(this.main.setting);
+      })
+    );
+  }
+  addCreateChildHotkey() {
+    let _hotKey = this.main.setting.hotkeys.CreateChild;
+    let errorText = "";
+    new import_obsidian.Setting(this.containerEl).setName("Create Child Node").setDesc(`Custom your hotkey to create a child node, default is Tab. 
+        You can use any letter, number, or modifier combined with 
+        a letter or number, e.g., \u300CC\u300Dor\u300Ccmd + C\u300Dto create a child node.
+        Use\u300C+\u300Dto separate modifiers and alphanumeric characters.`).addText((text) => text.setPlaceholder("Enter hotkey").setValue(_hotKey).onChange(async (value) => {
+      _hotKey = value;
+      errorText = "";
+    })).addButton(
+      (button) => button.setButtonText("Save").setCta().onClick(async () => {
+        if (errorText) {
+          new import_obsidian.Notice(errorText);
+          return;
+        }
+        try {
+          const [modifier, key] = convertHotkey2Array(_hotKey);
+          this.main.setting.hotkeys.CreateChild = _hotKey;
+          await this.main.saveData(this.main.setting);
+          this.main.keymap.unregisterAll();
+          this.main.keymap.registerAll({
+            CreateChild: () => this.main.keymap.register(modifier, key, this.main.node.createChildren)
+          });
+          new import_obsidian.Notice("Save successfully!");
+        } catch (error) {
+          new import_obsidian.Notice(error.message);
+        }
+      })
+    );
+  }
+  addCreateBeforeSibHotKey() {
+    let _hotKey = this.main.setting.hotkeys.CreateBeforeSib || "Shift+Enter";
+    let errorText = "";
+    new import_obsidian.Setting(this.containerEl).setName("Create Sibling Node Before").setDesc(`Custom your hotkey to create a sibling node before the current node. Default is Shift+Enter. Same as 'Create Child Node'.`).addText((text) => text.setPlaceholder("Enter hotkey").setValue(_hotKey).onChange(async (value) => {
+      _hotKey = value;
+      errorText = "";
+    })).addButton(
+      (button) => button.setButtonText("Save").setCta().onClick(async () => {
+        if (errorText) {
+          new import_obsidian.Notice(errorText);
+          return;
+        }
+        try {
+          const [modifier, key] = convertHotkey2Array(_hotKey);
+          this.main.setting.hotkeys.CreateBeforeSib = _hotKey;
+          await this.main.saveData(this.main.setting);
+          this.main.keymap.unregisterAll();
+          this.main.keymap.registerAll({
+            CreateBeforeSib: () => this.main.keymap.register(modifier, key, this.main.node.createBeforeSibNode)
+          });
+          new import_obsidian.Notice("Save successfully!");
+        } catch (error) {
+          new import_obsidian.Notice(error.message);
+        }
+      })
+    );
+  }
+  addCreateAfterSibHotKey() {
+    let _hotKey = this.main.setting.hotkeys.CreateAfterSib || "Enter";
+    let errorText = "";
+    new import_obsidian.Setting(this.containerEl).setName("Create Sibling Node After").setDesc(`Custom your hotkey to create a sibling node after the current node. Default is Enter. Same as 'Create Child Node'.`).addText((text) => text.setPlaceholder("Enter hotkey").setValue(_hotKey).onChange(async (value) => {
+      _hotKey = value;
+      errorText = "";
+    })).addButton(
+      (button) => button.setButtonText("Save").setCta().onClick(async () => {
+        if (errorText) {
+          new import_obsidian.Notice(errorText);
+          return;
+        }
+        try {
+          const [modifier, key] = convertHotkey2Array(_hotKey);
+          this.main.setting.hotkeys.CreateAfterSib = _hotKey;
+          await this.main.saveData(this.main.setting);
+          this.main.keymap.unregisterAll();
+          this.main.keymap.registerAll({
+            CreateAfterSib: () => this.main.keymap.register(modifier, key, this.main.node.createAfterSibNode)
+          });
+          new import_obsidian.Notice("Save successfully!");
+        } catch (error) {
+          new import_obsidian.Notice(error.message);
+        }
       })
     );
   }
   async loadSettings() {
-    this.main.config = { ...DEFAULT_SETTINGS, ...await this.main.loadData() };
+    this.main.setting = { ...DEFAULT_SETTINGS, ...await this.main.loadData() };
   }
 };
 
@@ -614,3 +761,5 @@ var LovelyMindmap = class extends import_obsidian2.Plugin {
     this.intervalTimer.forEach(clearInterval);
   }
 };
+
+/* nosourcemap */

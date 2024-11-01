@@ -67,6 +67,9 @@ var LiteGallery = class extends import_obsidian2.Plugin {
       let preview_scroll_speed = 0;
       const image_list = source.split("\n").map((line) => line.replace(/!?\[\[/, "").replace("]]", "").trim()).filter((line) => line).map(
         (image) => {
+          if (image.match(/^(http|https):\/\//)) {
+            return image;
+          }
           let image_exists = false;
           let image_path = void 0;
           let path_options = this.settings.image_folders.map((folder) => {
@@ -89,6 +92,7 @@ var LiteGallery = class extends import_obsidian2.Plugin {
           return image_path;
         }
       ).filter((image_path) => image_path !== void 0);
+      console.log(image_list);
       const lightbox_container = document.body.createEl("div", {
         cls: "litegal-lightbox-container hidden"
       });
@@ -114,6 +118,9 @@ var LiteGallery = class extends import_obsidian2.Plugin {
         active_image.onclick = () => {
           lightbox_container.removeClass("hidden");
           lightbox_image.src = image_list[active_slide];
+        };
+        active_image.onerror = function() {
+          this.src = "https://raw.githubusercontent.com/jpoles1/obsidian-litegal/eb0e30b2709a3081dd8d32ef4371367b95694881/404notfound.jpg";
         };
         const larrow = active_image_container.createEl("div", {
           text: "<",
@@ -163,6 +170,9 @@ var LiteGallery = class extends import_obsidian2.Plugin {
             cls: "litegal-preview-img"
           });
           preview_elem.src = image_path;
+          preview_elem.onerror = function() {
+            this.src = "https://raw.githubusercontent.com/jpoles1/obsidian-litegal/eb0e30b2709a3081dd8d32ef4371367b95694881/404notfound.jpg";
+          };
           preview_elem.onclick = () => {
             active_slide = i;
             active_image.src = `${image_list[active_slide]}`;
@@ -189,6 +199,9 @@ var LiteGallery = class extends import_obsidian2.Plugin {
         const lightbox_image = lightbox.createEl("img", {
           cls: "litegal-lightbox-image"
         });
+        lightbox_image.onerror = function() {
+          this.src = "https://raw.githubusercontent.com/jpoles1/obsidian-litegal/eb0e30b2709a3081dd8d32ef4371367b95694881/404notfound.jpg";
+        };
         const lightbox_exit = lightbox.createEl("div", {
           text: "X",
           cls: "litegal-lightbox-exit"
@@ -212,3 +225,5 @@ var LiteGallery = class extends import_obsidian2.Plugin {
   onunload() {
   }
 };
+
+/* nosourcemap */
