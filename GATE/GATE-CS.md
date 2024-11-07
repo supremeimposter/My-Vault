@@ -35,6 +35,7 @@ tags:
 - [[DBMS PYQs]]
 - [[TOC PYQs]]
 - [[OS PYQs]]
+- [[COA PYQs]]
 
 ## Mind Maps
 

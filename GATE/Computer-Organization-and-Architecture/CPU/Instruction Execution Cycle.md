@@ -23,7 +23,7 @@ The processor,
 
 Instruction processing consists of two phases: the *fetch phase and the execution phase*. It is convenient to divide the processor hardware into two corresponding sections. One section fetches instructions and the other executes them.
 
-The section that fetches instructions is also responsible for decoding them and for generating the control signals that cause appropriate actions to take place in the execution section. The execution section reads the data operands specified in an instruction, performs the required computations, and stores the results.
+<mark class="hltr-yellow">The section that fetches instructions is also responsible for decoding them and for generating the control signals that cause appropriate actions to take place in the execution section. The execution section reads the data operands specified in an instruction, performs the required computations, and stores the results.</mark>
 
 > Program execution consists of repeating the process of instruction fetch and instruction execution.
 
@@ -40,11 +40,11 @@ The [Instruction cycle](http://cs.iit.edu/~cs561/cs350/fetch/fetch.html) consist
 > 3    = Decode
 > 4    = Execute
 
-- **Micro operation** or **Micro program** is the smallest atomic operation performed by the CPU based on Control Unit's signals. 
+- **Micro operation** or **Micro program** is the smallest atomic operation performed by the CPU based on Control Unit's signals.
 - Micro operations are elementary operations performed on information stored in one or more registers.
 - Micro operations are **register to register transfer instructions** RTLs. It is executed in one clock cycle. But if memory is involved, it may take several clock cylcles.
 - Each micro operation has an RTL control step number.
-- For each instruction in the instruction set of the processor, there are a collection of micro-operations.
+- For each instruction (operation) in the instruction set of the processor, there are a collection of micro-operations.
 
 > [!example] 
 > ![[Instruction Execution Cycle-20240801235355736.webp]]
@@ -97,9 +97,11 @@ If the word size is smaller than instruction size and the memory is word-address
 
 When the instruction is decoded, the CU knows which instruction to execute and generates signals to up paths and effect the desired register transfers.
 
+For each mnemonic (instruction), there are several lines of Register level transfer instructions.
+
 ![[Instruction Execution Cycle-20240801233548902.webp]]
 
-> $\mathcal{l}_{\text{fetch}}$ means fetch next instruction.
+> $\mathcal{l}_{\text{fetch}}$ RTL step number of fetch instruction.
 > CPI means Cycles Per Instruction.
 
 > [!pdf] mod-2/lec-05.pdf Pg. No. 63 - 97
@@ -107,7 +109,7 @@ When the instruction is decoded, the CU knows which instruction to execute and g
 
 # HALT Instruction
 
-Program execution halts only if the machine is turned off some sort of unrecoverable error occurs, or a program instruction that halts the computer is encountered.
+Program execution halts only if the machine is turned off, some sort of unrecoverable error occurs, or a program instruction that halts the computer is encountered.
 
 CPU breaks the fetch-decode-execute cycle on executing HALT instruction. Halt instruction is one of the [[Instruction Type#Transfer of Control Instructions|jump instructions]]. **Halting simply stops the clock** i.e. stops the program execution.
 

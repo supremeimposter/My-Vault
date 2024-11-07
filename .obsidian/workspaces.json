@@ -19,7 +19,9 @@
                     "mode": "source",
                     "backlinks": true,
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Guidelines to GATE-CS"
                 }
               },
               {
@@ -32,33 +34,9 @@
                     "mode": "source",
                     "backlinks": true,
                     "source": false
-                  }
-                }
-              },
-              {
-                "id": "b61abb5950d903b6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "4b1358c303bb5007",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Database Management System"
                 }
               },
               {
@@ -71,7 +49,9 @@
                     "mode": "source",
                     "backlinks": true,
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "DBMS PYQs"
                 }
               }
             ],
@@ -95,7 +75,9 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
                 }
               },
               {
@@ -110,7 +92,9 @@
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
                 }
               },
               {
@@ -118,7 +102,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
                 }
               },
               {
@@ -126,7 +112,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "recent-files",
-                  "state": {}
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
                 }
               }
             ]
@@ -150,7 +138,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -158,7 +146,9 @@
                     "searchQuery": "",
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Guidelines to GATE-CS"
                 }
               },
               {
@@ -167,10 +157,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Guidelines to GATE-CS"
                 }
               },
               {
@@ -182,7 +174,9 @@
                     "sortOrder": "frequency",
                     "showSearch": false,
                     "searchQuery": ""
-                  }
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
                 }
               },
               {
@@ -191,8 +185,10 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md"
-                  }
+                    "file": "GATE/Pyqs/DBMS PYQs.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of DBMS PYQs"
                 }
               },
               {
@@ -203,7 +199,9 @@
                   "state": {
                     "sortOrder": "frequency",
                     "useHierarchy": true
-                  }
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
                 }
               },
               {
@@ -211,7 +209,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "mermaid-toolbar-view",
-                  "state": {}
+                  "state": {},
+                  "icon": "trident-custom",
+                  "title": "Mermaid Toolbar"
                 }
               },
               {
@@ -219,7 +219,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "journal-calendar",
-                  "state": {}
+                  "state": {},
+                  "icon": "calendar-days",
+                  "title": "Calendar"
                 }
               }
             ],
@@ -235,7 +237,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "map-of-content",
-                  "state": {}
+                  "state": {},
+                  "icon": "stacked-levels",
+                  "title": "Map of Content"
                 }
               }
             ]
@@ -246,6 +250,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-kanban:Create new board": false,
           "audio-recorder:Start/stop recording": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
@@ -259,8 +264,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "b61abb5950d903b6",
-      "mtime": "2024-10-02T11:45:32+05:30"
+      "active": "110128e1b63e3921",
+      "mtime": "2024-11-04T15:22:53+05:30"
     },
     "set-theory": {
       "main": {
@@ -534,24 +539,28 @@
                     "backlinks": true,
                     "source": false
                   },
-                  "pinned": true
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Computer Organization and Architecture"
                 }
               },
               {
-                "id": "d020c5cf31f45bd9",
+                "id": "a9bac0ad145acb77",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
+                    "file": "GATE/Pyqs/COA PYQs.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "COA PYQs"
                 }
               },
               {
-                "id": "8e227422de9f51c7",
+                "id": "d532e2ca8ba4a1bd",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -560,11 +569,12 @@
                     "mode": "source",
                     "backlinks": true,
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Guidelines to GATE-CS"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -584,7 +594,9 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
                 }
               },
               {
@@ -599,7 +611,9 @@
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
                 }
               },
               {
@@ -607,7 +621,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
                 }
               },
               {
@@ -615,7 +631,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "recent-files",
-                  "state": {}
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
                 }
               }
             ]
@@ -639,7 +657,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -647,7 +665,9 @@
                     "searchQuery": "",
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Instruction Execution Cycle"
                 }
               },
               {
@@ -659,7 +679,9 @@
                     "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Main Memory and Addressability"
                 }
               },
               {
@@ -671,7 +693,9 @@
                     "sortOrder": "frequency",
                     "showSearch": false,
                     "searchQuery": ""
-                  }
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
                 }
               },
               {
@@ -680,8 +704,10 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
-                  }
+                    "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Computer Organization and Architecture"
                 }
               },
               {
@@ -692,23 +718,31 @@
                   "state": {
                     "sortOrder": "frequency",
                     "useHierarchy": true
-                  }
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
                 }
               },
               {
-                "id": "2ec29c1e38047089",
-                "type": "leaf",
-                "state": {
-                  "type": "mermaid-toolbar-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "64e722562ef2ff69",
+                "id": "487cabbd4e231d06",
                 "type": "leaf",
                 "state": {
                   "type": "journal-calendar",
-                  "state": {}
+                  "state": {},
+                  "icon": "calendar-days",
+                  "title": "Calendar"
+                }
+              },
+              {
+                "id": "3b7b523541a209d3",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for Instruction Execution Cycle"
                 }
               }
             ],
@@ -724,7 +758,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "map-of-content",
-                  "state": {}
+                  "state": {},
+                  "icon": "stacked-levels",
+                  "title": "Map of Content"
                 }
               }
             ]
@@ -745,11 +781,12 @@
           "darlal-switcher-plus:Open Symbols for the active editor": false,
           "mermaid-tools:Open Mermaid Toolbar": false,
           "workspaces:Manage workspace layouts": false,
+          "obsidian-kanban:Create new board": false,
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "d020c5cf31f45bd9",
-      "mtime": "2024-09-28T11:49:39+05:30"
+      "active": "a979cb9d9bf15c0b",
+      "mtime": "2024-11-04T09:17:38+05:30"
     },
     "DL": {
       "main": {
@@ -1759,5 +1796,5 @@
       "mtime": "2024-09-22T16:01:27+05:30"
     }
   },
-  "active": "COA"
+  "active": "DBMS-mod-1"
 }

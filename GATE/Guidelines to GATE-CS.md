@@ -120,9 +120,14 @@ $$
 
 - In C-scan algorithm, the empty trip is also counted for average calculation.
 - A block is a consecutive sectors within a track.
-- transfer rate does not care about whether useful data is transferred or not. It just shows how much data is transferred in a given amount of time. But remove the formatted data, it is not required.
+
+- data transfer rate does not care about whether transferred data is useful or not. It just shows how much data is transferred in a given amount of time. But remove the formatted data, it is not required.
+- btt (block transfer time) - time required for 1 block transfer.
 
 - scanning a full disk is different from searching for a record in the disk.
+
+- Disk = sector is the smallest unit of data access
+- DBMS = block is the smallest unit of data access
 
 ### Guidelines to Indexing
 
@@ -130,16 +135,24 @@ $$
 - Indexes are always created on a single attribute.
 - Data access always happens block by block. Even if a record address, that block that which contains that record has to be accessed. 
 - Index blocking factor is also called index fan-out.
+- **Access cost = number of disk block accesses**
 - index fan-out = referencing capability per block.
 - Doing a search on index blocks and finding the correct entry also requires disk block access of the original file. If the index is already on the memory, then disk block accesses are those that are done from the disk.
 - Ordered index files contain index entries in sorted manner physically.
-- Access cost = number of disk block accesses
 - Block access is nothing but reading of blocks by main memory.
 - Take the size of record pointer for the secondary index if both block and record pointer size are given.
 
 - Unclustered index is the secondary index.
 - Some authors consider both primary and secondary index are same.
-- Secondary index is not useful on range queries or we have to access to many records. A single sequential scan of the original file is better than searching through secondary index.
+- Secondary index is not useful on range queries or when we have to access too many records. A single sequential scan of the original file is better than searching through secondary index. 
+- Any ordered is not better than a sequential scan when almost every record has the data we need.
+
+![[Guidelines to GATE-CS-20241106101022316.webp]]
+
+![[Guidelines to GATE-CS-20241105231854595.webp]]
+
+- In second level index, check for Blocking factor again in case of first block being secondary index.
+- ISAM - multi-level primary index file.
 
 - Do not confuse search keys from "keys" in relational model.
 
@@ -164,7 +177,7 @@ $$
 - Consistency preservation of a transaction is when it is run from a consistent state of DB without any failures or interleaving, it results in another consistent state of DB. 
 - Consistency property is partially on programmers hand.
 - App dependent constraints are implicit and Integrity Constraints are explicit constraints as they are enforced by DBMS.
-- The original order of operations in a transaction must not change in any execution.
+- The original order of operations within a transaction must not change in any execution.
 
 - For isolation, transactions must be appear to execute serially. But for performance measures, transactions are executed concurrently. To ensure isolation amidst concurrent execution, serializability is used.
 - For ensuring isolation property, don't read changes by uncommitted transactions.
@@ -174,10 +187,12 @@ $$
 - Scheduler component takes care of concurrency control.
 - Every serial schedule is also a concurrent schedule.
 - For serializability, commit operation is irrelevant.
+- Serializability is discussed on the same set of transactions, not on different set of transactions.
 
 ![[Serializability-20231213131409716.webp]]
 
-- Swapping two non-consecutive operations in any schedule makes the schedule invalid.
+- Swapping two non-consecutive operations in any schedule necessarily makes the schedule invalid.
+- We are swapping only **consecutive non-conflicting** pair of operations in conflict serializability.
 - In case of conflict serializable equivalent schedules question, just identify the conflicting pairs and check whether those are swapped in the options to eliminate some.
 - Serializability graph = precedence graph
 
@@ -224,6 +239,7 @@ $$
 ## Guidelines to COA
 
 - When there is no information on whether the memory is word or byte-addressable, byte-addressable is considered, eventhough if there is an information on word length.
+- A memory is word-addressable, only if the word, "word-addressable" is mentioned.
 
 ![[Guidelines to GATE-CS-20241101163421493.webp]]
 
@@ -240,14 +256,22 @@ $$
 
 ![[Guidelines to GATE-CS-20241030193532252.webp]]
 
-- INC/DEC operations do not affect the carry flags.
+- INC/DEC operations, the only type of data manipulation instructions that do not affect the carry flags. All the other data manipulation instructions affect all the flags.
 - For SUB, carry flag acts as borrow flag.
 - CMP internally does non-destructive SUB.
 - Be careful with arithmetic shifts.
+- to avoid confusion, perform shift and rotate operations step by step.
 
 - In CISC (mem-mem arch), the operands are brought to registers and the computations are performed. But the instructions include only memory addresses.
 
 - memory to memory data transfer instructions are not possible.
+
+![[Guidelines to GATE-CS-20241102191425658.webp|notation for control signals]]
+
+
+- If the instruction size is larger than word size, then first fetch and decode the opcode and then again fetch the remaining part of the instruction and decode. The **opcode** tells how many addresses (operands) are needed form the instruction set.
+
+- If a data path is given, look at it carefully and see how data travels through the data path. The same route cannot be used in the same cycle.
 
 - If the question asks for if there is any hazard, just draw the cycle diagram of normal pipeline execution and see if any problem exists. Don't overdo the problem.
 - Don't assume split phase by default. By default implementation is not split phase (the other one).

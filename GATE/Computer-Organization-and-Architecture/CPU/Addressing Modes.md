@@ -203,7 +203,7 @@ For a positive offset, it gives a forward jump and for a negative offset, it giv
 > ![[Addressing Modes-20240803133701863.webp]]
 
 > [!example] 
-> ![[Addressing Modes-20240803171918480.webp]]
+> ![[Addressing Modes-20241103222947075.webp]]
 
 > [!example] 
 > ![[Addressing Modes-20240803172451560.webp]]

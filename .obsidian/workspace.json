@@ -4,73 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0db92b6a93445326",
+        "id": "f5b89db6f1e09b3f",
         "type": "tabs",
         "children": [
           {
-            "id": "a979cb9d9bf15c0b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Computer Organization and Architecture"
-            }
-          },
-          {
-            "id": "7d8ef0aa350343ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Instruction Set Architecture"
-            }
-          },
-          {
-            "id": "687dd9b2367b26f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Instruction Type"
-            }
-          },
-          {
-            "id": "933893bad16ecf26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Instruction Format"
-            }
-          },
-          {
-            "id": "d532e2ca8ba4a1bd",
+            "id": "2066b3fa9c6e9c03",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -83,9 +21,38 @@
               "icon": "lucide-file",
               "title": "Guidelines to GATE-CS"
             }
+          },
+          {
+            "id": "8c06d979475f07ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DatabaseManagementSystem/Database Management System.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Database Management System"
+            }
+          },
+          {
+            "id": "110128e1b63e3921",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Pyqs/DBMS PYQs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DBMS PYQs"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -147,8 +114,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -169,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +145,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Main Memory and Addressability"
+              "title": "Backlinks for Guidelines to GATE-CS"
             }
           },
           {
@@ -188,12 +154,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Main Memory and Addressability"
+              "title": "Outgoing links from Guidelines to GATE-CS"
             }
           },
           {
@@ -216,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
+                "file": "GATE/Guidelines to GATE-CS.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Instruction Type"
+              "title": "Outline of Guidelines to GATE-CS"
             }
           },
           {
@@ -236,7 +202,17 @@
             }
           },
           {
-            "id": "487cabbd4e231d06",
+            "id": "2ec29c1e38047089",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
+          },
+          {
+            "id": "92acdc507560220c",
             "type": "leaf",
             "state": {
               "type": "journal-calendar",
@@ -271,6 +247,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -281,50 +258,49 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-kanban:Create new board": false,
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "687dd9b2367b26f7",
+  "active": "2066b3fa9c6e9c03",
   "lastOpenFiles": [
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
+    "GATE/Pyqs/DBMS PYQs.md",
     "GATE/Guidelines to GATE-CS.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "attachments/DBMS PYQs-20241106221621482.webp",
+    "attachments/Guidelines to GATE-CS-20241106101022316.webp",
+    "attachments/Guidelines to GATE-CS-20241105231854595.webp",
+    "attachments/DBMS PYQs-20241105230136569.webp",
+    "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
+    "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
     "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "attachments/Guidelines to GATE-CS-20241101163421493.webp",
+    "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
+    "attachments/Addressing Modes-20241103222947075.webp",
+    "GATE/Pyqs/COA PYQs.md",
+    "attachments/COA PYQs-20241103163732289.webp",
+    "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
+    "attachments/COA PYQs-20241103154803859.webp",
+    "attachments/COA PYQs-20241103113313707.webp",
+    "attachments/COA PYQs-20241103113259773.webp",
+    "attachments/COA PYQs-20241103113234914.webp",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
+    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
+    "GATE/GATE-CS.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
     "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
-    "attachments/Guidelines to GATE-CS-20241030193532252.webp",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md",
-    "attachments/Guidelines to GATE-CS-20241030134650714.webp",
     "GATE/Pyqs/OS PYQs.md",
     "GATE/OperatingSystems/Operating Systems.md",
     "GATE/OperatingSystems/Synchronization in OS.md",
     "GATE/OperatingSystems/Process in Operating Systems.md",
-    "attachments/OS PYQs-20241026205832205.webp",
-    "attachments/OS PYQs-20241026115335006.webp",
-    "attachments/OS PYQs-20241026092027723.webp",
-    "attachments/OS PYQs-20241025224755292.webp",
-    "attachments/OS PYQs-20241025223146901.webp",
-    "attachments/OS PYQs-20241025205002545.webp",
-    "attachments/OS PYQs-20241025200517797.webp",
     "GATE/OperatingSystems/System Calls.md",
-    "GATE/GATE-CS.md",
     "GATE/OperatingSystems/Introduction to Operating Systems.md",
-    "GATE/Pyqs/DBMS PYQs.md",
-    "GATE/DatabaseManagementSystem/Database Management System.md",
-    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md",
-    "GATE/Mind-maps/Concurrency Control Protocols.md",
     "GATE/Mind-maps/Concurrency-Control-Protocols.canvas",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
-    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md",
     "GATE/Mind-maps",
-    "GATE/DatabaseManagementSystem/ER-Model/ER Model.md",
-    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md",
-    "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas",
     "GATE/Pyqs",
     "Journal/Study-sessions",

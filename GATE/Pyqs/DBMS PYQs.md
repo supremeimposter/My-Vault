@@ -245,6 +245,14 @@ Given that the queries in LHS are valid, are the queries in the RHS valid or not
 
 
 > [!question] 
+> [Databases: GATE CSE 2013 | Question: 15](https://gateoverflow.in/1437/gate-cse-2013-question-15)
+
+![[DBMS PYQs-20241105230136569.webp]]
+
+
+
+
+> [!question] 
 > [Databases: GATE CSE 1989 | Question: 4-xiv](https://gateoverflow.in/88228/gate-cse-1989-question-4-xiv)
 
 ![[DBMS PYQs-20241011183025031.webp]]
@@ -277,6 +285,16 @@ Be careful for the number of block accesses, just answer what are they answering
 scanning is not same as binary search.
 
 [iitg.ac.in/awekar/teaching/cs344fall11/lecturenotes/october 10.pdf](https://www.iitg.ac.in/awekar/teaching/cs344fall11/lecturenotes/october%2010.pdf)
+
+
+
+> [!question] 
+> [Databases: GATE CSE 2011 | Question: 39](https://gateoverflow.in/2141/gate-cse-2011-question-39)
+
+![[DBMS PYQs-20241106221621482.webp]]
+
+
+https://www2.cs.sfu.ca/CourseCentral/354/zaiane/material/notes/Chapter11/node21.html
 
 
 > [!question] 

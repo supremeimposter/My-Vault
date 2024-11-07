@@ -5,7 +5,7 @@ lecture: "4"
 date: 2024-03-23T13:35:00
 version:
   - COA-24
-last-revision: 2024-08-01T12:40:00
+last-revision: 2024-11-02T12:40:00
 notes-taken: true
 tags:
   - ComputerOrganizationAndArchitecture/Instruction
@@ -197,8 +197,8 @@ Carry flag contains the bit that is shifted out from the register in logical and
 
 Carry flag contains the corner bit which is circularly shifting back into the register in rotate instructions.
 
-![[Instruction Type-20240728155236968.webp]]
-![[Instruction Type-20240728155251089.webp]]
+![[Instruction Type-20241102121942510.webp]]
+
 
 ## Transfer of Control Instructions
 

@@ -15,7 +15,7 @@ tags:
 > [!lecture] Lecture-1
 
 - Each Sector is a logical division rather than a physical division.
-- Sector is the smallest unit of data that can be read or write.
+- Sector is the smallest unit of data that can be read or write in a disk.
 - At any time, only one read write head is active, though all the heads rotate at the same time.
 - A platter has two surfaces.
 
@@ -27,7 +27,7 @@ tags:
 
 ![[Disk Structure and Performance-20231129120142875.webp]]
 
-- A **Block** is a set of consecutive sectors within a track that is decided by the DBMS software. It is not a property of the disk itself.
+- A **Block** is a <mark class="hltr-red">set of consecutive sectors within a track</mark> that is decided by the DBMS software. It is not a property of the disk itself.
 - The size of a sector is fixed on a disk. It cannot be changed, whereas how many sectors form a block can be decided or changed.
 - In any sector, apart from the actual data, every extra information is called Disk formatting or formatted data.
 - All the tracks on the surface of a platter hold the same amount of data though there is a variation in the radius. The intersectional gap increases as the radius of a track increases.
@@ -37,7 +37,6 @@ tags:
 - A track has a starting point and ending point similar to a sector. A track cannot be read or write at some random point.
 - Total capacity of a cylinder = No of surfaces $\ast$ Size of a Track
 - Total capacity of a disk = Total capacity of a cylinder ${} \ast {}$ No of cylinders
-
 
 > [!doubt] 
 > The total size of a track is the complete circle. It also includes the sector gap.

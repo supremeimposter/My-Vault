@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Instruction Type",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
-    },
-    {
-      "basename": "Instruction Set Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
-    },
-    {
       "basename": "Guidelines to GATE-CS",
       "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Disk Structure and Performance",
+      "path": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "DBMS PYQs",
+      "path": "GATE/Pyqs/DBMS PYQs.md"
+    },
+    {
+      "basename": "Disk Addressing",
+      "path": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md"
+    },
+    {
+      "basename": "Instruction Execution Cycle",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
+    },
+    {
+      "basename": "Instruction Type",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
     },
     {
       "basename": "Instruction Format",
@@ -19,6 +35,18 @@
     {
       "basename": "Computer Organization and Architecture",
       "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+    },
+    {
+      "basename": "Instruction Set Architecture",
+      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
+    },
+    {
+      "basename": "COA PYQs",
+      "path": "GATE/Pyqs/COA PYQs.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE/GATE-CS.md"
     },
     {
       "basename": "Registers and Status Flags in CPU",
@@ -61,20 +89,8 @@
       "path": "GATE/OperatingSystems/System Calls.md"
     },
     {
-      "basename": "GATE-CS",
-      "path": "GATE/GATE-CS.md"
-    },
-    {
       "basename": "Introduction to Operating Systems",
       "path": "GATE/OperatingSystems/Introduction to Operating Systems.md"
-    },
-    {
-      "basename": "DBMS PYQs",
-      "path": "GATE/Pyqs/DBMS PYQs.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
     },
     {
       "basename": "Time Stamp-based Protocols",
@@ -105,16 +121,8 @@
       "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
     },
     {
-      "basename": "Disk Structure and Performance",
-      "path": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
-    },
-    {
       "basename": "Temporary Plan",
       "path": "GATE/Temporary Plan.md"
-    },
-    {
-      "basename": "Disk Addressing",
-      "path": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md"
     },
     {
       "basename": "Relational Model",
@@ -191,14 +199,6 @@
     {
       "basename": "TOC PYQs",
       "path": "GATE/Pyqs/TOC PYQs.md"
-    },
-    {
-      "basename": "Theory of Computation",
-      "path": "GATE/TheoryOfComputation/Theory of Computation.md"
-    },
-    {
-      "basename": "Introduction to Theory of Computation",
-      "path": "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Introduction to Theory of Computation.md"
     }
   ],
   "omittedPaths": [

@@ -487,12 +487,15 @@
   "underwater-theme@@focus-mode": false,
   "underwater-theme@@no-links": true,
   "underwater-theme@@no-animation": true,
-  "underwater-theme@@underwater-colors-dark": "rose-pine",
+  "underwater-theme@@underwater-colors-dark": "nord-dark",
   "everforest-enchanted-theme@@image-embed-stretch": false,
   "fancy-a-story@@theme-variant-light": "fas-ice",
   "fancy-a-story@@fas-opposite-bg": false,
   "fancy-a-story@@fas-accessibility": true,
   "fancy-a-story@@fas-bg-textures": true,
   "fancy-a-story@@fas-bookmark-tabs": "disable",
-  "fancy-a-story@@fas-alternative-checkboxes": "doodle"
+  "fancy-a-story@@fas-alternative-checkboxes": "doodle",
+  "underwater-theme@@kanban": "normal",
+  "underwater-theme@@no-calendar": false,
+  "underwater-theme@@no-widgets": false
 }
