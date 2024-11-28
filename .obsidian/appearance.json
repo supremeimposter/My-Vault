@@ -1,5 +1,5 @@
 {
-  "accentColor": "",
+  "accentColor": "#3aa0ee",
   "enabledCssSnippets": [
     "custom-callout",
     "custom-admonitions.971f1e",
@@ -9,8 +9,8 @@
     "anuppiccin-extended-color-schemes",
     "anuppiccin-floating-search-bar"
   ],
-  "cssTheme": "Things",
-  "theme": "moonstone",
+  "cssTheme": "custom-chiaroscuroflow",
+  "theme": "obsidian",
   "showViewHeader": true,
   "baseFontSize": 18,
   "nativeMenus": false,

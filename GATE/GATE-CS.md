@@ -32,6 +32,7 @@ tags:
 - Discrete Mathematics PYQs
 	- [[Logic PYQs]]
 	- [[Set Theory PYQs]]
+	- [[Combinatronics PYQs]]
 - [[DBMS PYQs]]
 - [[TOC PYQs]]
 - [[OS PYQs]]

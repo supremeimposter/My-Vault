@@ -5,6 +5,22 @@
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "OS PYQs",
+      "path": "GATE/Pyqs/OS PYQs.md"
+    },
+    {
+      "basename": "Process in Operating Systems",
+      "path": "GATE/OperatingSystems/Process in Operating Systems.md"
+    },
+    {
+      "basename": "Synchronization in OS",
+      "path": "GATE/OperatingSystems/Synchronization in OS.md"
+    },
+    {
       "basename": "Disk Structure and Performance",
       "path": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
     },
@@ -69,20 +85,8 @@
       "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md"
     },
     {
-      "basename": "OS PYQs",
-      "path": "GATE/Pyqs/OS PYQs.md"
-    },
-    {
       "basename": "Operating Systems",
       "path": "GATE/OperatingSystems/Operating Systems.md"
-    },
-    {
-      "basename": "Synchronization in OS",
-      "path": "GATE/OperatingSystems/Synchronization in OS.md"
-    },
-    {
-      "basename": "Process in Operating Systems",
-      "path": "GATE/OperatingSystems/Process in Operating Systems.md"
     },
     {
       "basename": "System Calls",
@@ -135,10 +139,6 @@
     {
       "basename": "Set Theory PYQs",
       "path": "GATE/Pyqs/Set Theory PYQs.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
     },
     {
       "basename": "Logical Equivalence",
@@ -195,10 +195,6 @@
     {
       "basename": "GATE-LOG",
       "path": "GATE/GATE-LOG.md"
-    },
-    {
-      "basename": "TOC PYQs",
-      "path": "GATE/Pyqs/TOC PYQs.md"
     }
   ],
   "omittedPaths": [

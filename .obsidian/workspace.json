@@ -4,11 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "f5b89db6f1e09b3f",
+        "id": "df7f94ce3ab6c62b",
         "type": "tabs",
         "children": [
           {
-            "id": "2066b3fa9c6e9c03",
+            "id": "76a07e4786a7142a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Discrete Mathematics"
+            }
+          },
+          {
+            "id": "087404d24fd53302",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,36 +40,22 @@
             }
           },
           {
-            "id": "8c06d979475f07ea",
+            "id": "980f53b56852e310",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/DatabaseManagementSystem/Database Management System.md",
+                "file": "GATE/Pyqs/Combinatronics PYQs.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database Management System"
-            }
-          },
-          {
-            "id": "110128e1b63e3921",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Pyqs/DBMS PYQs.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DBMS PYQs"
+              "title": "Combinatronics PYQs"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,7 +215,7 @@
             }
           },
           {
-            "id": "92acdc507560220c",
+            "id": "64e722562ef2ff69",
             "type": "leaf",
             "state": {
               "type": "journal-calendar",
@@ -261,43 +264,44 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "2066b3fa9c6e9c03",
+  "active": "087404d24fd53302",
   "lastOpenFiles": [
-    "GATE/Pyqs/DBMS PYQs.md",
+    "attachments/Guidelines to GATE-CS-20241127094912144.webp",
+    "GATE/Pyqs/Combinatronics PYQs.md",
+    "attachments/Combinatronics PYQs-20241121133906304.webp",
     "GATE/Guidelines to GATE-CS.md",
+    "attachments/Combinatronics PYQs-20241119155726361.webp",
+    "GATE/GATE-CS.md",
+    "attachments/Combinatronics PYQs-20241118222304356.webp",
+    "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "GATE/Pyqs/OS PYQs.md",
+    "attachments/OS PYQs-20241116194121192.webp",
+    "attachments/OS PYQs-20241116192211043.webp",
+    "attachments/OS PYQs-20241116185121943.webp",
+    "attachments/OS PYQs-20241116093633699.webp",
+    "GATE/OperatingSystems/Operating Systems.md",
+    "attachments/OS PYQs-20241115145645219.webp",
+    "attachments/OS PYQs-20241115145635725.webp",
+    "attachments/OS PYQs-20241115145619696.webp",
+    "GATE/OperatingSystems/Process in Operating Systems.md",
+    "GATE/OperatingSystems/Synchronization in OS.md",
+    "GATE/Pyqs/DBMS PYQs.md",
     "GATE/DatabaseManagementSystem/Database Management System.md",
-    "attachments/DBMS PYQs-20241106221621482.webp",
-    "attachments/Guidelines to GATE-CS-20241106101022316.webp",
-    "attachments/Guidelines to GATE-CS-20241105231854595.webp",
-    "attachments/DBMS PYQs-20241105230136569.webp",
+    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md",
     "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
     "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
     "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
-    "attachments/Addressing Modes-20241103222947075.webp",
     "GATE/Pyqs/COA PYQs.md",
-    "attachments/COA PYQs-20241103163732289.webp",
     "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
-    "attachments/COA PYQs-20241103154803859.webp",
-    "attachments/COA PYQs-20241103113313707.webp",
-    "attachments/COA PYQs-20241103113259773.webp",
-    "attachments/COA PYQs-20241103113234914.webp",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
-    "GATE/GATE-CS.md",
     "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
     "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
     "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md",
-    "GATE/Pyqs/OS PYQs.md",
-    "GATE/OperatingSystems/Operating Systems.md",
-    "GATE/OperatingSystems/Synchronization in OS.md",
-    "GATE/OperatingSystems/Process in Operating Systems.md",
-    "GATE/OperatingSystems/System Calls.md",
-    "GATE/OperatingSystems/Introduction to Operating Systems.md",
     "GATE/Mind-maps/Concurrency-Control-Protocols.canvas",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
     "GATE/Mind-maps",

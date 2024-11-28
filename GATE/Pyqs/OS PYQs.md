@@ -3,7 +3,6 @@ tags:
   - OperatingSystems/PYQ
   - GATE/PYQs
 ---
-
 # OS PYQs
 
 ## Process Management PYQs
@@ -113,14 +112,118 @@ This requires algorithms
 
 
 > [!question] 
-> [Operating System: GATE CSE 2007 | Question: 58](https://gateoverflow.in/1256/gate-cse-2007-question-58)
+> [Operating System: GATE CSE 1987 | Question: 1-xvi](https://gateoverflow.in/80362/gate-cse-1987-question-1-xvi)
 
-![[OS PYQs-20241026205832205.webp]]
-
-
+![[OS PYQs-20241111115038163.webp]]
 
 
+> [!question] 
+> [Operating System: GATE CSE 1998 | Question: 1.30](https://gateoverflow.in/1667/gate-cse-1998-question-1-30)
 
+![[OS PYQs-20241111130742583.webp]]
+
+
+> [!question] 
+> [Operating System: GATE CSE 2001 | Question: 2.22](https://gateoverflow.in/740/gate-cse-2001-question-2-22)
+
+![[OS PYQs-20241111131413106.webp]]
+
+
+> [!question] 
+> [Operating System: GATE CSE 2015 Set 3 | Question: 10](https://gateoverflow.in/8405/gate-cse-2015-set-3-question-10)
+
+![[OS PYQs-20241112111146565.webp]]
+
+For deadlock to happen, processes have to wait for each other. If one of the process waits for another, then it is not deadlock.
+
+
+> [!question] 
+> [Operating System: GATE CSE 2012 | Question: 32](https://gateoverflow.in/1750/gate-cse-2012-question-32)
+
+![[OS PYQs-20241113190146611.webp]]
+![[OS PYQs-20241113190157051.webp]]
+
+
+
+> [!question] 
+> [Operating System: GATE CSE 1991 | Question: 11,a](https://gateoverflow.in/538/gate-cse-1991-question-11-a)
+
+![[OS PYQs-20241113145926407.webp]]
+
+
+> [!question] 
+> [Operating System: GATE CSE 1991 | Question: 11,b](https://gateoverflow.in/43000/gate-cse-1991-question-11-b)
+
+![[OS PYQs-20241113145952482.webp]]
+
+
+> [!question] 
+> [Operating System: GATE CSE 1998 | Question: 1.31](https://gateoverflow.in/1668/gate-cse-1998-question-1-31)
+
+![[OS PYQs-20241114112933877.webp]]
+
+
+> [!question] 
+> [Operating System: GATE CSE 2013 | Question: 34](https://gateoverflow.in/1545/gate-cse-2013-question-34)
+
+![[OS PYQs-20241114124741702.webp]]
+
+
+
+
+> [!question] 
+> [Operating System: GATE CSE 2010 | Question: 45](https://gateoverflow.in/2347/gate-cse-2010-question-45)
+
+![[OS PYQs-20241114135443524.webp]]
+
+
+based on different order of execution of P1 and P2, we get different answers, so we cannot write in terms of exact numbers.
+
+
+
+> [!question] 
+> [Operating System: GATE IT 2005 | Question: 41](https://gateoverflow.in/3788/gate-it-2005-question-41)
+
+![[OS PYQs-20241115085830174.webp]]
+
+Best answer by Deepak Poonia : [Operating System: GATE IT 2005 | Question: 41](https://gateoverflow.in/3788/gate-it-2005-question-41?show=279141#a279141)
+
+
+
+> [!question] 
+> [Operating System: GATE CSE 2013 | Question: 39](https://gateoverflow.in/1550/gate-cse-2013-question-39)
+
+![[OS PYQs-20241115145619696.webp]]
+![[OS PYQs-20241115145635725.webp]]
+![[OS PYQs-20241115145645219.webp]]
+
+
+
+> [!question] 
+> [Operating System: GATE IT 2004 | Question: 65](https://gateoverflow.in/3708/gate-it-2004-question-65)
+
+
+![[OS PYQs-20241116093633699.webp]]
+
+
+> [!question] 
+> [Operating System: GATE IT 2006 | Question: 55](https://gateoverflow.in/3598/gate-it-2006-question-55)
+
+![[OS PYQs-20241116185121943.webp]]
+
+
+
+> [!question] 
+> [Operating System: GATE CSE 1999 | Question: 20-b](https://gateoverflow.in/205817/gate-cse-1999-question-20-b)
+
+![[OS PYQs-20241116192211043.webp]]
+
+
+
+> [!question] 
+> [Operating System: GATE CSE 2002 | Question: 20](https://gateoverflow.in/873/gate-cse-2002-question-20)
+
+![[OS PYQs-20241116194121192.webp]]
 
 
 

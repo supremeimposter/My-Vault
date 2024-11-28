@@ -358,12 +358,10 @@ https://www2.cs.sfu.ca/CourseCentral/354/zaiane/material/notes/Chapter11/node21.
 
 ## Transaction Management PYQs
 
-
 > [!question] 
 > [Databases: GATE CSE 2003 | Question: 87](https://gateoverflow.in/970/gate-cse-2003-question-87)
 
 ![[DBMS PYQs-20241019225757181.webp]]
-
 
 
 checking both conflict and view serializability as there is no information on operations and computations. Only read and write are there. Both has to be checked, because a schedule can be VS but not CS. But if a schedule is CS, then it is VS. So start checking from CS.
@@ -380,7 +378,6 @@ checking both conflict and view serializability as there is no information on op
 > [Databases: GATE CSE 2012 | Question: 27](https://gateoverflow.in/1612/gate-cse-2012-question-27)
 
 ![[DBMS PYQs-20241019234950757.webp]]
-
 
 
 
@@ -424,6 +421,23 @@ Do not assume wait-die or wound-wait protocol, without reading the question.
 
 ![[DBMS PYQs-20241022125940789.webp]]
 
+
+
+> [!question] 
+> [Databases: GATE IT 2005 | Question: 67](https://gateoverflow.in/3830/gate-it-2005-question-67)
+
+![[DBMS PYQs-20241110231733292.webp]]
+![[DBMS PYQs-20241110231741269.webp]]
+![[DBMS PYQs-20241110231751948.webp]]
+
+On updation of data, some salesmen may get benefits twice on consequent execution of transactions in ascending order.
+
+
+
+> [!question] 
+> [Databases: GATE CSE 2017 Set 2 | Question: 44](https://gateoverflow.in/118640/gate-cse-2017-set-2-question-44)
+
+![[DBMS PYQs-20241111001223283.webp]]
 
 
 
