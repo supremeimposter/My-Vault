@@ -39,7 +39,7 @@ $$
 
 ---
 
-[[Number Theory]]
+[[GATE/Fundamentals of Computer Science/Number Theory]]
 [[Inequalities]]
 
 ---

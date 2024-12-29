@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "df7f94ce3ab6c62b",
+        "id": "f5b89db6f1e09b3f",
         "type": "tabs",
         "children": [
           {
-            "id": "76a07e4786a7142a",
+            "id": "53710b1e89564e59",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -25,7 +25,7 @@
             }
           },
           {
-            "id": "087404d24fd53302",
+            "id": "2066b3fa9c6e9c03",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -40,18 +40,18 @@
             }
           },
           {
-            "id": "980f53b56852e310",
+            "id": "1687853b04c682ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Pyqs/Combinatronics PYQs.md",
+                "file": "GATE/Pyqs/Logic PYQs.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Combinatronics PYQs"
+              "title": "Logic PYQs"
             }
           }
         ],
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/Fundamentals of Computer Science/Number Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Guidelines to GATE-CS"
+              "title": "Backlinks for Number Theory"
             }
           },
           {
@@ -157,12 +157,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/Fundamentals of Computer Science/Number Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Guidelines to GATE-CS"
+              "title": "Outgoing links from Number Theory"
             }
           },
           {
@@ -215,7 +215,7 @@
             }
           },
           {
-            "id": "64e722562ef2ff69",
+            "id": "92acdc507560220c",
             "type": "leaf",
             "state": {
               "type": "journal-calendar",
@@ -264,44 +264,46 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "087404d24fd53302",
+  "active": "2066b3fa9c6e9c03",
   "lastOpenFiles": [
-    "attachments/Guidelines to GATE-CS-20241127094912144.webp",
-    "GATE/Pyqs/Combinatronics PYQs.md",
-    "attachments/Combinatronics PYQs-20241121133906304.webp",
-    "GATE/Guidelines to GATE-CS.md",
-    "attachments/Combinatronics PYQs-20241119155726361.webp",
-    "GATE/GATE-CS.md",
-    "attachments/Combinatronics PYQs-20241118222304356.webp",
+    "attachments/Guidelines to GATE-CS-20241228192301789.webp",
     "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "GATE/Guidelines to GATE-CS.md",
+    "attachments/Guidelines to GATE-CS-20241224184210675.webp",
+    "attachments/Guidelines to GATE-CS-20241224181509098.webp",
+    "attachments/Guidelines to GATE-CS-20241224134532205.webp",
+    "attachments/Guidelines to GATE-CS-20241224134313552.webp",
+    "attachments/Guidelines to GATE-CS-20241223223623784.webp",
+    "attachments/Guidelines to GATE-CS-20241220162654821.webp",
+    "attachments/Guidelines to GATE-CS-20241220153629493.webp",
+    "attachments/Guidelines to GATE-CS-20241220140229849.webp",
+    "attachments/Guidelines to GATE-CS-20241220135301150.webp",
+    "attachments/Guidelines to GATE-CS-20241220135244344.webp",
+    "GATE/Pyqs/Logic PYQs.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+    "GATE/DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
+    "GATE/DiscreteMathematics/Propositional-Logic/AND (Conjunction).md",
+    "GATE/Fundamentals of Computer Science/Number Theory.md",
+    "Competitive-Programming/Number Theory/GCD and LCM.md",
+    "Competitive-Programming/Number Theory/Number Theory.md",
+    "Competitive-Programming/Competitive Programming.md",
+    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
+    "GATE/Pyqs/COA PYQs.md",
+    "Vault Index.md",
+    "Competitive-Programming/Number Theory",
+    "GATE/Pyqs/Combinatronics PYQs.md",
+    "Competitive-Programming/Project Euler/Project Euler.md",
+    "Competitive-Programming/Project Euler/Problem 1.md",
+    "Competitive-Programming",
+    "GATE/GATE-CS.md",
     "GATE/Pyqs/OS PYQs.md",
-    "attachments/OS PYQs-20241116194121192.webp",
-    "attachments/OS PYQs-20241116192211043.webp",
-    "attachments/OS PYQs-20241116185121943.webp",
-    "attachments/OS PYQs-20241116093633699.webp",
     "GATE/OperatingSystems/Operating Systems.md",
-    "attachments/OS PYQs-20241115145645219.webp",
-    "attachments/OS PYQs-20241115145635725.webp",
-    "attachments/OS PYQs-20241115145619696.webp",
     "GATE/OperatingSystems/Process in Operating Systems.md",
     "GATE/OperatingSystems/Synchronization in OS.md",
     "GATE/Pyqs/DBMS PYQs.md",
     "GATE/DatabaseManagementSystem/Database Management System.md",
     "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md",
     "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
-    "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
-    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Addressing Modes.md",
-    "GATE/Pyqs/COA PYQs.md",
-    "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md",
-    "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md",
-    "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
     "GATE/Mind-maps/Concurrency-Control-Protocols.canvas",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
     "GATE/Mind-maps",
@@ -314,8 +316,6 @@
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Algorithms/Dynamic-Programming",
     "GATE/Algorithms/Graph Algorithms",
-    "GATE/Algorithms/Sorts",
-    "GATE/Calculus",
     "SR Latch.canvas",
     "Untitled.canvas"
   ]

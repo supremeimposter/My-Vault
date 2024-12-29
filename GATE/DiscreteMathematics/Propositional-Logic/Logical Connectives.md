@@ -11,6 +11,7 @@
 8. [[NOR]]
 
 ## Priority of Logical Connectives
+
 > $\sim$ < $\wedge$ < $\vee$ < $\rightarrow$ < $\leftrightarrow$ 
 
 - For remaining connectives, proper paranthesization must be given in the question.

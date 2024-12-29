@@ -115,6 +115,40 @@ Analysis helps solve this question quicker.
 ![[Logic PYQs-20240927203940606.webp]]
 
 
+> [!question] 
+> [Mathematical Logic: GO Classes CS 2025 | Weekly Quiz 1 | Propositional Logic | Question: 14](https://gateoverflow.in/373297/go-classes-cs-2025-weekly-quiz-1-propositional-logic-question-14)
+
+![[Logic PYQs-20241217131136814.webp]]
+
+
+> [!question] 
+> [Mathematical Logic: TIFR CSE 2019 | Part B | Question: 4](https://gateoverflow.in/280491/tifr-cse-2019-part-b-question-4)
+
+![[Logic PYQs-20241219225301948.webp]]
+
+
+> [!question] 
+> [Mathematical Logic: GO Classes CS 2025 | Weekly Quiz 2 | Propositional Logic | Question: 12](https://gateoverflow.in/400767/go-classes-cs-2025-weekly-quiz-2-propositional-logic-question-12)
+
+![[Logic PYQs-20241220114419795.webp]]
+
+counting only the different unique propositional formulae over 4 variables. Similar to different types of [[Boolean Function#Different number of Boolean Functions over $n$ variables|boolean functions]].
+
+
+> [!question] 
+> [Mathematical Logic: GO Classes CS 2025 | Weekly Quiz 2 | Propositional Logic | Question: 14](https://gateoverflow.in/400765/go-classes-cs-2025-weekly-quiz-2-propositional-logic-question-14)
+
+![[Logic PYQs-20241220125744835.webp]]
+
+
+
+> [!question] 
+> [Mathematical Logic: TIFR CSE 2010 | Part A | Question: 4](https://gateoverflow.in/18212/tifr-cse-2010-part-a-question-4)
+
+![[Logic PYQs-20241220134956611.webp]]
+
+
+
 
 # First Order Logic PYQs
 

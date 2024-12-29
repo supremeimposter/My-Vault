@@ -1,7 +1,8 @@
 
 - [[GATE-CS]]
-- [[Project Euler]]
+
 - [[Machine Learning]]
 
+- [[Competitive Programming]]
 
 - [[Life Lessons by Deepak Poonia]]

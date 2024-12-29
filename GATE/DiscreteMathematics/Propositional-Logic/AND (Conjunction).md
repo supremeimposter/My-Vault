@@ -1,9 +1,11 @@
 
 ![[Pasted image 20230908140740.png]]
+
 - Both propositions has to be true, for the compound proposition to be true.
 - It is a binary connective.
 - Conjunction is commutative.
 ## Symbols
+
 ![[Pasted image 20230908141502.png]]
 
 
@@ -29,7 +31,8 @@
 	11. although
 	12. but
 	13. still
-	14. comma (,)
+	14. as well as
+	15. comma (,)
 	But all of these words are not the same in the English language
 
 $$

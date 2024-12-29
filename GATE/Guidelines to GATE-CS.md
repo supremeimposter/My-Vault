@@ -10,6 +10,8 @@ tags:
 - [ ] Do not sleep in day-time.
 
 
+- Not all the information given is useful. Read the question carefully.
+- Look carefully at the question if they are asking for the true ones or false ones.
 
 ## Guidelines to Programming with C
 
@@ -246,6 +248,8 @@ $$
 
 ## Guidelines to COA
 
+- If a particular instruction is not possible in a processor (machine), then a program can be written as a sequence of primitive instructions from the instruction set that the processor can perform i.e. multiplication written as a series of addition.
+
 - When there is no information on whether the memory is word or byte-addressable, byte-addressable is considered, eventhough if there is an information on word length.
 - A memory is word-addressable, only if the word, "word-addressable" is mentioned.
 
@@ -345,14 +349,25 @@ $$
 
 ### Guidelines to Propositional Logic
 
+- Implication is property and bi-implication is definition.
+
+![[Guidelines to GATE-CS-20241214173210880.webp]]
+
 - T and F are constant propositional expressions or propositional formulae.
+
+![[Guidelines to GATE-CS-20241214181910091.webp]]
+
 - Every atomic proposition is a compound proposition, but not every compound proposition is an atomic proposition.
 
+![[Guidelines to GATE-CS-20241215111853760.webp]]
+
 - $\leftrightarrow$ is bi-implication and $\Leftrightarrow$ is logical equivalence.
+- $\alpha \Leftrightarrow \beta \equiv (\alpha \rightarrow \beta) \land (\beta \rightarrow \alpha)$
+- If two expressions are equivalent then $\alpha \rightarrow \beta$ is a tautology and $\beta \rightarrow \alpha$ is a tautology.
 
 ![[Guidelines to GATE-CS-20240927182739123.webp]]
 
-- Do not confuse with solving by-case method. Just take one of the propositional variables and see what happens to the both the expressions for the variables' truth values.
+- Do not confuse with solving by-case method in logical equivalence. Just take one of the propositional variables and see what happens to the both the expressions for the variables' truth values.
 
 ![[Guidelines to GATE-CS-20240920225711275.webp]]
 
@@ -365,6 +380,8 @@ $$
 
 - unless = if not 
 - unless splits a compound proposition.
+
+![[Guidelines to GATE-CS-20241216220734994.webp]]
 
 - For checking the validity of an argument and consistency of a set of proportions is the same, except for validity of argument has the additional step  that the conclusion has been made to be false.
 - To put it simply, $A_{1}, A_{2}, \cdots, A_{n} \to C$, in this $T \to F$ should not occur.
@@ -384,15 +401,21 @@ $$
 
 - When asked to prove a logical equivalence, just go for by-case method. Its simple.
 
+- If the premises are contradictory (always evaluate to false), anything can be a conclusion.
+
+![[Guidelines to GATE-CS-20241220135301150.webp]]
+![[Guidelines to GATE-CS-20241220140229849.webp]]
+
 
 ### Guidelines to First Order Logic
 
+![[Guidelines to GATE-CS-20241217202525003.webp]]
+
 - Domain in FOL is always non-empty, unless explicitly stated otherwise. Domain can be finite or infinite.
+- In an FOL expression, all the variables have the same domain, unless explicitly stated otherwise.
+
 - The elements of domain are also called as constant or object.
-- If the domain of different variables in a predicate is not mentioned, then by default it is considered that those variables have the same domain.
-- Predicates are also called as propositional functions, because they take values as inputs and produce propositions.
 - Quantifiers cannot affect any propositions i.e. predicates with no predicate variables.
-- When a predicate is quantified and all the variables are bounded, it becomes a proposition.
 - The name of the free variable should not be changed, but the name of the bounded variable can be changed to avoid confusion.
 
 ![[Guidelines to GATE-CS-20240928122013459.webp|Precedence of operators]]
@@ -402,7 +425,10 @@ $$
 - some $p$ is $q$ $\equiv$ $\exists x\: (\,p(x) \land q(x)\,)$
 - all $p$ are $q$ $\equiv$ $\forall x\: (\,p(x) \rightarrow q(x)\,)$
 
-- Existential quantifier just needs one witness (one true case) to make it true. Thats it.
+![[Guidelines to GATE-CS-20241224134532205.webp]]
+
+![[Guidelines to GATE-CS-20241220162654821.webp]]
+
 
 ![[Guidelines to GATE-CS-20240924232034926.webp]]
 
@@ -421,14 +447,22 @@ flexGrow=1
 
 - A bounded variable cannot be replaced by any value from the domain. A bounded variable is just a placeholder.
 
-![[Guidelines to GATE-CS-20240925101959834.webp]]
-![[Guidelines to GATE-CS-20240925102200404.webp]]
+- Order of quantifiers does NOT matter if all the quantifiers are same.
 
-![[Guidelines to GATE-CS-20240927073742192.webp]]
-![[Guidelines to GATE-CS-20240925113138801.webp]]
+![[Guidelines to GATE-CS-20241223223623784.webp]]
 
-- Bounded variable = quantified variable
-- free variable = non-quantified variable
+![[Guidelines to GATE-CS-20241224181509098.webp]]
+
+![[Guidelines to GATE-CS-20241224184210675.webp]]
+
+- For satisfiability of FOL expression, see if it can be made true, or else it is NOT satisfiable.
+- For validity of FOL expression, see if it can be made false, or else it is valid.
+
+- For logical equivalence of FOL expressions, check validity for both implications. 
+- $\alpha \equiv \beta$ iff $(\alpha \rightarrow \beta)$ is valid and $(\beta \rightarrow \alpha)$ is valid.
+
+![[Guidelines to GATE-CS-20241228192301789.webp|Distributive property of quantifiers]]
+
 
 
 ### Guidelines to Set Theory
@@ -488,6 +522,7 @@ flexGrow=1
 
 ### Guidelines to Combinatronics
 
+- By default, repetition is allowed in numbers and strings.
 - Take care of the extreme conditions first in arrangement.
 - permutation decreases with repeated elements.
 - Order does not matter for cards in hand. Just select some $r$ cards out of 52 cards, don't permute them in hand.
@@ -497,7 +532,8 @@ flexGrow=1
 
 ![[Guidelines to GATE-CS-20241127094912144.webp]]
 
-
+- In functions, elements of domain are considered as objects and elements of co-domain are considered as boxes, since domain elements are mapped to co-domain elements.
+- Number of relations between two sets $A$ and $B$ is $2^{|A| . |B|}$ (refer lec-05-08A.pdf pg. no. 97)
 
 
 ---
@@ -523,4 +559,9 @@ flexGrow=1
 
 - Do not forget the transitions of the dead state and the final state when drawing the diagrams.
 - For a machine, it only accepts certain strings that are part of its language. So don't confuse it with going to $L^\ast$ or $L^+$.
+
+
+## Guidelines to Calculus
+
+
 
