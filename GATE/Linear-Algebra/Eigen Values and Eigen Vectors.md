@@ -214,7 +214,7 @@ For a matrix $A$ of order $n$, if all of the eigen values are non-zero, then $\d
 
 For a matrix $A$ or order $n$, if any of the eigen values is $0$, then $\det(A) = 0$ i.e. $A$ is singluar, then $\text{rank}(A) \lt n$
 
-```mehrmaid
+```mermaid
 flowchart TD
 	A["If any of the λ = 0"] -- Yes --> B["Rank (A) < n"]
 	A -- No --> C["Rank (A) = n"]

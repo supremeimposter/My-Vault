@@ -115,7 +115,7 @@ $$
 $$
 - Based on *register used*, there are three types of displacement based addressing modes.
 
-```merm
+```mermaid
 flowchart TD
 A[Displacement-based Addressing Mode] --> B[Relative Addressing Mode]
 A --> C[Indexed Addressing Mode]

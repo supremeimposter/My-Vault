@@ -158,3 +158,46 @@ counting only the different unique propositional formulae over 4 variables. Simi
 ![[Logic PYQs-20240927093641673.webp]]
 
 
+
+> [!question] 
+> [Mathematical Logic: GATE CSE 2020 | Question: 39](https://gateoverflow.in/333192/gate-cse-2020-question-39)
+
+![[Logic PYQs-20241229212751710.webp]]
+
+
+
+the statement "without any free occurence of x" says it is null quantification.
+
+![[Logic PYQs-20241229212718143.webp]]
+
+
+
+> [!question] 
+> [Mathematical Logic: GATE CSE 2004 | Question: 23, ISRO2007-32](https://gateoverflow.in/1020/gate-cse-2004-question-23-isro2007-32)
+
+![[Logic PYQs-20241230223226105.webp]]
+
+
+> [!question] 
+> [Mathematical Logic: GATE CSE 2006 | Question: 26](https://gateoverflow.in/989/gate-cse-2006-question-26)
+
+![[Logic PYQs-20241231075635771.webp]]
+
+
+> [!question] 
+> [Mathematical Logic: GATE CSE 2008 | Question: 30](https://gateoverflow.in/441/gate-cse-2008-question-30)
+
+![[Logic PYQs-20241231083847831.webp]]
+
+
+> [!question] 
+> [Mathematical Logic: GATE CSE 2009 | Question: 23](https://gateoverflow.in/800/gate-cse-2009-question-23?show=404819#c404819)
+
+![[Logic PYQs-20241231100941477.webp]]
+
+
+![[Logic PYQs-20241231101012979.webp]]
+
+![[Logic PYQs-20241231101131900.webp]]
+
+

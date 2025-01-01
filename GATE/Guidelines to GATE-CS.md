@@ -12,6 +12,7 @@ tags:
 
 - Not all the information given is useful. Read the question carefully.
 - Look carefully at the question if they are asking for the true ones or false ones.
+- Do tick any option, if all the options are wrong for a question.
 
 ## Guidelines to Programming with C
 
@@ -383,8 +384,11 @@ $$
 
 ![[Guidelines to GATE-CS-20241216220734994.webp]]
 
-- For checking the validity of an argument and consistency of a set of proportions is the same, except for validity of argument has the additional step  that the conclusion has been made to be false.
+- For checking the validity of an argument, 
+	- when premises are true, then conclusion have to be true.
+	- when conclusion is false, then premises have to be false.
 - To put it simply, $A_{1}, A_{2}, \cdots, A_{n} \to C$, in this $T \to F$ should not occur.
+- For checking if a set of premises are consistent, then try to make it true at least once.
 
 - If some propositional expression has been given, it has either of the two truth values. Look at an expression in an proposition point of view.
 - In case of implications in a verification of tautology for a propositional expression, validity of argument method can be used.
@@ -425,7 +429,7 @@ $$
 - some $p$ is $q$ $\equiv$ $\exists x\: (\,p(x) \land q(x)\,)$
 - all $p$ are $q$ $\equiv$ $\forall x\: (\,p(x) \rightarrow q(x)\,)$
 
-![[Guidelines to GATE-CS-20241224134532205.webp]]
+![[Guidelines to GATE-CS-20241231082647845.webp]]
 
 ![[Guidelines to GATE-CS-20241220162654821.webp]]
 
@@ -463,27 +467,43 @@ flexGrow=1
 
 ![[Guidelines to GATE-CS-20241228192301789.webp|Distributive property of quantifiers]]
 
+- wff (well-framed (propositional) formula) is a proposition which has no free variables.
+
+![[Guidelines to GATE-CS-20241230182726949.webp]]
 
 
 ### Guidelines to Set Theory
 
 - Membership operator is only used for a member of a set, and not for the subset of the set.
+- Subset relationship is transitive.
 - Infinity $\infty$ is never a member of any set. Its not even a number
 - While building a set, do not forget the negative portion.
 - The resultant of the operations on a set is again a set.
+
+![[Guidelines to GATE-CS-20250101103944450.webp]]
+
+![[Guidelines to GATE-CS-20250101104028129.webp]]
+
 - Dont shade the sets, instead use numbers to represent each area in the venn diagram.
 
 ![[Guidelines to GATE-CS-20240830180026648.webp]]
 
 - Mostly use venn diagrams to avoid confusion and time for proofs.
+
 - Since identities are equalities, in case of doubt a venn-diagram can be helpful.
-- Venn diagrams are not helpful in powerset related identities. Only formal proof techniques are helpful. 
+
+![[Guidelines to GATE-CS-20250101142718041.webp]]
+
+- Venn diagrams are not helpful in powerset related identities. Only formal proof techniques are helpful.
+
+![[Guidelines to GATE-CS-20250101161246660.webp]]
+
 - Also make use of cardinality of powersets in case equality proofs involving powersets to check the answers solved using formal proof techniques.
 
 - The complement of a set depends on its universal set. Keep that in mind.
-- universal set is similar to True and empty set is similar to false in propositional logic.
+- Universal set is similar to True and Empty set is similar to False in propositional logic.
 
-- Take a simple set to work on subsets and powersets to avoid confusion and also confirm the results using a non-simple set such as $S = \{ \phi \}$
+- Take a simple set to work on subsets and powersets to avoid confusion and also confirm the results using a non-simple set such as $S = \{ \phi \}$ 
 
 ![[Guidelines to GATE-CS-20240831160352865.webp]]
 

@@ -14,10 +14,10 @@ tags:
 
 - LA is a tool to work with matrices which help the machines in understanding the data.
 
-```merm
+```mermaid
 flowchart LR
-A[Text\nDigital Data\nImage etc...] --> B[Matrices]
-B --> C[Processed by\nMachines]
+A[Text, Digital Data, Image etc...] --> B[Matrices]
+B --> C[Processed by Machines]
 ```
 
 - Scalar – a number with magnitude 

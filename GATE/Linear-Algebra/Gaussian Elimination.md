@@ -13,7 +13,7 @@ tags:
 # Gaussian Elimination
 Gaussian Elimination (or Row Reduction) is an algorithm for solving system of linear equations.
 
-```merm
+```mermaid
 flowchart LR
 	A[Matrix] -- Gaussian Elimination --> B[Echelon Form of Matrix] 
 ```
@@ -107,7 +107,7 @@ $$
 \text{Total Number of columns} = \text{No of Pivot columns} + \text{No of free columns}
 $$
 
-```merm
+```mermaid
 flowchart TD
 A[n columns in A] --> B[Rank r]
 A --> C[Nullity n - r]

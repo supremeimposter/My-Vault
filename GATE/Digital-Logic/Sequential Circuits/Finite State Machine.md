@@ -21,7 +21,7 @@ tags:
 
 - In a sequential circuit with $k$ flip flops, there are $2^k$ possible states. So any sequential circuit has finite number of possible states and hence a sequential circuit is a finite state machine.
 
-```merm
+```mermaid
 flowchart TD
 A[Finite State Machine] --> B[Finite\nAutomata]
 B --> G[DFA]

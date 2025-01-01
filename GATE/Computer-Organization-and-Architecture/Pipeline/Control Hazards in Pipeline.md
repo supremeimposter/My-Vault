@@ -40,7 +40,7 @@ If the prediction fails, then flush the fetched instruction (create $k-1$ stalls
 
 Condition checking will be done by the ALU, since it has all the arithmetic and logical operations.
 
-```merm
+```mermaid
 flowchart TD
 A[Static Branch Prediction] -->B[predict not taken]
 A --> C[predict taken]

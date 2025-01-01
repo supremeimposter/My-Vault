@@ -25,7 +25,7 @@ Data dependency is held between different instructions, and not held between reg
 
 If there is a data dependency between two instructions, then they can never be re-ordered.
 
-```merm
+```mermaid
 flowchart TD
 A[Data Dependency] --> B[True Dependency]
 A --> C[False/Name Dependency]
@@ -142,7 +142,7 @@ In a MIPS pipeline, a RAW dependency between two instructions where there are at
 
 To obtain the correct execution of pipeline, we need to handle hazards.
 
-```merm
+```mermaid
 flowchart
 A[Handle Data hazards] --> B[Stall]
 A --> C[Forwarding]

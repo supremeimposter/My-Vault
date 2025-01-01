@@ -48,7 +48,7 @@ Based on how data is moving within or between registers, registers are classifie
 
 ![[Registers-20240702205621061.webp|Basic data movement in 4 bit registers]]
 
-```merm
+```mermaid
 flowchart TD
 A[Types of Register] --> B[Parallel-In\nParallel-Out]
 A --> C[Shift Register]

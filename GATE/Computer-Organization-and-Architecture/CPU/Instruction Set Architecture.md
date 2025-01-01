@@ -115,7 +115,7 @@ Register Set ISA is also called as General Purpose Register (GPR) ISA. It is the
 
 Depending on whether the operands are present in register or memory, Register set ISA is classified into,
 
-```merm
+```mermaid
 flowchart TD
 	A[Register Set ISA] --> B[Register-Memory ISA]
 	A --> C[Memory-Memory ISA]

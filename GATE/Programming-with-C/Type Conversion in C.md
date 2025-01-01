@@ -12,7 +12,7 @@ tags:
 ---
 # Type Conversion in C
 
-```merm
+```mermaid
 flowchart BT
 	A[short] --> C[int]
 	B[char] --> C

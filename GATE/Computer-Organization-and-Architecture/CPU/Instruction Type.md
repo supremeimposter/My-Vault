@@ -15,7 +15,7 @@ tags:
 
 Most computer instructions can be classified into 3 categories.
 
-```merm
+```mermaid
 graph TD
 A[Instruction Type] --> B[Data Transfer Instructions]
 A --> C[Data Maniputation Instructions]
@@ -52,7 +52,7 @@ Data manipulation instructions perform operations on data and provide the comput
 
 There are 3 types of data manipulation instructions,
 
-```merm
+```mermaid
 flowchart TD
 A[Data Manipulation \nInstructions] --> B[Arithmetic Instructions]
 A --> C[Logical and Bit \nManipulation Instructions]
@@ -110,7 +110,7 @@ Compare instruction internally invokes subtraction but the contents of operands 
 
 ### Shift Instructions
 
-```merm
+```mermaid
 flowchart TD
 A[Shift Operations] --> B[Logical Shift]
 A --> C[Arithmetic Shift]
@@ -206,7 +206,7 @@ Transfer of control instructions are also called as **program control** instruct
 
 Transfer of Control : Update the [[Registers and Status Flags in CPU#Program Counter PC|program counter]] to execute instructions sequentially or branch.
 
-```merm
+```mermaid
 flowchart TD
 A[Jump/Branch Instructions] --> B[Unconditional\nJump/Branch Instructions]
 A --> C[Conditional\nJump/Branch Instructions]

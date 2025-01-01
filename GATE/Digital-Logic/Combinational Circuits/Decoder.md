@@ -26,7 +26,7 @@ tags:
 | For input $0011$, $x = 1$                                | For input $0011$, $x = 0$                                |
 | For every other input combination, $x = 0$               | For every other input combination, $x = 1$               |
 
-```merm
+```mermaid
 flowchart TD
 A[Decoder] --> B[Active High Decoder-AND Decoder]
 A --> C[Active Low Decoder-NAND Decoder]

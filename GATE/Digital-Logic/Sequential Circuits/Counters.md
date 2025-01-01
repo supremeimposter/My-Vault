@@ -13,7 +13,7 @@ tags:
 # Counters
 - A counter is a [[Registers|register]] that goes through a predetermined sequence of binary states upon the application of input pulses.
 
-```merm
+```mermaid
 flowchart TD
 A[Counters] --> B[Synchronous\nCounters]
 A --> C[Asynchronous\nCounters]

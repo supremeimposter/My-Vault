@@ -79,7 +79,7 @@ $$
 
 - In sequential circuits, **synchronous** means state changes are in sync with clock and **asynchronous** means state changes are not in sync with clock.
 
-```merm
+```mermaid
 flowchart TD
 A[Sequential Circuits] --> B[Synchronous]
 A --> C[Asynchronous]

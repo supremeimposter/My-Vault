@@ -9,26 +9,12 @@ $$
 z\lt y \lt x
 $$
 
-```mehrmaid
-flowchart TD
-A --> B
-A --> C
-A --> D
+Types of inequalities
+1. strong inequalities : $a \lt b$
+2. weak inequalities : $a \le b$
+3. double inequalities : $a \le x \lt b$
 
-A["Inequalities"]
-B("Strong Inequalities
 
----
-$a \lt b$")
-C["Weak Inequalities
-
----
-$a \le b$"]
-D["Double Inequalities
-
----
-$a \le x \lt b$"]
-```
 ## Properties of Inequalities
 ### Transitive Property
 - If $x \lt y$ and $y \lt z$, then $x \lt z$
