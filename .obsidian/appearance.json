@@ -1,15 +1,12 @@
 {
   "accentColor": "#3aa0ee",
   "enabledCssSnippets": [
-    "custom-callout",
-    "custom-admonitions.971f1e",
     "supercharged-links-gen",
     "callout-theorem",
     "timeline-callout",
-    "anuppiccin-extended-color-schemes",
     "anuppiccin-floating-search-bar"
   ],
-  "cssTheme": "Dynamic Color",
+  "cssTheme": "Ink",
   "theme": "moonstone",
   "showViewHeader": true,
   "baseFontSize": 18,

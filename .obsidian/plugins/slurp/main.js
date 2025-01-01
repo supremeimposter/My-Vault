@@ -10997,7 +10997,7 @@ if (typeof HTMLElement === "function") {
     disconnectedCallback() {
       this.$$cn = false;
       Promise.resolve().then(() => {
-        if (!this.$$cn) {
+        if (!this.$$cn && this.$$c) {
           this.$$c.$destroy();
           this.$$c = void 0;
         }

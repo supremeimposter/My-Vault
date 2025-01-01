@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Number Theory",
-      "path": "GATE/Fundamentals of Computer Science/Number Theory.md"
-    },
-    {
       "basename": "Guidelines to GATE-CS",
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
+      "basename": "Set Theory PYQs",
+      "path": "GATE/Pyqs/Set Theory PYQs.md"
+    },
+    {
       "basename": "Discrete Mathematics",
       "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Number Theory",
+      "path": "GATE/Fundamentals of Computer Science/Number Theory.md"
     },
     {
       "basename": "OS PYQs",
@@ -139,10 +143,6 @@
     {
       "basename": "Logic PYQs",
       "path": "GATE/Pyqs/Logic PYQs.md"
-    },
-    {
-      "basename": "Set Theory PYQs",
-      "path": "GATE/Pyqs/Set Theory PYQs.md"
     },
     {
       "basename": "Logical Equivalence",

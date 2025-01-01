@@ -480,7 +480,7 @@
   "things-style@@active-line": false,
   "things-style@@h2-underline": false,
   "things-style@@h4-transform": "none",
-  "underwater-theme@@underwater-colors-light": "rose-pine-dawn",
+  "underwater-theme@@underwater-colors-light": "gruvbox-light",
   "underwater-theme@@vault-icon": "vault-book",
   "underwater-theme@@no-h5": true,
   "underwater-theme@@callout": "callout-solid",
@@ -497,5 +497,18 @@
   "fancy-a-story@@fas-alternative-checkboxes": "doodle",
   "underwater-theme@@kanban": "normal",
   "underwater-theme@@no-calendar": false,
-  "underwater-theme@@no-widgets": false
+  "underwater-theme@@no-widgets": false,
+  "glass-theme-settings@@lorens_headers_settings": false,
+  "cupertino@@alt-heading-off": true,
+  "cupertino@@compact-mode": true,
+  "cupertino@@windows-mode-off": true,
+  "cupertino@@alt-font-off": false,
+  "cupertino@@hide-nav-header-off": true,
+  "cupertino@@center-status-off": false,
+  "cupertino@@center-tabs-off": false,
+  "underwater-theme@@no-button": true,
+  "underwater-theme@@visible-properties": true,
+  "underwater-theme@@no-scrollbar": false,
+  "underwater-theme@@no-justify": true,
+  "underwater-theme@@workspace-bg": false
 }
