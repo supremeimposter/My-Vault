@@ -490,6 +490,17 @@
       "injectColor": true,
       "noTitle": false,
       "copy": false
+    },
+    "answer": {
+      "type": "answer",
+      "color": "222, 202, 74",
+      "icon": {
+        "name": "lightbulb",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,

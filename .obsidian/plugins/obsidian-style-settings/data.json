@@ -480,7 +480,7 @@
   "things-style@@active-line": false,
   "things-style@@h2-underline": false,
   "things-style@@h4-transform": "none",
-  "underwater-theme@@underwater-colors-light": "gruvbox-light",
+  "underwater-theme@@underwater-colors-light": "uw-oyster",
   "underwater-theme@@vault-icon": "vault-book",
   "underwater-theme@@no-h5": true,
   "underwater-theme@@callout": "callout-solid",

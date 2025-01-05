@@ -4,7 +4,8 @@
     "supercharged-links-gen",
     "callout-theorem",
     "timeline-callout",
-    "anuppiccin-floating-search-bar"
+    "anuppiccin-floating-search-bar",
+    "custom-admonitions.971f1e"
   ],
   "cssTheme": "Ink",
   "theme": "moonstone",
