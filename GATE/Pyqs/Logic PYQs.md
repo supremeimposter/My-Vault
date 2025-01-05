@@ -201,3 +201,33 @@ the statement "without any free occurence of x" says it is null quantification.
 ![[Logic PYQs-20241231101131900.webp]]
 
 
+> [!question] 
+> [Mathematical Logic: GATE CSE 2019 | Question: 35](https://gateoverflow.in/302813/gate-cse-2019-question-35)
+
+![[Logic PYQs-20250101221755242.webp]]
+
+
+
+> [!question] 
+> [Mathematical Logic: GATE CSE 2013 | Question: 47](https://gateoverflow.in/80/gate-cse-2013-question-47)
+
+![[Logic PYQs-20250101224631774.webp]]
+
+
+> [!question] 
+> [Mathematical Logic: GATE IT 2008 | Question: 22](https://gateoverflow.in/3283/gate-it-2008-question-22)
+
+![[Logic PYQs-20250102115142609.webp]]
+comma means the scope
+$\forall x, \alpha \rightarrow (\exists y, \beta \rightarrow (\forall u, \exists v, y)) \equiv \forall x\,(\alpha \rightarrow \exists y \,(\beta \rightarrow (\forall u \,\exists v \,(y))))$
+
+
+> [!question] 
+> [Mathematical Logic: GATE CSE 2010 | Question: 30](https://gateoverflow.in/1156/gate-cse-2010-question-30)
+
+![[Logic PYQs-20250102121603149.webp]]
+
+very tricky options.
+
+Deepak poonia explanation : [Mathematical Logic: GATE CSE 2010 | Question: 30](https://gateoverflow.in/1156/gate-cse-2010-question-30?show=372968#c372968)
+

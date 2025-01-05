@@ -365,12 +365,19 @@ $$
 - $\leftrightarrow$ is bi-implication and $\Leftrightarrow$ is logical equivalence.
 - $\alpha \Leftrightarrow \beta \equiv (\alpha \rightarrow \beta) \land (\beta \rightarrow \alpha)$
 - If two expressions are equivalent then $\alpha \rightarrow \beta$ is a tautology and $\beta \rightarrow \alpha$ is a tautology.
+- If a propositional formula $\alpha$ has $k$ propositions in it, then there are $2^k$ rows in the truth table of $\alpha$.
+- Interpretation of a propositional formula is a row of its truth table i.e. a combination of truth values of proposition it contains.
 
 ![[Guidelines to GATE-CS-20240927182739123.webp]]
+
+![[Guidelines to GATE-CS-20250104215254609.webp]]
+![[Guidelines to GATE-CS-20250104221900706.webp]]
 
 - Do not confuse with solving by-case method in logical equivalence. Just take one of the propositional variables and see what happens to the both the expressions for the variables' truth values.
 
 ![[Guidelines to GATE-CS-20240920225711275.webp]]
+
+![[Guidelines to GATE-CS-20250104224952181.webp]]
 
 - Implication is not commutative and not associative.
 - $a \rightarrow b \rightarrow (b \rightarrow c)$ can be treated as either,
@@ -474,11 +481,15 @@ flexGrow=1
 
 ### Guidelines to Set Theory
 
+#### Guidelines to Sets
+
 - Membership operator is only used for a member of a set, and not for the subset of the set.
 - Subset relationship is transitive.
 - Infinity $\infty$ is never a member of any set. Its not even a number
 - While building a set, do not forget the negative portion.
 - The resultant of the operations on a set is again a set.
+
+![[Guidelines to GATE-CS-20250102202905217.webp|cardinality of power sets]]
 
 ![[Guidelines to GATE-CS-20250101103944450.webp]]
 
@@ -494,7 +505,7 @@ flexGrow=1
 
 ![[Guidelines to GATE-CS-20250101142718041.webp]]
 
-- Venn diagrams are not helpful in powerset related identities. Only formal proof techniques are helpful.
+- Venn diagrams are NOT helpful in powerset related identities. Only formal proof techniques are helpful.
 
 ![[Guidelines to GATE-CS-20250101161246660.webp]]
 
@@ -502,22 +513,46 @@ flexGrow=1
 
 - The complement of a set depends on its universal set. Keep that in mind.
 - Universal set is similar to True and Empty set is similar to False in propositional logic.
-
+- If two sets $A, B$ are disjoint iff $A \cap B = \phi$.
 - Take a simple set to work on subsets and powersets to avoid confusion and also confirm the results using a non-simple set such as $S = \{ \phi \}$ 
 
 ![[Guidelines to GATE-CS-20240831160352865.webp]]
 
-- To define relations on a set, it has to be non-empty. Base set has to be non-empty.
-- Relation is one way and it is just a set of tuples between set(s).
-- Be keen about the base set on which the relation is defined. The term base set is only when the relation is defined on the same set.
-- Relation on a set $A$ is one of the subsets of the set $A$.
-- Every relation on $A$ is a subset of $A$. Every subset of $A$ is a relation on $A$.
-- To define a subset or superset relation, the set must contain only sets instead of simple elements. For example, a powerset of a set, all of its members are sets themselves.
-- When it comes to the types of relation on a set, then violation occurs only when the FOL statement of the type of relation turns out to be false.
+- The size of each n-tuple depends on the number of sets in the cross product.
 
-![[Guidelines to GATE-CS-20240901210847397.webp]]
+![[Guidelines to GATE-CS-20250101194028085.webp]]
+![[Guidelines to GATE-CS-20250101215106538.webp]]
+
+- Cross product is neither commutative nor associative.
+
+#### Guidelines to Relations
+
+![[Guidelines to GATE-CS-20250102220513179.webp]]
+
+- To define relations on a set, it has to be non-empty. **Base set has to be non-empty**. Base set can be either finite or infinite but non-empty.
+- Relation is **one way statement** and it is just a set of tuples of elements between set(s).
+- Relation defined on a base set $A$ is a subset of the set $A \times A$ i.e. cross-product of the base set.
+$$
+R_{A} \subseteq A \times A
+$$
+- Be keen about the base set on which the relation is defined. The term *base set* is only when the relation is defined on the **same set**.
+- Every relation on $A$ is a subset of $A$. Every subset of $A$ is a relation on $A$.
+
+- Identity relation : every element is related to itself and nothing more.
+- Universal relation : every element is related to itself and every other element i.e. $A \times A$
+
+![[Guidelines to GATE-CS-20250102214544660.webp|Graph repr. of Relation on a set]]
+
+![[Guidelines to GATE-CS-20250103101202291.webp]]
+
+- To define a subset or superset relation, the set must contain only sets instead of simple elements. For example, a powerset of a set, all of its members are sets.
+
+![[Guidelines to GATE-CS-20250103153033495.webp]]
+![[Guidelines to GATE-CS-20250103170558086.webp]]
 
 - It is better to use graph representation for checking out transitive relation to avoid any imaginary errors.
+- If a relation is symmetric but not reflexive, then the relation is also not transitive.
+
 - For general questions on relations, also consider evaluating empty relations and universal relations.
 
 - Matrix representation of a relation is a good way to count the number of relations
@@ -526,13 +561,25 @@ flexGrow=1
 
 - A partition of a set is also a set and every member of a partition set is also a set.
 - Each equivalence relation on a base set corresponds to a unique partition of the base set and vice versa.
+- Within a equivalence class, every element is related to every other element.
+- Counting the number of partitions of a base (i.e. number of equivalence relations on a base set) is a tedious task. It won't be asked in GATE. 
 
-![[Guidelines to GATE-CS-20240902133833342.webp]]
+![[Guidelines to GATE-CS-20250105110212343.webp]]
 
 > set-theory/lec30-32.pdf Pg. No. 46
 
-- A partition on set $A$ is a sub collection (subset) of $\mathcal{P}(A)$
+> [!question] 
+> ![[Guidelines to GATE-CS-20250105130728504.webp]]
+> 
+>> [!answer]-
+>> ![[Guidelines to GATE-CS-20240902133833342.webp]]
+
+- The set of all equivalence classes of $A$ is a partition of the base set $A$.
+- Every partition of a set $A$ by a relation $R$ is a sub collection (subset) of $\mathcal{P}(A)$.
+- By definition of refinement of partition, every partition is a refinement of itself. Don't forget to count the given partition as one of the refinements.
 - Set of equivalence classes (partition) is a different set and the equivalent relation set is a different set.
+- "$\pi_{i}$ refines $\pi_{j}$" means "$\pi_{i}$ is a refiniment of $\pi_{j}$".
+- For two equivalence relations $R_{1}, R_{2}$ on set $A$, $R_{1}$ refines $R_{2}$ iff $R_{1} \subseteq R_{2}$ i.e. the partition $\pi_{1}$ corresponding to $R_{1}$ refines the partition $\pi_{2}$ corresponding to $R_{2}$.
 
 - To check for a POR, also check a set with cardinality 1.
 
@@ -580,6 +627,7 @@ flexGrow=1
 - Do not forget the transitions of the dead state and the final state when drawing the diagrams.
 - For a machine, it only accepts certain strings that are part of its language. So don't confuse it with going to $L^\ast$ or $L^+$.
 
+- For a regular language $L$, every DFA is a refinement of the minimal DFA for $L$.
 
 ## Guidelines to Calculus
 
