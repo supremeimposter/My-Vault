@@ -18,11 +18,13 @@ tags:
 
 ---
 ## Mathematical Logic
-- Logic for mathematicians and computers
-- Natural Languages have ambiguity, but computers cannot have ambiguity
-- Logic is the basis for mathematical reasoning and automated systems
+
+- Logic for mathematicians and computers.
+- Natural Languages are ambiguous, but computers should have ambiguity
+- Logic is the basis for mathematical reasoning and automated systems.
 
 ### Applications of Mathematical Logic
+
 1. Mathematical logic is to avoid ambiguity in statements and expressions in computers.
 2. To find new information from the existing knowledge.
 
@@ -126,7 +128,8 @@ flowchart LR
 ---
 ## Combinatronics
 
-- [[Combinatronics]]
+- [[Basic Counting Principles]]
+- [[Permutations and Combinations]]
 
 
 > [!youtube] [Recurrence Relations in Discrete Mathematics | Complete Playlist | Applications of Recurrence Relations | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhhTH0o1JBMgscMUvxs4E_4)

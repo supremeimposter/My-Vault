@@ -501,6 +501,17 @@
       "command": false,
       "injectColor": true,
       "noTitle": false
+    },
+    "scenario": {
+      "type": "scenario",
+      "color": "43, 244, 16",
+      "icon": {
+        "name": "film",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,

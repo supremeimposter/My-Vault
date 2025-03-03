@@ -30,6 +30,6 @@ Look for what cycle they are asking. Read the question carefully.
 
 
 > [!question] 
-> [Site Unreachable](https://gateoverflow.in/731/gate-cse-2001-question-2-13)
+> [CO and Architecture: GATE CSE 2001 | Question: 2.13](https://gateoverflow.in/731/gate-cse-2001-question-2-13)
 
 ![[COA PYQs-20241103163732289.webp]]

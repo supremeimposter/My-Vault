@@ -1,6 +1,10 @@
 - These logical connectives avoid the ambiguity that the natural languages pose.
 - When a logical connective is used, the propositions are not longer variables, they are propositional expression.
 
+> [!interesting] 
+> Logical connectives are used based on how two propositions are related.
+
+
 1. [[Negation]]
 2. [[AND (Conjunction)]]
 3. [[OR (Disjunction)]]

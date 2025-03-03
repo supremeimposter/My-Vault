@@ -9,10 +9,25 @@ tags:
 - [ ] Use mock tests to get used to the exam. Sit in a place for 3 hours and be at your heightened energy levels.
 - [ ] Do not sleep in day-time.
 
-
 - Not all the information given is useful. Read the question carefully.
 - Look carefully at the question if they are asking for the true ones or false ones.
 - Do tick any option, if all the options are wrong for a question.
+
+## Guidelines to Math
+
+
+> [!info] squaring and root
+> [algebra precalculus - Why can't you square both sides of an equation? - Mathematics Stack Exchange](https://math.stackexchange.com/questions/568780/why-cant-you-square-both-sides-of-an-equation)
+
+$$
+\begin{equation}
+\begin{split}
+x = y \rightarrow x^2 = y^2 \\
+x^2 = y^2 \not\rightarrow x = y \\
+x^2 = y^2 \rightarrow \mid x \mid = \mid y \mid
+\end{split}
+\end{equation}
+$$
 
 ## Guidelines to Programming with C
 
@@ -22,24 +37,42 @@ tags:
 ---
 ## Guidelines to Digital Logic
 
+- When converting from base 10 to any other base, you need to know the co-efficients of their powers.
+
+![[Guidelines to GATE-CS-20250223170629613.webp|What are those co-efficients?]]
+
 - Some questions on boolean algebra can be solved by evaluating the boolean expressions in the options.
-- If there is a doubt in a boolan equation or if you feel like you are confusing a known boolean law, just use by case method and verify.
-- Use by-case method to veify large boolean equations.
+- If there is a doubt in a boolean equation or if you feel like you are confusing a known boolean law, just use by case method and verify.
+- Use by-case method to verify large boolean equations.
 - Its easier to find the complement of a large boolean expression from its dual rather than applying de-morgans's law.
 $$
 \overline{f} (a, b, c, d) = f^d (\overline{a}, \overline{b}, \overline{c}, \overline{d})
 $$
-![[Guidelines to GATE-CS-20240619102714090.webp]]
+![[Guidelines to GATE-CS-20250227111645962.webp]]
+
+- Given that two boolean expressions are equaivalent, we can observe certain things from the equations from by-case method.
+
+![[Guidelines to GATE-CS-20250227122944795.webp]]
+
+- Cancellation laws do not hold in boolean algebra.
+
+- To count the different boolean functions possible over $n$ variables.
+
+![[Guidelines to GATE-CS-20250227153127858.webp]]
+
+![[Guidelines to GATE-CS-20250227162142750.webp]]
+
+![[Guidelines to GATE-CS-20250227153152261.webp]]
 
 - When truth table is given, it is easier to find dual of a boolean expression using the complement.
 
 ![[Boolean Function-20240527175758734.webp]]
 
+- When it comes to minterms and maxterms and k-maps, DO NOT CHANGE the order of the variables assumed initially.
 - Find Canonical SOP first and it will be easier to find Canonical POS i.e. $f = \sum m (f = 1) = \prod M (f = 0)$.
 - To visualize a function in a k-map, firstly convert the given expression to either standard or canonical SOP for better visualization.
 - See if there are any redundant larger cubes after identifying all the cubes in k-maps.
 - Look for the corner 1-cells and the folding 1-cells while creating cubes.
-
 
 - Do not try to remember subtraction of unsigned numbers using complements. Just apply the expansion technique and find the difference.
 - Sign-magnitude, 1's complement, 2's complement representation are only for signed binary numbers in digital systems. They are not operations here, they are number systems specific to signed binary numbers in digital systems. There is no 9s complement or 10s complement representation.
@@ -48,15 +81,12 @@ $$
 - Binary codes are any strings of 0s and 1s derived from a systematic calculation. Each element encoded has a distinct binary code.
 - Binary codes for decimal digits means binary codes for each digit of a number and not for the entire number.
 - Gray code is a binary code for the entire number and not for each digit.
-
-
 - Shannon's expansion theorem and compact truth table go hand in hand.
 - If you are stuck with MUX, just write the canonical SOP expression of the given function and try to write the compact truth table. It will give you more ideas.
 - In MUX, the functions at the input data lines have no influence on the MUX itself. The control inputs influence the MUX.
 - If a MUX is given and the options are to find the function realized by the MUX, just plug in the control input values and see what happens to each of the options. Use compact or standard truth table. Use k-map when a minimized expression is required.
 - If the working of a given boolean function can be mimiced using a digital circuit, then the function has been realized or implemented by the digital circuit.
 - A decoder can act as a DEMUX whereas a decoder can be used to implement MUX. 
-
 
 - If an unknown flip flop with combinational logic is given in the question, then apply inputs into find what kind of flip flop it is.
 
@@ -83,7 +113,6 @@ $$
 - There is always a lossless BCNF decomposition possible for a relation. It may not be possible to get any BCNF decomposition of some relation $R$ that is dependency preserving.
 - Check the closure of preserved FD by each individual relations to check for dependency preserving decomposition.
 - Deletion operation never violates any FD, so no FD checking is needed.
-
 
 - In the relational model queries (rel. algebra, rel.calculus), NULL does not occur in the table except for outer join.
 
@@ -159,8 +188,9 @@ $$
 
 - Do not confuse search keys from "keys" in relational model.
 
-- In B-trees, by default take record pointer for <key, record> pairs. If record pointer is not given, then consider block pointer.
+- In B-trees, by default take record pointer for *<key, record>* pairs. If record pointer is not given, then consider block pointer.
 - If there is only one node in the tree, then it is a leaf node.
+- Use combinatronics to keep track of the nodes.
 - Searching for the key and searching for the data record having the search key have different number of disk block accesses.
 - In case of doubt in analysis questions, just have some different key values and insert them into a B-tree and arrive at conclusions.
 - For B-tree questions, the order can be defined in different ways.
@@ -186,7 +216,7 @@ $$
 - For ensuring isolation property, don't read changes by uncommitted transactions.
 - Serializability ensures isolation property and consistency of a schedule and consistency of database (assuming that no failure occurs).
 
-- Transaction is analogous to processes in Operating systems.
+- Transactions are analogous to processes in Operating systems.
 - Scheduler component takes care of concurrency control.
 - Every serial schedule is also a concurrent schedule.
 - For serializability, commit operation is irrelevant.
@@ -199,7 +229,6 @@ $$
 - In case of conflict serializable equivalent schedules question, just identify the conflicting pairs and check whether those are swapped in the options to eliminate some.
 - Serializability graph = precedence graph
 - two schedules are not conflict equivalent if their precedence graphs are isomorphic.
-
 - For view serializability,
 	1. handle write
 	2. handle read
@@ -257,7 +286,7 @@ $$
 ![[Guidelines to GATE-CS-20241101163421493.webp]]
 
 - CPU does not care whether the memory is byte or word-addressable. If a CPU is a 32-bit processor (word length is 32 bits), then it processes 32 bits in one go.
-
+- 
 - k-bit addressing = k-bits are required to uniquely identity each address.
 - p-bit addressable = every p-bits has an address.
 
@@ -310,6 +339,7 @@ $$
 ![[Guidelines to GATE-CS-20241023153711796.webp]]
 ![[Guidelines to GATE-CS-20241023154337350.webp]]
 
+- Transparent context here - working without their knowledge.
 ![[Guidelines to GATE-CS-20241023165744711.webp]]
 
 - Any transaction between states is using a system call.
@@ -327,9 +357,8 @@ $$
 - the order of instructions (the order of operations in a process) cannot be scheduled differently. It has to be in the same order or else the computation is itself wrong.
 - I/O overlapping will be mentioned in the question (there are many io devices in a computer but only one cpu in a uniprocessor computer).
 
-- When a process is waiting for I/O, it is in waiting state, after I/O is over, it goes to the ready queue.
+- When a process is waiting for I/O, it is in waiting state, after I/O is over, it goes to the ready queue. It cannot quickly enter the running queue as other process might be running.
 - Like transactions, the order of execution of instruction in each of the process will never change.
-
 - Critical section problems questions are about checking whether the given code is satisfying the requirements or not, so check all the possible inputs for uninitialized shared variables.
 - Look for semicolon at the end of while loops in critical section problems. 
 - Initial setup of Bounded waiting is one process is in CS and one more process is in waiting area. Because this is essential to prove that the same process does not re-enter immediately while there are process waiting in the entry section. If there are no processes in the waiting area, then it can enter the CS.
@@ -350,28 +379,42 @@ $$
 
 ### Guidelines to Propositional Logic
 
+![[Guidelines to GATE-CS-20250209230032980.webp]]
+
+![[Guidelines to GATE-CS-20250209204339046.webp]]
+
 - Implication is property and bi-implication is definition.
 
 ![[Guidelines to GATE-CS-20241214173210880.webp]]
 
-- T and F are constant propositional expressions or propositional formulae.
+- T and F are constant propositional expressions or propositional formulae and also logical connectives.
 
 ![[Guidelines to GATE-CS-20241214181910091.webp]]
 
 - Every atomic proposition is a compound proposition, but not every compound proposition is an atomic proposition.
 
-![[Guidelines to GATE-CS-20241215111853760.webp]]
+![[Guidelines to GATE-CS-20241215111853760.webp|All operators are right-associative]]
+
+- $\alpha \leftrightarrow \beta \equiv (\alpha \rightarrow \beta) \land (\beta \rightarrow \alpha)$
+- If two expressions $\alpha, \beta$ are equivalent then $\alpha \rightarrow \beta$ is a tautology and $\beta \rightarrow \alpha$ is a tautology.
+- If a propositional formula $\alpha$ has $k$ propositions in it, then there are $2^k$ rows in the truth table of $\alpha$.
+- Interpretation of a propositional formula is a row of its truth table i.e. a combination of truth values of propositions it is composed of.
 
 - $\leftrightarrow$ is bi-implication and $\Leftrightarrow$ is logical equivalence.
-- $\alpha \Leftrightarrow \beta \equiv (\alpha \rightarrow \beta) \land (\beta \rightarrow \alpha)$
-- If two expressions are equivalent then $\alpha \rightarrow \beta$ is a tautology and $\beta \rightarrow \alpha$ is a tautology.
-- If a propositional formula $\alpha$ has $k$ propositions in it, then there are $2^k$ rows in the truth table of $\alpha$.
-- Interpretation of a propositional formula is a row of its truth table i.e. a combination of truth values of proposition it contains.
 
 ![[Guidelines to GATE-CS-20240927182739123.webp]]
 
 ![[Guidelines to GATE-CS-20250104215254609.webp]]
 ![[Guidelines to GATE-CS-20250104221900706.webp]]
+![[Guidelines to GATE-CS-20250106164346108.webp]]
+
+- Do not apply the precedence of logical operators for english statements, instead understand the feeling of the english statements.
+
+![[Guidelines to GATE-CS-20250106164824647.webp]]
+![[Guidelines to GATE-CS-20250106164834452.webp]]
+
+![[Guidelines to GATE-CS-20250216085746933.webp|Neither....nor]]
+![[Guidelines to GATE-CS-20250216085850787.webp]]
 
 - Do not confuse with solving by-case method in logical equivalence. Just take one of the propositional variables and see what happens to the both the expressions for the variables' truth values.
 
@@ -379,17 +422,18 @@ $$
 
 ![[Guidelines to GATE-CS-20250104224952181.webp]]
 
-- Implication is not commutative and not associative.
+- Implication is neither commutative nor associative.
 - $a \rightarrow b \rightarrow (b \rightarrow c)$ can be treated as either,
 	- $(a \rightarrow b) \rightarrow (b \rightarrow c)$ or
 	- $a \rightarrow (\, b \rightarrow (b \rightarrow c) \,)$
 	- $(a \rightarrow b) \rightarrow (b \rightarrow c) \not\equiv a \rightarrow (\, b \rightarrow (b \rightarrow c) \,)$
 - If nothing is mentioned, then assume right associativity by default i.e. $a \rightarrow (\, b \rightarrow (b \rightarrow c) \,)$
 
-- unless = if not 
+- unless = if not = OR
 - unless splits a compound proposition.
 
 ![[Guidelines to GATE-CS-20241216220734994.webp]]
+![[Guidelines to GATE-CS-20250106171037000.webp]]
 
 - For checking the validity of an argument, 
 	- when premises are true, then conclusion have to be true.
@@ -410,8 +454,7 @@ $$
 - Conjunctive normal form CNF = product of sums POS
 - Disjunctive normal form DNF = sum of products SOP
 
-- When asked to prove a logical equivalence, just go for by-case method. Its simple.
-
+- When asked to prove a logical equivalence, just go for by-case method. Its simple. Or prove that their bi-implication is a tautology.
 - If the premises are contradictory (always evaluate to false), anything can be a conclusion.
 
 ![[Guidelines to GATE-CS-20241220135301150.webp]]
@@ -545,8 +588,6 @@ $$
 
 ![[Guidelines to GATE-CS-20250103101202291.webp]]
 
-- To define a subset or superset relation, the set must contain only sets instead of simple elements. For example, a powerset of a set, all of its members are sets.
-
 ![[Guidelines to GATE-CS-20250103153033495.webp]]
 ![[Guidelines to GATE-CS-20250103170558086.webp]]
 
@@ -563,6 +604,7 @@ $$
 - Each equivalence relation on a base set corresponds to a unique partition of the base set and vice versa.
 - Within a equivalence class, every element is related to every other element.
 - Counting the number of partitions of a base (i.e. number of equivalence relations on a base set) is a tedious task. It won't be asked in GATE. 
+- Just stick with the manual method of counting the partitions for a base set for smaller numbers like 3, 4, 5, etc...
 
 ![[Guidelines to GATE-CS-20250105110212343.webp]]
 
@@ -581,23 +623,69 @@ $$
 - "$\pi_{i}$ refines $\pi_{j}$" means "$\pi_{i}$ is a refiniment of $\pi_{j}$".
 - For two equivalence relations $R_{1}, R_{2}$ on set $A$, $R_{1}$ refines $R_{2}$ iff $R_{1} \subseteq R_{2}$ i.e. the partition $\pi_{1}$ corresponding to $R_{1}$ refines the partition $\pi_{2}$ corresponding to $R_{2}$.
 
-- To check for a POR, also check a set with cardinality 1.
+- Do not every forget the reflexive cases in analysing relations i.e. **self loops**.
 
-- In every lattice, 
+![[Guidelines to GATE-CS-20250105180013391.webp]]
+
+- To define a *subset* or *superset* relation, the base set must contain <mark class="hltr-pink">only sets</mark> as members instead of simple elements. For example, Powerset of a set.
+- There is no concept of 'levels' in Hasse diagram i.e. these two nodes are on the same level, there is no such concepts. Only upward paths are there in Hasse diagram.
+- To check for a POR, also check a set with cardinality 1.
+- Least and greatest elements are unique, whereas there can be more than one minimal and maximal elements in a POSET.
+- If a subset has a least upper bound, then the upper bound of the set has one of the maximal elements.
+- If a subset has a greatest lower bound, then the lower bound of the set has one of the minimal elements.
+
+![[Guidelines to GATE-CS-20250106101151305.webp|Elements of a POSET]]
+
+![[Guidelines to GATE-CS-20250107182702887.webp]]
+![[Guidelines to GATE-CS-20250107182718271.webp]]
+![[Guidelines to GATE-CS-20250107182724833.webp]]
+
+- LUB and GLB exists for every two comparable elements in a poset. So LUB and GLB exist for every two elements in a lattice.
+
+![[Guidelines to GATE-CS-20250106113218374.webp]]
+![[Guidelines to GATE-CS-20250106113337236.webp]]
+
+- In every lattice, the following properties hold for every two elements irregardless of them being comparable or not comparable.
 
 ![[Guidelines to GATE-CS-20240908224115126.webp]]
+
+![[Guidelines to GATE-CS-20250107191604750.webp]]
+![[Guidelines to GATE-CS-20250107191622131.webp]]
+
+- To check for sub-lattice of a lattice, just check for LUB, GLB of non-comparable elements.
+- A single element base set is a lattice in which the only element is both the greatest and least element.
+
+- If $L$ is distributive, then for every element there are at most one complement.
+
+![[Guidelines to GATE-CS-20250109120125164.webp]]
+
+#### Guidelines to Functions
+
+- $f(x) =  \sqrt{ x }$ is a function and every perfect square has only one image.
+- $\sqrt{ 25 } = 5 \not= -5$
+
+![[Guidelines to GATE-CS-20250110175639374.webp]]
+![[Guidelines to GATE-CS-20250110181558106.webp]]
+
 
 ### Guidelines to Combinatronics
 
 - By default, repetition is allowed in numbers and strings.
+
+![[Guidelines to GATE-CS-20250126094526618.webp]]
+
+![[Guidelines to GATE-CS-20250123000040735.webp]]
+
+![[Guidelines to GATE-CS-20250128205743075.webp]]
+![[Guidelines to GATE-CS-20250128205752575.webp]]
+
+
 - Take care of the extreme conditions first in arrangement.
 - permutation decreases with repeated elements.
 - Order does not matter for cards in hand. Just select some $r$ cards out of 52 cards, don't permute them in hand.
 - Within a box, the order of the objects does not matter.
 - Before applying the star-bar, make sure to remove the restrictions.
 - Monotonically increasing means strictly increasing.
-
-![[Guidelines to GATE-CS-20241127094912144.webp]]
 
 - In functions, elements of domain are considered as objects and elements of co-domain are considered as boxes, since domain elements are mapped to co-domain elements.
 - Number of relations between two sets $A$ and $B$ is $2^{|A| . |B|}$ (refer lec-05-08A.pdf pg. no. 97)
@@ -631,5 +719,11 @@ $$
 
 ## Guidelines to Calculus
 
+
+
+## Guidelines to Aptitude
+
+
+![[Guidelines to GATE-CS-20250106204408153.webp|remainders when divided by 7]]
 
 

@@ -510,5 +510,10 @@
   "underwater-theme@@visible-properties": true,
   "underwater-theme@@no-scrollbar": false,
   "underwater-theme@@no-justify": true,
-  "underwater-theme@@workspace-bg": false
+  "underwater-theme@@workspace-bg": false,
+  "zen@@editor-width": 670,
+  "zen@@alt-heading-off": false,
+  "obsidian-composer-theme@@theme-variant": "composer--QingScheme",
+  "sei@@sei-remove-divider-h1": true,
+  "sei@@sei-remove-divider-inline-title": true
 }

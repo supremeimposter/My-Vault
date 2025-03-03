@@ -24,4 +24,9 @@ The first condition gets applied, and then we are looking for ways to accomplish
 ![[Combinatronics PYQs-20241121133906304.webp]]
 
 
+> [!question] 
+> [Combinatory: GATE CSE 2016 Set 2 | Question: 29](https://gateoverflow.in/39588/gate-cse-2016-set-2-question-29?show=425665)
+
+![[Combinatronics PYQs-20250107105545676.webp]]
+
 

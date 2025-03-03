@@ -5,6 +5,14 @@
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Standard and Canonical Forms of Boolean Expressions",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
+    },
+    {
       "basename": "Set Theory PYQs",
       "path": "GATE/Pyqs/Set Theory PYQs.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "First Order Logic",
       "path": "GATE/DiscreteMathematics/First-Order-Logic/First Order Logic.md"
-    },
-    {
-      "basename": "Relations",
-      "path": "GATE/DiscreteMathematics/Set-Theory/Relations.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE/GATE-LOG.md"
     }
   ],
   "omittedPaths": [

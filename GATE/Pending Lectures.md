@@ -38,6 +38,7 @@
 - [ ] Discrete Mathematics - Set Theory Practice Set 5
 - [ ] Set Theory - [Lecture 61](https://www.youtube.com/watch?v=5ia3SsbB7Ks)
 - [ ] Set Theory - [Lecture 62](https://www.youtube.com/watch?v=aWJHVZDlGzQ)
+- [ ] Closure on Relations
 - [ ] Functions - Practice set 1 - Live 1, 2, 3, 4
 - [ ] Group Theory - summary lectures - 1-6
 	- [ ] [Group Theory Summary Lecture 1 - Introduction to Abstract Algebra, Group Theory, Algebraic Structure - YouTube](https://www.youtube.com/watch?v=huQ3UPATWcY)

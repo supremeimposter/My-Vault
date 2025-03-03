@@ -12,6 +12,7 @@ tags:
   - DigitalLogic/KMap
 ---
 # Don't Cares
+
 - For a boolean function or a digital circuit, some input combinations **can never occur**. For such input combinations, we do not care about the function values.
 - For a boolean function or a digital circuit, some input combinations **can occur, but we do not care** about what happens for input combinations.
 
@@ -78,6 +79,7 @@ $$
 - If $f$ covers $g$, then the true minterms of $g$ is a subset of true minterms of $f$.
 
 - If $f$ covers $g$, then $f$ is the covering function of $g$ and either of these two conditions occur
+
 ````col
 ```col-md
 flexGrow=1

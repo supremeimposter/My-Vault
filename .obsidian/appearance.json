@@ -7,7 +7,7 @@
     "anuppiccin-floating-search-bar",
     "custom-admonitions.971f1e"
   ],
-  "cssTheme": "Ink",
+  "cssTheme": "Minimal Dracula",
   "theme": "moonstone",
   "showViewHeader": true,
   "baseFontSize": 18,
@@ -16,5 +16,6 @@
   "textFontFamily": "iA Writer Duo S,Times New Roman,iA Writer Quattro V,SF Pro Text",
   "interfaceFontFamily": "SF Pro Display,SF Pro",
   "monospaceFontFamily": "SF Mono,JetBrains Mono,iA Writer Mono S,Cascadia Code PL",
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "showRibbon": false
 }

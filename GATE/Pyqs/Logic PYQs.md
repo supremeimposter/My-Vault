@@ -157,7 +157,7 @@ counting only the different unique propositional formulae over 4 variables. Simi
 
 ![[Logic PYQs-20240927093641673.webp]]
 
-
+Its just simple logic. Use the implication.
 
 > [!question] 
 > [Mathematical Logic: GATE CSE 2020 | Question: 39](https://gateoverflow.in/333192/gate-cse-2020-question-39)

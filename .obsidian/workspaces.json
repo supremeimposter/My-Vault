@@ -489,16 +489,6 @@
                 }
               },
               {
-                "id": "2ec29c1e38047089",
-                "type": "leaf",
-                "state": {
-                  "type": "mermaid-toolbar-view",
-                  "state": {},
-                  "icon": "trident-custom",
-                  "title": "Mermaid Toolbar"
-                }
-              },
-              {
                 "id": "64e722562ef2ff69",
                 "type": "leaf",
                 "state": {
@@ -543,13 +533,12 @@
           "command-palette:Open command palette": false,
           "darlal-switcher-plus:Open in Headings Mode": false,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
-          "mermaid-tools:Open Mermaid Toolbar": false,
           "workspaces:Manage workspace layouts": false,
           "map-of-content:Update Map of Content": false
         }
       },
       "active": "c9c69a5be1ad03a7",
-      "mtime": "2024-12-31T22:21:45+05:30"
+      "mtime": "2025-01-07T10:55:06+05:30"
     },
     "COA": {
       "main": {
@@ -607,7 +596,8 @@
                   "title": "Guidelines to GATE-CS"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -638,7 +628,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "{equation}",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -737,10 +727,10 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
+                    "file": "GATE/Guidelines to GATE-CS.md"
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Computer Organization and Architecture"
+                  "title": "Outline of Guidelines to GATE-CS"
                 }
               },
               {
@@ -772,10 +762,10 @@
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
+                    "file": "GATE/Guidelines to GATE-CS.md"
                   },
                   "icon": "lucide-info",
-                  "title": "File properties for Instruction Execution Cycle"
+                  "title": "File properties for Guidelines to GATE-CS"
                 }
               }
             ],
@@ -812,14 +802,13 @@
           "command-palette:Open command palette": false,
           "darlal-switcher-plus:Open in Headings Mode": false,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
-          "mermaid-tools:Open Mermaid Toolbar": false,
           "workspaces:Manage workspace layouts": false,
           "obsidian-kanban:Create new board": false,
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "a979cb9d9bf15c0b",
-      "mtime": "2024-11-04T09:17:38+05:30"
+      "active": "d532e2ca8ba4a1bd",
+      "mtime": "2025-01-20T00:54:21+05:30"
     },
     "DL": {
       "main": {
@@ -839,49 +828,45 @@
                   "state": {
                     "file": "GATE/Digital-Logic/Digital Logic.md",
                     "mode": "source",
+                    "source": false,
                     "backlinks": true,
-                    "source": false
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
                   },
-                  "pinned": true
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Digital Logic"
                 }
               },
               {
-                "id": "95a4716baad89024",
+                "id": "e188573efe882453",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "mode": "source",
+                    "source": false,
                     "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "f0aa570e6e5df8e1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "7577c87b53c76cb3",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Guidelines to GATE-CS"
                 }
               }
             ],
@@ -904,8 +889,11 @@
                 "state": {
                   "type": "file-explorer",
                   "state": {
-                    "sortOrder": "alphabetical"
-                  }
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
                 }
               },
               {
@@ -920,7 +908,9 @@
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
                 }
               },
               {
@@ -928,7 +918,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
                 }
               },
               {
@@ -936,7 +928,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "recent-files",
-                  "state": {}
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
                 }
               }
             ]
@@ -960,7 +954,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -968,7 +962,9 @@
                     "searchQuery": "",
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Guidelines to GATE-CS"
                 }
               },
               {
@@ -977,10 +973,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Guidelines to GATE-CS"
                 }
               },
               {
@@ -992,7 +990,9 @@
                     "sortOrder": "frequency",
                     "showSearch": false,
                     "searchQuery": ""
-                  }
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
                 }
               },
               {
@@ -1001,8 +1001,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
-                  }
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Guidelines to GATE-CS"
                 }
               },
               {
@@ -1012,8 +1017,12 @@
                   "type": "tag",
                   "state": {
                     "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
                 }
               },
               {
@@ -1021,7 +1030,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "mermaid-toolbar-view",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               },
               {
@@ -1029,7 +1040,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "journal-calendar",
-                  "state": {}
+                  "state": {},
+                  "icon": "calendar-days",
+                  "title": "Calendar"
                 }
               }
             ],
@@ -1045,7 +1058,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "map-of-content",
-                  "state": {}
+                  "state": {},
+                  "icon": "stacked-levels",
+                  "title": "Map of Content"
                 }
               }
             ]
@@ -1056,6 +1071,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-kanban:Create new board": false,
           "audio-recorder:Start/stop recording": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
@@ -1064,13 +1080,12 @@
           "command-palette:Open command palette": false,
           "darlal-switcher-plus:Open in Headings Mode": false,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
-          "mermaid-tools:Open Mermaid Toolbar": false,
           "workspaces:Manage workspace layouts": false,
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "95a4716baad89024",
-      "mtime": "2024-07-23T11:09:08+05:30"
+      "active": "e188573efe882453",
+      "mtime": "2025-02-27T11:15:41+05:30"
     },
     "OS": {
       "main": {
@@ -1625,8 +1640,17 @@
                   "state": {
                     "file": "GATE/Guidelines to GATE-CS.md",
                     "mode": "source",
+                    "source": false,
                     "backlinks": true,
-                    "source": false
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
                   },
                   "icon": "lucide-file",
                   "title": "Guidelines to GATE-CS"
@@ -1667,7 +1691,8 @@
                 "state": {
                   "type": "file-explorer",
                   "state": {
-                    "sortOrder": "alphabetical"
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -1778,7 +1803,10 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Guidelines to GATE-CS.md"
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-list",
                   "title": "Outline of Guidelines to GATE-CS"
@@ -1803,8 +1831,8 @@
                 "state": {
                   "type": "mermaid-toolbar-view",
                   "state": {},
-                  "icon": "trident-custom",
-                  "title": "Mermaid Toolbar"
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               },
               {
@@ -1852,13 +1880,12 @@
           "command-palette:Open command palette": false,
           "darlal-switcher-plus:Open in Headings Mode": false,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
-          "mermaid-tools:Open Mermaid Toolbar": false,
           "workspaces:Manage workspace layouts": false,
           "map-of-content:Update Map of Content": false
         }
       },
       "active": "2066b3fa9c6e9c03",
-      "mtime": "2024-12-31T22:20:48+05:30"
+      "mtime": "2025-02-18T23:29:39+05:30"
     },
     "combinatronics and graph theory": {
       "main": {
@@ -2072,8 +2099,8 @@
                 "state": {
                   "type": "mermaid-toolbar-view",
                   "state": {},
-                  "icon": "trident-custom",
-                  "title": "Mermaid Toolbar"
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               },
               {
@@ -2121,13 +2148,12 @@
           "command-palette:Open command palette": false,
           "darlal-switcher-plus:Open in Headings Mode": false,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
-          "mermaid-tools:Open Mermaid Toolbar": false,
           "workspaces:Manage workspace layouts": false,
           "map-of-content:Update Map of Content": false
         }
       },
       "active": "980f53b56852e310",
-      "mtime": "2024-12-03T17:27:49+05:30"
+      "mtime": "2025-01-07T11:17:10+05:30"
     },
     "CP": {
       "main": {
@@ -2384,7 +2410,568 @@
       },
       "active": "f0f14861cefa0d47",
       "mtime": "2024-12-05T21:40:00+05:30"
+    },
+    "combinatronics": {
+      "main": {
+        "id": "21c87e6fab086ae1",
+        "type": "split",
+        "children": [
+          {
+            "id": "df7f94ce3ab6c62b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "76a07e4786a7142a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Discrete Mathematics"
+                }
+              },
+              {
+                "id": "c9c69a5be1ad03a7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "f479fca55503e81b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Basic Counting Principles"
+                }
+              },
+              {
+                "id": "50f6d202e389a184",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Permutations and Combinations"
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "447c3cf29e385729",
+        "type": "split",
+        "children": [
+          {
+            "id": "a1c6d5c6e7c6aea0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "80784521bca5ca54",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "885564d7ad2cc180",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "2bf0657860158803",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "25fb3027bb42d785",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 267.5
+      },
+      "right": {
+        "id": "fb0455d62c4f6c20",
+        "type": "split",
+        "children": [
+          {
+            "id": "e047f71d444b979e",
+            "type": "tabs",
+            "dimension": 66.4,
+            "children": [
+              {
+                "id": "4de834b516a58502",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "8ba157ab7f239193",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "40d15956871d0fde",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "8488c56ed1a27af9",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Permutations and Combinations"
+                }
+              },
+              {
+                "id": "13c145e73a31e17b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "64e722562ef2ff69",
+                "type": "leaf",
+                "state": {
+                  "type": "journal-calendar",
+                  "state": {},
+                  "icon": "calendar-days",
+                  "title": "Calendar"
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "5df95600f2476df0",
+            "type": "tabs",
+            "dimension": 33.6,
+            "children": [
+              {
+                "id": "537addfb8bc17cc8",
+                "type": "leaf",
+                "state": {
+                  "type": "map-of-content",
+                  "state": {},
+                  "icon": "stacked-levels",
+                  "title": "Map of Content"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 336.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-kanban:Create new board": false,
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "darlal-switcher-plus:Open in Headings Mode": false,
+          "darlal-switcher-plus:Open Symbols for the active editor": false,
+          "workspaces:Manage workspace layouts": false,
+          "map-of-content:Update Map of Content": false
+        }
+      },
+      "active": "50f6d202e389a184",
+      "mtime": "2025-02-06T18:41:01+05:30"
+    },
+    "fitness": {
+      "main": {
+        "id": "21c87e6fab086ae1",
+        "type": "split",
+        "children": [
+          {
+            "id": "a992f9e8ac76c9ba",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e95d38dcad0339f5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Fitness/Warm Ups.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Warm Ups"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "447c3cf29e385729",
+        "type": "split",
+        "children": [
+          {
+            "id": "a1c6d5c6e7c6aea0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "80784521bca5ca54",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "885564d7ad2cc180",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "2bf0657860158803",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "25fb3027bb42d785",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 267.5
+      },
+      "right": {
+        "id": "fb0455d62c4f6c20",
+        "type": "split",
+        "children": [
+          {
+            "id": "e047f71d444b979e",
+            "type": "tabs",
+            "dimension": 66.4,
+            "children": [
+              {
+                "id": "4de834b516a58502",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "GATE/Fundamentals of Computer Science/Number Theory.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Number Theory"
+                }
+              },
+              {
+                "id": "8ba157ab7f239193",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "GATE/Fundamentals of Computer Science/Number Theory.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Number Theory"
+                }
+              },
+              {
+                "id": "40d15956871d0fde",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "8488c56ed1a27af9",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Fitness/Warm Ups.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Warm Ups"
+                }
+              },
+              {
+                "id": "13c145e73a31e17b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "2ec29c1e38047089",
+                "type": "leaf",
+                "state": {
+                  "type": "mermaid-toolbar-view",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "92acdc507560220c",
+                "type": "leaf",
+                "state": {
+                  "type": "journal-calendar",
+                  "state": {},
+                  "icon": "calendar-days",
+                  "title": "Calendar"
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "5df95600f2476df0",
+            "type": "tabs",
+            "dimension": 33.6,
+            "children": [
+              {
+                "id": "537addfb8bc17cc8",
+                "type": "leaf",
+                "state": {
+                  "type": "map-of-content",
+                  "state": {},
+                  "icon": "stacked-levels",
+                  "title": "Map of Content"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 336.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-kanban:Create new board": false,
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "darlal-switcher-plus:Open in Headings Mode": false,
+          "darlal-switcher-plus:Open Symbols for the active editor": false,
+          "workspaces:Manage workspace layouts": false,
+          "map-of-content:Update Map of Content": false
+        }
+      },
+      "active": "e95d38dcad0339f5",
+      "mtime": "2025-03-03T21:30:51+05:30"
     }
   },
-  "active": "set-theory"
+  "active": "DL"
 }

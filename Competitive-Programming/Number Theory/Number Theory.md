@@ -6,7 +6,7 @@ tags:
 # Number Theory
 
 
-- [[GCD and LCM]]
+- [[Divisors and Multiples]]
 
 
 
