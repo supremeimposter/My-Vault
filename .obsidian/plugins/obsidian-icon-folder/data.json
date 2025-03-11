@@ -30,7 +30,8 @@
     "iconColorInFrontmatterFieldName": "iconColor",
     "iconsInLinksEnabled": true,
     "lucideIconPackType": "native",
-    "debugMode": false
+    "debugMode": false,
+    "useInternalPlugins": false
   },
   "GATE/Programming-with-C/Programming with C.md": {
     "iconName": "TiBrandCoinbase",

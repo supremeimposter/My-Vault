@@ -671,6 +671,7 @@ $$
 ### Guidelines to Combinatronics
 
 - By default, repetition is allowed in numbers and strings.
+- If two objects are distinct or distinguishable, there is no need to count who goes first.
 
 ![[Guidelines to GATE-CS-20250126094526618.webp]]
 

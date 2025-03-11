@@ -47,6 +47,7 @@ How many ways to do a task as a series of sub-tasks one followed by another?
 > [!scenario] 
 
 ![[Basic Counting Principles-20250120011304533.webp]]
+
 Take 2 balls from the these three mutually exclusive bins.
 
 For the first ball, there are $10 + 20 + 15 = 45$ choices.
@@ -115,7 +116,7 @@ $$
 $$
 ![[Guidelines to GATE-CS-20250126094526618.webp]]
 
-
+Consider the case, where there might be nothing can be one possible case and counting it as 1 or 0 depends highly on the context.
 
 > [!discussion] Lecture-5
 > ![[Combinatronics-20231122105623119.webp]]

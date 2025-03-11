@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8dfc7ae9f385f793",
+        "id": "df7f94ce3ab6c62b",
         "type": "tabs",
         "children": [
           {
-            "id": "ea75e54db887e9ac",
+            "id": "76a07e4786a7142a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Digital Logic.md",
+                "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -30,11 +30,59 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Digital Logic"
+              "title": "Discrete Mathematics"
             }
           },
           {
-            "id": "e188573efe882453",
+            "id": "99344b5f62df8804",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Permutations and Combinations"
+            }
+          },
+          {
+            "id": "6dc80ff7e5205cf3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Basic Counting Principles"
+            }
+          },
+          {
+            "id": "087404d24fd53302",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,12 +106,12 @@
             }
           },
           {
-            "id": "ffc8d7dfefffce61",
+            "id": "980f53b56852e310",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares and Covering Functions.md",
+                "file": "GATE/Pyqs/Combinatronics PYQs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,7 +126,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Don't Cares and Covering Functions"
+              "title": "Combinatronics PYQs"
             }
           }
         ],
@@ -213,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares and Covering Functions.md",
+                "file": "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Don't Cares and Covering Functions"
+              "title": "Outline of Basic Counting Principles"
             }
           },
           {
@@ -229,9 +277,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -296,15 +342,28 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "ffc8d7dfefffce61",
+  "active": "6dc80ff7e5205cf3",
   "lastOpenFiles": [
+    "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
+    "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
     "GATE/Guidelines to GATE-CS.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares and Covering Functions.md",
-    "GATE/Digital-Logic/Digital Logic.md",
-    "Fitness/Warm Ups.md",
+    "GATE/Pyqs/Combinatronics PYQs.md",
     "Fitness/Calisthenics.md",
-    "Fitness/Fitness.md",
+    "attachments/Calisthenics-1741524709554.webp",
+    "attachments/image-1.png",
+    "attachments/image.png",
+    "Fitness/Warm Ups.md",
+    "Philosophy and General Thoughts/My thought process.md",
+    "Philosophy and General Thoughts/Life Lessons by Deepak Poonia.md",
+    "Vault Index.md",
+    "attachments/Calisthenics-20250305222244642.webp",
+    "attachments/Calisthenics-20250305222103805.webp",
     "Fitness/Cardio.md",
+    "Fitness/Fitness.md",
+    "Fitness/Things to remember for my body.md",
+    "GATE/Digital-Logic/Digital Logic.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares and Covering Functions.md",
     "Fitness/Andrew Huberman.md",
     "attachments/Guidelines to GATE-CS-20250227162142750.webp",
     "attachments/Guidelines to GATE-CS-20250227160346102.webp",
@@ -312,31 +371,18 @@
     "attachments/Guidelines to GATE-CS-20250227153127858.webp",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "attachments/Guidelines to GATE-CS-20250227122944795.webp",
-    "attachments/Guidelines to GATE-CS-20250227111645962.webp",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
-    "attachments/Guidelines to GATE-CS-20250223170629613.webp",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
     "Fitness/Breathing.md",
-    "Fitness/Things to remember for my body.md",
-    "attachments/Guidelines to GATE-CS-20250216085850787.webp",
-    "attachments/Guidelines to GATE-CS-20250216085746933.webp",
-    "attachments/Guidelines to GATE-CS-20250209230032980.webp",
-    "Vault Index.md",
     "GATE/DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
     "Fitness",
-    "GATE/DiscreteMathematics/Discrete Mathematics.md",
-    "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
     "GATE/DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
-    "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
     "Competitive-Programming/Number Theory/Divisors and Multiples.md",
     "Ideas/Ideas.md",
     "Ideas",
     "GATE/Linear-Algebra/Crammer's Rule.md",
     "GATE/Pyqs/COA PYQs.md",
     "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
-    "GATE/Pyqs/Set Theory PYQs.md",
-    "GATE/Pyqs/Logic PYQs.md",
-    "GATE/Pyqs/Combinatronics PYQs.md",
     "Competitive-Programming/Number Theory",
     "Competitive-Programming",
     "GATE/Mind-maps/Concurrency-Control-Protocols.canvas",

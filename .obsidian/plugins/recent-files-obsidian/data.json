@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Basic Counting Principles",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md"
+    },
+    {
+      "basename": "Permutations and Combinations",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
       "basename": "Guidelines to GATE-CS",
       "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Combinatronics PYQs",
+      "path": "GATE/Pyqs/Combinatronics PYQs.md"
+    },
+    {
+      "basename": "Calisthenics",
+      "path": "Fitness/Calisthenics.md"
+    },
+    {
+      "basename": "Warm Ups",
+      "path": "Fitness/Warm Ups.md"
+    },
+    {
+      "basename": "My thought process",
+      "path": "Philosophy and General Thoughts/My thought process.md"
     },
     {
       "basename": "Digital Logic",
@@ -15,10 +43,6 @@
     {
       "basename": "Set Theory PYQs",
       "path": "GATE/Pyqs/Set Theory PYQs.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
     },
     {
       "basename": "Number Theory",
@@ -175,36 +199,14 @@
     {
       "basename": "Introduction to DBMS",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
-    },
-    {
-      "basename": "Pending Lectures",
-      "path": "GATE/Pending Lectures.md"
-    },
-    {
-      "basename": "Write expressions from Tables",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/Write expressions from Tables.md"
-    },
-    {
-      "basename": "Quantifiers",
-      "path": "GATE/DiscreteMathematics/First-Order-Logic/Quantifiers.md"
-    },
-    {
-      "basename": "Features of First Order Logic",
-      "path": "GATE/DiscreteMathematics/First-Order-Logic/Features of First Order Logic.md"
-    },
-    {
-      "basename": "Limitations of Propositional Logic",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/Limitations of Propositional Logic.md"
-    },
-    {
-      "basename": "First Order Logic",
-      "path": "GATE/DiscreteMathematics/First-Order-Logic/First Order Logic.md"
     }
   ],
   "omittedPaths": [
     ""
   ],
   "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false,
   "maxLength": null,
   "openType": "tab"
 }

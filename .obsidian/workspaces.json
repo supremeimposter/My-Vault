@@ -1905,12 +1905,69 @@
                   "state": {
                     "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
                     "mode": "source",
+                    "source": false,
                     "backlinks": true,
-                    "source": false
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
                   },
                   "pinned": true,
                   "icon": "lucide-file",
                   "title": "Discrete Mathematics"
+                }
+              },
+              {
+                "id": "99344b5f62df8804",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Permutations and Combinations"
+                }
+              },
+              {
+                "id": "6dc80ff7e5205cf3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Basic Counting Principles"
                 }
               },
               {
@@ -1921,8 +1978,17 @@
                   "state": {
                     "file": "GATE/Guidelines to GATE-CS.md",
                     "mode": "source",
+                    "source": false,
                     "backlinks": true,
-                    "source": false
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
                   },
                   "icon": "lucide-file",
                   "title": "Guidelines to GATE-CS"
@@ -1936,15 +2002,24 @@
                   "state": {
                     "file": "GATE/Pyqs/Combinatronics PYQs.md",
                     "mode": "source",
+                    "source": false,
                     "backlinks": true,
-                    "source": false
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
                   },
                   "icon": "lucide-file",
                   "title": "Combinatronics PYQs"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1963,7 +2038,8 @@
                 "state": {
                   "type": "file-explorer",
                   "state": {
-                    "sortOrder": "alphabetical"
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -2074,10 +2150,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Pyqs/Combinatronics PYQs.md"
+                    "file": "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Combinatronics PYQs"
+                  "title": "Outline of Permutations and Combinations"
                 }
               },
               {
@@ -2152,8 +2231,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "980f53b56852e310",
-      "mtime": "2025-01-07T11:17:10+05:30"
+      "active": "99344b5f62df8804",
+      "mtime": "2025-03-11T16:33:25+05:30"
     },
     "CP": {
       "main": {
@@ -2739,7 +2818,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Fitness/Warm Ups.md",
+                    "file": "Fitness/Calisthenics.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -2754,7 +2833,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "Warm Ups"
+                  "title": "Calisthenics"
                 }
               }
             ]
@@ -2888,13 +2967,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Fitness/Warm Ups.md",
+                    "file": "Fitness/Calisthenics.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Warm Ups"
+                  "title": "Outline of Calisthenics"
                 }
               },
               {
@@ -2970,8 +3049,8 @@
         }
       },
       "active": "e95d38dcad0339f5",
-      "mtime": "2025-03-03T21:30:51+05:30"
+      "mtime": "2025-03-10T10:45:43+05:30"
     }
   },
-  "active": "DL"
+  "active": "combinatronics and graph theory"
 }

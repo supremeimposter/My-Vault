@@ -12,8 +12,20 @@ Normally, you would need less oxygen, but for an intense task, you need more oxy
 
 Anaerobic respiration occurs when oxygen is in short is absent or on short supply
 
+## Mobility Exercises
+
+[16 Minute Beginner Mobility Routine! Follow Along | No Equipment - YouTube](https://www.youtube.com/watch?v=kU_EUW2ZdqA)
+
+### Knees and Ankles
+
+[Ankle Exercises for Strength & Mobility (Bulletproof Ankles) - YouTube](https://www.youtube.com/watch?v=QV-x1tK7U4w)
 
 
+
+### Wrists
+
+
+[Wrist Mobility | Wrist Strengthening Follow Along Routine - YouTube](https://www.youtube.com/watch?v=7KdsGAuQBC4)
 
 
 

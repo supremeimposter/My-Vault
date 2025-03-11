@@ -5,6 +5,7 @@
 
 - [[Competitive Programming]]
 
+- [[My thought process]]
 - [[Life Lessons by Deepak Poonia]]
 
 

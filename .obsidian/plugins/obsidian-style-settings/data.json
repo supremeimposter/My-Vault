@@ -511,9 +511,12 @@
   "underwater-theme@@no-scrollbar": false,
   "underwater-theme@@no-justify": true,
   "underwater-theme@@workspace-bg": false,
-  "zen@@editor-width": 670,
+  "zen@@editor-width": 700,
   "zen@@alt-heading-off": false,
-  "obsidian-composer-theme@@theme-variant": "composer--QingScheme",
+  "obsidian-composer-theme@@theme-variant": "composer--XiaScheme",
   "sei@@sei-remove-divider-h1": true,
-  "sei@@sei-remove-divider-inline-title": true
+  "sei@@sei-remove-divider-inline-title": true,
+  "zen@@win-translucent-off": false,
+  "zen@@text-justify": false,
+  "zen@@action-button-on": true
 }
