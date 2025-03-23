@@ -29,6 +29,8 @@ Core engaged + focusing on the quality of the rep is important
 **Squats**
 
 [How To Squat Correctly (NO BACK PAIN) - YouTube](https://www.youtube.com/watch?v=my0tLDaWyDU)
+[How to Perform a PERFECT Squat - YouTube](https://www.youtube.com/shorts/AIZ8q1qruKw)
+
 
 
 [6 pro tips you can’t miss to start calisthenics - YouTube](https://www.youtube.com/watch?v=P6U5buShJIk)
@@ -72,6 +74,12 @@ Core engaged + focusing on the quality of the rep is important
 4 levels of pushup variation
 
 
+[The 7 Red Flags of Calisthenics (Avoid These Mistakes!) - YouTube](https://www.youtube.com/watch?v=mWFxOIhhae4)
+
+1. Don't practice too many moves at once. Practice and master a few at a time.
+2. Go step by step in the moves. Don't progress too much or don't avoid any progression.
+3. Take enough rest time between sets. Wait at least 3 minutes between sets (even of the same exercise)
+4. Don't overtrain, take enough rest between exercises.
 
 
 [6 pull-up tips to get a back that’s bananas - YouTube](https://www.youtube.com/watch?v=8oUANjbrwDk)

@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "System of Linear Equations",
+      "path": "GATE/Linear-Algebra/System of Linear Equations.md"
+    },
+    {
+      "basename": "Linearly Dependent and Independent Vectors",
+      "path": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
+    },
+    {
+      "basename": "Introduction to Linear Algebra",
+      "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
+    },
+    {
+      "basename": "Linear Algebra",
+      "path": "GATE/Linear-Algebra/Linear Algebra.md"
+    },
+    {
+      "basename": "Distributing Objects into Boxes",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
+    },
+    {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Calisthenics",
+      "path": "Fitness/Calisthenics.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Binomial Theorem",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Binomial Theorem.md"
+    },
+    {
       "basename": "Basic Counting Principles",
       "path": "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md"
     },
@@ -9,20 +45,20 @@
       "path": "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md"
     },
     {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
-    },
-    {
       "basename": "Combinatronics PYQs",
       "path": "GATE/Pyqs/Combinatronics PYQs.md"
     },
     {
-      "basename": "Calisthenics",
-      "path": "Fitness/Calisthenics.md"
+      "basename": "Combinatorial Identities",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Combinatorial Identities.md"
+    },
+    {
+      "basename": "Counting Nothing",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Counting Nothing.md"
+    },
+    {
+      "basename": "Adder for Signed Addition",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Adder for Signed Addition.md"
     },
     {
       "basename": "Warm Ups",
@@ -163,42 +199,6 @@
     {
       "basename": "B Tree",
       "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
-    },
-    {
-      "basename": "Temporary Plan",
-      "path": "GATE/Temporary Plan.md"
-    },
-    {
-      "basename": "Relational Model",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
-    },
-    {
-      "basename": "Logic PYQs",
-      "path": "GATE/Pyqs/Logic PYQs.md"
-    },
-    {
-      "basename": "Logical Equivalence",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/Logical Equivalence.md"
-    },
-    {
-      "basename": "Crammer's Rule",
-      "path": "GATE/Linear-Algebra/Crammer's Rule.md"
-    },
-    {
-      "basename": "Arguments and Inference",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/Arguments and Inference.md"
-    },
-    {
-      "basename": "Introduction to COA",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Introduction to COA.md"
-    },
-    {
-      "basename": "Cache-Memory",
-      "path": "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas"
-    },
-    {
-      "basename": "Introduction to DBMS",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Introduction to DBMS.md"
     }
   ],
   "omittedPaths": [

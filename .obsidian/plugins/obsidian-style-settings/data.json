@@ -480,7 +480,7 @@
   "things-style@@active-line": false,
   "things-style@@h2-underline": false,
   "things-style@@h4-transform": "none",
-  "underwater-theme@@underwater-colors-light": "uw-oyster",
+  "underwater-theme@@underwater-colors-light": "nord-bright",
   "underwater-theme@@vault-icon": "vault-book",
   "underwater-theme@@no-h5": true,
   "underwater-theme@@callout": "callout-solid",
@@ -513,10 +513,12 @@
   "underwater-theme@@workspace-bg": false,
   "zen@@editor-width": 700,
   "zen@@alt-heading-off": false,
-  "obsidian-composer-theme@@theme-variant": "composer--XiaScheme",
+  "obsidian-composer-theme@@theme-variant": "composer--QingScheme",
   "sei@@sei-remove-divider-h1": true,
   "sei@@sei-remove-divider-inline-title": true,
   "zen@@win-translucent-off": false,
   "zen@@text-justify": false,
-  "zen@@action-button-on": true
+  "obsidian-composer-theme@@composer--DisableNavHeaderAutoHide": false,
+  "obsidian-composer-theme@@composer--DisableFileFolderIcon": false,
+  "underwater-theme@@no-pin": true
 }

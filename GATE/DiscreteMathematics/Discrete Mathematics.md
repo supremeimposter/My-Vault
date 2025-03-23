@@ -130,6 +130,10 @@ flowchart LR
 
 - [[Basic Counting Principles]]
 - [[Permutations and Combinations]]
+- [[Counting Nothing]]
+- [[Combinatorial Identities]]
+- [[Binomial Theorem]]
+- [[Distributing Objects into Boxes]]
 
 
 > [!youtube] [Recurrence Relations in Discrete Mathematics | Complete Playlist | Applications of Recurrence Relations | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhhTH0o1JBMgscMUvxs4E_4)

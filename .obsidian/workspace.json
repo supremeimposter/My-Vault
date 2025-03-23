@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "76a07e4786a7142a",
+            "id": "ceb15a922314500d",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
+                "file": "GATE/Linear-Algebra/Linear Algebra.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -30,16 +30,16 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Discrete Mathematics"
+              "title": "Linear Algebra"
             }
           },
           {
-            "id": "99344b5f62df8804",
+            "id": "3e9d305405a79cfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
+                "file": "GATE/Linear-Algebra/System of Linear Equations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,16 +54,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Permutations and Combinations"
+              "title": "System of Linear Equations"
             }
           },
           {
-            "id": "6dc80ff7e5205cf3",
+            "id": "26f3124891b178c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
+                "file": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,7 +78,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Basic Counting Principles"
+              "title": "Linearly Dependent and Independent Vectors"
+            }
+          },
+          {
+            "id": "989f9b0d56924b49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Introduction to Linear Algebra"
             }
           },
           {
@@ -104,33 +128,9 @@
               "icon": "lucide-file",
               "title": "Guidelines to GATE-CS"
             }
-          },
-          {
-            "id": "980f53b56852e310",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Pyqs/Combinatronics PYQs.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Combinatronics PYQs"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,7 +150,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -261,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
+                "file": "GATE/Linear-Algebra/System of Linear Equations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Basic Counting Principles"
+              "title": "Outline of System of Linear Equations"
             }
           },
           {
@@ -342,14 +342,30 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "6dc80ff7e5205cf3",
+  "active": "3e9d305405a79cfa",
   "lastOpenFiles": [
-    "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
-    "GATE/DiscreteMathematics/Discrete Mathematics.md",
-    "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
+    "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
+    "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
+    "GATE/Linear-Algebra/Linear Algebra.md",
+    "GATE/Linear-Algebra/System of Linear Equations.md",
+    "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
     "GATE/Guidelines to GATE-CS.md",
-    "GATE/Pyqs/Combinatronics PYQs.md",
     "Fitness/Calisthenics.md",
+    "attachments/Distributing Objects into Boxes-1742562562428.webp",
+    "attachments/Distributing Objects into Boxes-1742561787907.webp",
+    "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "GATE/DiscreteMathematics/Combinatronics/Binomial Theorem.md",
+    "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
+    "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
+    "attachments/Linearly Dependent and Independent Vectors-1742229741288.webp",
+    "GATE/Pyqs/Combinatronics PYQs.md",
+    "GATE/DiscreteMathematics/Combinatronics/Combinatorial Identities.md",
+    "attachments/Combinatorial Identities-1742112497542.webp",
+    "GATE/DiscreteMathematics/Combinatronics/Counting Nothing.md",
+    "attachments/Permutations and Combinations-1741974109408.webp",
+    "GATE/Digital-Logic/Combinational Circuits/Adder for Signed Addition.md",
+    "attachments/Basic Counting Principles-1741790809840.webp",
+    "attachments/Basic Counting Principles-1741789319413.webp",
     "attachments/Calisthenics-1741524709554.webp",
     "attachments/image-1.png",
     "attachments/image.png",
@@ -357,32 +373,16 @@
     "Philosophy and General Thoughts/My thought process.md",
     "Philosophy and General Thoughts/Life Lessons by Deepak Poonia.md",
     "Vault Index.md",
-    "attachments/Calisthenics-20250305222244642.webp",
-    "attachments/Calisthenics-20250305222103805.webp",
     "Fitness/Cardio.md",
     "Fitness/Fitness.md",
     "Fitness/Things to remember for my body.md",
     "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares and Covering Functions.md",
     "Fitness/Andrew Huberman.md",
-    "attachments/Guidelines to GATE-CS-20250227162142750.webp",
-    "attachments/Guidelines to GATE-CS-20250227160346102.webp",
-    "attachments/Guidelines to GATE-CS-20250227153152261.webp",
-    "attachments/Guidelines to GATE-CS-20250227153127858.webp",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
-    "attachments/Guidelines to GATE-CS-20250227122944795.webp",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
-    "Fitness/Breathing.md",
-    "GATE/DiscreteMathematics/Propositional-Logic/Logical Connectives.md",
     "Fitness",
-    "GATE/DiscreteMathematics/Propositional-Logic/Propositional Logic.md",
-    "Competitive-Programming/Number Theory/Divisors and Multiples.md",
-    "Ideas/Ideas.md",
     "Ideas",
-    "GATE/Linear-Algebra/Crammer's Rule.md",
-    "GATE/Pyqs/COA PYQs.md",
-    "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md",
     "Competitive-Programming/Number Theory",
     "Competitive-Programming",
     "GATE/Mind-maps/Concurrency-Control-Protocols.canvas",

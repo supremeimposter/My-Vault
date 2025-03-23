@@ -9,7 +9,6 @@ last-revision:
 notes-taken: false
 tags:
   - DiscreteMath/Combinatronics
-  - DiscreteMath/Combinatronics/Principles
 ---
 # Basic Counting Principles
 
@@ -118,10 +117,6 @@ $$
 
 Consider the case, where there might be nothing can be one possible case and counting it as 1 or 0 depends highly on the context.
 
-> [!discussion] Lecture-5
-> ![[Combinatronics-20231122105623119.webp]]
-> ![[Combinatronics-20231122111500579.webp]]
-
 ## Counting by Cases
 
 - Mutually exclusive and exhaustive cases count everything only once i.e. count everything that is in the scenario.
@@ -142,3 +137,44 @@ Consider the case, where there might be nothing can be one possible case and cou
 - k-1 correspondence
 
 
+> [!problem] 
+ ![[Basic Counting Principles-1741789319413.webp]]
+
+5 per team and two unlabelled teams
+It is enough to choose 5 people for a team and the rest will form a team themselves without a choice
+
+Choosing 5 people out of 10 
+$$
+= \frac{(10 \times 9 \times 8 \times 7 \times 6) }{5!} = k
+$$
+we are removing the permutation of these 5 people within a team, since order does not matter within a team
+
+Since the teams are unlabelled, it does not matter which 5 goes to which team i.e. $k/2$
+
+
+| first unlabelled team | second unlabelled team |
+| --------------------- | ---------------------- |
+| ABCDE                 | FGHIJ                  |
+| FGHIJ                 | ABCDE                  |
+
+These two are same and does not need to be counted
+
+$$
+\text{result} = \frac{(10 \times 9 \times 8 \times 7 \times 6)}{5! \times 2}
+$$
+
+> [!problem] 
+ ![[Basic Counting Principles-1741790809840.webp]]
+
+Now 3 unlabelled teams of 4 each
+
+step 1 : choose 3 from 12
+step 2 : choose 3 from 6
+step 3 : rest of the 3 has no choice
+
+$$12_{C_3} \times 6_{C_{3}} \times 3_{C_{3}}$$
+
+But these are unlabelled teams and order is not required
+these 3 teams have 3! permutations which has to be removed
+
+$$\text{result} = \frac{{12_{C_3} \times 6_{C_{3}} \times 3_{C_{3}}}}{3!}$$

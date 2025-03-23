@@ -125,6 +125,7 @@ $$
 - Just have an overview that relations are nothing but sets of tuples. It will help you simplify relations mentally.
 
 
+
 ### Guidelines to SQL
 
 - In SQL, FROM keyword is cross product and not natural join.
@@ -719,6 +720,10 @@ $$
 - For a regular language $L$, every DFA is a refinement of the minimal DFA for $L$.
 
 ## Guidelines to Calculus
+
+
+## Guidelines to Linear Algebra
+
 
 
 

@@ -36,6 +36,7 @@ $$
 \text {Matrix} \times \text{Vector} = \text{Vector}
 $$
 ![[System of Linear Equations-20240319235038073.webp]]
+
 When a matrix is hit by a vector, it is either transformed into a new vector or the vector gets scaled.
 
 b. Matrix multiplied by a matrix is a matrix.
@@ -47,6 +48,7 @@ $$
 ![[Introduction to Linear Algebra-20240503124329792.webp]]
 
 If the dot product of two matrices $A$ and $B$ is a zero matrix, then it does not mean that $A$ or $B$ is a zero matrix.
+
 ![[Introduction to Linear Algebra-20240513170745538.webp]]
 
 The dot product of two column vectors $a$ and $b$ can be written as, 

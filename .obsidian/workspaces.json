@@ -1923,12 +1923,12 @@
                 }
               },
               {
-                "id": "99344b5f62df8804",
+                "id": "7af6f3b387f4d6c8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
+                    "file": "GATE/DiscreteMathematics/Combinatronics/Combinatorial Identities.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -1943,31 +1943,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "Permutations and Combinations"
-                }
-              },
-              {
-                "id": "6dc80ff7e5205cf3",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Basic Counting Principles"
+                  "title": "Combinatorial Identities"
                 }
               },
               {
@@ -2017,9 +1993,33 @@
                   "icon": "lucide-file",
                   "title": "Combinatronics PYQs"
                 }
+              },
+              {
+                "id": "a1a3a8408e276dcb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DiscreteMathematics/Combinatronics/Binomial Theorem.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Binomial Theorem"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -2150,13 +2150,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
+                    "file": "GATE/DiscreteMathematics/Combinatronics/Binomial Theorem.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Permutations and Combinations"
+                  "title": "Outline of Binomial Theorem"
                 }
               },
               {
@@ -2231,8 +2231,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "99344b5f62df8804",
-      "mtime": "2025-03-11T16:33:25+05:30"
+      "active": "a1a3a8408e276dcb",
+      "mtime": "2025-03-17T17:18:24+05:30"
     },
     "CP": {
       "main": {
@@ -2526,6 +2526,30 @@
                 }
               },
               {
+                "id": "2527d167a4c554be",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Distributing Objects into Boxes"
+                }
+              },
+              {
                 "id": "c9c69a5be1ad03a7",
                 "type": "leaf",
                 "state": {
@@ -2548,57 +2572,9 @@
                   "icon": "lucide-file",
                   "title": "Guidelines to GATE-CS"
                 }
-              },
-              {
-                "id": "f479fca55503e81b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Basic Counting Principles"
-                }
-              },
-              {
-                "id": "50f6d202e389a184",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Permutations and Combinations"
-                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -2729,13 +2705,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
+                    "file": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Permutations and Combinations"
+                  "title": "Outline of Distributing Objects into Boxes"
                 }
               },
               {
@@ -2800,8 +2776,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "50f6d202e389a184",
-      "mtime": "2025-02-06T18:41:01+05:30"
+      "active": "2527d167a4c554be",
+      "mtime": "2025-03-22T12:04:35+05:30"
     },
     "fitness": {
       "main": {
@@ -3049,8 +3025,355 @@
         }
       },
       "active": "e95d38dcad0339f5",
-      "mtime": "2025-03-10T10:45:43+05:30"
+      "mtime": "2025-03-22T08:18:32+05:30"
+    },
+    "LA": {
+      "main": {
+        "id": "21c87e6fab086ae1",
+        "type": "split",
+        "children": [
+          {
+            "id": "df7f94ce3ab6c62b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ceb15a922314500d",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Linear-Algebra/Linear Algebra.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Linear Algebra"
+                }
+              },
+              {
+                "id": "3e9d305405a79cfa",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Linear-Algebra/System of Linear Equations.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "System of Linear Equations"
+                }
+              },
+              {
+                "id": "26f3124891b178c1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Linearly Dependent and Independent Vectors"
+                }
+              },
+              {
+                "id": "989f9b0d56924b49",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Introduction to Linear Algebra"
+                }
+              },
+              {
+                "id": "087404d24fd53302",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Guidelines to GATE-CS"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "447c3cf29e385729",
+        "type": "split",
+        "children": [
+          {
+            "id": "a1c6d5c6e7c6aea0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "80784521bca5ca54",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": true
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "885564d7ad2cc180",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "2bf0657860158803",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "25fb3027bb42d785",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 267.5
+      },
+      "right": {
+        "id": "fb0455d62c4f6c20",
+        "type": "split",
+        "children": [
+          {
+            "id": "e047f71d444b979e",
+            "type": "tabs",
+            "dimension": 66.4,
+            "children": [
+              {
+                "id": "4de834b516a58502",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "8ba157ab7f239193",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "40d15956871d0fde",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "8488c56ed1a27af9",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "GATE/Linear-Algebra/System of Linear Equations.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of System of Linear Equations"
+                }
+              },
+              {
+                "id": "13c145e73a31e17b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "2ec29c1e38047089",
+                "type": "leaf",
+                "state": {
+                  "type": "mermaid-toolbar-view",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "64e722562ef2ff69",
+                "type": "leaf",
+                "state": {
+                  "type": "journal-calendar",
+                  "state": {},
+                  "icon": "calendar-days",
+                  "title": "Calendar"
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "5df95600f2476df0",
+            "type": "tabs",
+            "dimension": 33.6,
+            "children": [
+              {
+                "id": "537addfb8bc17cc8",
+                "type": "leaf",
+                "state": {
+                  "type": "map-of-content",
+                  "state": {},
+                  "icon": "stacked-levels",
+                  "title": "Map of Content"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 336.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-kanban:Create new board": false,
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "darlal-switcher-plus:Open in Headings Mode": false,
+          "darlal-switcher-plus:Open Symbols for the active editor": false,
+          "workspaces:Manage workspace layouts": false,
+          "map-of-content:Update Map of Content": false
+        }
+      },
+      "active": "3e9d305405a79cfa",
+      "mtime": "2025-03-23T08:23:27+05:30"
     }
   },
-  "active": "combinatronics and graph theory"
+  "active": "LA"
 }

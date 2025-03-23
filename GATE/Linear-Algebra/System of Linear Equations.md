@@ -23,11 +23,12 @@ tags:
 > 4. $4x - 3y = 1$
 > 
 >> [!header] Not a Linear Equation
-> 1. $x^2 + y = 4$
-> 2. $x^2 - xy = 0$ (Two variables must not be multipled)
-> 3. $x - yz = 4$
-> 4. $\sqrt{x} + y = 2$ ($n^{th}$ roots cause power of a variable to be $\frac{1}{n}$)
-> 5. $x_1^2 + x_2^2 = 15$
+>
+> 5. $x^2 + y = 4$
+> 6. $x^2 - xy = 0$ (Two variables must not be multipled)
+> 7. $x - yz = 4$
+> 8. $\sqrt{x} + y = 2$ ($n^{th}$ roots cause power of a variable to be $\frac{1}{n}$)
+> 9. $x_1^2 + x_2^2 = 15$
 
 - When more than one linear equations are put together, then it is a system of linear equations.
 $$
@@ -64,17 +65,18 @@ The column picture of the system is,
 > The column picture is the best when it comes to system of linear equations with more than 2 unknowns.
 
 There are three cases of solutions for a system of linear equations $Ax = b$,
-1. Unique Solution i.e. meet at a point
-![[System of Linear Equations-20240512100425113.webp]]
-2. No Solution i.e. never intersect at any point, they run parallel
-![[System of Linear Equations-20240512100436270.webp]]
-3. Infinitely many solutions i.e. collinear equations
-![[System of Linear Equations-20240512100513470.webp]]
+
+| solution                                                         | Example                                                |
+| ---------------------------------------------------------------- | ------------------------------------------------------ |
+| Unique solution i.e. meet at a point                             | ![[System of Linear Equations-20240512100425113.webp]] |
+| No solution i.e. never intersect at any point, they run parallel | ![[System of Linear Equations-20240512100436270.webp]] |
+| Infinitely many solutions i.e. collinear equations               | ![[System of Linear Equations-20240512100513470.webp]] |
 
 ---
 ## Understanding $Ax = B$
 
 A system of linear equations can be rewritten in $Ax = B$ form.
+
 ![[System of Linear Equations-20240502080525983.webp]]
 
 Consider the homogenous system from the above system $Ax = 0$,
