@@ -45,7 +45,7 @@ There are two types of systems of linear equations,
 2. Heterogenous $Ax = b$
 
 ---
-## Geometric Interpretations and Possible Solutions
+## Geometric Interpretations
 
 Consider a system of linear equations,
 $$
@@ -56,6 +56,7 @@ x - 2y &= 1 \\
 $$
 
 The row picture of the system is,
+
 ![[System of Linear Equations-20240502080159448.webp]]
 
 The column picture of the system is,
@@ -63,6 +64,8 @@ The column picture of the system is,
 
 > [!tip] 
 > The column picture is the best when it comes to system of linear equations with more than 2 unknowns.
+
+## Possible Solutions to the System
 
 There are three cases of solutions for a system of linear equations $Ax = b$,
 
@@ -106,7 +109,6 @@ If a vector $b$ is a linear combination of the column vectors of a matrix $A$, t
 > ![[System of Linear Equations-20240503123845149.webp]]
 > ![[System of Linear Equations-20240503123834098.webp]]
 > ![[System of Linear Equations-20240503125601163.webp]]
-
 
 ```dot
 digraph G {

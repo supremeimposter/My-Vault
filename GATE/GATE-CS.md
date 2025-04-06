@@ -29,6 +29,8 @@ tags:
 
 ## GATE PYQs
 
+- Engineering Mathematics PYQs
+	- [[Linear Algebra PYQs]]
 - Discrete Mathematics PYQs
 	- [[Logic PYQs]]
 	- [[Set Theory PYQs]]
@@ -37,6 +39,7 @@ tags:
 - [[TOC PYQs]]
 - [[OS PYQs]]
 - [[COA PYQs]]
+
 
 ## Mind Maps
 

@@ -34,7 +34,55 @@
             }
           },
           {
-            "id": "3e9d305405a79cfa",
+            "id": "c3d33e54b9c9cc08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Linear-Algebra/Gaussian Elimination.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Gaussian Elimination"
+            }
+          },
+          {
+            "id": "0e16621aaeda5487",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Linear-Algebra/Linear Algebra PYQs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Linear Algebra PYQs"
+            }
+          },
+          {
+            "id": "7ebf06508e3a040b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,7 +106,7 @@
             }
           },
           {
-            "id": "26f3124891b178c1",
+            "id": "722ea9053604703a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -261,13 +309,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Linear-Algebra/System of Linear Equations.md",
+                "file": "GATE/Linear-Algebra/Gaussian Elimination.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of System of Linear Equations"
+              "title": "Outline of Gaussian Elimination"
             }
           },
           {
@@ -277,20 +325,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
-            }
-          },
-          {
-            "id": "2ec29c1e38047089",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
             }
           },
           {
@@ -342,45 +382,45 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "3e9d305405a79cfa",
+  "active": "c3d33e54b9c9cc08",
   "lastOpenFiles": [
-    "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
-    "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
     "GATE/Linear-Algebra/Linear Algebra.md",
+    "GATE/Linear-Algebra/Gaussian Elimination.md",
+    "GATE/Linear-Algebra/Linear Algebra PYQs.md",
+    "attachments/Linear Algebra PYQs-1743953477690.webp",
+    "attachments/Linear Algebra PYQs-1743953456620.webp",
+    "attachments/Linear Algebra PYQs-1743952701158.webp",
+    "GATE/GATE-CS.md",
+    "attachments/Gaussian Elimination-1743937714912.webp",
     "GATE/Linear-Algebra/System of Linear Equations.md",
-    "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
-    "GATE/Guidelines to GATE-CS.md",
+    "Fitness/Squat University.md",
+    "attachments/AIZ8q1qruKw.jpg",
+    "attachments/my0tLDaWyDU.jpg",
+    "attachments/GuWxLb-iYlg.jpg",
+    "attachments/dBYjU7iBpck.jpg",
+    "attachments/RWF8baFGdFI.jpg",
+    "attachments/ZGePZyqbPNk.jpg",
     "Fitness/Calisthenics.md",
-    "attachments/Distributing Objects into Boxes-1742562562428.webp",
-    "attachments/Distributing Objects into Boxes-1742561787907.webp",
+    "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
+    "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
+    "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md",
     "GATE/DiscreteMathematics/Discrete Mathematics.md",
-    "GATE/DiscreteMathematics/Combinatronics/Binomial Theorem.md",
     "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
     "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
-    "attachments/Linearly Dependent and Independent Vectors-1742229741288.webp",
-    "GATE/Pyqs/Combinatronics PYQs.md",
+    "GATE/Guidelines to GATE-CS.md",
     "GATE/DiscreteMathematics/Combinatronics/Combinatorial Identities.md",
-    "attachments/Combinatorial Identities-1742112497542.webp",
+    "GATE/DiscreteMathematics/Combinatronics/Binomial Theorem.md",
+    "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
+    "Fitness/Fitness.md",
+    "Tags",
+    "GATE/Pyqs/Combinatronics PYQs.md",
     "GATE/DiscreteMathematics/Combinatronics/Counting Nothing.md",
-    "attachments/Permutations and Combinations-1741974109408.webp",
     "GATE/Digital-Logic/Combinational Circuits/Adder for Signed Addition.md",
-    "attachments/Basic Counting Principles-1741790809840.webp",
-    "attachments/Basic Counting Principles-1741789319413.webp",
-    "attachments/Calisthenics-1741524709554.webp",
-    "attachments/image-1.png",
-    "attachments/image.png",
     "Fitness/Warm Ups.md",
     "Philosophy and General Thoughts/My thought process.md",
     "Philosophy and General Thoughts/Life Lessons by Deepak Poonia.md",
     "Vault Index.md",
-    "Fitness/Cardio.md",
-    "Fitness/Fitness.md",
-    "Fitness/Things to remember for my body.md",
-    "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares and Covering Functions.md",
-    "Fitness/Andrew Huberman.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
     "Fitness",
     "Ideas",
     "Competitive-Programming/Number Theory",
@@ -393,7 +433,6 @@
     "Journal/Study-sessions",
     "GATE/Computer-Organization-and-Architecture/Pipeline",
     "Journal",
-    "Philosophy and General Thoughts",
     "SR Latch.canvas",
     "Untitled.canvas"
   ]

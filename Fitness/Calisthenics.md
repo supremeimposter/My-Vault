@@ -9,12 +9,6 @@ tags:
 [How to grow legs with calisthenics (no equipment) - YouTube](https://www.youtube.com/watch?v=h4TAUUqK9L0)
 Legs are very important. First train the legs
 
-**Core**
-
-[The BEST Daily Core Routine (ONLY 8 MINUTES) - YouTube](https://www.youtube.com/watch?v=fAxabPIkAro)
-
-![[Calisthenics-1741524709554.webp]]
-
 **Knees**
 
 [3 BEST Exercises For Strong & Healthy Knees (NO MORE PAIN!) - YouTube](https://www.youtube.com/watch?v=bkvHfK2bBR4)
@@ -26,10 +20,12 @@ Legs are very important. First train the legs
 
 Core engaged + focusing on the quality of the rep is important
 
-**Squats**
 
-[How To Squat Correctly (NO BACK PAIN) - YouTube](https://www.youtube.com/watch?v=my0tLDaWyDU)
-[How to Perform a PERFECT Squat - YouTube](https://www.youtube.com/shorts/AIZ8q1qruKw)
+**Push ups**
+
+Do scapular pushups in the beginning
+Engage the core
+Do 1 rep for a set if nothing is possible, take enough rest to do it again
 
 
 
@@ -89,3 +85,5 @@ Core engaged + focusing on the quality of the rep is important
 [Monkey Bars - The Greatest Exercise the World Forgot 🦍 - YouTube](https://www.youtube.com/watch?v=57v7I_HeKqg)
 
 The ones that are in children's playground.
+
+

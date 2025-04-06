@@ -134,6 +134,7 @@ flowchart LR
 - [[Combinatorial Identities]]
 - [[Binomial Theorem]]
 - [[Distributing Objects into Boxes]]
+- [[Inclusion Exclusion Principle]]
 
 
 > [!youtube] [Recurrence Relations in Discrete Mathematics | Complete Playlist | Applications of Recurrence Relations | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhhTH0o1JBMgscMUvxs4E_4)

@@ -2018,8 +2018,7 @@
                   "title": "Binomial Theorem"
                 }
               }
-            ],
-            "currentTab": 4
+            ]
           }
         ],
         "direction": "vertical"
@@ -2150,13 +2149,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/DiscreteMathematics/Combinatronics/Binomial Theorem.md",
+                    "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Binomial Theorem"
+                  "title": "Outline of Discrete Mathematics"
                 }
               },
               {
@@ -2231,8 +2230,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "a1a3a8408e276dcb",
-      "mtime": "2025-03-17T17:18:24+05:30"
+      "active": "76a07e4786a7142a",
+      "mtime": "2025-03-27T08:06:50+05:30"
     },
     "CP": {
       "main": {
@@ -2526,6 +2525,30 @@
                 }
               },
               {
+                "id": "adffe9fa3f4d8f17",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Inclusion Exclusion Principle"
+                }
+              },
+              {
                 "id": "2527d167a4c554be",
                 "type": "leaf",
                 "state": {
@@ -2574,7 +2597,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -2777,7 +2800,7 @@
         }
       },
       "active": "2527d167a4c554be",
-      "mtime": "2025-03-22T12:04:35+05:30"
+      "mtime": "2025-04-05T20:00:25+05:30"
     },
     "fitness": {
       "main": {
@@ -2811,8 +2834,33 @@
                   "icon": "lucide-file",
                   "title": "Calisthenics"
                 }
+              },
+              {
+                "id": "ecde3016df26b410",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Fitness/Squat University.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Squat University"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -2943,13 +2991,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Fitness/Calisthenics.md",
+                    "file": "Fitness/Squat University.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Calisthenics"
+                  "title": "Outline of Squat University"
                 }
               },
               {
@@ -3024,8 +3072,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "e95d38dcad0339f5",
-      "mtime": "2025-03-22T08:18:32+05:30"
+      "active": "ecde3016df26b410",
+      "mtime": "2025-04-06T00:15:28+05:30"
     },
     "LA": {
       "main": {
@@ -3063,7 +3111,31 @@
                 }
               },
               {
-                "id": "3e9d305405a79cfa",
+                "id": "c76d9f2245f67120",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Linear-Algebra/Gaussian Elimination.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Gaussian Elimination"
+                }
+              },
+              {
+                "id": "7ebf06508e3a040b",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -3087,7 +3159,7 @@
                 }
               },
               {
-                "id": "26f3124891b178c1",
+                "id": "722ea9053604703a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -3290,13 +3362,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Linear-Algebra/System of Linear Equations.md",
+                    "file": "GATE/Linear-Algebra/Gaussian Elimination.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of System of Linear Equations"
+                  "title": "Outline of Gaussian Elimination"
                 }
               },
               {
@@ -3306,20 +3378,12 @@
                   "type": "tag",
                   "state": {
                     "sortOrder": "frequency",
-                    "useHierarchy": true
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-tags",
                   "title": "Tags"
-                }
-              },
-              {
-                "id": "2ec29c1e38047089",
-                "type": "leaf",
-                "state": {
-                  "type": "mermaid-toolbar-view",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
                 }
               },
               {
@@ -3371,8 +3435,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "3e9d305405a79cfa",
-      "mtime": "2025-03-23T08:23:27+05:30"
+      "active": "c76d9f2245f67120",
+      "mtime": "2025-04-05T22:11:52+05:30"
     }
   },
   "active": "LA"

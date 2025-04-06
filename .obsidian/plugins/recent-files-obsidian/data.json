@@ -1,40 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "System of Linear Equations",
-      "path": "GATE/Linear-Algebra/System of Linear Equations.md"
-    },
-    {
-      "basename": "Linearly Dependent and Independent Vectors",
-      "path": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
-    },
-    {
-      "basename": "Introduction to Linear Algebra",
-      "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
+      "basename": "Gaussian Elimination",
+      "path": "GATE/Linear-Algebra/Gaussian Elimination.md"
     },
     {
       "basename": "Linear Algebra",
       "path": "GATE/Linear-Algebra/Linear Algebra.md"
     },
     {
-      "basename": "Distributing Objects into Boxes",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
+      "basename": "Linear Algebra PYQs",
+      "path": "GATE/Linear-Algebra/Linear Algebra PYQs.md"
     },
     {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
+      "basename": "GATE-CS",
+      "path": "GATE/GATE-CS.md"
+    },
+    {
+      "basename": "System of Linear Equations",
+      "path": "GATE/Linear-Algebra/System of Linear Equations.md"
+    },
+    {
+      "basename": "Squat University",
+      "path": "Fitness/Squat University.md"
     },
     {
       "basename": "Calisthenics",
       "path": "Fitness/Calisthenics.md"
     },
     {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
+      "basename": "Linearly Dependent and Independent Vectors",
+      "path": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
     },
     {
-      "basename": "Binomial Theorem",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Binomial Theorem.md"
+      "basename": "Distributing Objects into Boxes",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
+    },
+    {
+      "basename": "Inclusion Exclusion Principle",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
     },
     {
       "basename": "Basic Counting Principles",
@@ -45,12 +53,28 @@
       "path": "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md"
     },
     {
-      "basename": "Combinatronics PYQs",
-      "path": "GATE/Pyqs/Combinatronics PYQs.md"
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
       "basename": "Combinatorial Identities",
       "path": "GATE/DiscreteMathematics/Combinatronics/Combinatorial Identities.md"
+    },
+    {
+      "basename": "Binomial Theorem",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Binomial Theorem.md"
+    },
+    {
+      "basename": "Introduction to Linear Algebra",
+      "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
+    },
+    {
+      "basename": "Fitness",
+      "path": "Fitness/Fitness.md"
+    },
+    {
+      "basename": "Combinatronics PYQs",
+      "path": "GATE/Pyqs/Combinatronics PYQs.md"
     },
     {
       "basename": "Counting Nothing",
@@ -137,10 +161,6 @@
       "path": "GATE/Pyqs/COA PYQs.md"
     },
     {
-      "basename": "GATE-CS",
-      "path": "GATE/GATE-CS.md"
-    },
-    {
       "basename": "Registers and Status Flags in CPU",
       "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Concurrency-Control-Protocols",
       "path": "GATE/Mind-maps/Concurrency-Control-Protocols.canvas"
-    },
-    {
-      "basename": "Database-Management-System-Mindmap",
-      "path": "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas"
-    },
-    {
-      "basename": "Lock-based Protocols",
-      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md"
-    },
-    {
-      "basename": "ER Model",
-      "path": "GATE/DatabaseManagementSystem/ER-Model/ER Model.md"
-    },
-    {
-      "basename": "Serializability",
-      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md"
-    },
-    {
-      "basename": "B Tree",
-      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
     }
   ],
   "omittedPaths": [

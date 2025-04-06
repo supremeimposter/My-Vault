@@ -200,6 +200,11 @@ Similary a set of linearly independent set of vectors from the vector space $\ma
 > [!intuition] 
 > Do not associate spanning of a vector space with linearly dependent or independent set of vectors
 
+
+> [!observation] 
+
+- Any set of n linearly independent vectors from $\mathbb{R}^{n}$ forms a basis for $\mathbb{R}^{n}$, even if they’re not the standard basis vectors like $\{(1, 0, 0, \cdots), (0, 1, 0, \cdots), \cdots\}$.
+
 > [!summary] 
 - If there are more than $n$ vectors from $\mathbb{R}_n$ in a set $Q$, then the set is definitely LD. We have to check for LI or LD set, only if we have less than or equal to $n$ vectors.
 - Any $n$ LI vectors from $\mathbb{R}_n$ can fill the space in $\mathbb{R}_n$.

@@ -11,6 +11,7 @@ tags:
   - LinearAlgebra/LinearEquations
 ---
 # Gaussian Elimination
+
 Gaussian Elimination (or Row Reduction) is an algorithm for solving system of linear equations.
 
 ```mermaid
@@ -19,6 +20,7 @@ flowchart LR
 ```
 
 ## Row Echelon Form
+
 Every linear system is equivalent to a system whose augmented matrix is in row echelon form. Echelon form of a matrix is obtained after [[Gaussian Elimination#Elementary Row Operations|elementary row operations]].
 
 Echelon form of a matrix has the following characteristics.
@@ -35,6 +37,7 @@ Echelon form can be used to find out the rank of a matrix.
 A matrix can have more than one echelon form.
 
 ### Reduced Row Echelon Form
+
 Reduced row echelon form has the following additional properties,
 1. Each leading entry of a row is 1.
 2. There are zeros above and below each leading 1.
@@ -42,6 +45,7 @@ Reduced row echelon form has the following additional properties,
 ![[Gaussian Elimination-20240504113324021.webp|Row echelon form to Reduced row echelon form]]
 
 ## Pivot and Free Variables
+
 Each column in the matrix $A$ is associated with a variable in the vector $x$.
 
 > [!example] 
@@ -66,6 +70,7 @@ Free column is always linearly dependant on pivot columns. If a matrix has a fre
 > ![[Gaussian Elimination-20240504115632272.webp]]
 
 ## Elementary Row Operations
+
 These operations are performed on the rows of a matrix.
 
 1. Swap the positions of two rows i.e. $R_i \leftrightarrow R_j$
@@ -89,6 +94,7 @@ Though elementary row operations are applied on a matrix, the matrix maintains i
 ## Rank of a Matrix
 
 In echelon form of a matrix, rank is 
+
 1. Number of linearly independent rows
 2. Number of linearly independent columns
 3. Number of pivot elements in echelon form
@@ -99,6 +105,7 @@ In echelon form of a matrix, rank is
 > Do not consider $b$ vector entry in the augmented matrix in rank nullity.
 
 ### Rank Nullity Theorem
+
 Nullity is the number of free variables or columns.
 
 If there are free variables in an echelon form of a matrix, then there are infinitely many solutions possible to the given system.
@@ -155,17 +162,20 @@ graph G {
 }
 ```
 
-In case of infinitely many solutions, the solution to the system is in parametric form and it consists of LI vectors. If there are $k$ free variables, then there are $k$ LI vectors. No. of independent solutions = nullity.
+In case of infinitely many solutions, the solution to the system is in parametric form and it consists of LI vectors. If there are $k$ free variables, then there are $k$ LI vectors. No. of linearly independent solutions = nullity.
 
 > [!NOTE] 
 > Homogenous system can never be the inconsistent as the rightmost column of the augmented matrix is always filled with zeros i.e. $[0\;\cdots\; 0 \; b]$ never occurs in the augmented matrix of homogenous system.
 
 > [!observation] 
-> If a single linear equation has greater than or equal to 2 unknowns, then there will be infinitely many solutions.
+> If a single linear equation has greater than or equal to 2 unknowns, then there will be infinitely many solutions. 
 > ![[Gaussian Elimination-20240503222603929.webp]]
+> This can be thinked in the way of an [[Distributing Objects into Boxes#IODB|Integer composition]]
 
 Non-homogenous system have a constant vector in their parametric form of the solution.
 Non-homogenous system does not have a solution iff $[0\;\cdots\; 0 \; b]$ exist.
+
+![[Gaussian Elimination-1743937714912.webp]]
 
 > [!header] Rank of matrix $A$ and augmented matrix $A \mid b$
 
@@ -194,7 +204,7 @@ The system is consistent and has solutions.
 
 ![[Gaussian Elimination-20240504093415651.webp]]
 
-If the last row has a leading entry i.e. pivot element in the last row, then the system always has a solution, regardless of the last entry.
+If the last row has a leading entry within A i.e. pivot element in the last row, then the system always has a solution, regardless of the last entry.
 
 ![[Gaussian Elimination-20240504092723507.webp]]
 
@@ -266,6 +276,7 @@ For a matrix $A_{m \times n}$,
 $$
 \text{rank}(A) \le \text{min}(m, n)
 $$
+
 ````col
 ```col-md
 flexGrow=1
