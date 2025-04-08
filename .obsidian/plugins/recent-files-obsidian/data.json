@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Distributing Objects into Boxes",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
+    },
+    {
+      "basename": "Squat University",
+      "path": "Fitness/Squat University.md"
+    },
+    {
+      "basename": "Fitness",
+      "path": "Fitness/Fitness.md"
+    },
+    {
+      "basename": "Calisthenics",
+      "path": "Fitness/Calisthenics.md"
+    },
+    {
+      "basename": "Inclusion Exclusion Principle",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md"
+    },
+    {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
       "basename": "Gaussian Elimination",
       "path": "GATE/Linear-Algebra/Gaussian Elimination.md"
     },
@@ -21,24 +45,8 @@
       "path": "GATE/Linear-Algebra/System of Linear Equations.md"
     },
     {
-      "basename": "Squat University",
-      "path": "Fitness/Squat University.md"
-    },
-    {
-      "basename": "Calisthenics",
-      "path": "Fitness/Calisthenics.md"
-    },
-    {
       "basename": "Linearly Dependent and Independent Vectors",
       "path": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
-    },
-    {
-      "basename": "Distributing Objects into Boxes",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
-    },
-    {
-      "basename": "Inclusion Exclusion Principle",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md"
     },
     {
       "basename": "Discrete Mathematics",
@@ -53,10 +61,6 @@
       "path": "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md"
     },
     {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
-    },
-    {
       "basename": "Combinatorial Identities",
       "path": "GATE/DiscreteMathematics/Combinatronics/Combinatorial Identities.md"
     },
@@ -67,10 +71,6 @@
     {
       "basename": "Introduction to Linear Algebra",
       "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
-    },
-    {
-      "basename": "Fitness",
-      "path": "Fitness/Fitness.md"
     },
     {
       "basename": "Combinatronics PYQs",

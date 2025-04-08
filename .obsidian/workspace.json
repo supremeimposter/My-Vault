@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ceb15a922314500d",
+            "id": "76a07e4786a7142a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Linear-Algebra/Linear Algebra.md",
+                "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -30,16 +30,16 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Linear Algebra"
+              "title": "Discrete Mathematics"
             }
           },
           {
-            "id": "c3d33e54b9c9cc08",
+            "id": "adffe9fa3f4d8f17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Linear-Algebra/Gaussian Elimination.md",
+                "file": "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,16 +54,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gaussian Elimination"
+              "title": "Inclusion Exclusion Principle"
             }
           },
           {
-            "id": "0e16621aaeda5487",
+            "id": "2527d167a4c554be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Linear-Algebra/Linear Algebra PYQs.md",
+                "file": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,83 +78,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Linear Algebra PYQs"
+              "title": "Distributing Objects into Boxes"
             }
           },
           {
-            "id": "7ebf06508e3a040b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Linear-Algebra/System of Linear Equations.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "System of Linear Equations"
-            }
-          },
-          {
-            "id": "722ea9053604703a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Linearly Dependent and Independent Vectors"
-            }
-          },
-          {
-            "id": "989f9b0d56924b49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Introduction to Linear Algebra"
-            }
-          },
-          {
-            "id": "087404d24fd53302",
+            "id": "c9c69a5be1ad03a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -178,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,7 +126,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -309,13 +237,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Linear-Algebra/Gaussian Elimination.md",
+                "file": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Gaussian Elimination"
+              "title": "Outline of Distributing Objects into Boxes"
             }
           },
           {
@@ -325,9 +253,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -382,36 +308,36 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "c3d33e54b9c9cc08",
+  "active": "2527d167a4c554be",
   "lastOpenFiles": [
-    "GATE/Linear-Algebra/Linear Algebra.md",
-    "GATE/Linear-Algebra/Gaussian Elimination.md",
-    "GATE/Linear-Algebra/Linear Algebra PYQs.md",
-    "attachments/Linear Algebra PYQs-1743953477690.webp",
-    "attachments/Linear Algebra PYQs-1743953456620.webp",
-    "attachments/Linear Algebra PYQs-1743952701158.webp",
-    "GATE/GATE-CS.md",
-    "attachments/Gaussian Elimination-1743937714912.webp",
-    "GATE/Linear-Algebra/System of Linear Equations.md",
     "Fitness/Squat University.md",
-    "attachments/AIZ8q1qruKw.jpg",
-    "attachments/my0tLDaWyDU.jpg",
-    "attachments/GuWxLb-iYlg.jpg",
-    "attachments/dBYjU7iBpck.jpg",
-    "attachments/RWF8baFGdFI.jpg",
-    "attachments/ZGePZyqbPNk.jpg",
+    "attachments/RoiWkNKDEBU.jpg",
+    "attachments/0XVbn86Btj0.jpg",
+    "attachments/ubdIGnX2Hfs.jpg",
+    "attachments/P3WtxCjUKFU.jpg",
+    "attachments/KT6ivmmz6EU.jpg",
+    "attachments/xSEX3r_hs8o.jpg",
+    "attachments/p40iUjf02j0.jpg",
+    "attachments/MnssBu_cmC0.jpg",
+    "attachments/XTfhKUZWd0E.jpg",
+    "attachments/q4BV_xNYbsY.jpg",
+    "Fitness/Fitness.md",
     "Fitness/Calisthenics.md",
-    "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
     "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
     "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md",
+    "GATE/Guidelines to GATE-CS.md",
+    "GATE/Linear-Algebra/Gaussian Elimination.md",
+    "GATE/Linear-Algebra/Linear Algebra.md",
+    "GATE/Linear-Algebra/Linear Algebra PYQs.md",
+    "GATE/GATE-CS.md",
+    "GATE/Linear-Algebra/System of Linear Equations.md",
+    "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
     "GATE/DiscreteMathematics/Discrete Mathematics.md",
     "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
     "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
-    "GATE/Guidelines to GATE-CS.md",
     "GATE/DiscreteMathematics/Combinatronics/Combinatorial Identities.md",
     "GATE/DiscreteMathematics/Combinatronics/Binomial Theorem.md",
     "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
-    "Fitness/Fitness.md",
     "Tags",
     "GATE/Pyqs/Combinatronics PYQs.md",
     "GATE/DiscreteMathematics/Combinatronics/Counting Nothing.md",

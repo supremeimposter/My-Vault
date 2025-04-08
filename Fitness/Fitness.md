@@ -8,6 +8,7 @@ tags:
 - [[Warm Ups]]
 - [[Cardio]]
 - [[Calisthenics]]
+- [[Squat University]]
 
 - [[Things to remember for my body]]
 

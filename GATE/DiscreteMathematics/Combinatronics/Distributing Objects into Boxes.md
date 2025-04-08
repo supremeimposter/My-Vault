@@ -80,7 +80,7 @@ $$
 $$
 
 - Combinations can be considered as choosing elements for sets
-- Combiantions with repetitions can be considered as multi-sets
+- Combinations with repetitions can be considered as multi-sets
 
 ![[Distributing Objects into Boxes-1743744609711.webp]]
 

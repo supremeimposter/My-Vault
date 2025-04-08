@@ -36,8 +36,32 @@ Thumbnail: attachments/2_e4I-brfqs.jpg
 AuthorUrl: https://www.youtube.com/@SquatUniversity
 ```
 
+```vid
+https://www.youtube.com/watch?v=xSEX3r_hs8o
+Title: Get Abs the Right Way (FULL WORKOUT)
+Author: Squat University
+Thumbnail: attachments/xSEX3r_hs8o.jpg
+AuthorUrl: https://www.youtube.com/@SquatUniversity
+```
+
+```vid
+https://www.youtube.com/watch?v=KT6ivmmz6EU
+Title: The BEST Ab Workout Ever Created
+Author: Squat University
+Thumbnail: attachments/KT6ivmmz6EU.jpg
+AuthorUrl: https://www.youtube.com/@SquatUniversity
+```
+
+```vid
+https://www.youtube.com/watch?v=0XVbn86Btj0
+Title: You're Doing Dead Bugs WRONG! Fix This for Stronger Abs & a Bulletproof Core
+Author: Squat University
+Thumbnail: attachments/0XVbn86Btj0.jpg
+AuthorUrl: https://www.youtube.com/@SquatUniversity
+```
 
 ## Shoulders
+
 
 ```vid
 https://www.youtube.com/watch?v=ZGePZyqbPNk
@@ -47,10 +71,50 @@ Thumbnail: attachments/ZGePZyqbPNk.jpg
 AuthorUrl: https://www.youtube.com/@SquatUniversity
 ```
 
+```vid
+https://www.youtube.com/watch?v=p40iUjf02j0
+Title: Build A STRONG & Muscular Back With Pull Ups (TOP SECRET METHOD)
+Author: Squat University
+Thumbnail: attachments/p40iUjf02j0.jpg
+AuthorUrl: https://www.youtube.com/@SquatUniversity
+```
+
+```vid
+https://www.youtube.com/watch?v=RoiWkNKDEBU
+Title: The #1 Remedy For Bad Posture
+Author: Squat University
+Thumbnail: attachments/RoiWkNKDEBU.jpg
+AuthorUrl: https://www.youtube.com/@SquatUniversity
+```
+
+## Hip
+
+```vid
+https://www.youtube.com/watch?v=12NGWxpDlr8
+Title: Fix Weak Hips FAST! Top 4 Exercises for Strength & Stability (NO MORE PAIN!)
+Author: Squat University
+Thumbnail: attachments/12NGWxpDlr8.jpg
+AuthorUrl: https://www.youtube.com/@SquatUniversity
+```
+
+
+```vid
+https://www.youtube.com/watch?v=q4BV_xNYbsY
+Title: How To Fix Back Pain (7 Science Backed Steps)
+Author: Squat University
+Thumbnail: attachments/q4BV_xNYbsY.jpg
+AuthorUrl: https://www.youtube.com/@SquatUniversity
+```
+
 ## Squats
 
-
-[How To Squat For Your Anatomy (FIND THE RIGHT STANCE) - YouTube](https://www.youtube.com/watch?v=ubdIGnX2Hfs)
+```vid
+https://www.youtube.com/watch?v=ubdIGnX2Hfs
+Title: How To Squat For Your Anatomy (FIND THE RIGHT STANCE)
+Author: Squat University
+Thumbnail: attachments/ubdIGnX2Hfs.jpg
+AuthorUrl: https://www.youtube.com/@SquatUniversity
+```
 
 Retroversion (my hip profile)
 seated : excessive external rotation (towards the other leg)
@@ -85,9 +149,37 @@ AuthorUrl: https://www.youtube.com/@SquatUniversity
 - Do a little wider stance than your normal stance
 - squat deep only till you maintain the neutral spine position.
 
+```vid
+https://www.youtube.com/watch?v=P3WtxCjUKFU
+Title: 5 Tips To Squat MORE Weight!
+Author: Squat University
+Thumbnail: attachments/P3WtxCjUKFU.jpg
+AuthorUrl: https://www.youtube.com/@SquatUniversity
+```
+
 ## Ankles
 
 
+
+## Knees
+
+```vid
+https://www.youtube.com/watch?v=MnssBu_cmC0
+Title: Get Rid of Knee Pain Fast [4 PROVEN STRATEGIES]
+Author: Squat University
+Thumbnail: attachments/MnssBu_cmC0.jpg
+AuthorUrl: https://www.youtube.com/@SquatUniversity
+```
+
+## Feet
+
+```vid
+https://www.youtube.com/watch?v=XTfhKUZWd0E
+Title: 5 Best Exercises For STRONG Feet!
+Author: Squat University
+Thumbnail: attachments/XTfhKUZWd0E.jpg
+AuthorUrl: https://www.youtube.com/@SquatUniversity
+```
 
 ## Glutes
 
