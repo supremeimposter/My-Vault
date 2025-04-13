@@ -3111,6 +3111,54 @@
                 }
               },
               {
+                "id": "2f10af404e65d1f5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Linear-Algebra/Crammer's Rule.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Crammer's Rule"
+                }
+              },
+              {
+                "id": "45b8310c2edb3889",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Linear-Algebra/Determinants.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Determinants"
+                }
+              },
+              {
                 "id": "c3d33e54b9c9cc08",
                 "type": "leaf",
                 "state": {
@@ -3156,78 +3204,6 @@
                   },
                   "icon": "lucide-file",
                   "title": "Linear Algebra PYQs"
-                }
-              },
-              {
-                "id": "7ebf06508e3a040b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Linear-Algebra/System of Linear Equations.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "System of Linear Equations"
-                }
-              },
-              {
-                "id": "722ea9053604703a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Linearly Dependent and Independent Vectors"
-                }
-              },
-              {
-                "id": "989f9b0d56924b49",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Introduction to Linear Algebra"
                 }
               },
               {
@@ -3386,13 +3362,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Linear-Algebra/Gaussian Elimination.md",
+                    "file": "GATE/Linear-Algebra/Crammer's Rule.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Gaussian Elimination"
+                  "title": "Outline of Crammer's Rule"
                 }
               },
               {
@@ -3459,8 +3435,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "c3d33e54b9c9cc08",
-      "mtime": "2025-04-07T08:46:00+05:30"
+      "active": "2f10af404e65d1f5",
+      "mtime": "2025-04-10T09:33:13+05:30"
     }
   },
   "active": "combinatronics"

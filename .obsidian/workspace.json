@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -237,13 +237,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Distributing Objects into Boxes"
+              "title": "Outline of Guidelines to GATE-CS"
             }
           },
           {
@@ -308,9 +308,17 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "2527d167a4c554be",
+  "active": "c9c69a5be1ad03a7",
   "lastOpenFiles": [
+    "Philosophy and General Thoughts/My thought process.md",
+    "GATE/Guidelines to GATE-CS.md",
+    "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md",
+    "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
     "Fitness/Squat University.md",
+    "GATE/Linear-Algebra/Crammer's Rule.md",
+    "GATE/Linear-Algebra/Linear Algebra.md",
+    "GATE/Linear-Algebra/Determinants.md",
+    "GATE/Linear-Algebra/Gaussian Elimination.md",
     "attachments/RoiWkNKDEBU.jpg",
     "attachments/0XVbn86Btj0.jpg",
     "attachments/ubdIGnX2Hfs.jpg",
@@ -323,11 +331,6 @@
     "attachments/q4BV_xNYbsY.jpg",
     "Fitness/Fitness.md",
     "Fitness/Calisthenics.md",
-    "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
-    "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md",
-    "GATE/Guidelines to GATE-CS.md",
-    "GATE/Linear-Algebra/Gaussian Elimination.md",
-    "GATE/Linear-Algebra/Linear Algebra.md",
     "GATE/Linear-Algebra/Linear Algebra PYQs.md",
     "GATE/GATE-CS.md",
     "GATE/Linear-Algebra/System of Linear Equations.md",
@@ -343,9 +346,7 @@
     "GATE/DiscreteMathematics/Combinatronics/Counting Nothing.md",
     "GATE/Digital-Logic/Combinational Circuits/Adder for Signed Addition.md",
     "Fitness/Warm Ups.md",
-    "Philosophy and General Thoughts/My thought process.md",
     "Philosophy and General Thoughts/Life Lessons by Deepak Poonia.md",
-    "Vault Index.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "Fitness",
     "Ideas",

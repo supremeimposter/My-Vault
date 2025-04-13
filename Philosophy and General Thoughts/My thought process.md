@@ -17,3 +17,4 @@ Dating
 Its the unique human I am studying and opening myself to them, seeing if we click somewhere and one things leads to another. Until then, dates can be platonic opening up to more possibilites and less heart-break
 
 
+

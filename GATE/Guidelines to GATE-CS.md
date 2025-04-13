@@ -29,6 +29,12 @@ x^2 = y^2 \rightarrow \mid x \mid = \mid y \mid
 \end{equation}
 $$
 
+The square root function returns only non-negative root.
+The equation $y^2 = x$ has two solutions, but the function $\sqrt{ x }$ is defined to return only the non-negative root.
+$$
+\sqrt{ x^2 } \;=\; \mid x \mid
+$$
+
 ## Guidelines to Programming with C
 
 

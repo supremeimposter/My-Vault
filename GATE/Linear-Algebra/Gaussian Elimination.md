@@ -219,7 +219,7 @@ flexGrow=1
 ```col-md
 flexGrow=1
 ===
-If the rank$(A)$ = $n$ in the system $Ax = 0$ has only trivial solution, whether $m \gt n$ or $m = n$ or $m \lt n$.
+If the rank$(A)$ = $n$ in the system $Ax = 0$ has only trivial solution, whether $m \gt n$ or $m = n$.
 
 All columns are pivot columns and there are no free variables.
 ```

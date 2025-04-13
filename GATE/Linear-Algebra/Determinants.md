@@ -127,7 +127,7 @@ $$
 
 - $\text{det}(A + B) \not= \text{det}(A) + \text{det}(B)$
 - If two rows (or columns) of $A$ are equal, then $\text{det}(A) = 0$
-- This elementary row operation ($R_{i} \rightarrow R_{i} + c R_{j}$) leaves the $\det(A)$ unchanged.
+- This elementary row operation $R_{i} \rightarrow R_{i} + c R_{j}$ leaves the $\det(A)$ unchanged.
 $$
 \begin{vmatrix}
 a&b \\
@@ -155,26 +155,24 @@ c&d
 \end{vmatrix}
 $$
 - If a matrix $A$ has a row (or column) of zeros, then $\det(A) = 0$.
-- Determinant of a diagonal matrix is the product of its principle diagonal elements.
-- Determinant of a upper triangular or lower triangular matrix is the product of its principle diagonal elements.
+
 - Row operations such as $R_{i} \rightarrow c_{1} R_{j} + c_{2} R_{k}$ changes $\\det(A)$.
 - $\det(A) = \det(A^T)$
 - $\det(AB) = \det(A) \ast \det(B)$
 - $\mid A^n \mid = (\;\mid A \mid\;)^n$
-- Determinant evaluated across any row or column is zero.
+- Determinant evaluated across any row or column is same.
 - $\det(c \; A) = c^n\; \det(A), c \in \mathbb{R}$ and $n$ is the dimension of $A$.
-- If the columns of a matrix are LD set of vectors, then its determinant is 0. Since a column can be represented as a linear combination of every other vector, then the determinant can be operated to have two similar columns making its determinant 0.
+- If the columns of a matrix are LD set of vectors, then its determinant is 0. Since a column can be represented as a linear combination of other vectors, then the determinant can be operated to have two similar columns making its determinant 0.
 - If a matrix $A$ is singular, then $\det(A) = 0$.
 
 ## Calculating Determinants
+
 1. Calculate using permutations.
-2. Convert given matrix to echelon form and calculate the product of pivot elements. Keep track of the interchanging of the rows(or columns).
-$$
-\det(A) = \pm \; d_{1} d_{2} \cdots d_{n}
-$$
+2. Calculate using Pivot formula.
 3. Calculate using co-factors.
 
 ### Calculating using Permutations
+
 If a $n \times n$ determinant is expanded, then there are $n!$ determinants which will survive out of $n^n$ terms.
 
 ![[Determinants-20240509094718207.webp]]
@@ -219,7 +217,7 @@ $$
 The sign of the product term $a_{31} \; a_{12} \; a_{23}$ is positive.
 
 $$
-\det(A_{n \times n}) = \sum_{\text{all permutations}} \pm \;a_{1 \alpha} \; a_{2 \beta} \; a_{3 \gamma} \; a_{n \omega} 
+\det(A_{n \times n}) = \sum_{\text{all permutations}} \pm \;a_{1 \alpha} \; a_{2 \beta} \; a_{3 \gamma} \; \cdots  \; a_{n \omega} 
 $$
 
 > [!example] 
@@ -236,18 +234,22 @@ $$
 Since the row operations such as $R_{i} \rightarrow c \;R_{i} + k\; R_{j}$ affects the value of the determinant. The original value of the determinant can be obtained by dividing the determinant by $c$.
 
 ### Pivot Formula
+
 Convert the given matrix to echelon form and calculate the product of pivot elements. 
 Keep track of interchanging of rows(or columns).
 $$
 \det(A) = \pm \; d_{1} d_{2} \cdots d_{n}
 $$
+Determinant of a diagonal matrix is the product of its principle diagonal elements.
+Determinant of a upper triangular or lower triangular matrix is the product of its principle diagonal elements.
 
 ### Cofactor Formula
+
 Determinant is the dot product of any row (or column) $i$ of a matrix $A$ with its cofactors using other rows.
 
 Cofactors are auxiliary values associated with each element of a matrix.
 
-If $a_{ij}$ is an element of the matrix $A_{n \times n}$, then $A_{ij}$ is the co-factor of the element $a_{ij}$.
+If $a_{ij}$ is an element of the matrix $A_{n \times n}$, then $C_{ij}$ is the co-factor of the element $a_{ij}$.
 The sign of the co-factor of $a_{ij} = (-1)^{(i + j)}$
 $C_{ij}$ does not depend on the element $a_{ij}$.
 
@@ -309,11 +311,11 @@ a_{31}&a_{32}&a_{33}
 $$
 then, the determinant $\Delta = a_{21}\; C_{11} + a_{22} \;C_{12} + a_{23}\; C_{13}$ is represented as,
 $$
-B = \begin{vmatrix}
+\Delta = \begin{vmatrix}
 a_{21}&a_{22}&a_{23} \\
 a_{21}&a_{22}&a_{23} \\
 a_{31}&a_{32}&a_{33}
-\end{vmatrix}
+\end{vmatrix} = 0
 $$
 
 > [!observation] 
@@ -426,10 +428,10 @@ $$
 $$
 \text{adj}(A) = \; \mid A \mid A^{-1}
 $$
+The determinant of inverse of matrix $A$,
 $$
 \mid A^{-1} \mid \;= \frac{1}{\mid A \mid} 
 $$
-
 Since the matrix $E$ is the adjoint of the matrix $A$,
 $$
 A \cdot \text{adj}(A) = \; \mid A \mid \; I

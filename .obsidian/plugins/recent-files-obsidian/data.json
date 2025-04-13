@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "My thought process",
+      "path": "Philosophy and General Thoughts/My thought process.md"
+    },
+    {
+      "basename": "Inclusion Exclusion Principle",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md"
+    },
+    {
       "basename": "Distributing Objects into Boxes",
       "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
     },
@@ -9,28 +21,28 @@
       "path": "Fitness/Squat University.md"
     },
     {
-      "basename": "Fitness",
-      "path": "Fitness/Fitness.md"
+      "basename": "Crammer's Rule",
+      "path": "GATE/Linear-Algebra/Crammer's Rule.md"
     },
     {
-      "basename": "Calisthenics",
-      "path": "Fitness/Calisthenics.md"
+      "basename": "Linear Algebra",
+      "path": "GATE/Linear-Algebra/Linear Algebra.md"
     },
     {
-      "basename": "Inclusion Exclusion Principle",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md"
-    },
-    {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
+      "basename": "Determinants",
+      "path": "GATE/Linear-Algebra/Determinants.md"
     },
     {
       "basename": "Gaussian Elimination",
       "path": "GATE/Linear-Algebra/Gaussian Elimination.md"
     },
     {
-      "basename": "Linear Algebra",
-      "path": "GATE/Linear-Algebra/Linear Algebra.md"
+      "basename": "Fitness",
+      "path": "Fitness/Fitness.md"
+    },
+    {
+      "basename": "Calisthenics",
+      "path": "Fitness/Calisthenics.md"
     },
     {
       "basename": "Linear Algebra PYQs",
@@ -87,10 +99,6 @@
     {
       "basename": "Warm Ups",
       "path": "Fitness/Warm Ups.md"
-    },
-    {
-      "basename": "My thought process",
-      "path": "Philosophy and General Thoughts/My thought process.md"
     },
     {
       "basename": "Digital Logic",
@@ -191,14 +199,6 @@
     {
       "basename": "Introduction to Operating Systems",
       "path": "GATE/OperatingSystems/Introduction to Operating Systems.md"
-    },
-    {
-      "basename": "Time Stamp-based Protocols",
-      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md"
-    },
-    {
-      "basename": "Concurrency-Control-Protocols",
-      "path": "GATE/Mind-maps/Concurrency-Control-Protocols.canvas"
     }
   ],
   "omittedPaths": [
