@@ -4,85 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "df7f94ce3ab6c62b",
+        "id": "f5b89db6f1e09b3f",
         "type": "tabs",
         "children": [
           {
-            "id": "76a07e4786a7142a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Discrete Mathematics"
-            }
-          },
-          {
-            "id": "adffe9fa3f4d8f17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Inclusion Exclusion Principle"
-            }
-          },
-          {
-            "id": "2527d167a4c554be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Distributing Objects into Boxes"
-            }
-          },
-          {
-            "id": "c9c69a5be1ad03a7",
+            "id": "7b788ce81cda6ddc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -104,9 +30,56 @@
               "icon": "lucide-file",
               "title": "Guidelines to GATE-CS"
             }
+          },
+          {
+            "id": "1200fff9e49ffa71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/TheoryOfComputation/Theory of Computation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Theory of Computation"
+            }
+          },
+          {
+            "id": "355c13d7108f7f33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Pyqs/TOC PYQs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TOC PYQs"
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/TheoryOfComputation/Theory of Computation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +173,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Guidelines to GATE-CS"
+              "title": "Backlinks for Theory of Computation"
             }
           },
           {
@@ -209,12 +182,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/TheoryOfComputation/Theory of Computation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Guidelines to GATE-CS"
+              "title": "Outgoing links from Theory of Computation"
             }
           },
           {
@@ -253,14 +226,26 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "64e722562ef2ff69",
+            "id": "2ec29c1e38047089",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "92acdc507560220c",
             "type": "leaf",
             "state": {
               "type": "journal-calendar",
@@ -308,12 +293,13 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "c9c69a5be1ad03a7",
+  "active": "7b788ce81cda6ddc",
   "lastOpenFiles": [
-    "Philosophy and General Thoughts/My thought process.md",
+    "GATE/TheoryOfComputation/Theory of Computation.md",
     "GATE/Guidelines to GATE-CS.md",
-    "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md",
     "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
+    "Philosophy and General Thoughts/My thought process.md",
+    "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md",
     "Fitness/Squat University.md",
     "GATE/Linear-Algebra/Crammer's Rule.md",
     "GATE/Linear-Algebra/Linear Algebra.md",
@@ -346,7 +332,6 @@
     "GATE/DiscreteMathematics/Combinatronics/Counting Nothing.md",
     "GATE/Digital-Logic/Combinational Circuits/Adder for Signed Addition.md",
     "Fitness/Warm Ups.md",
-    "Philosophy and General Thoughts/Life Lessons by Deepak Poonia.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "Fitness",
     "Ideas",

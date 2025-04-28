@@ -5,16 +5,20 @@
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
+      "basename": "Theory of Computation",
+      "path": "GATE/TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Distributing Objects into Boxes",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
+    },
+    {
       "basename": "My thought process",
       "path": "Philosophy and General Thoughts/My thought process.md"
     },
     {
       "basename": "Inclusion Exclusion Principle",
       "path": "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md"
-    },
-    {
-      "basename": "Distributing Objects into Boxes",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
     },
     {
       "basename": "Squat University",
@@ -195,10 +199,6 @@
     {
       "basename": "System Calls",
       "path": "GATE/OperatingSystems/System Calls.md"
-    },
-    {
-      "basename": "Introduction to Operating Systems",
-      "path": "GATE/OperatingSystems/Introduction to Operating Systems.md"
     }
   ],
   "omittedPaths": [

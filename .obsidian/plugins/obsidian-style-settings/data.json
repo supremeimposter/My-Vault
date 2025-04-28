@@ -526,5 +526,12 @@
   "Appearance-light@@card-highlight-light": false,
   "Appearance-dark@@card-layout-open-dark": true,
   "Editor@@codeblock-style-select": "codeblock-style-dracula",
-  "Editor@@callout-style-select": "callout-style-3"
+  "Editor@@callout-style-select": "callout-style-3",
+  "fastppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
+  "fastppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-teal",
+  "fastppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-peach",
+  "fastppuccin-theme-settings@@anp-file-icons": true,
+  "fastppuccin-theme-settings@@anp-alternate-tab-toggle": false,
+  "fastppuccin-theme-settings@@hide-external-link-icon": false,
+  "fastppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha"
 }

@@ -104,7 +104,7 @@ $$
 - When asked for candidate keys, check if the options are minimal or not. Just don't blindly find the closure of attributes of options given.
 - Since sets of attributes are used, for counting the different combinations, subsets counting can be used to find out the different possible combinations.
 
-- To prove or verify a FD is inferred by an FD set, always use closure method as it is easy and fast rather than fiddling with Armstrong's axioms. Take the closure of the given FD and check in the given FD set, whethere the RHS can be obtained or not.
+- To prove or verify a FD is inferred by an FD set, always use closure method as it is easy and fast rather than fiddling with Armstrong's axioms. Take the closure of the given FD and check in the given FD set, whether the RHS can be obtained or not.
 
 - Given a relation, always start checking from the highest normal form and descend. BCNF $\to$ 3NF $\to$ 2NF. Because if $R$ is in 3NF, then it is definitely in 2NF, you can stop there.
 - Only BCNF completely removes redundancies due to FDs, the lower normal forms may still cause redundancies due to FDs.
@@ -710,8 +710,8 @@ $$
 
 - For any language $L$,
 	1. $L^0 = \{\lambda\}$
-	2. If $\lambda \in L$, then $\lambda \in L^+$
-	3. If $\lambda \not\in L$, then $\lambda \not\in L^+$
+	2. $\lambda \in L$ iff $\lambda \in L^+$
+	3. $\lambda \not\in L$ iff $\lambda \not\in L^+$
 	4. $L^+ = L^\ast - \{ \lambda \}$ iff $\lambda \not\in L$
 
 - To check if a string belongs to closure of a language or not, see for which exponentiation of the language does the string belongs to.
