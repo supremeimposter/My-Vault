@@ -698,6 +698,9 @@ $$
 - In functions, elements of domain are considered as objects and elements of co-domain are considered as boxes, since domain elements are mapped to co-domain elements.
 - Number of relations between two sets $A$ and $B$ is $2^{|A| . |B|}$ (refer lec-05-08A.pdf pg. no. 97)
 
+### Guidelines to Graph Theory
+
+- do not forget the isolated vertex (degree 0 vertex)
 
 ---
 ## Guidelines to TOC
@@ -716,6 +719,8 @@ $$
 
 - To check if a string belongs to closure of a language or not, see for which exponentiation of the language does the string belongs to.
 
+- In TOC, powers are by-default $n\ge 0$
+
 ![[Guidelines to GATE-CS-20240915224039804.webp]]
 
 - Whenever you see a language and want to construct a mathematical model, first figure out the states, inputs and transitions, it will be easier to arrive at the correct DFA, NFA or whatever. Just don't blindly draw circles and keep thinking.
@@ -724,6 +729,22 @@ $$
 - For a machine, it only accepts certain strings that are part of its language. So don't confuse it with going to $L^\ast$ or $L^+$.
 
 - For a regular language $L$, every DFA is a refinement of the minimal DFA for $L$.
+
+- For construction of DFA, NFA
+	- go step by step
+	- for each state, look for each symbol where it goes
+
+![[Guidelines to GATE-CS-1746986025390.webp]]
+
+
+- Use option elimination for identifying DFA for a given language.
+
+![[Guidelines to GATE-CS-1747070801909.webp]]
+
+
+![[Guidelines to GATE-CS-1747156049974.webp]]
+
+
 
 ## Guidelines to Calculus
 

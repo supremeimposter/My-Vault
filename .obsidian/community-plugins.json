@@ -33,11 +33,11 @@
   "fontsource",
   "journals",
   "image-converter",
-  "obsidian-wakatime",
   "automatic-renumbering",
   "obsidian-hider",
   "obsidian-thumbnails",
   "note-toolbar",
   "obsidian-banners",
-  "paste-reformatter"
+  "paste-reformatter",
+  "unicode-search"
 ]

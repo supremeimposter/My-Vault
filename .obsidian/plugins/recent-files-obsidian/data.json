@@ -9,12 +9,36 @@
       "path": "GATE/TheoryOfComputation/Theory of Computation.md"
     },
     {
-      "basename": "Distributing Objects into Boxes",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
+      "basename": "TOC PYQs",
+      "path": "GATE/Pyqs/TOC PYQs.md"
+    },
+    {
+      "basename": "Graph Theory PYQs",
+      "path": "GATE/Pyqs/Graph Theory PYQs.md"
+    },
+    {
+      "basename": "Propositional Variables vs Propositional Formulae",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/Propositional Variables vs Propositional Formulae.md"
+    },
+    {
+      "basename": "Vault Index",
+      "path": "Vault Index.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE/GATE-CS.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
     },
     {
       "basename": "My thought process",
       "path": "Philosophy and General Thoughts/My thought process.md"
+    },
+    {
+      "basename": "Distributing Objects into Boxes",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
     },
     {
       "basename": "Inclusion Exclusion Principle",
@@ -53,20 +77,12 @@
       "path": "GATE/Linear-Algebra/Linear Algebra PYQs.md"
     },
     {
-      "basename": "GATE-CS",
-      "path": "GATE/GATE-CS.md"
-    },
-    {
       "basename": "System of Linear Equations",
       "path": "GATE/Linear-Algebra/System of Linear Equations.md"
     },
     {
       "basename": "Linearly Dependent and Independent Vectors",
       "path": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
     },
     {
       "basename": "Basic Counting Principles",
@@ -183,22 +199,6 @@
     {
       "basename": "Memory Interfacing and Expansion",
       "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
-    },
-    {
-      "basename": "Main Memory and Addressability",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md"
-    },
-    {
-      "basename": "System Bus",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/System Bus.md"
-    },
-    {
-      "basename": "Operating Systems",
-      "path": "GATE/OperatingSystems/Operating Systems.md"
-    },
-    {
-      "basename": "System Calls",
-      "path": "GATE/OperatingSystems/System Calls.md"
     }
   ],
   "omittedPaths": [

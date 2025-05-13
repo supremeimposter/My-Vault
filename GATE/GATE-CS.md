@@ -35,6 +35,7 @@ tags:
 	- [[Logic PYQs]]
 	- [[Set Theory PYQs]]
 	- [[Combinatronics PYQs]]
+	- [[Graph Theory PYQs]]
 - [[DBMS PYQs]]
 - [[TOC PYQs]]
 - [[OS PYQs]]

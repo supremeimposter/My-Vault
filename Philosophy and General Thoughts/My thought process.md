@@ -17,4 +17,7 @@ Dating
 Its the unique human I am studying and opening myself to them, seeing if we click somewhere and one things leads to another. Until then, dates can be platonic opening up to more possibilites and less heart-break
 
 
+**May 9, 2025**
+
+The most importatnt aspect in a relationship is both parties feeling confident in themselves and feel no way inferior to the other partner. It should be treating as equals and move forward with life. Any sense of insecurity or feeling inadequate might lead to putting up the some bad behaviours or sub-servient or even uncomfortable treatment of the significant other.
 

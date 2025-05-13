@@ -138,8 +138,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": "e047f71d444b979e",
         "type": "tabs",
-        "dimension": 66.4,
+        "dimension": 60.43521266073195,
         "children": [
           {
             "id": "4de834b516a58502",
@@ -250,6 +250,16 @@
             "state": {
               "type": "journal-calendar",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "8f4adeadfb2bd433",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
               "icon": "calendar-days",
               "title": "Calendar"
             }
@@ -260,10 +270,27 @@
       {
         "id": "5df95600f2476df0",
         "type": "tabs",
-        "dimension": 33.6,
+        "dimension": 19.782393669634025,
         "children": [
           {
             "id": "537addfb8bc17cc8",
+            "type": "leaf",
+            "state": {
+              "type": "map-of-content",
+              "state": {},
+              "icon": "stacked-levels",
+              "title": "Map of Content"
+            }
+          }
+        ]
+      },
+      {
+        "id": "08f40b03134ac188",
+        "type": "tabs",
+        "dimension": 19.782393669634025,
+        "children": [
+          {
+            "id": "2dfb6fd80d8d72fb",
             "type": "leaf",
             "state": {
               "type": "map-of-content",
@@ -280,25 +307,38 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:Create new board": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "workspaces:Manage workspace layouts": false,
+      "obsidian-kanban:Create new board": false,
       "map-of-content:Update Map of Content": false
     }
   },
   "active": "7b788ce81cda6ddc",
   "lastOpenFiles": [
+    "attachments/Guidelines to GATE-CS-1747156049974.webp",
     "GATE/TheoryOfComputation/Theory of Computation.md",
+    "GATE/Pyqs/TOC PYQs.md",
+    "attachments/TOC PYQs-1747116754186.webp",
+    "attachments/TOC PYQs-1747073885400.webp",
+    "attachments/TOC PYQs-1747073395272.webp",
     "GATE/Guidelines to GATE-CS.md",
-    "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
+    "attachments/Guidelines to GATE-CS-1747070801909.webp",
+    "GATE/Pyqs/Graph Theory PYQs.md",
+    "attachments/Graph Theory PYQs-1747068394071.webp",
+    "GATE/DiscreteMathematics/Propositional-Logic/Propositional Variables vs Propositional Formulae.md",
+    "Vault Index.md",
+    "GATE/GATE-CS.md",
+    "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "attachments/Guidelines to GATE-CS-1746986025390.webp",
     "Philosophy and General Thoughts/My thought process.md",
+    "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
     "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md",
     "Fitness/Squat University.md",
     "GATE/Linear-Algebra/Crammer's Rule.md",
@@ -309,29 +349,16 @@
     "attachments/0XVbn86Btj0.jpg",
     "attachments/ubdIGnX2Hfs.jpg",
     "attachments/P3WtxCjUKFU.jpg",
-    "attachments/KT6ivmmz6EU.jpg",
-    "attachments/xSEX3r_hs8o.jpg",
-    "attachments/p40iUjf02j0.jpg",
-    "attachments/MnssBu_cmC0.jpg",
-    "attachments/XTfhKUZWd0E.jpg",
-    "attachments/q4BV_xNYbsY.jpg",
     "Fitness/Fitness.md",
     "Fitness/Calisthenics.md",
     "GATE/Linear-Algebra/Linear Algebra PYQs.md",
-    "GATE/GATE-CS.md",
     "GATE/Linear-Algebra/System of Linear Equations.md",
     "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md",
-    "GATE/DiscreteMathematics/Discrete Mathematics.md",
     "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
     "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
     "GATE/DiscreteMathematics/Combinatronics/Combinatorial Identities.md",
     "GATE/DiscreteMathematics/Combinatronics/Binomial Theorem.md",
-    "GATE/Linear-Algebra/Introduction to Linear Algebra.md",
     "Tags",
-    "GATE/Pyqs/Combinatronics PYQs.md",
-    "GATE/DiscreteMathematics/Combinatronics/Counting Nothing.md",
-    "GATE/Digital-Logic/Combinational Circuits/Adder for Signed Addition.md",
-    "Fitness/Warm Ups.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "Fitness",
     "Ideas",

@@ -1388,9 +1388,20 @@
                   "state": {
                     "file": "GATE/Guidelines to GATE-CS.md",
                     "mode": "source",
+                    "source": false,
                     "backlinks": true,
-                    "source": false
-                  }
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Guidelines to GATE-CS"
                 }
               },
               {
@@ -1401,9 +1412,20 @@
                   "state": {
                     "file": "GATE/TheoryOfComputation/Theory of Computation.md",
                     "mode": "source",
+                    "source": false,
                     "backlinks": true,
-                    "source": false
-                  }
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Theory of Computation"
                 }
               },
               {
@@ -1414,9 +1436,20 @@
                   "state": {
                     "file": "GATE/Pyqs/TOC PYQs.md",
                     "mode": "source",
+                    "source": false,
                     "backlinks": true,
-                    "source": false
-                  }
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "TOC PYQs"
                 }
               }
             ]
@@ -1438,8 +1471,11 @@
                 "state": {
                   "type": "file-explorer",
                   "state": {
-                    "sortOrder": "alphabetical"
-                  }
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
                 }
               },
               {
@@ -1454,7 +1490,9 @@
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
                 }
               },
               {
@@ -1462,7 +1500,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
                 }
               },
               {
@@ -1470,7 +1510,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "recent-files",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               }
             ]
@@ -1486,7 +1528,7 @@
           {
             "id": "e047f71d444b979e",
             "type": "tabs",
-            "dimension": 66.4,
+            "dimension": 60.43521266073195,
             "children": [
               {
                 "id": "4de834b516a58502",
@@ -1494,7 +1536,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "file": "GATE/TheoryOfComputation/Theory of Computation.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1502,7 +1544,9 @@
                     "searchQuery": "",
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Theory of Computation"
                 }
               },
               {
@@ -1511,10 +1555,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "file": "GATE/TheoryOfComputation/Theory of Computation.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Theory of Computation"
                 }
               },
               {
@@ -1526,7 +1572,9 @@
                     "sortOrder": "frequency",
                     "showSearch": false,
                     "searchQuery": ""
-                  }
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
                 }
               },
               {
@@ -1535,8 +1583,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Guidelines to GATE-CS.md"
-                  }
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Guidelines to GATE-CS"
                 }
               },
               {
@@ -1546,8 +1599,12 @@
                   "type": "tag",
                   "state": {
                     "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
                 }
               },
               {
@@ -1555,7 +1612,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "mermaid-toolbar-view",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               },
               {
@@ -1563,7 +1622,19 @@
                 "type": "leaf",
                 "state": {
                   "type": "journal-calendar",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "8f4adeadfb2bd433",
+                "type": "leaf",
+                "state": {
+                  "type": "journal-calendar",
+                  "state": {},
+                  "icon": "calendar-days",
+                  "title": "Calendar"
                 }
               }
             ],
@@ -1572,14 +1643,33 @@
           {
             "id": "5df95600f2476df0",
             "type": "tabs",
-            "dimension": 33.6,
+            "dimension": 19.782393669634025,
             "children": [
               {
                 "id": "537addfb8bc17cc8",
                 "type": "leaf",
                 "state": {
                   "type": "map-of-content",
-                  "state": {}
+                  "state": {},
+                  "icon": "stacked-levels",
+                  "title": "Map of Content"
+                }
+              }
+            ]
+          },
+          {
+            "id": "08f40b03134ac188",
+            "type": "tabs",
+            "dimension": 19.782393669634025,
+            "children": [
+              {
+                "id": "2dfb6fd80d8d72fb",
+                "type": "leaf",
+                "state": {
+                  "type": "map-of-content",
+                  "state": {},
+                  "icon": "stacked-levels",
+                  "title": "Map of Content"
                 }
               }
             ]
@@ -1596,15 +1686,15 @@
           "canvas:Create new canvas": false,
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
+          "workspaces:Manage workspace layouts": false,
           "darlal-switcher-plus:Open in Headings Mode": false,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
-          "mermaid-tools:Open Mermaid Toolbar": false,
-          "workspaces:Manage workspace layouts": false,
+          "obsidian-kanban:Create new board": false,
           "map-of-content:Update Map of Content": false
         }
       },
       "active": "7b788ce81cda6ddc",
-      "mtime": "2024-09-18T17:05:43+05:30"
+      "mtime": "2025-05-12T22:14:34+05:30"
     },
     "Propositional-and-First-Order Logic": {
       "main": {
@@ -1923,30 +2013,6 @@
                 }
               },
               {
-                "id": "7af6f3b387f4d6c8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/DiscreteMathematics/Combinatronics/Combinatorial Identities.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Combinatorial Identities"
-                }
-              },
-              {
                 "id": "087404d24fd53302",
                 "type": "leaf",
                 "state": {
@@ -1971,12 +2037,12 @@
                 }
               },
               {
-                "id": "980f53b56852e310",
+                "id": "660c576b921edf91",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Pyqs/Combinatronics PYQs.md",
+                    "file": "GATE/Pyqs/Graph Theory PYQs.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -1991,34 +2057,11 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "Combinatronics PYQs"
-                }
-              },
-              {
-                "id": "a1a3a8408e276dcb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/DiscreteMathematics/Combinatronics/Binomial Theorem.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Binomial Theorem"
+                  "title": "Graph Theory PYQs"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -2149,13 +2192,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Discrete Mathematics"
+                  "title": "Outline of Guidelines to GATE-CS"
                 }
               },
               {
@@ -2230,8 +2273,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "76a07e4786a7142a",
-      "mtime": "2025-03-27T08:06:50+05:30"
+      "active": "087404d24fd53302",
+      "mtime": "2025-05-12T22:56:53+05:30"
     },
     "CP": {
       "main": {
