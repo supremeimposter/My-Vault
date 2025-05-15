@@ -11,3 +11,10 @@ tags:
 ![[Graph Theory PYQs-1747068394071.webp]]
 
 
+
+
+> [!question] 
+> ![[Graph Theory PYQs-1747213211629.webp]]
+
+
+![[Graph Theory PYQs-1747213272606.webp]]

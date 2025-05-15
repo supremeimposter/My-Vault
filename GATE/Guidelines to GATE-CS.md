@@ -12,6 +12,7 @@ tags:
 - Not all the information given is useful. Read the question carefully.
 - Look carefully at the question if they are asking for the true ones or false ones.
 - Do tick any option, if all the options are wrong for a question.
+- Before clicking the answer, always check if that's what they have asked in the question for you to answer.
 
 ## Guidelines to Math
 
@@ -702,6 +703,11 @@ $$
 
 - do not forget the isolated vertex (degree 0 vertex)
 
+- Graph isomorphism questions are done by elimination options by ruling out the graphs with different graph invariant values, and not the other way around.Don't go hunting down the isomorphic graph, simply delete the options which are not isomorphic.
+
+![[Guidelines to GATE-CS-1747223203132.webp]]
+
+
 ---
 ## Guidelines to TOC
 
@@ -743,6 +749,10 @@ $$
 
 
 ![[Guidelines to GATE-CS-1747156049974.webp]]
+
+- When there is no information on what operation is needed for a product automata, by default, the assumption is language intersection.
+
+![[Guidelines to GATE-CS-1747328401728.webp]]
 
 
 

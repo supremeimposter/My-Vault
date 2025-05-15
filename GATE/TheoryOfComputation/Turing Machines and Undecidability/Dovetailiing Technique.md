@@ -12,6 +12,7 @@ tags:
   - TheoryOfComputation/Decidability
 ---
 # Dovetailing
+
 - Proving languages recognizable or decidable often requires a technique called dovetailing.
 - Dovetailing works only when working with languages of Turing Machines.
 - In all the scenarios, there is only 1 person. No parallel digging is going on. Taiju-kun has to do all the work single-handedly, while Senku takes care of all the brainy stuffs.

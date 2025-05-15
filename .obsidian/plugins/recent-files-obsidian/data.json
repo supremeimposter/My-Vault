@@ -9,6 +9,10 @@
       "path": "GATE/TheoryOfComputation/Theory of Computation.md"
     },
     {
+      "basename": "Dovetailiing Technique",
+      "path": "GATE/TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing Technique.md"
+    },
+    {
       "basename": "TOC PYQs",
       "path": "GATE/Pyqs/TOC PYQs.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Overflow of Signed and Unsigned Numbers",
       "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
-    },
-    {
-      "basename": "Memory Interfacing and Expansion",
-      "path": "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md"
     }
   ],
   "omittedPaths": [
