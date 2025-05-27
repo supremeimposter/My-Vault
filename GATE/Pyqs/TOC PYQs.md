@@ -70,3 +70,88 @@ basically the language should not contain 000 as a substring. can create complem
 
 ![[TOC PYQs-1747305531591.webp]]
 
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 2018 \| Question: 6](https://gateoverflow.in/204080/gate-cse-2018-question-6)
+
+![[TOC PYQs-1747553621863.webp]]
+
+
+This is talking about the equivalent minimal DFA, not an equivalent DFA in general.
+
+
+
+> [!question] 
+> [Theory of Computation: GATE IT 2005 \| Question: 5](https://gateoverflow.in/3749/gate-it-2005-question-5)
+
+![[TOC PYQs-1747761398610.webp]]
+
+
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 1997 \| Question: 6.4](https://gateoverflow.in/2260/gate-cse-1997-question-6-4)
+
+![[TOC PYQs-1747762000669.webp]]
+
+
+Only strings containing 100 are not allowed, but other strings must be allowed, for example, 10, 1, $\epsilon$, 01, etc...
+
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 1998 \| Question: 3b](https://gateoverflow.in/2941/gate-cse-1998-question-3b)
+
+![[TOC PYQs-1747807916077.webp]]
+
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 2003 \| Question: 14](https://gateoverflow.in/905/gate-cse-2003-question-14)
+
+![[TOC PYQs-1747812532033.webp]]
+
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 2022 \| Question: 2](https://gateoverflow.in/371934/gate-cse-2022-question-2)
+
+![[TOC PYQs-1747977014843.webp]]
+
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 1996 \| Question: 1.10](https://gateoverflow.in/2714/gate-cse-1996-question-1-10)
+
+![[TOC PYQs-1748004803875.webp]]
+
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 2014 Set 2 \| Question: 15](https://gateoverflow.in/1971/gate-cse-2014-set-2-question-15)
+
+![[TOC PYQs-1748027154912.webp]]
+
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 2015 Set 2 \| Question: 51](https://gateoverflow.in/8254/gate-cse-2015-set-2-question-51)
+
+![[TOC PYQs-1748071880112.webp]]
+
+
+
+> [!question] 
+> [Theory of Computation: GATE IT 2008 \| Question: 35](https://gateoverflow.in/3345/gate-it-2008-question-35)
+
+![[TOC PYQs-1748073099262.webp]]
+
+
+
+> [!question] 
+> 
+[Theory of Computation: GATE CSE 2014 Set 2 \| Question: 36](https://gateoverflow.in/1995/gate-cse-2014-set-2-question-36)
+
+
+![[TOC PYQs-1748351221120.webp]]

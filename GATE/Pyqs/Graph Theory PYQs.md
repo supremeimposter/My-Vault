@@ -18,3 +18,50 @@ tags:
 
 
 ![[Graph Theory PYQs-1747213272606.webp]]
+
+
+
+> [!question] 
+> [Graph Theory: GATE CSE 2003 \| Question: 8, ISRO2009-53](https://gateoverflow.in/899/gate-cse-2003-question-8-isro2009-53)
+
+![[Graph Theory PYQs-1747650659709.webp]]
+
+
+
+
+![[Graph Theory PYQs-1747652017673.webp]]
+
+
+
+> [!question] 
+> [Graph Theory: GATE CSE 2002 \| Question: 1.4](https://gateoverflow.in/808/gate-cse-2002-question-1-4)
+
+
+![[Graph Theory PYQs-1748234628927.webp]]
+
+
+
+
+> [!question] 
+> [Graph Theory: GATE CSE 2018 \| Question: 18](https://gateoverflow.in/204092/gate-cse-2018-question-18)
+
+![[Graph Theory PYQs-1748235382391.webp]]
+
+
+
+
+
+> [!question] 
+> [Graph Theory: GATE CSE 2020 \| Question: 52](https://gateoverflow.in/333179/gate-cse-2020-question-52)
+
+
+![[Graph Theory PYQs-1748272889075.webp]]
+
+
+
+> [!question] 
+> [Graph Theory: GATE CSE 2010 \| Question: 28](https://gateoverflow.in/1154/gate-cse-2010-question-28)
+
+![[Graph Theory PYQs-1748342211827.webp]]
+
+

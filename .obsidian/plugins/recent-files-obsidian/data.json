@@ -5,20 +5,36 @@
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
-      "basename": "Theory of Computation",
-      "path": "GATE/TheoryOfComputation/Theory of Computation.md"
-    },
-    {
-      "basename": "Dovetailiing Technique",
-      "path": "GATE/TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing Technique.md"
-    },
-    {
       "basename": "TOC PYQs",
       "path": "GATE/Pyqs/TOC PYQs.md"
     },
     {
       "basename": "Graph Theory PYQs",
       "path": "GATE/Pyqs/Graph Theory PYQs.md"
+    },
+    {
+      "basename": "My thought process",
+      "path": "Philosophy and General Thoughts/My thought process.md"
+    },
+    {
+      "basename": "Determinants",
+      "path": "GATE/Linear-Algebra/Determinants.md"
+    },
+    {
+      "basename": "Crammer's Rule",
+      "path": "GATE/Linear-Algebra/Crammer's Rule.md"
+    },
+    {
+      "basename": "Theory of Computation",
+      "path": "GATE/TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE/GATE-CS.md"
+    },
+    {
+      "basename": "Dovetailiing Technique",
+      "path": "GATE/TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing Technique.md"
     },
     {
       "basename": "Propositional Variables vs Propositional Formulae",
@@ -29,16 +45,8 @@
       "path": "Vault Index.md"
     },
     {
-      "basename": "GATE-CS",
-      "path": "GATE/GATE-CS.md"
-    },
-    {
       "basename": "Discrete Mathematics",
       "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
-      "basename": "My thought process",
-      "path": "Philosophy and General Thoughts/My thought process.md"
     },
     {
       "basename": "Distributing Objects into Boxes",
@@ -53,16 +61,8 @@
       "path": "Fitness/Squat University.md"
     },
     {
-      "basename": "Crammer's Rule",
-      "path": "GATE/Linear-Algebra/Crammer's Rule.md"
-    },
-    {
       "basename": "Linear Algebra",
       "path": "GATE/Linear-Algebra/Linear Algebra.md"
-    },
-    {
-      "basename": "Determinants",
-      "path": "GATE/Linear-Algebra/Determinants.md"
     },
     {
       "basename": "Gaussian Elimination",

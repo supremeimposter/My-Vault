@@ -21,3 +21,6 @@ Its the unique human I am studying and opening myself to them, seeing if we clic
 
 The most importatnt aspect in a relationship is both parties feeling confident in themselves and feel no way inferior to the other partner. It should be treating as equals and move forward with life. Any sense of insecurity or feeling inadequate might lead to putting up the some bad behaviours or sub-servient or even uncomfortable treatment of the significant other.
 
+**May 26, 2025**
+
+Its really hard to stay in the present. I am either worrying about the future, calculating it, calculating the time or worry about the past mistakes, wrong routes, ifs and all. Staying in the present is very very important.

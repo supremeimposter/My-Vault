@@ -14,6 +14,8 @@ tags:
 - Do tick any option, if all the options are wrong for a question.
 - Before clicking the answer, always check if that's what they have asked in the question for you to answer.
 
+![[Guidelines to GATE-CS-1747475923185.webp]]
+
 ## Guidelines to Math
 
 
@@ -708,6 +710,22 @@ $$
 ![[Guidelines to GATE-CS-1747223203132.webp]]
 
 
+- Height vs Depth in a rooted tree.
+
+![[Guidelines to GATE-CS-1747498266960.webp]]
+
+
+- Be careful with english wordings and meaning
+
+![[Guidelines to GATE-CS-1747589220229.webp]]
+
+
+- Star graph can be used as a counter example to prove many cases, so always think of it once.
+- Look for the unfair and fair cases, when looking for minimum and maximum number of something.
+
+![[Guidelines to GATE-CS-1748090986510.webp]]
+
+
 ---
 ## Guidelines to TOC
 
@@ -726,6 +744,7 @@ $$
 - To check if a string belongs to closure of a language or not, see for which exponentiation of the language does the string belongs to.
 
 - In TOC, powers are by-default $n\ge 0$
+- Look carefully at what actually the input symbol is.
 
 ![[Guidelines to GATE-CS-20240915224039804.webp]]
 
@@ -754,6 +773,31 @@ $$
 
 ![[Guidelines to GATE-CS-1747328401728.webp]]
 
+
+- During conversion from NFA to DFA, if there is a null transition defined in the NFA, for each symbol, follow the transition with an empty symbol $\epsilon$
+
+![[Guidelines to GATE-CS-1747503839151.webp]]
+
+
+- In NFA to DFA conversion problems, try to understand the language itself and create the minimal DFA. But if you cannot understand the langauge, then don't convert NFA to DFA and get the result.
+
+- Using subset construction algorithm, from an NFA we will get an equivalent DFA with at most $\le 2^n$ states, so the unique minimal DFA will be always less than $\le 2^n$ states. An equivalent DFA for an NFA of $n$ states can be of any number of finite states (probably constructed by some other algorithm or by adding many unreachable states).
+
+![[Guidelines to GATE-CS-1747569991636.webp]]
+
+- variable power is not allowed in regular expression
+
+![[Guidelines to GATE-CS-1747576337125.webp]]
+
+
+![[Guidelines to GATE-CS-1747835225341.webp]]
+
+![[Guidelines to GATE-CS-1747835075082.webp]]
+
+![[Guidelines to GATE-CS-1747988047228.webp]]
+
+
+![[Guidelines to GATE-CS-1748004320047.webp]]
 
 
 ## Guidelines to Calculus
