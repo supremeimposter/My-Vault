@@ -9,12 +9,104 @@
       "path": "GATE/Pyqs/TOC PYQs.md"
     },
     {
-      "basename": "Graph Theory PYQs",
-      "path": "GATE/Pyqs/Graph Theory PYQs.md"
+      "basename": "Theory of Computation",
+      "path": "GATE/TheoryOfComputation/Theory of Computation.md"
+    },
+    {
+      "basename": "Chomsky Hierarchy",
+      "path": "GATE/TheoryOfComputation/Closure Properties/Chomsky Hierarchy.md"
+    },
+    {
+      "basename": "Closure Properties of Regular Languages",
+      "path": "GATE/TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md"
+    },
+    {
+      "basename": "Closure Properties of Finite Languages",
+      "path": "GATE/TheoryOfComputation/Closure Properties/Closure Properties of Finite Languages.md"
+    },
+    {
+      "basename": "Non Closure of Languages",
+      "path": "GATE/TheoryOfComputation/Closure Properties/Non Closure of Languages.md"
+    },
+    {
+      "basename": "Identification of Regular Languages",
+      "path": "GATE/TheoryOfComputation/Language Class/Identification of Regular Languages.md"
+    },
+    {
+      "basename": "Identification of CFL, DCFL",
+      "path": "GATE/TheoryOfComputation/Language Class/Identification of CFL, DCFL.md"
     },
     {
       "basename": "My thought process",
       "path": "Philosophy and General Thoughts/My thought process.md"
+    },
+    {
+      "basename": "Simplification of Context Free Grammars",
+      "path": "GATE/TheoryOfComputation/Context Free Languages-Grammars-PDA/Simplification of Context Free Grammars.md"
+    },
+    {
+      "basename": "Binary Codes for Decimal Digits",
+      "path": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Digital-Logic-Mindmap",
+      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
+    },
+    {
+      "basename": "Sign Extension of Unsigned and Signed Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md"
+    },
+    {
+      "basename": "Overflow of Signed and Unsigned Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
+    },
+    {
+      "basename": "Signed Binary Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md"
+    },
+    {
+      "basename": "Subtraction of Unsigned Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md"
+    },
+    {
+      "basename": "Decimal and Binary System",
+      "path": "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md"
+    },
+    {
+      "basename": "Encoder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
+    },
+    {
+      "basename": "Complements in Number System",
+      "path": "GATE/Digital-Logic/Number Systems/Complements in Number System.md"
+    },
+    {
+      "basename": "Squat University",
+      "path": "Fitness/Squat University.md"
+    },
+    {
+      "basename": "Octal and Hexadecimal System",
+      "path": "GATE/Digital-Logic/Number Systems/Octal and Hexadecimal System.md"
+    },
+    {
+      "basename": "Number Systems",
+      "path": "GATE/Digital-Logic/Number Systems/Number Systems.md"
+    },
+    {
+      "basename": "Graph Theory PYQs",
+      "path": "GATE/Pyqs/Graph Theory PYQs.md"
+    },
+    {
+      "basename": "Myhill Nerode Theorem",
+      "path": "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md"
+    },
+    {
+      "basename": "Pumping Lemma",
+      "path": "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md"
     },
     {
       "basename": "Determinants",
@@ -23,10 +115,6 @@
     {
       "basename": "Crammer's Rule",
       "path": "GATE/Linear-Algebra/Crammer's Rule.md"
-    },
-    {
-      "basename": "Theory of Computation",
-      "path": "GATE/TheoryOfComputation/Theory of Computation.md"
     },
     {
       "basename": "GATE-CS",
@@ -55,10 +143,6 @@
     {
       "basename": "Inclusion Exclusion Principle",
       "path": "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md"
-    },
-    {
-      "basename": "Squat University",
-      "path": "Fitness/Squat University.md"
     },
     {
       "basename": "Linear Algebra",
@@ -115,90 +199,6 @@
     {
       "basename": "Counting Nothing",
       "path": "GATE/DiscreteMathematics/Combinatronics/Counting Nothing.md"
-    },
-    {
-      "basename": "Adder for Signed Addition",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Adder for Signed Addition.md"
-    },
-    {
-      "basename": "Warm Ups",
-      "path": "Fitness/Warm Ups.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
-    },
-    {
-      "basename": "Standard and Canonical Forms of Boolean Expressions",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
-    },
-    {
-      "basename": "Set Theory PYQs",
-      "path": "GATE/Pyqs/Set Theory PYQs.md"
-    },
-    {
-      "basename": "Number Theory",
-      "path": "GATE/Fundamentals of Computer Science/Number Theory.md"
-    },
-    {
-      "basename": "OS PYQs",
-      "path": "GATE/Pyqs/OS PYQs.md"
-    },
-    {
-      "basename": "Process in Operating Systems",
-      "path": "GATE/OperatingSystems/Process in Operating Systems.md"
-    },
-    {
-      "basename": "Synchronization in OS",
-      "path": "GATE/OperatingSystems/Synchronization in OS.md"
-    },
-    {
-      "basename": "Disk Structure and Performance",
-      "path": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
-    },
-    {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
-    },
-    {
-      "basename": "DBMS PYQs",
-      "path": "GATE/Pyqs/DBMS PYQs.md"
-    },
-    {
-      "basename": "Disk Addressing",
-      "path": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md"
-    },
-    {
-      "basename": "Instruction Execution Cycle",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Execution Cycle.md"
-    },
-    {
-      "basename": "Instruction Type",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Type.md"
-    },
-    {
-      "basename": "Instruction Format",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Format.md"
-    },
-    {
-      "basename": "Computer Organization and Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/Computer Organization and Architecture.md"
-    },
-    {
-      "basename": "Instruction Set Architecture",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Instruction Set Architecture.md"
-    },
-    {
-      "basename": "COA PYQs",
-      "path": "GATE/Pyqs/COA PYQs.md"
-    },
-    {
-      "basename": "Registers and Status Flags in CPU",
-      "path": "GATE/Computer-Organization-and-Architecture/CPU/Registers and Status Flags in CPU.md"
-    },
-    {
-      "basename": "Overflow of Signed and Unsigned Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
     }
   ],
   "omittedPaths": [

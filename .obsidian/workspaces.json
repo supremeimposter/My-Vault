@@ -846,6 +846,30 @@
                 }
               },
               {
+                "id": "e1c61211800ea595",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Binary Codes for Decimal Digits"
+                }
+              },
+              {
                 "id": "e188573efe882453",
                 "type": "leaf",
                 "state": {
@@ -1001,13 +1025,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "file": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Guidelines to GATE-CS"
+                  "title": "Outline of Binary Codes for Decimal Digits"
                 }
               },
               {
@@ -1084,8 +1108,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "e188573efe882453",
-      "mtime": "2025-02-27T11:15:41+05:30"
+      "active": "e1c61211800ea595",
+      "mtime": "2025-06-02T18:09:32+05:30"
     },
     "OS": {
       "main": {

@@ -5,17 +5,18 @@
     "callout-theorem",
     "timeline-callout",
     "anuppiccin-floating-search-bar",
-    "custom-admonitions.971f1e"
+    "custom-admonitions.971f1e",
+    "wide-view"
   ],
-  "cssTheme": "Ink",
+  "cssTheme": "iB Writer",
   "theme": "obsidian",
   "showViewHeader": true,
-  "baseFontSize": 18,
+  "baseFontSize": 23,
   "nativeMenus": false,
   "translucency": false,
-  "textFontFamily": "iA Writer Duo S,Times New Roman,iA Writer Quattro V,SF Pro Text",
+  "textFontFamily": "iA Writer Duo S,iA Writer Quattro V,Times New Roman,SF Pro Text",
   "interfaceFontFamily": "SF Pro Display,SF Pro",
   "monospaceFontFamily": "SF Mono,JetBrains Mono,iA Writer Mono S,Cascadia Code PL",
-  "baseFontSizeAction": false,
+  "baseFontSizeAction": true,
   "showRibbon": false
 }

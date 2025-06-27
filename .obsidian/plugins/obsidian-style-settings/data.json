@@ -510,7 +510,6 @@
   "underwater-theme@@workspace-bg": false,
   "zen@@editor-width": 700,
   "zen@@alt-heading-off": false,
-  "obsidian-composer-theme@@theme-variant": "composer--QingScheme",
   "sei@@sei-remove-divider-h1": true,
   "sei@@sei-remove-divider-inline-title": true,
   "zen@@win-translucent-off": false,
@@ -533,5 +532,7 @@
   "fastppuccin-theme-settings@@anp-file-icons": true,
   "fastppuccin-theme-settings@@anp-alternate-tab-toggle": false,
   "fastppuccin-theme-settings@@hide-external-link-icon": false,
-  "fastppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha"
+  "fastppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha",
+  "obsidian-composer-theme@@theme-variant-light": "composer--QingScheme-light",
+  "obsidian-composer-theme@@theme-variant-dark": "composer--QingScheme-dark"
 }
