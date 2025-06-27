@@ -24,3 +24,7 @@ The most importatnt aspect in a relationship is both parties feeling confident i
 **May 26, 2025**
 
 Its really hard to stay in the present. I am either worrying about the future, calculating it, calculating the time or worry about the past mistakes, wrong routes, ifs and all. Staying in the present is very very important.
+
+**June 10, 2025**
+
+My learning methods and the sources are more privileged and sophisticated than Deepak Poonia's learning methods and sources itself.

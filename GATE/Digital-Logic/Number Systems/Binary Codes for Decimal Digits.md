@@ -12,7 +12,7 @@ tags:
 ---
 # Binary Codes for Decimal Digits
 
-A binary code is a pattern of 1s and 0s. In most of the cases in computers, binary numbers represents some kind of coded information rather than binary numbers itself. There can be any number of any number of binary codes.
+A binary code is a pattern of 1s and 0s. In most of the cases in computers, binary numbers represents some kind of coded information rather than binary numbers itself. There can be any number of binary codes.
 
 We are studying about binary codes because of digital circuits.
 
@@ -57,11 +57,7 @@ For example,
 - to represent a set of $13$ elements, we require minimum $4$ bits.
 - to represent a set of $2^n$ elements, we require minimum $n$ bits.
 
-Each element should have an unique representation i.e. code assignment must be unambiguous.
-
-There is no maximum number of bits required for a binary code, for example consider the below example called "Go Code" in which 10 decimal digits is coded with 10 bits. Any kind of valid binary code can be defined over any number of bits.
-
-![[Binary Codes-20240602124542564.webp]]
+Each element should have an unique representation i.e. **code assignment must be unambiguous**.
 
 Binary numbers themselves can be considered as a binary codes of decimal numbers.
 
@@ -89,7 +85,7 @@ Each decimal digit is mapped to a binary code of 4 bits. BCD is a binary coded D
 > 2. $(312)_{10} = (0011\; 0001\; 0010)_{BCD}$
 
 BCD numbers takes more space that its equivalent binary numbers, but it has its advantages. 
-BCD code is also called as $8421$ code as **weight** can be assigned to the code.
+BCD code is also called as $8421$ code as **weight** can be assigned to each digit of the code.
 
 ## 2421 Code
 
@@ -101,7 +97,10 @@ The weight of the code is 2421.
 
 ![[Binary Codes-20240602183826591.webp]]
 
+> [!tldr] Doesn't have unique representation. How is it handled?
+
 All the decimal digits don't have unique 2421 code. For example, $2$ can be written as $0010$ and $1000$ in 2421 code, but the preferred code is which has lesser decimal value as a binary number.
+
 $0010$ has a lesser decimal value in binary i.e. $2$ , so it preferred over $1000$ which has larger decimal value in binary i.e. $8$.
 
 ## Excess-3 Code

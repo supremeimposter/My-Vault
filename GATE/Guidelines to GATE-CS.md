@@ -725,9 +725,14 @@ $$
 
 ![[Guidelines to GATE-CS-1748090986510.webp]]
 
+![[Guidelines to GATE-CS-1751027316104.webp]]
+
+![[Guidelines to GATE-CS-1751027255363.webp]]
 
 ---
 ## Guidelines to TOC
+
+### Guidelines to Finite Automata and Regular Languages
 
 - For any alphabet $\Sigma$, $\lambda \not\in \Sigma$ and $\lambda \in \Sigma^\ast$ and $\lambda \not \in \Sigma^+$
 
@@ -759,6 +764,8 @@ $$
 	- go step by step
 	- for each state, look for each symbol where it goes
 
+- Product automata does not guarantee minimal DFA.
+
 ![[Guidelines to GATE-CS-1746986025390.webp]]
 
 
@@ -785,6 +792,8 @@ $$
 
 ![[Guidelines to GATE-CS-1747569991636.webp]]
 
+- When building the regex for an automata, ignore the dead states as those strings won't be there in the language.
+
 - variable power is not allowed in regular expression
 
 ![[Guidelines to GATE-CS-1747576337125.webp]]
@@ -794,10 +803,76 @@ $$
 
 ![[Guidelines to GATE-CS-1747835075082.webp]]
 
+![[Guidelines to GATE-CS-1749133238702.webp]]
+
 ![[Guidelines to GATE-CS-1747988047228.webp]]
 
 
 ![[Guidelines to GATE-CS-1748004320047.webp]]
+
+- Every regular language satisfies Pumping lemma.
+![[Guidelines to GATE-CS-1748532669869.webp]]
+
+- Pumping lemma is used to prove non-regularity of languages.
+
+![[Guidelines to GATE-CS-1748590390738.webp]]
+
+- If PL is satisfied, then $L$ can be regular or non-regular.
+- If PL is not satisfied, then $L$ is non-regular.
+
+- Look for minimum pumping length greater than the minimum string length in the language.
+
+
+![[Guidelines to GATE-CS-1748597473581.webp]]
+
+![[Guidelines to GATE-CS-1748762771676.webp]]
+
+- In Myhill Nerode theorem, the equivalence classes are of sets of pairwise equivalent sets.
+- If there is an infinite set of distinguishable strings, then there are infinite number of equivalence classes for that language i.e. non-regular language. 
+
+![[Guidelines to GATE-CS-1749059309317.webp]]
+
+![[Guidelines to GATE-CS-1750134249372.webp]]
+
+### Guidelines to CFG, Grammars, PDA
+
+- When deriving a string from production rules, the substituition has to be one variable at a time.
+
+![[Guidelines to GATE-CS-1749112548553.webp]]
+
+
+![[Guidelines to GATE-CS-1749116732105.webp]]
+
+- Always think recursively, when analysing CFGs.
+
+- In a push down automata, only one input symbol can be read from the input symbol and only the top of the stack can be read(popped) from the infinite stack. But, a string of symbols can be pushed into the stack in reverse.
+
+![[Guidelines to GATE-CS-1749374886431.webp]]
+
+
+![[Guidelines to GATE-CS-1750053015066.webp]]
+
+
+- Identification of DCFLs
+
+![[Guidelines to GATE-CS-1750076866917.webp]]
+
+
+- Identification of CFLs
+
+![[Guidelines to GATE-CS-1750149906966.webp]]
+
+
+![[Guidelines to GATE-CS-1750159169989.webp]]
+
+![[Guidelines to GATE-CS-1750160982286.webp]]
+
+
+![[Guidelines to GATE-CS-1750167441981.webp]]
+
+### Guidelines to Closure of Languages
+
+![[Guidelines to GATE-CS-1750218151717.webp]]
 
 
 ## Guidelines to Calculus

@@ -11,6 +11,7 @@ tags:
   - TheoryOfComputation/Language
 ---
 # Identification of Regular Languages
+
 > [!youtube] 
 > [Lecture 1A - Identification of Regular Languages & Nonregular Languages | Theory of Computation - YouTube](https://www.youtube.com/watch?v=mZ8S3qE89fM)
 > [Lecture 1C - GATE CSE 2014 - Identification of Regular Languages | Theory of Computation - YouTube](https://www.youtube.com/watch?v=W3LKQ91Kyw0)

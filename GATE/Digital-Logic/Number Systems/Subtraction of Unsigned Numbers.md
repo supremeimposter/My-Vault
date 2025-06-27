@@ -5,13 +5,14 @@ lecture:
 date: 2024-02-26T11:56:00
 version:
   - DL-24
-last-revision: 2024-06-23T16:13:00
+last-revision: 2025-06-02T16:13:00
 notes-taken: true
 tags:
   - DigitalLogic/NumberSystem
   - DigitalLogic/Complement
 ---
 # Subtraction of Unsigned Numbers
+
 Given that $M$ and $N$ are unsigned numbers and both should have the same number of digits.
 
 ## Using Radix complement
@@ -41,7 +42,6 @@ $M = 20$ and $N = 78$ i.e. $M \lt N$
 
 > [!example] 
 > ![[Subtraction of Unsigned Numbers-20240530134811028.webp]]
-
 
 > [!summary] 
 

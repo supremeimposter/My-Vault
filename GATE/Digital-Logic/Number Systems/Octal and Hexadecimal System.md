@@ -11,10 +11,12 @@ tags:
   - DigitalLogic/NumberSystem
 ---
 # Octal and Hexadecimal System
+
 > [!youtube] 
 > [Lecture 1A - Octal, Hexadecimal Number Systems | Digital Logic | GO Classes - YouTube](https://www.youtube.com/watch?v=IkjVsr2rRCo)
 
 ## Octal System
+
 Base = $8$
 Symbols = $\{0, 1, 2, 3, 4, 5, 6, 7\}$
 
@@ -32,6 +34,7 @@ Binary can be easily converted to octal by grouping every 3 bits from the LS pos
 ![[Octal and Hexadecimal System-20240623111834862.webp]]
 
 ## Hexadecimal System
+
 Base = $16$
 Symbols = $\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F\}$
 

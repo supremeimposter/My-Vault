@@ -51,10 +51,14 @@ Complements are used in digital computers to **simplify subtraction operation** 
 
 ![[Complements in Number System-20240529170704508.webp]]
 
+Within the available symbols in a number system, the dimished radix complement can be found by meeting the numbers at either corresponding ends.
+
+![[Complements in Number System-1748801364206.webp|$(r-1)$'s complement for octal number system]]
+
 > [!discussion] 
 > ![[Complements in Number System-20240225093342933.webp]]
 
-- The complement of the complement restores the number to its original value. This applies both for diminished radix and radix complement.
+The complement of the complement restores the number to its original value. This applies both for diminished radix and radix complement.
 
 If the $r$'s complement of a number $N$ is $r^n - N$, then the complement of the complement is,
 $$
@@ -63,7 +67,7 @@ $$
 
 ![[Complements in Number System-20240529094937031.webp]]
 
-- If the number $N$ has a radix point, then it removed temporarily and computed the complement of $N$ and the radix point is added back in the complemented number in the same relative position.
+If the number $N$ has a radix point, then it removed temporarily and computed the complement of $N$ and the radix point is added back in the complemented number in the same relative position.
 
 > [!example] $N = 39.502$ 
 > ![[Complements in Number System-20240530161201246.webp]]

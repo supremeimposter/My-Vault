@@ -11,6 +11,7 @@ tags:
   - DigitalLogic/NumberSystem
 ---
 # Number System
+
 Number system is a simple way to count things or ways to represent numbers.
 
 The base of the number system is defined as the total number of symbols (digits) available in that number system i.e. the number of different values the set has before repeating itself.
@@ -58,7 +59,7 @@ Successive division by $r$ gives the digits in $r$ in reverse order.
 
 ![[Number Systems-20240623093333496.webp]]
 
-Successive multiplication by $r$ gives the digits in $r$ in straight order.
+Successive multiplication by $r$ gives the digits in $r$ in forward order.
 
 ![[Number Systems-20240623093356686.webp]]
 

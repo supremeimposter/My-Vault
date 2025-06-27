@@ -2,8 +2,6 @@
 
 ## FA and Regular languages
 
-
-
 > [!question] 
 > [Theory of Computation: GATE CSE 2013 | Question: 8](https://gateoverflow.in/1417/gate-cse-2013-question-8)
 > 
@@ -155,3 +153,72 @@ Only strings containing 100 are not allowed, but other strings must be allowed, 
 
 
 ![[TOC PYQs-1748351221120.webp]]
+
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 2019 \| Question: 15](https://gateoverflow.in/302833/gate-cse-2019-question-15)
+
+![[TOC PYQs-1748775784224.webp]]
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 2001 \| Question: 2.5](https://gateoverflow.in/723/gate-cse-2001-question-2-5)
+
+![[TOC PYQs-1749045381876.webp]]
+
+> [!hint]-
+>
+> Either product automata can be constructed or Myhill Nerode theorem can be used to create equivalence classes or create a large set of distinguishable strings possible.
+> 
+> ![[TOC PYQs-1749048596650.webp]]
+
+
+
+> [!question] 
+> [go-classes-2025-wq-38](https://gateoverflow.in/407361/go-classes-cs-2025-weekly-quiz-38-finite-automata-question-10)
+
+![[TOC PYQs-1749062968803.webp]]
+
+
+
+> [!question] 
+> [GO Classes CS 2025 | Weekly Quiz 38 | Finite Automata | Question: 14](https://gateoverflow.in/407353/go-classes-cs-2025-weekly-quiz-38-finite-automata-question-14)
+
+![[TOC PYQs-1749096659006.webp]]
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 2014 Set 2 \| Question: 36](https://gateoverflow.in/1995/gate-cse-2014-set-2-question-36)
+
+![[TOC PYQs-1750128434073.webp]]
+
+
+## CFG, CFL
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 2023 \| Question: 29](https://gateoverflow.in/399282/gate-cse-2023-question-29)
+
+![[TOC PYQs-1749196318698.webp]]
+
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 2001 \| Question: 6](https://gateoverflow.in/747/gate-cse-2001-question-6)
+
+![[TOC PYQs-1750066929890.webp]]
+
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 2016 Set 1 \| Question: 42](https://gateoverflow.in/39705/gate-cse-2016-set-1-question-42)
+
+![[TOC PYQs-1750508430666.webp]]
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 2017 Set 1 \| Question: 10](https://gateoverflow.in/118290/gate-cse-2017-set-1-question-10)
+
+![[TOC PYQs-1750508989553.webp]]
+

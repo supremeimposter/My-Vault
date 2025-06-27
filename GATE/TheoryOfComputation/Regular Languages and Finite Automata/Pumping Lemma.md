@@ -22,7 +22,9 @@ tags:
 > If a language $L$ does not satisfy pumping lemma, then it is definitely not a regular language.
 - Candidate strings are those whose length is greater than or equal to $p$ and they belong to the language.
 - For different candidate strings, there can be different $y$.
+
 ![[Pumping Lemma-20240106084602566.webp]]
+
 - $y$ must be chosen from the first $p$ symbols in the candidate string.
 - For each candidate string, at least one $y$ within the first $p$ symbols that is working is enough. Not every $y$ from the candidate string must work.
 

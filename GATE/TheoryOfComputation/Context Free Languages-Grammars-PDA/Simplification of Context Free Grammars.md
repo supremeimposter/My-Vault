@@ -12,6 +12,7 @@ tags:
   - TheoryOfComputation/Language
 ---
 # Simplification of CFG
+
 > [!youtube] 
 > [Lec 15A - Simplification of Context Free Grammars | Useless Symbols Removal | Theory of Computation - YouTube](https://www.youtube.com/watch?v=QgS_7rtB8PU)
 > [Lec 15B - Simplification of CFGs | Null Production, Unit Production Removal | Theory of Computation - YouTube](https://www.youtube.com/watch?v=LVy5W9ntMeY)

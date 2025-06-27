@@ -15,6 +15,7 @@ tags:
 > [Binary & Decimal Number System | Digital Logic | GO Classes - YouTube](https://www.youtube.com/watch?v=Isd4j1djAeA)
 
 ## Decimal System
+
 Symbols (Digits) : $0, 1, 2, 3, 4, 5, 6, 7, 8, 9$
 $$
 (329)_{10} = 3 \times 10^2 + 2 \times 10^1 + 9 \times 10^0
@@ -29,6 +30,7 @@ Lets consider a decimal number $1254$,
 ![[Decimal and Binary System-20240805084820700.webp]]
 
 ## Binary System
+
 Binary system is the computer number system.
 Symbols (digits) : $0, 1$
 

@@ -65,3 +65,9 @@ tags:
 ![[Graph Theory PYQs-1748342211827.webp]]
 
 
+
+> [!question] 
+> [Graph Theory: GATE CSE 2015 Set 1 \| Question: 54](https://gateoverflow.in/8364/gate-cse-2015-set-1-question-54)
+
+![[Graph Theory PYQs-1748696235284.webp]]
+

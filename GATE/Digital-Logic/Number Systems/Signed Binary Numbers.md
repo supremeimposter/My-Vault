@@ -16,7 +16,7 @@ tags:
 
 ```mermaid
 flowchart TD
-A[Signed Binary \nRepresentation] --> B[Signed \nMagnitude  System]
+A[Signed Binary \n Representation] --> B[Signed \nMagnitude  System]
 A --> E
 E[Signed Complement\nRepresentation] --> C[1's complement \nRepresentation]
 E --> D[2's complement \nRepresentation]
@@ -27,6 +27,7 @@ E --> D[2's complement \nRepresentation]
 - In computers, both signed and unsigned numbers consists of strings of 0s and 1s. The user determines whether the number is signed or unsigned.
 
 ## Signed Magnitude Representation
+
 - If the Most significant bit is,
 	- `1` then the number is negative and 
 	- `0` then the number is positive 
@@ -39,6 +40,7 @@ $$
 $$
 
 ![[Signed Binary Numbers-20240225231026664.webp]]
+
 - This representation is not very convenient on computers.
 - The magnitude is a unsigned number.
 - Signed Magnitude system is **NOT** a weighted system.
@@ -138,6 +140,7 @@ Since 2's complement representation is a weighted system, it can be expanded to 
 # Range of Signed Binary Numbers
 
 ![[Signed Binary Numbers-20240531083621089.webp]]
+
 There are 2 combinations for the same number $0$ in both signed magnitude and 1s complement system.
 
 ![[Signed Binary Numbers-20240531083754548.webp]]
@@ -162,14 +165,12 @@ Maximum = $\underbrace{0}_{\text{positive sign bit }}\underbrace{1111\cdots 11}_
 These $n-1$ bits are unsigned bits
 
 <u>1's complement system:</u>
-Maximum = $\underbrace{0}_{\text{positive sign bit }}\underbrace{1111\cdots 11}_{n-1 \text{ bits}} = + (2^{n-1} - 1)$ i.e. most positive value
-Minimum = $\underbrace{1}_{\text{negative sign bit }}\underbrace{0000\cdots 00}_{n-1 \text{ bits}} = - (2^{n-1} - 1)$ i.e. most negative value
-
-![[Signed Binary Numbers-20240623155229029.webp]]
+Minimum = $\underbrace{1}_{\text{negative sign bit }}\underbrace{0000\cdots 00}_{n-1 \text{ bits}} = - (2^{n-1} - 1)$ i.e. most negative value.
+Maximum = $\underbrace{0}_{\text{positive sign bit }}\underbrace{1111\cdots 11}_{n-1 \text{ bits}} = + (2^{n-1} - 1)$ i.e. most positive value.
 
 <u>2s complement system:</u>
-Minimum = $\underbrace{1}_{\text{negative sign bit }}\underbrace{0000\cdots 00}_{n-1 \text{ bits}} = - 2^{n-1}$ i.e. most negative value
-Maximum = $\underbrace{0}_{\text{positive sign bit }}\underbrace{1111\cdots 11}_{n-1 \text{ bits}} = +(2^{n-1} - 1)$ i.e. most positive value
+Minimum = $\underbrace{1}_{\text{negative sign bit }}\underbrace{0000\cdots 00}_{n-1 \text{ bits}} = - 2^{n-1}$ i.e. most negative value.
+Maximum = $\underbrace{0}_{\text{positive sign bit }}\underbrace{1111\cdots 11}_{n-1 \text{ bits}} = +(2^{n-1} - 1)$ i.e. most positive value.
 
 > [!summary] 
 
@@ -184,17 +185,20 @@ $$
 $$
 Take the 1's complement of the most positive signed number in $n$ bits and you will get the negative of the most positive signed number in 1's complement i.e. most negative signed number in 1's complement representation.
 
+![[Signed Binary Numbers-20240623155229029.webp]]
+
 ![[Signed Binary Numbers-20240531110322502.webp]]
 
 ---
 # Arithmetic of Signed Binary Numbers
+
 Computers don't know the difference between signed and unsigned numbers, which makes the logic circuits faster and also distinguishing between signed and unsigned numbers is our responsibility.
 
 ## Signed Magnitue System
 
 The addition of two signed binary numbers follows the rules of ordinary arithmetic.
 
-- The sign of the resultant will come from the number of larger magnitude.
+- The sign of the resultant will be same as the sign of the number of larger magnitude.
 - Just add the magnitude.
 - If the sign bits are different, then subtraction has to be performed. 
 - If the sign bits are same, then addition has to be performed.
@@ -257,7 +261,7 @@ $$
 The binary signed numbers in the sign complement system are added and subtracted as the same way as [[Subtraction of Unsigned Numbers|unsigned numbers]]. Hence computer needs only one common hardware to deal with arithmetics of both types.
 
 Addition of positive numbers in both 1's and 2's complement system are same.
-The final carry is discarded in 2's complement addition and the final carry is added to the result i.e. end around carry in 1's complement addition.
+The final carry is discarded in 2's complement addition and the final carry is added to the result (end around carry) in 1's complement addition.
 
 2s complement system is better than 1s complement system because, 
 - there is no additional addition by 1.

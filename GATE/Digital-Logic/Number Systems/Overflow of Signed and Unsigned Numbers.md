@@ -21,6 +21,7 @@ tags:
 - Inputs must be within the range. 
 
 ![[Overflow-20240601122609968.webp]]
+
 ## Addition of Unsigned Numbers
 
 In single bit unsigned numbers, if there is a final carry at most significant bit, then there is a overflow.
@@ -35,7 +36,7 @@ When multi-bit unsigned numbers are added, overflow occurs if there is a carry o
 
 ## Addition of Signed Numbers
 
-- With two operands of **opposite signs** within the range, overflow never occurs on adding signed numbers, assuming the operands are within the range. This case is true for addition of all the representations of signed numbers.
+- With two operands of **opposite signs**, overflow never occurs on adding signed numbers, assuming the operands are within the range. This case is true for addition of all the representations of signed numbers.
 
 ### Signed Magnitude Representation
 
@@ -50,7 +51,7 @@ When multi-bit unsigned numbers are added, overflow occurs if there is a carry o
 ![[Overflow-20240601221857033.webp]]
 
 1. If $S_{A} \not= S_{B}$, then there is no overflow.
-2. If $S_{A} = S_{B}$, then there is overflow iff there is a carry over from the MSbit of magnitude addition i.e. $M_{A} + M_{B}$
+2. If $S_{A} = S_{B}$, then there is overflow iff there is a carry out from the MSbit of magnitude addition i.e. $M_{A} + M_{B}$
 
 ![[Overflow-20240601222836213.webp]]
 
@@ -84,7 +85,7 @@ Consider the $4$ bits number,
 
 where $a_{3}$ is the most significant bit of $A$ and $b_{3}$ is the most significant bit of $B$.
 
-- In 2's complement addition, overflow occurs iff
+In 2's complement addition, overflow occurs iff
 $$
 \overline{a_{3}}\; \overline{b_{3}}\; r_{3} + a_{3}\; b_{3}\; \overline{r_{3}} = 1
 $$

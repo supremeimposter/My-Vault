@@ -85,7 +85,7 @@ tags:
 > [!youtube] 
 > - [ ] [ISRO 2020 DFA Question - Strings Not Ending in 101 | Weekly Quiz 24 | Theory of Computation - YouTube](https://www.youtube.com/watch?v=VE71CxKb390)
 > - [ ] [Question 7 - Weekly Quiz 24 - Finite Automata | Theory of Computation | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=Eb-TQcMghO4&feature=youtu.be)
-> - [ ] [When L\* = L+ ? Finite Automata - Weekly Quiz 24 Q5 & Q6 | Theory of Computation | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=nwIl4PxE8C8)
+> - [x] [When L\* = L+ ? Finite Automata - Weekly Quiz 24 Q5 & Q6 | Theory of Computation | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=nwIl4PxE8C8)
 > - [ ] [Question 8 - Weekly Quiz 24 - Finite Automata | Theory of Computation | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=J82SopP9N1s)
 > - [ ] [Weekly Quiz 24 Solutions Part 2 - Finite Automata | Theory of Computation | Deepak Poonia - YouTube](https://www.youtube.com/watch?v=zPIl_p2MiVY)
 > 
@@ -123,3 +123,4 @@ tags:
 > [CS154 Stanford - Introduction to the Theory of Computing - YouTube](https://www.youtube.com/playlist?list=PLjG2IDGftWft9Y11xC0sfgeT5jyTJqB-i)
 > University of Winsconsin Madison
 > [CS 154](https://pages.cs.wisc.edu/~aanjneya/courses/cs154/index.html)
+> [CSE 322: Introduction to Formal Models in Computer Science, Winter 2005](https://courses.cs.washington.edu/courses/cse322/05wi/)
