@@ -29,6 +29,7 @@ tags:
 
 ## GATE PYQs
 
+- [[C PYQs]]
 - Engineering Mathematics PYQs
 	- [[Linear Algebra PYQs]]
 - Discrete Mathematics PYQs
@@ -40,6 +41,8 @@ tags:
 - [[TOC PYQs]]
 - [[OS PYQs]]
 - [[COA PYQs]]
+- [[Compiler Design PYQs]]
+- [[Digital Logic PYQs]]
 
 
 ## Mind Maps

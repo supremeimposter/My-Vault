@@ -11,11 +11,15 @@ tags:
   - CompilerDesign/LexicalAnalysis
 ---
 # Lexical Analysis
+
 - The goal of the lexical analysis is to partition input string into meaningful elements called tokens.
 - Lexical analyzer uses regular expressions.
+
 ## Lexemes and Tokens
+
 - The piece of the original program from which we made the token is called lexeme.
 - Tokens are constructed from lexemes.
+
 ![[Lexical Analysis-20240403154231774.webp]]
 
 - The whitespace is also a lexeme, which is discarded since it holds no meaning to the program.
@@ -38,6 +42,7 @@ tags:
 
 
 ### Maximum Munch
+
 ![[Lexical Analysis-20240403185516386.webp]]
 ![[Lexical Analysis-20240403185545469.webp]]
 
@@ -48,6 +53,7 @@ tags:
 ![[Lexical Analysis-20240403190235647.webp]]
 
 ### First-listed Matching Pattern
+
 - If there are two or more same length matching pattern, then go for the one which has been defined first in the list i.e. go for the one which has greater priority.
 
 - If there is a clash in maximum munch, then go for first-listed matching pattern.
@@ -71,7 +77,6 @@ tags:
 > [!question] 
 > ![[Lexical Analysis-20240306132833261.webp]]
 
-
 - A lexer produces error when it is unable to find any token for the given lexeme.
 
 ![[Lexical Analysis-20240306133420682.webp]]
@@ -82,5 +87,7 @@ tags:
 
 
 ![[Lexical Analysis-20240306135018971.webp]]
+
+![[Lexical Analysis-1751093280010.webp]]
 
 ---

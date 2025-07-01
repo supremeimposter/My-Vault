@@ -24,7 +24,7 @@ The advantage of gray code over binary numbers is when going from one number to 
 > [!header] Applications of Gray code.
 
 Gray codes can be used in counting using switches.
-When binary numbers are used, while changing from one state to another state, there will be many intermediate transitions and switches being physical devices will have some delays.
+When binary numbers are used, while changing from one state to another state, there will be many intermediate transitions, and switches being physical devices will have some delays.
 
 ![[Gray code-20240603114148949.webp]]
 
@@ -33,6 +33,7 @@ Every decimal number next to each other in gray code change by only one bit, so 
 Gray codes are used in Hypercube graphs and error detection or error correction.
 
 ## Recursive Construction of Gray codes
+
 $G_{n}$ represents a gray code with $n$ bits.
 
 ![[Gray code-20240603144905482.webp]]
@@ -67,10 +68,12 @@ Recursive construction of gray codes method is time consuming, because for gray 
 ![[Gray code-20240603160752044.webp]]
 
 > [!example] 
-> ![[Gray code-20240603152938968.webp]]
+> ![[Gray code-1751356368270.webp]]
+
+## Decimal to Gray Code
 
 Gray code of a decimal number $m$ can be found by bitwise ExOR operation
-$$(m)_{\text{gray code}} = (m)_{2} \oplus \left\lfloor  \frac{(m)_{2}}{2}  \right\rfloor$$
+$$(m)_{\text{gray code}} = (m)_{2} \oplus \left( \left\lfloor  \frac{(m)}{2}  \right\rfloor \right)_{2}$$
 
 > [!example] 
 > ![[Gray code-20240603170040937.webp]]

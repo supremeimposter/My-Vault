@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "df7f94ce3ab6c62b",
+        "id": "8dfc7ae9f385f793",
         "type": "tabs",
         "children": [
           {
-            "id": "76a07e4786a7142a",
+            "id": "14eb14573bbc95b8",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
+                "file": "GATE/Programming-with-C/Programming with C.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -30,40 +30,16 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Discrete Mathematics"
+              "title": "Programming with C"
             }
           },
           {
-            "id": "087404d24fd53302",
+            "id": "4a2c92c99b12c91f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": true,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Guidelines to GATE-CS"
-            }
-          },
-          {
-            "id": "660c576b921edf91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Pyqs/Graph Theory PYQs.md",
+                "file": "GATE/Programming-with-C/Loops in C.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,11 +54,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Graph Theory PYQs"
+              "title": "Loops in C"
+            }
+          },
+          {
+            "id": "dde7e4ff2c4bdf39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Programming-with-C/Conditional Statements in C.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Conditional Statements in C"
+            }
+          },
+          {
+            "id": "e188573efe882453",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Guidelines to GATE-CS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Guidelines to GATE-CS"
+            }
+          },
+          {
+            "id": "3ed1db4b184e567d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Pyqs/C PYQs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "C PYQs"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -213,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/Programming-with-C/Conditional Statements in C.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Guidelines to GATE-CS"
+              "title": "Outline of Conditional Statements in C"
             }
           },
           {
@@ -229,7 +277,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -294,45 +344,45 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "087404d24fd53302",
+  "active": "dde7e4ff2c4bdf39",
   "lastOpenFiles": [
-    "attachments/Guidelines to GATE-CS-1751027316104.webp",
-    "attachments/Guidelines to GATE-CS-1751027255363.webp",
-    "GATE/Pyqs/TOC PYQs.md",
-    "attachments/TOC PYQs-1750508989553.webp",
-    "attachments/TOC PYQs-1750508430666.webp",
-    "GATE/TheoryOfComputation/Theory of Computation.md",
-    "GATE/TheoryOfComputation/Closure Properties/Chomsky Hierarchy.md",
-    "GATE/TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md",
+    "GATE/Programming-with-C/Loops in C.md",
+    "GATE/Programming-with-C/Programming with C.md",
+    "GATE/Programming-with-C/Conditional Statements in C.md",
+    "GATE/Programming-with-C/Operators in C.md",
+    "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
+    "GATE/Programming-with-C/Type Conversion in C.md",
+    "GATE/Programming-with-C/Signed and Unsigned in C.md",
     "GATE/Guidelines to GATE-CS.md",
-    "attachments/Guidelines to GATE-CS-1750218151717.webp",
-    "GATE/TheoryOfComputation/Closure Properties/Closure Properties of Finite Languages.md",
-    "GATE/TheoryOfComputation/Closure Properties/Non Closure of Languages.md",
-    "attachments/Guidelines to GATE-CS-1750167441981.webp",
-    "attachments/Guidelines to GATE-CS-1750160982286.webp",
-    "attachments/Guidelines to GATE-CS-1750159169989.webp",
-    "attachments/Guidelines to GATE-CS-1750149906966.webp",
-    "attachments/Guidelines to GATE-CS-1750134249372.webp",
-    "attachments/TOC PYQs-1750128434073.webp",
-    "GATE/TheoryOfComputation/Language Class/Identification of Regular Languages.md",
-    "GATE/TheoryOfComputation/Language Class/Identification of CFL, DCFL.md",
-    "Philosophy and General Thoughts/My thought process.md",
-    "GATE/TheoryOfComputation/Context Free Languages-Grammars-PDA/Simplification of Context Free Grammars.md",
-    "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
+    "GATE/GATE-CS.md",
+    "Vault Index.md",
+    "GATE/Pyqs/C PYQs.md",
+    "GATE/Pyqs/Digital Logic PYQs.md",
+    "attachments/Digital Logic PYQs-1751363961142.webp",
+    "attachments/Digital Logic PYQs-1751363397984.webp",
+    "attachments/Digital Logic PYQs-1751362571967.webp",
+    "GATE/Untitled.md",
+    "GATE/Digital-Logic/Number Systems/Gray code.md",
+    "attachments/Gray code-1751356368270.webp",
     "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
-    "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md",
-    "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
-    "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
-    "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md",
-    "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md",
-    "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
-    "GATE/Digital-Logic/Number Systems/Complements in Number System.md",
-    "Fitness/Squat University.md",
-    "GATE/Digital-Logic/Number Systems/Octal and Hexadecimal System.md",
-    "GATE/Digital-Logic/Number Systems/Number Systems.md",
+    "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
     "GATE/Pyqs/Graph Theory PYQs.md",
-    "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md",
+    "attachments/Graph Theory PYQs-1751349584271.webp",
+    "attachments/Graph Theory PYQs-1751308192218.webp",
+    "attachments/Guidelines to GATE-CS-1751306916371.webp",
+    "attachments/Guidelines to GATE-CS-1751306907305.webp",
+    "attachments/Guidelines to GATE-CS-1751306897723.webp",
+    "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md",
+    "attachments/Problems faced by the Parsers-1751264541869.webp",
+    "GATE/CompilerDesign/Compiler Design.md",
+    "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md",
+    "GATE/Pyqs/Compiler Design PYQs.md",
+    "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md",
+    "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md",
+    "GATE/Pyqs/TOC PYQs.md",
+    "GATE/TheoryOfComputation/Theory of Computation.md",
+    "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "Tags",
     "Fitness",
     "Ideas",

@@ -846,12 +846,12 @@
                 }
               },
               {
-                "id": "e1c61211800ea595",
+                "id": "ca6200bf1e675ae4",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
+                    "file": "GATE/Digital-Logic/Number Systems/Gray code.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -866,7 +866,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "Binary Codes for Decimal Digits"
+                  "title": "Gray code"
                 }
               },
               {
@@ -892,9 +892,33 @@
                   "icon": "lucide-file",
                   "title": "Guidelines to GATE-CS"
                 }
+              },
+              {
+                "id": "14eb14573bbc95b8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Pyqs/Digital Logic PYQs.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Digital Logic PYQs"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1025,13 +1049,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
+                    "file": "GATE/Pyqs/Digital Logic PYQs.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Binary Codes for Decimal Digits"
+                  "title": "Outline of Digital Logic PYQs"
                 }
               },
               {
@@ -1108,8 +1132,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "e1c61211800ea595",
-      "mtime": "2025-06-02T18:09:32+05:30"
+      "active": "14eb14573bbc95b8",
+      "mtime": "2025-07-01T16:32:31+05:30"
     },
     "OS": {
       "main": {
@@ -3216,7 +3240,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "76a07e4786a7142a",
+                "id": "f08cf6b2aa13af2a",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -3242,6 +3266,30 @@
                 }
               },
               {
+                "id": "872aac628f313920",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Pyqs/Graph Theory PYQs.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Graph Theory PYQs"
+                }
+              },
+              {
                 "id": "087404d24fd53302",
                 "type": "leaf",
                 "state": {
@@ -3263,30 +3311,6 @@
                   },
                   "icon": "lucide-file",
                   "title": "Guidelines to GATE-CS"
-                }
-              },
-              {
-                "id": "660c576b921edf91",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Pyqs/Graph Theory PYQs.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Graph Theory PYQs"
                 }
               }
             ],
@@ -3421,13 +3445,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "file": "GATE/Pyqs/Graph Theory PYQs.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Guidelines to GATE-CS"
+                  "title": "Outline of Graph Theory PYQs"
                 }
               },
               {
@@ -3502,9 +3526,705 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "087404d24fd53302",
-      "mtime": "2025-05-24T18:19:34+05:30"
+      "active": "872aac628f313920",
+      "mtime": "2025-07-01T12:23:38+05:30"
+    },
+    "Compiler Design": {
+      "main": {
+        "id": "21c87e6fab086ae1",
+        "type": "split",
+        "children": [
+          {
+            "id": "df7f94ce3ab6c62b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "95192672b6957706",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/CompilerDesign/Compiler Design.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Compiler Design"
+                }
+              },
+              {
+                "id": "7f3819573c4c054b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Problems faced by the Parsers"
+                }
+              },
+              {
+                "id": "bbda50cb91812ce8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Lexical Analysis"
+                }
+              },
+              {
+                "id": "435f4fc5c691028a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Pyqs/Compiler Design PYQs.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Compiler Design PYQs"
+                }
+              },
+              {
+                "id": "087404d24fd53302",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": true,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Guidelines to GATE-CS"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "447c3cf29e385729",
+        "type": "split",
+        "children": [
+          {
+            "id": "a1c6d5c6e7c6aea0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "80784521bca5ca54",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "885564d7ad2cc180",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "2bf0657860158803",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "25fb3027bb42d785",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 267.5
+      },
+      "right": {
+        "id": "fb0455d62c4f6c20",
+        "type": "split",
+        "children": [
+          {
+            "id": "e047f71d444b979e",
+            "type": "tabs",
+            "dimension": 66.4,
+            "children": [
+              {
+                "id": "4de834b516a58502",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "8ba157ab7f239193",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "40d15956871d0fde",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "8488c56ed1a27af9",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Problems faced by the Parsers"
+                }
+              },
+              {
+                "id": "13c145e73a31e17b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "2ec29c1e38047089",
+                "type": "leaf",
+                "state": {
+                  "type": "mermaid-toolbar-view",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "64e722562ef2ff69",
+                "type": "leaf",
+                "state": {
+                  "type": "journal-calendar",
+                  "state": {},
+                  "icon": "calendar-days",
+                  "title": "Calendar"
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "5df95600f2476df0",
+            "type": "tabs",
+            "dimension": 33.6,
+            "children": [
+              {
+                "id": "537addfb8bc17cc8",
+                "type": "leaf",
+                "state": {
+                  "type": "map-of-content",
+                  "state": {},
+                  "icon": "stacked-levels",
+                  "title": "Map of Content"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 336.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-kanban:Create new board": false,
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "darlal-switcher-plus:Open in Headings Mode": false,
+          "darlal-switcher-plus:Open Symbols for the active editor": false,
+          "workspaces:Manage workspace layouts": false,
+          "map-of-content:Update Map of Content": false
+        }
+      },
+      "active": "7f3819573c4c054b",
+      "mtime": "2025-06-30T23:37:56+05:30"
+    },
+    "Programming with C": {
+      "main": {
+        "id": "21c87e6fab086ae1",
+        "type": "split",
+        "children": [
+          {
+            "id": "8dfc7ae9f385f793",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "14eb14573bbc95b8",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Programming-with-C/Programming with C.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Programming with C"
+                }
+              },
+              {
+                "id": "ab66c9f00f7c0d5c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Programming-with-C/Loops in C.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Loops in C"
+                }
+              },
+              {
+                "id": "dde7e4ff2c4bdf39",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Programming-with-C/Conditional Statements in C.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Conditional Statements in C"
+                }
+              },
+              {
+                "id": "e188573efe882453",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "3ed1db4b184e567d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Pyqs/C PYQs.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "C PYQs"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "447c3cf29e385729",
+        "type": "split",
+        "children": [
+          {
+            "id": "a1c6d5c6e7c6aea0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "80784521bca5ca54",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "885564d7ad2cc180",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "2bf0657860158803",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "25fb3027bb42d785",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 267.5
+      },
+      "right": {
+        "id": "fb0455d62c4f6c20",
+        "type": "split",
+        "children": [
+          {
+            "id": "e047f71d444b979e",
+            "type": "tabs",
+            "dimension": 66.4,
+            "children": [
+              {
+                "id": "4de834b516a58502",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "8ba157ab7f239193",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "40d15956871d0fde",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "8488c56ed1a27af9",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "GATE/Programming-with-C/Conditional Statements in C.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Conditional Statements in C"
+                }
+              },
+              {
+                "id": "13c145e73a31e17b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "2ec29c1e38047089",
+                "type": "leaf",
+                "state": {
+                  "type": "mermaid-toolbar-view",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "64e722562ef2ff69",
+                "type": "leaf",
+                "state": {
+                  "type": "journal-calendar",
+                  "state": {},
+                  "icon": "calendar-days",
+                  "title": "Calendar"
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "5df95600f2476df0",
+            "type": "tabs",
+            "dimension": 33.6,
+            "children": [
+              {
+                "id": "537addfb8bc17cc8",
+                "type": "leaf",
+                "state": {
+                  "type": "map-of-content",
+                  "state": {},
+                  "icon": "stacked-levels",
+                  "title": "Map of Content"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 336.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-kanban:Create new board": false,
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "darlal-switcher-plus:Open in Headings Mode": false,
+          "darlal-switcher-plus:Open Symbols for the active editor": false,
+          "workspaces:Manage workspace layouts": false,
+          "map-of-content:Update Map of Content": false
+        }
+      },
+      "active": "dde7e4ff2c4bdf39",
+      "mtime": "2025-07-01T22:00:21+05:30"
     }
   },
-  "active": "Graph theory"
+  "active": "Programming with C"
 }

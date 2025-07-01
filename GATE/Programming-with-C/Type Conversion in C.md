@@ -5,7 +5,7 @@ lecture:
 date: 2024-06-10T21:58:00
 version:
   - C-24
-last-revision: 2024-06-18T16:46:00
+last-revision: 2025-07-01T16:46:00
 notes-taken: true
 tags:
   - ProgrammingWithC/Types
@@ -84,9 +84,9 @@ If the result is stored in a float, the data-type float generates precision (0's
 ![[Type Conversion in C-20240618144308275.webp]]
 
 ---
-- At LINE 7,  `a` is type-casted to int `10 / 8.2 = 1.219512` 
+- At LINE 7, `a` is type-casted to int `10 / 8.2 = 1.219512` 
 
-- At LINE 8, `a` and `b` both are type-casted to int `10 / 8 = 1.25` which gets truncated to `1` because of integer division and by storing in a float `d`, it becomes `1.00000`
+- At LINE 8, `b` is type-casted to int `10.4 / 8 = 1.3`
 
 - At LINE 9 `a` and `b` are not type-casted. `10.4 / 8.2 = 1.268293`
 

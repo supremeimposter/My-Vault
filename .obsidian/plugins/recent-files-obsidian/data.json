@@ -1,8 +1,96 @@
 {
   "recentFiles": [
     {
+      "basename": "Conditional Statements in C",
+      "path": "GATE/Programming-with-C/Conditional Statements in C.md"
+    },
+    {
+      "basename": "Loops in C",
+      "path": "GATE/Programming-with-C/Loops in C.md"
+    },
+    {
+      "basename": "Programming with C",
+      "path": "GATE/Programming-with-C/Programming with C.md"
+    },
+    {
+      "basename": "Operators in C",
+      "path": "GATE/Programming-with-C/Operators in C.md"
+    },
+    {
+      "basename": "Distributing Objects into Boxes",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
+    },
+    {
+      "basename": "Type Conversion in C",
+      "path": "GATE/Programming-with-C/Type Conversion in C.md"
+    },
+    {
+      "basename": "Signed and Unsigned in C",
+      "path": "GATE/Programming-with-C/Signed and Unsigned in C.md"
+    },
+    {
       "basename": "Guidelines to GATE-CS",
       "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "GATE-CS",
+      "path": "GATE/GATE-CS.md"
+    },
+    {
+      "basename": "Vault Index",
+      "path": "Vault Index.md"
+    },
+    {
+      "basename": "C PYQs",
+      "path": "GATE/Pyqs/C PYQs.md"
+    },
+    {
+      "basename": "Digital Logic PYQs",
+      "path": "GATE/Pyqs/Digital Logic PYQs.md"
+    },
+    {
+      "basename": "Gray code",
+      "path": "GATE/Digital-Logic/Number Systems/Gray code.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Binary Codes for Decimal Digits",
+      "path": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md"
+    },
+    {
+      "basename": "Graph Theory PYQs",
+      "path": "GATE/Pyqs/Graph Theory PYQs.md"
+    },
+    {
+      "basename": "Problems faced by the Parsers",
+      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md"
+    },
+    {
+      "basename": "Compiler Design",
+      "path": "GATE/CompilerDesign/Compiler Design.md"
+    },
+    {
+      "basename": "Lexical Analysis",
+      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md"
+    },
+    {
+      "basename": "Compiler Design PYQs",
+      "path": "GATE/Pyqs/Compiler Design PYQs.md"
+    },
+    {
+      "basename": "Discrete Mathematics",
+      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
+    },
+    {
+      "basename": "Introduction to Compiler Design",
+      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md"
+    },
+    {
+      "basename": "Syntax Analysis",
+      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md"
     },
     {
       "basename": "TOC PYQs",
@@ -43,14 +131,6 @@
     {
       "basename": "Simplification of Context Free Grammars",
       "path": "GATE/TheoryOfComputation/Context Free Languages-Grammars-PDA/Simplification of Context Free Grammars.md"
-    },
-    {
-      "basename": "Binary Codes for Decimal Digits",
-      "path": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Digital-Logic-Mindmap",
@@ -97,10 +177,6 @@
       "path": "GATE/Digital-Logic/Number Systems/Number Systems.md"
     },
     {
-      "basename": "Graph Theory PYQs",
-      "path": "GATE/Pyqs/Graph Theory PYQs.md"
-    },
-    {
       "basename": "Myhill Nerode Theorem",
       "path": "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md"
     },
@@ -117,88 +193,12 @@
       "path": "GATE/Linear-Algebra/Crammer's Rule.md"
     },
     {
-      "basename": "GATE-CS",
-      "path": "GATE/GATE-CS.md"
-    },
-    {
       "basename": "Dovetailiing Technique",
       "path": "GATE/TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing Technique.md"
     },
     {
       "basename": "Propositional Variables vs Propositional Formulae",
       "path": "GATE/DiscreteMathematics/Propositional-Logic/Propositional Variables vs Propositional Formulae.md"
-    },
-    {
-      "basename": "Vault Index",
-      "path": "Vault Index.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
-      "basename": "Distributing Objects into Boxes",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
-    },
-    {
-      "basename": "Inclusion Exclusion Principle",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md"
-    },
-    {
-      "basename": "Linear Algebra",
-      "path": "GATE/Linear-Algebra/Linear Algebra.md"
-    },
-    {
-      "basename": "Gaussian Elimination",
-      "path": "GATE/Linear-Algebra/Gaussian Elimination.md"
-    },
-    {
-      "basename": "Fitness",
-      "path": "Fitness/Fitness.md"
-    },
-    {
-      "basename": "Calisthenics",
-      "path": "Fitness/Calisthenics.md"
-    },
-    {
-      "basename": "Linear Algebra PYQs",
-      "path": "GATE/Linear-Algebra/Linear Algebra PYQs.md"
-    },
-    {
-      "basename": "System of Linear Equations",
-      "path": "GATE/Linear-Algebra/System of Linear Equations.md"
-    },
-    {
-      "basename": "Linearly Dependent and Independent Vectors",
-      "path": "GATE/Linear-Algebra/Linearly Dependent and Independent Vectors.md"
-    },
-    {
-      "basename": "Basic Counting Principles",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md"
-    },
-    {
-      "basename": "Permutations and Combinations",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md"
-    },
-    {
-      "basename": "Combinatorial Identities",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Combinatorial Identities.md"
-    },
-    {
-      "basename": "Binomial Theorem",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Binomial Theorem.md"
-    },
-    {
-      "basename": "Introduction to Linear Algebra",
-      "path": "GATE/Linear-Algebra/Introduction to Linear Algebra.md"
-    },
-    {
-      "basename": "Combinatronics PYQs",
-      "path": "GATE/Pyqs/Combinatronics PYQs.md"
-    },
-    {
-      "basename": "Counting Nothing",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Counting Nothing.md"
     }
   ],
   "omittedPaths": [

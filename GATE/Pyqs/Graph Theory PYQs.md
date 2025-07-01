@@ -71,3 +71,18 @@ tags:
 
 ![[Graph Theory PYQs-1748696235284.webp]]
 
+
+> [!question] 
+> [Graph Theory: GATE CSE 2022 \| Question: 42](https://gateoverflow.in/371894/gate-cse-2022-question-42)
+
+![[Graph Theory PYQs-1751308192218.webp]]
+
+
+> [!question] 
+> [Graph Theory: GATE CSE 2021 Set 1 \| Question: 36](https://gateoverflow.in/357415/gate-cse-2021-set-1-question-36)
+
+
+![[Graph Theory PYQs-1751349584271.webp]]
+
+
+

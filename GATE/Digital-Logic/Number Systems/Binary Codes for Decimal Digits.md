@@ -99,7 +99,7 @@ The weight of the code is 2421.
 
 > [!tldr] Doesn't have unique representation. How is it handled?
 
-All the decimal digits don't have unique 2421 code. For example, $2$ can be written as $0010$ and $1000$ in 2421 code, but the preferred code is which has lesser decimal value as a binary number.
+All the decimal digits don't have unique 2421 code. For example, $2$ can be written as $0010$ and $1000$ in 2421 code, but the **preferred code is which has lesser decimal value as a binary number**.
 
 $0010$ has a lesser decimal value in binary i.e. $2$ , so it preferred over $1000$ which has larger decimal value in binary i.e. $8$.
 

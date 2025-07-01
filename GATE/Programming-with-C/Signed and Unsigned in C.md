@@ -5,7 +5,7 @@ lecture:
 date: 2024-06-11T23:54:00
 version:
   - C-24
-last-revision: 2024-06-18T10:38:00
+last-revision: 2025-07-01T10:38:00
 notes-taken: true
 tags:
   - ProgrammingWithC/Types
@@ -32,6 +32,7 @@ But in case of MS bit being 0, we can say it is a positive number.
 ```
 
 ## Range of Unsigned and Signed Numbers
+
 > [!help] 
 > $2^n$ has $(n+1)$ bits
 > 
@@ -47,6 +48,7 @@ $U_{\text{min}} = \underbrace{0000\cdots 00}_{n \text{ bits}} = 0$
 $U_{\text{max}} = \underbrace{1111\cdots 11}_{n \text{ bits}} = (2^{n} - 1)$ 
 
 **Range of Signed numbers**
+
 Since computers use 2's complement representation, the range of signed numbers are same as the signed numbers in [[Signed Binary Numbers#Range of Signed Binary Numbers|range of 2's complement representation]].
 
 $T_{\text{min}} = \underbrace{1}_{\text{negative}}\underbrace{0000\cdots 00}_{n-1 \text{ bits}} = - 2^{n-1}$ 
@@ -118,7 +120,7 @@ Extension happens based on the data-type of the source. Extension does not care 
 
 ### Integer Promotion
 
-- Whenever a small integer such as `char` or `int` is used in an expression (including function arguments such as `printf()`), it is **implicitly** promoted to `int`.
+- Whenever a small integer such as `char` or `int` is used in an expression (including function arguments such as `printf()`), it is **implicitly** promoted to `int`).
 
 - `char`, `short` and `int` belong to the ‘int’ family.
 

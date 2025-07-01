@@ -6,7 +6,7 @@ date: 2024-06-18T16:48:00
 version:
   - C-24
 last-revision: 2024-06-22T20:10:00
-notes-taken: false
+notes-taken: true
 tags:
   - ProgrammingWithC/Conditionals
 ---
@@ -60,7 +60,7 @@ If the braces are missing in if-else blocks, then the `else` is matched with the
 ![[Conditional Statements in C-20240622115419646.webp]]
 
 > [!NOTE]
-> If there are other statements in level-0 `if`, then it would becomes its statements
+> If there are other statements in level-0 `if`, then it would becomes its statements. level-1 `if` and its `else` would become independent.
 > 
 > ![[Conditional Statements in C-20240622115521061.webp]]
 
@@ -133,15 +133,14 @@ The condition of switch statement must evaluate to an integer value.
 >![[Conditional Statements in C-20240622143449367.webp]]
 
 - `case` statements and `default` statements can occur in any order within the `switch` block.
+- If no case label matches with the switch condition, then `default` block gets executed.
 
 ![[Conditional Statements in C-20240622141645742.webp]]
 
-- If no case label matches with the switch condition, then `default` block gets executed.
+- If the matched `case` label does not have a `break` statement, then all the case statements below the matched case will be executed until the next `break` statement or the end of the `switch` statement.
 
 > [!cases] If there is no break statement
 > ![[Conditional Statements in C-20240622130703054.webp]]
-
-- If the matched `case` label does not have a `break` statement, then all the case statements below the matched case will be executed until the next `break` statement or the end of the `switch` statement.
 
 > [!cases] If there is no break statement and there are no matches
 > ![[Conditional Statements in C-20240622130912433.webp]]
@@ -173,7 +172,6 @@ Boolean conditions in switch generate warnings, but runs anyways.
 
 > [!cases] Boolean condition succeeds and case label 1 does not exist
 > ![[Conditional Statements in C-20240622174812796.webp]]
-
 
 > [!observation] 
 > Program execution always goes through the body of the switch even if the condition fails.

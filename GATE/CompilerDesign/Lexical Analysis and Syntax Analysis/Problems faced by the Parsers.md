@@ -43,6 +43,12 @@ tags:
 > ![[Problems faced by the Parsers-20240309201507949.webp]]
 
 
+> [!example] 
+> ![[Problems faced by the Parsers-1751262703724.webp]]
+
+![[Problems faced by the Parsers-1751264541869.webp]]
+
+
 ## Left Factoring
 
 > [!NOTE] 

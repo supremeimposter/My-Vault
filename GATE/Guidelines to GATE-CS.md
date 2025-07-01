@@ -38,6 +38,7 @@ $$
 \sqrt{ x^2 } \;=\; \mid x \mid
 $$
 
+---
 ## Guidelines to Programming with C
 
 
@@ -46,9 +47,11 @@ $$
 ---
 ## Guidelines to Digital Logic
 
-- When converting from base 10 to any other base, you need to know the co-efficients of their powers.
+- When converting from base 10 to any other base, you are basically finding the co-efficients of their powers in the desired base.
 
 ![[Guidelines to GATE-CS-20250223170629613.webp|What are those co-efficients?]]
+
+- If you are getting confused about the range of numbers for a particular representation, use a small example such as 3 bits and get the range.
 
 - Some questions on boolean algebra can be solved by evaluating the boolean expressions in the options.
 - If there is a doubt in a boolean equation or if you feel like you are confusing a known boolean law, just use by case method and verify.
@@ -704,6 +707,7 @@ $$
 ### Guidelines to Graph Theory
 
 - do not forget the isolated vertex (degree 0 vertex)
+- By default, assume the given graph is simple graph. If the graph is not simple (contains self loops), it will be mentioned in the question.
 
 - Graph isomorphism questions are done by elimination options by ruling out the graphs with different graph invariant values, and not the other way around.Don't go hunting down the isomorphic graph, simply delete the options which are not isomorphic.
 
@@ -728,6 +732,10 @@ $$
 ![[Guidelines to GATE-CS-1751027316104.webp]]
 
 ![[Guidelines to GATE-CS-1751027255363.webp]]
+
+![[Guidelines to GATE-CS-1751306897723.webp]]
+![[Guidelines to GATE-CS-1751306907305.webp]]
+![[Guidelines to GATE-CS-1751306916371.webp]]
 
 ---
 ## Guidelines to TOC
@@ -845,6 +853,8 @@ $$
 
 - Always think recursively, when analysing CFGs.
 
+![[Guidelines to GATE-CS-1751113721189.webp]]
+
 - In a push down automata, only one input symbol can be read from the input symbol and only the top of the stack can be read(popped) from the infinite stack. But, a string of symbols can be pushed into the stack in reverse.
 
 ![[Guidelines to GATE-CS-1749374886431.webp]]
@@ -873,6 +883,19 @@ $$
 ### Guidelines to Closure of Languages
 
 ![[Guidelines to GATE-CS-1750218151717.webp]]
+
+
+## Guidelines to Compiler Design
+
+![[Guidelines to GATE-CS-1751037366997.webp]]
+
+![[Guidelines to GATE-CS-1751047466734.webp]]
+
+![[Guidelines to GATE-CS-1751047917863.webp]]
+
+![[Guidelines to GATE-CS-1751114761397.webp]]
+
+![[Guidelines to GATE-CS-1751124593785.webp]]
 
 
 ## Guidelines to Calculus
