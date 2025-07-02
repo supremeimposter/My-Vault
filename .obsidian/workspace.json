@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "4a2c92c99b12c91f",
+            "id": "55c262e9a667d9e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Programming-with-C/Loops in C.md",
+                "file": "GATE/Programming-with-C/Sequence Points in C.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,16 +54,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Loops in C"
+              "title": "Sequence Points in C"
             }
           },
           {
-            "id": "dde7e4ff2c4bdf39",
+            "id": "af87bfad10b1aec8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Programming-with-C/Conditional Statements in C.md",
+                "file": "GATE/Programming-with-C/Operators in C.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,7 +78,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Conditional Statements in C"
+              "title": "Operators in C"
             }
           },
           {
@@ -130,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -261,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Programming-with-C/Conditional Statements in C.md",
+                "file": "GATE/Programming-with-C/Sequence Points in C.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Conditional Statements in C"
+              "title": "Outline of Sequence Points in C"
             }
           },
           {
@@ -344,44 +344,43 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "dde7e4ff2c4bdf39",
+  "active": "55c262e9a667d9e6",
   "lastOpenFiles": [
-    "GATE/Programming-with-C/Loops in C.md",
+    "GATE/Pyqs/C PYQs.md",
+    "GATE/Pyqs/Digital Logic PYQs.md",
+    "attachments/Digital Logic PYQs-1751479338857.webp",
+    "attachments/Digital Logic PYQs-1751465286570.webp",
+    "GATE/Digital-Logic/Digital Logic.md",
+    "GATE/Programming-with-C/Sequence Points in C.md",
     "GATE/Programming-with-C/Programming with C.md",
-    "GATE/Programming-with-C/Conditional Statements in C.md",
     "GATE/Programming-with-C/Operators in C.md",
+    "GATE/Guidelines to GATE-CS.md",
+    "GATE/Programming-with-C/Loops in C.md",
+    "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
+    "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md",
+    "GATE/Digital-Logic/Number Systems/Number Systems.md",
+    "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md",
+    "GATE/Digital-Logic/Number Systems/Complements in Number System.md",
+    "GATE/Programming-with-C/Conditional Statements in C.md",
     "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
     "GATE/Programming-with-C/Type Conversion in C.md",
     "GATE/Programming-with-C/Signed and Unsigned in C.md",
-    "GATE/Guidelines to GATE-CS.md",
     "GATE/GATE-CS.md",
     "Vault Index.md",
-    "GATE/Pyqs/C PYQs.md",
-    "GATE/Pyqs/Digital Logic PYQs.md",
     "attachments/Digital Logic PYQs-1751363961142.webp",
     "attachments/Digital Logic PYQs-1751363397984.webp",
     "attachments/Digital Logic PYQs-1751362571967.webp",
     "GATE/Untitled.md",
     "GATE/Digital-Logic/Number Systems/Gray code.md",
     "attachments/Gray code-1751356368270.webp",
-    "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
     "GATE/Pyqs/Graph Theory PYQs.md",
     "attachments/Graph Theory PYQs-1751349584271.webp",
     "attachments/Graph Theory PYQs-1751308192218.webp",
     "attachments/Guidelines to GATE-CS-1751306916371.webp",
     "attachments/Guidelines to GATE-CS-1751306907305.webp",
-    "attachments/Guidelines to GATE-CS-1751306897723.webp",
     "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md",
-    "attachments/Problems faced by the Parsers-1751264541869.webp",
     "GATE/CompilerDesign/Compiler Design.md",
-    "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md",
-    "GATE/Pyqs/Compiler Design PYQs.md",
-    "GATE/DiscreteMathematics/Discrete Mathematics.md",
-    "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md",
-    "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md",
-    "GATE/Pyqs/TOC PYQs.md",
-    "GATE/TheoryOfComputation/Theory of Computation.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "Tags",
     "Fitness",

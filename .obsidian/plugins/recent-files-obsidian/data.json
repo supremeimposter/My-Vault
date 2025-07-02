@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Conditional Statements in C",
-      "path": "GATE/Programming-with-C/Conditional Statements in C.md"
+      "basename": "Sequence Points in C",
+      "path": "GATE/Programming-with-C/Sequence Points in C.md"
     },
     {
-      "basename": "Loops in C",
-      "path": "GATE/Programming-with-C/Loops in C.md"
+      "basename": "C PYQs",
+      "path": "GATE/Pyqs/C PYQs.md"
+    },
+    {
+      "basename": "Digital Logic PYQs",
+      "path": "GATE/Pyqs/Digital Logic PYQs.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Programming with C",
@@ -15,6 +23,38 @@
     {
       "basename": "Operators in C",
       "path": "GATE/Programming-with-C/Operators in C.md"
+    },
+    {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Loops in C",
+      "path": "GATE/Programming-with-C/Loops in C.md"
+    },
+    {
+      "basename": "Signed Binary Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md"
+    },
+    {
+      "basename": "Subtraction of Unsigned Numbers",
+      "path": "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md"
+    },
+    {
+      "basename": "Number Systems",
+      "path": "GATE/Digital-Logic/Number Systems/Number Systems.md"
+    },
+    {
+      "basename": "Decimal and Binary System",
+      "path": "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md"
+    },
+    {
+      "basename": "Complements in Number System",
+      "path": "GATE/Digital-Logic/Number Systems/Complements in Number System.md"
+    },
+    {
+      "basename": "Conditional Statements in C",
+      "path": "GATE/Programming-with-C/Conditional Statements in C.md"
     },
     {
       "basename": "Distributing Objects into Boxes",
@@ -29,10 +69,6 @@
       "path": "GATE/Programming-with-C/Signed and Unsigned in C.md"
     },
     {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
-    },
-    {
       "basename": "GATE-CS",
       "path": "GATE/GATE-CS.md"
     },
@@ -41,20 +77,8 @@
       "path": "Vault Index.md"
     },
     {
-      "basename": "C PYQs",
-      "path": "GATE/Pyqs/C PYQs.md"
-    },
-    {
-      "basename": "Digital Logic PYQs",
-      "path": "GATE/Pyqs/Digital Logic PYQs.md"
-    },
-    {
       "basename": "Gray code",
       "path": "GATE/Digital-Logic/Number Systems/Gray code.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Binary Codes for Decimal Digits",
@@ -145,24 +169,8 @@
       "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
     },
     {
-      "basename": "Signed Binary Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md"
-    },
-    {
-      "basename": "Subtraction of Unsigned Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md"
-    },
-    {
-      "basename": "Decimal and Binary System",
-      "path": "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md"
-    },
-    {
       "basename": "Encoder",
       "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
-    },
-    {
-      "basename": "Complements in Number System",
-      "path": "GATE/Digital-Logic/Number Systems/Complements in Number System.md"
     },
     {
       "basename": "Squat University",
@@ -171,10 +179,6 @@
     {
       "basename": "Octal and Hexadecimal System",
       "path": "GATE/Digital-Logic/Number Systems/Octal and Hexadecimal System.md"
-    },
-    {
-      "basename": "Number Systems",
-      "path": "GATE/Digital-Logic/Number Systems/Number Systems.md"
     },
     {
       "basename": "Myhill Nerode Theorem",
@@ -195,10 +199,6 @@
     {
       "basename": "Dovetailiing Technique",
       "path": "GATE/TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing Technique.md"
-    },
-    {
-      "basename": "Propositional Variables vs Propositional Formulae",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/Propositional Variables vs Propositional Formulae.md"
     }
   ],
   "omittedPaths": [

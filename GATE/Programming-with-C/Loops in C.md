@@ -62,7 +62,7 @@ For loop constructs can mimic while loop constructs.
 ## Break and Continue
 
 `break` statement breaks out of the current loop.
-`continute` statement skips the current iteration in the current loop.
+`continue` statement skips the current iteration in the current loop.
 
 ![[Loops in C-20240622200626717.webp]]
 

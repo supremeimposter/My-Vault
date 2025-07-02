@@ -11,6 +11,7 @@ tags:
   - DigitalLogic/NumberSystem
 ---
 # Decimal and Binary System
+
 > [!youtube] 
 > [Binary & Decimal Number System | Digital Logic | GO Classes - YouTube](https://www.youtube.com/watch?v=Isd4j1djAeA)
 

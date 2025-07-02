@@ -41,8 +41,20 @@ $$
 ---
 ## Guidelines to Programming with C
 
+![[Operators in C-20240622201510103.webp]]
+
+**PUMAS REBL TAC**
+**AUT** - right to left associativity, 
+all the others are left ro right associativity.
+
+Postfix = L to R
+Prefix  = R to L
+Bitwise = & > ^ > |
+
+**P**aranthesis **U**nary **M**ultiply **A**ddition **S**hift **R**elational **E**quality **B**itwise **L**ogical **T**ernary **A**ssignment **C**omma
 
 
+- Between two sequence points, **never modify a variable more than once**, or modify it and read it in the same expression.
 
 ---
 ## Guidelines to Digital Logic

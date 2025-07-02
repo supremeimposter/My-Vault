@@ -31,3 +31,15 @@ tags:
 
 ![[Digital Logic PYQs-1751363961142.webp]]
 
+
+> [!question] 
+> [Digital Logic: GATE CSE 2002 \| Question: 1.16](https://gateoverflow.in/821/gate-cse-2002-question-1-16)
+
+![[Digital Logic PYQs-1751465286570.webp]]
+
+> [!question] 
+> [Digital Logic: GATE CSE 2008 \| Question: 6](https://gateoverflow.in/404/gate-cse-2008-question-6)
+
+![[Digital Logic PYQs-1751479338857.webp]]
+
+

@@ -846,30 +846,6 @@
                 }
               },
               {
-                "id": "ca6200bf1e675ae4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Digital-Logic/Number Systems/Gray code.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Gray code"
-                }
-              },
-              {
                 "id": "e188573efe882453",
                 "type": "leaf",
                 "state": {
@@ -918,7 +894,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1133,7 +1109,7 @@
         }
       },
       "active": "14eb14573bbc95b8",
-      "mtime": "2025-07-01T16:32:31+05:30"
+      "mtime": "2025-07-03T00:01:47+05:30"
     },
     "OS": {
       "main": {
@@ -3912,12 +3888,12 @@
                 }
               },
               {
-                "id": "ab66c9f00f7c0d5c",
+                "id": "55c262e9a667d9e6",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Programming-with-C/Loops in C.md",
+                    "file": "GATE/Programming-with-C/Sequence Points in C.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -3932,16 +3908,16 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "Loops in C"
+                  "title": "Sequence Points in C"
                 }
               },
               {
-                "id": "dde7e4ff2c4bdf39",
+                "id": "af87bfad10b1aec8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Programming-with-C/Conditional Statements in C.md",
+                    "file": "GATE/Programming-with-C/Operators in C.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -3956,7 +3932,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "Conditional Statements in C"
+                  "title": "Operators in C"
                 }
               },
               {
@@ -4008,7 +3984,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -4139,13 +4115,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Programming-with-C/Conditional Statements in C.md",
+                    "file": "GATE/Pyqs/C PYQs.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Conditional Statements in C"
+                  "title": "Outline of C PYQs"
                 }
               },
               {
@@ -4222,8 +4198,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "dde7e4ff2c4bdf39",
-      "mtime": "2025-07-01T22:00:21+05:30"
+      "active": "3ed1db4b184e567d",
+      "mtime": "2025-07-02T19:37:48+05:30"
     }
   },
   "active": "Programming with C"

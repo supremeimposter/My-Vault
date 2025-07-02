@@ -213,7 +213,7 @@ Both the inputs and the outputs are both in signed magnitude system.
 
 The cost is too much in signed magnitude system as, 
 - The sign bits has to be compared 
-- The magnitude bits (n-1) has to be compared i.e. comparator circuit.
+- The magnitude bits $(n-1)$ has to be compared i.e. comparator circuit.
 - If the signs are same, then adder circuit has to be used
 - If the signs are different, then the subtractor circuit has to be used.
 

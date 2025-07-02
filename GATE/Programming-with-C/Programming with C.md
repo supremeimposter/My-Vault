@@ -53,6 +53,7 @@ tags:
 - [[Conditional Statements in C]]
 - [[Loops in C]]
 - [[Operators in C]]
+- [[Sequence Points in C]]
 
 ---
 # References
