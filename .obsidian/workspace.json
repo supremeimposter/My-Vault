@@ -130,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -261,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Programming-with-C/Sequence Points in C.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sequence Points in C"
+              "title": "Outline of Guidelines to GATE-CS"
             }
           },
           {
@@ -344,14 +344,16 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "55c262e9a667d9e6",
+  "active": "e188573efe882453",
   "lastOpenFiles": [
+    "attachments/Guidelines to GATE-CS-1751652664102.webp",
+    "attachments/Guidelines to GATE-CS-1751605296203.webp",
+    "GATE/Programming-with-C/Sequence Points in C.md",
     "GATE/Pyqs/C PYQs.md",
     "GATE/Pyqs/Digital Logic PYQs.md",
     "attachments/Digital Logic PYQs-1751479338857.webp",
     "attachments/Digital Logic PYQs-1751465286570.webp",
     "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Programming-with-C/Sequence Points in C.md",
     "GATE/Programming-with-C/Programming with C.md",
     "GATE/Programming-with-C/Operators in C.md",
     "GATE/Guidelines to GATE-CS.md",
@@ -378,7 +380,6 @@
     "attachments/Graph Theory PYQs-1751349584271.webp",
     "attachments/Graph Theory PYQs-1751308192218.webp",
     "attachments/Guidelines to GATE-CS-1751306916371.webp",
-    "attachments/Guidelines to GATE-CS-1751306907305.webp",
     "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md",
     "GATE/CompilerDesign/Compiler Design.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",

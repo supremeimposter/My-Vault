@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
       "basename": "Sequence Points in C",
       "path": "GATE/Programming-with-C/Sequence Points in C.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Operators in C",
       "path": "GATE/Programming-with-C/Operators in C.md"
-    },
-    {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
       "basename": "Loops in C",

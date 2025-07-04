@@ -53,8 +53,13 @@ Bitwise = & > ^ > |
 
 **P**aranthesis **U**nary **M**ultiply **A**ddition **S**hift **R**elational **E**quality **B**itwise **L**ogical **T**ernary **A**ssignment **C**omma
 
-
 - Between two sequence points, **never modify a variable more than once**, or modify it and read it in the same expression.
+
+![[Guidelines to GATE-CS-1751605296203.webp]]
+
+![[Guidelines to GATE-CS-1751652664102.webp]]
+
+
 
 ---
 ## Guidelines to Digital Logic
@@ -871,6 +876,7 @@ $$
 
 ![[Guidelines to GATE-CS-1749374886431.webp]]
 
+- If the set of final states is given, then the given PDA is PDA with final state acceptance.
 
 ![[Guidelines to GATE-CS-1750053015066.webp]]
 
