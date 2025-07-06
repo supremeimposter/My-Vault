@@ -55,6 +55,8 @@ tags:
 - [[Operators in C]]
 - [[Sequence Points in C]]
 
+- [[Pointers]]
+
 ---
 # References
 

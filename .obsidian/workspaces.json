@@ -2341,6 +2341,30 @@
                 }
               },
               {
+                "id": "7f6e33a223df0b04",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Pyqs/Combinatronics PYQs.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Combinatronics PYQs"
+                }
+              },
+              {
                 "id": "c9c69a5be1ad03a7",
                 "type": "leaf",
                 "state": {
@@ -2365,7 +2389,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -2496,13 +2520,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Distributing Objects into Boxes"
+                  "title": "Outline of Guidelines to GATE-CS"
                 }
               },
               {
@@ -2567,8 +2591,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "2527d167a4c554be",
-      "mtime": "2025-04-07T22:01:52+05:30"
+      "active": "c9c69a5be1ad03a7",
+      "mtime": "2025-07-06T22:39:05+05:30"
     },
     "fitness": {
       "main": {
@@ -3984,7 +4008,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -4115,13 +4139,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Pyqs/C PYQs.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of C PYQs"
+                  "title": "Outline of Guidelines to GATE-CS"
                 }
               },
               {
@@ -4198,8 +4222,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "3ed1db4b184e567d",
-      "mtime": "2025-07-02T19:37:48+05:30"
+      "active": "e188573efe882453",
+      "mtime": "2025-07-06T18:43:44+05:30"
     }
   },
   "active": "Programming with C"

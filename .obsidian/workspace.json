@@ -58,6 +58,30 @@
             }
           },
           {
+            "id": "f25bcb2741554ec6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Programming-with-C/Pointers.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Pointers"
+            }
+          },
+          {
             "id": "af87bfad10b1aec8",
             "type": "leaf",
             "state": {
@@ -130,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -261,13 +285,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/Programming-with-C/Pointers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Guidelines to GATE-CS"
+              "title": "Outline of Pointers"
             }
           },
           {
@@ -344,19 +368,25 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "e188573efe882453",
+  "active": "f25bcb2741554ec6",
   "lastOpenFiles": [
+    "GATE/Programming-with-C/Programming with C.md",
+    "GATE/Programming-with-C/Pointers.md",
+    "GATE/Programming-with-C/Sequence Points in C.md",
+    "GATE/Guidelines to GATE-CS.md",
+    "attachments/Guidelines to GATE-CS-1751809033231.webp",
+    "GATE/Pyqs/Combinatronics PYQs.md",
+    "attachments/Combinatronics PYQs-1751807653142.webp",
+    "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
+    "attachments/Guidelines to GATE-CS-1751726835045.webp",
     "attachments/Guidelines to GATE-CS-1751652664102.webp",
     "attachments/Guidelines to GATE-CS-1751605296203.webp",
-    "GATE/Programming-with-C/Sequence Points in C.md",
     "GATE/Pyqs/C PYQs.md",
     "GATE/Pyqs/Digital Logic PYQs.md",
     "attachments/Digital Logic PYQs-1751479338857.webp",
     "attachments/Digital Logic PYQs-1751465286570.webp",
     "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Programming-with-C/Programming with C.md",
     "GATE/Programming-with-C/Operators in C.md",
-    "GATE/Guidelines to GATE-CS.md",
     "GATE/Programming-with-C/Loops in C.md",
     "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
     "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md",
@@ -364,7 +394,6 @@
     "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md",
     "GATE/Digital-Logic/Number Systems/Complements in Number System.md",
     "GATE/Programming-with-C/Conditional Statements in C.md",
-    "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
     "GATE/Programming-with-C/Type Conversion in C.md",
     "GATE/Programming-with-C/Signed and Unsigned in C.md",
     "GATE/GATE-CS.md",
@@ -374,14 +403,9 @@
     "attachments/Digital Logic PYQs-1751362571967.webp",
     "GATE/Untitled.md",
     "GATE/Digital-Logic/Number Systems/Gray code.md",
-    "attachments/Gray code-1751356368270.webp",
     "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
     "GATE/Pyqs/Graph Theory PYQs.md",
-    "attachments/Graph Theory PYQs-1751349584271.webp",
-    "attachments/Graph Theory PYQs-1751308192218.webp",
-    "attachments/Guidelines to GATE-CS-1751306916371.webp",
     "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md",
-    "GATE/CompilerDesign/Compiler Design.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "Tags",
     "Fitness",

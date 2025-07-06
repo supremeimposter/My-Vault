@@ -30,3 +30,9 @@ The first condition gets applied, and then we are looking for ways to accomplish
 ![[Combinatronics PYQs-20250107105545676.webp]]
 
 
+
+> [!question] 
+> [Combinatory: GATE CSE 2014 Set 1 \| Question: 49](https://gateoverflow.in/1929/gate-cse-2014-set-1-question-49)
+
+
+![[Combinatronics PYQs-1751807653142.webp]]

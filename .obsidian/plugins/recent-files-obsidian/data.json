@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
+      "basename": "Pointers",
+      "path": "GATE/Programming-with-C/Pointers.md"
+    },
+    {
+      "basename": "Programming with C",
+      "path": "GATE/Programming-with-C/Programming with C.md"
     },
     {
       "basename": "Sequence Points in C",
       "path": "GATE/Programming-with-C/Sequence Points in C.md"
+    },
+    {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Combinatronics PYQs",
+      "path": "GATE/Pyqs/Combinatronics PYQs.md"
+    },
+    {
+      "basename": "Distributing Objects into Boxes",
+      "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
     },
     {
       "basename": "C PYQs",
@@ -19,10 +35,6 @@
     {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
-    },
-    {
-      "basename": "Programming with C",
-      "path": "GATE/Programming-with-C/Programming with C.md"
     },
     {
       "basename": "Operators in C",
@@ -55,10 +67,6 @@
     {
       "basename": "Conditional Statements in C",
       "path": "GATE/Programming-with-C/Conditional Statements in C.md"
-    },
-    {
-      "basename": "Distributing Objects into Boxes",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
     },
     {
       "basename": "Type Conversion in C",
@@ -191,14 +199,6 @@
     {
       "basename": "Determinants",
       "path": "GATE/Linear-Algebra/Determinants.md"
-    },
-    {
-      "basename": "Crammer's Rule",
-      "path": "GATE/Linear-Algebra/Crammer's Rule.md"
-    },
-    {
-      "basename": "Dovetailiing Technique",
-      "path": "GATE/TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing Technique.md"
     }
   ],
   "omittedPaths": [

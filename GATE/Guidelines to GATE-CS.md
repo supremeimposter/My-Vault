@@ -59,6 +59,7 @@ Bitwise = & > ^ > |
 
 ![[Guidelines to GATE-CS-1751652664102.webp]]
 
+![[Guidelines to GATE-CS-1751726835045.webp]]
 
 
 ---
@@ -720,6 +721,12 @@ $$
 
 - In functions, elements of domain are considered as objects and elements of co-domain are considered as boxes, since domain elements are mapped to co-domain elements.
 - Number of relations between two sets $A$ and $B$ is $2^{|A| . |B|}$ (refer lec-05-08A.pdf pg. no. 97)
+
+- For solving recurrence relations, 
+	- solve the base cases and a few next to them to understand the recurrence.
+
+![[Guidelines to GATE-CS-1751809033231.webp]]
+
 
 ### Guidelines to Graph Theory
 
