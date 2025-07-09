@@ -1476,7 +1476,8 @@
                   "title": "TOC PYQs"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1607,13 +1608,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "file": "GATE/Pyqs/TOC PYQs.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Guidelines to GATE-CS"
+                  "title": "Outline of TOC PYQs"
                 }
               },
               {
@@ -1717,8 +1718,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "7b788ce81cda6ddc",
-      "mtime": "2025-05-17T19:33:15+05:30"
+      "active": "355c13d7108f7f33",
+      "mtime": "2025-07-09T10:59:25+05:30"
     },
     "Propositional-and-First-Order Logic": {
       "main": {
@@ -3936,6 +3937,30 @@
                 }
               },
               {
+                "id": "f25bcb2741554ec6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Programming-with-C/Pointers.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Pointers"
+                }
+              },
+              {
                 "id": "af87bfad10b1aec8",
                 "type": "leaf",
                 "state": {
@@ -4008,7 +4033,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -4223,7 +4248,7 @@
         }
       },
       "active": "e188573efe882453",
-      "mtime": "2025-07-06T18:43:44+05:30"
+      "mtime": "2025-07-09T09:32:03+05:30"
     }
   },
   "active": "Programming with C"

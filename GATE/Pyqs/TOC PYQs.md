@@ -222,3 +222,16 @@ Only strings containing 100 are not allowed, but other strings must be allowed, 
 
 ![[TOC PYQs-1750508989553.webp]]
 
+
+
+> [!question] 
+> [Theory of Computation: GATE IT 2005 \| Question: 38](https://gateoverflow.in/3785/gate-it-2005-question-38)
+
+![[TOC PYQs-1752033741280.webp]]
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 2000 \| Question: 8](https://gateoverflow.in/679/gate-cse-2000-question-8)
+
+![[TOC PYQs-1752038953546.webp]]
+

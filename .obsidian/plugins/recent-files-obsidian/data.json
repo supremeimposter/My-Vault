@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Pointers",
-      "path": "GATE/Programming-with-C/Pointers.md"
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Weekly Quizzes",
+      "path": "GATE/Weekly-Quizzes/Weekly Quizzes.md"
+    },
+    {
+      "basename": "TOC PYQs",
+      "path": "GATE/Pyqs/TOC PYQs.md"
+    },
+    {
+      "basename": "C PYQs",
+      "path": "GATE/Pyqs/C PYQs.md"
     },
     {
       "basename": "Programming with C",
       "path": "GATE/Programming-with-C/Programming with C.md"
     },
     {
-      "basename": "Sequence Points in C",
-      "path": "GATE/Programming-with-C/Sequence Points in C.md"
+      "basename": "Pointers",
+      "path": "GATE/Programming-with-C/Pointers.md"
     },
     {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
+      "basename": "Sequence Points in C",
+      "path": "GATE/Programming-with-C/Sequence Points in C.md"
     },
     {
       "basename": "Combinatronics PYQs",
@@ -23,10 +35,6 @@
     {
       "basename": "Distributing Objects into Boxes",
       "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
-    },
-    {
-      "basename": "C PYQs",
-      "path": "GATE/Pyqs/C PYQs.md"
     },
     {
       "basename": "Digital Logic PYQs",
@@ -125,10 +133,6 @@
       "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md"
     },
     {
-      "basename": "TOC PYQs",
-      "path": "GATE/Pyqs/TOC PYQs.md"
-    },
-    {
       "basename": "Theory of Computation",
       "path": "GATE/TheoryOfComputation/Theory of Computation.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pumping Lemma",
       "path": "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md"
-    },
-    {
-      "basename": "Determinants",
-      "path": "GATE/Linear-Algebra/Determinants.md"
     }
   ],
   "omittedPaths": [

@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -285,13 +285,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Programming-with-C/Pointers.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pointers"
+              "title": "Outline of Guidelines to GATE-CS"
             }
           },
           {
@@ -368,12 +368,20 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "f25bcb2741554ec6",
+  "active": "e188573efe882453",
   "lastOpenFiles": [
+    "GATE/Weekly-Quizzes/Weekly Quizzes.md",
+    "GATE/Guidelines to GATE-CS.md",
+    "GATE/Pyqs/TOC PYQs.md",
+    "attachments/TOC PYQs-1752038953546.webp",
+    "attachments/TOC PYQs-1752033741280.webp",
+    "GATE/Pyqs/C PYQs.md",
+    "attachments/C PYQs-1751969217348.webp",
+    "attachments/C PYQs-1751968638939.webp",
+    "attachments/C PYQs-1751884150597.webp",
     "GATE/Programming-with-C/Programming with C.md",
     "GATE/Programming-with-C/Pointers.md",
     "GATE/Programming-with-C/Sequence Points in C.md",
-    "GATE/Guidelines to GATE-CS.md",
     "attachments/Guidelines to GATE-CS-1751809033231.webp",
     "GATE/Pyqs/Combinatronics PYQs.md",
     "attachments/Combinatronics PYQs-1751807653142.webp",
@@ -381,10 +389,7 @@
     "attachments/Guidelines to GATE-CS-1751726835045.webp",
     "attachments/Guidelines to GATE-CS-1751652664102.webp",
     "attachments/Guidelines to GATE-CS-1751605296203.webp",
-    "GATE/Pyqs/C PYQs.md",
     "GATE/Pyqs/Digital Logic PYQs.md",
-    "attachments/Digital Logic PYQs-1751479338857.webp",
-    "attachments/Digital Logic PYQs-1751465286570.webp",
     "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Programming-with-C/Operators in C.md",
     "GATE/Programming-with-C/Loops in C.md",
@@ -398,14 +403,9 @@
     "GATE/Programming-with-C/Signed and Unsigned in C.md",
     "GATE/GATE-CS.md",
     "Vault Index.md",
-    "attachments/Digital Logic PYQs-1751363961142.webp",
-    "attachments/Digital Logic PYQs-1751363397984.webp",
-    "attachments/Digital Logic PYQs-1751362571967.webp",
     "GATE/Untitled.md",
     "GATE/Digital-Logic/Number Systems/Gray code.md",
     "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
-    "GATE/Pyqs/Graph Theory PYQs.md",
-    "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "Tags",
     "Fitness",

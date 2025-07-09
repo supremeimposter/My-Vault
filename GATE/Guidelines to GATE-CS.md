@@ -61,6 +61,8 @@ Bitwise = & > ^ > |
 
 ![[Guidelines to GATE-CS-1751726835045.webp]]
 
+- Be careful about how a loop counter gets updated
+
 
 ---
 ## Guidelines to Digital Logic
