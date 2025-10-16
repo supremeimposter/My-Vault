@@ -5,7 +5,7 @@
 | T   | T   | F              |
 | T   | F   | T              |
 | F   | T   | T              |
-| F   | F   | F               |
+| F   | F   | T              |
 
 ## Analysis of NAND
 

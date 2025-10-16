@@ -11,6 +11,7 @@ tags:
   - DBMS/Transaction
 ---
 # Concurrency Control
+
 - Concurrency control ensures isolation property while concurrent execution of transactions.
 - Though checking conflict serializability is less complex, but at the end when it is known that is not conflict serializable, it is waste of resources.
 - A better idea is to ensure serializability during execution.
@@ -25,8 +26,8 @@ tags:
 
 ```mermaid
 flowchart TD
-	A[Concurrency \nControl\nProtocols] --> B[Lock\nbased\nprotocols]
-	A --> C[Time Stamp\nbased\nprotocols]
+	A[Concurrency Control Protocols] --> B[Lock based protocols]
+	A --> C[Time Stamp based protocols]
 	B --> D[General]
 	B --> E[Two-phase]
 ```

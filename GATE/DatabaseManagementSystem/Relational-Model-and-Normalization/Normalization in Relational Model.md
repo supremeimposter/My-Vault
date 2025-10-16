@@ -5,7 +5,7 @@ lecture: 9A, 9C
 date: 2023-11-14T10:08:00
 version:
   - DBMS-24
-last-revision: 
+last-revision: 2025-09-26T21:32:00
 notes-taken: false
 tags:
   - DBMS/RelationalModel/Decomposition
@@ -30,7 +30,7 @@ To put it simply, Normalization is decomposition of relation into normal forms.
 - To overcome the violation of 2NF.
 - The violation of 2NF should be separated from the original table.
 
-![[Decomposition into Normal Forms-20231114101126130.webp]]
+![[Normalization in Relational Model-1758882773002.webp]]
 
 - Why [[Normal Forms#Second Normal Form (2NF)|2NF]] for Relations?
 
@@ -56,7 +56,7 @@ To put it simply, Normalization is decomposition of relation into normal forms.
 1. Find the candidate key from the given FD set.
 2. Find minimal cover of given FD set.
 3. If there is a common LHS then merge (Union Law).
-4. Create sub-relations of the attributes in each of the FDs in the given FD set. (Not just violating ones)
+4. Create sub-relations of the attributes in each of the FDs in the given FD set. (Also violating ones)
 5. Check if any of the FDs contain the candidate key
 	1. If there is none, create one sub-relation for one of the candidate keys.
 	2. If it contains, 
@@ -64,7 +64,6 @@ To put it simply, Normalization is decomposition of relation into normal forms.
 
 
 ## BCNF Decomposition
-
 
 > [!doubt] 
 > - BCNF lossless decomposition is always possible

@@ -21,12 +21,14 @@ Every property is responsible for preserving the database consistency.
 
 ![[ACID Properties for Transaction Processing-20231212135912528.webp]]
 ## Atomicity Property
+
 - It is also called as **all-or-none** property.
 - Either execute a transaction completely or do not execute it at all.
 - No transaction must be left half-done.
 
 ## Durability Property
-- After the commit of a transaction ${} T$, despite any failure all the changes by transaction $T$ must reflect in the database.
+
+- After the <mark class="hltr-pink">commit</mark> of a transaction ${} T$, despite any failure all the changes by transaction $T$ must reflected (written back) in the database.
 - This property is also called as **Permanency**.
 
 ## Consistency Property

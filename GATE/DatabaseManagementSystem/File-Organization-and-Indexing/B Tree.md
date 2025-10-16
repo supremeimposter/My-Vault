@@ -23,6 +23,7 @@ tags:
 - There is no key duplication in B trees.
 
 ## Rules of a B Tree
+
 If a B tree has an order ${} p {}$, then these are the following rules
 
 1. Obvious search tree rules
@@ -93,4 +94,4 @@ For a B Tree of order ${} p$,
 - levels = height + 1
 
 > [!question] Why floor for maximum height and ceil for minimum height?
-> If the maximum height is ${} 5.6$, then it is the maximum height it can have and cannot go beyound $5.6$. We need a integer value to be height, so the possible maximum height is ${} \lfloor 5.6 \rfloor = 5 {}$.
+> If the maximum height is ${} 5.6$, then it is the maximum height it can have and cannot go beyond $5.6$. We need a integer value to be height, so the possible maximum height is ${} \lfloor 5.6 \rfloor = 5 {}$.

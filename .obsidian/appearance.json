@@ -8,8 +8,8 @@
     "custom-admonitions.971f1e",
     "wide-view"
   ],
-  "cssTheme": "Publisher",
-  "theme": "obsidian",
+  "cssTheme": "",
+  "theme": "moonstone",
   "showViewHeader": true,
   "baseFontSize": 23,
   "nativeMenus": false,

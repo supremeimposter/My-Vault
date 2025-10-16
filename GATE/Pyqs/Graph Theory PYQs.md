@@ -86,3 +86,21 @@ tags:
 
 
 
+> [!question] 
+> [Graph Theory: GATE CSE 2004 \| Question: 79](https://gateoverflow.in/1073/gate-cse-2004-question-79)
+
+![[Graph Theory PYQs-1752669257380.webp]]
+
+
+
+> [!question] 
+> [Graph Theory: GATE CSE 2012 \| Question: 38](https://gateoverflow.in/473/gate-cse-2012-question-38)
+
+![[Graph Theory PYQs-1752673526927.webp]]
+
+
+
+> [!question] 
+> [Graph Theory: GATE CSE 2008 \| Question: 23](https://gateoverflow.in/421/gate-cse-2008-question-23)
+
+![[Graph Theory PYQs-1752856444268.webp]]

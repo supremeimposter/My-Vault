@@ -10,9 +10,11 @@ tags:
 - [ ] Do not sleep in day-time.
 
 - Not all the information given is useful. Read the question carefully.
-- Look carefully at the question if they are asking for the true ones or false ones.
-- Do tick any option, if all the options are wrong for a question.
+- Look carefully at the question if they are asking for the **true** ones or **false** ones.
+- If all the options are wrong for a question, do tick at the closest option, do not totally skip it.
 - Before clicking the answer, always check if that's what they have asked in the question for you to answer.
+
+![[Guidelines to GATE-CS-1754138293513.webp]]
 
 ![[Guidelines to GATE-CS-1747475923185.webp]]
 
@@ -38,6 +40,20 @@ $$
 \sqrt{ x^2 } \;=\; \mid x \mid
 $$
 
+- Whenever there are questions with fractions equality, solve it by taking it to some variable k
+![[Guidelines to GATE-CS-1755085818673.webp]]
+
+
+
+## Guidelines to Algorithms
+
+
+![[Guidelines to GATE-CS-1755104891568.webp]]
+
+
+![[Guidelines to GATE-CS-1755107390202.webp|Comparison of asymptotic functions]]
+
+
 ---
 ## Guidelines to Programming with C
 
@@ -55,13 +71,43 @@ Bitwise = & > ^ > |
 
 - Between two sequence points, **never modify a variable more than once**, or modify it and read it in the same expression.
 
+- $\text{sizeof}()$ is a compile time constant, its calculation of pointer arithmetic is different from the usual way I do arithmetic
+
+what does a point to? a points to first row of 4 integers
+$\ast a$ is the row of 4 integers, so
+
+![[Guidelines to GATE-CS-1753599478927.webp]]
+
+
 ![[Guidelines to GATE-CS-1751605296203.webp]]
 
 ![[Guidelines to GATE-CS-1751652664102.webp]]
 
+![[Guidelines to GATE-CS-1753094155298.webp]]
+
+![[Guidelines to GATE-CS-1753108618768.webp]]
+
+- when doing comparisons of signed, unsigned integers, always think of integer promotion.
+
+- Be careful if they are mentioning compiler error or linker error.
+
 ![[Guidelines to GATE-CS-1751726835045.webp]]
 
-- Be careful about how a loop counter gets updated
+- Be careful about how a loop counter gets updated, sometimes there might be one update in the for-loop's body and in the update-coutner statement, don't miss it out.
+
+![[Guidelines to GATE-CS-1753166567126.webp|In LINE 6, 8, there are two updates for the counter i]]
+
+- when passing array as parameter in recursion, look for what base address of array and the value of n passed in recursive function calls, n is applied as the per the modified base address passage and not as same as the base array.
+
+![[Guidelines to GATE-CS-1753166683515.webp|for the recursive calls, n is looked upon as per the passed array address]]
+
+- If $(a + 4)$ is the base address passed for a recursive call, then $n = 3$ means, $a[n] = \ast(a + 4 + 3) = \ast(a + 7)$ 
+
+---
+## Guidelines to Data Structures
+
+
+
 
 
 ---
@@ -126,11 +172,20 @@ $$
 ---
 ## Guidelines to Database Management System
 
+### Guidelines to Relational Model
+
+![[Guidelines to GATE-CS-1758460563485.webp]]
+
 - If an attribute has a set-valued attribute, then it is not in 1NF as the values are not atomic. For 1NF, an attribute cannot be composite.
 - When asked for candidate keys, check if the options are minimal or not. Just don't blindly find the closure of attributes of options given.
 - Since sets of attributes are used, for counting the different combinations, subsets counting can be used to find out the different possible combinations.
 
-- To prove or verify a FD is inferred by an FD set, always use closure method as it is easy and fast rather than fiddling with Armstrong's axioms. Take the closure of the given FD and check in the given FD set, whether the RHS can be obtained or not.
+![[Guidelines to GATE-CS-1758723973353.webp]]
+
+- FD's cannot be split on LHS (i.e. left cannot be split, only combined)
+- To prove or verify a FD is inferred by an FD set, always use **closure method** as it is easy and fast rather than fiddling with Armstrong's axioms. Take the closure of the given FD and check in the given FD set, whether the RHS can be obtained or not.
+
+![[Guidelines to GATE-CS-1758734019058.webp]]
 
 - Given a relation, always start checking from the highest normal form and descend. BCNF $\to$ 3NF $\to$ 2NF. Because if $R$ is in 3NF, then it is definitely in 2NF, you can stop there.
 - Only BCNF completely removes redundancies due to FDs, the lower normal forms may still cause redundancies due to FDs.
@@ -139,6 +194,8 @@ $$
 
 | ![[Guidelines to GATE-CS-20240908152842090.webp]] | ![[Guidelines to GATE-CS-20240908152854230.webp]] | ![[Guidelines to GATE-CS-20240908152913537.webp]] |
 | ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
+
+![[Guidelines to GATE-CS-1758788545268.webp]]
 
 - Not every decomposition (2NF, 3NF) are lossless and dependency preserving. But there always exists (at least one) 2NF or 3NF decomposition for a relation that is lossless and dependency preserving.
 - There can be multiple ways (multiple algorithms) to decompose a relation to either 2NF, 3NF or BCNF.
@@ -172,7 +229,7 @@ $$
 ### Guidelines to Disk
 
 - Consider using Average seek time and Average rotational latency unless explicitly mentioned otherwise.
-- For every rotation, always consider the rotational latency.
+- For every rotation, always calculate the average rotational latency no matter the assumption of the arm.
 - Data is expressed in terms of powers of 2
 - Time is expressed in terms of powers of 10
 
@@ -186,7 +243,7 @@ $$
 - In C-scan algorithm, the empty trip is also counted for average calculation.
 - A block is a consecutive sectors within a track.
 
-- data transfer rate does not care about whether transferred data is useful or not. It just shows how much data is transferred in a given amount of time. But remove the formatted data, it is not required.
+- Data transfer rate means how much data can be transferred in a given unit time (1 sec or 1msec). It has nothing to do with tracks, or useful data, block gaps etc...
 - btt (block transfer time) - time required for 1 block transfer.
 
 - scanning a full disk is different from searching for a record in the disk.
@@ -217,10 +274,10 @@ $$
 ![[Guidelines to GATE-CS-20241105231854595.webp]]
 
 - In second level index, check for Blocking factor again in case of first block being secondary index.
-- ISAM - multi-level primary index file.
+- ISAM - ordered file + multi-level primary index file.
 
 - Do not confuse search keys from "keys" in relational model.
-
+- Be careful about what I/O cost are they asking for? Like "IO cost for search key" or "IO cost for data record".
 - In B-trees, by default take record pointer for *<key, record>* pairs. If record pointer is not given, then consider block pointer.
 - If there is only one node in the tree, then it is a leaf node.
 - Use combinatronics to keep track of the nodes.
@@ -245,9 +302,13 @@ $$
 - App dependent constraints are implicit and Integrity Constraints are explicit constraints as they are enforced by DBMS.
 - The original order of operations within a transaction must not change in any execution.
 
+![[Guidelines to GATE-CS-1760266465726.webp]]
+
 - For isolation, transactions must be appear to execute serially. But for performance measures, transactions are executed concurrently. To ensure isolation amidst concurrent execution, serializability is used.
 - For ensuring isolation property, don't read changes by uncommitted transactions.
 - Serializability ensures isolation property and consistency of a schedule and consistency of database (assuming that no failure occurs).
+
+![[Guidelines to GATE-CS-1760282661861.webp]]
 
 - Transactions are analogous to processes in Operating systems.
 - Scheduler component takes care of concurrency control.
@@ -275,6 +336,9 @@ $$
 - Buffer in main memory is shared by transactions in a schedule, but each transaction has its own private temporary variables.
 
 - Transactions which has computations and operations mentioned are serializable, but not VS.
+
+![[Guidelines to GATE-CS-1760548819483.webp]]
+![[Guidelines to GATE-CS-1760547839975.webp]]
 
 - We cannot undo a committed transaction.
 - Serializability and Recoverability are **for schedules and not for transactions** and both concepts have no correlation between them.
@@ -436,7 +500,7 @@ $$
 - $\leftrightarrow$ is bi-implication and $\Leftrightarrow$ is logical equivalence.
 
 ![[Guidelines to GATE-CS-20240927182739123.webp]]
-
+![[Guidelines to GATE-CS-1756290015810.webp]]
 ![[Guidelines to GATE-CS-20250104215254609.webp]]
 ![[Guidelines to GATE-CS-20250104221900706.webp]]
 ![[Guidelines to GATE-CS-20250106164346108.webp]]
@@ -492,6 +556,10 @@ $$
 
 ![[Guidelines to GATE-CS-20241220135301150.webp]]
 ![[Guidelines to GATE-CS-20241220140229849.webp]]
+
+- Whenever an implication $P \to Q$ is ***<mark style="background-color: #fff88f; color: black">given</mark>***, it means whenever $P$ is true, then $Q$ is true. Don't ovethink about the false case where P = T and Q = F. 
+
+![[Guidelines to GATE-CS-1756462518106.webp|Rules of Inference]]
 
 
 ### Guidelines to First Order Logic
@@ -729,8 +797,12 @@ $$
 
 ![[Guidelines to GATE-CS-1751809033231.webp]]
 
-
+![[Guidelines to GATE-CS-1754138293513.webp]]
 ### Guidelines to Graph Theory
+
+![[Guidelines to GATE-CS-1752802606340.webp]]
+
+- there is no well-defined formula for counting graphs on unlabelled n vertices, have to count step by step, so large values won't be asked.
 
 - do not forget the isolated vertex (degree 0 vertex)
 - By default, assume the given graph is simple graph. If the graph is not simple (contains self loops), it will be mentioned in the question.
@@ -814,13 +886,16 @@ $$
 
 ![[Guidelines to GATE-CS-1747328401728.webp]]
 
+- Method to find out the extended transition for a string in an NFA. This method is also used for the subset construction algorithm. (for those null moves in the diagram, perform $\epsilon$-closure)
 
-- During conversion from NFA to DFA, if there is a null transition defined in the NFA, for each symbol, follow the transition with an empty symbol $\epsilon$
+![[Guidelines to GATE-CS-1756040424810.webp]]
+
+- During conversion from NFA to DFA,for each symbol, follow the transition with an empty symbol $\epsilon$
 
 ![[Guidelines to GATE-CS-1747503839151.webp]]
 
 
-- In NFA to DFA conversion problems, try to understand the language itself and create the minimal DFA. But if you cannot understand the langauge, then don't convert NFA to DFA and get the result.
+- In NFA to DFA conversion problems, try to understand the language itself and create the minimal DFA. But if you cannot understand the langauge, then convert NFA to DFA using the algorithm and get the result.
 
 - Using subset construction algorithm, from an NFA we will get an equivalent DFA with at most $\le 2^n$ states, so the unique minimal DFA will be always less than $\le 2^n$ states. An equivalent DFA for an NFA of $n$ states can be of any number of finite states (probably constructed by some other algorithm or by adding many unreachable states).
 
@@ -839,6 +914,16 @@ $$
 
 ![[Guidelines to GATE-CS-1749133238702.webp]]
 
+- there can be infinite number of regular expressions for a given regular language, but every regular expression expresses a unique regular language.
+
+![[Guidelines to GATE-CS-1756201479900.webp]]
+
+![[Guidelines to GATE-CS-1756202673969.webp]]
+
+![[Guidelines to GATE-CS-1756203121519.webp]]
+
+![[Guidelines to GATE-CS-1756204782879.webp]]
+
 ![[Guidelines to GATE-CS-1747988047228.webp]]
 
 
@@ -856,16 +941,18 @@ $$
 
 - Look for minimum pumping length greater than the minimum string length in the language.
 
+- Number of states in DFA (n) works as a pumping length.
 
 ![[Guidelines to GATE-CS-1748597473581.webp]]
 
 ![[Guidelines to GATE-CS-1748762771676.webp]]
 
 - In Myhill Nerode theorem, the equivalence classes are of sets of pairwise equivalent sets.
-- If there is an infinite set of distinguishable strings, then there are infinite number of equivalence classes for that language i.e. non-regular language. 
+- If there is an infinite set of pairwise distinguishable strings, then there are infinite number of equivalence classes for that language i.e. non-regular language. 
+- If no such infinite set of pairwise distinguishable strings can be formed, then the language is regular.
 
 ![[Guidelines to GATE-CS-1749059309317.webp]]
-
+![[Guidelines to GATE-CS-1756729904031.webp]]
 ![[Guidelines to GATE-CS-1750134249372.webp]]
 
 ### Guidelines to CFG, Grammars, PDA
@@ -874,10 +961,20 @@ $$
 
 ![[Guidelines to GATE-CS-1749112548553.webp]]
 
+- Only right linear grammer can be converted to NFA or vice versa.
 
 ![[Guidelines to GATE-CS-1749116732105.webp]]
 
 - Always think recursively, when analysing CFGs.
+
+- While analyzing the language of a CFG, we can just simplify or remove confusing productions and by compensating them.
+![[Guidelines to GATE-CS-1757774600441.webp]]
+
+![[Guidelines to GATE-CS-1757699537181.webp]]
+
+![[Guidelines to GATE-CS-1758111850231.webp]]
+
+- Ambiguity is defined for grammars, and not for languages.
 
 ![[Guidelines to GATE-CS-1751113721189.webp]]
 
@@ -927,6 +1024,8 @@ $$
 
 ## Guidelines to Calculus
 
+
+![[Guidelines to GATE-CS-1753015210177.webp|$H(3- x)$ example]]
 
 ## Guidelines to Linear Algebra
 

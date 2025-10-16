@@ -4,109 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8dfc7ae9f385f793",
+        "id": "f5b89db6f1e09b3f",
         "type": "tabs",
         "children": [
           {
-            "id": "14eb14573bbc95b8",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Programming-with-C/Programming with C.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Programming with C"
-            }
-          },
-          {
-            "id": "55c262e9a667d9e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Programming-with-C/Sequence Points in C.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sequence Points in C"
-            }
-          },
-          {
-            "id": "f25bcb2741554ec6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Programming-with-C/Pointers.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Pointers"
-            }
-          },
-          {
-            "id": "af87bfad10b1aec8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Programming-with-C/Operators in C.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Operators in C"
-            }
-          },
-          {
-            "id": "e188573efe882453",
+            "id": "2066b3fa9c6e9c03",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -130,12 +32,12 @@
             }
           },
           {
-            "id": "3ed1db4b184e567d",
+            "id": "8c06d979475f07ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Pyqs/C PYQs.md",
+                "file": "GATE/DatabaseManagementSystem/Database Management System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -150,11 +52,107 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "C PYQs"
+              "title": "Database Management System"
+            }
+          },
+          {
+            "id": "7235b76b9bd5b5e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Lock-based Protocols"
+            }
+          },
+          {
+            "id": "fb23c453f872aad2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Concurrency Control Protocols.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Concurrency Control Protocols"
+            }
+          },
+          {
+            "id": "a1935b8a3b0684a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Recoverability"
+            }
+          },
+          {
+            "id": "110128e1b63e3921",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Pyqs/DBMS PYQs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DBMS PYQs"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -285,13 +283,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Guidelines to GATE-CS"
+              "title": "Outline of Lock-based Protocols"
             }
           },
           {
@@ -310,17 +308,7 @@
             }
           },
           {
-            "id": "2ec29c1e38047089",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "64e722562ef2ff69",
+            "id": "92acdc507560220c",
             "type": "leaf",
             "state": {
               "type": "journal-calendar",
@@ -355,6 +343,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "obsidian-kanban:Create new board": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
@@ -368,44 +357,46 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "e188573efe882453",
+  "active": "7235b76b9bd5b5e1",
   "lastOpenFiles": [
-    "GATE/Weekly-Quizzes/Weekly Quizzes.md",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md",
+    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Concurrency Control Protocols.md",
+    "GATE/Pyqs/DBMS PYQs.md",
+    "attachments/DBMS PYQs-1760597386064.webp",
     "GATE/Guidelines to GATE-CS.md",
-    "GATE/Pyqs/TOC PYQs.md",
-    "attachments/TOC PYQs-1752038953546.webp",
-    "attachments/TOC PYQs-1752033741280.webp",
-    "GATE/Pyqs/C PYQs.md",
-    "attachments/C PYQs-1751969217348.webp",
-    "attachments/C PYQs-1751968638939.webp",
-    "attachments/C PYQs-1751884150597.webp",
-    "GATE/Programming-with-C/Programming with C.md",
-    "GATE/Programming-with-C/Pointers.md",
-    "GATE/Programming-with-C/Sequence Points in C.md",
-    "attachments/Guidelines to GATE-CS-1751809033231.webp",
-    "GATE/Pyqs/Combinatronics PYQs.md",
-    "attachments/Combinatronics PYQs-1751807653142.webp",
-    "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
-    "attachments/Guidelines to GATE-CS-1751726835045.webp",
-    "attachments/Guidelines to GATE-CS-1751652664102.webp",
-    "attachments/Guidelines to GATE-CS-1751605296203.webp",
-    "GATE/Pyqs/Digital Logic PYQs.md",
-    "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Programming-with-C/Operators in C.md",
-    "GATE/Programming-with-C/Loops in C.md",
-    "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md",
-    "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md",
-    "GATE/Digital-Logic/Number Systems/Number Systems.md",
-    "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md",
-    "GATE/Digital-Logic/Number Systems/Complements in Number System.md",
-    "GATE/Programming-with-C/Conditional Statements in C.md",
-    "GATE/Programming-with-C/Type Conversion in C.md",
-    "GATE/Programming-with-C/Signed and Unsigned in C.md",
-    "GATE/GATE-CS.md",
-    "Vault Index.md",
-    "GATE/Untitled.md",
-    "GATE/Digital-Logic/Number Systems/Gray code.md",
-    "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
+    "attachments/Guidelines to GATE-CS-1760548819483.webp",
+    "attachments/Guidelines to GATE-CS-20241109213835953.webp",
+    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md",
+    "attachments/Guidelines to GATE-CS-1760547839975.webp",
+    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md",
+    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/View Serializability.md",
+    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md",
+    "attachments/Guidelines to GATE-CS-1760282661861.webp",
+    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md",
+    "attachments/Guidelines to GATE-CS-1760266465726.webp",
+    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md",
+    "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
+    "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md",
+    "attachments/DBMS PYQs-1760245478992.webp",
+    "attachments/DBMS PYQs-1760242535319.webp",
+    "attachments/DBMS PYQs-1760195124577.webp",
+    "attachments/DBMS PYQs-1760022762399.webp",
+    "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md",
+    "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md",
+    "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md",
+    "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md",
+    "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
+    "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/Disk Space Management.md",
+    "GATE/OperatingSystems/Operating Systems.md",
+    "GATE/GATE-LOG.md",
+    "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md",
+    "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md",
+    "GATE/DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normalization in Relational Model.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md",
+    "GATE/DiscreteMathematics/Graph-Theory",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "Tags",
     "Fitness",
@@ -413,13 +404,11 @@
     "Competitive-Programming/Number Theory",
     "Competitive-Programming",
     "GATE/Mind-maps/Concurrency-Control-Protocols.canvas",
-    "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
     "GATE/Mind-maps",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas",
     "GATE/Pyqs",
     "Journal/Study-sessions",
     "GATE/Computer-Organization-and-Architecture/Pipeline",
-    "Journal",
     "SR Latch.canvas",
     "Untitled.canvas"
   ]

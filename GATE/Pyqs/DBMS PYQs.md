@@ -2,13 +2,6 @@
 
 ## Relational Model PYQs
 
-
-> [!question] 
-> [Databases: GATE CSE 2014 Set 2 | Question: 21](https://gateoverflow.in/1978/gate-cse-2014-set-2-question-21)
-
-![[DBMS PYQs-20240927204317195.webp]]
-
-
 > [!question] 
 > [Databases: GATE CSE 2002 | Question: 2.25](https://gateoverflow.in/855/gate-cse-2002-question-2-25)
 
@@ -56,21 +49,6 @@ Only BCNF removes the redundancies due to FDs. 3NF still may cause redundancies 
 > [Databases: GATE CSE 1994 | Question: 3.11](https://gateoverflow.in/2497/gate-cse-1994-question-3-11?show=243071)
 
 ![[DBMS PYQs-20240927204652610.webp]]
-
-
-> [!question] 
-
-![[DBMS PYQs-20240922160842370.webp]]
-
-![[DBMS PYQs-20240922160900190.webp]]
-
-
-> [!question] 
-
-![[DBMS PYQs-20240922161530856.webp]]
-
-
-Primary key cannot be found from the set of FDs, it can be chosen by the designer or owner. And the given question is not the definition of primary key.
 
 
 > [!question] 
@@ -241,6 +219,32 @@ Given that the queries in LHS are valid, are the queries in the RHS valid or not
 ![[DBMS PYQs-20241021132104230.webp]]
 
 
+
+> [!question] 
+> [Operating System: GATE CSE 1999 \| Question: 1.10](https://gateoverflow.in/1463/gate-cse-1999-question-1-10)
+
+![[DBMS PYQs-1759940417920.webp]]
+
+
+
+> [!question] 
+> [Operating System: GATE CSE 2004 \| Question: 12](https://gateoverflow.in/1009/gate-cse-2004-question-12)
+
+![[DBMS PYQs-1759940819125.webp]]
+
+
+> [!question] 
+> [Operating System: GATE CSE 2015 Set 1 \| Question: 30](https://gateoverflow.in/8227/gate-cse-2015-set-1-question-30)
+
+![[DBMS PYQs-1759975406012.webp]]
+
+
+> [!question] 
+> [Operating System: GATE IT 2007 \| Question: 83](https://gateoverflow.in/3535/gate-it-2007-question-83)
+
+![[DBMS PYQs-1760022762399.webp]]
+
+
 ## Indexing PYQs
 
 
@@ -263,18 +267,6 @@ Given that the queries in LHS are valid, are the queries in the RHS valid or not
 > [Databases: GATE CSE 1998 | Question: 1.35](https://gateoverflow.in/1672/gate-cse-1998-question-1-35)
 
 ![[DBMS PYQs-20241011182948510.webp]]
-
-
-
-> [!question] 
-> [Databases: GATE CSE 2023 | Question: 52](https://gateoverflow.in/399259/gate-cse-2023-question-52)
-
-![[DBMS PYQs-20241011181725581.webp]]
-
-
-
-Be careful for the number of block accesses, just answer what are they answering for.
-
 
 
 > [!question] 
@@ -311,17 +303,24 @@ https://www2.cs.sfu.ca/CourseCentral/354/zaiane/material/notes/Chapter11/node21.
 
 
 > [!question] 
+> [Databases: GATE CSE 1997 | Question: 19](https://gateoverflow.in/2279/gate-cse-1997-question-19)
+
+![[DBMS PYQs-20241015103835872.webp]]
+
+
+> [!question] 
 > [Databases: GATE CSE 1994 | Question: 14b](https://gateoverflow.in/360163/gate-cse-1994-question-14b)
 
 ![[DBMS PYQs-20241015095053227.webp]]
 
 
 
+
 > [!question] 
-> [Databases: GATE CSE 1997 | Question: 19](https://gateoverflow.in/2279/gate-cse-1997-question-19)
+> [Databases: GATE CSE 1999 \| Question: 1.25](https://gateoverflow.in/1478/gate-cse-1999-question-1-25)
 
-![[DBMS PYQs-20241015103835872.webp]]
 
+![[DBMS PYQs-1760195124577.webp]]
 
 
 > [!question] 
@@ -345,15 +344,26 @@ https://www2.cs.sfu.ca/CourseCentral/354/zaiane/material/notes/Chapter11/node21.
 
 
 > [!question] 
-> [Databases: GATE CSE 2003 | Question: 65](https://gateoverflow.in/952/gate-cse-2003-question-65)
-
-![[DBMS PYQs-20241018135739037.webp]]
-
-
-> [!question] 
 > [Databases: GATE CSE 2005 | Question: 28](https://gateoverflow.in/1364/gate-cse-2005-question-28)
 
 ![[DBMS PYQs-20241018135928718.webp]]
+
+
+
+> [!question] 
+> [Databases: GATE IT 2005 \| Question: 23, ISRO2017-67](https://gateoverflow.in/3768/gate-it-2005-question-23-isro2017-67)
+
+
+![[DBMS PYQs-1760242535319.webp]]
+
+
+
+> [!question] 
+> [Databases: GATE CSE 2016 Set 2 \| Question: 21](https://gateoverflow.in/39569/gate-cse-2016-set-2-question-21)
+
+
+![[DBMS PYQs-1760245478992.webp]]
+
 
 
 ## Transaction Management PYQs
@@ -385,7 +395,7 @@ Any non-serial interleaving is not conflict serializable
 
 ![[DBMS PYQs-20241022124126410.webp]]
 
-There is always a cycle in the precedence graph. There are no blind writes, so it is not view serializable. This schedule is serializable only for serial execution.
+There is always a cycle in the precedence graph. There are no blind writes, so it is not view serializable as well. This schedule is serializable only for serial execution.
 
 ![[DBMS PYQs-20241022124430184.webp]]
 
@@ -439,5 +449,11 @@ On updation of data, some salesmen may get benefits twice on consequent executio
 
 ![[DBMS PYQs-20241111001223283.webp]]
 
+
+
+> [!question] 
+> [Databases: GATE CSE 2003 \| Question: 29, ISRO2009-73](https://gateoverflow.in/919/gate-cse-2003-question-29-isro2009-73)
+
+![[DBMS PYQs-1760597386064.webp]]
 
 

@@ -58,6 +58,7 @@ flowchart LR
 - [[Satisfiable and Falsifiable]]
 - [[English - Propositional Logic Translation]]
 - [[Write expressions from Tables]]
+- [[Propositional Logic Laws]]
 - [[Arguments and Inference]]
 	- [[Rules of Inference]]
 
@@ -138,6 +139,14 @@ flowchart LR
 
 
 > [!youtube] [Recurrence Relations in Discrete Mathematics | Complete Playlist | Applications of Recurrence Relations | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhhTH0o1JBMgscMUvxs4E_4)
+
+## Graph Theory
+
+
+
+- [[Hamiltonian cycles in complete graphs]]
+
+
 
 ---
 ## Pending Lectures

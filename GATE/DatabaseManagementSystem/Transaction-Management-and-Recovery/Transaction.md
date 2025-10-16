@@ -32,10 +32,12 @@ tags:
 - A transaction consists of certain arithmetic, logical, read, write operations
 
 ## Element of Database
+
 **Element** - Element of a database has a value which can be accessed or modified by transactions.
 
 
 ## State of Database
+
 A database has a state which is a value for each of its element.
 
 ```nomnoml
@@ -47,7 +49,7 @@ State]
 
 A consistent database is one in which all the constraints are satisfied, whereas in inconsistent state some violation of the constraints has occured.
 The consistency requirement is on the database and NOT on transaction.
- 
+
 > Consistency requirement is given by the designer or the developer.
 
 ```mermaid

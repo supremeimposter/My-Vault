@@ -291,7 +291,6 @@
   "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
   "minimal-style@@image-blend-light": true,
   "minimal-style@@image-grid-fit": "contain",
-  "minimal-advanced@@styled-scrollbars": true,
   "minimal-advanced@@cursor": "pointer",
   "minimal-style@@window-title-off": false,
   "minimal-style@@ribbon-style": "ribbon-hidden",
@@ -530,9 +529,16 @@
   "fastppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-teal",
   "fastppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-peach",
   "fastppuccin-theme-settings@@anp-file-icons": true,
-  "fastppuccin-theme-settings@@anp-alternate-tab-toggle": false,
+  "fastppuccin-theme-settings@@anp-alternate-tab-toggle": true,
   "fastppuccin-theme-settings@@hide-external-link-icon": false,
   "fastppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha",
   "obsidian-composer-theme@@theme-variant-light": "composer--QingScheme-light",
-  "obsidian-composer-theme@@theme-variant-dark": "composer--QingScheme-dark"
+  "obsidian-composer-theme@@theme-variant-dark": "composer--QingScheme-dark",
+  "obsidian-velocity@@theme-mode": "theme-strada",
+  "obsidian-velocity@@disable-hover-header": false,
+  "obsidian-velocity@@disable-custom-icons": false,
+  "obsidian-velocity@@disable-naked-embeds": false,
+  "obsidian-velocity@@disable-autohide": false,
+  "obsidian-velocity@@disable-status-fade": false,
+  "obsidian-velocity@@enable-dim-img": true
 }

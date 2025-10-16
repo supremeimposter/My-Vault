@@ -120,7 +120,7 @@ $$
 > [!example] 
 > ![[Decomposition-20240714103439267.webp]]
 
-- Always check lossy or lossless decomposition only on schema and NOT on instances.
+- Always check lossy or lossless decomposition **only on schema** and NOT on instances.
 
 > [!example] 
 > ![[Decomposition-20240713154309338.webp]]
@@ -134,7 +134,7 @@ To check lossless or lossy decomposition in non-binary decomposition, [[Decompos
 - $F_{i}$ is the subset of dependencies in $F^+$ that include only attributes in $R_{i}$.
 - In any decomposition, $F$ always covers $(F_1 \cup F_2 \cup \ldots \cup F_n)$.
 $$
-(F_1 \cup F_2 \cup \ldots \cup F_n)^+ \subseteq F^+
+(F_1 \cup F_2 \cup \ldots \cup F_n) \subseteq F^+
 $$
 
 ![[Decomposition-20240713162202087.webp]]
@@ -142,7 +142,7 @@ $$
 - If all the attributes are in a single table, then there are many [[Problems caused by Redundant Information|redundancy issues]], but we don't have to join tables to get any information.
 - Though decomposition has many benefits such as less redundancy less anomalies and less memory needed, to get an information, the tables must be joined which is a costly operation.
 
-- If ${} (F_1 \cup F_2 \cup \ldots \cup F_n) {}$ covers $F {}$, then there is no need to join relations to enforce functional dependencies as the dependencies are preserved in the decomposed relations i.e. **Dependency preserving decomposition**.
+- If ${} (F_1 \cup F_2 \cup \ldots \cup F_n) {}$ covers $F {}$, then there is <mark class="hltr-pink">no need to join relations to enforce</mark> functional dependencies as the dependencies are preserved in the decomposed relations i.e. **Dependency preserving decomposition**.
 $$
 F^+ = (F_1 \cup F_2 \cup \ldots \cup F_n)^+
 $$
@@ -150,7 +150,7 @@ $$
 > [!example] 
 > ![[Decomposition-20240714103013786.webp]]
 
-- If ${} (F_1 \cup F_2 \cup \ldots \cup F_n) {}$ does not cover ${} F$, then there is a need to join relations (only when the decomposition is lossless) to enforce functional dependencies as the dependencies are not preserved in the decomposed relations i.e **Non-dependency preserving decomposition**. 
+- If ${} (F_1 \cup F_2 \cup \ldots \cup F_n) {}$ does not cover ${} F$, then there is a <mark class="hltr-orange">need to join relations (only when the decomposition is lossless) to enforce</mark> functional dependencies as the dependencies are not preserved in the decomposed relations i.e **Non-dependency preserving decomposition**. 
 $$
 F^+ \supset (F_1 \cup F_2 \cup \ldots \cup F_n)^+
 $$

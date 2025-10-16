@@ -7,7 +7,7 @@ tags:
 books:
   - CLRS
   - chapter-3
-notes-taken:
+notes-taken: false
 ---
 # Characterizing Running Times
 
@@ -16,6 +16,7 @@ For large enough inputs, the multiplicative constants and lower-order terms of a
 ## Asymptotic Notations
 
 Asymptotic notations provide the simplest and most precise bounds possible.
+
 > [!definition] Asymtotically Positive function
 > A function $f(n)$ that is positive for all sufficiently large $n$
 

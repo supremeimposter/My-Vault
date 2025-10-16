@@ -479,8 +479,9 @@ F \Rightarrow G
 $$
 $F$ covers $G$ means all the FDs in $G$ can be derived using FDs in $F$ i.e. $G \subseteq F^+$
 
-To find out if $F$ covers those FDs in $G$, use closure of attributes.
 If $F$ covers $G$, it is not necessary that $G$ also covers $F$.
+
+To find out if $F$ covers those FDs in $G$, use closure of attributes.
 
 > [!steps] Find out if $F$ covers $G$?
 > Take the closure of LHS of every FD in G with respect to $F$ and see if it brings the RHS of that FD in $G$.
@@ -510,9 +511,9 @@ $$
 
 > [!steps] 
 
-1. First make sure all the FDs have a single attribute on the RHS.
-2. First remove the FD from the FD set.
-3. Find ${} (LHS)^+ {}$ from the current FD set after removing the FD and see if ${} (RHS) \in (LHS)^+ {}$. If it is true then the FD is redundant in the set $F$.
+1. Make sure all the FDs have a single attribute on the RHS.
+2. Remove the FD $f$ that needs to tested for redundancy from the FD set $F$.
+3. Find ${} (LHS)^+ {}$ of $f$ after removing from $F$ and see if ${} (RHS) \in (LHS)^+ {}$. If it is true then the FD is redundant in the set $F$.
 
 ## Minimal Cover of FD set
 

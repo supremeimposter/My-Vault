@@ -94,14 +94,7 @@ This is talking about the equivalent minimal DFA, not an equivalent DFA in gener
 ![[TOC PYQs-1747762000669.webp]]
 
 
-Only strings containing 100 are not allowed, but other strings must be allowed, for example, 10, 1, $\epsilon$, 01, etc...
-
-
-
-> [!question] 
-> [Theory of Computation: GATE CSE 1998 \| Question: 3b](https://gateoverflow.in/2941/gate-cse-1998-question-3b)
-
-![[TOC PYQs-1747807916077.webp]]
+Only strings containing 100 are not allowed, but other strings must be allowed, for example, 10, 1, $\epsilon$, 01, etc... which also do not contain substring 100
 
 
 
@@ -113,7 +106,14 @@ Only strings containing 100 are not allowed, but other strings must be allowed, 
 
 
 > [!question] 
+> [Theory of Computation: GATE CSE 2021 Set 2 \| Question: 47](https://gateoverflow.in/357493/gate-cse-2021-set-2-question-47)
+
+![[TOC PYQs-1756261507909.webp]]
+
+
+> [!question] 
 > [Theory of Computation: GATE CSE 2022 \| Question: 2](https://gateoverflow.in/371934/gate-cse-2022-question-2)
+
 
 ![[TOC PYQs-1747977014843.webp]]
 
@@ -171,7 +171,7 @@ Only strings containing 100 are not allowed, but other strings must be allowed, 
 >
 > Either product automata can be constructed or Myhill Nerode theorem can be used to create equivalence classes or create a large set of distinguishable strings possible.
 > 
-> ![[TOC PYQs-1749048596650.webp]]
+> ![[TOC PYQs-1756904356272.webp]]
 
 
 
@@ -193,6 +193,12 @@ Only strings containing 100 are not allowed, but other strings must be allowed, 
 
 ![[TOC PYQs-1750128434073.webp]]
 
+
+
+> [!question] 
+> [Theory of Computation: GATE CSE 2017 Set 2 \| Question: 39](https://gateoverflow.in/118384/gate-cse-2017-set-2-question-39)
+
+![[TOC PYQs-1756045992302.webp]]
 
 ## CFG, CFL
 

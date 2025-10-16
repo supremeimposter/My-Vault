@@ -15,6 +15,7 @@ tags:
 ## General Lock-based Protocols
 
 ![[Concurrency Control Protocols-20231215125744804.webp]]
+
 - Before accessing (read / write) any data item, request lock on the data item. The request is made to the concurrency control manager.
 
 > [!NOTE]
@@ -33,7 +34,8 @@ tags:
 
 ### Delayed Unlocking
 
-- Deadlock is possible for delayed unlocking.
+- Deadlock and starvation are  possible for delayed unlocking.
+
 ![[Lock-based Protocols-20231215135211528.webp]]
 ![[Lock-based Protocols-20231215135225130.webp]]
 

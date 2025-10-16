@@ -146,3 +146,8 @@
 **September 15, 2024** Anjali Chauhan gave a great idea. Make note of some PYQs that you may need to revise later. Because not every PYQ is tough, but some are very analytical and nice to revisit.
 
 **September 20, 2024** I have learned the hard way that feeling insecure is not going to help in any way. It is simply an excuse to not work hard and play out the luck. How come anyone who puts the hard word, not reap the benefits? 
+
+**September 30, 2025** I don't have anything significant in my life so far to point and say "Hey Look, I did this" that draws half a minute of appreciation. I may have a chance at it now away from me in ~120 days. Just do it.
+
+![[GATE-LOG-1759232627118.webp]]
+

@@ -35,38 +35,6 @@ variation : [Propositional Logic Question - Propositional Formula | Variation of
 
 
 > [!question] 
-> [Mathematical Logic: GATE CSE 1994 | Question: 3.13](https://gateoverflow.in/2499/gate-cse-1994-question-3-13)
-
-![[Logic PYQs-20240927094208134.webp]]
-
-It can be rewritten as an argument,
-$$
-\begin{equation}
-\begin{split}
-p \Leftrightarrow q \\
-\therefore p \rightarrow \overline{q}
-\end{split}
-\end{equation}
-$$
-It can be proved that this is an invalid argument.
-
-
-> [!question] 
-> [Mathematical Logic: GATE CSE 1995 | Question: 13](https://gateoverflow.in/2649/gate-cse-1995-question-13)
-
-![[Logic PYQs-20240927101801390.webp]]
-
-
-> [!question] 
-> [Mathematical Logic: GATE CSE 1995 | Question: 2.19](https://gateoverflow.in/2631/gate-cse-1995-question-2-19)
-
-![[Logic PYQs-20240927102722858.webp]]
-
-A proposition can never have multiple values, it can be either true or false.
-
-Here the given proposition is not tautology or contradiction, it cannot be said whether it is true or false, so it cannot be determined.
-
-> [!question] 
 > [Mathematical Logic: GATE CSE 1996 | Question: 2.3](https://gateoverflow.in/2732/gate-cse-1996-question-2-3)
 
 ![[Logic PYQs-20240927163429365.webp]]

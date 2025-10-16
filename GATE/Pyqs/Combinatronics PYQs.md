@@ -36,3 +36,11 @@ The first condition gets applied, and then we are looking for ways to accomplish
 
 
 ![[Combinatronics PYQs-1751807653142.webp]]
+
+
+
+> [!question] 
+> [Combinatory: GATE CSE 2005 \| Question: 44](https://gateoverflow.in/1170/gate-cse-2005-question-44)
+
+
+![[Combinatronics PYQs-1754226298927.webp]]

@@ -29,7 +29,7 @@ Inference == Deduction == Derivation == Judgement
 
 - If P then Q, is a claim. (If condition, then consequence)
 ```ad-info
-p is also called antecedent, premise, hypothesis.
+p is also called condition, antecedent, premise, hypothesis.
 q is also called consequence, conclusion.
 ```
 

@@ -11,6 +11,7 @@ tags:
   - DBMS/Transaction
 ---
 # Conflict Serializability
+
 > [!convention] 
 > CS - Conflict Serializable
 > CESS - Confict Equivalent Serial Schedule
@@ -42,6 +43,7 @@ flexGrow=1
 - When two **consecutive non-conflicting** operations of two transactions are swapped in a schedule, it does NOT change the effect of schedule on the database.
 
 ## Conflict Equivalent
+
 - If a valid schedule ${} S {}$ can be transformed into a valid schedule ${} S'$ by a series of swaps of **non-conflicting consecutive** instructions of different transactions, we say that $S$ and $S' {}$ are conflict-equivalent.
 - Conflict equivalence is transitive.
 

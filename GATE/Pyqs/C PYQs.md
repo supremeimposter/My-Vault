@@ -28,3 +28,8 @@ tags:
 ![[C PYQs-1751969217348.webp]]
 
 
+
+> [!question] 
+> [Programming in C: GATE CSE 1991 \| Question: 1,vi](https://gateoverflow.in/504/gate-cse-1991-question-1-vi)
+
+![[C PYQs-1753274858139.webp]]

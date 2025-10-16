@@ -1476,8 +1476,7 @@
                   "title": "TOC PYQs"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -1608,13 +1607,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Pyqs/TOC PYQs.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of TOC PYQs"
+                  "title": "Outline of Guidelines to GATE-CS"
                 }
               },
               {
@@ -1638,8 +1637,8 @@
                 "state": {
                   "type": "mermaid-toolbar-view",
                   "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
+                  "icon": "lucide-ghost",
+                  "title": "mermaid-toolbar-view"
                 }
               },
               {
@@ -1705,6 +1704,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "bases:Create new base": false,
           "audio-recorder:Start/stop recording": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
@@ -1718,8 +1718,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "355c13d7108f7f33",
-      "mtime": "2025-07-09T10:59:25+05:30"
+      "active": "7b788ce81cda6ddc",
+      "mtime": "2025-09-20T15:06:39+05:30"
     },
     "Propositional-and-First-Order Logic": {
       "main": {
@@ -1739,8 +1739,17 @@
                   "state": {
                     "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
                     "mode": "source",
+                    "source": false,
                     "backlinks": true,
-                    "source": false
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
                   },
                   "pinned": true,
                   "icon": "lucide-file",
@@ -1779,8 +1788,17 @@
                   "state": {
                     "file": "GATE/Pyqs/Logic PYQs.md",
                     "mode": "source",
+                    "source": false,
                     "backlinks": true,
-                    "source": false
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
                   },
                   "icon": "lucide-file",
                   "title": "Logic PYQs"
@@ -1946,8 +1964,8 @@
                 "state": {
                   "type": "mermaid-toolbar-view",
                   "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
+                  "icon": "lucide-ghost",
+                  "title": "mermaid-toolbar-view"
                 }
               },
               {
@@ -1986,6 +2004,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "bases:Create new base": false,
           "obsidian-kanban:Create new board": false,
           "audio-recorder:Start/stop recording": false,
           "switcher:Open quick switcher": false,
@@ -2000,7 +2019,7 @@
         }
       },
       "active": "2066b3fa9c6e9c03",
-      "mtime": "2025-02-18T23:29:39+05:30"
+      "mtime": "2025-08-31T18:59:11+05:30"
     },
     "CP": {
       "main": {
@@ -2593,7 +2612,7 @@
         }
       },
       "active": "c9c69a5be1ad03a7",
-      "mtime": "2025-07-06T22:39:05+05:30"
+      "mtime": "2025-08-13T12:10:36+05:30"
     },
     "fitness": {
       "main": {
@@ -3313,6 +3332,30 @@
                   "icon": "lucide-file",
                   "title": "Guidelines to GATE-CS"
                 }
+              },
+              {
+                "id": "2569e3bbb49767fc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DiscreteMathematics/Graph-Theory/Hamiltonian cycles in complete graphs.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Hamiltonian cycles in complete graphs"
+                }
               }
             ],
             "currentTab": 1
@@ -3528,7 +3571,7 @@
         }
       },
       "active": "872aac628f313920",
-      "mtime": "2025-07-01T12:23:38+05:30"
+      "mtime": "2025-07-20T18:08:49+05:30"
     },
     "Compiler Design": {
       "main": {
@@ -4033,7 +4076,607 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "447c3cf29e385729",
+        "type": "split",
+        "children": [
+          {
+            "id": "a1c6d5c6e7c6aea0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "80784521bca5ca54",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "885564d7ad2cc180",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "2bf0657860158803",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "25fb3027bb42d785",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 267.5
+      },
+      "right": {
+        "id": "fb0455d62c4f6c20",
+        "type": "split",
+        "children": [
+          {
+            "id": "e047f71d444b979e",
+            "type": "tabs",
+            "dimension": 66.4,
+            "children": [
+              {
+                "id": "4de834b516a58502",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "8ba157ab7f239193",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "40d15956871d0fde",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "8488c56ed1a27af9",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "GATE/Pyqs/C PYQs.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of C PYQs"
+                }
+              },
+              {
+                "id": "13c145e73a31e17b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "2ec29c1e38047089",
+                "type": "leaf",
+                "state": {
+                  "type": "mermaid-toolbar-view",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "64e722562ef2ff69",
+                "type": "leaf",
+                "state": {
+                  "type": "journal-calendar",
+                  "state": {},
+                  "icon": "calendar-days",
+                  "title": "Calendar"
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "5df95600f2476df0",
+            "type": "tabs",
+            "dimension": 33.6,
+            "children": [
+              {
+                "id": "537addfb8bc17cc8",
+                "type": "leaf",
+                "state": {
+                  "type": "map-of-content",
+                  "state": {},
+                  "icon": "stacked-levels",
+                  "title": "Map of Content"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 336.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-kanban:Create new board": false,
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "darlal-switcher-plus:Open in Headings Mode": false,
+          "darlal-switcher-plus:Open Symbols for the active editor": false,
+          "workspaces:Manage workspace layouts": false,
+          "map-of-content:Update Map of Content": false
+        }
+      },
+      "active": "3ed1db4b184e567d",
+      "mtime": "2025-07-26T17:33:01+05:30"
+    },
+    "Calculus": {
+      "main": {
+        "id": "21c87e6fab086ae1",
+        "type": "split",
+        "children": [
+          {
+            "id": "f3227c05078a5159",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a1f3e651a3f26a8d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "3768646edc8fe99b",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Calculus/Calculus.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Calculus"
+                }
+              },
+              {
+                "id": "74f106fa871edcfb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Calculus/Indeterminate forms of a function.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Indeterminate forms of a function"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "447c3cf29e385729",
+        "type": "split",
+        "children": [
+          {
+            "id": "a1c6d5c6e7c6aea0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "80784521bca5ca54",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "885564d7ad2cc180",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "2bf0657860158803",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "25fb3027bb42d785",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 267.5
+      },
+      "right": {
+        "id": "fb0455d62c4f6c20",
+        "type": "split",
+        "children": [
+          {
+            "id": "e047f71d444b979e",
+            "type": "tabs",
+            "dimension": 66.4,
+            "children": [
+              {
+                "id": "4de834b516a58502",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "8ba157ab7f239193",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "40d15956871d0fde",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "8488c56ed1a27af9",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "GATE/Calculus/Indeterminate forms of a function.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Indeterminate forms of a function"
+                }
+              },
+              {
+                "id": "13c145e73a31e17b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "2ec29c1e38047089",
+                "type": "leaf",
+                "state": {
+                  "type": "mermaid-toolbar-view",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "64e722562ef2ff69",
+                "type": "leaf",
+                "state": {
+                  "type": "journal-calendar",
+                  "state": {},
+                  "icon": "calendar-days",
+                  "title": "Calendar"
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "5df95600f2476df0",
+            "type": "tabs",
+            "dimension": 33.6,
+            "children": [
+              {
+                "id": "537addfb8bc17cc8",
+                "type": "leaf",
+                "state": {
+                  "type": "map-of-content",
+                  "state": {},
+                  "icon": "stacked-levels",
+                  "title": "Map of Content"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 336.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-kanban:Create new board": false,
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "darlal-switcher-plus:Open in Headings Mode": false,
+          "darlal-switcher-plus:Open Symbols for the active editor": false,
+          "workspaces:Manage workspace layouts": false,
+          "map-of-content:Update Map of Content": false
+        }
+      },
+      "active": "74f106fa871edcfb",
+      "mtime": "2025-07-23T18:17:21+05:30"
+    },
+    "DSA": {
+      "main": {
+        "id": "21c87e6fab086ae1",
+        "type": "split",
+        "children": [
+          {
+            "id": "df7f94ce3ab6c62b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d9c0fecca3d72987",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Algorithms/Algorithms.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Algorithms"
+                }
+              },
+              {
+                "id": "85b96dd76f28da12",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Characterizing Running Times"
+                }
+              },
+              {
+                "id": "c9c69a5be1ad03a7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Guidelines to GATE-CS"
+                }
+              }
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -4180,22 +4823,10 @@
                   "type": "tag",
                   "state": {
                     "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
+                    "useHierarchy": true
                   },
                   "icon": "lucide-tags",
                   "title": "Tags"
-                }
-              },
-              {
-                "id": "2ec29c1e38047089",
-                "type": "leaf",
-                "state": {
-                  "type": "mermaid-toolbar-view",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
                 }
               },
               {
@@ -4234,6 +4865,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "bases:Create new base": false,
           "obsidian-kanban:Create new board": false,
           "audio-recorder:Start/stop recording": false,
           "switcher:Open quick switcher": false,
@@ -4247,9 +4879,9 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "e188573efe882453",
-      "mtime": "2025-07-09T09:32:03+05:30"
+      "active": "c9c69a5be1ad03a7",
+      "mtime": "2025-08-24T18:29:41+05:30"
     }
   },
-  "active": "Programming with C"
+  "active": "DBMS-mod-1"
 }

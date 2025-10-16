@@ -1,212 +1,208 @@
 {
   "recentFiles": [
     {
+      "basename": "Lock-based Protocols",
+      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md"
+    },
+    {
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Concurrency Control Protocols",
+      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Concurrency Control Protocols.md"
+    },
+    {
+      "basename": "DBMS PYQs",
+      "path": "GATE/Pyqs/DBMS PYQs.md"
+    },
+    {
       "basename": "Guidelines to GATE-CS",
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
-      "basename": "Weekly Quizzes",
-      "path": "GATE/Weekly-Quizzes/Weekly Quizzes.md"
+      "basename": "Guidelines to GATE-CS-20241109213835953",
+      "path": "attachments/Guidelines to GATE-CS-20241109213835953.webp"
+    },
+    {
+      "basename": "Recoverability",
+      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md"
+    },
+    {
+      "basename": "Conflict Serializability",
+      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md"
+    },
+    {
+      "basename": "View Serializability",
+      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/View Serializability.md"
+    },
+    {
+      "basename": "Serializability",
+      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md"
+    },
+    {
+      "basename": "ACID Properties for Transaction Processing",
+      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md"
+    },
+    {
+      "basename": "Transaction",
+      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md"
+    },
+    {
+      "basename": "Database-Management-System-Mindmap",
+      "path": "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas"
+    },
+    {
+      "basename": "B+ Tree",
+      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md"
+    },
+    {
+      "basename": "B Tree",
+      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
+    },
+    {
+      "basename": "Single Level Ordered Index",
+      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md"
+    },
+    {
+      "basename": "Multi Level Ordered Index",
+      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md"
+    },
+    {
+      "basename": "Indexing",
+      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md"
+    },
+    {
+      "basename": "File Organization",
+      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md"
+    },
+    {
+      "basename": "Disk Space Management",
+      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/Disk Space Management.md"
+    },
+    {
+      "basename": "Operating Systems",
+      "path": "GATE/OperatingSystems/Operating Systems.md"
+    },
+    {
+      "basename": "GATE-LOG",
+      "path": "GATE/GATE-LOG.md"
+    },
+    {
+      "basename": "Disk Structure and Performance",
+      "path": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
+    },
+    {
+      "basename": "Disk Addressing",
+      "path": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md"
+    },
+    {
+      "basename": "Tuple Relational Calculus",
+      "path": "GATE/DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
+    },
+    {
+      "basename": "Three Levels of Schema",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md"
+    },
+    {
+      "basename": "Normalization in Relational Model",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normalization in Relational Model.md"
+    },
+    {
+      "basename": "Relational Model",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
+    },
+    {
+      "basename": "Decomposition",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
+    },
+    {
+      "basename": "Normal Forms",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
+    },
+    {
+      "basename": "Functional Dependency",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
+    },
+    {
+      "basename": "Problems caused by Redundant Information",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
+    },
+    {
+      "basename": "Natural Join",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
+    },
+    {
+      "basename": "Standard Integrity Constraints in Relational Model",
+      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md"
+    },
+    {
+      "basename": "ER Model to Relational Model Conversion",
+      "path": "GATE/DatabaseManagementSystem/ER-Model/ER Model to Relational Model Conversion.md"
     },
     {
       "basename": "TOC PYQs",
       "path": "GATE/Pyqs/TOC PYQs.md"
     },
     {
-      "basename": "C PYQs",
-      "path": "GATE/Pyqs/C PYQs.md"
+      "basename": "Theory of Computation",
+      "path": "GATE/TheoryOfComputation/Theory of Computation.md"
     },
     {
-      "basename": "Programming with C",
-      "path": "GATE/Programming-with-C/Programming with C.md"
+      "basename": "Logic PYQs",
+      "path": "GATE/Pyqs/Logic PYQs.md"
     },
     {
-      "basename": "Pointers",
-      "path": "GATE/Programming-with-C/Pointers.md"
+      "basename": "Arguments and Inference",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/Arguments and Inference.md"
     },
     {
-      "basename": "Sequence Points in C",
-      "path": "GATE/Programming-with-C/Sequence Points in C.md"
+      "basename": "Propositional Logic Laws",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/Propositional Logic Laws.md"
     },
     {
-      "basename": "Combinatronics PYQs",
-      "path": "GATE/Pyqs/Combinatronics PYQs.md"
-    },
-    {
-      "basename": "Distributing Objects into Boxes",
-      "path": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md"
-    },
-    {
-      "basename": "Digital Logic PYQs",
-      "path": "GATE/Pyqs/Digital Logic PYQs.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
-    },
-    {
-      "basename": "Operators in C",
-      "path": "GATE/Programming-with-C/Operators in C.md"
-    },
-    {
-      "basename": "Loops in C",
-      "path": "GATE/Programming-with-C/Loops in C.md"
-    },
-    {
-      "basename": "Signed Binary Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Signed Binary Numbers.md"
-    },
-    {
-      "basename": "Subtraction of Unsigned Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Subtraction of Unsigned Numbers.md"
-    },
-    {
-      "basename": "Number Systems",
-      "path": "GATE/Digital-Logic/Number Systems/Number Systems.md"
-    },
-    {
-      "basename": "Decimal and Binary System",
-      "path": "GATE/Digital-Logic/Number Systems/Decimal and Binary System.md"
-    },
-    {
-      "basename": "Complements in Number System",
-      "path": "GATE/Digital-Logic/Number Systems/Complements in Number System.md"
-    },
-    {
-      "basename": "Conditional Statements in C",
-      "path": "GATE/Programming-with-C/Conditional Statements in C.md"
-    },
-    {
-      "basename": "Type Conversion in C",
-      "path": "GATE/Programming-with-C/Type Conversion in C.md"
-    },
-    {
-      "basename": "Signed and Unsigned in C",
-      "path": "GATE/Programming-with-C/Signed and Unsigned in C.md"
-    },
-    {
-      "basename": "GATE-CS",
-      "path": "GATE/GATE-CS.md"
-    },
-    {
-      "basename": "Vault Index",
-      "path": "Vault Index.md"
-    },
-    {
-      "basename": "Gray code",
-      "path": "GATE/Digital-Logic/Number Systems/Gray code.md"
-    },
-    {
-      "basename": "Binary Codes for Decimal Digits",
-      "path": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md"
-    },
-    {
-      "basename": "Graph Theory PYQs",
-      "path": "GATE/Pyqs/Graph Theory PYQs.md"
-    },
-    {
-      "basename": "Problems faced by the Parsers",
-      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Problems faced by the Parsers.md"
-    },
-    {
-      "basename": "Compiler Design",
-      "path": "GATE/CompilerDesign/Compiler Design.md"
-    },
-    {
-      "basename": "Lexical Analysis",
-      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Lexical Analysis.md"
-    },
-    {
-      "basename": "Compiler Design PYQs",
-      "path": "GATE/Pyqs/Compiler Design PYQs.md"
+      "basename": "Implication",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/Implication.md"
     },
     {
       "basename": "Discrete Mathematics",
       "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
     },
     {
-      "basename": "Introduction to Compiler Design",
-      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Introduction to Compiler Design.md"
+      "basename": "Necessary vs Sufficient",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/Necessary vs Sufficient.md"
     },
     {
-      "basename": "Syntax Analysis",
-      "path": "GATE/CompilerDesign/Lexical Analysis and Syntax Analysis/Syntax Analysis.md"
+      "basename": "Logical Connectives",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/Logical Connectives.md"
     },
     {
-      "basename": "Theory of Computation",
-      "path": "GATE/TheoryOfComputation/Theory of Computation.md"
+      "basename": "NOR",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/NOR.md"
     },
     {
-      "basename": "Chomsky Hierarchy",
-      "path": "GATE/TheoryOfComputation/Closure Properties/Chomsky Hierarchy.md"
+      "basename": "NAND",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/NAND.md"
     },
     {
-      "basename": "Closure Properties of Regular Languages",
-      "path": "GATE/TheoryOfComputation/Closure Properties/Closure Properties of Regular Languages.md"
+      "basename": "EX-OR",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/EX-OR.md"
     },
     {
-      "basename": "Closure Properties of Finite Languages",
-      "path": "GATE/TheoryOfComputation/Closure Properties/Closure Properties of Finite Languages.md"
+      "basename": "OR (Disjunction)",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/OR (Disjunction).md"
     },
     {
-      "basename": "Non Closure of Languages",
-      "path": "GATE/TheoryOfComputation/Closure Properties/Non Closure of Languages.md"
+      "basename": "AND (Conjunction)",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/AND (Conjunction).md"
     },
     {
-      "basename": "Identification of Regular Languages",
-      "path": "GATE/TheoryOfComputation/Language Class/Identification of Regular Languages.md"
-    },
-    {
-      "basename": "Identification of CFL, DCFL",
-      "path": "GATE/TheoryOfComputation/Language Class/Identification of CFL, DCFL.md"
-    },
-    {
-      "basename": "My thought process",
-      "path": "Philosophy and General Thoughts/My thought process.md"
-    },
-    {
-      "basename": "Simplification of Context Free Grammars",
-      "path": "GATE/TheoryOfComputation/Context Free Languages-Grammars-PDA/Simplification of Context Free Grammars.md"
-    },
-    {
-      "basename": "Digital-Logic-Mindmap",
-      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
-    },
-    {
-      "basename": "Sign Extension of Unsigned and Signed Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Sign Extension of Unsigned and Signed Numbers.md"
-    },
-    {
-      "basename": "Overflow of Signed and Unsigned Numbers",
-      "path": "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md"
-    },
-    {
-      "basename": "Encoder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
-    },
-    {
-      "basename": "Squat University",
-      "path": "Fitness/Squat University.md"
-    },
-    {
-      "basename": "Octal and Hexadecimal System",
-      "path": "GATE/Digital-Logic/Number Systems/Octal and Hexadecimal System.md"
-    },
-    {
-      "basename": "Myhill Nerode Theorem",
-      "path": "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Myhill Nerode Theorem.md"
-    },
-    {
-      "basename": "Pumping Lemma",
-      "path": "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Pumping Lemma.md"
+      "basename": "Negation",
+      "path": "GATE/DiscreteMathematics/Propositional-Logic/Negation.md"
     }
   ],
-  "omittedPaths": [
-    ""
-  ],
+  "omittedPaths": [],
   "omittedTags": [],
   "updateOn": "file-open",
-  "omitBookmarks": false,
-  "maxLength": null,
-  "openType": "tab"
+  "omitBookmarks": false
 }

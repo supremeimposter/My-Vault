@@ -63,7 +63,7 @@ The values in the primary key attributes must be unique and must not contain NUL
 
 > [!tip] 
 > - The table which contains the foreign key is called **referencing table** (child table)
-> - The table which contains the candidate key that the foreign key refers called **referenced table** (parent table)
+> - The table which contains the candidate key that the foreign key references, is called **referenced table** (parent table)
 >
 > - Foreign key in the child table refers a candidate key in the parent table.
 
@@ -128,7 +128,7 @@ When the foreign key is of multi-attribute, then the same tuple of data in the r
 
 ![[Constraints in Relational Model-20231105112424265.webp]]
 
-> [!header] When referenced relation is updated
+#### When referenced relation is updated
 
 - **Insertion** operation into referenced table never causes any violation to Referential IC. But it may cause primary key IC in the referenced relation if the value inserted already exists in the referenced relation.
 - **Deletion** and **Updation** can cause violation to Referential IC.
@@ -145,14 +145,14 @@ When the foreign key is of multi-attribute, then the same tuple of data in the r
 ![[Standard Integrity Constraints in Relational Model-20240705175559246.webp]]
 ![[Standard Integrity Constraints in Relational Model-20240705175619981.webp]]
 
-3. Set NULL or Set default (foreign key value is set to null or default)
+3. Set NULL or Set DEFAULT (foreign key value is set to null or default)
 
 ![[Standard Integrity Constraints in Relational Model-20240705175645504.webp]]
 ![[Standard Integrity Constraints in Relational Model-20240705175701464.webp]]
 
 - The actions for violating changes are always defined on the **referencing table** since the referencing table has the foreign key which is referring to a candidate key in referenced table.
 
-> [!header] When referencing relation is updated
+#### When referencing relation is updated
 
 - If violation happens, then the violating modification is always rejected.
 - **Deletion** from the referencing table does NOT cause any violation to Referential IC.

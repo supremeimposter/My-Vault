@@ -20,7 +20,7 @@ tags:
 > If ${} S$ is a concurrent schedule, $S {}$ is serialiazble if and only if for **every** initial consistent database state, effect of ${} S {}$ is same as **some** serial schedule.
 
 
-- A schedule ${} S$ is serializable if there is a serial schedule $S' {}$ such that for every initial database state, the effects (final database state) of ${} S$ and $S'$ are the same.
+- A schedule ${} S$ is serializable if there is a serial schedule $S' {}$ such that for every initial consistent database state, the effects (final consistent database state) of ${} S$ and $S'$ are the same.
 
 - Serial schedules always preserves consistency of a database, so if the effects of a schedule $S$ are similar to a serial schedule, then the schedule $S$ is serializable.
 - Serializability in general, relies on all the operations and computations in the transactions which makes it very hard to implement.

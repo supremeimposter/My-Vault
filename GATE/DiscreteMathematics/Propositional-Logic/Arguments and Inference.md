@@ -11,7 +11,7 @@ P_n\\ \\
 \therefore C\;,
 \\
 \text{where } P_i \text{ are premises and } C \text{ is a conclusion.}\\\\
-(P_1 \land P_1 \land P_1 \land P_1 \land \ldots \land P_n) \rightarrow C \text{ is a tautology if and only if the argument is valid} \\\\
+(P_1 \land P_2 \land P_3 \land \ldots \land P_n) \rightarrow C \text{ is a tautology if and only if the argument is valid} \\\\
 (P_1 \land P_1 \land P_1 \land P_1 \land \ldots \land P_n) \models C
 \end{array}
 $$
