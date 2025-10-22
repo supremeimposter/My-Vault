@@ -79,7 +79,7 @@ Each of the $2^n$ different input combinations has only two choices for output i
 > [Complement, Dual of a Boolean Function | Self Dual | Positive, Negative Logic System | Digital Logic - YouTube](https://www.youtube.com/watch?v=qed3vHqJicM)
 
 > [!NOTE] 
-> Dual of a boolean function can easily found if the function contains only literals, NOT, AND and OR operations (no other operations). If the given function does not contain those operations, then it can be simplified to any of the standard forms.
+> Dual of a boolean function can be easily found if the function contains only literals, NOT, AND and OR operations (no other operations). If the given function does not contain those operations, then it can be simplified to any of the standard forms.
 
 ![[Boolean Function-20240517191636112.webp]]
 ![[Boolean Function-20240517195617657.webp]]
@@ -250,7 +250,7 @@ Over $n$ variables, there are $2^{(2^{(n-1)})}$ such functions.
 
 ![[Boolean Function-20240528135947841.webp]]
 
-A chain of **ExOR** operations can be done in any order since ExOR is commutative and associative.
+A chain of **ExOR** and **ExNOR** operations can be done in any order since ExOR and ExNOR are both commutative and associative.
 - ExOR is 1 iff if there are odd number of 1s (number of 0s does not matter)
 - ExNOR is 1 iff if there are even number of 0s (number of 1s does not matter)
 
@@ -261,6 +261,7 @@ ExOR is equal to ExNOR when there are **odd** number of inputs
 $$
 a_{1} \oplus a_{2} \oplus \cdots  \oplus a_{2n - 1} = a_{1} ⊙ a_{2} ⊙ \cdots ⊙ a_{2n - 1}
 $$
+
 ExOR and ExNOR are complement of each other when there are **even** number of inputs
 - $a ⊙ b ⊙ c ⊙ d = 1$ iff there are even number of 0s
 - If there are even number of 0s in even number of inputs, then there are even number of 1s, which means $a \oplus b \oplus c \oplus d = 0$

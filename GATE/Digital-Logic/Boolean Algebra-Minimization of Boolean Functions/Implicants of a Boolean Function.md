@@ -16,9 +16,6 @@ tags:
 - An implicant of a function is a product term that can be used in SOP expression for that function.
 - Implicant $I$ of a function $f$ is a [[Standard and Canonical Forms of Boolean Expressions#Product Term|product term]] such that $I \rightarrow f$ i.e. whenever $I = 1$, then $f = 1$. 
 
-> [!example] 
-> 
-
 - An implicant is a rectangle of size 1, 2, 4, 8, ... i.e. powers of 2. The rectangle may not contain 0s.
 - In a [[Minimization using K Map|k-map]], every Cube of size $2^m$ covering 1's is an implicant.
 - Every implicant is a product term and a size 1 implicant is a minterm.
@@ -29,6 +26,7 @@ Let $h$ be a product of literals. If $F$ covers $h$, then $h$ is said to imply $
 Since [[Don't Cares and Covering Functions#Covering Functions|covering functions]] are from minterms point of view, implicants are also from minterms point of view.
 
 ## Counting Implicants of a Boolean Function
+
 For counting the implicants of a function of different sizes, do not repeatedly count certain combinations of product terms.
 
 > [!header] Counting the number of implicants for a function
@@ -131,9 +129,9 @@ Below is the overall diagram for the prime implicants and essential prime implic
 > [!example] 
 > ![[Implicants in K Map-20240522122236583.webp]]
 > 
-> ![[Implicants in K Map-20240522135941861.webp]]
-> 
 > ![[Implicants of a Boolean Function-20240621184908491.webp]]
+> 
+> ![[Implicants in K Map-20240522135941861.webp]]
 > 
 > ![[Implicants in K Map-20240522102031912.webp]]
 > 

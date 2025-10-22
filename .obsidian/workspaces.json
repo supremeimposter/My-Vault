@@ -17,8 +17,17 @@
                   "state": {
                     "file": "GATE/Guidelines to GATE-CS.md",
                     "mode": "source",
+                    "source": false,
                     "backlinks": true,
-                    "source": false
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
                   },
                   "icon": "lucide-file",
                   "title": "Guidelines to GATE-CS"
@@ -32,8 +41,17 @@
                   "state": {
                     "file": "GATE/DatabaseManagementSystem/Database Management System.md",
                     "mode": "source",
+                    "source": false,
                     "backlinks": true,
-                    "source": false
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
                   },
                   "icon": "lucide-file",
                   "title": "Database Management System"
@@ -47,15 +65,24 @@
                   "state": {
                     "file": "GATE/Pyqs/DBMS PYQs.md",
                     "mode": "source",
+                    "source": false,
                     "backlinks": true,
-                    "source": false
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
                   },
                   "icon": "lucide-file",
                   "title": "DBMS PYQs"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -74,7 +101,8 @@
                 "state": {
                   "type": "file-explorer",
                   "state": {
-                    "sortOrder": "alphabetical"
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -185,10 +213,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Pyqs/DBMS PYQs.md"
+                    "file": "GATE/DatabaseManagementSystem/Database Management System.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of DBMS PYQs"
+                  "title": "Outline of Database Management System"
                 }
               },
               {
@@ -198,20 +229,12 @@
                   "type": "tag",
                   "state": {
                     "sortOrder": "frequency",
-                    "useHierarchy": true
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-tags",
                   "title": "Tags"
-                }
-              },
-              {
-                "id": "2ec29c1e38047089",
-                "type": "leaf",
-                "state": {
-                  "type": "mermaid-toolbar-view",
-                  "state": {},
-                  "icon": "trident-custom",
-                  "title": "Mermaid Toolbar"
                 }
               },
               {
@@ -250,6 +273,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "bases:Create new base": false,
           "obsidian-kanban:Create new board": false,
           "audio-recorder:Start/stop recording": false,
           "switcher:Open quick switcher": false,
@@ -259,13 +283,12 @@
           "command-palette:Open command palette": false,
           "darlal-switcher-plus:Open in Headings Mode": false,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
-          "mermaid-tools:Open Mermaid Toolbar": false,
           "workspaces:Manage workspace layouts": false,
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "110128e1b63e3921",
-      "mtime": "2024-11-11T11:13:51+05:30"
+      "active": "8c06d979475f07ea",
+      "mtime": "2025-10-19T10:22:58+05:30"
     },
     "set-theory": {
       "main": {
@@ -4883,5 +4906,5 @@
       "mtime": "2025-08-24T18:29:41+05:30"
     }
   },
-  "active": "DBMS-mod-1"
+  "active": "DL"
 }

@@ -11,6 +11,7 @@ tags:
   - DBMS/Transaction
 ---
 # Deadlock in Transactions
+
 - Deadlock happens in a system if there is a set of transactions such that each of the transaction is waiting for each other to release the locks.
 
 ## Deadlock Prevention Schemes

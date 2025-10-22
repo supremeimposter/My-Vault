@@ -8,6 +8,13 @@ tags:
 ## Boolean Algebra PYQs
 
 
+> [!question] 
+> [Digital Logic: GATE CSE 2007 \| Question: 48](https://gateoverflow.in/1246/gate-cse-2007-question-48)
+
+![[Digital Logic PYQs-1761147378013.webp]]
+
+
+
 ## Number System PYQs
 
 

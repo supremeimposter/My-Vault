@@ -69,7 +69,7 @@ A cube in a k-map is a group of $2^m$ ($m \ge 0$) cells such that every cell is 
 
 > [!header] Why $2^m$ cells in a cube of a k-map?
 
-One product term covers $2^m$ minterms, where $m$ is the number of variables missing in the product term.
+One product term covers $2^m$ minterms, where $m$ is the number of variables missing (<mark style="background-color: #1EFF00; color: black">variables that change</mark>) in the product term.
 
 ![[Minimization using K Map-20240520103520956.webp]]
 
@@ -91,7 +91,7 @@ For a function $F$ over $n$ variables has a cube of $2^m$ cells,
 1. variables that change $= m$
 2. variables that do not change $= (n-m)$
 
-Product term or Sum term contains $(n-m)$ literals since those variables that change will be reduced.
+Product term contains $(n-m)$ literals since those variables that change will be reduced.
 
 ![[Minimization using K Map-20240620185644249.webp]]
 

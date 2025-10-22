@@ -1,12 +1,100 @@
 {
   "recentFiles": [
     {
-      "basename": "Lock-based Protocols",
-      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md"
+      "basename": "Compact Truth Table Representation",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Digital Logic PYQs",
+      "path": "GATE/Pyqs/Digital Logic PYQs.md"
+    },
+    {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Functional Completeness",
+      "path": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md"
+    },
+    {
+      "basename": "Implicants of a Boolean Function",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants of a Boolean Function.md"
+    },
+    {
+      "basename": "Don't Cares and Covering Functions",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares and Covering Functions.md"
+    },
+    {
+      "basename": "Minimization using K Map-20240222163219601",
+      "path": "attachments/Minimization using K Map-20240222163219601.webp"
+    },
+    {
+      "basename": "Minimization using K Map",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md"
+    },
+    {
+      "basename": "Standard and Canonical Forms of Boolean Expressions",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
+    },
+    {
+      "basename": "Boolean Function",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
+    },
+    {
+      "basename": "Standard and Canonical Forms of Boolean Expressions-20240518121019632",
+      "path": "attachments/Standard and Canonical Forms of Boolean Expressions-20240518121019632.webp"
+    },
+    {
+      "basename": "Digital-Logic-Mindmap",
+      "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
+    },
+    {
+      "basename": "Algebraic Simplification of Boolean Functions",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md"
+    },
+    {
+      "basename": "Ring and Johnson Counters",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Ring and Johnson Counters.md"
+    },
+    {
+      "basename": "Registers",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Registers.md"
+    },
+    {
+      "basename": "Laws of Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md"
+    },
+    {
+      "basename": "Boolean Algebra",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md"
+    },
+    {
+      "basename": "Subtraction using Adders",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Subtraction using Adders.md"
+    },
+    {
+      "basename": "Introduction to Digital Logic",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
     },
     {
       "basename": "Database Management System",
       "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Time Stamp-based Protocols",
+      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md"
+    },
+    {
+      "basename": "Deadlock Handling in Transactions",
+      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md"
+    },
+    {
+      "basename": "Lock-based Protocols",
+      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md"
     },
     {
       "basename": "Concurrency Control Protocols",
@@ -15,10 +103,6 @@
     {
       "basename": "DBMS PYQs",
       "path": "GATE/Pyqs/DBMS PYQs.md"
-    },
-    {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
       "basename": "Guidelines to GATE-CS-20241109213835953",
@@ -115,90 +199,6 @@
     {
       "basename": "Decomposition",
       "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
-    },
-    {
-      "basename": "Normal Forms",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normal Forms.md"
-    },
-    {
-      "basename": "Functional Dependency",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md"
-    },
-    {
-      "basename": "Problems caused by Redundant Information",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Problems caused by Redundant Information.md"
-    },
-    {
-      "basename": "Natural Join",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Natural Join.md"
-    },
-    {
-      "basename": "Standard Integrity Constraints in Relational Model",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md"
-    },
-    {
-      "basename": "ER Model to Relational Model Conversion",
-      "path": "GATE/DatabaseManagementSystem/ER-Model/ER Model to Relational Model Conversion.md"
-    },
-    {
-      "basename": "TOC PYQs",
-      "path": "GATE/Pyqs/TOC PYQs.md"
-    },
-    {
-      "basename": "Theory of Computation",
-      "path": "GATE/TheoryOfComputation/Theory of Computation.md"
-    },
-    {
-      "basename": "Logic PYQs",
-      "path": "GATE/Pyqs/Logic PYQs.md"
-    },
-    {
-      "basename": "Arguments and Inference",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/Arguments and Inference.md"
-    },
-    {
-      "basename": "Propositional Logic Laws",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/Propositional Logic Laws.md"
-    },
-    {
-      "basename": "Implication",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/Implication.md"
-    },
-    {
-      "basename": "Discrete Mathematics",
-      "path": "GATE/DiscreteMathematics/Discrete Mathematics.md"
-    },
-    {
-      "basename": "Necessary vs Sufficient",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/Necessary vs Sufficient.md"
-    },
-    {
-      "basename": "Logical Connectives",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/Logical Connectives.md"
-    },
-    {
-      "basename": "NOR",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/NOR.md"
-    },
-    {
-      "basename": "NAND",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/NAND.md"
-    },
-    {
-      "basename": "EX-OR",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/EX-OR.md"
-    },
-    {
-      "basename": "OR (Disjunction)",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/OR (Disjunction).md"
-    },
-    {
-      "basename": "AND (Conjunction)",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/AND (Conjunction).md"
-    },
-    {
-      "basename": "Negation",
-      "path": "GATE/DiscreteMathematics/Propositional-Logic/Negation.md"
     }
   ],
   "omittedPaths": [],

@@ -540,5 +540,8 @@
   "obsidian-velocity@@disable-naked-embeds": false,
   "obsidian-velocity@@disable-autohide": false,
   "obsidian-velocity@@disable-status-fade": false,
-  "obsidian-velocity@@enable-dim-img": true
+  "obsidian-velocity@@enable-dim-img": true,
+  "future-theme@@oled-style": false,
+  "future-theme@@gradient-bg": true,
+  "future-theme@@custom-transparency": false
 }

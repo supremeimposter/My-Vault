@@ -41,7 +41,6 @@ There are two canonical forms,
 
 A single literal or a logical product (AND) of two or more literals.
 
-> [!example] 
 ![[Standard and Canonical Forms of Boolean Expressions-20240518121019632.webp]]
 
 Logical AND of a boolean expression is not considered as a product term.
@@ -64,7 +63,7 @@ Logical OR of a boolean expression is not considered as a sum term.
 
 > [!observation] 
 > If the literal count of an expression is 1, then it can be considered both as sum term and product term. For example, $\overline{b}$ is both product term and sum term.
-
+	
 ### Sum of Products (SOP)
 
 SOP is the logical OR of product terms.
@@ -88,7 +87,7 @@ POS is the logical AND of sum terms.
 ### Min-term and Max-term
 
 Consider a boolean function of $n$ variables $f(a, b, \cdots, n)$,
-- Min-term of an expression is a ***product term*** containing every variable in the function exactly once either in complemented or in uncomplemented form, but not both i.e. logical AND of $n$ literals
+- Min-term of an expression is a ***product term*** containing every variable in the function exactly once either in complemented or in uncomplemented form, but not both i.e. logical AND of $n$ literals.
 - Max-term of an expression is a ***sum term*** containing every variable in the function exactly once either in complemented or in uncomplemented form, but not both i.e. logical OR of $n$ literals.
 
 - In a boolean function $f$ of $n$ variables, there are exactly $2^n$ minterms and $2^n$ maxterms out of $2^{(2^n)}$ [[Boolean Function#Different Boolean Functions for $n$ variables|different boolean functions]].
@@ -214,12 +213,16 @@ Consider a function over $n$ variables,
 > Sum of minterms can be found first and then the product of maxterms is easier to find just by inverting the indices.
 > 
 > ![[Standard and Canonical Forms of Boolean Expressions-20240519153743007.webp]]
-
+	
 Conversion from one canonical form to its another equivalent canonical form.
 - Exchanging $\sum$ and $\prod$.
 - Listing all the missing indices
 
 ![[Standard and Canonical Forms of Boolean Expressions-20240519143500876.webp]]
+
+$$
+F = \sum_{m} (F = 1) = \prod_{M} (F = 0)
+$$
 
 ````col
 ```col-md
@@ -236,7 +239,7 @@ $$
 ```col-md
 flexGrow=1
 ===
-The complement of a function $F$ can be expressed using false minterms of $\overline{F}$ and false maxterms of $\overline{F}$.
+The complement of a function $F$ can be expressed using false minterms of $F$ and false maxterms of $F$.
 $$
 \begin{split}
 \overline{F} &= \sum_{m} (F = 0) \\ \\
@@ -278,7 +281,7 @@ If two functions $F_{1}$, $F_{2}$ are defined over $n$ variables and if $F_{1} =
 | Canonical SOP                        | Canonical DNF (Principle DNF)                |
 | Canonical POS                        | Canonical CNF (Principle CNF)                |
 
-When a canonical form (CSPO or CPOS) of an expression is simplified, then it results in standard forms (SOP or POS). Canonical form are also standard forms, except they have minterms and maxterms. [[Minimization using K Map|K-maps]] give a visual representation of reducing the canonical expressions to standard minimal forms.
+When a canonical form (CSPO or CPOS) of an expression is simplified, then it results in standard forms (SOP or POS). Canonical forms are also standard forms, except they have minterms and maxterms. [[Minimization using K Map|K-maps]] give a visual representation of reducing the canonical expressions to standard minimal forms.
 
 Standard forms can be represented using a two-level circuit. NOT, AND, OR logic gates are enough to express standard forms because they are [[Functional Completeness|functionally complete]].
 

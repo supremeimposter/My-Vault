@@ -76,6 +76,7 @@ $$
 $$
 
 ## Commutative Law
+
 > [!NOTE] 
 > All operations are commutative
 
@@ -91,6 +92,7 @@ A \downarrow B &= B \downarrow A \\
 $$
 
 ## Associative Law
+
 > [!NOTE] 
 > NAND and NOR are not associative.
 
@@ -168,6 +170,7 @@ $$
 > ![[Laws of Boolean Algebra-20240517184959130.webp]]
 
 ## Cancellation Law
+
 Cancellation laws **do not hold** in Boolean Algebra.
 
 ![[Laws of Boolean Algebra-20240518100228421.webp]]

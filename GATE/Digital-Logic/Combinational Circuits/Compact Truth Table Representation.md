@@ -11,6 +11,7 @@ tags:
   - DigitalLogic/BooleanAlgebra
 ---
 # Compact Truth Table
+
 Express the function below in the truth table in CSOP form,
 
 | $a$ | $b$ | $f(a, b)$ |
