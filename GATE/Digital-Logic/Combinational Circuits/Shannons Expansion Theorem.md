@@ -1,16 +1,17 @@
 ---
-pdf: 
+pdf:
 module: 3
-lecture: 
+lecture:
 date: 2024-06-11T18:52:00
 version:
   - DL-25
 last-revision: 2024-06-24T17:41:00
-notes-taken: false
+notes-taken: true
 tags:
   - DigitalLogic/BooleanAlgebra
 ---
 # Shannons Expansion Theorem
+
 > [!youtube] [Shannon's Expansion Theorem | Decomposition of Switching Functions | GATE IT 2006 | Digital Circuit - YouTube](https://www.youtube.com/watch?v=Hn9MhOJs6F0&t=885s)
 
 > [!NOTE] 

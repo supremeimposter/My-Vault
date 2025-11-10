@@ -50,3 +50,26 @@ tags:
 ![[Digital Logic PYQs-1751479338857.webp]]
 
 
+
+> [!question] 
+> [Digital Logic: GATE CSE 2014 Set 2 \| Question: 8](https://gateoverflow.in/1961/gate-cse-2014-set-2-question-8)
+
+
+![[Digital Logic PYQs-1761459006605.webp]]
+
+
+> [!question] 
+> [Digital Logic: GATE CSE 2006 \| Question: 40](https://gateoverflow.in/1816/gate-cse-2006-question-40)
+
+![[Digital Logic PYQs-1761451513518.webp]]
+
+
+
+
+
+![[Digital Logic PYQs-1761453634301.webp]]
+![[Digital Logic PYQs-1761453650008.webp]]
+![[Digital Logic PYQs-1761453617962.webp]]
+
+
+

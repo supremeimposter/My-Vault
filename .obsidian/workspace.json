@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "3e883cde073f3295",
+            "id": "823b89ebecf2e1d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Compact Truth Table Representation"
+              "title": "Decoder"
             }
           },
           {
@@ -237,13 +237,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
+                "file": "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Compact Truth Table Representation"
+              "title": "Outline of Decoder"
             }
           },
           {
@@ -311,44 +311,45 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "3e883cde073f3295",
+  "active": "823b89ebecf2e1d6",
   "lastOpenFiles": [
+    "attachments/Decoder-1762797365238.webp",
     "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
-    "GATE/Pyqs/Digital Logic PYQs.md",
-    "attachments/Digital Logic PYQs-1761153741220.webp",
+    "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
+    "attachments/Decoder-1762771023167.webp",
+    "attachments/Decoder-1762770999084.webp",
+    "attachments/Decoder-1762688197534.webp",
+    "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
     "GATE/Guidelines to GATE-CS.md",
-    "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md",
-    "attachments/Digital Logic PYQs-1761147378013.webp",
+    "attachments/Guidelines to GATE-CS-1762393503341.webp",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "GATE/DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md",
+    "GATE/DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
+    "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
+    "GATE/Digital-Logic/Combinational Circuits/Shannons Expansion Theorem.md",
+    "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
+    "GATE/DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md",
+    "GATE/Pyqs/DBMS PYQs.md",
+    "GATE/DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md",
+    "attachments/Relational Algebra-1761559600099.webp",
+    "GATE/DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md",
+    "GATE/Pyqs/Digital Logic PYQs.md",
+    "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
+    "attachments/Digital Logic PYQs-1761459006605.webp",
+    "attachments/Digital Logic PYQs-1761453650008.webp",
+    "attachments/Digital Logic PYQs-1761453634301.webp",
+    "attachments/Digital Logic PYQs-1761453617962.webp",
+    "attachments/Digital Logic PYQs-1761451513518.webp",
+    "GATE/Digital-Logic/Number Systems/Number Systems.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants of a Boolean Function.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares and Covering Functions.md",
-    "attachments/Minimization using K Map-20240222163219601.webp",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+    "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
-    "attachments/Standard and Canonical Forms of Boolean Expressions-1760933853444.webp",
-    "attachments/Standard and Canonical Forms of Boolean Expressions-20240518121019632.webp",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
     "GATE/Digital-Logic/Sequential Circuits/Ring and Johnson Counters.md",
-    "GATE/Digital-Logic/Sequential Circuits/Registers.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Laws of Boolean Algebra.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Algebra.md",
-    "attachments/Boolean Algebra-1760850986876.webp",
-    "GATE/Digital-Logic/Combinational Circuits/Subtraction using Adders.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md",
-    "GATE/DatabaseManagementSystem/Database Management System.md",
-    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md",
-    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md",
-    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md",
-    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Concurrency Control Protocols.md",
-    "GATE/Pyqs/DBMS PYQs.md",
-    "attachments/DBMS PYQs-1760597386064.webp",
-    "attachments/Guidelines to GATE-CS-1760548819483.webp",
-    "attachments/Guidelines to GATE-CS-20241109213835953.webp",
-    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md",
-    "attachments/Guidelines to GATE-CS-1760547839975.webp",
-    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
     "GATE/DiscreteMathematics/Graph-Theory",
     "Tags",

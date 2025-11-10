@@ -1,24 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "Compact Truth Table Representation",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
+      "basename": "Decoder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
     },
     {
       "basename": "Digital Logic",
       "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
-      "basename": "Digital Logic PYQs",
-      "path": "GATE/Pyqs/Digital Logic PYQs.md"
+      "basename": "Encoder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
     },
     {
       "basename": "Guidelines to GATE-CS",
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
-      "basename": "Functional Completeness",
-      "path": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md"
+      "basename": "Database Management System",
+      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
+    },
+    {
+      "basename": "Relational Algebra",
+      "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md"
+    },
+    {
+      "basename": "Derived Operations in Relational Algebra",
+      "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md"
+    },
+    {
+      "basename": "Multiplexer and Demultiplexer",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
+    },
+    {
+      "basename": "Shannons Expansion Theorem",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Shannons Expansion Theorem.md"
+    },
+    {
+      "basename": "Compact Truth Table Representation",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
+    },
+    {
+      "basename": "Basic Operations in Relational Algebra",
+      "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md"
+    },
+    {
+      "basename": "DBMS PYQs",
+      "path": "GATE/Pyqs/DBMS PYQs.md"
+    },
+    {
+      "basename": "Relational Algebra Queries",
+      "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md"
+    },
+    {
+      "basename": "Procedural and Declarative Query Languages",
+      "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md"
+    },
+    {
+      "basename": "Digital Logic PYQs",
+      "path": "GATE/Pyqs/Digital Logic PYQs.md"
+    },
+    {
+      "basename": "Binary Codes for Decimal Digits",
+      "path": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md"
+    },
+    {
+      "basename": "Number Systems",
+      "path": "GATE/Digital-Logic/Number Systems/Number Systems.md"
     },
     {
       "basename": "Implicants of a Boolean Function",
@@ -27,6 +75,14 @@
     {
       "basename": "Don't Cares and Covering Functions",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares and Covering Functions.md"
+    },
+    {
+      "basename": "Boolean Function",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
+    },
+    {
+      "basename": "Functional Completeness",
+      "path": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md"
     },
     {
       "basename": "Minimization using K Map-20240222163219601",
@@ -39,10 +95,6 @@
     {
       "basename": "Standard and Canonical Forms of Boolean Expressions",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md"
-    },
-    {
-      "basename": "Boolean Function",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
     },
     {
       "basename": "Standard and Canonical Forms of Boolean Expressions-20240518121019632",
@@ -81,10 +133,6 @@
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
     },
     {
-      "basename": "Database Management System",
-      "path": "GATE/DatabaseManagementSystem/Database Management System.md"
-    },
-    {
       "basename": "Time Stamp-based Protocols",
       "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md"
     },
@@ -99,10 +147,6 @@
     {
       "basename": "Concurrency Control Protocols",
       "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Concurrency Control Protocols.md"
-    },
-    {
-      "basename": "DBMS PYQs",
-      "path": "GATE/Pyqs/DBMS PYQs.md"
     },
     {
       "basename": "Guidelines to GATE-CS-20241109213835953",
@@ -155,50 +199,6 @@
     {
       "basename": "Indexing",
       "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md"
-    },
-    {
-      "basename": "File Organization",
-      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md"
-    },
-    {
-      "basename": "Disk Space Management",
-      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/Disk Space Management.md"
-    },
-    {
-      "basename": "Operating Systems",
-      "path": "GATE/OperatingSystems/Operating Systems.md"
-    },
-    {
-      "basename": "GATE-LOG",
-      "path": "GATE/GATE-LOG.md"
-    },
-    {
-      "basename": "Disk Structure and Performance",
-      "path": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Structure and Performance.md"
-    },
-    {
-      "basename": "Disk Addressing",
-      "path": "GATE/DatabaseManagementSystem/Magnetic-Disk/Disk Addressing.md"
-    },
-    {
-      "basename": "Tuple Relational Calculus",
-      "path": "GATE/DatabaseManagementSystem/Tuple-Relational-Calculus/Tuple Relational Calculus.md"
-    },
-    {
-      "basename": "Three Levels of Schema",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Three Levels of Schema.md"
-    },
-    {
-      "basename": "Normalization in Relational Model",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Normalization in Relational Model.md"
-    },
-    {
-      "basename": "Relational Model",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Relational Model.md"
-    },
-    {
-      "basename": "Decomposition",
-      "path": "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Decomposition.md"
     }
   ],
   "omittedPaths": [],

@@ -15,7 +15,9 @@ tags:
 > [!lecture] Lecture-1
 
 - The difference between Procedural and Declarative query languages is analogous to the difference between functions and algorithms.
+
 ![[Introduction to Theory of Computation#Function vs Algorithm]]
+
 - Procedural Query language is similar to Algorithms and Declarative Query language is similar to Functions.
 
 - Examples of Procedural Query language is [[Relational Algebra]].

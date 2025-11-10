@@ -131,6 +131,4 @@ $8, 4, -2, -1$ is a Self Complementing Code.
 
 ![[Binary Codes for Decimal Digits-20240602191243554.webp]]
 
-A weighted code for decimal digits is self complementary if the sum of all the weights is equal to 9, but the converse is not true.
-
 ---

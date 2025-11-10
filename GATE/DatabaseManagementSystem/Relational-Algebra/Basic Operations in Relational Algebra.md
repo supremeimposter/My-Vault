@@ -54,7 +54,7 @@ $$
 - A relation contains a set of tuples, [[Set Operations]] can be performed.
 - Set operations are binary operations.
 ## Union Compatible
-- It is also called as type-compatible.
+
 - ${} \cup, \cap, \textbackslash {}$ operations requires relations with union compatible schema.
 
 - ${} R$ is union compatible with $S$ iff
@@ -62,6 +62,7 @@ $$
 	- ${} i^\text{th} {}$ attribute of $R$ must have the same domain as ${} i^\text{th} {}$ attribute of $S {}$.
 - Attribute names can be different in both the relations.
 
+- It is also called as type-compatible.
 
 ## Set Union
 - ${} R \; \cup \; S {}$ has the schema of $R$.

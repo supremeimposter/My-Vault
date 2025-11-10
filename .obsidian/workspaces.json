@@ -58,6 +58,78 @@
                 }
               },
               {
+                "id": "f754c0a2bedb2404",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Relational Algebra"
+                }
+              },
+              {
+                "id": "69a949d6132214c3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Derived Operations in Relational Algebra"
+                }
+              },
+              {
+                "id": "7d06b00f5ac6ddd5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Basic Operations in Relational Algebra"
+                }
+              },
+              {
                 "id": "110128e1b63e3921",
                 "type": "leaf",
                 "state": {
@@ -82,7 +154,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -213,13 +285,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/DatabaseManagementSystem/Database Management System.md",
+                    "file": "GATE/DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Database Management System"
+                  "title": "Outline of Derived Operations in Relational Algebra"
                 }
               },
               {
@@ -287,8 +359,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "8c06d979475f07ea",
-      "mtime": "2025-10-19T10:22:58+05:30"
+      "active": "69a949d6132214c3",
+      "mtime": "2025-10-29T16:33:15+05:30"
     },
     "set-theory": {
       "main": {
@@ -916,8 +988,7 @@
                   "title": "Digital Logic PYQs"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -1048,13 +1119,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Pyqs/Digital Logic PYQs.md",
+                    "file": "GATE/Digital-Logic/Digital Logic.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Digital Logic PYQs"
+                  "title": "Outline of Digital Logic"
                 }
               },
               {
@@ -1070,16 +1141,6 @@
                   },
                   "icon": "lucide-tags",
                   "title": "Tags"
-                }
-              },
-              {
-                "id": "2ec29c1e38047089",
-                "type": "leaf",
-                "state": {
-                  "type": "mermaid-toolbar-view",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
                 }
               },
               {
@@ -1118,6 +1179,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "bases:Create new base": false,
           "obsidian-kanban:Create new board": false,
           "audio-recorder:Start/stop recording": false,
           "switcher:Open quick switcher": false,
@@ -1131,8 +1193,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "14eb14573bbc95b8",
-      "mtime": "2025-07-03T00:01:47+05:30"
+      "active": "ea75e54db887e9ac",
+      "mtime": "2025-10-27T15:34:12+05:30"
     },
     "OS": {
       "main": {

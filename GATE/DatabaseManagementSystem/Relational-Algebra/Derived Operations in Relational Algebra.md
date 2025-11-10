@@ -86,6 +86,7 @@ $$
 
 
 ## Conditional Outer Join
+
 - First perform the condition ${} \theta {}$ and then perform the outer join.
 - Conditional Outer Join = Conditional Join + dangling tuples of both relations.
 

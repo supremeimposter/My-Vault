@@ -31,17 +31,17 @@ The inputs to the binary encoder are always one-hot encoded i.e. allows only one
 
 > [!definition] "One-hot" encoding
 > one-hot encoding refers to a binary code in which only one bit is high(1).
-> 
-> | Decimal | Binary | Unary    | <mark class="hltr-yellow">One-hot</mark>  |
-| ------- | ------ | -------- | -------- |
-| 0       | 000    | 00000000 | 00000001 |
-| 1       | 001    | 00000001 | 00000010 |
-| 2       | 010    | 00000011 | 00000100 |
-| 3       | 011    | 00000111 | 00001000 |
-| 4       | 100    | 00001111 | 00010000 |
-| 5       | 101    | 00011111 | 00100000 |
-| 6       | 110    | 00111111 | 01000000 |
-| 7       | 111    | 01111111 | 10000000 |
+
+| Decimal | Binary | Unary    | <mark class="hltr-yellow">One-hot</mark> |
+| ------- | ------ | -------- | ---------------------------------------- |
+| 0       | 000    | 00000000 | 00000001                                 |
+| 1       | 001    | 00000001 | 00000010                                 |
+| 2       | 010    | 00000011 | 00000100                                 |
+| 3       | 011    | 00000111 | 00001000                                 |
+| 4       | 100    | 00001111 | 00010000                                 |
+| 5       | 101    | 00011111 | 00100000                                 |
+| 6       | 110    | 00111111 | 01000000                                 |
+| 7       | 111    | 01111111 | 10000000                                 |
 
 ---
 ### 2 X 1 Binary Encoder
@@ -160,7 +160,7 @@ $$Z = w_{3} + w_{2} + w_{1} + w_{0}$$
 > [!caution] 
 > $Z$ is not Enable input, it is a special operation specific to Priority Encoders.
 
-For a $4 \times 2$ priority encoder,
+### $4 \times 2$ Priority Encoder
 
 ![[Encoder-20240606195424791.webp]]
 

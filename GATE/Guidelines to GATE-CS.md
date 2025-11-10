@@ -151,6 +151,7 @@ $$
 - To visualize a function in a k-map, firstly convert the given expression to either standard or canonical SOP for better visualization.
 - See if there are any redundant larger cubes after identifying all the cubes in k-maps.
 - Look for the corner 1-cells and the folding 1-cells while creating cubes.
+- In case of 'x' marks in a k-map, make sure it is given that 'x' represents don't cares.
 
 - Do not try to remember subtraction of unsigned numbers using complements. Just apply the expansion technique and find the difference.
 - Sign-magnitude, 1's complement, 2's complement representation are only for signed binary numbers in digital systems. They are not operations here, they are number systems specific to signed binary numbers in digital systems. There is no 9s complement or 10s complement representation.
@@ -213,6 +214,7 @@ $$
 
 - Just have an overview that relations are nothing but sets of tuples. It will help you simplify relations mentally.
 
+![[Guidelines to GATE-CS-1762393503341.webp]]
 
 
 ### Guidelines to SQL

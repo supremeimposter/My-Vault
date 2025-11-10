@@ -101,6 +101,12 @@ tags:
 > [GO Classes 2024 | Weekly Quiz 31 | Multiplexer - GATE Overflow for GATE CSE](https://gateoverflow.in/exam/554/go-classes-2024-weekly-quiz-31-multiplexer)
 > [Multiplexer - 15 GATE Previous Years Questions | GATE EC, EE, IN | Digital Logic | Weekly Quiz 31 - YouTube](https://www.youtube.com/watch?v=iH-tWF51Zbc)
 
+
+> [!youtube] 
+
+- [Digital Logic - Test 1 Solutions - Boolean Algebra, Number System \| Test Series GATE CSE 2024 - YouTube](https://www.youtube.com/watch?v=kaB5jpybd9M&t=4412s)
+
+
 ---
 # References
 

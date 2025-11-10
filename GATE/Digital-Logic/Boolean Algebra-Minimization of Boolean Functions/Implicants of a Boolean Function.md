@@ -152,7 +152,6 @@ Below is the overall diagram for the prime implicants and essential prime implic
 # Treating Don't cares in case of Implicants
 
 - Consider don't cares are 1's in case of implicants and prime implicants.
-
 - Don't cares do not make a prime implicant essential, since don't cares can be either 0 or 1. But for a prime implicant to be essential, it must cover a **unique** **1-cell**.
 - To get minimum SOP incase of don't cares, consider only the cells which do not have don't cares, because of the above reason.
 

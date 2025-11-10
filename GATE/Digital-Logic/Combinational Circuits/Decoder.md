@@ -26,21 +26,7 @@ tags:
 | For input $0011$, $x = 1$                                | For input $0011$, $x = 0$                                |
 | For every other input combination, $x = 0$               | For every other input combination, $x = 1$               |
 
-```mermaid
-flowchart TD
-A[Decoder] --> B[Active High Decoder-AND Decoder]
-A --> C[Active Low Decoder-NAND Decoder]
-H --> D["`Enable - Active High 
-(preferred)`"]
-H --> E[Enable - Active Low]
-I --> F[Enable - Active High]
-I --> G["`Enable - Active Low 
-(preferred)`"]
-H[For any input, exactly one output is high]
-I[For any input, exactly one output is low]
-B --> H
-C --> I
-```
+![[Decoder-1762688197534.webp]]
 
 > [!caution] 
 > Do not confuse the active high and low encoders with enable input.
@@ -132,7 +118,7 @@ When $E = 1$, then all of the outputs are $1$. (Nand decoder is idle)
 
 ---
 ## Implementation of Boolean Functions using Decoder
-
+	
 > [!NOTE]
 > Implementation or Realization of a function using a Digital Circuit means there should only be **one** output which is the given function.
 
@@ -313,6 +299,7 @@ The inputs $w_{0}, w_{1}$ activates one of the output lines in one of the activa
 ![[Decoder-20240609183200970.webp]]
 
 The truth table of a $2 \times 4$ Decoder is as follows,
+
 ![[Decoder-20240607124157664.webp]]
 
 The enable input $E$ in the encoder can considered as the input data $I$ in a DEMUX because, 
@@ -329,6 +316,12 @@ If the input data $I = 1$ which makes the enable input $E = 1$, then it behaves 
 ![[Multiplexer and Demultiplexer-20240606135708273.webp]]
 
 ![[Decoder-20240609182657003.webp]]
+
+![[Decoder-1762797365238.webp]]
+
+> [!header] Build a $1 \times 4$ DEMUX from a $1 \times 2$ Decoder
+
+![[Decoder-1762771023167.webp]]
 
 ![[Decoder-20240609190731548.webp]]
 

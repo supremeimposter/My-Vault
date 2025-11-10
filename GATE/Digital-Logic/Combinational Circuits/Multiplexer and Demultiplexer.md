@@ -88,6 +88,7 @@ Control inputs can also pose as data inputs.
 > ![[Multiplexer and Demultiplexer-20240604114137410.webp]]
 
 ## Implementing Boolean Functions using MUX
+
 > [!tip] 
 > 1. Look at the given function carefully and do not use new variables for the select lines which are not in the given function.
 > 2. If you are not getting any idea, then create the canonical SOP of the given function from the standard truth table to get the compact truth table and simplify the expression to get the MUX circuit.
@@ -228,8 +229,8 @@ A $2 \times 2$ cross bar switch can be built using a single $2 \times 2$ MUX.
 flowchart TD
 A[Enable E] --> B[Active Low Enable]
 A --> C[Active High Enable]
-B -.-> D([E = 0 Circuit works\nE = 1 Circuit does not work])
-C -.-> E([E = 1 Circuit works\nE = 0 Circuit does not work])
+B -.-> D([E = 0 Circuit works E = 1 Circuit does not work])
+C -.-> E([E = 1 Circuit works E = 0 Circuit does not work])
 ```
 
 | Active Low Enable                                         | Active High Enable                                        |
@@ -242,6 +243,7 @@ When the circuit is idle, then the output of the circuit is `0`.
 
 ---
 # Demultiplexer
+
 - An output line is selected for the incoming data in the DEMUX.
 - DEMUX is more like which output receives the incoming data. The incoming data can be either 0 or 1.
 

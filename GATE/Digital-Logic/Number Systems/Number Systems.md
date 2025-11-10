@@ -76,12 +76,12 @@ Successive multiplication by $r$ gives the digits in $r$ in forward order.
 
 ### r1-ary to r2-ary System
 
-> [!trick] 
-> ```mermaid
-> flowchart LR
-> A[Base r1] -- Expansion --> B[Base 10] 
-> B -- Successive \n Division --> C[Base r2]
-> ```
+```mermaid
+flowchart LR
+A[Base r1] -- Expansion --> B[Base 10] 
+B -- Successive Division --> C[Base r2]
+```
+
 
 > [!example] 
 > ![[Number Systems-20240529083659308.webp]]
