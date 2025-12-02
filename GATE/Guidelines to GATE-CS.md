@@ -167,7 +167,13 @@ $$
 - If the working of a given boolean function can be mimiced using a digital circuit, then the function has been realized or implemented by the digital circuit.
 - A decoder can act as a DEMUX whereas a decoder can be used to implement MUX. 
 
+![[Guidelines to GATE-CS-1763891460227.webp]]
+
+![[Guidelines to GATE-CS-1764167993162.webp]]
+
+
 - If an unknown flip flop with combinational logic is given in the question, then apply inputs into find what kind of flip flop it is.
+
 
 
 ---

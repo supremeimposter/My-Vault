@@ -20,7 +20,7 @@ $C_{0}$ does not have to be $0$ always, because 4-bit adders can be used in comb
 
 > [!header] When carry is generated?
 
-Do not consider the carry input as we do not know what is the carry input at that moment.
+Do not consider the carry input $C_{\text{in}}$ as we do not know what is the carry input at that moment.
 
 ![[Carry Look Ahead Adder-20240627215042582.webp]]
 
@@ -46,7 +46,7 @@ When $\overline{a} . \overline{b} = 1$, then $C_{out} = 0$.
 ## CLA construction
 
 There are two variables defined for Carry Look-ahead Adder,
-1. Carry Generate $G_i = a_i \,.\, b_i$ i.e. carry is generated when both bits are 1 independent of other stages.
+1. Carry Generate $G_i = a_i \,.\, b_i$ i.e. carry is generated when both bits are 1, independent of other stages.
 2. Carry Propagate $P_i = a_i \oplus b_i$ i.e. carry input propagates to the next stage when both bits are different.
 
 > [!convention] 

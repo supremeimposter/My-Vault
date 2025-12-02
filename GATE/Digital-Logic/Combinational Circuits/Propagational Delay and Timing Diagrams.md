@@ -12,6 +12,7 @@ tags:
   - DigitalLogic/SequentialCircuits
 ---
 # Propagational Delay and Timing Diagrams
+
 > [!youtube] 
 > [Lecture 6 - Propagation Delay & Timing Diagrams | Digital Logic - YouTube](https://www.youtube.com/watch?v=L1XM3RXrtaE)
 
@@ -21,7 +22,7 @@ When the input to a logic gate is changed, the output will not change instantane
 > ![[Propagation Delay and Timing Diagrams-20240608143737916.webp]]
 > The input may change suddenly, but output will take some time to react to the input.
 ﻿
-If the change in output is delayed by time ɛ, with respect to the input, we say that this gate has a propagation delay of ɛ. The propgational delay is also denoted by $\delta$ or $\Delta$.
+If the change in output is delayed by time ɛ, with respect to the input, we say that this gate has a propagation delay of ɛ. The propagational delay is also denoted by $\delta$ or $\Delta$.
 
 Consider a NOT gate (which is a digital circuit) which has a propagational delay of $2 \mathrm{ns}$.
 
@@ -33,11 +34,11 @@ There is always a negligible delay to change the inputs in the digital circuits.
 
 ![[Propagation Delay and Timing Diagrams-20240608150200959.webp]]
 
-| Notation         | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| $T_{\text{P}}$   | Propagational Delay                                  |
-| $T_{\text{PLH}}$ | Propagational Delay when input goes from low to high |
-| $T_{\text{PHL}}$ | Propagational Delay when input goes from high to low |
+| Notation         | Description                                           |
+| ---------------- | ----------------------------------------------------- |
+| $T_{\text{P}}$   | Propagational Delay                                   |
+| $T_{\text{PLH}}$ | Propagational Delay when output goes from low to high |
+| $T_{\text{PHL}}$ | Propagational Delay when output goes from high to low |
 
 Practically $T_{\text{PLH}} \not= T_{\text{PHL}}$ in digital circuits.
 
@@ -53,7 +54,7 @@ Practically $T_{\text{PLH}} \not= T_{\text{PHL}}$ in digital circuits.
 > [!header] Assumptions about Propagation Delay
 
 - We assume the wire propagation delay to be $0$ nanoseconds.
-- We assume that inputs can be changed immediately with no propagational delay.
+- We assume that inputs can be changed immediately (from low to high or from high to low) with no propagational delay.
 - Practically $T_{\text{PLH}} \not= T_{\text{PHL}}$ but we assume that $T_{\text{PLH}} = T_{\text{PHL}} = T_{\text{P}}$
 
 > [!header] Propagation Delay of the Circuit

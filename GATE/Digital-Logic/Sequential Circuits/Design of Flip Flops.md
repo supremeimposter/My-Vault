@@ -15,12 +15,12 @@ tags:
 
 ```mermaid
 flowchart LR
-A[Design of\nFlip Flop] --> B[Response to\nLevel of\nClock]
-A --> C[Response to\nEdge of\nClock]
-B --> D[Positive Level\nTriggered \nFlip Flop]
-B --> E[Negative Level\nTriggered \nFlip Flop]
-C --> F[Positive Edge\nTriggered \nFlip Flop]
-C --> G[Negative Edge\nTriggered \nFlip Flop]
+A[Design of Flip Flop] --> B[Response to Level of Clock]
+A --> C[Response to Edge of Clock]
+B --> D[Positive Level Triggered Flip Flop]
+B --> E[Negative Level Triggered Flip Flop]
+C --> F[Positive Edge Triggered Flip Flop]
+C --> G[Negative Edge Triggered Flip Flop]
 ```
 > [!remember] 
 > Clock is not level or edge triggered, but a flip flop is designed to be level or edge triggered.

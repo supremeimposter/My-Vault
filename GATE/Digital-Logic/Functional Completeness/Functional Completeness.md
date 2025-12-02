@@ -11,6 +11,7 @@ tags:
   - DigitalLogic/FunctionalCompleteness
 ---
 # Functional Completeness
+
 > [!think] 
 > There are many boolean operations such as NOT, AND, OR, NAND, NOR, ExOR, ExNOR. 
 > 1. Can we realize any boolean function using these boolean operations?
@@ -263,7 +264,7 @@ $$
 $$
 {NOT, OR} can be implemented using $\{\rightarrow, 0\}$.
 
-$\{\rightarrow, 0\}$ is a functionally complete set. This is best understood in case of [[Boolean Functions vs Digital Circuits|digital circuits]].
+$\{\rightarrow, 0\}$ is a functionally complete set. This is best understood in case of digital circuits.
 
 ---
 ## Guidelines for Identifying Functionally Complete Sets

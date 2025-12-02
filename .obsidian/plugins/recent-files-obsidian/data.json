@@ -1,32 +1,124 @@
 {
   "recentFiles": [
     {
-      "basename": "Decoder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
+      "basename": "Algorithms",
+      "path": "GATE/Algorithms/Algorithms.md"
     },
     {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
+      "basename": "Masters Theorem",
+      "path": "GATE/Algorithms/Recurrence-Relation/Masters Theorem.md"
     },
     {
-      "basename": "Encoder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
+      "basename": "Tree Method",
+      "path": "GATE/Algorithms/Recurrence-Relation/Tree Method.md"
+    },
+    {
+      "basename": "Substitution Method",
+      "path": "GATE/Algorithms/Recurrence-Relation/Substitution Method.md"
+    },
+    {
+      "basename": "Characterizing Running Times",
+      "path": "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md"
     },
     {
       "basename": "Guidelines to GATE-CS",
       "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
+      "basename": "Finite State Machine",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md"
+    },
+    {
+      "basename": "Design of Flip Flops",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Design of Flip Flops.md"
+    },
+    {
+      "basename": "Asynchronous Counters",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Asynchronous Counters.md"
+    },
+    {
+      "basename": "Preset and Clear Inputs in Flip Flop",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Preset and Clear Inputs in Flip Flop.md"
+    },
+    {
+      "basename": "Digital Logic PYQs",
+      "path": "GATE/Pyqs/Digital Logic PYQs.md"
+    },
+    {
+      "basename": "Emil Post's Functional Completeness Theorem",
+      "path": "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md"
+    },
+    {
+      "basename": "Memory Device",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Memory Device.md"
+    },
+    {
+      "basename": "Combinational Circuits vs Sequential Circuits",
+      "path": "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md"
+    },
+    {
+      "basename": "Functional Completeness",
+      "path": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md"
+    },
+    {
+      "basename": "Boolean Function",
+      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
+    },
+    {
+      "basename": "Half Adder and Full Adder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md"
+    },
+    {
+      "basename": "Ripple Carry Adder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Ripple Carry Adder.md"
+    },
+    {
+      "basename": "Carry Look Ahead Adder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md"
+    },
+    {
+      "basename": "Carry Look Ahead Adder-20240628082827930",
+      "path": "attachments/Carry Look Ahead Adder-20240628082827930.webp"
+    },
+    {
+      "basename": "Conflict Serializability",
+      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md"
+    },
+    {
       "basename": "Database Management System",
       "path": "GATE/DatabaseManagementSystem/Database Management System.md"
     },
     {
-      "basename": "Relational Algebra",
-      "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md"
+      "basename": "DBMS PYQs",
+      "path": "GATE/Pyqs/DBMS PYQs.md"
+    },
+    {
+      "basename": "Basic Operations in Relational Algebra",
+      "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md"
     },
     {
       "basename": "Derived Operations in Relational Algebra",
       "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md"
+    },
+    {
+      "basename": "Propagational Delay and Timing Diagrams",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Propagational Delay and Timing Diagrams.md"
+    },
+    {
+      "basename": "Decoder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
+    },
+    {
+      "basename": "Encoder",
+      "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
+    },
+    {
+      "basename": "Relational Algebra",
+      "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md"
     },
     {
       "basename": "Multiplexer and Demultiplexer",
@@ -41,24 +133,12 @@
       "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
     },
     {
-      "basename": "Basic Operations in Relational Algebra",
-      "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md"
-    },
-    {
-      "basename": "DBMS PYQs",
-      "path": "GATE/Pyqs/DBMS PYQs.md"
-    },
-    {
       "basename": "Relational Algebra Queries",
       "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md"
     },
     {
       "basename": "Procedural and Declarative Query Languages",
       "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md"
-    },
-    {
-      "basename": "Digital Logic PYQs",
-      "path": "GATE/Pyqs/Digital Logic PYQs.md"
     },
     {
       "basename": "Binary Codes for Decimal Digits",
@@ -75,14 +155,6 @@
     {
       "basename": "Don't Cares and Covering Functions",
       "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares and Covering Functions.md"
-    },
-    {
-      "basename": "Boolean Function",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md"
-    },
-    {
-      "basename": "Functional Completeness",
-      "path": "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md"
     },
     {
       "basename": "Minimization using K Map-20240222163219601",
@@ -127,78 +199,6 @@
     {
       "basename": "Subtraction using Adders",
       "path": "GATE/Digital-Logic/Combinational Circuits/Subtraction using Adders.md"
-    },
-    {
-      "basename": "Introduction to Digital Logic",
-      "path": "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Introduction to Digital Logic.md"
-    },
-    {
-      "basename": "Time Stamp-based Protocols",
-      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Time Stamp-based Protocols.md"
-    },
-    {
-      "basename": "Deadlock Handling in Transactions",
-      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Deadlock Handling in Transactions.md"
-    },
-    {
-      "basename": "Lock-based Protocols",
-      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Lock-based Protocols.md"
-    },
-    {
-      "basename": "Concurrency Control Protocols",
-      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Concurrency Control Protocols.md"
-    },
-    {
-      "basename": "Guidelines to GATE-CS-20241109213835953",
-      "path": "attachments/Guidelines to GATE-CS-20241109213835953.webp"
-    },
-    {
-      "basename": "Recoverability",
-      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Recoverability.md"
-    },
-    {
-      "basename": "Conflict Serializability",
-      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md"
-    },
-    {
-      "basename": "View Serializability",
-      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/View Serializability.md"
-    },
-    {
-      "basename": "Serializability",
-      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Serializability.md"
-    },
-    {
-      "basename": "ACID Properties for Transaction Processing",
-      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md"
-    },
-    {
-      "basename": "Transaction",
-      "path": "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md"
-    },
-    {
-      "basename": "Database-Management-System-Mindmap",
-      "path": "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas"
-    },
-    {
-      "basename": "B+ Tree",
-      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md"
-    },
-    {
-      "basename": "B Tree",
-      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B Tree.md"
-    },
-    {
-      "basename": "Single Level Ordered Index",
-      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/Single Level Ordered Index.md"
-    },
-    {
-      "basename": "Multi Level Ordered Index",
-      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/Multi Level Ordered Index.md"
-    },
-    {
-      "basename": "Indexing",
-      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/Indexing.md"
     }
   ],
   "omittedPaths": [],

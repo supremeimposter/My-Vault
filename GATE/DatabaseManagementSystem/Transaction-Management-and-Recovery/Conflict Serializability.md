@@ -44,8 +44,8 @@ flexGrow=1
 
 ## Conflict Equivalent
 
-- If a valid schedule ${} S {}$ can be transformed into a valid schedule ${} S'$ by a series of swaps of **non-conflicting consecutive** instructions of different transactions, we say that $S$ and $S' {}$ are conflict-equivalent.
-- Conflict equivalence is transitive.
+- If a valid schedule ${} S {}$ can be transformed into a valid schedule ${} S'$ by a series of swaps of **consecutive, non-conflicting** instructions of different transactions, we say that $S$ and $S' {}$ are conflict-equivalent.
+- Conflict equivalence is <mark class="hltr-green">transitive</mark>.
 
 
 ## Conflict Serializable schedules

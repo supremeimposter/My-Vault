@@ -20,7 +20,7 @@ Cross Coupled Inverters can store and retain one bit.
 | --------------------------------------------------- | ------------------------------------ |
 | ![[Cross Coupled Inverters-20240629080815866.webp]] | ![[Cross Coupled Inverters-20240629080833412.webp]] |
 
-These devices are fixed for indefinite amount of time. There is no way to change the input or there is no user input control
+These devices are fixed for indefinite amount of time. There is no way to change the input or there is <mark class="hltr-pink">no user input control</mark>
 
 This device cannot be a 2-bit storage device since the combinations `00` and `11` never occur in this device.
 

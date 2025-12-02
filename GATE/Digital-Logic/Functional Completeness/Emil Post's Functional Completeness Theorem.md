@@ -32,12 +32,14 @@ Another perspective is, according to Emil Post's functional completeness theorem
 > A system of boolean functions is functionally complete if and only if this system does not entirely belong to any of $T_{0}, T_{1}, L, M, S$.
 
 ## Property 1 : 0-preserving functions
+
 A boolean function $f(a_{1}, a_{2}, \cdots, a_{n})$ is 0-preserving iff $f(0, 0, \cdots, 0) = 0$.
 0-preserving functions are checked on the first input row of the table.
 
 The class of 0-preserving boolean functions are denoted by $T_{0}$. If a boolean function $f$ is a 0-preserving function, then $f \in T_{0}$. 
 
 ## Property 2 : 1-preserving functions
+
 A boolean function $f(a_{1}, a_{2}, \cdots, a_{n})$ is 1-preserving iff $f(1, 1, \cdots, 1) = 1$.
 1-preserving functions are checked on the last input row of the table.
 
@@ -47,6 +49,7 @@ The class of 1-preserving boolean functions are denoted by $T_{1}$. If a boolean
 > There is no relationship between 0-preserving and 1-preserving functions.
 
 ## Property 3 : Self Dual functions
+
 A boolean function $f$ is self dual, iff $f^d = f$.
 
 The class of self dual boolean functions are denoted by $S$. If a boolean function $f$ is a self dual function, then $f \in S$ 
@@ -55,6 +58,7 @@ Constant functions `0` and `1` are **not** self dual functions.
 $f(a) = a$, $f(b) = \overline{b}$ are self dual functions.
 
 ## Property 4 : Linear Boolean Functions
+
 A boolean function $f$ is linear if one of the following statements holds for $f$,
 
 - For every 1-value of $f$, the number of 1's in the corresponding input is odd, and for every 0-value of $f$, the number of 1's in the corresponding input is even, 
@@ -81,9 +85,10 @@ If a function is linear, then there are equal number of 1s and 0s in the output 
 > Emil Post mentioned linear functions as **alternating functions** and some authors called it as **counting functions**.
 
 ## Property 5 : Monotonic Boolean Functions
-A boolean function $f$ is monotonic iff increasing input combination by changing single input from 0 to 1, then $f$ must not decrease.
 
-The class of monotone booelan functions are denoted by $M$ and if a function $f$ is a monotonic function then $f \in M$. The monotonicity of functions can be easily checked by looking at hasse diagrams.
+A boolean function $f$ is monotonic iff increasing input combination by changing single input <mark class="hltr-green">from 0 to 1</mark>, then $f$ must not decrease.
+
+The class of monotone boolean functions are denoted by $M$ and if a function $f$ is a monotonic function then $f \in M$. The monotonicity of functions can be easily checked by looking at <mark class="hltr-red">hasse diagrams</mark>.
 
 Let us take a function $f(a)$ over 1 variable.
 
@@ -111,7 +116,7 @@ Let us take a function $f(a, b)$ over 2 variables.
 
 ![[Emil Post's Functional Completeness Theorem-20240617101159757.webp]]
 
-(The lattice of the input combinations which change by a single input is given above)
+(The lattice of the input combinations which change by a single input from 0 to 1 is given above)
 
 $f = a . \overline{b} + a . b$ is monotonic,
 ![[Emil Post's Functional Completeness Theorem-20240617101441117.webp]]
@@ -155,7 +160,7 @@ A set of logic gates $X$ is [[Functional Completeness|functionally complete]] if
 AND circuit, OR circuit are not functionally complete circuits.
 
 In case of set of logic gates, the signals `0` and `1` can be considered as separate constant boolean functions.
-For example, in the set $\{a \rightarrow b, 0, 1\}$ can considered as a set of funcitons,
+For example, in the set $\{a \rightarrow b, 0, 1\}$ can considered as a set of functions,
 $$
 \begin{split}
 f_{1} (a, b) &= a \rightarrow b \\

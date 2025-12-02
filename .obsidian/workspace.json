@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8dfc7ae9f385f793",
+        "id": "df7f94ce3ab6c62b",
         "type": "tabs",
         "children": [
           {
-            "id": "ea75e54db887e9ac",
+            "id": "d9c0fecca3d72987",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Digital Logic.md",
+                "file": "GATE/Algorithms/Algorithms.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -30,16 +30,16 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Digital Logic"
+              "title": "Algorithms"
             }
           },
           {
-            "id": "823b89ebecf2e1d6",
+            "id": "1af207e3db7ce9b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
+                "file": "GATE/Algorithms/Recurrence-Relation/Masters Theorem.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,11 +54,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Decoder"
+              "title": "Masters Theorem"
             }
           },
           {
-            "id": "e188573efe882453",
+            "id": "1c6063c44467d4d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Algorithms/Recurrence-Relation/Tree Method.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tree Method"
+            }
+          },
+          {
+            "id": "6f5ad1edc2c32ac5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Algorithms/Recurrence-Relation/Substitution Method.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Substitution Method"
+            }
+          },
+          {
+            "id": "85b96dd76f28da12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Characterizing Running Times"
+            }
+          },
+          {
+            "id": "c9c69a5be1ad03a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,33 +152,8 @@
               "icon": "lucide-file",
               "title": "Guidelines to GATE-CS"
             }
-          },
-          {
-            "id": "14eb14573bbc95b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Pyqs/Digital Logic PYQs.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Digital Logic PYQs"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -237,13 +284,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
+                "file": "GATE/Algorithms/Algorithms.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Decoder"
+              "title": "Outline of Algorithms"
             }
           },
           {
@@ -253,9 +300,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -311,45 +356,45 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "823b89ebecf2e1d6",
+  "active": "d9c0fecca3d72987",
   "lastOpenFiles": [
-    "attachments/Decoder-1762797365238.webp",
+    "GATE/Algorithms/Recurrence-Relation/Masters Theorem.md",
+    "GATE/Algorithms/Algorithms.md",
+    "GATE/Algorithms/Recurrence-Relation/Tree Method.md",
+    "GATE/Algorithms/Recurrence-Relation/Substitution Method.md",
+    "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md",
+    "GATE/Guidelines to GATE-CS.md",
     "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Combinational Circuits/Decoder.md",
+    "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md",
+    "GATE/Digital-Logic/Sequential Circuits/Design of Flip Flops.md",
+    "GATE/Digital-Logic/Sequential Circuits/Asynchronous Counters.md",
+    "GATE/Digital-Logic/Sequential Circuits/Preset and Clear Inputs in Flip Flop.md",
+    "GATE/Pyqs/Digital Logic PYQs.md",
+    "attachments/Guidelines to GATE-CS-1764167993162.webp",
+    "GATE/Digital-Logic/Functional Completeness/Emil Post's Functional Completeness Theorem.md",
+    "GATE/Digital-Logic/Sequential Circuits/Memory Device.md",
+    "GATE/Digital-Logic/Sequential Circuits/Combinational Circuits vs Sequential Circuits.md",
+    "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md",
+    "attachments/Guidelines to GATE-CS-1763891460227.webp",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
+    "GATE/Digital-Logic/Functional Completeness/Boolean Functions vs Digital Circuits.md",
+    "GATE/Digital-Logic/Combinational Circuits/Half Adder and Full Adder.md",
+    "GATE/Digital-Logic/Combinational Circuits/Ripple Carry Adder.md",
+    "GATE/Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md",
+    "attachments/Carry Look Ahead Adder-20240628082827930.webp",
+    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Conflict Serializability.md",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "GATE/Pyqs/DBMS PYQs.md",
+    "GATE/DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md",
+    "GATE/DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
+    "attachments/Decoder-1762797365238.webp",
     "attachments/Decoder-1762771023167.webp",
     "attachments/Decoder-1762770999084.webp",
     "attachments/Decoder-1762688197534.webp",
-    "GATE/Digital-Logic/Combinational Circuits/Encoder.md",
-    "GATE/Guidelines to GATE-CS.md",
     "attachments/Guidelines to GATE-CS-1762393503341.webp",
-    "GATE/DatabaseManagementSystem/Database Management System.md",
-    "GATE/DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md",
-    "GATE/DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
-    "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
-    "GATE/Digital-Logic/Combinational Circuits/Shannons Expansion Theorem.md",
-    "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md",
-    "GATE/DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md",
-    "GATE/Pyqs/DBMS PYQs.md",
-    "GATE/DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md",
     "attachments/Relational Algebra-1761559600099.webp",
-    "GATE/DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md",
-    "GATE/Pyqs/Digital Logic PYQs.md",
-    "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md",
     "attachments/Digital Logic PYQs-1761459006605.webp",
-    "attachments/Digital Logic PYQs-1761453650008.webp",
-    "attachments/Digital Logic PYQs-1761453634301.webp",
-    "attachments/Digital Logic PYQs-1761453617962.webp",
-    "attachments/Digital Logic PYQs-1761451513518.webp",
-    "GATE/Digital-Logic/Number Systems/Number Systems.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Implicants of a Boolean Function.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Don't Cares and Covering Functions.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Boolean Function.md",
-    "GATE/Digital-Logic/Functional Completeness/Functional Completeness.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Standard and Canonical Forms of Boolean Expressions.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Algebraic Simplification of Boolean Functions.md",
-    "GATE/Digital-Logic/Sequential Circuits/Ring and Johnson Counters.md",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
     "GATE/DiscreteMathematics/Graph-Theory",
     "Tags",
