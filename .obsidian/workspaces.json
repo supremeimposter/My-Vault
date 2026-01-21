@@ -941,6 +941,30 @@
                 }
               },
               {
+                "id": "6cdb343ad0b7d8a4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Digital-Logic/Sequential Circuits/Registers.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Registers"
+                }
+              },
+              {
                 "id": "e188573efe882453",
                 "type": "leaf",
                 "state": {
@@ -988,7 +1012,8 @@
                   "title": "Digital Logic PYQs"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1119,13 +1144,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Digital-Logic/Digital Logic.md",
+                    "file": "GATE/Digital-Logic/Sequential Circuits/Registers.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Digital Logic"
+                  "title": "Outline of Registers"
                 }
               },
               {
@@ -1193,8 +1218,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "ea75e54db887e9ac",
-      "mtime": "2025-12-02T22:41:25+05:30"
+      "active": "6cdb343ad0b7d8a4",
+      "mtime": "2025-12-14T13:36:46+05:30"
     },
     "OS": {
       "main": {
@@ -4713,12 +4738,12 @@
                 }
               },
               {
-                "id": "85b96dd76f28da12",
+                "id": "10cb774741f902b4",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md",
+                    "file": "GATE/Algorithms/Divide-and-Conquer/Analysis of Maximum and Minimum.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -4733,7 +4758,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "Characterizing Running Times"
+                  "title": "Analysis of Maximum and Minimum"
                 }
               },
               {
@@ -4761,7 +4786,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -4892,13 +4917,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "file": "GATE/Algorithms/Divide-and-Conquer/Analysis of Maximum and Minimum.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Guidelines to GATE-CS"
+                  "title": "Outline of Analysis of Maximum and Minimum"
                 }
               },
               {
@@ -4964,8 +4989,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "c9c69a5be1ad03a7",
-      "mtime": "2025-08-24T18:29:41+05:30"
+      "active": "10cb774741f902b4",
+      "mtime": "2025-12-07T17:52:32+05:30"
     }
   },
   "active": "DSA"

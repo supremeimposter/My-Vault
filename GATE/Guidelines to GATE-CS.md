@@ -54,6 +54,11 @@ $$
 ![[Guidelines to GATE-CS-1755107390202.webp|Comparison of asymptotic functions]]
 
 
+- Look carefully if they are asking for asymptotic analysis or just simply solve a recurrence relation. If there is no $\theta, \mathcal{O}, \mathcal{\Omega}$, then get the exact value of the recurrence relation.
+- In case of doubts in solving the recurrence relations, just substitute some values and look for the pattern if it clears.
+
+
+
 ---
 ## Guidelines to Programming with C
 

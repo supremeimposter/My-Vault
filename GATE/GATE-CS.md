@@ -26,6 +26,7 @@ tags:
 - [[Aptitude]]
 
 - [[Guidelines to GATE-CS]]
+- [[Error Journal for GATE CS]]
 
 ## GATE PYQs
 

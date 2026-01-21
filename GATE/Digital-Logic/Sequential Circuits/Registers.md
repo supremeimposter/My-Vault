@@ -35,7 +35,7 @@ tags:
 	- If the load = 1, the data should be stored i.e. $Q_n = \text{In}$
 
 - All the flip flops in the register share the same load input.
-- The load inputs are connected to each flip flip via a MUX rather than gating it with the clock which causes timing issues in flip flop.
+- The load inputs are connected to each flip flop via a MUX rather than gating it with the clock which causes timing issues in flip flop.
 
 ![[Registers-20240702220339396.webp|1-bit parallel access register with load input]]
 

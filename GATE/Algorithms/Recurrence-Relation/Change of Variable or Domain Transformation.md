@@ -12,6 +12,7 @@ tags:
   - Algorithm/Recursion
 ---
 # Change of Variable
+
 - Change of variable is an intermediary step in solving recurrence relation using [[Masters Theorem|masters theorem]].
 
 > [!attention] 

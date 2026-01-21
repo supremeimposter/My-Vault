@@ -543,5 +543,6 @@
   "obsidian-velocity@@enable-dim-img": true,
   "future-theme@@oled-style": false,
   "future-theme@@gradient-bg": true,
-  "future-theme@@custom-transparency": false
+  "future-theme@@custom-transparency": false,
+  "poimandres-extended@@pm-variant-storm": false
 }
