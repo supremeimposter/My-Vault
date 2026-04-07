@@ -1,7 +1,0 @@
-.markdown-source-view.mod-inside-iframe > .cm-editor > .cm-scroller::-webkit-scrollbar {
-	display: none;
-}
-
-.markdown-source-view.mod-inside-iframe > .cm-editor > .cm-scroller::before, .markdown-source-view.mod-inside-iframe > .cm-editor > .cm-scroller::after {
-	min-height: unset;
-}

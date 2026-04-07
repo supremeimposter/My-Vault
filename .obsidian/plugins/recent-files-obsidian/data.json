@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Error Journal for GATE CS",
-      "path": "GATE/Error Journal for GATE CS.md"
+      "basename": "If two boolean expressions are known to be never 1 simultaneously",
+      "path": "GATE/Digital-Logic/Analysis/If two boolean expressions are known to be never 1 simultaneously.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Algorithms",
       "path": "GATE/Algorithms/Algorithms.md"
+    },
+    {
+      "basename": "Error Journal for GATE CS",
+      "path": "GATE/Error Journal for GATE CS.md"
+    },
+    {
+      "basename": "ER Model",
+      "path": "GATE/DatabaseManagementSystem/ER-Model/ER Model.md"
+    },
+    {
+      "basename": "B+ Tree",
+      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md"
+    },
+    {
+      "basename": "File Organization",
+      "path": "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md"
     },
     {
       "basename": "Analysis of Maximum and Minimum",
@@ -31,10 +51,6 @@
     {
       "basename": "Digital-Logic-Mindmap",
       "path": "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Counters",
@@ -183,22 +199,6 @@
     {
       "basename": "Compact Truth Table Representation",
       "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
-    },
-    {
-      "basename": "Relational Algebra Queries",
-      "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Relational Algebra Queries.md"
-    },
-    {
-      "basename": "Procedural and Declarative Query Languages",
-      "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Procedural and Declarative Query Languages.md"
-    },
-    {
-      "basename": "Binary Codes for Decimal Digits",
-      "path": "GATE/Digital-Logic/Number Systems/Binary Codes for Decimal Digits.md"
-    },
-    {
-      "basename": "Number Systems",
-      "path": "GATE/Digital-Logic/Number Systems/Number Systems.md"
     }
   ],
   "omittedPaths": [],
