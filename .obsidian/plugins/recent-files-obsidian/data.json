@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Determinants",
+      "path": "GATE/Linear-Algebra/Determinants.md"
+    },
+    {
+      "basename": "Linear Algebra",
+      "path": "GATE/Linear-Algebra/Linear Algebra.md"
+    },
+    {
+      "basename": "Cayley Hamilton Theorem",
+      "path": "GATE/Linear-Algebra/Cayley Hamilton Theorem.md"
+    },
+    {
       "basename": "If two boolean expressions are known to be never 1 simultaneously",
       "path": "GATE/Digital-Logic/Analysis/If two boolean expressions are known to be never 1 simultaneously.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Relational Algebra",
       "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md"
-    },
-    {
-      "basename": "Multiplexer and Demultiplexer",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md"
-    },
-    {
-      "basename": "Shannons Expansion Theorem",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Shannons Expansion Theorem.md"
-    },
-    {
-      "basename": "Compact Truth Table Representation",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Compact Truth Table Representation.md"
     }
   ],
   "omittedPaths": [],

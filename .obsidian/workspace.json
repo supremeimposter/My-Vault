@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Analysis/If two boolean expressions are known to be never 1 simultaneously.md",
+                "file": "GATE/Linear-Algebra/Determinants.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "If two boolean expressions are known to be never 1 simultaneously"
+              "title": "Determinants"
             }
           }
         ],
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Digital-Logic/Analysis/If two boolean expressions are known to be never 1 simultaneously.md",
+                "file": "GATE/Linear-Algebra/Determinants.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of If two boolean expressions are known to be never 1 simultaneously"
+              "title": "Outline of Determinants"
             }
           },
           {
@@ -250,6 +250,7 @@
   },
   "active": "fb9c86606b0dcdff",
   "lastOpenFiles": [
+    "GATE/Linear-Algebra/Linear Algebra.md",
     "attachments/If two boolean expressions are known to be never 1 simultaneously-1773554793765.webp",
     "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Digital-Logic/Analysis/If two boolean expressions are known to be never 1 simultaneously.md",
@@ -287,7 +288,6 @@
     "attachments/Decoder-1762770999084.webp",
     "attachments/Decoder-1762688197534.webp",
     "attachments/Guidelines to GATE-CS-1762393503341.webp",
-    "attachments/Relational Algebra-1761559600099.webp",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
     "GATE/DiscreteMathematics/Graph-Theory",
     "Tags",
