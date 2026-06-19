@@ -27,213 +27,10 @@ __export(main_exports, {
   default: () => AutoReordering
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian3 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 
-// node_modules/async-mutex/index.mjs
-var E_TIMEOUT = new Error("timeout while waiting for mutex to become available");
-var E_ALREADY_LOCKED = new Error("mutex already locked");
-var E_CANCELED = new Error("request for lock canceled");
-var __awaiter$2 = function(thisArg, _arguments, P, generator) {
-  function adopt(value) {
-    return value instanceof P ? value : new P(function(resolve) {
-      resolve(value);
-    });
-  }
-  return new (P || (P = Promise))(function(resolve, reject) {
-    function fulfilled(value) {
-      try {
-        step(generator.next(value));
-      } catch (e) {
-        reject(e);
-      }
-    }
-    function rejected(value) {
-      try {
-        step(generator["throw"](value));
-      } catch (e) {
-        reject(e);
-      }
-    }
-    function step(result) {
-      result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);
-    }
-    step((generator = generator.apply(thisArg, _arguments || [])).next());
-  });
-};
-var Semaphore = class {
-  constructor(_value, _cancelError = E_CANCELED) {
-    this._value = _value;
-    this._cancelError = _cancelError;
-    this._queue = [];
-    this._weightedWaiters = [];
-  }
-  acquire(weight = 1, priority = 0) {
-    if (weight <= 0)
-      throw new Error(`invalid weight ${weight}: must be positive`);
-    return new Promise((resolve, reject) => {
-      const task = { resolve, reject, weight, priority };
-      const i = findIndexFromEnd(this._queue, (other) => priority <= other.priority);
-      if (i === -1 && weight <= this._value) {
-        this._dispatchItem(task);
-      } else {
-        this._queue.splice(i + 1, 0, task);
-      }
-    });
-  }
-  runExclusive(callback_1) {
-    return __awaiter$2(this, arguments, void 0, function* (callback, weight = 1, priority = 0) {
-      const [value, release] = yield this.acquire(weight, priority);
-      try {
-        return yield callback(value);
-      } finally {
-        release();
-      }
-    });
-  }
-  waitForUnlock(weight = 1, priority = 0) {
-    if (weight <= 0)
-      throw new Error(`invalid weight ${weight}: must be positive`);
-    if (this._couldLockImmediately(weight, priority)) {
-      return Promise.resolve();
-    } else {
-      return new Promise((resolve) => {
-        if (!this._weightedWaiters[weight - 1])
-          this._weightedWaiters[weight - 1] = [];
-        insertSorted(this._weightedWaiters[weight - 1], { resolve, priority });
-      });
-    }
-  }
-  isLocked() {
-    return this._value <= 0;
-  }
-  getValue() {
-    return this._value;
-  }
-  setValue(value) {
-    this._value = value;
-    this._dispatchQueue();
-  }
-  release(weight = 1) {
-    if (weight <= 0)
-      throw new Error(`invalid weight ${weight}: must be positive`);
-    this._value += weight;
-    this._dispatchQueue();
-  }
-  cancel() {
-    this._queue.forEach((entry) => entry.reject(this._cancelError));
-    this._queue = [];
-  }
-  _dispatchQueue() {
-    this._drainUnlockWaiters();
-    while (this._queue.length > 0 && this._queue[0].weight <= this._value) {
-      this._dispatchItem(this._queue.shift());
-      this._drainUnlockWaiters();
-    }
-  }
-  _dispatchItem(item) {
-    const previousValue = this._value;
-    this._value -= item.weight;
-    item.resolve([previousValue, this._newReleaser(item.weight)]);
-  }
-  _newReleaser(weight) {
-    let called = false;
-    return () => {
-      if (called)
-        return;
-      called = true;
-      this.release(weight);
-    };
-  }
-  _drainUnlockWaiters() {
-    if (this._queue.length === 0) {
-      for (let weight = this._value; weight > 0; weight--) {
-        const waiters = this._weightedWaiters[weight - 1];
-        if (!waiters)
-          continue;
-        waiters.forEach((waiter) => waiter.resolve());
-        this._weightedWaiters[weight - 1] = [];
-      }
-    } else {
-      const queuedPriority = this._queue[0].priority;
-      for (let weight = this._value; weight > 0; weight--) {
-        const waiters = this._weightedWaiters[weight - 1];
-        if (!waiters)
-          continue;
-        const i = waiters.findIndex((waiter) => waiter.priority <= queuedPriority);
-        (i === -1 ? waiters : waiters.splice(0, i)).forEach((waiter) => waiter.resolve());
-      }
-    }
-  }
-  _couldLockImmediately(weight, priority) {
-    return (this._queue.length === 0 || this._queue[0].priority < priority) && weight <= this._value;
-  }
-};
-function insertSorted(a, v) {
-  const i = findIndexFromEnd(a, (other) => v.priority <= other.priority);
-  a.splice(i + 1, 0, v);
-}
-function findIndexFromEnd(a, predicate) {
-  for (let i = a.length - 1; i >= 0; i--) {
-    if (predicate(a[i])) {
-      return i;
-    }
-  }
-  return -1;
-}
-var __awaiter$1 = function(thisArg, _arguments, P, generator) {
-  function adopt(value) {
-    return value instanceof P ? value : new P(function(resolve) {
-      resolve(value);
-    });
-  }
-  return new (P || (P = Promise))(function(resolve, reject) {
-    function fulfilled(value) {
-      try {
-        step(generator.next(value));
-      } catch (e) {
-        reject(e);
-      }
-    }
-    function rejected(value) {
-      try {
-        step(generator["throw"](value));
-      } catch (e) {
-        reject(e);
-      }
-    }
-    function step(result) {
-      result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);
-    }
-    step((generator = generator.apply(thisArg, _arguments || [])).next());
-  });
-};
-var Mutex = class {
-  constructor(cancelError) {
-    this._semaphore = new Semaphore(1, cancelError);
-  }
-  acquire() {
-    return __awaiter$1(this, arguments, void 0, function* (priority = 0) {
-      const [, releaser] = yield this._semaphore.acquire(1, priority);
-      return releaser;
-    });
-  }
-  runExclusive(callback, priority = 0) {
-    return this._semaphore.runExclusive(() => callback(), 1, priority);
-  }
-  isLocked() {
-    return this._semaphore.isLocked();
-  }
-  waitForUnlock(priority = 0) {
-    return this._semaphore.waitForUnlock(1, priority);
-  }
-  release() {
-    if (this._semaphore.isLocked())
-      this._semaphore.release();
-  }
-  cancel() {
-    return this._semaphore.cancel();
-  }
-};
+// src/pasteAndDropHandler.ts
+var import_obsidian = require("obsidian");
 
 // src/SettingsManager.ts
 var DEFAULT_RENUMBERING_SETTINGS = {
@@ -245,7 +42,8 @@ var DEFAULT_CHECKLIST_SETTINGS = {
   liveUpdate: true,
   checkedItemsAtBottom: true,
   sortSpecialChars: true,
-  charsToDelete: ""
+  charsToDelete: "",
+  hierarchicalReordering: true
 };
 var DEFAULT_SETTINGS = {
   renumbering: DEFAULT_RENUMBERING_SETTINGS,
@@ -316,6 +114,13 @@ var SettingsManager = class _SettingsManager {
   setSortSpecialChars(value) {
     this.settings.checklist.sortSpecialChars = value;
   }
+  isHierarchicalReordering() {
+    var _a;
+    return (_a = this.settings.checklist.hierarchicalReordering) != null ? _a : true;
+  }
+  setHierarchicalReordering(value) {
+    this.settings.checklist.hierarchicalReordering = value;
+  }
 };
 
 // src/utils.ts
@@ -379,18 +184,6 @@ function getListStart(editor, currLineIndex) {
   }
   return prevIndex + 1;
 }
-function getLastListStart(lines) {
-  const maxIndex = lines.length - 1;
-  let index = void 0;
-  for (let i = maxIndex; i >= 0; i--) {
-    const info = getLineInfo(lines[i]);
-    if (info.number === void 0) {
-      break;
-    }
-    index = i;
-  }
-  return index;
-}
 function getPrevItemIndex(editor, index) {
   if (index <= 0 || editor.lastLine() < index) {
     return void 0;
@@ -408,6 +201,168 @@ function getPrevItemIndex(editor, index) {
   }
   return void 0;
 }
+function findFirstNumbersAfterIndex(editor, startIndex) {
+  const result = [];
+  const currentLineInfo = getLineInfo(editor.getLine(startIndex));
+  if (!currentLineInfo || currentLineInfo.spaceIndent === void 0) {
+    return [];
+  }
+  let maxIndentToTrack = Infinity;
+  for (let i = startIndex; i <= editor.lastLine(); i++) {
+    const line = editor.getLine(i);
+    const info = getLineInfo(line);
+    if (info.spaceIndent === void 0) {
+      continue;
+    }
+    const currentIndent = info.spaceIndent;
+    if (currentIndent > maxIndentToTrack) {
+      continue;
+    }
+    if (info.number === void 0) {
+      continue;
+    }
+    if (result[currentIndent] === void 0) {
+      result[currentIndent] = info.number;
+    }
+    if (currentIndent < maxIndentToTrack) {
+      maxIndentToTrack = currentIndent;
+    }
+    if (currentIndent === 0 && result[0] !== void 0) {
+      break;
+    }
+  }
+  return result;
+}
+function findFirstNumbersByIndentFromEnd(lines) {
+  const result = [];
+  let maxIndentToTrack = Infinity;
+  for (let i = lines.length - 1; i >= 0; i--) {
+    const line = lines[i];
+    const info = getLineInfo(line);
+    if (!info || info.spaceIndent === void 0) {
+      continue;
+    }
+    const currentIndent = info.spaceIndent;
+    if (currentIndent > maxIndentToTrack) {
+      continue;
+    }
+    maxIndentToTrack = currentIndent;
+    if (info.number === void 0) {
+      if (currentIndent === 0) {
+        break;
+      }
+      continue;
+    }
+    result[currentIndent] = i;
+  }
+  return result;
+}
+
+// src/pasteAndDropHandler.ts
+function handlePaste(evt, editor) {
+  var _a, _b;
+  const updateNumbering = SettingsManager.getInstance().getLiveNumberingUpdate();
+  const updateChecklist = SettingsManager.getInstance().getLiveCheckboxUpdate();
+  if (!updateNumbering && !updateChecklist) {
+    return { start: void 0, end: void 0 };
+  }
+  const content = (_a = evt.clipboardData) == null ? void 0 : _a.getData("text");
+  if (evt.defaultPrevented || !content) {
+    return { start: void 0, end: void 0 };
+  }
+  evt.preventDefault();
+  const { anchor, head } = editor.listSelections()[0];
+  const baseIndex = Math.min(anchor.line, head.line);
+  let modifiedContent = content;
+  const smartPasting = SettingsManager.getInstance().getSmartPasting();
+  if (smartPasting) {
+    const indexAfterPasting = Math.max(anchor.line, head.line) + 1;
+    modifiedContent = (_b = modifyText(editor, content, indexAfterPasting)) != null ? _b : content;
+  }
+  editor.replaceSelection(modifiedContent);
+  const contentLines = modifiedContent.split("\n");
+  const numOfLines = contentLines.length - 1;
+  const start = baseIndex;
+  const end = start + numOfLines;
+  return { start, end };
+}
+function handleDrop(evt, editor) {
+  var _a, _b;
+  const settingsManager = SettingsManager.getInstance();
+  if (!settingsManager.getLiveNumberingUpdate() && !settingsManager.getLiveCheckboxUpdate()) {
+    return { start: void 0, end: void 0 };
+  }
+  const activeView = this.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
+  if (!activeView || !activeView.editor.hasFocus()) {
+    return { start: void 0, end: void 0 };
+  }
+  const editorView = activeView.editor.cm;
+  const dropPosition = editorView.posAtCoords({ x: evt.clientX, y: evt.clientY });
+  if (dropPosition === null) {
+    return { start: void 0, end: void 0 };
+  }
+  const content = (_a = evt.dataTransfer) == null ? void 0 : _a.getData("text");
+  if (evt.defaultPrevented || !content) {
+    return { start: void 0, end: void 0 };
+  }
+  evt.preventDefault();
+  const pos = editor.offsetToPos(dropPosition);
+  const { anchor, head } = editor.listSelections()[0];
+  let modifiedContent = content;
+  const smartPasting = SettingsManager.getInstance().getSmartPasting();
+  if (smartPasting) {
+    modifiedContent = (_b = modifyText(editor, content, pos.line)) != null ? _b : content;
+  }
+  const selectionFrom = anchor.line < head.line || anchor.line === head.line && anchor.ch < head.ch ? anchor : head;
+  const selectionTo = anchor.line > head.line || anchor.line === head.line && anchor.ch > head.ch ? anchor : head;
+  const transaction = {
+    changes: [
+      {
+        from: selectionFrom,
+        to: selectionTo,
+        text: ""
+      },
+      {
+        from: pos,
+        to: pos,
+        text: modifiedContent
+      }
+    ]
+  };
+  editor.transaction(transaction);
+  const lines = modifiedContent.split("\n");
+  const endPos = {
+    line: pos.line + lines.length - 1,
+    ch: lines.length > 1 ? lines[lines.length - 1].length : pos.ch + modifiedContent.length
+  };
+  const start = Math.min(pos.line, selectionFrom.line);
+  const end = Math.max(endPos.line, selectionTo.line) + 1;
+  return { start, end };
+}
+function modifyText(editor, pastedText, pastePosition) {
+  const currentLineInfo = getLineInfo(editor.getLine(pastePosition));
+  if (!currentLineInfo.number) {
+    return;
+  }
+  const pastedLines = pastedText.split("\n");
+  const sourceListNumbers = findFirstNumbersByIndentFromEnd(pastedLines);
+  const targetListNumbers = findFirstNumbersAfterIndex(editor, pastePosition);
+  for (let indentLevel = 0; indentLevel < sourceListNumbers.length; indentLevel++) {
+    const sourceLineIndex = sourceListNumbers[indentLevel];
+    const newNumber = targetListNumbers[indentLevel];
+    if (sourceLineIndex === void 0 || newNumber === void 0) {
+      continue;
+    }
+    const sourceLine = pastedLines[sourceLineIndex];
+    const sourceLineInfo = getLineInfo(sourceLine);
+    pastedLines[sourceLineIndex] = sourceLine.slice(0, sourceLineInfo.spaceCharsNum) + newNumber + ". " + sourceLine.slice(sourceLineInfo.textOffset);
+  }
+  const renumberedText = pastedLines.join("\n");
+  return renumberedText;
+}
+
+// src/command-registration.ts
+var import_obsidian2 = require("obsidian");
 
 // src/checkbox.ts
 function reorderChecklist(editor, start, limit) {
@@ -446,6 +401,7 @@ function reorderAllListsInRange(editor, start, limit) {
       i++;
     }
   }
+  if (changes.length === 0) return void 0;
   return {
     reorderResult: {
       start: currentStart != null ? currentStart : start,
@@ -482,72 +438,74 @@ function reorderAtIndex(editor, index) {
   };
 }
 function reorder(editor, index, startInfo) {
+  var _a;
   const checkedItemsAtBottom = SettingsManager.getInstance().isCheckedItemsAtBottom();
-  const uncheckedItems = [];
-  const checkedMap = /* @__PURE__ */ new Map();
-  const startIndex = findReorderStartPosition(editor, index, startInfo, checkedItemsAtBottom);
-  let prevChar = "";
-  let transitionIndex = 0;
-  let i = startIndex;
-  while (i <= editor.lastLine()) {
-    const line = editor.getLine(i);
-    const currInfo = getLineInfo(line);
-    if (!isSameStatus(startInfo, currInfo)) {
-      break;
-    }
-    const currentChar = currInfo.checkboxChar;
-    if (currentChar === void 0) {
-      break;
-    }
-    if (currentChar !== prevChar) {
-      prevChar = currentChar;
-      transitionIndex = uncheckedItems.length;
-    }
-    if (shouldBeSortedAsChecked(currentChar)) {
-      if (!checkedMap.has(currentChar)) {
-        checkedMap.set(currentChar, []);
-      }
-      checkedMap.get(currentChar).push([line, currInfo]);
-    } else {
-      uncheckedItems.push(line);
-    }
-    i++;
-  }
-  const finishedAt = i;
   const charsToDelete = getCharsToDelete();
-  const checkedItems = [];
-  const checkedItemsDel = [];
-  const keys = Array.from(checkedMap.keys()).sort();
-  const KVpairs = keys.flatMap((k) => checkedMap.get(k));
-  for (const [s, lineInfo] of KVpairs) {
-    if (!lineInfo.checkboxChar) {
-      continue;
-    }
-    if (charsToDelete.has(lineInfo.checkboxChar)) {
-      checkedItemsDel.push(s);
-    } else if (shouldBeSortedAsChecked(lineInfo.checkboxChar)) {
-      checkedItems.push(s);
+  const startIndex = findReorderStartPosition(editor, index, startInfo, checkedItemsAtBottom);
+  const { blocks, finishedAt } = extractBlocksAtLevel(editor, startIndex, startInfo);
+  if (blocks.length === 0) {
+    return {
+      orderedItems: [],
+      reorderResult: {
+        start: startIndex,
+        limit: startIndex
+      }
+    };
+  }
+  const reorderedBlocks = reorderBlocks(blocks, checkedItemsAtBottom, charsToDelete);
+  const allLines = [];
+  for (const block of reorderedBlocks) {
+    const blockLines = recursivelyProcessBlock(block, checkedItemsAtBottom, charsToDelete);
+    allLines.push(...blockLines);
+  }
+  if (SettingsManager.getInstance().getLiveNumberingUpdate() && allLines.length > 0) {
+    const originalLine = editor.getLine(startIndex);
+    const originalInfo = getLineInfo(originalLine);
+    const newFirstInfo = getLineInfo(allLines[0]);
+    if (originalInfo.number !== void 0 && newFirstInfo.number !== void 0) {
+      const prefix = originalLine.substring(0, originalInfo.spaceCharsNum);
+      const suffix = allLines[0].substring(newFirstInfo.textOffset);
+      allLines[0] = prefix + originalInfo.number + ". " + suffix;
     }
   }
-  checkedItems.push(...checkedItemsDel);
-  if (!checkedItemsAtBottom) {
-    uncheckedItems.splice(transitionIndex);
-  }
-  const orderedItems = checkedItemsAtBottom ? [...uncheckedItems, ...checkedItems] : [...checkedItems, ...uncheckedItems];
   let count = 0;
-  for (; count < orderedItems.length; count++) {
-    if (orderedItems[count] !== editor.getLine(startIndex + count)) {
+  for (; count < allLines.length; count++) {
+    if (allLines[count] !== editor.getLine(startIndex + count)) {
       break;
     }
   }
-  orderedItems.splice(0, count);
+  const orderedItems = allLines.slice(count);
   const newStart = startIndex + count;
-  const offsettedStart = finishedAt - (orderedItems.length - 1) - 1;
-  for (let i2 = orderedItems.length - 1; i2 >= 0; i2--) {
-    if (orderedItems[i2] !== editor.getLine(offsettedStart + i2)) {
-      orderedItems.splice(i2 + 1);
+  for (let i = orderedItems.length - 1; i >= 0; i--) {
+    if (orderedItems[i] !== editor.getLine(newStart + i)) {
+      orderedItems.splice(i + 1);
       break;
     }
+  }
+  if (orderedItems.length === 0 && !SettingsManager.getInstance().isHierarchicalReordering()) {
+    if (checkedItemsAtBottom) {
+      return {
+        orderedItems,
+        reorderResult: { start: finishedAt, limit: finishedAt }
+      };
+    }
+    const firstIsChecked = ((_a = blocks[0]) == null ? void 0 : _a.parentInfo.checkboxChar) !== void 0 && blocks[0].parentInfo.checkboxChar !== " ";
+    if (!firstIsChecked) {
+      return {
+        orderedItems,
+        reorderResult: { start: startIndex, limit: startIndex }
+      };
+    }
+    let boundaryIndex = startIndex;
+    for (const block of blocks) {
+      const isChecked = block.parentInfo.checkboxChar !== void 0 && block.parentInfo.checkboxChar !== " ";
+      if (!isChecked) break;
+      boundaryIndex += 1 + block.childLines.length;
+    }
+    return {
+      orderedItems,
+      reorderResult: { start: boundaryIndex, limit: boundaryIndex }
+    };
   }
   return {
     orderedItems,
@@ -573,18 +531,7 @@ function getChecklistStart(editor, index) {
   return i + 1;
 }
 function findReorderStartPosition(editor, startIndex, startInfo, checkedItemsAtBottom) {
-  if (!checkedItemsAtBottom) {
-    return startIndex;
-  }
-  let i = startIndex;
-  while (i <= editor.lastLine()) {
-    const currInfo = getLineInfo(editor.getLine(i));
-    if (shouldBeSortedAsChecked(currInfo.checkboxChar) !== false || !isSameStatus(startInfo, currInfo)) {
-      break;
-    }
-    i++;
-  }
-  return i;
+  return startIndex;
 }
 function isSameStatus(info1, info2) {
   const hasSameNumberStatus = info1.number !== void 0 === (info2.number !== void 0);
@@ -594,6 +541,169 @@ function isSameStatus(info1, info2) {
     return true;
   }
   return false;
+}
+function extractBlock(editor, startLineIndex) {
+  const parentLine = editor.getLine(startLineIndex);
+  const parentInfo = getLineInfo(parentLine);
+  const parentIndent = parentInfo.spaceIndent;
+  const childLines = [];
+  let i = startLineIndex + 1;
+  const useHierarchical = SettingsManager.getInstance().isHierarchicalReordering();
+  if (useHierarchical) {
+    while (i <= editor.lastLine()) {
+      const line = editor.getLine(i);
+      const lineInfo = getLineInfo(line);
+      if (lineInfo.spaceIndent <= parentIndent) {
+        break;
+      }
+      childLines.push(line);
+      i++;
+    }
+  }
+  return {
+    block: {
+      parentLine,
+      parentInfo,
+      childLines
+    },
+    nextIndex: i
+  };
+}
+function extractBlocksAtLevel(editor, startIndex, startInfo) {
+  const blocks = [];
+  const targetIndent = startInfo.spaceIndent;
+  let i = startIndex;
+  while (i <= editor.lastLine()) {
+    const line = editor.getLine(i);
+    const currInfo = getLineInfo(line);
+    if (!isSameStatus(startInfo, currInfo)) {
+      break;
+    }
+    if (currInfo.spaceIndent === targetIndent && currInfo.checkboxChar !== void 0) {
+      const { block, nextIndex } = extractBlock(editor, i);
+      blocks.push(block);
+      i = nextIndex;
+    } else {
+      i++;
+    }
+  }
+  return {
+    blocks,
+    finishedAt: i
+  };
+}
+function reorderBlocks(blocks, checkedItemsAtBottom, charsToDelete) {
+  const uncheckedBlocks = [];
+  const checkedMap = /* @__PURE__ */ new Map();
+  const deleteBlocks = [];
+  for (const block of blocks) {
+    const char = block.parentInfo.checkboxChar;
+    if (charsToDelete.has(char.toLowerCase())) {
+      deleteBlocks.push(block);
+    } else if (shouldBeSortedAsChecked(char)) {
+      if (!checkedMap.has(char)) {
+        checkedMap.set(char, []);
+      }
+      checkedMap.get(char).push(block);
+    } else {
+      uncheckedBlocks.push(block);
+    }
+  }
+  const checkedBlocks = [];
+  const keys = Array.from(checkedMap.keys()).sort();
+  for (const key of keys) {
+    checkedBlocks.push(...checkedMap.get(key));
+  }
+  checkedBlocks.push(...deleteBlocks);
+  const reordered = checkedItemsAtBottom ? [...uncheckedBlocks, ...checkedBlocks] : [...checkedBlocks, ...uncheckedBlocks];
+  return reordered;
+}
+function extractBlocksFromLines(lines, targetIndent) {
+  const blocks = [];
+  let i = 0;
+  while (i < lines.length) {
+    const line = lines[i];
+    const lineInfo = getLineInfo(line);
+    if (lineInfo.spaceIndent === targetIndent && lineInfo.checkboxChar !== void 0) {
+      const parentLine = line;
+      const parentInfo = lineInfo;
+      const childLines = [];
+      const useHierarchical = SettingsManager.getInstance().isHierarchicalReordering();
+      let j = i + 1;
+      if (useHierarchical) {
+        while (j < lines.length) {
+          const childLine = lines[j];
+          const childLineInfo = getLineInfo(childLine);
+          if (childLineInfo.spaceIndent <= targetIndent) {
+            break;
+          }
+          childLines.push(childLine);
+          j++;
+        }
+      }
+      blocks.push({
+        parentLine,
+        parentInfo,
+        childLines
+      });
+      i = j;
+    } else {
+      i++;
+    }
+  }
+  return {
+    blocks,
+    lastProcessedIndex: i
+  };
+}
+function recursivelyProcessBlock(block, checkedItemsAtBottom, charsToDelete) {
+  const result = [block.parentLine];
+  if (block.childLines.length === 0) {
+    return result;
+  }
+  const childIndent = block.parentInfo.spaceIndent + SettingsManager.getInstance().getIndentSize();
+  const { blocks: childBlocks } = extractBlocksFromLines(block.childLines, childIndent);
+  if (childBlocks.length === 0) {
+    return [...result, ...block.childLines];
+  }
+  const lineToBlockMap = /* @__PURE__ */ new Map();
+  const blockStartIndices = /* @__PURE__ */ new Map();
+  for (const childBlock of childBlocks) {
+    for (let i = 0; i < block.childLines.length; i++) {
+      if (block.childLines[i] === childBlock.parentLine) {
+        blockStartIndices.set(childBlock, i);
+        lineToBlockMap.set(i, childBlock);
+        for (let j = 0; j < childBlock.childLines.length; j++) {
+          lineToBlockMap.set(i + 1 + j, childBlock);
+        }
+        break;
+      }
+    }
+  }
+  const prefixLines = [];
+  const suffixLines = [];
+  const firstCheckboxIndex = Math.min(...Array.from(blockStartIndices.values()));
+  let lastCheckboxEndIndex = -1;
+  for (const [childBlock, startIndex] of blockStartIndices.entries()) {
+    const endIndex = startIndex + 1 + childBlock.childLines.length;
+    if (endIndex > lastCheckboxEndIndex) {
+      lastCheckboxEndIndex = endIndex;
+    }
+  }
+  for (let i = 0; i < firstCheckboxIndex; i++) {
+    prefixLines.push(block.childLines[i]);
+  }
+  for (let i = lastCheckboxEndIndex; i < block.childLines.length; i++) {
+    suffixLines.push(block.childLines[i]);
+  }
+  const reorderedChildren = reorderBlocks(childBlocks, checkedItemsAtBottom, charsToDelete);
+  result.push(...prefixLines);
+  for (const childBlock of reorderedChildren) {
+    const processedLines = recursivelyProcessBlock(childBlock, checkedItemsAtBottom, charsToDelete);
+    result.push(...processedLines);
+  }
+  result.push(...suffixLines);
+  return result;
 }
 function deleteChecked(editor) {
   const lastLine = editor.lastLine();
@@ -660,81 +770,7 @@ function applyChangesToEditor(editor, changes) {
   }
 }
 
-// src/pasteAndDropHandler.ts
-function handlePasteAndDrop(evt, editor, mutex2) {
-  var _a, _b;
-  const updateNumbering = SettingsManager.getInstance().getLiveNumberingUpdate();
-  const updateChecklist = SettingsManager.getInstance().getLiveCheckboxUpdate();
-  if (!updateNumbering && !updateChecklist) {
-    return;
-  }
-  const content = evt instanceof ClipboardEvent ? (_a = evt.clipboardData) == null ? void 0 : _a.getData("text") : evt instanceof DragEvent ? (_b = evt.dataTransfer) == null ? void 0 : _b.getData("text") : null;
-  if (evt.defaultPrevented || !content) {
-    return;
-  }
-  evt.preventDefault();
-  mutex2.runExclusive(() => {
-    this.blockChanges = true;
-    const { baseIndex, offset } = processTextInput(editor, content);
-    const lineToReturn = editor.getCursor().line;
-    if (updateChecklist) {
-      reorderChecklist(editor, baseIndex, baseIndex + offset);
-      editor.setCursor({ line: lineToReturn, ch: editor.getLine(lineToReturn).length });
-    }
-    if (updateNumbering) {
-      this.renumberer.renumberAllListsInRange(editor, baseIndex, baseIndex + offset);
-    }
-  });
-}
-function processTextInput(editor, textFromClipboard) {
-  var _a;
-  const a = editor.listSelections();
-  const { anchor, head } = editor.listSelections()[0];
-  const baseIndex = Math.min(anchor.line, head.line);
-  let numOfLines;
-  const smartPasting = SettingsManager.getInstance().getSmartPasting();
-  if (smartPasting) {
-    const indexAfterPasting = Math.max(anchor.line, head.line) + 1;
-    const line = editor.getLine(indexAfterPasting);
-    const info = getLineInfo(line);
-    if (info.number !== void 0) {
-      const retval = modifyText(textFromClipboard, info.number);
-      textFromClipboard = (_a = retval.modifiedText) != null ? _a : textFromClipboard;
-      numOfLines = retval.numOfLines;
-    } else {
-      numOfLines = countNewlines(textFromClipboard);
-    }
-  } else {
-    numOfLines = countNewlines(textFromClipboard);
-  }
-  editor.replaceSelection(textFromClipboard);
-  return { baseIndex, offset: numOfLines };
-}
-function modifyText(text, newNumber) {
-  const lines = text.split("\n");
-  const lineIndex = getLastListStart(lines);
-  if (lineIndex === void 0) {
-    return { modifiedText: void 0, numOfLines: lines.length };
-  }
-  const targetLine = lines[lineIndex];
-  const info = getLineInfo(targetLine);
-  const newLine = targetLine.slice(0, info.spaceCharsNum) + newNumber + ". " + targetLine.slice(info.textOffset);
-  lines[lineIndex] = newLine;
-  const modifiedText = lines.join("\n");
-  return { modifiedText, numOfLines: lines.length };
-}
-function countNewlines(text) {
-  let count = 0;
-  for (const char of text) {
-    if (char === "\n") {
-      count++;
-    }
-  }
-  return count;
-}
-
 // src/command-registration.ts
-var import_obsidian = require("obsidian");
 function registerCommands(plugin) {
   plugin.addCommand({
     id: "1-reneumber-selection",
@@ -797,7 +833,7 @@ function registerCommands(plugin) {
         renumberer.renumber(editor, deleteResult.start, deleteResult.limit);
       }
       const noticeString = deletedItemCount > 0 ? `Deleted ${deletedItemCount} lines` : "No checked items to delete";
-      new import_obsidian.Notice(noticeString);
+      new import_obsidian2.Notice(noticeString);
       editor.setCursor({ line: lineToReturn, ch: editor.getLine(lineToReturn).length });
     }
   });
@@ -812,14 +848,12 @@ var Renumberer = class {
       const editorLastLine = editor.lastLine();
       const newChanges = [];
       if (isInvalidRange) {
-        console.error(
-          `Invalid renumbering range: start=${start}, limit=${limit} (start must be >= 0 and limit must be >= start)`
-        );
+        console.error(`Invalid renumbering range: start=${start}, limit=${limit}. Requires (0 <= start <= limit).`);
         return { changes: newChanges, endIndex: start };
       }
       if (editorLastLine + 1 < limit) {
         console.error(
-          `Limit exceeds document bounds: limit=${limit}, document length=${editorLastLine + 1}. Adjusting limit.`
+          `Limit exceeds document bounds: attempted limit=${limit}, actual limit=${editorLastLine + 1}. Adjusting limit.`
         );
         limit = editorLastLine + 1;
       }
@@ -847,10 +881,10 @@ var Renumberer = class {
   }
   renumber(editor, start, limit) {
     let pendingChanges;
-    if (limit !== void 0) {
-      pendingChanges = this.renumberAllListsInRange(editor, start, limit);
-    } else {
+    if (limit === void 0 || limit === start) {
       pendingChanges = this.renumberAtIndex(editor, start);
+    } else {
+      pendingChanges = this.renumberAllListsInRange(editor, start, limit);
     }
     this.applyChangesToEditor(editor, pendingChanges.changes);
     return pendingChanges.endIndex;
@@ -958,8 +992,8 @@ var Renumberer = class {
 };
 
 // src/settings-tab.ts
-var import_obsidian2 = require("obsidian");
-var AutoRenumberingSettings = class extends import_obsidian2.PluginSettingTab {
+var import_obsidian3 = require("obsidian");
+var AutoRenumberingSettings = class extends import_obsidian3.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -971,13 +1005,13 @@ var AutoRenumberingSettings = class extends import_obsidian2.PluginSettingTab {
     const githubEl = createFragment();
     githubEl.appendText("For more information, visit ");
     githubEl.createEl("a", {
-      href: "https://github.com/OmriLeviGit/Auto-List-Reordering-Obsidian",
+      href: "https://github.com/OmriLeviGit/Auto-List-Management-Obsidian",
       text: "Github"
     });
     githubEl.appendText(".");
     containerEl.appendChild(githubEl);
-    new import_obsidian2.Setting(containerEl).setHeading();
-    new import_obsidian2.Setting(containerEl).setName("Tab size").setDesc(
+    new import_obsidian3.Setting(containerEl).setHeading();
+    new import_obsidian3.Setting(containerEl).setName("Tab size").setDesc(
       "Set the indent size to the same size as in the editor's settings. Can be found under: Options > Editor > Tab indent size/Indent visual width."
     ).addSlider((slider) => {
       slider.setValue(this.settingsManager.getIndentSize()).setLimits(2, 8, 1).setDynamicTooltip().onChange(async (value) => {
@@ -985,18 +1019,26 @@ var AutoRenumberingSettings = class extends import_obsidian2.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian2.Setting(containerEl).setHeading().setName("Checklists");
-    new import_obsidian2.Setting(containerEl).setName("Auto-sort on changes").setDesc("Automatically sort checklists whenever checkboxes are checked or unchecked.").addToggle(
+    new import_obsidian3.Setting(containerEl).setHeading().setName("Checklists");
+    new import_obsidian3.Setting(containerEl).setName("Auto-sort on changes").setDesc("Automatically sort checklists whenever checkboxes are checked or unchecked.").addToggle(
       (toggle) => toggle.setValue(this.settingsManager.getLiveCheckboxUpdate()).onChange(async (value) => {
         this.settingsManager.setLiveCheckboxUpdate(value);
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian2.Setting(containerEl).setName("Place checked items at bottom").setDesc(
+    new import_obsidian3.Setting(containerEl).setName("Place checked items at bottom").setDesc(
       "When enabled, checked tasks will be placed at the bottom. When disabled, they will be at the top."
     ).addToggle(
       (toggle) => toggle.setValue(this.settingsManager.isCheckedItemsAtBottom()).onChange(async (value) => {
         this.settingsManager.setCheckedItemsAtBottom(value);
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian3.Setting(containerEl).setName("Hierarchical checkbox reordering").setDesc(
+      "When enabled, checking a checkbox moves it along with all indented content (sub-tasks, paragraphs) as a block. When disabled, checkbox lines moves individually."
+    ).addToggle(
+      (toggle) => toggle.setValue(this.settingsManager.isHierarchicalReordering()).onChange(async (value) => {
+        this.settingsManager.setHierarchicalReordering(value);
         await this.plugin.saveSettings();
       })
     );
@@ -1007,13 +1049,13 @@ var AutoRenumberingSettings = class extends import_obsidian2.PluginSettingTab {
       text: "ASCII"
     });
     descEl.appendText(". When disabled, only tasks marked for deletion will be sorted.");
-    new import_obsidian2.Setting(containerEl).setName("Sort all special checkboxes").setDesc(descEl).addToggle(
+    new import_obsidian3.Setting(containerEl).setName("Sort all special checkboxes").setDesc(descEl).addToggle(
       (toggle) => toggle.setValue(this.settingsManager.getSortSpecialChars()).onChange(async (value) => {
         this.settingsManager.setSortSpecialChars(value);
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian2.Setting(containerEl).setName("Checkbox delete-characters").setDesc(
+    new import_obsidian3.Setting(containerEl).setName("Checkbox delete-characters").setDesc(
       "Specify which checkbox characters mark tasks for deletion. Tasks with these characters are always sorted below tasks with other characters, and can be removed by using the delete command."
     ).addText((text) => {
       text.setPlaceholder("Enter characters").setValue(this.settingsManager.getCharsToDelete()).onChange(async (value) => {
@@ -1029,51 +1071,91 @@ var AutoRenumberingSettings = class extends import_obsidian2.PluginSettingTab {
       text: "Example: '- /' means tasks with [x], [-], or [/] will be removed, while tasks with other characters like [>] will remain.",
       cls: "setting-item-description"
     });
-    new import_obsidian2.Setting(containerEl).setHeading().setName("Numbered lists");
-    new import_obsidian2.Setting(containerEl).setName("Auto-renumber on changes").setDesc("Automatically sort numbered lists as changes are made.").addToggle(
-      (toggle) => toggle.setValue(this.settingsManager.getLiveNumberingUpdate()).onChange(async (value) => {
-        this.settingsManager.setLiveNumberingUpdate(value);
-        await this.plugin.saveSettings();
-        if (value) {
-          smartPastingToggleEl.classList.add("smart-paste-toggle");
-          smartPastingToggleEl.classList.remove("smart-paste-toggle-disabled");
-        } else {
-          smartPastingToggleEl.classList.remove("smart-paste-toggle");
-          smartPastingToggleEl.classList.add("smart-paste-toggle-disabled");
-        }
-      })
-    );
-    const smartPastingSetting = new import_obsidian2.Setting(containerEl).setName("Smart pasting").setDesc("Pasting keeps the sequencing consistent with the original numbered list.").addToggle(
+    new import_obsidian3.Setting(containerEl).setHeading();
+    new import_obsidian3.Setting(containerEl).setHeading().setName("Numbered lists");
+    const smartPastingSetting = new import_obsidian3.Setting(containerEl).setName("Smart pasting").setDesc("Pasting keeps the sequencing consistent with the original numbered list.").addToggle(
       (toggle) => toggle.setValue(this.settingsManager.getSmartPasting()).onChange(async (value) => {
         this.settingsManager.setSmartPasting(value);
         await this.plugin.saveSettings();
       })
     );
     const smartPastingToggleEl = smartPastingSetting.settingEl;
-    const isLiveNumberingUpdateEnabled = this.settingsManager.getLiveNumberingUpdate();
-    if (isLiveNumberingUpdateEnabled) {
-      smartPastingToggleEl.classList.add("smart-paste-toggle");
-      smartPastingToggleEl.classList.remove("smart-paste-toggle-disabled");
-    } else {
-      smartPastingToggleEl.classList.add("smart-paste-toggle-disabled");
-      smartPastingToggleEl.classList.remove("smart-paste-toggle");
-    }
-    new import_obsidian2.Setting(containerEl).setName("Start numbering from 1").setDesc("Whether lists always start from 1 or preserve their original starting numbers.").addToggle(
+    const startsFromOneSetting = new import_obsidian3.Setting(containerEl).setName("Start numbering from 1").setDesc("Whether lists always start from 1 or preserve their original starting numbers.").addToggle(
       (toggle) => toggle.setValue(this.settingsManager.getStartsFromOne()).onChange(async (value) => {
         this.settingsManager.setStartsFromOne(value);
         await this.plugin.saveSettings();
       })
     );
+    const startsFromOneToggleEl = startsFromOneSetting.settingEl;
+    const autoRenumberSetting = new import_obsidian3.Setting(containerEl).setName("Auto-renumber on changes").setDesc("Automatically sort numbered lists as changes are made.").addToggle(
+      (toggle) => toggle.setValue(this.settingsManager.getLiveNumberingUpdate()).onChange(async (value) => {
+        this.settingsManager.setLiveNumberingUpdate(value);
+        await this.plugin.saveSettings();
+        if (value) {
+          smartPastingToggleEl.classList.add("setting-enabled");
+          smartPastingToggleEl.classList.remove("setting-disabled");
+          startsFromOneToggleEl.classList.add("setting-enabled");
+          startsFromOneToggleEl.classList.remove("setting-disabled");
+        } else {
+          smartPastingToggleEl.classList.remove("setting-enabled");
+          smartPastingToggleEl.classList.add("setting-disabled");
+          startsFromOneToggleEl.classList.remove("setting-enabled");
+          startsFromOneToggleEl.classList.add("setting-disabled");
+        }
+      })
+    );
+    containerEl.insertBefore(autoRenumberSetting.settingEl, smartPastingSetting.settingEl);
+    const isLiveNumberingUpdateEnabled = this.settingsManager.getLiveNumberingUpdate();
+    if (isLiveNumberingUpdateEnabled) {
+      smartPastingToggleEl.classList.add("setting-enabled");
+      smartPastingToggleEl.classList.remove("setting-disabled");
+      startsFromOneToggleEl.classList.add("setting-enabled");
+      startsFromOneToggleEl.classList.remove("setting-disabled");
+    } else {
+      smartPastingToggleEl.classList.add("setting-disabled");
+      smartPastingToggleEl.classList.remove("setting-enabled");
+      startsFromOneToggleEl.classList.add("setting-disabled");
+      startsFromOneToggleEl.classList.remove("setting-enabled");
+    }
   }
 };
 
 // main.ts
-var mutex = new Mutex();
-var AutoReordering = class extends import_obsidian3.Plugin {
+var AutoReordering = class extends import_obsidian4.Plugin {
   constructor() {
     super(...arguments);
     this.blockChanges = false;
     this.checkboxClickedAt = void 0;
+  }
+  applyReordering(editor, start, end) {
+    if (this.blockChanges) {
+      return;
+    }
+    this.blockChanges = true;
+    const posToReturn = editor.getCursor();
+    let startIndex = start;
+    let endIndex = end;
+    let newLine;
+    if (startIndex === void 0) {
+      const result = this.getCurrIndex(editor);
+      startIndex = result.index;
+      newLine = result.mouseAt;
+    }
+    if (newLine !== void 0) {
+      posToReturn.line = newLine;
+    }
+    let reorderResult;
+    if (this.settingsManager.getLiveCheckboxUpdate() === true) {
+      reorderResult = reorderChecklist(editor, startIndex, end);
+    }
+    if (this.settingsManager.getLiveNumberingUpdate() === true) {
+      if (reorderResult !== void 0) {
+        startIndex = reorderResult.start;
+        endIndex = reorderResult.limit;
+      }
+      this.renumberer.renumber(editor, startIndex, endIndex);
+    }
+    this.updateCursorPosition(editor, posToReturn, reorderResult);
   }
   async onload() {
     await this.loadSettings();
@@ -1083,41 +1165,23 @@ var AutoReordering = class extends import_obsidian3.Plugin {
     this.renumberer = new Renumberer();
     this.registerEvent(
       this.app.workspace.on("editor-change", (editor) => {
-        mutex.runExclusive(() => {
-          setTimeout(() => {
-            if (this.blockChanges) {
-              return;
-            }
-            const posToReturn = editor.getCursor();
-            this.blockChanges = true;
-            const { index: currIndex, mouseAt: newLine } = this.getCurrIndex(editor);
-            if (newLine !== void 0) {
-              posToReturn.line = newLine;
-            }
-            let reorderResult;
-            if (this.settingsManager.getLiveCheckboxUpdate() === true) {
-              reorderResult = reorderChecklist(editor, currIndex);
-            }
-            if (this.settingsManager.getLiveNumberingUpdate() === true) {
-              if (reorderResult !== void 0) {
-                this.renumberer.renumber(editor, reorderResult.start, reorderResult.limit);
-              } else {
-                this.renumberer.renumber(editor, currIndex);
-              }
-            }
-            this.updateCursorPosition(editor, posToReturn, reorderResult);
-          });
-        }, 0);
+        setTimeout(() => {
+          this.applyReordering(editor);
+        });
       })
     );
     this.registerEvent(
       this.app.workspace.on("editor-paste", (evt, editor) => {
-        handlePasteAndDrop.call(this, evt, editor, mutex);
+        const { start, end } = handlePaste.call(this, evt, editor);
+        this.blockChanges = false;
+        this.applyReordering(editor, start, end);
       })
     );
     this.registerEvent(
       this.app.workspace.on("editor-drop", (evt, editor) => {
-        handlePasteAndDrop.call(this, evt, editor, mutex);
+        const { start, end } = handleDrop.call(this, evt, editor);
+        this.blockChanges = false;
+        this.applyReordering(editor, start, end);
       })
     );
     this.handleKeystrokeBound = this.handleKeystroke.bind(this);
@@ -1126,34 +1190,32 @@ var AutoReordering = class extends import_obsidian3.Plugin {
     window.addEventListener("click", this.handleMouseBound);
   }
   handleKeystroke(event) {
-    mutex.runExclusive(() => {
-      this.blockChanges = event.ctrlKey || event.metaKey || event.altKey;
-    });
+    this.blockChanges = event.ctrlKey || event.metaKey || event.altKey;
   }
   //  mouse listener
   async handleMouseClick(event) {
-    if (!this.settingsManager.getLiveCheckboxUpdate()) {
-      return;
-    }
     try {
-      await mutex.runExclusive(async () => {
-        this.checkboxClickedAt = void 0;
-        const target = event.target;
-        if (target.matches('[type="checkbox"]')) {
-          const activeView = this.app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
-          if (activeView == null ? void 0 : activeView.editor.hasFocus()) {
-            const editorView = activeView.editor.cm;
-            const pos = editorView.posAtDOM(target);
-            const line = editorView.state.doc.lineAt(pos);
-            this.checkboxClickedAt = line.number - 1;
+      if (!this.settingsManager.getLiveCheckboxUpdate()) {
+        return;
+      }
+      this.checkboxClickedAt = void 0;
+      const target = event.target;
+      if (target.matches('[type="checkbox"]')) {
+        const activeView = this.app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
+        if (activeView == null ? void 0 : activeView.editor.hasFocus()) {
+          const editorView = activeView.editor.cm;
+          const editor = activeView.editor;
+          const pos = editorView.posAtCoords({ x: event.clientX, y: event.clientY });
+          if (pos) {
+            this.checkboxClickedAt = editor.offsetToPos(pos).line;
           }
         }
-        this.blockChanges = false;
-      });
+      }
     } catch (error) {
       console.error("Error in handleMouseClick:", error);
-      this.blockChanges = false;
       this.checkboxClickedAt = void 0;
+    } finally {
+      this.blockChanges = false;
     }
   }
   async onunload() {
@@ -1206,7 +1268,7 @@ var AutoReordering = class extends import_obsidian3.Plugin {
     return { index: Math.min(selection.anchor.line, selection.head.line) };
   }
   isCursorInView() {
-    const activeView = this.app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
+    const activeView = this.app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
     if (activeView) {
       const editorView = activeView.editor.cm;
       const pos = editorView.state.selection.main.head;
@@ -1219,6 +1281,5 @@ var AutoReordering = class extends import_obsidian3.Plugin {
     return true;
   }
 };
-
 
 /* nosourcemap */

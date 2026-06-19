@@ -544,5 +544,10 @@
   "future-theme@@oled-style": false,
   "future-theme@@gradient-bg": true,
   "future-theme@@custom-transparency": false,
-  "poimandres-extended@@pm-variant-storm": false
+  "poimandres-extended@@pm-variant-storm": false,
+  "macos-theme@@macos-accent-color": "#007AFF",
+  "macos-theme@@macos-translucent-panels": true,
+  "macos-theme@@macos-glass-modals": false,
+  "macos-theme@@macos-accent-icons": true,
+  "macos-theme@@macos-colorful-headings": true
 }

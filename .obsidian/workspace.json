@@ -4,40 +4,48 @@
     "type": "split",
     "children": [
       {
-        "id": "6a5635d25d538c9a",
+        "id": "df7f94ce3ab6c62b",
         "type": "tabs",
         "children": [
           {
-            "id": "6b62591f21d18487",
+            "id": "76a07e4786a7142a",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Digital-Logic/Digital Logic.md",
+                "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
                 "mode": "source",
-                "source": false,
                 "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Digital Logic"
+              "title": "Discrete Mathematics"
             }
           },
           {
-            "id": "fb9c86606b0dcdff",
+            "id": "e8f488745b5fb66b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Linear-Algebra/Determinants.md",
+                "file": "GATE/Pyqs/Set Theory PYQs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Set Theory PYQs"
+            }
+          },
+          {
+            "id": "c9c69a5be1ad03a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +60,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Determinants"
+              "title": "Guidelines to GATE-CS"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,16 +115,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "25fb3027bb42d785",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
             }
           }
         ]
@@ -187,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Linear-Algebra/Determinants.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Determinants"
+              "title": "Outline of Guidelines to GATE-CS"
             }
           },
           {
@@ -207,6 +205,16 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
+            }
+          },
+          {
+            "id": "64e722562ef2ff69",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "journal-calendar"
             }
           }
         ],
@@ -238,7 +246,6 @@
       "bases:Create new base": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
@@ -248,12 +255,17 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "fb9c86606b0dcdff",
+  "active": "80784521bca5ca54",
   "lastOpenFiles": [
+    "GATE/DiscreteMathematics/Set-Theory/Types of Lattices.md",
+    "GATE/DiscreteMathematics/Set-Theory/Lattice.md",
+    "GATE/Guidelines to GATE-CS.md",
+    "GATE/Pyqs/Set Theory PYQs.md",
+    "GATE/Digital-Logic/Analysis/If two boolean expressions are known to be never 1 simultaneously.md",
+    "GATE/Digital-Logic/Digital Logic.md",
+    "GATE/Linear-Algebra/Determinants.md",
     "GATE/Linear-Algebra/Linear Algebra.md",
     "attachments/If two boolean expressions are known to be never 1 simultaneously-1773554793765.webp",
-    "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Digital-Logic/Analysis/If two boolean expressions are known to be never 1 simultaneously.md",
     "GATE/Digital-Logic/Analysis",
     "GATE/Algorithms/Algorithms.md",
     "GATE/Error Journal for GATE CS.md",
@@ -263,7 +275,6 @@
     "GATE/Algorithms/Divide-and-Conquer/Analysis of Maximum and Minimum.md",
     "GATE/GATE-CS.md",
     "Vault Index.md",
-    "GATE/Guidelines to GATE-CS.md",
     "GATE/Algorithms/Divide-and-Conquer/Analysis of Comparison Model for Maximum and Minimum of an Array.md",
     "GATE/Digital-Logic/Sequential Circuits/Registers.md",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
@@ -276,10 +287,6 @@
     "GATE/Algorithms/Divide-and-Conquer/Binary Search.md",
     "GATE/Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
     "GATE/Algorithms/Recurrence-Relation/Masters Theorem.md",
-    "GATE/Algorithms/Recurrence-Relation/Tree Method.md",
-    "GATE/Algorithms/Recurrence-Relation/Substitution Method.md",
-    "GATE/Algorithms/Recurrence-Relation/Characterizing Running Times.md",
-    "GATE/Digital-Logic/Sequential Circuits/Finite State Machine.md",
     "attachments/Guidelines to GATE-CS-1764167993162.webp",
     "attachments/Guidelines to GATE-CS-1763891460227.webp",
     "attachments/Carry Look Ahead Adder-20240628082827930.webp",

@@ -1,7 +1,7 @@
 {
-  "hideStatus": false,
+  "hideStatus": true,
   "hideTabs": false,
-  "hideScroll": false,
+  "hideScroll": true,
   "hideSidebarButtons": false,
   "hideTooltips": false,
   "hideFileNavButtons": false,
@@ -9,5 +9,5 @@
   "hideSearchCounts": false,
   "hideInstructions": false,
   "hidePropertiesReading": false,
-  "hideVault": true
+  "hideVault": false
 }

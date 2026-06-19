@@ -1,0 +1,15 @@
+{
+  "renumbering": {
+    "liveUpdate": true,
+    "smartPasting": true,
+    "startsFromOne": true
+  },
+  "checklist": {
+    "liveUpdate": true,
+    "checkedItemsAtBottom": false,
+    "sortSpecialChars": true,
+    "charsToDelete": "",
+    "hierarchicalReordering": true
+  },
+  "indentSize": 4
+}

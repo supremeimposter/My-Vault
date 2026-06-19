@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Guidelines to GATE-CS",
+      "path": "GATE/Guidelines to GATE-CS.md"
+    },
+    {
+      "basename": "Types of Lattices",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Types of Lattices.md"
+    },
+    {
+      "basename": "Lattice",
+      "path": "GATE/DiscreteMathematics/Set-Theory/Lattice.md"
+    },
+    {
+      "basename": "Set Theory PYQs",
+      "path": "GATE/Pyqs/Set Theory PYQs.md"
+    },
+    {
+      "basename": "If two boolean expressions are known to be never 1 simultaneously",
+      "path": "GATE/Digital-Logic/Analysis/If two boolean expressions are known to be never 1 simultaneously.md"
+    },
+    {
+      "basename": "Digital Logic",
+      "path": "GATE/Digital-Logic/Digital Logic.md"
+    },
+    {
       "basename": "Determinants",
       "path": "GATE/Linear-Algebra/Determinants.md"
     },
@@ -11,14 +35,6 @@
     {
       "basename": "Cayley Hamilton Theorem",
       "path": "GATE/Linear-Algebra/Cayley Hamilton Theorem.md"
-    },
-    {
-      "basename": "If two boolean expressions are known to be never 1 simultaneously",
-      "path": "GATE/Digital-Logic/Analysis/If two boolean expressions are known to be never 1 simultaneously.md"
-    },
-    {
-      "basename": "Digital Logic",
-      "path": "GATE/Digital-Logic/Digital Logic.md"
     },
     {
       "basename": "Algorithms",
@@ -51,10 +67,6 @@
     {
       "basename": "Vault Index",
       "path": "Vault Index.md"
-    },
-    {
-      "basename": "Guidelines to GATE-CS",
-      "path": "GATE/Guidelines to GATE-CS.md"
     },
     {
       "basename": "Registers",
@@ -187,18 +199,6 @@
     {
       "basename": "Propagational Delay and Timing Diagrams",
       "path": "GATE/Digital-Logic/Combinational Circuits/Propagational Delay and Timing Diagrams.md"
-    },
-    {
-      "basename": "Decoder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Decoder.md"
-    },
-    {
-      "basename": "Encoder",
-      "path": "GATE/Digital-Logic/Combinational Circuits/Encoder.md"
-    },
-    {
-      "basename": "Relational Algebra",
-      "path": "GATE/DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md"
     }
   ],
   "omittedPaths": [],
