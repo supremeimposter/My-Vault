@@ -1,0 +1,7 @@
+/* 07-images.css */
+
+.markdown-rendered img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius-m);
+}

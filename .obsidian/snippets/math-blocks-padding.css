@@ -1,0 +1,11 @@
+/* Comfortable math blocks */
+
+.math-block {
+    margin: 1.25em 0;
+    padding: 0.75em 0;
+    overflow-x: auto;
+}
+
+.math-inline {
+    padding: 0 0.08em;
+}

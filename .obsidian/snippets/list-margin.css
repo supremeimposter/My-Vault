@@ -1,0 +1,12 @@
+/* 10-lists.css */
+
+.markdown-rendered li + li {
+    margin-top: 0.15em;
+}
+
+/* nested lists */
+
+.markdown-rendered li > ul,
+.markdown-rendered li > ol {
+    margin-top: 0.15em;
+}

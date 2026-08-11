@@ -14,33 +14,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/DiscreteMathematics/Discrete Mathematics.md",
+                "file": "GATE/ComputerNetworks/Computer Networks.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Discrete Mathematics"
+              "title": "Computer Networks"
             }
           },
           {
-            "id": "e8f488745b5fb66b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Pyqs/Set Theory PYQs.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Set Theory PYQs"
-            }
-          },
-          {
-            "id": "c9c69a5be1ad03a7",
+            "id": "0892fd54c8fe09fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -61,6 +55,30 @@
               },
               "icon": "lucide-file",
               "title": "Guidelines to GATE-CS"
+            }
+          },
+          {
+            "id": "4a7d4f463a1df52c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Pyqs/CN PYQs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CN PYQs"
             }
           }
         ],
@@ -84,7 +102,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -180,45 +200,37 @@
             }
           },
           {
-            "id": "8488c56ed1a27af9",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Guidelines to GATE-CS"
-            }
-          },
-          {
             "id": "13c145e73a31e17b",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "64e722562ef2ff69",
+            "id": "236fd0599478b994",
             "type": "leaf",
             "state": {
-              "type": "journal-calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "journal-calendar"
+              "type": "outline",
+              "state": {
+                "file": "GATE/Pyqs/CN PYQs.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "5df95600f2476df0",
@@ -244,8 +256,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "bases:Create new base": false,
-      "audio-recorder:Start/stop recording": false,
-      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
@@ -255,46 +265,46 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "80784521bca5ca54",
+  "active": "4a7d4f463a1df52c",
   "lastOpenFiles": [
-    "GATE/DiscreteMathematics/Set-Theory/Types of Lattices.md",
-    "GATE/DiscreteMathematics/Set-Theory/Lattice.md",
+    "GATE/Untitled.md",
     "GATE/Guidelines to GATE-CS.md",
-    "GATE/Pyqs/Set Theory PYQs.md",
-    "GATE/Digital-Logic/Analysis/If two boolean expressions are known to be never 1 simultaneously.md",
-    "GATE/Digital-Logic/Digital Logic.md",
-    "GATE/Linear-Algebra/Determinants.md",
-    "GATE/Linear-Algebra/Linear Algebra.md",
-    "attachments/If two boolean expressions are known to be never 1 simultaneously-1773554793765.webp",
-    "GATE/Digital-Logic/Analysis",
-    "GATE/Algorithms/Algorithms.md",
-    "GATE/Error Journal for GATE CS.md",
-    "GATE/DatabaseManagementSystem/ER-Model/ER Model.md",
-    "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/B+ Tree.md",
-    "GATE/DatabaseManagementSystem/File-Organization-and-Indexing/File Organization.md",
+    "GATE/Pyqs/CN PYQs.md",
+    "Fitness/Squat University.md",
+    "attachments/MnssBu_cmC0.jpg",
+    "attachments/XTfhKUZWd0E.jpg",
+    "attachments/RWF8baFGdFI.jpg",
+    "attachments/GuWxLb-iYlg.jpg",
+    "attachments/P3WtxCjUKFU.jpg",
+    "attachments/my0tLDaWyDU.jpg",
+    "attachments/AIZ8q1qruKw.jpg",
+    "attachments/RoiWkNKDEBU.jpg",
+    "attachments/12NGWxpDlr8.jpg",
+    "attachments/q4BV_xNYbsY.jpg",
     "GATE/Algorithms/Divide-and-Conquer/Analysis of Maximum and Minimum.md",
-    "GATE/GATE-CS.md",
+    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md",
+    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md",
+    "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
+    "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
+    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
+    "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
+    "GATE/DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
+    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
+    "GATE/Linear-Algebra/Gaussian Elimination.md",
+    "Fitness/Breathing.md",
+    "GATE/ComputerNetworks/Computer Networks.md",
+    "GATE/ComputerNetworks/Error Detection and Correction.md",
+    "GATE/ComputerNetworks/Switching-and-its-types.md",
+    "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Subnetting.md",
+    "GATE/ComputerNetworks/TCP-IP-model.md",
     "Vault Index.md",
-    "GATE/Algorithms/Divide-and-Conquer/Analysis of Comparison Model for Maximum and Minimum of an Array.md",
+    "GATE/GATE-CS.md",
+    "GATE/Pyqs/Digital Logic PYQs.md",
     "GATE/Digital-Logic/Sequential Circuits/Registers.md",
+    "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "GATE/Digital-Logic/Analysis",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
-    "GATE/Digital-Logic/Sequential Circuits/Counters.md",
-    "GATE/Digital-Logic/Sequential Circuits/Terminologies of Sequential Circuits.md",
-    "attachments/Analysis of Maximum and Minimum-1765019720861.webp",
-    "GATE/Algorithms/Sorts/Bubble Sort.md",
-    "GATE/Algorithms/Divide-and-Conquer/Counting Inversion.md",
-    "GATE/Algorithms/Divide-and-Conquer/Merge Sort.md",
-    "GATE/Algorithms/Divide-and-Conquer/Binary Search.md",
-    "GATE/Algorithms/Recurrence-Relation/Change of Variable or Domain Transformation.md",
-    "GATE/Algorithms/Recurrence-Relation/Masters Theorem.md",
-    "attachments/Guidelines to GATE-CS-1764167993162.webp",
-    "attachments/Guidelines to GATE-CS-1763891460227.webp",
-    "attachments/Carry Look Ahead Adder-20240628082827930.webp",
-    "attachments/Decoder-1762797365238.webp",
-    "attachments/Decoder-1762771023167.webp",
-    "attachments/Decoder-1762770999084.webp",
-    "attachments/Decoder-1762688197534.webp",
-    "attachments/Guidelines to GATE-CS-1762393503341.webp",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
     "GATE/DiscreteMathematics/Graph-Theory",
     "Tags",

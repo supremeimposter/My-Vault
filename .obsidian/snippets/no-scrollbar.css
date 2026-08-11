@@ -1,0 +1,10 @@
+/* Hide scrollbars in workspace and editor */
+::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+* {
+    scrollbar-width: none !important; /* Firefox/Linux native fallback */
+}

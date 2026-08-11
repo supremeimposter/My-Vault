@@ -1,0 +1,92 @@
+{
+  "dualConfigs": false,
+  "showConsoleLog": false,
+  "desktop": {
+    "shortDelaySeconds": 5,
+    "longDelaySeconds": 15,
+    "delayBetweenPlugins": 40,
+    "defaultStartupType": null,
+    "showDescriptions": true,
+    "enableDependencies": false,
+    "plugins": {
+      "automatic-renumbering": {
+        "startupType": "long"
+      },
+      "math-in-callout": {
+        "startupType": "instant"
+      },
+      "better-search-views": {
+        "startupType": "long"
+      },
+      "oz-clear-unused-images": {
+        "startupType": "disabled"
+      },
+      "code-styler": {
+        "startupType": "long"
+      },
+      "obsidian-columns": {
+        "startupType": "short"
+      },
+      "find-unlinked-files": {
+        "startupType": "disabled"
+      },
+      "image-captions": {
+        "startupType": "short"
+      },
+      "image-converter": {
+        "startupType": "short"
+      },
+      "obsidian-latex-suite": {
+        "startupType": "short"
+      },
+      "links": {
+        "startupType": "instant"
+      },
+      "map-of-content": {
+        "startupType": "instant"
+      },
+      "obsidian-minimal-settings": {
+        "startupType": "instant"
+      },
+      "obsidian-nomnoml-diagram": {
+        "startupType": "disabled"
+      },
+      "obsidian-graphviz": {
+        "startupType": "disabled"
+      },
+      "obsidian-outliner": {
+        "startupType": "instant"
+      },
+      "painter": {
+        "startupType": "long"
+      },
+      "darlal-switcher-plus": {
+        "startupType": "instant"
+      },
+      "sheets": {
+        "startupType": "short"
+      },
+      "smart-paste": {
+        "startupType": "instant"
+      },
+      "obsidian-style-settings": {
+        "startupType": "instant"
+      },
+      "style-text": {
+        "startupType": "instant"
+      },
+      "tag-wrangler": {
+        "startupType": "disabled"
+      },
+      "obsidian-text-format": {
+        "startupType": "instant"
+      },
+      "obsidian-thumbnails": {
+        "startupType": "long"
+      },
+      "obsidian-timestamper": {
+        "startupType": "instant"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+/* 01-highlights.css */
+
+.markdown-rendered mark,
+.cm-highlight {
+    background-color: color-mix(
+        in srgb,
+        var(--text-highlight-bg) 70%,
+        transparent
+    );
+
+    color: inherit;
+    padding: 0.05em 0.2em;
+    border-radius: var(--radius-s);
+}

@@ -5,9 +5,9 @@
     "startsFromOne": true
   },
   "checklist": {
-    "liveUpdate": true,
+    "liveUpdate": false,
     "checkedItemsAtBottom": false,
-    "sortSpecialChars": true,
+    "sortSpecialChars": false,
     "charsToDelete": "",
     "hierarchicalReordering": true
   },

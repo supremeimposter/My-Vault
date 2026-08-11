@@ -1,0 +1,14 @@
+/* Softer callouts */
+
+.callout {
+    border-radius: 0.65rem;
+    box-shadow: none;
+}
+
+.callout-title {
+    font-weight: 600;
+}
+
+.callout-content {
+    line-height: 1.6;
+}

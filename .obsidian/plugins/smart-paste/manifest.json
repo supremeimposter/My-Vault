@@ -1,0 +1,10 @@
+{
+	"id": "smart-paste",
+	"name": "Smart Paste",
+	"version": "0.1.0",
+	"minAppVersion": "1.1.0",
+	"description": "Automatically cleans and transforms clipboard content on paste — converts HTML to markdown, fetches link titles, strips trackers, and normalizes whitespace.",
+	"author": "Konstantinos Gkilas",
+	"authorUrl": "https://github.com/konstantinosGkilas",
+	"isDesktopOnly": false
+}

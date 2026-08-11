@@ -17,7 +17,10 @@
   "userIgnoreFilters": [
     "daily-agenda/",
     "templates/",
-    "attachments/"
+    "attachments/",
+    "readme"
   ],
-  "readableLineLength": true
+  "readableLineLength": true,
+  "showUnsupportedFiles": true,
+  "settingsPopoutWindow": true
 }

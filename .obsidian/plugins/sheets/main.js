@@ -1423,7 +1423,7 @@ __export(main_exports, {
   default: () => main_default
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian3 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 
 // src/settings.ts
 var import_obsidian = require("obsidian");
@@ -1435,24 +1435,28 @@ var SheetSettingsTab = class extends import_obsidian.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    new import_obsidian.Setting(containerEl).setName("Native table post processing").setDesc("Enable this setting to use Obsidian Sheets' renderer ").addToggle(
+    new import_obsidian.Setting(containerEl).setName("Native table post processing").setDesc(
+      "Apply Sheets Extended features (cell merging, vertical headers, custom CSS) to ordinary Markdown tables in both reading mode and Live Preview."
+    ).addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.nativeProcessing).onChange(async (value) => {
-        var _a, _b;
         this.plugin.settings.nativeProcessing = value;
         await this.plugin.saveSettings();
-        (_a = this.app.workspace.activeLeaf) == null ? void 0 : _a.rebuildView();
-        (_b = this.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView)) == null ? void 0 : _b.previewMode.rerender(true);
+        this.refreshViews();
       })
     );
-    new import_obsidian.Setting(containerEl).setName("Use paragraphs in cells").setDesc("Enable this setting to use paragraphs for table cells ").addToggle(
-      (toggle) => toggle.setValue(this.plugin.settings.paragraphs).onChange(async (value) => {
-        var _a, _b;
-        this.plugin.settings.paragraphs = value;
-        await this.plugin.saveSettings();
-        (_a = this.app.workspace.activeLeaf) == null ? void 0 : _a.rebuildView();
-        (_b = this.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView)) == null ? void 0 : _b.previewMode.rerender(true);
-      })
-    );
+  }
+  /** Re-render open Markdown views so a setting change takes effect immediately. */
+  refreshViews() {
+    this.app.workspace.updateOptions();
+    this.app.workspace.getLeavesOfType("markdown").forEach((leaf) => {
+      var _a, _b, _c;
+      const view = leaf.view;
+      if (!(view instanceof import_obsidian.MarkdownView))
+        return;
+      (_a = view.previewMode) == null ? void 0 : _a.rerender(true);
+      const cm = (_b = view.editor) == null ? void 0 : _b.cm;
+      (_c = cm == null ? void 0 : cm.dispatch) == null ? void 0 : _c.call(cm, {});
+    });
   }
 };
 
@@ -1590,13 +1594,13 @@ Error: \`${error}\`
           styles["textAlign"] = "left";
         else if (alignment[2])
           styles["textAlign"] = "right";
-        const classes = ((_b = (_a = alignment[3]) == null ? void 0 : _a.match(/\.\S+/g)) == null ? void 0 : _b.map(String)) || [];
+        const classes = ((_b = (_a = alignment[3]) == null ? void 0 : _a.match(/(?<=\.)\S+/g)) == null ? void 0 : _b.map(String)) || [];
         classes.forEach(
           (cssClass) => {
             var _a2;
             return styles = {
               ...styles,
-              ...((_a2 = this.styles) == null ? void 0 : _a2[cssClass.slice(1)]) || {}
+              ...((_a2 = this.styles) == null ? void 0 : _a2[cssClass]) || {}
             };
           }
         );
@@ -1617,13 +1621,13 @@ Error: \`${error}\`
           styles["textAlign"] = "left";
         else if (alignment[2])
           styles["textAlign"] = "right";
-        const classes = ((_b = (_a = alignment[3]) == null ? void 0 : _a.match(/\.\S+/g)) == null ? void 0 : _b.map(String)) || [];
+        const classes = ((_b = (_a = alignment[3]) == null ? void 0 : _a.match(/(?<=\.)\S+/g)) == null ? void 0 : _b.map(String)) || [];
         classes.forEach(
           (cssClass) => {
             var _a2;
             return styles = {
               ...styles,
-              ...((_a2 = this.styles) == null ? void 0 : _a2[cssClass.slice(1)]) || {}
+              ...((_a2 = this.styles) == null ? void 0 : _a2[cssClass]) || {}
             };
           }
         );
@@ -1694,6 +1698,7 @@ Error: \`${error}\`
       cell = rowNode.createEl(cellTag, { cls });
       cell.setAttribute("row-index", rowIndex.toString());
       cell.setAttribute("col-index", columnIndex.toString());
+      cell.setAttribute("dir", "auto");
       import_obsidian2.MarkdownRenderer.render(
         this.app,
         "\u200B " + (cellContent || "\u200B"),
@@ -1710,124 +1715,375 @@ Error: \`${error}\`
   }
 };
 
-// src/main.ts
+// src/tableModel.ts
 var JSON52 = __toESM(require_dist());
+var MERGE_LEFT = "<";
+var MERGE_UP = "^";
+var CELL_STYLE_SEPARATOR = /(?<![\\~])~(?!~)/;
+var DASH_ONLY = /^\s*:?-+:?\s*$/;
+function parseStyleDirective(directive) {
+  const inlineMatch = directive.match(/\{[\s\S]*\}/);
+  const inline = inlineMatch == null ? void 0 : inlineMatch[0];
+  const classPart = inlineMatch ? directive.replace(inlineMatch[0], "") : directive;
+  const classes = (classPart.match(/(?<=\.)\S+/g) || []).map(String);
+  let style = {};
+  if (inline) {
+    try {
+      style = JSON52.parse(inline);
+    } catch (e) {
+      console.error(`[Sheets] Invalid cell style \`${inline}\``);
+    }
+  }
+  return { classes, style };
+}
+function parseCell(raw) {
+  const trimmed = raw.trim();
+  const parts = raw.split(CELL_STYLE_SEPARATOR);
+  const hasStyle = parts.length > 1;
+  const visible = parts[0];
+  const directive = hasStyle ? parts.slice(1).join("~") : "";
+  const { classes, style } = hasStyle ? parseStyleDirective(directive) : { classes: [], style: {} };
+  const dashCandidate = visible.trim();
+  let align;
+  if (DASH_ONLY.test(dashCandidate)) {
+    const left = dashCandidate.startsWith(":");
+    const right = dashCandidate.endsWith(":");
+    if (left && right)
+      align = "center";
+    else if (right)
+      align = "right";
+    else if (left)
+      align = "left";
+  }
+  return {
+    raw,
+    trimmed,
+    visible,
+    mergeLeft: trimmed === MERGE_LEFT,
+    mergeUp: trimmed === MERGE_UP,
+    dashOnly: DASH_ONLY.test(visible.trim()),
+    hasStyle,
+    classes,
+    style,
+    align
+  };
+}
+function splitTableSource(source) {
+  return source.split("\n").filter((line) => /(?<!\\)\|/.test(line)).map((line) => {
+    const cells = line.split(/(?<!\\)\|/).map((c) => c.trim());
+    if (cells.length && cells[0] === "")
+      cells.shift();
+    if (cells.length && cells[cells.length - 1] === "")
+      cells.pop();
+    return cells;
+  }).filter((row) => row.length > 0);
+}
+function findDelimiterRow(grid) {
+  return grid.findIndex((row) => row.length > 0 && row.every((cell) => DASH_ONLY.test(cell)));
+}
+function findHeaderColumn(gridWithoutDelimiter) {
+  if (!gridWithoutDelimiter.length)
+    return -1;
+  const width = Math.max(...gridWithoutDelimiter.map((r) => r.length));
+  for (let col = 0; col < width; col++) {
+    let sawCell = false;
+    const allDash = gridWithoutDelimiter.every((row) => {
+      if (col >= row.length)
+        return true;
+      sawCell = true;
+      return DASH_ONLY.test(row[col]);
+    });
+    if (sawCell && allDash)
+      return col;
+  }
+  return -1;
+}
+
+// src/tableAugmenter.ts
+var SHEETS_HIDDEN_CLASS = "sheets-hidden-cell";
+var SHEETS_ROW_HEADER_CLASS = "sheets-row-header";
+var SHEETS_MERGED_CLASS = "sheets-merged-anchor";
+var ORIGIN = /* @__PURE__ */ new WeakMap();
+function revertTable(tableEl) {
+  tableEl.querySelectorAll("." + SHEETS_HIDDEN_CLASS).forEach((el) => el.classList.remove(SHEETS_HIDDEN_CLASS));
+  tableEl.querySelectorAll("." + SHEETS_ROW_HEADER_CLASS).forEach((el) => el.classList.remove(SHEETS_ROW_HEADER_CLASS));
+  tableEl.querySelectorAll("." + SHEETS_MERGED_CLASS).forEach((el) => {
+    el.classList.remove(SHEETS_MERGED_CLASS);
+    el.colSpan = 1;
+    el.rowSpan = 1;
+  });
+}
+function hide(cell) {
+  cell.el.classList.add(SHEETS_HIDDEN_CLASS);
+}
+function contentRoot(cell) {
+  return cell.contentEl || cell.el;
+}
+function stripTrailingStyleDirective(root) {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  let node;
+  let target = null;
+  while (node = walker.nextNode()) {
+    if (CELL_STYLE_SEPARATOR.test(node.data))
+      target = node;
+  }
+  if (!target)
+    return;
+  const idx = target.data.search(CELL_STYLE_SEPARATOR);
+  if (idx < 0)
+    return;
+  const range = document.createRange();
+  range.setStart(target, idx);
+  range.setEnd(root, root.childNodes.length);
+  range.deleteContents();
+  const last = root.lastChild;
+  if (last && last.nodeType === Node.TEXT_NODE) {
+    last.data = last.data.replace(/\s+$/, "");
+  }
+}
+function applyCellStyle(cell, parsed) {
+  if (!parsed.hasStyle)
+    return;
+  if (parsed.classes.length)
+    cell.el.classList.add(...parsed.classes);
+  Object.assign(cell.el.style, parsed.style);
+  stripTrailingStyleDirective(contentRoot(cell));
+}
+function augmentGrid(grid) {
+  if (!grid.length)
+    return;
+  for (const row of grid) {
+    for (const cell of row) {
+      cell.el.colSpan = 1;
+      cell.el.rowSpan = 1;
+      cell.el.classList.remove(SHEETS_HIDDEN_CLASS, SHEETS_ROW_HEADER_CLASS, SHEETS_MERGED_CLASS);
+      cell.el.style.removeProperty("display");
+    }
+  }
+  const parsed = grid.map((row) => row.map((cell) => parseCell(cell.text)));
+  const headerCol = findHeaderColumn(grid.map((row) => row.map((c) => c.text)));
+  const anchor = grid.map((row) => row.map(() => null));
+  for (let r = 0; r < grid.length; r++) {
+    for (let c = 0; c < grid[r].length; c++) {
+      const cell = grid[r][c];
+      const p = parsed[r][c];
+      if (headerCol >= 0 && c === headerCol) {
+        hide(cell);
+        continue;
+      }
+      let cellAnchor = null;
+      if (p.mergeLeft && c > 0 && anchor[r][c - 1]) {
+        cellAnchor = anchor[r][c - 1];
+        hide(cell);
+      } else if (p.mergeUp && r > 0 && anchor[r - 1][c]) {
+        cellAnchor = anchor[r - 1][c];
+        hide(cell);
+      } else if (r > 0 && c > 0 && anchor[r - 1][c] && anchor[r][c - 1] && anchor[r - 1][c] === anchor[r][c - 1]) {
+        cellAnchor = anchor[r - 1][c];
+        hide(cell);
+      } else {
+        cellAnchor = cell;
+        ORIGIN.set(cell.el, { row: r, col: c });
+      }
+      anchor[r][c] = cellAnchor;
+      if (cellAnchor !== cell && cellAnchor) {
+        const origin = ORIGIN.get(cellAnchor.el);
+        if (origin) {
+          cellAnchor.el.classList.add(SHEETS_MERGED_CLASS);
+          cellAnchor.el.colSpan = Math.max(cellAnchor.el.colSpan || 1, c - origin.col + 1);
+          cellAnchor.el.rowSpan = Math.max(cellAnchor.el.rowSpan || 1, r - origin.row + 1);
+        }
+      } else {
+        if (headerCol > 0 && c < headerCol)
+          cell.el.classList.add(SHEETS_ROW_HEADER_CLASS);
+        applyCellStyle(cell, p);
+      }
+    }
+  }
+}
+
+// src/livePreview.ts
+var import_view = require("@codemirror/view");
+var import_obsidian3 = require("obsidian");
+function getTableWidgets(view) {
+  var _a;
+  const docView = view.docView;
+  const children = docView == null ? void 0 : docView.children;
+  if (!Array.isArray(children))
+    return [];
+  const widgets = [];
+  for (const child of children) {
+    const dom = child == null ? void 0 : child.dom;
+    if (!((_a = dom == null ? void 0 : dom.classList) == null ? void 0 : _a.contains("cm-table-widget")))
+      continue;
+    const widget = child.widget;
+    if (widget == null ? void 0 : widget.rows)
+      widgets.push(widget);
+  }
+  return widgets;
+}
+function isTableActive(widget, view) {
+  var _a, _b, _c;
+  const start = (_a = widget.start) != null ? _a : -1;
+  const end = (_b = widget.end) != null ? _b : -1;
+  if (start >= 0 && end >= 0) {
+    const sel = view.state.selection.main;
+    if (sel.to >= start && sel.from <= end)
+      return true;
+  }
+  const active = view.root.activeElement;
+  if (active && ((_c = widget.tableEl) == null ? void 0 : _c.contains(active)))
+    return true;
+  if (Array.isArray(widget.selectedCells) && widget.selectedCells.length > 0)
+    return true;
+  return false;
+}
+function augmentEditor(view, host) {
+  var _a, _b, _c;
+  const widgets = getTableWidgets(view);
+  if (!widgets.length)
+    return;
+  const file = (_a = view.state.field(import_obsidian3.editorInfoField, false)) == null ? void 0 : _a.file;
+  const frontmatterDisabled = !!file && ((_c = (_b = host.app.metadataCache.getFileCache(file)) == null ? void 0 : _b.frontmatter) == null ? void 0 : _c["disable-sheet"]) === true;
+  const enabled = host.isEnabled() && !frontmatterDisabled;
+  for (const widget of widgets) {
+    if (!enabled || isTableActive(widget, view)) {
+      if (widget.tableEl)
+        revertTable(widget.tableEl);
+      continue;
+    }
+    const grid = (widget.rows || []).map(
+      (row) => row.filter((cell) => cell == null ? void 0 : cell.el).map((cell) => {
+        var _a2;
+        return {
+          text: String((_a2 = cell.text) != null ? _a2 : ""),
+          el: cell.el,
+          contentEl: cell.contentEl
+        };
+      })
+    );
+    if (grid.length)
+      augmentGrid(grid);
+  }
+}
+function sheetsLivePreviewExtension(host) {
+  return import_view.ViewPlugin.fromClass(
+    class {
+      constructor(view) {
+        this.view = view;
+        this.frame = 0;
+        /**
+         * Un-merge the table under the pointer *synchronously* in the capture
+         * phase, before Obsidian positions the cursor, so the click targets the
+         * real native cell instead of a merged placeholder.
+         */
+        this.onMouseDown = (event) => {
+          var _a;
+          const target = event.target;
+          if (target) {
+            for (const widget of getTableWidgets(this.view)) {
+              if ((_a = widget.tableEl) == null ? void 0 : _a.contains(target)) {
+                revertTable(widget.tableEl);
+                break;
+              }
+            }
+          }
+          this.schedule();
+        };
+        this.onInteract = () => this.schedule();
+        this.view.dom.addEventListener("mousedown", this.onMouseDown, true);
+        this.view.dom.addEventListener("focusin", this.onInteract);
+        this.view.dom.addEventListener("focusout", this.onInteract);
+        this.view.dom.addEventListener("mouseup", this.onInteract);
+        this.schedule();
+      }
+      update(_update) {
+        this.schedule();
+      }
+      schedule() {
+        if (this.frame)
+          cancelAnimationFrame(this.frame);
+        this.frame = requestAnimationFrame(() => {
+          this.frame = 0;
+          try {
+            augmentEditor(this.view, host);
+          } catch (e) {
+            console.error("[Sheets] live preview augmentation failed", e);
+          }
+        });
+      }
+      destroy() {
+        if (this.frame)
+          cancelAnimationFrame(this.frame);
+        this.view.dom.removeEventListener("mousedown", this.onMouseDown, true);
+        this.view.dom.removeEventListener("focusin", this.onInteract);
+        this.view.dom.removeEventListener("focusout", this.onInteract);
+        this.view.dom.removeEventListener("mouseup", this.onInteract);
+      }
+    }
+  );
+}
+
+// src/main.ts
 var DEFAULT_SETTINGS = {
-  nativeProcessing: true,
-  paragraphs: true
+  nativeProcessing: true
 };
-var ObsidianSpreadsheet = class extends import_obsidian3.Plugin {
+var PROCESSED_FLAG = "obsidian-sheets-parsed";
+var ObsidianSpreadsheet = class extends import_obsidian4.Plugin {
   async onload() {
-    this.loadSettings();
+    await this.loadSettings();
     this.registerMarkdownCodeBlockProcessor(
       "sheet",
       async (source, el, ctx) => {
-        source = source.trim();
-        ctx.addChild(
-          new SheetElement(
-            el,
-            source,
-            ctx,
-            this.app,
-            this
-          )
-        );
+        ctx.addChild(new SheetElement(el, source.trim(), ctx, this.app, this));
       }
     );
-    this.registerMarkdownPostProcessor(async (el, ctx) => {
-      var _a, _b, _c, _d;
+    this.registerMarkdownPostProcessor((el, ctx) => {
+      var _a;
       if (!this.settings.nativeProcessing)
         return;
       if (((_a = ctx.frontmatter) == null ? void 0 : _a["disable-sheet"]) === true)
         return;
-      const tableEls = el.querySelectorAll("table");
-      if (tableEls.length) {
-        for (const tableEl2 of Array.from(tableEls)) {
-          if (!tableEl2)
-            return;
-          if ((tableEl2 == null ? void 0 : tableEl2.id) === "obsidian-sheets-parsed")
-            return;
-          const sec = ctx.getSectionInfo(tableEl2);
-          let source = "";
-          if (!sec) {
-            tableEl2.querySelectorAll(":scope td").forEach(({ childNodes }) => childNodes.forEach((node) => {
-              var _a2;
-              if (node.nodeType == 3)
-                node.textContent = ((_a2 = node.textContent) == null ? void 0 : _a2.replace(/[*_`[\]$()]|[~=]{2}/g, "\\$&")) || "";
-            }));
-            tableEl2.querySelectorAll(":scope a.internal-link").forEach((link) => {
-              const parsedLink = document.createElement("span");
-              parsedLink.innerText = `[[${link.getAttr("href")}|${link.innerText}]]`;
-              link.replaceWith(parsedLink);
-            });
-            tableEl2.querySelectorAll(":scope span.math").forEach(
-              (link) => {
-                var _a2;
-                return ((_a2 = link.textContent) == null ? void 0 : _a2.trim().length) ? link.textContent = `$${link.textContent || ""}$` : null;
-              }
-            );
-            source = (0, import_obsidian3.htmlToMarkdown)(tableEl2).trim().replace(/\\\\/g, "$&$&");
-            if (!source)
-              return;
-          } else {
-            const { text, lineStart, lineEnd } = sec;
-            let textContent = text.split("\n").slice(lineStart, 1 + lineEnd).map((line) => line.replace(/^.*?(?=\|(?![^[]*]))/, ""));
-            const endIndex = textContent.findIndex((line) => /^(?!\|)/.test(line));
-            if (textContent[0].startsWith("```"))
-              return;
-            if (endIndex !== -1)
-              textContent = textContent.slice(0, endIndex + 1);
-            if (!textContent.filter((row) => /(?<!\\)\|/.test(row)).map((row) => row.split(/(?<!\\)\|/).map((cell) => cell.trim())).every(
-              (row) => {
-                var _a2, _b2;
-                return !((_a2 = row.pop()) == null ? void 0 : _a2.trim()) && !((_b2 = row.shift()) == null ? void 0 : _b2.trim());
-              }
-            ))
-              return;
-            source = textContent.join("\n");
-          }
-          tableEl2.empty();
-          ctx.addChild(new SheetElement(tableEl2, source.trim(), ctx, this.app, this));
-        }
-        return;
+      for (const tableEl of Array.from(el.querySelectorAll("table"))) {
+        this.processReadingTable(tableEl, ctx);
       }
-      const tableEl = el.closest("table");
-      if (!tableEl)
-        return;
-      if ((tableEl == null ? void 0 : tableEl.id) === "obsidian-sheets-parsed")
-        return;
-      const rawMarkdown = ((_b = ctx.getSectionInfo(tableEl)) == null ? void 0 : _b.text) || (0, import_obsidian3.htmlToMarkdown)(tableEl);
-      const rawMarkdownArray = rawMarkdown.replace(/\n\s*\|\s*-+.*?(?=\n)/g, "").replace(/^\||\|$/gm, "").split(/\||\n/g);
-      const toChange = rawMarkdownArray.reduce((cum, curr, i) => {
-        /(?<!~|\\)~(?!~)|^(-+|<|\^)\s*$/.test(curr) && cum.push(i);
-        return cum;
-      }, []);
-      const tableHead = Array.from(tableEl.querySelectorAll("th"));
-      const tableWidth = tableHead.length;
-      const DOMCellArray = [...tableHead, ...Array.from(tableEl.querySelectorAll("td"))];
-      for (const index of toChange) {
-        const column = index % tableWidth;
-        const row = Math.floor(index / tableWidth);
-        const cellContent = rawMarkdownArray[index];
-        if (/(?<!~|\\)~(?!~)/.test(cellContent)) {
-          const cellStyles = cellContent.split(/(?<![\\~])~(?!~)/)[1];
-          const classes = ((_c = cellStyles.match(/(?<=\.)\S+/g)) == null ? void 0 : _c.map((m) => m.toString())) || [];
-          let cellStyle = {};
-          const inlineStyle = ((_d = cellStyles.match(/\{.*\}/)) == null ? void 0 : _d[0]) || "{}";
-          try {
-            cellStyle = { ...cellStyle, ...JSON52.parse(inlineStyle) };
-          } catch (e) {
-            console.error(`Invalid cell style \`${inlineStyle}\``);
-          }
-          const DOMContent = DOMCellArray[index].querySelector(".table-cell-wrapper") || DOMCellArray[index];
-          Object.assign(DOMContent.style, cellStyle);
-          DOMContent.classList.add(...classes);
-          DOMContent.innerText = DOMContent.innerText.split(/(?<![\\~])~(?!~)/)[0];
-        }
-      }
-      return tableEl.id = "obsidian-sheets-parsed";
     });
+    this.registerEditorExtension(
+      sheetsLivePreviewExtension({
+        app: this.app,
+        isEnabled: () => this.settings.nativeProcessing
+      })
+    );
     this.addSettingTab(new SheetSettingsTab(this.app, this));
+  }
+  /** Augment a single natively-rendered table in reading mode. */
+  processReadingTable(tableEl, ctx) {
+    if (tableEl.closest(".cm-editor"))
+      return;
+    if (tableEl.dataset.sheetsProcessed === "true")
+      return;
+    const source = this.getTableSource(tableEl, ctx);
+    if (!source)
+      return;
+    const grid = buildGridFromRenderedTable(tableEl, source);
+    if (!grid)
+      return;
+    tableEl.dataset.sheetsProcessed = "true";
+    tableEl.classList.add(PROCESSED_FLAG);
+    try {
+      augmentGrid(grid);
+    } catch (e) {
+      console.error("[Sheets] reading mode augmentation failed", e);
+    }
+  }
+  /** Recover the Markdown source for a rendered table. */
+  getTableSource(tableEl, ctx) {
+    const sec = ctx.getSectionInfo(tableEl);
+    if (sec) {
+      return sec.text.split("\n").slice(sec.lineStart, sec.lineEnd + 1).join("\n");
+    }
+    const md = (0, import_obsidian4.htmlToMarkdown)(tableEl).trim();
+    return md || null;
   }
   onunload() {
   }
@@ -1842,4 +2098,35 @@ var ObsidianSpreadsheet = class extends import_obsidian3.Plugin {
     await this.saveData(this.settings);
   }
 };
+function buildGridFromRenderedTable(tableEl, source) {
+  var _a, _b;
+  const srcGrid = splitTableSource(source);
+  if (srcGrid.length < 2)
+    return null;
+  const delimiter = findDelimiterRow(srcGrid);
+  const visualSrc = delimiter >= 0 ? srcGrid.filter((_, i) => i !== delimiter) : srcGrid;
+  const headRows = Array.from((_b = (_a = tableEl.tHead) == null ? void 0 : _a.rows) != null ? _b : []);
+  const bodyRows = [];
+  for (const body of Array.from(tableEl.tBodies)) {
+    bodyRows.push(...Array.from(body.rows));
+  }
+  const domRows = [...headRows, ...bodyRows];
+  if (!domRows.length)
+    return null;
+  const rowCount = Math.min(visualSrc.length, domRows.length);
+  const grid = [];
+  for (let r = 0; r < rowCount; r++) {
+    const domCells = Array.from(domRows[r].cells);
+    const srcRow = visualSrc[r];
+    const colCount = Math.min(domCells.length, srcRow.length);
+    const row = [];
+    for (let c = 0; c < colCount; c++) {
+      row.push({ text: srcRow[c], el: domCells[c] });
+    }
+    grid.push(row);
+  }
+  return grid;
+}
 var main_default = ObsidianSpreadsheet;
+
+/* nosourcemap */

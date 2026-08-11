@@ -1,0 +1,14 @@
+/* Fades completed tasks and makes them grayscale */
+.markdown-rendered .task-list-item.is-checked,
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="x"] {
+    opacity: 0.4;
+    text-decoration: line-through;
+    filter: grayscale(100%);
+    transition: opacity 0.3s ease;
+}
+
+/* Bring them back to full opacity when you hover over them */
+.markdown-rendered .task-list-item.is-checked:hover,
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="x"]:hover {
+    opacity: 1;
+}
