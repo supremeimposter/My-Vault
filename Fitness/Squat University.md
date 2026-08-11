@@ -46,7 +46,7 @@ AuthorUrl: https://www.youtube.com/@SquatUniversity
 
 ```vid
 https://www.youtube.com/watch?v=KT6ivmmz6EU
-Title: The BEST Ab Workout Ever Created
+Title: The Core Exercises Every Lifter Is Missing
 Author: Squat University
 Thumbnail: attachments/KT6ivmmz6EU.jpg
 AuthorUrl: https://www.youtube.com/@SquatUniversity
@@ -81,7 +81,7 @@ AuthorUrl: https://www.youtube.com/@SquatUniversity
 
 ```vid
 https://www.youtube.com/watch?v=RoiWkNKDEBU
-Title: The #1 Remedy For Bad Posture
+Title: Tight Chest, Rounded Shoulders? Here's What's Actually Causing It
 Author: Squat University
 Thumbnail: attachments/RoiWkNKDEBU.jpg
 AuthorUrl: https://www.youtube.com/@SquatUniversity
@@ -100,7 +100,7 @@ AuthorUrl: https://www.youtube.com/@SquatUniversity
 
 ```vid
 https://www.youtube.com/watch?v=q4BV_xNYbsY
-Title: How To Fix Back Pain (7 Science Backed Steps)
+Title: 7 Science-Backed Steps To Eliminate Back Pain [REAL RESULTS]
 Author: Squat University
 Thumbnail: attachments/q4BV_xNYbsY.jpg
 AuthorUrl: https://www.youtube.com/@SquatUniversity
@@ -175,7 +175,7 @@ AuthorUrl: https://www.youtube.com/@SquatUniversity
 
 ```vid
 https://www.youtube.com/watch?v=XTfhKUZWd0E
-Title: 5 Best Exercises For STRONG Feet!
+Title: Fix Weak Feet FAST [Top 5 Exercises for Strength & Stability]
 Author: Squat University
 Thumbnail: attachments/XTfhKUZWd0E.jpg
 AuthorUrl: https://www.youtube.com/@SquatUniversity
