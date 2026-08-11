@@ -17,6 +17,9 @@ tags:
 ![[Computer Networks-20240501195916523.webp]]
 ## Module 2 - Data Link Layer
 
+- [[Switching-and-its-types]]
+- [[Error Detection and Correction]]
+
 ````col
 ```col-md
 flexGrow=1

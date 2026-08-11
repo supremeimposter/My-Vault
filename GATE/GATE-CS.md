@@ -41,6 +41,7 @@ tags:
 - [[DBMS PYQs]]
 - [[TOC PYQs]]
 - [[OS PYQs]]
+- [[CN PYQs]]
 - [[COA PYQs]]
 - [[Compiler Design PYQs]]
 - [[Digital Logic PYQs]]

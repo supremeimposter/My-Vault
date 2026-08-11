@@ -83,7 +83,6 @@ $\ast a$ is the row of 4 integers, so
 
 ![[Guidelines to GATE-CS-1753599478927.webp]]
 
-
 ![[Guidelines to GATE-CS-1751605296203.webp]]
 
 ![[Guidelines to GATE-CS-1751652664102.webp]]
@@ -123,6 +122,7 @@ $\ast a$ is the row of 4 integers, so
 ![[Guidelines to GATE-CS-20250223170629613.webp|What are those co-efficients?]]
 
 - If you are getting confused about the range of numbers for a particular representation, use a small example such as 3 bits and get the range.
+- In subtraction of unsigned numbers using diminished radix complement, make sure to add the carry to the sum, if there had happened to be a carry out from the sum.
 
 - Some questions on boolean algebra can be solved by evaluating the boolean expressions in the options.
 - If there is a doubt in a boolean equation or if you feel like you are confusing a known boolean law, just use by case method and verify.
@@ -186,7 +186,7 @@ $$
 
 ### Guidelines to Relational Model
 
-![[Guidelines to GATE-CS-1758460563485.webp]]
+![[Guidelines to GATE-CS-1782029532107.webp]]
 
 - If an attribute has a set-valued attribute, then it is not in 1NF as the values are not atomic. For 1NF, an attribute cannot be composite.
 - When asked for candidate keys, check if the options are minimal or not. Just don't blindly find the closure of attributes of options given.
@@ -482,6 +482,49 @@ $$
 
 - Semaphore, by default is counting semaphore.
 
+---
+## Guidelines to Computer Networks
+
+- Do not forget about network address and broadcast address, when a subnets are asked to divided, based on the number of hosts. No. of addresses = No. of host addresses + Network address + Broadcast address
+
+- In old classful subnetting, the subnet containing the original network address (first subnet) and the subnet containing the original Direct Broadcast Address (last subnet) are not counted as usable subnets, because in those old routers, net mask cannot be passed, and they cannot identify/differentiate original network boundaries and subnetted networks' boundaries.
+
+![[Guidelines to GATE-CS-1782751430594.webp]]
+
+- In modern routing, once subnetting is done, the original network boundaries are vanished, and given to first and last subnets, so no need to subtract 2, in modern routing calculations.
+- In 1993, CIDR (Classless Inter-Domain Routing) was introduced. Routers became smart enough to carry the subnet mask (like /21) with every routing packet. Because the mask tells the router exactly where the boundary lines are, the confusion disappeared completely. Today, we use all subnets without any issues.
+- While solving routing problems and if many of the addresses with netmask given are same, try to solve from the ones with longest netmask, since you are very likely to identify the solution sooner by eliminating the non-matching longest prefixes to find the matching one.
+
+$$\text{No error detected} \not\to \text{No error occurs}$$
+- No error detected doesn't mean that there is no error for sure. A particular error detection method might not be able to detect an existing error.
+
+$$\text{Error detected} \to \text{Error exists i.e something is wrong}$$
+- Error detected means an error exists for sure.
+
+![[Guidelines to GATE-CS-1784533805589.webp]]
+![[Guidelines to GATE-CS-1784533751532.webp]]
+
+- ***Single parity codes*** means even parity or odd parity codes, and their minimum hamming distance is 2.
+- Hamming distance may not have to be uniform, that's why we do care about <mark class="hltr-cyan">minimum</mark> hamming distance.
+
+![[Guidelines to GATE-CS-1784541146016.webp]]
+
+- Correcting an error is different from detecting an error. Please make sure, you see the difference in the question. And also check whether the given noise channel make atmost $k$ errors or upto $k$ errors.
+
+![[Guidelines to GATE-CS-1785656997898.webp]]
+![[Guidelines to GATE-CS-1785656971023.webp]]
+
+![[Guidelines to GATE-CS-1785658210532.webp]]
+
+![[Guidelines to GATE-CS-1785740301413.webp]]
+
+
+![[Guidelines to GATE-CS-1785764409488.webp]]
+
+
+![[Guidelines to GATE-CS-1785930433185.webp]]
+
+![[Guidelines to GATE-CS-1786345957779.webp]]
 
 ---
 
@@ -656,8 +699,7 @@ flexGrow=1
 
 ![[Guidelines to GATE-CS-20240830180026648.webp]]
 
-- Mostly use venn diagrams to avoid confusion and time for proofs.
-
+- Mostly use venn diagrams to avoid confusion and time for set equality or subset proofs.
 - Since identities are equalities, in case of doubt a venn-diagram can be helpful.
 
 ![[Guidelines to GATE-CS-20250101142718041.webp]]
@@ -680,7 +722,7 @@ flexGrow=1
 ![[Guidelines to GATE-CS-20250101194028085.webp]]
 ![[Guidelines to GATE-CS-20250101215106538.webp]]
 
-- Cross product is neither commutative nor associative.
+- Cross product of sets is neither commutative nor associative.
 
 #### Guidelines to Relations
 
@@ -705,7 +747,7 @@ $$
 ![[Guidelines to GATE-CS-20250103153033495.webp]]
 ![[Guidelines to GATE-CS-20250103170558086.webp]]
 
-- It is better to use graph representation for checking out transitive relation to avoid any imaginary errors.
+- It is better to use graph representation for checking out transitive relation to avoid any imaginary errors. Also do not confuse graph representation with Hasse diagrams in case of POR analysis, where transitive relations might look confusing.
 - If a relation is symmetric but not reflexive, then the relation is also not transitive.
 
 - For general questions on relations, also consider evaluating empty relations and universal relations.
@@ -750,16 +792,18 @@ $$
 
 ![[Guidelines to GATE-CS-20250106101151305.webp|Elements of a POSET]]
 
+- If the lower bound and upper bound of a singleton set $\{a\}$ is discussed, then the element must also be included, since its also related to itself.
+
 ![[Guidelines to GATE-CS-20250107182702887.webp]]
 ![[Guidelines to GATE-CS-20250107182718271.webp]]
 ![[Guidelines to GATE-CS-20250107182724833.webp]]
 
-- LUB and GLB exists for every two comparable elements in a poset. So LUB and GLB exist for every two elements in a lattice.
+- LUB and GLB exists for every two comparable elements in a poset. So LUB and GLB exist for every two elements in a toset.
 
 ![[Guidelines to GATE-CS-20250106113218374.webp]]
 ![[Guidelines to GATE-CS-20250106113337236.webp]]
 
-- In every lattice, the following properties hold for every two elements irregardless of them being comparable or not comparable.
+- In every lattice, the following properties hold for every two elements, regardless of them being comparable or not comparable.
 
 ![[Guidelines to GATE-CS-20240908224115126.webp]]
 
@@ -769,7 +813,7 @@ $$
 - To check for sub-lattice of a lattice, just check for LUB, GLB of non-comparable elements.
 - A single element base set is a lattice in which the only element is both the greatest and least element.
 
-- If $L$ is distributive, then for every element there are at most one complement.
+- If $L$ is distributive, then for every element there are <mark style="background-color: #1EFF00; color: black">at most</mark> one complement.
 
 ![[Guidelines to GATE-CS-20250109120125164.webp]]
 
@@ -1049,5 +1093,4 @@ $$
 
 
 ![[Guidelines to GATE-CS-20250106204408153.webp|remainders when divided by 7]]
-
 
