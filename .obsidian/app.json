@@ -18,7 +18,8 @@
     "daily-agenda/",
     "templates/",
     "attachments/",
-    "readme"
+    "readme",
+    "Journal/"
   ],
   "readableLineLength": true,
   "showUnsupportedFiles": true,

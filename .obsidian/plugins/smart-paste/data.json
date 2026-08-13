@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "htmlToMarkdown": true,
+  "urlLinkFetching": true,
+  "trackerStripping": true,
+  "whitespaceNormalization": true,
+  "customTrackingParams": ""
+}
