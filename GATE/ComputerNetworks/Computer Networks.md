@@ -19,6 +19,7 @@ tags:
 
 - [[Switching-and-its-types]]
 - [[Error Detection and Correction]]
+- [[Delays in Networking]]
 
 ````col
 ```col-md

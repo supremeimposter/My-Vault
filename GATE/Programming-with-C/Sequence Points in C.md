@@ -15,7 +15,7 @@ Understanding sequence points is key to writing **portable, bug-free C code**.
 
 ---
 
-## ✅ Common Sequence Points
+## Common Sequence Points
 
 - **End of a full expression**
   Example: `x = y + z; // semicolon marks a sequence point`
@@ -33,6 +33,26 @@ Understanding sequence points is key to writing **portable, bug-free C code**.
   Sequence point occurs after all function arguments have been evaluated and before the function body starts.
 
 - For all **conditionals** (if, switch) and loops (for, while, do-while), there’s a sequence point after evaluating their condition/expression before entering their body.
+
+## Table of Common Sequence Points
+
+| Sequence point                                    | Where it occurs                                                     | What it guarantees                                                  | Example                   |
+| ------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------- |
+| **End of a full expression**                      | After an expression statement, initializer, return expression, etc. | All side effects of the previous full expression are complete       | `i++;`                    |
+| **After the first operand of `&&`**               | Between the left and right operands                                 | Left operand is completely evaluated before the right operand       | `a && b`                  |
+| **After the first operand of `\|\|`**             | Between the left and right operands                                 | Left operand is completely evaluated before the right operand       | `a\|\|b`                  |
+| **After the first operand of the comma operator** | Between the left and right operands                                 | Left operand is completely evaluated before the right operand       | `(i++, j++)`              |
+| **After evaluation of the first operand of `?:`** | Conditional operator                                                | Condition is completely evaluated before either selected expression | `a ? b : c`               |
+| **Immediately before a function is entered**      | Function call                                                       | Evaluation required before entering the function is complete        | `f(i++)`                  |
+| **End of a full expression in a `for` statement** | Initialization, condition, or iteration expression                  | Side effects of that full expression are complete                   | `for (i = 0; i < n; i++)` |
+
+![[Sequence Points in C-1786621245053.webp]]
+
+### Semi-colon vs End of an expression
+
+So the **semicolon is important because it terminates the expression statement**, making the two operations belong to separate full expressions.
+
+One tiny caveat: saying _"semicolon creates the sequence point"_ is still slightly imprecise. The semicolon terminates the **expression statement**; the **sequence point occurs after evaluation of that full expression**.
 
 ---
 
@@ -64,7 +84,7 @@ y = (i++) * (i++); // ❌ undefined: order of evaluation of i++ operands is not 
 
 ---
 
-## ✅ Golden Rule
+## Golden Rule
 
 > Between two sequence points, **never modify a variable more than once**, or modify it and read it in the same expression.
 
@@ -75,14 +95,9 @@ i++;
 j = i + 5; // safe: each expression ends with a sequence point
 ```
 
----
-
-## 🧠 Key Takeaway
 
 Sequence points are **your safety stops**:
 
 - They ensure order and predictability in side effects.
 - Relying on them prevents undefined behavior and improves portability.
-
-Stay safe and write clear, bug-free code! 😘
 

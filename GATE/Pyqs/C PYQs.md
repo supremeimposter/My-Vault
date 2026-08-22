@@ -6,7 +6,6 @@ tags:
 # C PYQs
 
 
-
 > [!question] 
 > [Programming in C: GATE CSE 2001 \| Question: 2.17 \| UGCNET-AUG2016-III: 21](https://gateoverflow.in/735/gate-cse-2001-question-2-17-ugcnet-aug2016-iii-21)
 

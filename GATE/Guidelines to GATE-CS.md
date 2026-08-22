@@ -41,6 +41,7 @@ $$
 $$
 
 - Whenever there are questions with fractions equality, solve it by taking it to some variable k
+
 ![[Guidelines to GATE-CS-1755085818673.webp]]
 
 
@@ -51,7 +52,9 @@ $$
 ![[Guidelines to GATE-CS-1755104891568.webp]]
 
 
-![[Guidelines to GATE-CS-1755107390202.webp|Comparison of asymptotic functions]]
+
+> [!NOTE] Comparison of asymptotic functions
+![[Guidelines to GATE-CS-1755107390202.webp]]
 
 
 - Look carefully if they are asking for asymptotic analysis or just simply solve a recurrence relation. If there is no $\theta, \mathcal{O}, \mathcal{\Omega}$, then get the exact value of the recurrence relation.
@@ -180,11 +183,12 @@ $$
 - If an unknown flip flop with combinational logic is given in the question, then apply inputs into find what kind of flip flop it is.
 
 
-
 ---
 ## Guidelines to Database Management System
 
 ### Guidelines to Relational Model
+
+- If there are more than one fks in the given question, criss-crossing the relations, then just go one by one, check violation for each foreign key integrity constraint, as in [this gate question](https://gateoverflow.in/118236/gate-cse-2017-set-2-question-19)
 
 ![[Guidelines to GATE-CS-1782029532107.webp]]
 
@@ -195,9 +199,24 @@ $$
 ![[Guidelines to GATE-CS-1758723973353.webp]]
 
 - FD's cannot be split on LHS (i.e. left cannot be split, only combined)
+
+![[Guidelines to GATE-CS-1787044547214.webp]]
+
+![[Guidelines to GATE-CS-1787052819677.webp]]
+
 - To prove or verify a FD is inferred by an FD set, always use **closure method** as it is easy and fast rather than fiddling with Armstrong's axioms. Take the closure of the given FD and check in the given FD set, whether the RHS can be obtained or not.
 
 ![[Guidelines to GATE-CS-1758734019058.webp]]
+
+![[Guidelines to GATE-CS-1787059998202.webp]]
+
+![[Guidelines to GATE-CS-1787060011869.webp]]
+
+- these FD's infer each other, but still they are different each other, and this misconception is because of the consequences of the understanding and the lectures so far. This understanding is a precursor to understand *closure of FDs*.
+
+![[Guidelines to GATE-CS-1787060025377.webp]]
+
+![[Guidelines to GATE-CS-1787066983578.webp]]
 
 - Given a relation, always start checking from the highest normal form and descend. BCNF $\to$ 3NF $\to$ 2NF. Because if $R$ is in 3NF, then it is definitely in 2NF, you can stop there.
 - Only BCNF completely removes redundancies due to FDs, the lower normal forms may still cause redundancies due to FDs.
@@ -209,13 +228,19 @@ $$
 
 ![[Guidelines to GATE-CS-1758788545268.webp]]
 
-- Not every decomposition (2NF, 3NF) are lossless and dependency preserving. But there always exists (at least one) 2NF or 3NF decomposition for a relation that is lossless and dependency preserving.
+![[Guidelines to GATE-CS-1787130852657.webp]]
+
+![[Guidelines to GATE-CS-1787132372551.webp]]
+
+- Not every decomposition (2NF, 3NF, BCNF) are lossless and dependency preserving. But there always exists (at least one) 2NF or 3NF decomposition for a relation that is lossless and dependency preserving.
 - There can be multiple ways (multiple algorithms) to decompose a relation to either 2NF, 3NF or BCNF.
 - There is always a lossless BCNF decomposition possible for a relation. It may not be possible to get any BCNF decomposition of some relation $R$ that is dependency preserving.
 - Check the closure of preserved FD by each individual relations to check for dependency preserving decomposition.
 - Deletion operation never violates any FD, so no FD checking is needed.
-
+ 
 - In the relational model queries (rel. algebra, rel.calculus), NULL does not occur in the table except for outer join.
+
+![[Guidelines to GATE-CS-1787372043989.webp]]
 
 ### Guidelines to Relational Algebra
 
@@ -493,6 +518,17 @@ $$
 
 - In modern routing, once subnetting is done, the original network boundaries are vanished, and given to first and last subnets, so no need to subtract 2, in modern routing calculations.
 - In 1993, CIDR (Classless Inter-Domain Routing) was introduced. Routers became smart enough to carry the subnet mask (like /21) with every routing packet. Because the mask tells the router exactly where the boundary lines are, the confusion disappeared completely. Today, we use all subnets without any issues.
+- For a host outside of the network with subnet divisions, it is unaware of the subnetting, so it identifies either the network address or direct broadcast address normally. But within a network, its subnets are known and they operate accordingly.
+
+![[Guidelines to GATE-CS-1787390644701.webp|Suppose the network 192.168.9.0/24 is classified into 4 subnets|836]]
+
+- Inside the network, hosts are aware of the subnet boundaries, unlike some host from outside the network.
+
+![[Guidelines to GATE-CS-1787390612509.webp]]
+
+
+
+
 - While solving routing problems and if many of the addresses with netmask given are same, try to solve from the ones with longest netmask, since you are very likely to identify the solution sooner by eliminating the non-matching longest prefixes to find the matching one.
 
 $$\text{No error detected} \not\to \text{No error occurs}$$
@@ -502,6 +538,7 @@ $$\text{Error detected} \to \text{Error exists i.e something is wrong}$$
 - Error detected means an error exists for sure.
 
 ![[Guidelines to GATE-CS-1784533805589.webp]]
+
 ![[Guidelines to GATE-CS-1784533751532.webp]]
 
 - ***Single parity codes*** means even parity or odd parity codes, and their minimum hamming distance is 2.
@@ -526,6 +563,28 @@ $$\text{Error detected} \to \text{Error exists i.e something is wrong}$$
 
 ![[Guidelines to GATE-CS-1786345957779.webp]]
 
+
+- CRC mathematics is done in $mod2$ arithmetic
+
+![[Guidelines to GATE-CS-1786625510958.webp]]
+
+- Checksum is of [[Signed Binary Numbers#1's Complement Representation|1s complement]] arithmetic.
+
+- Remember, while solving delay calculation problems, at each stage/router, the packets will *store, then forward* one after another, so parallel sendings won't happen. Only one packet will be trasmitted to a link at a given time $t$ because of Queuing delay.
+
+![[Guidelines to GATE-CS-1786713345254.webp]]
+
+- On problems regarding delays, check [[Delays in Networking|this]] once
+
+- In questions where all the link bandwidths and transmission rate are uniform, trace and calculate the time taken by the **first packet** to reach the final destination, and *each* of the rest of the packets will take $t_{\text{propagation of last link}}$ to reach the final destination.
+
+> [!NOTE] solving steps of [GATE CSE 2014 question 44](https://gateoverflow.in/2153/gate-cse-2012-question-44)
+>![[Guidelines to GATE-CS-1786714203590.webp|]]
+
+
+- In questions, where there are non-uniform trasmission and propagation delays, focus on the ***last packet's travel*** and you will get the answer.
+
+
 ---
 
 ## Guidelines to Discrete Mathematics
@@ -546,7 +605,7 @@ $$\text{Error detected} \to \text{Error exists i.e something is wrong}$$
 
 - Every atomic proposition is a compound proposition, but not every compound proposition is an atomic proposition.
 
-![[Guidelines to GATE-CS-20241215111853760.webp|All operators are right-associative]]
+![[Guidelines to GATE-CS-20241215111853760.webp|All operators are right-associative|836]]
 
 - $\alpha \leftrightarrow \beta \equiv (\alpha \rightarrow \beta) \land (\beta \rightarrow \alpha)$
 - If two expressions $\alpha, \beta$ are equivalent then $\alpha \rightarrow \beta$ is a tautology and $\beta \rightarrow \alpha$ is a tautology.
