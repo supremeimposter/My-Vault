@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8dfc7ae9f385f793",
+        "id": "df7f94ce3ab6c62b",
         "type": "tabs",
         "children": [
           {
-            "id": "14eb14573bbc95b8",
+            "id": "76a07e4786a7142a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Programming-with-C/Programming with C.md",
+                "file": "GATE/ComputerNetworks/Computer Networks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -30,11 +30,35 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Programming with C"
+              "title": "Computer Networks"
             }
           },
           {
-            "id": "e188573efe882453",
+            "id": "21d3893c8e190198",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Subnetting.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Subnetting"
+            }
+          },
+          {
+            "id": "0892fd54c8fe09fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,12 +82,12 @@
             }
           },
           {
-            "id": "3ed1db4b184e567d",
+            "id": "4a7d4f463a1df52c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Pyqs/C PYQs.md",
+                "file": "GATE/Pyqs/CN PYQs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,31 +102,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "C PYQs"
-            }
-          },
-          {
-            "id": "c7ee44a99eba3fbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Programming-with-C/Sequence Points in C.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sequence Points in C"
+              "title": "CN PYQs"
             }
           }
         ],
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Programming-with-C/Sequence Points in C.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Guidelines to GATE-CS"
             }
           },
           {
@@ -201,12 +201,26 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Programming-with-C/Sequence Points in C.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Guidelines to GATE-CS"
+            }
+          },
+          {
+            "id": "40d15956871d0fde",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -215,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Programming-with-C/Sequence Points in C.md",
+                "file": "GATE/Pyqs/CN PYQs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -223,9 +237,24 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "13c145e73a31e17b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "5df95600f2476df0",
@@ -260,44 +289,44 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "8488c56ed1a27af9",
+  "active": "4a7d4f463a1df52c",
   "lastOpenFiles": [
-    "attachments/Sequence Points in C-1786620594969.webp",
-    "GATE/Programming-with-C/Programming with C.md",
-    "GATE/Guidelines to GATE-CS.md",
-    "GATE/Programming-with-C/Loops in C.md",
-    "GATE/Pyqs/C PYQs.md",
-    "GATE/Programming-with-C/Signed and Unsigned in C.md",
-    "GATE/Programming-with-C/Sequence Points in C.md",
-    "GATE/ComputerNetworks/Computer Networks.md",
-    "attachments/Guidelines to GATE-CS-1786525085800.webp",
+    "attachments/CN PYQs-1787424323120.webp",
+    "attachments/CN PYQs-1787423841365.webp",
+    "attachments/CN PYQs-1787423796752.webp",
+    "attachments/CN PYQs-1787423733483.webp",
+    "attachments/CN PYQs-1787423506647.webp",
+    "attachments/CN PYQs-1787423424461.webp",
+    "attachments/CN PYQs-1787423414519.webp",
+    "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Subnetting.md",
+    "attachments/Subnetting-1787409765037.webp",
     "GATE/Pyqs/CN PYQs.md",
-    "attachments/CN PYQs-1786523992873.webp",
-    "attachments/CN PYQs-1786523973744.webp",
-    "attachments/CN PYQs-1786522326141.webp",
-    "attachments/CN PYQs-1786522123213.webp",
-    "attachments/Guidelines to GATE-CS-1786521868589.webp",
+    "attachments/CN PYQs-1787407889049.webp",
+    "attachments/Subnetting-1787406631683.webp",
+    "attachments/Subnetting-1787406614915.webp",
+    "GATE/Guidelines to GATE-CS.md",
+    "GATE/ComputerNetworks/Computer Networks.md",
+    "GATE/Pyqs/DBMS PYQs.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "GATE/DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md",
+    "GATE/DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
+    "GATE/ComputerNetworks/Delays in Networking.md",
+    "GATE/ComputerNetworks/Error Detection and Correction.md",
+    "GATE/Linear-Algebra/Crammer's Rule.md",
+    "GATE/Pyqs/C PYQs.md",
+    "GATE/Programming-with-C/Sequence Points in C.md",
+    "GATE/Programming-with-C/Programming with C.md",
+    "GATE/Programming-with-C/Loops in C.md",
+    "GATE/Programming-with-C/Signed and Unsigned in C.md",
     "Fitness/Squat University.md",
     "GATE/Untitled.md",
-    "attachments/MnssBu_cmC0.jpg",
-    "attachments/XTfhKUZWd0E.jpg",
-    "attachments/RWF8baFGdFI.jpg",
-    "attachments/GuWxLb-iYlg.jpg",
     "GATE/Algorithms/Divide-and-Conquer/Analysis of Maximum and Minimum.md",
     "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md",
     "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md",
     "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
     "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
     "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
-    "GATE/Digital-Logic/Combinational Circuits/Multiplexer and Demultiplexer.md",
-    "GATE/DiscreteMathematics/First-Order-Logic/Nested Quantifiers.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Memory Interfacing and Expansion.md",
-    "GATE/Computer-Organization-and-Architecture/Basic-components-of-computer-and-main-memory/Main Memory and Addressability.md",
-    "GATE/Linear-Algebra/Gaussian Elimination.md",
-    "Fitness/Breathing.md",
-    "GATE/ComputerNetworks/Error Detection and Correction.md",
-    "GATE/ComputerNetworks/Switching-and-its-types.md",
-    "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Subnetting.md",
     "GATE/Digital-Logic/Analysis",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",

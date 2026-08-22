@@ -10,6 +10,32 @@
             "type": "tabs",
             "children": [
               {
+                "id": "8c06d979475f07ea",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/DatabaseManagementSystem/Database Management System.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Database Management System"
+                }
+              },
+              {
                 "id": "2066b3fa9c6e9c03",
                 "type": "leaf",
                 "state": {
@@ -31,102 +57,6 @@
                   },
                   "icon": "lucide-file",
                   "title": "Guidelines to GATE-CS"
-                }
-              },
-              {
-                "id": "8c06d979475f07ea",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/DatabaseManagementSystem/Database Management System.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Database Management System"
-                }
-              },
-              {
-                "id": "f754c0a2bedb2404",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/DatabaseManagementSystem/Relational-Algebra/Relational Algebra.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Relational Algebra"
-                }
-              },
-              {
-                "id": "69a949d6132214c3",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Derived Operations in Relational Algebra"
-                }
-              },
-              {
-                "id": "7d06b00f5ac6ddd5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Basic Operations in Relational Algebra"
                 }
               },
               {
@@ -154,7 +84,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -174,7 +104,9 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical",
-                    "autoReveal": false
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -205,6 +137,16 @@
                   "state": {},
                   "icon": "lucide-bookmark",
                   "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "25fb3027bb42d785",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "recent-files"
                 }
               }
             ]
@@ -275,13 +217,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Derived Operations in Relational Algebra"
+                  "title": "Outline"
                 }
               },
               {
@@ -305,8 +247,8 @@
                 "state": {
                   "type": "journal-calendar",
                   "state": {},
-                  "icon": "calendar-days",
-                  "title": "Calendar"
+                  "icon": "lucide-ghost",
+                  "title": "journal-calendar"
                 }
               }
             ],
@@ -336,10 +278,6 @@
       "left-ribbon": {
         "hiddenItems": {
           "bases:Create new base": false,
-          "obsidian-kanban:Create new board": false,
-          "audio-recorder:Start/stop recording": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
           "canvas:Create new canvas": false,
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
@@ -349,8 +287,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "69a949d6132214c3",
-      "mtime": "2025-10-29T16:33:15+05:30"
+      "active": "2066b3fa9c6e9c03",
+      "mtime": "2026-08-20T12:45:20+05:30"
     },
     "set-theory": {
       "main": {
@@ -529,6 +467,20 @@
                 }
               },
               {
+                "id": "40d15956871d0fde",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
                 "id": "8488c56ed1a27af9",
                 "type": "leaf",
                 "state": {
@@ -541,6 +493,21 @@
                   },
                   "icon": "lucide-list",
                   "title": "Outline of Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "13c145e73a31e17b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
                 }
               }
             ],
@@ -5139,5 +5106,5 @@
       "mtime": "2026-06-29T22:10:24+05:30"
     }
   },
-  "active": "Programming with C"
+  "active": "CN"
 }

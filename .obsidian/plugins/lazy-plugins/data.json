@@ -10,7 +10,7 @@
     "enableDependencies": false,
     "plugins": {
       "automatic-renumbering": {
-        "startupType": "long"
+        "startupType": "short"
       },
       "math-in-callout": {
         "startupType": "instant"
@@ -34,10 +34,10 @@
         "startupType": "short"
       },
       "image-converter": {
-        "startupType": "short"
+        "startupType": "instant"
       },
       "obsidian-latex-suite": {
-        "startupType": "short"
+        "startupType": "instant"
       },
       "links": {
         "startupType": "instant"
@@ -64,10 +64,10 @@
         "startupType": "instant"
       },
       "sheets": {
-        "startupType": "short"
+        "startupType": "long"
       },
       "smart-paste": {
-        "startupType": "instant"
+        "startupType": "short"
       },
       "obsidian-style-settings": {
         "startupType": "instant"
@@ -79,7 +79,7 @@
         "startupType": "disabled"
       },
       "obsidian-text-format": {
-        "startupType": "instant"
+        "startupType": "long"
       },
       "obsidian-thumbnails": {
         "startupType": "long"
