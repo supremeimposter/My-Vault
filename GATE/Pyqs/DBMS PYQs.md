@@ -79,7 +79,8 @@ BCNF does not guarantee a dependency preserving decomposition.
 ![[DBMS PYQs-20240925152010551.webp]]
 
 
-By the context here, key is the primary key, chosen as one of many candidate keys.
+By the context here, key is the primary key, which is decided or chosen by the designer.
+Despite a primary key is selected/decided, all the candidate keys have to be found to find out the prime/non-prime attributes.
 
 
 > [!question] 

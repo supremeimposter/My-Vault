@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "df7f94ce3ab6c62b",
+        "id": "8dfc7ae9f385f793",
         "type": "tabs",
         "children": [
           {
-            "id": "76a07e4786a7142a",
+            "id": "14eb14573bbc95b8",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/ComputerNetworks/Computer Networks.md",
+                "file": "GATE/Programming-with-C/Programming with C.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -30,35 +30,11 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Computer Networks"
+              "title": "Programming with C"
             }
           },
           {
-            "id": "21d3893c8e190198",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Subnetting.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Subnetting"
-            }
-          },
-          {
-            "id": "0892fd54c8fe09fc",
+            "id": "e188573efe882453",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -82,12 +58,12 @@
             }
           },
           {
-            "id": "4a7d4f463a1df52c",
+            "id": "fc144859df4e6704",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Pyqs/CN PYQs.md",
+                "file": "GATE/Programming-with-C/Analysis and Doubts in C.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -102,11 +78,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CN PYQs"
+              "title": "Analysis and Doubts in C"
+            }
+          },
+          {
+            "id": "3ed1db4b184e567d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Pyqs/C PYQs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "C PYQs"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Pyqs/CN PYQs.md",
+                "file": "GATE/Programming-with-C/Analysis and Doubts in C.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -289,34 +289,36 @@
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "4a7d4f463a1df52c",
+  "active": "fc144859df4e6704",
   "lastOpenFiles": [
-    "attachments/CN PYQs-1787424323120.webp",
-    "attachments/CN PYQs-1787423841365.webp",
-    "attachments/CN PYQs-1787423796752.webp",
-    "attachments/CN PYQs-1787423733483.webp",
-    "attachments/CN PYQs-1787423506647.webp",
-    "attachments/CN PYQs-1787423424461.webp",
-    "attachments/CN PYQs-1787423414519.webp",
-    "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Subnetting.md",
-    "attachments/Subnetting-1787409765037.webp",
-    "GATE/Pyqs/CN PYQs.md",
-    "attachments/CN PYQs-1787407889049.webp",
-    "attachments/Subnetting-1787406631683.webp",
-    "attachments/Subnetting-1787406614915.webp",
+    "attachments/Analysis and Doubts in C-1788631859311.webp",
+    "attachments/Analysis and Doubts in C-1788631840509.webp",
+    "attachments/Analysis and Doubts in C-1788631760677.webp",
+    "attachments/Analysis and Doubts in C-1788631739385.webp",
+    "attachments/Analysis and Doubts in C-1788613499656.webp",
+    "attachments/Analysis and Doubts in C-1788613452783.webp",
+    "attachments/Analysis and Doubts in C-1788613433904.webp",
+    "attachments/Analysis and Doubts in C-1788613365208.webp",
+    "attachments/Analysis and Doubts in C-1788613296299.webp",
+    "attachments/Analysis and Doubts in C-1788613268047.webp",
+    "attachments/Analysis and Doubts in C-1788613255512.webp",
     "GATE/Guidelines to GATE-CS.md",
-    "GATE/ComputerNetworks/Computer Networks.md",
-    "GATE/Pyqs/DBMS PYQs.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
-    "GATE/DatabaseManagementSystem/Database Management System.md",
-    "GATE/DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md",
-    "GATE/DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
+    "GATE/Programming-with-C/Analysis and Doubts in C.md",
+    "GATE/Pyqs/C PYQs.md",
     "GATE/ComputerNetworks/Delays in Networking.md",
     "GATE/ComputerNetworks/Error Detection and Correction.md",
-    "GATE/Linear-Algebra/Crammer's Rule.md",
-    "GATE/Pyqs/C PYQs.md",
-    "GATE/Programming-with-C/Sequence Points in C.md",
+    "GATE/ComputerNetworks/Computer Networks.md",
+    "GATE/Pyqs/CN PYQs.md",
     "GATE/Programming-with-C/Programming with C.md",
+    "GATE/DatabaseManagementSystem/Database Management System.md",
+    "GATE/Pyqs/DBMS PYQs.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md",
+    "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Subnetting.md",
+    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
+    "GATE/DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md",
+    "GATE/DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
+    "GATE/Linear-Algebra/Crammer's Rule.md",
+    "GATE/Programming-with-C/Sequence Points in C.md",
     "GATE/Programming-with-C/Loops in C.md",
     "GATE/Programming-with-C/Signed and Unsigned in C.md",
     "Fitness/Squat University.md",
@@ -325,8 +327,6 @@
     "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md",
     "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md",
     "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
-    "GATE/Linear-Algebra/Eigen Values and Eigen Vectors.md",
-    "GATE/Digital-Logic/Boolean Algebra-Minimization of Boolean Functions/Minimization using K Map.md",
     "GATE/Digital-Logic/Analysis",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",

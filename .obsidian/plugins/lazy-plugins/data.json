@@ -86,6 +86,9 @@
       },
       "obsidian-timestamper": {
         "startupType": "instant"
+      },
+      "paste-reformatter": {
+        "startupType": "short"
       }
     }
   }

@@ -35,7 +35,7 @@ Every key attributes must be unique in every record i.e. the set of attributes m
 Key Integrity constraints allow `NULL` values but checks the uniqueness of not-null values.
 
 > [!convention] 
-> The term **key** :BoBxsKey: refers to super key or candidate key or primary key depending on the author. But typically the term **key** :BoBxsKey: is used to refer to **candidate key**.
+> The term **key** refers to super key or candidate key or primary key depending on the author. But typically the term **key** is used to refer to **candidate key**.
 
 ## Entity Integrity Constraint
 
@@ -121,8 +121,6 @@ When the foreign key is of multi-attribute, then the same tuple of data in the r
 
 > [!NOTE] 
 > Key constraints and Entity integrity constraints are specified on individual relations, whereas Referential integerity constraint is specified between two different relations.
-
-![[Standard Integrity Constraints in Relational Model-20240711100110325.webp]]
 
 ### Enforcing Referential Integrity Constraint
 

@@ -61,5 +61,6 @@ tags:
 # References
 
 - [C Operator Precedence - cppreference.com](https://en.cppreference.com/w/c/language/operator_precedence)
+- [[Analysis and Doubts in C]]
 
 ---

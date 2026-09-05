@@ -65,6 +65,13 @@ $$
 ---
 ## Guidelines to Programming with C
 
+also do checkout [[Analysis and Doubts in C]]
+
+![[Guidelines to GATE-CS-1788353079398.webp|Matching Bit patterns|836]]
+
+![[Guidelines to GATE-CS-1788363115826.webp]]
+
+
 ![[Operators in C-20240622201510103.webp]]
 
 **PUMAS REBL TAC**
@@ -77,9 +84,15 @@ Bitwise = & > ^ > |
 
 **P**aranthesis **U**nary **M**ultiply **A**ddition **S**hift **R**elational **E**quality **B**itwise **L**ogical **T**ernary **A**ssignment **C**omma
 
+![[Guidelines to GATE-CS-1787935378394.webp]]
+
 - Between two sequence points, **never modify a variable more than once**, or modify it and read it in the same expression.
 
-- $\text{sizeof}()$ is a compile time constant, its calculation of pointer arithmetic is different from the usual way I do arithmetic
+
+- $\text{sizeof}()$ is a compile time constant, its calculation of pointer arithmetic is different from the usual way I do arithmetic, but there are some VLA exceptions as well.
+
+![[Guidelines to GATE-CS-1787934939074.webp]]
+
 
 what does a point to? a points to first row of 4 integers
 $\ast a$ is the row of 4 integers, so
@@ -94,21 +107,30 @@ $\ast a$ is the row of 4 integers, so
 
 ![[Guidelines to GATE-CS-1753108618768.webp]]
 
+
 - when doing comparisons of signed, unsigned integers, always think of integer promotion.
 
 - Be careful if they are mentioning compiler error or linker error.
+
+```c
+y += funcf(x) + funcg(x);
+```
+
+![[Guidelines to GATE-CS-1788544784940.webp]]
 
 ![[Guidelines to GATE-CS-1751726835045.webp]]
 
 - Be careful about how a loop counter gets updated, sometimes there might be one update in the for-loop's body and in the update-coutner statement, don't miss it out.
 
-![[Guidelines to GATE-CS-1753166567126.webp|In LINE 6, 8, there are two updates for the counter i]]
+![[Guidelines to GATE-CS-1753166567126.webp|In LINE 6, 8, there are two updates for the counter i|836]]
 
 - when passing array as parameter in recursion, look for what base address of array and the value of n passed in recursive function calls, n is applied as the per the modified base address passage and not as same as the base array.
 
-![[Guidelines to GATE-CS-1753166683515.webp|for the recursive calls, n is looked upon as per the passed array address]]
+![[Guidelines to GATE-CS-1753166683515.webp|for the recursive calls, n is looked upon as per the passed array address|836]]
 
 - If $(a + 4)$ is the base address passed for a recursive call, then $n = 3$ means, $a[n] = \ast(a + 4 + 3) = \ast(a + 7)$ 
+
+- Remember: **L**ittle endian => **L**east significant byte at **L**ower memory address
 
 ---
 ## Guidelines to Data Structures
@@ -122,7 +144,7 @@ $\ast a$ is the row of 4 integers, so
 
 - When converting from base 10 to any other base, you are basically finding the co-efficients of their powers in the desired base.
 
-![[Guidelines to GATE-CS-20250223170629613.webp|What are those co-efficients?]]
+![[Guidelines to GATE-CS-20250223170629613.webp|What are those co-efficients?|836]]
 
 - If you are getting confused about the range of numbers for a particular representation, use a small example such as 3 bits and get the range.
 - In subtraction of unsigned numbers using diminished radix complement, make sure to add the carry to the sum, if there had happened to be a carry out from the sum.
@@ -194,6 +216,8 @@ $$
 
 - If an attribute has a set-valued attribute, then it is not in 1NF as the values are not atomic. For 1NF, an attribute cannot be composite.
 - When asked for candidate keys, check if the options are minimal or not. Just don't blindly find the closure of attributes of options given.
+- When talking about candidate keys, it automatically means they are also super keys, but minimal. Check for both options showing 'candidate key' and 'super key'. Both are correct. But when talking about super keys, you are not sure about whether they are (is a) 'candidate key'.
+
 - Since sets of attributes are used, for counting the different combinations, subsets counting can be used to find out the different possible combinations.
 
 ![[Guidelines to GATE-CS-1758723973353.webp]]
@@ -216,6 +240,10 @@ $$
 
 ![[Guidelines to GATE-CS-1787060025377.webp]]
 
+![[Guidelines to GATE-CS-1787852089585.webp]]
+
+- Minimal cover is also called as canonical cover, irreducible set of FDs, minimal bases.
+
 ![[Guidelines to GATE-CS-1787066983578.webp]]
 
 - Given a relation, always start checking from the highest normal form and descend. BCNF $\to$ 3NF $\to$ 2NF. Because if $R$ is in 3NF, then it is definitely in 2NF, you can stop there.
@@ -229,6 +257,13 @@ $$
 ![[Guidelines to GATE-CS-1758788545268.webp]]
 
 ![[Guidelines to GATE-CS-1787130852657.webp]]
+
+| Normal form    | Based on                |
+| -------------- | ----------------------- |
+| 1NF            | Domain                  |
+| 2NF, 3NF, BCNF | Functional Dependency   |
+| 4NF            | Multi-valued Dependency |
+
 
 ![[Guidelines to GATE-CS-1787132372551.webp]]
 
@@ -527,10 +562,11 @@ $$
 ![[Guidelines to GATE-CS-1787390612509.webp]]
 
 
-
-
 - While solving routing problems and if many of the addresses with netmask given are same, try to solve from the ones with longest netmask, since you are very likely to identify the solution sooner by eliminating the non-matching longest prefixes to find the matching one.
 
+- Taking xor between two codes of same size, gives you the hamming distance between them.
+
+![[Guidelines to GATE-CS-1787659202768.webp]]
 $$\text{No error detected} \not\to \text{No error occurs}$$
 - No error detected doesn't mean that there is no error for sure. A particular error detection method might not be able to detect an existing error.
 
@@ -565,8 +601,8 @@ $$\text{Error detected} \to \text{Error exists i.e something is wrong}$$
 
 
 - CRC mathematics is done in $mod2$ arithmetic
+- error detection with a CRC works by appending the CRC value to the bit sequence to make it a multiple of generator polynomial $G(x)$.
 
-![[Guidelines to GATE-CS-1786625510958.webp]]
 
 - Checksum is of [[Signed Binary Numbers#1's Complement Representation|1s complement]] arithmetic.
 

@@ -4006,6 +4006,30 @@
                 }
               },
               {
+                "id": "fc144859df4e6704",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Programming-with-C/Analysis and Doubts in C.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Analysis and Doubts in C"
+                }
+              },
+              {
                 "id": "3ed1db4b184e567d",
                 "type": "leaf",
                 "state": {
@@ -4030,7 +4054,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -4163,7 +4187,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "file": "GATE/Programming-with-C/Analysis and Doubts in C.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
@@ -4243,8 +4267,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "e188573efe882453",
-      "mtime": "2026-08-13T13:35:49+05:30"
+      "active": "fc144859df4e6704",
+      "mtime": "2026-09-03T17:58:39+05:30"
     },
     "Calculus": {
       "main": {
@@ -5106,5 +5130,5 @@
       "mtime": "2026-06-29T22:10:24+05:30"
     }
   },
-  "active": "CN"
+  "active": "Programming with C"
 }
