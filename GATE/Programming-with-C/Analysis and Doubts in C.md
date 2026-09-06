@@ -15,7 +15,24 @@ tags:
 
 ![[Analysis and Doubts in C-1788357957495.webp]]
 
+---
+## Specifiers and return types (Optional)
 
+![[Analysis and Doubts in C-1788707492804.webp]]
+
+### Floating point specifiers
+
+![[Analysis and Doubts in C-1788707897308.webp]]
+
+### `%n` specifier
+
+![[Analysis and Doubts in C-1788707940773.webp]]
+
+### Integer Promotion
+
+![[Analysis and Doubts in C-1788707966596.webp]]
+
+---
 ## `sizeof()` evaluation
 
 `sizeof()` is a compile time constant, its calculation of pointer arithmetic is different from the usual way I do arithmetic, but there are some VLA exceptions as well.
@@ -269,6 +286,13 @@ Endianness matters in physical memory dereferencing
 
 ![[Analysis and Doubts in C-1788613499656.webp]]
 
+```c
+int main() {
+	char* s = "hello";
+	s[0] = 'j'; // compiles without any error, but causes seg-fault
+}
+```
+
 ---
 ## `sizeof()` vs `strlen()`
 
@@ -331,5 +355,47 @@ int main() {
 ![[Analysis and Doubts in C-1788631840509.webp]]
 
 ![[Analysis and Doubts in C-1788631859311.webp]]
+
+---
+## 1D Array, Pointers and `sizeof()`
+
+![[Analysis and Doubts in C-1788706474694.webp]]
+
+![[Analysis and Doubts in C-1788707214393.webp]]
+
+![[Analysis and Doubts in C-1788707242602.webp]]
+
+
+---
+## 2D Pointers and `sizeof()`
+
+```c
+int a[3][4];
+```
+
+![[Analysis and Doubts in C-1788700045881.webp]]
+
+![[Analysis and Doubts in C-1788699986050.webp]]
+
+![[Analysis and Doubts in C-1788700021489.webp]]
+
+### Exercises and Examples
+
+![[Analysis and Doubts in C-1788700104127.webp]]
+![[Analysis and Doubts in C-1788700133431.webp]]
+
+---
+## Pointer to Array vs Array of Pointers
+
+![[Analysis and Doubts in C-1788708433972.webp]]
+
+
+---
+## Array Decay Behaviour
+
+![[Analysis and Doubts in C-1788719027150.webp]]
+
+![[Analysis and Doubts in C-1788719052650.webp]]
+
 
 ---
