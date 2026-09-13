@@ -4,6 +4,8 @@ tags:
 ---
 # Delays in Networking
 
+![[Delays in Networking-1788944141958.webp]]
+
 ## Transmission Delay
 
 ![[Delays in Networking-1786774971155.webp]]
@@ -23,18 +25,21 @@ Time taken by the node to look up the routing table before forwarding the packet
 
 ## Queuing Delay
 
-If the packets reach a node, before it can forward the already reached packets onto the outgoing link, then it creates a congesting, and that delay is called queuing delay.
+If the packets reach a node, before it can forward the already reached packets onto the outgoing link, then it creates a congestion, and that delay is called queuing delay.
 
 ## End-to-End Delay
 
 $$
 \begin{aligned}
-T_{\text{end-to-end delay}} &= T_{\text{queuing delay}} + T_{\text{proc delay}} + T_{\text{trans delay}} + T_{\text{propagation delay}} \\
-&= 0 + 0 + T_{\text{trans delay}} + T_{\text{propagation delay}} && \text{(in most problems)}
+T_{\text{end-to-end delay}} &= T_{\text{proc delay}} + T_{\text{queue delay}} + T_{\text{trans delay}} + T_{\text{propagation delay}} \\
+&= 0 + 0 + T_{\text{trans delay}} + T_{\text{propagation delay}} && \text{(in most problems)} \\
+T_{\text{end-to-end delay}} &= T_{\text{trans delay}} + T_{\text{propagation delay}}
 \end{aligned}
 $$
 
 # Problem Solving in Delays
+
+## Last Packet Approach
 
 Consider the travelling of last packets to get the correct answer instead of relying on state time diagrams.
 

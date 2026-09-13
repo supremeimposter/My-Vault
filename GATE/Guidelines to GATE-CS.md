@@ -44,7 +44,7 @@ $$
 
 ![[Guidelines to GATE-CS-1755085818673.webp]]
 
-
+![[Guidelines to GATE-CS-1788873294435.webp]]
 
 ## Guidelines to Algorithms
 
@@ -120,6 +120,10 @@ y += funcf(x) + funcg(x);
 
 ![[Guidelines to GATE-CS-1751726835045.webp]]
 
+> Array names decay to a pointer to its first element when used in expressions
+
+![[Guidelines to GATE-CS-1788712171159.webp]]
+
 - Be careful about how a loop counter gets updated, sometimes there might be one update in the for-loop's body and in the update-coutner statement, don't miss it out.
 
 ![[Guidelines to GATE-CS-1753166567126.webp|In LINE 6, 8, there are two updates for the counter i|836]]
@@ -131,6 +135,10 @@ y += funcf(x) + funcg(x);
 - If $(a + 4)$ is the base address passed for a recursive call, then $n = 3$ means, $a[n] = \ast(a + 4 + 3) = \ast(a + 7)$ 
 
 - Remember: **L**ittle endian => **L**east significant byte at **L**ower memory address
+
+- Unlike `array`'s names decaying to a pointer to its first element, a `struct`'s name doesn't point to anything
+
+![[Guidelines to GATE-CS-1788875846072.webp]]
 
 ---
 ## Guidelines to Data Structures
@@ -290,13 +298,47 @@ $$
 
 ### Guidelines to SQL
 
-- In SQL, FROM keyword is cross product and not natural join.
-- Conceptual evaluation = FROM > WHERE > SELECT > DISTINCT
+- `SQL-92` standard is followed for GATE.
+
+- In SQL, FROM keyword is *cross product* and not natural join.
+
+![[Guidelines to GATE-CS-1789310523628.webp|836]]
+
+![[Guidelines to GATE-CS-1789310352567.webp|Order of keywords|836]]
+
+- `WHERE` clause is optional, and also applies to each tuple individually and independently.
+
+![[Guidelines to GATE-CS-1789138802325.webp]]
+
 - Though SQL queries are declarative, DBMS will optimize the query for faster retrieval and those details are not necessary. It is different from the conceptual evaluation.
 
+![[Guidelines to GATE-CS-1789119642567.webp]]
 
 - Be careful when UNION, INTERSECT, EXCEPT is used on a non-key attribute, which may contain duplicates.
 - Be careful when AND is used on the same attribute. When used on different attributes, it selects the desired tuple. When used on the same attribute, it cannot select any desired tuple. In such case, use intersect or intersect all.
+
+![[Guidelines to GATE-CS-1789215819899.webp]]
+
+![[Guidelines to GATE-CS-1789230512621.webp]]
+
+![[Guidelines to GATE-CS-1789233480409.webp]]
+
+![[Guidelines to GATE-CS-1789271588793.webp]]
+
+- `NULL` cannot be used as a direct operand, instead we have `IS NUL` and `IS NOT NULL`
+
+![[Guidelines to GATE-CS-1789289714649.webp]]
+
+![[Guidelines to GATE-CS-1789307069383.webp]]
+
+![[Guidelines to GATE-CS-1789307973236.webp]]
+
+![[Guidelines to GATE-CS-1789308018116.webp]]
+
+![[Guidelines to GATE-CS-1789308385688.webp]]
+
+
+![[Guidelines to GATE-CS-1789312743942.webp]]
 
 
 ### Guidelines to Disk

@@ -24,11 +24,21 @@ tags:
 > [!question] 
 > [Programming in C: GATE CSE 2017 Set 2 \| Question: 55](https://gateoverflow.in/118335/gate-cse-2017-set-2-question-55)
 
-![[C PYQs-1751969217348.webp]]
-
+![[C PYQs-1788786687511.webp]]
 
 
 > [!question] 
 > [Programming in C: GATE CSE 1991 \| Question: 1,vi](https://gateoverflow.in/504/gate-cse-1991-question-1-vi)
 
 ![[C PYQs-1753274858139.webp]]
+
+
+> [!question] 
+> [GATE CSE 2006 | Question: 57](https://gateoverflow.in/1835/gate-cse-2006-question-57)
+
+![[C PYQs-1788872059393.webp]]
+
+
+![[C PYQs-1788872927093.webp]]
+
+![[C PYQs-1788872158486.webp]]

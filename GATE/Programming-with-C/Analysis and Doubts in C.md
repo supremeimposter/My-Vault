@@ -64,6 +64,9 @@ int main(){
 
 ![[Analysis and Doubts in C-1788602014364.webp|Though both are characters, its an expression now|836]]
 
+### `void` and incomplete types
+
+![[Analysis and Doubts in C-1788768371725.webp]]
 
 ---
 ## What happens with pre and post increment operator in terms of sequence points
@@ -212,9 +215,7 @@ y += funcf(x) + funcg(x);
 ![[Analysis and Doubts in C-1787985771296.webp]]
 
 ---
-
-
-## Array names are non-modify-able lvalues
+## Array names
 
 ```c
 #include <stdio.h>
@@ -228,7 +229,7 @@ int main() {
 }
 ```
 
-### Array Names
+### Array Names are non-modify-able lvalues
 
 ![[Analysis and Doubts in C-1788585726324.webp]]
 
@@ -238,9 +239,17 @@ int main() {
 
 ![[Analysis and Doubts in C-1788585666192.webp]]
 
+### Array Decay Behaviour
+
+![[Analysis and Doubts in C-1788719027150.webp]]
+
+![[Analysis and Doubts in C-1788719052650.webp]]
+
 An array name `int a[5]` is not a pointer at all. It is an object of array type `(int[5])`. A pointer variable occupies separate memory to store an address, while an array name refers directly to the array's contiguous memory block.
 
 ---
+
+
 ## 1D Array
 
 ### Memory Model
@@ -266,7 +275,7 @@ An array name `int a[5]` is not a pointer at all. It is an object of array type 
 
 ### Where does Endianness matter?
 
-Endianness matters in physical memory dereferencing
+Endianness matters in physical memory **dereferencing**
 
 ![[Analysis and Doubts in C-1788609784168.webp]]
 
@@ -357,7 +366,7 @@ int main() {
 ![[Analysis and Doubts in C-1788631859311.webp]]
 
 ---
-## 1D Array, Pointers and `sizeof()`
+## 1D Array and `sizeof()`
 
 ![[Analysis and Doubts in C-1788706474694.webp]]
 
@@ -365,9 +374,25 @@ int main() {
 
 ![[Analysis and Doubts in C-1788707242602.webp]]
 
+---
+## Pointers and `sizeof()` (confusing, optional)
+
+![[Analysis and Doubts in C-1788763548744.webp]]
+
+![[Analysis and Doubts in C-1788763611390.webp]]
+
+![[Analysis and Doubts in C-1788763825591.webp]]
+
+![[Analysis and Doubts in C-1788764453451.webp]]
+
+![[Analysis and Doubts in C-1788764479803.webp]]
+
+![[Analysis and Doubts in C-1788764502100.webp]]
+
+![[Analysis and Doubts in C-1788764611319.webp]]
 
 ---
-## 2D Pointers and `sizeof()`
+## 2D Arrays and `sizeof()`
 
 ```c
 int a[3][4];
@@ -389,13 +414,33 @@ int a[3][4];
 
 ![[Analysis and Doubts in C-1788708433972.webp]]
 
-
 ---
-## Array Decay Behaviour
+## Macros and functions
 
-![[Analysis and Doubts in C-1788719027150.webp]]
+```c
+#include <stdio.h>
+#define plusOne(x) x+1
 
-![[Analysis and Doubts in C-1788719052650.webp]]
+int main() {
+	int x = 1;
+	x = 3 * plusOne(x); 
+	printf("%d\n", x);
+}
+```
 
+the expression at `LINE 6` expands as `x = 3*1+1 = (3*1)+1`
+
+```c
+#include <stdio.h>
+#define plusOne(x) (x+1)
+
+int main() {
+	int x = 1;
+	x = 3 * plusOne(x);
+	printf("%d\n", x);
+}
+```
+
+now this expression expands as `x= 3*(1+1) = 3*2 = 6`
 
 ---
