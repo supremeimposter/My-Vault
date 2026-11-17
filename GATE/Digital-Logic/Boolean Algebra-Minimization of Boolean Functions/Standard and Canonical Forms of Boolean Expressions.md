@@ -137,12 +137,12 @@ The order of the literals in the minterms and the maxterms must be in the same o
 
 ![[Standard and Canonical Forms of Boolean Expressions-20240519151749785.webp]]
 
-For minterm, `1` means true form and `0` means complemented form. (standard prouduct term)
+For minterm, `1` means true form and `0` means complemented form. (standard product term)
 For maxterm, `0` means true form and `1` means complemented form. (standard sum term)
 
-![[Standard and Canonical Forms of Boolean Expressions-20240518141946234.webp|Minterms and Maxterms for two variables]]
+![[Standard and Canonical Forms of Boolean Expressions-20240518141946234.webp|Minterms and Maxterms for two variables|836]]
 
-![[Standard Forms of Boolean Expressions-20240219123357113.webp|Minterms and Maxterms for three variables]]
+![[Standard Forms of Boolean Expressions-20240219123357113.webp|Minterms and Maxterms for three variables|836]]
 
 Short notation indices helps us to know which variables are in normal and which variables are in complemented form.
 
@@ -213,7 +213,7 @@ Consider a function over $n$ variables,
 > Sum of minterms can be found first and then the product of maxterms is easier to find just by inverting the indices.
 > 
 > ![[Standard and Canonical Forms of Boolean Expressions-20240519153743007.webp]]
-	
+
 Conversion from one canonical form to its another equivalent canonical form.
 - Exchanging $\sum$ and $\prod$.
 - Listing all the missing indices
@@ -269,7 +269,7 @@ If two functions $F_{1}$, $F_{2}$ are defined over $n$ variables and if $F_{1} =
 # Summary of Standard and Canonical Forms
 
 - Standard forms are not necessarily simpler form of an expression.
-- POS, SOP, CSOP, CPOS are different equivalent expressions of the same expression.
+- POS, SOP, CSOP, CPOS are equivalent expressions of the same expression.
 - Only the corresponding maxterms and minterms are complements of each other of the same function.
 - For a function $f$, its complement $\overline{f}$ and its dual $f^d$ are different functions themselves and they have their own standard and canonical forms.
 

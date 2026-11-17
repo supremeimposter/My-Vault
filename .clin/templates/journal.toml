@@ -1,0 +1,22 @@
+name = "Journal Entry"
+
+[title]
+template = "Journal - {date}"
+
+[content]
+template = """
+# {weekday}, {date}
+
+## How I'm feeling
+
+## What happened today
+
+## Grateful for
+
+1. 
+2. 
+3. 
+
+## Tomorrow's focus
+
+"""

@@ -1,0 +1,531 @@
+/* ==========================================================================
+   Desert
+   Adapted from the desert.vim colour scheme by Hans Fugal
+   https://github.com/fugalh/desert.vim
+
+   Dark mode is a transcription of desert.vim.  Light mode is derived - vim's
+   desert is `set background=dark` and has no light counterpart, so every
+   light hue here is its dark sibling taken to a lightness that reads on
+   parchment.  Hue and role are preserved; the exact values are not vim's.
+
+   Dark palette (X11 names resolved to hex, exactly as vim resolves them)
+     White        ffffff   grey20       333333   grey30       4d4d4d
+     grey40       666666   grey50       7f7f7f   sand         c2bfa5
+     khaki        f0e68c   darkkhaki    bdb76b   navajowhite  ffdead
+     tan          d2b48c   indianred    cd5c5c   softpink     ffa0a0
+     orangered    ff4500   goldenrod    daa520   olivedrab    6b8e23
+     palegreen    98fb98   skyblue      87ceeb   lightblue    add8e6
+   ========================================================================== */
+
+/* ==========================================================================
+   DARK - desert.vim, transcribed
+   ========================================================================== */
+.theme-dark {
+  /* --- syntax roles, named after the vim highlight groups ---------------
+     Every code-token rule at the bottom of this file reads these, so the
+     token selectors never need a per-mode variant. */
+  --desert-normal: #fff;         /* Normal     guifg=White       */
+  --desert-comment: #87ceeb;     /* Comment    guifg=SkyBlue     */
+  --desert-constant: #ffa0a0;    /* Constant   guifg=#ffa0a0     */
+  --desert-statement: #f0e68c;   /* Statement  guifg=khaki       */
+  --desert-type: #bdb76b;        /* Type       guifg=darkkhaki   */
+  --desert-identifier: #98fb98;  /* Identifier guifg=palegreen   */
+  --desert-special: #ffdead;     /* Special    guifg=navajowhite */
+  --desert-preproc: #cd5c5c;     /* PreProc    guifg=indianred   */
+  --desert-property: #d2b48c;    /* tan                          */
+  --desert-ignore: #666;         /* Ignore     guifg=grey40      */
+
+  /* --- base scale ------------------------------------------------------ */
+  --color-base-00: #333;  /* Normal background (grey20) */
+  --color-base-05: #303030;
+  --color-base-10: #2b2b2b;
+  --color-base-20: #383838;
+  --color-base-25: #3a3a3a;
+  --color-base-30: #414141;
+  --color-base-35: #4d4d4d;  /* grey30 */
+  --color-base-40: #5a5a5a;
+  --color-base-50: #666;     /* grey40 */
+  --color-base-60: #7f7f7f;  /* grey50 */
+  --color-base-70: #c2bfa5;  /* sand   */
+  --color-base-100: #fff;
+  --mono-rgb-0: 0, 0, 0;
+  --mono-rgb-100: 255, 255, 255;
+
+  /* --- named colours (callouts, graph, canvas, tags) ------------------- */
+  --color-red: #cd5c5c;
+  --color-orange: #daa520;
+  --color-yellow: #f0e68c;
+  --color-green: #98fb98;
+  --color-cyan: #add8e6;
+  --color-blue: #87ceeb;
+  --color-purple: #c98f8f;
+  --color-pink: #ffa0a0;
+  --color-red-rgb: 205, 92, 92;
+  --color-orange-rgb: 218, 165, 32;
+  --color-yellow-rgb: 240, 230, 140;
+  --color-green-rgb: 152, 251, 152;
+  --color-cyan-rgb: 173, 216, 230;
+  --color-blue-rgb: 135, 206, 235;
+  --color-purple-rgb: 201, 143, 143;
+  --color-pink-rgb: 255, 160, 160;
+
+  /* --- accent - sand, desert.vim's StatusLine -------------------------- */
+  --accent-h: 54;
+  --accent-s: 19%;
+  --accent-l: 70%;
+
+  /* --- backgrounds ----------------------------------------------------- */
+  --background-primary: #333;
+  --background-primary-alt: #3a3a3a;
+  --background-secondary: #2b2b2b;
+  --background-secondary-alt: #262626;
+  --background-modifier-border: #4d4d4d;
+  --background-modifier-border-hover: #666;
+  --background-modifier-border-focus: #c2bfa5;
+  --background-modifier-hover: rgb(194 191 165 / 8%);
+  --background-modifier-active-hover: rgb(194 191 165 / 15%);
+  --background-modifier-form-field: #2b2b2b;
+  --background-modifier-error: rgb(205 92 92 / 25%);
+  --background-modifier-error-rgb: 205, 92, 92;
+  --background-modifier-error-hover: rgb(205 92 92 / 40%);
+  --background-modifier-success: rgb(107 142 35 / 35%);
+  --background-modifier-success-rgb: 107, 142, 35;
+  --background-modifier-message: #2b2b2b;
+  --background-modifier-cover: rgb(26 26 26 / 70%);
+
+  /* --- text ------------------------------------------------------------ */
+  --text-normal: #fff;
+  --text-muted: #c2bfa5;
+  --text-faint: #7f7f7f;
+  --text-on-accent: #333;
+  --text-on-accent-inverted: #333;
+  --text-error: #ff4500;
+  --text-warning: #daa520;
+  --text-success: #98fb98;
+  --text-selection: rgb(107 142 35 / 45%);  /* Visual  guibg=olivedrab */
+  --text-highlight-bg: rgb(240 230 140 / 35%);
+  --text-highlight-bg-active: rgb(240 230 140 / 55%);
+
+  /* --- links - SkyBlue, the same hue as comments ------------------------ */
+  --text-accent: #87ceeb;
+  --text-accent-hover: #add8e6;
+  --link-color: #87ceeb;
+  --link-color-hover: #add8e6;
+  --link-external-color: #87ceeb;
+  --link-external-color-hover: #add8e6;
+  --link-unresolved-color: #7f7f7f;
+  --link-unresolved-opacity: 0.7;
+  --link-unresolved-decoration-style: dotted;
+  --link-unresolved-decoration-color: #666;
+
+  /* --- interactive ----------------------------------------------------- */
+  --interactive-normal: #3a3a3a;
+  --interactive-hover: #4d4d4d;
+  --interactive-accent: #c2bfa5;
+  --interactive-accent-hover: #d4d1b8;
+  --interactive-success: #6b8e23;
+
+  /* --- chrome ---------------------------------------------------------- */
+  --titlebar-background: #2b2b2b;
+  --titlebar-background-focused: #2b2b2b;
+  --titlebar-border-color: #4d4d4d;
+  --titlebar-text-color: #c2bfa5;
+  --titlebar-text-color-focused: #fff;
+  --divider-color: #4d4d4d;
+  --divider-color-hover: #c2bfa5;
+  --tab-text-color: #7f7f7f;
+  --tab-text-color-active: #fff;
+  --tab-text-color-focused: #c2bfa5;
+  --tab-text-color-focused-active: #fff;
+  --tab-text-color-focused-active-current: #fff;
+  --tab-background-active: #333;
+  --tab-outline-color: #4d4d4d;
+  --nav-item-color: #c2bfa5;
+  --nav-item-color-hover: #fff;
+  --nav-item-color-active: #f0e68c;
+  --nav-item-color-selected: #fff;
+  --nav-item-background-hover: rgb(194 191 165 / 8%);
+  --nav-item-background-active: rgb(194 191 165 / 15%);
+  --nav-item-background-selected: rgb(107 142 35 / 30%);
+  --nav-indentation-guide-color: #4d4d4d;
+  --icon-color: #c2bfa5;
+  --icon-color-hover: #fff;
+  --icon-color-active: #f0e68c;
+  --icon-color-focused: #fff;
+  --ribbon-background: #2b2b2b;
+  --ribbon-background-collapsed: #262626;
+  --status-bar-background: #2b2b2b;
+  --status-bar-border-color: #4d4d4d;
+  --status-bar-text-color: #c2bfa5;
+  --modal-border-color: #4d4d4d;
+  --prompt-border-color: #4d4d4d;
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: rgb(194 191 165 / 20%);
+  --scrollbar-active-thumb-bg: rgb(194 191 165 / 50%);
+  --indentation-guide-color: #4d4d4d;
+  --indentation-guide-color-active: #666;
+
+  /* --- headings - a warm sand gradient, brightest first ---------------- */
+  --h1-color: #f0e68c;  /* khaki       */
+  --h2-color: #ffdead;  /* navajowhite */
+  --h3-color: #d2b48c;  /* tan         */
+  --h4-color: #c2bfa5;  /* sand        */
+  --h5-color: #bdb76b;  /* darkkhaki   */
+  --h6-color: #a8a48c;  /* dimmed sand */
+
+  /* --- prose ------------------------------------------------------------ */
+  --hr-color: #4d4d4d;
+  --blockquote-border-color: #c2bfa5;
+  --blockquote-color: #c2bfa5;
+  --embed-border-left: 2px solid #4d4d4d;
+  --tag-color: #f0e68c;
+  --tag-background: rgb(240 230 140 / 12%);
+  --tag-background-hover: rgb(240 230 140 / 22%);
+  --checkbox-color: #6b8e23;
+  --checkbox-color-hover: #98fb98;
+  --checkbox-border-color: #666;
+  --checkbox-border-color-hover: #c2bfa5;
+  --checklist-done-color: #7f7f7f;
+  --table-header-background: #3a3a3a;
+  --table-header-background-hover: #414141;
+  --table-row-alt-background: #383838;
+  --table-row-background-hover: rgb(194 191 165 / 6%);
+  --table-border-color: #4d4d4d;
+  --flashing-background: rgb(240 230 140 / 30%);
+
+  /* --- code ------------------------------------------------------------- */
+  --code-background: #2b2b2b;
+  --code-normal: var(--desert-normal);
+  --code-comment: var(--desert-comment);
+  --code-string: var(--desert-constant);
+  --code-value: var(--desert-constant);
+  --code-keyword: var(--desert-statement);
+  --code-operator: var(--desert-statement);
+  --code-function: var(--desert-identifier);
+  --code-property: var(--desert-property);
+  --code-tag: var(--desert-statement);
+  --code-important: var(--desert-preproc);
+  --code-punctuation: var(--desert-normal);
+
+  /* --- graph ------------------------------------------------------------ */
+  --graph-line: rgb(194 191 165 / 20%);
+  --graph-node: #c2bfa5;
+  --graph-node-focused: #f0e68c;
+  --graph-node-tag: #ffa0a0;
+  --graph-node-attachment: #bdb76b;
+  --graph-node-unresolved: #7f7f7f;
+
+  /* --- canvas / mermaid -------------------------------------------------- */
+  --canvas-dot-pattern: #4d4d4d;
+  --mermaid-node: #3a3a3a;
+  --mermaid-edge: #4d4d4d;
+  --mermaid-text: #fff;
+}
+
+/* ==========================================================================
+   LIGHT - derived, not transcribed
+
+   desert.vim has no light mode.  Each hue below is its dark counterpart
+   pulled down to roughly 30-40% lightness so it reads on parchment, with
+   hue and role held constant: comments stay sky blue, keywords stay khaki,
+   functions stay green.  The background is the sand (#c2bfa5) lightened,
+   so the page still looks like desert rather than a generic light theme.
+   ========================================================================== */
+.theme-light {
+  /* --- syntax roles ----------------------------------------------------- */
+  --desert-normal: #2b2a22;
+  --desert-comment: #1c7099;     /* SkyBlue, darkened     */
+  --desert-constant: #a63030;    /* softpink, darkened    */
+  --desert-statement: #8a7d0f;   /* khaki, darkened       */
+  --desert-type: #6f6a1e;        /* darkkhaki, darkened   */
+  --desert-identifier: #22701f;  /* palegreen, darkened   */
+  --desert-special: #9a6a1b;     /* navajowhite, darkened */
+  --desert-preproc: #93372c;     /* indianred, darkened   */
+  --desert-property: #8a6230;    /* tan, darkened         */
+  --desert-ignore: #8f8c74;
+
+  /* --- base scale ------------------------------------------------------- */
+  --color-base-00: #f2f0e6;  /* parchment */
+  --color-base-05: #eeecdf;
+  --color-base-10: #eae8dc;
+  --color-base-20: #e2dfd0;
+  --color-base-25: #dcd9c8;
+  --color-base-30: #d2cfbb;
+  --color-base-35: #c2bfa5;  /* the sand itself */
+  --color-base-40: #aaa78d;
+  --color-base-50: #8f8c74;
+  --color-base-60: #75725c;
+  --color-base-70: #55523f;
+  --color-base-100: #2b2a22;
+  --mono-rgb-0: 0, 0, 0;
+  --mono-rgb-100: 255, 255, 255;
+
+  /* --- named colours ---------------------------------------------------- */
+  --color-red: #a63030;
+  --color-orange: #98661b;
+  --color-yellow: #8a7d0f;
+  --color-green: #22701f;
+  --color-cyan: #1d6b80;
+  --color-blue: #1c7099;
+  --color-purple: #7d3f4a;
+  --color-pink: #a6435a;
+  --color-red-rgb: 166, 48, 48;
+  --color-orange-rgb: 152, 102, 27;
+  --color-yellow-rgb: 138, 125, 15;
+  --color-green-rgb: 34, 112, 31;
+  --color-cyan-rgb: 29, 107, 128;
+  --color-blue-rgb: 28, 112, 153;
+  --color-purple-rgb: 125, 63, 74;
+  --color-pink-rgb: 166, 67, 90;
+
+  /* --- accent - the sand, darkened enough to carry white text ----------- */
+  --accent-h: 51;
+  --accent-s: 17%;
+  --accent-l: 45%;
+
+  /* --- backgrounds ------------------------------------------------------ */
+  --background-primary: #f2f0e6;
+  --background-primary-alt: #eae8dc;
+  --background-secondary: #e6e3d6;
+  --background-secondary-alt: #dcd9c8;
+  --background-modifier-border: #d2cfbb;
+  --background-modifier-border-hover: #c2bfa5;
+  --background-modifier-border-focus: #8a8562;
+  --background-modifier-hover: rgb(85 82 63 / 8%);
+  --background-modifier-active-hover: rgb(85 82 63 / 15%);
+  --background-modifier-form-field: #fff;
+  --background-modifier-error: rgb(166 48 48 / 18%);
+  --background-modifier-error-rgb: 166, 48, 48;
+  --background-modifier-error-hover: rgb(166 48 48 / 30%);
+  --background-modifier-success: rgb(34 112 31 / 22%);
+  --background-modifier-success-rgb: 34, 112, 31;
+  --background-modifier-message: #e2dfd0;
+  --background-modifier-cover: rgb(85 82 63 / 45%);
+
+  /* --- text -------------------------------------------------------------- */
+  --text-normal: #2b2a22;
+  --text-muted: #55523f;
+  --text-faint: #8f8c74;
+  --text-on-accent: #f2f0e6;
+  --text-on-accent-inverted: #2b2a22;
+  --text-error: #a63030;
+  --text-warning: #98661b;
+  --text-success: #22701f;
+  --text-selection: rgb(107 142 35 / 28%);
+  --text-highlight-bg: rgb(218 165 32 / 35%);
+  --text-highlight-bg-active: rgb(218 165 32 / 55%);
+
+  /* --- links -------------------------------------------------------------- */
+  --text-accent: #1c7099;
+  --text-accent-hover: #155873;
+  --link-color: #1c7099;
+  --link-color-hover: #155873;
+  --link-external-color: #1c7099;
+  --link-external-color-hover: #155873;
+  --link-unresolved-color: #8f8c74;
+  --link-unresolved-opacity: 0.7;
+  --link-unresolved-decoration-style: dotted;
+  --link-unresolved-decoration-color: #aaa78d;
+
+  /* --- interactive --------------------------------------------------------- */
+  --interactive-normal: #e6e3d6;
+  --interactive-hover: #dcd9c8;
+  --interactive-accent: #8a8562;
+  --interactive-accent-hover: #75714f;
+  --interactive-success: #22701f;
+
+  /* --- chrome -------------------------------------------------------------- */
+  --titlebar-background: #e2dfd0;
+  --titlebar-background-focused: #e2dfd0;
+  --titlebar-border-color: #d2cfbb;
+  --titlebar-text-color: #55523f;
+  --titlebar-text-color-focused: #2b2a22;
+  --divider-color: #d2cfbb;
+  --divider-color-hover: #8a8562;
+  --tab-text-color: #8f8c74;
+  --tab-text-color-active: #2b2a22;
+  --tab-text-color-focused: #55523f;
+  --tab-text-color-focused-active: #2b2a22;
+  --tab-text-color-focused-active-current: #2b2a22;
+  --tab-background-active: #f2f0e6;
+  --tab-outline-color: #d2cfbb;
+  --nav-item-color: #55523f;
+  --nav-item-color-hover: #2b2a22;
+  --nav-item-color-active: #8a7d0f;
+  --nav-item-color-selected: #2b2a22;
+  --nav-item-background-hover: rgb(85 82 63 / 8%);
+  --nav-item-background-active: rgb(85 82 63 / 14%);
+  --nav-item-background-selected: rgb(107 142 35 / 22%);
+  --nav-indentation-guide-color: #d2cfbb;
+  --icon-color: #55523f;
+  --icon-color-hover: #2b2a22;
+  --icon-color-active: #8a7d0f;
+  --icon-color-focused: #2b2a22;
+  --ribbon-background: #e2dfd0;
+  --ribbon-background-collapsed: #dcd9c8;
+  --status-bar-background: #e2dfd0;
+  --status-bar-border-color: #d2cfbb;
+  --status-bar-text-color: #55523f;
+  --modal-border-color: #d2cfbb;
+  --prompt-border-color: #d2cfbb;
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: rgb(85 82 63 / 20%);
+  --scrollbar-active-thumb-bg: rgb(85 82 63 / 45%);
+  --indentation-guide-color: #d2cfbb;
+  --indentation-guide-color-active: #aaa78d;
+
+  /* --- headings - the same gradient, darkened -------------------------- */
+  --h1-color: #8a7d0f;
+  --h2-color: #98661b;
+  --h3-color: #8a6230;
+  --h4-color: #6f6a4a;
+  --h5-color: #6f6a1e;
+  --h6-color: #75725c;
+
+  /* --- prose --------------------------------------------------------------- */
+  --hr-color: #d2cfbb;
+  --blockquote-border-color: #8a8562;
+  --blockquote-color: #55523f;
+  --embed-border-left: 2px solid #d2cfbb;
+  --tag-color: #8a7d0f;
+  --tag-background: rgb(138 125 15 / 12%);
+  --tag-background-hover: rgb(138 125 15 / 22%);
+  --checkbox-color: #6b8e23;
+  --checkbox-color-hover: #22701f;
+  --checkbox-border-color: #aaa78d;
+  --checkbox-border-color-hover: #8a8562;
+  --checklist-done-color: #8f8c74;
+  --table-header-background: #e6e3d6;
+  --table-header-background-hover: #dcd9c8;
+  --table-row-alt-background: #eae8dc;
+  --table-row-background-hover: rgb(85 82 63 / 5%);
+  --table-border-color: #d2cfbb;
+  --flashing-background: rgb(218 165 32 / 30%);
+
+  /* --- code ---------------------------------------------------------------- */
+  --code-background: #eae8dc;
+  --code-normal: var(--desert-normal);
+  --code-comment: var(--desert-comment);
+  --code-string: var(--desert-constant);
+  --code-value: var(--desert-constant);
+  --code-keyword: var(--desert-statement);
+  --code-operator: var(--desert-statement);
+  --code-function: var(--desert-identifier);
+  --code-property: var(--desert-property);
+  --code-tag: var(--desert-statement);
+  --code-important: var(--desert-preproc);
+  --code-punctuation: var(--desert-normal);
+
+  /* --- graph ----------------------------------------------------------------- */
+  --graph-line: rgb(85 82 63 / 20%);
+  --graph-node: #55523f;
+  --graph-node-focused: #8a7d0f;
+  --graph-node-tag: #a6435a;
+  --graph-node-attachment: #6f6a1e;
+  --graph-node-unresolved: #aaa78d;
+
+  /* --- canvas / mermaid ------------------------------------------------------ */
+  --canvas-dot-pattern: #d2cfbb;
+  --mermaid-node: #eae8dc;
+  --mermaid-edge: #aaa78d;
+  --mermaid-text: #2b2a22;
+}
+
+/* ==========================================================================
+   Code tokens not covered by a --code-* variable.
+
+   These read the --desert-* role variables, so each rule is written once and
+   works in both colour schemes.  Reading view runs Prism (.token.*), the
+   editor runs CodeMirror (.cm-*); both are styled so a code block looks the
+   same either way.  Adding a token means adding it to both lists.
+   ========================================================================== */
+
+/* --- Prism, reading view -------------------------------------------------- */
+.token.class-name,
+.token.builtin,
+.token.namespace,
+.token.attr-name,
+.token.selector { color: var(--desert-type); }
+
+.token.number,
+.token.boolean,
+.token.constant,
+.token.symbol,
+.token.attr-value { color: var(--desert-constant); }
+
+.token.regex,
+.token.entity,
+.token.char,
+.token.escape { color: var(--desert-special); }
+
+.token.atrule,
+.token.rule,
+.token.directive,
+.token.macro { color: var(--desert-preproc); }
+
+.token.variable,
+.token.parameter { color: var(--desert-normal); }
+
+.token.doctype,
+.token.prolog,
+.token.cdata { color: var(--desert-ignore); }
+
+.token.deleted { color: var(--desert-preproc); }
+.token.inserted { color: var(--desert-identifier); }
+.token.bold { font-weight: bold; }
+.token.italic { font-style: italic; }
+
+/* --- CodeMirror, editing view --------------------------------------------- */
+.cm-comment { color: var(--desert-comment); }
+
+.cm-string,
+.cm-string-2,
+.cm-number,
+.cm-atom { color: var(--desert-constant); }
+
+.cm-keyword,
+.cm-operator { color: var(--desert-statement); }
+
+.cm-def,
+.cm-variable-2,
+.cm-builtin { color: var(--desert-identifier); }
+
+.cm-type,
+.cm-variable-3,
+.cm-qualifier,
+.cm-attribute { color: var(--desert-type); }
+
+.cm-property { color: var(--desert-property); }
+.cm-meta { color: var(--desert-preproc); }
+.cm-tag { color: var(--desert-statement); }
+
+.cm-variable,
+.cm-bracket,
+.cm-punctuation { color: var(--desert-normal); }
+
+.cm-error {
+  color: var(--desert-normal);
+  background-color: rgb(var(--color-red-rgb), 0.3);
+}
+
+/* --- markdown syntax in the editor ---------------------------------------- */
+
+/* Markdown formatting characters (#, *, backticks) - Ignore guifg=grey40 */
+.cm-formatting { color: var(--desert-ignore); }
+
+/* Formatting chars inside a heading keep the heading's colour, dimmed. */
+.cm-formatting-header { opacity: 0.55; }
+
+.cm-hashtag { color: var(--tag-color); }
+.cm-quote { color: var(--blockquote-color); }
+.cm-strikethrough { color: var(--text-faint); }
+.cm-highlight { background-color: var(--text-highlight-bg); }
+.cm-inline-code { color: var(--desert-special); }
+
+.cm-link,
+.cm-hmd-internal-link { color: var(--link-color); }
+
+.cm-url { color: var(--text-muted); }
+
+/* Inline code in reading view, to match the editor. */
+.markdown-rendered code:not(pre code) { color: var(--desert-special); }

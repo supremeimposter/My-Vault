@@ -52,6 +52,8 @@ The LHS can be considered as premises and the RHS can be considered as consequen
 
 ![[Logic PYQs-20240927161957989.webp]]
 
+My [answer](https://gateoverflow.in/959/gate-cse-2003-question-72?show=552210#c552210)
+
 
 > [!question] 
 > [Mathematical Logic: GATE CSE 2005 | Question: 40](https://gateoverflow.in/1165/gate-cse-2005-question-40)
@@ -81,6 +83,19 @@ Analysis helps solve this question quicker.
 > [Mathematical Logic: GATE CSE 2014 Set 3 | Question: 1](https://gateoverflow.in/2035/gate-cse-2014-set-3-question-1)
 
 ![[Logic PYQs-20240927203940606.webp]]
+
+> [!question] 
+> https://gateoverflow.in/118151/gate-cse-2017-set-2-question-11
+
+
+![[Logic PYQs-1790319675481.webp]]
+
+
+> [!question] 
+> https://gateoverflow.in/522048/gate-da-2026-artificial-intelligence-question-50
+
+
+![[Logic PYQs-1792822252445.webp]]
 
 
 > [!question] 
@@ -116,9 +131,14 @@ counting only the different unique propositional formulae over 4 variables. Simi
 ![[Logic PYQs-20241220134956611.webp]]
 
 
-
-
+----
 # First Order Logic PYQs
+
+
+> [!question] 
+> https://gateoverflow.in/204102/gate-cse-2018-question-28
+
+![[Logic PYQs-1792926640742.webp]]
 
 > [!question] 
 > [Mathematical Logic: GATE CSE 1992 | Question: 15.a](https://gateoverflow.in/594/gate-cse-1992-question-15-a)
@@ -131,7 +151,6 @@ Its just simple logic. Use the implication.
 > [Mathematical Logic: GATE CSE 2020 | Question: 39](https://gateoverflow.in/333192/gate-cse-2020-question-39)
 
 ![[Logic PYQs-20241229212751710.webp]]
-
 
 
 the statement "without any free occurence of x" says it is null quantification.
@@ -196,6 +215,11 @@ $\forall x, \alpha \rightarrow (\exists y, \beta \rightarrow (\forall u, \exists
 ![[Logic PYQs-20250102121603149.webp]]
 
 very tricky options.
+[Deepak poonia explanation](https://gateoverflow.in/1156/gate-cse-2010-question-30?show=372968#c372968)
+[My explanation](https://gateoverflow.in/1156/gate-cse-2010-question-30?show=450080#a450080) 
 
-Deepak poonia explanation : [Mathematical Logic: GATE CSE 2010 | Question: 30](https://gateoverflow.in/1156/gate-cse-2010-question-30?show=372968#c372968)
 
+> [!question] 
+> https://gateoverflow.in/26748/gate-cse-1991-question-15-b
+
+![[Logic PYQs-1792928602752.webp]]

@@ -84,7 +84,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -217,7 +217,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "file": "GATE/Pyqs/DBMS PYQs.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
@@ -287,8 +287,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "2066b3fa9c6e9c03",
-      "mtime": "2026-08-20T12:45:20+05:30"
+      "active": "110128e1b63e3921",
+      "mtime": "2026-09-28T11:01:34+05:30"
     },
     "set-theory": {
       "main": {
@@ -333,8 +333,17 @@
                   "state": {
                     "file": "GATE/Pyqs/Set Theory PYQs.md",
                     "mode": "source",
+                    "source": false,
                     "backlinks": true,
-                    "source": false
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
                   },
                   "icon": "lucide-file",
                   "title": "Set Theory PYQs"
@@ -385,7 +394,9 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical",
-                    "autoReveal": false
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -492,7 +503,7 @@
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Guidelines to GATE-CS"
+                  "title": "Outline"
                 }
               },
               {
@@ -537,8 +548,6 @@
       "left-ribbon": {
         "hiddenItems": {
           "bases:Create new base": false,
-          "audio-recorder:Start/stop recording": false,
-          "switcher:Open quick switcher": false,
           "canvas:Create new canvas": false,
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
@@ -549,7 +558,7 @@
         }
       },
       "active": "c9c69a5be1ad03a7",
-      "mtime": "2026-06-27T12:43:33+05:30"
+      "mtime": "2026-11-07T14:48:20+05:30"
     },
     "COA": {
       "main": {
@@ -857,30 +866,6 @@
                 }
               },
               {
-                "id": "6cdb343ad0b7d8a4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Digital-Logic/Sequential Circuits/Registers.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Registers"
-                }
-              },
-              {
                 "id": "e188573efe882453",
                 "type": "leaf",
                 "state": {
@@ -902,6 +887,30 @@
                   },
                   "icon": "lucide-file",
                   "title": "Guidelines to GATE-CS"
+                }
+              },
+              {
+                "id": "9c70ab71b09c3208",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Digital-Logic/Analysis/If two boolean expressions are known to be never 1 simultaneously.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "If two boolean expressions are known to be never 1 simultaneously"
                 }
               },
               {
@@ -949,7 +958,9 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical",
-                    "autoReveal": false
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -980,16 +991,6 @@
                   "state": {},
                   "icon": "lucide-bookmark",
                   "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "25fb3027bb42d785",
-                "type": "leaf",
-                "state": {
-                  "type": "recent-files",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Recent Files"
                 }
               }
             ]
@@ -1060,13 +1061,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Digital-Logic/Sequential Circuits/Registers.md",
+                    "file": "GATE/Guidelines to GATE-CS.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Registers"
+                  "title": "Outline"
                 }
               },
               {
@@ -1082,16 +1083,6 @@
                   },
                   "icon": "lucide-tags",
                   "title": "Tags"
-                }
-              },
-              {
-                "id": "64e722562ef2ff69",
-                "type": "leaf",
-                "state": {
-                  "type": "journal-calendar",
-                  "state": {},
-                  "icon": "calendar-days",
-                  "title": "Calendar"
                 }
               }
             ],
@@ -1121,10 +1112,6 @@
       "left-ribbon": {
         "hiddenItems": {
           "bases:Create new base": false,
-          "obsidian-kanban:Create new board": false,
-          "audio-recorder:Start/stop recording": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
           "canvas:Create new canvas": false,
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
@@ -1134,8 +1121,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "6cdb343ad0b7d8a4",
-      "mtime": "2025-12-14T13:36:46+05:30"
+      "active": "e188573efe882453",
+      "mtime": "2026-10-03T12:57:54+05:30"
     },
     "OS": {
       "main": {
@@ -1502,7 +1489,8 @@
                   "title": "TOC PYQs"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1522,7 +1510,9 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical",
-                    "autoReveal": false
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -1553,16 +1543,6 @@
                   "state": {},
                   "icon": "lucide-bookmark",
                   "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "25fb3027bb42d785",
-                "type": "leaf",
-                "state": {
-                  "type": "recent-files",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
                 }
               }
             ]
@@ -1633,13 +1613,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "file": "GATE/TheoryOfComputation/Theory of Computation.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Guidelines to GATE-CS"
+                  "title": "Outline"
                 }
               },
               {
@@ -1655,36 +1635,6 @@
                   },
                   "icon": "lucide-tags",
                   "title": "Tags"
-                }
-              },
-              {
-                "id": "2ec29c1e38047089",
-                "type": "leaf",
-                "state": {
-                  "type": "mermaid-toolbar-view",
-                  "state": {},
-                  "icon": "lucide-ghost",
-                  "title": "mermaid-toolbar-view"
-                }
-              },
-              {
-                "id": "92acdc507560220c",
-                "type": "leaf",
-                "state": {
-                  "type": "journal-calendar",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              },
-              {
-                "id": "8f4adeadfb2bd433",
-                "type": "leaf",
-                "state": {
-                  "type": "journal-calendar",
-                  "state": {},
-                  "icon": "calendar-days",
-                  "title": "Calendar"
                 }
               }
             ],
@@ -1731,21 +1681,17 @@
       "left-ribbon": {
         "hiddenItems": {
           "bases:Create new base": false,
-          "audio-recorder:Start/stop recording": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
           "canvas:Create new canvas": false,
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
           "workspaces:Manage workspace layouts": false,
           "darlal-switcher-plus:Open in Headings Mode": false,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
-          "obsidian-kanban:Create new board": false,
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "7b788ce81cda6ddc",
-      "mtime": "2025-09-20T15:06:39+05:30"
+      "active": "1200fff9e49ffa71",
+      "mtime": "2026-11-15T22:39:58+05:30"
     },
     "Propositional-and-First-Order Logic": {
       "main": {
@@ -1831,7 +1777,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1851,7 +1797,9 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical",
-                    "autoReveal": false
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -1879,19 +1827,12 @@
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {},
+                  "state": {
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
                   "icon": "lucide-bookmark",
                   "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "25fb3027bb42d785",
-                "type": "leaf",
-                "state": {
-                  "type": "recent-files",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Recent Files"
                 }
               }
             ]
@@ -1962,13 +1903,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Guidelines to GATE-CS.md",
+                    "file": "GATE/Pyqs/Logic PYQs.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Guidelines to GATE-CS"
+                  "title": "Outline"
                 }
               },
               {
@@ -1982,26 +1923,6 @@
                   },
                   "icon": "lucide-tags",
                   "title": "Tags"
-                }
-              },
-              {
-                "id": "2ec29c1e38047089",
-                "type": "leaf",
-                "state": {
-                  "type": "mermaid-toolbar-view",
-                  "state": {},
-                  "icon": "lucide-ghost",
-                  "title": "mermaid-toolbar-view"
-                }
-              },
-              {
-                "id": "92acdc507560220c",
-                "type": "leaf",
-                "state": {
-                  "type": "journal-calendar",
-                  "state": {},
-                  "icon": "calendar-days",
-                  "title": "Calendar"
                 }
               }
             ],
@@ -2031,21 +1952,18 @@
       "left-ribbon": {
         "hiddenItems": {
           "bases:Create new base": false,
-          "obsidian-kanban:Create new board": false,
-          "audio-recorder:Start/stop recording": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
           "canvas:Create new canvas": false,
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
           "darlal-switcher-plus:Open in Headings Mode": false,
           "darlal-switcher-plus:Open Symbols for the active editor": false,
           "workspaces:Manage workspace layouts": false,
-          "map-of-content:Update Map of Content": false
+          "map-of-content:Update Map of Content": false,
+          "plainpage-settings:Toggle focus mode": false
         }
       },
-      "active": "2066b3fa9c6e9c03",
-      "mtime": "2025-08-31T18:59:11+05:30"
+      "active": "1687853b04c682ee",
+      "mtime": "2026-10-25T22:04:58+05:30"
     },
     "CP": {
       "main": {
@@ -2339,54 +2257,6 @@
                 }
               },
               {
-                "id": "adffe9fa3f4d8f17",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Inclusion Exclusion Principle"
-                }
-              },
-              {
-                "id": "2527d167a4c554be",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Distributing Objects into Boxes"
-                }
-              },
-              {
                 "id": "7f6e33a223df0b04",
                 "type": "leaf",
                 "state": {
@@ -2435,7 +2305,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -2455,7 +2325,9 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical",
-                    "autoReveal": false
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -2486,16 +2358,6 @@
                   "state": {},
                   "icon": "lucide-bookmark",
                   "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "25fb3027bb42d785",
-                "type": "leaf",
-                "state": {
-                  "type": "recent-files",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Recent Files"
                 }
               }
             ]
@@ -2572,7 +2434,7 @@
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Guidelines to GATE-CS"
+                  "title": "Outline"
                 }
               },
               {
@@ -2586,16 +2448,6 @@
                   },
                   "icon": "lucide-tags",
                   "title": "Tags"
-                }
-              },
-              {
-                "id": "64e722562ef2ff69",
-                "type": "leaf",
-                "state": {
-                  "type": "journal-calendar",
-                  "state": {},
-                  "icon": "calendar-days",
-                  "title": "Calendar"
                 }
               }
             ],
@@ -2624,10 +2476,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-kanban:Create new board": false,
-          "audio-recorder:Start/stop recording": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
+          "bases:Create new base": false,
           "canvas:Create new canvas": false,
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
@@ -2638,7 +2487,7 @@
         }
       },
       "active": "c9c69a5be1ad03a7",
-      "mtime": "2025-08-13T12:10:36+05:30"
+      "mtime": "2026-11-15T16:40:47+05:30"
     },
     "fitness": {
       "main": {
@@ -4054,7 +3903,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -4107,16 +3956,6 @@
                   "state": {},
                   "icon": "lucide-bookmark",
                   "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "25fb3027bb42d785",
-                "type": "leaf",
-                "state": {
-                  "type": "recent-files",
-                  "state": {},
-                  "icon": "lucide-ghost",
-                  "title": "recent-files"
                 }
               }
             ]
@@ -4187,7 +4026,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "GATE/Programming-with-C/Analysis and Doubts in C.md",
+                    "file": "GATE/Pyqs/C PYQs.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
@@ -4209,26 +4048,6 @@
                   },
                   "icon": "lucide-tags",
                   "title": "Tags"
-                }
-              },
-              {
-                "id": "2ec29c1e38047089",
-                "type": "leaf",
-                "state": {
-                  "type": "mermaid-toolbar-view",
-                  "state": {},
-                  "icon": "lucide-ghost",
-                  "title": "mermaid-toolbar-view"
-                }
-              },
-              {
-                "id": "64e722562ef2ff69",
-                "type": "leaf",
-                "state": {
-                  "type": "journal-calendar",
-                  "state": {},
-                  "icon": "lucide-ghost",
-                  "title": "journal-calendar"
                 }
               }
             ],
@@ -4267,8 +4086,8 @@
           "map-of-content:Update Map of Content": false
         }
       },
-      "active": "fc144859df4e6704",
-      "mtime": "2026-09-03T17:58:39+05:30"
+      "active": "3ed1db4b184e567d",
+      "mtime": "2026-10-04T18:11:53+05:30"
     },
     "Calculus": {
       "main": {
@@ -5130,5 +4949,5 @@
       "mtime": "2026-06-29T22:10:24+05:30"
     }
   },
-  "active": "Programming with C"
+  "active": "TOC"
 }

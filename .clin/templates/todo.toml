@@ -1,0 +1,24 @@
+name = "Todo List"
+
+[title]
+template = "Tasks - {date}"
+
+[content]
+template = """
+# Tasks for {weekday}, {date}
+
+## High Priority
+
+- [ ] 
+
+## Normal Priority
+
+- [ ] 
+
+## Low Priority
+
+- [ ] 
+
+## Notes
+
+"""

@@ -4,37 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8dfc7ae9f385f793",
+        "id": "f5b89db6f1e09b3f",
         "type": "tabs",
         "children": [
           {
-            "id": "14eb14573bbc95b8",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Programming-with-C/Programming with C.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Programming with C"
-            }
-          },
-          {
-            "id": "e188573efe882453",
+            "id": "7b788ce81cda6ddc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,12 +32,12 @@
             }
           },
           {
-            "id": "fc144859df4e6704",
+            "id": "1200fff9e49ffa71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Programming-with-C/Analysis and Doubts in C.md",
+                "file": "GATE/TheoryOfComputation/Theory of Computation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Analysis and Doubts in C"
+              "title": "Theory of Computation"
             }
           },
           {
-            "id": "3ed1db4b184e567d",
+            "id": "355c13d7108f7f33",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Pyqs/C PYQs.md",
+                "file": "GATE/Pyqs/TOC PYQs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -102,11 +76,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "C PYQs"
+              "title": "TOC PYQs"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +147,7 @@
       {
         "id": "e047f71d444b979e",
         "type": "tabs",
-        "dimension": 66.4,
+        "dimension": 60.43521266073195,
         "children": [
           {
             "id": "4de834b516a58502",
@@ -182,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/TheoryOfComputation/Theory of Computation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +165,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Guidelines to GATE-CS"
+              "title": "Backlinks for Theory of Computation"
             }
           },
           {
@@ -201,12 +174,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GATE/Guidelines to GATE-CS.md",
+                "file": "GATE/TheoryOfComputation/Theory of Computation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Guidelines to GATE-CS"
+              "title": "Outgoing links from Theory of Computation"
             }
           },
           {
@@ -229,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Programming-with-C/Analysis and Doubts in C.md",
+                "file": "GATE/Guidelines to GATE-CS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -259,10 +232,27 @@
       {
         "id": "5df95600f2476df0",
         "type": "tabs",
-        "dimension": 33.6,
+        "dimension": 19.782393669634025,
         "children": [
           {
             "id": "537addfb8bc17cc8",
+            "type": "leaf",
+            "state": {
+              "type": "map-of-content",
+              "state": {},
+              "icon": "stacked-levels",
+              "title": "Map of Content"
+            }
+          }
+        ]
+      },
+      {
+        "id": "08f40b03134ac188",
+        "type": "tabs",
+        "dimension": 19.782393669634025,
+        "children": [
+          {
+            "id": "2dfb6fd80d8d72fb",
             "type": "leaf",
             "state": {
               "type": "map-of-content",
@@ -283,50 +273,51 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "workspaces:Manage workspace layouts": false,
       "map-of-content:Update Map of Content": false
     }
   },
-  "active": "fc144859df4e6704",
+  "active": "7b788ce81cda6ddc",
   "lastOpenFiles": [
-    "attachments/Analysis and Doubts in C-1788631859311.webp",
-    "attachments/Analysis and Doubts in C-1788631840509.webp",
-    "attachments/Analysis and Doubts in C-1788631760677.webp",
-    "attachments/Analysis and Doubts in C-1788631739385.webp",
-    "attachments/Analysis and Doubts in C-1788613499656.webp",
-    "attachments/Analysis and Doubts in C-1788613452783.webp",
-    "attachments/Analysis and Doubts in C-1788613433904.webp",
-    "attachments/Analysis and Doubts in C-1788613365208.webp",
-    "attachments/Analysis and Doubts in C-1788613296299.webp",
-    "attachments/Analysis and Doubts in C-1788613268047.webp",
-    "attachments/Analysis and Doubts in C-1788613255512.webp",
+    "attachments/Guidelines to GATE-CS-1794840952679.webp",
+    "attachments/Guidelines to GATE-CS-1794836100371.webp",
+    "attachments/Guidelines to GATE-CS-1794831567117.webp",
+    "attachments/Guidelines to GATE-CS-1794829479078.webp",
+    "attachments/Guidelines to GATE-CS-1794827702005.webp",
+    "attachments/Guidelines to GATE-CS-1794827691637.webp",
+    "attachments/Guidelines to GATE-CS-1794815652892.webp",
+    "attachments/Guidelines to GATE-CS-1794812163509.webp",
+    "attachments/Guidelines to GATE-CS-1794812026017.webp",
+    "attachments/Guidelines to GATE-CS-1794809922265.webp",
+    "attachments/Guidelines to GATE-CS-1794809071502.webp",
+    "GATE/TheoryOfComputation/Theory of Computation.md",
+    "GATE/Pyqs/TOC PYQs.md",
+    "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
+    "GATE/TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing Technique.md",
     "GATE/Guidelines to GATE-CS.md",
-    "GATE/Programming-with-C/Analysis and Doubts in C.md",
+    "GATE/Pyqs/Combinatronics PYQs.md",
+    "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
+    "GATE/DiscreteMathematics/Discrete Mathematics.md",
+    "GATE/DiscreteMathematics/Combinatronics/Binomial Theorem.md",
+    "GATE/DiscreteMathematics/Combinatronics/Permutations and Combinations.md",
+    "GATE/DiscreteMathematics/Functions/Function Definition.md",
+    "GATE/DiscreteMathematics/Combinatronics/Basic Counting Principles.md",
+    "GATE/DiscreteMathematics/Combinatronics/Combinatorial Identities.md",
+    "GATE/DiscreteMathematics/Combinatronics/Counting Nothing.md",
+    "GATE/DiscreteMathematics/Combinatronics/Inclusion Exclusion Principle.md",
+    "GATE/Pyqs/Set Theory PYQs.md",
+    "GATE/Pyqs/Logic PYQs.md",
+    "GATE/DiscreteMathematics/First-Order-Logic/Arguments in FOL.md",
+    "Word-Smith/ws-settings.md",
+    "Word-Smith",
     "GATE/Pyqs/C PYQs.md",
-    "GATE/ComputerNetworks/Delays in Networking.md",
-    "GATE/ComputerNetworks/Error Detection and Correction.md",
-    "GATE/ComputerNetworks/Computer Networks.md",
-    "GATE/Pyqs/CN PYQs.md",
-    "GATE/Programming-with-C/Programming with C.md",
-    "GATE/DatabaseManagementSystem/Database Management System.md",
-    "GATE/Pyqs/DBMS PYQs.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Standard Integrity Constraints in Relational Model.md",
-    "GATE/ComputerNetworks/IP-Addressing-Subnetting-Supernetting/Subnetting.md",
-    "GATE/DatabaseManagementSystem/Relational-Model-and-Normalization/Functional Dependency.md",
-    "GATE/DatabaseManagementSystem/Relational-Algebra/Basic Operations in Relational Algebra.md",
-    "GATE/DatabaseManagementSystem/Relational-Algebra/Derived Operations in Relational Algebra.md",
-    "GATE/Linear-Algebra/Crammer's Rule.md",
-    "GATE/Programming-with-C/Sequence Points in C.md",
-    "GATE/Programming-with-C/Loops in C.md",
-    "GATE/Programming-with-C/Signed and Unsigned in C.md",
-    "Fitness/Squat University.md",
-    "GATE/Untitled.md",
-    "GATE/Algorithms/Divide-and-Conquer/Analysis of Maximum and Minimum.md",
-    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/ACID Properties for Transaction Processing.md",
-    "GATE/DatabaseManagementSystem/Transaction-Management-and-Recovery/Transaction.md",
-    "GATE/Digital-Logic/Number Systems/Overflow of Signed and Unsigned Numbers.md",
+    "GATE/Programming-with-C/Analysis and Doubts in C.md",
+    "GATE/DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
+    "GATE/Digital-Logic/Analysis/If two boolean expressions are known to be never 1 simultaneously.md",
+    "GATE/Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md",
+    "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Digital-Logic/Analysis",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",
@@ -340,7 +331,6 @@
     "GATE/Mind-maps",
     "GATE/Computer-Organization-and-Architecture/Cache-Memory/Cache-Memory.canvas",
     "GATE/Pyqs",
-    "Journal/Study-sessions",
     "SR Latch.canvas",
     "Untitled.canvas"
   ]

@@ -1062,22 +1062,30 @@ class DragAndDrop {
         this.obisidian = obisidian;
         this.parser = parser;
         this.operationPerformer = operationPerformer;
+        this.contextsByDocument = new Map();
         this.preStart = null;
         this.state = null;
+        // Escape cancels the move, but the gesture's release must still not click
+        // its handle. Only arm click suppression once that same document gets mouseup.
+        this.clickGesture = null;
         this.handleSettingsChange = () => {
-            if (!isFeatureSupported()) {
-                return;
+            try {
+                if (!this.settings.dragAndDrop) {
+                    this.cancelDragging();
+                }
             }
-            if (this.settings.dragAndDrop) {
-                document.body.classList.add(BODY_CLASS);
-            }
-            else {
-                document.body.classList.remove(BODY_CLASS);
+            finally {
+                for (const context of this.contextsByDocument.values()) {
+                    this.updateBodyClass(context);
+                }
             }
         };
         this.handleMouseDown = (e) => {
+            // A new gesture must never overwrite another document's drag owner.
+            this.cancelDragging();
             if (!isFeatureSupported() ||
                 !this.settings.dragAndDrop ||
+                e.button !== 0 ||
                 !isClickOnBullet(e)) {
                 return;
             }
@@ -1087,30 +1095,80 @@ class DragAndDrop {
             }
             e.preventDefault();
             e.stopPropagation();
+            const context = this.getContextByView(view);
+            if (!context) {
+                return;
+            }
             this.preStart = {
-                x: e.x,
-                y: e.y,
+                x: e.clientX,
+                y: e.clientY,
                 view,
+                document: context.document,
             };
         };
         this.handleMouseMove = (e) => {
-            if (this.preStart) {
+            const eventDocument = getEventDocument(e);
+            if ((e.buttons & 1) === 0) {
+                this.cancelDragging();
+                return;
+            }
+            if (this.preStart && eventDocument === this.preStart.document) {
                 this.startDragging();
             }
-            if (this.state) {
-                this.detectAndDrawDropZone(e.x, e.y);
+            if (this.state && eventDocument === this.state.context.document) {
+                this.detectAndDrawDropZone(e.clientX, e.clientY);
             }
         };
-        this.handleMouseUp = () => {
-            if (this.preStart) {
-                this.preStart = null;
+        this.handleMouseUp = (e) => {
+            var _a;
+            this.preStart = null;
+            const gesture = this.clickGesture;
+            if (e.button === 0 && (gesture === null || gesture === void 0 ? void 0 : gesture.document) === getEventDocument(e)) {
+                gesture.released = true;
+                // Native click is dispatched with mouseup, before the next timer task.
+                // If there is no click, don't leave suppression armed for later input.
+                gesture.timeout = (_a = gesture.document.defaultView) === null || _a === void 0 ? void 0 : _a.setTimeout(() => {
+                    if (this.clickGesture === gesture) {
+                        this.clearClickGesture();
+                    }
+                }, 0);
             }
-            if (this.state) {
+            else {
+                this.clearClickGesture();
+            }
+            if (this.state && getEventDocument(e) === this.state.context.document) {
                 this.stopDragging();
             }
+            else {
+                // Releasing in another window cancels; it is not a cross-window drop.
+                // An Escape-cancelled gesture still needs its matching click suppressed.
+                this.cancelDragging(true);
+            }
+        };
+        this.handleClick = (e) => {
+            var _a;
+            if (!((_a = this.clickGesture) === null || _a === void 0 ? void 0 : _a.released) ||
+                this.clickGesture.document !== getEventDocument(e) ||
+                !e.isTrusted ||
+                e.button !== 0 ||
+                e.detail === 0) {
+                return;
+            }
+            this.clearClickGesture();
+            e.preventDefault();
+            e.stopImmediatePropagation();
         };
         this.handleKeyDown = (e) => {
-            if (this.state && e.code === "Escape") {
+            if (e.code === "Escape") {
+                this.cancelDragging(true);
+            }
+        };
+        this.handleWindowBlur = (e) => {
+            var _a, _b, _c;
+            const owner = ((_a = this.state) === null || _a === void 0 ? void 0 : _a.context.document) ||
+                ((_b = this.preStart) === null || _b === void 0 ? void 0 : _b.document) ||
+                ((_c = this.clickGesture) === null || _c === void 0 ? void 0 : _c.document);
+            if ((owner === null || owner === void 0 ? void 0 : owner.defaultView) === e.currentTarget) {
                 this.cancelDragging();
             }
         };
@@ -1121,16 +1179,27 @@ class DragAndDrop {
                 draggingLinesStateField,
                 droppingLinesStateField,
             ]);
+            this.plugin.registerEvent(this.plugin.app.workspace.on("window-open", (workspaceWindow, window) => {
+                this.registerDocument(workspaceWindow.doc || window.document);
+            }));
+            this.plugin.registerEvent(this.plugin.app.workspace.on("window-close", (workspaceWindow, window) => {
+                this.unregisterDocument(workspaceWindow.doc || window.document);
+            }));
+            this.registerExistingDocuments();
             this.enableFeatureToggle();
-            this.createDropZone();
-            this.addEventListeners();
         });
     }
     unload() {
         return __awaiter(this, void 0, void 0, function* () {
-            this.removeEventListeners();
-            this.removeDropZone();
-            this.disableFeatureToggle();
+            try {
+                this.cancelDragging();
+            }
+            finally {
+                for (const doc of Array.from(this.contextsByDocument.keys())) {
+                    this.unregisterDocument(doc);
+                }
+                this.disableFeatureToggle();
+            }
         });
     }
     enableFeatureToggle() {
@@ -1139,74 +1208,164 @@ class DragAndDrop {
     }
     disableFeatureToggle() {
         this.settings.removeCallback(this.handleSettingsChange);
-        document.body.classList.remove(BODY_CLASS);
     }
-    createDropZone() {
-        this.dropZonePadding = document.createElement("div");
-        this.dropZonePadding.classList.add("outliner-plugin-drop-zone-padding");
-        this.dropZone = document.createElement("div");
-        this.dropZone.classList.add("outliner-plugin-drop-zone");
-        this.dropZone.style.display = "none";
-        this.dropZone.appendChild(this.dropZonePadding);
-        document.body.appendChild(this.dropZone);
+    registerExistingDocuments() {
+        const docs = new Set();
+        docs.add(this.plugin.app.workspace.containerEl.ownerDocument);
+        this.plugin.app.workspace.iterateAllLeaves((leaf) => {
+            docs.add(leaf.getContainer().doc);
+        });
+        for (const doc of docs) {
+            this.registerDocument(doc);
+        }
     }
-    removeDropZone() {
-        document.body.removeChild(this.dropZone);
-        this.dropZonePadding = null;
-        this.dropZone = null;
-    }
-    addEventListeners() {
-        document.addEventListener("mousedown", this.handleMouseDown, {
+    registerDocument(doc) {
+        var _a;
+        if (!doc || this.contextsByDocument.has(doc) || !doc.body) {
+            return;
+        }
+        const dropZonePadding = doc.createElement("div");
+        dropZonePadding.classList.add("outliner-plugin-drop-zone-padding");
+        const dropZone = doc.createElement("div");
+        dropZone.classList.add("outliner-plugin-drop-zone");
+        dropZone.style.display = "none";
+        dropZone.appendChild(dropZonePadding);
+        doc.body.appendChild(dropZone);
+        const context = {
+            document: doc,
+            dropZone,
+            dropZonePadding,
+        };
+        this.contextsByDocument.set(doc, context);
+        // Obsidian may copy body classes when creating a new window.
+        doc.body.classList.remove("outliner-plugin-dragging");
+        this.updateBodyClass(context);
+        doc.addEventListener("mousedown", this.handleMouseDown, {
             capture: true,
         });
-        document.addEventListener("mousemove", this.handleMouseMove);
-        document.addEventListener("mouseup", this.handleMouseUp);
-        document.addEventListener("keydown", this.handleKeyDown);
+        doc.addEventListener("click", this.handleClick, { capture: true });
+        doc.addEventListener("mousemove", this.handleMouseMove);
+        doc.addEventListener("mouseup", this.handleMouseUp, { capture: true });
+        doc.addEventListener("keydown", this.handleKeyDown);
+        (_a = doc.defaultView) === null || _a === void 0 ? void 0 : _a.addEventListener("blur", this.handleWindowBlur);
     }
-    removeEventListeners() {
-        document.removeEventListener("mousedown", this.handleMouseDown, {
-            capture: true,
-        });
-        document.removeEventListener("mousemove", this.handleMouseMove);
-        document.removeEventListener("mouseup", this.handleMouseUp);
-        document.removeEventListener("keydown", this.handleKeyDown);
+    unregisterDocument(doc) {
+        var _a, _b, _c, _d;
+        if (!doc) {
+            return;
+        }
+        const context = this.contextsByDocument.get(doc);
+        if (!context) {
+            return;
+        }
+        try {
+            if (((_a = this.preStart) === null || _a === void 0 ? void 0 : _a.document) === doc ||
+                ((_b = this.state) === null || _b === void 0 ? void 0 : _b.context.document) === doc ||
+                ((_c = this.clickGesture) === null || _c === void 0 ? void 0 : _c.document) === doc) {
+                this.cancelDragging();
+            }
+        }
+        finally {
+            doc.removeEventListener("mousedown", this.handleMouseDown, {
+                capture: true,
+            });
+            doc.removeEventListener("click", this.handleClick, { capture: true });
+            doc.removeEventListener("mousemove", this.handleMouseMove);
+            doc.removeEventListener("mouseup", this.handleMouseUp, { capture: true });
+            doc.removeEventListener("keydown", this.handleKeyDown);
+            (_d = doc.defaultView) === null || _d === void 0 ? void 0 : _d.removeEventListener("blur", this.handleWindowBlur);
+            doc.body.classList.remove(BODY_CLASS);
+            doc.body.classList.remove("outliner-plugin-dragging");
+            context.dropZone.remove();
+            this.contextsByDocument.delete(doc);
+        }
+    }
+    getContextByView(view) {
+        return this.contextsByDocument.get(view.dom.ownerDocument);
+    }
+    updateBodyClass(context) {
+        if (!isFeatureSupported()) {
+            context.document.body.classList.remove(BODY_CLASS);
+            return;
+        }
+        if (this.settings.dragAndDrop) {
+            context.document.body.classList.add(BODY_CLASS);
+        }
+        else {
+            context.document.body.classList.remove(BODY_CLASS);
+        }
     }
     startDragging() {
         const { x, y, view } = this.preStart;
         this.preStart = null;
         const editor = getEditorFromState(view.state);
-        const pos = editor.offsetToPos(view.posAtCoords({ x, y }));
+        if (!editor) {
+            return;
+        }
+        const dropContext = this.getContextByView(view);
+        if (!dropContext) {
+            return;
+        }
+        const posOffset = view.posAtCoords({ x, y });
+        if (posOffset === null) {
+            return;
+        }
+        const pos = editor.offsetToPos(posOffset);
         const root = this.parser.parse(editor, pos);
+        if (!root) {
+            return;
+        }
         const list = root.getListUnderLine(pos.line);
-        const state = new DragAndDropState(view, editor, root, list);
+        if (!list) {
+            return;
+        }
+        const state = new DragAndDropState(dropContext, view, editor, root, list);
         if (!state.hasDropVariants()) {
             return;
         }
         this.state = state;
+        this.clickGesture = { document: dropContext.document, released: false };
         this.highlightDraggingLines();
     }
     detectAndDrawDropZone(x, y) {
         this.state.calculateNearestDropVariant(x, y);
         this.drawDropZone();
     }
-    cancelDragging() {
-        this.state.dropVariant = null;
-        this.stopDragging();
+    clearClickGesture() {
+        var _a, _b;
+        if (((_a = this.clickGesture) === null || _a === void 0 ? void 0 : _a.timeout) !== undefined) {
+            (_b = this.clickGesture.document.defaultView) === null || _b === void 0 ? void 0 : _b.clearTimeout(this.clickGesture.timeout);
+        }
+        this.clickGesture = null;
     }
-    stopDragging() {
-        this.unhightlightDraggingLines();
-        this.hideDropZone();
-        this.applyChanges();
+    cancelDragging(preserveClickGesture = false) {
+        if (!preserveClickGesture) {
+            this.clearClickGesture();
+        }
+        this.stopDragging(false);
+    }
+    stopDragging(applyChanges = true) {
+        const state = this.state;
+        this.preStart = null;
         this.state = null;
-    }
-    applyChanges() {
-        if (!this.state.dropVariant) {
+        if (!state) {
             return;
         }
-        const { state } = this;
+        // Release ownership and DOM even if dispatch fails on a closing editor.
+        state.context.document.body.classList.remove("outliner-plugin-dragging");
+        state.context.dropZone.style.display = "none";
+        state.view.dispatch({ effects: [dndEnded.of()] });
+        if (applyChanges) {
+            this.applyChanges(state);
+        }
+    }
+    applyChanges(state) {
         const { dropVariant, editor, root, list } = state;
+        if (!dropVariant) {
+            return;
+        }
         const newRoot = this.parser.parse(editor, root.getContentStart());
-        if (!isSameRoots(root, newRoot)) {
+        if (!newRoot || !isSameRoots(root, newRoot)) {
             new obsidian.Notice(`The item cannot be moved. The page content changed during the move.`, 5000);
             return;
         }
@@ -1224,17 +1383,12 @@ class DragAndDrop {
         view.dispatch({
             effects: [dndStarted.of(lines)],
         });
-        document.body.classList.add("outliner-plugin-dragging");
-    }
-    unhightlightDraggingLines() {
-        document.body.classList.remove("outliner-plugin-dragging");
-        this.state.view.dispatch({
-            effects: [dndEnded.of()],
-        });
+        state.context.document.body.classList.add("outliner-plugin-dragging");
     }
     drawDropZone() {
         const { state } = this;
         const { view, editor, dropVariant } = state;
+        const { dropZone, dropZonePadding, document } = state.context;
         const newParent = dropVariant.whereToMove === "inside"
             ? dropVariant.placeToMove
             : dropVariant.placeToMove.getParent();
@@ -1242,10 +1396,10 @@ class DragAndDrop {
         {
             const width = Math.round(view.contentDOM.offsetWidth -
                 (dropVariant.left - this.state.leftPadding));
-            this.dropZone.style.display = "block";
-            this.dropZone.style.top = dropVariant.top + "px";
-            this.dropZone.style.left = dropVariant.left + "px";
-            this.dropZone.style.width = width + "px";
+            dropZone.style.display = "block";
+            dropZone.style.top = dropVariant.top + "px";
+            dropZone.style.left = dropVariant.left + "px";
+            dropZone.style.width = width + "px";
         }
         {
             const level = newParent.getLevel();
@@ -1254,9 +1408,9 @@ class DragAndDrop {
             const dashPadding = 3;
             const dashWidth = indentWidth - dashPadding;
             const color = getComputedStyle(document.body).getPropertyValue("--color-accent");
-            this.dropZonePadding.style.width = `${width}px`;
-            this.dropZonePadding.style.marginLeft = `-${width}px`;
-            this.dropZonePadding.style.backgroundImage = `url('data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20${width}%204%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cline%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%22${width}%22%20y2%3D%220%22%20stroke%3D%22${color}%22%20stroke-width%3D%228%22%20stroke-dasharray%3D%22${dashWidth}%20${dashPadding}%22%2F%3E%3C%2Fsvg%3E')`;
+            dropZonePadding.style.width = `${width}px`;
+            dropZonePadding.style.marginLeft = `-${width}px`;
+            dropZonePadding.style.backgroundImage = `url('data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20${width}%204%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cline%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%22${width}%22%20y2%3D%220%22%20stroke%3D%22${color}%22%20stroke-width%3D%228%22%20stroke-dasharray%3D%22${dashWidth}%20${dashPadding}%22%2F%3E%3C%2Fsvg%3E')`;
         }
         this.state.view.dispatch({
             effects: [
@@ -1269,12 +1423,10 @@ class DragAndDrop {
             ],
         });
     }
-    hideDropZone() {
-        this.dropZone.style.display = "none";
-    }
 }
 class DragAndDropState {
-    constructor(view, editor, root, list) {
+    constructor(context, view, editor, root, list) {
+        this.context = context;
         this.view = view;
         this.editor = editor;
         this.root = root;
@@ -1467,12 +1619,27 @@ function isClickOnBullet(e) {
     while (el) {
         if (el.classList.contains("cm-formatting-list") ||
             el.classList.contains("cm-fold-indicator") ||
-            el.classList.contains("task-list-item-checkbox")) {
+            el.classList.contains("task-list-item-checkbox") ||
+            el.hasAttribute("data-outliner-drag-handle")) {
             return true;
         }
         el = el.parentElement;
     }
     return false;
+}
+function getEventDocument(e) {
+    const target = e.target;
+    if (!target || typeof target !== "object") {
+        return null;
+    }
+    const maybeNode = target;
+    if (maybeNode.nodeType === 9) {
+        return target;
+    }
+    if ("ownerDocument" in maybeNode) {
+        return maybeNode.ownerDocument || null;
+    }
+    return null;
 }
 function isSameRoots(a, b) {
     const [aStart, aEnd] = a.getContentRange();
@@ -1760,13 +1927,15 @@ class OutdentList {
 class OutdentListIfItsEmpty {
     constructor(root) {
         this.root = root;
+        this.stopPropagation = false;
+        this.updated = false;
         this.outdentList = new OutdentList(root);
     }
     shouldStopPropagation() {
-        return this.outdentList.shouldStopPropagation();
+        return this.stopPropagation || this.outdentList.shouldStopPropagation();
     }
     shouldUpdate() {
-        return this.outdentList.shouldUpdate();
+        return this.updated || this.outdentList.shouldUpdate();
     }
     perform() {
         const { root } = this;
@@ -1775,12 +1944,33 @@ class OutdentListIfItsEmpty {
         }
         const list = root.getListUnderCursor();
         const lines = list.getLines();
-        if (lines.length > 1 ||
-            !isEmptyLineOrEmptyCheckbox(lines[0]) ||
-            list.getLevel() === 1) {
+        if (lines.length > 1 || !isEmptyLineOrEmptyCheckbox(lines[0])) {
+            return;
+        }
+        if (list.getLevel() === 1) {
+            this.deleteListIfItIsTheLastAndHasNoChildren(list);
             return;
         }
         this.outdentList.perform();
+    }
+    deleteListIfItIsTheLastAndHasNoChildren(list) {
+        const { root } = this;
+        const parent = list.getParent();
+        const siblings = parent.getChildren();
+        const cursor = root.getCursor();
+        if (!list.isEmpty() ||
+            siblings[siblings.length - 1] !== list ||
+            cursor.ch !== list.getLastLineContentEnd().ch) {
+            return;
+        }
+        this.stopPropagation = true;
+        this.updated = true;
+        parent.removeChild(list);
+        // Closing the list leaves an empty line behind. Root.print() strips
+        // a single trailing newline, so an empty list item is needed to
+        // represent that remaining empty line in the model.
+        parent.addAfterAll(new List(root, "", "", "", "", "", false));
+        root.replaceCursor({ line: cursor.line, ch: 0 });
     }
 }
 
@@ -1984,6 +2174,7 @@ class MoveListDown {
         return this.updated;
     }
     perform() {
+        var _a, _b;
         const { root } = this;
         if (!root.hasSingleCursor()) {
             return;
@@ -1994,12 +2185,19 @@ class MoveListDown {
         const grandParent = parent.getParent();
         const next = parent.getNextSiblingOf(list);
         const listStartLineBefore = root.getContentLinesRangeOf(list)[0];
+        let indentDiff = 0;
         if (!next && grandParent) {
             const newParent = grandParent.getNextSiblingOf(parent);
             if (newParent) {
+                const oldIndent = list.getFirstLineIndent();
+                const newIndent = (_b = (_a = newParent.getChildren()[0]) === null || _a === void 0 ? void 0 : _a.getFirstLineIndent()) !== null && _b !== void 0 ? _b : newParent.getFirstLineIndent() +
+                    oldIndent.slice(parent.getFirstLineIndent().length);
                 this.updated = true;
                 parent.removeChild(list);
                 newParent.addBeforeAll(list);
+                list.unindentContent(0, oldIndent.length);
+                list.indentContent(0, newIndent);
+                indentDiff = newIndent.length - oldIndent.length;
             }
         }
         else if (next) {
@@ -2015,7 +2213,7 @@ class MoveListDown {
         const cursor = root.getCursor();
         root.replaceCursor({
             line: cursor.line + lineDiff,
-            ch: cursor.ch,
+            ch: cursor.ch + indentDiff,
         });
         recalculateNumericBullets(root);
     }
@@ -2034,6 +2232,7 @@ class MoveListUp {
         return this.updated;
     }
     perform() {
+        var _a, _b;
         const { root } = this;
         if (!root.hasSingleCursor()) {
             return;
@@ -2044,12 +2243,19 @@ class MoveListUp {
         const grandParent = parent.getParent();
         const prev = parent.getPrevSiblingOf(list);
         const listStartLineBefore = root.getContentLinesRangeOf(list)[0];
+        let indentDiff = 0;
         if (!prev && grandParent) {
             const newParent = grandParent.getPrevSiblingOf(parent);
             if (newParent) {
+                const oldIndent = list.getFirstLineIndent();
+                const newIndent = (_b = (_a = newParent.getChildren().last()) === null || _a === void 0 ? void 0 : _a.getFirstLineIndent()) !== null && _b !== void 0 ? _b : newParent.getFirstLineIndent() +
+                    oldIndent.slice(parent.getFirstLineIndent().length);
                 this.updated = true;
                 parent.removeChild(list);
                 newParent.addAfterAll(list);
+                list.unindentContent(0, oldIndent.length);
+                list.indentContent(0, newIndent);
+                indentDiff = newIndent.length - oldIndent.length;
             }
         }
         else if (prev) {
@@ -2065,7 +2271,7 @@ class MoveListUp {
         const cursor = root.getCursor();
         root.replaceCursor({
             line: cursor.line + lineDiff,
-            ch: cursor.ch,
+            ch: cursor.ch + indentDiff,
         });
         recalculateNumericBullets(root);
     }
@@ -2597,6 +2803,11 @@ class VerticalLinesPluginValue {
             return;
         }
         const coords = this.view.coordsAtPos(fromOffset, 1);
+        if (!coords) {
+            // Skip this subtree while its starting coordinates are unavailable.
+            // A later editor update can redraw it if the coordinates become available.
+            return;
+        }
         if (parentCtx.rootLeft === undefined) {
             parentCtx.rootLeft = coords.left;
         }
@@ -3142,20 +3353,27 @@ class Parser {
             }
             listEndLineLookup++;
         }
+        // Whitespace that cannot be represented as a note separates lists. Resolve
+        // both boundaries before building the model, regardless of cursor position.
+        for (const boundary of this.findWhitespaceBoundaries(editor, listStartLine, listEndLine)) {
+            if (boundary === parsingStartLine) {
+                return null;
+            }
+            if (boundary < parsingStartLine) {
+                listStartLine = boundary + 1;
+            }
+            else {
+                listEndLine = boundary - 1;
+                break;
+            }
+        }
+        // A segment must start with a top-level item, not orphaned notes/children.
+        while (listStartLine <= parsingStartLine &&
+            !this.isListItemWithoutSpaces(editor.getLine(listStartLine))) {
+            listStartLine++;
+        }
         if (listStartLine > parsingStartLine || listEndLine < parsingStartLine) {
             return null;
-        }
-        // if the last line contains only spaces and that's incorrect indent, then ignore the last line
-        // https://github.com/vslinko/obsidian-outliner/issues/368
-        if (listEndLine > listStartLine) {
-            const lastLine = editor.getLine(listEndLine);
-            if (lastLine.trim().length === 0) {
-                const prevLine = editor.getLine(listEndLine - 1);
-                const [, prevLineIndent] = /^(\s*)/.exec(prevLine);
-                if (!lastLine.startsWith(prevLineIndent)) {
-                    listEndLine--;
-                }
-            }
         }
         const root = new Root({ line: listStartLine, ch: 0 }, { line: listEndLine, ch: editor.getLine(listEndLine).length }, editor.listSelections().map((r) => ({
             anchor: { line: r.anchor.line, ch: r.anchor.ch },
@@ -3216,9 +3434,7 @@ class Parser {
                 if (!currentList.getNotesIndent()) {
                     const matches = line.match(/^[ \t]+/);
                     if (!matches || matches[0].length <= currentIndent.length) {
-                        if (/^\s+$/.test(line)) {
-                            continue;
-                        }
+                        // Skipping a line would desynchronize the model and editor ranges.
                         return error(`Unable to parse list: expected some indent, got no indent`);
                     }
                     currentList.setNotesIndent(matches[0]);
@@ -3230,6 +3446,33 @@ class Parser {
             }
         }
         return root;
+    }
+    findWhitespaceBoundaries(editor, fromLine, toLine) {
+        const boundaries = [];
+        let itemIndent = "";
+        let notesIndent = null;
+        for (let l = fromLine; l <= toLine; l++) {
+            const line = editor.getLine(l);
+            const item = parseListItemRe.exec(line);
+            if (item) {
+                itemIndent = item[1];
+                notesIndent = null;
+            }
+            else if (this.isLineWithIndent(line)) {
+                const indent = line.match(/^[ \t]+/)[0];
+                if (/^\s+$/.test(line) &&
+                    (!line.startsWith(notesIndent !== null && notesIndent !== void 0 ? notesIndent : itemIndent) ||
+                        (notesIndent === null && indent.length <= itemIndent.length))) {
+                    boundaries.push(l);
+                    itemIndent = "";
+                    notesIndent = null;
+                }
+                else if (notesIndent === null) {
+                    notesIndent = indent;
+                }
+            }
+        }
+        return boundaries;
     }
     isEmptyLine(line) {
         return line.length === 0;

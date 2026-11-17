@@ -44,3 +44,42 @@ The first condition gets applied, and then we are looking for ways to accomplish
 
 
 ![[Combinatronics PYQs-1754226298927.webp]]
+
+
+
+> [!question] 
+> https://gateoverflow.in/1480/gate-cse-1999-question-2-2
+
+
+![[Combinatronics PYQs-1794326052071.webp]]
+
+
+
+> [!question]
+> https://gateoverflow.in/676/gate-cse-2000-question-5
+
+
+![[Combinatronics PYQs-1794385433772.webp]]
+
+
+
+> [!question] 
+> https://gateoverflow.in/333189/gate-cse-2020-question-42
+
+![[Combinatronics PYQs-1794494706431.webp]]
+
+
+> [!question] 
+> https://gateoverflow.in/43509/gate-cse-2007-question-85
+
+
+![[Combinatronics PYQs-1794646566899.webp]]
+
+
+
+> [!question] 
+> https://gateoverflow.in/39693/gate-cse-2016-set-1-question-26
+
+
+![[Combinatronics PYQs-1794721497569.webp]]
+

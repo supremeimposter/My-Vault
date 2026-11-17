@@ -4,7 +4,7 @@ tags:
 ---
 # Distributing Objects into Boxes
 
-Objects are distributed into boxes i.e. objects have the choices of boxes, and not the other way around.
+Objects are distributed into boxes i.e. **objects have the choices for boxes**, and not the other way around.
 
 ## DODB
 
@@ -23,13 +23,12 @@ $$
 \end{split}
 $$
 
-The boxes have to be permuted as well, since any box can have 2, 3, 2 objects in any order
+The boxes shouldn't be be permuted, since it will overcount the combinations.
 
-$$
-\begin{split}
-&= 3! \times \frac{7!}{2! \times 3! \times 2!}
-\end{split}
-$$
+> [!important] 
+> Every object has to be distributed
+> $n_{1} + n_{2} + \cdots n_{r} = n$
+
 
 ## IODB
 

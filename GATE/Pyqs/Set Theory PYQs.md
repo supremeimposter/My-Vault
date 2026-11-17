@@ -10,10 +10,14 @@ tags:
 > [!question] 
 > [Set Theory & Algebra: GATE CSE 1993 | Question: 8.3](https://gateoverflow.in/2301/gate-cse-1993-question-8-3)
 
+![[Set Theory PYQs-1792946140932.webp]]
+
 Union of $n$ sets is **infinite** iff at least one of them is infinite.
 
 Finite union of finite sets is **finite**.
 
+
+![[Set Theory PYQs-1792946127680.webp]]
 
 > [!question] 
 > [Set Theory & Algebra: GATE CSE 2000 | Question: 2.6](https://gateoverflow.in/653/gate-cse-2000-question-2-6)
@@ -115,3 +119,27 @@ Each equivalence relation on a set $A$ corresponds to a partition of $A$.
 
 
 ![[Set Theory PYQs-20240919095847872.webp]]
+
+
+> [!question] 
+> https://gateoverflow.in/357408/gate-cse-2021-set-1-question-43
+
+![[Set Theory PYQs-1793199315592.webp]]
+
+
+## Function PYQs
+
+
+## Group Theory PYQs
+
+
+> [!question] 
+> https://gateoverflow.in/357417/gate-cse-2021-set-1-question-34
+
+
+![[Set Theory PYQs-1793968866706.webp]]
+
+
+
+![[Guidelines to GATE-CS-1793969023650.webp]]
+

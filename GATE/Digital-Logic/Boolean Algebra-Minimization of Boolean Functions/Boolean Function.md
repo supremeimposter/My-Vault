@@ -35,7 +35,7 @@ f_1^d &= f_2^d \\ \\
 \end{split}
 $$
 
-## Different number of  Boolean Functions over $n$ variables
+## Different number of Boolean Functions over $n$ variables
 
 > [!header] Function over 0 variable 
 
@@ -236,7 +236,7 @@ Over $n$ variables, there are $2^{(2^{(n-1)})}$ such functions.
 
 ![[Boolean Function-20240528135127175.webp]]
 
-**ExOR** operation is commutative and associative and distributive.
+**ExOR** operation is commutative and associative.
 
 ![[Boolean Function-20240528135705213.webp]]
 

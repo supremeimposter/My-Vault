@@ -10,12 +10,12 @@
     "no-scrollbar",
     "math-blocks-padding",
     "wide-images",
-    "soft-highlighter",
     "anuppiccin-checkboxes",
-    "dimmed-completed-tasks"
+    "dimmed-completed-tasks",
+    "soft-highlighter"
   ],
-  "cssTheme": "Minimal",
-  "theme": "moonstone",
+  "cssTheme": "Sea Slug",
+  "theme": "obsidian",
   "showViewHeader": true,
   "baseFontSize": 21,
   "nativeMenus": false,

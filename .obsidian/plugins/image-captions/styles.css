@@ -17,16 +17,16 @@
     background: var(--color-base-30);
 }
 
-figure.image-captions-figure:has(img[alt*="|left"]) {
+figure.image-captions-figure.image-captions-left {
     float: left;
     margin-right: 1em;
 }
 
-figure.image-captions-figure:has(img[alt*="|right"]) {
+figure.image-captions-figure.image-captions-right {
     float: right;
     margin-left: 1em;
 }
 
-figure.image-captions-figure:has(img[alt*="|center"]) {
+figure.image-captions-figure.image-captions-center {
     margin: 0 auto;
 }

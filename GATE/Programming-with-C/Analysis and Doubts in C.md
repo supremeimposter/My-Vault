@@ -443,4 +443,16 @@ int main() {
 
 now this expression expands as `x= 3*(1+1) = 3*2 = 6`
 
+![[Analysis and Doubts in C-1791087613211.webp]]
+
+if swap1 were to be executed, it will be an in-line replacement of the macros, and not a real function call.
+
+![[Analysis and Doubts in C-1791087655188.webp]]
+
+![[Analysis and Doubts in C-1791087664830.webp]]
+
 ---
+## Declarations
+
+https://cseweb.ucsd.edu/~ricko/CSE131/rt_lt.rule.html
+

@@ -22,7 +22,7 @@ tags:
 - Since each don't care is either 0 or 1, a partial function with $k$ don't cares corresponds to a class of $2^k$ functions.
 - Every partial function is a class of functions.
 
-![[Don't Cares and Covering Functions-20240621105154655.webp|Partial Function with $2$ don't cares corresponds to $2^2$ class of functions]]
+![[Don't Cares and Covering Functions-20240621105154655.webp|Partial Function with $2$ don't care combinations corresponds to $2^2$ class of functions]]
 
 ## Don't Cares in K-Map
 
@@ -75,7 +75,7 @@ tags:
 $$
 f \text{ covers } g \equiv g \text{ implies } f \equiv g \rightarrow f \equiv g \subseteq f
 $$
-- There is no assignment of values to the variables that makes $g = 1$ and $f = 0$
+- There is no assignment of values to the variables that makes $g = 1$ and $f = 0$, similar to [[Implication]] in [[Propositional Logic]].
 - If $f$ covers $g$, then the true minterms of $g$ is a subset of true minterms of $f$.
 
 - If $f$ covers $g$, then $f$ is the covering function of $g$ and either of these two conditions occur

@@ -31,7 +31,7 @@ n_{P_{0}} &= \frac{n!}{(n-0)!} \\
 \end{split}
 $$
 
-The empty arrangement is counted as a permutation as well
+The empty arrangement is counted as a permutation as well.
 
 > [!problem] Permutations
 COMBATTIVE (yes, double T's)

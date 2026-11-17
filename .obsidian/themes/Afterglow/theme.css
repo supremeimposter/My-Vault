@@ -1,0 +1,490 @@
+/*
+ * Afterglow v0.1.0
+ *
+ * Generated from src/ by scripts/build.mjs. Do not edit by hand.
+ * Edit the modules in src/ and run: npm run build
+ */
+
+/* ===== src/01-shared.css ===== */
+
+/*
+ * Shared foundation — identical in both modes.
+ *
+ * Everything that is NOT a color lives here and is defined exactly once.
+ * This file is what makes Pastel Archive and Ultraviolet Library read as one
+ * theme: same typography, same rhythm, same shapes. If a value here ever needs
+ * to differ between modes, that is a design regression, not a new token.
+ */
+
+body {
+  /* Nonvisual identity marker for runtime load verification. */
+  --ag-theme: afterglow;
+
+  /* Typography — system and local families only. No bundled or remote fonts.
+     Each stack degrades through progressively more common families and ends
+     at a generic, so an absent font is never a broken surface. */
+  --ag-font-text:
+    'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia,
+    'Times New Roman', serif;
+  --ag-font-interface:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, sans-serif;
+  --ag-font-mono:
+    ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas,
+    'Liberation Mono', monospace;
+
+  /* Type scale — a 1.2 modular scale in em, so it follows the reader's own
+     font size setting instead of overriding it. */
+  --ag-scale-h1: 2.074em;
+  --ag-scale-h2: 1.728em;
+  --ag-scale-h3: 1.44em;
+  --ag-scale-h4: 1.2em;
+  --ag-scale-h5: 1em;
+  --ag-scale-h6: 0.833em;
+
+  --ag-weight-heading: 600;
+  --ag-weight-heading-strong: 700;
+  --ag-line-height-text: 1.6;
+  --ag-line-height-tight: 1.25;
+
+  /* Spacing scale. Afterglow's own rhythm, consumed by later component work.
+     Obsidian's --size-* layout scale is deliberately left alone: rewriting it
+     would move every surface in the app for no gain here. */
+  --ag-space-1: 2px;
+  --ag-space-2: 4px;
+  --ag-space-3: 8px;
+  --ag-space-4: 12px;
+  --ag-space-5: 16px;
+  --ag-space-6: 24px;
+  --ag-space-7: 32px;
+  --ag-space-8: 48px;
+
+  /* Borders and shapes. */
+  --ag-border-width: 1px;
+  --ag-border-width-thick: 2px;
+  --ag-radius-s: 4px;
+  --ag-radius-m: 8px;
+  --ag-radius-l: 12px;
+  --ag-radius-xl: 16px;
+
+  /* Motion. Neutralized in 05-motion.css under prefers-reduced-motion. */
+  --ag-transition-fast: 120ms;
+  --ag-transition-base: 200ms;
+  --ag-easing: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ===== src/02-palette.css ===== */
+
+/*
+ * Layer 1 — palette. Raw color values, per mode.
+ *
+ * These names describe pigment, not purpose. Nothing outside 03-roles.css may
+ * reference an --ag-palette-* value: component styling that reaches past the
+ * role layer is how two modes start to drift apart.
+ *
+ * Both palettes are organised into the same five hue families — violet, sky,
+ * mint, amber, blush — and each light family sits within 5 degrees of its dark
+ * counterpart on the color wheel. That is the mechanism behind "Ultraviolet
+ * Library seen in daylight": the two modes are not analogous palettes, they are
+ * the same hues at different lightness.
+ *
+ * In light mode the pale end of each family does structural work — sidebars,
+ * tabs, panels, hover — rather than only tinting callouts. Ivory stays the
+ * reading canvas and nothing else, which is what keeps the mode from reading
+ * as sepia.
+ *
+ * The pale values cannot carry text: measured on ivory they land near 1.3:1
+ * against a 4.5:1 requirement. Every text-bearing role therefore uses the deep
+ * end of the same family. See the Feature notes for the recorded adjustment.
+ */
+
+.theme-light {
+  /* Canvas — the one warm surface, reserved for reading */
+  --ag-palette-ivory: #fff9f2;
+  --ag-palette-ivory-bright: #fffcfa;
+
+  /* Violet — the identity hue, and the light mode's structural surfaces */
+  --ag-palette-violet-wash: #faf6ff;
+  --ag-palette-violet-pale: #efe7ff;
+  --ag-palette-violet-soft: #e4dcfa;
+  --ag-palette-violet-tint: #d6c6f5;
+  --ag-palette-violet-rule: #e7def9;
+  --ag-palette-violet-line: #d2c1ee;
+  --ag-palette-violet-deep: #5f3ab8;
+  --ag-palette-violet-deeper: #4a2c93;
+
+  /* Sky */
+  --ag-palette-sky-pale: #d9e9f7;
+  --ag-palette-sky-tint: #ddeef9;
+  --ag-palette-sky-deep: #175d80;
+  --ag-palette-sky-deeper: #0f4e6b;
+
+  /* Mint */
+  --ag-palette-mint-tint: #d9f0e6;
+  --ag-palette-mint-deep: #14705b;
+
+  /* Amber */
+  --ag-palette-amber-tint: #fbebd3;
+  --ag-palette-amber-highlight: #fae3b4;
+  --ag-palette-amber-deep: #8f4e10;
+
+  /* Blush */
+  --ag-palette-blush-tint: #fadfe5;
+  --ag-palette-blush-deep: #a82b47;
+
+  /* Ink — carries a faint violet cast so text sits in the same family as the
+     surfaces rather than reading as neutral grey dropped on a colored page */
+  --ag-palette-ink: #27242a;
+  --ag-palette-ink-deep: #1d1826;
+  --ag-palette-ink-soft: #574e63;
+  --ag-palette-ink-pale: #7c7290;
+  --ag-palette-ink-ghost: #a79db5;
+}
+
+.theme-dark {
+  /* Night — the black-violet foundation, unchanged. Every ground above it is
+     pulled further toward violet so the surfaces separate by hue, not only by
+     lightness. The hover ground is the exception: it carries a cyan cast, which
+     both separates it from the violet surfaces and puts the second accent hue
+     on screen during ordinary navigation. Its light counterpart does the same
+     job with sky-pale. */
+  --ag-palette-black-violet: #090611;
+  --ag-palette-black-violet-alt: #0e0919;
+  --ag-palette-aubergine: #150f28;
+  --ag-palette-aubergine-light: #1f1638;
+  --ag-palette-sky-shadow: #121e32;
+  --ag-palette-aubergine-form: #1a1230;
+  --ag-palette-violet-shadow: #3a2b55;
+  --ag-palette-violet-shadow-soft: #291e44;
+  --ag-palette-violet-deep: #3b2670;
+
+  /* Light on dark */
+  --ag-palette-ivory: #f5efe8;
+  --ag-palette-ivory-bright: #fbf6f0;
+  --ag-palette-lavender-grey: #b8acc9;
+  --ag-palette-lavender-dim: #857a9b;
+  --ag-palette-lavender-ghost: #635873;
+
+  /* Luminous accents */
+  --ag-palette-ultraviolet: #9a6bff;
+  --ag-palette-ultraviolet-bright: #b78cff;
+  --ag-palette-sky: #6fd3f7;
+  --ag-palette-sky-bright: #9be2fb;
+  --ag-palette-mint: #58d9b4;
+  --ag-palette-tangerine: #ff8a3d;
+  --ag-palette-coral: #ff8095;
+
+  /* State grounds */
+  --ag-palette-sky-ground: #10202e;
+  --ag-palette-mint-ground: #0f2019;
+  --ag-palette-amber-ground: #271408;
+  --ag-palette-amber-highlight: #3e2c10;
+  --ag-palette-coral-ground: #280f16;
+}
+
+/* ===== src/03-roles.css ===== */
+
+/*
+ * Layer 2 — semantic roles. Shared names, mode-specific values.
+ *
+ * The two blocks below must define exactly the same set of --ag-* names. A
+ * role that exists in one mode and not the other is a defect, and the token
+ * parity check in chunk 3 exists to catch it.
+ *
+ * Names describe purpose, never appearance: --ag-accent-interactive, not
+ * --ag-lilac. That is what lets the dark mode swap ultraviolet in for deepened
+ * violet without a single consumer changing.
+ *
+ * The ground roles are ordered page -> page-alt -> surface -> elevated. In both
+ * modes that order steps away from the reading canvas and deeper into the
+ * identity hue, which is what gives sidebars, tabs and panels their separation
+ * without a single per-component selector.
+ */
+
+.theme-light {
+  /* Grounds — ivory reads, violet frames */
+  --ag-bg-page: var(--ag-palette-ivory);
+  --ag-bg-page-alt: var(--ag-palette-violet-wash);
+  --ag-bg-surface: var(--ag-palette-violet-pale);
+  --ag-bg-elevated: var(--ag-palette-violet-soft);
+  --ag-bg-hover: var(--ag-palette-sky-pale);
+  --ag-bg-form: var(--ag-palette-ivory-bright);
+
+  /* Text */
+  --ag-text-body: var(--ag-palette-ink);
+  --ag-text-heading: var(--ag-palette-ink-deep);
+  --ag-text-muted: var(--ag-palette-ink-soft);
+  --ag-text-faint: var(--ag-palette-ink-pale);
+  --ag-text-on-accent: var(--ag-palette-ivory);
+
+  /* Rules */
+  --ag-border: var(--ag-palette-violet-line);
+  --ag-rule: var(--ag-palette-violet-rule);
+
+  /* Interaction */
+  --ag-accent-interactive: var(--ag-palette-violet-deep);
+  --ag-accent-interactive-hover: var(--ag-palette-violet-deeper);
+  --ag-link: var(--ag-palette-sky-deep);
+  --ag-link-hover: var(--ag-palette-sky-deeper);
+  --ag-link-unresolved: var(--ag-palette-ink-pale);
+  --ag-selection: var(--ag-palette-violet-tint);
+  --ag-highlight: var(--ag-palette-amber-highlight);
+  --ag-focus-ring: var(--ag-palette-violet-deep);
+  --ag-disabled: var(--ag-palette-ink-ghost);
+
+  /* Semantic states */
+  --ag-info: var(--ag-palette-sky-deep);
+  --ag-info-surface: var(--ag-palette-sky-tint);
+  --ag-success: var(--ag-palette-mint-deep);
+  --ag-success-surface: var(--ag-palette-mint-tint);
+  --ag-warning: var(--ag-palette-amber-deep);
+  --ag-warning-surface: var(--ag-palette-amber-tint);
+  --ag-error: var(--ag-palette-blush-deep);
+  --ag-error-surface: var(--ag-palette-blush-tint);
+
+  /* Glow is a role in both modes so the token sets stay in parity. Light mode
+     is lit by paper, not by emission, so it resolves to nothing. */
+  --ag-glow: none;
+  --ag-glow-text: none;
+}
+
+.theme-dark {
+  /* Grounds */
+  --ag-bg-page: var(--ag-palette-black-violet);
+  --ag-bg-page-alt: var(--ag-palette-black-violet-alt);
+  --ag-bg-surface: var(--ag-palette-aubergine);
+  --ag-bg-elevated: var(--ag-palette-aubergine-light);
+  --ag-bg-hover: var(--ag-palette-sky-shadow);
+  --ag-bg-form: var(--ag-palette-aubergine-form);
+
+  /* Text */
+  --ag-text-body: var(--ag-palette-ivory);
+  --ag-text-heading: var(--ag-palette-ivory-bright);
+  --ag-text-muted: var(--ag-palette-lavender-grey);
+  --ag-text-faint: var(--ag-palette-lavender-dim);
+  --ag-text-on-accent: var(--ag-palette-black-violet);
+
+  /* Rules */
+  --ag-border: var(--ag-palette-violet-shadow);
+  --ag-rule: var(--ag-palette-violet-shadow-soft);
+
+  /* Interaction */
+  --ag-accent-interactive: var(--ag-palette-ultraviolet);
+  --ag-accent-interactive-hover: var(--ag-palette-ultraviolet-bright);
+  --ag-link: var(--ag-palette-sky);
+  --ag-link-hover: var(--ag-palette-sky-bright);
+  --ag-link-unresolved: var(--ag-palette-lavender-dim);
+  --ag-selection: var(--ag-palette-violet-deep);
+  --ag-highlight: var(--ag-palette-amber-highlight);
+  --ag-focus-ring: var(--ag-palette-ultraviolet-bright);
+  --ag-disabled: var(--ag-palette-lavender-ghost);
+
+  /* Semantic states */
+  --ag-info: var(--ag-palette-sky);
+  --ag-info-surface: var(--ag-palette-sky-ground);
+  --ag-success: var(--ag-palette-mint);
+  --ag-success-surface: var(--ag-palette-mint-ground);
+  --ag-warning: var(--ag-palette-tangerine);
+  --ag-warning-surface: var(--ag-palette-amber-ground);
+  --ag-error: var(--ag-palette-coral);
+  --ag-error-surface: var(--ag-palette-coral-ground);
+
+  /* Ultraviolet Library's one emissive gesture. Applied only to short-lived or
+     selected elements — never to paragraph text, which is what separates a
+     luminous theme from an unreadable one. */
+  --ag-glow: 0 0 8px rgb(154 107 255 / 45%);
+  --ag-glow-text: 0 0 12px rgb(111 211 247 / 35%);
+}
+
+/* ===== src/04-obsidian.css ===== */
+
+/*
+ * Layer 3 — Obsidian variable mapping.
+ *
+ * Roles are assigned to Obsidian's own documented CSS variables, once, under
+ * body. Because the role values are supplied per mode in 03-roles.css, this
+ * mapping never needs a light or dark variant of its own.
+ *
+ * This file is why the theme reaches nearly every surface without per-surface
+ * CSS. Preferring a documented variable over a selector is also what keeps it
+ * alive across Obsidian updates: a variable is a contract, a class chain is a
+ * guess.
+ */
+
+body {
+  /* --- Typography -------------------------------------------------------
+     The *-theme variables are Obsidian's designated slot for themes, and sit
+     below the user's own font setting in the cascade. Setting them means a
+     reader who has chosen a font keeps it. */
+  --font-text-theme: var(--ag-font-text);
+  --font-interface-theme: var(--ag-font-interface);
+  --font-monospace-theme: var(--ag-font-mono);
+
+  --line-height-normal: var(--ag-line-height-text);
+  --line-height-tight: var(--ag-line-height-tight);
+
+  --h1-size: var(--ag-scale-h1);
+  --h2-size: var(--ag-scale-h2);
+  --h3-size: var(--ag-scale-h3);
+  --h4-size: var(--ag-scale-h4);
+  --h5-size: var(--ag-scale-h5);
+  --h6-size: var(--ag-scale-h6);
+
+  --h1-weight: var(--ag-weight-heading-strong);
+  --h2-weight: var(--ag-weight-heading);
+  --h3-weight: var(--ag-weight-heading);
+  --h4-weight: var(--ag-weight-heading);
+  --h5-weight: var(--ag-weight-heading);
+  --h6-weight: var(--ag-weight-heading);
+
+  --h1-color: var(--ag-text-heading);
+  --h2-color: var(--ag-text-heading);
+  --h3-color: var(--ag-text-heading);
+  --h4-color: var(--ag-text-heading);
+  --h5-color: var(--ag-text-heading);
+  --h6-color: var(--ag-text-heading);
+
+  /* --- Shape ----------------------------------------------------------- */
+  --radius-s: var(--ag-radius-s);
+  --radius-m: var(--ag-radius-m);
+  --radius-l: var(--ag-radius-l);
+  --radius-xl: var(--ag-radius-xl);
+  --border-width: var(--ag-border-width);
+  --divider-width: var(--ag-border-width);
+
+  /* --- Backgrounds ------------------------------------------------------ */
+  --background-primary: var(--ag-bg-page);
+  --background-primary-alt: var(--ag-bg-page-alt);
+  --background-secondary: var(--ag-bg-surface);
+  --background-secondary-alt: var(--ag-bg-elevated);
+
+  --background-modifier-hover: var(--ag-bg-hover);
+  --background-modifier-active-hover: var(--ag-selection);
+  --background-modifier-border: var(--ag-border);
+  --background-modifier-border-hover: var(--ag-accent-interactive);
+  --background-modifier-border-focus: var(--ag-focus-ring);
+  --background-modifier-form-field: var(--ag-bg-form);
+  --background-modifier-error: var(--ag-error-surface);
+  --background-modifier-error-hover: var(--ag-error-surface);
+  --background-modifier-success: var(--ag-success-surface);
+  --background-modifier-message: var(--ag-bg-elevated);
+
+  --divider-color: var(--ag-rule);
+
+  /* --- Text ------------------------------------------------------------- */
+  --text-normal: var(--ag-text-body);
+  --text-muted: var(--ag-text-muted);
+  --text-faint: var(--ag-text-faint);
+  --text-on-accent: var(--ag-text-on-accent);
+  --text-on-accent-inverted: var(--ag-text-body);
+  --text-accent: var(--ag-accent-interactive);
+  --text-accent-hover: var(--ag-accent-interactive-hover);
+  --text-selection: var(--ag-selection);
+  --text-highlight-bg: var(--ag-highlight);
+
+  --text-error: var(--ag-error);
+  --text-warning: var(--ag-warning);
+  --text-success: var(--ag-success);
+
+  /* --- Interaction ------------------------------------------------------ */
+  --interactive-normal: var(--ag-bg-surface);
+  --interactive-hover: var(--ag-bg-elevated);
+  --interactive-accent: var(--ag-accent-interactive);
+  --interactive-accent-hover: var(--ag-accent-interactive-hover);
+  --caret-color: var(--ag-accent-interactive);
+
+  /* --- Links ------------------------------------------------------------ */
+  --link-color: var(--ag-link);
+  --link-color-hover: var(--ag-link-hover);
+  --link-external-color: var(--ag-link);
+  --link-external-color-hover: var(--ag-link-hover);
+  --link-unresolved-color: var(--ag-link-unresolved);
+  --tag-color: var(--ag-accent-interactive);
+
+  /* --- Application chrome ----------------------------------------------
+     Sidebars, tabs, ribbon, status bar and icons, reached entirely through
+     Obsidian's own documented variables. This is where the ground hierarchy
+     becomes visible: the editor sits on the reading canvas, every frame around
+     it sits on a surface stepped into the identity hue.
+
+     Callouts, tables, code blocks, properties, checkboxes, the command palette
+     and modals are deliberately absent — those are later Features, and reaching
+     them would mean writing selectors. */
+  --tab-container-background: var(--ag-bg-elevated);
+  --tab-background-active: var(--ag-bg-page);
+  --tab-text-color: var(--ag-text-muted);
+  --tab-text-color-active: var(--ag-text-body);
+  --tab-text-color-focused-active: var(--ag-accent-interactive);
+  --tab-outline-color: var(--ag-border);
+  --tab-divider-color: var(--ag-rule);
+
+  --nav-item-color: var(--ag-text-muted);
+  --nav-item-color-hover: var(--ag-text-body);
+  --nav-item-color-active: var(--ag-accent-interactive);
+  --nav-item-color-selected: var(--ag-accent-interactive);
+  --nav-item-background-hover: var(--ag-bg-hover);
+  --nav-item-background-active: var(--ag-selection);
+  --nav-item-background-selected: var(--ag-selection);
+  --nav-indentation-guide-color: var(--ag-border);
+  --nav-collapse-icon-color: var(--ag-text-faint);
+
+  --ribbon-background: var(--ag-bg-elevated);
+  --ribbon-background-collapsed: var(--ag-bg-elevated);
+  --ribbon-color: var(--ag-text-muted);
+
+  --titlebar-background: var(--ag-bg-elevated);
+  --titlebar-background-focused: var(--ag-bg-elevated);
+  --titlebar-text-color: var(--ag-text-muted);
+
+  --status-bar-background: var(--ag-bg-elevated);
+  --status-bar-text-color: var(--ag-text-muted);
+  --status-bar-border-color: var(--ag-border);
+
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: var(--ag-border);
+  --scrollbar-active-thumb-bg: var(--ag-accent-interactive);
+
+  --icon-color: var(--ag-text-muted);
+  --icon-color-hover: var(--ag-text-body);
+  --icon-color-active: var(--ag-accent-interactive);
+  --icon-color-focused: var(--ag-text-body);
+
+  /* --- Graph -----------------------------------------------------------
+     Mapped from existing roles rather than given roles of their own: the graph
+     is the accent and the rule color, seen from further away. */
+  --graph-line: var(--ag-border);
+  --graph-node: var(--ag-text-muted);
+  --graph-node-focused: var(--ag-accent-interactive);
+  --graph-node-tag: var(--ag-success);
+  --graph-node-attachment: var(--ag-warning);
+  --graph-node-unresolved: var(--ag-text-faint);
+}
+
+/*
+ * Ultraviolet Library's glow, applied to links only.
+ *
+ * An element selector, not a class chain, so no Obsidian internal is being
+ * relied on. Focus ring, caret and active tab reach their glow through the
+ * variable mapping above where Obsidian exposes one; the rest is per-surface
+ * work and belongs to a later Feature.
+ */
+.theme-dark a {
+  text-shadow: var(--ag-glow-text);
+}
+
+/* ===== src/05-motion.css ===== */
+
+/*
+ * Reduced motion.
+ *
+ * The token layer introduces motion only as duration tokens, so honoring the
+ * preference means collapsing them at the source. Anything that later consumes
+ * --ag-transition-* inherits this for free and cannot forget to.
+ */
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    --ag-transition-fast: 0ms;
+    --ag-transition-base: 0ms;
+  }
+}

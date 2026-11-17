@@ -18,7 +18,8 @@ version: DM-2024
 > - some or particular is some element intentionally noted.
 > - arbitrary is picking an element at random with no intention.
 
-![[Pasted image 20230925180426.png]]
+![[Arguments in FOL-1792336335811.webp]]
+
 - For `Universal Generalization`, if "some" element P(c) is true, then we cannot say about $\forall x\; P(x)$. It is invalid.
 - `Existential Instantiation` is invalid if c is not mentioned as "some" element. If c is an "arbitrary" element, then also it is not valid.
 

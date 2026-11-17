@@ -20,7 +20,7 @@ K map (Karnaugh Map) is used to get the **minimum SOP and minimum POS** for any 
 
 Minimum SOP has the minimum number of product terms and out of those minimum number of terms, there are minimum number of literals.
 Minimum POS has the minimum number of sum terms and out of those minimum number of terms, there are minimum number of literals.
-Minimum SOP and minimum POS are not unique forms.
+Minimum SOP and minimum POS are not unique forms for any boolean expression.
 
 Minimization using k-map reduces the given expression that corresponds to a circuit in **2-level implementation**.
 
@@ -34,6 +34,8 @@ K-map contains all the $2^n$ minterms for function over $n$ variables. Each cell
 The adjacent cells of a K-map differ just by one variable, but it is not the case in truth tables.
 
 ![[Minimization using K Map-20240520092116865.webp]]
+
+## Idea Behind K-maps
 
 Two minterms can be combined or reduced to a single product term if one variable changes in a k-map. 
 Let $A$ be any boolean expression and $a$ be a boolean variable,
@@ -61,6 +63,8 @@ If the order of variables of a function $f$ is given, then then the order of the
 
 ![[Minimization using K Map-20240620181818424.webp]]
 ![[Minimization using K Map-20240723100056736.webp]]
+
+## Cube in a K-map
 
 A cube in a k-map is a group of $2^m$ ($m \ge 0$) cells such that every cell is adjacent to exactly $m$ cells in the group.
 

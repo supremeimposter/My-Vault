@@ -12,6 +12,8 @@ tags:
 ![[C PYQs-1751884150597.webp]]
 
 
+call by referencing is nothing but aliasing parameters, but by default, C is call by value.
+
 
 > [!question] 
 > [Programming in C: GATE CSE 2015 Set 3 \| Question: 7](https://gateoverflow.in/8401/gate-cse-2015-set-3-question-7)
@@ -42,3 +44,29 @@ tags:
 ![[C PYQs-1788872927093.webp]]
 
 ![[C PYQs-1788872158486.webp]]
+
+
+
+> [!question] 
+> https://gateoverflow.in/639/gate-cse-2000-question-1-16
+
+
+![[C PYQs-1790219545457.webp]]
+
+
+> [!question] 
+> https://gateoverflow.in/87095/gate-cse-1989-question-3-i
+
+
+![[C PYQs-1790225532944.webp]]
+
+
+
+> [!question] 
+> https://gateoverflow.in/305/gate-cse-1994-question-1-20
+
+![[C PYQs-1791037184793.webp]]
+
+best answer : https://gateoverflow.in/305/gate-cse-1994-question-1-20?show=316#a316
+
+C, by default is call by value only.

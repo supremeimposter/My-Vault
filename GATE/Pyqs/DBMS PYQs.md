@@ -137,21 +137,32 @@ Given that the queries in LHS are valid, are the queries in the RHS valid or not
 
 
 > [!question] 
-> [Databases: GATE CSE 2024 | Set 2 | Question: 35](https://gateoverflow.in/422862/gate-cse-2024-set-2-question-35)
+> [GATE CSE 1999 | Question: 1.18, ISRO2016-53](https://gateoverflow.in/1471/gate-cse-1999-question-1-18-isro2016-53)
 
-![[DBMS PYQs-20240927204849460.webp]]
+
+![[DBMS PYQs-1790211724945.webp]]
+
+
+> [!question]
+> [ GATE CSE 2001 | Question: 1.24](https://gateoverflow.in/717/gate-cse-2001-question-1-24)
+
+![[DBMS PYQs-1790212309825.webp]]
 
 
 > [!question] 
-> [Databases: GATE DS&AI 2024 | Question: 16](https://gateoverflow.in/422946/gate-ds%26ai-2024-question-16)
-
-![[DBMS PYQs-20240927204913180.webp]]
+> https://gateoverflow.in/1742/gate-cse-1998-question-27
 
 
+![[DBMS PYQs-1790505779078.webp]]
 
-![[DBMS PYQs-20240927204955449.webp]]
+
+> [!question] 
+> https://gateoverflow.in/371921/gate-cse-2022-question-15
 
 
+![[DBMS PYQs-1790530042958.webp]]
+
+---
 ## SQL PYQs
 
 
@@ -161,6 +172,25 @@ Given that the queries in LHS are valid, are the queries in the RHS valid or not
 ![[DBMS PYQs-20240928204827382.webp]]
 
 
+
+> [!question] 
+> [GATE CSE 2009 | Question: 55](https://gateoverflow.in/1339/gate-cse-2009-question-55)
+
+![[DBMS PYQs-1789454772063.webp]]
+
+![[DBMS PYQs-1789454784184.webp]]
+
+
+> [!question] 
+> [ GATE CSE 2014 | Set 2 | Question: 54](https://gateoverflow.in/2021/gate-cse-2014-set-2-question-54)
+
+
+![[DBMS PYQs-1789537022970.webp]]
+
+
+Take a small example to work-out and rule out the options.
+
+---
 
 ## Disk PYQs
 

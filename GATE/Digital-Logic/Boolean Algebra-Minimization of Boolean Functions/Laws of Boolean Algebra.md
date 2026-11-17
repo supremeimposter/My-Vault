@@ -133,7 +133,8 @@ $$
 $$
 
 > [!attention] 
-> AND and OR are not complement of each other
+> AND and OR are not complement of each other, but dual of each other.
+> ![[Laws of Boolean Algebra-1790583275339.webp]]
 
 ### Complementing Boolean Expressions
 
@@ -179,7 +180,7 @@ There may be some functions which do hold for cancellation laws. e.g. converses 
 
 ![[Laws of Boolean Algebra-20240528134424642.webp]]
 
-![[Laws of Boolean Algebra-20240619121332830.webp|Cancellation laws do hold here]]
+![[Laws of Boolean Algebra-20240619121332830.webp|Cancellation laws do hold here|836]]
 
 > [!example] 
 >> In this example, it is given that $a=1$,

@@ -1,4 +1,5 @@
 ---
+title: Guidelines to GATE-CS
 tags:
   - GATE/Guidelines
 ---
@@ -11,7 +12,7 @@ tags:
 
 - Not all the information given is useful. Read the question carefully.
 - Look carefully at the question if they are asking for the **true** ones or **false** ones.
-- If all the options are wrong for a question, do tick at the closest option, do not totally skip it.
+- If **all the options are wrong** for a question, do tick at the closest option, do not totally skip it.
 - Before clicking the answer, always check if that's what they have asked in the question for you to answer.
 
 ![[Guidelines to GATE-CS-1754138293513.webp]]
@@ -46,6 +47,10 @@ $$
 
 ![[Guidelines to GATE-CS-1788873294435.webp]]
 
+![[Guidelines to GATE-CS-1794484081893.webp]]
+
+- Co-prime numbers are those numbers whose GCD is 1.
+
 ## Guidelines to Algorithms
 
 
@@ -57,7 +62,7 @@ $$
 ![[Guidelines to GATE-CS-1755107390202.webp]]
 
 
-- Look carefully if they are asking for asymptotic analysis or just simply solve a recurrence relation. If there is no $\theta, \mathcal{O}, \mathcal{\Omega}$, then get the exact value of the recurrence relation.
+- Look carefully if they are asking for asymptotic analysis or just simply solve a recurrence relation. If there is no $\theta, \mathcal{O}, \mathcal{\Omega}$ then get the exact value of the recurrence relation.
 - In case of doubts in solving the recurrence relations, just substitute some values and look for the pattern if it clears.
 
 
@@ -71,6 +76,7 @@ also do checkout [[Analysis and Doubts in C]]
 
 ![[Guidelines to GATE-CS-1788363115826.webp]]
 
+- `goto` makes it difficult to verify or debug programs.
 
 ![[Operators in C-20240622201510103.webp]]
 
@@ -136,7 +142,7 @@ y += funcf(x) + funcg(x);
 
 - Remember: **L**ittle endian => **L**east significant byte at **L**ower memory address
 
-- Unlike `array`'s names decaying to a pointer to its first element, a `struct`'s name doesn't point to anything
+- Unlike `array`'s names decaying to a pointer to its first element, a `struct`'s name doesn't point to anything.
 
 ![[Guidelines to GATE-CS-1788875846072.webp]]
 
@@ -180,6 +186,21 @@ $$
 
 ![[Guidelines to GATE-CS-20250227153152261.webp]]
 
+- If not specified, the default order of boolean variables in a function is the alphabetical order.
+- The order of variables matters only in case of minters and maxterms definition. The order of variables doesn't change the output from k-maps.
+
+![[Guidelines to GATE-CS-1790851554560.webp|Order of variables matter in minterm and maxterm expansion]]
+
+![[Guidelines to GATE-CS-1790851864494.webp]]
+
+$$
+\begin{align}
+f(a, b, c) &= \overline{f}(a, \overline{b}, \overline{c}) \\
+&\Downarrow  \\
+f(a, b, c) &\not= f(a, \overline{b}, \overline{c})
+\end{align}
+$$
+
 - When truth table is given, it is easier to find dual of a boolean expression using the complement.
 
 ![[Boolean Function-20240527175758734.webp]]
@@ -190,6 +211,11 @@ $$
 - See if there are any redundant larger cubes after identifying all the cubes in k-maps.
 - Look for the corner 1-cells and the folding 1-cells while creating cubes.
 - In case of 'x' marks in a k-map, make sure it is given that 'x' represents don't cares.
+- In case of partial boolean functions, the function outputs will be don't cares (x), not the outputs, we only mention that the input combinations (interpretations) corresponding to don't care outputs i.e. Inputs are not don't cares, but the corresponding output is.
+- When you look at the k-map, make sure that the decimals are in the standard order of change over 1 variable.
+
+![[Guidelines to GATE-CS-1791006388176.webp|Here for BC, the order of decimals are not in k-map standard order|836]]
+
 
 - Do not try to remember subtraction of unsigned numbers using complements. Just apply the expansion technique and find the difference.
 - Sign-magnitude, 1's complement, 2's complement representation are only for signed binary numbers in digital systems. They are not operations here, they are number systems specific to signed binary numbers in digital systems. There is no 9s complement or 10s complement representation.
@@ -294,6 +320,10 @@ $$
 - Just have an overview that relations are nothing but sets of tuples. It will help you simplify relations mentally.
 
 ![[Guidelines to GATE-CS-1762393503341.webp]]
+
+![[Guidelines to GATE-CS-1789472947011.webp]]
+
+![[Guidelines to GATE-CS-1789472936948.webp]]
 
 
 ### Guidelines to SQL
@@ -703,8 +733,16 @@ $$\text{Error detected} \to \text{Error exists i.e something is wrong}$$
 ![[Guidelines to GATE-CS-20250106164824647.webp]]
 ![[Guidelines to GATE-CS-20250106164834452.webp]]
 
-![[Guidelines to GATE-CS-20250216085746933.webp|Neither....nor]]
+![[Guidelines to GATE-CS-20250216085746933.webp|Neither....nor|836]]
+
 ![[Guidelines to GATE-CS-20250216085850787.webp]]
+
+![[Guidelines to GATE-CS-1794485366069.webp]]
+
+![[Guidelines to GATE-CS-1790395499451.webp]]
+
+
+- If P is not true, then Q will be true, or, P or Q i.e. $\neg P \to Q \equiv P \lor Q$
 
 - Do not confuse with solving by-case method in logical equivalence. Just take one of the propositional variables and see what happens to the both the expressions for the variables' truth values.
 
@@ -752,7 +790,7 @@ $$\text{Error detected} \to \text{Error exists i.e something is wrong}$$
 
 - Whenever an implication $P \to Q$ is ***<mark style="background-color: #fff88f; color: black">given</mark>***, it means whenever $P$ is true, then $Q$ is true. Don't ovethink about the false case where P = T and Q = F. 
 
-![[Guidelines to GATE-CS-1756462518106.webp|Rules of Inference]]
+![[Guidelines to GATE-CS-1756462518106.webp|Rules of Inference|836]]
 
 
 ### Guidelines to First Order Logic
@@ -766,17 +804,19 @@ $$\text{Error detected} \to \text{Error exists i.e something is wrong}$$
 - Quantifiers cannot affect any propositions i.e. predicates with no predicate variables.
 - The name of the free variable should not be changed, but the name of the bounded variable can be changed to avoid confusion.
 
-![[Guidelines to GATE-CS-20240928122013459.webp|Precedence of operators]]
+![[Guidelines to GATE-CS-20240928122013459.webp|Precedence of operators|836]]
 
 - For universal quantified statement to be false, you need a counter example. It is usually paired with $\rightarrow$
 - For existential quantified statement to be true, you need a witness. It is usually paired with $\land$
-- some $p$ is $q$ $\equiv$ $\exists x\: (\,p(x) \land q(x)\,)$
-- all $p$ are $q$ $\equiv$ $\forall x\: (\,p(x) \rightarrow q(x)\,)$
-
-![[Guidelines to GATE-CS-20241231082647845.webp]]
 
 ![[Guidelines to GATE-CS-20241220162654821.webp]]
 
+- some $p$ is $q$ $\equiv$ $\exists x\: (\,p(x) \land q(x)\,)$
+- all $p$ are $q$ $\equiv$ $\forall x\: (\,p(x) \rightarrow q(x)\,)$
+
+![[Guidelines to GATE-CS-1791697208258.webp]]
+
+![[Guidelines to GATE-CS-20241231082647845.webp]]
 
 ![[Guidelines to GATE-CS-20240924232034926.webp]]
 
@@ -795,7 +835,7 @@ flexGrow=1
 
 - A bounded variable cannot be replaced by any value from the domain. A bounded variable is just a placeholder.
 
-- Order of quantifiers does NOT matter if all the quantifiers are same.
+- Order of quantifiers does NOT matter if all the quantifiers are same, but it does matter in case of different quantifers.
 
 ![[Guidelines to GATE-CS-20241223223623784.webp]]
 
@@ -809,13 +849,32 @@ flexGrow=1
 - For logical equivalence of FOL expressions, check validity for both implications. 
 - $\alpha \equiv \beta$ iff $(\alpha \rightarrow \beta)$ is valid and $(\beta \rightarrow \alpha)$ is valid.
 
-![[Guidelines to GATE-CS-20241228192301789.webp|Distributive property of quantifiers]]
+- When confusions arise with nested quantifiers equality or validity, take a small finite domain $\{a, b, c\}$ and work on it, to avoid any confusions.
 
-- wff (well-framed (propositional) formula) is a proposition which has no free variables.
+![[Guidelines to GATE-CS-1792604125814.webp]]
+
+![[Guidelines to GATE-CS-20241228192301789.webp|Distributive property of quantifiers over logical connectives|836]]
+
+- wff (well-framed (propositional) formula) is a proposition which has **no free** variables.
 
 ![[Guidelines to GATE-CS-20241230182726949.webp]]
 
+![[Arguments in FOL-1792336335811.webp]]
 
+- If there are commas in FOL expressions, then they mean scope. Refer [this](https://gateoverflow.in/3283/gate-it-2008-question-22) gate question
+$$\forall x, \alpha \rightarrow (\exists y, \beta \rightarrow (\forall u, \exists v, y)) \equiv \forall x\,(\alpha \rightarrow \exists y \,(\beta \rightarrow (\forall u \,\exists v \,(y))))$$
+
+![[Guidelines to GATE-CS-1792290950263.webp]]
+
+![[Guidelines to GATE-CS-1792290973277.webp]]
+
+- In FOL, for model and co-model interpretations, don't take empty domains. They cannot exist for empty domains.
+
+- [Tautology in FOL - Deepak Poonia answer](https://gateoverflow.in/8259/gate-cse-2015-set-2-question-55?show=359457#a359457)
+
+![[Guidelines to GATE-CS-1792590509524.webp]]
+
+---
 ### Guidelines to Set Theory
 
 #### Guidelines to Sets
@@ -826,7 +885,7 @@ flexGrow=1
 - While building a set, do not forget the negative portion.
 - The resultant of the operations on a set is again a set.
 
-![[Guidelines to GATE-CS-20250102202905217.webp|cardinality of power sets]]
+![[Guidelines to GATE-CS-20250102202905217.webp|cardinality of power sets|836]]
 
 ![[Guidelines to GATE-CS-20250101103944450.webp]]
 
@@ -885,9 +944,19 @@ $$
 ![[Guidelines to GATE-CS-20250103170558086.webp]]
 
 - It is better to use graph representation for checking out transitive relation to avoid any imaginary errors. Also do not confuse graph representation with Hasse diagrams in case of POR analysis, where transitive relations might look confusing.
-- If a relation is symmetric but not reflexive, then the relation is also not transitive.
+- for transitive relation checking from graphs, please look at the self loops in case bi-directional arrows. you miss that every time.
 
-- For general questions on relations, also consider evaluating empty relations and universal relations.
+![[Guidelines to GATE-CS-1793107106920.webp]]
+
+- If a relation is symmetric but not reflexive, then the relation is also not transitive.
+- If a relation is not symmetric, then it doesn't mean its either anti-symmetric or asymmetric.
+$$
+\text{Not symmetric} \not\rightarrow \text{anti-symmetric} \\
+\text{Not symmetric} \not\rightarrow \text{asymmetric}
+$$
+![[Guidelines to GATE-CS-1792606020299.webp]]
+
+- For general questions on relations, also consider evaluating empty relations $\{\phi\}$ and universal relations.
 
 - Matrix representation of a relation is a good way to count the number of relations
 
@@ -949,8 +1018,13 @@ $$
 
 - To check for sub-lattice of a lattice, just check for LUB, GLB of non-comparable elements.
 - A single element base set is a lattice in which the only element is both the greatest and least element.
+- A Complete lattice is a lattice in which every non-empty subset has a LUB and a GLB. Every finite lattice is complete and bounded.
 
 - If $L$ is distributive, then for every element there are <mark style="background-color: #1EFF00; color: black">at most</mark> one complement.
+- Every toset is a distributive lattice.
+- The smallest non-distributive lattices are $M_{3}$ and $N_{5}$ lattice.
+
+![[Guidelines to GATE-CS-1793374332265.webp]]
 
 ![[Guidelines to GATE-CS-20250109120125164.webp]]
 
@@ -962,6 +1036,97 @@ $$
 ![[Guidelines to GATE-CS-20250110175639374.webp]]
 ![[Guidelines to GATE-CS-20250110181558106.webp]]
 
+![[Guidelines to GATE-CS-1793525109556.webp]]
+
+![[Guidelines to GATE-CS-1793543182234.webp]]
+![[Guidelines to GATE-CS-1793543225375.webp]]
+
+### Guidelines to Group Theory
+
+![[Guidelines to GATE-CS-1793596915059.webp]]
+
+- $\#, \ast$ can be used to denote a random binary operation i.e. $a\#b$ or $a \ast b$
+- A binary operation on a set $S$ is a function $f: S \times S \to S$
+- For any algebraic structure, there can be only one identity element, and identity element is fixed for a set under an operation. It cannot change.
+- To satisfy inverse property, every element in the base set should have an inverse. Look out for 0s, 1s, -1s, 2 and -2.
+$$
+a \# a^{-1} = a^{-1} \# a = e
+$$
+- Inverses always come in pairs i.e. $a^{-1} = b$ and $b^{-1} = a$
+- For each element, inverse may or may not vary, but identity element doesn't vary for every element, its is fixed.
+- Right identity element checks only $a \ast e_{r} = a$ is true or not for all $a$, and similarly for left identity element.
+- To check abelian from cayley table, check if the matrix is symmetric.
+
+![[Guidelines to GATE-CS-1793610580157.webp]]
+
+![[Guidelines to GATE-CS-1793771294959.webp]]
+
+![[Guidelines to GATE-CS-1793771487577.webp]]
+
+![[Guidelines to GATE-CS-1793784990710.webp]]
+
+![[Guidelines to GATE-CS-1793795573520.webp]]
+
+![[Guidelines to GATE-CS-1793794682444.webp]]
+![[Guidelines to GATE-CS-1793796106657.webp]]
+
+- Additive module n operation is commutative and associative.
+- $(\mathbb{Z}_{n}, \oplus_{n})$ is an abelian group.
+
+![[Guidelines to GATE-CS-1793794660548.webp]]
+![[Guidelines to GATE-CS-1793843380961.webp]]
+
+![[Guidelines to GATE-CS-1793795617158.webp]]
+
+![[Guidelines to GATE-CS-1793795658720.webp]]
+
+![[Guidelines to GATE-CS-1793845492623.webp]]
+
+![[Guidelines to GATE-CS-1793847297723.webp]]
+
+![[Guidelines to GATE-CS-1793857402762.webp]]
+
+![[Guidelines to GATE-CS-1793857718042.webp]]
+
+![[Guidelines to GATE-CS-1793858408107.webp]]
+
+- If there is no positive integer $n$ such that $a^n = e$, then the order of a is **infinite**.
+
+![[Guidelines to GATE-CS-1793869021255.webp]]
+
+![[Guidelines to GATE-CS-1793870573252.webp]]
+
+![[Guidelines to GATE-CS-1793871671418.webp]]
+
+- Order of an **element** needs the smallest positive integer $\mathbb{Z}^{+}$, but order of **generator** needs any integer $\mathbb{Z}$.
+
+![[Guidelines to GATE-CS-1793872799049.webp]]
+![[Guidelines to GATE-CS-1793872842592.webp]]
+
+- If $(G, \ast)$ is a group and $g \in G$ is the generator element, then $\mid g \mid = \mid G \mid$ i.e. order of generator element is equal to the order of the group itself.
+
+- Every cyclic group is abelian.
+
+![[Guidelines to GATE-CS-1793878946557.webp]]
+
+![[Guidelines to GATE-CS-1793880495523.webp]]
+
+![[Guidelines to GATE-CS-1793881315855.webp]]
+![[Guidelines to GATE-CS-1793887077090.webp]]
+![[Guidelines to GATE-CS-1793902982472.webp]]
+
+![[Guidelines to GATE-CS-1793902888217.webp]]
+
+- If the order of an element $a$ is finite, then it means there exists a small positive integer $n$ such that $a^n = e$ i.e. it forms the smallest subgroup containing the element $a$ i.e. $\langle a \rangle$
+	- Why its guaranteed to be a sub-group? the sub-group will contain $a$ and $e$, (since the order of a is finite).
+
+![[Guidelines to GATE-CS-1793968572141.webp]]
+![[Guidelines to GATE-CS-1793968583992.webp]]
+![[Guidelines to GATE-CS-1793969023650.webp]]
+
+![[Guidelines to GATE-CS-1794029697662.webp]]
+![[Guidelines to GATE-CS-1794029711276.webp]]
+
 
 ### Guidelines to Combinatronics
 
@@ -972,26 +1137,245 @@ $$
 
 ![[Guidelines to GATE-CS-20250123000040735.webp]]
 
+![[Guidelines to GATE-CS-1794121454566.webp]]
+
+- In case of counting by cases, make sure the cases (sets) are mutually exclusive (avoids overcounting) and exhaustive (avoids undercounting).
+
+![[Guidelines to GATE-CS-1794120251328.webp]]
+
 ![[Guidelines to GATE-CS-20250128205743075.webp]]
 ![[Guidelines to GATE-CS-20250128205752575.webp]]
 
+![[Guidelines to GATE-CS-1794133309656.webp]]
+
+![[Guidelines to GATE-CS-1794133284859.webp]]
 
 - Take care of the extreme conditions first in arrangement.
 - permutation decreases with repeated elements.
-- Order does not matter for cards in hand. Just select some $r$ cards out of 52 cards, don't permute them in hand.
+- Order does not matter for cards in (poker) hand. Just select some $r$ cards out of 52 cards, don't permute them in hand.
+
+![[Guidelines to GATE-CS-1794226332637.webp|Results in Overcounting]]
+
+![[Guidelines to GATE-CS-1794226385227.webp]]
+
+![[Guidelines to GATE-CS-1794227627203.webp]]
+
+![[Guidelines to GATE-CS-1794227643932.webp]]
+
+![[Guidelines to GATE-CS-1794297675075.webp|Removing the permutations of the same objects]]
+
+![[Guidelines to GATE-CS-1794300951860.webp]]
+
+![[Guidelines to GATE-CS-1794302114051.webp]]
+
+![[Guidelines to GATE-CS-1794303888900.webp]]
+
+![[Guidelines to GATE-CS-1794304074470.webp]]
+
+![[Guidelines to GATE-CS-1794304089346.webp]]
+
+![[Guidelines to GATE-CS-1794303995257.webp]]
+
 - Within a box, the order of the objects does not matter.
-- Before applying the star-bar, make sure to remove the restrictions.
+
+![[Guidelines to GATE-CS-1794313905479.webp]]
+![[Guidelines to GATE-CS-1794313921745.webp]]
+
+- Don't shuffle (permute) the position of the boxes in DODB and IODB, since it will overcount the cases.
+
+![[Guidelines to GATE-CS-1794318294688.webp]]
+
+- Make sure the total number of objects distributed is equal to n in DODB i.e. $n_{1} + n_{2} + \cdots n_{r} = n$
+
+![[Guidelines to GATE-CS-1794314448468.webp]]
+
+![[Guidelines to GATE-CS-1794314528065.webp|This is just a notation]]
+
+![[Guidelines to GATE-CS-1794317910986.webp|No restrictions on the distribution]]
+
+- Before applying the star-bar, ==🔴make sure to remove the restrictions==. Each box must have atleast 0 i.e. $x_{i} \ge 0$
+
+![[Guidelines to GATE-CS-1794381050781.webp]]
+
+- Beware of chained IODB template, where tasks have to be performed one after another.
+
+![[Guidelines to GATE-CS-1794381175702.webp]]
+
+![[Guidelines to GATE-CS-1794381215094.webp]]
+
+![[Guidelines to GATE-CS-1794381251936.webp]]
+
+![[Guidelines to GATE-CS-1794381270923.webp]]
+
+![[Guidelines to GATE-CS-1794395085661.webp]]
+
+![[Guidelines to GATE-CS-1794394995513.webp]]
+
+![[Guidelines to GATE-CS-1794395030782.webp]]
+
+![[Guidelines to GATE-CS-1794395186452.webp]]
+
+- Make sure to follow the rule that there is no 0 allowed to any boxes in integer composition.
+
+![[Guidelines to GATE-CS-1794401675938.webp]]
+
 - Monotonically increasing means strictly increasing.
+
+![[Guidelines to GATE-CS-1794401935866.webp]]
+
+![[Guidelines to GATE-CS-1794413382595.webp]]
+
+![[Guidelines to GATE-CS-1794406218402.webp]]
+
+- In each distribution, the boxes are still identical, so the repeated valued boxes's permutations are removed with division.
+
+![[Guidelines to GATE-CS-1794412165229.webp]]
+
+![[Guidelines to GATE-CS-1794413354263.webp]]
+
+![[Guidelines to GATE-CS-1794419977227.webp]]
+
+![[Guidelines to GATE-CS-1794421083113.webp]]
+
+- Integer composition is an ordered one, but integer partition is unordered.
+
+![[Guidelines to GATE-CS-1794421095155.webp]]
+
+![[Guidelines to GATE-CS-1794485366069.webp]]
+
+![[Guidelines to GATE-CS-1794486034363.webp]]
+
+![[Guidelines to GATE-CS-1794486050607.webp]]
+
+![[Guidelines to GATE-CS-1794491386066.webp]]
+![[Guidelines to GATE-CS-1794491414895.webp]]
+![[Guidelines to GATE-CS-1794491454647.webp]]
+![[Guidelines to GATE-CS-1794491596542.webp]]
+![[Guidelines to GATE-CS-1794492713700.webp]]
+![[Guidelines to GATE-CS-1794499455518.webp]]
+![[Guidelines to GATE-CS-1794499465001.webp]]
+![[Guidelines to GATE-CS-1794500353670.webp]]
+
+![[Guidelines to GATE-CS-1794500293138.webp]]
 
 - In functions, elements of domain are considered as objects and elements of co-domain are considered as boxes, since domain elements are mapped to co-domain elements.
 - Number of relations between two sets $A$ and $B$ is $2^{|A| . |B|}$ (refer lec-05-08A.pdf pg. no. 97)
 
+![[Guidelines to GATE-CS-1794503750726.webp]]
+
+![[Guidelines to GATE-CS-1794503928137.webp]]
+
+![[Guidelines to GATE-CS-1794546636534.webp]]
+
+1. If the negation of the claim is possible, then a counter example for the claim is found, hence the claim is false.
+2. If there is no possibility for the negation of the claim, then the claim is guaranteed.
+
+![[Guidelines to GATE-CS-1794546626566.webp]]
+
+![[Guidelines to GATE-CS-1794548491198.webp]]
+
+![[Guidelines to GATE-CS-1794562352130.webp]]
+
+![[Guidelines to GATE-CS-1794549195127.webp]]
+![[Guidelines to GATE-CS-1794570089546.webp]]
+
+![[Guidelines to GATE-CS-1794571792277.webp]]
+
+![[Guidelines to GATE-CS-1794572237075.webp]]
+
+- In case of grid problems, every path can be considered as a unique sequence of the 2 directions allowed, and each path always has exactly the sum of number of rows and number of columns i.e. Downs D and Rights R.
+
+![[Guidelines to GATE-CS-1794618741277.webp]]
+
+![[Guidelines to GATE-CS-1794618771520.webp]]
+
 - For solving recurrence relations, 
-	- solve the base cases and a few next to them to understand the recurrence.
+	- solve the **base cases first** and a few next to them to understand the recurrence.
+	- Solving the base cases lets you eliminate certain options.
 
 ![[Guidelines to GATE-CS-1751809033231.webp]]
 
-![[Guidelines to GATE-CS-1754138293513.webp]]
+- In generating functions, we only care about the co-efficients of $x^k$ only which is $a_{k}$ and not about $x$ itself.
+
+![[Guidelines to GATE-CS-1794649618005.webp]]
+
+- the positions of the co-efficients start from 0 for both the sequence and the series.
+
+![[Guidelines to GATE-CS-1794649631325.webp]]
+
+- If the given sequence is finite, then consider the trailing zeroes and make it infinite to consider for power series generating functions.
+
+![[Guidelines to GATE-CS-1794649892105.webp]]
+![[Guidelines to GATE-CS-1794650083666.webp]]
+
+![[Guidelines to GATE-CS-1794650814820.webp]]
+
+![[Guidelines to GATE-CS-1794651147404.webp|Sum of finite GP series]]
+
+![[Guidelines to GATE-CS-1794651183553.webp]]
+
+![[Guidelines to GATE-CS-1794651424205.webp|Sum of an infinite geometric progression]]
+
+![[Guidelines to GATE-CS-1794651557926.webp]]
+
+- This ordinary generation function (power-series) will be in the form of an AGP.
+- Perform $G - r \,G$ to get the formula or the answer for the sum of the generating function.
+
+![[Guidelines to GATE-CS-1794654837317.webp]]
+
+![[Guidelines to GATE-CS-1794654989641.webp]]
+
+- Substitute value of $x=0$ only when finding the co-efficients after differentiating.
+
+![[Guidelines to GATE-CS-1794655011172.webp|Finding co-efficient of the series using differentiation]]
+
+- If the closed form of a gen. function is given, open it and expand if possible, to get the co-efficients.
+
+> [!important]
+> Don't do differentiation in the exam. Its not needed to find the answer for generating functions.
+
+- Note the difference between an infinite GP with trailing 1s and a finite GP with trailing 0s.
+
+![[Guidelines to GATE-CS-1794667105436.webp]]
+![[Guidelines to GATE-CS-1794667079277.webp]]
+
+![[Guidelines to GATE-CS-1794675774853.webp]]
+![[Guidelines to GATE-CS-1794675801538.webp]]
+
+In case of finite AGP, apply the $S-rS$ procedure.
+
+![[Guidelines to GATE-CS-1794676051397.webp]]
+
+- In the AGP, first term should be noted properly
+
+![[Guidelines to GATE-CS-1794678057278.webp|first term of AGP, AP, and GP]]
+
+- GP's $r$ must be 1, and $a$ can be different for AP, so as to apply the formula for the infinite AGP.
+
+![[Guidelines to GATE-CS-1794678246772.webp|0 is added to the front so we get the desired format]]
+
+- Binomial co-efficient application of **formula** is the same whether $n$ is a natural number of a real number.
+
+| Binomial Theorem                              | Extended Binomial Theorem                     |
+| --------------------------------------------- | --------------------------------------------- |
+| ![[Guidelines to GATE-CS-1794715004645.webp]] | ![[Guidelines to GATE-CS-1794715025978.webp]] |
+| ![[Guidelines to GATE-CS-1794715266187.webp]] | ![[Guidelines to GATE-CS-1794715200403.webp]] |
+
+![[Guidelines to GATE-CS-1794714025668.webp]]
+
+- $n_{C_{0}} = 1$ in all the cases, since there is only one way to pick no objects.
+
+![[Guidelines to GATE-CS-1794715438419.webp]]
+
+![[Guidelines to GATE-CS-1794715475186.webp]]
+
+- If its $(a + b)^{n}$, where $n \in \mathbb{R}$, then try to make it become in the $\left( 1 + \frac{b}{a} \right)^{n}$ format.
+
+![[Guidelines to GATE-CS-1794717322206.webp]]
+
+- $n$ is taken as $+n$ on RHS, leaving out the negative sign.
+
+
 ### Guidelines to Graph Theory
 
 ![[Guidelines to GATE-CS-1752802606340.webp]]
@@ -1036,15 +1420,20 @@ $$
 
 - For any alphabet $\Sigma$, $\lambda \not\in \Sigma$ and $\lambda \in \Sigma^\ast$ and $\lambda \not \in \Sigma^+$
 
+- $\epsilon$ is a palindromic string
+
+![[Guidelines to GATE-CS-1794743453295.webp]]
+
 - For analysis questions on Kleene star and Kleene Plus on languages always check these two languages,
 	1. $L = \{\lambda\}$
 	2. $L = \{\}$
 
 - For any language $L$,
-	1. $L^0 = \{\lambda\}$
+	1. $L^0 = \{\lambda\}$ (by definition)
 	2. $\lambda \in L$ iff $\lambda \in L^+$
 	3. $\lambda \not\in L$ iff $\lambda \not\in L^+$
 	4. $L^+ = L^\ast - \{ \lambda \}$ iff $\lambda \not\in L$
+	5. $\phi^0 = \{ \epsilon \}$ i.e. empty language
 
 - To check if a string belongs to closure of a language or not, see for which exponentiation of the language does the string belongs to.
 
@@ -1058,7 +1447,7 @@ $$
 - Do not forget the transitions of the dead state and the final state when drawing the diagrams.
 - For a machine, it only accepts certain strings that are part of its language. So don't confuse it with going to $L^\ast$ or $L^+$.
 
-- For a regular language $L$, every DFA is a refinement of the minimal DFA for $L$.
+- For a regular language $L$, every DFA is a refinement of the minimal DFA for $L$ i.e. Minimal DFA is the coarsest DFA.
 
 - For construction of DFA, NFA
 	- go step by step
@@ -1066,19 +1455,47 @@ $$
 
 - Product automata does not guarantee minimal DFA.
 
+![[Guidelines to GATE-CS-1794808943602.webp]]
 ![[Guidelines to GATE-CS-1746986025390.webp]]
 
+![[Guidelines to GATE-CS-1794809071502.webp]]
+
+![[Guidelines to GATE-CS-1794809922265.webp]]
+
+- In a FA, $\delta(q_{i}, \epsilon) = q_{i}$ i.e. nothing to read on an empty tape.
+
+![[Guidelines to GATE-CS-1794812026017.webp]]
+![[Guidelines to GATE-CS-1794812163509.webp|Input symbols must be the same $\Sigma$]]
+
+- The same $M_{1} \times M_{2}$ can be used for all union, intersection, difference, symmetric difference of languages.
+
+![[Guidelines to GATE-CS-1794815652892.webp|Transition in $M_1 \times M_2$]]
+
+- When there is no information on what operation is needed for a product automata, by default, the assumption is language **intersection**.
 
 - Use option elimination for identifying DFA for a given language.
 
 ![[Guidelines to GATE-CS-1747070801909.webp]]
 
 
+![[Guidelines to GATE-CS-1794831567117.webp]]
+
+![[Guidelines to GATE-CS-1794827691637.webp]]
+
+![[Guidelines to GATE-CS-1794827702005.webp]]
+
+![[Guidelines to GATE-CS-1794829479078.webp|State equivalence is transitive]]
+
+- Minimial DFA doesn't contain any pair of equivalent states, that's why minimal DFA is unique for a regular language $L$
+
+![[Guidelines to GATE-CS-1794836100371.webp]]
+
+![[Guidelines to GATE-CS-1794840952679.webp]]
+
 ![[Guidelines to GATE-CS-1747156049974.webp]]
 
-- When there is no information on what operation is needed for a product automata, by default, the assumption is language intersection.
-
 ![[Guidelines to GATE-CS-1747328401728.webp]]
+
 
 - Method to find out the extended transition for a string in an NFA. This method is also used for the subset construction algorithm. (for those null moves in the diagram, perform $\epsilon$-closure)
 
@@ -1230,4 +1647,3 @@ $$
 
 
 ![[Guidelines to GATE-CS-20250106204408153.webp|remainders when divided by 7]]
-

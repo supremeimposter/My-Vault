@@ -1,12 +1,15 @@
 [
   "darlal-switcher-plus",
   "math-in-callout",
-  "lazy-plugins",
   "obsidian-outliner",
-  "obsidian-minimal-settings",
   "obsidian-style-settings",
   "map-of-content",
   "obsidian-timestamper",
   "obsidian-latex-suite",
-  "image-converter"
+  "image-converter",
+  "obsidian-columns",
+  "image-captions",
+  "sheets",
+  "automatic-renumbering",
+  "paste-reformatter"
 ]

@@ -1,0 +1,3656 @@
+/* ---------------------------------------------------------------------------
+
+Bliss Theme by @itsjusthaif 
+User interface replacement for Obsidian.
+
+Obsidian, but it's 2001. Bevelled buttons, Luna blues and the gloriously
+boring look of the early web.
+
+Bliss pairs the glossy blues and soft greens of Windows XP with a warm beige
+desk and the tidy intranet-portal layout of the early web. It is nostalgia you
+can take notes in.
+
+Rounded Luna chrome, orange hover glow, dithered scrollbars and a slate dark
+mode for late nights. Pick an XP accent (Luna, Olive, Silver, Zune,
+Embedded and more) or use your own, then make it yours in Style Settings. 
+
+Readme: https://github.com/itsjusthaif/obsidian-bliss
+
+MIT License. Keep this notice if you redistribute or fork any part of this file.
+
+-----------------------------------------------------------------------------
+*/
+
+/* @settings
+
+name: Bliss
+id: bliss
+settings:
+    -
+        id: bp-accent-preset
+        title: Accent colour
+        description: XP colour schemes for title bars, buttons, sliders, links and selection. Luna and Silver become Royale Blue and Noir in dark mode. Whistler entries are pre-release XP builds.
+        type: class-select
+        allowEmpty: false
+        default: bp-accent-luna
+        options:
+            -
+                label: Luna Blue
+                value: bp-accent-luna
+            -
+                label: Olive Green
+                value: bp-accent-olive
+            -
+                label: Silver
+                value: bp-accent-silver
+            -
+                label: Zune
+                value: bp-accent-orange
+            -
+                label: Embedded
+                value: bp-accent-embedded
+            -
+                label: Whistler Chartreuse Mongoose
+                value: bp-accent-whistler-chartreuse
+            -
+                label: Whistler Blue Lagoon
+                value: bp-accent-whistler-lagoon
+            -
+                label: Obsidian accent
+                value: bp-accent-native
+    -
+        id: bp-paper
+        title: Notes list background
+        description: Light mode only. Background of the middle Notebook Navigator pane.
+        type: class-select
+        allowEmpty: false
+        default: bp-paper-warm
+        options:
+            -
+                label: Off (flat)
+                value: bp-paper-flat
+            -
+                label: Warm paper
+                value: bp-paper-warm
+            -
+                label: Cream
+                value: bp-paper-cream
+    -
+        id: bp-note-fade
+        title: Note background fade
+        description: Light mode only. Soft top-to-bottom tint behind the open note.
+        type: class-select
+        allowEmpty: false
+        default: bp-note-flat
+        options:
+            -
+                label: Off (flat)
+                value: bp-note-flat
+            -
+                label: Warm paper
+                value: bp-note-warm
+            -
+                label: Cream
+                value: bp-note-cream
+    -
+        id: bp-dark-style
+        title: Dark style
+        description: Dark mode only. Auto pairs Zune with XP Royale Dark and Embedded with Midnight, and uses Slate for the rest.
+        type: class-select
+        allowEmpty: false
+        default: bp-dark-auto
+        options:
+            -
+                label: Auto (follows accent)
+                value: bp-dark-auto
+            -
+                label: Slate
+                value: bp-dark-slate
+            -
+                label: Midnight
+                value: bp-dark-midnight
+            -
+                label: Contrast
+                value: bp-dark-contrast
+            -
+                label: XP Royale Dark
+                value: bp-dark-royale
+    -
+        id: bp-ui-font
+        title: Interface text size
+        description: Size of labels, buttons, sidebars and menus. Note text size is set in Appearance > Font size.
+        type: variable-number
+        default: 12
+        format: px
+        min: 10
+        max: 14
+        step: 1
+    -
+        id: bp-classic-square
+        title: Classic square corners
+        description: Turns rounded boxes, pills and buttons square for the original intranet look. Toggles become square too; sliders keep their round thumb.
+        type: class-toggle
+    -
+        id: bp-no-texture
+        title: Disable desk texture
+        description: Removes the fine dot pattern from the window chrome and ribbon.
+        type: class-toggle
+    -
+        id: bp-hide-status-bar
+        title: Auto-hide status bar
+        description: Slides the bottom-right status bar (backlinks, word count, zoom) out of view. Hover the bottom-right corner to slide it back up.
+        type: class-toggle
+    -
+        id: bp-toggle-follows-accent
+        title: Toggle switches follow the accent
+        description: Off keeps the classic XP green for switched-on toggles.
+        type: class-toggle
+    -
+        id: bp-xp-nostalgia
+        title: Windows XP Mode
+        description: Taskbar-style gradients on pane headers, dialog title bars, primary buttons, sliders and the status bar, plus sunset-orange strips on list groups and Git sections. Off keeps the original look.
+        type: class-toggle
+*/
+
+/* Colour tokens: defaults are Luna Blue on light. Presets and dark mode override these below. */
+body,
+body.theme-dark,
+body.theme-light {
+  --bp-ui-font: 12px;
+  --bp-list-top: #fffef9;
+  --bp-list-bottom: #f5f2e5;
+  --bp-nav-top: color-mix(in srgb, var(--bp-panel) 70%, #fff);
+  --bp-nav-bottom: color-mix(in srgb, var(--bp-panel) 94%, #000);
+  --bp-accent-top: #4b86e3;
+  --bp-accent-mid: #3470d0;
+  --bp-accent-bottom: #2a5cbf;
+  --bp-accent-dark: #1b3f94;
+  --bp-accent-hover-top: #6aa0f0;
+  --bp-accent-link: #2352b8;
+  --bp-accent-text: #1b3f94;
+  --bp-accent-soft-0: #f0f6ff;
+  --bp-accent-soft: #e6effd;
+  --bp-accent-soft-2: #c7d9f5;
+  --bp-accent-soft-3: #dbe8fb;
+  --bp-accent-soft-line: #b8cdee;
+  --bp-accent-line: #7f9db9;
+  --bp-select: #c5d8f6;
+  --bp-card: #f7f5ea;
+  --bp-card-alt: #f4f4ec;
+  --bp-zebra: #fafafa;
+  --bp-status-top: #eaeaea;
+  --bp-line-soft: #e2dfd0;
+  --bp-line-dotted: #d4d4c4;
+  --bp-text: #222;
+  --bp-text-muted: #555;
+  --bp-text-faint: #666;
+  --bp-text-dim: #85816f;
+  --bp-text-strong: #000;
+  --bp-hilite-2: #ffffe0;
+  --bp-pressed: linear-gradient(to bottom, #d8d4c4 0%, #f0eee4 100%);
+  --bp-field: #fff;
+}
+
+body,
+body.theme-dark,
+body.theme-light {
+  color-scheme: light;
+  --bp-chrome: #d4d0c8;
+  --bp-panel: #ece9d8;
+  --bp-paper: #fff;
+  --bp-border: #8a8a8a;
+  --bp-border-soft: #a8a8a8;
+  --bp-navy: var(--bp-accent-text);
+  --bp-hilite: #ffffcc;
+  --bp-current: #fff3b8;
+  --bp-orange: #d48a00;
+  --bp-header-text: #fff;
+  --bp-header-shadow: rgba(0, 0, 0, 0.3);
+  --bp-header-hover: rgba(255, 255, 255, 0.25);
+  --bp-grad-btn: linear-gradient(to bottom, #fff 0%, #e0dcd4 100%);
+  --bp-grad-btn-hover: linear-gradient(to bottom, #fffce0 0%, #f4e8a8 100%);
+  --bp-grad-tab: linear-gradient(to bottom, #f4f4f4, #d8d4cc);
+  --bp-grad-part: linear-gradient(to bottom, var(--bp-accent-soft) 0%, var(--bp-accent-soft-2) 100%);
+  --bp-grad-orange: linear-gradient(to bottom, #ffe8b8 0%, #f4c870 100%);
+  --bp-grad-section: linear-gradient(to bottom, var(--bp-accent-top) 0%, var(--bp-accent-bottom) 100%);
+
+  --bp-font-ui: Tahoma, Verdana, "MS Sans Serif", Geneva, "DejaVu Sans", "Liberation Sans", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --bp-font-text: Verdana, Tahoma, Geneva, "DejaVu Sans", "Liberation Sans", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --bp-font-head: "Trebuchet MS", Tahoma, "Lucida Grande", "DejaVu Sans", "Liberation Sans", system-ui, -apple-system, Arial, sans-serif;
+  --bp-font-mono: "Courier New", Courier, Menlo, Monaco, "DejaVu Sans Mono", "Liberation Mono", monospace;
+  --font-interface-theme: var(--bp-font-ui);
+  --font-text-theme: var(--bp-font-text);
+  --font-monospace-theme: var(--bp-font-mono);
+  --font-text-size: 13px;
+  --font-ui-small: var(--bp-ui-font);
+  --font-ui-medium: var(--bp-ui-font);
+  --font-ui-large: 13px;
+  --font-smaller: var(--bp-ui-font);
+  --font-small: 12px;
+  --line-height-normal: 1.6;
+
+  --background-primary: var(--bp-paper);
+  --background-primary-alt: var(--bp-zebra);
+  --background-secondary: var(--bp-panel);
+  --background-secondary-alt: var(--bp-chrome);
+  --background-modifier-border: var(--bp-border-soft);
+  --background-modifier-border-hover: var(--bp-border);
+  --background-modifier-border-focus: var(--bp-accent-top);
+  --background-modifier-hover: var(--bp-hilite);
+  --background-modifier-active-hover: var(--bp-current);
+  --background-modifier-form-field: var(--bp-field);
+  --background-modifier-cover: rgba(0, 0, 0, 0.35);
+
+  --text-normal: var(--bp-text);
+  --text-muted: var(--bp-text-muted);
+  --text-faint: var(--bp-text-faint);
+  --text-on-accent: #fff;
+  --text-accent: var(--bp-accent-link);
+  --text-accent-hover: #f00;
+  --text-selection: var(--bp-select);
+  --text-highlight-bg: #fff3b8;
+  --interactive-accent: var(--bp-accent-bottom);
+  --interactive-accent-hover: var(--bp-accent-top);
+  --color-accent: var(--bp-accent-bottom);
+  --color-accent-1: var(--bp-accent-bottom);
+  --color-accent-2: var(--bp-accent-top);
+
+  --link-color: var(--bp-accent-link);
+  --link-color-hover: #f00;
+  --link-decoration: underline;
+  --link-decoration-hover: underline;
+  --link-external-color: var(--bp-accent-link);
+  --link-unresolved-color: #c00;
+  --link-unresolved-opacity: 1;
+
+  --h1-font: var(--bp-font-head);
+  --h2-font: var(--bp-font-head);
+  --h3-font: var(--bp-font-head);
+  --h4-font: var(--bp-font-head);
+  --h5-font: var(--bp-font-head);
+  --h6-font: var(--bp-font-head);
+  --h1-size: 1.6em;
+  --h2-size: 1.3em;
+  --h3-size: 1.1em;
+  --h4-size: 1em;
+  --h1-color: var(--bp-navy);
+  --h2-color: var(--bp-navy);
+  --h3-color: var(--bp-accent-text);
+  --h4-color: var(--bp-accent-text);
+  --h5-color: var(--bp-text-muted);
+  --h6-color: var(--bp-text-muted);
+  --h1-weight: 700;
+  --h2-weight: 700;
+  --h3-weight: 700;
+  --code-background: var(--bp-card-alt);
+  --code-normal: var(--bp-text);
+  --blockquote-border-color: var(--bp-accent-top);
+  --blockquote-background-color: var(--bp-card-alt);
+  --hr-color: var(--bp-accent-soft-2);
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: #b8b4a8;
+  --scrollbar-active-thumb-bg: #8a8a8a;
+}
+
+/* Window chrome */
+.workspace-ribbon,
+.workspace-ribbon.mod-left::before,
+.titlebar,
+.mod-root .workspace-tabs .workspace-tab-header-container,
+.workspace-split.mod-left-split,
+.workspace-split.mod-right-split {
+  background: var(--bp-chrome);
+}
+.workspace-split.mod-left-split,
+.workspace-split.mod-right-split {
+  --background-primary: var(--bp-paper);
+}
+.workspace-split.mod-left-split .workspace-leaf-content,
+.workspace-split.mod-right-split .workspace-leaf-content {
+  background: var(--bp-panel);
+}
+.status-bar {
+  background: linear-gradient(to bottom, var(--bp-status-top), var(--bp-chrome));
+  border-top: 1px solid var(--bp-border);
+  color: var(--bp-text-muted);
+}
+
+/* Reading and editing text */
+.markdown-source-view.mod-cm6 .cm-scroller,
+.markdown-preview-view {
+  font-family: var(--font-text-theme);
+}
+.markdown-rendered h1,
+.markdown-rendered h2,
+.cm-s-obsidian .HyperMD-header-1,
+.cm-s-obsidian .HyperMD-header-2 {
+  border-bottom: 2px solid var(--bp-accent-soft-2);
+  padding-bottom: 3px;
+}
+.markdown-rendered a,
+.cm-s-obsidian .cm-link,
+.cm-s-obsidian .cm-hmd-internal-link {
+  text-decoration: underline;
+}
+.markdown-rendered a:visited {
+  color: #551a8b;
+}
+.markdown-rendered code,
+.cm-s-obsidian span.cm-inline-code {
+  background: var(--bp-card-alt);
+  border: 1px solid var(--bp-line-dotted);
+  padding: 0 3px;
+  font-size: 0.9em;
+}
+.markdown-rendered pre {
+  background: var(--bp-card-alt);
+  border: 1px solid var(--bp-line-dotted);
+  border-left: 3px solid var(--bp-accent-top);
+}
+.markdown-rendered pre code {
+  background: transparent;
+  border: 0;
+}
+
+/* Buttons and inputs */
+button,
+.clickable-icon,
+.mod-cta,
+.setting-item button {
+  font-family: inherit;
+  font-size: var(--bp-ui-font);
+}
+button:not(.clickable-icon):where(:not(.mod-warning):not(.mod-cta)),
+.setting-item button:where(:not(.mod-cta):not(.mod-warning)) {
+  color: var(--bp-text-strong);
+  height: auto;
+}
+button.mod-cta {
+  font-weight: bold;
+  height: auto;
+}
+button.mod-cta:active {
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.35);
+}
+input[type="text"],
+input[type="search"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+textarea,
+select,
+.dropdown {
+  background: var(--bp-field);
+  border: 1px solid #888;
+  border-radius: 0;
+  box-shadow: inset 1px 1px 0 #d4d4d4;
+  font-family: inherit;
+  font-size: var(--bp-ui-font);
+}
+select,
+.dropdown {
+  background-image: none;
+}
+input[type="text"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+  border-color: var(--bp-accent-top);
+  box-shadow: inset 1px 1px 0 #d4d4d4, 0 0 0 1px var(--bp-accent-top);
+}
+
+/* Tabs */
+.workspace-tab-header {
+  border-radius: 0;
+}
+.workspace-tab-header-container {
+  align-items: flex-end;
+  border-bottom: 1px solid var(--bp-border);
+  padding-top: 4px;
+}
+.mod-root .workspace-tab-header .workspace-tab-header-inner {
+  background: var(--bp-grad-tab);
+  border: 1px solid var(--bp-border);
+  border-bottom: none;
+  margin-right: 2px;
+  padding: 3px 12px;
+}
+.mod-root .workspace-tab-header:hover .workspace-tab-header-inner {
+  background: var(--bp-grad-btn-hover);
+}
+.mod-root .workspace-tab-header.is-active .workspace-tab-header-inner {
+  background: var(--bp-panel);
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.mod-root .workspace-tab-header-inner::after,
+.mod-root .workspace-tab-header::before,
+.mod-root .workspace-tab-header::after,
+.mod-root .workspace-tab-header-inner-close-button {
+  display: none;
+}
+.mod-root .workspace-tab-header:hover .workspace-tab-header-inner-close-button,
+.mod-root .workspace-tab-header.is-active .workspace-tab-header-inner-close-button {
+  display: flex;
+}
+.workspace-tab-header-container-inner {
+  align-items: flex-end;
+}
+
+/* Section bars: pane titles */
+.view-header {
+  background: var(--bp-grad-section);
+  border-bottom: 1px solid var(--bp-navy);
+  color: var(--bp-header-text);
+}
+.view-header-title,
+.is-focused .workspace-leaf.mod-active .view-header-title,
+.view-header-title-parent,
+.view-header-breadcrumb {
+  color: var(--bp-header-text);
+  font-weight: bold;
+  text-shadow: 1px 1px 0 var(--bp-header-shadow);
+}
+.view-header .clickable-icon {
+  color: var(--bp-header-text);
+}
+/* Sidebar header bars */
+.workspace-split.mod-left-split .workspace-tab-header-container,
+.workspace-split.mod-left-split .nav-header {
+  background: var(--bp-grad-part);
+  border-bottom: 1px solid var(--bp-accent-line);
+}
+.workspace-split.mod-left-split .workspace-tab-header-inner-icon,
+.workspace-split.mod-left-split .workspace-tab-header-inner-title {
+  color: var(--bp-navy);
+}
+.workspace-split .workspace-tab-header.is-active {
+  background: rgba(255, 255, 255, 0.5);
+}
+.workspace-split .workspace-tab-header {
+  border-radius: 0;
+}
+.nav-folder-title,
+.nav-file-title,
+.tree-item-self {
+  border-bottom: 1px dotted var(--bp-line-soft);
+  border-radius: 0;
+  color: var(--bp-accent-link);
+}
+.nav-folder-title {
+  background: var(--bp-card-alt);
+  font-weight: bold;
+  color: var(--bp-text-muted);
+}
+.nav-file-title:hover,
+.nav-folder-title:hover,
+.tree-item-self:hover {
+  background: var(--bp-hilite);
+  text-decoration: underline;
+}
+.nav-file-title.is-active,
+.tree-item-self.is-active {
+  background: var(--bp-hilite);
+  color: var(--bp-text-strong);
+  font-weight: bold;
+}
+.nav-folder-collapse-indicator .svg-icon,
+.tree-item-icon.collapse-icon .svg-icon {
+  color: var(--bp-accent-text);
+}
+
+/* Tables */
+.markdown-rendered table,
+.markdown-source-view.mod-cm6 table {
+  border-collapse: collapse;
+  font-size: 0.92em;
+}
+.markdown-rendered th,
+.markdown-source-view.mod-cm6 th {
+  background: var(--bp-grad-part);
+  border: 1px solid var(--bp-accent-line);
+  color: var(--bp-navy);
+  font-weight: bold;
+  padding: 4px 8px;
+}
+.markdown-rendered td,
+.markdown-source-view.mod-cm6 td {
+  border: 0;
+  border-bottom: 1px solid var(--bp-line-soft);
+  padding: 4px 8px;
+}
+.markdown-rendered tbody tr:nth-child(odd) td,
+.markdown-source-view.mod-cm6 tbody tr:nth-child(odd) td {
+  background: var(--bp-zebra);
+}
+.markdown-rendered tbody tr:hover td,
+.markdown-source-view.mod-cm6 tbody tr:hover td {
+  background: var(--bp-hilite);
+}
+
+/* Callouts as announcement boxes */
+.callout {
+  --callout-radius: 0;
+  --callout-padding: 0;
+  --callout-color: 212, 200, 120;
+  background: #fffce0;
+  border: 1px solid #d4c878;
+  box-shadow: 1px 1px 0 #b8b8b8;
+  mix-blend-mode: normal;
+  overflow: hidden;
+}
+.callout-title {
+  background: var(--bp-grad-orange);
+  border-bottom: 1px solid #b88a30;
+  color: #5a3a00;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  padding: 3px 8px;
+  text-transform: uppercase;
+}
+.callout-title .svg-icon {
+  color: #b86a00;
+}
+.callout-content {
+  padding: 6px 10px;
+}
+.callout[data-callout="info"],
+.callout[data-callout="note"],
+.callout[data-callout="abstract"],
+.callout[data-callout="todo"] {
+  background: #eef3fb;
+  border-color: var(--bp-accent-line);
+}
+.callout[data-callout="info"] .callout-title,
+.callout[data-callout="note"] .callout-title,
+.callout[data-callout="abstract"] .callout-title,
+.callout[data-callout="todo"] .callout-title {
+  background: var(--bp-grad-part);
+  border-bottom-color: var(--bp-accent-line);
+  color: var(--bp-navy);
+}
+.callout[data-callout="tip"],
+.callout[data-callout="success"],
+.callout[data-callout="check"],
+.callout[data-callout="done"] {
+  background: #eaf4e8;
+  border-color: #4a9a4a;
+}
+.callout[data-callout="tip"] .callout-title,
+.callout[data-callout="success"] .callout-title,
+.callout[data-callout="check"] .callout-title,
+.callout[data-callout="done"] .callout-title {
+  background: linear-gradient(to bottom, #e8f4d8, #bcd89a);
+  border-bottom-color: #4a9a4a;
+  color: #236b23;
+}
+.callout[data-callout="warning"],
+.callout[data-callout="caution"],
+.callout[data-callout="attention"] {
+  background: #ffe8d0;
+  border-color: #d48a30;
+}
+.callout[data-callout="question"],
+.callout[data-callout="failure"],
+.callout[data-callout="danger"],
+.callout[data-callout="bug"],
+.callout[data-callout="error"] {
+  background: #ffe4e4;
+  border-color: #d46a6a;
+}
+.callout[data-callout="question"] .callout-title,
+.callout[data-callout="failure"] .callout-title,
+.callout[data-callout="danger"] .callout-title,
+.callout[data-callout="bug"] .callout-title,
+.callout[data-callout="error"] .callout-title {
+  background: linear-gradient(to bottom, #ffecec, #f0b0b0);
+  border-bottom-color: #d46a6a;
+  color: #8a0000;
+}
+
+/* Tags as status lozenges */
+a.tag,
+.cm-s-obsidian span.cm-hashtag {
+  background: #dcf2d6;
+  border: 1px solid #4a9a4a;
+  border-radius: 0;
+  color: #236b23;
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  padding: 1px 6px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a.tag[href*="archive"] {
+  background: #e8e8e8;
+  border-color: #888;
+  color: var(--bp-text-muted);
+}
+a.tag[href*="new"],
+a.tag[href*="urgent"] {
+  background: #f33;
+  border-color: #c00;
+  color: #fff;
+}
+.cm-s-obsidian span.cm-hashtag-begin,
+.cm-s-obsidian span.cm-hashtag-end {
+  border-radius: 0;
+}
+
+/* Modals, menus, popovers */
+.modal,
+.menu,
+.popover,
+.suggestion-container {
+  background: var(--bp-panel);
+  border: 1px solid var(--bp-border);
+  border-radius: 0;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+.modal-title,
+.modal-header {
+  color: var(--bp-header-text);
+  font-size: var(--bp-ui-font);
+  margin: 0;
+  padding: 3px 8px;
+  text-shadow: 1px 1px 0 var(--bp-header-shadow);
+}
+.modal-close-button {
+  color: #fff;
+}
+.menu-item:hover,
+.menu-item.selected,
+.suggestion-item.is-selected {
+  background: var(--bp-hilite);
+  color: var(--bp-text-strong);
+}
+.setting-item {
+  border-top: 1px dotted var(--bp-line-dotted);
+}
+.task-list-item-checkbox,
+input[type="checkbox"] {
+  border-radius: 0;
+}
+
+/* ---- Polish pass ---- */
+
+body,
+body.theme-dark,
+body.theme-light {
+  --titlebar-background: var(--bp-chrome);
+  --titlebar-background-focused: var(--bp-chrome);
+  --tab-container-background: var(--bp-chrome);
+  --tab-background-active: var(--bp-panel);
+  --tab-text-color: var(--bp-text);
+  --tab-text-color-active: var(--bp-text-strong);
+  --tab-text-color-focused: var(--bp-text-strong);
+  --tab-text-color-focused-active: var(--bp-text-strong);
+  --tab-text-color-focused-highlighted: var(--bp-text-strong);
+  --tab-outline-color: var(--bp-border);
+  --tab-outline-width: 1px;
+  --tab-curve: 0;
+  --divider-color: var(--bp-border);
+  --divider-color-hover: var(--bp-accent-top);
+  --divider-width: 1px;
+  --ribbon-background: var(--bp-chrome);
+  --ribbon-background-collapsed: var(--bp-chrome);
+  --nav-item-background-hover: var(--bp-hilite);
+  --nav-item-background-active: var(--bp-hilite);
+  --nav-item-background-selected: var(--bp-hilite);
+  --nav-item-color: var(--bp-accent-link);
+  --nav-item-color-hover: #f00;
+  --nav-item-color-active: var(--bp-text-strong);
+  --nav-item-color-selected: var(--bp-text-strong);
+  --nav-item-weight-active: 700;
+  --nav-collapse-icon-color: var(--bp-accent-text);
+  --nav-collapse-icon-color-collapsed: var(--bp-accent-bottom);
+  --tag-background: #dcf2d6;
+  --tag-background-hover: #c8e4a8;
+  --tag-color: #236b23;
+  --tag-color-hover: #236b23;
+  --tag-border-color: #4a9a4a;
+  --tag-border-color-hover: #4a9a4a;
+  --tag-border-width: 1px;
+  --tag-padding-x: 6px;
+  --tag-padding-y: 1px;
+  --tag-size: 9px;
+  --tag-weight: 700;
+  --metadata-label-background-active: var(--bp-hilite);
+  --metadata-input-background-active: var(--bp-field);
+  --metadata-border-color: var(--bp-border-soft);
+  --metadata-divider-color: var(--bp-line-soft);
+  --metadata-label-text-color: var(--bp-text-muted);
+  --metadata-input-text-color: var(--bp-text-strong);
+  --metadata-label-font-size: var(--bp-ui-font);
+  --metadata-input-font-size: var(--bp-ui-font);
+  --embed-background: var(--bp-card-alt);
+  --embed-border-left: 3px solid var(--bp-accent-top);
+  --nn-theme-nav-bg: var(--bp-panel);
+  --nn-theme-list-bg: var(--bp-paper);
+  --nn-theme-navitem-name-color: var(--bp-accent-link);
+  --nn-theme-navitem-hover-bg: var(--bp-hilite);
+  --nn-theme-navitem-selected-bg: var(--bp-hilite);
+  --nn-theme-navitem-selected-inactive-bg: var(--bp-hilite);
+  --nn-theme-navitem-selected-name-color: var(--bp-text-strong);
+  --nn-theme-navitem-selected-inactive-name-color: var(--bp-text-strong);
+  --nn-theme-navitem-name-font-weight: 400;
+  --nn-theme-file-selected-bg: var(--bp-current);
+  --nn-theme-file-selected-inactive-bg: var(--bp-current);
+  --nn-theme-file-selected-border-color: var(--bp-orange);
+  --nn-theme-file-tag-bg: #dcf2d6;
+  --nn-theme-file-tag-border-color: #4a9a4a;
+  --nn-theme-file-selected-tag-bg: #dcf2d6;
+  --nn-theme-file-selected-tag-border-color: #4a9a4a;
+  --nn-theme-list-separator-color: var(--bp-line-soft);
+  --nn-theme-header-button-hover-bg: var(--bp-hilite);
+  --nn-theme-header-button-active-bg: var(--bp-card);
+  --nn-theme-divider-border-color: var(--bp-border);
+}
+
+/* Framed content panel on a grey desk */
+.app-container,
+.horizontal-main-container,
+.workspace {
+  background: var(--bp-chrome);
+}
+.workspace-split.mod-root {
+  background: var(--bp-paper);
+  border-left: 1px solid var(--bp-border);
+}
+.workspace-tab-container {
+  border-top: 1px solid var(--bp-border);
+}
+
+/* View header: visible nav arrows, readable title */
+.view-header {
+  --icon-color: var(--bp-header-text);
+  --icon-color-hover: var(--bp-header-text);
+  --icon-color-active: var(--bp-header-text);
+  --icon-color-focused: var(--bp-header-text);
+  --clickable-icon-radius: 0;
+}
+.view-header .clickable-icon:hover {
+  background: var(--bp-header-hover);
+  box-shadow: inset 0 0 0 1px var(--bp-header-hover);
+  color: var(--bp-header-text);
+}
+.view-header .clickable-icon:active {
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.view-header-title {
+  font-size: 12px;
+}
+
+/* Sidebar strips keep dark icons on the pale bars */
+.workspace-split.mod-left-split .workspace-tab-header-container {
+  --icon-color: var(--bp-navy);
+  --icon-color-hover: var(--bp-text-strong);
+  --icon-color-active: var(--bp-text-strong);
+  --icon-color-focused: var(--bp-navy);
+}
+.workspace-split.mod-left-split .workspace-tab-header.is-active,
+.workspace-split.mod-right-split .workspace-tab-header.is-active {
+  background: var(--bp-grad-btn);
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Pinned and standard tabs: square, bordered */
+.workspace-tab-header,
+.workspace-tab-header .workspace-tab-header-inner,
+.workspace-tab-header.is-active,
+.workspace-tab-header.mod-pinned {
+  border-radius: 0;
+}
+.workspace-tabs.mod-top .workspace-tab-header {
+  background: transparent;
+}
+.workspace-tabs.mod-top .workspace-tab-header.is-active .workspace-tab-header-inner {
+  background: var(--bp-panel);
+  border-top: 2px solid var(--bp-orange);
+}
+.workspace-tab-header-status-icon,
+.workspace-tab-header-inner-icon {
+  color: var(--bp-navy);
+}
+
+/* Properties panel as a factsheet */
+.metadata-container {
+  background: var(--bp-card-alt);
+  border: 1px solid var(--bp-border-soft);
+  box-shadow: 1px 1px 0 #b8b8b8;
+  margin-bottom: 12px;
+  padding: 0;
+}
+.metadata-properties-heading {
+  background: var(--bp-grad-part);
+  border-bottom: 1px solid var(--bp-accent-line);
+  color: var(--bp-navy);
+  display: flex;
+  font-weight: bold;
+  margin: 0;
+  padding: 3px 8px;
+  width: 100%;
+}
+.metadata-properties {
+  padding: 4px 8px;
+}
+.metadata-property {
+  border-bottom: 1px dotted var(--bp-line-dotted);
+  border-radius: 0;
+}
+.metadata-property-key,
+.metadata-property-key-input,
+.metadata-property-value {
+  font-size: var(--bp-ui-font);
+}
+.metadata-property-key-input {
+  background: var(--bp-field);
+  border: 1px solid #888;
+  box-shadow: inset 1px 1px 0 #d4d4d4;
+  color: var(--bp-text-muted);
+  font-weight: bold;
+}
+.metadata-add-button {
+  border-radius: 0;
+}
+.metadata-add-button:hover {
+  background: var(--bp-grad-btn-hover);
+}
+
+/* Embedded backlinks: only the "Linked/Unlinked mentions" row gets the bar */
+.embedded-backlinks .backlink-pane,
+.embedded-backlinks .nav-header {
+  background: transparent;
+  border: 0;
+}
+.embedded-backlinks .backlink-pane > .tree-item-self {
+  background: var(--bp-grad-part);
+  border-bottom: 1px solid var(--bp-accent-line);
+  border-top: 1px solid var(--bp-accent-line);
+  color: var(--bp-navy);
+  font-weight: bold;
+}
+.embedded-backlinks .nav-header {
+  background: var(--bp-card-alt);
+  border-bottom: 1px dotted var(--bp-line-dotted);
+  padding: 2px 4px;
+}
+.backlink-pane .search-result-file-title {
+  background: var(--bp-card-alt);
+}
+
+/* Notebook Navigator: note cards and pill tags */
+.nn-navigation-pane,
+.nn-list-pane {
+  font-size: var(--bp-ui-font);
+}
+.nn-pane-header {
+  background: var(--bp-grad-part);
+  border-bottom: 1px solid var(--bp-accent-line);
+}
+.nn-icon-button {
+  padding: 1px 4px;
+}
+.nn-navitem-name,
+.nn-file-name,
+.nn-file-name-label {
+  font-size: var(--bp-ui-font);
+}
+.nn-file-name-label {
+  font-weight: bold;
+}
+.nn-file-preview,
+.nn-file-date {
+  color: var(--bp-text-faint);
+  font-size: 10px;
+}
+.nn-shortcut-header-item .nn-navitem-name {
+  color: var(--bp-text-muted);
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.nn-navitem-chevron,
+.nn-navitem-icon {
+  color: var(--bp-accent-text);
+}
+.nn-navitem:hover .nn-navitem-name {
+  text-decoration: underline;
+}
+.nn-list-group-header {
+  background: var(--bp-card-alt);
+  border-bottom: 1px solid var(--bp-line-soft);
+  color: var(--bp-text-muted);
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.nn-file-tag,
+.nn-file-property {
+  border-radius: 0;
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Misc */
+.side-dock-ribbon-action.is-active,
+.workspace-ribbon .clickable-icon:active {
+  background: var(--bp-pressed);
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.35);
+}
+.workspace-ribbon .clickable-icon {
+  border: 1px solid transparent;
+}
+.workspace-ribbon .clickable-icon:hover {
+  border-color: var(--bp-border);
+}
+.status-bar {
+  box-shadow: inset 0 1px 0 #fff;
+}
+/* Auto-hide: a 4px sliver stays so the bar receives :hover. Any future hover-reveal item should use --bp-reveal-speed and --bp-reveal-ease the same way. */
+body.bp-hide-status-bar .status-bar {
+  transform: translateY(calc(100% - 4px));
+  transition: transform var(--bp-reveal-speed) var(--bp-reveal-ease);
+}
+body.bp-hide-status-bar .status-bar:hover {
+  transform: translateY(0);
+}
+body.bp-hide-status-bar .status-bar:focus-within {
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  body.bp-hide-status-bar .status-bar {
+    transition: none;
+  }
+}
+.status-bar-item {
+  border: 1px solid transparent;
+}
+.status-bar-item.mod-clickable:hover {
+  background: var(--bp-grad-btn-hover);
+  border-color: var(--bp-border);
+}
+.menu-separator {
+  border-top: 1px solid #b8b4a8;
+  margin: 2px 0;
+}
+.menu {
+  padding: 2px;
+}
+.markdown-rendered hr {
+  border: 0;
+  border-top: 2px solid var(--bp-accent-soft-2);
+}
+.markdown-rendered blockquote {
+  background: var(--bp-card-alt);
+  border-left: 3px solid var(--bp-accent-top);
+  padding: 4px 12px;
+}
+.task-list-item-checkbox {
+  border: 1px solid #888;
+  box-shadow: inset 1px 1px 0 #d4d4d4;
+}
+.task-list-item-checkbox:checked {
+  background-color: var(--bp-accent-text);
+}
+
+/* ---- Luna pass: rounded, glossy, XP-era controls (overrides the square rules above) ---- */
+
+body,
+body.theme-dark,
+body.theme-light {
+  --radius-s: 3px;
+  --radius-m: 5px;
+  --radius-l: 8px;
+  --checkbox-radius: 3px;
+  --tag-radius: 999px;
+  --tab-radius: 6px;
+  --tab-radius-active: 6px;
+  --clickable-icon-radius: 4px;
+  --callout-radius: 6px;
+  --bp-xp-border: var(--bp-accent-line);
+  --bp-xp-blue: linear-gradient(to bottom, var(--bp-accent-top) 0%, var(--bp-accent-bottom) 100%);
+  --bp-xp-green: linear-gradient(to bottom, #62c462 0%, #3a9a3a 100%);
+  --bp-xp-cream: linear-gradient(to bottom, #fff 0%, #f6f4ea 60%, var(--bp-line-soft) 100%);
+  --bp-xp-orb: radial-gradient(circle at 35% 30%, #fff 0%, #f4f4f4 45%, #cfcfcf 100%);
+  --toggle-width: 40px;
+  --toggle-radius: 999px;
+  --toggle-thumb-radius: 999px;
+  --toggle-thumb-color: #fff;
+}
+
+/* Buttons */
+button:not(.clickable-icon):where(:not(.mod-warning):not(.mod-cta)),
+.setting-item button:where(:not(.mod-cta):not(.mod-warning)) {
+  background: var(--bp-xp-cream);
+  border: 1px solid var(--bp-btn-border);
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 #fff, inset -1px -1px 1px var(--bp-bevel), 0 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 14px;
+}
+button:not(.clickable-icon):where(:not(.mod-warning):not(.mod-cta)):hover {
+  background: var(--bp-xp-cream);
+  box-shadow: inset 0 0 0 2px var(--bp-ring-hover), 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+button:not(.clickable-icon):where(:not(.mod-warning):not(.mod-cta)):active {
+  background: var(--bp-pressed);
+  box-shadow: inset 0 0 0 2px var(--bp-ring-active), inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+button.mod-cta {
+  background: var(--bp-xp-blue);
+  border: 1px solid var(--bp-accent-dark);
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 1px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  padding: 3px 14px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
+}
+button.mod-cta:hover {
+  background: var(--bp-xp-blue);
+  box-shadow: inset 0 0 0 2px var(--bp-ring-hover), 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+button.mod-warning {
+  border-radius: 4px;
+}
+.clickable-icon {
+  border-radius: 4px;
+}
+.clickable-icon:hover {
+  background: var(--bp-xp-cream);
+  box-shadow: inset 0 0 0 1px #b8b4a8;
+}
+.clickable-icon:active,
+.clickable-icon.is-active {
+  background: var(--bp-pressed);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Toggle switches: glossy orb on an inset pill track */
+.checkbox-container {
+  background: linear-gradient(to bottom, #b8b4a4 0%, var(--bp-line-soft) 100%);
+  border: 1px solid var(--bp-xp-border);
+  border-radius: 999px;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box !important;
+  display: inline-block;
+  flex: 0 0 44px;
+  height: 24px !important;
+  min-width: 44px;
+  overflow: hidden;
+  position: relative;
+  width: 44px !important;
+}
+.checkbox-container.is-enabled {
+  background: var(--bp-xp-green);
+  border-color: #2b7a2b;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(255, 255, 255, 0.3);
+}
+/* !important neutralises Obsidian's own knob offsets */
+.checkbox-container::after,
+.checkbox-container.is-enabled::after {
+  background: var(--bp-xp-orb);
+  border: 1px solid #9a9a9a !important;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  height: 18px !important;
+  inset: auto;
+  inset-inline-start: auto !important;
+  left: 2px !important;
+  margin: 0 !important;
+  opacity: 1 !important;
+  position: absolute;
+  right: auto !important;
+  top: 2px !important;
+  transform: none !important;
+  transition: transform 0.15s ease, width 0.15s ease, box-shadow 0.15s ease !important;
+  translate: none !important;
+  width: 18px !important;
+  z-index: 1;
+}
+.checkbox-container.is-enabled::after {
+  border-color: #b8c8b8 !important;
+  transform: translateX(20px) !important;
+}
+
+/* Sliders: Obsidian draws the fill from the input background, so the track element stays transparent */
+body,
+body.theme-dark,
+body.theme-light {
+  --slider-track-height: 8px;
+  --slider-thumb-height: 16px;
+  --slider-thumb-width: 16px;
+  --slider-thumb-y: -4px;
+  --slider-thumb-radius: 50%;
+}
+body {
+  --slider-track-background: var(--bp-line-soft);
+  --slider-fill-background: var(--bp-accent-mid);
+}
+body input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--slider-track-background);
+  border-radius: 999px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 0 0 1px var(--bp-xp-border);
+  height: 8px;
+  margin: 6px 0;
+}
+body input[type="range"]::-webkit-slider-runnable-track {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  height: 8px;
+}
+body input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: var(--bp-xp-blue);
+  border: 1px solid var(--bp-accent-dark);
+  border-radius: 50%;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.35);
+  box-sizing: border-box;
+  height: 16px;
+  margin-top: 0 !important;
+  width: 16px;
+}
+body input[type="range"]:not(:disabled)::-webkit-slider-thumb:hover,
+body input[type="range"]:not(:disabled)::-webkit-slider-thumb:active {
+  background: linear-gradient(to bottom, var(--bp-accent-hover-top) 0%, var(--bp-accent-mid) 100%);
+  border-color: var(--bp-accent-text);
+}
+
+/* Inputs */
+input[type="text"],
+input[type="search"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+textarea {
+  border: 1px solid var(--bp-xp-border);
+  border-radius: 4px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+input[type="checkbox"],
+.task-list-item-checkbox {
+  border-radius: 3px;
+}
+input[type="checkbox"]:checked,
+.task-list-item-checkbox:checked {
+  background-color: #3a9a3a;
+  border-color: #2b7a2b;
+}
+
+/* Tabs: rounded folder tabs */
+.mod-root .workspace-tab-header .workspace-tab-header-inner {
+  border-radius: 6px 6px 0 0;
+}
+.mod-root .workspace-tab-header.is-active .workspace-tab-header-inner {
+  box-shadow: inset 0 1px 0 #fff;
+}
+.workspace-tab-header,
+.workspace-split .workspace-tab-header {
+  border-radius: 6px 6px 0 0;
+}
+
+/* Panels */
+.metadata-container {
+  border-radius: 6px;
+  overflow: hidden;
+}
+.callout {
+  border-radius: 6px;
+}
+.embedded-backlinks .backlink-pane > .tree-item-self {
+  border-radius: 6px 6px 0 0;
+}
+.modal {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.modal-title,
+.modal-header {
+  background: var(--bp-grad-section);
+  border-radius: 0;
+}
+.menu,
+.popover,
+.suggestion-container {
+  border-radius: 6px;
+}
+.menu-item {
+  border-radius: 4px;
+}
+.nav-folder-title,
+.nav-file-title,
+.tree-item-self,
+.vertical-tab-nav-item {
+  border-radius: 4px;
+}
+.vertical-tab-nav-item.is-active {
+  background: var(--bp-hilite);
+  box-shadow: inset 0 0 0 1px #e0c870;
+}
+.markdown-rendered pre,
+.markdown-rendered table {
+  border-radius: 6px;
+}
+.markdown-rendered code,
+.cm-s-obsidian span.cm-inline-code {
+  border-radius: 4px;
+}
+.workspace-split.mod-root {
+  border-top-left-radius: 8px;
+}
+
+/* Pills for tags and status segments */
+a.tag,
+.cm-s-obsidian span.cm-hashtag,
+.nn-file-tag,
+.nn-file-property {
+  border-radius: 999px;
+  padding: 1px 8px;
+}
+.cm-s-obsidian span.cm-hashtag-begin {
+  border-radius: 999px 0 0 999px;
+}
+.cm-s-obsidian span.cm-hashtag-end {
+  border-radius: 0 999px 999px 0;
+}
+.status-bar-item {
+  border-radius: 999px;
+}
+
+/* Notebook Navigator */
+body,
+body.theme-dark,
+body.theme-light {
+  --nn-theme-navitem-border-radius: 4px;
+  --nn-theme-file-border-radius: 6px;
+  --nn-theme-file-feature-border-radius: 4px;
+  --nn-theme-file-tag-border-radius: 999px;
+  --nn-theme-file-property-border-radius: 999px;
+}
+.nn-file,
+.nn-file-content {
+  border-radius: 6px;
+}
+.nn-icon-button {
+  border-radius: 4px;
+}
+
+/* ---- Settings window: beige panels instead of white ---- */
+.modal.mod-settings,
+.modal.mod-settings .modal-container,
+.vertical-tabs-container,
+.vertical-tab-header,
+.vertical-tab-content-container,
+.vertical-tab-content {
+  background: var(--bp-panel);
+}
+.vertical-tab-header {
+  border-right: 1px solid var(--bp-border);
+}
+.modal.mod-settings .setting-group,
+.modal.mod-settings .setting-items {
+  background: var(--bp-card);
+  border: 1px solid var(--bp-border-soft);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 0 #fff;
+}
+.modal.mod-settings .setting-item {
+  border-top: 1px dotted var(--bp-line-dotted);
+}
+.modal.mod-settings .setting-item:first-child {
+  border-top: 0;
+}
+.modal.mod-settings .setting-item-heading,
+.modal.mod-settings .setting-item.setting-item-heading {
+  color: var(--bp-navy);
+}
+.modal.mod-settings .vertical-tab-header-group-title {
+  color: var(--bp-navy);
+  font-size: var(--bp-ui-font);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.modal.mod-settings input[type="text"],
+.modal.mod-settings input[type="search"],
+.modal.mod-settings select,
+.modal.mod-settings .dropdown {
+  background-color: var(--bp-field);
+}
+
+/* ---- Settings sub-page titlebar: XP-style strip instead of white fade ---- */
+body:not(#bp-x) .setting-page-titlebar {
+  background: linear-gradient(to bottom, var(--bp-nav-top), var(--bp-nav-bottom));
+  box-shadow: 0 1px 0 var(--bp-border-soft), 0 2px 4px rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid var(--bp-border-soft);
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+body:not(#bp-x) .setting-page-title {
+  color: var(--bp-navy);
+  font-weight: 700;
+}
+body:not(#bp-x) .setting-page-back-button:hover {
+  background: var(--bp-accent-soft);
+  border-radius: 4px;
+}
+
+/* ---- Code block language flair: compact ---- */
+body:not(#bp-x) .code-block-flair {
+  top: 4px;
+  right: 6px;
+  padding: 1px 6px;
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--bp-text-faint);
+  background: var(--bp-card);
+  border: 1px solid var(--bp-line-soft);
+  border-radius: 3px;
+}
+
+/* ---- Navigator calendar: shorter rows so six weeks fit the sidebar pane ---- */
+body:not(#bp-x) .nn-navigation-calendar-day-cell {
+  height: 44px;
+  aspect-ratio: auto;
+}
+body:not(#bp-x) .nn-navigation-calendar-day {
+  height: 42px;
+}
+
+/* ---- Settings group titles: breathing room above ---- */
+.modal.mod-settings .setting-item-heading,
+.modal.mod-settings .setting-item.setting-item-heading,
+.modal.mod-settings .setting-group-heading,
+.modal.mod-settings .setting-items > .setting-item:first-child {
+  padding-top: 12px;
+  padding-bottom: 8px;
+}
+.modal.mod-settings .setting-item-heading .setting-item-name {
+  line-height: 1.4;
+}
+
+/* ---- Readability fix: dropdowns, suggesters, search fields, popups ---- */
+body:not(#bp-x) :is(input[type="text"],
+input[type="search"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+textarea,
+.prompt-input,
+.search-input-container input) {
+  background-color: var(--bp-field);
+  color: var(--bp-text);
+  caret-color: var(--bp-text);
+}
+select option,
+select optgroup {
+  background-color: var(--bp-field);
+  color: var(--bp-text);
+}
+input::placeholder,
+textarea::placeholder {
+  color: var(--bp-text-faint);
+  opacity: 1;
+}
+.suggestion-container,
+.prompt,
+.menu,
+.tooltip,
+.notice {
+  background: var(--bp-panel);
+  color: var(--bp-text);
+}
+.suggestion-item,
+.suggestion-content,
+.suggestion-title,
+.suggestion-note,
+.menu-item,
+.menu-item-title,
+.notice-message {
+  color: var(--bp-text);
+}
+.suggestion-item.is-selected,
+.suggestion-item:hover,
+.menu-item:hover {
+  background: var(--bp-hilite);
+  color: var(--bp-text-strong);
+}
+.suggestion-container svg,
+.search-input-container svg,
+.search-input-clear-button {
+  color: var(--bp-text-muted);
+}
+
+
+/* ---- Window buttons: explicit hover so it does not depend on Obsidian's variables ---- */
+.titlebar-button {
+  border-radius: 0;
+  color: var(--bp-text);
+}
+.titlebar-button:hover {
+  background: var(--bp-xp-cream);
+  color: var(--bp-text-strong);
+}
+.titlebar-button.mod-close:hover {
+  background: linear-gradient(to bottom, #ee8a78 0%, #c8402c 100%);
+  color: #fff;
+}
+.titlebar-button:active {
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+
+/* ---- Narrow windows: sidebars shrink and the note keeps a minimum width, so the right sidebar's tab strip never slides under the window buttons ---- */
+.workspace-split.mod-left-split.mod-sidedock {
+  max-width: calc(100vw - 44px - 150px);
+}
+body .workspace-split.mod-sidedock {
+  flex-shrink: 1;
+}
+body .workspace-split.mod-left-split.mod-sidedock {
+  min-width: 220px;
+}
+body .workspace-split.mod-right-split.mod-sidedock {
+  min-width: 280px;
+}
+body .workspace-split.mod-root {
+  min-width: 150px;
+}
+
+
+/* ---- Properties: 8px icon-to-box gap and slimmer key boxes (values from props-dump) ---- */
+.metadata-container {
+  --metadata-input-height: 22px;
+}
+.metadata-container .metadata-property {
+  padding: 2px 0;
+}
+.metadata-container .metadata-property-key {
+  gap: 8px;
+}
+.metadata-container .metadata-property-icon {
+  padding: 0;
+}
+.metadata-container input.metadata-property-key-input {
+  padding: 0 8px;
+}
+.metadata-container .metadata-property .metadata-property-value {
+  margin-top: 0;
+  padding-inline-start: calc(var(--icon-size, 18px) + var(--size-4-1) + 8px);
+}
+
+
+/* ================= Right sidebar: Notebook Navigator calendar ================= */
+body {
+  --nn-theme-calendar-header-color: var(--bp-accent-text);
+  --nn-theme-calendar-weekday-color: var(--bp-text-faint);
+  --nn-theme-calendar-week-color: var(--bp-text-faint);
+  --nn-theme-calendar-day-in-month-color: var(--bp-text);
+  --nn-theme-calendar-day-outside-month-color: var(--bp-text-dim);
+  --nn-theme-calendar-weekend-bg: transparent;
+  --nn-theme-calendar-hover-bg: var(--bp-accent-soft);
+  --nn-theme-calendar-day-today-color: #fff;
+  --nn-theme-calendar-day-today-bg: var(--bp-accent-mid);
+  --nn-theme-calendar-day-active-border-color: var(--bp-accent-text);
+  --nn-theme-calendar-day-active-border-width: 2px;
+  --nn-theme-calendar-note-indicator-color: var(--bp-accent-mid);
+  --nn-calendar-cell-radius: 6px;
+  --nn-calendar-header-chip-bg: transparent;
+  --nn-calendar-week-gap: 0px;
+}
+body:not(#bp-x) .nn-navigation-calendar button[class*="nn-navigation-calendar"],
+body:not(#bp-x) .nn-navigation-calendar button[class*="nn-navigation-calendar"]:hover,
+body:not(#bp-x) .nn-navigation-calendar button[class*="nn-navigation-calendar"]:active {
+  border: 0;
+  box-shadow: none;
+  text-shadow: none;
+  padding-block: 0;
+}
+body:not(#bp-x) .nn-navigation-calendar button[class*="nn-navigation-calendar"]:not(.nn-navigation-calendar-day):not(.has-feature-image) {
+  background: transparent;
+}
+body:not(#bp-x) .nn-navigation-calendar button.nn-navigation-calendar-day:not(.has-feature-image):not(.has-feature-image-key) {
+  background: transparent;
+}
+body:not(#bp-x) .nn-navigation-calendar button.nn-navigation-calendar-day:not(.has-feature-image):not(.has-feature-image-key):hover {
+  background: var(--nn-theme-calendar-hover-bg);
+}
+body:not(#bp-x) .nn-navigation-calendar button[class*="nn-navigation-calendar"]:not(.nn-navigation-calendar-day):hover {
+  background: var(--nn-theme-calendar-hover-bg);
+}
+.nn-navigation-calendar-day-cell {
+  border-bottom: 1px solid var(--bp-line-soft);
+  border-right: 1px solid var(--bp-line-soft);
+  box-sizing: border-box;
+}
+.nn-navigation-calendar-day.is-today {
+  border-radius: 999px;
+}
+.nn-navigation-calendar-day.is-today .nn-navigation-calendar-day-number {
+  color: #fff;
+}
+/* Year view: the transparent-button reset above hid the current-month fill, leaving white text on a pale cell */
+body:not(#bp-x) .nn-navigation-calendar button.nn-navigation-calendar-year-month.is-current-month:not(.has-feature-image),
+body:not(#bp-x) .nn-navigation-calendar button.nn-navigation-calendar-year-month.is-current-month:not(.has-feature-image):hover {
+  background: var(--nn-theme-calendar-day-today-bg);
+  border-radius: var(--nn-calendar-cell-radius);
+}
+body:not(#bp-x) .nn-navigation-calendar button.nn-navigation-calendar-year-month.is-current-month:not(.has-feature-image) {
+  --nn-theme-calendar-note-indicator-color: #fff;
+  --nn-theme-calendar-unfinished-task-indicator-color: #fff;
+}
+body:not(#bp-x) .nn-navigation-calendar button.nn-navigation-calendar-year-month.is-current-month:not(.has-feature-image):hover {
+  background: color-mix(in srgb, var(--nn-theme-calendar-day-today-bg) 85%, #000);
+}
+.nn-navigation-calendar-month {
+  font-weight: 700;
+}
+.nn-navigation-calendar-month .nn-navigation-calendar-quarter-button {
+  border: 1px solid var(--bp-accent-line);
+  border-radius: 999px;
+  color: var(--bp-accent-text);
+  font-size: 9px;
+  padding: 1px 6px;
+}
+.nn-navigation-calendar-weekdays {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.nn-navigation-calendar button.nn-navigation-calendar-nav-button {
+  border-radius: 999px;
+  color: var(--bp-text-faint);
+}
+.nn-navigation-calendar button.nn-navigation-calendar-today {
+  border-radius: 999px;
+  color: var(--bp-accent-link);
+  font-size: 10px;
+  font-weight: 700;
+  padding-inline: 8px;
+}
+
+/* ================= Right sidebar: Obsidian Git ================= */
+.git-view .commit-action-group {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.git-view .nav-action-button,
+.git-view .clickable-icon {
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  box-shadow: none;
+  color: #6b7488;
+}
+.git-view .nav-action-button:hover,
+.git-view .clickable-icon:hover {
+  background: var(--bp-accent-soft);
+  box-shadow: none;
+  color: var(--bp-accent-text);
+}
+.git-view .nav-action-button:active,
+.git-view .clickable-icon:active {
+  background: var(--bp-accent-soft-2);
+  box-shadow: none;
+}
+.git-view #commit-btn,
+.git-view #backup-btn {
+  color: var(--bp-accent-text);
+}
+.git-view .git-commit-msg textarea.commit-msg-input {
+  border-radius: 14px;
+  padding: 6px 30px 6px 12px;
+}
+.git-view .git-commit-msg-clear-button {
+  background: transparent;
+}
+.git-view .nav-folder-title {
+  background: var(--bp-grad-part);
+  border-radius: 4px;
+  color: var(--bp-accent-text);
+  font-weight: 700;
+}
+.git-view .nav-folder-title .tree-item-flair {
+  background: var(--bp-field);
+  border: 1px solid var(--bp-accent-line);
+  border-radius: 999px;
+  color: var(--bp-accent-text);
+  font-size: 10px;
+  padding: 0 6px;
+}
+.git-view .nav-file-title {
+  border-bottom: 1px dotted var(--bp-line-soft);
+  border-radius: 0;
+  margin-bottom: 0;
+  padding-block: 3px;
+}
+.git-view .tree-item-self .git-tools .buttons {
+  opacity: 0;
+  transition: opacity 0.12s ease;
+}
+.git-view .tree-item-self:hover .git-tools .buttons {
+  opacity: 1;
+}
+.git-view .git-tools .type {
+  border: 1px solid var(--bp-accent-line);
+  border-radius: 999px;
+  background: var(--bp-accent-soft);
+  color: var(--bp-accent-link);
+  font-size: 9px;
+  font-weight: 700;
+  height: 16px;
+  margin: 1px 0 0 4px;
+  min-width: 16px;
+  padding: 0 4px;
+  width: auto;
+}
+.git-view .git-tools .type[data-type="M"] {
+  background: #fff1d6;
+  border-color: var(--bp-ring-active);
+  color: #a86400;
+}
+.git-view .git-tools .type[data-type="A"] {
+  background: #dcf2d6;
+  border-color: #4a9a4a;
+  color: #236b23;
+}
+.git-view .git-tools .type[data-type="D"] {
+  background: #fde2de;
+  border-color: #d46a6a;
+  color: #a02020;
+}
+
+/* ================= Fixes: calendar spacing, modal close, right strip, git tab, expand button ================= */
+
+/* 1. Space under month/year; smaller today circle */
+.nn-navigation-calendar-header {
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+.nn-navigation-calendar[data-highlight-today='true']
+  .nn-navigation-calendar-day.is-today:not(.has-feature-image):not(.has-feature-image-key)::before {
+  border-radius: 50%;
+  inset: 16%;
+}
+
+/* 2. Modal close button: centred in the title bar, theme red on hover */
+.modal-close-button {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  height: 22px;
+  inset: 3px 6px auto auto;
+  justify-content: center;
+  padding: 0;
+  width: 22px;
+}
+.modal-close-button:hover {
+  background: linear-gradient(to bottom, #ee8a78 0%, #c8402c 100%);
+  box-shadow: none;
+  color: #fff;
+}
+.modal-close-button:active {
+  background: #a83422;
+}
+
+/* 3. Right sidebar tab strips share the left sidebar's blue family; no orange */
+.workspace-split.mod-right-split .workspace-tab-header-container {
+  background: var(--bp-grad-part);
+  border-bottom: 1px solid var(--bp-accent-line);
+  --icon-color: var(--bp-accent-text);
+  --icon-color-hover: var(--bp-text-strong);
+  --icon-color-active: var(--bp-accent-dark);
+  --icon-color-focused: var(--bp-accent-dark);
+}
+.workspace-split.mod-right-split .workspace-tab-header-inner-icon,
+.workspace-split.mod-right-split .workspace-tab-header-inner-title {
+  color: var(--bp-accent-text);
+}
+
+/* 4. Same size for NN header buttons and the expand/collapse button */
+.nn-icon-button,
+.nn-list-group-header-collapse-button {
+  align-items: center;
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 22px;
+  justify-content: center;
+  min-width: 30px;
+  padding: 0 6px;
+}
+.nn-list-group-header-collapse-button {
+  border-radius: 4px;
+}
+
+
+/* ---- Toggle hover, press and keyboard focus ---- */
+.checkbox-container {
+  cursor: pointer;
+  transition: filter 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.checkbox-container:hover {
+  border-color: var(--bp-accent-mid);
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.25), 0 0 0 2px color-mix(in srgb, var(--bp-accent-mid) 25%, transparent);
+  filter: brightness(1.06);
+}
+.checkbox-container.is-enabled:hover {
+  border-color: #2b7a2b;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2), 0 0 0 2px rgba(58, 154, 58, 0.3);
+}
+.checkbox-container:hover::after,
+.checkbox-container:active::after {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45) !important;
+  width: 22px !important;
+}
+.checkbox-container.is-enabled:hover::after,
+.checkbox-container.is-enabled:active::after {
+  transform: translateX(16px) !important;
+}
+.checkbox-container:active {
+  filter: brightness(0.96);
+}
+.checkbox-container:focus-visible {
+  box-shadow: 0 0 0 2px var(--bp-ring-hover);
+  outline: none;
+}
+
+
+/* ---- Settings left panel: hover and press feedback ---- */
+.vertical-tab-nav-item {
+  color: var(--bp-text);
+  transition: background-color 0.12s ease, box-shadow 0.12s ease;
+}
+.vertical-tab-nav-item:not(.is-active):hover {
+  background: linear-gradient(to bottom, var(--bp-accent-soft-0) 0%, var(--bp-accent-soft-3) 100%);
+  box-shadow: inset 0 0 0 1px var(--bp-accent-soft-line);
+  color: var(--bp-accent-text);
+  text-decoration: underline;
+}
+.vertical-tab-nav-item:not(.is-active):active {
+  background: linear-gradient(to bottom, var(--bp-accent-soft-2) 0%, var(--bp-accent-soft-3) 100%);
+  box-shadow: inset 0 0 0 1px var(--bp-accent-line), inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.vertical-tab-nav-item.is-active:hover {
+  background: var(--bp-hilite-2);
+}
+.vertical-tab-nav-item:focus-visible {
+  box-shadow: 0 0 0 2px var(--bp-ring-hover);
+  outline: none;
+}
+
+
+/* ---- Sidebar tab icons: finish identical to the Notebook Navigator header buttons ---- */
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header {
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 22px;
+  justify-content: center;
+  min-width: 30px;
+  padding: 0 6px;
+}
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header .workspace-tab-header-inner,
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tabs .workspace-tab-header.is-active .workspace-tab-header-inner {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header.is-active {
+  border-color: var(--bp-btn-border);
+}
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header:not(.is-active):hover {
+  background: var(--bp-xp-cream);
+  border-color: var(--bp-btn-border);
+  box-shadow: inset 0 0 0 2px var(--bp-ring-hover), 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header-container-inner {
+  align-items: center;
+  gap: 4px;
+  margin-top: 0;
+  padding: 0;
+}
+
+
+/* ---- Sidebar tab strips: every icon is the same bevelled button as the Notebook Navigator header; centred with even padding ---- */
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header-container {
+  align-items: center;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tabs:not(.mod-top-right-space) .workspace-tab-header-container {
+  box-sizing: border-box;
+  height: var(--bp-strip-h);
+  padding: 0 8px;
+}
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header-container-inner {
+  align-items: center;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header::before,
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header::after,
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header-inner::after {
+  display: none;
+}
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header,
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header.is-active {
+  background: var(--bp-xp-cream);
+  border: 1px solid var(--bp-btn-border);
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 #fff, inset -1px -1px 1px var(--bp-bevel), 0 1px 1px rgba(0, 0, 0, 0.15);
+  color: var(--bp-accent-text);
+  height: 22px;
+  margin: 0;
+  min-width: 30px;
+  padding: 0 6px;
+}
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header .workspace-tab-header-inner,
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header.is-active .workspace-tab-header-inner {
+  background: transparent;
+  border: 0;
+  border-top: 0;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header.is-active {
+  background: linear-gradient(to bottom, var(--bp-accent-soft-2) 0%, var(--bp-accent-soft) 100%);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.25);
+}
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header:hover {
+  box-shadow: inset 0 0 0 2px var(--bp-ring-hover), 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+body .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header:active {
+  background: var(--bp-pressed);
+  box-shadow: inset 0 0 0 2px var(--bp-ring-active), inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* ================= Accent presets (XP-era) ================= */
+body.bp-accent-olive {
+  --bp-accent-top: #7f9a46;
+  --bp-accent-mid: #6f8c3a;
+  --bp-accent-bottom: #566f27;
+  --bp-accent-dark: #3f5120;
+  --bp-accent-hover-top: #a3bd6b;
+  --bp-accent-link: #4a6a1e;
+  --bp-accent-text: #3f5120;
+  --bp-accent-soft-0: #f5f8ea;
+  --bp-accent-soft: #eef2dc;
+  --bp-accent-soft-2: #d4dfb0;
+  --bp-accent-soft-3: #e2ebc8;
+  --bp-accent-soft-line: #c3d29a;
+  --bp-accent-line: #9aae6e;
+  --bp-select: #d9e5b8;
+}
+/* Silver (Luna Metallic): lavender-tinted, sampled from the XP reference */
+body.bp-accent-silver {
+  --bp-accent-top: #9498bb;
+  --bp-accent-mid: #8286ab;
+  --bp-accent-bottom: #6d7199;
+  --bp-accent-dark: #4a4e72;
+  --bp-accent-hover-top: #adb0cd;
+  --bp-accent-link: #3f4380;
+  --bp-accent-text: #444868;
+  --bp-accent-soft-0: #f6f6fa;
+  --bp-accent-soft: #f0f1f5;
+  --bp-accent-soft-2: #cbccda;
+  --bp-accent-soft-3: #dcdce6;
+  --bp-accent-soft-line: #bec1d0;
+  --bp-accent-line: #a1a4bc;
+  --bp-select: #d5d6e6;
+}
+/* Light Metallic title bars with dark text, as in the XP reference; dark mode keeps white text on the Noir companion */
+body.theme-light.bp-accent-silver {
+  --bp-grad-section: linear-gradient(to bottom, #f2f3f8 0%, #d6d8e6 100%);
+  --bp-header-text: #2c3050;
+  --bp-header-shadow: rgba(255, 255, 255, 0.7);
+  --bp-header-hover: rgba(44, 48, 80, 0.12);
+}
+/* Windows XP Mode adds the glossy convex Metallic shading, sampled from the XP title bar */
+body.theme-light.bp-accent-silver.bp-xp-nostalgia {
+  --bp-grad-section: linear-gradient(to bottom, #eceef4 0%, #d9dae6 14%, #e2e4ec 50%, #f6f6fa 86%, #d8d9e4 100%);
+}
+/* Zune: orange sampled from the XP Zune theme; the id stays bp-accent-orange so saved settings keep working */
+body.bp-accent-orange {
+  --bp-accent-top: #ee6a24;
+  --bp-accent-mid: #e0561a;
+  --bp-accent-bottom: #c45714;
+  --bp-accent-dark: #8f3a05;
+  --bp-accent-hover-top: #ff9b58;
+  --bp-accent-link: #a84304;
+  --bp-accent-text: #8f3a05;
+  --bp-accent-soft-0: #fff8f2;
+  --bp-accent-soft: #fdeee4;
+  --bp-accent-soft-2: #ffd2b4;
+  --bp-accent-soft-3: #fee1cd;
+  --bp-accent-soft-line: #f0b896;
+  --bp-accent-line: #d8a07c;
+  --bp-select: #ffdcc3;
+}
+/* Embedded: deep navy from the Windows Embedded theme */
+body.bp-accent-embedded {
+  --bp-accent-top: #337ab2;
+  --bp-accent-mid: #1f669e;
+  --bp-accent-bottom: #0a4a82;
+  --bp-accent-dark: #013259;
+  --bp-accent-hover-top: #4a90c6;
+  --bp-accent-link: #0a4a82;
+  --bp-accent-text: #013259;
+  --bp-accent-soft-0: #f2f6fa;
+  --bp-accent-soft: #ebeff2;
+  --bp-accent-soft-2: #c4d8e8;
+  --bp-accent-soft-3: #d9e6f1;
+  --bp-accent-soft-line: #a9c4da;
+  --bp-accent-line: #6c92b2;
+  --bp-select: #cfe0ee;
+}
+/* Whistler Chartreuse Mongoose (Mallard, build 2419): green primary; the orange slots carry the scheme's golden taskbar colour */
+body.bp-accent-whistler-chartreuse {
+  --bp-accent-top: #5c9a82;
+  --bp-accent-mid: #42846c;
+  --bp-accent-bottom: #35705a;
+  --bp-accent-dark: #1c4538;
+  --bp-accent-hover-top: #6aa88f;
+  --bp-accent-link: #2f6b57;
+  --bp-accent-text: #1c4538;
+  --bp-accent-soft-0: #f7fbe8;
+  --bp-accent-soft: #eef8d0;
+  --bp-accent-soft-2: #d8f690;
+  --bp-accent-soft-3: #e5f8b6;
+  --bp-accent-soft-line: #b4d664;
+  --bp-accent-line: #7ea85a;
+  --bp-select: #d8f690;
+  --bp-orange: #c8a428;
+  --bp-grad-orange: linear-gradient(to bottom, #f6efb8 0%, #e9d97f 55%, #d9c35a 100%);
+  --bp-sunset-border: #b8a24a;
+  --bp-sunset-text: #4a3f0a;
+}
+/* Whistler Blue Lagoon (Mallard, build 2419): teal primary; the orange slots carry the scheme's purple title bar */
+body.bp-accent-whistler-lagoon {
+  --bp-accent-top: #6396a8;
+  --bp-accent-mid: #5a90a4;
+  --bp-accent-bottom: #4a7f94;
+  --bp-accent-dark: #2f5f70;
+  --bp-accent-hover-top: #8cc0cc;
+  --bp-accent-link: #2d6a7e;
+  --bp-accent-text: #2f5f70;
+  --bp-accent-soft-0: #f2f8f6;
+  --bp-accent-soft: #e4f0ed;
+  --bp-accent-soft-2: #bce2d9;
+  --bp-accent-soft-3: #d0eae3;
+  --bp-accent-soft-line: #97d1c3;
+  --bp-accent-line: #6fa3a0;
+  --bp-select: #cfe9e2;
+  --bp-orange: #7a64a0;
+  --bp-grad-orange: linear-gradient(to bottom, #f4effa 0%, #dccfee 55%, #c4b3dc 100%);
+  --bp-sunset-border: #8a74a6;
+  --bp-sunset-text: #2e2342;
+}
+body.bp-accent-native {
+  --bp-accent-top: color-mix(in srgb, var(--bp-src) 82%, #fff);
+  --bp-accent-mid: var(--bp-src);
+  --bp-accent-bottom: color-mix(in srgb, var(--bp-src) 80%, #000);
+  --bp-accent-dark: color-mix(in srgb, var(--bp-src) 55%, #000);
+  --bp-accent-hover-top: color-mix(in srgb, var(--bp-src) 65%, #fff);
+  --bp-accent-link: color-mix(in srgb, var(--bp-src) 75%, #000);
+  --bp-accent-text: color-mix(in srgb, var(--bp-src) 55%, #000);
+  --bp-accent-soft-0: color-mix(in srgb, var(--bp-src) 6%, #fff);
+  --bp-accent-soft: color-mix(in srgb, var(--bp-src) 12%, #fff);
+  --bp-accent-soft-2: color-mix(in srgb, var(--bp-src) 28%, #fff);
+  --bp-accent-soft-3: color-mix(in srgb, var(--bp-src) 18%, #fff);
+  --bp-accent-soft-line: color-mix(in srgb, var(--bp-src) 35%, #fff);
+  --bp-accent-line: color-mix(in srgb, var(--bp-src) 55%, #fff);
+  --bp-select: color-mix(in srgb, var(--bp-src) 25%, #fff);
+}
+body.bp-accent-native {
+  --bp-src: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+}
+body.bp-toggle-follows-accent .checkbox-container.is-enabled {
+  background: var(--bp-xp-blue);
+  border-color: var(--bp-accent-dark);
+}
+body.bp-toggle-follows-accent .checkbox-container.is-enabled:hover {
+  border-color: var(--bp-accent-dark);
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2), 0 0 0 2px color-mix(in srgb, var(--bp-accent-mid) 30%, transparent);
+}
+
+/* ================= Notes list background options (light) ================= */
+body.bp-paper-warm {
+  --bp-list-top: #fffef9;
+  --bp-list-bottom: #f5f2e5;
+}
+body.bp-paper-cream {
+  --bp-list-top: #fcfbf4;
+  --bp-list-bottom: #f1eee2;
+}
+body.bp-paper-flat {
+  --bp-list-top: var(--bp-paper);
+  --bp-list-bottom: var(--bp-paper);
+}
+/* ================= Dark mode: slate grey ================= */
+body.theme-dark {
+  color-scheme: dark;
+  --bp-list-top: #434953;
+  --bp-list-bottom: #3b414b;
+  --bp-chrome: #2b2f36;
+  --bp-panel: #2f343b;
+  --bp-paper: #3e444e;
+  --bp-dark-base: #3e444e;
+  --bp-border: #646e7c;
+  --bp-border-soft: #566070;
+  --bp-card: #3c424b;
+  --bp-card-alt: #353a43;
+  --bp-zebra: #434952;
+  --bp-status-top: #3a4049;
+  --bp-line-soft: #505866;
+  --bp-line-dotted: #566070;
+  --bp-text: #e4e7ec;
+  --bp-text-muted: #bec5d0;
+  --bp-text-faint: #b0b8c4;
+  --bp-text-dim: #a8b1be;
+  --bp-text-strong: #fff;
+  --bp-hilite: #455168;
+  --bp-hilite-2: #4b5875;
+  --bp-current: #4c5974;
+  --bp-pressed: linear-gradient(to bottom, #2f343c 0%, #3a4049 100%);
+  --bp-field: #353b44;
+  --bp-grad-orange: linear-gradient(to bottom, #6b5330 0%, #4f3d22 100%);
+  --bp-accent-soft-0: color-mix(in srgb, var(--bp-accent-mid) 14%, var(--bp-dark-base));
+  --bp-accent-soft: color-mix(in srgb, var(--bp-accent-mid) 20%, var(--bp-dark-base));
+  --bp-accent-soft-2: color-mix(in srgb, var(--bp-accent-mid) 30%, var(--bp-dark-base));
+  --bp-accent-soft-3: color-mix(in srgb, var(--bp-accent-mid) 24%, var(--bp-dark-base));
+  --bp-accent-soft-line: color-mix(in srgb, var(--bp-accent-mid) 45%, var(--bp-dark-base));
+  --bp-accent-line: color-mix(in srgb, var(--bp-accent-mid) 50%, #566070);
+  --bp-accent-text: color-mix(in srgb, var(--bp-accent-top) 40%, #fff);
+  --bp-accent-link: color-mix(in srgb, var(--bp-accent-top) 45%, #fff);
+  --bp-select: color-mix(in srgb, var(--bp-accent-mid) 40%, var(--bp-dark-base));
+  --link-unresolved-color: #ff9a9a;
+  --text-highlight-bg: rgba(240, 200, 80, 0.3);
+  --nn-theme-file-tag-bg: #2f4a33;
+  --nn-theme-file-tag-border-color: #4a9a4a;
+  --nn-theme-file-selected-tag-bg: #2f4a33;
+  --nn-theme-file-selected-tag-border-color: #4a9a4a;
+  --tag-background: #2f4a33;
+  --tag-background-hover: #386040;
+  --tag-color: #a8dba8;
+  --tag-color-hover: #c4ecc4;
+}
+body.theme-dark select,
+body.theme-dark .dropdown,
+body.theme-dark input[type="text"],
+body.theme-dark input[type="search"],
+body.theme-dark input[type="number"],
+body.theme-dark input[type="email"],
+body.theme-dark input[type="url"],
+body.theme-dark input[type="password"],
+body.theme-dark textarea,
+body.theme-dark .prompt-input,
+body.theme-dark .search-input-container input {
+  background-color: var(--bp-field);
+  border-color: var(--bp-border);
+  color: var(--bp-text);
+  caret-color: var(--bp-text);
+}
+body.theme-dark select option,
+body.theme-dark select optgroup {
+  background-color: var(--bp-field);
+  color: var(--bp-text);
+}
+body.theme-dark .metadata-property-key-input,
+body.theme-dark .git-view .nav-folder-title .tree-item-flair {
+  background: var(--bp-field);
+  border-color: var(--bp-border);
+}
+body.theme-dark a.tag,
+body.theme-dark .cm-s-obsidian span.cm-hashtag {
+  background: #2f4a33;
+  border-color: #4a9a4a;
+  color: #a8dba8;
+}
+body.theme-dark .callout {
+  --cb: #c9a63a;
+  background: color-mix(in srgb, var(--cb) 14%, var(--bp-dark-base));
+  border-color: color-mix(in srgb, var(--cb) 55%, var(--bp-dark-base));
+}
+body.theme-dark .callout .callout-title {
+  background: color-mix(in srgb, var(--cb) 30%, var(--bp-dark-base));
+  border-bottom-color: color-mix(in srgb, var(--cb) 55%, var(--bp-dark-base));
+  color: var(--bp-text);
+}
+body.theme-dark .callout[data-callout="info"],
+body.theme-dark .callout[data-callout="note"],
+body.theme-dark .callout[data-callout="abstract"],
+body.theme-dark .callout[data-callout="todo"] {
+  --cb: #4b86e3;
+}
+body.theme-dark .callout[data-callout="tip"],
+body.theme-dark .callout[data-callout="success"],
+body.theme-dark .callout[data-callout="check"],
+body.theme-dark .callout[data-callout="done"] {
+  --cb: #4a9a4a;
+}
+body.theme-dark .callout[data-callout="warning"],
+body.theme-dark .callout[data-callout="caution"],
+body.theme-dark .callout[data-callout="attention"] {
+  --cb: #d48a30;
+}
+body.theme-dark .callout[data-callout="question"],
+body.theme-dark .callout[data-callout="failure"],
+body.theme-dark .callout[data-callout="danger"],
+body.theme-dark .callout[data-callout="bug"],
+body.theme-dark .callout[data-callout="error"] {
+  --cb: #d46a6a;
+}
+body.theme-dark .git-view .git-tools .type[data-type="M"] {
+  background: #4a3b1c;
+  border-color: #b8862a;
+  color: #f0b860;
+}
+body.theme-dark .git-view .git-tools .type[data-type="A"] {
+  background: #2f4a33;
+  border-color: #4a9a4a;
+  color: #a8dba8;
+}
+body.theme-dark .git-view .git-tools .type[data-type="D"] {
+  background: #4d2a2a;
+  border-color: #b85a5a;
+  color: #f0a0a0;
+}
+body.theme-dark .checkbox-container:not(.is-enabled) {
+  background: linear-gradient(to bottom, #23272d 0%, #3a4049 100%);
+}
+body.theme-dark .nn-file-tag,
+body.theme-dark .nn-file-property {
+  color: #a8dba8;
+}
+body.theme-dark .nn-navigation-calendar-day-cell.is-weekend::before {
+  background: rgba(0, 0, 0, 0.16);
+}
+
+/* ================= Dark mode: second pass (surfaces that were still light) ================= */
+body.theme-dark {
+  --nn-theme-list-bg: var(--bp-paper);
+  --nn-theme-list-separator-color: var(--bp-line-soft);
+  --nn-theme-file-selected-bg: color-mix(in srgb, var(--bp-accent-mid) 28%, var(--bp-dark-base));
+  --nn-theme-file-selected-inactive-bg: color-mix(in srgb, var(--bp-accent-mid) 20%, var(--bp-dark-base));
+  --nn-theme-file-selected-border-color: var(--bp-accent-mid);
+  --nn-theme-foreground: var(--bp-text);
+}
+body.theme-dark .nn-list-pane,
+body.theme-dark .nn-list-pane-scroller,
+body.theme-dark .nn-list-pane-content,
+body.theme-dark .nn-list-pane-panel {
+  background: var(--bp-paper);
+}
+body.theme-dark .nn-file-name-label,
+body.theme-dark .nn-file-name {
+  color: var(--bp-text);
+}
+body.theme-dark .nn-file-preview,
+body.theme-dark .nn-file-date {
+  color: var(--bp-text-muted);
+}
+body.theme-dark .nn-list-group-header {
+  background: var(--bp-card-alt);
+  border-bottom-color: var(--bp-line-soft);
+  color: var(--bp-text-muted);
+}
+body.theme-dark .mod-root .workspace-tab-header .workspace-tab-header-inner {
+  background: var(--bp-grad-tab);
+  border-color: var(--bp-border);
+  color: var(--bp-text);
+}
+body.theme-dark .mod-root .workspace-tab-header:hover .workspace-tab-header-inner {
+  background: var(--bp-grad-btn-hover);
+}
+body.theme-dark .mod-root .workspace-tab-header.is-active .workspace-tab-header-inner {
+  background: var(--bp-panel);
+}
+body.theme-dark .workspace-tab-header-inner-title,
+body.theme-dark .mod-root .workspace-tab-header .workspace-tab-header-inner-icon {
+  color: var(--bp-text);
+}
+body.theme-dark .markdown-rendered,
+body.theme-dark .cm-s-obsidian,
+body.theme-dark .markdown-source-view,
+body.theme-dark .markdown-preview-view {
+  color: var(--bp-text);
+}
+body.theme-dark .markdown-rendered code,
+body.theme-dark .cm-s-obsidian span.cm-inline-code,
+body.theme-dark .markdown-rendered pre {
+  background: var(--bp-card-alt);
+  color: var(--bp-text);
+}
+body.theme-dark .menu,
+body.theme-dark .suggestion-container,
+body.theme-dark .prompt,
+body.theme-dark .modal:not(.mod-settings) {
+  border-color: var(--bp-border);
+}
+
+/* ================= Notebook Navigator: gradient panes ================= */
+body {
+  --nn-theme-list-bg: color-mix(in srgb, var(--bp-list-top) 50%, var(--bp-list-bottom));
+  --nn-theme-nav-bg: color-mix(in srgb, var(--bp-nav-top) 50%, var(--bp-nav-bottom));
+}
+body:not(#bp-x) .nn-list-pane {
+  background: linear-gradient(to bottom, var(--bp-list-top), var(--bp-list-bottom));
+}
+body:not(#bp-x) .nn-navigation-pane {
+  background: linear-gradient(to bottom, var(--bp-nav-top), var(--bp-nav-bottom));
+}
+body:not(#bp-x) .nn-list-pane-scroller,
+body:not(#bp-x) .nn-list-pane-content,
+body:not(#bp-x) .nn-list-pane-panel,
+body:not(#bp-x) .nn-navigation-pane-scroller,
+body:not(#bp-x) .nn-navigation-pane-content,
+body:not(#bp-x) .nn-navigation-pane-panel {
+  background: transparent;
+}
+
+/* ================= Note background fade ================= */
+body {
+  --bp-note-top: var(--bp-paper);
+  --bp-note-bottom: var(--bp-paper);
+}
+body.bp-note-warm {
+  --bp-note-top: #fffffb;
+  --bp-note-bottom: #f9f6ea;
+}
+body.bp-note-cream {
+  --bp-note-top: #fefdf8;
+  --bp-note-bottom: #f3f0e3;
+}
+body.theme-dark.bp-note-warm,
+body.theme-dark.bp-note-cream {
+  --bp-note-top: var(--bp-paper);
+  --bp-note-bottom: var(--bp-paper);
+}
+body .workspace-split.mod-root .view-content {
+  background: linear-gradient(to bottom, var(--bp-note-top), var(--bp-note-bottom));
+}
+body .workspace-split.mod-root .markdown-source-view,
+body .workspace-split.mod-root .markdown-preview-view,
+body .workspace-split.mod-root .cm-editor,
+body .workspace-split.mod-root .cm-scroller {
+  background: transparent;
+}
+
+/* ================= Dialogs: flush XP-style title bar with the close button inside it ================= */
+body .modal {
+  padding: 0;
+}
+body .modal .modal-header,
+body .modal .modal-title {
+  border-radius: 0;
+  margin: 0;
+  padding: 5px 40px 5px 12px;
+}
+body .modal .modal-content {
+  padding: 14px 16px 16px;
+}
+body .modal .modal-close-button {
+  height: 22px;
+  inset: 3px 6px auto auto;
+  position: absolute;
+  top: 3px;
+  width: 22px;
+  z-index: 2;
+}
+body .modal .modal-close-button svg {
+  color: #fff;
+}
+body .modal .modal-button-container {
+  padding-top: 10px;
+}
+
+/* ---- Dialog close button: always XP red, matching the window close button ---- */
+body .modal .modal-close-button,
+body .modal .modal-close-button.clickable-icon {
+  background: linear-gradient(to bottom, #e8806c 0%, #c8402c 100%);
+  border: 1px solid #8a2a1a;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45), 0 1px 1px rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+body .modal .modal-close-button svg {
+  color: #fff;
+  stroke: #fff;
+}
+body .modal .modal-close-button:hover {
+  background: linear-gradient(to bottom, #f09a88 0%, #d4503a 100%);
+}
+body .modal .modal-close-button:active {
+  background: linear-gradient(to bottom, #a83422 0%, #c8402c 100%);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+
+/* ---- Dialog title bar (from modal-dump): one bar, close button is .modal-header-button ---- */
+body .modal .modal-header {
+  box-sizing: border-box;
+  min-height: 32px;
+  padding: 7px 40px 7px 12px;
+}
+body .modal .modal-header .modal-title {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+body .modal .modal-header-button,
+body .modal .modal-header-button.clickable-icon,
+body .modal .modal-header-button.mod-raised {
+  align-items: center;
+  background: linear-gradient(to bottom, #e8806c 0%, #c8402c 100%);
+  border: 1px solid #8a2a1a;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45), 0 1px 1px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  display: flex;
+  height: 22px;
+  inset: 5px 6px auto auto;
+  justify-content: center;
+  padding: 0;
+  position: absolute;
+  width: 22px;
+}
+body .modal .modal-header-button svg {
+  color: #fff;
+  height: 14px;
+  stroke: #fff;
+  width: 14px;
+}
+body .modal .modal-header-button:hover {
+  background: linear-gradient(to bottom, #f09a88 0%, #d4503a 100%);
+}
+body .modal .modal-header-button:active {
+  background: linear-gradient(to bottom, #a83422 0%, #c8402c 100%);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* ================= Portal refinements: desk texture ================= */
+body {
+  --bp-dot: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='4'><rect width='1' height='1' fill='black' fill-opacity='0.06'/></svg>");
+}
+body.theme-dark {
+  --bp-dot: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='4'><rect width='1' height='1' fill='white' fill-opacity='0.065'/></svg>");
+}
+/* Slate is the base dark look; the class exists so it can be picked explicitly instead of Auto */
+body.theme-dark.bp-dark-slate {
+  --bp-dot: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='4'><rect width='1' height='1' fill='white' fill-opacity='0.065'/></svg>");
+}
+/* Midnight dots take the blue of its surfaces; Contrast keeps them faint so small labels stay clean */
+body.theme-dark.bp-dark-midnight,
+body.theme-dark.bp-dark-auto.bp-accent-embedded {
+  --bp-dot: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='4'><rect width='1' height='1' fill='%23b8c4e8' fill-opacity='0.05'/></svg>");
+}
+body.theme-dark.bp-dark-contrast {
+  --bp-dot: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='4'><rect width='1' height='1' fill='white' fill-opacity='0.025'/></svg>");
+}
+body.theme-dark.bp-dark-royale,
+body.theme-dark.bp-dark-auto.bp-accent-orange {
+  --bp-dot: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='4'><rect width='1' height='1' fill='white' fill-opacity='0.03'/></svg>");
+}
+body:not(.bp-no-texture) .app-container,
+body:not(.bp-no-texture) .workspace-ribbon,
+body:not(.bp-no-texture) .titlebar,
+body:not(.bp-no-texture) .mod-root .workspace-tabs .workspace-tab-header-container {
+  background-image: var(--bp-dot);
+}
+
+/* ================= Portal refinements: current-row marker (pale highlight + orange bar) ================= */
+body .nn-file.nn-selected,
+body .nn-virtual-file-item.nn-selected .nn-file,
+body .nn-navitem.nn-selected,
+body .nav-file-title.is-active,
+body .tree-item-self.is-active {
+  background: var(--bp-current);
+}
+body .nn-navitem.nn-selected .nn-navitem-name,
+body .nn-file.nn-selected .nn-file-name-label {
+  font-weight: 700;
+}
+
+/* ================= Portal refinements: section kickers and panel headers ================= */
+.metadata-properties-title,
+.git-view .nav-folder-title .tree-item-inner,
+.embedded-backlinks .backlink-pane > .tree-item-self .tree-item-inner {
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.nn-list-group-header-text,
+.vertical-tab-header-group-title,
+.modal.mod-settings .setting-item-heading .setting-item-name {
+  letter-spacing: 0.06em;
+}
+.embedded-backlinks .backlink-pane > .tree-item-self .tree-item-flair,
+.git-view .nav-folder-title .tree-item-flair {
+  font-weight: 700;
+}
+
+/* ================= Portal refinements: breadcrumb separators as ">" ================= */
+.view-header-breadcrumb-separator {
+  color: var(--bp-header-text);
+  font-size: 0;
+  margin: 0 2px;
+  opacity: 1;
+}
+.view-header-breadcrumb-separator::after {
+  color: var(--bp-header-text);
+  content: ">";
+  font-size: 11px;
+  font-weight: 700;
+  text-shadow: 1px 1px 0 var(--bp-header-shadow);
+}
+
+/* ================= Portal refinements: classic square corners (optional) ================= */
+body.bp-classic-square {
+  --radius-s: 0;
+  --radius-m: 0;
+  --radius-l: 0;
+  --input-radius: 0;
+  --button-radius: 0;
+  --checkbox-radius: 0;
+  --tag-radius: 0;
+  --tab-radius: 0;
+  --tab-radius-active: 0;
+  --clickable-icon-radius: 0;
+  --callout-radius: 0;
+  --nn-theme-navitem-border-radius: 0;
+  --nn-theme-file-border-radius: 0;
+  --nn-theme-file-feature-border-radius: 0;
+  --nn-theme-file-tag-border-radius: 0;
+  --nn-theme-file-property-border-radius: 0;
+}
+body.bp-classic-square :is(
+  button, .clickable-icon, .nn-icon-button, .nn-list-group-header-collapse-button,
+  input[type="text"], input[type="search"], input[type="number"], input[type="email"], input[type="url"], input[type="password"],
+  textarea, select, .dropdown, .modal, .modal-header-button, .menu, .menu-item, .popover, .suggestion-container,
+  .callout, .metadata-container, .nn-file, .nn-file-content, .nn-file-tag, .nn-file-property, a.tag, .cm-hashtag,
+  .status-bar-item, .workspace-tab-header, .workspace-tab-header-inner, .vertical-tab-nav-item, .nav-file-title,
+  .nav-folder-title, .tree-item-self, .setting-group, .setting-items, .git-view .nav-action-button,
+  .git-view .git-tools .type, .git-view .tree-item-flair, .git-view .commit-msg-input,
+  .markdown-rendered pre, .markdown-rendered table, .markdown-rendered code, ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track
+) {
+  border-radius: 0;
+}
+body.bp-classic-square .nn-navigation-calendar button[class*="nn-navigation-calendar"],
+body.bp-classic-square .nn-navigation-calendar-day.is-today,
+body.bp-classic-square .nn-navigation-calendar[data-highlight-today='true'] .nn-navigation-calendar-day.is-today::before {
+  border-radius: 0;
+}
+body.bp-classic-square:not(#bp-x) .nn-navigation-calendar button.nn-navigation-calendar-year-month.is-current-month:not(.has-feature-image) {
+  border-radius: 0;
+}
+body.bp-classic-square .workspace-split.mod-root {
+  border-top-left-radius: 0;
+}
+
+/* ---- List group header: row height fits the button, and the collapse button is the same shape as the toolbar buttons ---- */
+body .nn-list-group-header,
+body .nn-virtual-list-group-header .nn-list-group-header {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  min-height: 28px;
+  padding-block: 3px;
+  padding-right: 2px;
+}
+body .nn-list-group-header .nn-list-group-header-collapse-button,
+body .nn-list-sticky-header .nn-list-group-header-collapse-button {
+  align-items: center;
+  background: var(--bp-xp-cream);
+  border: 1px solid var(--bp-btn-border);
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 #fff, inset -1px -1px 1px var(--bp-bevel), 0 1px 1px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 22px;
+  justify-content: center;
+  margin: 0 0 0 auto;
+  min-width: 30px;
+  padding: 0 6px;
+  width: 30px;
+}
+body .nn-list-group-header .nn-list-group-header-collapse-button:hover {
+  box-shadow: inset 0 0 0 2px var(--bp-ring-hover), 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+body .nn-list-group-header .nn-list-group-header-collapse-button:active {
+  background: var(--bp-pressed);
+  box-shadow: inset 0 0 0 2px var(--bp-ring-active), inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+body .nn-list-group-header .nn-list-group-header-collapse-button svg {
+  height: 14px;
+  width: 14px;
+}
+
+
+/* ---- Properties: fixed key column so values stay aligned; boxes still fit their text ---- */
+.metadata-container {
+  --metadata-label-width: 12em;
+}
+.metadata-container .metadata-property-key {
+  flex: 0 0 var(--metadata-label-width);
+  max-width: var(--metadata-label-width);
+  min-width: 0;
+  width: var(--metadata-label-width);
+}
+.metadata-container input.metadata-property-key-input {
+  field-sizing: content;
+  max-width: 100%;
+  min-width: 6em;
+  text-overflow: clip;
+  width: auto;
+}
+
+
+/* ---- Style Settings: let the label column keep its width next to long dropdown values ---- */
+.vertical-tab-content .setting-item-control > select.dropdown {
+  max-width: 200px;
+  text-overflow: ellipsis;
+}
+.vertical-tab-content .setting-item-info {
+  flex: 1 1 60%;
+  min-width: 0;
+}
+
+
+/* ---- Convex Luna shading: bright top, flat body, darker lower edge (replaces the straight top-to-bottom ramp) ---- */
+body.theme-light {
+  --bp-bevel: rgba(150, 140, 110, 0.4);
+  --bp-grad-btn: linear-gradient(to bottom, #fff 0%, #f6f5ee 45%, #ebe8dc 80%, #d6d1c3 100%);
+  --bp-grad-btn-hover: linear-gradient(to bottom, #fffdea 0%, #fbf3c6 45%, #f6e7a6 80%, #ead487 100%);
+  --bp-grad-tab: linear-gradient(to bottom, #fff 0%, #f1f0ea 50%, #dedacd 100%);
+  --bp-xp-cream: linear-gradient(to bottom, #fff 0%, #f8f7f0 45%, #ece9de 80%, #d9d4c6 100%);
+}
+body.theme-dark {
+  --bp-bevel: rgba(0, 0, 0, 0.35);
+  --bp-grad-btn: linear-gradient(to bottom, #565d69 0%, #4a515c 45%, #3f4650 80%, #343a43 100%);
+  --bp-grad-btn-hover: linear-gradient(to bottom, #627084 0%, #566275 45%, #4b5668 80%, #3f4858 100%);
+  --bp-grad-tab: linear-gradient(to bottom, #505763 0%, #454c57 50%, #3b414a 100%);
+  --bp-xp-cream: linear-gradient(to bottom, #5a616d 0%, #4e5560 45%, #444b55 80%, #394049 100%);
+}
+body {
+  --bp-xp-blue: linear-gradient(to bottom, var(--bp-accent-top) 0%, var(--bp-accent-mid) 16%, var(--bp-accent-mid) 70%, var(--bp-accent-bottom) 100%);
+  --bp-grad-section: var(--bp-xp-blue);
+  --bp-grad-orange: linear-gradient(to bottom, #fff0cc 0%, #fadc9c 45%, #f4c870 80%, #e5b157 100%);
+}
+
+
+/* ================= Dark polish: side panel gradient, active sidebar tab icon ================= */
+body.theme-dark {
+  --bp-nav-top: #343a42;
+  --bp-nav-bottom: #2b2f36;
+  --nn-theme-nav-bg: #30353c;
+}
+body .nn-shortcut-pinned,
+body .nn-navigation-pane-chrome {
+  background: transparent;
+}
+body.theme-dark .nn-shortcut-pinned {
+  border-bottom-color: rgba(0, 0, 0, 0.35);
+}
+body.theme-dark .nn-shortcut-pinned::after {
+  display: none;
+}
+body.theme-dark .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header-container {
+  background: linear-gradient(to bottom, #3a4049 0%, #2f343b 100%);
+  border-bottom: 1px solid var(--bp-border);
+  --icon-color: #aab4c4;
+  --icon-color-hover: #fff;
+  --icon-color-active: #fff;
+  --icon-color-focused: #fff;
+}
+body.theme-dark .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header,
+body.theme-dark .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header .workspace-tab-header-inner-icon {
+  color: #aab4c4;
+}
+body.theme-dark .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header.is-active {
+  background: var(--bp-xp-blue);
+  border-color: var(--bp-accent-top);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+body.theme-dark .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header.is-active,
+body.theme-dark .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+body.theme-dark .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header.is-active svg {
+  color: #fff;
+}
+body.theme-dark .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header:not(.is-active):hover {
+  background: var(--bp-grad-btn-hover);
+  color: #fff;
+}
+
+
+/* ================= Design system: every control reads these tokens; change them here to restyle everything ================= */
+body, body.theme-dark, body.theme-light {
+  --bp-btn-border: #003c74;
+  --bp-btn-radius: 4px;
+  --bp-strip-h: var(--header-height, 40px);
+  --bp-reveal-speed: 450ms;
+  --bp-reveal-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --bp-ring-hover: #fcc863;
+  --bp-ring-active: #e0a840;
+  --bp-btn-shadow: inset 0 1px 0 #fff, inset -1px -1px 1px var(--bp-bevel), 0 1px 1px rgba(0, 0, 0, 0.15);
+  --bp-btn-shadow-hover: inset 0 0 0 2px var(--bp-ring-hover), 0 1px 1px rgba(0, 0, 0, 0.15);
+  --bp-btn-shadow-active: inset 0 0 0 2px var(--bp-ring-active), inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+  --button-radius: var(--bp-btn-radius);
+  --input-radius: var(--bp-btn-radius);
+  --interactive-normal: #ebe8dc;
+  --interactive-hover: #f6e7a6;
+}
+body.theme-dark {
+  --interactive-normal: #4a515c;
+  --interactive-hover: #566275;
+}
+body.bp-classic-square {
+  --bp-btn-radius: 0;
+}
+
+/* Obsidian-native form controls (including any added by plugins) get the standard button look; the id hack outranks plugin CSS */
+body:not(#bp-x) :is(select, .dropdown) {
+  --bp-face: var(--bp-xp-cream);
+  background:
+    conic-gradient(from -45deg at 50% 100%, var(--bp-text) 0 90deg, transparent 0) calc(100% - 9px) 50% / 10px 5px no-repeat,
+    var(--bp-face);
+  border: 1px solid var(--bp-btn-border);
+  border-radius: var(--bp-btn-radius);
+  box-shadow: var(--bp-btn-shadow);
+  color: var(--bp-text);
+  height: 24px;
+  min-width: 110px;
+  padding: 0 28px 0 10px;
+}
+body:not(#bp-x) :is(select, .dropdown):hover {
+  box-shadow: var(--bp-btn-shadow-hover);
+}
+body:not(#bp-x) :is(select, .dropdown):active {
+  --bp-face: var(--bp-pressed);
+  box-shadow: var(--bp-btn-shadow-active);
+}
+body:not(#bp-x) :is(select, .dropdown):focus-visible {
+  outline: 2px solid var(--bp-ring-hover);
+  outline-offset: 1px;
+}
+
+/* Classic square corners also squares the toggles */
+body.bp-classic-square .checkbox-container {
+  border-radius: 3px;
+}
+body.bp-classic-square .checkbox-container::after,
+body.bp-classic-square .checkbox-container.is-enabled::after {
+  border-radius: 1px;
+}
+
+/* ================= Scrollbars: slim beveled thumb on a dithered track, no arrow buttons ================= */
+body:not(#bp-x) ::-webkit-scrollbar {
+width: 10px;
+height: 10px;
+background: transparent;
+}
+body:not(#bp-x) ::-webkit-scrollbar-button {
+display: none;
+}
+body:not(#bp-x) ::-webkit-scrollbar-track,
+body:not(#bp-x) ::-webkit-scrollbar-track-piece {
+background:
+  repeating-conic-gradient(color-mix(in srgb, var(--bp-line-soft) 70%, transparent) 0% 25%, transparent 0% 50%) 0 0 / 2px 2px,
+  var(--bp-panel);
+border: 0;
+border-radius: 0;
+box-shadow: inset 1px 0 0 var(--bp-line-soft);
+}
+body:not(#bp-x) ::-webkit-scrollbar-corner {
+background: var(--bp-panel);
+}
+body:not(#bp-x) ::-webkit-scrollbar-thumb {
+background-clip: border-box;
+border: 1px solid var(--bp-border);
+border-radius: 2px;
+box-shadow: inset 1px 1px 0 #fff, inset -1px -1px 1px var(--bp-bevel);
+min-height: 24px;
+min-width: 24px;
+}
+body:not(#bp-x) ::-webkit-scrollbar-thumb:vertical {
+background: linear-gradient(to right, #fff 0%, #f4f2e8 45%, #d9d4c6 100%);
+}
+body:not(#bp-x) ::-webkit-scrollbar-thumb:horizontal {
+background: linear-gradient(to bottom, #fff 0%, #f4f2e8 45%, #d9d4c6 100%);
+}
+body:not(#bp-x) ::-webkit-scrollbar-thumb:hover {
+border-color: var(--bp-btn-border);
+box-shadow: inset 0 0 0 2px var(--bp-ring-hover);
+}
+body:not(#bp-x) ::-webkit-scrollbar-thumb:active {
+box-shadow: inset 0 0 0 2px var(--bp-ring-active), inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+body.theme-dark:not(#bp-x) ::-webkit-scrollbar-thumb {
+box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.15), inset -1px -1px 1px var(--bp-bevel);
+}
+body.theme-dark:not(#bp-x) ::-webkit-scrollbar-thumb:vertical {
+background: linear-gradient(to right, #5e6571 0%, #4e5560 45%, #394049 100%);
+}
+body.theme-dark:not(#bp-x) ::-webkit-scrollbar-thumb:horizontal {
+background: linear-gradient(to bottom, #5e6571 0%, #4e5560 45%, #394049 100%);
+}
+body.theme-dark:not(#bp-x) ::-webkit-scrollbar-thumb:hover {
+box-shadow: inset 0 0 0 2px var(--bp-ring-hover);
+}
+body.bp-classic-square:not(#bp-x) ::-webkit-scrollbar-thumb {
+border-radius: 0;
+}
+
+/* Reveal only while hovering a known scroller; scoped so no universal :not(:hover) selector is needed */
+body:not(#bp-x) :is(.cm-scroller, .markdown-preview-view, .nn-list-pane-scroller, .nn-navigation-pane-scroller, .workspace-leaf-content, .view-content, .vertical-tab-content, .vertical-tab-header, .modal-content, .suggestion-container, .menu):not(:hover)::-webkit-scrollbar-track,
+body:not(#bp-x) :is(.cm-scroller, .markdown-preview-view, .nn-list-pane-scroller, .nn-navigation-pane-scroller, .workspace-leaf-content, .view-content, .vertical-tab-content, .vertical-tab-header, .modal-content, .suggestion-container, .menu):not(:hover)::-webkit-scrollbar-track-piece,
+body:not(#bp-x) :is(.cm-scroller, .markdown-preview-view, .nn-list-pane-scroller, .nn-navigation-pane-scroller, .workspace-leaf-content, .view-content, .vertical-tab-content, .vertical-tab-header, .modal-content, .suggestion-container, .menu):not(:hover)::-webkit-scrollbar-corner {
+background: transparent;
+box-shadow: none;
+}
+body:not(#bp-x) :is(.cm-scroller, .markdown-preview-view, .nn-list-pane-scroller, .nn-navigation-pane-scroller, .workspace-leaf-content, .view-content, .vertical-tab-content, .vertical-tab-header, .modal-content, .suggestion-container, .menu):not(:hover)::-webkit-scrollbar-thumb {
+background: transparent;
+border-color: transparent;
+box-shadow: none;
+}
+
+
+/* ---- Row hover/selection follow the accent (replaces the pale-yellow portal highlight) ---- */
+body.theme-light {
+--bp-hilite: var(--bp-accent-soft);
+--bp-hilite-2: var(--bp-accent-soft-0);
+--bp-current: var(--bp-accent-soft-2);
+}
+body {
+--bp-select-bar: var(--bp-accent-mid);
+--nn-theme-file-selected-border-color: var(--bp-select-bar);
+}
+body .nn-file.nn-selected,
+body .nn-virtual-file-item.nn-selected .nn-file,
+body .nn-navitem.nn-selected,
+body .nav-file-title.is-active,
+body .tree-item-self.is-active {
+box-shadow: inset 3px 0 0 var(--bp-select-bar);
+}
+body.theme-dark {
+--bp-select-bar: var(--bp-accent-top);
+}
+
+
+/* ================= Dialogs: one padding rule for every direct child, so any content (text, links, checkboxes, buttons) is inset the same ================= */
+body:not(#bp-x) .modal:not(:is(.mod-settings, .mod-sidebar-layout, .mod-tasknotes)) {
+  --bp-modal-pad: 16px;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+/* Zero specificity, so a plugin that sets its own dialog width wins */
+:where(.modal:not(.mod-settings):not(.mod-sidebar-layout)) {
+  max-width: min(90vw, 560px);
+}
+body:not(#bp-x) .modal:not(:is(.mod-settings, .mod-sidebar-layout, .mod-tasknotes)) > :not(.modal-header):not(.modal-title):not(.modal-close-button):not(.modal-header-button):not(.modal-bg) {
+  box-sizing: border-box;
+  padding-inline: var(--bp-modal-pad);
+}
+body:not(#bp-x) .modal:not(:is(.mod-settings, .mod-sidebar-layout, .mod-tasknotes)) > .modal-content {
+  padding-block: 14px 8px;
+}
+body:not(#bp-x) .modal:not(:is(.mod-settings, .mod-sidebar-layout, .mod-tasknotes)) > :is(.modal-button-container, .modal-footer) {
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding-block: 8px 14px;
+}
+body:not(#bp-x) .modal:not(:is(.mod-settings, .mod-sidebar-layout, .mod-tasknotes)) > :last-child:not(.modal-header):not(.modal-button-container) {
+  padding-bottom: 14px;
+}
+
+/* Destructive buttons: raised red Luna button; focus ring instead of Obsidian's flat inset look */
+body:not(#bp-x) button.mod-warning {
+  background: linear-gradient(to bottom, #f09a88 0%, #d4503a 16%, #c8402c 70%, #a83422 100%);
+  border: 1px solid #8a2a1a;
+  border-radius: var(--bp-btn-radius);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45), inset -1px -1px 1px rgba(0, 0, 0, 0.25), 0 1px 1px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
+}
+body:not(#bp-x) button.mod-warning:hover {
+  box-shadow: inset 0 0 0 2px var(--bp-ring-hover), 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+body:not(#bp-x) button.mod-warning:active {
+  background: linear-gradient(to bottom, #a83422 0%, #c8402c 100%);
+  box-shadow: inset 0 0 0 2px var(--bp-ring-active), inset 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+body:not(#bp-x) button.mod-warning:focus-visible {
+  outline: 2px solid var(--bp-ring-hover);
+  outline-offset: 1px;
+}
+
+/* ================= Note tabs: inactive tabs flat, active tab is a Luna folder tab opening into the page ================= */
+body:not(#bp-x) .mod-root .workspace-tab-header-container {
+  padding-left: 6px;
+}
+body:not(#bp-x) .mod-root .workspace-tab-header-container-inner {
+  align-items: flex-end;
+  gap: 0;
+}
+body:not(#bp-x) .mod-root .workspace-tab-header {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+body:not(#bp-x) .mod-root .workspace-tab-header .workspace-tab-header-inner {
+  background: linear-gradient(var(--bp-line-dotted), var(--bp-line-dotted)) right center / 1px 55% no-repeat;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  border-radius: 6px 6px 0 0;
+  box-shadow: none;
+  color: var(--bp-text-muted);
+  margin: 0;
+  padding: 5px 10px;
+}
+body:not(#bp-x) .mod-root .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner {
+  background: var(--bp-hilite);
+  border-color: var(--bp-accent-soft-line);
+  color: var(--bp-text-strong);
+}
+body:not(#bp-x) .mod-root .workspace-tab-header.is-active .workspace-tab-header-inner {
+  background: linear-gradient(to bottom, #fff 0%, var(--bp-panel) 100%);
+  border-color: var(--bp-border);
+  border-top: 1px solid var(--bp-orange);
+  box-shadow: inset 0 3px 0 var(--bp-orange), inset 0 4px 0 rgba(255, 255, 255, 0.55);
+  color: var(--bp-text-strong);
+  margin: 0 0 -1px;
+  padding: 5px 10px;
+}
+body.theme-dark:not(#bp-x) .mod-root .workspace-tab-header .workspace-tab-header-inner {
+  box-shadow: none;
+}
+body.theme-dark:not(#bp-x) .mod-root .workspace-tab-header.is-active .workspace-tab-header-inner {
+  background: linear-gradient(to bottom, #4b5360 0%, var(--bp-panel) 100%);
+  box-shadow: inset 0 3px 0 var(--bp-orange), inset 0 4px 0 rgba(255, 255, 255, 0.12);
+}
+body.theme-dark:not(#bp-x) .mod-root .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner {
+  background: var(--bp-hilite);
+  box-shadow: none;
+}
+
+/* Long titles fade out instead of showing an ellipsis */
+body:not(#bp-x) .mod-root .workspace-tab-header-inner-title {
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 14px), transparent);
+  mask-image: linear-gradient(to right, #000 calc(100% - 14px), transparent);
+  text-overflow: clip;
+}
+
+/* Close button: small rounded square, XP red on hover */
+body:not(#bp-x) .mod-root .workspace-tab-header-inner-close-button {
+  align-items: center;
+  border-radius: 4px;
+  height: 16px;
+  justify-content: center;
+  padding: 0;
+  width: 16px;
+}
+body:not(#bp-x) .mod-root .workspace-tab-header-inner-close-button:hover {
+  background: linear-gradient(to bottom, #e8806c 0%, #c8402c 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45);
+  color: #fff;
+}
+body:not(#bp-x) .mod-root .workspace-tab-header-inner-close-button:active {
+  background: linear-gradient(to bottom, #a83422 0%, #c8402c 100%);
+}
+body.bp-classic-square:not(#bp-x) .mod-root .workspace-tab-header .workspace-tab-header-inner,
+body.bp-classic-square:not(#bp-x) .mod-root .workspace-tab-header-inner-close-button {
+  border-radius: 0;
+}
+
+/* Sidebar tab strips use the same chrome and dot texture as the note tab strip; the transparent button container lets it run behind the window buttons */
+body:not(#bp-x) .titlebar-button-container.mod-right {
+  background: transparent;
+}
+body:not(#bp-x) .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tabs .workspace-tab-header-container {
+  background: var(--bp-chrome);
+  border-bottom: 1px solid var(--bp-border);
+}
+body:not(#bp-x):not(.bp-no-texture) .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tabs .workspace-tab-header-container {
+  background-image: var(--bp-dot);
+}
+
+/* NN draws the selected nav row on ::after; keep it square with a straight bar so both ends match */
+body:not(#bp-x) .nn-navitem.nn-selected {
+  background: transparent;
+  box-shadow: none;
+}
+body:not(#bp-x) .nn-navitem.nn-selected::after {
+  border-radius: 0;
+  box-shadow: inset 3px 0 0 var(--bp-select-bar);
+}
+
+/* Calendar header: month, year and quarter read as one tight group; arrows get compact hit areas */
+body:not(#bp-x) .nn-navigation-calendar-header {
+  padding: 0 8px;
+}
+body:not(#bp-x) .nn-navigation-calendar button.nn-navigation-calendar-period-month,
+body:not(#bp-x) .nn-navigation-calendar button.nn-navigation-calendar-period-year {
+  padding-inline: 4px;
+}
+body:not(#bp-x) .nn-navigation-calendar button.nn-navigation-calendar-nav-button {
+  justify-content: center;
+  padding-inline: 0;
+  width: 22px;
+}
+
+/* ---- Taskbar gradient (opt-in): Luna stops sampled from the XP reference ---- */
+body {
+  --bp-taskbar-luna: linear-gradient(to bottom, #3168d5 0%, #3888e9 3%, #4993e6 8%, #307be5 11%, #286add 14%, #245dd7 18%, #2257d5 26%, #245edc 50%, #2663e0 75%, #2561de 87%, #235bd9 91%, #1e50c4 95%, #1941a5 100%);
+}
+/* Every preset except Luna derives its taskbar from the accent; the attribute test keeps the sampled Luna gradient when no preset class is set */
+body[class*="bp-accent-"]:not(.bp-accent-luna) {
+  --bp-taskbar-base: color-mix(in srgb, var(--bp-accent-mid) 80%, #000);
+  --bp-taskbar-luna: linear-gradient(to bottom,
+    color-mix(in srgb, var(--bp-taskbar-base) 88%, #fff) 0%,
+    color-mix(in srgb, var(--bp-taskbar-base) 70%, #fff) 3%,
+    color-mix(in srgb, var(--bp-taskbar-base) 65%, #fff) 8%,
+    color-mix(in srgb, var(--bp-taskbar-base) 82%, #fff) 11%,
+    color-mix(in srgb, var(--bp-taskbar-base) 92%, #fff) 14%,
+    color-mix(in srgb, var(--bp-taskbar-base) 97%, #fff) 18%,
+    var(--bp-taskbar-base) 26%,
+    color-mix(in srgb, var(--bp-taskbar-base) 96%, #fff) 50%,
+    color-mix(in srgb, var(--bp-taskbar-base) 92%, #fff) 75%,
+    color-mix(in srgb, var(--bp-taskbar-base) 94%, #fff) 87%,
+    color-mix(in srgb, var(--bp-taskbar-base) 92%, #000) 95%,
+    color-mix(in srgb, var(--bp-taskbar-base) 72%, #000) 100%);
+}
+body.bp-xp-nostalgia {
+  --bp-xp-blue: var(--bp-taskbar-luna);
+  --bp-grad-section: var(--bp-taskbar-luna);
+}
+body.bp-xp-nostalgia:not(#bp-x) .view-header {
+  border-bottom: 1px solid var(--bp-accent-dark);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+/* ---- Sunset strips: list date groups and Git sections ---- */
+body {
+  --bp-sunset-border: #b88a30;
+  --bp-sunset-text: #5a3a00;
+}
+body.theme-dark {
+  --bp-sunset-border: #8a6a30;
+  --bp-sunset-text: #f2d9a0;
+}
+body.bp-xp-nostalgia:not(#bp-x) .nn-list-group-header,
+body.bp-xp-nostalgia:not(#bp-x) .git-view .nav-folder-title {
+  background: var(--bp-grad-orange);
+  border: 1px solid var(--bp-sunset-border);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55);
+  color: var(--bp-sunset-text);
+}
+
+/* Expanded groups: Notebook Navigator adds a separator line (::after) that painted over the header's bottom border */
+body:not(#bp-x) .nn-virtual-list-group-header {
+  z-index: 2;
+}
+body:not(#bp-x) .nn-virtual-list-group-header::after {
+  display: none;
+}
+body.bp-xp-nostalgia:not(#bp-x) .nn-list-group-header .nn-list-group-header-text,
+body.bp-xp-nostalgia:not(#bp-x) .git-view .nav-folder-title .nav-folder-title-content {
+  color: var(--bp-sunset-text);
+}
+
+/* Settings lists with a search box (community plugins): search band matches the card instead of a grey slab */
+body:not(#bp-x) .modal.mod-settings .setting-group-search {
+  background: var(--bp-card-alt);
+  border-bottom: 1px dotted var(--bp-line-dotted);
+  border-top: 1px dotted var(--bp-line-dotted);
+  padding-block: 10px;
+}
+body:not(#bp-x) .modal.mod-settings .vertical-tab-nav-item.is-active {
+  box-shadow: inset 0 0 0 1px var(--bp-accent-soft-line);
+}
+body:not(#bp-x) .community-item.is-selected {
+  background: var(--bp-accent-soft);
+  border: 1px solid var(--bp-accent-line);
+  border-radius: 6px;
+}
+
+/* ================= Code blocks: classic sunken frame, title bar and VS-style syntax colours ================= */
+body.theme-light {
+  --code-background: #fff;
+  --code-normal: #000;
+  --code-comment: #008000;
+  --code-keyword: #0000ff;
+  --code-string: #a31515;
+  --code-function: #000;
+  --code-value: #098658;
+  --code-property: #001080;
+  --code-operator: #000;
+  --code-punctuation: #000;
+  --code-tag: #800000;
+  --code-important: #f00;
+}
+body.theme-dark {
+  --code-background: #1e1e1e;
+  --code-normal: #d4d4d4;
+  --code-comment: #6a9955;
+  --code-keyword: #569cd6;
+  --code-string: #ce9178;
+  --code-function: #dcdcaa;
+  --code-value: #b5cea8;
+  --code-property: #9cdcfe;
+  --code-operator: #d4d4d4;
+  --code-punctuation: #d4d4d4;
+  --code-tag: #569cd6;
+  --code-important: #f44747;
+}
+body:not(#bp-x) .markdown-rendered pre {
+  background: var(--code-background);
+  color: var(--code-normal);
+  border: 1px solid #808080;
+  border-radius: 0;
+  box-shadow: inset 1px 1px 0 #404040, inset -1px -1px 0 #fff;
+}
+body.theme-dark:not(#bp-x) .markdown-rendered pre {
+  border-color: var(--bp-border);
+  box-shadow: inset 1px 1px 0 #000, inset -1px -1px 0 var(--bp-border-soft);
+}
+body:not(#bp-x) .markdown-rendered pre code {
+  background: transparent;
+  border: 0;
+  padding: 0 12px;
+}
+
+/* Live preview: code lines form one framed block, matching reading view; the language badge keeps its original place */
+/* Space under headings equals the reading-view block margin (--p-spacing), so a block right after a heading looks the same in both modes */
+body:not(#bp-x) .markdown-source-view.mod-cm6 .cm-line.HyperMD-header {
+  padding-bottom: calc(var(--p-spacing) + 3px);
+}
+/* The h1/h2 rule sits 6px under the text so inline code in a heading cannot paint over it */
+body:not(#bp-x) .markdown-source-view.mod-cm6 .cm-line.HyperMD-header:is(.HyperMD-header-1, .HyperMD-header-2) {
+  background: linear-gradient(var(--bp-accent-soft-2), var(--bp-accent-soft-2)) no-repeat 0 calc(100% - var(--p-spacing) + 3px) / 100% 2px;
+  border-bottom: 0;
+}
+body:not(#bp-x) .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
+  border-left: 1px solid #808080;
+  border-right: 1px solid #808080;
+  box-shadow: inset 1px 0 0 #404040, inset -1px 0 0 #fff;
+}
+body:not(#bp-x) .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock-begin {
+  border-top: 1px solid #808080;
+  box-shadow: inset 1px 1px 0 #404040, inset -1px 0 0 #fff;
+}
+body:not(#bp-x) .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock-end {
+  border-bottom: 1px solid #808080;
+  box-shadow: inset 1px 0 0 #404040, inset -1px -1px 0 #fff;
+}
+body.theme-dark:not(#bp-x) .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
+  border-color: var(--bp-border);
+  box-shadow: inset 1px 0 0 #000, inset -1px 0 0 var(--bp-border-soft);
+}
+body.theme-dark:not(#bp-x) .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock-begin {
+  box-shadow: inset 1px 1px 0 #000, inset -1px 0 0 var(--bp-border-soft);
+}
+body.theme-dark:not(#bp-x) .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock-end {
+  box-shadow: inset 1px 0 0 #000, inset -1px -1px 0 var(--bp-border-soft);
+}
+
+/* ================= Canvas: XP window cards, desk surface, folder-tab groups ================= */
+body {
+  --canvas-color-1: #d9392c;
+  --canvas-color-2: #e8890c;
+  --canvas-color-3: #d4a900;
+  --canvas-color-4: #3a9a2a;
+  --canvas-color-5: #3a78d6;
+  --canvas-color-6: #7a4a9e;
+}
+body.theme-light {
+  --canvas-background: var(--bp-panel);
+  --canvas-dot-pattern: rgba(0, 0, 0, 0.22);
+}
+body.theme-dark {
+  --canvas-background: var(--bp-panel);
+  --canvas-dot-pattern: rgba(255, 255, 255, 0.18);
+}
+body:not(#bp-x) .canvas-node-container {
+  background: var(--bp-card);
+  border: 1px solid var(--bp-border);
+  border-radius: 0;
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.7), inset -1px -1px 0 rgba(0, 0, 0, 0.25), 2px 2px 0 rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+body.theme-dark:not(#bp-x) .canvas-node-container {
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.12), inset -1px -1px 0 rgba(0, 0, 0, 0.4), 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+body:not(#bp-x) .canvas-node-container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 14px;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(to bottom, color-mix(in srgb, var(--canvas-color, #8a8a8a) 70%, #fff), var(--canvas-color, #8a8a8a));
+  border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+}
+body:not(#bp-x) .canvas-node:not([class*="mod-canvas-color"]) .canvas-node-container::before {
+  background: linear-gradient(to bottom, #d4d0c8, #a8a498);
+}
+body:not(#bp-x) .canvas-node-content {
+  padding-top: 22px;
+}
+body:not(#bp-x) .canvas-node-group .canvas-node-container {
+  background: transparent;
+  border: 1px dashed var(--bp-border);
+  box-shadow: none;
+}
+body:not(#bp-x) .canvas-node-group .canvas-node-container::before {
+  display: none;
+}
+body:not(#bp-x) .canvas-group-label {
+  background: var(--bp-grad-tab);
+  color: var(--bp-navy);
+  font-family: var(--bp-font-ui);
+  font-weight: 700;
+  border: 1px solid var(--bp-border);
+  border-bottom: 0;
+  border-radius: 4px 4px 0 0;
+  padding: 2px 10px;
+}
+body.theme-dark:not(#bp-x) .canvas-group-label {
+  color: var(--bp-text);
+}
+body:not(#bp-x) .canvas-display-path {
+  stroke: var(--bp-accent-line);
+  stroke-width: 2px;
+}
+body:not(#bp-x) .canvas-control-group,
+body:not(#bp-x) .canvas-card-menu {
+  background: var(--bp-card);
+  border: 1px solid var(--bp-border);
+  border-radius: 3px;
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.6);
+}
+body:not(#bp-x) .canvas-control-item,
+body:not(#bp-x) .canvas-card-menu .canvas-card-menu-button {
+  background: var(--bp-grad-btn);
+  border: 1px solid var(--bp-border-soft);
+  border-radius: 3px;
+}
+
+/* Graph view, dark mode only (light mode already suits the theme): nodes and links follow the accent */
+body.theme-dark {
+  --graph-line: color-mix(in srgb, var(--bp-accent-link) 38%, #4d5560);
+  --graph-node: var(--bp-accent-link);
+  --graph-node-focused: #ffb454;
+  --graph-node-tag: #9ad07a;
+  --graph-node-attachment: #c9a6f0;
+  --graph-node-unresolved: #6b7280;
+  --graph-text: #e4e8ee;
+}
+body.theme-dark.bp-accent-orange {
+  --graph-node-focused: #8ecbff;
+}
+body.theme-dark.bp-accent-olive {
+  --graph-node-tag: #e8c27a;
+}
+body.theme-dark.bp-accent-whistler-chartreuse {
+  --graph-node-tag: #e8c27a;
+}
+
+/* Dark companions: Luna goes Royale Energy Blue and Silver goes Royale Noir in dark mode; Embedded lifts its light stops for slate */
+body.theme-dark.bp-accent-luna,
+body.theme-dark:not([class*="bp-accent-"]) {
+  --bp-accent-top: #5a96e8;
+  --bp-accent-mid: #4478da;
+  --bp-accent-bottom: #2f62c4;
+  --bp-accent-dark: #0e3270;
+  --bp-accent-hover-top: #86b8f6;
+}
+body.theme-dark.bp-accent-silver {
+  --bp-accent-top: #7f8c9b;
+  --bp-accent-mid: #6a7686;
+  --bp-accent-bottom: #485163;
+  --bp-accent-dark: #121a29;
+  --bp-accent-hover-top: #a0acba;
+}
+body.theme-dark.bp-accent-embedded {
+  --bp-accent-top: #4a90c6;
+  --bp-accent-mid: #2b73ac;
+  --bp-accent-hover-top: #62a5d8;
+}
+/* Whistler schemes recolour the secondary (orange) slots, which dark mode redefines later in the file */
+body.theme-dark.bp-accent-whistler-chartreuse {
+  --bp-grad-orange: linear-gradient(to bottom, #6b6330 0%, #4f4a22 100%);
+  --bp-sunset-border: #8a8240;
+  --bp-sunset-text: #f0e6a0;
+}
+body.theme-dark.bp-accent-whistler-lagoon {
+  --bp-grad-orange: linear-gradient(to bottom, #5a4a78 0%, #433557 100%);
+  --bp-sunset-border: #7a64a0;
+  --bp-sunset-text: #dccdf0;
+}
+
+/* ================= Plugin dialogs: shared button states and TaskNotes ================= */
+/* Primary buttons had hover but no pressed state, because the later hover rule outranked the earlier :active */
+body:not(#bp-x) button.mod-cta:active {
+  background: linear-gradient(to bottom, var(--bp-accent-bottom) 0%, var(--bp-accent-mid) 100%);
+  box-shadow: inset 0 0 0 2px var(--bp-ring-active), inset 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+body:not(#bp-x) button.mod-cta:focus-visible {
+  outline: 2px solid var(--bp-ring-hover);
+  outline-offset: 1px;
+}
+
+/* Plugin buttons that restyle themselves (transparent, accent-outlined, flat) get the standard secondary button look; add new plugin buttons to this list */
+body:not(#bp-x) .tasknotes-plugin :is(.tn-task-modal__open-note-button, .pomodoro-view__time-adjust-button, .pomodoro-view__pause-button, .pomodoro-view__stop-button, .pomodoro-view__skip-break-button, .stats-view__filter-button) {
+  background: var(--bp-xp-cream);
+  border: 1px solid var(--bp-btn-border);
+  border-radius: var(--bp-btn-radius);
+  box-shadow: var(--bp-btn-shadow);
+  color: var(--bp-text);
+  font-weight: normal;
+}
+body:not(#bp-x) .tasknotes-plugin :is(.tn-task-modal__open-note-button, .pomodoro-view__time-adjust-button, .pomodoro-view__pause-button, .pomodoro-view__stop-button, .pomodoro-view__skip-break-button, .stats-view__filter-button):hover {
+  background: var(--bp-xp-cream);
+  border: 1px solid var(--bp-btn-border);
+  box-shadow: var(--bp-btn-shadow-hover);
+  color: var(--bp-text);
+}
+body:not(#bp-x) .tasknotes-plugin :is(.tn-task-modal__open-note-button, .pomodoro-view__time-adjust-button, .pomodoro-view__pause-button, .pomodoro-view__stop-button, .pomodoro-view__skip-break-button, .stats-view__filter-button):active {
+  background: var(--bp-pressed);
+  border: 1px solid var(--bp-btn-border);
+  box-shadow: var(--bp-btn-shadow-active);
+  color: var(--bp-text);
+}
+body:not(#bp-x) .tasknotes-plugin :is(.tn-task-modal__open-note-button, .pomodoro-view__time-adjust-button, .pomodoro-view__pause-button, .pomodoro-view__stop-button, .pomodoro-view__skip-break-button, .stats-view__filter-button):focus-visible {
+  outline: 2px solid var(--bp-ring-hover);
+  outline-offset: 1px;
+}
+/* Plugin primary buttons that draw their own flat accent fill */
+body:not(#bp-x) .tasknotes-plugin .pomodoro-view__start-button {
+  background: var(--bp-xp-blue);
+  border: 1px solid var(--bp-accent-dark);
+  border-radius: var(--bp-btn-radius);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 1px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
+}
+body:not(#bp-x) .tasknotes-plugin .pomodoro-view__start-button:hover {
+  background: var(--bp-xp-blue);
+  box-shadow: inset 0 0 0 2px var(--bp-ring-hover), 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+body:not(#bp-x) .tasknotes-plugin .pomodoro-view__start-button:active {
+  background: linear-gradient(to bottom, var(--bp-accent-bottom) 0%, var(--bp-accent-mid) 100%);
+  box-shadow: inset 0 0 0 2px var(--bp-ring-active), inset 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+body:not(#bp-x) .tasknotes-plugin .pomodoro-view__start-button:focus-visible {
+  outline: 2px solid var(--bp-ring-hover);
+  outline-offset: 1px;
+}
+/* Many plugins use the accent as text and border colour; the raw dark-mode accent is too deep for that on slate */
+body.theme-dark {
+  --interactive-accent: var(--bp-accent-top);
+  --interactive-accent-hover: var(--bp-accent-hover-top);
+}
+
+/* TaskNotes reuses Obsidian's .metadata-container for its task information; undo the Properties factsheet look there */
+body:not(#bp-x) .tasknotes-plugin .metadata-container {
+  background: none;
+  border: 0;
+  border-top: 0.5px solid var(--background-modifier-border);
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 0;
+  overflow: visible;
+}
+/* The split layout pulls the Details column up by the container padding; keep its label clear of the clipped edge */
+@media (min-width: 900px) {
+  body:not(#bp-x) .tasknotes-plugin.minimalist-task-modal.split-layout-enabled.expanded .modal-split-right .detail-label {
+    padding-top: calc(var(--size-4-3) + var(--size-4-4));
+  }
+}
+
+/* ================= Dark style: Midnight and Contrast (Slate is the default above) ================= */
+body.theme-dark.bp-dark-midnight,
+body.theme-dark.bp-dark-auto.bp-accent-embedded {
+  --bp-dark-base: #1d2436;
+  --bp-chrome: #0e1320;
+  --bp-panel: #141a2a;
+  --bp-paper: #1d2436;
+  --bp-list-top: #252d44;
+  --bp-list-bottom: #1f2639;
+  --bp-nav-top: #1a2134;
+  --bp-nav-bottom: #0e1320;
+  --nn-theme-nav-bg: #131929;
+  --bp-border: #44527a;
+  --bp-border-soft: #323d5c;
+  --bp-card: #232b42;
+  --bp-card-alt: #192033;
+  --bp-zebra: #222a40;
+  --bp-status-top: #1a2134;
+  --bp-line-soft: #323d5c;
+  --bp-line-dotted: #3a4768;
+  --bp-text: #e8edf8;
+  --bp-text-muted: #bac4da;
+  --bp-text-faint: #aab5cf;
+  --bp-text-dim: #98a4c2;
+  --bp-hilite: #2b3a60;
+  --bp-hilite-2: #32457a;
+  --bp-current: #354a82;
+  --bp-pressed: linear-gradient(to bottom, #121827 0%, #1d2436 100%);
+  --bp-field: #121827;
+  --bp-glow: 0 0 0 1px color-mix(in srgb, var(--bp-accent-top) 60%, transparent), 0 0 12px color-mix(in srgb, var(--bp-accent-top) 40%, transparent);
+}
+body.theme-dark.bp-dark-contrast {
+  --bp-dark-base: #1b1c1f;
+  --bp-chrome: #0b0b0c;
+  --bp-panel: #121214;
+  --bp-paper: #1b1c1f;
+  --bp-list-top: #232427;
+  --bp-list-bottom: #1e1f22;
+  --bp-nav-top: #19191b;
+  --bp-nav-bottom: #0b0b0c;
+  --nn-theme-nav-bg: #111113;
+  --bp-border: #8c929d;
+  --bp-border-soft: #666c77;
+  --bp-card: #26272b;
+  --bp-card-alt: #1f2023;
+  --bp-zebra: #212225;
+  --bp-status-top: #19191b;
+  --bp-line-soft: #3d4047;
+  --bp-line-dotted: #4d515a;
+  --bp-text: #f6f7f9;
+  --bp-text-muted: #d2d6dd;
+  --bp-text-faint: #c4c9d2;
+  --bp-text-dim: #adb3be;
+  --bp-hilite: #2a3850;
+  --bp-hilite-2: #314668;
+  --bp-current: #34507c;
+  --bp-pressed: linear-gradient(to bottom, #0e0e10 0%, #1b1c1f 100%);
+  --bp-field: #0e0e10;
+  --bp-glow: 0 0 0 1px var(--bp-accent-link), 0 0 10px color-mix(in srgb, var(--bp-accent-top) 55%, transparent);
+}
+/* Royale Dark: neutral charcoal with the Royale split-shine gloss (bright upper half, darker lower half) */
+body.theme-dark.bp-dark-royale,
+body.theme-dark.bp-dark-auto.bp-accent-orange {
+  --bp-dark-base: #232323;
+  --bp-chrome: #121212;
+  --bp-panel: #1a1a1a;
+  --bp-paper: #222;
+  --bp-list-top: #2b2b2b;
+  --bp-list-bottom: #212121;
+  --bp-nav-top: #262626;
+  --bp-nav-bottom: #121212;
+  --nn-theme-nav-bg: #191919;
+  --bp-border: #4a4a4a;
+  --bp-border-soft: #363636;
+  --bp-card: #2a2a2a;
+  --bp-card-alt: #202020;
+  --bp-zebra: #262626;
+  --bp-status-top: #1e1e1e;
+  --bp-line-soft: #343434;
+  --bp-line-dotted: #404040;
+  --bp-text: #e8e8e8;
+  --bp-text-muted: #c0c0c0;
+  --bp-text-faint: #b2b2b2;
+  --bp-text-dim: #a2a2a2;
+  --bp-hilite: color-mix(in srgb, var(--bp-accent-mid) 24%, #222);
+  --bp-hilite-2: color-mix(in srgb, var(--bp-accent-mid) 30%, #222);
+  --bp-current: color-mix(in srgb, var(--bp-accent-mid) 36%, #222);
+  --bp-pressed: linear-gradient(to bottom, #0e0e0e 0%, #1e1e1e 100%);
+  --bp-field: #141414;
+  --bp-bevel: rgba(0, 0, 0, 0.55);
+  --bp-grad-btn: linear-gradient(to bottom, #525252 0%, #3e3e3e 48%, #2a2a2a 52%, #1f1f1f 100%);
+  --bp-grad-btn-hover: linear-gradient(to bottom, #626262 0%, #4a4a4a 48%, #343434 52%, #272727 100%);
+  --bp-grad-tab: linear-gradient(to bottom, #4a4a4a 0%, #363636 48%, #262626 52%, #1c1c1c 100%);
+  --bp-xp-cream: linear-gradient(to bottom, #525252 0%, #3e3e3e 48%, #2a2a2a 52%, #1f1f1f 100%);
+  --bp-glow: 0 0 0 1px color-mix(in srgb, var(--bp-accent-top) 60%, transparent), 0 0 10px color-mix(in srgb, var(--bp-accent-top) 40%, transparent);
+}
+body.theme-dark:is(.bp-dark-midnight, .bp-dark-contrast, .bp-dark-royale, .bp-dark-auto.bp-accent-orange, .bp-dark-auto.bp-accent-embedded) {
+  --bp-lift: 0 10px 28px rgba(0, 0, 0, 0.6), 0 2px 6px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+body.theme-dark:is(.bp-dark-midnight, .bp-dark-contrast, .bp-dark-royale, .bp-dark-auto.bp-accent-orange, .bp-dark-auto.bp-accent-embedded) :is(.modal, .menu, .popover, .suggestion-container, .prompt) {
+  box-shadow: var(--bp-lift);
+}
+body.theme-dark:is(.bp-dark-midnight, .bp-dark-contrast, .bp-dark-royale, .bp-dark-auto.bp-accent-orange, .bp-dark-auto.bp-accent-embedded) .workspace-split:is(.mod-left-split, .mod-right-split) .workspace-tab-header-container {
+  background: linear-gradient(to bottom, var(--bp-nav-top) 0%, var(--bp-panel) 100%);
+}
+body.theme-dark:is(.bp-dark-midnight, .bp-dark-contrast, .bp-dark-royale, .bp-dark-auto.bp-accent-orange, .bp-dark-auto.bp-accent-embedded):not(#bp-x) .mod-root .workspace-tab-header.is-active .workspace-tab-header-inner {
+  background: linear-gradient(to bottom, var(--bp-card) 0%, var(--bp-paper) 100%);
+  box-shadow: inset 0 3px 0 var(--bp-orange), inset 0 4px 0 rgba(255, 255, 255, 0.1), 0 -4px 14px -6px color-mix(in srgb, var(--bp-accent-top) 70%, transparent);
+}
+body.theme-dark:is(.bp-dark-midnight, .bp-dark-contrast, .bp-dark-royale, .bp-dark-auto.bp-accent-orange, .bp-dark-auto.bp-accent-embedded):not(#bp-x) :is(button, select, .dropdown, .checkbox-container, .clickable-icon, .vertical-tab-nav-item):focus-visible {
+  outline: 2px solid var(--bp-accent-link);
+  outline-offset: 1px;
+}
+body.theme-dark:is(.bp-dark-midnight, .bp-dark-contrast, .bp-dark-royale, .bp-dark-auto.bp-accent-orange, .bp-dark-auto.bp-accent-embedded):not(#bp-x) :is(input[type="text"], input[type="search"], input[type="number"], textarea, .prompt-input):focus {
+  border-color: var(--bp-accent-link);
+  box-shadow: var(--bp-glow);
+}
+
+/* ================= Small controls: balloon notices, progress bars, tasks, ribbon, bullets, fold arrows, footnotes ================= */
+body {
+  --bp-balloon-bg: #ffffe1;
+  --bp-balloon-text: #000;
+  --bp-balloon-border: #404040;
+  --bp-balloon-radius: calc(var(--bp-btn-radius) * 2);
+  --checkbox-color: #3a9a3a;
+  --checkbox-color-hover: #4aaa4a;
+  --checkbox-marker-color: #fff;
+  --checklist-done-decoration: line-through;
+  --checklist-done-color: var(--bp-text-muted);
+  --list-marker-color: var(--bp-accent-mid);
+  --list-marker-color-hover: var(--bp-accent-top);
+  --list-marker-color-collapsed: var(--bp-accent-mid);
+  --list-bullet-radius: 50%;
+  --collapse-icon-color: var(--bp-accent-text);
+  --collapse-icon-color-collapsed: var(--bp-accent-mid);
+}
+body.theme-dark {
+  --bp-balloon-bg: var(--bp-card);
+  --bp-balloon-text: var(--bp-text);
+  --bp-balloon-border: var(--bp-border);
+  --list-marker-color: var(--bp-accent-top);
+  --list-marker-color-hover: var(--bp-accent-hover-top);
+  --list-marker-color-collapsed: var(--bp-accent-top);
+}
+body.bp-classic-square {
+  --list-bullet-radius: 0;
+}
+
+/* Balloon: pale-yellow tooltip look for toasts and hover tips */
+body:not(#bp-x) :is(.notice, .tooltip) {
+  background: var(--bp-balloon-bg);
+  border: 1px solid var(--bp-balloon-border);
+  border-radius: var(--bp-balloon-radius);
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+  color: var(--bp-balloon-text);
+}
+body:not(#bp-x) .notice .notice-message {
+  color: var(--bp-balloon-text);
+}
+
+/* Progress bar: sunken track, segmented green blocks like the XP startup bar */
+body:not(#bp-x) .progress-bar-indicator {
+  background: var(--bp-field);
+  border: 1px solid var(--bp-border);
+  border-radius: var(--bp-btn-radius);
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  height: 14px;
+}
+/* Obsidian's line is a faint full-width track and the subline is the animated fill */
+body:not(#bp-x) .progress-bar-line {
+  background: transparent;
+  height: 100%;
+  opacity: 1;
+}
+body:not(#bp-x) .progress-bar-subline {
+  background: var(--bp-xp-green);
+  border-radius: 2px;
+  height: calc(100% - 4px);
+  top: 2px;
+}
+/* Block gaps sit on top, so they stay a fixed width while the fill scales */
+body:not(#bp-x) .progress-bar-indicator::after {
+  background: repeating-linear-gradient(to right, transparent 0 7px, var(--bp-field) 7px 9px);
+  content: "";
+  inset: 2px;
+  pointer-events: none;
+  position: absolute;
+}
+body:not(#bp-x) .setting-progress-bar {
+  background: var(--bp-field);
+  border: 1px solid var(--bp-border);
+  border-radius: var(--bp-btn-radius);
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  height: 14px;
+  padding: 2px;
+}
+body:not(#bp-x) .setting-progress-bar-inner {
+  background:
+    repeating-linear-gradient(to right, transparent 0 7px, var(--bp-field) 7px 9px),
+    var(--bp-xp-green);
+  border-radius: 2px;
+}
+body:not(#bp-x) progress {
+  appearance: none;
+  background: var(--bp-field);
+  border: 1px solid var(--bp-border);
+  border-radius: var(--bp-btn-radius);
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.3);
+  height: 14px;
+  overflow: hidden;
+}
+body:not(#bp-x) progress::-webkit-progress-bar {
+  background: transparent;
+}
+body:not(#bp-x) progress::-webkit-progress-value {
+  background:
+    repeating-linear-gradient(to right, transparent 0 7px, var(--bp-field) 7px 9px),
+    var(--bp-xp-green);
+}
+
+/* Tasks: glossy raised box with a white tick; done items fade and strike */
+body:not(#bp-x) :is(.task-list-item-checkbox, input[type="checkbox"]) {
+  background: var(--bp-xp-cream);
+  border: 1px solid var(--bp-btn-border);
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 #fff, inset -1px -1px 1px var(--bp-bevel);
+}
+body:not(#bp-x) :is(.task-list-item-checkbox, input[type="checkbox"]):hover {
+  box-shadow: var(--bp-btn-shadow-hover);
+}
+body:not(#bp-x) :is(.task-list-item-checkbox, input[type="checkbox"]):checked {
+  background: var(--bp-xp-green);
+  border-color: #2b7a2b;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+body:not(#bp-x) :is(.task-list-item-checkbox, input[type="checkbox"]):checked:hover {
+  box-shadow: inset 0 0 0 2px var(--bp-ring-hover);
+}
+body:not(#bp-x) :is(.task-list-item-checkbox, input[type="checkbox"]):focus-visible {
+  outline: 2px solid var(--bp-ring-hover);
+  outline-offset: 1px;
+}
+body.bp-classic-square:not(#bp-x) :is(.task-list-item-checkbox, input[type="checkbox"]) {
+  border-radius: 0;
+}
+
+/* Ribbon buttons share the standard hover ring and pressed state */
+body:not(#bp-x) .workspace-ribbon .clickable-icon:hover {
+  border-color: var(--bp-btn-border);
+  box-shadow: var(--bp-btn-shadow-hover);
+}
+body:not(#bp-x) .workspace-ribbon .clickable-icon:active,
+body:not(#bp-x) .workspace-ribbon .side-dock-ribbon-action.is-active {
+  border-color: var(--bp-btn-border);
+  box-shadow: var(--bp-btn-shadow-active);
+}
+
+/* Footnotes and highlights: sticky-note yellow */
+body:not(#bp-x) :is(.markdown-rendered mark, .cm-s-obsidian span.cm-highlight) {
+  background: var(--text-highlight-bg);
+  border-bottom: 1px solid #d4b84a;
+  border-radius: 2px;
+  color: inherit;
+}
+body:not(#bp-x) .markdown-rendered sup.footnote-ref a {
+  background: var(--bp-accent-soft);
+  border: 1px solid var(--bp-accent-soft-line);
+  border-radius: 999px;
+  padding: 0 4px;
+  text-decoration: none;
+}
+body:not(#bp-x) .markdown-rendered section.footnotes {
+  border-top: 2px solid var(--bp-accent-soft-2);
+}
+body.bp-classic-square:not(#bp-x) .markdown-rendered sup.footnote-ref a {
+  border-radius: 0;
+}
+
+/* XP Mode taskbar: the status bar wears the accent-coloured pane-header gradient, with flat items */
+body.bp-xp-nostalgia:not(#bp-x) .status-bar {
+  background: var(--bp-grad-section);
+  border-top: 1px solid var(--bp-accent-dark);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  color: var(--bp-header-text);
+}
+body.bp-xp-nostalgia:not(#bp-x) .status-bar .status-bar-item {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  color: inherit;
+}
+body.bp-xp-nostalgia:not(#bp-x) .status-bar .status-bar-item.mod-clickable:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 0 0 2px var(--bp-ring-hover);
+  color: inherit;
+}
+body.bp-xp-nostalgia:not(#bp-x) .status-bar .status-bar-item.mod-clickable:active {
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 2px var(--bp-ring-active), inset 1px 1px 3px rgba(0, 0, 0, 0.45);
+}
+/* Sync status icons keep their meaning but get pale tints that read on the coloured bar */
+body.bp-xp-nostalgia {
+  --bp-sb-error: #ffc2c2;
+  --bp-sb-warning: #ffe08a;
+  --bp-sb-success: #c8f5c8;
+}
+body.theme-light.bp-accent-silver.bp-xp-nostalgia {
+  --bp-sb-error: #b3122a;
+  --bp-sb-warning: #8a5a00;
+  --bp-sb-success: #1f6b2a;
+}
+body.bp-xp-nostalgia:not(#bp-x) .status-bar .status-bar-item-icon.mod-error {
+  color: var(--bp-sb-error);
+}
+body.bp-xp-nostalgia:not(#bp-x) .status-bar .status-bar-item-icon.mod-warning {
+  color: var(--bp-sb-warning);
+}
+body.bp-xp-nostalgia:not(#bp-x) .status-bar .status-bar-item-icon.mod-success {
+  color: var(--bp-sb-success);
+}

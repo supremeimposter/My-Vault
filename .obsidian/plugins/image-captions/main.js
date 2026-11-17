@@ -35,76 +35,124 @@ var import_obsidian = require("obsidian");
 var DEFAULT_SETTINGS = {
   captionRegex: ""
 };
+var captionRegexDesc = "For advanced caption parsing, you can add a regex here. The first capturing group will be used as the image caption. This is useful in situations where you might have another plugin or theme adding text to the caption area which you want to strip out. The placeholder example would be used to exclude everything following a pipe character (if one exists).";
 var CaptionSettingTab = class extends import_obsidian.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
   }
-  display() {
-    const { containerEl } = this;
-    containerEl.empty();
-    new import_obsidian.Setting(containerEl).setName("Advanced settings").setHeading();
-    new import_obsidian.Setting(containerEl).setName("Caption regex").setDesc("For advanced caption parsing, you can add a regex here. The first capturing group will be used as the image caption. This is useful in situations where you might have another plugin or theme adding text to the caption area which you want to strip out. The placeholder example would be used to exclude everything following a pipe character (if one exists).").addText((text) => text.setPlaceholder("^([^|]+)").setValue(this.plugin.settings.captionRegex).onChange(async (value) => {
-      this.plugin.settings.captionRegex = value;
-      await this.plugin.saveSettings();
-    }));
+  getSettingDefinitions() {
+    return [
+      {
+        name: "Caption regex",
+        desc: captionRegexDesc,
+        control: {
+          type: "text",
+          key: "captionRegex",
+          placeholder: "^([^|]+)",
+          defaultValue: "",
+          validate: (value) => {
+            try {
+              RegExp(value);
+            } catch (e) {
+              return "Not a valid regular expression.";
+            }
+          }
+        }
+      }
+    ];
   }
 };
 
 // src/main.ts
 var filenamePlaceholder = "%";
 var filenameExtensionPlaceholder = "%.%";
+var alignmentKeywords = ["left", "right", "center"];
 var ImageCaptions = class extends import_obsidian2.Plugin {
+  constructor() {
+    super(...arguments);
+    this.observers = /* @__PURE__ */ new Map();
+  }
   async onload() {
     this.registerMarkdownPostProcessor(this.externalImageProcessor());
     await this.loadSettings();
     this.addSettingTab(new CaptionSettingTab(this.app, this));
-    this.observer = new MutationObserver((mutations) => {
+    this.observeDocument(activeDocument);
+    this.app.workspace.iterateAllLeaves((leaf) => {
+      this.observeDocument(leaf.view.containerEl.doc);
+    });
+    this.registerEvent(this.app.workspace.on("window-open", (workspaceWindow) => {
+      this.observeDocument(workspaceWindow.doc);
+    }));
+    this.registerEvent(this.app.workspace.on("window-close", (workspaceWindow) => {
+      var _a;
+      (_a = this.observers.get(workspaceWindow.doc)) == null ? void 0 : _a.disconnect();
+      this.observers.delete(workspaceWindow.doc);
+    }));
+  }
+  observeDocument(doc) {
+    if (this.observers.has(doc))
+      return;
+    const observer = new MutationObserver((mutations) => {
       mutations.forEach((rec) => {
         if (rec.type === "childList") {
-          rec.target.querySelectorAll(".image-embed, .video-embed").forEach(async (imageEmbedContainer) => {
-            var _a, _b;
-            const img = imageEmbedContainer.querySelector("img, video");
-            const width = imageEmbedContainer.getAttribute("width") || "";
-            const captionText = this.getCaptionText(imageEmbedContainer);
-            if (!img)
-              return;
-            const figure = imageEmbedContainer.querySelector("figure");
-            const figCaption = imageEmbedContainer.querySelector("figcaption");
-            if (figure || ((_a = img.parentElement) == null ? void 0 : _a.nodeName) === "FIGURE") {
-              if (figCaption && captionText) {
-                const children = (_b = await renderMarkdown(captionText, "", this)) != null ? _b : [captionText];
-                figCaption.replaceChildren(...children);
-              } else if (!captionText) {
-                imageEmbedContainer.appendChild(img);
-                figure == null ? void 0 : figure.remove();
-              }
-            } else {
-              if (captionText && captionText !== imageEmbedContainer.getAttribute("src")) {
-                await this.insertFigureWithCaption(img, imageEmbedContainer, captionText, "");
-              }
-            }
-            if (width) {
-              img.setAttribute("width", width);
-            } else {
-              img.removeAttribute("width");
-            }
+          rec.target.querySelectorAll(".image-embed, .video-embed").forEach((imageEmbedContainer) => {
+            void this.processEmbedContainer(imageEmbedContainer);
           });
         }
       });
     });
-    this.observer.observe(document.body, {
+    observer.observe(doc.body, {
       subtree: true,
       childList: true
     });
+    this.observers.set(doc, observer);
+  }
+  async processEmbedContainer(imageEmbedContainer) {
+    var _a;
+    if (imageEmbedContainer.classList.contains("is-resizing"))
+      return;
+    const img = imageEmbedContainer.querySelector("img, video");
+    if (!img)
+      return;
+    const width = imageEmbedContainer.getAttribute("width") || "";
+    const isInternalEmbed = imageEmbedContainer.hasAttribute("src") || imageEmbedContainer.hasAttribute("alt");
+    const caption = isInternalEmbed ? this.getCaptionText(imageEmbedContainer) : this.getExternalImageCaptionText(img);
+    const figure = imageEmbedContainer.querySelector("figure");
+    if (figure || ((_a = img.parentElement) == null ? void 0 : _a.nodeName) === "FIGURE") {
+      if (figure == null ? void 0 : figure.classList.contains("image-captions-figure")) {
+        await this.updateFigure(figure, caption);
+      }
+    } else if (caption.text || caption.alignment) {
+      await this.insertFigureWithCaption(img, imageEmbedContainer, caption, "");
+    }
+    if (!imageEmbedContainer.hasAttribute("src"))
+      return;
+    if (width && img.getAttribute("width") !== width) {
+      img.setAttribute("width", width);
+    } else if (!width && img.hasAttribute("width")) {
+      img.removeAttribute("width");
+    }
   }
   getCaptionText(img) {
+    const parsed = { text: "", alignment: "" };
     let captionText = img.getAttribute("alt") || "";
     const src = img.getAttribute("src") || "";
     const edge = captionText.replace(/ > /, "#");
     if (captionText === src || edge === src) {
-      return "";
+      return parsed;
     }
+    const sections = captionText.split("|");
+    const kept = [];
+    for (const section of sections) {
+      const keyword = section.trim().toLowerCase();
+      if (alignmentKeywords.includes(keyword)) {
+        parsed.alignment = keyword;
+      } else {
+        kept.push(section);
+      }
+    }
+    captionText = kept.join("|");
     if (this.settings.captionRegex) {
       try {
         const match = captionText.match(new RegExp(this.settings.captionRegex));
@@ -132,28 +180,74 @@ var ImageCaptions = class extends import_obsidian2.Plugin {
     captionText = captionText.replace(/<<(.*?)>>/g, (_, linktext) => {
       return "[[" + linktext + "]]";
     });
-    return captionText;
+    parsed.text = captionText;
+    return parsed;
+  }
+  getExternalImageCaptionText(img) {
+    const alt = img.getAttribute("alt") || "";
+    const src = img.getAttribute("src") || "";
+    if (alt === src.slice(src.lastIndexOf("/") + 1)) {
+      return { text: "", alignment: "" };
+    }
+    return this.getCaptionText(img);
   }
   externalImageProcessor() {
     return (el, ctx) => {
-      el.findAll("img:not(.emoji), video").forEach(async (img) => {
-        const captionText = this.getCaptionText(img);
+      el.findAll("img:not(.emoji), video").forEach((img) => {
+        const caption = this.getCaptionText(img);
         const parent = img.parentElement;
-        if (parent && (parent == null ? void 0 : parent.nodeName) !== "FIGURE" && captionText && captionText !== img.getAttribute("src")) {
-          await this.insertFigureWithCaption(img, parent, captionText, ctx.sourcePath);
+        if (parent && (parent == null ? void 0 : parent.nodeName) !== "FIGURE" && (caption.text || caption.alignment)) {
+          void this.insertFigureWithCaption(img, parent, caption, ctx.sourcePath);
         }
       });
     };
   }
-  async insertFigureWithCaption(imageEl, outerEl, captionText, sourcePath) {
-    var _a;
+  async insertFigureWithCaption(imageEl, outerEl, caption, sourcePath) {
+    const parent = imageEl.parentElement;
+    const content = (parent == null ? void 0 : parent.classList.contains("image-wrapper")) ? parent : imageEl;
     const figure = outerEl.createEl("figure");
     figure.addClass("image-captions-figure");
-    figure.appendChild(imageEl);
-    const children = (_a = await renderMarkdown(captionText, sourcePath, this)) != null ? _a : [captionText];
-    figure.createEl("figcaption", {
-      cls: "image-captions-caption"
-    }).replaceChildren(...children);
+    this.setFigureAlignment(figure, caption.alignment);
+    figure.appendChild(content);
+    if (caption.text) {
+      await this.addFigCaption(figure, caption.text, sourcePath);
+    }
+  }
+  async updateFigure(figure, caption) {
+    var _a;
+    const figCaption = figure.querySelector("figcaption");
+    if (!caption.text && !caption.alignment) {
+      const content = figure.querySelector(".image-wrapper") || figure.querySelector("img, video");
+      if (content) {
+        figure.replaceWith(content);
+      } else {
+        figure.remove();
+      }
+      return;
+    }
+    this.setFigureAlignment(figure, caption.alignment);
+    if (caption.text) {
+      if (((_a = figCaption == null ? void 0 : figCaption.dataset) == null ? void 0 : _a.captionText) !== caption.text) {
+        figCaption == null ? void 0 : figCaption.remove();
+        await this.addFigCaption(figure, caption.text, "");
+      }
+    } else {
+      figCaption == null ? void 0 : figCaption.remove();
+    }
+  }
+  async addFigCaption(figure, captionText, sourcePath) {
+    var _a;
+    const figCaption = figure.createEl("figcaption", {
+      cls: "image-captions-caption",
+      attr: { "data-caption-text": captionText }
+    });
+    const children = (_a = await renderMarkdown(this, captionText, sourcePath)) != null ? _a : [captionText];
+    figCaption.replaceChildren(...children);
+  }
+  setFigureAlignment(figure, alignment) {
+    for (const keyword of alignmentKeywords) {
+      figure.classList.toggle("image-captions-" + keyword, keyword === alignment);
+    }
   }
   async loadSettings() {
     this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
@@ -162,16 +256,25 @@ var ImageCaptions = class extends import_obsidian2.Plugin {
     await this.saveData(this.settings);
   }
   onunload() {
-    this.observer.disconnect();
+    this.observers.forEach((observer) => {
+      observer.disconnect();
+    });
+    this.observers.clear();
   }
 };
-async function renderMarkdown(markdown, sourcePath, component) {
+async function renderMarkdown(plugin, markdown, sourcePath) {
   const el = createDiv();
-  await import_obsidian2.MarkdownRenderer.renderMarkdown(markdown, el, sourcePath, component);
-  for (const child of el.children) {
-    if (child.tagName.toLowerCase() === "p") {
-      return child.childNodes;
+  const component = new import_obsidian2.Component();
+  component.load();
+  try {
+    await import_obsidian2.MarkdownRenderer.render(plugin.app, markdown, el, sourcePath, component);
+    for (const child of el.children) {
+      if (child.tagName.toLowerCase() === "p") {
+        return child.childNodes;
+      }
     }
+  } finally {
+    component.unload();
   }
 }
 

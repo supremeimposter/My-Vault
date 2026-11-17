@@ -1,0 +1,29 @@
+name = "Meeting Notes"
+
+[title]
+template = "Meeting - {date}"
+
+[content]
+template = """
+# Meeting Notes
+
+**Date:** {date}
+**Time:** {time}
+
+## Attendees
+
+- 
+
+## Agenda
+
+1. 
+
+## Discussion
+
+## Action Items
+
+- [ ] 
+
+## Next Meeting
+
+"""
