@@ -103,6 +103,19 @@ tags:
 > - [ ] [Weekly Quiz 26 Solutions Part 1 - Regular Languages - Stanford Questions | Theory of Computation - YouTube](https://www.youtube.com/watch?v=wvsijTYqVq0)
 > - [ ] [Weekly Quiz 26 Solutions Part 2 - Regular Languages - Stanford Questions | Theory of Computation - YouTube](https://www.youtube.com/watch?v=1iEubMxkN8c)
 
+# TOC Compact Course Outline
+
+![[Theory of Computation-1795008655339.webp]]
+![[Theory of Computation-1795008674643.webp]]
+
+![[Theory of Computation-1795008712833.webp]]
+![[Theory of Computation-1795008730207.webp]]
+
+![[Theory of Computation-1795008742704.webp]]
+
+![[Theory of Computation-1795008761979.webp]]
+
+
 # References
 - [Theory of Computation | Automata Theory | GO Classes | GATE Overflow - YouTube](https://www.youtube.com/playlist?list=PLIPZ2_p3RNHhXeEdbXsi34ePvUjL8I-Q9)
 

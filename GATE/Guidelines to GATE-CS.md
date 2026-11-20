@@ -1158,6 +1158,8 @@ $$
 
 ![[Guidelines to GATE-CS-1794226385227.webp]]
 
+- When atleast cases go on for a larger number on the upper limit, consider subtraction rule (total - atmost cases)
+
 ![[Guidelines to GATE-CS-1794227627203.webp]]
 
 ![[Guidelines to GATE-CS-1794227643932.webp]]
@@ -1468,6 +1470,7 @@ In case of finite AGP, apply the $S-rS$ procedure.
 ![[Guidelines to GATE-CS-1794812163509.webp|Input symbols must be the same $\Sigma$]]
 
 - The same $M_{1} \times M_{2}$ can be used for all union, intersection, difference, symmetric difference of languages.
+- Product automata is commutative, since these are just languages are binary operands.
 
 ![[Guidelines to GATE-CS-1794815652892.webp|Transition in $M_1 \times M_2$]]
 
@@ -1496,6 +1499,36 @@ In case of finite AGP, apply the $S-rS$ procedure.
 
 ![[Guidelines to GATE-CS-1747328401728.webp]]
 
+![[Guidelines to GATE-CS-1795013358090.webp|NFA is not deterministic]]
+
+- In both NFA and DFA, only extended transition function can specify a string in its definition. But in NFA, null move can be specified on a transition, but that $\epsilon$ must not be confused with an empty string.
+
+![[Guidelines to GATE-CS-1795015211946.webp]]
+
+![[Guidelines to GATE-CS-1795015263072.webp|Lecture 41|355]]
+
+> [!important] Transition vs Extended Transition in NFA
+> $\delta(q, a)$ : Here $a$ is just a symbol and can make only one move. It cannot consider a null move for this transition, if a move on symbol $a$ from state $q$ is already defined. i.e. **JUST ONE MOVE**
+> $\delta^\ast(q, a)$ : Here $a \equiv \epsilon a \equiv a \epsilon \equiv \epsilon a \epsilon$ is a string and all the null transitions defined can be considered. i.e. **A SERIES OF MOVES BECAUSE OF EXTENDED TRANSITION**
+
+![[Guidelines to GATE-CS-1795076768493.webp]]
+
+![[Guidelines to GATE-CS-1795015237843.webp|700]]
+
+- In an NFA, $\delta(q, \epsilon)$ is defined only when there is a null transition defined for that state $q$, or else, it will be an empty set.
+
+![[Guidelines to GATE-CS-1795071885604.webp]]
+
+- $\delta(q_{0}, \epsilon) = {q_{1}}$ and $\delta(q_{3}, \epsilon) = \{  \} = \phi$
+
+![[Guidelines to GATE-CS-1795015317178.webp]]
+![[Guidelines to GATE-CS-1795053828336.webp]]
+
+![[Guidelines to GATE-CS-1795057259514.webp]]
+$$
+\text{Null-closure} (q) = \delta^\ast (q, \epsilon)
+$$
+![[Guidelines to GATE-CS-1795066616322.webp|$\epsilon$-closure of multiple states]]
 
 - Method to find out the extended transition for a string in an NFA. This method is also used for the subset construction algorithm. (for those null moves in the diagram, perform $\epsilon$-closure)
 
@@ -1505,16 +1538,26 @@ In case of finite AGP, apply the $S-rS$ procedure.
 
 ![[Guidelines to GATE-CS-1747503839151.webp]]
 
+- Only in the $\epsilon$-steps in the above method, there will be null-closure (multiple steps), but for symbol steps it will be an edge function (only one step).
+
+![[Guidelines to GATE-CS-1795149053930.webp]]
 
 - In NFA to DFA conversion problems, try to understand the language itself and create the minimal DFA. But if you cannot understand the langauge, then convert NFA to DFA using the algorithm and get the result.
 
-- Using subset construction algorithm, from an NFA we will get an equivalent DFA with at most $\le 2^n$ states, so the unique minimal DFA will be always less than $\le 2^n$ states. An equivalent DFA for an NFA of $n$ states can be of any number of finite states (probably constructed by some other algorithm or by adding many unreachable states).
+- Using subset construction algorithm, from an NFA we will get an equivalent DFA with at most $\le 2^n$ states, so the unique minimal DFA will be always $\le 2^n$ states. An equivalent DFA for an NFA of $n$ states can be of any number of finite states (probably constructed by some other algorithm or by adding many unreachable states).
 
-![[Guidelines to GATE-CS-1747569991636.webp]]
+![[Guidelines to GATE-CS-1795149226953.webp]]
+
+![[Guidelines to GATE-CS-1795150881945.webp]]
+
+![[Guidelines to GATE-CS-1795152270964.webp]]
+
+![[Guidelines to GATE-CS-1795153787521.webp]]
+![[Guidelines to GATE-CS-1795153876377.webp]]
 
 - When building the regex for an automata, ignore the dead states as those strings won't be there in the language.
 
-- variable power is not allowed in regular expression
+- variable power $(r^n)$ for regular expressions is not allowed.
 
 ![[Guidelines to GATE-CS-1747576337125.webp]]
 
@@ -1525,11 +1568,18 @@ In case of finite AGP, apply the $S-rS$ procedure.
 
 ![[Guidelines to GATE-CS-1749133238702.webp]]
 
-- there can be infinite number of regular expressions for a given regular language, but every regular expression expresses a unique regular language.
+- there can be infinite number of regular expressions (DFAs) for a given regular language, but every regular expression (DFAs) expresses a unique regular language.
 
 ![[Guidelines to GATE-CS-1756201479900.webp]]
 
 ![[Guidelines to GATE-CS-1756202673969.webp]]
+
+- Factors that can independently repeat can be put together in union and closure, but whereas the ones that cannot independently repeat cannot be put together in a union and closure.
+
+![[Error Journal for GATE CS-1795178501884.webp]]
+
+- $0$ and $10$ CANNOT repeat independently, since it might produce a string such as $10000$ containing $100$.
+- $1$ and $10$ CAN be repeated independently, since any of their sequence can produce $100$.
 
 ![[Guidelines to GATE-CS-1756203121519.webp]]
 
