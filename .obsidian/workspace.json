@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "193af301c95db8a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Error Journal for GATE CS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Error Journal for GATE CS"
+            }
+          },
+          {
             "id": "1200fff9e49ffa71",
             "type": "leaf",
             "state": {
@@ -281,22 +305,22 @@
   },
   "active": "7b788ce81cda6ddc",
   "lastOpenFiles": [
-    "attachments/Guidelines to GATE-CS-1794840952679.webp",
-    "attachments/Guidelines to GATE-CS-1794836100371.webp",
-    "attachments/Guidelines to GATE-CS-1794831567117.webp",
-    "attachments/Guidelines to GATE-CS-1794829479078.webp",
-    "attachments/Guidelines to GATE-CS-1794827702005.webp",
-    "attachments/Guidelines to GATE-CS-1794827691637.webp",
-    "attachments/Guidelines to GATE-CS-1794815652892.webp",
-    "attachments/Guidelines to GATE-CS-1794812163509.webp",
-    "attachments/Guidelines to GATE-CS-1794812026017.webp",
-    "attachments/Guidelines to GATE-CS-1794809922265.webp",
-    "attachments/Guidelines to GATE-CS-1794809071502.webp",
-    "GATE/TheoryOfComputation/Theory of Computation.md",
     "GATE/Pyqs/TOC PYQs.md",
+    "GATE/Guidelines to GATE-CS.md",
+    "GATE/TheoryOfComputation/Theory of Computation.md",
+    "GATE/Error Journal for GATE CS.md",
+    "attachments/Error Journal for GATE CS-1795178501884.webp",
+    "attachments/Guidelines to GATE-CS-1795153876377.webp",
+    "attachments/Guidelines to GATE-CS-1795153787521.webp",
+    "attachments/Guidelines to GATE-CS-1795152270964.webp",
+    "attachments/Guidelines to GATE-CS-1795150881945.webp",
+    "attachments/Guidelines to GATE-CS-1795149226953.webp",
+    "attachments/Guidelines to GATE-CS-1795149053930.webp",
+    "attachments/Guidelines to GATE-CS-1795076768493.webp",
+    "attachments/Guidelines to GATE-CS-1795071885604.webp",
+    "attachments/Guidelines to GATE-CS-1795071880987.webp",
     "GATE/TheoryOfComputation/Regular Languages and Finite Automata/Deterministic Finite Automata.md",
     "GATE/TheoryOfComputation/Turing Machines and Undecidability/Dovetailiing Technique.md",
-    "GATE/Guidelines to GATE-CS.md",
     "GATE/Pyqs/Combinatronics PYQs.md",
     "GATE/DiscreteMathematics/Combinatronics/Distributing Objects into Boxes.md",
     "GATE/DiscreteMathematics/Discrete Mathematics.md",
@@ -317,7 +341,6 @@
     "GATE/DiscreteMathematics/Propositional-Logic/Arguments and Inference.md",
     "GATE/Digital-Logic/Analysis/If two boolean expressions are known to be never 1 simultaneously.md",
     "GATE/Digital-Logic/Combinational Circuits/Carry Look Ahead Adder.md",
-    "GATE/Digital-Logic/Digital Logic.md",
     "GATE/Digital-Logic/Analysis",
     "GATE/Digital-Logic/Digital-Logic-Mindmap.canvas",
     "GATE/DatabaseManagementSystem/Database-Management-System-Mindmap.canvas",

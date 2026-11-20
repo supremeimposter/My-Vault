@@ -894,5 +894,8 @@
   "neoppuccin-theme-settings@@anp-speech-bubble": true,
   "neoppuccin-theme-settings@@neoppuccin-theme-light": "ctp-notion-light",
   "neoppuccin-theme-settings@@neoppuccin-light-theme-accents": "none",
-  "halftone@@hf-checkbox": "hf-checkbox-tick"
+  "halftone@@hf-checkbox": "hf-checkbox-tick",
+  "folio-and-rag@@folio-paper-stock": "folio-stock-vellum",
+  "folio-and-rag@@folio-accent-preset": "folio-accent-terracotta",
+  "folio-and-rag@@folio-font-pairing": "folio-font-system"
 }

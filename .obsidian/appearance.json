@@ -14,8 +14,8 @@
     "dimmed-completed-tasks",
     "soft-highlighter"
   ],
-  "cssTheme": "Sea Slug",
-  "theme": "obsidian",
+  "cssTheme": "Desert",
+  "theme": "moonstone",
   "showViewHeader": true,
   "baseFontSize": 21,
   "nativeMenus": false,
